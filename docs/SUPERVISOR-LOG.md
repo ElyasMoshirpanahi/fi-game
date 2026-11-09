@@ -80,3 +80,8 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Play-test Prompt 3 (ROLE 3): docs/playtests/prompt3.md. Two bugs found and fixed with tests: Milestone overlay repeating on UI re-renders; milestone and farePassed not persisted. Chrome screenshot capture failed when scrolled; DOM checks used instead.
 - Skipped: the "Done box" per Stage card in Station 2 (reason in the diary). Owner to decide.
 - Tests: 338 green. index.html 258 KB.
+
+## Step 7, Prompt 4: cinematic moments
+- Start: 2026-11-09
+- Produced: three camera moments as CSS keyframes on transform, opacity, filter and background only: cam-intro (first load, wide to close-up with transform-origin on the current node, 750 ms), cam-pullout plus cam-pop (Path after a Station is lit, 700 and 600 ms), cam-dolly plus cam-bg (Milestone overlay with the tools screen scaling and blurring behind, 750 ms). Reduced motion turns them all off (existing global rule).
+- Tests: test/cinematic.test.mjs checks durations under 800 ms, allowed properties only, and the reduced-motion rule. 341 green.
