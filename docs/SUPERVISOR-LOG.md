@@ -16,3 +16,10 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Executor decisions: digits per mode, storage key, fonts, disclaimer (see bottom of decisions file).
 - Tests: none yet.
 - Open questions: none.
+
+## Step 2: /domain-modeling the vocabulary
+- Start: 2026-11-09
+- Produced: GLOSSARY.md (18 game terms, 32 finance terms with Farsi and English forms), six ADRs in docs/adr/: single HTML, i18n object, one localStorage key, free navigation with Fare lighting, source HTML read-only, EN default with EN-led Both mode.
+- Term collisions resolved: Station (game stop) vs Knowledge Stage (source content), Ring (per Station) vs XP bar (global), Return (same-session) vs review (rejected word), Check vs quiz/question.
+- Tests: none yet.
+- Open questions: none. Research agent (Step 3) running in background.
