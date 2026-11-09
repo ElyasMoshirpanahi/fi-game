@@ -179,7 +179,154 @@ FI.content = (() => {
 </script>
 
 <script data-module="engine">
-FI.engine = {};
+// ---------------------------------------------------------------------------
+// engine: the whole loop behind two calls, initial() and reduce(). Pure.
+// No DOM, no Date, no Math.random. Content is a parameter. state.events lists
+// what happened in this reduce only; render and fx read it (ADR-0008).
+// Lifted from the logic prototype (docs/prototypes/logic-engine-verdict.md).
+// ---------------------------------------------------------------------------
+FI.engine = (() => {
+  const MODES = ['EN', 'FA', 'BOTH'];
+  const FARE_XP = 50;
+
+  const initial = () => ({
+    mode: 'EN', muted: false,
+    screen: 'path', stationId: null, phase: null,
+    queue: [], current: null, flipped: false, misses: 0, hint: false,
+    returns: [], fare: null, fareAttempt: 0,
+    coins: 0, awarded: {}, rings: {}, lit: {}, xp: 0,
+    events: [],
+  });
+
+  const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  const checksOf = (content, stationId) => content.station(stationId).items.filter((i) => i.kind === 'check');
+  const queueReturn = (s, cardId) => { if (!s.returns.includes(cardId)) s.returns.push(cardId); };
+
+  function advance(s, content) {
+    if (s.queue.length) {
+      const id = s.queue.shift();
+      const it = content.item(s.stationId, id);
+      s.current = id; s.flipped = false; s.misses = 0; s.hint = false;
+      s.phase = it.kind === 'card' ? 'card' : 'check';
+      return s;
+    }
+    if (s.returns.length) {
+      const cards = s.returns.slice();
+      s.returns = [];
+      const checks = checksOf(content, s.stationId);
+      s.queue = cards.flatMap((c) => [c, ...checks.filter((k) => k.source === c).map((k) => k.id)]);
+      s.events.push('return');
+      return advance(s, content);
+    }
+    return startFare(s, content);
+  }
+
+  function startFare(s, content) {
+    const pool = checksOf(content, s.stationId).map((k) => k.id);
+    const n = Math.min(content.station(s.stationId).fareSize, pool.length);
+    // Deterministic rotation: by n when the pool is bigger than the Fare, by 1 when it is not.
+    const start = (s.fareAttempt * (n < pool.length ? n : 1)) % pool.length;
+    const questions = Array.from({ length: n }, (_, i) => pool[(start + i) % pool.length]);
+    s.fareAttempt += 1;
+    s.fare = { questions, index: 0, missed: [], attempt: s.fareAttempt };
+    s.current = questions[0]; s.phase = 'fare'; s.misses = 0; s.hint = false; s.flipped = false;
+    s.events.push('fare');
+    return s;
+  }
+
+  function leave(s) {
+    s.screen = 'path'; s.stationId = null; s.phase = null; s.current = null;
+    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0;
+    return s;
+  }
+
+  function reduce(prev, action, content) {
+    const s = JSON.parse(JSON.stringify(prev));
+    s.events = [];
+    switch (action.type) {
+      case 'SET_MODE':
+        if (MODES.includes(action.value)) s.mode = action.value;
+        return s;
+      case 'TOGGLE_MUTE':
+        s.muted = !s.muted; return s;
+      case 'HYDRATE': {
+        const d = action.value || {};
+        for (const k of ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'xp']) if (d[k] !== undefined) s[k] = d[k];
+        if (!MODES.includes(s.mode)) s.mode = 'EN';
+        return s;
+      }
+      case 'OPEN_STATION': {
+        const st = content.station(action.value);
+        if (!st) return s;
+        leave(s);
+        s.screen = 'station'; s.stationId = st.id;
+        s.queue = st.items.map((i) => i.id);
+        return advance(s, content);
+      }
+      case 'BACK_TO_PATH':
+        return leave(s);
+      case 'FLIP':
+        if (s.phase === 'card') s.flipped = !s.flipped;
+        return s;
+      case 'RATE':
+        if (s.phase !== 'card') return s;
+        if (action.value === 'didnt') queueReturn(s, s.current);
+        return advance(s, content);
+      case 'ANSWER': {
+        if (s.phase !== 'check' && s.phase !== 'fare') return s;
+        const k = content.item(s.stationId, s.current);
+        const ok = same(action.value, k.answer);
+        if (s.phase === 'check') {
+          if (ok) {
+            if (!s.awarded[k.id]) {
+              s.awarded[k.id] = true; s.coins += 1;
+              s.rings[s.stationId] = (s.rings[s.stationId] || 0) + 1;
+              s.events.push('coin');
+            }
+            s.phase = 'correct'; s.events.push('correct');
+          } else {
+            s.misses += 1; s.events.push('wrong');
+            if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
+            else { s.phase = 'revealed'; queueReturn(s, k.source); s.events.push('revealed'); }
+          }
+          return s;
+        }
+        // Fare: no Hints, one attempt per question, result after the last one.
+        if (!ok) s.fare.missed.push(k.id);
+        s.events.push(ok ? 'correct' : 'wrong');
+        s.fare.index += 1;
+        if (s.fare.index < s.fare.questions.length) { s.current = s.fare.questions[s.fare.index]; return s; }
+        if (s.fare.missed.length === 0) {
+          s.phase = 'fare-passed'; s.events.push('fare-passed');
+          if (!s.lit[s.stationId]) { s.lit[s.stationId] = true; s.xp += FARE_XP; s.events.push('lit'); }
+        } else {
+          s.phase = 'fare-failed'; s.events.push('fare-failed');
+        }
+        return s;
+      }
+      case 'CONTINUE':
+        if (s.phase === 'correct' || s.phase === 'revealed') return advance(s, content);
+        if (s.phase === 'fare-failed') {
+          s.returns = [];
+          for (const id of s.fare.missed) queueReturn(s, content.item(s.stationId, id).source);
+          s.fare = null;
+          return advance(s, content);
+        }
+        if (s.phase === 'fare-passed') return leave(s);
+        return s;
+      case 'RESET': {
+        const fresh = initial();
+        fresh.mode = s.mode; fresh.muted = s.muted;
+        fresh.events = ['reset'];
+        return fresh;
+      }
+      default:
+        return s;
+    }
+  }
+
+  return { initial, reduce, MODES, FARE_XP };
+})();
 </script>
 
 <script data-module="store">
