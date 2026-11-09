@@ -70,3 +70,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Produced: Station 2 dead stretch split (Stage 2 and brokers Cards halved, three new Checks: ETFs named, Box 3 tax-free amount, Venture Deals), engine run position plus HYDRATE resume, store saves run, Flip is a real button, Lit result inline, coin bump and floating +1, ring eases in, feedback scrolls into view. RTL bug fixed in Step 8.
 - Test change: store.test "the run is not restored" assertion flipped to match decision 17; resume.test.mjs adds 4 tests. No failing test deleted.
 - Tests: 62 green.
+- Play-test Prompt 2 done (ROLE 3): docs/playtests/prompt2.md. Real clicks, GIF playtest-prompt2-en.gif in Downloads. Resume works, coin +1 float works, RTL fix holds in the page. Two carry-overs to Prompt 3: resume after a correct answer should skip the answered Check; split the 30% ruling Card. Four book-unit content agents running in the background for decision 18.
