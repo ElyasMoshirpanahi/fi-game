@@ -36,6 +36,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outlin
 .t-en { font-family: var(--en-font); direction: ltr; unicode-bidi: isolate; display: block; }
 .under { color: var(--muted); font-size: .92em; margin-top: 6px; }
 bdi { unicode-bidi: isolate; }
+bdi.nw { white-space: nowrap; }
 
 /* top bar */
 .top { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
@@ -526,7 +527,18 @@ FI.render = (() => {
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   // Farsi text with Latin runs isolated so VWCE, DCF, Box 3 keep their direction.
-  const faHtml = (s) => esc(s).replace(/[A-Za-z][A-Za-z0-9 .\/%'’&-]*[A-Za-z0-9%]|[A-Za-z]/g, (m) => `<bdi>${m}</bdi>`);
+  // One isolate per run, parentheses included, so a wrap never re-orders the pieces (see test/rtl.test.mjs).
+  // Runs of 24 characters or fewer also refuse to wrap; longer ones wrap inside the single isolate, which bidi orders correctly.
+  // Wrapping happens on the raw string and each piece is escaped on its own, so entities never become runs.
+  const RUN = /\(?[A-Za-z][A-Za-z0-9 .\/%'’&()-]*[A-Za-z0-9%)]|[A-Za-z]/g;
+  const faHtml = (s) => {
+    const str = String(s); let out = ''; let last = 0;
+    for (const m of str.matchAll(RUN)) {
+      out += esc(str.slice(last, m.index)) + `<bdi${m[0].length <= 24 ? ' class="nw"' : ''}>${esc(m[0])}</bdi>`;
+      last = m.index + m[0].length;
+    }
+    return out + esc(str.slice(last));
+  };
   const A = (action) => `data-action="${esc(JSON.stringify(action))}"`;
   const num = (n, mode) => FI.content.fmt(n, mode === 'FA' ? 'FA' : 'EN');
 
@@ -723,7 +735,7 @@ FI.render = (() => {
     });
   }
 
-  return { mount, render, handleUi };
+  return { mount, render, handleUi, faHtml };
 })();
 </script>
 

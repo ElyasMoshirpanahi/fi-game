@@ -57,3 +57,9 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Sliders for Station 1 deferred to Prompt 3 as the playbook's Step 7 list says.
 - Tests: 48 green.
 - Play-test Prompt 0 done (ROLE 3): docs/playtests/prompt0.md. 7 deliberate misses, all fair. One RTL bug (Latin runs with parentheses split in FA mode). Dead stretch in Station 2 Stage Cards. Storage key confirmed, clear-storage run OK, no console errors, 360 px no overflow, light and dark OK. GIF playtest-prompt0-en.gif in Downloads (4 frames; script-driven clicks are not recorded). Awaiting owner verdict.
+
+## Step 8: /diagnosing-bugs, RTL Latin runs (found in the Prompt 0 play-test)
+- Loop: in-page script measuring Range rects of "(VWCE", "IWDA)", "A Random", "(Malkiel)" in FA mode; red on the symptom (pieces on different lines, re-ordered). Deterministic, seconds.
+- Hypotheses: (1) parentheses outside the <bdi> and author in a separate isolate, so bidi re-orders the pieces at a wrap; (2) bdi not isolating; (3) font metrics. Probe confirmed (1): bdis were ["ETF","VWCE / IWDA",...,"A Random Walk Down Wall Street","Malkiel"], parentheses as neutrals outside.
+- Regression test at the render.faHtml seam (test/rtl.test.mjs, 4 tests), red first. Fix: one isolate per run including parentheses, short runs nowrap, escape per piece (the old code also wrapped the letters of HTML entities, caught by the test).
+- Loop after fix: VWCE run on one line in order; book run wraps but in logical order. Tests: 52 green.
