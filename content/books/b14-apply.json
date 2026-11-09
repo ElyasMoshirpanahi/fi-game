@@ -1,0 +1,47 @@
+{
+  "id": "b14",
+  "title": "One Up on Wall Street",
+  "author": {"en": "Peter Lynch with John Rothchild", "fa": "Peter Lynch with John Rothchild"},
+  "year": 1989,
+  "stage": 3,
+  "must": false,
+  "why": {"en": "Investing in what you yourself understand", "fa": "سرمایه‌گذاری با چیزهایی که خودت می‌فهمی"},
+  "badge": {"en": "Edge Plus Homework", "fa": "مزیت به‌علاوهٔ تحقیق"},
+  "items": [
+    {"kind": "card", "id": "b14a1", "source": "Part 1, the amateur's edge", "text": {
+      "en": "Your edge, in Lynch's sense, is seeing which developer tools and AI products your team actually pays for before Wall Street notices. Treat that as a lead for a satellite bet, not a substitute for homework.",
+      "fa": "مزیت تو به معنای Lynch این است که می‌بینی تیمت واقعاً برای کدام ابزارهای توسعه و محصولات AI پول می‌دهد، پیش از آنکه Wall Street متوجه شود. آن را سرنخی برای یک شرط ماهواره‌ای بدان، نه جایگزین تحقیق."
+    }},
+    {"kind": "card", "id": "b14a2", "source": "ch. 11, the two-minute drill", "text": {
+      "en": "Before you put any of the 20 percent satellite into a company, give the two-minute monologue: why you want it, what has to happen for it to succeed and what could go wrong. Write it in your decision journal.",
+      "fa": "پیش از آنکه چیزی از ۲۰ درصد ماهواره‌ای را روی یک شرکت بگذاری، تک‌گویی دو دقیقه‌ای را انجام بده: چرا می‌خواهی‌اش، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود. آن را در دفتر تصمیمت بنویس."
+    }},
+    {"kind": "check", "id": "b14ak1", "type": "tap", "source": "b14a1",
+      "prompt": {"en": "In Lynch's sense, what is your edge as a CTO?", "fa": "به معنای Lynch، مزیت تو به‌عنوان CTO چیست؟"},
+      "options": [
+        {"en": "Seeing which developer tools and AI products your team actually pays for", "fa": "دیدن اینکه تیمت واقعاً برای کدام ابزارهای توسعه و محصولات AI پول می‌دهد"},
+        {"en": "Reading analyst reports faster than others", "fa": "خواندن گزارش‌های تحلیلگران سریع‌تر از بقیه"},
+        {"en": "Timing the market with technical charts", "fa": "زمان‌بندی بازار با نمودارهای تکنیکال"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b14a3", "source": "ch. 9, avoid the hottest stock in the hottest industry", "text": {
+      "en": "The hottest AI stock in the hottest industry is exactly what Lynch avoids, and you will hear about it first because you work in that industry. Being early to the hype is not an edge.",
+      "fa": "داغ‌ترین سهم AI در داغ‌ترین صنعت دقیقاً همان چیزی است که Lynch از آن دوری می‌کند، و تو زودتر از همه درباره‌اش می‌شنوی چون در همان صنعت کار می‌کنی. زود رسیدن به هیاهو مزیت نیست."
+    }},
+    {"kind": "check", "id": "b14ak2", "type": "tf", "source": "b14a3",
+      "prompt": {"en": "By Lynch's rule, hearing about a hot AI stock early at work is a reliable edge.", "fa": "طبق قاعدهٔ Lynch، زود شنیدن دربارهٔ یک سهم داغ AI سر کار یک مزیت قابل‌اتکاست."},
+      "answer": false},
+    {"kind": "card", "id": "b14a4", "source": "ch. 17, cutting the flowers and watering the weeds", "text": {
+      "en": "If a satellite bet works, do not cut the flowers and water the weeds: selling a winner only because it grew, while keeping a loser out of hope, is Lynch's classic mistake. Rebalance by rule, not by regret.",
+      "fa": "اگر یک شرط ماهواره‌ای جواب داد، گل‌ها را نچین و به علف‌های هرز آب نده: فروختن برنده فقط چون رشد کرده، در حالی که بازنده را از سر امید نگه می‌داری، همان اشتباه کلاسیک Lynch است. طبق قاعده متوازن کن، نه از سر حسرت."
+    }},
+    {"kind": "check", "id": "b14ak3", "type": "tap", "source": "b14a2",
+      "prompt": {"en": "What goes into the two-minute monologue before a satellite bet?", "fa": "پیش از یک شرط ماهواره‌ای، چه چیزی در تک‌گویی دو دقیقه‌ای می‌آید؟"},
+      "options": [
+        {"en": "Why you want it, what has to happen for it to succeed and what could go wrong", "fa": "چرا می‌خواهی‌اش، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود"},
+        {"en": "The stock's price history and chart pattern", "fa": "تاریخچهٔ قیمت سهم و الگوی نمودارش"},
+        {"en": "What your colleagues think of the company", "fa": "نظر همکارانت دربارهٔ شرکت"}
+      ],
+      "answer": 0}
+  ]
+}

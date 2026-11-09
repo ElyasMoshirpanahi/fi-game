@@ -1,0 +1,47 @@
+{
+  "id": "b22",
+  "title": "Paul Graham Essays (free)",
+  "author": {"en": "Paul Graham", "fa": "Paul Graham"},
+  "year": 2001,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "paulgraham.com; read them all", "fa": "paulgraham.com؛ همه را بخوان"},
+  "badge": {"en": "First Users by Hand", "fa": "اولین کاربران با دست"},
+  "items": [
+    {"kind": "card", "id": "b22a1", "source": "Do Things That Don't Scale (2013)", "text": {
+      "en": "Recruit the first users of your AI product by hand: message ten people, onboard each one yourself, fix what they trip over. The first €100 comes from people you can name.",
+      "fa": "اولین کاربران محصول AI خود را با دست جذب کن: به ده نفر پیام بده، هر کدام را خودت راه بینداز، هر جا گیر کردند درستش کن. اولین ۱۰۰ یورو از آدم‌هایی می‌آید که اسمشان را می‌دانی."
+    }},
+    {"kind": "card", "id": "b22a2", "source": "How to Get Startup Ideas (2012)", "text": {
+      "en": "Do not brainstorm an AI product; notice a problem you have as a CTO and solve that. You live in the future already; build what is missing.",
+      "fa": "برای محصول AI طوفان فکری نکن؛ مشکلی را که خودت به‌عنوان CTO داری ببین و همان را حل کن. تو همین حالا در آینده زندگی می‌کنی؛ چیزی را بساز که کم است."
+    }},
+    {"kind": "check", "id": "b22ak1", "type": "tap", "source": "b22a1",
+      "prompt": {"en": "How does Graham say to get your first users?", "fa": "Graham می‌گوید اولین کاربرانت را چطور به دست بیاوری؟"},
+      "options": [
+        {"en": "By hand, onboard each one yourself", "fa": "با دست، هر کدام را خودت راه بینداز"},
+        {"en": "Through a paid ad campaign", "fa": "با یک کمپین تبلیغاتی پولی"},
+        {"en": "By waiting for a press launch", "fa": "با انتظار برای رونمایی مطبوعاتی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b22a3", "source": "Default Alive or Default Dead? (2015)", "text": {
+      "en": "Ask the default-alive question of your own finances: at current spending and income, does your capital move toward 25 times annual expenses? Answer it every three months in your net worth log.",
+      "fa": "سؤال default alive را از مالی خودت بپرس: با خرج و درآمد فعلی، سرمایه‌ات به سمت ۲۵ برابر خرج سالانه حرکت می‌کند؟ هر سه ماه در دفتر دارایی خالصت جوابش بده."
+    }},
+    {"kind": "check", "id": "b22ak2", "type": "tf", "source": "b22a3",
+      "prompt": {"en": "Graham's default-alive question applies only to companies, never to your own finances.", "fa": "سؤال default alive در Graham فقط برای شرکت‌هاست و هرگز به مالی خودت ربطی ندارد."},
+      "answer": false},
+    {"kind": "card", "id": "b22a4", "source": "Maker's Schedule, Manager's Schedule (2009)", "text": {
+      "en": "Protect maker time for the product: block half a day with no meetings, and keep the CTO's manager hours in a separate part of the week. One badly placed call can wreck the build session.",
+      "fa": "وقت سازندگی را برای محصول حفظ کن: نیم روز بدون هیچ جلسه‌ای بلوک کن و ساعت‌های مدیریتی CTO را در بخش جداگانه‌ای از هفته نگه دار. یک تماس بدجا می‌تواند کل جلسهٔ ساخت را خراب کند."
+    }},
+    {"kind": "check", "id": "b22ak3", "type": "tap", "source": "b22a4",
+      "prompt": {"en": "How much time should you block for maker work, per Graham?", "fa": "طبق Graham، چقدر وقت برای کار سازندگی بلوک کنی؟"},
+      "options": [
+        {"en": "One hour between meetings", "fa": "یک ساعت بین جلسه‌ها"},
+        {"en": "Half a day with no meetings", "fa": "نیم روز بدون هیچ جلسه‌ای"},
+        {"en": "Fifteen minutes each morning", "fa": "پانزده دقیقه هر صبح"}
+      ],
+      "answer": 1}
+  ]
+}

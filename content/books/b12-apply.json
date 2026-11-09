@@ -1,0 +1,47 @@
+{
+  "id": "b12",
+  "title": "Berkshire Hathaway Shareholder Letters (free)",
+  "author": {"en": "Warren Buffett", "fa": "Warren Buffett"},
+  "year": 1977,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "The best business lesson in the world, free", "fa": "بهترین درس کسب‌وکار دنیا، مجانی"},
+  "badge": {"en": "Own What You Understand", "fa": "مالک چیزی باش که می‌فهمی"},
+  "items": [
+    {"kind": "card", "id": "b12a1", "source": "1996 letter, circle of competence", "text": {
+      "en": "Your circle of competence is software and AI products, not biotech or shipping. Use it for the 20 percent satellite and for choosing which startup to join; the index core needs no circle at all.",
+      "fa": "دایرهٔ صلاحیت تو نرم‌افزار و محصولات AI است، نه بیوتک یا کشتیرانی. از آن برای ۲۰ درصد ماهواره‌ای و برای انتخاب استارتاپی که به آن می‌پیوندی استفاده کن؛ هستهٔ شاخصی اصلاً به دایره نیاز ندارد."
+    }},
+    {"kind": "card", "id": "b12a2", "source": "1986 letter, owner earnings", "text": {
+      "en": "Judge your own product by owner earnings: the cash it brings in, minus the hosting, API and tool spend needed just to keep it competitive. The first €100 of ownership income counts only after that.",
+      "fa": "محصول خودت را با سود مالکانه بسنج: نقدی که می‌آورد، منهای هزینهٔ هاستینگ، API و ابزارهایی که فقط برای رقابتی ماندنش لازم است. اولین ۱۰۰ یوروی درآمد مالکیتی فقط بعد از آن حساب می‌شود."
+    }},
+    {"kind": "check", "id": "b12ak1", "type": "tap", "source": "b12a1",
+      "prompt": {"en": "Where does Buffett's circle of competence apply in your plan?", "fa": "دایرهٔ صلاحیت Buffett در برنامهٔ تو کجا به کار می‌آید؟"},
+      "options": [
+        {"en": "The 20 percent satellite and choosing which startup to join", "fa": "۲۰ درصد ماهواره‌ای و انتخاب استارتاپی که به آن می‌پیوندی"},
+        {"en": "The 80 percent index core only", "fa": "فقط هستهٔ شاخصی ۸۰ درصدی"},
+        {"en": "Nowhere, index investing replaces it", "fa": "هیچ‌جا، سرمایه‌گذاری شاخصی جایش را می‌گیرد"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b12a3", "source": "1977 letter, acquisition criteria", "text": {
+      "en": "Before you join a startup for equity, run Buffett's four tests on it: a business you understand, favorable long-term prospects, honest and able people, and an attractive price for your time and shares.",
+      "fa": "پیش از پیوستن به یک استارتاپ برای سهام، چهار آزمون Buffett را رویش اجرا کن: کسب‌وکاری که می‌فهمی، چشم‌انداز بلندمدت مطلوب، آدم‌های درستکار و توانا، و قیمتی جذاب در برابر وقت و سهم تو."
+    }},
+    {"kind": "check", "id": "b12ak2", "type": "tf", "source": "b12a2",
+      "prompt": {"en": "By owner earnings, the first €100 counts before hosting and API spend are subtracted.", "fa": "طبق سود مالکانه، اولین ۱۰۰ یورو پیش از کم کردن هزینهٔ هاستینگ و API حساب می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b12a4", "source": "2007 letter, moats", "text": {
+      "en": "Ask what moat your small AI product has: a thin wrapper over someone else's API is a castle without one, and Buffett says capitalism keeps attacking those. Build the part that is hard to copy.",
+      "fa": "بپرس محصول کوچک AI تو چه خندقی دارد: یک پوستهٔ نازک روی API دیگران قلعه‌ای بدون خندق است، و Buffett می‌گوید سرمایه‌داری مدام به چنین قلعه‌هایی حمله می‌کند. آن بخشی را بساز که کپی کردنش سخت است."
+    }},
+    {"kind": "check", "id": "b12ak3", "type": "tap", "source": "b12a3",
+      "prompt": {"en": "Which of Buffett's four tests is missing: a business you understand, favorable long-term prospects, an attractive price, and ...?", "fa": "کدام آزمون Buffett جا افتاده: کسب‌وکاری که می‌فهمی، چشم‌انداز بلندمدت مطلوب، قیمت جذاب، و ...؟"},
+      "options": [
+        {"en": "Honest and able people", "fa": "آدم‌های درستکار و توانا"},
+        {"en": "A famous investor on the cap table", "fa": "یک سرمایه‌گذار معروف در cap table"},
+        {"en": "A plan to go public within two years", "fa": "برنامه‌ای برای عرضهٔ عمومی تا دو سال دیگر"}
+      ],
+      "answer": 0}
+  ]
+}

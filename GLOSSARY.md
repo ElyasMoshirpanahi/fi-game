@@ -5,12 +5,20 @@ A single-page, dual-language (Farsi and English) learning game built from one Fa
 ## Game language
 
 **Path**:
-The vertical sequence of six Stations shown on the home screen. Any Station can be opened from the Path at any time.
+The home screen: a vertical list of Sections, each a run of Units. Any Unit can be opened from the Path at any time.
 _Avoid_: map, journey, course, tree
+
+**Section**:
+A group of Units on the Path with a header, a progress count and a picker entry. Section 1 is Basics (the six Stations); every book is its own Section of three Units. A complete book Section pays the book's Badge and 30 XP.
+_Avoid_: chapter, level, module, world
+
+**Unit**:
+One stop on the Path: a run of Cards, Checks and a Fare. The six Stations are the Units of Basics; a book Section has Units "Key ideas, part 1", "Key ideas, part 2" and "Put it to work". A Unit Fare pays 20 XP (Basics Stations 50).
+_Avoid_: lesson, node, step
 
 **Station**:
 One of the six stops on the Path, each built from one section of the source roadmap: Reality Check, Knowledge Roadmap, What NOT to Learn, Getting Better, Next 6 Months, Library. A Station holds Cards, Checks and one Fare.
-_Avoid_: level, lesson, unit, chapter, module, section (reserved for the source HTML)
+_Avoid_: level, lesson, chapter, module ("section" of the source HTML is written out as "source section")
 
 **Lit Station**:
 A Station whose Fare has been passed. A Lit Station shows its Badge and theme colour on the Path and counts toward XP.
@@ -37,7 +45,7 @@ A Card re-entering the queue later in the same session because of a "didn't know
 _Avoid_: review, repeat, spaced repetition
 
 **Fare**:
-The three-question recap that closes a Station, drawn only from that Station's Cards. Passing all three turns the Station into a Lit Station. Failing any shows the missed Cards again and draws a fresh Fare.
+The recap of up to three questions that closes a Unit, drawn only from that Unit's Checks. Passing all of them lights the Unit. Failing any shows the missed Cards again and draws a fresh Fare.
 _Avoid_: final, boss, exam, recap quiz
 
 **Coin**:
@@ -65,11 +73,11 @@ One of the two persisted to-do lists in the Next 6 Months Station: Before the Ne
 _Avoid_: tasks, todo
 
 **Shelf**:
-The Library Station's view of all 28 books, each with a reading state: To-read, Reading, Read. Each book opens its Book Unit from the Shelf.
+The Library Station's index of all 28 books, each with a reading state: To-read, Reading, Read. Each book jumps to its Section on the Path.
 _Avoid_: bookshelf, list, grid
 
 **Book Unit**:
-A Station that is not on the Path: one book's essentials in 4 to 6 Cards, 3 to 4 Checks and a Fare, opened from the Shelf. Passing its Fare lights it, awards its Badge and 20 XP (owner decisions 18 and 20). "Unit" alone stays banned; the two-word term is the name.
+A Unit inside a book Section (decision 23). Units 1 and 2 split the book's essentials; Unit 3 applies them to the player's situation. Passing a Unit's Fare lights it and pays 20 XP; the Badge belongs to the Section.
 _Avoid_: lesson, chapter, book station
 
 **Tools**:

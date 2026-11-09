@@ -1,0 +1,82 @@
+{
+  "id": "b28",
+  "title": "So Good They Can't Ignore You",
+  "author": {"en": "Cal Newport", "fa": "Cal Newport"},
+  "year": 2012,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "Rare skill beats passion", "fa": "مهارت کمیاب > اشتیاق"},
+  "badge": {"en": "Capital Before Control", "fa": "سرمایه پیش از کنترل"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b28a1",
+      "source": "Rule 2, career capital and the craftsman mindset",
+      "text": {
+        "en": "Your CTO skills are career capital in Newport's sense: rare and valuable. The craftsman mindset asks what the Dutch market needs from you, not whether the move feels like your passion.",
+        "fa": "مهارت‌های CTO تو به معنای Newport سرمایهٔ شغلی‌اند: کمیاب و ارزشمند. ذهنیت صنعتگر می‌پرسد بازار هلند از تو چه می‌خواهد، نه اینکه آیا این مهاجرت حس اشتیاق می‌دهد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28ak1",
+      "type": "tap",
+      "source": "b28a1",
+      "prompt": {"en": "What does the craftsman mindset ask about the move?", "fa": "ذهنیت صنعتگر دربارهٔ مهاجرت چه می‌پرسد؟"},
+      "options": [
+        {"en": "What the Dutch market needs from you", "fa": "بازار هلند از تو چه می‌خواهد"},
+        {"en": "Whether the move feels like your passion", "fa": "آیا مهاجرت حس اشتیاق می‌دهد"},
+        {"en": "How soon you can get a promotion", "fa": "چقدر زود می‌توانی ترفیع بگیری"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b28a2",
+      "source": "Rule 2 to Rule 3, trading capital for control; the first control trap",
+      "text": {
+        "en": "Trade capital for control step by step: the small AI product is a bid for control that your skills can already fund. Quitting the job before it earns anything is the first control trap.",
+        "fa": "سرمایه را قدم‌به‌قدم با کنترل معاوضه کن: محصول کوچک AI تلاشی برای کنترل است که مهارت‌هایت از همین حالا می‌توانند تأمینش کنند. ترک شغل پیش از آنکه چیزی درآورد، تلهٔ اول کنترل است."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28ak2",
+      "type": "tf",
+      "source": "b28a2",
+      "prompt": {"en": "Quitting the job before the product earns anything is a safe bid for control.", "fa": "ترک شغل پیش از آنکه محصول چیزی درآورد، تلاشی امن برای کنترل است."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b28a3",
+      "source": "Rule 3, the law of financial viability",
+      "text": {
+        "en": "The law of financial viability is your €100 test: pursue more control only when people pay for the product. Until then the job and index investing stay the base.",
+        "fa": "قانون پایداری مالی همان آزمون ۱۰۰ یورویی توست: فقط وقتی دنبال کنترل بیشتر برو که مردم برای محصول پول بدهند. تا آن زمان، شغل و سرمایه‌گذاری شاخصی پایه می‌مانند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28ak3",
+      "type": "tap",
+      "source": "b28a3",
+      "prompt": {"en": "When does the law of financial viability let you pursue more control?", "fa": "قانون پایداری مالی کی اجازه می‌دهد دنبال کنترل بیشتر بروی؟"},
+      "options": [
+        {"en": "Only when people pay for the product", "fa": "فقط وقتی مردم برای محصول پول بدهند"},
+        {"en": "As soon as the product ships", "fa": "به محض انتشار محصول"},
+        {"en": "When your savings reach €40k", "fa": "وقتی پس‌اندازت به ۴۰ هزار یورو برسد"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b28a4",
+      "source": "Rule 4, the adjacent possible and little bets; Rule 2, deliberate practice",
+      "text": {
+        "en": "Find the mission in the adjacent possible of what you already do: AI tooling at the edge of your own engineering. Explore it with little bets, and treat the reading hour as deliberate practice.",
+        "fa": "مأموریت را در «مجاورِ ممکنِ» کاری که همین حالا می‌کنی پیدا کن: ابزارهای AI در لبهٔ مهندسی خودت. آن را با شرط‌های کوچک بکاو و ساعت مطالعه را تمرین عامدانه بدان."
+      }
+    }
+  ]
+}

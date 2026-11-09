@@ -1,0 +1,47 @@
+{
+  "id": "b21",
+  "title": "Angel",
+  "author": {"en": "Jason Calacanis", "fa": "Jason Calacanis"},
+  "year": 2017,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "A practical guide to angel investing", "fa": "راهنمای عملی angel investing"},
+  "badge": {"en": "Checks You Can Lose", "fa": "چک‌هایی که می‌توانی از دست بدهی"},
+  "items": [
+    {"kind": "card", "id": "b21a1", "source": "Angel, on checks you can afford to lose and the 30-startup spread", "text": {
+      "en": "With about €40k of capital, angel checks belong only in the 20 percent satellite, and only money you can afford to lose. Calacanis's 30-startup spread is far beyond that; know this before your first check.",
+      "fa": "با حدود ۴۰ هزار یورو سرمایه، چک‌های فرشته فقط در ۲۰ درصد satellite جا دارند، و فقط با پولی که از دست رفتنش را تاب می‌آوری. پخش ۳۰ استارتاپی Calacanis خیلی فراتر از این است؛ پیش از اولین چک این را بدان."
+    }},
+    {"kind": "card", "id": "b21a2", "source": "Angel, on starting with syndicates", "text": {
+      "en": "If you want to learn the angel game, start the way the book describes: a syndicate with small checks, around ten deals, before leading anything. Treat it as tuition, not as your path to 25x.",
+      "fa": "اگر می‌خواهی بازی فرشته را یاد بگیری، همان‌طور که کتاب می‌گوید شروع کن: یک syndicate با چک‌های کوچک، حدود ده معامله، پیش از رهبری هر چیزی. آن را شهریه بدان، نه مسیر رسیدن به ۲۵ برابر."
+    }},
+    {"kind": "check", "id": "b21ak1", "type": "tap", "source": "b21a1",
+      "prompt": {"en": "Where do angel checks belong in your portfolio, following the book?", "fa": "طبق کتاب، چک‌های فرشته در پرتفوی تو کجا جا دارند؟"},
+      "options": [
+        {"en": "In the 80 percent index core", "fa": "در هستهٔ ۸۰ درصدی شاخصی"},
+        {"en": "Only in the 20 percent satellite, with money you can afford to lose", "fa": "فقط در ۲۰ درصد satellite، با پولی که از دست رفتنش را تاب می‌آوری"},
+        {"en": "In a separate emergency fund", "fa": "در یک صندوق اضطراری جداگانه"}
+      ],
+      "answer": 1},
+    {"kind": "card", "id": "b21a3", "source": "Angel, on founder meetings: why now, unfair advantage", "text": {
+      "en": "When you ask a founder why now and what is your unfair advantage, turn the questions on your own AI product too. If you cannot answer them for yourself, an angel will not either.",
+      "fa": "وقتی از بنیان‌گذار می‌پرسی چرا حالا و مزیت ناعادلانه‌ات چیست، همین سؤال‌ها را روی محصول AI خودت هم برگردان. اگر نمی‌توانی برای خودت جوابشان بدهی، فرشته هم نمی‌تواند."
+    }},
+    {"kind": "check", "id": "b21ak2", "type": "tf", "source": "b21a2",
+      "prompt": {"en": "Calacanis's path says to lead your own deals first, then join a syndicate.", "fa": "مسیر Calacanis می‌گوید اول خودت معامله‌ها را رهبری کن، بعد به syndicate بپیوند."},
+      "answer": false},
+    {"kind": "card", "id": "b21a4", "source": "Angel, on deal memos", "text": {
+      "en": "Write a deal memo before any bet, in the satellite or a startup: why, what must go right, what could kill it. It is the same decision journal your roadmap asks you to re-read six months later.",
+      "fa": "پیش از هر شرط، چه در satellite و چه در یک استارتاپ، یک deal memo بنویس: چرا، چه چیزی باید درست پیش برود، چه چیزی می‌تواند نابودش کند. همان دفتر تصمیمی است که نقشهٔ راهت می‌خواهد شش ماه بعد دوباره بخوانی."
+    }},
+    {"kind": "check", "id": "b21ak3", "type": "tap", "source": "b21a4",
+      "prompt": {"en": "What goes into a deal memo?", "fa": "در deal memo چه می‌نویسی؟"},
+      "options": [
+        {"en": "Why, what must go right, what could kill it", "fa": "چرا، چه چیزی باید درست پیش برود، چه چیزی می‌تواند نابودش کند"},
+        {"en": "The founder's salary and office address", "fa": "حقوق بنیان‌گذار و نشانی دفتر"},
+        {"en": "A list of competitors' prices", "fa": "فهرست قیمت‌های رقبا"}
+      ],
+      "answer": 0}
+  ]
+}

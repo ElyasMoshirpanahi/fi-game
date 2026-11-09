@@ -1,0 +1,47 @@
+{
+  "id": "b17",
+  "title": "The Almanack of Naval Ravikant (free)",
+  "author": {"en": "Eric Jorgenson", "fa": "Eric Jorgenson"},
+  "year": 2020,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Exactly the philosophy of wealth without a boss", "fa": "دقیقاً فلسفه «ثروت بدون رئیس»"},
+  "badge": {"en": "Code Is Your Leverage", "fa": "کد اهرم توست"},
+  "items": [
+    {"kind": "card", "id": "b17a1", "source": "Part I, Building Wealth: own equity, don't rent out your time", "text": {
+      "en": "Your roadmap says wealth is built by ownership. In Naval's words that means equity: a written share of a startup or a product you own, not a higher salary for your hours.",
+      "fa": "نقشهٔ راهت می‌گوید ثروت با مالکیت ساخته می‌شود. به زبان Naval یعنی equity: سهمی مکتوب از یک استارتاپ یا محصولی که مال توست، نه حقوق بالاتر برای ساعت‌هایت."
+    }},
+    {"kind": "card", "id": "b17a2", "source": "Part I, Building Wealth: permissionless leverage, code and media", "text": {
+      "en": "As an engineer you already hold Naval's permissionless leverage: code. A small AI product that runs while you sleep is code leverage; nobody has to approve it, and it can earn your first €100.",
+      "fa": "به‌عنوان مهندس، اهرم بدون اجازهٔ Naval را همین حالا داری: کد. یک محصول کوچک AI که وقتی خوابی کار می‌کند، اهرم کد است؛ کسی لازم نیست تأییدش کند، و می‌تواند اولین ۱۰۰ یورویت را بسازد."
+    }},
+    {"kind": "check", "id": "b17ak1", "type": "tap", "source": "b17a2",
+      "prompt": {"en": "Which form of leverage does Naval call permissionless, and which do you already hold?", "fa": "Naval کدام شکل اهرم را «بدون اجازه» می‌نامد که تو همین حالا داری؟"},
+      "options": [
+        {"en": "Code; nobody has to approve it", "fa": "کد؛ کسی لازم نیست تأییدش کند"},
+        {"en": "Capital; a bank loan", "fa": "سرمایه؛ یک وام بانکی"},
+        {"en": "Labor; hiring a team", "fa": "نیروی کار؛ استخدام یک تیم"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b17a3", "source": "Part I, Building Wealth: specific knowledge from genuine curiosity", "text": {
+      "en": "Pick the product from your genuine curiosity, not from what is hot this month. Specific knowledge feels like play to you, so you keep going when the first version earns nothing.",
+      "fa": "محصول را از کنجکاوی واقعی‌ات انتخاب کن، نه از چیزی که این ماه داغ است. دانش خاص برای تو مثل بازی است، پس وقتی نسخهٔ اول هیچ درآمدی ندارد، باز ادامه می‌دهی."
+    }},
+    {"kind": "check", "id": "b17ak2", "type": "tf", "source": "b17a1",
+      "prompt": {"en": "Naval's idea of ownership is satisfied by a higher salary for your hours.", "fa": "ایدهٔ مالکیت Naval با حقوق بالاتر برای ساعت‌هایت برآورده می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b17a4", "source": "Part I, Building Wealth: play long-term games, compound interest", "text": {
+      "en": "Play long-term games: your 80 percent index core and two books a month both compound. Naval's point is that returns, in money and in people, come from staying in the game.",
+      "fa": "بازی بلندمدت بکن: هستهٔ ۸۰ درصدی شاخصی‌ات و دو کتاب در ماه، هر دو مرکب می‌شوند. حرف Naval این است که بازده، چه در پول و چه در آدم‌ها، از ماندن در بازی می‌آید."
+    }},
+    {"kind": "check", "id": "b17ak3", "type": "tap", "source": "b17a3",
+      "prompt": {"en": "How does Naval say to choose what to build?", "fa": "Naval می‌گوید چطور انتخاب کنی چه بسازی؟"},
+      "options": [
+        {"en": "From what is hot this month", "fa": "از چیزی که این ماه داغ است"},
+        {"en": "From your genuine curiosity", "fa": "از کنجکاوی واقعی‌ات"},
+        {"en": "From what investors ask for", "fa": "از چیزی که سرمایه‌گذاران می‌خواهند"}
+      ],
+      "answer": 1}
+  ]
+}

@@ -21,7 +21,7 @@ describe('Source coverage', () => {
   });
 
   it('every book title, author surname and Farsi "why" line from the source appears in a Book Unit', () => {
-    const books = content.stations.filter((b) => b.book);
+    const books = content.sections.filter((b) => b.kind === 'book');
     expect(books).toHaveLength(28);
     for (const r of rows) {
       const coreTitle = r.title.replace(/\s*\(.*?\)\s*/g, ' ').trim();
@@ -41,7 +41,7 @@ describe('Source coverage', () => {
     const ol = src.slice(at, src.indexOf('</ol>', at));
     const titles = [...ol.matchAll(/<span class="ltr">(.*?)<\/span>/g)].map((m) => decode(m[1]));
     expect(titles).toHaveLength(10);
-    const ours = content.readingOrder.map((id) => content.station(id).title.replace(/\s*\(.*?\)\s*/g, ' ').trim());
+    const ours = content.readingOrder.map((id) => content.sectionOf(id).title.replace(/\s*\(.*?\)\s*/g, ' ').trim());
     titles.forEach((t, i) => expect(ours[i].toLowerCase(), `reading order ${i + 1}`).toBe(t.replace(/\s*\(.*?\)\s*/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase()));
   });
 

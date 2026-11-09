@@ -11,3 +11,7 @@ Three structurally different looks were prototyped on real Station 1 and 2 conte
 - The Ring is a real circle around the node, matching the glossary.
 - Coins and XP live in a sticky top bar with the Language Mode toggle.
 - The Brilliant-style embedded interactive from B is still allowed inside a Card screen (Station 1 sliders), it just does not define the layout.
+
+## Amendment 2026-11-10 (decision 29)
+
+The Path is now a list of Sections (ADR-0009). Each Section keeps the zigzag of round nodes inside it; finished Sections collapse to a one-line header, the open Section's header is a book banner (cover mark, title, author, year, the source's "why" line, unit count, badge when complete), and a fixed "Jump to section" button opens a bottom sheet listing all Sections. Chosen over a tabbed one-section-at-a-time view to keep the single road feel.

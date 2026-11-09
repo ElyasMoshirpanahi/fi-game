@@ -1,0 +1,47 @@
+{
+  "id": "b13",
+  "title": "The Intelligent Investor (chapters 8 and 20)",
+  "author": {"en": "Benjamin Graham", "fa": "Benjamin Graham"},
+  "year": 1949,
+  "stage": 3,
+  "must": false,
+  "why": {"en": "Mr. Market and the margin of safety", "fa": "Mr. Market و حاشیه امنیت"},
+  "badge": {"en": "Safety in Price", "fa": "امنیت در قیمت"},
+  "items": [
+    {"kind": "card", "id": "b13a1", "source": "ch. 8, meet price swings with pricing, not timing", "text": {
+      "en": "When your index ETFs fall 30 percent in a bad year, Graham's advice is pricing, not timing: a lower price for the same worldwide businesses is an opportunity, never an order to sell.",
+      "fa": "وقتی ETFهای شاخصی تو در یک سال بد ۳۰ درصد می‌ریزند، توصیهٔ Graham قیمت‌گذاری است، نه زمان‌بندی: قیمت پایین‌تر برای همان کسب‌وکارهای سراسر دنیا یک فرصت است، هرگز دستور فروش نیست."
+    }},
+    {"kind": "card", "id": "b13a2", "source": "ch. 20, margin of safety against errors and bad luck", "text": {
+      "en": "Apply margin of safety to the 25 times target: if your estimate of annual expenses in the Netherlands is a guess, pad it, because a margin protects you from errors, bad luck and a changing world.",
+      "fa": "حاشیهٔ امنیت را روی هدف ۲۵ برابر پیاده کن: اگر برآوردت از هزینهٔ سالانه در هلند یک حدس است، به آن حاشیه اضافه کن، چون حاشیه از خطا، بدشانسی و تغییر دنیا محافظتت می‌کند."
+    }},
+    {"kind": "check", "id": "b13ak1", "type": "tap", "source": "b13a1",
+      "prompt": {"en": "How does Graham tell you to treat a 30 percent fall in your index ETFs?", "fa": "Graham می‌گوید با ریزش ۳۰ درصدی ETFهای شاخصی‌ات چطور برخورد کنی؟"},
+      "options": [
+        {"en": "As pricing, not timing: an opportunity, never an order to sell", "fa": "به‌عنوان قیمت‌گذاری، نه زمان‌بندی: یک فرصت، هرگز دستور فروش"},
+        {"en": "As a signal to sell and wait for the bottom", "fa": "به‌عنوان علامتی برای فروش و انتظار تا کف"},
+        {"en": "As proof that index investing has failed", "fa": "به‌عنوان اثبات شکست سرمایه‌گذاری شاخصی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b13a3", "source": "ch. 20, price paid and diversification", "text": {
+      "en": "A fine startup bought too dear has no margin of safety, and that includes equity you accept instead of salary. Spread your bets, because a margin protects on average, not on every single pick.",
+      "fa": "استارتاپ خوبی که خیلی گران خریده شود هیچ حاشیهٔ امنیتی ندارد، و این شامل سهامی که به‌جای حقوق می‌پذیری هم می‌شود. شرط‌هایت را پخش کن، چون حاشیه به‌طور میانگین محافظت می‌کند، نه در تک‌تک انتخاب‌ها."
+    }},
+    {"kind": "check", "id": "b13ak2", "type": "tf", "source": "b13a2",
+      "prompt": {"en": "Graham's margin of safety means padding a guessed expense estimate rather than trusting it exactly.", "fa": "حاشیهٔ امنیت Graham یعنی به برآورد حدسی هزینه‌ها حاشیه اضافه کنی، نه اینکه دقیقاً به آن اعتماد کنی."},
+      "answer": true},
+    {"kind": "card", "id": "b13a4", "source": "ch. 20, investment versus speculation", "text": {
+      "en": "Label each 20 percent satellite bet honestly: thorough analysis, safety of principal and an adequate return make it an investment; anything else is speculation and deserves a smaller size.",
+      "fa": "هر شرط در ۲۰ درصد ماهواره‌ای را صادقانه برچسب بزن: تحلیل کامل، حفظ اصل سرمایه و بازده کافی آن را سرمایه‌گذاری می‌کند؛ هر چیز دیگری سفته‌بازی است و اندازهٔ کوچک‌تری می‌طلبد."
+    }},
+    {"kind": "check", "id": "b13ak3", "type": "tap", "source": "b13a4",
+      "prompt": {"en": "In Graham's terms, what makes a satellite bet an investment rather than speculation?", "fa": "به زبان Graham، چه چیزی یک شرط ماهواره‌ای را سرمایه‌گذاری می‌کند نه سفته‌بازی؟"},
+      "options": [
+        {"en": "Thorough analysis, safety of principal and an adequate return", "fa": "تحلیل کامل، حفظ اصل سرمایه و بازده کافی"},
+        {"en": "A high expected return on its own", "fa": "صرفاً بازده مورد انتظار بالا"},
+        {"en": "A famous founder behind it", "fa": "یک بنیان‌گذار معروف پشت آن"}
+      ],
+      "answer": 0}
+  ]
+}

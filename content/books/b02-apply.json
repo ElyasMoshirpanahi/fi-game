@@ -1,0 +1,47 @@
+{
+  "id": "b02",
+  "title": "The Simple Path to Wealth",
+  "author": {"en": "JL Collins", "fa": "JL Collins"},
+  "year": 2016,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "The whole index strategy in one simple book", "fa": "کل استراتژی شاخصی در یک کتاب ساده"},
+  "badge": {"en": "Surplus, automated", "fa": "مازاد، خودکار"},
+  "items": [
+    {"kind": "card", "id": "b02a1", "source": "Introduction, The Simple Path", "text": {
+      "en": "Spend less than you earn, invest the surplus, avoid debt: in the Netherlands that becomes a monthly transfer from salary to the broker. Set the amount before the first paycheck arrives.",
+      "fa": "کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن، از بدهی دوری کن: در هلند این یعنی یک انتقال ماهانه از حقوق به کارگزار. مبلغش را پیش از رسیدن اولین حقوق تعیین کن."
+    }},
+    {"kind": "card", "id": "b02a2", "source": "ch. Why you need F-You Money", "text": {
+      "en": "F-You Money for a CTO is the runway to leave a bad role or build your own product. Count how many months your €40k covers before you treat any of it as a bet.",
+      "fa": "F-You Money برای یک CTO همان ذخیره‌ای است که بگذارد نقش بد را ترک کند یا محصول خودش را بسازد. پیش از آنکه بخشی از ۴۰ هزار یورویت را شرط‌بندی حساب کنی، بشمار چند ماه را پوشش می‌دهد."
+    }},
+    {"kind": "check", "id": "b02ak1", "type": "tap", "source": "b02a1",
+      "prompt": {"en": "In the Netherlands, what does Collins' simple path turn into?", "fa": "در هلند مسیر سادهٔ Collins به چه چیزی تبدیل می‌شود؟"},
+      "options": [
+        {"en": "A monthly transfer from salary to the broker", "fa": "یک انتقال ماهانه از حقوق به کارگزار"},
+        {"en": "A yearly stock-picking session", "fa": "یک جلسهٔ سالانهٔ انتخاب سهم"},
+        {"en": "A loan to invest faster", "fa": "وامی برای سرمایه‌گذاری سریع‌تر"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b02a3", "source": "ch. Keep it simple: considerations and tools (VTSAX)", "text": {
+      "en": "Collins holds one total market index fund; the European form is one all-world ETF such as VWCE or IWDA. The roadmap puts 80 percent of your core there, not in stock picks.",
+      "fa": "Collins یک صندوق شاخصی کل بازار دارد؛ شکل اروپایی‌اش یک ETF تمام‌جهانی مثل VWCE یا IWDA است. نقشهٔ راه ۸۰ درصد هسته‌ات را آنجا می‌گذارد، نه در انتخاب سهم."
+    }},
+    {"kind": "check", "id": "b02ak2", "type": "tf", "source": "b02a2",
+      "prompt": {"en": "Collins' F-You Money is only for full retirement, not for leaving a bad role.", "fa": "F-You Money از نظر Collins فقط برای بازنشستگی کامل است، نه برای ترک یک نقش بد."},
+      "answer": false},
+    {"kind": "card", "id": "b02a4", "source": "ch. The market always goes up; never sell in a panic", "text": {
+      "en": "Collins' rule for the next crash: never sell in a panic. Write it into your decision journal now, while the market is calm, and reread it the day your ETF drops 30 percent.",
+      "fa": "قاعدهٔ Collins برای سقوط بعدی: هرگز با وحشت نفروش. همین حالا که بازار آرام است آن را در دفتر تصمیمت بنویس و روزی که ETF تو ۳۰ درصد می‌ریزد دوباره بخوانش."
+    }},
+    {"kind": "check", "id": "b02ak3", "type": "tap", "source": "b02a3",
+      "prompt": {"en": "Applying Collins, what fills the 80 percent core?", "fa": "با نگاه Collins، ۸۰ درصد هسته با چه چیزی پر می‌شود؟"},
+      "options": [
+        {"en": "One all-world index ETF", "fa": "یک ETF شاخصی تمام‌جهانی"},
+        {"en": "Twenty hand-picked stocks", "fa": "بیست سهم دست‌چین‌شده"},
+        {"en": "A gold and crypto mix", "fa": "ترکیبی از طلا و کریپتو"}
+      ],
+      "answer": 0}
+  ]
+}
