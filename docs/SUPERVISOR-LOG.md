@@ -71,3 +71,12 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Test change: store.test "the run is not restored" assertion flipped to match decision 17; resume.test.mjs adds 4 tests. No failing test deleted.
 - Tests: 62 green.
 - Play-test Prompt 2 done (ROLE 3): docs/playtests/prompt2.md. Real clicks, GIF playtest-prompt2-en.gif in Downloads. Resume works, coin +1 float works, RTL fix holds in the page. Two carry-overs to Prompt 3: resume after a correct answer should skip the answered Check; split the 30% ruling Card. Four book-unit content agents running in the background for decision 18.
+
+## Step 7, Prompt 3: remaining stations, reward horizons, Book Units
+- Start: 2026-11-09 about 17:00
+- Owner decisions: 18 (Book Units for all 28 books), 19 (size cap 400 KB), 20 (Book Unit = badge + 20 XP; Library lights when its Fare passed and the ten Reading Order books are Lit).
+- Produced: engine v2 (widgets, tools screen, per-Station XP, Library rule, Milestone, resume skips an answered Check), Stations 3 to 6 content, 30% ruling Card split, Station 1 sliders, habit tracker, decision journal, two checklists with Milestone, shelf with filters and search, 28 Book Units generated from content/books/*.json by scripts/build-books.mjs (validated by scripts/validate-book.mjs), themes per Station, hint ramp (full in Stations 1 to 4 and books, short in 5 and 6).
+- Four content agents wrote the Book Units in parallel; all 28 files pass the validator (fairness, parity, two-sentence Cards).
+- Play-test Prompt 3 (ROLE 3): docs/playtests/prompt3.md. Two bugs found and fixed with tests: Milestone overlay repeating on UI re-renders; milestone and farePassed not persisted. Chrome screenshot capture failed when scrolled; DOM checks used instead.
+- Skipped: the "Done box" per Stage card in Station 2 (reason in the diary). Owner to decide.
+- Tests: 338 green. index.html 258 KB.
