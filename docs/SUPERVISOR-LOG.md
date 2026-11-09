@@ -85,3 +85,12 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Start: 2026-11-09
 - Produced: three camera moments as CSS keyframes on transform, opacity, filter and background only: cam-intro (first load, wide to close-up with transform-origin on the current node, 750 ms), cam-pullout plus cam-pop (Path after a Station is lit, 700 and 600 ms), cam-dolly plus cam-bg (Milestone overlay with the tools screen scaling and blurring behind, 750 ms). Reduced motion turns them all off (existing global rule).
 - Tests: test/cinematic.test.mjs checks durations under 800 ms, allowed properties only, and the reduced-motion rule. 341 green.
+
+## Step 7, Prompt 5: fun first, learning incidental
+- Start: 2026-11-09 about 18:30
+- Produced: source coverage test (28 books, reading order, checklists verbatim, key numbers, additions cited); missing Stage 4 official-sources Card added (s2c14, ind.nl line corrected per decision F4); Milestone overlay moved outside the blurred container; journal and full shelf removed from Station runs (still under Tools); shelfInTools string.
+- Play-test Prompt 5 (ROLE 3): docs/playtests/prompt5.md with the six-line checklist, all yes.
+- Tests: 347 green. index.html 258 KB. Chrome screenshot capture timed out on scrolled pages throughout; DOM checks used.
+
+## Step 9: /code-review
+- Start: 2026-11-09 about 19:10. Fixed point 2d0c0be (first commit), 21 commits, 60 files. Standards and Spec reviewers running as sub-agents.
