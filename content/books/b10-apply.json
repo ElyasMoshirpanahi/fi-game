@@ -1,0 +1,47 @@
+{
+  "id": "b10",
+  "title": "Financial Intelligence",
+  "author": {"en": "Karen Berman and Joe Knight with John Case", "fa": "Karen Berman and Joe Knight with John Case"},
+  "year": 2006,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "Financial statements for the non-financial manager; essential for a CTO", "fa": "صورت‌های مالی برای مدیر غیرمالی؛ برای CTO ضروری"},
+  "badge": {"en": "Count the Cash", "fa": "نقد را بشمار"},
+  "items": [
+    {"kind": "card", "id": "b10a1", "source": "Part 4, profit is not cash", "text": {
+      "en": "When your small AI product earns its first €100, count it the way the authors count cash: money that has landed in your account, after platform fees and refunds, not subscriptions that were only signed up.",
+      "fa": "وقتی محصول کوچک AI تو اولین ۱۰۰ یورویش را درمی‌آورد، آن را همان‌طور بشمار که نویسندگان نقد را می‌شمارند: پولی که به حسابت رسیده، پس از کارمزد پلتفرم و بازپرداخت‌ها، نه اشتراک‌هایی که فقط ثبت‌نام شده‌اند."
+    }},
+    {"kind": "card", "id": "b10a2", "source": "Part 1, every statement rests on estimates and judgment calls", "text": {
+      "en": "Before you sign for startup equity, ask where the judgment calls hide in the numbers you are shown: when revenue is recognized and which costs are deferred. Financial intelligence starts with that question.",
+      "fa": "پیش از امضا برای سهام استارتاپ، بپرس قضاوت‌ها کجای اعدادی که نشانت می‌دهند پنهان‌اند: درآمد کی شناسایی می‌شود و کدام هزینه‌ها به تعویق افتاده‌اند. هوش مالی با همین پرسش شروع می‌شود."
+    }},
+    {"kind": "check", "id": "b10ak1", "type": "tap", "source": "b10a1",
+      "prompt": {"en": "How should you count the first €100 from your product?", "fa": "اولین ۱۰۰ یوروی محصولت را چطور باید بشماری؟"},
+      "options": [
+        {"en": "Money that has landed in your account, after fees and refunds", "fa": "پولی که به حسابت رسیده، پس از کارمزد و بازپرداخت‌ها"},
+        {"en": "Subscriptions signed up, paid or not", "fa": "اشتراک‌های ثبت‌نام‌شده، چه پرداخت شده چه نشده"},
+        {"en": "Projected revenue for the whole year", "fa": "درآمد پیش‌بینی‌شده برای کل سال"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b10a3", "source": "Part 5, ratios turn numbers into meaning", "text": {
+      "en": "As a CTO you can read your own company with the authors' ratios: gross margin tells you whether the product scales, and days sales outstanding tells you whether customers actually pay.",
+      "fa": "به‌عنوان CTO می‌توانی شرکت خودت را با نسبت‌های نویسندگان بخوانی: حاشیهٔ ناخالص می‌گوید محصول مقیاس‌پذیر هست یا نه، و روزهای وصول مطالبات می‌گوید مشتری‌ها واقعاً پرداخت می‌کنند یا نه."
+    }},
+    {"kind": "check", "id": "b10ak2", "type": "tf", "source": "b10a2",
+      "prompt": {"en": "Before you sign for startup equity, the numbers you are shown contain no judgment calls, so there is nothing to ask.", "fa": "پیش از امضا برای سهام استارتاپ، اعدادی که نشانت می‌دهند هیچ قضاوتی در خود ندارند، پس چیزی برای پرسیدن نیست."},
+      "answer": false},
+    {"kind": "card", "id": "b10a4", "source": "Part 7, working capital management", "text": {
+      "en": "Apply working capital thinking to your product: charge up front, collect receivables faster and keep paid tools on monthly terms. That frees cash without raising a cent.",
+      "fa": "منطق سرمایه در گردش را روی محصولت پیاده کن: پیش‌پرداخت بگیر، مطالبات را زودتر وصول کن و ابزارهای پولی را ماهانه نگه دار. این کار بدون جذب حتی یک سنت سرمایه، نقد آزاد می‌کند."
+    }},
+    {"kind": "check", "id": "b10ak3", "type": "tap", "source": "b10a3",
+      "prompt": {"en": "Which ratio tells you whether the product scales?", "fa": "کدام نسبت می‌گوید محصول مقیاس‌پذیر هست یا نه؟"},
+      "options": [
+        {"en": "Gross margin", "fa": "حاشیهٔ ناخالص"},
+        {"en": "Days sales outstanding", "fa": "روزهای وصول مطالبات"},
+        {"en": "Debt to equity", "fa": "بدهی به حقوق صاحبان سهام"}
+      ],
+      "answer": 0}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "b18",
+  "title": "The Hard Thing About Hard Things",
+  "author": {"en": "Ben Horowitz", "fa": "Ben Horowitz"},
+  "year": 2014,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "The reality of being a CTO or founder", "fa": "واقعیت CTO/بنیان‌گذار بودن"},
+  "badge": {"en": "The Road, Not the Wall", "fa": "جاده، نه دیوار"},
+  "items": [
+    {"kind": "card", "id": "b18a1", "source": "Chapter 4, The Struggle: there is no recipe", "text": {
+      "en": "If your startup misses its goal, the Struggle is not a sign you chose wrong; the book says there is no recipe. Keep your own 25x capital target separate from the company so one failure does not take both.",
+      "fa": "اگر استارتاپت به هدفش نرسید، Struggle نشانهٔ انتخاب اشتباه نیست؛ کتاب می‌گوید دستورالعملی برایش نیست. هدف سرمایهٔ ۲۵ برابرِ خودت را از شرکت جدا نگه دار تا یک شکست هر دو را نبرد."
+    }},
+    {"kind": "card", "id": "b18a2", "source": "Chapter 4, Lead Bullets: focus on the road, not the wall", "text": {
+      "en": "When a rival ships a better AI tool than yours, do not search for a silver bullet pivot. Horowitz's lead bullets mean a better product and more work on the road in front of you, not on the wall.",
+      "fa": "وقتی رقیب ابزار AI بهتری از تو عرضه می‌کند، دنبال pivot گلولهٔ نقره‌ای نگرد. گلوله‌های سربی Horowitz یعنی محصول بهتر و کار بیشتر روی جادهٔ پیش رویت، نه روی دیوار."
+    }},
+    {"kind": "check", "id": "b18ak1", "type": "tap", "source": "b18a2",
+      "prompt": {"en": "A rival ships a better tool. What does Horowitz's lead bullets idea tell you to do?", "fa": "رقیب ابزار بهتری عرضه کرده. ایدهٔ گلوله‌های سربی Horowitz می‌گوید چه کنی؟"},
+      "options": [
+        {"en": "Search for a silver bullet pivot", "fa": "دنبال pivot گلولهٔ نقره‌ای بگرد"},
+        {"en": "A better product and more work on the road", "fa": "محصول بهتر و کار بیشتر روی جاده"},
+        {"en": "Cut the price in half", "fa": "قیمت را نصف کن"}
+      ],
+      "answer": 1},
+    {"kind": "card", "id": "b18a3", "source": "Chapter 5, Take Care of the People, the Products, and the Profits", "text": {
+      "en": "As CTO, take care of the people first: train them and hire for strength. A good place to work is what keeps your team when things go wrong, and things will go wrong.",
+      "fa": "به‌عنوان CTO اول مراقب آدم‌ها باش: آموزششان بده و برای نقاط قوت استخدام کن. محیط کار خوب همان چیزی است که وقتی اوضاع خراب می‌شود تیمت را نگه می‌دارد، و اوضاع خراب خواهد شد."
+    }},
+    {"kind": "check", "id": "b18ak2", "type": "tf", "source": "b18a3",
+      "prompt": {"en": "Horowitz says to hire for lack of weakness rather than for strength.", "fa": "Horowitz می‌گوید برای نداشتن ضعف استخدام کن، نه برای نقاط قوت."},
+      "answer": false},
+    {"kind": "card", "id": "b18a4", "source": "Chapter 6, One-on-One: the employee's meeting", "text": {
+      "en": "Run your one-on-ones as the employee's meeting: they set the agenda and do about 90 percent of the talking. Your job is to hear the problems before they become resignations.",
+      "fa": "جلسه‌های یک‌به‌یک را به‌عنوان جلسهٔ کارمند اداره کن: او دستور جلسه را تعیین می‌کند و حدود ۹۰ درصد صحبت را او انجام می‌دهد. کار تو شنیدن مشکل‌هاست پیش از آنکه به استعفا برسند."
+    }},
+    {"kind": "check", "id": "b18ak3", "type": "tap", "source": "b18a4",
+      "prompt": {"en": "In your one-on-ones, who sets the agenda?", "fa": "در جلسه‌های یک‌به‌یک تو، چه کسی دستور جلسه را تعیین می‌کند؟"},
+      "options": [
+        {"en": "The employee", "fa": "کارمند"},
+        {"en": "You, the CTO", "fa": "تو، CTO"},
+        {"en": "The investors", "fa": "سرمایه‌گذاران"}
+      ],
+      "answer": 0}
+  ]
+}

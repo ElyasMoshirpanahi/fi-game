@@ -1,0 +1,47 @@
+{
+  "id": "b16",
+  "title": "The Mom Test",
+  "author": {"en": "Rob Fitzpatrick", "fa": "Rob Fitzpatrick"},
+  "year": 2013,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Validating an idea without fooling yourself", "fa": "اعتبارسنجی ایده بدون خودفریبی"},
+  "badge": {"en": "Evidence, Not Compliments", "fa": "شواهد، نه تعریف"},
+  "items": [
+    {"kind": "card", "id": "b16a1", "source": "Chapter 1, The Mom Test: talk about their life, ask about the past", "text": {
+      "en": "Before you write a line of your AI product, hold five conversations about the other person's work: ask what they did last week, not whether they would use your tool. Their past is data; your idea is not.",
+      "fa": "پیش از نوشتن حتی یک خط از محصول AI خود، پنج گفتگو دربارهٔ کار طرف مقابل داشته باش: بپرس هفتهٔ گذشته چه کرد، نه اینکه آیا ابزارت را به کار می‌برد. گذشتهٔ او داده است؛ ایدهٔ تو نه."
+    }},
+    {"kind": "card", "id": "b16a2", "source": "Chapter 2, Avoiding Bad Data: compliments and fluff", "text": {
+      "en": "When a friend says your AI tool sounds great, write it down as a compliment, not as a signal. Your first €100 of ownership income will come from people who pay, not from people who are polite.",
+      "fa": "وقتی دوستی می‌گوید ابزار AI تو عالی به نظر می‌رسد، آن را به‌عنوان تعریف یادداشت کن، نه نشانه. اولین ۱۰۰ یورو درآمد مالکیتی‌ات از کسانی می‌آید که پول می‌دهند، نه از کسانی که مؤدب‌اند."
+    }},
+    {"kind": "check", "id": "b16ak1", "type": "tap", "source": "b16a1",
+      "prompt": {"en": "You talk to a possible user of your AI product. Which question follows The Mom Test?", "fa": "با کاربر احتمالی محصول AI خود حرف می‌زنی. کدام سؤال از The Mom Test پیروی می‌کند؟"},
+      "options": [
+        {"en": "What did you do last week?", "fa": "هفتهٔ گذشته چه کردی؟"},
+        {"en": "Would you use my tool?", "fa": "آیا ابزار مرا به کار می‌بری؟"},
+        {"en": "How much would you pay later?", "fa": "بعداً چقدر حاضری بپردازی؟"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b16a3", "source": "Chapter 5, Commitment and Advancement: time, reputation or money", "text": {
+      "en": "End every conversation by asking for something that costs them: an intro, a half-hour next week, or a prepayment. If nobody gives up time, reputation or money, the idea has not passed yet.",
+      "fa": "هر گفتگو را با درخواست چیزی تمام کن که برایشان هزینه دارد: یک معرفی، نیم ساعت در هفتهٔ بعد، یا پیش‌پرداخت. اگر هیچ‌کس وقت، اعتبار یا پول نمی‌دهد، ایده هنوز قبول نشده."
+    }},
+    {"kind": "check", "id": "b16ak2", "type": "tf", "source": "b16a2",
+      "prompt": {"en": "A friend saying your AI tool sounds great counts as a buying signal.", "fa": "اینکه دوستی بگوید ابزار AI تو عالی به نظر می‌رسد، نشانهٔ خرید محسوب می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b16a4", "source": "Chapter 7, Choosing Your Customers: slice the segment", "text": {
+      "en": "Keep a one-page note per conversation, like your reading notes. If the problems you hear don't line up, your customer segment is too broad; slice it until you can name who they are and where to find them.",
+      "fa": "برای هر گفتگو یک صفحه یادداشت نگه دار، مثل یادداشت‌های کتاب‌خوانی‌ات. اگر مشکل‌هایی که می‌شنوی با هم جور درنمی‌آیند، بخش مشتری‌ات زیادی گسترده است؛ آن‌قدر برشش بزن تا بتوانی بگویی چه کسانی‌اند و کجا پیدایشان می‌کنی."
+    }},
+    {"kind": "check", "id": "b16ak3", "type": "tap", "source": "b16a3",
+      "prompt": {"en": "Per Commitment and Advancement, how should a conversation end?", "fa": "طبق Commitment and Advancement، گفتگو چطور باید تمام شود؟"},
+      "options": [
+        {"en": "With a warm compliment", "fa": "با یک تعریف گرم"},
+        {"en": "Asking for something that costs them", "fa": "با درخواست چیزی که برایشان هزینه دارد"},
+        {"en": "Sending a long follow-up email", "fa": "با فرستادن یک ایمیل پیگیری بلند"}
+      ],
+      "answer": 1}
+  ]
+}

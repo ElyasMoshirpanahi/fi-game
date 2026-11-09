@@ -1,0 +1,47 @@
+{
+  "id": "b08",
+  "title": "The Four Pillars of Investing",
+  "author": {"en": "William Bernstein", "fa": "William Bernstein"},
+  "year": 2002,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "Theory, history, psychology, the industry", "fa": "تئوری، تاریخ، روانشناسی، صنعت"},
+  "badge": {"en": "Stay the Course", "fa": "در مسیر بمان"},
+  "items": [
+    {"kind": "card", "id": "b08a1", "source": "ch. 1, risk and return are inseparable", "text": {
+      "en": "Bernstein's risk-return rule applies to your 20 percent satellite: that is where higher expected returns and real losses both live. Size it so that losing all of it would not change your plan.",
+      "fa": "قاعدهٔ ریسک و بازده Bernstein دربارهٔ ۲۰ درصد ماهواره‌ای سبد تو صدق می‌کند: همان‌جا که بازده مورد انتظار بالاتر و زیان واقعی هر دو زندگی می‌کنند. اندازه‌اش را طوری بچین که از دست رفتن همه‌اش برنامه‌ات را عوض نکند."
+    }},
+    {"kind": "card", "id": "b08a2", "source": "ch. 3, the market is smarter than you are", "text": {
+      "en": "As a CTO you may know AI products better than most, but Bernstein's warning still holds: the market already prices what is known. Keep the 80 percent core in whole-market index ETFs such as VWCE or IWDA.",
+      "fa": "به‌عنوان CTO شاید محصولات AI را بهتر از بیشتر مردم بشناسی، اما هشدار Bernstein همچنان پابرجاست: بازار آنچه را معلوم است از قبل در قیمت آورده. هستهٔ ۸۰ درصدی را در ETFهای شاخصی کل بازار مثل VWCE یا IWDA نگه دار."
+    }},
+    {"kind": "check", "id": "b08ak1", "type": "tap", "source": "b08a1",
+      "prompt": {"en": "In your plan, where do higher expected returns and real losses both live?", "fa": "در برنامهٔ تو، بازده مورد انتظار بالاتر و زیان واقعی هر دو کجا زندگی می‌کنند؟"},
+      "options": [
+        {"en": "In the 20 percent satellite", "fa": "در ۲۰ درصد ماهواره‌ای"},
+        {"en": "In the 80 percent index core", "fa": "در هستهٔ شاخصی ۸۰ درصدی"},
+        {"en": "In the cash you keep for rent", "fa": "در نقدی که برای اجاره نگه می‌داری"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b08a3", "source": "ch. 9, your broker is not your friend", "text": {
+      "en": "Before you open a broker account after your BSN, read the fee page the way Bernstein reads a broker: trading fees, currency conversion and custody costs are how they earn from your activity.",
+      "fa": "پیش از آنکه بعد از گرفتن BSN حساب کارگزاری باز کنی، صفحهٔ کارمزدها را همان‌طور بخوان که Bernstein کارگزار را می‌خواند: کارمزد معامله، تبدیل ارز و هزینهٔ نگهداری راه درآمد آن‌ها از فعالیت توست."
+    }},
+    {"kind": "check", "id": "b08ak2", "type": "tf", "source": "b08a2",
+      "prompt": {"en": "Bernstein's warning means that knowing AI products well lets you safely skip index ETFs for your core.", "fa": "هشدار Bernstein یعنی شناخت خوب محصولات AI به تو اجازه می‌دهد با خیال راحت ETF شاخصی را از هسته‌ات حذف کنی."},
+      "answer": false},
+    {"kind": "card", "id": "b08a4", "source": "ch. 13 and 14, choose a mix, rebalance, stay the course", "text": {
+      "en": "Write your stock-and-bond mix down before you move your €40k, with a fixed rebalancing date. In a bad year you then stay the course by reading the note, not by reacting to the news.",
+      "fa": "پیش از جابه‌جا کردن ۴۰ هزار یورویت، ترکیب سهام و اوراق قرضه‌ات را با یک تاریخ ثابت برای توازن مجدد بنویس. در سال بد، با خواندن همان یادداشت در مسیر می‌مانی، نه با واکنش به اخبار."
+    }},
+    {"kind": "check", "id": "b08ak3", "type": "tap", "source": "b08a3",
+      "prompt": {"en": "What should you read on a broker's site before opening an account?", "fa": "پیش از باز کردن حساب، چه چیزی را در سایت کارگزار باید بخوانی؟"},
+      "options": [
+        {"en": "The fee page: trading fees, currency conversion and custody costs", "fa": "صفحهٔ کارمزدها: کارمزد معامله، تبدیل ارز و هزینهٔ نگهداری"},
+        {"en": "The list of analyst recommendations", "fa": "فهرست توصیه‌های تحلیلگران"},
+        {"en": "The marketing page with past returns", "fa": "صفحهٔ تبلیغاتی با بازده‌های گذشته"}
+      ],
+      "answer": 0}
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "b24",
+  "title": "Deep Work",
+  "author": {"en": "Cal Newport", "fa": "Cal Newport"},
+  "year": 2016,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "Hours of focus are your main capital", "fa": "ساعت‌های تمرکز = سرمایه اصلی تو"},
+  "badge": {"en": "Deep Hour Daily", "fa": "یک ساعت عمیق در روز"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b24a1",
+      "source": "Rule 1, Work Deeply (rhythmic philosophy, rituals)",
+      "text": {
+        "en": "Use the rhythmic philosophy for the daily reading hour: same time, same desk, phone in another room. Newport's ritual turns a plan into a habit that needs no fresh decision.",
+        "fa": "برای ساعت مطالعهٔ روزانه فلسفهٔ ریتمیک را به کار بگیر: همان ساعت، همان میز، گوشی در اتاقی دیگر. آیین Newport برنامه را به عادتی تبدیل می‌کند که به تصمیم تازه نیاز ندارد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24ak1",
+      "type": "tap",
+      "source": "b24a1",
+      "prompt": {"en": "Which Deep Work philosophy fits a daily reading hour at a fixed time?", "fa": "کدام فلسفهٔ Deep Work با یک ساعت مطالعهٔ روزانه در زمان ثابت جور است؟"},
+      "options": [
+        {"en": "The rhythmic philosophy", "fa": "فلسفهٔ ریتمیک"},
+        {"en": "The monastic philosophy", "fa": "فلسفهٔ رهبانی"},
+        {"en": "The journalistic philosophy", "fa": "فلسفهٔ روزنامه‌نگارانه"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b24a2",
+      "source": "Ch. 1, attention residue; Rule 4, Drain the Shallows",
+      "text": {
+        "en": "As a CTO your day is meetings and chat; attention residue means one glance at Slack before reading wastes half the hour. Block the hour on the calendar like a customer meeting.",
+        "fa": "به‌عنوان CTO روزت پر از جلسه و چت است؛ پسماند توجه یعنی یک نگاه به Slack پیش از مطالعه، نیمی از ساعت را هدر می‌دهد. آن ساعت را مثل جلسه با مشتری در تقویم بلاک کن."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24ak2",
+      "type": "tf",
+      "source": "b24a2",
+      "prompt": {"en": "By attention residue, a quick look at Slack right before the reading hour costs nothing.", "fa": "طبق پسماند توجه، یک نگاه سریع به Slack درست پیش از ساعت مطالعه هزینه‌ای ندارد."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b24a3",
+      "source": "Rule 4, four deep hours a day; Rule 1, the shutdown ritual",
+      "text": {
+        "en": "Four deep hours a day is the ceiling, so spend them on the small AI product, your path to €100 of ownership income. Close with a shutdown ritual so sleep is not spent on open loops.",
+        "fa": "چهار ساعت کار عمیق در روز سقف است، پس آن را خرج محصول کوچک AI کن، مسیرت به ۱۰۰ یورو درآمد مالکیتی. روز را با آیین خاموشی ببند تا خواب صرف حلقه‌های باز نشود."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24ak3",
+      "type": "tap",
+      "source": "b24a3",
+      "prompt": {"en": "Where should your limited deep hours go?", "fa": "ساعت‌های عمیق محدودت باید کجا بروند؟"},
+      "options": [
+        {"en": "On the small AI product", "fa": "روی محصول کوچک AI"},
+        {"en": "On answering email faster", "fa": "روی سریع‌تر جواب دادن ایمیل"},
+        {"en": "On reading market news", "fa": "روی خواندن اخبار بازار"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b24a4",
+      "source": "Rule 2, Embrace Boredom; Rule 3, Quit Social Media",
+      "text": {
+        "en": "Rules 2 and 3 apply to money too: a mind trained to crave feeds will crave price charts. Schedule when you check markets, and keep only tools whose benefit clearly beats their cost.",
+        "fa": "قانون ۲ و ۳ دربارهٔ پول هم صادق‌اند: ذهنی که به فیدها معتاد شده، نمودار قیمت را هم طلب می‌کند. زمان چک کردن بازار را برنامه‌ریزی کن و فقط ابزارهایی را نگه دار که سودشان آشکارا از هزینه‌شان بیشتر است."
+      }
+    }
+  ]
+}

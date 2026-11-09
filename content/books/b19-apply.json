@@ -1,0 +1,47 @@
+{
+  "id": "b19",
+  "title": "Zero to One",
+  "author": {"en": "Peter Thiel with Blake Masters", "fa": "Peter Thiel با Blake Masters"},
+  "year": 2014,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "How to build something with no competitor", "fa": "چطور چیزی بسازی که رقیب ندارد"},
+  "badge": {"en": "Own a Small Market", "fa": "بازار کوچک را تصاحب کن"},
+  "items": [
+    {"kind": "card", "id": "b19a1", "source": "Chapter 1 and the contrarian question: 0 to 1 versus 1 to n", "text": {
+      "en": "Before you pick your AI product, write your answer to Thiel's question: what valuable thing is nobody building? If ten tools already do it, you are going from 1 to n, not 0 to 1.",
+      "fa": "پیش از انتخاب محصول AI خود، جوابت به سؤال Thiel را بنویس: کدام چیز ارزشمند را هیچ‌کس نمی‌سازد؟ اگر ده ابزار از قبل همان کار را می‌کنند، داری از ۱ به n می‌روی، نه از ۰ به ۱."
+    }},
+    {"kind": "card", "id": "b19a2", "source": "Chapter 5, Last Mover Advantage: start small and monopolize, 10x better", "text": {
+      "en": "Start with a market so small you can own it: one job, one kind of user, and a tool at least 10x better for them than the workaround they use today. Scale only after you own that niche.",
+      "fa": "با بازاری آن‌قدر کوچک شروع کن که بتوانی صاحبش شوی: یک کار، یک نوع کاربر، و ابزاری دست‌کم ۱۰ برابر بهتر از راه‌حل موقتی که امروز به کار می‌برند. فقط بعد از تصاحب آن niche مقیاس بده."
+    }},
+    {"kind": "check", "id": "b19ak1", "type": "tap", "source": "b19a2",
+      "prompt": {"en": "How does Thiel say to start, applied to your AI product?", "fa": "Thiel می‌گوید چطور شروع کنی، وقتی روی محصول AI خودت پیاده می‌کنی؟"},
+      "options": [
+        {"en": "Launch broadly and undercut on price", "fa": "گسترده عرضه کن و قیمت را بشکن"},
+        {"en": "Copy the market leader's features", "fa": "قابلیت‌های رهبر بازار را کپی کن"},
+        {"en": "Start with a market so small you can own it", "fa": "با بازاری آن‌قدر کوچک شروع کن که بتوانی صاحبش شوی"}
+      ],
+      "answer": 2},
+    {"kind": "card", "id": "b19a3", "source": "Chapter 11, If You Build It, Will They Come?: distribution", "text": {
+      "en": "If you build it, they will not come. Plan how your first 20 paying users hear about the product before you finish the MVP; poor distribution, not a bad product, is the top cause of failure.",
+      "fa": "اگر بسازی، نمی‌آیند. پیش از تمام کردن MVP برنامه بریز اولین ۲۰ کاربر پولی چطور از محصول باخبر می‌شوند؛ توزیع ضعیف، نه محصول بد، مهم‌ترین علت شکست است."
+    }},
+    {"kind": "check", "id": "b19ak2", "type": "tf", "source": "b19a3",
+      "prompt": {"en": "Thiel says a good product sells itself, so distribution can wait until after launch.", "fa": "Thiel می‌گوید محصول خوب خودش فروش می‌رود، پس توزیع می‌تواند تا بعد از عرضه صبر کند."},
+      "answer": false},
+    {"kind": "card", "id": "b19a4", "source": "Chapter 7, Follow the Money: the power law", "text": {
+      "en": "Apply the power law to your 20 percent satellite: one or two bets may return more than all the others, and most will return nothing. Size each bet so losing it does not touch your index core.",
+      "fa": "قانون توان را روی ۲۰ درصد satellite خود پیاده کن: یکی‌دو شرط ممکن است بیش از همهٔ بقیه برگردانند و بیشترشان هیچ برنمی‌گردانند. هر شرط را آن‌قدر کوچک بگیر که از دست رفتنش به هستهٔ شاخصی‌ات دست نزند."
+    }},
+    {"kind": "check", "id": "b19ak3", "type": "tap", "source": "b19a4",
+      "prompt": {"en": "In your 20 percent satellite, how should you size a bet, following the power law?", "fa": "در ۲۰ درصد satellite، طبق قانون توان، اندازهٔ هر شرط را چطور بگیری؟"},
+      "options": [
+        {"en": "So losing it does not touch your index core", "fa": "آن‌قدر که از دست رفتنش به هستهٔ شاخصی‌ات دست نزند"},
+        {"en": "Equal to your yearly expenses", "fa": "برابر با خرج سالانه‌ات"},
+        {"en": "The same size as the index core", "fa": "هم‌اندازهٔ هستهٔ شاخصی"}
+      ],
+      "answer": 0}
+  ]
+}

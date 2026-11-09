@@ -1,0 +1,82 @@
+{
+  "id": "b27",
+  "title": "High Output Management",
+  "author": {"en": "Andrew S. Grove", "fa": "Andrew S. Grove"},
+  "year": 1983,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "From engineer to real manager", "fa": "از مهندس به مدیر واقعی"},
+  "badge": {"en": "Your Own Limiting Step", "fa": "مرحلهٔ محدودکنندهٔ خودت"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b27a1",
+      "source": "Ch. 1, the breakfast factory (limiting step)",
+      "text": {
+        "en": "Run the roadmap like Grove's breakfast factory: the limiting step is the daily reading hour, so arrange sleep, meetings and coding around it. Lose that step and the rest of the plan waits.",
+        "fa": "نقشهٔ راه را مثل کارخانهٔ صبحانهٔ Grove اداره کن: مرحلهٔ محدودکننده ساعت مطالعهٔ روزانه است، پس خواب، جلسه و کدنویسی را حول آن بچین. آن مرحله را از دست بدهی، باقی برنامه معطل می‌ماند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27ak1",
+      "type": "tap",
+      "source": "b27a1",
+      "prompt": {"en": "In the roadmap as a breakfast factory, what is the limiting step?", "fa": "در نقشهٔ راه به‌شکل کارخانهٔ صبحانه، مرحلهٔ محدودکننده چیست؟"},
+      "options": [
+        {"en": "The daily reading hour", "fa": "ساعت مطالعهٔ روزانه"},
+        {"en": "The number of meetings per week", "fa": "تعداد جلسه‌ها در هفته"},
+        {"en": "The size of the capital", "fa": "اندازهٔ سرمایه"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b27a2",
+      "source": "Ch. 3, managerial leverage",
+      "text": {
+        "en": "High leverage is one act that lifts many outcomes: a mentor meeting or a decision journal entry shapes months of choices. Checking prices every day is low leverage.",
+        "fa": "اهرم بالا یعنی یک کار که نتایج زیادی را بالا می‌کشد: جلسه با مربی یا یک یادداشت در دفتر تصمیم، ماه‌ها انتخاب را شکل می‌دهد. هر روز قیمت چک کردن اهرم پایین است."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27ak2",
+      "type": "tf",
+      "source": "b27a2",
+      "prompt": {"en": "Checking prices every day is a high-leverage act in Grove's sense.", "fa": "هر روز قیمت چک کردن، به معنای Grove، کاری پراهرم است."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b27a3",
+      "source": "Ch. 6, management by objectives (objective and key results)",
+      "text": {
+        "en": "Write the roadmap as MBO: objective, €100 of ownership income from a small AI product; key results, product shipped, first paying user, net worth logged each quarter.",
+        "fa": "نقشهٔ راه را به شکل MBO بنویس: هدف، ۱۰۰ یورو درآمد مالکیتی از یک محصول کوچک AI؛ نتایج کلیدی، محصول منتشرشده، اولین کاربر پولی، دارایی خالص ثبت‌شده در هر فصل."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27ak3",
+      "type": "tap",
+      "source": "b27a3",
+      "prompt": {"en": "In the MBO version of the roadmap, what is the objective?", "fa": "در نسخهٔ MBO نقشهٔ راه، هدف چیست؟"},
+      "options": [
+        {"en": "€100 of ownership income from a small AI product", "fa": "۱۰۰ یورو درآمد مالکیتی از یک محصول کوچک AI"},
+        {"en": "Reading 2 books a month", "fa": "خواندن ۲ کتاب در ماه"},
+        {"en": "A higher salary in the Netherlands", "fa": "حقوق بالاتر در هلند"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b27a4",
+      "source": "Ch. 11 and Ch. 16, not capable or not motivated; training is the boss's job",
+      "text": {
+        "en": "When you skip the plan, ask Grove's question: not capable or not motivated? A mentor one-on-one is your training; sleep and a quiet evening fix the motivation side before any book does.",
+        "fa": "وقتی برنامه را رها می‌کنی، پرسش Grove را بپرس: توانایی نداری یا انگیزه؟ جلسهٔ یک‌به‌یک با مربی آموزشِ توست؛ خواب و یک شب آرام، سمت انگیزه را زودتر از هر کتابی درست می‌کند."
+      }
+    }
+  ]
+}

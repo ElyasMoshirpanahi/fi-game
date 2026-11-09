@@ -1,0 +1,47 @@
+{
+  "id": "b05",
+  "title": "Thinking, Fast and Slow",
+  "author": {"en": "Daniel Kahneman", "fa": "Daniel Kahneman"},
+  "year": 2011,
+  "stage": 1,
+  "must": false,
+  "why": {"en": "The cognitive errors that eat your money", "fa": "خطاهای شناختی که پولت را می‌خورند"},
+  "badge": {"en": "Outside view, taken", "fa": "نگاه بیرونی، در عمل"},
+  "items": [
+    {"kind": "card", "id": "b05a1", "source": "ch. 23, The Outside View", "text": {
+      "en": "Before you forecast the AI product, take the outside view: how many small products like it reach €100 a month, and how long it took them. Start from that base rate, then adjust for yours.",
+      "fa": "پیش از پیش‌بینی برای محصول AI، نگاه بیرونی بگیر: چند محصول کوچک مثل آن به ۱۰۰ یورو در ماه می‌رسند و چقدر طول کشید. از آن نرخ پایه شروع کن، بعد برای مورد خودت تعدیل کن."
+    }},
+    {"kind": "card", "id": "b05a2", "source": "ch. 11, Anchors", "text": {
+      "en": "Anchoring at a term sheet: the first valuation named pulls every number after it. Before you sign, write down your own number from the cap table and unit economics, then read theirs.",
+      "fa": "لنگر انداختن سر term sheet: اولین ارزش‌گذاری‌ای که گفته می‌شود همهٔ عددهای بعدی را به سمت خودش می‌کشد. پیش از امضا، عدد خودت را از cap table و unit economics بنویس، بعد عدد آن‌ها را بخوان."
+    }},
+    {"kind": "check", "id": "b05ak1", "type": "tap", "source": "b05a1",
+      "prompt": {"en": "Applying the outside view, where does a forecast for your product start?", "fa": "با نگاه بیرونی، پیش‌بینی برای محصولت از کجا شروع می‌شود؟"},
+      "options": [
+        {"en": "From your own best-case plan", "fa": "از بهترین حالت برنامهٔ خودت"},
+        {"en": "From the first number an investor names", "fa": "از اولین عددی که یک سرمایه‌گذار می‌گوید"},
+        {"en": "From the base rate of small products like it", "fa": "از نرخ پایهٔ محصولات کوچک مشابه"}
+      ],
+      "answer": 2},
+    {"kind": "card", "id": "b05a3", "source": "ch. 26, Prospect Theory; ch. 32, Keeping Score (loss aversion)", "text": {
+      "en": "Loss aversion will make a 30 percent drop in your index ETF feel twice as bad as the gain before it felt good. Decide now, in writing, that a drop is not a sell signal.",
+      "fa": "زیان‌گریزی باعث می‌شود سقوط ۳۰ درصدی ETF شاخصی‌ات دو برابر بدتر از لذت سود قبلی حس شود. همین حالا، کتبی، تصمیم بگیر که سقوط علامت فروش نیست."
+    }},
+    {"kind": "check", "id": "b05ak2", "type": "tf", "source": "b05a2",
+      "prompt": {"en": "Kahneman's anchoring means the first valuation on a term sheet should set your expectation.", "fa": "لنگر انداختن Kahneman یعنی اولین ارزش‌گذاری روی term sheet باید انتظار تو را تعیین کند."},
+      "answer": false},
+    {"kind": "card", "id": "b05a4", "source": "ch. 20, The Illusion of Validity", "text": {
+      "en": "The illusion of validity: an adviser's confident story about which fund will win is not evidence. Ask any adviser or broker for their base rate, not their conviction.",
+      "fa": "توهم اعتبار: داستان مطمئن یک مشاور دربارهٔ اینکه کدام صندوق برنده می‌شود، شاهد نیست. از هر مشاور یا کارگزاری نرخ پایه‌اش را بخواه، نه اطمینانش را."
+    }},
+    {"kind": "check", "id": "b05ak3", "type": "tap", "source": "b05a3",
+      "prompt": {"en": "If you planned for loss aversion, what is a 30 percent drop in your index ETF?", "fa": "اگر برای زیان‌گریزی برنامه ریخته باشی، سقوط ۳۰ درصدی ETF شاخصی‌ات چیست؟"},
+      "options": [
+        {"en": "A reason to move to cash", "fa": "دلیلی برای رفتن به پول نقد"},
+        {"en": "Not a sell signal", "fa": "علامت فروش نیست"},
+        {"en": "Proof the strategy failed", "fa": "اثبات شکست استراتژی"}
+      ],
+      "answer": 1}
+  ]
+}

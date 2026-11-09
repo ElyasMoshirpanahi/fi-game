@@ -27,9 +27,9 @@ describe('Prompt 3: six Stations on the Path, Book Units off the Path', () => {
     for (const st of all) expect(st.items.length, st.id).toBeGreaterThan(0);
   });
 
-  it('Book Units exist as Stations with book: true and are not on the Path', () => {
+  it('Book Units exist as Stations with book: true and are not among the Basics Stations', () => {
     const books = content.stations.filter((s) => s.book);
-    expect(books.length).toBeGreaterThanOrEqual(1);
+    expect(books.length).toBe(84);
     for (const b of books) {
       expect(content.allStations().some((s) => s.id === b.id)).toBe(false);
       expect(b.items.filter((i) => i.kind === 'check').length).toBeGreaterThanOrEqual(b.fareSize);
@@ -155,14 +155,14 @@ describe('Rewards on three horizons', () => {
     let s = passStation(engine.initial(), 's6');
     expect(s.farePassed.s6).toBe(true);
     expect(s.lit.s6).toBeUndefined();
-    for (const id of content.readingOrder) s = passStation(s, id);
+    for (const id of content.readingOrder) for (const u of content.sectionOf(id).units) s = passStation(s, u);
     expect(s.lit.s6).toBe(true);
-    expect(s.xp).toBe(content.station('s6').xp + content.readingOrder.length * 20);
+    expect(s.xp).toBe(content.station('s6').xp + content.readingOrder.length * (3 * 20 + content.SECTION_XP));
   });
 
   it('total XP available is the sum over Path Stations and Book Units', () => {
     const total = content.totalXp();
-    const sum = content.stations.reduce((a, st) => a + st.xp, 0) + content.MILESTONE_XP;
+    const sum = content.stations.reduce((a, st) => a + st.xp, 0) + content.sections.filter((x) => x.kind === 'book').length * content.SECTION_XP + content.MILESTONE_XP;
     expect(total).toBe(sum);
   });
 });

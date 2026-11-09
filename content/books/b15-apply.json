@@ -1,0 +1,47 @@
+{
+  "id": "b15",
+  "title": "Venture Deals",
+  "author": {"en": "Brad Feld and Jason Mendelson", "fa": "Brad Feld و Jason Mendelson"},
+  "year": 2011,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Cap table, term sheet, vesting; before you sign anything", "fa": "cap table، term sheet، vesting؛ قبل از امضای هر چیزی"},
+  "badge": {"en": "Read Before You Sign", "fa": "پیش از امضا بخوان"},
+  "items": [
+    {"kind": "card", "id": "b15a1", "source": "Chapter 4, Vesting: four years with a one-year cliff", "text": {
+      "en": "Before you sign a CTO equity offer, ask for the vesting schedule in writing: the book's standard is four years with a one-year cliff. Leaving in month ten means you walk away with nothing.",
+      "fa": "پیش از امضای پیشنهاد equity برای نقش CTO، برنامهٔ vesting را مکتوب بخواه: استاندارد کتاب چهار سال با cliff یک‌ساله است. اگر در ماه دهم بروی، دست خالی می‌روی."
+    }},
+    {"kind": "card", "id": "b15a2", "source": "Chapter 4, Price: the option pool inside the pre-money", "text": {
+      "en": "Your roadmap wants a written cap table. When you read it, check whether the option pool sits inside the pre-money; if it does, your share is smaller than the headline percentage suggests.",
+      "fa": "نقشهٔ راهت cap table مکتوب می‌خواهد. وقتی می‌خوانی‌اش، ببین option pool داخل pre-money هست یا نه؛ اگر هست، سهم تو از درصدی که در تیتر آمده کوچک‌تر است."
+    }},
+    {"kind": "check", "id": "b15ak1", "type": "tap", "source": "b15a1",
+      "prompt": {"en": "You are offered CTO equity. What does Venture Deals tell you to get in writing before you sign?", "fa": "به تو equity برای نقش CTO پیشنهاد شده. Venture Deals می‌گوید پیش از امضا چه چیزی را مکتوب بگیری؟"},
+      "options": [
+        {"en": "The vesting schedule", "fa": "برنامهٔ vesting"},
+        {"en": "A promise of a board seat", "fa": "وعدهٔ یک کرسی در هیئت‌مدیره"},
+        {"en": "A guaranteed first-year bonus", "fa": "پاداش تضمین‌شدهٔ سال اول"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b15a3", "source": "Chapter 3 and Chapter 5: economics and control", "text": {
+      "en": "Read any term sheet twice: once for economics (price, liquidation preference) and once for control (board seats, protective provisions). A fair price with a bad board can still cost you the company.",
+      "fa": "هر term sheet را دو بار بخوان: یک بار برای اقتصاد (قیمت، liquidation preference) و یک بار برای کنترل (کرسی‌های هیئت‌مدیره، protective provisions). قیمت منصفانه با هیئت‌مدیرهٔ بد هم می‌تواند شرکت را از تو بگیرد."
+    }},
+    {"kind": "check", "id": "b15ak2", "type": "tf", "source": "b15a2",
+      "prompt": {"en": "If the option pool sits inside the pre-money, your real share is larger than the headline percentage.", "fa": "اگر option pool داخل pre-money باشد، سهم واقعی تو از درصد تیتر بزرگ‌تر است."},
+      "answer": false},
+    {"kind": "card", "id": "b15a4", "source": "Chapter 8, How Venture Capital Funds Work: the ten-year fund life", "text": {
+      "en": "If you ever put part of your 20 percent satellite into a startup round, ask the lead investor where their fund is in its ten-year life. A fund near its end pushes for a fast exit.",
+      "fa": "اگر روزی بخشی از ۲۰ درصد satellite خود را در یک دور استارتاپی بگذاری، از سرمایه‌گذار اصلی بپرس صندوقش در کجای عمر ده‌سالهٔ خود است. صندوقی که به پایان نزدیک است، برای خروج سریع فشار می‌آورد."
+    }},
+    {"kind": "check", "id": "b15ak3", "type": "tap", "source": "b15a3",
+      "prompt": {"en": "Which pair belongs to the control side of a term sheet?", "fa": "کدام جفت به سمت کنترل term sheet تعلق دارد؟"},
+      "options": [
+        {"en": "Price and liquidation preference", "fa": "قیمت و liquidation preference"},
+        {"en": "Board seats and protective provisions", "fa": "کرسی‌های هیئت‌مدیره و protective provisions"},
+        {"en": "Founder salary and office lease", "fa": "حقوق بنیان‌گذار و اجارهٔ دفتر"}
+      ],
+      "answer": 1}
+  ]
+}

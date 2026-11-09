@@ -1,0 +1,47 @@
+{
+  "id": "b11",
+  "title": "The Little Book of Valuation",
+  "author": {"en": "Aswath Damodaran", "fa": "Aswath Damodaran"},
+  "year": 2011,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "DCF and valuation without heavy maths", "fa": "DCF و ارزش‌گذاری بدون ریاضی سنگین"},
+  "badge": {"en": "Value Your Equity", "fa": "سهامت را ارزش‌گذاری کن"},
+  "items": [
+    {"kind": "card", "id": "b11a1", "source": "ch. 1, all valuations are biased", "text": {
+      "en": "When a founder tells you the startup is worth €10 million, remember Damodaran: every valuation is biased, and the person who sets the number has a reason. Build your own simple estimate before you sign.",
+      "fa": "وقتی بنیان‌گذاری می‌گوید استارتاپ ۱۰ میلیون یورو می‌ارزد، Damodaran را به یاد بیاور: هر ارزش‌گذاری سوگیری دارد و کسی که عدد را تعیین می‌کند دلیلی دارد. پیش از امضا، برآورد سادهٔ خودت را بساز."
+    }},
+    {"kind": "card", "id": "b11a2", "source": "Part 2, a young startup is a story about growth and survival", "text": {
+      "en": "Your equity in a young startup is a story about growth and survival. Write that story on one page: what must happen for the shares to be worth anything, and what would make them worth zero.",
+      "fa": "سهم تو در یک استارتاپ جوان داستانی دربارهٔ رشد و بقاست. آن داستان را در یک صفحه بنویس: چه باید اتفاق بیفتد تا سهام ارزشی پیدا کند، و چه چیزی ارزشش را صفر می‌کند."
+    }},
+    {"kind": "check", "id": "b11ak1", "type": "tap", "source": "b11a1",
+      "prompt": {"en": "What does Damodaran remind you when a founder names a valuation?", "fa": "وقتی بنیان‌گذار یک ارزش‌گذاری را اعلام می‌کند، Damodaran چه چیزی را یادآوری می‌کند؟"},
+      "options": [
+        {"en": "Every valuation is biased", "fa": "هر ارزش‌گذاری سوگیری دارد"},
+        {"en": "The founder's number is the market price", "fa": "عدد بنیان‌گذار همان قیمت بازار است"},
+        {"en": "Valuations are only wrong in a crash", "fa": "ارزش‌گذاری‌ها فقط در سقوط بازار اشتباه‌اند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b11a3", "source": "ch. 4, relative valuation with multiples", "text": {
+      "en": "To sanity-check a term sheet, use relative valuation: find comparable startups, turn their price into a multiple of revenue, then adjust for differences in growth and risk.",
+      "fa": "برای محک زدن یک term sheet از ارزش‌گذاری نسبی استفاده کن: استارتاپ‌های قابل‌مقایسه را پیدا کن، قیمتشان را به ضریبی از درآمد تبدیل کن، سپس تفاوت‌های رشد و ریسک را تعدیل کن."
+    }},
+    {"kind": "check", "id": "b11ak2", "type": "tf", "source": "b11a2",
+      "prompt": {"en": "Damodaran's life-cycle view says your equity in a young startup is valued mainly on its existing assets.", "fa": "نگاه چرخهٔ عمر Damodaran می‌گوید سهم تو در یک استارتاپ جوان عمدتاً بر پایهٔ دارایی‌های موجودش ارزش‌گذاری می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b11a4", "source": "ch. 3, intrinsic value and the four DCF inputs", "text": {
+      "en": "For your own AI product a tiny DCF is enough: estimate the cash it produces, expected growth, a high discount rate for risk and the point where growth settles. That is what your ownership is worth today.",
+      "fa": "برای محصول AI خودت یک DCF کوچک کافی است: نقدی که تولید می‌کند، رشد مورد انتظار، نرخ تنزیل بالا برای ریسک و نقطه‌ای که رشد آرام می‌گیرد را برآورد کن. این همان ارزش امروز مالکیت توست."
+    }},
+    {"kind": "check", "id": "b11ak3", "type": "tap", "source": "b11a3",
+      "prompt": {"en": "How do you sanity-check a term sheet with relative valuation?", "fa": "چطور یک term sheet را با ارزش‌گذاری نسبی محک می‌زنی؟"},
+      "options": [
+        {"en": "Find comparable startups, turn price into a multiple, then adjust for growth and risk", "fa": "استارتاپ‌های قابل‌مقایسه را پیدا کن، قیمت را به ضریب تبدیل کن، سپس رشد و ریسک را تعدیل کن"},
+        {"en": "Accept the founder's number if investors agreed to it", "fa": "اگر سرمایه‌گذاران قبول کرده‌اند، عدد بنیان‌گذار را بپذیر"},
+        {"en": "Average the last three funding rounds", "fa": "میانگین سه دور آخر جذب سرمایه را بگیر"}
+      ],
+      "answer": 0}
+  ]
+}

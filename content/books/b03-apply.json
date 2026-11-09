@@ -1,0 +1,47 @@
+{
+  "id": "b03",
+  "title": "Your Money or Your Life",
+  "author": {"en": "Vicki Robin and Joe Dominguez", "fa": "Vicki Robin و Joe Dominguez"},
+  "year": 1992,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "The philosophy of financial independence; money equals life energy", "fa": "فلسفه استقلال مالی؛ پول = زمان زندگی"},
+  "badge": {"en": "Real hourly wage", "fa": "دستمزد واقعی ساعتی"},
+  "items": [
+    {"kind": "card", "id": "b03a1", "source": "Step 2, Your real hourly wage", "text": {
+      "en": "Compute your real hourly wage before accepting a Dutch offer: subtract commuting, relocation costs and recovery hours from the salary. Compare offers by that number, not the headline.",
+      "fa": "پیش از پذیرفتن پیشنهاد کاری در هلند دستمزد واقعی ساعتی‌ات را حساب کن: رفت‌وآمد، هزینهٔ جابه‌جایی و ساعت‌های خستگی‌درکردن را از حقوق کم کن. پیشنهادها را با آن عدد مقایسه کن، نه با رقم روی کاغذ."
+    }},
+    {"kind": "card", "id": "b03a2", "source": "Step 4, Three questions that will transform your life", "text": {
+      "en": "Ask the three questions about your rent after the move: fulfillment worth the life energy, aligned with your values, and would it change if you did not have to work?",
+      "fa": "سه سؤال را دربارهٔ اجارهٔ خانه‌ات بعد از جابه‌جایی بپرس: رضایتش به اندازهٔ انرژی زندگی بود؟ با ارزش‌هایت هم‌خوان است؟ و اگر مجبور به کار نبودی تغییر می‌کرد؟"
+    }},
+    {"kind": "check", "id": "b03ak1", "type": "tap", "source": "b03a1",
+      "prompt": {"en": "Applying Step 2, how do you compare two job offers?", "fa": "با گام ۲، دو پیشنهاد شغلی را چطور مقایسه می‌کنی؟"},
+      "options": [
+        {"en": "By real hourly wage, not the headline salary", "fa": "با دستمزد واقعی ساعتی، نه رقم حقوق روی کاغذ"},
+        {"en": "By the gross yearly number", "fa": "با رقم ناخالص سالانه"},
+        {"en": "By the company's brand", "fa": "با برند شرکت"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b03a3", "source": "Step 8, Capital and the Crossover Point", "text": {
+      "en": "Your crossover point is the month ownership income plus investment income exceeds expenses. The first €100 from a small AI product is the first dot on that wall chart.",
+      "fa": "نقطهٔ تقاطع تو ماهی است که درآمد مالکیتی به‌علاوهٔ درآمد سرمایه‌گذاری از هزینه‌ها بیشتر می‌شود. اولین ۱۰۰ یورو از یک محصول کوچک AI اولین نقطه روی آن نمودار دیواری است."
+    }},
+    {"kind": "check", "id": "b03ak2", "type": "tf", "source": "b03a2",
+      "prompt": {"en": "The three questions apply only to purchases above €1,000, not to rent.", "fa": "سه سؤال فقط برای خریدهای بالای ۱٬۰۰۰ یورو است، نه برای اجاره."},
+      "answer": false},
+    {"kind": "card", "id": "b03a4", "source": "ch. 2, Money is life energy", "text": {
+      "en": "Every tool subscription and gadget costs hours of your one life. Before you buy, convert the price into hours at your real hourly wage and decide if those hours are worth it.",
+      "fa": "هر اشتراک ابزار و هر گجت ساعت‌هایی از تنها زندگی‌ات را می‌بلعد. پیش از خرید، قیمت را با دستمزد واقعی ساعتی‌ات به ساعت تبدیل کن و تصمیم بگیر آیا آن ساعت‌ها می‌ارزند."
+    }},
+    {"kind": "check", "id": "b03ak3", "type": "tap", "source": "b03a3",
+      "prompt": {"en": "When do you reach your crossover point?", "fa": "کی به نقطهٔ تقاطع می‌رسی؟"},
+      "options": [
+        {"en": "The month you get your BSN", "fa": "ماهی که BSN می‌گیری"},
+        {"en": "Ownership and investment income exceeds expenses", "fa": "وقتی درآمد مالکیتی و سرمایه‌گذاری از هزینه‌ها بیشتر شود"},
+        {"en": "When your salary doubles", "fa": "وقتی حقوقت دو برابر شود"}
+      ],
+      "answer": 1}
+  ]
+}

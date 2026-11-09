@@ -34,6 +34,14 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 | 19 | Size cap (2026-11-09) | index.html may be up to 400 KB (was 200 KB) to hold the 28 Book Units. Still one file, no external scripts. |
 | 20 | Book Unit rewards | Each Book Unit is a mini-Station: badge plus 20 XP on its Fare. The Library Station lights when its own Fare passed and all ten Reading Order books are Lit. |
 | 21 | Bookmarks (owner request, 2026-11-10) | Any Card can be bookmarked from its screen; a Bookmarks list on the Path reopens the Station at that Card. Stored in fi-roadmap-v1 with the rest of progress. |
+| 22 | Sections (2026-11-10) | The Path is split into Duolingo-style Sections. Section 1, Basics, is Stations 1 to 6. Then one Section per book. |
+| 23 | Units per book | Three: Unit 1 and 2 split the existing Book Unit (3 Cards and 2 Checks each); Unit 3, "Put it to work", is new content (4 Cards, 3 Checks) applying the book to the player's situation, written by content agents and validated. |
+| 24 | Section order | Reading order first (Sections 2 to 11), then the other 18 books by stage 1, 2, 3, 5, 6, must-reads before optionals. |
+| 25 | Gating | Free to jump (decision 6 kept). A section picker at the top of the Path; the current Section expanded, the others collapsed. |
+| 26 | Rewards | A unit Fare pays 20 XP. A complete Section pays the book's badge plus 30 XP. Basics keeps six Station badges at 50 XP. |
+| 27 | Migration | A lit Book Unit from v1 counts as Units 1 and 2 lit. Unit 3 starts unlit. Coins, XP, bookmarks, shelf, checklists kept. One-time migration on first load. |
+| 28 | Shelf | Stays under Library Tools as the index: reading states, filters, search; "Open unit" becomes "Go to section" and jumps the Path there. |
+| 29 | Sectioned Path look | A's long road with inline section headers, finished sections collapsed, plus B's book banner as the header of the open section, and a bottom 'Jump to section' sheet. Prototype prototypes/ui-sections.html on branch prototype/ui-sections. |
 | 16 | Ordering interaction | Tap-to-place is the baseline and the keyboard path. Pointer drag reorders as a progressive enhancement. |
 
 ## Executor decisions derived from the above (noted, not asked)

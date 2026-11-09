@@ -1,0 +1,47 @@
+{
+  "id": "b06",
+  "title": "A Random Walk Down Wall Street",
+  "author": {"en": "Burton Malkiel", "fa": "Burton Malkiel"},
+  "year": 1973,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "Why the market cannot be beaten", "fa": "چرا بازار را نمی‌شود شکست داد"},
+  "badge": {"en": "Satellite, sized", "fa": "ماهواره، به‌اندازه"},
+  "items": [
+    {"kind": "card", "id": "b06a1", "source": "ch. 1, the random walk; ch. 7, the efficient-market hypothesis", "text": {
+      "en": "If past prices cannot predict future ones, your 20 percent satellite should not be chart trades. Reserve it for ownership bets where you have real insight, such as a product you build yourself.",
+      "fa": "اگر قیمت‌های گذشته نمی‌توانند آینده را پیش‌بینی کنند، ۲۰ درصد ماهوارهٔ تو نباید معاملات نموداری باشد. آن را برای شرط‌بندی‌های مالکیتی نگه دار که در آن‌ها بینش واقعی داری، مثل محصولی که خودت می‌سازی."
+    }},
+    {"kind": "card", "id": "b06a2", "source": "Part Four, A Life-Cycle Guide to Investing (rebalance once a year)", "text": {
+      "en": "Malkiel's yearly rebalance, applied: once a year bring the core back to 80 percent index ETFs and the satellite to 20. A bet that grew to 40 percent is a risk, not a win.",
+      "fa": "بازتوازن سالانهٔ Malkiel در عمل: سالی یک بار هسته را به ۸۰ درصد ETF شاخصی و ماهواره را به ۲۰ درصد برگردان. شرط‌بندی‌ای که به ۴۰ درصد رسیده ریسک است، نه برد."
+    }},
+    {"kind": "check", "id": "b06ak1", "type": "tap", "source": "b06a1",
+      "prompt": {"en": "Given the random walk, what belongs in your 20 percent satellite?", "fa": "با توجه به گام تصادفی، چه چیزی در ۲۰ درصد ماهوارهٔ تو جا دارد؟"},
+      "options": [
+        {"en": "Ownership bets where you have real insight", "fa": "شرط‌بندی‌های مالکیتی که در آن‌ها بینش واقعی داری"},
+        {"en": "Short-term chart trades", "fa": "معاملات نموداری کوتاه‌مدت"},
+        {"en": "Whatever rose most last year", "fa": "هرچه پارسال بیشتر بالا رفت"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b06a3", "source": "ch. 2 and 3, The Madness of Crowds; Speculative Bubbles", "text": {
+      "en": "Every bubble starts with a true story, then euphoria. AI is a true story too, so before putting money into an AI startup ask whether the price still relates to its cash flows.",
+      "fa": "هر حبابی با یک داستان واقعی شروع می‌شود، بعد سرخوشی. AI هم یک داستان واقعی است، پس پیش از گذاشتن پول در یک استارتاپ AI بپرس آیا قیمت هنوز به جریان نقدی‌اش ربط دارد."
+    }},
+    {"kind": "check", "id": "b06ak2", "type": "tf", "source": "b06a2",
+      "prompt": {"en": "After Malkiel's yearly rebalance, a bet that grew to 40 percent of the portfolio is left alone as a win.", "fa": "در بازتوازن سالانهٔ Malkiel، شرط‌بندی‌ای که به ۴۰ درصد سبد رسیده به عنوان برد دست‌نخورده می‌ماند."},
+      "answer": false},
+    {"kind": "card", "id": "b06a4", "source": "ch. 7, How good is fundamental analysis? (most managers fail to beat the index)", "text": {
+      "en": "Most professional managers fail to beat a broad index, so a broker account full of actively managed funds pays fees for a coin toss. Keep the core in broad index ETFs.",
+      "fa": "بیشتر مدیران حرفه‌ای از شکست دادن یک شاخص گسترده ناتوان‌اند، پس حساب کارگزاری پر از صندوق‌های با مدیریت فعال، برای شیر یا خط کارمزد می‌دهد. هسته را در ETFهای شاخصی گسترده نگه دار."
+    }},
+    {"kind": "check", "id": "b06ak3", "type": "tap", "source": "b06a4",
+      "prompt": {"en": "Per Malkiel, why keep the core in broad index ETFs?", "fa": "به گفتهٔ Malkiel، چرا هسته را در ETFهای شاخصی گسترده نگه داری؟"},
+      "options": [
+        {"en": "Index ETFs never fall in a crash", "fa": "ETFهای شاخصی هرگز در سقوط نمی‌ریزند"},
+        {"en": "Brokers charge nothing for them", "fa": "کارگزارها برایشان هیچ کارمزدی نمی‌گیرند"},
+        {"en": "Most professional managers fail to beat a broad index", "fa": "بیشتر مدیران حرفه‌ای نمی‌توانند یک شاخص گسترده را شکست دهند"}
+      ],
+      "answer": 2}
+  ]
+}

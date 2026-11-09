@@ -1,0 +1,47 @@
+{
+  "id": "b09",
+  "title": "Global Asset Allocation",
+  "author": {"en": "Meb Faber", "fa": "Meb Faber"},
+  "year": 2015,
+  "stage": 2,
+  "must": false,
+  "why": {"en": "Compares the world's famous portfolios; very short", "fa": "مقایسه سبدهای معروف دنیا؛ خیلی کوتاه"},
+  "badge": {"en": "Cheap, Then Steady", "fa": "ارزان، بعد پایدار"},
+  "items": [
+    {"kind": "card", "id": "b09a1", "source": "ch. 11, all diversified allocations landed within one point", "text": {
+      "en": "Faber found the famous allocations within about one point of each other, so do not spend months choosing between VWCE and IWDA or a 70/30 and an 80/20 split. Pick a sensible mix and move on.",
+      "fa": "Faber دید که تخصیص‌های معروف در فاصلهٔ حدود یک واحد درصد از هم‌اند، پس ماه‌ها را صرف انتخاب بین VWCE و IWDA یا تقسیم ۷۰/۳۰ و ۸۰/۲۰ نکن. یک ترکیب معقول انتخاب کن و جلو برو."
+    }},
+    {"kind": "card", "id": "b09a2", "source": "ch. 12, fees and taxes cost more than the allocation gap", "text": {
+      "en": "Fees and taxes matter more than the exact mix, so when you compare Interactive Brokers and DEGIRO, compare the total cost of holding ETFs for ten years, and learn how Box 3 treats what you hold.",
+      "fa": "کارمزد و مالیات بیش از ترکیب دقیق اهمیت دارد، پس وقتی Interactive Brokers و DEGIRO را مقایسه می‌کنی، هزینهٔ کل نگهداری ETF در ده سال را مقایسه کن و یاد بگیر Box 3 با دارایی‌هایت چه می‌کند."
+    }},
+    {"kind": "check", "id": "b09ak1", "type": "tap", "source": "b09a1",
+      "prompt": {"en": "By Faber's comparison, how far apart did the famous allocations land?", "fa": "طبق مقایسهٔ Faber، تخصیص‌های معروف چقدر از هم فاصله داشتند؟"},
+      "options": [
+        {"en": "Within about one point of each other", "fa": "در فاصلهٔ حدود یک واحد درصد از هم"},
+        {"en": "The 60/40 beat all the others by far", "fa": "سبد ۶۰/۴۰ با فاصلهٔ زیاد از همه جلو زد"},
+        {"en": "Gold-heavy mixes doubled the rest", "fa": "ترکیب‌های پرطلا بازده بقیه را دو برابر کردند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b09a3", "source": "ch. 1, every asset has decade-long losing stretches", "text": {
+      "en": "Before you invest your €40k, separate the money you might need within a few years for a move or a visa. Faber's history shows every asset has decade-long losing stretches, and that money cannot wait one out.",
+      "fa": "پیش از سرمایه‌گذاری ۴۰ هزار یورویت، پولی را که شاید تا چند سال دیگر برای جابه‌جایی یا ویزا لازم داشته باشی جدا کن. تاریخ Faber نشان می‌دهد هر دارایی دوره‌های زیان ده‌ساله دارد و آن پول نمی‌تواند منتظر بماند."
+    }},
+    {"kind": "check", "id": "b09ak2", "type": "tf", "source": "b09a2",
+      "prompt": {"en": "Faber's evidence suggests the exact mix matters more than broker fees and taxes.", "fa": "شواهد Faber نشان می‌دهد ترکیب دقیق سبد مهم‌تر از کارمزد کارگزار و مالیات است."},
+      "answer": false},
+    {"kind": "card", "id": "b09a4", "source": "ch. 13, pick a sensible allocation and stick with it", "text": {
+      "en": "Faber's rule that switching after a bad year ruins results pairs well with your decision journal: write down why you chose your core, then re-read that page before any change.",
+      "fa": "قاعدهٔ Faber که عوض کردن سبد بعد از یک سال بد نتیجه را خراب می‌کند با دفتر تصمیم تو جور درمی‌آید: بنویس چرا این هسته را انتخاب کردی، بعد پیش از هر تغییری همان صفحه را دوباره بخوان."
+    }},
+    {"kind": "check", "id": "b09ak3", "type": "tap", "source": "b09a3",
+      "prompt": {"en": "What does Faber's history say about every asset?", "fa": "تاریخ Faber دربارهٔ هر دارایی چه می‌گوید؟"},
+      "options": [
+        {"en": "Every asset has decade-long losing stretches", "fa": "هر دارایی دوره‌های زیان ده‌ساله دارد"},
+        {"en": "Stocks never lose over a full decade", "fa": "سهام هرگز در یک دههٔ کامل زیان نمی‌دهد"},
+        {"en": "Cash keeps its value after inflation", "fa": "نقد ارزشش را پس از تورم حفظ می‌کند"}
+      ],
+      "answer": 0}
+  ]
+}

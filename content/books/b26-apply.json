@@ -1,0 +1,82 @@
+{
+  "id": "b26",
+  "title": "Poor Charlie's Almanack",
+  "author": {"en": "Charlie Munger, edited by Peter D. Kaufman", "fa": "Charlie Munger، ویراستهٔ Peter D. Kaufman"},
+  "year": 2005,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "Multidisciplinary mental models", "fa": "مدل‌های ذهنی چندرشته‌ای"},
+  "badge": {"en": "Invert Your Plan", "fa": "برنامه‌ات را وارونه کن"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b26a1",
+      "source": "Talk: A Lesson on Elementary, Worldly Wisdom (the latticework)",
+      "text": {
+        "en": "Your engineering models (feedback loops, bottlenecks, compounding) are already points on the lattice. Feynman notes in your own language add finance and psychology models beside them.",
+        "fa": "مدل‌های مهندسی‌ات (حلقهٔ بازخورد، گلوگاه، مرکب شدن) همین حالا نقطه‌هایی روی شبکه‌اند. یادداشت‌های فاینمنی به زبان خودت، مدل‌های مالی و روان‌شناسی را کنارشان می‌گذارد."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b26a2",
+      "source": "Mungerisms: invert, always invert",
+      "text": {
+        "en": "Invert the roadmap: ask what would guarantee you lose the €40k, such as trading tired, FOMO, and a bet you cannot explain. Then write those into the decision journal as rules to avoid.",
+        "fa": "نقشهٔ راه را وارونه کن: بپرس چه چیزی از دست رفتن ۴۰ هزار یورو را تضمین می‌کند، مثل معاملهٔ خسته، FOMO و شرطی که نمی‌توانی توضیحش بدهی. بعد آن‌ها را به‌عنوان قواعد پرهیز در دفتر تصمیم بنویس."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26ak1",
+      "type": "tap",
+      "source": "b26a2",
+      "prompt": {"en": "What does inversion ask you to write into the decision journal?", "fa": "وارونه‌سازی می‌گوید چه چیزی در دفتر تصمیم بنویسی؟"},
+      "options": [
+        {"en": "Rules to avoid what would guarantee you lose", "fa": "قواعد پرهیز از آنچه باخت را تضمین می‌کند"},
+        {"en": "A list of stocks to buy next quarter", "fa": "فهرست سهام برای خرید فصل بعد"},
+        {"en": "Your target net worth for the year", "fa": "دارایی خالص هدفت برای امسال"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b26a3",
+      "source": "Talk: The Psychology of Human Misjudgment (lollapalooza effect)",
+      "text": {
+        "en": "Munger's tendencies combine: social proof (a friend bought), incentive bias (someone is selling) and a tired brain make a lollapalooza. A cooling-off rule before any buy breaks the stack.",
+        "fa": "گرایش‌های Munger با هم ترکیب می‌شوند: تأیید اجتماعی (دوستی خریده)، سوگیری انگیزه‌ای (کسی می‌فروشد) و مغز خسته یک lollapalooza می‌سازند. یک قاعدهٔ مهلت پیش از هر خرید، این ترکیب را می‌شکند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26ak2",
+      "type": "tf",
+      "source": "b26a3",
+      "prompt": {"en": "A friend who bought, a seller's pitch and a tired brain are harmless together because each one is small.", "fa": "دوستی که خریده، پیشنهاد یک فروشنده و مغز خسته با هم بی‌خطرند، چون هر کدام کوچک است."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b26a4",
+      "source": "Ch. 2, Investing Principles Checklist (circle of competence, patience)",
+      "text": {
+        "en": "Stay in your circle of competence: software and AI products are inside it, picking single stocks is not yet. Wait patiently with index investing and read while the few big chances come.",
+        "fa": "در دایرهٔ شایستگی‌ات بمان: نرم‌افزار و محصولات AI داخل آن‌اند، انتخاب تک‌سهم هنوز نه. با سرمایه‌گذاری شاخصی صبورانه منتظر بمان و بخوان تا آن چند فرصت بزرگ برسد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26ak3",
+      "type": "tap",
+      "source": "b26a4",
+      "prompt": {"en": "What is inside your circle of competence right now?", "fa": "همین حالا چه چیزی داخل دایرهٔ شایستگی‌ات است؟"},
+      "options": [
+        {"en": "Software and AI products", "fa": "نرم‌افزار و محصولات AI"},
+        {"en": "Picking single stocks", "fa": "انتخاب تک‌سهم"},
+        {"en": "Timing the market", "fa": "زمان‌بندی بازار"}
+      ],
+      "answer": 0
+    }
+  ]
+}

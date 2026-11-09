@@ -1,0 +1,82 @@
+{
+  "id": "b25",
+  "title": "Antifragile",
+  "author": {"en": "Nassim Nicholas Taleb", "fa": "Nassim Nicholas Taleb"},
+  "year": 2012,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "How to gain from volatility instead of losing", "fa": "چطور از نوسان سود ببری نه ضرر"},
+  "badge": {"en": "Barbell Your Life", "fa": "هالتر در زندگی"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b25a1",
+      "source": "Book IV, Ch. 11, the barbell strategy",
+      "text": {
+        "en": "The roadmap already has a barbell shape: capital kept safe in index ETFs, with a small slice in ownership bets. Taleb's rule is nothing in the middle, no half-safe bets you cannot explain.",
+        "fa": "نقشهٔ راه از قبل شکل هالتر دارد: سرمایه در ETF شاخصی امن نگه داشته می‌شود و تکهٔ کوچکی در شرط‌های مالکیتی. قانون Taleb: هیچ‌چیز در میانه، هیچ شرط نیمه‌امنی که نتوانی توضیحش بدهی."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25ak1",
+      "type": "tap",
+      "source": "b25a1",
+      "prompt": {"en": "In Taleb's barbell, what goes in the middle?", "fa": "در هالتر Taleb، چه چیزی در میانه قرار می‌گیرد؟"},
+      "options": [
+        {"en": "Nothing in the middle", "fa": "هیچ‌چیز"},
+        {"en": "Medium-risk funds", "fa": "صندوق‌های با ریسک متوسط"},
+        {"en": "Half of the capital", "fa": "نیمی از سرمایه"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b25a2",
+      "source": "Book IV, Ch. 12, optionality (Thales and the olive presses)",
+      "text": {
+        "en": "Optionality: the first AI product is one cheap try, bounded by a few weekends, with open upside. Run many such tries instead of predicting which one will pay.",
+        "fa": "اختیار (optionality): اولین محصول AI یک تلاش ارزان است، محدود به چند آخر هفته، با سودِ بی‌سقف. به‌جای پیش‌بینی اینکه کدام جواب می‌دهد، چندین تلاش از این دست انجام بده."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25ak2",
+      "type": "tf",
+      "source": "b25a2",
+      "prompt": {"en": "Optionality means you must first predict which AI product will succeed.", "fa": "اختیار یعنی اول باید پیش‌بینی کنی کدام محصول AI موفق می‌شود."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b25a3",
+      "source": "Book VI, via negativa; Book I, Ch. 2, hormesis",
+      "text": {
+        "en": "Via negativa first: remove what harms you (debt, the broker app on your phone, late nights) before adding anything. Hormesis needs recovery, so sleep is part of the strategy, not a luxury.",
+        "fa": "اول via negativa: پیش از افزودن هر چیز، آنچه آسیبت می‌زند را حذف کن (بدهی، اپ کارگزار روی گوشی، شب‌بیداری). Hormesis به بهبودی نیاز دارد، پس خواب بخشی از استراتژی است، نه تجمل."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b25a4",
+      "source": "Book VII, Ch. 23, skin in the game",
+      "text": {
+        "en": "Skin in the game: pick a mentor who has walked the path and shares your downside, not a seller of courses. Re-read the decision journal after six months to see which advice held.",
+        "fa": "پوست در بازی: مربی‌ای انتخاب کن که این مسیر را رفته و در زیانِ تو شریک است، نه فروشندهٔ دوره. دفتر تصمیم را بعد از شش ماه دوباره بخوان تا ببینی کدام توصیه درست از آب درآمد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25ak3",
+      "type": "tap",
+      "source": "b25a4",
+      "prompt": {"en": "Which mentor has skin in the game?", "fa": "کدام مربی پوست در بازی دارد؟"},
+      "options": [
+        {"en": "One who has walked the path and shares your downside", "fa": "کسی که مسیر را رفته و در زیانِ تو شریک است"},
+        {"en": "One who sells a course about the path", "fa": "کسی که دوره‌ای دربارهٔ مسیر می‌فروشد"},
+        {"en": "One who follows markets every day", "fa": "کسی که هر روز بازار را دنبال می‌کند"}
+      ],
+      "answer": 0
+    }
+  ]
+}

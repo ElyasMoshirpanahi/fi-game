@@ -1,0 +1,47 @@
+{
+  "id": "b01",
+  "title": "The Psychology of Money",
+  "author": {"en": "Morgan Housel", "fa": "Morgan Housel"},
+  "year": 2020,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "Behaviour matters more than formulas", "fa": "رفتار مهم‌تر از فرمول است"},
+  "badge": {"en": "Enough, defined", "fa": "«کافی»، تعریف‌شده"},
+  "items": [
+    {"kind": "card", "id": "b01a1", "source": "ch. 5, Getting Wealthy vs. Staying Wealthy", "text": {
+      "en": "Startup equity is Housel's getting-wealthy skill: risk and optimism. Your index core is the staying-wealthy skill, so decide before you sign what share of your €40k never goes into one bet.",
+      "fa": "سهام استارتاپ همان مهارت «ثروتمند شدن» Housel است: ریسک و خوش‌بینی. هستهٔ شاخصی‌ات مهارت «ثروتمند ماندن» است، پس پیش از امضا تصمیم بگیر چه سهمی از ۴۰ هزار یورویت هرگز وارد یک شرط‌بندی واحد نشود."
+    }},
+    {"kind": "card", "id": "b01a2", "source": "ch. 13, Room for Error", "text": {
+      "en": "Room for error, applied: before you open a broker account in the Netherlands, keep enough cash for months of expenses so a market drop never forces you to sell.",
+      "fa": "حاشیهٔ خطا در عمل: پیش از باز کردن حساب کارگزاری در هلند، آن‌قدر پول نقد برای چند ماه هزینه نگه دار که هیچ سقوط بازاری تو را مجبور به فروش نکند."
+    }},
+    {"kind": "check", "id": "b01ak1", "type": "tap", "source": "b01a1",
+      "prompt": {"en": "Applying Housel, which skill does your startup equity belong to?", "fa": "با نگاه Housel، سهام استارتاپ تو به کدام مهارت تعلق دارد؟"},
+      "options": [
+        {"en": "Getting wealthy: risk and optimism", "fa": "ثروتمند شدن: ریسک و خوش‌بینی"},
+        {"en": "Staying wealthy: survival", "fa": "ثروتمند ماندن: بقا"},
+        {"en": "Neither, it is pure luck", "fa": "هیچ‌کدام، فقط شانس است"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b01a3", "source": "ch. 3, Never Enough; ch. 7, Freedom", "text": {
+      "en": "Housel's 'enough' is a number you choose yourself. Write yours down: the roadmap's version is 25 times annual expenses, and what it buys is control over your time.",
+      "fa": "«کافیِ» Housel عددی است که خودت انتخاب می‌کنی. عددت را بنویس: نسخهٔ نقشهٔ راه ۲۵ برابر هزینهٔ سالانه است، و چیزی که می‌خرد کنترل بر زمان خودت است."
+    }},
+    {"kind": "check", "id": "b01ak2", "type": "tf", "source": "b01a2",
+      "prompt": {"en": "Housel's room for error means moving all your cash into the market the day you get a BSN.", "fa": "حاشیهٔ خطای Housel یعنی همان روزی که BSN می‌گیری همهٔ پول نقدت را وارد بازار کنی."},
+      "answer": false},
+    {"kind": "card", "id": "b01a4", "source": "ch. 9, Wealth is What You Don't See", "text": {
+      "en": "A Dutch salary will tempt you to show it. Wealth is the raise you invest instead of spend, so set the monthly index purchase to run automatically before your lifestyle grows.",
+      "fa": "حقوق هلندی وسوسه‌ات می‌کند که نشانش بدهی. ثروت همان افزایش حقوقی است که به جای خرج کردن سرمایه‌گذاری می‌کنی، پس خرید ماهانهٔ شاخصی را پیش از بزرگ شدن سبک زندگی‌ات خودکار کن."
+    }},
+    {"kind": "check", "id": "b01ak3", "type": "tap", "source": "b01a3",
+      "prompt": {"en": "What is Housel's 'enough', applied to you?", "fa": "«کافیِ» Housel برای تو چیست؟"},
+      "options": [
+        {"en": "A number you choose yourself", "fa": "عددی که خودت انتخاب می‌کنی"},
+        {"en": "The average market return", "fa": "میانگین بازده بازار"},
+        {"en": "Whatever your colleagues have", "fa": "هرچه همکارانت دارند"}
+      ],
+      "answer": 0}
+  ]
+}

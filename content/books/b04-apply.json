@@ -1,0 +1,47 @@
+{
+  "id": "b04",
+  "title": "The Richest Man in Babylon",
+  "author": {"en": "George S. Clason", "fa": "George S. Clason"},
+  "year": 1926,
+  "stage": 1,
+  "must": false,
+  "why": {"en": "Short, classic, the principles of saving", "fa": "کوتاه، کلاسیک، اصول پس‌انداز"},
+  "badge": {"en": "One-tenth, automated", "fa": "یک‌دهم، خودکار"},
+  "items": [
+    {"kind": "card", "id": "b04a1", "source": "First Cure, Start thy purse to fattening", "text": {
+      "en": "Pay yourself first, Dutch edition: the day salary lands, at least one-tenth moves to the broker before rent or anything else. Automate it so Arkad's rule never needs willpower.",
+      "fa": "اول به خودت بپرداز، نسخهٔ هلندی: روزی که حقوق می‌رسد، دست‌کم یک‌دهم پیش از اجاره یا هر چیز دیگر به کارگزار می‌رود. خودکارش کن تا قاعدهٔ Arkad هرگز به اراده نیاز نداشته باشد."
+    }},
+    {"kind": "card", "id": "b04a2", "source": "Second Cure, Control thy expenditures", "text": {
+      "en": "Expenses grow to meet income unless you protest. Write a budget before your first Dutch paycheck, because new rent and a new life will try to absorb the whole raise.",
+      "fa": "هزینه‌ها آن‌قدر رشد می‌کنند که به درآمد برسند، مگر اینکه مقاومت کنی. پیش از اولین حقوق هلندی بودجه بنویس، چون اجارهٔ تازه و زندگی تازه می‌خواهند کل افزایش حقوق را ببلعند."
+    }},
+    {"kind": "check", "id": "b04ak1", "type": "tap", "source": "b04a1",
+      "prompt": {"en": "Applying Arkad's first cure, what happens the day salary lands?", "fa": "با درمان اول Arkad، روزی که حقوق می‌رسد چه می‌شود؟"},
+      "options": [
+        {"en": "Rent is paid, then whatever is left is saved", "fa": "اجاره پرداخت می‌شود، بعد هرچه ماند پس‌انداز"},
+        {"en": "At least one-tenth moves to the broker first", "fa": "اول دست‌کم یک‌دهم به کارگزار می‌رود"},
+        {"en": "The whole salary waits in a current account", "fa": "کل حقوق در حساب جاری می‌ماند"}
+      ],
+      "answer": 1},
+    {"kind": "card", "id": "b04a3", "source": "Fourth Cure, Guard thy treasures from loss", "text": {
+      "en": "Guard thy treasure from loss: Arkad invests only where the principal is safe. This cure lives in your 20 percent of deliberate bets, so before funding a friend's startup ask the experienced first.",
+      "fa": "گنجت را از زیان حفظ کن: Arkad فقط جایی سرمایه‌گذاری می‌کند که اصل پول امن باشد. این درمان در ۲۰ درصد شرط‌بندی‌های آگاهانه‌ات زندگی می‌کند، پس پیش از سرمایه‌گذاری در استارتاپ یک دوست، اول از باتجربه‌ها بپرس."
+    }},
+    {"kind": "check", "id": "b04ak2", "type": "tf", "source": "b04a2",
+      "prompt": {"en": "Clason's second cure means the budget can wait until your income is higher.", "fa": "درمان دوم Clason یعنی بودجه می‌تواند تا بالاتر رفتن درآمد صبر کند."},
+      "answer": false},
+    {"kind": "card", "id": "b04a4", "source": "Seventh Cure, Increase thy ability to earn", "text": {
+      "en": "Increase thy ability to earn: for you that is 2 books a month with a page of notes, and shipping a small AI product. Both raise what one hour of your work is worth.",
+      "fa": "توان درآمدزایی‌ات را افزایش بده: برای تو یعنی ۲ کتاب در ماه با یک صفحه یادداشت، و عرضهٔ یک محصول کوچک AI. هر دو ارزش یک ساعت کار تو را بالا می‌برند."
+    }},
+    {"kind": "check", "id": "b04ak3", "type": "tap", "source": "b04a3",
+      "prompt": {"en": "Where does Clason's fourth cure apply in your portfolio?", "fa": "درمان چهارم Clason در سبد تو کجا به کار می‌رود؟"},
+      "options": [
+        {"en": "The 20 percent of deliberate bets", "fa": "۲۰ درصد شرط‌بندی‌های آگاهانه"},
+        {"en": "The index ETF core", "fa": "هستهٔ ETF شاخصی"},
+        {"en": "Your emergency cash", "fa": "پول نقد اضطراری‌ات"}
+      ],
+      "answer": 0}
+  ]
+}

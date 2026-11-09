@@ -1,0 +1,47 @@
+{
+  "id": "b20",
+  "title": "The Lean Startup",
+  "author": {"en": "Eric Ries", "fa": "Eric Ries"},
+  "year": 2011,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "MVP and fast learning", "fa": "MVP و یادگیری سریع"},
+  "badge": {"en": "Smallest Paid Version", "fa": "کوچک‌ترین نسخهٔ پولی"},
+  "items": [
+    {"kind": "card", "id": "b20a1", "source": "Chapter 6, Test: the minimum viable product", "text": {
+      "en": "Your first AI product is an MVP, not a platform: the smallest version that starts Build-Measure-Learn. Like Dropbox's demo video, a landing page with a price can test demand before you write the model code.",
+      "fa": "اولین محصول AI تو یک MVP است، نه یک پلتفرم: کوچک‌ترین نسخه‌ای که Build-Measure-Learn را راه می‌اندازد. مثل ویدئوی دموی Dropbox، یک صفحهٔ فرود با قیمت می‌تواند پیش از نوشتن کد مدل، تقاضا را بسنجد."
+    }},
+    {"kind": "card", "id": "b20a2", "source": "Chapter 3, Learn: validated learning versus waste", "text": {
+      "en": "Count only validated learning as progress: a real person paying real money. Shipping features on schedule feels productive, but without customer data it is waste.",
+      "fa": "فقط یادگیری اعتبارسنجی‌شده را پیشرفت حساب کن: یک آدم واقعی که پول واقعی می‌دهد. تحویل به‌موقع قابلیت‌ها حس بهره‌وری می‌دهد، اما بدون دادهٔ مشتری اتلاف است."
+    }},
+    {"kind": "check", "id": "b20ak1", "type": "tap", "source": "b20a1",
+      "prompt": {"en": "What makes your first AI product an MVP in Ries's sense?", "fa": "چه چیزی اولین محصول AI تو را به معنای Ries یک MVP می‌کند؟"},
+      "options": [
+        {"en": "It is the smallest version that starts Build-Measure-Learn", "fa": "کوچک‌ترین نسخه‌ای است که Build-Measure-Learn را راه می‌اندازد"},
+        {"en": "It has every feature a competitor has", "fa": "همهٔ قابلیت‌های رقیب را دارد"},
+        {"en": "It stays free until it is polished", "fa": "تا صیقل خوردن رایگان می‌ماند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b20a3", "source": "Chapter 7, Measure: innovation accounting, actionable not vanity metrics", "text": {
+      "en": "Track actionable metrics, not vanity ones: how many of this week's sign-ups paid, not total visitors. Your €100 goal is itself a cohort metric: paying users times price.",
+      "fa": "معیارهای عمل‌پذیر را دنبال کن، نه پوچ را: چند نفر از ثبت‌نام‌های این هفته پول دادند، نه تعداد کل بازدیدکننده‌ها. هدف ۱۰۰ یورویی‌ات خودش یک معیار cohort است: کاربران پولی ضرب در قیمت."
+    }},
+    {"kind": "check", "id": "b20ak2", "type": "tf", "source": "b20a2",
+      "prompt": {"en": "Shipping features on schedule counts as validated learning.", "fa": "تحویل به‌موقع قابلیت‌ها یادگیری اعتبارسنجی‌شده محسوب می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b20a4", "source": "Chapter 8, Pivot or Persevere: a structured course correction", "text": {
+      "en": "Set a date to decide pivot or persevere, and write the decision in your decision journal. A pivot is a structured correction of one hypothesis, not a new idea every weekend.",
+      "fa": "برای تصمیم pivot یا ادامه تاریخ بگذار و تصمیم را در دفتر تصمیمت بنویس. pivot تصحیح ساختاریافتهٔ یک فرضیه است، نه یک ایدهٔ تازه در هر آخر هفته."
+    }},
+    {"kind": "check", "id": "b20ak3", "type": "tap", "source": "b20a3",
+      "prompt": {"en": "Which number is an actionable metric for your €100 goal?", "fa": "کدام عدد برای هدف ۱۰۰ یورویی‌ات معیار عمل‌پذیر است؟"},
+      "options": [
+        {"en": "Total visitors this month", "fa": "تعداد کل بازدیدکننده‌های این ماه"},
+        {"en": "How many of this week's sign-ups paid", "fa": "چند نفر از ثبت‌نام‌های این هفته پول دادند"},
+        {"en": "Followers on social media", "fa": "دنبال‌کننده‌ها در شبکه‌های اجتماعی"}
+      ],
+      "answer": 1}
+  ]
+}

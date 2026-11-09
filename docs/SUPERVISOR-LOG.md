@@ -105,3 +105,12 @@ Append-only. Step, start time, what was produced, test results, open questions.
 ## Post-ship: bookmarks (owner request, 2026-11-10, decision 21)
 - Test first (test/bookmarks.test.mjs, 7 tests red), then engine actions TOGGLE_BOOKMARK, OPEN_AT, OPEN_BOOKMARKS, bookmarks in DURABLE, a bookmark button on every Card, a Bookmarks button with count on the Path, a Bookmarks screen with Open and Remove. Glossary gains Bookmark; ADR-0008 action and event lists updated.
 - Verified in Chrome: toggle, storage under fi-roadmap-v1, reload keeps it, Open reopens the Station at that Card. Tests: 356 green.
+
+## Sections (owner request, 2026-11-10, decisions 22 to 29)
+- /grilling: 7 questions, all answered by the owner (Basics = Stations 1 to 6; 3 Units per book with a new "Put it to work" Unit; reading order first then stage order; free to jump with a picker; Unit 20 XP and Section badge + 30 XP; v1 lit books count as Units 1 and 2; Shelf stays as index). UI mix chosen from prototypes/ui-sections.html (A's road + B's banner).
+- /domain-modeling: Section, Unit, Fare (up to three), Shelf, Book Unit updated in GLOSSARY.md; ADR-0009 sections and migration; ADR-0007 amended.
+- /prototype: two UI variants, verdict in docs/prototypes/ui-sections-verdict.md, file on branch prototype/ui-sections.
+- /tdd: test/sections.test.mjs (structure, order, three Units, split integrity, rewards, Library rule, migration) written red first.
+- Content: 28 "Put it to work" units by four agents, all validated. scripts/build-books.mjs v2 splits each book and adds Unit 3: 84 Units.
+- Play-test: docs/playtests/sections.md. Four bugs found and fixed (year grouping, Shelf unreachable, Shelf jump value, Tools pill styled as a node).
+- Tests: 537 green. index.html 394 KB (cap 400).

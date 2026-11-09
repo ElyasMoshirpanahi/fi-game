@@ -1,0 +1,47 @@
+{
+  "id": "b07",
+  "title": "The Little Book of Common Sense Investing",
+  "author": {"en": "John C. Bogle", "fa": "John C. Bogle"},
+  "year": 2007,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "The father of the index fund; short and decisive", "fa": "پدر صندوق شاخصی؛ کوتاه و قاطع"},
+  "badge": {"en": "Costs, controlled", "fa": "هزینه‌ها، مهارشده"},
+  "items": [
+    {"kind": "card", "id": "b07a1", "source": "ch. 4, The relentless rules of humble arithmetic (you can control costs)", "text": {
+      "en": "You cannot control the market, but you can control costs. Before you pick a broker in the Netherlands, compare an ETF's expense ratio plus the broker's fees per order and per year.",
+      "fa": "بازار را نمی‌توانی کنترل کنی، اما هزینه‌ها را می‌توانی. پیش از انتخاب کارگزار در هلند، نسبت هزینهٔ ETF به‌علاوهٔ کارمزد کارگزار به ازای هر سفارش و هر سال را مقایسه کن."
+    }},
+    {"kind": "card", "id": "b07a2", "source": "ch. 1, A Parable (the Gotrocks family and the Helpers)", "text": {
+      "en": "The Helpers are anyone paid a fee to move your money around. If a Dutch bank offers to manage your €40k for a yearly percentage, that percentage is exactly what the Gotrocks family lost.",
+      "fa": "«کمک‌کارها» هر کسی‌اند که برای جابه‌جا کردن پولت کارمزد می‌گیرد. اگر یک بانک هلندی پیشنهاد داد ۴۰ هزار یورویت را در ازای درصدی سالانه مدیریت کند، آن درصد دقیقاً همان است که خانوادهٔ Gotrocks از دست داد."
+    }},
+    {"kind": "check", "id": "b07ak1", "type": "tap", "source": "b07a1",
+      "prompt": {"en": "Applying Bogle, what do you compare before choosing a broker?", "fa": "با نگاه Bogle، پیش از انتخاب کارگزار چه چیزی را مقایسه می‌کنی؟"},
+      "options": [
+        {"en": "Last year's best-performing fund", "fa": "بهترین صندوق پارسال"},
+        {"en": "Expense ratio plus fees per order and per year", "fa": "نسبت هزینه به‌علاوهٔ کارمزد هر سفارش و هر سال"},
+        {"en": "The app's star rating", "fa": "امتیاز ستاره‌ای اپ"}
+      ],
+      "answer": 1},
+    {"kind": "card", "id": "b07a3", "source": "ch. 8 and 9, Selecting Long-Term Winners; Yesterday's Winners, Tomorrow's Losers", "text": {
+      "en": "Picking funds by past performance fails. When a broker app ranks last year's top ETFs by return, that ranking is the trap Bogle describes, not a shopping list.",
+      "fa": "انتخاب صندوق بر اساس عملکرد گذشته جواب نمی‌دهد. وقتی اپ کارگزاری ETFهای برتر پارسال را بر اساس بازده رتبه‌بندی می‌کند، آن رتبه‌بندی همان تلهٔ Bogle است، نه فهرست خرید."
+    }},
+    {"kind": "check", "id": "b07ak2", "type": "tf", "source": "b07a2",
+      "prompt": {"en": "In Bogle's parable, a bank that manages your money for a yearly percentage is a Helper.", "fa": "در حکایت Bogle، بانکی که پولت را در ازای درصدی سالانه مدیریت می‌کند یک «کمک‌کار» است."},
+      "answer": true},
+    {"kind": "card", "id": "b07a4", "source": "ch. 18, What Should I Do Now? (stay the course)", "text": {
+      "en": "Stay the course means the monthly purchase of the index core continues through the move, the new job and the next crash. Change the plan only in writing, in the decision journal, never in a bad week.",
+      "fa": "در مسیر ماندن یعنی خرید ماهانهٔ هستهٔ شاخصی در طول جابه‌جایی، شغل جدید و سقوط بعدی ادامه پیدا می‌کند. برنامه را فقط کتبی، در دفتر تصمیم، عوض کن، نه در یک هفتهٔ بد."
+    }},
+    {"kind": "check", "id": "b07ak3", "type": "tap", "source": "b07a3",
+      "prompt": {"en": "In Bogle's terms, what is a broker app's ranking of last year's top ETFs?", "fa": "به زبان Bogle، رتبه‌بندی اپ کارگزاری از ETFهای برتر پارسال چیست؟"},
+      "options": [
+        {"en": "A reliable guide to next year", "fa": "راهنمای قابل‌اعتماد برای سال بعد"},
+        {"en": "Bogle's recommended list", "fa": "فهرست توصیه‌شدهٔ Bogle"},
+        {"en": "The trap of past performance, not a shopping list", "fa": "تلهٔ عملکرد گذشته، نه فهرست خرید"}
+      ],
+      "answer": 2}
+  ]
+}

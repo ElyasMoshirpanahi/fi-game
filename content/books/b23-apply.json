@@ -1,0 +1,82 @@
+{
+  "id": "b23",
+  "title": "Atomic Habits",
+  "author": {"en": "James Clear", "fa": "James Clear"},
+  "year": 2018,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "Systems instead of willpower", "fa": "سیستم به جای اراده"},
+  "badge": {"en": "Habits That Compound", "fa": "عادت‌هایی که مرکب می‌شوند"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b23a1",
+      "source": "Ch. 1, Forget About Goals, Focus on Systems",
+      "text": {
+        "en": "Treat the daily hour of financial reading as a system, not a goal. Clear's systems-over-goals rule: the hour you repeat matters more than the 2 books a month you aim at.",
+        "fa": "یک ساعت مطالعهٔ مالی روزانه را یک سیستم بدان، نه یک هدف. قانون «سیستم به جای هدف» Clear: ساعتی که هر روز تکرار می‌کنی مهم‌تر از آن ۲ کتاب در ماه است که هدف گرفته‌ای."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b23a2",
+      "source": "Ch. 2, identity-based habits (every action is a vote)",
+      "text": {
+        "en": "Identity first: every Feynman note in your own language is a vote for the person who understands money. Log net worth each quarter as proof of that identity, not as a scoreboard.",
+        "fa": "اول هویت: هر یادداشت فاینمنی به زبان خودت، یک رأی به آدمی است که پول را می‌فهمد. دارایی خالص را هر فصل به‌عنوان مدرکِ آن هویت ثبت کن، نه به‌عنوان جدول امتیاز."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23ak1",
+      "type": "tap",
+      "source": "b23a1",
+      "prompt": {"en": "In Clear's terms, what is the daily hour of financial reading?", "fa": "به زبان Clear، ساعت مطالعهٔ مالی روزانه چیست؟"},
+      "options": [
+        {"en": "A system, not a goal", "fa": "یک سیستم، نه یک هدف"},
+        {"en": "A goal with a deadline", "fa": "هدفی با ضرب‌الاجل"},
+        {"en": "A reward for finishing 2 books", "fa": "پاداشی برای تمام کردن ۲ کتاب"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b23a3",
+      "source": "Ch. 5, habit stacking (make it obvious)",
+      "text": {
+        "en": "Make it obvious with a habit stack: after the morning coffee, open the finance book; after closing the laptop, write one line in the decision journal.",
+        "fa": "با انباشت عادت (habit stacking) آشکارش کن: بعد از قهوهٔ صبح، کتاب مالی را باز کن؛ بعد از بستن لپ‌تاپ، یک خط در دفتر تصمیم بنویس."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23ak2",
+      "type": "tf",
+      "source": "b23a3",
+      "prompt": {"en": "Habit stacking means doing the new habit whenever a free moment appears.", "fa": "انباشت عادت یعنی عادت تازه را هر وقت لحظه‌ای خالی پیدا شد انجام بدهی."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b23a4",
+      "source": "Ch. 3, the inverted laws; Ch. 16, Never Miss Twice",
+      "text": {
+        "en": "Invert the laws to break FOMO trading: make it difficult (no broker app on your phone) and unsatisfying. If a tired evening skips the reading hour, never miss twice.",
+        "fa": "برای ترک معاملهٔ از سر FOMO قانون‌ها را وارونه کن: دشوارش کن (اپ کارگزار روی گوشی‌ات نباشد) و نارضایت‌بخش. اگر یک شبِ خسته ساعت مطالعه را از دست داد، هرگز دو بار پشت سر هم از دست نده."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23ak3",
+      "type": "tap",
+      "source": "b23a4",
+      "prompt": {"en": "Which inverted law stops FOMO trading on a tired evening?", "fa": "کدام قانون وارونه، معاملهٔ از سر FOMO را در یک شب خسته متوقف می‌کند؟"},
+      "options": [
+        {"en": "Make it difficult: no broker app on your phone", "fa": "دشوارش کن: اپ کارگزار روی گوشی‌ات نباشد"},
+        {"en": "Make it attractive: follow more crypto accounts", "fa": "جذابش کن: اکانت‌های کریپتوی بیشتری دنبال کن"},
+        {"en": "Make it obvious: keep price charts open", "fa": "آشکارش کن: نمودار قیمت را باز نگه دار"}
+      ],
+      "answer": 0
+    }
+  ]
+}
