@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FI Roadmap</title>
+<meta name="description" content="A dual-language (Farsi and English) learning game built from a roadmap to financial independence. Educational, not investment advice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* render module styles arrive with Prompt 0 */
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script data-module="content">
+// ---------------------------------------------------------------------------
+// content: every Station, Card, Check and ui string, in fa and en (ADR-0002).
+// Cards marked `addition: true` come from docs/research/roadmap-facts.md with
+// the owner's approval, not from the source HTML; `cite` is their source.
+// ---------------------------------------------------------------------------
+FI.content = (() => {
+  const ui = {
+    en: {
+      title: 'FI Roadmap', subtitle: 'Financial independence with capital and knowledge',
+      disclaimer: 'Educational, not investment advice',
+      modeFA: 'FA', modeEN: 'EN', modeBoth: 'Both',
+      coins: 'coins', xp: 'XP', badge: 'Badge',
+      flip: 'Flip', knew: 'Knew it', didnt: "Didn't know",
+      check: 'Check', continue: 'Continue', back: 'Back to path',
+      correct: 'Correct', wrong: 'Not quite. Try once more.', revealed: 'The answer was',
+      hint: 'From the card', fareTitle: 'Fare', fareIntro: 'Three questions from this station.',
+      farePassed: 'Fare passed. Station lit.', fareFailed: 'Not yet. The missed cards come back first.',
+      lit: 'Lit', ofCards: 'of', returnsNote: 'This card is back because you missed it.',
+      trueLabel: 'True', falseLabel: 'False', orderHelp: 'Tap the items in the right order.',
+      clearOrder: 'Start over', addition: 'Added from research', source: 'Source',
+      mute: 'Sound off', unmute: 'Sound on', reset: 'Reset progress', resetConfirm: 'Erase all progress? This cannot be undone.',
+      cancel: 'Cancel', confirm: 'Erase', stationLocked: 'Not started', path: 'Path',
+    },
+    fa: {
+      title: 'نقشه راه استقلال مالی', subtitle: 'استقلال مالی با سرمایه و دانش',
+      disclaimer: 'آموزشی است، نه توصیه خرید',
+      modeFA: 'فا', modeEN: 'EN', modeBoth: 'هر دو',
+      coins: 'سکه', xp: 'امتیاز', badge: 'نشان',
+      flip: 'برگردان', knew: 'می‌دانستم', didnt: 'نمی‌دانستم',
+      check: 'بررسی', continue: 'ادامه', back: 'بازگشت به مسیر',
+      correct: 'درست', wrong: 'نه دقیقاً. یک بار دیگر.', revealed: 'پاسخ درست',
+      hint: 'از کارت', fareTitle: 'کرایه', fareIntro: 'سه پرسش از همین ایستگاه.',
+      farePassed: 'کرایه پرداخت شد. ایستگاه روشن شد.', fareFailed: 'هنوز نه. اول کارت‌های ازدست‌رفته برمی‌گردند.',
+      lit: 'روشن', ofCards: 'از', returnsNote: 'این کارت برگشته چون آن را از دست دادی.',
+      trueLabel: 'درست', falseLabel: 'نادرست', orderHelp: 'موارد را به ترتیب درست لمس کن.',
+      clearOrder: 'از نو', addition: 'افزوده از پژوهش', source: 'منبع',
+      mute: 'صدا خاموش', unmute: 'صدا روشن', reset: 'پاک کردن پیشرفت', resetConfirm: 'همه پیشرفت پاک شود؟ برگشت‌پذیر نیست.',
+      cancel: 'انصراف', confirm: 'پاک کن', stationLocked: 'شروع نشده', path: 'مسیر',
+    },
+  };
+
+  const T = (en, fa) => ({ en, fa });
+
+  const stations = [
+    {
+      id: 's1', fareSize: 3,
+      name: T('Reality Check', 'واقعیت ریاضی'),
+      badge: T('25x rule', 'قاعده ۲۵ برابر'),
+      items: [
+        { kind: 'card', id: 's1c1', source: 'section 1, bullet 1',
+          text: T('€40k at a 5 to 8 percent real return is about €2 to 3k a year.',
+                  '۴۰ هزار یورو با بازده واقعی ۵–۸٪ ≈ ۲–۳ هزار یورو در سال.') },
+        { kind: 'check', id: 's1k1', type: 'tap', source: 's1c1',
+          prompt: T('€40k at a 5 to 8 percent real return gives roughly how much a year?', '۴۰ هزار یورو با بازده واقعی ۵–۸٪ سالانه تقریباً چقدر می‌دهد؟'),
+          options: [T('€200 to 300', '۲۰۰ تا ۳۰۰ یورو'), T('€2 to 3k', '۲ تا ۳ هزار یورو'), T('€20 to 30k', '۲۰ تا ۳۰ هزار یورو')], answer: 1 },
+        { kind: 'card', id: 's1c2', addition: true, cite: 'https://www.ubs.com/global/en/investment-bank/in-focus/2025/global-investment-returns-yearbook.html', source: 'roadmap-facts row 1',
+          text: T('World equities returned 5.2 percent a year after inflation over 1900 to 2024, and 3.5 percent since 2000. Treat anything above 6 percent real as a best case, not a plan.',
+                  'سهام جهانی از ۱۹۰۰ تا ۲۰۲۴ سالانه ۵٫۲٪ پس از تورم بازده داده و از ۲۰۰۰ به بعد ۳٫۵٪. هر چیزی بالای ۶٪ واقعی را بهترین حالت بدان، نه برنامه.') },
+        { kind: 'check', id: 's1k2', type: 'tf', source: 's1c2',
+          prompt: T('An 8 percent real return is the long-run world average for equities.', 'بازده واقعی ۸٪ میانگین بلندمدت سهام جهانی است.'), answer: false },
+        { kind: 'card', id: 's1c3', source: 'section 1, bullet 2',
+          text: T('Living from "money from money" needs capital of at least 25 times annual expenses: about €600k to 1M for Europe.',
+                  'زندگی از «پول از پول» → سرمایه ≥ ۲۵ برابر هزینه سالانه (≈ ۶۰۰ هزار تا ۱ میلیون یورو برای اروپا).') },
+        { kind: 'card', id: 's1c4', addition: true, cite: 'https://www.financialplanningassociation.org/sites/default/files/2021-04/MAR04%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf', source: 'roadmap-facts row 2',
+          text: T('The 25x rule is the 4 percent rule from Bengen (1994) and the Trinity study (1998). It was built on US returns, a 30-year horizon and no taxes, so for a European early retiree 25x is a floor, not a target.',
+                  'قاعده ۲۵ برابر همان قاعده ۴٪ بنگن (۱۹۹۴) و مطالعه ترینیتی (۱۹۹۸) است. بر پایه بازده آمریکا، افق ۳۰ ساله و بدون مالیات ساخته شده؛ پس برای بازنشسته زودهنگام اروپایی ۲۵ برابر کف است، نه هدف.') },
+        { kind: 'card', id: 's1c5', addition: true, cite: 'docs/research/roadmap-facts.md row 3', source: 'roadmap-facts row 3',
+          text: T('At 25x, €600k to 1M corresponds to spending €24k to 40k a year. Adjust to your own budget.',
+                  'با ۲۵ برابر، ۶۰۰ هزار تا ۱ میلیون یورو یعنی هزینه سالانه ۲۴ تا ۴۰ هزار یورو. با بودجه خودت تنظیم کن.') },
+        { kind: 'check', id: 's1k3', type: 'tf', source: 's1c3',
+          prompt: T('Capital of 10 times annual expenses is enough to live from money from money.', 'سرمایه ۱۰ برابر هزینه سالانه برای زندگی از «پول از پول» کافی است.'), answer: false },
+        { kind: 'check', id: 's1k4', type: 'tap', source: 's1c4',
+          prompt: T('Where does the 25x rule come from?', 'قاعده ۲۵ برابر از کجا آمده؟'),
+          options: [T('Bengen 1994 and the Trinity study 1998', 'بنگن ۱۹۹۴ و مطالعه ترینیتی ۱۹۹۸'), T('Dutch Box 3 tax law', 'قانون مالیاتی Box 3 هلند'), T('A rule of thumb from Reddit', 'یک قاعده سرانگشتی از ردیت')], answer: 0 },
+        { kind: 'card', id: 's1c6', source: 'section 1, bullet 3',
+          text: T('That number is not built by investing €40k. It is built by ownership: startup equity, a product, a business.',
+                  'این عدد با سرمایه‌گذاریِ ۴۰ هزار ساخته نمی‌شود؛ با مالکیت ساخته می‌شود (سهم استارتاپ، محصول، کسب‌وکار).') },
+        { kind: 'card', id: 's1c7', source: 'section 1, bullet 4',
+          text: T('Investing has one job: making the wealth you built permanent.',
+                  'سرمایه‌گذاری نقشش این است که ثروتِ ساخته‌شده را دائمی کند.') },
+        { kind: 'check', id: 's1k5', type: 'tap', source: 's1c6',
+          prompt: T('According to the roadmap, what builds the capital?', 'طبق نقشه راه، سرمایه با چه چیزی ساخته می‌شود؟'),
+          options: [T('Investing €40k well', 'سرمایه‌گذاری خوبِ ۴۰ هزار'), T('Ownership', 'مالکیت'), T('Saving harder', 'پس‌انداز بیشتر')], answer: 1 },
+        { kind: 'check', id: 's1k6', type: 'tap', source: 's1c7',
+          prompt: T('What is the role of investing?', 'نقش سرمایه‌گذاری چیست؟'),
+          options: [T('Build the wealth', 'ساختن ثروت'), T('Make built wealth permanent', 'دائمی کردن ثروتِ ساخته‌شده'), T('Beat the market', 'شکست دادن بازار')], answer: 1 },
+      ],
+    },
+    {
+      id: 's2', fareSize: 3,
+      name: T('Knowledge Roadmap', 'نقشه راه دانش'),
+      badge: T('Core-satellite', 'Core-satellite'),
+      items: [
+        { kind: 'card', id: 's2c1', source: 'section 2, heading',
+          text: T('Five Knowledge Stages, each 2 to 3 months: Foundations, Asset classes, Valuation, Tax and geography, Ownership.',
+                  'پنج مرحله، هر کدام ۲–۳ ماه: پایه‌ها، طبقات دارایی، ارزش‌گذاری، مالیات و جغرافیا، مالکیت.') },
+        { kind: 'check', id: 's2k1', type: 'order', source: 's2c1',
+          prompt: T('Put the five Knowledge Stages in order.', 'پنج مرحله را به ترتیب بچین.'),
+          options: [T('Valuation', 'ارزش‌گذاری'), T('Foundations', 'پایه‌ها'), T('Ownership', 'مالکیت'), T('Asset classes', 'طبقات دارایی'), T('Tax and geography', 'مالیات و جغرافیا')], answer: [1, 3, 0, 4, 2] },
+        { kind: 'card', id: 's2c2', source: 'section 2, stage 1',
+          text: T('Stage 1, Foundations: compounding, inflation, risk and return, diversification, fees, liquidity. Read The Psychology of Money (Housel) and The Simple Path to Wealth (Collins).',
+                  'مرحله ۱، پایه‌ها: مرکب شدن، تورم، ریسک/بازده، تنوع، کارمزد، نقدشوندگی. منبع: The Psychology of Money (Housel) و The Simple Path to Wealth (Collins).') },
+        { kind: 'card', id: 's2c3', source: 'section 2, stage 2',
+          text: T('Stage 2, Asset classes and a global portfolio: index ETFs (VWCE / IWDA), bonds, REITs, gold, a small share of crypto. Core-satellite: 80 percent index, 20 percent deliberate bets. Read A Random Walk Down Wall Street (Malkiel).',
+                  'مرحله ۲، طبقات دارایی و سبد جهانی: ETF شاخصی (VWCE / IWDA)، اوراق، REIT، طلا، کریپتو (درصد کم). مدل core-satellite: ۸۰٪ شاخصی / ۲۰٪ شرط آگاهانه. منبع: A Random Walk Down Wall Street (Malkiel).') },
+        { kind: 'check', id: 's2k2', type: 'tap', source: 's2c3',
+          prompt: T('In core-satellite, what share is the index core?', 'در core-satellite هسته شاخصی چند درصد است؟'),
+          options: [T('50 percent', '۵۰٪'), T('80 percent', '۸۰٪'), T('100 percent', '۱۰۰٪')], answer: 1 },
+        { kind: 'card', id: 's2c4', source: 'section 2, stage 3',
+          text: T('Stage 3, Valuation: financial statements, DCF, unit economics. Damodaran’s free course (NYU / YouTube) and Buffett’s letters.',
+                  'مرحله ۳، ارزش‌گذاری: صورت‌های مالی، DCF، unit economics. دوره رایگان Damodaran (NYU/YouTube)، نامه‌های بافت.') },
+        { kind: 'check', id: 's2k3', type: 'tap', source: 's2c4',
+          prompt: T('Which free resource does the roadmap name for valuation?', 'نقشه راه کدام منبع رایگان را برای ارزش‌گذاری نام می‌برد؟'),
+          options: [T('Damodaran’s course and Buffett’s letters', 'دوره Damodaran و نامه‌های بافت'), T('YC Startup School', 'YC Startup School'), T('belastingdienst.nl', 'belastingdienst.nl')], answer: 0 },
+        { kind: 'card', id: 's2c5', source: 'section 2, stage 4',
+          text: T('Stage 4, Tax and geography: tax residency, Dutch Box 3, tax treaties, broker access. No single good book; use official sources.',
+                  'مرحله ۴، مالیات و جغرافیا: اقامت مالیاتی، Box 3 هلند، معاهدات مالیاتی، دسترسی به کارگزار. کتاب خوبی ندارد؛ منابع رسمی.') },
+        { kind: 'card', id: 's2c6', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/', source: 'roadmap-facts rows 11 to 13',
+          text: T('Box 3 in 2026: the first €59,357 is tax-free (€118,714 with a partner). Deemed returns are 1.28 percent on savings, 6.00 percent on investments, 2.70 percent on debts, taxed at 36 percent. Since July 2025 you may prove a lower real return. A real-return system is planned for 2028.',
+                  'Box 3 در ۲۰۲۶: ۵۹٬۳۵۷ یورو اول معاف است (۱۱۸٬۷۱۴ با شریک). بازده فرضی: ۱٫۲۸٪ پس‌انداز، ۶٫۰۰٪ سرمایه‌گذاری، ۲٫۷۰٪ بدهی، با نرخ ۳۶٪. از ژوئیه ۲۰۲۵ می‌توانی بازده واقعیِ کمتر را اثبات کنی. سامانه بازده واقعی برای ۲۰۲۸ برنامه‌ریزی شده.') },
+        { kind: 'card', id: 's2c7', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility', source: 'roadmap-facts row 15',
+          text: T('30% ruling in 2026: 30 percent of salary tax-free for up to 5 years, salary norm €48,013 (€36,497 under 30 with a master’s). It drops to 27 percent from 2027 for rulings that started in 2024 or later. Your employer applies at the Belastingdienst, not at IND.',
+                  '30% ruling در ۲۰۲۶: ۳۰٪ حقوق تا ۵ سال معاف، حداقل حقوق ۴۸٬۰۱۳ یورو (۳۶٬۴۹۷ زیر ۳۰ سال با کارشناسی ارشد). از ۲۰۲۷ برای حکم‌های شروع‌شده از ۲۰۲۴ به ۲۷٪ می‌رسد. کارفرما در Belastingdienst درخواست می‌دهد، نه IND.') },
+        { kind: 'check', id: 's2k4', type: 'tap', source: 's2c7',
+          prompt: T('Who applies for the 30% ruling, and where?', 'چه کسی و کجا برای 30% ruling درخواست می‌دهد؟'),
+          options: [T('You, at IND', 'خودت، در IND'), T('Your employer, at the Belastingdienst', 'کارفرما، در Belastingdienst'), T('Your broker', 'کارگزارت')], answer: 1 },
+        { kind: 'card', id: 's2c8', source: 'section 2, stage 5',
+          text: T('Stage 5, Ownership: cap table, term sheet, idea validation, angel investing in AI. Read Venture Deals (Feld), The Mom Test, YC Startup School.',
+                  'مرحله ۵، مالکیت: cap table، term sheet، اعتبارسنجی ایده، angel investing در AI. منبع: Venture Deals (Feld)، The Mom Test، YC Startup School.') },
+        { kind: 'card', id: 's2c9', source: 'section 2, note (reworded per roadmap-facts rows 17 and 18)', cite: 'https://www.interactivebrokers.com/en/accounts/countries.php',
+          text: T('Brokers decide by where you live and are tax resident, plus sanctions screening. As an Iran resident you are not on Interactive Brokers’ or DEGIRO’s accepted lists. After Dutch residence with a BSN and a Dutch bank account, both accept applications; an Iranian passport can mean extra compliance checks.',
+                  'کارگزارها بر اساس محل زندگی و اقامت مالیاتی تصمیم می‌گیرند، به‌علاوه بررسی تحریم‌ها. به‌عنوان ساکن ایران در فهرست پذیرش Interactive Brokers یا DEGIRO نیستی. بعد از اقامت هلند با BSN و حساب بانکی هلندی، هر دو درخواست را می‌پذیرند؛ گذرنامه ایرانی می‌تواند بررسی‌های بیشتری بیاورد.') },
+        { kind: 'check', id: 's2k5', type: 'tf', source: 's2c9',
+          prompt: T('A broker account comes before the BSN.', 'حساب کارگزار قبل از BSN باز می‌شود.'), answer: false },
+      ],
+    },
+  ];
+
+  const item = (stationId, id) => {
+    const st = stations.find((s) => s.id === stationId);
+    return st && st.items.find((i) => i.id === id);
+  };
+  const station = (stationId) => stations.find((s) => s.id === stationId);
+
+  const FA_DIGITS = '۰۱۲۳۴۵۶۷۸۹';
+  const faDigits = (str) => String(str).replace(/[0-9]/g, (d) => FA_DIGITS[+d]);
+  const fmt = (n, mode) => {
+    const s = Number(n).toLocaleString('en-US');
+    return mode === 'FA' ? faDigits(s).replace(/,/g, '٬') : s;
+  };
+
+  // Render a {en, fa} pair for a Language Mode. Both mode is EN-led (ADR-0006).
+  const text = (pair, mode) => {
+    if (!pair) return { top: '', under: null };
+    if (mode === 'FA') return { top: pair.fa, under: null };
+    if (mode === 'EN') return { top: pair.en, under: null };
+    return { top: pair.en, under: pair.fa };
+  };
+
+  return { ui, stations, item, station, text, fmt, faDigits };
+})();
+</script>
+
+<script data-module="engine">
+FI.engine = {};
+</script>
+
+<script data-module="store">
+FI.store = {};
+</script>
+
+<script data-module="render">
+FI.render = {};
+</script>
+
+<script data-module="fx">
+FI.fx = {};
+</script>
+
+<script data-module="app">
+// glue arrives with Prompt 0
+</script>
+</body>
+</html>
