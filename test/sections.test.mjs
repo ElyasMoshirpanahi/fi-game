@@ -16,6 +16,7 @@ function passUnit(s, stationId) {
     else if (s.phase === 'correct' || s.phase === 'revealed') s = R(s, { type: 'CONTINUE' });
     else throw new Error(`unexpected phase ${s.phase} in ${stationId}`);
   }
+  if (guard <= 0) throw new Error(`no Fare reached in ${stationId}`);
   for (const id of s.fare.questions) s = R(s, right(stationId, id));
   return s;
 }
@@ -50,9 +51,9 @@ describe('Sections on the Path', () => {
         expect(u, uid).toBeTruthy();
         expect(u.book).toBe(true);
         expect(u.bookId).toBe(sec.bookId);
-        expect(u.xp).toBe(20);
+        expect(u.xp).toBe(20); // decision 26
         const checks = u.items.filter((i) => i.kind === 'check');
-        expect(checks.length, uid).toBeGreaterThanOrEqual(1);
+        expect(checks.length, uid).toBeGreaterThanOrEqual(2); // decision 23: a two-question Fare at least
         expect(u.fareSize, uid).toBeLessThanOrEqual(checks.length);
       }
       const u3 = content.station(`${sec.bookId}u3`);
@@ -78,7 +79,7 @@ describe('Sections on the Path', () => {
   });
 
   it('totalXp sums Units, Section bonuses, Basics Stations and the Milestone', () => {
-    const sum = content.stations.reduce((a, st) => a + st.xp, 0) + books.length * 30 + content.MILESTONE_XP;
+    const sum = content.stations.reduce((a, st) => a + st.xp, 0) + books.length * content.SECTION_XP + content.MILESTONE_XP;
     expect(content.totalXp()).toBe(sum);
   });
 });
@@ -95,7 +96,7 @@ describe('Section rewards (decision 26)', () => {
     s = passUnit(s, 'b01u3');
     expect(s.lit['sec-b01']).toBe(true);
     expect(s.events).toContain('section');
-    expect(s.xp).toBe(60 + 30);
+    expect(s.xp).toBe(3 * content.station('b01u1').xp + content.SECTION_XP);
     expect(content.sectionOf('b01').badge.en).toBeTruthy();
   });
 

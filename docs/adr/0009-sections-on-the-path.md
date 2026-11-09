@@ -19,7 +19,7 @@ content.sectionOf(bookId) -> the book's Section
 content.readingOrder: still book ids; the Library lights when the ten matching Sections are complete
 ```
 
-`scripts/build-books.mjs` reads `content/books/bNN.json` (Units 1 and 2 by splitting the Cards in half and attaching each Check to the half that holds its source Card) and `content/books/bNN-apply.json` (Unit 3), and writes one `BOOKS` array; the content block turns it into stations and sections. A Unit's Fare draws up to three questions; a Unit with two Checks has a two-question Fare.
+`scripts/build-books.mjs` reads `content/books/bNN.json` (Units 1 and 2 by splitting the Cards in half and attaching each Check to the half that holds its source Card) and `content/books/bNN-apply.json` (Unit 3), and writes one `BOOKS` array; the content block turns it into stations and sections. The Card split point moves so that Units 1 and 2 each hold at least two Checks (a Check stays with its source Card); a Unit's Fare draws up to three questions, so these Units have two- or three-question Fares.
 
 ## Migration (decision 27)
 

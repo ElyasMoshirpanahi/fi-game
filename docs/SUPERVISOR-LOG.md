@@ -114,3 +114,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Content: 28 "Put it to work" units by four agents, all validated. scripts/build-books.mjs v2 splits each book and adds Unit 3: 84 Units.
 - Play-test: docs/playtests/sections.md. Four bugs found and fixed (year grouping, Shelf unreachable, Shelf jump value, Tools pill styled as a node).
 - Tests: 537 green. index.html 394 KB (cap 400).
+- /code-review on feat/sections: docs/review/sections-code-review.md (Standards 6 hard, 7 judgement; Spec 2 missing, 5 unasked, 0 wrong). All fixed in the follow-up commit; balanced split gives every Unit 1 and 2 at least two Checks, asserted by test. Tests: 537 green. index.html 393 KB.

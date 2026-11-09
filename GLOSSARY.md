@@ -18,7 +18,7 @@ _Avoid_: lesson, node, step
 
 **Station**:
 One of the six stops on the Path, each built from one section of the source roadmap: Reality Check, Knowledge Roadmap, What NOT to Learn, Getting Better, Next 6 Months, Library. A Station holds Cards, Checks and one Fare.
-_Avoid_: level, lesson, unit, chapter, module, section (reserved for the source HTML)
+_Avoid_: level, lesson, chapter, module ("section" of the source HTML is written out as "source section")
 
 **Lit Station**:
 A Station whose Fare has been passed. A Lit Station shows its Badge and theme colour on the Path and counts toward XP.
