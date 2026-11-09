@@ -151,6 +151,79 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+/* ---- Prompt 3: themes per Station ---- */
+[data-theme="blue"] { --accent: #2563eb; --accent-strong: #1d4ed8; --accent-soft: #e6eefc; }
+[data-theme="red"] { --accent: #dc2626; --accent-strong: #b91c1c; --accent-soft: #fde8e8; }
+[data-theme="green"] { --accent: #16a34a; --accent-strong: #15803d; --accent-soft: #e6f6ec; }
+[data-theme="amber"] { --accent: #d97706; --accent-strong: #b45309; --accent-soft: #fff1dc; }
+[data-theme="purple"] { --accent: #7c3aed; --accent-strong: #6d28d9; --accent-soft: #efe8fd; }
+[data-theme="book"] { --accent: #0f766e; --accent-strong: #0b5d57; --accent-soft: #e6f4f1; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) [data-theme="blue"] { --accent: #60a5fa; --accent-strong: #93c5fd; --accent-soft: #0f2340; }
+  :root:not([data-theme="light"]) [data-theme="red"] { --accent: #f87171; --accent-strong: #fca5a5; --accent-soft: #3a1414; }
+  :root:not([data-theme="light"]) [data-theme="green"] { --accent: #4ade80; --accent-strong: #86efac; --accent-soft: #10301c; }
+  :root:not([data-theme="light"]) [data-theme="amber"] { --accent: #fbbf24; --accent-strong: #fcd34d; --accent-soft: #3a2a0d; }
+  :root:not([data-theme="light"]) [data-theme="purple"] { --accent: #a78bfa; --accent-strong: #c4b5fd; --accent-soft: #26183f; }
+  :root:not([data-theme="light"]) [data-theme="book"] { --accent: #2dd4bf; --accent-strong: #5eead4; --accent-soft: #10302d; }
+}
+/* ---- Path extras ---- */
+.node .tools { margin-top: 8px; display: inline-flex; align-items: center; gap: 5px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 700; color: var(--muted); }
+.node .tools svg { width: 13px; height: 13px; }
+.milestone-chip { margin: 10px 0 0; display: flex; gap: 10px; align-items: center; background: var(--gold-soft); color: var(--gold-strong); border-radius: 12px; padding: 10px 14px; font-weight: 700; font-size: 14px; }
+.milestone-chip svg { width: 18px; height: 18px; flex: 0 0 auto; }
+/* ---- Tools screen ---- */
+.ttitle { margin: 0; font-size: 20px; flex: 1; }
+.tools .panel { margin-bottom: 14px; }
+.widget { margin-top: 6px; }
+.srow { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; margin: 12px 0 4px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.srow output { font-weight: 800; color: var(--text); }
+.srow input { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+.sliders .out { margin: 6px 0 14px; } .sliders .out b { display: block; font-size: 28px; letter-spacing: -.01em; } .sliders .out small { color: var(--muted); font-weight: 600; }
+.habitgrid { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.habitgrid th { font-size: 11px; color: var(--muted); font-weight: 700; padding: 4px 2px; text-align: start; }
+.habitgrid th[scope="row"] { width: 34%; font-size: 12px; }
+.habitgrid td { padding: 3px 2px; text-align: center; }
+.cell { width: 100%; aspect-ratio: 1; max-width: 36px; border-radius: 9px; border: 2px solid var(--line); background: var(--card); display: inline-grid; place-items: center; padding: 0; }
+.cell svg { width: 16px; height: 16px; color: #fff; }
+.cell.on { background: var(--accent); border-color: var(--accent); }
+.journal textarea { width: 100%; font: inherit; color: inherit; background: var(--bg); border: 2px solid var(--line); border-radius: 12px; padding: 12px; resize: vertical; min-height: 120px; }
+.journal textarea:focus { outline: none; border-color: var(--accent); }
+.prog.big { height: 14px; margin-bottom: 4px; }
+.clist h3 { font-size: 15px; margin: 14px 0 8px; }
+.citem { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: start; background: var(--card); border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-bottom: 8px; font-weight: 600; }
+.citem .box { flex: 0 0 auto; width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--line); display: grid; place-items: center; margin-top: 2px; }
+.citem .box svg { width: 14px; height: 14px; color: #fff; }
+.citem.on { border-color: var(--accent); } .citem.on .box { background: var(--accent); border-color: var(--accent); }
+.citem.on .t-en, .citem.on .t-fa { text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 5px 11px; font-size: 12px; font-weight: 700; color: var(--muted); }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.filters input { width: 100%; font: inherit; color: inherit; background: var(--bg); border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-top: 6px; }
+.filters input:focus { outline: none; border-color: var(--accent); }
+.order h3 { font-size: 15px; margin: 0 0 8px; }
+.rorder { list-style: none; margin: 0 0 8px; padding: 0; counter-reset: ro; }
+.rorder li { display: flex; gap: 10px; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.rorder .n { width: 22px; height: 22px; border-radius: 50%; background: var(--accent-soft); color: var(--accent-strong); display: grid; place-items: center; font-size: 12px; font-weight: 800; flex: 0 0 auto; }
+.rorder .linkish { flex: 1; text-align: start; text-decoration: none; color: var(--text); font-weight: 600; font-size: 14px; padding: 2px 0; }
+.rorder li.lit .linkish { color: var(--muted); }
+.rorder .tick { width: 20px; height: 20px; border-radius: 50%; background: var(--gold); color: #fff; display: grid; place-items: center; } .rorder .tick svg { width: 12px; height: 12px; }
+.books { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
+.book { border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; background: var(--bg); }
+.book.lit { border-color: var(--gold); }
+.bhead { display: flex; gap: 10px; align-items: flex-start; }
+.bhead .mark, .bookhead .mark { flex: 0 0 auto; font-size: 14px; margin-top: 2px; }
+.bhead b { display: block; font-size: 15px; line-height: 1.3; }
+.meta { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
+.bhead .badge, .bookhead .badge { margin-inline-start: auto; background: var(--card); color: var(--gold-strong); border: 2px solid var(--gold); border-radius: 999px; padding: 1px 8px; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.book .why { margin: 8px 0; font-size: 14px; }
+.brow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.btn.small { padding: 8px 12px; font-size: 14px; display: inline-flex; gap: 6px; align-items: center; border-bottom-width: 3px; }
+.btn.small svg { width: 16px; height: 16px; }
+.bookhead { display: flex; gap: 10px; align-items: flex-start; padding: 0 4px 12px; }
+.bookhead b { display: block; font-size: 16px; line-height: 1.3; }
+.overlay { position: fixed; inset: 0; z-index: 20; background: rgba(0, 0, 0, .55); display: grid; place-items: center; padding: 20px; }
+.overlay .panel { width: min(420px, 100%); }
+.result.milestone .big { background: var(--gold); color: #fff; box-shadow: 0 8px 0 var(--gold-strong); }
 </style>
 </head>
 <body>
@@ -180,6 +253,14 @@ FI.content = (() => {
       clearOrder: 'Start over', addition: 'Added from research', source: 'Source',
       mute: 'Sound off', unmute: 'Sound on', reset: 'Reset progress', resetConfirm: 'Erase all progress? This cannot be undone.',
       cancel: 'Cancel', confirm: 'Erase', stationLocked: 'Not started', path: 'Path',
+      tools: 'Tools', openUnit: 'Open unit', replayUnit: 'Play again', unitLit: 'Lit', bookUnit: 'Book unit', stage: 'Stage',
+      mustRead: 'Must-read', optionalRead: 'Optional', all: 'All', search: 'Search books', noBooks: 'No book matches.',
+      toread: 'To-read', reading: 'Reading', read: 'Read', readingOrder: 'Reading order, first 6 months', booksLit: 'books lit',
+      capital: 'Capital', realReturn: 'Real return', expenses: 'Annual expenses', yearlyIncome: 'a year from capital', target25: '25x target', ofTarget: 'of target',
+      habitsWeek: 'This week', journalPlaceholder: 'Decision, date, and the reason. Re-read in six months.', reviewOn: 'Re-read on', autosaved: 'Saved in this browser',
+      percentDone: 'complete', milestoneTitle: 'Milestone', milestoneBody: 'First \u20ac100 of ownership income. Both checklists are complete.', milestoneDone: 'Keep going',
+      hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
+      d0: 'Mo', d1: 'Tu', d2: 'We', d3: 'Th', d4: 'Fr', d5: 'Sa', d6: 'Su',
     },
     fa: {
       title: 'نقشه راه استقلال مالی', subtitle: 'استقلال مالی با سرمایه و دانش',
@@ -196,6 +277,14 @@ FI.content = (() => {
       clearOrder: 'از نو', addition: 'افزوده از پژوهش', source: 'منبع',
       mute: 'صدا خاموش', unmute: 'صدا روشن', reset: 'پاک کردن پیشرفت', resetConfirm: 'همه پیشرفت پاک شود؟ برگشت‌پذیر نیست.',
       cancel: 'انصراف', confirm: 'پاک کن', stationLocked: 'شروع نشده', path: 'مسیر',
+      tools: 'ابزارها', openUnit: 'باز کردن واحد', replayUnit: 'دوباره بازی کن', unitLit: 'روشن', bookUnit: 'واحد کتاب', stage: 'مرحله',
+      mustRead: 'حتماً بخوان', optionalRead: 'اختیاری', all: 'همه', search: 'جست‌وجوی کتاب', noBooks: 'کتابی پیدا نشد.',
+      toread: 'نخوانده', reading: 'در حال خواندن', read: 'خوانده‌شده', readingOrder: 'ترتیب خواندن، ۶ ماه اول', booksLit: 'کتاب روشن',
+      capital: 'سرمایه', realReturn: 'بازده واقعی', expenses: 'هزینه سالانه', yearlyIncome: 'در سال از سرمایه', target25: 'هدف ۲۵ برابر', ofTarget: 'از هدف',
+      habitsWeek: 'این هفته', journalPlaceholder: 'تصمیم، تاریخ و دلیلش. شش ماه بعد بازخوانی کن.', reviewOn: 'بازخوانی در', autosaved: 'در همین مرورگر ذخیره شد',
+      percentDone: 'انجام شده', milestoneTitle: 'نقطه عطف', milestoneBody: 'اولین ۱۰۰ یورو درآمد مالکیتی. هر دو چک‌لیست کامل شد.', milestoneDone: 'ادامه بده',
+      hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
+      d0: 'دو', d1: 'سه', d2: 'چه', d3: 'پن', d4: 'جم', d5: 'شن', d6: 'یک',
     },
   };
 
@@ -769,13 +858,14 @@ FI.store = (() => {
 // ---------------------------------------------------------------------------
 // render: the whole DOM behind mount() and render(). Full re-render from state.
 // Layout per ADR-0007 (Duolingo zigzag path, polished). Both mode is EN-led.
-// UI-only state (the Order Check's placed items, the reset confirm) lives here.
+// UI-only state (the Order Check's placed items, the reset confirm, shelf
+// filters, the milestone overlay) lives here. Prompt 3 adds widgets, the tools
+// screen, the shelf with Book Units, per-Station themes and the Milestone.
 // ---------------------------------------------------------------------------
 FI.render = (() => {
-  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null };
+  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  // Farsi text with Latin runs isolated so VWCE, DCF, Box 3 keep their direction.
   // One isolate per run, parentheses included, so a wrap never re-orders the pieces (see test/rtl.test.mjs).
   // Runs of 24 characters or fewer also refuse to wrap; longer ones wrap inside the single isolate, which bidi orders correctly.
   // Wrapping happens on the raw string and each piece is escaped on its own, so entities never become runs.
@@ -790,6 +880,7 @@ FI.render = (() => {
   };
   const A = (action) => `data-action="${esc(JSON.stringify(action))}"`;
   const num = (n, mode) => FI.content.fmt(n, mode === 'FA' ? 'FA' : 'EN');
+  const one = (mode) => (mode === 'FA' ? 'FA' : 'EN');
 
   const pair = (p, mode, cls = '') => {
     if (!p) return '';
@@ -800,8 +891,7 @@ FI.render = (() => {
   const both = (p) => `<span class="t-en" lang="en">${esc(p.en)}</span><span class="t-fa under" lang="fa">${faHtml(p.fa)}</span>`;
   const t = (key, mode) => {
     const u = FI.content.ui;
-    if (mode === 'FA') return esc(u.fa[key]);
-    return esc(u.en[key]);
+    return esc(mode === 'FA' ? u.fa[key] : u.en[key]);
   };
 
   const ICONS = {
@@ -817,53 +907,158 @@ FI.render = (() => {
     close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
     badge: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 7 6-3 6 3-2-7"/></svg>',
     retry: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0114-5l2 2M20 4v5h-5"/><path d="M20 12a8 8 0 01-14 5l-2-2M4 20v-5h5"/></svg>',
+    tools: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h7"/></svg>',
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7 7 .6-5.3 4.6L18.5 22 12 18l-6.5 4 1.8-7.8L2 9.6 9 9z"/></svg>',
+    book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h13a1 1 0 011 1v16a1 1 0 01-1 1H5z"/><path d="M5 3v18M9 7h6"/></svg>',
   };
+  const WIDGETS = { s1: ['sliders'], s4: ['habits', 'journal'], s5: ['checklist'], s6: ['shelf'] };
 
   function topBar(s, content) {
-    const totalXp = content.allStations().length * FI.engine.FARE_XP;
+    const totalXp = content.totalXp();
     const pct = Math.min(100, Math.round((s.xp / totalXp) * 100));
     const mode = (m, label) => `<button ${A({ type: 'SET_MODE', value: m })} aria-pressed="${s.mode === m}">${label}</button>`;
     return `<header class="top">
       <div class="modes" role="group" aria-label="Language">${mode('EN', t('modeEN', s.mode))}${mode('FA', t('modeFA', s.mode))}${mode('BOTH', t('modeBoth', s.mode))}</div>
-      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${s.xp}" aria-valuemin="0" aria-valuemax="${totalXp}"><i style="width:${pct}%"></i></div>
-      <span class="coins ${s.events.includes('coin') ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span>${s.events.includes('coin') ? '<span class="plus" aria-hidden="true">+1</span>' : ''}</span>
+      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${s.xp}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
+      <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span>${s.events.includes('coin') && !ui.coinShown ? '<span class="plus" aria-hidden="true">+1</span>' : ''}</span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
     </header>`;
   }
 
+  // ---- Path -------------------------------------------------------------
   function pathScreen(s, content) {
     const all = content.allStations();
-    const firstOpen = all.find((st) => st.items.length && !s.lit[st.id]);
+    const firstOpen = all.find((st) => !s.lit[st.id]);
+    const litBooks = content.readingOrder.filter((b) => s.lit[b]).length;
     const nodes = all.map((st) => {
       const checks = st.items.filter((i) => i.kind === 'check').length;
       const p = checks ? Math.round(((s.rings[st.id] || 0) / checks) * 100) : 0;
-      const cls = s.lit[st.id] ? 'lit' : !st.items.length ? 'dim' : firstOpen && firstOpen.id === st.id ? 'cur' : '';
-      const open = st.items.length ? A({ type: 'OPEN_STATION', value: st.id }) : 'disabled';
-      return `<li class="node ${cls}" style="--p:${s.lit[st.id] ? 100 : p}">
-        <button ${open} aria-label="${esc(st.name.en)}"><span class="ring"></span><span class="ico">${ICONS[st.id]}</span></button>
-        ${s.lit[st.id] ? `<span class="badge">${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')}</span>` : ''}
-        <span class="label">${pair(st.name, s.mode)}</span>
-        ${!st.items.length ? `<span class="planned">${t('stationLocked', s.mode)}</span>` : ''}
+      const cls = s.lit[st.id] ? 'lit' : firstOpen && firstOpen.id === st.id ? 'cur' : '';
+      const tools = WIDGETS[st.id] ? `<button class="tools" ${A({ type: 'OPEN_TOOLS', value: st.id })}>${ICONS.tools}<span>${t('tools', s.mode)}</span></button>` : '';
+      const sub = st.id === 's6' && !s.lit.s6 ? `<span class="planned">${num(litBooks, s.mode)}/${num(content.readingOrder.length, s.mode)} ${t('booksLit', s.mode)}</span>` : '';
+      return `<li class="node ${cls}" data-theme="${st.theme}" style="--p:${s.lit[st.id] ? 100 : p}">
+        <button ${A({ type: 'OPEN_STATION', value: st.id })} aria-label="${esc(st.name.en)}"><span class="ring"></span><span class="ico">${ICONS[st.id]}</span></button>
+        ${s.lit[st.id] ? `<span class="badge">${pair(st.badge, one(s.mode))}</span>` : ''}
+        <span class="label">${pair(st.name, s.mode)}</span>${sub}${tools}
       </li>`;
     }).join('');
     const reset = ui.confirmReset
       ? `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('resetConfirm', s.mode)}</span><button ${A({ type: 'UI_RESET_CANCEL' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESET' })}>${t('confirm', s.mode)}</button></div>`
       : `<button class="linkish" ${A({ type: 'UI_RESET_ASK' })}>${t('reset', s.mode)}</button>`;
+    const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
     return `<main class="path">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
-      <ol class="nodes">${nodes}</ol>
+      <ol class="nodes">${nodes}</ol>${milestone}
       <div class="pathfoot">${reset}</div>
     </main>`;
   }
 
-  function cardPanel(s, content, item) {
+  // ---- Widgets ----------------------------------------------------------
+  function slidersWidget(s, content) {
+    const v = s.sliders;
+    const income = Math.round(v.capital * v.ret / 100);
+    const target = v.expenses * 25;
+    const pct = Math.min(999, Math.round((v.capital / target) * 100));
+    const row = (key, label, min, max, step, fmtv) => `<label class="srow"><span>${t(label, s.mode)}</span><output data-out="${key}">${fmtv}</output>
+      <input type="range" data-slider="${key}" min="${min}" max="${max}" step="${step}" value="${v[key]}" aria-label="${t(label, s.mode)}"></label>`;
+    return `<div class="widget sliders" data-widget="sliders">
+      ${row('capital', 'capital', 10000, 1000000, 10000, '€' + num(v.capital, s.mode))}
+      ${row('ret', 'realReturn', 3, 8, 0.5, num(v.ret, s.mode) + '%')}
+      <div class="out" aria-live="polite"><b data-out="income">€${num(income, s.mode)}</b><small>${t('yearlyIncome', s.mode)}</small></div>
+      ${row('expenses', 'expenses', 10000, 100000, 1000, '€' + num(v.expenses, s.mode))}
+      <div class="out" aria-live="polite"><b data-out="target">€${num(target, s.mode)}</b><small>${t('target25', s.mode)} · <span data-out="pct">${num(pct, s.mode)}%</span> ${t('ofTarget', s.mode)}</small></div>
+    </div>`;
+  }
+  function habitsWidget(s, content) {
+    const days = [0, 1, 2, 3, 4, 5, 6];
+    const head = `<tr><th></th>${days.map((d) => `<th>${t('d' + d, s.mode)}</th>`).join('')}</tr>`;
+    const rows = content.habits.map((h) => `<tr><th scope="row">${pair(h.label, one(s.mode))}</th>${days.map((d) => {
+      const on = s.habits[h.id] && s.habits[h.id][d];
+      return `<td><button class="cell ${on ? 'on' : ''}" ${A({ type: 'TOGGLE_HABIT', value: { habit: h.id, day: d } })} aria-pressed="${!!on}" aria-label="${esc(h.label.en)} ${t('d' + d, s.mode)}">${on ? ICONS.check : ''}</button></td>`;
+    }).join('')}</tr>`).join('');
+    return `<div class="widget habits" data-widget="habits"><p class="kicker">${t('habitsWeek', s.mode)}</p><table class="habitgrid">${head}${rows}</table></div>`;
+  }
+  function journalWidget(s, content) {
+    return `<div class="widget journal" data-widget="journal">
+      <textarea data-journal rows="6" placeholder="${t('journalPlaceholder', s.mode)}" aria-label="${t('journalPlaceholder', s.mode)}">${esc(s.journal.text)}</textarea>
+      <p class="help">${s.journal.reviewDate ? `${t('reviewOn', s.mode)} ${esc(s.journal.reviewDate)} · ` : ''}${t('autosaved', s.mode)}</p>
+    </div>`;
+  }
+  function checklistWidget(s, content) {
+    const total = content.checklists.reduce((a, l) => a + l.items.length, 0);
+    const done = content.checklists.reduce((a, l) => a + l.items.filter((_, i) => s.checklists[l.id][i]).length, 0);
+    const pct = Math.round((done / total) * 100);
+    const lists = content.checklists.map((l) => `<section class="clist"><h3>${pair(l.title, s.mode)}</h3>${l.items.map((it, i) => {
+      const on = s.checklists[l.id][i];
+      return `<button class="citem ${on ? 'on' : ''}" ${A({ type: 'TOGGLE_CHECK', value: { list: l.id, index: i } })} aria-pressed="${!!on}"><span class="box">${on ? ICONS.check : ''}</span>${pair(it, s.mode)}</button>`;
+    }).join('')}</section>`).join('');
+    return `<div class="widget checklist" data-widget="checklist">
+      <div class="prog big"><i style="width:${pct}%"></i></div><p class="help">${num(pct, s.mode)}% ${t('percentDone', s.mode)}</p>${lists}
+    </div>`;
+  }
+  function bookCard(s, content, b) {
+    const lit = s.lit[b.id];
+    const state = s.shelf[b.id] || 'toread';
+    const states = ['toread', 'reading', 'read'].map((k) => `<button class="chip ${state === k ? 'on' : ''}" ${A({ type: 'SET_SHELF', value: { bookId: b.id, state: k } })} aria-pressed="${state === k}">${t(k, s.mode)}</button>`).join('');
+    return `<li class="book ${lit ? 'lit' : ''}" data-id="${b.id}">
+      <div class="bhead"><span class="mark" title="${b.must ? t('mustRead', s.mode) : t('optionalRead', s.mode)}">${b.must ? '⭐' : '○'}</span>
+        <div><b class="t-en" lang="en">${esc(b.title)}</b><span class="meta t-en" lang="en">${esc(b.author.en)} · ${b.year}</span></div>
+        ${lit ? `<span class="badge">${pair(b.badge, one(s.mode))}</span>` : ''}</div>
+      <p class="why">${pair(b.why, s.mode)}</p>
+      <div class="brow"><div class="chips">${states}</div>
+        <button class="btn small ${lit ? '' : 'primary'}" ${A({ type: 'OPEN_STATION', value: b.id })}>${ICONS.book}${lit ? t('replayUnit', s.mode) : t('openUnit', s.mode)}</button></div>
+    </li>`;
+  }
+  function shelfGrid(s, content) {
+    const q = ui.search.trim().toLowerCase();
+    const books = content.stations.filter((b) => b.book)
+      .filter((b) => ui.stage === 'all' || String(b.stage) === ui.stage)
+      .filter((b) => ui.must === 'all' || (ui.must === 'must') === b.must)
+      .filter((b) => !q || b.title.toLowerCase().includes(q) || b.author.en.toLowerCase().includes(q) || b.why.en.toLowerCase().includes(q) || b.why.fa.includes(q));
+    if (!books.length) return `<p class="help">${t('noBooks', s.mode)}</p>`;
+    return `<ul class="books">${books.map((b) => bookCard(s, content, b)).join('')}</ul>`;
+  }
+  function shelfWidget(s, content) {
+    const stages = ['all', '1', '2', '3', '5', '6'].map((k) => `<button class="chip ${ui.stage === k ? 'on' : ''}" ${A({ type: 'UI_STAGE', value: k })} aria-pressed="${ui.stage === k}">${k === 'all' ? t('all', s.mode) : `${t('stage', s.mode)} ${num(k, s.mode)}`}</button>`).join('');
+    const musts = [['all', t('all', s.mode)], ['must', '⭐ ' + t('mustRead', s.mode)], ['opt', '○ ' + t('optionalRead', s.mode)]].map(([k, l]) => `<button class="chip ${ui.must === k ? 'on' : ''}" ${A({ type: 'UI_MUST', value: k })} aria-pressed="${ui.must === k}">${l}</button>`).join('');
+    const lit = content.readingOrder.filter((b) => s.lit[b]).length;
+    const order = content.readingOrder.map((id, i) => {
+      const b = content.station(id);
+      return `<li class="${s.lit[id] ? 'lit' : ''}"><span class="n">${num(i + 1, s.mode)}</span><button class="linkish" ${A({ type: 'OPEN_STATION', value: id })}><span class="t-en" lang="en">${esc(b.title)}</span></button>${s.lit[id] ? `<span class="tick">${ICONS.check}</span>` : ''}</li>`;
+    }).join('');
+    return `<div class="widget shelf" data-widget="shelf">
+      <section class="order"><h3>${t('readingOrder', s.mode)} · ${num(lit, s.mode)}/${num(content.readingOrder.length, s.mode)}</h3><ol class="rorder">${order}</ol><p class="help">${pair(content.item('s6', 's6c2').text, s.mode)}</p></section>
+      <div class="filters"><div class="chips">${stages}</div><div class="chips">${musts}</div>
+        <input type="search" data-search placeholder="${t('search', s.mode)}" value="${esc(ui.search)}" aria-label="${t('search', s.mode)}"></div>
+      <div class="shelfgrid">${shelfGrid(s, content)}</div>
+    </div>`;
+  }
+  const WIDGET_FN = { sliders: slidersWidget, habits: habitsWidget, journal: journalWidget, checklist: checklistWidget, shelf: shelfWidget };
+
+  function toolsScreen(s, content) {
+    const st = content.station(s.stationId);
+    const widgets = (WIDGETS[st.id] || []).map((w) => `<section class="panel"><p class="kicker">${pair(st.name, one(s.mode))}</p>${WIDGET_FN[w](s, content)}</section>`).join('');
+    const overlay = ui.milestone ? `<div class="overlay"><section class="panel result milestone"><div class="big">${ICONS.star}</div><h2>${t('milestoneTitle', s.mode)}</h2><p>${t('milestoneBody', s.mode)} · +${num(content.MILESTONE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_MILESTONE_CLOSE' })} data-focus>${t('milestoneDone', s.mode)}</button></section></div>` : '';
+    return `<main class="station tools" data-theme="${st.theme}">
+      <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${pair(st.name, s.mode)}</h2></div>
+      ${widgets}${overlay}
+    </main>`;
+  }
+
+  // ---- Station run ---------------------------------------------------------
+  function bookHeader(s, st) {
+    if (!st.book) return '';
+    return `<div class="bookhead"><span class="mark">${st.must ? '⭐' : '○'}</span><div><b class="t-en" lang="en">${esc(st.title)}</b><span class="meta t-en" lang="en">${esc(st.author.en)} · ${st.year} · ${t('stage', s.mode)} ${num(st.stage, s.mode)}</span></div></div>`;
+  }
+  function cardPanel(s, content, item, st) {
     let body;
     if (s.flipped && s.mode !== 'BOTH') body = pair(item.text, s.mode === 'FA' ? 'EN' : 'FA');
     else body = pair(item.text, s.mode);
-    const add = item.addition ? `<p class="addnote"><span>${t('addition', s.mode)}</span>${/^https?:/.test(item.cite) ? `<a href="${esc(item.cite)}" target="_blank" rel="noopener">${t('source', s.mode)}</a>` : ''}</p>` : '';
+    const add = item.addition ? `<p class="addnote"><span>${t('addition', s.mode)}</span>${/^https?:/.test(item.cite || '') ? `<a href="${esc(item.cite)}" target="_blank" rel="noopener">${t('source', s.mode)}</a>` : ''}</p>` : '';
     const flip = s.mode === 'BOTH' ? '' : `<button class="btn soft wide" ${A({ type: 'FLIP' })} aria-pressed="${s.flipped}">${t('flip', s.mode)}</button>`;
     return `<section class="panel card">
-      <p class="kicker">${pair(content.station(s.stationId).name, s.mode === 'FA' ? 'FA' : 'EN')}</p>
+      <p class="kicker">${st.book ? t('bookUnit', s.mode) : pair(st.name, one(s.mode))}</p>
       <p class="ctext">${body}</p>${add}
       <div class="actions">${flip}
         <button class="btn" ${A({ type: 'RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button>
@@ -871,8 +1066,11 @@ FI.render = (() => {
       </div>
     </section>`;
   }
-
-  function checkPanel(s, content, k) {
+  function widgetPanel(s, content, item, st) {
+    return `<section class="panel"><p class="kicker">${pair(item.title, one(s.mode))}</p>${WIDGET_FN[item.widget](s, content)}
+      <div class="actions"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div></section>`;
+  }
+  function checkPanel(s, content, k, st) {
     const locked = s.phase === 'correct' || s.phase === 'revealed';
     const inFare = s.phase === 'fare';
     let body = '';
@@ -886,7 +1084,7 @@ FI.render = (() => {
       body = `<div class="tf">${b(true, t('trueLabel', s.mode))}${b(false, t('falseLabel', s.mode))}</div>`;
     } else if (k.type === 'order') {
       const placed = locked ? k.answer : ui.order;
-      const slots = placed.map((i, n) => `<span class="slot"><b>${num(n + 1, s.mode)}</b>${pair(k.options[i], s.mode === 'FA' ? 'FA' : 'EN')}</span>`).join('');
+      const slots = placed.map((i, n) => `<span class="slot"><b>${num(n + 1, s.mode)}</b>${pair(k.options[i], one(s.mode))}</span>`).join('');
       const remaining = k.options.map((o, i) => placed.includes(i) ? '' : `<button class="btn opt" ${locked ? 'disabled' : A({ type: 'UI_ORDER_ADD', value: i })}>${pair(o, s.mode)}</button>`).join('');
       body = `<p class="help">${t('orderHelp', s.mode)}</p>
         <div class="slots" aria-live="polite">${slots}</div>
@@ -894,36 +1092,38 @@ FI.render = (() => {
         ${locked ? '' : `<div class="actions"><button class="btn ghost" ${A({ type: 'UI_ORDER_CLEAR' })} ${placed.length ? '' : 'disabled'}>${t('clearOrder', s.mode)}</button><button class="btn primary" ${A({ type: 'ANSWER', value: placed })} ${placed.length === k.options.length ? '' : 'disabled'}>${t('check', s.mode)}</button></div>`}`;
     }
     const src = content.item(s.stationId, k.source);
-    const hint = s.hint && !inFare ? `<aside class="hint"><p class="kicker">${t('hint', s.mode)}</p>${both(src.text)}</aside>` : '';
+    let hint = '';
+    if (s.hint && !inFare) {
+      if (st.hints === 'short') {
+        const n = st.items.filter((i) => i.kind === 'card').findIndex((i) => i.id === src.id) + 1;
+        hint = `<aside class="hint"><p class="kicker">${t('hint', s.mode)}</p><span>${t('hintShort', s.mode)} ${num(n, s.mode)}</span></aside>`;
+      } else hint = `<aside class="hint"><p class="kicker">${t('hint', s.mode)}</p>${both(src.text)}</aside>`;
+    }
     const kicker = inFare
       ? `<p class="kicker fare">${t('fareTitle', s.mode)} · ${num(s.fare.index + 1, s.mode)}/${num(s.fare.questions.length, s.mode)}</p>`
-      : `<p class="kicker">${pair(content.station(s.stationId).name, s.mode === 'FA' ? 'FA' : 'EN')}</p>`;
+      : `<p class="kicker">${st.book ? t('bookUnit', s.mode) : pair(st.name, one(s.mode))}</p>`;
     return `<section class="panel check">${kicker}<h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}${hint}</section>`;
   }
-
   function feedback(s, content, k) {
     if (s.phase === 'correct') {
       const coin = s.events.includes('coin') ? `<small>+${num(1, s.mode)} ${t('coins', s.mode)}</small>` : '';
       return `<div class="feedback ok" aria-live="polite"><span class="msg"><span>${t('correct', s.mode)}</span>${coin}</span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
     }
     if (s.phase === 'revealed') {
-      const ans = k.type === 'tf' ? (k.answer ? t('trueLabel', s.mode) : t('falseLabel', s.mode)) : k.type === 'tap' ? pair(k.options[k.answer], s.mode === 'FA' ? 'FA' : 'EN') : '';
+      const ans = k.type === 'tf' ? (k.answer ? t('trueLabel', s.mode) : t('falseLabel', s.mode)) : k.type === 'tap' ? pair(k.options[k.answer], one(s.mode)) : '';
       return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('revealed', s.mode)}</span><small>${ans}</small></span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
     }
-    if (s.phase === 'check' && s.hint) {
-      return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('wrong', s.mode)}</span></span></div>`;
-    }
+    if (s.phase === 'check' && s.hint) return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('wrong', s.mode)}</span></span></div>`;
     return '<div aria-live="polite"></div>';
   }
-
-  function resultPanel(s, content) {
-    const st = content.station(s.stationId);
+  function resultPanel(s, content, st) {
     if (s.phase === 'fare-passed') {
-      return `<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2><p class="inl">${t('badge', s.mode)}: ${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')} · +${num(FI.engine.FARE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
+      const litNow = s.lit[st.id];
+      const note = st.litRule === 'readingOrder' && !litNow ? `<p>${t('libraryHint', s.mode)}</p>` : `<p class="inl">${t('badge', s.mode)}: ${pair(st.badge, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`;
+      return `<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}<button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
     }
     return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
   }
-
   function stationScreen(s, content) {
     const st = content.station(s.stationId);
     const total = st.items.length;
@@ -931,15 +1131,16 @@ FI.render = (() => {
     const pct = Math.round((pos / total) * 100);
     const item = content.item(s.stationId, s.current);
     let inner = '';
-    if (s.phase === 'card') inner = cardPanel(s, content, item);
-    else if (s.phase === 'fare-passed' || s.phase === 'fare-failed') inner = resultPanel(s, content);
-    else inner = checkPanel(s, content, item) + feedback(s, content, item);
-    return `<main class="station">
+    if (s.phase === 'card') inner = cardPanel(s, content, item, st);
+    else if (s.phase === 'widget') inner = widgetPanel(s, content, item, st);
+    else if (s.phase === 'fare-passed' || s.phase === 'fare-failed') inner = resultPanel(s, content, st);
+    else inner = checkPanel(s, content, item, st) + feedback(s, content, item);
+    return `<main class="station" data-theme="${st.theme}">
       <div class="shead">
         <button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button>
         <div class="prog" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
         <span class="count">${num(Math.min(pos + 1, total), s.mode)} ${t('ofCards', s.mode)} ${num(total, s.mode)}</span>
-      </div>${inner}
+      </div>${bookHeader(s, st)}${inner}
     </main>`;
   }
 
@@ -951,27 +1152,47 @@ FI.render = (() => {
   }
 
   function render(root, s, content) {
-    if (s.current !== ui.lastCurrent || (s.phase === 'check' && ui.lastPhase !== 'check')) { ui.order = []; }
+    if (s.current !== ui.lastCurrent || (s.phase === 'check' && ui.lastPhase !== 'check')) ui.order = [];
     if (s.screen !== 'path') ui.confirmReset = false;
+    // Consume each events array once; UI-only re-renders reuse the same state object.
+    if (s.events !== ui.seenEvents) { ui.seenEvents = s.events; ui.coinShown = false; if (s.events.includes('milestone')) ui.milestone = true; } else ui.coinShown = true;
     const html = document.documentElement;
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
-    root.innerHTML = topBar(s, content) + (s.screen === 'path' ? pathScreen(s, content) : stationScreen(s, content)) + disclaimer(s);
-    const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase;
+    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : stationScreen(s, content);
+    root.innerHTML = topBar(s, content) + screen + disclaimer(s);
+    const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase || ui.milestone;
     ui.lastCurrent = s.current; ui.lastPhase = s.phase;
-    if (changed && s.screen === 'station') {
+    if (changed && s.screen !== 'path') {
       const f = root.querySelector('[data-focus]');
       if (f) { f.focus({ preventScroll: true }); f.scrollIntoView({ block: 'nearest' }); }
     }
   }
 
-  // UI-only actions, consumed before the engine sees anything.
+  // Partial updates that must not rebuild the DOM under the user's fingers.
+  function patch(root, s, content, action) {
+    if (action.type === 'SET_SLIDER') {
+      const v = s.sliders; const m = s.mode;
+      const set = (k, val) => { const el = root.querySelector(`[data-out="${k}"]`); if (el) el.textContent = val; };
+      set('capital', '€' + num(v.capital, m)); set('ret', num(v.ret, m) + '%'); set('expenses', '€' + num(v.expenses, m));
+      set('income', '€' + num(Math.round(v.capital * v.ret / 100), m)); set('target', '€' + num(v.expenses * 25, m));
+      set('pct', num(Math.min(999, Math.round((v.capital / (v.expenses * 25)) * 100)), m) + '%');
+    } else if (action.type === 'UI_SEARCH') {
+      const g = root.querySelector('.shelfgrid'); if (g) g.innerHTML = shelfGrid(s, content);
+    }
+  }
+
+  // UI-only actions. Returns 'full' (re-render), 'partial' (patch only) or false.
   function handleUi(action) {
     switch (action.type) {
-      case 'UI_ORDER_ADD': if (!ui.order.includes(action.value)) ui.order.push(action.value); return true;
-      case 'UI_ORDER_CLEAR': ui.order = []; return true;
-      case 'UI_RESET_ASK': ui.confirmReset = true; return true;
-      case 'UI_RESET_CANCEL': ui.confirmReset = false; return true;
+      case 'UI_ORDER_ADD': if (!ui.order.includes(action.value)) ui.order.push(action.value); return 'full';
+      case 'UI_ORDER_CLEAR': ui.order = []; return 'full';
+      case 'UI_RESET_ASK': ui.confirmReset = true; return 'full';
+      case 'UI_RESET_CANCEL': ui.confirmReset = false; return 'full';
+      case 'UI_STAGE': ui.stage = action.value; return 'full';
+      case 'UI_MUST': ui.must = action.value; return 'full';
+      case 'UI_SEARCH': ui.search = String(action.value || ''); return 'partial';
+      case 'UI_MILESTONE_CLOSE': ui.milestone = false; return 'full';
       default: return false;
     }
   }
@@ -982,9 +1203,23 @@ FI.render = (() => {
       if (!b || b.disabled) return;
       dispatch(JSON.parse(b.getAttribute('data-action')));
     });
+    let journalTimer = null;
+    root.addEventListener('input', (e) => {
+      const el = e.target;
+      if (el.matches('[data-slider]')) dispatch({ type: 'SET_SLIDER', value: { key: el.getAttribute('data-slider'), value: el.value }, silent: true });
+      else if (el.matches('[data-search]')) dispatch({ type: 'UI_SEARCH', value: el.value });
+      else if (el.matches('[data-journal]')) {
+        clearTimeout(journalTimer);
+        const text = el.value;
+        journalTimer = setTimeout(() => {
+          const d = new Date(); d.setMonth(d.getMonth() + 6);
+          dispatch({ type: 'SET_JOURNAL', value: { text, reviewDate: d.toISOString().slice(0, 10) }, silent: true });
+        }, 400);
+      }
+    });
   }
 
-  return { mount, render, handleUi, faHtml };
+  return { mount, render, patch, handleUi, faHtml };
 })();
 </script>
 
@@ -1030,7 +1265,7 @@ FI.fx = (() => {
 </script>
 
 <script data-module="app">
-// glue: dispatch = reduce, save, render, fx (ADR-0008)
+// glue: dispatch = reduce, save, render (or patch), fx (ADR-0008)
 (() => {
   const { content, engine, store, render, fx } = FI;
   let storage = null;
@@ -1038,10 +1273,12 @@ FI.fx = (() => {
   const root = document.getElementById('app');
   let state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: store.load(storage) }, content);
   function dispatch(action) {
-    if (render.handleUi(action)) { render.render(root, state, content); return; }
+    const uiResult = render.handleUi(action);
+    if (uiResult === 'full') { render.render(root, state, content); return; }
+    if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') store.clear(storage); else store.save(storage, state);
-    render.render(root, state, content);
+    if (action.silent) render.patch(root, state, content, action); else render.render(root, state, content);
     fx.run(state.events, state);
   }
   render.mount(root, dispatch);
