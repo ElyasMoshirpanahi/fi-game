@@ -33,6 +33,7 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 | 18 | Book Units (owner request, 2026-11-09, mid Prompt 2) | Every book in the Library gets its own unit: author, year, the source's "why" line, 4 to 6 idea Cards covering the book's essentials, Checks, a Fare and a badge, in EN and FA. This is content beyond the source HTML, marked as an owner-approved addition. Built in Prompt 3 inside Station 6. |
 | 19 | Size cap (2026-11-09) | index.html may be up to 400 KB (was 200 KB) to hold the 28 Book Units. Still one file, no external scripts. |
 | 20 | Book Unit rewards | Each Book Unit is a mini-Station: badge plus 20 XP on its Fare. The Library Station lights when its own Fare passed and all ten Reading Order books are Lit. |
+| 21 | Bookmarks (owner request, 2026-11-10) | Any Card can be bookmarked from its screen; a Bookmarks list on the Path reopens the Station at that Card. Stored in fi-roadmap-v1 with the rest of progress. |
 | 16 | Ordering interaction | Tap-to-place is the baseline and the keyboard path. Pointer drag reorders as a progressive enhancement. |
 
 ## Executor decisions derived from the above (noted, not asked)

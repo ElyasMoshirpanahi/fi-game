@@ -18,8 +18,8 @@ status: accepted
 **engine** (deep: the whole loop behind two calls)
 - `FI.engine.initial()` : the full state.
 - `FI.engine.reduce(state, action, content)` : returns a new state. Pure. Content is a parameter, not a global read, so tests can pass a two-Station fixture.
-- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare`, `fare-passed`, `fare-failed`, `lit`, `milestone`, `reset`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
-- Actions: `SET_MODE`, `OPEN_STATION`, `OPEN_TOOLS`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `RESET`, `HYDRATE`. Actions named `UI_*` never reach the engine; render consumes them (order chips, filters, confirms).
+- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare`, `fare-passed`, `fare-failed`, `lit`, `milestone`, `bookmark`, `unbookmark`, `reset`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
+- Actions: `SET_MODE`, `OPEN_STATION`, `OPEN_TOOLS`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `TOGGLE_BOOKMARK`, `OPEN_AT`, `OPEN_BOOKMARKS`, `RESET`, `HYDRATE`. Actions named `UI_*` never reach the engine; render consumes them (order chips, filters, confirms).
 - `FI.engine.DURABLE` is the one list of fields that survive a reload; store reads it and HYDRATE iterates it.
 - Fare question order is a deterministic rotation by attempt, never random, so a test can predict it.
 - Lifted from the logic prototype (`docs/prototypes/logic-engine-verdict.md`), including the two fixes.
