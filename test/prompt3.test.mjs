@@ -116,6 +116,17 @@ describe('Milestone: First €100 of ownership income', () => {
     expect(s.milestone).toBe(true); // never revoked
     expect(s.xp).toBe(xp);
   });
+
+  it('the Milestone, farePassed and checklists survive a reload (bug found in the Prompt 3 play-test)', () => {
+    let s = completeAll(engine.initial());
+    s = R(s, { type: 'OPEN_STATION', value: 's3' });
+    const d = store.durable(s);
+    expect(d.milestone).toBe(true);
+    expect(d).toHaveProperty('farePassed');
+    const again = R(engine.initial(), { type: 'HYDRATE', value: JSON.parse(JSON.stringify(d)) });
+    expect(again.milestone).toBe(true);
+    expect(again.checklists.after).toEqual([true, true, true]);
+  });
 });
 
 describe('Rewards on three horizons', () => {
