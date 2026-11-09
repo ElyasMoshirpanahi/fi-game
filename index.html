@@ -330,7 +330,48 @@ FI.engine = (() => {
 </script>
 
 <script data-module="store">
-FI.store = {};
+// ---------------------------------------------------------------------------
+// store: persistence behind three calls. One key, fi-roadmap-v1 (ADR-0003).
+// Every read and write swallows errors so the game runs with storage disabled.
+// Storage is injected: window.localStorage in the page, fakes in tests.
+// ---------------------------------------------------------------------------
+FI.store = (() => {
+  const KEY = 'fi-roadmap-v1';
+  const VERSION = 1;
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'xp', 'checklists', 'journal', 'habits', 'shelf', 'sliders'];
+
+  const durable = (state) => {
+    const d = {};
+    for (const k of DURABLE) if (state[k] !== undefined) d[k] = state[k];
+    return d;
+  };
+
+  const save = (storage, state) => {
+    try {
+      if (!storage || typeof storage.setItem !== 'function') return false;
+      storage.setItem(KEY, JSON.stringify({ v: VERSION, ...durable(state) }));
+      return true;
+    } catch (e) { return false; }
+  };
+
+  const load = (storage) => {
+    try {
+      if (!storage || typeof storage.getItem !== 'function') return null;
+      const raw = storage.getItem(KEY);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed) || parsed.v !== VERSION) return null;
+      const { v, ...rest } = parsed;
+      const d = {};
+      for (const k of DURABLE) if (rest[k] !== undefined) d[k] = rest[k];
+      return d;
+    } catch (e) { return null; }
+  };
+
+  const clear = (storage) => { try { storage.removeItem(KEY); return true; } catch (e) { return false; } };
+
+  return { KEY, durable, save, load, clear };
+})();
 </script>
 
 <script data-module="render">

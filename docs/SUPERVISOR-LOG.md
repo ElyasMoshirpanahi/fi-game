@@ -42,3 +42,10 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Produced: docs/adr/0008-module-design.md. Five modules (content, engine, store, render, fx) as script blocks in index.html on an FI global. Test seam: test/load.mjs extracts the DOM-free blocks (content, engine, store) from index.html and evaluates them in node. Storage injected. Engine emits state.events for fx. No build step kept (ADR-0001); concatenation fallback recorded.
 - Tests: none yet.
 - Step 4 correction (owner, same day): UI pick changed from B to A, "the zigzag road but polished". ADR-0007 rewritten as 0007-duolingo-path-layout.md; the Brilliant file removed.
+
+## Step 6: /tdd the engine and the content rules
+- Start: 2026-11-09
+- Seams tested (ADR-0008): content data, FI.engine.reduce, FI.store load/save, all loaded from index.html by test/load.mjs. No DOM.
+- Red-green cycles: test 1 (i18n parity) red then content block; test 2 (fairness) written over the content, caught one option wording ("Make" vs "making"), reworded; tests 3 to 5 (coins, Returns, Fare lights Station) 14 red then engine block lifted from the prototype; test 6 (store round-trip, disabled storage, corrupt JSON) 5 red then store block; plus ADR-0001 constraints (no external scripts, under 200 KB, disclaimer present).
+- Result: 48 tests green. vitest 3.2.7.
+- Deviation from pure one-test-one-slice: the engine was inserted whole after test 3 went red, since the prototype had already settled it; tests 4 and 5 were then written and went green without further code. Logged for honesty.
