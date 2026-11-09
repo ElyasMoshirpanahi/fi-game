@@ -36,3 +36,8 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Observed in variant C: a Latin term at the end of an RTL pull quote wrapped with its period on the wrong side. Noted for the RTL play-test.
 - Tests: none yet.
 - Step 3 owner decisions: all seven flagged groups decided (keep-and-nuance for returns, 25x and 600k to 1M; correct ind.nl; reword brokers to residence; full book attributions with years; add Box 3, 30% ruling and loss-rate cards as research-sourced). Recorded at the end of docs/research/roadmap-facts.md.
+
+## Step 5: /codebase-design the modules
+- Start: 2026-11-09
+- Produced: docs/adr/0008-module-design.md. Five modules (content, engine, store, render, fx) as script blocks in index.html on an FI global. Test seam: test/load.mjs extracts the DOM-free blocks (content, engine, store) from index.html and evaluates them in node. Storage injected. Engine emits state.events for fx. No build step kept (ADR-0001); concatenation fallback recorded.
+- Tests: none yet.
