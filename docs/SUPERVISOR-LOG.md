@@ -56,3 +56,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Bug found and fixed before commit: the page never defined the FI global (only the test loader did); blank page, fixed with a one-line bootstrap script.
 - Sliders for Station 1 deferred to Prompt 3 as the playbook's Step 7 list says.
 - Tests: 48 green.
+- Play-test Prompt 0 done (ROLE 3): docs/playtests/prompt0.md. 7 deliberate misses, all fair. One RTL bug (Latin runs with parentheses split in FA mode). Dead stretch in Station 2 Stage Cards. Storage key confirmed, clear-storage run OK, no console errors, 360 px no overflow, light and dark OK. GIF playtest-prompt0-en.gif in Downloads (4 frames; script-driven clicks are not recorded). Awaiting owner verdict.
