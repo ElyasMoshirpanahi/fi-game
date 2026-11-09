@@ -41,3 +41,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Start: 2026-11-09
 - Produced: docs/adr/0008-module-design.md. Five modules (content, engine, store, render, fx) as script blocks in index.html on an FI global. Test seam: test/load.mjs extracts the DOM-free blocks (content, engine, store) from index.html and evaluates them in node. Storage injected. Engine emits state.events for fx. No build step kept (ADR-0001); concatenation fallback recorded.
 - Tests: none yet.
+- Step 4 correction (owner, same day): UI pick changed from B to A, "the zigzag road but polished". ADR-0007 rewritten as 0007-duolingo-path-layout.md; the Brilliant file removed.
