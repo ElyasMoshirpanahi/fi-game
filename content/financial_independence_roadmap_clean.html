@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>نقشه راه استقلال مالی با سرمایه و دانش</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #0f766e;
+      --accent-soft: #ecfdf5;
+      --warning: #92400e;
+      --warning-soft: #fffbeb;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Tahoma, Arial, "Segoe UI", sans-serif;
+      line-height: 1.9;
+    }
+
+    .container {
+      width: min(1100px, calc(100% - 32px));
+      margin: 40px auto;
+    }
+
+    .hero,
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.04);
+    }
+
+    .hero {
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.4;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section {
+      padding: 28px;
+      margin: 20px 0;
+    }
+
+    h2, h3 {
+      color: #111827;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 19px;
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+
+    p, li { font-size: 16px; }
+
+    ul, ol {
+      margin: 0;
+      padding-right: 22px;
+    }
+
+    li + li { margin-top: 8px; }
+
+    strong { color: #111827; }
+
+    .ltr {
+      direction: ltr;
+      unicode-bidi: embed;
+      display: inline-block;
+    }
+
+    .note {
+      background: var(--accent-soft);
+      border-right: 4px solid var(--accent);
+      padding: 16px 18px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .disclaimer {
+      background: var(--warning-soft);
+      border-right: 4px solid #d97706;
+      color: var(--warning);
+      padding: 14px 16px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+      background: #fff;
+    }
+
+    th, td {
+      padding: 14px 16px;
+      text-align: right;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background: #f9fafb;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      position: relative;
+      padding-right: 30px;
+      margin: 10px 0;
+    }
+
+    .checklist li::before {
+      content: "□";
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 20px;
+      color: var(--accent);
+      line-height: 1.5;
+    }
+
+    .legend {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 28px 0;
+    }
+
+    .reading-order li {
+      margin: 6px 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 10px 0 30px;
+    }
+
+    @media (max-width: 640px) {
+      .container { width: min(100% - 20px, 1100px); margin: 16px auto; }
+      .hero, section { padding: 20px; border-radius: 12px; }
+      h2 { font-size: 21px; }
+      p, li { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>نقشه راه: استقلال مالی با سرمایه و دانش</h1>
+      <p>نسخه پاک‌سازی‌شده و ساختاریافته برای مطالعه و مرور راحت‌تر</p>
+    </header>
+
+    <section>
+      <h2>۱. واقعیت ریاضی</h2>
+      <ul>
+        <li>۴۰ هزار یورو با بازده واقعی ۵–۸٪ ≈ ۲–۳ هزار یورو در سال.</li>
+        <li>زندگی از «پول از پول» → سرمایه ≥ ۲۵ برابر هزینه سالانه (≈ ۶۰۰ هزار تا ۱ میلیون یورو برای اروپا).</li>
+        <li>این عدد با سرمایه‌گذاریِ ۴۰ هزار ساخته نمی‌شود؛ با <strong>مالکیت</strong> ساخته می‌شود (سهم استارتاپ، محصول، کسب‌وکار).</li>
+        <li>سرمایه‌گذاری نقشش این است که ثروتِ ساخته‌شده را <strong>دائمی</strong> کند.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>۲. نقشه راه دانش <small style="font-size:14px;color:#6b7280;font-weight:normal">(هر مرحله ۲–۳ ماه)</small></h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>مرحله</th>
+              <th>موضوع</th>
+              <th>منبع</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>۱</td>
+              <td>پایه‌ها: مرکب شدن، تورم، ریسک/بازده، تنوع، کارمزد، نقدشوندگی</td>
+              <td><em class="ltr">The Psychology of Money</em> (Housel)، <em class="ltr">The Simple Path to Wealth</em> (Collins)</td>
+            </tr>
+            <tr>
+              <td>۲</td>
+              <td>طبقات دارایی و سبد جهانی: ETF شاخصی (<span class="ltr">VWCE / IWDA</span>)، اوراق، REIT، طلا، کریپتو (درصد کم)؛ مدل <span class="ltr">core-satellite</span> (۸۰٪ شاخصی / ۲۰٪ شرط آگاهانه)</td>
+              <td><em class="ltr">A Random Walk Down Wall Street</em> (Malkiel)</td>
+            </tr>
+            <tr>
+              <td>۳</td>
+              <td>ارزش‌گذاری: صورت‌های مالی، <span class="ltr">DCF</span>، <span class="ltr">unit economics</span></td>
+              <td>دوره رایگان Damodaran (NYU/YouTube)، نامه‌های بافت</td>
+            </tr>
+            <tr>
+              <td>۴</td>
+              <td>مالیات و جغرافیا: اقامت مالیاتی، <span class="ltr">Box 3</span> هلند، معاهدات مالیاتی، دسترسی به کارگزار</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>۵</td>
+              <td>مالکیت: <span class="ltr">cap table</span>، <span class="ltr">term sheet</span>، اعتبارسنجی ایده، <span class="ltr">angel investing</span> در AI</td>
+              <td><em class="ltr">Venture Deals</em> (Feld)، <em class="ltr">The Mom Test</em>، YC Startup School</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <strong>نکته کلیدی:</strong> با تابعیت ایرانی و بدون اقامت خارجی، کارگزار جهانی حساب نمی‌دهد. بعد از BSN هلند → Interactive Brokers / DEGIRO. بخش «هر جای دنیا» عملاً از روز رسیدن به هلند شروع می‌شود.
+      </div>
+    </section>
+
+    <section>
+      <h2>۳. چه چیزهایی را یاد نگیری</h2>
+      <ul>
+        <li>فارکس، سیگنال، ترید روزانه، لوریج.</li>
+        <li>صنعتِ فروش امید به مهندس‌ها؛ تقریباً همه ضرر می‌کنند.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>۴. بهتر شدن (عملی)</h2>
+      <ul>
+        <li><strong>۱ ساعت در روز</strong> مطالعه مالی به انگلیسی + یادداشت به زبان خودت (روش فاینمن).</li>
+        <li><strong>دفتر تصمیم:</strong> هر تصمیم مالی + دلیلش → ۶ ماه بعد بازخوانی.</li>
+        <li><strong>هر ۳ ماه:</strong> ثبت دارایی خالص و بازده در یک جا.</li>
+        <li><strong>یک منتور</strong> که این مسیر را رفته (exit داشته یا سبد چندصدهزار یورویی ساخته).</li>
+        <li><strong>خواب و بدن:</strong> تصمیم‌های مالی بد از خستگی و FOMO می‌آیند.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>۵. شش ماه آینده</h2>
+
+      <h3>قبل از هلند</h3>
+      <ul class="checklist">
+        <li>مراحل ۱ و ۲ تمام</li>
+        <li>اسپردشیت دارایی</li>
+        <li>سهم استارتاپ کتبی (<span class="ltr">cap table + vesting</span>)</li>
+      </ul>
+
+      <h3>بعد از BSN</h3>
+      <ul class="checklist">
+        <li>باز کردن کارگزار</li>
+        <li>تخصیص ساده و دست‌نخورده: ۷۰٪ ETF جهانی / ۱۵٪ طلا / ۱۵٪ نقد</li>
+        <li>ساخت یک محصول کوچک AI که برایش پول بدهند → اولین ۱۰۰ یورو درآمد مالکیتی</li>
+      </ul>
+
+      <div class="divider"></div>
+      <div class="disclaimer">آموزشی است، نه توصیه خرید.</div>
+    </section>
+
+    <section>
+      <h2>کتابخانه استقلال مالی (نسخه کامل)</h2>
+      <div class="legend">⭐ = حتماً بخوان &nbsp;|&nbsp; ○ = اختیاری / مرحله بعد</div>
+
+      <h3>مرحله ۱ — پایه‌ها و روانشناسی پول</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>کتاب</th><th>نویسنده</th><th>چرا</th></tr></thead>
+        <tbody>
+          <tr><td>⭐</td><td class="ltr">The Psychology of Money</td><td class="ltr">Morgan Housel</td><td>رفتار مهم‌تر از فرمول است</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Simple Path to Wealth</td><td class="ltr">JL Collins</td><td>کل استراتژی شاخصی در یک کتاب ساده</td></tr>
+          <tr><td>⭐</td><td class="ltr">Your Money or Your Life</td><td class="ltr">Vicki Robin</td><td>فلسفه استقلال مالی؛ پول = زمان زندگی</td></tr>
+          <tr><td>○</td><td class="ltr">The Richest Man in Babylon</td><td class="ltr">George Clason</td><td>کوتاه، کلاسیک، اصول پس‌انداز</td></tr>
+          <tr><td>○</td><td class="ltr">Thinking, Fast and Slow</td><td class="ltr">Daniel Kahneman</td><td>خطاهای شناختی که پولت را می‌خورند</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>مرحله ۲ — طبقات دارایی و ساخت سبد</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>کتاب</th><th>نویسنده</th><th>چرا</th></tr></thead>
+        <tbody>
+          <tr><td>⭐</td><td class="ltr">A Random Walk Down Wall Street</td><td class="ltr">Burton Malkiel</td><td>چرا بازار را نمی‌شود شکست داد</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Little Book of Common Sense Investing</td><td class="ltr">John Bogle</td><td>پدر صندوق شاخصی؛ کوتاه و قاطع</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Four Pillars of Investing</td><td class="ltr">William Bernstein</td><td>تئوری، تاریخ، روانشناسی، صنعت</td></tr>
+          <tr><td>○</td><td class="ltr">Global Asset Allocation</td><td class="ltr">Meb Faber</td><td>مقایسه سبدهای معروف دنیا؛ خیلی کوتاه</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>مرحله ۳ — ارزش‌گذاری و تحلیل کسب‌وکار</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>کتاب</th><th>نویسنده</th><th>چرا</th></tr></thead>
+        <tbody>
+          <tr><td>⭐</td><td class="ltr">Financial Intelligence</td><td class="ltr">Berman &amp; Knight</td><td>صورت‌های مالی برای مدیر غیرمالی؛ برای CTO ضروری</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Little Book of Valuation</td><td class="ltr">Aswath Damodaran</td><td>DCF و ارزش‌گذاری بدون ریاضی سنگین</td></tr>
+          <tr><td>⭐</td><td class="ltr">Berkshire Shareholder Letters (رایگان)</td><td class="ltr">Warren Buffett</td><td>بهترین درس کسب‌وکار دنیا، مجانی</td></tr>
+          <tr><td>○</td><td class="ltr">The Intelligent Investor (فصل ۸ و ۲۰)</td><td class="ltr">Benjamin Graham</td><td>Mr. Market و حاشیه امنیت</td></tr>
+          <tr><td>○</td><td class="ltr">One Up on Wall Street</td><td class="ltr">Peter Lynch</td><td>سرمایه‌گذاری با چیزهایی که خودت می‌فهمی</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>مرحله ۴ — مالیات و جغرافیا</h3>
+      <p>کتاب خوب و به‌روزی وجود ندارد؛ منابع رسمی:</p>
+      <ul>
+        <li><span class="ltr">belastingdienst.nl</span> (Box 3، اقامت مالیاتی)</li>
+        <li><span class="ltr">ind.nl</span> (ویزا، 30% ruling)</li>
+        <li>یک مشاور مالیاتی expat در هلند (یک جلسه، ارزشش را دارد)</li>
+      </ul>
+
+      <h3>مرحله ۵ — مالکیت: استارتاپ و سرمایه‌گذاری فرشته</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>کتاب</th><th>نویسنده</th><th>چرا</th></tr></thead>
+        <tbody>
+          <tr><td>⭐</td><td class="ltr">Venture Deals</td><td class="ltr">Feld &amp; Mendelson</td><td>cap table، term sheet، vesting؛ قبل از امضای هر چیزی</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Mom Test</td><td class="ltr">Rob Fitzpatrick</td><td>اعتبارسنجی ایده بدون خودفریبی</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Almanack of Naval Ravikant (رایگان)</td><td class="ltr">Eric Jorgenson</td><td>دقیقاً فلسفه «ثروت بدون رئیس»</td></tr>
+          <tr><td>⭐</td><td class="ltr">The Hard Thing About Hard Things</td><td class="ltr">Ben Horowitz</td><td>واقعیت CTO/بنیان‌گذار بودن</td></tr>
+          <tr><td>○</td><td class="ltr">Zero to One</td><td class="ltr">Peter Thiel</td><td>چطور چیزی بسازی که رقیب ندارد</td></tr>
+          <tr><td>○</td><td class="ltr">The Lean Startup</td><td class="ltr">Eric Ries</td><td>MVP و یادگیری سریع</td></tr>
+          <tr><td>○</td><td class="ltr">Angel</td><td class="ltr">Jason Calacanis</td><td>راهنمای عملی angel investing</td></tr>
+          <tr><td>○</td><td class="ltr">Paul Graham Essays (رایگان)</td><td class="ltr">Paul Graham</td><td>paulgraham.com؛ همه را بخوان</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>مرحله ۶ — بهتر شدن: عادت، تمرکز، مدل‌های ذهنی</h3>
+      <div class="table-wrap"><table>
+        <thead><tr><th></th><th>کتاب</th><th>نویسنده</th><th>چرا</th></tr></thead>
+        <tbody>
+          <tr><td>⭐</td><td class="ltr">Atomic Habits</td><td class="ltr">James Clear</td><td>سیستم به جای اراده</td></tr>
+          <tr><td>⭐</td><td class="ltr">Deep Work</td><td class="ltr">Cal Newport</td><td>ساعت‌های تمرکز = سرمایه اصلی تو</td></tr>
+          <tr><td>⭐</td><td class="ltr">Antifragile</td><td class="ltr">Nassim Taleb</td><td>چطور از نوسان سود ببری نه ضرر</td></tr>
+          <tr><td>○</td><td class="ltr">Poor Charlie's Almanack</td><td class="ltr">Charlie Munger</td><td>مدل‌های ذهنی چندرشته‌ای</td></tr>
+          <tr><td>○</td><td class="ltr">High Output Management</td><td class="ltr">Andy Grove</td><td>از مهندس به مدیر واقعی</td></tr>
+          <tr><td>○</td><td class="ltr">So Good They Can't Ignore You</td><td class="ltr">Cal Newport</td><td>مهارت کمیاب &gt; اشتیاق</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section>
+      <h2>ترتیب خواندن ۶ ماه اول (فقط ⭐ها)</h2>
+      <ol class="reading-order">
+        <li><span class="ltr">The Psychology of Money</span></li>
+        <li><span class="ltr">Atomic Habits</span></li>
+        <li><span class="ltr">The Simple Path to Wealth</span></li>
+        <li><span class="ltr">The Almanack of Naval Ravikant</span></li>
+        <li><span class="ltr">The Little Book of Common Sense Investing</span></li>
+        <li><span class="ltr">Venture Deals</span></li>
+        <li><span class="ltr">The Mom Test</span></li>
+        <li><span class="ltr">Financial Intelligence</span></li>
+        <li><span class="ltr">Deep Work</span></li>
+        <li><span class="ltr">A Random Walk Down Wall Street</span></li>
+      </ol>
+
+      <div class="note" style="margin-top:20px">
+        <strong>قاعده:</strong> ماهی ۲ کتاب، هر کتاب یک صفحه یادداشت به زبان خودت. بقیه بعد از هلند.
+      </div>
+    </section>
+
+    <footer>نسخه HTML پاک‌سازی‌شده از فایل اصلی</footer>
+  </main>
+</body>
+</html>
