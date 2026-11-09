@@ -61,6 +61,16 @@ describe('Widgets: sliders, habits, journal, checklists, shelf', () => {
     expect(store.durable(s).sliders.capital).toBe(100000);
   });
 
+  it('a new ISO week starts the tracker empty (Step 9 review finding)', () => {
+    let s = R(engine.initial(), { type: 'TOGGLE_HABIT', value: { habit: 'read', day: 1, week: '2026-W46' } });
+    expect(s.habits.read[1]).toBe(true);
+    expect(s.habitsWeek).toBe('2026-W46');
+    s = R(s, { type: 'TOGGLE_HABIT', value: { habit: 'body', day: 3, week: '2026-W47' } });
+    expect(s.habits.read).toBeUndefined();
+    expect(s.habits.body[3]).toBe(true);
+    expect(store.durable(s).habitsWeek).toBe('2026-W47');
+  });
+
   it('TOGGLE_HABIT flips one cell of the weekly tracker', () => {
     let s = R(engine.initial(), { type: 'TOGGLE_HABIT', value: { habit: 'read', day: 2 } });
     expect(s.habits.read[2]).toBe(true);

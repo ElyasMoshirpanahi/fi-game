@@ -7,7 +7,7 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 - The source HTML is Farsi only. Every English string in the game is a translation written during the build.
 - Station 3 ("what not to learn") has two bullets in the source.
 - Station 1 has four bullets with these numbers: 40k EUR capital, 5 to 8 percent real return, 2 to 3k EUR per year, 25x annual expenses, 600k to 1M EUR for Europe.
-- The library has six tables, 30 books, and a 10-book reading order with the rule "2 books per month, one page of notes".
+- The library has six tables, 28 books, and a 10-book reading order with the rule "2 books per month, one page of notes".
 - GitHub CLI is logged in as ElyasMoshirpanahi over SSH. Node 24, npm 11, Python 3.14 available.
 
 ## Decisions
@@ -37,7 +37,7 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 
 ## Executor decisions derived from the above (noted, not asked)
 
-- Digits: Persian digits in FA mode, Latin digits in EN and Both modes (Both is EN-led).
+- Digits: Persian digits in FA mode, Latin digits in EN mode. In Both mode the English line uses Latin digits and the Farsi line beneath keeps its Persian digits (corrected after the Step 9 review).
 - Storage key `fi-roadmap-v1`, as the playbook says. Every read and write in try/catch.
 - Google Fonts (Vazirmatn, Inter) is the only allowed external request. No external scripts.
 - Disclaimer "آموزشی است، نه توصیه خرید" / "Educational, not investment advice" is always visible.

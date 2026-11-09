@@ -18,8 +18,9 @@ status: accepted
 **engine** (deep: the whole loop behind two calls)
 - `FI.engine.initial()` : the full state.
 - `FI.engine.reduce(state, action, content)` : returns a new state. Pure. Content is a parameter, not a global read, so tests can pass a two-Station fixture.
-- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare-passed`, `fare-failed`, `lit`, `milestone`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
-- Actions: `SET_MODE`, `OPEN_STATION`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `RESET`, `HYDRATE`.
+- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare`, `fare-passed`, `fare-failed`, `lit`, `milestone`, `reset`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
+- Actions: `SET_MODE`, `OPEN_STATION`, `OPEN_TOOLS`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `RESET`, `HYDRATE`. Actions named `UI_*` never reach the engine; render consumes them (order chips, filters, confirms).
+- `FI.engine.DURABLE` is the one list of fields that survive a reload; store reads it and HYDRATE iterates it.
 - Fare question order is a deterministic rotation by attempt, never random, so a test can predict it.
 - Lifted from the logic prototype (`docs/prototypes/logic-engine-verdict.md`), including the two fixes.
 
@@ -30,7 +31,7 @@ status: accepted
 - `storage` is injected (`window.localStorage` in the page, a plain object or a throwing object in tests). This is the second seam, and it is real: two adapters exist from day one.
 
 **render** (deep: the entire DOM behind two calls)
-- `FI.render.mount(root, dispatch)` : attaches one delegated listener; elements carry `data-action` JSON.
+- `FI.render.mount(root, dispatch)` : attaches delegated listeners on the root (click for `data-action` JSON, input for sliders, search and the journal, drag events for order chips).
 - `FI.render.render(root, state, content)` : full re-render from state. Idempotent. Sets `lang` and `dir` on `<html>` from the mode. Reads `state.events` to add transient classes.
 - Hidden: layout (ADR-0007), RTL isolation of Latin terms, digit localisation, focus management.
 
@@ -41,7 +42,7 @@ status: accepted
 
 ## The test seam
 
-`test/load.mjs` reads `index.html`, extracts each `<script data-module>` block whose name is in the requested list, concatenates them with a fresh `const FI = {}` prefix and evaluates them with `new Function`. Tests get `{ content, engine, store }` with no DOM, no jsdom, no bundler. The render and fx blocks are never loaded in unit tests; the play-tests in Chrome cover them.
+`test/load.mjs` reads `index.html`, extracts each `<script data-module>` block whose name is in the requested list, concatenates them with a fresh `const FI = {}` prefix and evaluates them with `new Function`. Tests get `{ content, engine, store }` with no DOM, no jsdom, no bundler. The render block defines functions only at load time, so a test may load it to call a pure helper it exports (`faHtml`); nothing in render is called with a DOM in unit tests. The play-tests in Chrome cover the DOM. Inside render, `t()` and `num()` read `FI.content` directly for brevity; `render()` still receives content as a parameter so the entry point stays explicit.
 
 ## Considered and rejected
 

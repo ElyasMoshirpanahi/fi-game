@@ -65,8 +65,16 @@ One of the two persisted to-do lists in the Next 6 Months Station: Before the Ne
 _Avoid_: tasks, todo
 
 **Shelf**:
-The Library Station's view of all 30 books, each with a reading state: To-read, Reading, Read.
+The Library Station's view of all 28 books, each with a reading state: To-read, Reading, Read. Each book opens its Book Unit from the Shelf.
 _Avoid_: bookshelf, list, grid
+
+**Book Unit**:
+A Station that is not on the Path: one book's essentials in 4 to 6 Cards, 3 to 4 Checks and a Fare, opened from the Shelf. Passing its Fare lights it, awards its Badge and 20 XP (owner decisions 18 and 20). "Unit" alone stays banned; the two-word term is the name.
+_Avoid_: lesson, chapter, book station
+
+**Tools**:
+A Station's interactives reachable from the Path without replaying the Station: the sliders, the habit grid, the decision journal, the Checklists, the Shelf.
+_Avoid_: widgets (the implementation word), settings
 
 **Language Mode**:
 One of FA, EN or Both. FA shows Farsi with Persian digits in a right-to-left page. EN shows English with Latin digits in a left-to-right page. Both shows English on top and Farsi beneath in a left-to-right page. The default is EN.

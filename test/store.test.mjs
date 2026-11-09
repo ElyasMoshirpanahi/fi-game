@@ -48,6 +48,12 @@ describe('State round-trips through localStorage under the key fi-roadmap-v1', (
     expect(hydrated.screen).toBe('station'); // the position is restored (owner decision after Prompt 0); see resume.test.mjs
   });
 
+  it('the Returns pass flag is never stored (decision 10)', () => {
+    const s = R(engine.initial(), { type: 'OPEN_STATION', value: 's1' });
+    expect(s.run.returning).toBe(false);
+    expect(store.durable(s).run).toEqual({ stationId: 's1', pos: 0 });
+  });
+
   it('a Lit Station survives a reload', () => {
     const storage = fakeStorage();
     let s = engine.initial();
