@@ -8,12 +8,144 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-/* render module styles arrive with Prompt 0 */
+:root {
+  --bg: #f4f6f8; --card: #ffffff; --text: #1f2937; --muted: #6b7280; --border: #e5e7eb; --line: #d9dee5;
+  --accent: #0f766e; --accent-strong: #0b5d57; --accent-soft: #e6f4f1;
+  --gold: #d97706; --gold-soft: #fff4e0; --gold-strong: #b45309;
+  --ok: #15803d; --ok-soft: #e7f7ec; --bad: #b91c1c; --bad-soft: #fdecec;
+  --shadow: 0 10px 30px rgba(17, 24, 39, .08); --radius: 18px;
+  --fa-font: Vazirmatn, Tahoma, sans-serif; --en-font: Inter, system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1419; --card: #171d25; --text: #e5e7eb; --muted: #9aa3af; --border: #2a3340; --line: #2f3946;
+    --accent: #2dd4bf; --accent-strong: #5eead4; --accent-soft: #10302d;
+    --gold: #f59e0b; --gold-soft: #3a2a0d; --gold-strong: #fbbf24;
+    --ok: #4ade80; --ok-soft: #10301c; --bad: #f87171; --bad-soft: #3a1414;
+    --shadow: 0 10px 30px rgba(0, 0, 0, .4);
+  }
+}
+* { box-sizing: border-box; }
+html { height: 100%; }
+body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font-family: var(--en-font); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+html[lang="fa"] body { font-family: var(--fa-font); }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 12px; }
+#app { width: min(480px, 100%); margin: 0 auto; padding-bottom: 72px; }
+.t-fa { font-family: var(--fa-font); direction: rtl; unicode-bidi: isolate; display: block; }
+.t-en { font-family: var(--en-font); direction: ltr; unicode-bidi: isolate; display: block; }
+.under { color: var(--muted); font-size: .92em; margin-top: 6px; }
+bdi { unicode-bidi: isolate; }
+
+/* top bar */
+.top { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+.modes { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; background: var(--card); }
+.modes button { border: 0; background: transparent; padding: 5px 10px; border-radius: 999px; font-weight: 700; font-size: 13px; color: var(--muted); }
+.modes button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.xpbar { flex: 1; height: 12px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.xpbar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--accent-strong)); border-radius: 999px; transition: width .6s cubic-bezier(.2,.8,.2,1); }
+html[dir="rtl"] .xpbar i { margin-inline-start: auto; }
+.coins { display: inline-flex; align-items: center; gap: 5px; font-weight: 800; font-size: 14px; color: var(--gold-strong); background: var(--gold-soft); border-radius: 999px; padding: 4px 10px; }
+.coins svg { width: 14px; height: 14px; }
+.icon { border: 1px solid var(--line); background: var(--card); width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; }
+.icon svg { width: 18px; height: 18px; }
+
+/* path */
+.path { padding: 22px 18px 30px; }
+.path h1 { font-size: 24px; margin: 0; letter-spacing: -.01em; }
+.path .sub { margin: 4px 0 26px; color: var(--muted); font-size: 14px; }
+.nodes { list-style: none; margin: 0; padding: 0; position: relative; }
+.nodes::before { content: ""; position: absolute; left: 50%; top: 40px; bottom: 40px; width: 4px; margin-left: -2px; background: repeating-linear-gradient(to bottom, var(--line) 0 10px, transparent 10px 20px); border-radius: 2px; }
+.node { position: relative; display: flex; flex-direction: column; align-items: center; margin: 0 0 30px; width: 150px; }
+.node:nth-child(odd) { margin-inline-start: 8%; }
+.node:nth-child(even) { margin-inline-start: auto; margin-inline-end: 8%; }
+.node > button { position: relative; width: 84px; height: 84px; border-radius: 50%; border: 0; background: var(--card); box-shadow: 0 7px 0 var(--line), var(--shadow); display: grid; place-items: center; transition: transform .15s, box-shadow .15s; }
+.node > button:active { transform: translateY(5px); box-shadow: 0 2px 0 var(--line); }
+.node .ring { position: absolute; inset: -9px; border-radius: 50%; background: conic-gradient(var(--accent) calc(var(--p) * 1%), var(--line) 0); -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); transition: background .5s; }
+.node .ico { width: 36px; height: 36px; color: var(--accent); }
+.node.lit > button { background: var(--gold); box-shadow: 0 7px 0 var(--gold-strong), var(--shadow); }
+.node.lit .ico { color: #fff; }
+.node.lit .ring { background: conic-gradient(var(--gold) 100%, var(--gold) 0); }
+.node.dim > button { background: var(--bg); box-shadow: 0 7px 0 var(--line); }
+.node.dim .ico { color: var(--muted); opacity: .6; }
+.node.dim .ring { background: var(--line); }
+.node.cur > button { animation: pulse 1.8s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 7px 0 var(--line), 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); } 60% { box-shadow: 0 7px 0 var(--line), 0 0 0 16px transparent; } }
+.node .label { margin-top: 14px; font-weight: 700; font-size: 14px; text-align: center; }
+.node .label .under { font-size: 12px; }
+.node .badge { position: absolute; top: -6px; inset-inline-end: 10px; background: var(--card); color: var(--gold-strong); border: 2px solid var(--gold); border-radius: 999px; padding: 1px 8px; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.node .planned { margin-top: 4px; font-size: 11px; color: var(--muted); }
+.pathfoot { margin-top: 10px; display: flex; justify-content: center; }
+.linkish { border: 0; background: transparent; color: var(--muted); text-decoration: underline; font-size: 13px; padding: 6px; }
+.confirm { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center; background: var(--bad-soft); color: var(--bad); border-radius: 12px; padding: 10px 14px; font-size: 14px; }
+.confirm button { border: 1px solid currentColor; background: transparent; border-radius: 999px; padding: 5px 12px; font-weight: 700; color: inherit; }
+
+/* station */
+.station { padding: 14px 16px 24px; }
+.shead { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+.prog { flex: 1; height: 12px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.prog i { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width .5s cubic-bezier(.2,.8,.2,1); }
+html[dir="rtl"] .prog i { margin-inline-start: auto; }
+.count { font-size: 13px; color: var(--muted); font-weight: 700; min-width: 40px; text-align: end; }
+.panel { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 20px; box-shadow: var(--shadow); transition: transform .2s, box-shadow .2s; }
+@media (hover: hover) { .panel.card:hover { transform: translateY(-2px); } }
+.kicker { font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
+.kicker.fare { color: var(--gold-strong); }
+.ctext { font-size: 20px; font-weight: 600; line-height: 1.5; margin: 0; }
+.ctext .t-fa { font-size: 20px; }
+.ctext .under { font-size: 17px; font-weight: 400; }
+.prompt { font-size: 19px; font-weight: 700; margin: 0 0 16px; line-height: 1.45; }
+.addnote { margin: 14px 0 0; font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.addnote a { color: var(--accent); }
+.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+.actions .wide { grid-column: 1 / -1; }
+.btn { border: 2px solid var(--line); border-bottom-width: 5px; background: var(--card); border-radius: 14px; padding: 13px 14px; font-weight: 700; font-size: 16px; text-align: center; transition: transform .08s, border-color .15s, background .15s; }
+.btn:active { transform: translateY(3px); border-bottom-width: 2px; }
+.btn.primary { background: var(--accent); border-color: var(--accent-strong); color: #fff; }
+.btn.ghost { border-color: transparent; background: transparent; color: var(--muted); }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+.opts { display: grid; gap: 10px; margin-top: 6px; }
+.opt { text-align: start; }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrongpick { border-color: var(--bad); background: var(--bad-soft); }
+.tf { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.slots { display: flex; flex-wrap: wrap; gap: 8px; min-height: 44px; padding: 8px; border: 2px dashed var(--line); border-radius: 12px; margin-bottom: 12px; }
+.slot { background: var(--accent-soft); color: var(--accent-strong); border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 14px; display: inline-flex; gap: 6px; align-items: center; }
+.slot b { opacity: .7; }
+.help { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.hint { margin-top: 16px; padding: 14px 16px; border-radius: 12px; background: var(--gold-soft); border-inline-start: 4px solid var(--gold); font-size: 15px; }
+.hint .kicker { color: var(--gold-strong); margin-bottom: 6px; }
+.feedback { margin-top: 14px; border-radius: 14px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 800; animation: rise .25s ease-out; }
+.feedback.ok { background: var(--ok-soft); color: var(--ok); }
+.feedback.bad { background: var(--bad-soft); color: var(--bad); }
+.feedback .btn { flex: 0 0 auto; padding: 10px 18px; }
+.feedback.ok .btn { background: var(--ok); border-color: color-mix(in srgb, var(--ok) 70%, #000); color: #fff; }
+.feedback.bad .btn { background: var(--bad); border-color: color-mix(in srgb, var(--bad) 70%, #000); color: #fff; }
+.feedback .msg { display: flex; flex-direction: column; gap: 2px; }
+.feedback .msg small { font-weight: 600; opacity: .85; }
+@keyframes rise { from { transform: translateY(8px); opacity: 0; } to { transform: none; opacity: 1; } }
+.result { text-align: center; padding: 34px 20px; }
+.result .big { width: 120px; height: 120px; margin: 0 auto 16px; border-radius: 50%; display: grid; place-items: center; background: var(--gold-soft); color: var(--gold-strong); box-shadow: 0 8px 0 var(--gold); animation: pop .5s cubic-bezier(.2,1.4,.4,1); }
+.result .big svg { width: 56px; height: 56px; }
+.result.fail .big { background: var(--bad-soft); color: var(--bad); box-shadow: 0 8px 0 var(--bad); }
+.result h2 { margin: 0 0 6px; font-size: 22px; }
+.result p { margin: 0 0 20px; color: var(--muted); }
+@keyframes pop { from { transform: scale(.6); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* disclaimer, always visible */
+.disc { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10; text-align: center; font-size: 12px; padding: 8px 12px; background: var(--gold-soft); color: var(--gold-strong); border-top: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); }
+.disc .t-fa, .disc .t-en { display: inline; }
+.disc .sep { margin: 0 8px; opacity: .5; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
 </style>
 </head>
 <body>
 <div id="app"></div>
 
+<script>var FI = window.FI = {};</script>
 <script data-module="content">
 // ---------------------------------------------------------------------------
 // content: every Station, Card, Check and ui string, in fa and en (ADR-0002).
@@ -153,6 +285,15 @@ FI.content = (() => {
     },
   ];
 
+  // Stations 3 to 6 arrive with Prompt 3; the Path shows them as empty nodes until then.
+  const planned = [
+    { id: 's3', name: T('What NOT to Learn', 'چه چیزهایی را یاد نگیری'), badge: T('', ''), items: [], fareSize: 3 },
+    { id: 's4', name: T('Getting Better', 'بهتر شدن'), badge: T('', ''), items: [], fareSize: 3 },
+    { id: 's5', name: T('Next 6 Months', 'شش ماه آینده'), badge: T('', ''), items: [], fareSize: 3 },
+    { id: 's6', name: T('Library', 'کتابخانه'), badge: T('', ''), items: [], fareSize: 3 },
+  ];
+  const allStations = () => stations.concat(planned.filter((p) => !stations.some((s) => s.id === p.id)));
+
   const item = (stationId, id) => {
     const st = stations.find((s) => s.id === stationId);
     return st && st.items.find((i) => i.id === id);
@@ -174,7 +315,7 @@ FI.content = (() => {
     return { top: pair.en, under: pair.fa };
   };
 
-  return { ui, stations, item, station, text, fmt, faDigits };
+  return { ui, stations, planned, allStations, item, station, text, fmt, faDigits };
 })();
 </script>
 
@@ -375,15 +516,276 @@ FI.store = (() => {
 </script>
 
 <script data-module="render">
-FI.render = {};
+// ---------------------------------------------------------------------------
+// render: the whole DOM behind mount() and render(). Full re-render from state.
+// Layout per ADR-0007 (Duolingo zigzag path, polished). Both mode is EN-led.
+// UI-only state (the Order Check's placed items, the reset confirm) lives here.
+// ---------------------------------------------------------------------------
+FI.render = (() => {
+  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null };
+
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  // Farsi text with Latin runs isolated so VWCE, DCF, Box 3 keep their direction.
+  const faHtml = (s) => esc(s).replace(/[A-Za-z][A-Za-z0-9 .\/%'’&-]*[A-Za-z0-9%]|[A-Za-z]/g, (m) => `<bdi>${m}</bdi>`);
+  const A = (action) => `data-action="${esc(JSON.stringify(action))}"`;
+  const num = (n, mode) => FI.content.fmt(n, mode === 'FA' ? 'FA' : 'EN');
+
+  const pair = (p, mode, cls = '') => {
+    if (!p) return '';
+    if (mode === 'FA') return `<span class="t-fa ${cls}" lang="fa">${faHtml(p.fa)}</span>`;
+    if (mode === 'EN') return `<span class="t-en ${cls}" lang="en">${esc(p.en)}</span>`;
+    return `<span class="t-en ${cls}" lang="en">${esc(p.en)}</span><span class="t-fa under" lang="fa">${faHtml(p.fa)}</span>`;
+  };
+  const both = (p) => `<span class="t-en" lang="en">${esc(p.en)}</span><span class="t-fa under" lang="fa">${faHtml(p.fa)}</span>`;
+  const t = (key, mode) => {
+    const u = FI.content.ui;
+    if (mode === 'FA') return esc(u.fa[key]);
+    return esc(u.en[key]);
+  };
+
+  const ICONS = {
+    s1: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 12h3M13 12h3M8 16h3M13 16h3"/></svg>',
+    s2: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg>',
+    s3: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 8l8 8M16 8l-8 8"/></svg>',
+    s4: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l6-6 4 4 6-8"/><path d="M14 8h6v6"/></svg>',
+    s5: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+    s6: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a2 2 0 00-2-2H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a2 2 0 012-2h7z"/></svg>',
+    coin: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity=".35"/><circle cx="12" cy="12" r="6"/></svg>',
+    sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 010 6"/></svg>',
+    muted: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l4 6M21 9l-4 6"/></svg>',
+    close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    badge: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 7 6-3 6 3-2-7"/></svg>',
+    retry: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0114-5l2 2M20 4v5h-5"/><path d="M20 12a8 8 0 01-14 5l-2-2M4 20v-5h5"/></svg>',
+  };
+
+  function topBar(s, content) {
+    const totalXp = content.allStations().length * FI.engine.FARE_XP;
+    const pct = Math.min(100, Math.round((s.xp / totalXp) * 100));
+    const mode = (m, label) => `<button ${A({ type: 'SET_MODE', value: m })} aria-pressed="${s.mode === m}">${label}</button>`;
+    return `<header class="top">
+      <div class="modes" role="group" aria-label="Language">${mode('EN', t('modeEN', s.mode))}${mode('FA', t('modeFA', s.mode))}${mode('BOTH', t('modeBoth', s.mode))}</div>
+      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${s.xp}" aria-valuemin="0" aria-valuemax="${totalXp}"><i style="width:${pct}%"></i></div>
+      <span class="coins" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}${num(s.coins, s.mode)}</span>
+      <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
+    </header>`;
+  }
+
+  function pathScreen(s, content) {
+    const all = content.allStations();
+    const firstOpen = all.find((st) => st.items.length && !s.lit[st.id]);
+    const nodes = all.map((st) => {
+      const checks = st.items.filter((i) => i.kind === 'check').length;
+      const p = checks ? Math.round(((s.rings[st.id] || 0) / checks) * 100) : 0;
+      const cls = s.lit[st.id] ? 'lit' : !st.items.length ? 'dim' : firstOpen && firstOpen.id === st.id ? 'cur' : '';
+      const open = st.items.length ? A({ type: 'OPEN_STATION', value: st.id }) : 'disabled';
+      return `<li class="node ${cls}" style="--p:${s.lit[st.id] ? 100 : p}">
+        <button ${open} aria-label="${esc(st.name.en)}"><span class="ring"></span><span class="ico">${ICONS[st.id]}</span></button>
+        ${s.lit[st.id] ? `<span class="badge">${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')}</span>` : ''}
+        <span class="label">${pair(st.name, s.mode)}</span>
+        ${!st.items.length ? `<span class="planned">${t('stationLocked', s.mode)}</span>` : ''}
+      </li>`;
+    }).join('');
+    const reset = ui.confirmReset
+      ? `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('resetConfirm', s.mode)}</span><button ${A({ type: 'UI_RESET_CANCEL' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESET' })}>${t('confirm', s.mode)}</button></div>`
+      : `<button class="linkish" ${A({ type: 'UI_RESET_ASK' })}>${t('reset', s.mode)}</button>`;
+    return `<main class="path">
+      <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
+      <ol class="nodes">${nodes}</ol>
+      <div class="pathfoot">${reset}</div>
+    </main>`;
+  }
+
+  function cardPanel(s, content, item) {
+    let body;
+    if (s.flipped && s.mode !== 'BOTH') body = pair(item.text, s.mode === 'FA' ? 'EN' : 'FA');
+    else body = pair(item.text, s.mode);
+    const add = item.addition ? `<p class="addnote"><span>${t('addition', s.mode)}</span>${/^https?:/.test(item.cite) ? `<a href="${esc(item.cite)}" target="_blank" rel="noopener">${t('source', s.mode)}</a>` : ''}</p>` : '';
+    const flip = s.mode === 'BOTH' ? '' : `<button class="btn ghost wide" ${A({ type: 'FLIP' })}>${t('flip', s.mode)}</button>`;
+    return `<section class="panel card">
+      <p class="kicker">${pair(content.station(s.stationId).name, s.mode === 'FA' ? 'FA' : 'EN')}</p>
+      <p class="ctext">${body}</p>${add}
+      <div class="actions">${flip}
+        <button class="btn" ${A({ type: 'RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button>
+        <button class="btn primary" ${A({ type: 'RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button>
+      </div>
+    </section>`;
+  }
+
+  function checkPanel(s, content, k) {
+    const locked = s.phase === 'correct' || s.phase === 'revealed';
+    const inFare = s.phase === 'fare';
+    let body = '';
+    if (k.type === 'tap') {
+      body = `<div class="opts">${k.options.map((o, i) => {
+        const cls = locked && i === k.answer ? 'right' : '';
+        return `<button class="btn opt ${cls}" ${locked ? 'disabled' : A({ type: 'ANSWER', value: i })} ${i === 0 ? 'data-focus' : ''}>${pair(o, s.mode)}</button>`;
+      }).join('')}</div>`;
+    } else if (k.type === 'tf') {
+      const b = (v, label) => `<button class="btn ${locked && v === k.answer ? 'right' : ''}" ${locked ? 'disabled' : A({ type: 'ANSWER', value: v })} ${v ? 'data-focus' : ''}>${label}</button>`;
+      body = `<div class="tf">${b(true, t('trueLabel', s.mode))}${b(false, t('falseLabel', s.mode))}</div>`;
+    } else if (k.type === 'order') {
+      const placed = locked ? k.answer : ui.order;
+      const slots = placed.map((i, n) => `<span class="slot"><b>${num(n + 1, s.mode)}</b>${pair(k.options[i], s.mode === 'FA' ? 'FA' : 'EN')}</span>`).join('');
+      const remaining = k.options.map((o, i) => placed.includes(i) ? '' : `<button class="btn opt" ${locked ? 'disabled' : A({ type: 'UI_ORDER_ADD', value: i })}>${pair(o, s.mode)}</button>`).join('');
+      body = `<p class="help">${t('orderHelp', s.mode)}</p>
+        <div class="slots" aria-live="polite">${slots}</div>
+        <div class="opts">${remaining}</div>
+        ${locked ? '' : `<div class="actions"><button class="btn ghost" ${A({ type: 'UI_ORDER_CLEAR' })} ${placed.length ? '' : 'disabled'}>${t('clearOrder', s.mode)}</button><button class="btn primary" ${A({ type: 'ANSWER', value: placed })} ${placed.length === k.options.length ? '' : 'disabled'}>${t('check', s.mode)}</button></div>`}`;
+    }
+    const src = content.item(s.stationId, k.source);
+    const hint = s.hint && !inFare ? `<aside class="hint"><p class="kicker">${t('hint', s.mode)}</p>${both(src.text)}</aside>` : '';
+    const kicker = inFare
+      ? `<p class="kicker fare">${t('fareTitle', s.mode)} · ${num(s.fare.index + 1, s.mode)}/${num(s.fare.questions.length, s.mode)}</p>`
+      : `<p class="kicker">${pair(content.station(s.stationId).name, s.mode === 'FA' ? 'FA' : 'EN')}</p>`;
+    return `<section class="panel check">${kicker}<h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}${hint}</section>`;
+  }
+
+  function feedback(s, content, k) {
+    if (s.phase === 'correct') {
+      const coin = s.events.includes('coin') ? `<small>+${num(1, s.mode)} ${t('coins', s.mode)}</small>` : '';
+      return `<div class="feedback ok" aria-live="polite"><span class="msg"><span>${t('correct', s.mode)}</span>${coin}</span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
+    }
+    if (s.phase === 'revealed') {
+      const ans = k.type === 'tf' ? (k.answer ? t('trueLabel', s.mode) : t('falseLabel', s.mode)) : k.type === 'tap' ? pair(k.options[k.answer], s.mode === 'FA' ? 'FA' : 'EN') : '';
+      return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('revealed', s.mode)}</span><small>${ans}</small></span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
+    }
+    if (s.phase === 'check' && s.hint) {
+      return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('wrong', s.mode)}</span></span></div>`;
+    }
+    return '<div aria-live="polite"></div>';
+  }
+
+  function resultPanel(s, content) {
+    const st = content.station(s.stationId);
+    if (s.phase === 'fare-passed') {
+      return `<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2><p>${t('badge', s.mode)}: ${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')} · +${num(FI.engine.FARE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
+    }
+    return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
+  }
+
+  function stationScreen(s, content) {
+    const st = content.station(s.stationId);
+    const total = st.items.length;
+    const pos = s.fare ? total : Math.max(0, st.items.findIndex((i) => i.id === s.current));
+    const pct = Math.round((pos / total) * 100);
+    const item = content.item(s.stationId, s.current);
+    let inner = '';
+    if (s.phase === 'card') inner = cardPanel(s, content, item);
+    else if (s.phase === 'fare-passed' || s.phase === 'fare-failed') inner = resultPanel(s, content);
+    else inner = checkPanel(s, content, item) + feedback(s, content, item);
+    return `<main class="station">
+      <div class="shead">
+        <button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button>
+        <div class="prog" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
+        <span class="count">${num(Math.min(pos + 1, total), s.mode)} ${t('ofCards', s.mode)} ${num(total, s.mode)}</span>
+      </div>${inner}
+    </main>`;
+  }
+
+  function disclaimer(s) {
+    const u = FI.content.ui;
+    if (s.mode === 'FA') return `<footer class="disc"><span class="t-fa" lang="fa">${esc(u.fa.disclaimer)}</span></footer>`;
+    if (s.mode === 'EN') return `<footer class="disc"><span class="t-en" lang="en">${esc(u.en.disclaimer)}</span></footer>`;
+    return `<footer class="disc"><span class="t-en" lang="en">${esc(u.en.disclaimer)}</span><span class="sep">·</span><span class="t-fa" lang="fa">${esc(u.fa.disclaimer)}</span></footer>`;
+  }
+
+  function render(root, s, content) {
+    if (s.current !== ui.lastCurrent || (s.phase === 'check' && ui.lastPhase !== 'check')) { ui.order = []; }
+    if (s.screen !== 'path') ui.confirmReset = false;
+    const html = document.documentElement;
+    html.lang = s.mode === 'FA' ? 'fa' : 'en';
+    html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
+    root.innerHTML = topBar(s, content) + (s.screen === 'path' ? pathScreen(s, content) : stationScreen(s, content)) + disclaimer(s);
+    const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase;
+    ui.lastCurrent = s.current; ui.lastPhase = s.phase;
+    if (changed && s.screen === 'station') {
+      const f = root.querySelector('[data-focus]');
+      if (f) f.focus({ preventScroll: false });
+    }
+  }
+
+  // UI-only actions, consumed before the engine sees anything.
+  function handleUi(action) {
+    switch (action.type) {
+      case 'UI_ORDER_ADD': if (!ui.order.includes(action.value)) ui.order.push(action.value); return true;
+      case 'UI_ORDER_CLEAR': ui.order = []; return true;
+      case 'UI_RESET_ASK': ui.confirmReset = true; return true;
+      case 'UI_RESET_CANCEL': ui.confirmReset = false; return true;
+      default: return false;
+    }
+  }
+
+  function mount(root, dispatch) {
+    root.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-action]');
+      if (!b || b.disabled) return;
+      dispatch(JSON.parse(b.getAttribute('data-action')));
+    });
+  }
+
+  return { mount, render, handleUi };
+})();
 </script>
 
 <script data-module="fx">
-FI.fx = {};
+// ---------------------------------------------------------------------------
+// fx: Web Audio for the events the engine reports. Lazy AudioContext, created
+// on the first user gesture. Respects state.muted. Animation is CSS only.
+// ---------------------------------------------------------------------------
+FI.fx = (() => {
+  let ctx = null;
+  const ac = () => {
+    try {
+      if (!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+      if (ctx.state === 'suspended') ctx.resume();
+      return ctx;
+    } catch (e) { return null; }
+  };
+  const tone = (freq, start, dur, type = 'sine', gain = 0.08) => {
+    const c = ac(); if (!c) return;
+    const o = c.createOscillator(); const g = c.createGain();
+    o.type = type; o.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, c.currentTime + start);
+    g.gain.exponentialRampToValueAtTime(gain, c.currentTime + start + 0.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + start + dur);
+    o.connect(g).connect(c.destination);
+    o.start(c.currentTime + start); o.stop(c.currentTime + start + dur + 0.02);
+  };
+  const SOUNDS = {
+    correct: () => { tone(523.25, 0, 0.12); tone(659.25, 0.09, 0.16); },
+    wrong: () => { tone(160, 0, 0.18, 'triangle', 0.06); },
+    lit: () => { tone(523.25, 0, 0.12); tone(659.25, 0.1, 0.12); tone(783.99, 0.2, 0.12); tone(1046.5, 0.3, 0.3); },
+    'fare-failed': () => { tone(220, 0, 0.14, 'triangle', 0.05); tone(180, 0.14, 0.2, 'triangle', 0.05); },
+  };
+  function run(events, state) {
+    if (state.muted || !events || !events.length) return;
+    if (events.includes('lit')) return SOUNDS.lit();
+    if (events.includes('fare-failed')) return SOUNDS['fare-failed']();
+    if (events.includes('correct')) return SOUNDS.correct();
+    if (events.includes('wrong')) return SOUNDS.wrong();
+  }
+  return { run };
+})();
 </script>
 
 <script data-module="app">
-// glue arrives with Prompt 0
+// glue: dispatch = reduce, save, render, fx (ADR-0008)
+(() => {
+  const { content, engine, store, render, fx } = FI;
+  let storage = null;
+  try { storage = window.localStorage; } catch (e) { storage = null; }
+  const root = document.getElementById('app');
+  let state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: store.load(storage) }, content);
+  function dispatch(action) {
+    if (render.handleUi(action)) { render.render(root, state, content); return; }
+    state = engine.reduce(state, action, content);
+    if (action.type === 'RESET') store.clear(storage); else store.save(storage, state);
+    render.render(root, state, content);
+    fx.run(state.events, state);
+  }
+  render.mount(root, dispatch);
+  render.render(root, state, content);
+})();
 </script>
 </body>
 </html>

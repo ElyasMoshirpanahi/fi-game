@@ -49,3 +49,10 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Red-green cycles: test 1 (i18n parity) red then content block; test 2 (fairness) written over the content, caught one option wording ("Make" vs "making"), reworded; tests 3 to 5 (coins, Returns, Fare lights Station) 14 red then engine block lifted from the prototype; test 6 (store round-trip, disabled storage, corrupt JSON) 5 red then store block; plus ADR-0001 constraints (no external scripts, under 200 KB, disclaimer present).
 - Result: 48 tests green. vitest 3.2.7.
 - Deviation from pure one-test-one-slice: the engine was inserted whole after test 3 went red, since the prototype had already settled it; tests 4 and 5 were then written and went green without further code. Logged for honesty.
+
+## Step 7, Prompt 0: core loop, Stations 1 and 2
+- Start: 2026-11-09
+- Produced: index.html with render, fx and app blocks and full styles. Duolingo zigzag Path (ADR-0007), Card and Check screens, Hint after one miss, Fare, Lit Station result, reset behind confirm, disclaimer fixed at the bottom, dark theme, mode toggle sets lang and dir.
+- Bug found and fixed before commit: the page never defined the FI global (only the test loader did); blank page, fixed with a one-line bootstrap script.
+- Sliders for Station 1 deferred to Prompt 3 as the playbook's Step 7 list says.
+- Tests: 48 green.
