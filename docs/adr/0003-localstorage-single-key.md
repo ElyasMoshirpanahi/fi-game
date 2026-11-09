@@ -9,3 +9,4 @@ Progress, checklists, journal text, shelf states, language mode and mute setting
 
 - A schema change means a new key (`fi-roadmap-v2`) and a one-time migration, never an in-place rewrite.
 - Return queues (Anki-style) are deliberately not stored (grilling decision 10).
+- Amendment 2026-11-09, after the Prompt 0 play-test: the run position (`run: { stationId, pos }`) is stored so a reload resumes at the same Card. Returns and an in-progress Fare are still not stored.

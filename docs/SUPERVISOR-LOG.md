@@ -63,3 +63,10 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Hypotheses: (1) parentheses outside the <bdi> and author in a separate isolate, so bidi re-orders the pieces at a wrap; (2) bdi not isolating; (3) font metrics. Probe confirmed (1): bdis were ["ETF","VWCE / IWDA",...,"A Random Walk Down Wall Street","Malkiel"], parentheses as neutrals outside.
 - Regression test at the render.faHtml seam (test/rtl.test.mjs, 4 tests), red first. Fix: one isolate per run including parentheses, short runs nowrap, escape per piece (the old code also wrapped the letters of HTML entities, caught by the test).
 - Loop after fix: VWCE run on one line in order; book run wraps but in logical order. Tests: 52 green.
+
+## Step 7, Prompt 2: make it fun
+- Start: 2026-11-09
+- Owner decisions: skip Prompt 1; resume at the same Card after reload (decision 17); mid-step owner request: every book gets its own unit (decision 18, scheduled for Prompt 3, Station 6).
+- Produced: Station 2 dead stretch split (Stage 2 and brokers Cards halved, three new Checks: ETFs named, Box 3 tax-free amount, Venture Deals), engine run position plus HYDRATE resume, store saves run, Flip is a real button, Lit result inline, coin bump and floating +1, ring eases in, feedback scrolls into view. RTL bug fixed in Step 8.
+- Test change: store.test "the run is not restored" assertion flipped to match decision 17; resume.test.mjs adds 4 tests. No failing test deleted.
+- Tests: 62 green.

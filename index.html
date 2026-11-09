@@ -31,7 +31,7 @@ body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); f
 html[lang="fa"] body { font-family: var(--fa-font); }
 button { font: inherit; color: inherit; cursor: pointer; }
 button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 12px; }
-#app { width: min(480px, 100%); margin: 0 auto; padding-bottom: 72px; }
+#app { width: min(480px, 100%); margin: 0 auto; padding-bottom: 90px; }
 .t-fa { font-family: var(--fa-font); direction: rtl; unicode-bidi: isolate; display: block; }
 .t-en { font-family: var(--en-font); direction: ltr; unicode-bidi: isolate; display: block; }
 .under { color: var(--muted); font-size: .92em; margin-top: 6px; }
@@ -48,6 +48,11 @@ bdi.nw { white-space: nowrap; }
 html[dir="rtl"] .xpbar i { margin-inline-start: auto; }
 .coins { display: inline-flex; align-items: center; gap: 5px; font-weight: 800; font-size: 14px; color: var(--gold-strong); background: var(--gold-soft); border-radius: 999px; padding: 4px 10px; }
 .coins svg { width: 14px; height: 14px; }
+.coins { position: relative; }
+.coins.bump .n { animation: bump .5s cubic-bezier(.2,1.6,.4,1); display: inline-block; }
+.coins .plus { position: absolute; inset-inline-end: 4px; top: -4px; font-size: 12px; animation: floatup .9s ease-out forwards; pointer-events: none; }
+@keyframes bump { 0% { transform: scale(1); } 40% { transform: scale(1.45); } 100% { transform: scale(1); } }
+@keyframes floatup { from { transform: translateY(0); opacity: 1; } to { transform: translateY(-18px); opacity: 0; } }
 .icon { border: 1px solid var(--line); background: var(--card); width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; }
 .icon svg { width: 18px; height: 18px; }
 
@@ -62,7 +67,8 @@ html[dir="rtl"] .xpbar i { margin-inline-start: auto; }
 .node:nth-child(even) { margin-inline-start: auto; margin-inline-end: 8%; }
 .node > button { position: relative; width: 84px; height: 84px; border-radius: 50%; border: 0; background: var(--card); box-shadow: 0 7px 0 var(--line), var(--shadow); display: grid; place-items: center; transition: transform .15s, box-shadow .15s; }
 .node > button:active { transform: translateY(5px); box-shadow: 0 2px 0 var(--line); }
-.node .ring { position: absolute; inset: -9px; border-radius: 50%; background: conic-gradient(var(--accent) calc(var(--p) * 1%), var(--line) 0); -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); transition: background .5s; }
+@property --p { syntax: '<number>'; inherits: true; initial-value: 0; }
+.node .ring { position: absolute; inset: -9px; border-radius: 50%; animation: ringin .8s cubic-bezier(.2,.8,.2,1) both; background: conic-gradient(var(--accent) calc(var(--p) * 1%), var(--line) 0); -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); mask: radial-gradient(farthest-side, transparent calc(100% - 7px), #000 calc(100% - 6px)); transition: background .5s; }
 .node .ico { width: 36px; height: 36px; color: var(--accent); }
 .node.lit > button { background: var(--gold); box-shadow: 0 7px 0 var(--gold-strong), var(--shadow); }
 .node.lit .ico { color: #fff; }
@@ -71,6 +77,7 @@ html[dir="rtl"] .xpbar i { margin-inline-start: auto; }
 .node.dim .ico { color: var(--muted); opacity: .6; }
 .node.dim .ring { background: var(--line); }
 .node.cur > button { animation: pulse 1.8s ease-in-out infinite; }
+@keyframes ringin { from { --p: 0; } }
 @keyframes pulse { 0%, 100% { box-shadow: 0 7px 0 var(--line), 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); } 60% { box-shadow: 0 7px 0 var(--line), 0 0 0 16px transparent; } }
 .node .label { margin-top: 14px; font-weight: 700; font-size: 14px; text-align: center; }
 .node .label .under { font-size: 12px; }
@@ -104,6 +111,8 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .btn:active { transform: translateY(3px); border-bottom-width: 2px; }
 .btn.primary { background: var(--accent); border-color: var(--accent-strong); color: #fff; }
 .btn.ghost { border-color: transparent; background: transparent; color: var(--muted); }
+.btn.soft { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 25%, transparent); color: var(--accent-strong); }
+.btn.soft[aria-pressed="true"] { border-color: var(--accent); }
 .btn[disabled] { opacity: .5; cursor: not-allowed; }
 .opts { display: grid; gap: 10px; margin-top: 6px; }
 .opt { text-align: start; }
@@ -116,7 +125,7 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .help { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
 .hint { margin-top: 16px; padding: 14px 16px; border-radius: 12px; background: var(--gold-soft); border-inline-start: 4px solid var(--gold); font-size: 15px; }
 .hint .kicker { color: var(--gold-strong); margin-bottom: 6px; }
-.feedback { margin-top: 14px; border-radius: 14px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 800; animation: rise .25s ease-out; }
+.feedback { scroll-margin-bottom: 84px; margin-top: 14px; border-radius: 14px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 800; animation: rise .25s ease-out; }
 .feedback.ok { background: var(--ok-soft); color: var(--ok); }
 .feedback.bad { background: var(--bad-soft); color: var(--bad); }
 .feedback .btn { flex: 0 0 auto; padding: 10px 18px; }
@@ -131,6 +140,7 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .result.fail .big { background: var(--bad-soft); color: var(--bad); box-shadow: 0 8px 0 var(--bad); }
 .result h2 { margin: 0 0 6px; font-size: 22px; }
 .result p { margin: 0 0 20px; color: var(--muted); }
+.inl .t-en, .inl .t-fa { display: inline; }
 @keyframes pop { from { transform: scale(.6); opacity: 0; } to { transform: none; opacity: 1; } }
 
 /* disclaimer, always visible */
@@ -250,10 +260,16 @@ FI.content = (() => {
         { kind: 'card', id: 's2c2', source: 'section 2, stage 1',
           text: T('Stage 1, Foundations: compounding, inflation, risk and return, diversification, fees, liquidity. Read The Psychology of Money (Housel) and The Simple Path to Wealth (Collins).',
                   'مرحله ۱، پایه‌ها: مرکب شدن، تورم، ریسک/بازده، تنوع، کارمزد، نقدشوندگی. منبع: The Psychology of Money (Housel) و The Simple Path to Wealth (Collins).') },
-        { kind: 'card', id: 's2c3', source: 'section 2, stage 2',
-          text: T('Stage 2, Asset classes and a global portfolio: index ETFs (VWCE / IWDA), bonds, REITs, gold, a small share of crypto. Core-satellite: 80 percent index, 20 percent deliberate bets. Read A Random Walk Down Wall Street (Malkiel).',
-                  'مرحله ۲، طبقات دارایی و سبد جهانی: ETF شاخصی (VWCE / IWDA)، اوراق، REIT، طلا، کریپتو (درصد کم). مدل core-satellite: ۸۰٪ شاخصی / ۲۰٪ شرط آگاهانه. منبع: A Random Walk Down Wall Street (Malkiel).') },
-        { kind: 'check', id: 's2k2', type: 'tap', source: 's2c3',
+        { kind: 'card', id: 's2c3', source: 'section 2, stage 2 (first half)',
+          text: T('Stage 2, Asset classes and a global portfolio: index ETFs (VWCE / IWDA), bonds, REITs, gold, and a small share of crypto.',
+                  'مرحله ۲، طبقات دارایی و سبد جهانی: ETF شاخصی (VWCE / IWDA)، اوراق، REIT، طلا، کریپتو (درصد کم).') },
+        { kind: 'check', id: 's2k7', type: 'tap', source: 's2c3',
+          prompt: T('Which index ETFs does the roadmap name?', 'نقشه راه کدام ETFهای شاخصی را نام می‌برد؟'),
+          options: [T('VWCE / IWDA', 'VWCE / IWDA'), T('ARKK / QQQ', 'ARKK / QQQ'), T('A Dutch savings account', 'یک حساب پس‌انداز هلندی')], answer: 0 },
+        { kind: 'card', id: 's2c10', source: 'section 2, stage 2 (second half)',
+          text: T('Core-satellite: 80 percent index, 20 percent deliberate bets. Read A Random Walk Down Wall Street (Malkiel).',
+                  'مدل core-satellite: ۸۰٪ شاخصی / ۲۰٪ شرط آگاهانه. منبع: A Random Walk Down Wall Street (Malkiel).') },
+        { kind: 'check', id: 's2k2', type: 'tap', source: 's2c10',
           prompt: T('In core-satellite, what share is the index core?', 'در core-satellite هسته شاخصی چند درصد است؟'),
           options: [T('50 percent', '۵۰٪'), T('80 percent', '۸۰٪'), T('100 percent', '۱۰۰٪')], answer: 1 },
         { kind: 'card', id: 's2c4', source: 'section 2, stage 3',
@@ -266,8 +282,13 @@ FI.content = (() => {
           text: T('Stage 4, Tax and geography: tax residency, Dutch Box 3, tax treaties, broker access. No single good book; use official sources.',
                   'مرحله ۴، مالیات و جغرافیا: اقامت مالیاتی، Box 3 هلند، معاهدات مالیاتی، دسترسی به کارگزار. کتاب خوبی ندارد؛ منابع رسمی.') },
         { kind: 'card', id: 's2c6', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/', source: 'roadmap-facts rows 11 to 13',
-          text: T('Box 3 in 2026: the first €59,357 is tax-free (€118,714 with a partner). Deemed returns are 1.28 percent on savings, 6.00 percent on investments, 2.70 percent on debts, taxed at 36 percent. Since July 2025 you may prove a lower real return. A real-return system is planned for 2028.',
-                  'Box 3 در ۲۰۲۶: ۵۹٬۳۵۷ یورو اول معاف است (۱۱۸٬۷۱۴ با شریک). بازده فرضی: ۱٫۲۸٪ پس‌انداز، ۶٫۰۰٪ سرمایه‌گذاری، ۲٫۷۰٪ بدهی، با نرخ ۳۶٪. از ژوئیه ۲۰۲۵ می‌توانی بازده واقعیِ کمتر را اثبات کنی. سامانه بازده واقعی برای ۲۰۲۸ برنامه‌ریزی شده.') },
+          text: T('Box 3 in 2026: the first €59,357 is tax-free (€118,714 with a partner). Deemed returns are 1.28 percent on savings, 6.00 percent on investments, 2.70 percent on debts, taxed at 36 percent.',
+                  'Box 3 در ۲۰۲۶: ۵۹٬۳۵۷ یورو اول معاف است (۱۱۸٬۷۱۴ با شریک). بازده فرضی: ۱٫۲۸٪ پس‌انداز، ۶٫۰۰٪ سرمایه‌گذاری، ۲٫۷۰٪ بدهی، با نرخ ۳۶٪.') },
+        { kind: 'check', id: 's2k8', type: 'tf', source: 's2c6',
+          prompt: T('In 2026 the first €59,357 in Box 3 is tax-free.', 'در ۲۰۲۶، ۵۹٬۳۵۷ یورو اول در Box 3 معاف از مالیات است.'), answer: true },
+        { kind: 'card', id: 's2c11', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/', source: 'roadmap-facts rows 11 to 13',
+          text: T('Since July 2025 you may prove a lower real return in Box 3. A real-return system is planned for 2028.',
+                  'از ژوئیه ۲۰۲۵ می‌توانی در Box 3 بازده واقعیِ کمتر را اثبات کنی. سامانه بازده واقعی برای ۲۰۲۸ برنامه‌ریزی شده.') },
         { kind: 'card', id: 's2c7', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility', source: 'roadmap-facts row 15',
           text: T('30% ruling in 2026: 30 percent of salary tax-free for up to 5 years, salary norm €48,013 (€36,497 under 30 with a master’s). It drops to 27 percent from 2027 for rulings that started in 2024 or later. Your employer applies at the Belastingdienst, not at IND.',
                   '30% ruling در ۲۰۲۶: ۳۰٪ حقوق تا ۵ سال معاف، حداقل حقوق ۴۸٬۰۱۳ یورو (۳۶٬۴۹۷ زیر ۳۰ سال با کارشناسی ارشد). از ۲۰۲۷ برای حکم‌های شروع‌شده از ۲۰۲۴ به ۲۷٪ می‌رسد. کارفرما در Belastingdienst درخواست می‌دهد، نه IND.') },
@@ -277,10 +298,16 @@ FI.content = (() => {
         { kind: 'card', id: 's2c8', source: 'section 2, stage 5',
           text: T('Stage 5, Ownership: cap table, term sheet, idea validation, angel investing in AI. Read Venture Deals (Feld), The Mom Test, YC Startup School.',
                   'مرحله ۵، مالکیت: cap table، term sheet، اعتبارسنجی ایده، angel investing در AI. منبع: Venture Deals (Feld)، The Mom Test، YC Startup School.') },
+        { kind: 'check', id: 's2k9', type: 'tap', source: 's2c8',
+          prompt: T('Which book does the roadmap name for cap tables and term sheets?', 'نقشه راه کدام کتاب را برای cap table و term sheet نام می‌برد؟'),
+          options: [T('Venture Deals (Feld)', 'Venture Deals (Feld)'), T('The Psychology of Money', 'The Psychology of Money'), T('Atomic Habits', 'Atomic Habits')], answer: 0 },
         { kind: 'card', id: 's2c9', source: 'section 2, note (reworded per roadmap-facts rows 17 and 18)', cite: 'https://www.interactivebrokers.com/en/accounts/countries.php',
-          text: T('Brokers decide by where you live and are tax resident, plus sanctions screening. As an Iran resident you are not on Interactive Brokers’ or DEGIRO’s accepted lists. After Dutch residence with a BSN and a Dutch bank account, both accept applications; an Iranian passport can mean extra compliance checks.',
-                  'کارگزارها بر اساس محل زندگی و اقامت مالیاتی تصمیم می‌گیرند، به‌علاوه بررسی تحریم‌ها. به‌عنوان ساکن ایران در فهرست پذیرش Interactive Brokers یا DEGIRO نیستی. بعد از اقامت هلند با BSN و حساب بانکی هلندی، هر دو درخواست را می‌پذیرند؛ گذرنامه ایرانی می‌تواند بررسی‌های بیشتری بیاورد.') },
-        { kind: 'check', id: 's2k5', type: 'tf', source: 's2c9',
+          text: T('Brokers decide by where you live and are tax resident, plus sanctions screening. As an Iran resident you are not on Interactive Brokers’ or DEGIRO’s accepted lists.',
+                  'کارگزارها بر اساس محل زندگی و اقامت مالیاتی تصمیم می‌گیرند، به‌علاوه بررسی تحریم‌ها. به‌عنوان ساکن ایران در فهرست پذیرش Interactive Brokers یا DEGIRO نیستی.') },
+        { kind: 'card', id: 's2c12', source: 'section 2, note (reworded per roadmap-facts rows 17 and 18)',
+          text: T('After Dutch residence with a BSN and a Dutch bank account, both accept applications. An Iranian passport can mean extra compliance checks.',
+                  'بعد از اقامت هلند با BSN و حساب بانکی هلندی، هر دو درخواست را می‌پذیرند. گذرنامه ایرانی می‌تواند بررسی‌های بیشتری بیاورد.') },
+        { kind: 'check', id: 's2k5', type: 'tf', source: 's2c12',
           prompt: T('A broker account comes before the BSN.', 'حساب کارگزار قبل از BSN باز می‌شود.'), answer: false },
       ],
     },
@@ -335,7 +362,7 @@ FI.engine = (() => {
     mode: 'EN', muted: false,
     screen: 'path', stationId: null, phase: null,
     queue: [], current: null, flipped: false, misses: 0, hint: false,
-    returns: [], fare: null, fareAttempt: 0,
+    returns: [], fare: null, fareAttempt: 0, run: null,
     coins: 0, awarded: {}, rings: {}, lit: {}, xp: 0,
     events: [],
   });
@@ -350,11 +377,14 @@ FI.engine = (() => {
       const it = content.item(s.stationId, id);
       s.current = id; s.flipped = false; s.misses = 0; s.hint = false;
       s.phase = it.kind === 'card' ? 'card' : 'check';
+      // Resume position: index of this item in the Station's own order, only during the first pass.
+      if (s.run && !s.run.returning) s.run.pos = content.station(s.stationId).items.findIndex((i) => i.id === id);
       return s;
     }
     if (s.returns.length) {
       const cards = s.returns.slice();
       s.returns = [];
+      if (s.run) { s.run.returning = true; s.run.pos = content.station(s.stationId).items.length; }
       const checks = checksOf(content, s.stationId);
       s.queue = cards.flatMap((c) => [c, ...checks.filter((k) => k.source === c).map((k) => k.id)]);
       s.events.push('return');
@@ -370,6 +400,7 @@ FI.engine = (() => {
     const start = (s.fareAttempt * (n < pool.length ? n : 1)) % pool.length;
     const questions = Array.from({ length: n }, (_, i) => pool[(start + i) % pool.length]);
     s.fareAttempt += 1;
+    if (s.run) s.run.pos = content.station(s.stationId).items.length;
     s.fare = { questions, index: 0, missed: [], attempt: s.fareAttempt };
     s.current = questions[0]; s.phase = 'fare'; s.misses = 0; s.hint = false; s.flipped = false;
     s.events.push('fare');
@@ -378,7 +409,7 @@ FI.engine = (() => {
 
   function leave(s) {
     s.screen = 'path'; s.stationId = null; s.phase = null; s.current = null;
-    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0;
+    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null;
     return s;
   }
 
@@ -395,13 +426,22 @@ FI.engine = (() => {
         const d = action.value || {};
         for (const k of ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'xp']) if (d[k] !== undefined) s[k] = d[k];
         if (!MODES.includes(s.mode)) s.mode = 'EN';
+        // Resume at the saved position (owner decision after the Prompt 0 play-test). Returns and Fare are not resumed.
+        if (d.run && content.station(d.run.stationId)) {
+          const st = content.station(d.run.stationId);
+          const pos = Math.max(0, Math.min(st.items.length, d.run.pos | 0));
+          leave(s);
+          s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos, returning: false };
+          s.queue = st.items.slice(pos).map((i) => i.id);
+          return advance(s, content);
+        }
         return s;
       }
       case 'OPEN_STATION': {
         const st = content.station(action.value);
         if (!st) return s;
         leave(s);
-        s.screen = 'station'; s.stationId = st.id;
+        s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: 0, returning: false };
         s.queue = st.items.map((i) => i.id);
         return advance(s, content);
       }
@@ -480,7 +520,7 @@ FI.engine = (() => {
 FI.store = (() => {
   const KEY = 'fi-roadmap-v1';
   const VERSION = 1;
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'xp', 'checklists', 'journal', 'habits', 'shelf', 'sliders'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'xp', 'run', 'checklists', 'journal', 'habits', 'shelf', 'sliders'];
 
   const durable = (state) => {
     const d = {};
@@ -577,7 +617,7 @@ FI.render = (() => {
     return `<header class="top">
       <div class="modes" role="group" aria-label="Language">${mode('EN', t('modeEN', s.mode))}${mode('FA', t('modeFA', s.mode))}${mode('BOTH', t('modeBoth', s.mode))}</div>
       <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${s.xp}" aria-valuemin="0" aria-valuemax="${totalXp}"><i style="width:${pct}%"></i></div>
-      <span class="coins" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}${num(s.coins, s.mode)}</span>
+      <span class="coins ${s.events.includes('coin') ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span>${s.events.includes('coin') ? '<span class="plus" aria-hidden="true">+1</span>' : ''}</span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
     </header>`;
   }
@@ -612,7 +652,7 @@ FI.render = (() => {
     if (s.flipped && s.mode !== 'BOTH') body = pair(item.text, s.mode === 'FA' ? 'EN' : 'FA');
     else body = pair(item.text, s.mode);
     const add = item.addition ? `<p class="addnote"><span>${t('addition', s.mode)}</span>${/^https?:/.test(item.cite) ? `<a href="${esc(item.cite)}" target="_blank" rel="noopener">${t('source', s.mode)}</a>` : ''}</p>` : '';
-    const flip = s.mode === 'BOTH' ? '' : `<button class="btn ghost wide" ${A({ type: 'FLIP' })}>${t('flip', s.mode)}</button>`;
+    const flip = s.mode === 'BOTH' ? '' : `<button class="btn soft wide" ${A({ type: 'FLIP' })} aria-pressed="${s.flipped}">${t('flip', s.mode)}</button>`;
     return `<section class="panel card">
       <p class="kicker">${pair(content.station(s.stationId).name, s.mode === 'FA' ? 'FA' : 'EN')}</p>
       <p class="ctext">${body}</p>${add}
@@ -670,7 +710,7 @@ FI.render = (() => {
   function resultPanel(s, content) {
     const st = content.station(s.stationId);
     if (s.phase === 'fare-passed') {
-      return `<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2><p>${t('badge', s.mode)}: ${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')} · +${num(FI.engine.FARE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
+      return `<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2><p class="inl">${t('badge', s.mode)}: ${pair(st.badge, s.mode === 'FA' ? 'FA' : 'EN')} · +${num(FI.engine.FARE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
     }
     return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
   }
@@ -712,7 +752,7 @@ FI.render = (() => {
     ui.lastCurrent = s.current; ui.lastPhase = s.phase;
     if (changed && s.screen === 'station') {
       const f = root.querySelector('[data-focus]');
-      if (f) f.focus({ preventScroll: false });
+      if (f) { f.focus({ preventScroll: true }); f.scrollIntoView({ block: 'nearest' }); }
     }
   }
 

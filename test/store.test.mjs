@@ -45,7 +45,7 @@ describe('State round-trips through localStorage under the key fi-roadmap-v1', (
     expect(hydrated.mode).toBe('FA');
     expect(hydrated.muted).toBe(true);
     expect(hydrated.coins).toBe(1);
-    expect(hydrated.screen).toBe('path'); // the run is not restored
+    expect(hydrated.screen).toBe('station'); // the position is restored (owner decision after Prompt 0); see resume.test.mjs
   });
 
   it('a Lit Station survives a reload', () => {

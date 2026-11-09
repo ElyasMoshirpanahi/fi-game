@@ -29,6 +29,8 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 | 13 | Out of scope | Backend, accounts, cross-device sync, PWA or service worker, analytics, monetisation, cross-session spaced repetition. |
 | 14 | Definition of done | Pages URL live, all tests green, four play-test diaries written, Prompt 5 checklist all yes. |
 | 15 | Repo | Public GitHub repo named `fi-game`. |
+| 17 | Resume (added after the Prompt 0 play-test) | A reload resumes at the same Card. Returns and an in-progress Fare reset. ADR-0003 amended. |
+| 18 | Book Units (owner request, 2026-11-09, mid Prompt 2) | Every book in the Library gets its own unit: author, year, the source's "why" line, 4 to 6 idea Cards covering the book's essentials, Checks, a Fare and a badge, in EN and FA. This is content beyond the source HTML, marked as an owner-approved addition. Built in Prompt 3 inside Station 6. |
 | 16 | Ordering interaction | Tap-to-place is the baseline and the keyboard path. Pointer drag reorders as a progressive enhancement. |
 
 ## Executor decisions derived from the above (noted, not asked)
