@@ -71,3 +71,10 @@ Every change below follows an owner decision recorded at the end of `docs/resear
 6. The DEGIRO acceptance line rests on a search excerpt because the page was geo-blocked; confirm on degiro.nl from the Netherlands.
 7. Chrome screenshot capture failed on scrolled pages during the last play-tests; a visual pass of the Shelf and the long Path on a real phone is worth ten minutes.
 8. The Fare asks the same questions as the Checks. If that feels repetitive after a week of play, paraphrased Fare questions are the next content iteration.
+
+## Update 2026-11-10: Sections on the Path, Bookmarks
+
+- Bookmarks (decision 21): a bookmark button on every Card, a Bookmarks list from the Path, Open reopens the Station at that Card. Persisted with the rest of progress.
+- Sections (decisions 22 to 29): the Path is now Basics (the six Stations) followed by one Section per book, reading order first then stage order. Each book has three Units: two halves of its essentials and a new "Put it to work" Unit (28 written by content agents, validated, marked as beyond the source). A Unit Fare pays 20 XP; a complete Section pays the book's badge and 30 XP. Saved v1 progress migrates on first load (a lit book counts as Units 1 and 2). Finished Sections collapse; the open one shows a book banner; a "Jump to section" sheet lists all 29. The Shelf stays as the index and jumps to a Section.
+- Tests: 537. index.html 393 KB of the 400 KB cap; the next content addition needs a cap decision or a leaner content encoding.
+- Reviews: docs/review/sections-code-review.md, all findings fixed.
