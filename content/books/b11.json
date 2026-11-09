@@ -1,0 +1,63 @@
+{
+  "id": "b11",
+  "title": "The Little Book of Valuation",
+  "author": {"en": "Aswath Damodaran", "fa": "Aswath Damodaran"},
+  "year": 2011,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "DCF and valuation without heavy maths", "fa": "DCF و ارزش‌گذاری بدون ریاضی سنگین"},
+  "badge": {"en": "Price Is Not Value", "fa": "قیمت، ارزش نیست"},
+  "items": [
+    {"kind": "card", "id": "b11c1", "source": "ch. 1, Value: More Than a Number!", "text": {
+      "en": "Damodaran opens with three truths: all valuations are biased, most valuations are wrong, and simpler is usually better. Price is what you pay; value is what the business is worth.",
+      "fa": "Damodaran با سه حقیقت شروع می‌کند: همهٔ ارزش‌گذاری‌ها سوگیری دارند، بیشترشان اشتباه‌اند، و ساده‌تر معمولاً بهتر است. قیمت چیزی است که می‌پردازی؛ ارزش چیزی است که کسب‌وکار می‌ارزد."
+    }},
+    {"kind": "card", "id": "b11c2", "source": "ch. 2, Power Tools of the Trade", "text": {
+      "en": "Two power tools make valuation work: the time value of money, since a dollar today is worth more than a dollar next year, and a risk-adjusted discount rate, since riskier cash flows deserve a lower price.",
+      "fa": "دو ابزار قدرتمند ارزش‌گذاری را ممکن می‌کنند: ارزش زمانی پول، چون یک دلار امروز بیش از یک دلار سال بعد می‌ارزد، و نرخ تنزیل تعدیل‌شده با ریسک، چون جریان نقدی پرریسک‌تر قیمت پایین‌تری می‌طلبد."
+    }},
+    {"kind": "check", "id": "b11k1", "type": "tf", "source": "b11c1",
+      "prompt": {"en": "Damodaran says a careful analyst can produce a valuation free of bias.", "fa": "Damodaran می‌گوید یک تحلیلگر دقیق می‌تواند ارزش‌گذاری بدون سوگیری تولید کند."},
+      "answer": false},
+    {"kind": "card", "id": "b11c3", "source": "ch. 3, Yes, Virginia, Every Asset Has an Intrinsic Value", "text": {
+      "en": "Intrinsic value is the present value of the cash flows an asset will produce. A DCF needs four inputs: cash flows from existing assets, expected growth, a discount rate for risk and the point where growth settles.",
+      "fa": "ارزش ذاتی، ارزش فعلی جریان‌های نقدی‌ای است که دارایی تولید خواهد کرد. یک DCF چهار ورودی می‌خواهد: جریان نقدی دارایی‌های موجود، رشد مورد انتظار، نرخ تنزیل برای ریسک و نقطه‌ای که رشد آرام می‌گیرد."
+    }},
+    {"kind": "check", "id": "b11k2", "type": "tap", "source": "b11c3",
+      "prompt": {"en": "What are the four inputs of a DCF, according to Damodaran?", "fa": "به گفتهٔ Damodaran، چهار ورودی یک DCF چیست؟"},
+      "options": [
+        {"en": "Cash flows, expected growth, a discount rate and the point where growth settles", "fa": "جریان نقدی، رشد مورد انتظار، نرخ تنزیل و نقطه‌ای که رشد آرام می‌گیرد"},
+        {"en": "Revenue, headcount, market share and brand", "fa": "درآمد، تعداد کارکنان، سهم بازار و برند"},
+        {"en": "Book value, dividends, stock price and trading volume", "fa": "ارزش دفتری، سود تقسیمی، قیمت سهم و حجم معاملات"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b11c4", "source": "ch. 4, It's All Relative!", "text": {
+      "en": "Relative valuation prices an asset against similar ones using multiples such as PE or EV to EBITDA. Find comparable firms, standardize price into a multiple, then adjust for differences in growth and risk.",
+      "fa": "ارزش‌گذاری نسبی یک دارایی را در برابر دارایی‌های مشابه با ضرایبی مثل PE یا EV/EBITDA قیمت می‌گذارد. شرکت‌های قابل‌مقایسه را پیدا کن، قیمت را به یک ضریب استاندارد کن، سپس تفاوت‌های رشد و ریسک را تعدیل کن."
+    }},
+    {"kind": "check", "id": "b11k3", "type": "order", "source": "b11c4",
+      "prompt": {"en": "Put the steps of relative valuation in order", "fa": "مراحل ارزش‌گذاری نسبی را مرتب کن"},
+      "options": [
+        {"en": "Adjust for differences in growth and risk", "fa": "تفاوت‌های رشد و ریسک را تعدیل کن"},
+        {"en": "Find comparable firms", "fa": "شرکت‌های قابل‌مقایسه را پیدا کن"},
+        {"en": "Standardize price into a multiple", "fa": "قیمت را به یک ضریب استاندارد کن"}
+      ],
+      "answer": [1, 2, 0]},
+    {"kind": "card", "id": "b11c5", "source": "Part 2, From Cradle to Grave: Life Cycle and Valuation", "text": {
+      "en": "Valuation changes with the company's life cycle: a young startup is mostly a story about growth and survival, a mature firm is valued on its existing assets, and a declining firm on what it can salvage.",
+      "fa": "ارزش‌گذاری با چرخهٔ عمر شرکت عوض می‌شود: یک استارتاپ جوان بیشتر داستانی دربارهٔ رشد و بقاست، یک شرکت بالغ بر پایهٔ دارایی‌های موجودش ارزش‌گذاری می‌شود، و یک شرکت رو به افول بر پایهٔ آنچه می‌تواند نجات دهد."
+    }},
+    {"kind": "check", "id": "b11k4", "type": "tap", "source": "b11c5",
+      "prompt": {"en": "How is a young startup mainly valued, in Damodaran's life-cycle view?", "fa": "در نگاه چرخهٔ عمر Damodaran، یک استارتاپ جوان عمدتاً چطور ارزش‌گذاری می‌شود؟"},
+      "options": [
+        {"en": "As a story about growth and survival", "fa": "به‌عنوان داستانی دربارهٔ رشد و بقا"},
+        {"en": "On the book value of its existing assets", "fa": "بر پایهٔ ارزش دفتری دارایی‌های موجودش"},
+        {"en": "On what it could salvage in liquidation", "fa": "بر پایهٔ آنچه در تصفیه می‌تواند نجات دهد"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b11c6", "source": "ch. 12, rules for the road", "text": {
+      "en": "Damodaran's rules for the road: less is more, so keep the model simple; risk affects value; growth is not free, it must be paid for with reinvestment; and accept uncertainty, because your estimate will be wrong.",
+      "fa": "قاعده‌های راه Damodaran: کمتر بیشتر است، پس مدل را ساده نگه دار؛ ریسک بر ارزش اثر می‌گذارد؛ رشد مجانی نیست و باید با سرمایه‌گذاری مجدد پرداخت شود؛ و عدم‌قطعیت را بپذیر، چون برآوردت اشتباه خواهد بود."
+    }}
+  ]
+}

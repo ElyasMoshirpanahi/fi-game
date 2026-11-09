@@ -1,0 +1,58 @@
+{
+  "id": "b17",
+  "title": "The Almanack of Naval Ravikant (free)",
+  "author": {"en": "Eric Jorgenson", "fa": "Eric Jorgenson"},
+  "year": 2020,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Exactly the philosophy of wealth without a boss", "fa": "دقیقاً فلسفه «ثروت بدون رئیس»"},
+  "badge": {"en": "Permissionless Leverage", "fa": "اهرم بدون اجازه"},
+  "items": [
+    {"kind": "card", "id": "b17c1", "source": "Part I, Building Wealth: Understanding How Wealth Is Created", "text": {
+      "en": "Part I, Building Wealth: seek wealth, not money or status. Wealth is having assets that earn while you sleep; money is how we transfer time and wealth.",
+      "fa": "بخش اول، Building Wealth: به دنبال ثروت باش، نه پول یا جایگاه. ثروت یعنی داشتن دارایی‌هایی که وقتی خوابی درآمد می‌سازند؛ پول فقط ابزار انتقال زمان و ثروت است."
+    }},
+    {"kind": "card", "id": "b17c2", "source": "Part I, Building Wealth: own equity", "text": {
+      "en": "You won't get rich renting out your time. You must own equity, a piece of a business, to gain your financial freedom.",
+      "fa": "با اجاره دادن وقتت ثروتمند نمی‌شوی. برای رسیدن به آزادی مالی باید مالک equity باشی، یعنی تکه‌ای از یک کسب‌وکار."
+    }},
+    {"kind": "check", "id": "b17k1", "type": "tap", "source": "b17c1",
+      "prompt": {"en": "In the Almanack, what is wealth?", "fa": "در Almanack، ثروت چیست؟"},
+      "options": [
+        {"en": "Assets that earn while you sleep", "fa": "دارایی‌هایی که وقتی خوابی درآمد می‌سازند"},
+        {"en": "A high salary and a respected title", "fa": "حقوق بالا و عنوان معتبر"},
+        {"en": "Cash kept safely in a bank", "fa": "پول نقدی که در بانک نگه داشته شده"}
+      ],
+      "answer": 0},
+    {"kind": "check", "id": "b17k2", "type": "tf", "source": "b17c2",
+      "prompt": {"en": "Naval says renting out your time is the way to get rich.", "fa": "Naval می‌گوید اجاره دادن وقتت راه ثروتمند شدن است."},
+      "answer": false},
+    {"kind": "card", "id": "b17c3", "source": "Part I, Building Wealth: Find a Position of Leverage", "text": {
+      "en": "Leverage comes in three forms: labor, capital, and products with no marginal cost of replication, meaning code and media. Code and media are permissionless; nobody has to approve them.",
+      "fa": "اهرم سه شکل دارد: نیروی کار، سرمایه، و محصولاتی که هزینهٔ تکثیر حاشیه‌ای ندارند، یعنی کد و رسانه. کد و رسانه بدون اجازه‌اند؛ کسی لازم نیست تأییدشان کند."
+    }},
+    {"kind": "card", "id": "b17c4", "source": "Part I, Building Wealth: Find and Build Specific Knowledge", "text": {
+      "en": "Specific knowledge is found by pursuing your genuine curiosity, not by chasing whatever is hot right now. It feels like play to you but looks like work to others.",
+      "fa": "دانش خاص را با دنبال کردن کنجکاوی واقعی‌ات پیدا می‌کنی، نه با دویدن دنبال چیزی که الان داغ است. برای تو مثل بازی است، اما از بیرون شبیه کار به نظر می‌رسد."
+    }},
+    {"kind": "check", "id": "b17k3", "type": "tap", "source": "b17c3",
+      "prompt": {"en": "Which forms of leverage does Naval call permissionless?", "fa": "Naval کدام شکل‌های اهرم را «بدون اجازه» می‌نامد؟"},
+      "options": [
+        {"en": "Code and media", "fa": "کد و رسانه"},
+        {"en": "Labor and capital", "fa": "نیروی کار و سرمایه"},
+        {"en": "Loans and licenses", "fa": "وام و مجوز"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b17c5", "source": "Part I, Building Wealth: Play Long-Term Games; learn to sell, learn to build", "text": {
+      "en": "Learn to sell, learn to build; if you can do both, you will be unstoppable. Play long-term games with long-term people, because all returns in life come from compound interest.",
+      "fa": "فروختن یاد بگیر، ساختن یاد بگیر؛ اگر هر دو را بلد باشی، توقف‌ناپذیر خواهی بود. با آدم‌های بلندمدت بازی‌های بلندمدت بکن، چون همهٔ بازده‌های زندگی از مرکب شدن می‌آیند."
+    }},
+    {"kind": "card", "id": "b17c6", "source": "Part II, Learning Happiness: Happiness Is Learned", "text": {
+      "en": "Part II, Learning Happiness: happiness is a skill you can learn and a choice you make, not something that happens to you. Desire is a contract with yourself to be unhappy until you get what you want.",
+      "fa": "بخش دوم، Learning Happiness: شادی مهارتی است که می‌توان آموخت و انتخابی است که می‌کنی، نه چیزی که برایت اتفاق می‌افتد. خواستن، قراردادی با خودت است که تا رسیدن به آن چیز ناشاد بمانی."
+    }},
+    {"kind": "check", "id": "b17k4", "type": "tf", "source": "b17c6",
+      "prompt": {"en": "Naval treats happiness as a skill that can be learned.", "fa": "Naval شادی را مهارتی می‌داند که می‌توان آموخت."},
+      "answer": true}
+  ]
+}

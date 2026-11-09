@@ -1,0 +1,58 @@
+{
+  "id": "b01",
+  "title": "The Psychology of Money",
+  "author": {"en": "Morgan Housel", "fa": "Morgan Housel"},
+  "year": 2020,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "Behaviour matters more than formulas", "fa": "رفتار مهم‌تر از فرمول است"},
+  "badge": {"en": "Stay in the game", "fa": "در بازی بمان"},
+  "items": [
+    {"kind": "card", "id": "b01c1", "source": "ch. 1, No One's Crazy", "text": {
+      "en": "Doing well with money has little to do with how smart you are and a lot to do with how you behave. Everyone decides with their own life experience, so no one is crazy.",
+      "fa": "موفقیت مالی ربط چندانی به هوش ندارد و بیشتر به رفتار بستگی دارد. هرکس با تجربهٔ زندگی خودش تصمیم می‌گیرد، پس هیچ‌کس دیوانه نیست."
+    }},
+    {"kind": "card", "id": "b01c2", "source": "ch. 4, Confounding Compounding", "text": {
+      "en": "Warren Buffett built most of his fortune after age 65. His skill is investing, but his secret is time: compounding needs decades, not clever moves.",
+      "fa": "Warren Buffett بیشتر ثروتش را بعد از ۶۵ سالگی ساخت. مهارتش سرمایه‌گذاری است، اما رازش زمان است: مرکب شدن به دهه‌ها نیاز دارد، نه حرکت‌های زیرکانه."
+    }},
+    {"kind": "check", "id": "b01k1", "type": "tap", "source": "b01c1",
+      "prompt": {"en": "According to Housel, doing well with money depends mostly on what?", "fa": "به گفتهٔ Housel، موفقیت مالی بیشتر به چه چیزی بستگی دارد؟"},
+      "options": [
+        {"en": "How you behave", "fa": "اینکه چطور رفتار می‌کنی"},
+        {"en": "How smart you are", "fa": "اینکه چقدر باهوشی"},
+        {"en": "How much you earn", "fa": "اینکه چقدر درآمد داری"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b01c3", "source": "ch. 5, Getting Wealthy vs. Staying Wealthy", "text": {
+      "en": "Getting wealthy and staying wealthy are different skills. Getting it takes risk and optimism; keeping it takes frugality, paranoia and survival.",
+      "fa": "ثروتمند شدن و ثروتمند ماندن دو مهارت متفاوت‌اند. اولی ریسک و خوش‌بینی می‌خواهد؛ دومی صرفه‌جویی، بدگمانی و بقا."
+    }},
+    {"kind": "check", "id": "b01k2", "type": "tf", "source": "b01c3",
+      "prompt": {"en": "Housel says getting wealthy and staying wealthy need the same skill.", "fa": "Housel می‌گوید ثروتمند شدن و ثروتمند ماندن به یک مهارت نیاز دارند."},
+      "answer": false},
+    {"kind": "card", "id": "b01c4", "source": "ch. 9, Wealth is What You Don't See", "text": {
+      "en": "Wealth is the nice car not bought and the watch not worn. Spending money to show people how much money you have is the fastest way to have less money.",
+      "fa": "ثروت همان ماشین گرانی است که نخریدی و ساعتی که نبستی. خرج کردن پول برای نشان دادن پولت به دیگران، سریع‌ترین راه برای کم‌پول‌تر شدن است."
+    }},
+    {"kind": "card", "id": "b01c5", "source": "ch. 13, Room for Error", "text": {
+      "en": "Plan on the plan not going to plan. Room for error, cash and no leverage, keeps you in the game long enough for compounding to work.",
+      "fa": "برنامه‌ریزی کن که برنامه طبق برنامه پیش نرود. حاشیهٔ خطا، یعنی پول نقد و بدون اهرم، تو را آن‌قدر در بازی نگه می‌دارد که مرکب شدن کار کند."
+    }},
+    {"kind": "check", "id": "b01k3", "type": "tap", "source": "b01c4",
+      "prompt": {"en": "What does Housel call the fastest way to have less money?", "fa": "Housel چه چیزی را سریع‌ترین راه کم‌پول‌تر شدن می‌داند؟"},
+      "options": [
+        {"en": "Spending money to show people how much you have", "fa": "خرج کردن پول برای نشان دادن پولت به دیگران"},
+        {"en": "Keeping cash in a bank account", "fa": "نگه داشتن پول نقد در حساب بانکی"},
+        {"en": "Buying index funds too early", "fa": "خرید زودهنگام صندوق‌های شاخصی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b01c6", "source": "ch. 7, Freedom", "text": {
+      "en": "The highest dividend money pays is control over your time. Doing what you want, when you want, with who you want, for as long as you want.",
+      "fa": "بالاترین سودی که پول می‌دهد، کنترل بر زمان خودت است. انجام دادن کاری که می‌خواهی، هر وقت که می‌خواهی، با هرکس که می‌خواهی، تا هر وقت که می‌خواهی."
+    }},
+    {"kind": "check", "id": "b01k4", "type": "tf", "source": "b01c6",
+      "prompt": {"en": "Housel calls control over your time the highest dividend money pays.", "fa": "Housel کنترل بر زمان خودت را بالاترین سود پول می‌داند."},
+      "answer": true}
+  ]
+}

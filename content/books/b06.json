@@ -1,0 +1,58 @@
+{
+  "id": "b06",
+  "title": "A Random Walk Down Wall Street",
+  "author": {"en": "Burton Malkiel", "fa": "Burton Malkiel"},
+  "year": 1973,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "Why the market cannot be beaten", "fa": "چرا بازار را نمی‌شود شکست داد"},
+  "badge": {"en": "Blindfolded monkey", "fa": "میمون چشم‌بسته"},
+  "items": [
+    {"kind": "card", "id": "b06c1", "source": "ch. 1, Firm Foundations and Castles in the Air", "text": {
+      "en": "A random walk means past price moves cannot predict future ones. Malkiel's famous claim: a blindfolded monkey throwing darts at the stock pages could match the experts.",
+      "fa": "گام تصادفی یعنی حرکت‌های گذشتهٔ قیمت نمی‌توانند حرکت‌های آینده را پیش‌بینی کنند. ادعای معروف Malkiel: میمونی چشم‌بسته که به صفحهٔ سهام دارت بیندازد، می‌تواند با کارشناسان برابری کند."
+    }},
+    {"kind": "card", "id": "b06c2", "source": "ch. 1, the two theories of value", "text": {
+      "en": "Two theories of value: firm foundation, where a stock is worth its future dividends, and castle in the air, where it is worth what the crowd will pay next. Bubbles are castles in the air.",
+      "fa": "دو نظریهٔ ارزش: «بنیان محکم»، که سهم به اندازهٔ سودهای نقدی آینده‌اش می‌ارزد، و «قصر در هوا»، که سهم به اندازهٔ پولی می‌ارزد که جمعیت بعداً می‌پردازد. حباب‌ها قصرهای در هوا هستند."
+    }},
+    {"kind": "check", "id": "b06k1", "type": "tap", "source": "b06c1",
+      "prompt": {"en": "What does 'random walk' mean for share prices?", "fa": "«گام تصادفی» برای قیمت سهام یعنی چه؟"},
+      "options": [
+        {"en": "Past price moves cannot predict future ones", "fa": "حرکت‌های گذشتهٔ قیمت نمی‌توانند آینده را پیش‌بینی کنند"},
+        {"en": "Prices follow long predictable trends", "fa": "قیمت‌ها روندهای بلند و قابل‌پیش‌بینی دارند"},
+        {"en": "Experts always beat a monkey with darts", "fa": "کارشناسان همیشه از میمون دارت‌انداز بهترند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b06c3", "source": "ch. 5 and 6, Technical analysis and the random-walk theory", "text": {
+      "en": "Chartists study past price patterns to predict the future. Malkiel tested their rules and found none beat simple buy and hold once trading costs are counted.",
+      "fa": "چارتیست‌ها الگوهای گذشتهٔ قیمت را مطالعه می‌کنند تا آینده را پیش‌بینی کنند. Malkiel قواعدشان را آزمود و دید هیچ‌کدام، با احتساب هزینهٔ معاملات، از خرید و نگهداری ساده بهتر نیست."
+    }},
+    {"kind": "check", "id": "b06k2", "type": "tf", "source": "b06c3",
+      "prompt": {"en": "Malkiel found chart patterns reliably beat buy and hold.", "fa": "Malkiel دریافت الگوهای نموداری به‌طور قابل‌اعتماد از خرید و نگهداری بهترند."},
+      "answer": false},
+    {"kind": "card", "id": "b06c4", "source": "ch. 7, How good is fundamental analysis? The efficient-market hypothesis", "text": {
+      "en": "The efficient market hypothesis: prices already reflect what is known, so only news moves them, and news arrives randomly. Most professional fund managers fail to beat a broad index.",
+      "fa": "فرضیهٔ بازار کارا: قیمت‌ها از قبل هرچه دانسته شده را منعکس می‌کنند، پس فقط خبر تازه آن‌ها را تکان می‌دهد و خبر تصادفی می‌رسد. بیشتر مدیران حرفه‌ای صندوق‌ها از شکست دادن یک شاخص گسترده ناتوان‌اند."
+    }},
+    {"kind": "card", "id": "b06c5", "source": "Part Four, A Life-Cycle Guide to Investing", "text": {
+      "en": "Malkiel's rules: buy and hold a broad low-cost index fund, diversify across asset classes, rebalance once a year, and shift toward bonds as you age.",
+      "fa": "قواعد Malkiel: یک صندوق شاخصی گسترده و کم‌هزینه بخر و نگه دار، بین طبقات دارایی تنوع بده، سالی یک بار بازتوازن کن و با بالا رفتن سن به سمت اوراق قرضه برو."
+    }},
+    {"kind": "check", "id": "b06k3", "type": "tap", "source": "b06c5",
+      "prompt": {"en": "What does Malkiel say to do as you age?", "fa": "Malkiel می‌گوید با بالا رفتن سن چه کنی؟"},
+      "options": [
+        {"en": "Shift toward bonds", "fa": "به سمت اوراق قرضه برو"},
+        {"en": "Move everything into gold", "fa": "همه را به طلا تبدیل کن"},
+        {"en": "Pick more individual stocks", "fa": "سهم‌های تکی بیشتری انتخاب کن"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b06c6", "source": "ch. 2 and 3, The Madness of Crowds; Speculative Bubbles", "text": {
+      "en": "From Dutch tulip bulbs to the dot-com crash, every bubble follows the same path: a true story, crowd euphoria, prices unhinged from value, then collapse.",
+      "fa": "از پیازهای لالهٔ هلند تا سقوط دات‌کام، هر حبابی یک مسیر را می‌رود: یک داستان واقعی، سرخوشی جمعی، قیمت‌های جداشده از ارزش، و بعد فروپاشی."
+    }},
+    {"kind": "check", "id": "b06k4", "type": "tf", "source": "b06c4",
+      "prompt": {"en": "Malkiel says most professional fund managers fail to beat a broad index.", "fa": "Malkiel می‌گوید بیشتر مدیران حرفه‌ای صندوق‌ها نمی‌توانند یک شاخص گسترده را شکست دهند."},
+      "answer": true}
+  ]
+}

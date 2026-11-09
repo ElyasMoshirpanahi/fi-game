@@ -1,0 +1,114 @@
+{
+  "id": "b23",
+  "title": "Atomic Habits",
+  "author": {"en": "James Clear", "fa": "James Clear"},
+  "year": 2018,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "Systems instead of willpower", "fa": "سیستم به جای اراده"},
+  "badge": {"en": "One Percent Better", "fa": "هر روز ۱ درصد بهتر"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b23c1",
+      "source": "Ch. 1, The Surprising Power of Atomic Habits",
+      "text": {
+        "en": "Habits are the compound interest of self-improvement. Getting 1 percent better every day compounds to about 37 times better after a year.",
+        "fa": "عادت‌ها بهرهٔ مرکبِ خودسازی‌اند. هر روز ۱ درصد بهتر شدن، پس از یک سال به حدود ۳۷ برابر بهتر شدن می‌انجامد."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b23c2",
+      "source": "Ch. 1, Forget About Goals, Focus on Systems",
+      "text": {
+        "en": "Goals set a direction, but systems make progress. You do not rise to the level of your goals; you fall to the level of your systems.",
+        "fa": "هدف جهت را تعیین می‌کند، اما سیستم پیشرفت می‌سازد. تو به سطح هدف‌هایت بالا نمی‌روی؛ به سطح سیستم‌هایت سقوط می‌کنی."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23k1",
+      "type": "tap",
+      "source": "b23c2",
+      "prompt": {"en": "According to Clear, what do you fall to the level of?", "fa": "به گفتهٔ Clear، به سطح چه چیزی سقوط می‌کنی؟"},
+      "options": [
+        {"en": "Your systems", "fa": "سیستم‌هایت"},
+        {"en": "Your goals", "fa": "هدف‌هایت"},
+        {"en": "Your motivation", "fa": "انگیزه‌ات"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b23c3",
+      "source": "Ch. 2, How Your Habits Shape Your Identity",
+      "text": {
+        "en": "Lasting change is identity-based: decide who you want to be, then prove it with small wins. Every action is a vote for the type of person you wish to become.",
+        "fa": "تغییر ماندگار مبتنی بر هویت است: تصمیم بگیر چه کسی می‌خواهی باشی، بعد با بردهای کوچک آن را ثابت کن. هر کار، یک رأی به آن آدمی است که می‌خواهی بشوی."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23k2",
+      "type": "tf",
+      "source": "b23c3",
+      "prompt": {"en": "Clear argues lasting change should start from outcomes, not from identity.", "fa": "Clear می‌گوید تغییر ماندگار باید از نتایج شروع شود، نه از هویت."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b23c4",
+      "source": "Ch. 3, How to Build Better Habits in 4 Simple Steps",
+      "text": {
+        "en": "Every habit runs through a loop of four steps: cue, craving, response, reward. The Four Laws of Behavior Change turn each step into a lever.",
+        "fa": "هر عادت از حلقه‌ای چهارمرحله‌ای می‌گذرد: نشانه (cue)، میل (craving)، پاسخ (response)، پاداش (reward). چهار قانون تغییر رفتار هر مرحله را به یک اهرم تبدیل می‌کند."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b23c5",
+      "source": "Ch. 3, The Four Laws of Behavior Change",
+      "text": {
+        "en": "The Four Laws: make it obvious, make it attractive, make it easy, make it satisfying. To break a bad habit, invert them: invisible, unattractive, difficult, unsatisfying.",
+        "fa": "چهار قانون: آشکارش کن، جذابش کن، آسانش کن، رضایت‌بخشش کن. برای ترک عادت بد، وارونه‌شان کن: نامرئی، ناجذاب، دشوار، نارضایت‌بخش."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23k3",
+      "type": "order",
+      "source": "b23c5",
+      "prompt": {"en": "Put the Four Laws of Behavior Change in order", "fa": "چهار قانون تغییر رفتار را به ترتیب بچین"},
+      "options": [
+        {"en": "Make it easy", "fa": "آسانش کن"},
+        {"en": "Make it obvious", "fa": "آشکارش کن"},
+        {"en": "Make it satisfying", "fa": "رضایت‌بخشش کن"},
+        {"en": "Make it attractive", "fa": "جذابش کن"}
+      ],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "kind": "card",
+      "id": "b23c6",
+      "source": "Ch. 13, The Two-Minute Rule; Ch. 16, Never Miss Twice",
+      "text": {
+        "en": "The Two-Minute Rule: scale a new habit down until it takes under two minutes to start. Track your habits, and when you miss a day, never miss twice.",
+        "fa": "قانون دو دقیقه: عادت تازه را آن‌قدر کوچک کن که شروعش کمتر از دو دقیقه طول بکشد. عادت‌هایت را ردیابی کن و اگر روزی را از دست دادی، هرگز دو بار پشت سر هم از دست نده."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b23k4",
+      "type": "tap",
+      "source": "b23c6",
+      "prompt": {"en": "What does the Two-Minute Rule tell you to do with a new habit?", "fa": "قانون دو دقیقه می‌گوید با عادت تازه چه کنی؟"},
+      "options": [
+        {"en": "Scale it down until it takes under two minutes to start", "fa": "آن‌قدر کوچکش کن که شروعش کمتر از دو دقیقه طول بکشد"},
+        {"en": "Repeat it every two minutes through the day", "fa": "هر دو دقیقه در طول روز تکرارش کن"},
+        {"en": "Skip it on busy days", "fa": "در روزهای شلوغ از آن بگذر"}
+      ],
+      "answer": 0
+    }
+  ]
+}

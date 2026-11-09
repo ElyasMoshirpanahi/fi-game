@@ -1,0 +1,12 @@
+{
+  "name": "fi-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "serve": "python -m http.server 8765"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.7"
+  }
+}

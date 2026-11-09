@@ -1,0 +1,63 @@
+{
+  "id": "b21",
+  "title": "Angel",
+  "author": {"en": "Jason Calacanis", "fa": "Jason Calacanis"},
+  "year": 2017,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "A practical guide to angel investing", "fa": "راهنمای عملی angel investing"},
+  "badge": {"en": "Bet on the Founder", "fa": "روی بنیان‌گذار شرط ببند"},
+  "items": [
+    {"kind": "card", "id": "b21c1", "source": "Angel, on portfolio size and the power law", "text": {
+      "en": "Angel investing means writing checks you can afford to lose: most startups you back will fail, and one or two big winners must pay for all the rest. Calacanis says to diversify across at least 30 startups.",
+      "fa": "سرمایه‌گذاری فرشته یعنی چک‌هایی بنویسی که از دست رفتنشان را تاب بیاوری: بیشتر استارتاپ‌هایی که پشتشان می‌ایستی شکست می‌خورند و یکی‌دو برندهٔ بزرگ باید هزینهٔ بقیه را بدهند. Calacanis می‌گوید روی دست‌کم ۳۰ استارتاپ پخش کن."
+    }},
+    {"kind": "check", "id": "b21k1", "type": "tap", "source": "b21c1",
+      "prompt": {"en": "Across how many startups does Calacanis say to diversify?", "fa": "Calacanis می‌گوید روی چند استارتاپ پخش کنی؟"},
+      "options": [
+        {"en": "At least 30 startups", "fa": "دست‌کم ۳۰ استارتاپ"},
+        {"en": "Three carefully chosen startups", "fa": "سه استارتاپ با دقت انتخاب‌شده"},
+        {"en": "Just one you believe in", "fa": "فقط یکی که به آن باور داری"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b21c2", "source": "Angel, on starting with syndicates", "text": {
+      "en": "Start small: join a syndicate on AngelList, put small checks into about ten deals, and only then lead your own deals. You learn the game before the stakes get high.",
+      "fa": "کوچک شروع کن: به یک syndicate در AngelList بپیوند، چک‌های کوچک در حدود ده معامله بگذار، و فقط بعد از آن خودت معامله‌ها را رهبری کن. پیش از آنکه ریسک بالا برود، بازی را یاد می‌گیری."
+    }},
+    {"kind": "check", "id": "b21k2", "type": "order", "source": "b21c2",
+      "prompt": {"en": "Order Calacanis's path for a new angel", "fa": "مسیر Calacanis برای یک فرشتهٔ تازه‌کار را مرتب کن"},
+      "options": [
+        {"en": "Lead your own deals", "fa": "خودت معامله‌ها را رهبری کن"},
+        {"en": "Join a syndicate on AngelList", "fa": "به یک syndicate در AngelList بپیوند"},
+        {"en": "Put small checks into about ten deals", "fa": "چک‌های کوچک در حدود ده معامله بگذار"}
+      ],
+      "answer": [1, 2, 0]},
+    {"kind": "card", "id": "b21c3", "source": "Angel, on founder meetings", "text": {
+      "en": "Bet on the founder, not the idea. In the meeting ask: what are you working on, why are you doing this, why now, and what is your unfair advantage?",
+      "fa": "روی بنیان‌گذار شرط ببند، نه روی ایده. در جلسه بپرس: روی چه کار می‌کنی، چرا این کار را می‌کنی، چرا حالا، و مزیت ناعادلانه‌ات چیست؟"
+    }},
+    {"kind": "card", "id": "b21c4", "source": "Angel, on deal memos", "text": {
+      "en": "Write a deal memo for every investment: why you invested, what has to go right and what could kill the company. Re-read your memos later to sharpen your judgment.",
+      "fa": "برای هر سرمایه‌گذاری یک deal memo بنویس: چرا سرمایه‌گذاری کردی، چه چیزی باید درست پیش برود و چه چیزی می‌تواند شرکت را نابود کند. بعداً یادداشت‌هایت را دوباره بخوان تا قضاوتت تیزتر شود."
+    }},
+    {"kind": "check", "id": "b21k3", "type": "tf", "source": "b21c3",
+      "prompt": {"en": "Calacanis says to bet on the idea rather than the founder.", "fa": "Calacanis می‌گوید روی ایده شرط ببند، نه روی بنیان‌گذار."},
+      "answer": false},
+    {"kind": "card", "id": "b21c5", "source": "Angel, on pro rata rights and monthly updates", "text": {
+      "en": "Ask for pro rata rights so you can keep your ownership share in later rounds. Insist on monthly updates; a founder who stops sending them is a red flag.",
+      "fa": "حق pro rata بخواه تا بتوانی سهم مالکیتت را در دورهای بعدی حفظ کنی. روی گزارش ماهانه پافشاری کن؛ بنیان‌گذاری که فرستادنش را قطع می‌کند، زنگ خطر است."
+    }},
+    {"kind": "card", "id": "b21c6", "source": "Angel, on being useful to founders", "text": {
+      "en": "Give founders value beyond money: introductions, help with hiring and honest feedback. Angels who are useful earn the best deal flow.",
+      "fa": "به بنیان‌گذاران چیزی فراتر از پول بده: معرفی به آدم‌ها، کمک در استخدام و بازخورد صادقانه. فرشته‌هایی که مفیدند بهترین deal flow را به دست می‌آورند."
+    }},
+    {"kind": "check", "id": "b21k4", "type": "tap", "source": "b21c5",
+      "prompt": {"en": "Which right lets an angel keep their ownership share in later rounds?", "fa": "کدام حق به فرشته اجازه می‌دهد سهم مالکیتش را در دورهای بعدی حفظ کند؟"},
+      "options": [
+        {"en": "Pro rata rights", "fa": "حق pro rata"},
+        {"en": "Liquidation preference", "fa": "liquidation preference"},
+        {"en": "A board observer seat", "fa": "کرسی ناظر در هیئت‌مدیره"}
+      ],
+      "answer": 0}
+  ]
+}

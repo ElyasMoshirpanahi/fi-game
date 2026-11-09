@@ -1,0 +1,63 @@
+{
+  "id": "b08",
+  "title": "The Four Pillars of Investing",
+  "author": {"en": "William Bernstein", "fa": "William Bernstein"},
+  "year": 2002,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "Theory, history, psychology, the industry", "fa": "تئوری، تاریخ، روانشناسی، صنعت"},
+  "badge": {"en": "Four Pillars", "fa": "چهار ستون"},
+  "items": [
+    {"kind": "card", "id": "b08c1", "source": "Introduction, the four pillars", "text": {
+      "en": "Bernstein says a successful investor needs four pillars: the theory of risk and return, the history of markets, the psychology of investors, and the business of the investment industry.",
+      "fa": "Bernstein می‌گوید سرمایه‌گذار موفق به چهار ستون نیاز دارد: تئوری ریسک و بازده، تاریخ بازارها، روانشناسی سرمایه‌گذاران و شناخت کسب‌وکار صنعت سرمایه‌گذاری."
+    }},
+    {"kind": "card", "id": "b08c2", "source": "ch. 1, No Guts, No Glory", "text": {
+      "en": "Risk and return are inseparable: the higher the expected return of an asset, the more pain it will cause along the way. There is no high return without a real chance of loss.",
+      "fa": "ریسک و بازده از هم جدا نمی‌شوند: هرچه بازده مورد انتظار یک دارایی بالاتر باشد، در مسیر درد بیشتری می‌دهد. بازده بالا بدون احتمال واقعی زیان وجود ندارد."
+    }},
+    {"kind": "check", "id": "b08k1", "type": "tap", "source": "b08c1",
+      "prompt": {"en": "Which are Bernstein's four pillars?", "fa": "چهار ستون Bernstein کدام‌اند؟"},
+      "options": [
+        {"en": "Theory, history, psychology and the business of investing", "fa": "تئوری، تاریخ، روانشناسی و کسب‌وکار سرمایه‌گذاری"},
+        {"en": "Stocks, bonds, gold and real estate", "fa": "سهام، اوراق قرضه، طلا و املاک"},
+        {"en": "Saving, budgeting, insurance and taxes", "fa": "پس‌انداز، بودجه‌بندی، بیمه و مالیات"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b08c3", "source": "ch. 3, The Market Is Smarter Than You Are", "text": {
+      "en": "Stock picking and market timing fail for almost everyone, because the market already prices in what is known. Bernstein's answer is cheap index funds that own the whole market.",
+      "fa": "انتخاب سهم و زمان‌بندی بازار تقریباً برای همه شکست می‌خورد، چون بازار آنچه را معلوم است از قبل در قیمت آورده است. پاسخ Bernstein صندوق‌های شاخصی ارزان است که کل بازار را دارند."
+    }},
+    {"kind": "check", "id": "b08k2", "type": "tf", "source": "b08c2",
+      "prompt": {"en": "According to Bernstein, some assets offer high expected returns with no real chance of loss.", "fa": "به گفتهٔ Bernstein، برخی دارایی‌ها بازده مورد انتظار بالا بدون احتمال واقعی زیان دارند."},
+      "answer": false},
+    {"kind": "card", "id": "b08c4", "source": "ch. 5 and 6, Tops and Bottoms", "text": {
+      "en": "Markets swing between manias and panics. Bubbles form when new technology, easy credit and forgotten history meet, and the best returns go to those who buy at the bottom, when everyone is afraid.",
+      "fa": "بازارها بین جنون و وحشت نوسان می‌کنند. حباب وقتی شکل می‌گیرد که فناوری جدید، اعتبار آسان و فراموشی تاریخ به هم برسند، و بهترین بازده نصیب کسانی می‌شود که در کف، وقتی همه می‌ترسند، می‌خرند."
+    }},
+    {"kind": "card", "id": "b08c5", "source": "ch. 9 and 10, Your Broker Is Not Your Friend; Neither Is Your Mutual Fund", "text": {
+      "en": "Brokers and fund companies make money from your activity and fees, not from your results. Bernstein warns that your broker is not your friend, and neither is your mutual fund.",
+      "fa": "کارگزاران و شرکت‌های صندوق از فعالیت و کارمزد شما پول درمی‌آورند، نه از نتیجهٔ شما. Bernstein هشدار می‌دهد که کارگزارت دوست تو نیست و صندوق مشترکت هم نیست."
+    }},
+    {"kind": "check", "id": "b08k3", "type": "tap", "source": "b08c5",
+      "prompt": {"en": "Why does Bernstein say your broker is not your friend?", "fa": "چرا Bernstein می‌گوید کارگزارت دوست تو نیست؟"},
+      "options": [
+        {"en": "Brokers make money from your activity and fees, not your results", "fa": "کارگزاران از فعالیت و کارمزد شما پول درمی‌آورند، نه از نتیجهٔ شما"},
+        {"en": "Brokers are legally banned from giving any advice", "fa": "کارگزاران قانوناً از دادن هر توصیه‌ای منع شده‌اند"},
+        {"en": "Brokers only accept very wealthy clients", "fa": "کارگزاران فقط مشتریان خیلی ثروتمند را می‌پذیرند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b08c6", "source": "ch. 13 and 14, Defining Your Mix; Getting Started, Keeping It Going", "text": {
+      "en": "Your asset allocation, the mix of stocks and bonds, decides most of your results. Choose a mix you can live with, rebalance it on schedule and stay the course through bad years.",
+      "fa": "تخصیص دارایی، یعنی ترکیب سهام و اوراق قرضه، بیشترِ نتیجهٔ شما را تعیین می‌کند. ترکیبی انتخاب کن که با آن کنار بیایی، طبق برنامه متوازنش کن و در سال‌های بد در مسیر بمان."
+    }},
+    {"kind": "check", "id": "b08k4", "type": "order", "source": "b08c6",
+      "prompt": {"en": "Put Bernstein's steps for running a portfolio in order", "fa": "مراحل Bernstein برای ادارهٔ سبد را مرتب کن"},
+      "options": [
+        {"en": "Rebalance it on schedule", "fa": "طبق برنامه متوازنش کن"},
+        {"en": "Stay the course through bad years", "fa": "در سال‌های بد در مسیر بمان"},
+        {"en": "Choose a mix you can live with", "fa": "ترکیبی انتخاب کن که با آن کنار بیایی"}
+      ],
+      "answer": [2, 0, 1]}
+  ]
+}

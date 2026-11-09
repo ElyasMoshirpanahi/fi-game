@@ -1,0 +1,58 @@
+{
+  "id": "b07",
+  "title": "The Little Book of Common Sense Investing",
+  "author": {"en": "John C. Bogle", "fa": "John C. Bogle"},
+  "year": 2007,
+  "stage": 2,
+  "must": true,
+  "why": {"en": "The father of the index fund; short and decisive", "fa": "پدر صندوق شاخصی؛ کوتاه و قاطع"},
+  "badge": {"en": "Buy the haystack", "fa": "کل انبار کاه را بخر"},
+  "items": [
+    {"kind": "card", "id": "b07c1", "source": "ch. 1, A Parable (the Gotrocks family)", "text": {
+      "en": "The Gotrocks family owned every company in America and grew rich. Then Helpers arrived to trade shares among them for fees, and the family's wealth shrank by exactly those fees.",
+      "fa": "خانوادهٔ Gotrocks صاحب همهٔ شرکت‌های آمریکا بودند و ثروتمند شدند. بعد «کمک‌کارها» آمدند تا در ازای کارمزد سهام را بینشان جابه‌جا کنند، و ثروت خانواده دقیقاً به اندازهٔ همان کارمزدها آب رفت."
+    }},
+    {"kind": "card", "id": "b07c2", "source": "ch. 3, Cast Your Lot with Business", "text": {
+      "en": "Bogle's rule: don't look for the needle in the haystack, just buy the haystack. Own every listed business through one low-cost index fund and hold it forever.",
+      "fa": "قاعدهٔ Bogle: دنبال سوزن در انبار کاه نگرد، کل انبار کاه را بخر. همهٔ شرکت‌های بورسی را با یک صندوق شاخصی کم‌هزینه بخر و برای همیشه نگه دار."
+    }},
+    {"kind": "check", "id": "b07k1", "type": "tap", "source": "b07c2",
+      "prompt": {"en": "What does Bogle mean by 'buy the haystack'?", "fa": "منظور Bogle از «کل انبار کاه را بخر» چیست؟"},
+      "options": [
+        {"en": "Own every business through one low-cost index fund", "fa": "همهٔ شرکت‌ها را با یک صندوق شاخصی کم‌هزینه بخر"},
+        {"en": "Search for the next great stock", "fa": "دنبال سهم بزرگ بعدی بگرد"},
+        {"en": "Switch funds every year", "fa": "هر سال صندوق عوض کن"}
+      ],
+      "answer": 0},
+    {"kind": "check", "id": "b07k2", "type": "tf", "source": "b07c1",
+      "prompt": {"en": "In the parable, the Helpers made the Gotrocks family richer.", "fa": "در حکایت، «کمک‌کارها» خانوادهٔ Gotrocks را ثروتمندتر کردند."},
+      "answer": false},
+    {"kind": "card", "id": "b07c3", "source": "ch. 2, Rational Exuberance", "text": {
+      "en": "Investment return is dividend yield plus earnings growth; speculative return is the change in the price-earnings ratio. Over decades the first dominates and the second nets out.",
+      "fa": "بازده سرمایه‌گذاری یعنی بازده سود نقدی به‌علاوهٔ رشد سود شرکت؛ بازده سفته‌بازانه یعنی تغییر نسبت P/E. در طول دهه‌ها اولی غالب است و دومی تقریباً صفر می‌شود."
+    }},
+    {"kind": "card", "id": "b07c4", "source": "ch. 4, How Most Investors Turn a Winner's Game into a Loser's Game", "text": {
+      "en": "Before costs, investors as a group earn exactly the market return; after costs they earn less. The relentless rules of humble arithmetic: you cannot control the market, but you can control costs.",
+      "fa": "پیش از هزینه‌ها، سرمایه‌گذاران در مجموع دقیقاً بازده بازار را می‌گیرند؛ بعد از هزینه‌ها کمتر. قواعد بی‌رحم حسابِ ساده: بازار را نمی‌توانی کنترل کنی، اما هزینه‌ها را می‌توانی."
+    }},
+    {"kind": "check", "id": "b07k3", "type": "tap", "source": "b07c4",
+      "prompt": {"en": "According to Bogle, what can an investor control?", "fa": "به گفتهٔ Bogle سرمایه‌گذار چه چیزی را می‌تواند کنترل کند؟"},
+      "options": [
+        {"en": "Costs", "fa": "هزینه‌ها"},
+        {"en": "Market returns", "fa": "بازده بازار"},
+        {"en": "Interest rates", "fa": "نرخ بهره"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b07c5", "source": "ch. 8 and 9, Selecting Long-Term Winners; Yesterday's Winners, Tomorrow's Losers", "text": {
+      "en": "Picking funds by past performance fails: yesterday's winners become tomorrow's losers through reversion to the mean. Of 355 funds in 1970, most had vanished by 2005 and only a handful beat the market.",
+      "fa": "انتخاب صندوق بر اساس عملکرد گذشته جواب نمی‌دهد: برنده‌های دیروز با بازگشت به میانگین، بازنده‌های فردا می‌شوند. از ۳۵۵ صندوق سال ۱۹۷۰، بیشترشان تا ۲۰۰۵ ناپدید شدند و فقط چند تا بازار را شکست دادند."
+    }},
+    {"kind": "card", "id": "b07c6", "source": "ch. 18, What Should I Do Now?", "text": {
+      "en": "Bogle's closing rule: stay the course. Costs matter, time is your friend, impulse is your enemy, and the simple arithmetic of indexing wins in the end.",
+      "fa": "قاعدهٔ پایانی Bogle: در مسیر بمان. هزینه‌ها مهم‌اند، زمان دوست توست، تکانه دشمن توست، و حسابِ سادهٔ شاخصی در نهایت برنده است."
+    }},
+    {"kind": "check", "id": "b07k4", "type": "tf", "source": "b07c6",
+      "prompt": {"en": "Bogle's closing advice is to stay the course.", "fa": "توصیهٔ پایانی Bogle این است که در مسیر بمانی."},
+      "answer": true}
+  ]
+}

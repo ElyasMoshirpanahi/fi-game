@@ -1,0 +1,64 @@
+{
+  "id": "b03",
+  "title": "Your Money or Your Life",
+  "author": {"en": "Vicki Robin and Joe Dominguez", "fa": "Vicki Robin و Joe Dominguez"},
+  "year": 1992,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "The philosophy of financial independence; money equals life energy", "fa": "فلسفه استقلال مالی؛ پول = زمان زندگی"},
+  "badge": {"en": "Money is life energy", "fa": "پول یعنی انرژی زندگی"},
+  "items": [
+    {"kind": "card", "id": "b03c1", "source": "ch. 2, Money Ain't What It Used to Be", "text": {
+      "en": "Money is something you trade your life energy for. Every purchase costs hours of your one life, so the question is always: was it worth the hours?",
+      "fa": "پول چیزی است که انرژی زندگی‌ات را با آن معاوضه می‌کنی. هر خریدی ساعت‌هایی از تنها زندگی‌ات را می‌بلعد، پس سؤال همیشه این است: ارزش آن ساعت‌ها را داشت؟"
+    }},
+    {"kind": "card", "id": "b03c2", "source": "Step 2, Being in the present: your real hourly wage", "text": {
+      "en": "Your real hourly wage is far lower than your salary suggests. Subtract commuting, work clothes, decompression and job costs, add those hours, and recalculate.",
+      "fa": "دستمزد واقعی ساعتی‌ات خیلی کمتر از آن است که حقوقت نشان می‌دهد. هزینهٔ رفت‌وآمد، لباس کار، خستگی‌درکردن و خرج‌های شغلی را کم کن، ساعت‌هایش را اضافه کن و دوباره حساب کن."
+    }},
+    {"kind": "check", "id": "b03k1", "type": "tap", "source": "b03c1",
+      "prompt": {"en": "In Your Money or Your Life, what is money?", "fa": "در Your Money or Your Life پول چیست؟"},
+      "options": [
+        {"en": "Life energy you trade hours for", "fa": "انرژی زندگی که ساعت‌هایت را برایش می‌دهی"},
+        {"en": "A score to maximise", "fa": "امتیازی که باید بیشینه‌اش کرد"},
+        {"en": "Something that grows by itself", "fa": "چیزی که خودبه‌خود رشد می‌کند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b03c3", "source": "ch. 1, The Fulfillment Curve", "text": {
+      "en": "The fulfillment curve rises with spending through survival and comforts, peaks at 'enough', then falls into clutter. More stuff past enough makes life worse.",
+      "fa": "منحنی رضایت با خرج کردن بالا می‌رود، از بقا تا آسایش، در نقطهٔ «کافی» به اوج می‌رسد و بعد در شلوغی سقوط می‌کند. چیزهای بیشتر بعد از «کافی» زندگی را بدتر می‌کند."
+    }},
+    {"kind": "check", "id": "b03k2", "type": "tf", "source": "b03c3",
+      "prompt": {"en": "The book says fulfillment keeps rising the more you spend.", "fa": "کتاب می‌گوید هرچه بیشتر خرج کنی، رضایت هم بیشتر می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b03c4", "source": "Step 4, Three questions that will transform your life", "text": {
+      "en": "For each spending category ask three questions: did I get fulfillment in proportion to the life energy spent, is it aligned with my values, and how would it change if I did not have to work?",
+      "fa": "برای هر دستهٔ خرج سه سؤال بپرس: آیا به اندازهٔ انرژی زندگی‌ای که دادم رضایت گرفتم؟ آیا با ارزش‌هایم هم‌خوان است؟ اگر مجبور به کار کردن نبودم، چه تغییری می‌کرد؟"
+    }},
+    {"kind": "card", "id": "b03c5", "source": "Step 8, Capital and the Crossover Point", "text": {
+      "en": "Track monthly expenses and investment income on one wall chart. The crossover point is the month investment income exceeds expenses: that is financial independence.",
+      "fa": "هزینه‌های ماهانه و درآمد سرمایه‌گذاری را روی یک نمودار دیواری ثبت کن. نقطهٔ تقاطع ماهی است که درآمد سرمایه‌گذاری از هزینه‌ها بیشتر می‌شود: این یعنی استقلال مالی."
+    }},
+    {"kind": "check", "id": "b03k3", "type": "tap", "source": "b03c5",
+      "prompt": {"en": "When is the crossover point reached?", "fa": "نقطهٔ تقاطع کی رخ می‌دهد؟"},
+      "options": [
+        {"en": "Investment income exceeds monthly expenses", "fa": "وقتی درآمد سرمایه‌گذاری از هزینه‌های ماهانه بیشتر شود"},
+        {"en": "Your salary doubles", "fa": "وقتی حقوقت دو برابر شود"},
+        {"en": "You pay off your mortgage", "fa": "وقتی وام مسکنت را تسویه کنی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b03c6", "source": "The nine steps, overview", "text": {
+      "en": "The nine steps run in order: first make peace with the past by totalling lifetime earnings and net worth, then track every cent, then tabulate monthly, and finally reach the crossover point.",
+      "fa": "نُه گام به ترتیب پیش می‌روند: اول با گذشته آشتی کن و کل درآمد عمر و دارایی خالصت را حساب کن، بعد هر ریال را ثبت کن، بعد ماهانه جدول‌بندی کن و در آخر به نقطهٔ تقاطع برس."
+    }},
+    {"kind": "check", "id": "b03k4", "type": "order", "source": "b03c6",
+      "prompt": {"en": "Put the steps in order", "fa": "گام‌ها را به ترتیب بچین"},
+      "options": [
+        {"en": "Tabulate monthly", "fa": "ماهانه جدول‌بندی کن"},
+        {"en": "Make peace with the past", "fa": "با گذشته آشتی کن"},
+        {"en": "Reach the crossover point", "fa": "به نقطهٔ تقاطع برس"},
+        {"en": "Track every cent", "fa": "هر ریال را ثبت کن"}
+      ],
+      "answer": [1, 3, 0, 2]}
+  ]
+}

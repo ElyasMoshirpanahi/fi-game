@@ -1,0 +1,58 @@
+{
+  "id": "b13",
+  "title": "The Intelligent Investor (chapters 8 and 20)",
+  "author": {"en": "Benjamin Graham", "fa": "Benjamin Graham"},
+  "year": 1949,
+  "stage": 3,
+  "must": false,
+  "why": {"en": "Mr. Market and the margin of safety", "fa": "Mr. Market و حاشیه امنیت"},
+  "badge": {"en": "Margin of Safety", "fa": "حاشیهٔ امنیت"},
+  "items": [
+    {"kind": "card", "id": "b13c1", "source": "ch. 8, The Investor and Market Fluctuations: the Mr. Market parable", "text": {
+      "en": "Imagine a private business partner, Mr. Market, who every day names a price at which he will buy your share or sell you his; some days his price is sensible, but often his fear or excitement makes it silly.",
+      "fa": "تصور کن شریکی خصوصی به نام Mr. Market داری که هر روز قیمتی می‌گوید که با آن یا سهم تو را می‌خرد یا سهم خودش را به تو می‌فروشد؛ بعضی روزها قیمتش منطقی است، اما اغلب ترس یا هیجانش آن را مسخره می‌کند."
+    }},
+    {"kind": "check", "id": "b13k1", "type": "tap", "source": "b13c1",
+      "prompt": {"en": "Who is Mr. Market in Graham's parable?", "fa": "Mr. Market در تمثیل Graham کیست؟"},
+      "options": [
+        {"en": "A partner who names a price every day to buy or sell", "fa": "شریکی که هر روز قیمتی برای خرید یا فروش می‌گوید"},
+        {"en": "A regulator who sets fair prices for stocks", "fa": "ناظری که قیمت منصفانهٔ سهام را تعیین می‌کند"},
+        {"en": "A broker who charges a daily commission", "fa": "کارگزاری که کارمزد روزانه می‌گیرد"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b13c2", "source": "ch. 8, using market fluctuations", "text": {
+      "en": "The investor is free to ignore him or to profit from him: buy when he offers a price well below value, sell when his price is absurdly high. His quotes are an opportunity, never an order.",
+      "fa": "سرمایه‌گذار آزاد است او را نادیده بگیرد یا از او سود ببرد: وقتی قیمتی خیلی پایین‌تر از ارزش می‌دهد بخر، وقتی قیمتش به‌طرز مسخره‌ای بالاست بفروش. قیمت‌های او فرصت‌اند، هرگز دستور نیستند."
+    }},
+    {"kind": "card", "id": "b13c3", "source": "ch. 8, pricing versus timing", "text": {
+      "en": "Graham warns that the investor who lets a market decline stampede him into selling turns his basic advantage into a basic disadvantage. Meet price swings with pricing, not with timing.",
+      "fa": "Graham هشدار می‌دهد سرمایه‌گذاری که اجازه می‌دهد افت بازار او را به فروش هول‌زده بکشاند، مزیت اصلی‌اش را به عیب اصلی تبدیل می‌کند. با نوسان قیمت با قیمت‌گذاری روبه‌رو شو، نه با زمان‌بندی."
+    }},
+    {"kind": "check", "id": "b13k2", "type": "tf", "source": "b13c3",
+      "prompt": {"en": "Graham advises selling quickly whenever the market declines sharply.", "fa": "Graham توصیه می‌کند هر وقت بازار شدید افت کرد سریع بفروشی."},
+      "answer": false},
+    {"kind": "card", "id": "b13c4", "source": "ch. 20, Margin of Safety as the Central Concept of Investment", "text": {
+      "en": "Asked to distill sound investing into three words, Graham answers: margin of safety. Pay a price far enough below your estimate of value that errors, bad luck and a changing world cannot destroy you.",
+      "fa": "وقتی از Graham می‌خواهند سرمایه‌گذاری درست را در سه کلمه خلاصه کند، پاسخ می‌دهد: حاشیهٔ امنیت. قیمتی بپرداز آن‌قدر پایین‌تر از برآوردت از ارزش که خطا، بدشانسی و تغییر دنیا نتوانند نابودت کنند."
+    }},
+    {"kind": "check", "id": "b13k3", "type": "tap", "source": "b13c4",
+      "prompt": {"en": "Which three words does Graham use for the secret of sound investing?", "fa": "Graham راز سرمایه‌گذاری درست را در کدام سه کلمه خلاصه می‌کند؟"},
+      "options": [
+        {"en": "Margin of safety", "fa": "حاشیهٔ امنیت"},
+        {"en": "Buy and hold", "fa": "بخر و نگه دار"},
+        {"en": "Diversify, diversify, diversify", "fa": "تنوع، تنوع، تنوع"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b13c5", "source": "ch. 20, price paid and diversification", "text": {
+      "en": "The margin of safety depends entirely on the price paid; a fine company bought too dear has none. Diversification is its companion, because a margin protects on average, not on every single pick.",
+      "fa": "حاشیهٔ امنیت کاملاً به قیمت پرداختی بستگی دارد؛ شرکت خوبی که خیلی گران خریده شود هیچ حاشیه‌ای ندارد. تنوع همراه آن است، چون حاشیه به‌طور میانگین محافظت می‌کند، نه در تک‌تک انتخاب‌ها."
+    }},
+    {"kind": "card", "id": "b13c6", "source": "ch. 20, investment versus speculation", "text": {
+      "en": "An investment operation is one which, on thorough analysis, promises safety of principal and an adequate return; anything else is speculation. The margin of safety is what separates the two.",
+      "fa": "عملیات سرمایه‌گذاری عملیاتی است که با تحلیل کامل، حفظ اصل سرمایه و بازده کافی را وعده می‌دهد؛ هر چیز دیگری سفته‌بازی است. حاشیهٔ امنیت همان چیزی است که این دو را از هم جدا می‌کند."
+    }},
+    {"kind": "check", "id": "b13k4", "type": "tf", "source": "b13c5",
+      "prompt": {"en": "According to Graham, a margin of safety depends on the price you pay.", "fa": "به گفتهٔ Graham، حاشیهٔ امنیت به قیمتی که می‌پردازی بستگی دارد."},
+      "answer": true}
+  ]
+}
