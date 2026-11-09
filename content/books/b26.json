@@ -1,0 +1,108 @@
+{
+  "id": "b26",
+  "title": "Poor Charlie's Almanack",
+  "author": {"en": "Charlie Munger, edited by Peter D. Kaufman", "fa": "Charlie Munger، ویراستهٔ Peter D. Kaufman"},
+  "year": 2005,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "Multidisciplinary mental models", "fa": "مدل‌های ذهنی چندرشته‌ای"},
+  "badge": {"en": "Latticework of Models", "fa": "شبکهٔ مدل‌های ذهنی"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b26c1",
+      "source": "Talk: A Lesson on Elementary, Worldly Wisdom (USC, 1994)",
+      "text": {
+        "en": "Munger's core advice: build a latticework of mental models from many disciplines and hang your experience on it. To the man with only a hammer, every problem looks like a nail.",
+        "fa": "توصیهٔ اصلی Munger: شبکه‌ای (latticework) از مدل‌های ذهنی از رشته‌های گوناگون بساز و تجربه‌ات را روی آن بیاویز. برای کسی که فقط چکش دارد، هر مسئله‌ای شبیه میخ است."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26k1",
+      "type": "tap",
+      "source": "b26c1",
+      "prompt": {"en": "What does Munger say you should build?", "fa": "Munger می‌گوید چه چیزی باید بسازی؟"},
+      "options": [
+        {"en": "A latticework of mental models from many disciplines", "fa": "شبکه‌ای از مدل‌های ذهنی از رشته‌های گوناگون"},
+        {"en": "One master formula for every problem", "fa": "یک فرمول جادویی برای هر مسئله"},
+        {"en": "A list of stock tips from experts", "fa": "فهرستی از توصیه‌های سهام از کارشناسان"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b26c2",
+      "source": "Talk: A Lesson on Elementary, Worldly Wisdom (the 80 or 90 models)",
+      "text": {
+        "en": "You do not need all the models: about 80 or 90 big ones carry roughly 90 percent of the freight. They come from math, physics, biology, psychology, engineering and economics.",
+        "fa": "به همهٔ مدل‌ها نیاز نداری: حدود ۸۰ تا ۹۰ مدل بزرگ، تقریباً ۹۰ درصد بار را حمل می‌کنند. این مدل‌ها از ریاضی، فیزیک، زیست‌شناسی، روان‌شناسی، مهندسی و اقتصاد می‌آیند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26k2",
+      "type": "tf",
+      "source": "b26c2",
+      "prompt": {"en": "Munger says you must master every model in every discipline before you can think well.", "fa": "Munger می‌گوید باید همهٔ مدل‌های همهٔ رشته‌ها را بلد باشی تا بتوانی خوب فکر کنی."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b26c3",
+      "source": "Talk: The Psychology of Human Misjudgment",
+      "text": {
+        "en": "Munger lists some 25 psychological tendencies that cause misjudgment, such as incentive bias, social proof and consistency. When several act together they create a lollapalooza effect.",
+        "fa": "Munger حدود ۲۵ گرایش روانی را فهرست می‌کند که به قضاوت نادرست می‌انجامند، مانند سوگیری انگیزه‌ای، تأیید اجتماعی و ثبات‌طلبی. وقتی چند تا با هم عمل کنند، اثر lollapalooza می‌سازند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26k3",
+      "type": "tap",
+      "source": "b26c3",
+      "prompt": {"en": "What does Munger call several tendencies acting together in one direction?", "fa": "Munger چند گرایش را که با هم در یک جهت عمل می‌کنند چه می‌نامد؟"},
+      "options": [
+        {"en": "A lollapalooza effect", "fa": "اثر lollapalooza"},
+        {"en": "Social proof", "fa": "تأیید اجتماعی"},
+        {"en": "A circle of competence", "fa": "دایرهٔ شایستگی"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b26c4",
+      "source": "Ch. 2, The Munger Approach; Mungerisms (inversion)",
+      "text": {
+        "en": "Invert, always invert: ask what would guarantee failure, then avoid it. Munger says all he wants to know is where he is going to die, so he never goes there.",
+        "fa": "وارونه کن، همیشه وارونه کن: بپرس چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کن. Munger می‌گوید فقط می‌خواهد بداند کجا قرار است بمیرد تا هرگز آنجا نرود."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b26k4",
+      "type": "tf",
+      "source": "b26c4",
+      "prompt": {"en": "Inversion means asking what would guarantee failure, then avoiding it.", "fa": "وارونه‌سازی یعنی بپرسی چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کنی."},
+      "answer": true
+    },
+    {
+      "kind": "card",
+      "id": "b26c5",
+      "source": "Ch. 2, Investing Principles Checklist (patience, decisiveness, focus)",
+      "text": {
+        "en": "Stay inside your circle of competence and wait patiently: a few big opportunities come, and when the odds are heavily in your favour, bet heavily. The rest of the time, sit and read.",
+        "fa": "در دایرهٔ شایستگی‌ات بمان و صبورانه منتظر باش: چند فرصت بزرگ می‌آید، و وقتی شانس به‌شدت به نفع توست، سنگین شرط ببند. باقی وقت‌ها بنشین و بخوان."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b26c6",
+      "source": "Ch. 2, Investing Principles Checklist (preparation, independence, humility, rigor)",
+      "text": {
+        "en": "Munger's investing checklist prizes preparation, independence, intellectual humility and analytic rigor. Acknowledging what you do not know is the dawning of wisdom.",
+        "fa": "چک‌لیست سرمایه‌گذاری Munger بر آمادگی، استقلال، فروتنی فکری و دقت تحلیلی تأکید دارد. پذیرفتن آنچه نمی‌دانی، سپیده‌دم خرد است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "b15",
+  "title": "Venture Deals",
+  "author": {"en": "Brad Feld and Jason Mendelson", "fa": "Brad Feld و Jason Mendelson"},
+  "year": 2011,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Cap table, term sheet, vesting; before you sign anything", "fa": "cap table، term sheet، vesting؛ قبل از امضای هر چیزی"},
+  "badge": {"en": "Economics and Control", "fa": "اقتصاد و کنترل"},
+  "items": [
+    {"kind": "card", "id": "b15c1", "source": "Chapter 3, Overview of the Term Sheet", "text": {
+      "en": "Chapter 3, Overview of the Term Sheet: a term sheet is full of clauses, but VCs really care about only two things: economics and control. Everything else is detail.",
+      "fa": "فصل ۳، Overview of the Term Sheet: یک term sheet پر از بند است، اما سرمایه‌گذاران خطرپذیر واقعاً فقط به دو چیز اهمیت می‌دهند: اقتصاد و کنترل. بقیه جزئیات است."
+    }},
+    {"kind": "card", "id": "b15c2", "source": "Chapter 4, Economic Terms of the Term Sheet: Price", "text": {
+      "en": "Chapter 4, Economic Terms: pre-money valuation plus the investment equals post-money valuation. If the option pool sits inside the pre-money, your effective price per share drops.",
+      "fa": "فصل ۴، Economic Terms: ارزش‌گذاری pre-money به‌علاوهٔ مبلغ سرمایه‌گذاری برابر است با ارزش‌گذاری post-money. اگر option pool داخل pre-money قرار بگیرد، قیمت مؤثر هر سهم شما پایین می‌آید."
+    }},
+    {"kind": "check", "id": "b15k1", "type": "tap", "source": "b15c1",
+      "prompt": {"en": "According to Venture Deals, which two things really matter in a term sheet?", "fa": "به گفتهٔ Venture Deals، کدام دو چیز در term sheet واقعاً مهم‌اند؟"},
+      "options": [
+        {"en": "Economics and control", "fa": "اقتصاد و کنترل"},
+        {"en": "Valuation and legal fees", "fa": "ارزش‌گذاری و هزینه‌های حقوقی"},
+        {"en": "Board size and founder salary", "fa": "اندازهٔ هیئت‌مدیره و حقوق بنیان‌گذار"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b15c3", "source": "Chapter 4, Economic Terms of the Term Sheet: Liquidation Preference", "text": {
+      "en": "Chapter 4, Liquidation preference: it decides who gets paid first and how much when the company is sold. A 1x non-participating preference is standard; participating preferred lets investors double dip.",
+      "fa": "فصل ۴، liquidation preference: تعیین می‌کند هنگام فروش شرکت چه کسی اول و چقدر پول می‌گیرد. ترجیح ۱x غیرمشارکتی استاندارد است؛ سهام ترجیحی مشارکتی به سرمایه‌گذار اجازهٔ double dip می‌دهد."
+    }},
+    {"kind": "card", "id": "b15c4", "source": "Chapter 4, Economic Terms of the Term Sheet: Vesting", "text": {
+      "en": "Chapter 4, Vesting: founders' stock typically vests over four years with a one-year cliff. If you leave before the cliff, you walk away with nothing; unvested shares return to the company.",
+      "fa": "فصل ۴، vesting: سهام بنیان‌گذاران معمولاً طی چهار سال با یک cliff یک‌ساله vest می‌شود. اگر پیش از cliff بروید، دست خالی می‌روید؛ سهام vest‌نشده به شرکت برمی‌گردد."
+    }},
+    {"kind": "check", "id": "b15k2", "type": "tap", "source": "b15c2",
+      "prompt": {"en": "Pre-money valuation plus the investment equals what?", "fa": "ارزش‌گذاری pre-money به‌علاوهٔ مبلغ سرمایه‌گذاری برابر چیست؟"},
+      "options": [
+        {"en": "Post-money valuation", "fa": "ارزش‌گذاری post-money"},
+        {"en": "Liquidation preference", "fa": "liquidation preference"},
+        {"en": "Option pool", "fa": "option pool"}
+      ],
+      "answer": 0},
+    {"kind": "check", "id": "b15k3", "type": "tf", "source": "b15c4",
+      "prompt": {"en": "If a founder leaves before the one-year cliff, they keep their unvested shares.", "fa": "اگر بنیان‌گذاری پیش از cliff یک‌ساله برود، سهام vest‌نشده‌اش را نگه می‌دارد."},
+      "answer": false},
+    {"kind": "card", "id": "b15c5", "source": "Chapter 5, Control Terms of the Term Sheet", "text": {
+      "en": "Chapter 5, Control Terms: the board of directors and protective provisions give investors control regardless of their ownership share. Protective provisions let them veto key decisions such as a sale.",
+      "fa": "فصل ۵، Control Terms: هیئت‌مدیره و protective provisions فارغ از درصد مالکیت، به سرمایه‌گذاران کنترل می‌دهند. protective provisions به آن‌ها حق وتو در تصمیم‌های کلیدی مثل فروش شرکت می‌دهد."
+    }},
+    {"kind": "card", "id": "b15c6", "source": "Chapter 8, How Venture Capital Funds Work", "text": {
+      "en": "Chapter 8, How VC Funds Work: a fund lives about ten years, charges a management fee near 2 percent a year and keeps about 20 percent of profits as carry. Know where your VC is in the fund's life.",
+      "fa": "فصل ۸، How Venture Capital Funds Work: عمر یک صندوق حدود ده سال است، کارمزد مدیریت سالانه نزدیک ۲ درصد می‌گیرد و حدود ۲۰ درصد سود را به‌عنوان carry برمی‌دارد. بدانید سرمایه‌گذارتان در کدام مرحله از عمر صندوق است."
+    }},
+    {"kind": "check", "id": "b15k4", "type": "tf", "source": "b15c6",
+      "prompt": {"en": "A typical VC fund keeps about 20 percent of profits as carry.", "fa": "یک صندوق VC معمولی حدود ۲۰ درصد سود را به‌عنوان carry برمی‌دارد."},
+      "answer": true}
+  ]
+}

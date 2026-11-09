@@ -1,0 +1,58 @@
+{
+  "id": "b05",
+  "title": "Thinking, Fast and Slow",
+  "author": {"en": "Daniel Kahneman", "fa": "Daniel Kahneman"},
+  "year": 2011,
+  "stage": 1,
+  "must": false,
+  "why": {"en": "The cognitive errors that eat your money", "fa": "خطاهای شناختی که پولت را می‌خورند"},
+  "badge": {"en": "Two systems", "fa": "دو سیستم"},
+  "items": [
+    {"kind": "card", "id": "b05c1", "source": "Part I, Two Systems (ch. 1, The Characters of the Story)", "text": {
+      "en": "System 1 thinks fast, automatic and effortless; System 2 thinks slow, deliberate and lazy. Errors come when System 1 answers and lazy System 2 never checks.",
+      "fa": "سیستم ۱ سریع، خودکار و بی‌زحمت فکر می‌کند؛ سیستم ۲ کند، سنجیده و تنبل. خطا وقتی رخ می‌دهد که سیستم ۱ جواب می‌دهد و سیستم ۲ تنبل هرگز بررسی نمی‌کند."
+    }},
+    {"kind": "card", "id": "b05c2", "source": "ch. 11, Anchors", "text": {
+      "en": "Anchoring: the first number you see drags your estimate toward it, even when it is random. A listed price or a past share price anchors what feels fair.",
+      "fa": "لنگر انداختن: اولین عددی که می‌بینی برآوردت را به سمت خودش می‌کشد، حتی اگر تصادفی باشد. قیمت روی برچسب یا قیمت قبلی یک سهم، حس «منصفانه» را لنگر می‌کند."
+    }},
+    {"kind": "check", "id": "b05k1", "type": "tap", "source": "b05c1",
+      "prompt": {"en": "In Kahneman's model, how does System 2 think?", "fa": "در مدل Kahneman سیستم ۲ چطور فکر می‌کند؟"},
+      "options": [
+        {"en": "Slow, deliberate and lazy", "fa": "کند، سنجیده و تنبل"},
+        {"en": "Fast and automatic", "fa": "سریع و خودکار"},
+        {"en": "Emotional and impulsive", "fa": "هیجانی و تکانشی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b05c3", "source": "ch. 26, Prospect Theory; ch. 32, Keeping Score", "text": {
+      "en": "Loss aversion: losses hurt about twice as much as equal gains feel good. That is why people hold losing stocks too long and sell winners too early.",
+      "fa": "زیان‌گریزی: درد زیان تقریباً دو برابر لذت سودِ هم‌اندازه است. برای همین مردم سهم‌های زیان‌ده را زیادی نگه می‌دارند و برنده‌ها را زود می‌فروشند."
+    }},
+    {"kind": "check", "id": "b05k2", "type": "tf", "source": "b05c3",
+      "prompt": {"en": "Kahneman finds gains feel about twice as strong as equal losses.", "fa": "Kahneman می‌گوید لذت سود تقریباً دو برابر درد زیانِ هم‌اندازه است."},
+      "answer": false},
+    {"kind": "card", "id": "b05c4", "source": "ch. 20, The Illusion of Validity", "text": {
+      "en": "Kahneman studied a firm's 25 advisers over 8 years: the correlation between their yearly rankings was near zero. Their results were luck, yet bonuses and confidence stayed high.",
+      "fa": "Kahneman ۲۵ مشاور یک شرکت را در ۸ سال بررسی کرد: همبستگی رتبه‌های سالانه‌شان نزدیک صفر بود. نتایجشان شانس بود، اما پاداش‌ها و اعتمادبه‌نفسشان بالا ماند."
+    }},
+    {"kind": "card", "id": "b05c5", "source": "ch. 23, The Outside View", "text": {
+      "en": "Planning fallacy: we forecast from the inside view, our own best case, and ignore how similar projects went. Take the outside view: base rates first, then adjust.",
+      "fa": "مغالطهٔ برنامه‌ریزی: از نگاه درونی پیش‌بینی می‌کنیم، یعنی بهترین حالت خودمان، و سرنوشت پروژه‌های مشابه را نادیده می‌گیریم. نگاه بیرونی بگیر: اول نرخ پایه، بعد تعدیل."
+    }},
+    {"kind": "check", "id": "b05k3", "type": "tap", "source": "b05c4",
+      "prompt": {"en": "What did Kahneman find about the advisers' yearly rankings?", "fa": "Kahneman دربارهٔ رتبه‌های سالانهٔ مشاوران چه یافت؟"},
+      "options": [
+        {"en": "Their correlation was near zero", "fa": "همبستگی‌شان نزدیک صفر بود"},
+        {"en": "They beat the market every year", "fa": "هر سال بازار را شکست دادند"},
+        {"en": "The best adviser stayed best", "fa": "بهترین مشاور همیشه بهترین ماند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b05c6", "source": "ch. 12, The Science of Availability", "text": {
+      "en": "Availability: we judge how likely something is by how easily examples come to mind. Dramatic news makes rare risks feel common and quiet risks invisible.",
+      "fa": "دسترس‌پذیری: احتمال چیزها را با این می‌سنجیم که چقدر راحت مثالش به ذهن می‌آید. خبرهای پرهیاهو ریسک‌های نادر را رایج و ریسک‌های خاموش را نامرئی جلوه می‌دهند."
+    }},
+    {"kind": "check", "id": "b05k4", "type": "tf", "source": "b05c5",
+      "prompt": {"en": "The outside view means starting from the base rates of similar projects.", "fa": "نگاه بیرونی یعنی شروع از نرخ پایهٔ پروژه‌های مشابه."},
+      "answer": true}
+  ]
+}

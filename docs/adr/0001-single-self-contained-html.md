@@ -8,5 +8,5 @@ The game ships as a single `index.html` with inline CSS and JavaScript, no build
 ## Consequences
 
 - No external scripts, ever. A test asserts this.
-- Total size stays under 200 KB.
+- Total size stays under 200 KB. Amendment 2026-11-09 (owner decision 19): with 28 Book Units (decision 18) the cap is 400 KB; GitHub Pages gzips, so the wire size stays near 70 KB.
 - Development tooling (vitest, node) exists only in the repo, never in the shipped file.

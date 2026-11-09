@@ -1,0 +1,113 @@
+{
+  "id": "b27",
+  "title": "High Output Management",
+  "author": {"en": "Andrew S. Grove", "fa": "Andrew S. Grove"},
+  "year": 1983,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "From engineer to real manager", "fa": "از مهندس به مدیر واقعی"},
+  "badge": {"en": "Managerial Leverage", "fa": "اهرم مدیریتی"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b27c1",
+      "source": "Ch. 1, The Basics of Production (the breakfast factory)",
+      "text": {
+        "en": "Grove starts with a breakfast factory: deliver a product at the scheduled time, at acceptable quality, at the lowest cost. Find the limiting step and build the whole process around it.",
+        "fa": "Grove با یک کارخانهٔ صبحانه شروع می‌کند: محصول را سر وقتِ برنامه، با کیفیت قابل‌قبول و با کمترین هزینه تحویل بده. مرحلهٔ محدودکننده (limiting step) را پیدا کن و کل فرایند را حول آن بچین."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b27c2",
+      "source": "Ch. 3, Managerial Leverage",
+      "text": {
+        "en": "Manager's output = output of their organization + output of neighbouring units under their influence. So favour high-leverage acts, like a training session or a timely decision that lifts many people; delegate the rest.",
+        "fa": "خروجی مدیر = خروجی سازمانش + خروجی واحدهای همسایه‌ای که زیر نفوذ اوست. پس کارهای پراهرم را ترجیح بده، مثل یک جلسهٔ آموزشی یا تصمیمی به‌موقع که بسیاری را بالا می‌کشد، و باقی را واگذار کن."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27k1",
+      "type": "tap",
+      "source": "b27c2",
+      "prompt": {"en": "How does Grove measure a manager's output?", "fa": "Grove خروجی مدیر را چطور می‌سنجد؟"},
+      "options": [
+        {"en": "Output of their organization and neighbouring units under their influence", "fa": "خروجی سازمانش و واحدهای همسایهٔ زیر نفوذش"},
+        {"en": "Hours the manager works each week", "fa": "ساعت‌هایی که مدیر هر هفته کار می‌کند"},
+        {"en": "Number of reports the manager writes", "fa": "تعداد گزارش‌هایی که مدیر می‌نویسد"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b27c3",
+      "source": "Ch. 5, Decisions, Decisions",
+      "text": {
+        "en": "Ideal decision-making runs in three stages: free discussion, a clear decision, then full support from all, even those who objected. Grove warns against the peer-group syndrome, where nobody wants to stick their neck out.",
+        "fa": "تصمیم‌گیری ایده‌آل سه مرحله دارد: بحث آزاد، تصمیم روشن، سپس حمایت کامل همه، حتی مخالفان. Grove از «سندرم هم‌رده‌ها» (peer-group syndrome) هشدار می‌دهد، جایی که هیچ‌کس نمی‌خواهد ریسکِ اظهار نظر کند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27k2",
+      "type": "order",
+      "source": "b27c3",
+      "prompt": {"en": "Put Grove's ideal decision-making stages in order", "fa": "مراحل تصمیم‌گیری ایده‌آل Grove را به ترتیب بچین"},
+      "options": [
+        {"en": "Full support", "fa": "حمایت کامل"},
+        {"en": "Free discussion", "fa": "بحث آزاد"},
+        {"en": "Clear decision", "fa": "تصمیم روشن"}
+      ],
+      "answer": [1, 2, 0]
+    },
+    {
+      "kind": "card",
+      "id": "b27c4",
+      "source": "Ch. 4, Meetings, the Medium of Managerial Work (one-on-ones)",
+      "text": {
+        "en": "Meetings are the medium of managerial work. The one-on-one belongs to the subordinate: they set the agenda, it lasts at least an hour, and it is for learning and coaching.",
+        "fa": "جلسه رسانهٔ کار مدیریتی است. جلسهٔ یک‌به‌یک (one-on-one) متعلق به زیردست است: او دستور جلسه را تعیین می‌کند، دست‌کم یک ساعت طول می‌کشد و برای یادگیری و مربی‌گری است."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27k3",
+      "type": "tf",
+      "source": "b27c4",
+      "prompt": {"en": "In Grove's one-on-one, the manager sets the agenda and keeps it to 15 minutes.", "fa": "در جلسهٔ یک‌به‌یکِ Grove، مدیر دستور جلسه را تعیین می‌کند و آن را به ۱۵ دقیقه محدود می‌کند."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b27c5",
+      "source": "Ch. 6, Planning: Today's Actions for Tomorrow's Output (MBO)",
+      "text": {
+        "en": "Planning becomes management by objectives (MBO): answer two questions, where do I want to go (the objective) and how will I pace myself to see if I am getting there (the key results).",
+        "fa": "برنامه‌ریزی به مدیریت بر مبنای هدف (MBO) می‌رسد: به دو پرسش پاسخ بده، کجا می‌خواهم بروم (هدف) و چطور سرعتم را تنظیم کنم تا بفهمم دارم می‌رسم یا نه (نتایج کلیدی)."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b27k4",
+      "type": "tap",
+      "source": "b27c5",
+      "prompt": {"en": "Which two questions does MBO ask?", "fa": "MBO کدام دو پرسش را می‌پرسد؟"},
+      "options": [
+        {"en": "Where do I want to go, and how will I pace myself?", "fa": "کجا می‌خواهم بروم، و چطور سرعتم را تنظیم کنم؟"},
+        {"en": "What is my budget, and who approves it?", "fa": "بودجه‌ام چقدر است، و چه کسی تأییدش می‌کند؟"},
+        {"en": "What went wrong last year, and who was responsible?", "fa": "پارسال چه اشتباهی شد، و چه کسی مسئول بود؟"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b27c6",
+      "source": "Ch. 11, The Sports Analogy; Ch. 16, Why Training Is the Boss's Job",
+      "text": {
+        "en": "When someone is not doing their job, there are only two reasons: not capable or not motivated. So training and motivation are a manager's tools, and training is the boss's job.",
+        "fa": "وقتی کسی کارش را انجام نمی‌دهد، فقط دو دلیل دارد: یا توانایی ندارد یا انگیزه. پس آموزش و انگیزش ابزار مدیرند، و آموزش وظیفهٔ خودِ رئیس است."
+      }
+    }
+  ]
+}

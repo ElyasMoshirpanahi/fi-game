@@ -1,0 +1,54 @@
+{
+  "id": "b22",
+  "title": "Paul Graham Essays (free)",
+  "author": {"en": "Paul Graham", "fa": "Paul Graham"},
+  "year": 2005,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "paulgraham.com; read them all", "fa": "paulgraham.com؛ همه را بخوان"},
+  "badge": {"en": "Make Something People Want", "fa": "چیزی بساز که مردم بخواهند"},
+  "items": [
+    {"kind": "card", "id": "b22c1", "source": "How to Start a Startup (2005)", "text": {
+      "en": "How to Start a Startup (2005): you need three things: start with good people, make something customers actually want, and spend as little money as possible. Most failures break one of these.",
+      "fa": "How to Start a Startup (۲۰۰۵): سه چیز لازم داری: با آدم‌های خوب شروع کن، چیزی بساز که مشتری‌ها واقعاً بخواهند، و تا جای ممکن کم خرج کن. بیشتر شکست‌ها یکی از این سه را نقض می‌کنند."
+    }},
+    {"kind": "check", "id": "b22k1", "type": "tap", "source": "b22c1",
+      "prompt": {"en": "Which three things does Graham say a startup needs?", "fa": "به گفتهٔ Graham، استارتاپ به کدام سه چیز نیاز دارد؟"},
+      "options": [
+        {"en": "Good people, something customers want, spending little money", "fa": "آدم‌های خوب، چیزی که مشتری‌ها بخواهند، کم خرج کردن"},
+        {"en": "A big idea, a patent and a large office", "fa": "یک ایدهٔ بزرگ، یک patent و یک دفتر بزرگ"},
+        {"en": "Venture funding, a CTO and a press launch", "fa": "سرمایهٔ خطرپذیر، یک CTO و یک رونمایی مطبوعاتی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b22c2", "source": "How to Get Startup Ideas (2012)", "text": {
+      "en": "How to Get Startup Ideas (2012): don't try to think of startup ideas. Look for problems, preferably problems you have yourself; live in the future, then build what's missing.",
+      "fa": "How to Get Startup Ideas (۲۰۱۲): سعی نکن به ایدهٔ استارتاپی فکر کنی. دنبال مشکل بگرد، ترجیحاً مشکلی که خودت داری؛ در آینده زندگی کن، بعد چیزی را بساز که کم است."
+    }},
+    {"kind": "check", "id": "b22k2", "type": "tf", "source": "b22c2",
+      "prompt": {"en": "Graham recommends sitting down to brainstorm startup ideas.", "fa": "Graham توصیه می‌کند بنشینی و برای ایدهٔ استارتاپی طوفان فکری کنی."},
+      "answer": false},
+    {"kind": "card", "id": "b22c3", "source": "Do Things That Don't Scale (2013)", "text": {
+      "en": "Do Things That Don't Scale (2013): recruit your first users manually, one at a time, and delight them. Airbnb's founders went door to door in New York to photograph hosts' listings.",
+      "fa": "Do Things That Don't Scale (۲۰۱۳): اولین کاربرانت را دستی و یکی‌یکی جذب کن و شگفت‌زده‌شان کن. بنیان‌گذاران Airbnb در نیویورک خانه‌به‌خانه می‌رفتند تا از آگهی میزبان‌ها عکس بگیرند."
+    }},
+    {"kind": "card", "id": "b22c4", "source": "Maker's Schedule, Manager's Schedule (2009)", "text": {
+      "en": "Maker's Schedule, Manager's Schedule (2009): managers slice the day into hour blocks; makers need units of half a day or more. One badly placed meeting can wreck a maker's whole afternoon.",
+      "fa": "Maker's Schedule, Manager's Schedule (۲۰۰۹): مدیرها روز را به بلوک‌های یک‌ساعته تقسیم می‌کنند؛ سازنده‌ها به واحدهای نیم‌روزه یا بیشتر نیاز دارند. یک جلسهٔ بدجا می‌تواند کل بعدازظهر یک سازنده را خراب کند."
+    }},
+    {"kind": "check", "id": "b22k3", "type": "tap", "source": "b22c4",
+      "prompt": {"en": "Why can one meeting wreck a maker's afternoon?", "fa": "چرا یک جلسه می‌تواند بعدازظهر یک سازنده را خراب کند؟"},
+      "options": [
+        {"en": "Makers need units of half a day or more", "fa": "سازنده‌ها به واحدهای نیم‌روزه یا بیشتر نیاز دارند"},
+        {"en": "Makers prefer to work only at night", "fa": "سازنده‌ها ترجیح می‌دهند فقط شب کار کنند"},
+        {"en": "Meetings cost the company money", "fa": "جلسه‌ها برای شرکت هزینه دارند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b22c5", "source": "Default Alive or Default Dead? (2015)", "text": {
+      "en": "Default Alive or Default Dead (2015): at current growth and spending, do you reach profitability before the money runs out? Yes means default alive, no means default dead; most founders can't answer.",
+      "fa": "Default Alive or Default Dead (۲۰۱۵): با نرخ رشد و خرج فعلی، پیش از تمام شدن پول به سودآوری می‌رسی؟ «بله» یعنی default alive، «نه» یعنی default dead؛ بیشتر بنیان‌گذاران جواب را نمی‌دانند."
+    }},
+    {"kind": "check", "id": "b22k4", "type": "tf", "source": "b22c5",
+      "prompt": {"en": "A default dead startup reaches profitability before its money runs out.", "fa": "استارتاپ default dead پیش از تمام شدن پولش به سودآوری می‌رسد."},
+      "answer": false}
+  ]
+}

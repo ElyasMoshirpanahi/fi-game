@@ -1,0 +1,58 @@
+{
+  "id": "b16",
+  "title": "The Mom Test",
+  "author": {"en": "Rob Fitzpatrick", "fa": "Rob Fitzpatrick"},
+  "year": 2013,
+  "stage": 5,
+  "must": true,
+  "why": {"en": "Validating an idea without fooling yourself", "fa": "اعتبارسنجی ایده بدون خودفریبی"},
+  "badge": {"en": "Talk Less, Listen More", "fa": "کمتر بگو، بیشتر بشنو"},
+  "items": [
+    {"kind": "card", "id": "b16c1", "source": "Chapter 1, The Mom Test", "text": {
+      "en": "Chapter 1, The Mom Test: talk about their life instead of your idea. Ask about specifics in the past instead of generics or opinions about the future, and talk less, listen more.",
+      "fa": "فصل ۱، The Mom Test: دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت. به‌جای کلی‌گویی یا نظر دربارهٔ آینده، از جزئیات گذشته بپرس؛ و کمتر بگو، بیشتر بشنو."
+    }},
+    {"kind": "card", "id": "b16c2", "source": "Chapter 2, Avoiding Bad Data", "text": {
+      "en": "Chapter 2, Avoiding Bad Data: three kinds of bad data are compliments, fluff and ideas. 'I would definitely buy that' is fluff about the future, not evidence of anything.",
+      "fa": "فصل ۲، Avoiding Bad Data: سه نوع دادهٔ بد وجود دارد: تعریف و تمجید، حرف‌های توخالی (fluff) و ایده‌ها. جملهٔ «حتماً می‌خرمش» حرف توخالی دربارهٔ آینده است، نه شاهدی بر چیزی."
+    }},
+    {"kind": "check", "id": "b16k1", "type": "tap", "source": "b16c1",
+      "prompt": {"en": "Which of these is a rule of The Mom Test?", "fa": "کدام‌یک از قواعد The Mom Test است؟"},
+      "options": [
+        {"en": "Talk about their life instead of your idea", "fa": "دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت"},
+        {"en": "Pitch your idea first, then ask for feedback", "fa": "اول ایده‌ات را pitch کن، بعد بازخورد بخواه"},
+        {"en": "Ask how much they would pay in the future", "fa": "بپرس در آینده چقدر حاضرند بپردازند"}
+      ],
+      "answer": 0},
+    {"kind": "check", "id": "b16k2", "type": "tf", "source": "b16c2",
+      "prompt": {"en": "'I would definitely buy that' is strong evidence of demand.", "fa": "جملهٔ «حتماً می‌خرمش» شاهد محکمی بر وجود تقاضاست."},
+      "answer": false},
+    {"kind": "card", "id": "b16c3", "source": "Chapter 3, Asking Important Questions", "text": {
+      "en": "Chapter 3, Asking Important Questions: in every conversation ask at least one question that could destroy your business idea. If you're scared of the answer, you need it most.",
+      "fa": "فصل ۳، Asking Important Questions: در هر گفتگو دست‌کم یک سؤال بپرس که بتواند ایدهٔ کسب‌وکارت را نابود کند. اگر از جواب می‌ترسی، یعنی بیش از همه به آن نیاز داری."
+    }},
+    {"kind": "card", "id": "b16c4", "source": "Chapter 5, Commitment and Advancement", "text": {
+      "en": "Chapter 5, Commitment and Advancement: a meeting succeeds only when they give up something: time, reputation or money. A compliment with no next step is a failed meeting.",
+      "fa": "فصل ۵، Commitment and Advancement: یک جلسه فقط وقتی موفق است که طرف چیزی بدهد: وقت، اعتبار یا پول. تعریف و تمجید بدون قدم بعدی یعنی جلسه شکست خورده."
+    }},
+    {"kind": "check", "id": "b16k3", "type": "tap", "source": "b16c4",
+      "prompt": {"en": "What shows a customer meeting really succeeded?", "fa": "چه چیزی نشان می‌دهد جلسه با مشتری واقعاً موفق بوده؟"},
+      "options": [
+        {"en": "They give up time, reputation or money", "fa": "طرف وقت، اعتبار یا پول می‌دهد"},
+        {"en": "They say they love the idea", "fa": "می‌گویند عاشق ایده‌اند"},
+        {"en": "They ask you to send more information", "fa": "می‌خواهند اطلاعات بیشتری بفرستی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b16c5", "source": "Chapter 4, Keeping It Casual", "text": {
+      "en": "Chapter 4, Keeping It Casual: the best early conversations don't feel like meetings. Skip the pitch and the formality; a quick chat at a conference can teach more than a scheduled hour.",
+      "fa": "فصل ۴، Keeping It Casual: بهترین گفتگوهای اولیه اصلاً شبیه جلسه نیستند. pitch و تشریفات را کنار بگذار؛ یک گپ کوتاه در یک کنفرانس می‌تواند بیش از یک ساعت جلسهٔ رسمی یاد بدهد."
+    }},
+    {"kind": "card", "id": "b16c6", "source": "Chapter 7, Choosing Your Customers", "text": {
+      "en": "Chapter 7, Choosing Your Customers: if you hear inconsistent problems and goals, your customer segment is too broad. Slice it until you can say exactly who they are and where to find them.",
+      "fa": "فصل ۷، Choosing Your Customers: اگر مشکل‌ها و هدف‌هایی که می‌شنوی ناسازگارند، بخش مشتری‌ات زیادی گسترده است. آن‌قدر آن را برش بزن تا بتوانی دقیقاً بگویی چه کسانی هستند و کجا پیدایشان می‌کنی."
+    }},
+    {"kind": "check", "id": "b16k4", "type": "tf", "source": "b16c3",
+      "prompt": {"en": "Fitzpatrick says to ask at least one question that could destroy your idea.", "fa": "Fitzpatrick می‌گوید دست‌کم یک سؤال بپرس که بتواند ایده‌ات را نابود کند."},
+      "answer": true}
+  ]
+}

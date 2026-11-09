@@ -1,0 +1,58 @@
+{
+  "id": "b14",
+  "title": "One Up on Wall Street",
+  "author": {"en": "Peter Lynch with John Rothchild", "fa": "Peter Lynch with John Rothchild"},
+  "year": 1989,
+  "stage": 3,
+  "must": false,
+  "why": {"en": "Investing in what you yourself understand", "fa": "سرمایه‌گذاری با چیزهایی که خودت می‌فهمی"},
+  "badge": {"en": "Know What You Own", "fa": "بدان چه داری"},
+  "items": [
+    {"kind": "card", "id": "b14c1", "source": "Part 1, Preparing to Invest: the amateur's edge", "text": {
+      "en": "Lynch's claim: an amateur who pays attention at work, in the mall and at home can spot great companies long before Wall Street analysts notice them. Everyday life is a lead, not a substitute for homework.",
+      "fa": "ادعای Lynch: آماتوری که سر کار، در فروشگاه و در خانه حواسش جمع باشد می‌تواند شرکت‌های عالی را خیلی زودتر از تحلیلگران Wall Street پیدا کند. زندگی روزمره یک سرنخ است، نه جایگزین تحقیق."
+    }},
+    {"kind": "card", "id": "b14c2", "source": "ch. 7, I've Got It, I've Got It. What Is It?", "text": {
+      "en": "Lynch sorts stocks into six categories: slow growers, stalwarts, fast growers, cyclicals, turnarounds and asset plays. Know which one you own, because each needs a different plan and expectation.",
+      "fa": "Lynch سهام را به شش دسته تقسیم می‌کند: رشد کند، استوارها، رشد سریع، چرخه‌ای، بازگشتی و دارایی‌محور. بدان کدام را داری، چون هر کدام برنامه و انتظار متفاوتی می‌خواهد."
+    }},
+    {"kind": "check", "id": "b14k1", "type": "tap", "source": "b14c2",
+      "prompt": {"en": "Which are Lynch's six stock categories?", "fa": "شش دستهٔ سهام Lynch کدام‌اند؟"},
+      "options": [
+        {"en": "Slow growers, stalwarts, fast growers, cyclicals, turnarounds and asset plays", "fa": "رشد کند، استوارها، رشد سریع، چرخه‌ای، بازگشتی و دارایی‌محور"},
+        {"en": "Tech, finance, energy, health, retail and utilities", "fa": "فناوری، مالی، انرژی، سلامت، خرده‌فروشی و خدمات عمومی"},
+        {"en": "Penny, blue chip, dividend, growth, value and momentum", "fa": "پنی، بلوچیپ، سود تقسیمی، رشدی، ارزشی و مومنتوم"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b14c3", "source": "ch. 8, The Perfect Stock, What a Deal!", "text": {
+      "en": "His favourite stocks sound dull, do something dull or disagreeable, sit in a no-growth niche, are ignored by institutions and analysts, and have insiders buying or the company buying back its own shares.",
+      "fa": "سهام محبوب او اسم کسل‌کننده دارند، کار کسل‌کننده یا ناخوشایندی می‌کنند، در گوشه‌ای از یک صنعت بدون رشد نشسته‌اند، نهادها و تحلیلگران نادیده‌شان می‌گیرند، و مدیران داخلی می‌خرند یا شرکت سهام خودش را بازخرید می‌کند."
+    }},
+    {"kind": "check", "id": "b14k2", "type": "tf", "source": "b14c3",
+      "prompt": {"en": "Lynch prefers exciting stocks that every big institution already owns.", "fa": "Lynch سهام هیجان‌انگیزی را ترجیح می‌دهد که همهٔ نهادهای بزرگ از قبل دارند."},
+      "answer": false},
+    {"kind": "card", "id": "b14c4", "source": "ch. 10, Earnings, Earnings, Earnings", "text": {
+      "en": "Earnings drive stock prices in the long run. A fairly priced company has a PE ratio about equal to its earnings growth rate; a PE of half the growth rate is cheap, twice the growth rate is expensive.",
+      "fa": "در بلندمدت، سود است که قیمت سهم را می‌سازد. شرکتی با قیمت منصفانه نسبت PE تقریباً برابر نرخ رشد سودش دارد؛ PE نصف نرخ رشد ارزان است و دو برابر نرخ رشد گران."
+    }},
+    {"kind": "check", "id": "b14k3", "type": "tf", "source": "b14c4",
+      "prompt": {"en": "Lynch says a fairly priced company's PE ratio is about equal to its earnings growth rate.", "fa": "Lynch می‌گوید نسبت PE یک شرکت با قیمت منصفانه تقریباً برابر نرخ رشد سودش است."},
+      "answer": true},
+    {"kind": "card", "id": "b14c5", "source": "ch. 11, The Two-Minute Drill", "text": {
+      "en": "Before buying, give a two-minute monologue on the story: why you want it, what has to happen for it to succeed and what could go wrong. Never invest in an idea you cannot illustrate with a crayon.",
+      "fa": "پیش از خرید، دو دقیقه داستان سهم را برای خودت بگو: چرا می‌خواهی‌اش، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود. هرگز روی ایده‌ای سرمایه‌گذاری نکن که نتوانی با مدادشمعی نقاشی‌اش کنی."
+    }},
+    {"kind": "card", "id": "b14c6", "source": "ch. 9, Stocks I'd Avoid; ch. 17, The Best Time to Buy and Sell", "text": {
+      "en": "Avoid the hottest stock in the hottest industry and companies that diworseify into businesses they do not understand. Selling your winners and keeping your losers is cutting the flowers and watering the weeds.",
+      "fa": "از داغ‌ترین سهم در داغ‌ترین صنعت و از شرکت‌هایی که با diworseification وارد کسب‌وکارهایی می‌شوند که نمی‌فهمند دوری کن. فروختن برنده‌ها و نگه داشتن بازنده‌ها یعنی چیدن گل‌ها و آب دادن به علف‌های هرز."
+    }},
+    {"kind": "check", "id": "b14k4", "type": "tap", "source": "b14c6",
+      "prompt": {"en": "What does Lynch call selling your winners and keeping your losers?", "fa": "Lynch فروختن برنده‌ها و نگه داشتن بازنده‌ها را چه می‌نامد؟"},
+      "options": [
+        {"en": "Cutting the flowers and watering the weeds", "fa": "چیدن گل‌ها و آب دادن به علف‌های هرز"},
+        {"en": "Diworseification", "fa": "diworseification"},
+        {"en": "Buying the hottest stock in the hottest industry", "fa": "خریدن داغ‌ترین سهم در داغ‌ترین صنعت"}
+      ],
+      "answer": 0}
+  ]
+}

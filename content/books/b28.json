@@ -1,0 +1,114 @@
+{
+  "id": "b28",
+  "title": "So Good They Can't Ignore You",
+  "author": {"en": "Cal Newport", "fa": "Cal Newport"},
+  "year": 2012,
+  "stage": 6,
+  "must": false,
+  "why": {"en": "Rare skill beats passion", "fa": "مهارت کمیاب > اشتیاق"},
+  "badge": {"en": "Career Capital", "fa": "سرمایهٔ شغلی"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b28c1",
+      "source": "Book structure: the four rules",
+      "text": {
+        "en": "Newport's four rules: 1 Don't Follow Your Passion, 2 Be So Good They Can't Ignore You, 3 Turn Down a Promotion, 4 Think Small, Act Big. Skill, control and mission matter more than pre-existing passion.",
+        "fa": "چهار قانون Newport: ۱ دنبال اشتیاقت نرو (Don't Follow Your Passion)، ۲ آن‌قدر خوب شو که نتوانند نادیده‌ات بگیرند، ۳ ترفیع را رد کن (Turn Down a Promotion)، ۴ کوچک فکر کن، بزرگ عمل کن. مهارت، کنترل و مأموریت مهم‌تر از اشتیاقِ از پیش موجودند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28k1",
+      "type": "order",
+      "source": "b28c1",
+      "prompt": {"en": "Put Newport's four rules in order", "fa": "چهار قانون Newport را به ترتیب بچین"},
+      "options": [
+        {"en": "Turn Down a Promotion", "fa": "ترفیع را رد کن"},
+        {"en": "Don't Follow Your Passion", "fa": "دنبال اشتیاقت نرو"},
+        {"en": "Think Small, Act Big", "fa": "کوچک فکر کن، بزرگ عمل کن"},
+        {"en": "Be So Good They Can't Ignore You", "fa": "آن‌قدر خوب شو که نتوانند نادیده‌ات بگیرند"}
+      ],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "kind": "card",
+      "id": "b28c2",
+      "source": "Rule 1, Don't Follow Your Passion",
+      "text": {
+        "en": "Rule 1: the passion hypothesis, find your passion then match a job to it, is bad advice. Pre-existing passions are rare, and passion mostly grows after mastery, autonomy and competence.",
+        "fa": "قانون ۱: فرضیهٔ اشتیاق، یعنی اول اشتیاقت را پیدا کن بعد شغلی مطابقش بیاب، توصیهٔ بدی است. اشتیاق از پیش موجود کمیاب است و اشتیاق بیشتر بعد از تسلط، خودمختاری و شایستگی رشد می‌کند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28k2",
+      "type": "tf",
+      "source": "b28c2",
+      "prompt": {"en": "Newport says most people have a pre-existing passion they should match a job to.", "fa": "Newport می‌گوید بیشتر مردم اشتیاقی از پیش موجود دارند که باید شغلی مطابق آن پیدا کنند."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b28c3",
+      "source": "Rule 2, Be So Good They Can't Ignore You (craftsman mindset, career capital)",
+      "text": {
+        "en": "Rule 2: adopt the craftsman mindset, asking what you can offer the world, not what it offers you. Build career capital: rare and valuable skills, earned through deliberate practice.",
+        "fa": "قانون ۲: ذهنیت صنعتگر (craftsman mindset) را بپذیر، بپرس چه چیزی می‌توانی به دنیا بدهی، نه دنیا چه به تو می‌دهد. سرمایهٔ شغلی (career capital) بساز: مهارت‌های کمیاب و ارزشمند که با تمرین عامدانه به دست می‌آیند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28k3",
+      "type": "tap",
+      "source": "b28c3",
+      "prompt": {"en": "What is career capital?", "fa": "سرمایهٔ شغلی چیست؟"},
+      "options": [
+        {"en": "Rare and valuable skills earned through deliberate practice", "fa": "مهارت‌های کمیاب و ارزشمند که با تمرین عامدانه به دست می‌آیند"},
+        {"en": "A passion you discovered early in life", "fa": "اشتیاقی که در جوانی کشف کرده‌ای"},
+        {"en": "Savings that let you quit your job", "fa": "پس‌اندازی که اجازه می‌دهد شغلت را رها کنی"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b28c4",
+      "source": "Rule 2 to Rule 3 (trading capital; the first control trap)",
+      "text": {
+        "en": "You trade career capital for the traits that define great work: creativity, impact and control. Without capital, a bid for control is not sustainable (the first control trap).",
+        "fa": "سرمایهٔ شغلی را با ویژگی‌هایی که کار عالی را می‌سازند معاوضه می‌کنی: خلاقیت، اثرگذاری و کنترل. بدون سرمایه، تلاش برای کنترل پایدار نیست (تلهٔ اول کنترل)."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b28c5",
+      "source": "Rule 3, Turn Down a Promotion (second control trap, law of financial viability)",
+      "text": {
+        "en": "The second control trap: once you have enough capital to win control, your employer will resist. The law of financial viability: pursue more control only if people will pay for it.",
+        "fa": "تلهٔ دوم کنترل: وقتی آن‌قدر سرمایه داری که کنترل را به دست بیاوری، کارفرمایت مقاومت می‌کند. قانون پایداری مالی: فقط وقتی دنبال کنترل بیشتر برو که مردم حاضر باشند برایش پول بدهند."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b28c6",
+      "source": "Rule 4, Think Small, Act Big (adjacent possible, little bets, remarkability)",
+      "text": {
+        "en": "Rule 4: a mission also needs career capital first, found in the adjacent possible at the cutting edge of your field. Explore it with little bets and make the result remarkable.",
+        "fa": "قانون ۴: مأموریت هم اول به سرمایهٔ شغلی نیاز دارد و در «مجاورِ ممکن» (adjacent possible)، در لبهٔ پیشروی رشته‌ات پیدا می‌شود. آن را با شرط‌های کوچک (little bets) بکاو و نتیجه را چشمگیر کن."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b28k4",
+      "type": "tap",
+      "source": "b28c6",
+      "prompt": {"en": "Where does Newport say a mission is found?", "fa": "Newport می‌گوید مأموریت کجا پیدا می‌شود؟"},
+      "options": [
+        {"en": "In the adjacent possible at the cutting edge of your field", "fa": "در «مجاورِ ممکن»، در لبهٔ پیشروی رشته‌ات"},
+        {"en": "In a childhood dream you never gave up", "fa": "در رؤیای کودکی که هرگز رهایش نکردی"},
+        {"en": "In a field far from your current skills", "fa": "در رشته‌ای دور از مهارت‌های فعلی‌ات"}
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "b19",
+  "title": "Zero to One",
+  "author": {"en": "Peter Thiel with Blake Masters", "fa": "Peter Thiel با Blake Masters"},
+  "year": 2014,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "How to build something with no competitor", "fa": "چطور چیزی بسازی که رقیب ندارد"},
+  "badge": {"en": "Competition Is for Losers", "fa": "رقابت برای بازنده‌هاست"},
+  "items": [
+    {"kind": "card", "id": "b19c1", "source": "Chapter 1, The Challenge of the Future", "text": {
+      "en": "Chapter 1, The Challenge of the Future: going from 0 to 1 means creating something new, vertical progress. Going from 1 to n copies what already works, horizontal progress like globalization.",
+      "fa": "فصل ۱، The Challenge of the Future: رفتن از ۰ به ۱ یعنی ساختن چیزی نو، پیشرفت عمودی. رفتن از ۱ به n یعنی کپی کردن چیزی که از قبل کار می‌کند، پیشرفت افقی مثل جهانی‌سازی."
+    }},
+    {"kind": "card", "id": "b19c2", "source": "Preface and Chapter 1: the contrarian question", "text": {
+      "en": "The contrarian question: what important truth do very few people agree with you on? Its business version is: what valuable company is nobody building?",
+      "fa": "سؤال خلاف‌جریان: کدام حقیقت مهم است که آدم‌های بسیار کمی با تو در آن هم‌نظرند؟ نسخهٔ کسب‌وکاری‌اش این است: کدام شرکت ارزشمند را هیچ‌کس نمی‌سازد؟"
+    }},
+    {"kind": "check", "id": "b19k1", "type": "tap", "source": "b19c1",
+      "prompt": {"en": "In Zero to One, what does going from 0 to 1 mean?", "fa": "در Zero to One، رفتن از ۰ به ۱ یعنی چه؟"},
+      "options": [
+        {"en": "Creating something new, vertical progress", "fa": "ساختن چیزی نو، پیشرفت عمودی"},
+        {"en": "Copying what works into new markets", "fa": "کپی کردن چیزی که کار می‌کند در بازارهای جدید"},
+        {"en": "Growing by buying competitors", "fa": "رشد از راه خرید رقبا"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b19c3", "source": "Chapter 3, All Happy Companies Are Different", "text": {
+      "en": "Chapter 3, All Happy Companies Are Different: competition drives profits to zero. Every happy company earns a monopoly by solving a unique problem; failed firms all failed to escape competition.",
+      "fa": "فصل ۳، All Happy Companies Are Different: رقابت سود را به صفر می‌رساند. هر شرکت خوشبخت با حل یک مسئلهٔ یکتا به انحصار می‌رسد؛ شرکت‌های شکست‌خورده همه در فرار از رقابت ناکام ماندند."
+    }},
+    {"kind": "check", "id": "b19k2", "type": "tf", "source": "b19c3",
+      "prompt": {"en": "Thiel argues competition is the surest path to high profits.", "fa": "Thiel استدلال می‌کند رقابت مطمئن‌ترین راه رسیدن به سود بالاست."},
+      "answer": false},
+    {"kind": "card", "id": "b19c4", "source": "Chapter 5, Last Mover Advantage", "text": {
+      "en": "Chapter 5, Last Mover Advantage: a monopoly has proprietary technology at least 10x better than the nearest substitute, network effects, economies of scale and branding. Start small and monopolize, then scale.",
+      "fa": "فصل ۵، Last Mover Advantage: یک انحصار فناوری اختصاصی دست‌کم ۱۰ برابر بهتر از نزدیک‌ترین جایگزین، اثر شبکه‌ای، صرفهٔ مقیاس و برند دارد. کوچک شروع کن و انحصار بگیر، بعد مقیاس بده."
+    }},
+    {"kind": "check", "id": "b19k3", "type": "tap", "source": "b19c4",
+      "prompt": {"en": "How much better should proprietary technology be than its nearest substitute, per Thiel?", "fa": "به گفتهٔ Thiel، فناوری اختصاصی باید چقدر از نزدیک‌ترین جایگزین بهتر باشد؟"},
+      "options": [
+        {"en": "At least 10x better", "fa": "دست‌کم ۱۰ برابر بهتر"},
+        {"en": "About 2x better", "fa": "حدود ۲ برابر بهتر"},
+        {"en": "Equal, but cheaper", "fa": "برابر، اما ارزان‌تر"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b19c5", "source": "Chapter 7, Follow the Money", "text": {
+      "en": "Chapter 7, Follow the Money: venture returns follow a power law. The best single investment in a fund outperforms all the others combined, so only invest in companies that could return the whole fund.",
+      "fa": "فصل ۷، Follow the Money: بازده سرمایه‌گذاری خطرپذیر از قانون توان پیروی می‌کند. بهترین سرمایه‌گذاری یک صندوق از مجموع بقیه بیشتر برمی‌گرداند، پس فقط در شرکت‌هایی سرمایه‌گذاری کن که بتوانند کل صندوق را برگردانند."
+    }},
+    {"kind": "card", "id": "b19c6", "source": "Chapter 11, If You Build It, Will They Come?", "text": {
+      "en": "Chapter 11, If You Build It, Will They Come?: no. Superior distribution alone can create a monopoly even without product differentiation, and poor distribution, not a bad product, is the top cause of failure.",
+      "fa": "فصل ۱۱، If You Build It, Will They Come?: نه. توزیع برتر به‌تنهایی می‌تواند حتی بدون تمایز محصول انحصار بسازد، و توزیع ضعیف، نه محصول بد، مهم‌ترین علت شکست است."
+    }},
+    {"kind": "check", "id": "b19k4", "type": "tf", "source": "b19c5",
+      "prompt": {"en": "Thiel says to invest only in companies that could return the whole fund.", "fa": "Thiel می‌گوید فقط در شرکت‌هایی سرمایه‌گذاری کن که بتوانند کل صندوق را برگردانند."},
+      "answer": true}
+  ]
+}

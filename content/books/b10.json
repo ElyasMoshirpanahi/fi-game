@@ -1,0 +1,58 @@
+{
+  "id": "b10",
+  "title": "Financial Intelligence",
+  "author": {"en": "Karen Berman and Joe Knight with John Case", "fa": "Karen Berman and Joe Knight with John Case"},
+  "year": 2006,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "Financial statements for the non-financial manager; essential for a CTO", "fa": "صورت‌های مالی برای مدیر غیرمالی؛ برای CTO ضروری"},
+  "badge": {"en": "Profit Is Not Cash", "fa": "سود، نقد نیست"},
+  "items": [
+    {"kind": "card", "id": "b10c1", "source": "Part 1, The Art of Finance (and Why It Matters)", "text": {
+      "en": "Finance is as much art as science: every statement rests on estimates, assumptions and judgment calls. Financial intelligence means knowing where those judgments hide and asking about them.",
+      "fa": "مالی به همان اندازه که علم است، هنر هم هست: هر صورت مالی بر برآوردها، فرض‌ها و قضاوت‌ها استوار است. هوش مالی یعنی بدانی این قضاوت‌ها کجا پنهان‌اند و درباره‌شان بپرسی."
+    }},
+    {"kind": "card", "id": "b10c2", "source": "Part 2, The (Many) Peculiarities of the Income Statement", "text": {
+      "en": "The income statement shows revenue, costs and profit for a period, but profit is an estimate. Revenue is recorded when it is earned, not when the cash arrives, and depreciation spreads a purchase over years.",
+      "fa": "صورت سود و زیان درآمد، هزینه‌ها و سود یک دوره را نشان می‌دهد، اما سود یک برآورد است. درآمد وقتی ثبت می‌شود که کسب شده، نه وقتی پولش رسیده، و استهلاک یک خرید را روی چند سال پخش می‌کند."
+    }},
+    {"kind": "check", "id": "b10k1", "type": "tf", "source": "b10c2",
+      "prompt": {"en": "On an income statement, revenue is recorded only when the cash actually arrives.", "fa": "در صورت سود و زیان، درآمد فقط وقتی ثبت می‌شود که پولش واقعاً رسیده باشد."},
+      "answer": false},
+    {"kind": "card", "id": "b10c3", "source": "Part 3, The Balance Sheet Reveals the Most", "text": {
+      "en": "The balance sheet is a snapshot of what the company owns and owes on one day. Assets always equal liabilities plus owners' equity, and the authors say this statement reveals the most.",
+      "fa": "ترازنامه عکسی لحظه‌ای است از آنچه شرکت در یک روز دارد و بدهکار است. دارایی‌ها همیشه برابرند با بدهی‌ها به‌علاوهٔ حقوق صاحبان سهام، و نویسندگان می‌گویند این صورت بیش از همه حرف دارد."
+    }},
+    {"kind": "check", "id": "b10k2", "type": "tap", "source": "b10c3",
+      "prompt": {"en": "What does the balance sheet always balance?", "fa": "ترازنامه همیشه چه چیزی را برابر نگه می‌دارد؟"},
+      "options": [
+        {"en": "Assets equal liabilities plus owners' equity", "fa": "دارایی‌ها برابرند با بدهی‌ها به‌علاوهٔ حقوق صاحبان سهام"},
+        {"en": "Revenue equals costs plus profit", "fa": "درآمد برابر است با هزینه‌ها به‌علاوهٔ سود"},
+        {"en": "Cash in equals cash out plus dividends", "fa": "نقد ورودی برابر است با نقد خروجی به‌علاوهٔ سود تقسیمی"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b10c4", "source": "Part 4, Cash Is King", "text": {
+      "en": "Profit is not cash. A profitable company can run out of cash while it waits for customers to pay, so the cash flow statement is the hardest one to dress up and the one to trust.",
+      "fa": "سود، نقد نیست. یک شرکت سودده می‌تواند در حالی که منتظر پرداخت مشتریان است بی‌پول شود؛ برای همین صورت جریان نقدی سخت‌ترین صورت برای آرایش کردن و قابل‌اعتمادترین است."
+    }},
+    {"kind": "check", "id": "b10k3", "type": "tap", "source": "b10c4",
+      "prompt": {"en": "Why can a profitable company still run out of cash?", "fa": "چرا یک شرکت سودده هم می‌تواند بی‌پول شود؟"},
+      "options": [
+        {"en": "It waits for customers to pay", "fa": "منتظر پرداخت مشتریان می‌ماند"},
+        {"en": "Depreciation takes cash out of the bank", "fa": "استهلاک پول را از بانک بیرون می‌کشد"},
+        {"en": "Profit is always smaller than cash", "fa": "سود همیشه کمتر از نقد است"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b10c5", "source": "Part 5, Ratios: Learning What the Numbers Are Really Telling You", "text": {
+      "en": "Ratios turn raw numbers into meaning: profitability (gross and net margin), leverage (debt to equity), liquidity (current ratio) and efficiency (days sales outstanding). Compare them over time and against peers.",
+      "fa": "نسبت‌ها اعداد خام را معنادار می‌کنند: سودآوری (حاشیهٔ ناخالص و خالص)، اهرم (بدهی به حقوق صاحبان سهام)، نقدشوندگی (نسبت جاری) و کارایی (روزهای وصول مطالبات). آن‌ها را در طول زمان و با رقبا مقایسه کن."
+    }},
+    {"kind": "card", "id": "b10c6", "source": "Part 7, Applied Financial Intelligence: Working Capital Management", "text": {
+      "en": "Working capital is where managers move the numbers: collect receivables faster, hold less inventory and pay suppliers on time, not early, and the company frees cash without selling anything.",
+      "fa": "سرمایه در گردش جایی است که مدیران اعداد را جابه‌جا می‌کنند: مطالبات را زودتر وصول کن، موجودی کمتری نگه دار و به تأمین‌کنندگان سر موعد، نه زودتر، پرداخت کن؛ شرکت بدون فروختن چیزی نقد آزاد می‌کند."
+    }},
+    {"kind": "check", "id": "b10k4", "type": "tf", "source": "b10c6",
+      "prompt": {"en": "The authors recommend paying suppliers as early as possible to free up cash.", "fa": "نویسندگان توصیه می‌کنند برای آزاد کردن نقد، هرچه زودتر به تأمین‌کنندگان پرداخت کنی."},
+      "answer": false}
+  ]
+}

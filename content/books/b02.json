@@ -1,0 +1,58 @@
+{
+  "id": "b02",
+  "title": "The Simple Path to Wealth",
+  "author": {"en": "JL Collins", "fa": "JL Collins"},
+  "year": 2016,
+  "stage": 1,
+  "must": true,
+  "why": {"en": "The whole index strategy in one simple book", "fa": "کل استراتژی شاخصی در یک کتاب ساده"},
+  "badge": {"en": "F-You Money", "fa": "پول F-You"},
+  "items": [
+    {"kind": "card", "id": "b02c1", "source": "Introduction, The Simple Path", "text": {
+      "en": "The whole path fits in one line: spend less than you earn, invest the surplus, avoid debt. Complex investments exist mainly to profit those who sell them.",
+      "fa": "کل مسیر در یک جمله جا می‌شود: کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن، از بدهی دوری کن. سرمایه‌گذاری‌های پیچیده بیشتر برای سود فروشندگانشان وجود دارند."
+    }},
+    {"kind": "card", "id": "b02c2", "source": "ch. Why you need F-You Money", "text": {
+      "en": "F-You Money is enough savings to walk away from a bad job or a bad boss. For Collins it matters long before full financial independence.",
+      "fa": "F-You Money یعنی پس‌اندازی که بگذارد از یک شغل بد یا رئیس بد دور شوی. برای Collins این پول خیلی پیش از استقلال مالی کامل اهمیت دارد."
+    }},
+    {"kind": "check", "id": "b02k1", "type": "tap", "source": "b02c1",
+      "prompt": {"en": "Collins' simple path: spend less than you earn, invest the surplus, and...?", "fa": "مسیر سادهٔ Collins: کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن و...؟"},
+      "options": [
+        {"en": "Avoid debt", "fa": "از بدهی دوری کن"},
+        {"en": "Buy a bigger house", "fa": "خانهٔ بزرگ‌تری بخر"},
+        {"en": "Pick winning stocks", "fa": "سهم‌های برنده را انتخاب کن"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b02c3", "source": "ch. The market always goes up", "text": {
+      "en": "Over the long run the market always goes up, through every crash. Collins' rule: nobody can time the market, so never sell in a panic.",
+      "fa": "در بلندمدت بازار همیشه بالا می‌رود، از دل هر سقوطی. قاعدهٔ Collins: هیچ‌کس نمی‌تواند بازار را زمان‌بندی کند، پس هرگز با وحشت نفروش."
+    }},
+    {"kind": "check", "id": "b02k2", "type": "tf", "source": "b02c3",
+      "prompt": {"en": "Collins recommends selling when the market falls, to buy back cheaper.", "fa": "Collins توصیه می‌کند وقتی بازار می‌ریزد بفروشی تا ارزان‌تر بخری."},
+      "answer": false},
+    {"kind": "card", "id": "b02c4", "source": "ch. Keep it simple: considerations and tools", "text": {
+      "en": "His whole portfolio fits in one fund: VTSAX, Vanguard's total stock market index fund. One low-cost fund owning nearly every listed US company beats picking stocks or managers.",
+      "fa": "کل سبد او در یک صندوق جا می‌شود: VTSAX، صندوق شاخصی کل بازار سهام Vanguard. یک صندوق کم‌هزینه که تقریباً همهٔ شرکت‌های بورسی آمریکا را دارد، از انتخاب سهم یا مدیر بهتر است."
+    }},
+    {"kind": "card", "id": "b02c5", "source": "ch. Portfolio ideas to build and keep your wealth", "text": {
+      "en": "Collins splits life into two stages. In wealth accumulation hold 100% stocks; in wealth preservation add a bond fund (VBTLX) to smooth the ride.",
+      "fa": "Collins زندگی را به دو مرحله تقسیم می‌کند. در مرحلهٔ انباشت ثروت ۱۰۰٪ سهام نگه دار؛ در مرحلهٔ حفظ ثروت یک صندوق اوراق (VBTLX) اضافه کن تا مسیر هموارتر شود."
+    }},
+    {"kind": "check", "id": "b02k3", "type": "tap", "source": "b02c4",
+      "prompt": {"en": "Which single fund does Collins hold?", "fa": "Collins کدام صندوق را نگه می‌دارد؟"},
+      "options": [
+        {"en": "VTSAX, a total stock market index fund", "fa": "VTSAX، صندوق شاخصی کل بازار سهام"},
+        {"en": "A gold ETF", "fa": "یک ETF طلا"},
+        {"en": "An actively managed growth fund", "fa": "یک صندوق رشد با مدیریت فعال"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b02c6", "source": "ch. Debt: the unacceptable burden", "text": {
+      "en": "Debt is not normal; it is an unacceptable burden. Pay off any loan above roughly 5% interest before investing; below 3%, investing may win.",
+      "fa": "بدهی عادی نیست؛ باری تحمل‌ناپذیر است. هر وامی با بهرهٔ بالای حدود ۵٪ را پیش از سرمایه‌گذاری تسویه کن؛ زیر ۳٪، شاید سرمایه‌گذاری بهتر باشد."
+    }},
+    {"kind": "check", "id": "b02k4", "type": "tf", "source": "b02c6",
+      "prompt": {"en": "Collins says to pay off loans above roughly 5% interest before investing.", "fa": "Collins می‌گوید وام‌های با بهرهٔ بالای حدود ۵٪ را پیش از سرمایه‌گذاری تسویه کن."},
+      "answer": true}
+  ]
+}

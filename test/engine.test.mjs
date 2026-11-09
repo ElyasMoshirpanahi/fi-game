@@ -24,7 +24,7 @@ function walkToFare(s, stationId, { miss = {} } = {}) {
   while (s.phase !== 'fare' && guard-- > 0) {
     if (s.phase === 'card') s = R(s, knew);
     else if (s.phase === 'check') s = R(s, miss[s.current] ? wrong(stationId, s.current) : right(stationId, s.current));
-    else if (s.phase === 'correct' || s.phase === 'revealed') s = R(s, cont);
+    else if (s.phase === 'correct' || s.phase === 'revealed' || s.phase === 'widget') s = R(s, cont);
     else throw new Error(`unexpected phase ${s.phase}`);
   }
   if (guard <= 0) throw new Error('walkToFare did not reach the Fare');

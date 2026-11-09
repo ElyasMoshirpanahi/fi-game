@@ -1,0 +1,108 @@
+{
+  "id": "b25",
+  "title": "Antifragile",
+  "author": {"en": "Nassim Nicholas Taleb", "fa": "Nassim Nicholas Taleb"},
+  "year": 2012,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "How to gain from volatility instead of losing", "fa": "چطور از نوسان سود ببری نه ضرر"},
+  "badge": {"en": "Gain From Disorder", "fa": "سود از بی‌نظمی"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b25c1",
+      "source": "Prologue; Book I, Ch. 1, Between Damocles and Hydra",
+      "text": {
+        "en": "Taleb's triad: the fragile breaks under shocks, the robust shrugs them off, and the antifragile gets stronger from them. Antifragility is beyond resilience: it gains from disorder.",
+        "fa": "سه‌گانهٔ Taleb: شکننده زیر ضربه می‌شکند، استوار (robust) آن را تاب می‌آورد، و ضدشکننده از آن قوی‌تر می‌شود. ضدشکنندگی فراتر از تاب‌آوری است: از بی‌نظمی سود می‌برد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25k1",
+      "type": "tap",
+      "source": "b25c1",
+      "prompt": {"en": "In Taleb's triad, what does the antifragile do under shocks?", "fa": "در سه‌گانهٔ Taleb، ضدشکننده زیر ضربه چه می‌کند؟"},
+      "options": [
+        {"en": "Gets stronger from them", "fa": "از آن‌ها قوی‌تر می‌شود"},
+        {"en": "Stays exactly the same", "fa": "دقیقاً همان‌طور می‌ماند"},
+        {"en": "Breaks, but slowly", "fa": "می‌شکند، اما آهسته"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b25c2",
+      "source": "Book I, Ch. 2, Overcompensation and Overreaction Everywhere",
+      "text": {
+        "en": "Small doses of stress followed by recovery make living systems overcompensate and grow stronger (hormesis). Remove every stressor and you weaken what you protect.",
+        "fa": "دوزهای کوچک استرس همراه با زمان بهبودی، سیستم‌های زنده را به جبرانِ بیش‌ازحد وامی‌دارد و قوی‌تر می‌کند (hormesis). همهٔ استرس‌ها را حذف کنی، همان چیزی را که محافظت می‌کنی ضعیف کرده‌ای."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b25c3",
+      "source": "Book IV, Ch. 11, Never Marry the Rock Star (the barbell)",
+      "text": {
+        "en": "The barbell strategy: be extremely safe with most of your capital, say 90 percent, and extremely speculative with the rest, with nothing in the middle. You cap the downside and keep the upside.",
+        "fa": "استراتژی هالتر (barbell): با بیشتر سرمایه‌ات، مثلاً ۹۰ درصد، به‌شدت محافظه‌کار باش و با باقی آن به‌شدت سفته‌بازانه، و هیچ‌چیز در میانه. زیان را سقف می‌زنی و سود را باز نگه می‌داری."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25k2",
+      "type": "tf",
+      "source": "b25c3",
+      "prompt": {"en": "The barbell strategy puts most of your capital in medium-risk assets.", "fa": "استراتژی هالتر بیشتر سرمایه‌ات را در دارایی‌های با ریسک متوسط می‌گذارد."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b25c4",
+      "source": "Book IV, Ch. 12, Thales' Sweet Grapes (optionality)",
+      "text": {
+        "en": "Optionality means asymmetry: small, bounded losses and large open-ended gains. With it you do not need to predict; like Thales and the olive presses, you only need many cheap tries.",
+        "fa": "اختیار (optionality) یعنی عدم تقارن: زیان‌های کوچک و محدود، سودهای بزرگ و بی‌سقف. با آن نیازی به پیش‌بینی نداری؛ مثل Thales و دستگاه‌های روغن‌کشی زیتون، فقط به تلاش‌های ارزان و متعدد نیاز داری."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25k3",
+      "type": "tap",
+      "source": "b25c4",
+      "prompt": {"en": "What does optionality give you?", "fa": "اختیار (optionality) چه چیزی به تو می‌دهد؟"},
+      "options": [
+        {"en": "Small bounded losses and large open-ended gains", "fa": "زیان‌های کوچک و محدود، سودهای بزرگ و بی‌سقف"},
+        {"en": "Accurate predictions of the future", "fa": "پیش‌بینی دقیق آینده"},
+        {"en": "Steady returns with no volatility", "fa": "بازده ثابت بدون نوسان"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b25c5",
+      "source": "Book VI, Via Negativa; Ch. 20, Time and Fragility (Lindy effect)",
+      "text": {
+        "en": "Via negativa: improve by removing what harms you (debt, bad habits, noise) rather than adding fixes. The Lindy effect: a book or idea that has lasted 40 years is likely to last another 40.",
+        "fa": "Via negativa: با حذف آنچه آسیبت می‌زند (بدهی، عادت بد، نویز) بهتر شو، نه با افزودن راه‌حل. اثر Lindy: کتاب یا ایده‌ای که ۴۰ سال دوام آورده، احتمالاً ۴۰ سال دیگر هم دوام می‌آورد."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b25c6",
+      "source": "Book VII, Ch. 23, Skin in the Game; Ch. 7, Naive Intervention",
+      "text": {
+        "en": "Skin in the game: trust no advice from someone who does not share your downside. Taleb calls harm done by well-meaning intervention iatrogenics, and its fans fragilistas.",
+        "fa": "پوست در بازی (skin in the game): به توصیهٔ کسی که در زیانِ تو شریک نیست اعتماد نکن. Taleb آسیبِ مداخلهٔ خیرخواهانه را iatrogenics می‌نامد و هوادارانش را fragilista."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b25k4",
+      "type": "tf",
+      "source": "b25c6",
+      "prompt": {"en": "Taleb says to trust advice only from people who share your downside.", "fa": "Taleb می‌گوید فقط به توصیهٔ کسانی اعتماد کن که در زیانِ تو شریک‌اند."},
+      "answer": true
+    }
+  ]
+}

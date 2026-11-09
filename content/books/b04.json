@@ -1,0 +1,59 @@
+{
+  "id": "b04",
+  "title": "The Richest Man in Babylon",
+  "author": {"en": "George S. Clason", "fa": "George S. Clason"},
+  "year": 1926,
+  "stage": 1,
+  "must": false,
+  "why": {"en": "Short, classic, the principles of saving", "fa": "کوتاه، کلاسیک، اصول پس‌انداز"},
+  "badge": {"en": "Pay yourself first", "fa": "اول به خودت بپرداز"},
+  "items": [
+    {"kind": "card", "id": "b04c1", "source": "The Richest Man in Babylon; First Cure, Start thy purse to fattening", "text": {
+      "en": "Arkad's first rule: a part of all you earn is yours to keep. Pay yourself first by saving at least one-tenth of everything you earn, before any spending.",
+      "fa": "قاعدهٔ اول Arkad: بخشی از هرچه به دست می‌آوری مال خودت است که نگهش داری. اول به خودت بپرداز و دست‌کم یک‌دهم هر درآمدی را پیش از هر خرجی پس‌انداز کن."
+    }},
+    {"kind": "card", "id": "b04c2", "source": "Second Cure, Control thy expenditures", "text": {
+      "en": "What each of us calls necessary expenses will always grow to equal our income unless we protest. Budget, and spend only on what is truly necessary.",
+      "fa": "آنچه هرکدام از ما «هزینه‌های ضروری» می‌نامیم همیشه آن‌قدر رشد می‌کند که با درآمدمان برابر شود، مگر اینکه مقاومت کنیم. بودجه بنویس و فقط برای ضروریات واقعی خرج کن."
+    }},
+    {"kind": "check", "id": "b04k1", "type": "tap", "source": "b04c1",
+      "prompt": {"en": "What is Arkad's first rule?", "fa": "قاعدهٔ اول Arkad چیست؟"},
+      "options": [
+        {"en": "Keep at least one-tenth of all you earn", "fa": "دست‌کم یک‌دهم هر درآمدت را نگه دار"},
+        {"en": "Lend to friends in need", "fa": "به دوستان نیازمند قرض بده"},
+        {"en": "Spend it before prices rise", "fa": "پیش از گران شدن خرجش کن"}
+      ],
+      "answer": 0},
+    {"kind": "check", "id": "b04k2", "type": "tf", "source": "b04c2",
+      "prompt": {"en": "Clason says necessary expenses stay fixed as income rises.", "fa": "Clason می‌گوید هزینه‌های ضروری با بالا رفتن درآمد ثابت می‌مانند."},
+      "answer": false},
+    {"kind": "card", "id": "b04c3", "source": "Third and Fourth Cures, Make thy gold multiply; Guard thy treasures from loss", "text": {
+      "en": "Make thy gold multiply: put savings to work so each coin earns more coins. Then guard thy treasure from loss: invest only where the principal is safe and recoverable.",
+      "fa": "طلایت را تکثیر کن: پس‌انداز را به کار بینداز تا هر سکه سکه‌های بیشتری بیاورد. بعد گنجت را از زیان حفظ کن: فقط جایی سرمایه‌گذاری کن که اصل پول امن و قابل‌بازگشت باشد."
+    }},
+    {"kind": "card", "id": "b04c4", "source": "Fifth to Seventh Cures", "text": {
+      "en": "The last cures: make thy dwelling a profitable investment, insure a future income for old age and family, and increase thy ability to earn by learning more.",
+      "fa": "درمان‌های آخر: خانه‌ات را سرمایه‌گذاری سودآور کن، درآمد آینده را برای پیری و خانواده تضمین کن، و با یادگیری بیشتر توان درآمدزایی‌ات را افزایش بده."
+    }},
+    {"kind": "card", "id": "b04c5", "source": "The Five Laws of Gold", "text": {
+      "en": "The Five Laws of Gold begin the same way: gold comes gladly to the one who saves at least one-tenth. It flees the one who forces it into impossible earnings or follows tricksters.",
+      "fa": "پنج قانون طلا همین‌طور شروع می‌شوند: طلا با میل سراغ کسی می‌آید که دست‌کم یک‌دهم را پس‌انداز کند. و از کسی می‌گریزد که آن را به سودهای ناممکن وادارد یا دنبال شیادان برود."
+    }},
+    {"kind": "check", "id": "b04k3", "type": "tf", "source": "b04c5",
+      "prompt": {"en": "Clason says gold flees the one who forces it into impossible earnings.", "fa": "Clason می‌گوید طلا از کسی که آن را به سودهای ناممکن وادارد می‌گریزد."},
+      "answer": true},
+    {"kind": "card", "id": "b04c6", "source": "Seven Cures for a Lean Purse, overview", "text": {
+      "en": "The Seven Cures for a Lean Purse run in order: start thy purse to fattening, control thy expenditures, make thy gold multiply, guard thy treasures from loss, then dwelling, future income and ability to earn.",
+      "fa": "هفت درمان برای کیسهٔ خالی به ترتیب: کیسه‌ات را پر کردن آغاز کن، خرج‌هایت را مهار کن، طلایت را تکثیر کن، گنجت را از زیان حفظ کن، سپس خانه، درآمد آینده و توان درآمدزایی."
+    }},
+    {"kind": "check", "id": "b04k4", "type": "order", "source": "b04c6",
+      "prompt": {"en": "Put the first four cures in order", "fa": "چهار درمان اول را به ترتیب بچین"},
+      "options": [
+        {"en": "Make thy gold multiply", "fa": "طلایت را تکثیر کن"},
+        {"en": "Start thy purse to fattening", "fa": "کیسه‌ات را پر کردن آغاز کن"},
+        {"en": "Guard thy treasures from loss", "fa": "گنجت را از زیان حفظ کن"},
+        {"en": "Control thy expenditures", "fa": "خرج‌هایت را مهار کن"}
+      ],
+      "answer": [1, 3, 0, 2]}
+  ]
+}

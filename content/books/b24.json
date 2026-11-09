@@ -1,0 +1,114 @@
+{
+  "id": "b24",
+  "title": "Deep Work",
+  "author": {"en": "Cal Newport", "fa": "Cal Newport"},
+  "year": 2016,
+  "stage": 6,
+  "must": true,
+  "why": {"en": "Hours of focus are your main capital", "fa": "ساعت‌های تمرکز = سرمایه اصلی تو"},
+  "badge": {"en": "Four Deep Hours", "fa": "چهار ساعت عمیق"},
+  "items": [
+    {
+      "kind": "card",
+      "id": "b24c1",
+      "source": "Introduction, definition of deep work",
+      "text": {
+        "en": "Deep work is distraction-free concentration that pushes your cognitive abilities to their limit. It creates new value, improves your skill and is hard to replicate.",
+        "fa": "کار عمیق (deep work) تمرکزِ بدون حواس‌پرتی است که توانایی‌های شناختی‌ات را تا مرزشان پیش می‌برد. ارزش تازه می‌آفریند، مهارتت را بالا می‌برد و به‌سختی تکرارشدنی است."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24k1",
+      "type": "tap",
+      "source": "b24c1",
+      "prompt": {"en": "In Newport's definition, what is deep work?", "fa": "در تعریف Newport، کار عمیق چیست؟"},
+      "options": [
+        {"en": "Distraction-free concentration that pushes your abilities to their limit", "fa": "تمرکز بدون حواس‌پرتی که توانایی‌هایت را تا مرزشان پیش می‌برد"},
+        {"en": "Logistical tasks done while half-distracted", "fa": "کارهای لجستیکی که نیمه‌حواس‌پرت انجام می‌شوند"},
+        {"en": "Long hours of email and meetings", "fa": "ساعت‌های طولانی ایمیل و جلسه"}
+      ],
+      "answer": 0
+    },
+    {
+      "kind": "card",
+      "id": "b24c2",
+      "source": "Introduction, The Deep Work Hypothesis; Ch. 1, Deep Work Is Valuable",
+      "text": {
+        "en": "The Deep Work Hypothesis: deep work grows rarer exactly as it grows more valuable. It feeds the two core abilities of the new economy: mastering hard things fast and producing at an elite level.",
+        "fa": "فرضیهٔ کار عمیق: کار عمیق درست همان‌طور که ارزشمندتر می‌شود، کمیاب‌تر هم می‌شود. این کار دو توانایی اصلی اقتصاد جدید را می‌سازد: یادگیری سریع چیزهای سخت و تولید در سطح نخبه."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b24c3",
+      "source": "Ch. 1, Deep Work Is Valuable (attention residue)",
+      "text": {
+        "en": "High-quality work produced = time spent x intensity of focus. Every glance at email leaves attention residue that drags down the next task.",
+        "fa": "کار باکیفیتِ تولیدشده = زمان صرف‌شده × شدت تمرکز. هر نگاه به ایمیل، «پسماند توجه» (attention residue) به جا می‌گذارد که کار بعدی را پایین می‌کشد."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24k2",
+      "type": "tf",
+      "source": "b24c3",
+      "prompt": {"en": "Newport says a quick glance at email costs nothing if you switch back fast.", "fa": "Newport می‌گوید یک نگاه سریع به ایمیل، اگر زود برگردی، هزینه‌ای ندارد."},
+      "answer": false
+    },
+    {
+      "kind": "card",
+      "id": "b24c4",
+      "source": "Part 2, The Rules",
+      "text": {
+        "en": "Part 2 gives four rules: 1 Work Deeply, 2 Embrace Boredom, 3 Quit Social Media, 4 Drain the Shallows. Boredom training matters because a mind that craves distraction cannot focus.",
+        "fa": "بخش دوم چهار قانون می‌دهد: ۱ عمیق کار کن (Work Deeply)، ۲ کسالت را بپذیر (Embrace Boredom)، ۳ شبکه‌های اجتماعی را ترک کن (Quit Social Media)، ۴ کارهای سطحی را خشک کن (Drain the Shallows). تمرین کسالت مهم است، چون ذهنی که تشنهٔ حواس‌پرتی است نمی‌تواند تمرکز کند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24k3",
+      "type": "order",
+      "source": "b24c4",
+      "prompt": {"en": "Put Newport's four rules in order", "fa": "چهار قانون Newport را به ترتیب بچین"},
+      "options": [
+        {"en": "Quit Social Media", "fa": "شبکه‌های اجتماعی را ترک کن"},
+        {"en": "Work Deeply", "fa": "عمیق کار کن"},
+        {"en": "Drain the Shallows", "fa": "کارهای سطحی را خشک کن"},
+        {"en": "Embrace Boredom", "fa": "کسالت را بپذیر"}
+      ],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "kind": "card",
+      "id": "b24c5",
+      "source": "Rule 1, Work Deeply",
+      "text": {
+        "en": "Rule 1, Work Deeply: choose a philosophy (monastic, bimodal, rhythmic or journalistic), ritualize where and how long you work, and close each day with a shutdown ritual.",
+        "fa": "قانون ۱، عمیق کار کن: یک فلسفه انتخاب کن (رهبانی، دووجهی، ریتمیک یا روزنامه‌نگارانه)، جا و مدت کارت را آیینی کن و هر روز را با یک آیین خاموشی (shutdown ritual) ببند."
+      }
+    },
+    {
+      "kind": "card",
+      "id": "b24c6",
+      "source": "Rule 2, Embrace Boredom; Rule 3, Quit Social Media; Rule 4, Drain the Shallows",
+      "text": {
+        "en": "Rule 2: schedule internet use, never take breaks from focus; Rule 3: keep a tool only if its benefits clearly outweigh its costs. Rule 4: plan each minute and cap shallow work; experts manage about four deep hours daily.",
+        "fa": "قانون ۲: استفاده از اینترنت را زمان‌بندی کن، هرگز از تمرکز استراحت نگیر؛ قانون ۳: ابزاری را نگه دار فقط اگر سودش آشکارا از هزینه‌اش بیشتر باشد. قانون ۴: هر دقیقه را برنامه‌ریزی کن و کار سطحی را سقف بگذار؛ حتی خبره‌ها روزی حدود چهار ساعت کار عمیق می‌کنند."
+      }
+    },
+    {
+      "kind": "check",
+      "id": "b24k4",
+      "type": "tap",
+      "source": "b24c6",
+      "prompt": {"en": "What does Rule 2 ask you to do?", "fa": "قانون ۲ از تو چه می‌خواهد؟"},
+      "options": [
+        {"en": "Schedule internet use, never take breaks from focus", "fa": "استفاده از اینترنت را زمان‌بندی کن، هرگز از تمرکز استراحت نگیر"},
+        {"en": "Quit the internet completely", "fa": "اینترنت را کاملاً کنار بگذار"},
+        {"en": "Take a short break every twenty minutes", "fa": "هر بیست دقیقه یک استراحت کوتاه بگیر"}
+      ],
+      "answer": 0
+    }
+  ]
+}

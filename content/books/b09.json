@@ -1,0 +1,58 @@
+{
+  "id": "b09",
+  "title": "Global Asset Allocation",
+  "author": {"en": "Meb Faber", "fa": "Meb Faber"},
+  "year": 2015,
+  "stage": 2,
+  "must": false,
+  "why": {"en": "Compares the world's famous portfolios; very short", "fa": "مقایسه سبدهای معروف دنیا؛ خیلی کوتاه"},
+  "badge": {"en": "Stick With It", "fa": "پای آن بمان"},
+  "items": [
+    {"kind": "card", "id": "b09c1", "source": "Introduction, the portfolios compared", "text": {
+      "en": "Faber lines up the famous portfolios side by side, from the classic 60/40 to Harry Browne's Permanent Portfolio, Ray Dalio's All Seasons and the Ivy endowment model, and tests them on data from 1973 to 2013.",
+      "fa": "Faber سبدهای معروف را کنار هم می‌گذارد، از ۶۰/۴۰ کلاسیک تا Permanent Portfolio از Harry Browne، All Seasons از Ray Dalio و مدل موقوفه‌ای Ivy، و آن‌ها را روی داده‌های ۱۹۷۳ تا ۲۰۱۳ آزمایش می‌کند."
+    }},
+    {"kind": "card", "id": "b09c2", "source": "ch. 1, A History of Stocks, Bonds, and Bills", "text": {
+      "en": "Over long periods stocks beat bonds and bonds beat bills, but every asset has decade-long stretches of loss. Cash feels safe, yet after inflation it earns almost nothing.",
+      "fa": "در دوره‌های بلند، سهام از اوراق قرضه و اوراق قرضه از اسناد خزانه جلو می‌زند، اما هر دارایی دوره‌های زیان ده‌ساله دارد. نقد امن به نظر می‌رسد، ولی پس از تورم تقریباً هیچ نمی‌سازد."
+    }},
+    {"kind": "card", "id": "b09c3", "source": "ch. 5, The Permanent Portfolio", "text": {
+      "en": "Harry Browne's Permanent Portfolio splits money into four equal parts: stocks, long-term bonds, gold and cash, one for each economic season of prosperity, inflation, deflation and recession.",
+      "fa": "Permanent Portfolio از Harry Browne پول را به چهار بخش مساوی تقسیم می‌کند: سهام، اوراق قرضهٔ بلندمدت، طلا و نقد؛ هر کدام برای یک فصل اقتصادی: رونق، تورم، تورم منفی و رکود."
+    }},
+    {"kind": "check", "id": "b09k1", "type": "tap", "source": "b09c3",
+      "prompt": {"en": "What are the four parts of Harry Browne's Permanent Portfolio?", "fa": "چهار بخش Permanent Portfolio از Harry Browne چیست؟"},
+      "options": [
+        {"en": "Stocks, long-term bonds, gold and cash", "fa": "سهام، اوراق قرضهٔ بلندمدت، طلا و نقد"},
+        {"en": "US stocks, foreign stocks, REITs and commodities", "fa": "سهام آمریکا، سهام خارجی، REIT و کالا"},
+        {"en": "Bonds, bills, crypto and real estate", "fa": "اوراق قرضه، اسناد خزانه، رمزارز و املاک"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b09c4", "source": "ch. 11, Comparison of the Strategies", "text": {
+      "en": "The surprise: over four decades all the diversified portfolios landed within about one percentage point of annual return of each other. No allocation was a clear winner.",
+      "fa": "شگفتی اینجاست: در چهار دهه، همهٔ سبدهای متنوع از نظر بازده سالانه در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند. هیچ تخصیصی برندهٔ قاطع نبود."
+    }},
+    {"kind": "check", "id": "b09k2", "type": "tap", "source": "b09c4",
+      "prompt": {"en": "What did Faber find when he compared the famous portfolios?", "fa": "Faber وقتی سبدهای معروف را مقایسه کرد به چه نتیجه‌ای رسید؟"},
+      "options": [
+        {"en": "All landed within about one percentage point of annual return", "fa": "همه در فاصلهٔ حدود یک واحد درصد بازده سالانه از هم قرار گرفتند"},
+        {"en": "The 60/40 portfolio beat every other one by a wide margin", "fa": "سبد ۶۰/۴۰ با فاصلهٔ زیاد از همه جلو زد"},
+        {"en": "Gold-heavy portfolios doubled the return of the rest", "fa": "سبدهای پرطلا بازده بقیه را دو برابر کردند"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b09c5", "source": "ch. 12, Implementation (ETFs, Fees, and Taxes)", "text": {
+      "en": "Fees and taxes can cost more than the gap between the best and worst allocation. A good portfolio held in expensive funds can lose to a mediocre one held in cheap ETFs.",
+      "fa": "کارمزد و مالیات می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد. یک سبد خوب در صندوق‌های گران می‌تواند از یک سبد متوسط در ETFهای ارزان عقب بماند."
+    }},
+    {"kind": "check", "id": "b09k3", "type": "tf", "source": "b09c5",
+      "prompt": {"en": "Faber says fees and taxes matter less than finding exactly the right allocation.", "fa": "Faber می‌گوید کارمزد و مالیات کمتر از پیدا کردن دقیق‌ترین تخصیص اهمیت دارد."},
+      "answer": false},
+    {"kind": "card", "id": "b09c6", "source": "ch. 13, Summary", "text": {
+      "en": "Faber's rule: pick any sensible global, diversified allocation, buy it with low-cost funds and then stick with it. Switching portfolios after a bad year is what ruins results.",
+      "fa": "قاعدهٔ Faber: یک تخصیص معقول، جهانی و متنوع انتخاب کن، با صندوق‌های کم‌هزینه بخر و بعد پای آن بمان. عوض کردن سبد بعد از یک سال بد همان چیزی است که نتیجه را خراب می‌کند."
+    }},
+    {"kind": "check", "id": "b09k4", "type": "tf", "source": "b09c6",
+      "prompt": {"en": "Faber's advice is to pick a sensible diversified allocation, buy it cheaply and stick with it.", "fa": "توصیهٔ Faber این است که یک تخصیص معقول و متنوع انتخاب کنی، ارزان بخری و پای آن بمانی."},
+      "answer": true}
+  ]
+}

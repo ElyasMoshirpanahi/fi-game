@@ -1,0 +1,58 @@
+{
+  "id": "b12",
+  "title": "Berkshire Hathaway Shareholder Letters (free)",
+  "author": {"en": "Warren Buffett", "fa": "Warren Buffett"},
+  "year": 1977,
+  "stage": 3,
+  "must": true,
+  "why": {"en": "The best business lesson in the world, free", "fa": "بهترین درس کسب‌وکار دنیا، مجانی"},
+  "badge": {"en": "Circle of Competence", "fa": "دایرهٔ صلاحیت"},
+  "items": [
+    {"kind": "card", "id": "b12c1", "source": "1977 letter, acquisition criteria", "text": {
+      "en": "From the first letters Buffett lists what Berkshire buys: a business he understands, with favorable long-term prospects, run by honest and able people, at a very attractive price.",
+      "fa": "Buffett از همان نامه‌های اول می‌نویسد Berkshire چه می‌خرد: کسب‌وکاری که می‌فهمد، با چشم‌انداز بلندمدت مطلوب، با مدیران درستکار و توانا، و با قیمتی بسیار جذاب."
+    }},
+    {"kind": "card", "id": "b12c2", "source": "1986 letter, owner earnings", "text": {
+      "en": "Owner earnings, not reported profit, measure a business: reported earnings plus depreciation, minus the capital spending needed just to keep the business competitive. That is the cash an owner can really take out.",
+      "fa": "سود مالکانه، نه سود گزارش‌شده، معیار سنجش کسب‌وکار است: سود گزارش‌شده به‌علاوهٔ استهلاک، منهای مخارج سرمایه‌ای لازم فقط برای رقابتی ماندن کسب‌وکار. این همان نقدی است که مالک واقعاً می‌تواند بردارد."
+    }},
+    {"kind": "check", "id": "b12k1", "type": "tap", "source": "b12c2",
+      "prompt": {"en": "How does Buffett define owner earnings?", "fa": "Buffett سود مالکانه را چطور تعریف می‌کند؟"},
+      "options": [
+        {"en": "Reported earnings plus depreciation, minus the capital spending needed to keep the business competitive", "fa": "سود گزارش‌شده به‌علاوهٔ استهلاک، منهای مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار"},
+        {"en": "Revenue minus all taxes paid to the government", "fa": "درآمد منهای همهٔ مالیات‌های پرداختی به دولت"},
+        {"en": "Dividends paid plus share buybacks", "fa": "سود تقسیمی پرداختی به‌علاوهٔ بازخرید سهام"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b12c3", "source": "1987 letter, Mr. Market", "text": {
+      "en": "Mr. Market, borrowed from Graham, is a manic partner who quotes you a price every day; use him when his price is foolish and ignore him otherwise, because he is there to serve you, not to guide you.",
+      "fa": "Mr. Market، وام‌گرفته از Graham، شریکی دمدمی است که هر روز قیمتی به تو می‌گوید؛ وقتی قیمتش احمقانه است از او استفاده کن و در بقیهٔ مواقع نادیده‌اش بگیر، چون او برای خدمت به توست، نه راهنمایی تو."
+    }},
+    {"kind": "check", "id": "b12k2", "type": "tf", "source": "b12c3",
+      "prompt": {"en": "Buffett says Mr. Market's daily price is the best guide to what a business is worth.", "fa": "Buffett می‌گوید قیمت روزانهٔ Mr. Market بهترین راهنما برای ارزش یک کسب‌وکار است."},
+      "answer": false},
+    {"kind": "card", "id": "b12c4", "source": "1996 letter, circle of competence", "text": {
+      "en": "You do not need to be an expert on every company, only on those inside your circle of competence. The size of that circle is not very important; knowing its boundaries is vital.",
+      "fa": "لازم نیست در مورد هر شرکتی متخصص باشی، فقط شرکت‌های داخل دایرهٔ صلاحیت خودت. اندازهٔ این دایره خیلی مهم نیست؛ شناختن مرزهایش حیاتی است."
+    }},
+    {"kind": "check", "id": "b12k3", "type": "tap", "source": "b12c4",
+      "prompt": {"en": "What matters most about your circle of competence, according to Buffett?", "fa": "به گفتهٔ Buffett، دربارهٔ دایرهٔ صلاحیت چه چیزی از همه مهم‌تر است؟"},
+      "options": [
+        {"en": "Knowing its boundaries", "fa": "شناختن مرزهایش"},
+        {"en": "Making it as large as possible", "fa": "تا جای ممکن بزرگ کردنش"},
+        {"en": "Keeping it secret from competitors", "fa": "پنهان نگه داشتنش از رقبا"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b12c5", "source": "2007 letter, moats", "text": {
+      "en": "A truly great business needs an enduring moat that protects its high returns on capital, such as being the low-cost producer or owning a powerful brand. Capitalism keeps attacking any castle without one.",
+      "fa": "یک کسب‌وکار واقعاً عالی به خندقی پایدار نیاز دارد که بازده بالای سرمایه‌اش را حفظ کند، مثل تولیدکنندهٔ کم‌هزینه بودن یا داشتن برندی قدرتمند. سرمایه‌داری به هر قلعه‌ای بدون خندق مدام حمله می‌کند."
+    }},
+    {"kind": "card", "id": "b12c6", "source": "Insurance float (recurring) and the 1986 letter on greed and fear", "text": {
+      "en": "Insurance float is money Berkshire holds before claims are paid; when it costs less than borrowing, it funds the rest. Buffett's rule: be fearful when others are greedy, and greedy only when others are fearful.",
+      "fa": "شناوری بیمه پولی است که Berkshire پیش از پرداخت خسارت‌ها نگه می‌دارد؛ وقتی ارزان‌تر از وام تمام شود، بقیه را تأمین مالی می‌کند. قاعدهٔ Buffett: وقتی دیگران حریص‌اند بترس، و فقط وقتی دیگران می‌ترسند حریص باش."
+    }},
+    {"kind": "check", "id": "b12k4", "type": "tf", "source": "b12c6",
+      "prompt": {"en": "Buffett's rule is to be greedy only when others are fearful.", "fa": "قاعدهٔ Buffett این است که فقط وقتی دیگران می‌ترسند حریص باشی."},
+      "answer": true}
+  ]
+}

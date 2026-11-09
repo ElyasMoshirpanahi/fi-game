@@ -1,0 +1,63 @@
+{
+  "id": "b20",
+  "title": "The Lean Startup",
+  "author": {"en": "Eric Ries", "fa": "Eric Ries"},
+  "year": 2011,
+  "stage": 5,
+  "must": false,
+  "why": {"en": "MVP and fast learning", "fa": "MVP و یادگیری سریع"},
+  "badge": {"en": "Build-Measure-Learn", "fa": "بساز، بسنج، بیاموز"},
+  "items": [
+    {"kind": "card", "id": "b20c1", "source": "Chapter 1, Start", "text": {
+      "en": "Chapter 1, Start: a startup is a human institution designed to create a new product or service under conditions of extreme uncertainty. Its first job is to learn what customers actually want.",
+      "fa": "فصل ۱، Start: استارتاپ نهادی انسانی است که برای ساختن محصول یا خدمتی نو در شرایط عدم‌قطعیت شدید طراحی شده. اولین کارش این است که بفهمد مشتری‌ها واقعاً چه می‌خواهند."
+    }},
+    {"kind": "card", "id": "b20c2", "source": "Chapter 3, Learn", "text": {
+      "en": "Chapter 3, Learn: validated learning is progress proven by real data from real customers, not by shipping features on schedule. Work that doesn't produce such learning is waste.",
+      "fa": "فصل ۳، Learn: یادگیری اعتبارسنجی‌شده یعنی پیشرفتی که با دادهٔ واقعی از مشتری واقعی اثبات شود، نه با تحویل به‌موقع قابلیت‌ها. کاری که چنین یادگیری‌ای تولید نکند، اتلاف است."
+    }},
+    {"kind": "check", "id": "b20k1", "type": "tf", "source": "b20c2",
+      "prompt": {"en": "In The Lean Startup, shipping features on schedule counts as progress by itself.", "fa": "در The Lean Startup، تحویل به‌موقع قابلیت‌ها به‌خودی‌خود پیشرفت محسوب می‌شود."},
+      "answer": false},
+    {"kind": "card", "id": "b20c3", "source": "Part Two, Steer: the Build-Measure-Learn feedback loop", "text": {
+      "en": "Part Two, Steer: the Build-Measure-Learn feedback loop. Build turns ideas into a product, Measure watches how customers respond, Learn decides whether to pivot or persevere; minimize total time through the loop.",
+      "fa": "بخش دوم، Steer: حلقهٔ بازخورد Build-Measure-Learn. «بساز» ایده را به محصول تبدیل می‌کند، «بسنج» واکنش مشتری‌ها را می‌بیند، «بیاموز» تصمیم می‌گیرد pivot کنی یا ادامه بدهی؛ زمان کل گذر از حلقه را کمینه کن."
+    }},
+    {"kind": "check", "id": "b20k2", "type": "order", "source": "b20c3",
+      "prompt": {"en": "Put the Lean Startup loop in order", "fa": "حلقهٔ Lean Startup را مرتب کن"},
+      "options": [
+        {"en": "Measure", "fa": "بسنج"},
+        {"en": "Learn", "fa": "بیاموز"},
+        {"en": "Build", "fa": "بساز"}
+      ],
+      "answer": [2, 0, 1]},
+    {"kind": "card", "id": "b20c4", "source": "Chapter 6, Test: the minimum viable product", "text": {
+      "en": "Chapter 6, Test: a minimum viable product (MVP) is the version that starts the Build-Measure-Learn loop with the least effort. Dropbox tested demand with a demo video before building the product.",
+      "fa": "فصل ۶، Test: کمینه‌محصول پذیرفتنی (MVP) نسخه‌ای است که حلقهٔ Build-Measure-Learn را با کمترین تلاش راه می‌اندازد. Dropbox پیش از ساختن محصول، تقاضا را با یک ویدئوی دمو آزمود."
+    }},
+    {"kind": "card", "id": "b20c5", "source": "Chapter 7, Measure: innovation accounting", "text": {
+      "en": "Chapter 7, Measure: innovation accounting replaces vanity metrics like total users and page views with actionable metrics from cohort analysis and split tests. Good metrics are actionable, accessible and auditable.",
+      "fa": "فصل ۷، Measure: حسابداری نوآوری به‌جای معیارهای پوچ مثل تعداد کل کاربران و بازدید صفحه، معیارهای عمل‌پذیر از تحلیل cohort و آزمون‌های split می‌گذارد. معیار خوب عمل‌پذیر، در دسترس و قابل حسابرسی است."
+    }},
+    {"kind": "check", "id": "b20k3", "type": "tap", "source": "b20c5",
+      "prompt": {"en": "Which of these does Ries call a vanity metric?", "fa": "Ries کدام‌یک را معیار پوچ می‌نامد؟"},
+      "options": [
+        {"en": "Total users and page views", "fa": "تعداد کل کاربران و بازدید صفحه"},
+        {"en": "Cohort conversion rates", "fa": "نرخ تبدیل cohort"},
+        {"en": "Split test results", "fa": "نتایج آزمون split"}
+      ],
+      "answer": 0},
+    {"kind": "card", "id": "b20c6", "source": "Chapter 8, Pivot or Persevere; Chapter 10, Grow", "text": {
+      "en": "Chapter 8, Pivot or Persevere: a pivot is a structured course correction designed to test a new fundamental hypothesis. Chapter 10 names three engines of growth: sticky, viral and paid.",
+      "fa": "فصل ۸، Pivot or Persevere: pivot یک تغییر مسیر ساختاریافته است برای آزمودن یک فرضیهٔ بنیادی تازه. فصل ۱۰ سه موتور رشد را نام می‌برد: چسبنده، ویروسی و پولی."
+    }},
+    {"kind": "check", "id": "b20k4", "type": "tap", "source": "b20c6",
+      "prompt": {"en": "What are the three engines of growth?", "fa": "سه موتور رشد کدام‌اند؟"},
+      "options": [
+        {"en": "Sticky, viral and paid", "fa": "چسبنده، ویروسی و پولی"},
+        {"en": "Seed, Series A and IPO", "fa": "Seed، Series A و IPO"},
+        {"en": "Ads, PR and sales calls", "fa": "تبلیغات، روابط عمومی و تماس فروش"}
+      ],
+      "answer": 0}
+  ]
+}

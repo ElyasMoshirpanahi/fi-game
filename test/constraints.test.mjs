@@ -17,8 +17,8 @@ describe('ADR-0001: one self-contained index.html', () => {
     expect(requests).toEqual([]);
   });
 
-  it('stays under 200 KB', () => {
-    expect(Buffer.byteLength(html, 'utf8')).toBeLessThan(200 * 1024);
+  it('stays under 400 KB (ADR-0001 amendment, owner decision 19)', () => {
+    expect(Buffer.byteLength(html, 'utf8')).toBeLessThan(400 * 1024);
   });
 
   it('keeps the Disclaimer in both languages in the ui strings', () => {
