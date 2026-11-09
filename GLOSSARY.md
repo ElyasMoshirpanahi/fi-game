@@ -76,6 +76,10 @@ _Avoid_: lesson, chapter, book station
 A Station's interactives reachable from the Path without replaying the Station: the sliders, the habit grid, the decision journal, the Checklists, the Shelf.
 _Avoid_: widgets (the implementation word), settings
 
+**Bookmark**:
+A Card the player marked to come back to. Bookmarks are listed from the Path; opening one starts its Station at that Card. They persist with the rest of progress.
+_Avoid_: favourite, saved lesson, pin
+
 **Language Mode**:
 One of FA, EN or Both. FA shows Farsi with Persian digits in a right-to-left page. EN shows English with Latin digits in a left-to-right page. Both shows English on top and Farsi beneath in a left-to-right page. The default is EN.
 _Avoid_: locale, language setting, translation toggle

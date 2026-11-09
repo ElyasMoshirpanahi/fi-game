@@ -102,6 +102,17 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .stagechip { margin-inline-start: 10px; text-transform: none; letter-spacing: 0; font-size: 11px; padding: 2px 9px; vertical-align: middle; }
 .panel.callout { border-inline-start: 5px solid var(--accent); background: var(--accent-soft); }
 .slot[draggable] { cursor: grab; }
+.markbtn { float: inline-end; border: 1px solid var(--line); background: var(--card); width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; color: var(--muted); margin-top: -6px; }
+.markbtn svg { width: 16px; height: 16px; }
+.markbtn.on { color: var(--gold-strong); border-color: var(--gold); background: var(--gold-soft); }
+.bookmarks-btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; color: var(--text); margin-inline-end: 10px; }
+.bookmarks-btn svg { width: 14px; height: 14px; color: var(--gold-strong); }
+.bookmarks-btn b { background: var(--gold-soft); color: var(--gold-strong); border-radius: 999px; padding: 0 7px; }
+.marks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.mark { border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; background: var(--bg); }
+.mark .kicker { margin-bottom: 6px; }
+.ctext.small { font-size: 16px; font-weight: 500; margin-bottom: 10px; }
+.mark .brow { justify-content: flex-end; }
 .ctext { font-size: 20px; font-weight: 600; line-height: 1.5; margin: 0; }
 .ctext .t-fa { font-size: 20px; }
 .ctext .under { font-size: 17px; font-weight: 400; }
@@ -279,6 +290,7 @@ FI.content = (() => {
       capital: 'Capital', realReturn: 'Real return', expenses: 'Annual expenses', yearlyIncome: 'a year from capital', target25: '25x target', ofTarget: 'of target',
       habitsWeek: 'This week', journalPlaceholder: 'Decision, date, and the reason. Re-read in six months.', reviewOn: 'Re-read on', autosaved: 'Saved in this browser',
       percentDone: 'complete', milestoneTitle: 'Milestone', milestoneBody: 'First \u20ac100 of ownership income. Both checklists are complete.', milestoneDone: 'Keep going',
+      bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
       shelfInTools: 'All 28 books, filters and reading states are under Tools on the Library node.', hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
       d0: 'Mo', d1: 'Tu', d2: 'We', d3: 'Th', d4: 'Fr', d5: 'Sa', d6: 'Su',
     },
@@ -303,6 +315,7 @@ FI.content = (() => {
       capital: 'سرمایه', realReturn: 'بازده واقعی', expenses: 'هزینه سالانه', yearlyIncome: 'در سال از سرمایه', target25: 'هدف ۲۵ برابر', ofTarget: 'از هدف',
       habitsWeek: 'این هفته', journalPlaceholder: 'تصمیم، تاریخ و دلیلش. شش ماه بعد بازخوانی کن.', reviewOn: 'بازخوانی در', autosaved: 'در همین مرورگر ذخیره شد',
       percentDone: 'انجام شده', milestoneTitle: 'نقطه عطف', milestoneBody: 'اولین ۱۰۰ یورو درآمد مالکیتی. هر دو چک‌لیست کامل شد.', milestoneDone: 'ادامه بده',
+      bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
       shelfInTools: 'هر ۲۸ کتاب، فیلترها و وضعیت خواندن زیر «ابزارها» در ایستگاه کتابخانه است.', hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
       d0: 'دو', d1: 'سه', d2: 'چه', d3: 'پن', d4: 'جم', d5: 'شن', d6: 'یک',
     },
@@ -616,7 +629,7 @@ FI.engine = (() => {
   const MODES = ['EN', 'FA', 'BOTH'];
   const SHELF_STATES = ['toread', 'reading', 'read'];
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -627,7 +640,7 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false,
+    shelf: {}, milestone: false, bookmarks: [],
     events: [],
   });
 
@@ -723,6 +736,30 @@ FI.engine = (() => {
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: 0, returning: false };
         s.queue = st.items.map((i) => i.id);
         return advance(s, content);
+      }
+      case 'OPEN_AT': {
+        // Open a Station at one of its Cards (from a bookmark). The run continues from there.
+        const { stationId, cardId } = action.value || {};
+        const st = content.station(stationId);
+        const idx = st ? st.items.findIndex((i) => i.id === cardId && i.kind === 'card') : -1;
+        if (idx < 0) return s;
+        leave(s);
+        s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: idx, returning: false };
+        s.queue = st.items.slice(idx).map((i) => i.id);
+        return advance(s, content);
+      }
+      case 'OPEN_BOOKMARKS':
+        leave(s);
+        s.screen = 'bookmarks';
+        return s;
+      case 'TOGGLE_BOOKMARK': {
+        const { stationId, cardId } = action.value || {};
+        const it = content.item(stationId, cardId);
+        if (!it || it.kind !== 'card') return s;
+        const at = s.bookmarks.findIndex((b) => b.stationId === stationId && b.cardId === cardId);
+        if (at >= 0) { s.bookmarks.splice(at, 1); s.events.push('unbookmark'); }
+        else { s.bookmarks.push({ stationId, cardId }); s.events.push('bookmark'); }
+        return s;
       }
       case 'OPEN_TOOLS': {
         const st = content.station(action.value);
@@ -942,6 +979,8 @@ FI.render = (() => {
     badge: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8 14l-2 7 6-3 6 3-2-7"/></svg>',
     retry: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0114-5l2 2M20 4v5h-5"/><path d="M20 12a8 8 0 01-14 5l-2-2M4 20v-5h5"/></svg>',
     tools: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h7"/></svg>',
+    bookmark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+    bookmarkOn: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
     check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
     star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7 7 .6-5.3 4.6L18.5 22 12 18l-6.5 4 1.8-7.8L2 9.6 9 9z"/></svg>',
     book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h13a1 1 0 011 1v16a1 1 0 01-1 1H5z"/><path d="M5 3v18M9 7h6"/></svg>',
@@ -980,11 +1019,12 @@ FI.render = (() => {
       ? `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('resetConfirm', s.mode)}</span><button ${A({ type: 'UI_RESET_CANCEL' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESET' })}>${t('confirm', s.mode)}</button></div>`
       : `<button class="linkish" ${A({ type: 'UI_RESET_ASK' })}>${t('reset', s.mode)}</button>`;
     const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
+    const marks = `<button class="bookmarks-btn" ${A({ type: 'OPEN_BOOKMARKS' })}>${ICONS.bookmarkOn}<span>${t('bookmarks', s.mode)}</span><b>${num(s.bookmarks.length, s.mode)}</b></button>`;
     const cam = !ui.introDone ? ' intro' : ui.pullout ? ' pullout' : '';
     return `<main class="path${cam}">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
       <ol class="nodes">${nodes}</ol>${milestone}
-      <div class="pathfoot">${reset}</div>
+      <div class="pathfoot">${marks}${reset}</div>
     </main>`;
   }
 
@@ -1090,6 +1130,23 @@ FI.render = (() => {
     </main>${overlay}`;
   }
 
+  function bookmarksScreen(s, content) {
+    const items = s.bookmarks.map((b) => {
+      const st = content.station(b.stationId); const c = st && content.item(b.stationId, b.cardId);
+      if (!st || !c) return '';
+      return `<li class="mark">
+        <p class="kicker">${st.book ? `<span class="t-en" lang="en">${esc(st.title)}</span>` : pair(st.name, one(s.mode))}</p>
+        <p class="ctext small">${pair(c.text, s.mode)}</p>
+        <div class="brow"><button class="btn ghost small" ${A({ type: 'TOGGLE_BOOKMARK', value: b })}>${t('removeBookmark', s.mode)}</button><button class="btn primary small" ${A({ type: 'OPEN_AT', value: b })}>${ICONS.bookmarkOn}${t('openCard', s.mode)}</button></div>
+      </li>`;
+    }).join('');
+    const body = s.bookmarks.length ? `<ul class="marks">${items}</ul>` : `<p class="help">${t('noBookmarks', s.mode)}</p>`;
+    return `<main class="station tools" data-theme="teal">
+      <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('bookmarks', s.mode)} · ${num(s.bookmarks.length, s.mode)}</h2></div>
+      <section class="panel">${body}</section>
+    </main>`;
+  }
+
   // ---- Station run ---------------------------------------------------------
   function bookHeader(s, st) {
     if (!st.book) return '';
@@ -1102,8 +1159,10 @@ FI.render = (() => {
     const add = item.addition ? `<p class="addnote"><span>${t('addition', s.mode)}</span>${/^https?:/.test(item.cite || '') ? `<a href="${esc(item.cite)}" target="_blank" rel="noopener">${t('source', s.mode)}</a>` : ''}</p>` : '';
     const flip = s.mode === 'BOTH' ? '' : `<button class="btn soft wide" ${A({ type: 'FLIP' })} aria-pressed="${s.flipped}">${t('flip', s.mode)}</button>`;
     const chip = item.chip ? `<span class="chip on stagechip">${pair(item.chip, one(s.mode))}</span>` : '';
+    const marked = s.bookmarks.some((b) => b.stationId === st.id && b.cardId === item.id);
+    const mark = `<button class="markbtn ${marked ? 'on' : ''}" ${A({ type: 'TOGGLE_BOOKMARK', value: { stationId: st.id, cardId: item.id } })} aria-pressed="${marked}" aria-label="${marked ? t('bookmarked', s.mode) : t('bookmark', s.mode)}" title="${marked ? t('bookmarked', s.mode) : t('bookmark', s.mode)}">${marked ? ICONS.bookmarkOn : ICONS.bookmark}</button>`;
     return `<section class="panel card${item.callout ? ' callout' : ''}">
-      <p class="kicker">${st.book ? t('bookUnit', s.mode) : pair(st.name, one(s.mode))}${chip}</p>
+      <p class="kicker">${st.book ? t('bookUnit', s.mode) : pair(st.name, one(s.mode))}${chip}${mark}</p>
       <p class="ctext">${body}</p>${add}
       <div class="actions">${flip}
         <button class="btn" ${A({ type: 'RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button>
@@ -1207,7 +1266,7 @@ FI.render = (() => {
     const html = document.documentElement;
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
-    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : stationScreen(s, content);
+    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : stationScreen(s, content);
     root.innerHTML = topBar(s, content) + screen + disclaimer(s);
     const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase || ui.milestone;
     ui.lastCurrent = s.current; ui.lastPhase = s.phase; ui.lastScreen = s.screen;

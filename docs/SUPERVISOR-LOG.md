@@ -101,3 +101,7 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Repo https://github.com/ElyasMoshirpanahi/fi-game created public (decision 15). main set at the Step 0 commit; the build pushed as build/v1; PR #1 opened with the /pr body (summary tree, evidence, two-way door, page-only blast radius); merged with a merge commit; local main pulled. GitHub Pages enabled on main, URL https://elyasmoshirpanahi.github.io/fi-game/ (build pending at enable time; a background poll checks for HTTP 200).
 - docs/FINAL-REPORT.md written. Two owner decisions deferred into it: Milestone XP, invented book badge names.
 - Pages live: https://elyasmoshirpanahi.github.io/fi-game/ returned 200 with the FI Roadmap title. Step 10 done.
+
+## Post-ship: bookmarks (owner request, 2026-11-10, decision 21)
+- Test first (test/bookmarks.test.mjs, 7 tests red), then engine actions TOGGLE_BOOKMARK, OPEN_AT, OPEN_BOOKMARKS, bookmarks in DURABLE, a bookmark button on every Card, a Bookmarks button with count on the Path, a Bookmarks screen with Open and Remove. Glossary gains Bookmark; ADR-0008 action and event lists updated.
+- Verified in Chrome: toggle, storage under fi-roadmap-v1, reload keeps it, Open reopens the Station at that Card. Tests: 356 green.
