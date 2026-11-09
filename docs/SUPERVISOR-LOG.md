@@ -100,3 +100,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Start: 2026-11-09 about 19:40
 - Repo https://github.com/ElyasMoshirpanahi/fi-game created public (decision 15). main set at the Step 0 commit; the build pushed as build/v1; PR #1 opened with the /pr body (summary tree, evidence, two-way door, page-only blast radius); merged with a merge commit; local main pulled. GitHub Pages enabled on main, URL https://elyasmoshirpanahi.github.io/fi-game/ (build pending at enable time; a background poll checks for HTTP 200).
 - docs/FINAL-REPORT.md written. Two owner decisions deferred into it: Milestone XP, invented book badge names.
+- Pages live: https://elyasmoshirpanahi.github.io/fi-game/ returned 200 with the FI Roadmap title. Step 10 done.

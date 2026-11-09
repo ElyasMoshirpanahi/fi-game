@@ -58,7 +58,7 @@ Every change below follows an owner decision recorded at the end of `docs/resear
 ## Where it is
 
 - Repository: https://github.com/ElyasMoshirpanahi/fi-game (public, default branch `main`, PR #1 merged)
-- GitHub Pages: https://elyasmoshirpanahi.github.io/fi-game/ (enabled on `main` at the end of the session; the first build was pending when this report was written, see the supervisor log for the live check)
+- GitHub Pages: https://elyasmoshirpanahi.github.io/fi-game/ (live, verified with HTTP 200 and the page title at the end of the session)
 - Local: `C:\Users\Retrotech\Desktop\fi-game`, serve with `npm run serve`
 
 ## What a human should still check by hand
