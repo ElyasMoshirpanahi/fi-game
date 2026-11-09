@@ -276,7 +276,7 @@ FI.content = (() => {
       capital: 'Capital', realReturn: 'Real return', expenses: 'Annual expenses', yearlyIncome: 'a year from capital', target25: '25x target', ofTarget: 'of target',
       habitsWeek: 'This week', journalPlaceholder: 'Decision, date, and the reason. Re-read in six months.', reviewOn: 'Re-read on', autosaved: 'Saved in this browser',
       percentDone: 'complete', milestoneTitle: 'Milestone', milestoneBody: 'First \u20ac100 of ownership income. Both checklists are complete.', milestoneDone: 'Keep going',
-      hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
+      shelfInTools: 'All 28 books, filters and reading states are under Tools on the Library node.', hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
       d0: 'Mo', d1: 'Tu', d2: 'We', d3: 'Th', d4: 'Fr', d5: 'Sa', d6: 'Su',
     },
     fa: {
@@ -300,7 +300,7 @@ FI.content = (() => {
       capital: 'سرمایه', realReturn: 'بازده واقعی', expenses: 'هزینه سالانه', yearlyIncome: 'در سال از سرمایه', target25: 'هدف ۲۵ برابر', ofTarget: 'از هدف',
       habitsWeek: 'این هفته', journalPlaceholder: 'تصمیم، تاریخ و دلیلش. شش ماه بعد بازخوانی کن.', reviewOn: 'بازخوانی در', autosaved: 'در همین مرورگر ذخیره شد',
       percentDone: 'انجام شده', milestoneTitle: 'نقطه عطف', milestoneBody: 'اولین ۱۰۰ یورو درآمد مالکیتی. هر دو چک‌لیست کامل شد.', milestoneDone: 'ادامه بده',
-      hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
+      shelfInTools: 'هر ۲۸ کتاب، فیلترها و وضعیت خواندن زیر «ابزارها» در ایستگاه کتابخانه است.', hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
       d0: 'دو', d1: 'سه', d2: 'چه', d3: 'پن', d4: 'جم', d5: 'شن', d6: 'یک',
     },
   };
@@ -388,6 +388,9 @@ FI.content = (() => {
         { kind: 'card', id: 's2c5', source: 'section 2, stage 4',
           text: T('Stage 4, Tax and geography: tax residency, Dutch Box 3, tax treaties, broker access. No single good book; use official sources.',
                   'مرحله ۴، مالیات و جغرافیا: اقامت مالیاتی، Box 3 هلند، معاهدات مالیاتی، دسترسی به کارگزار. کتاب خوبی ندارد؛ منابع رسمی.') },
+        { kind: 'card', id: 's2c14', source: 'library stage 4 (ind.nl line corrected per roadmap-facts row 14)', cite: 'https://www.belastingdienst.nl/',
+          text: T('Stage 4 sources: belastingdienst.nl (Box 3, tax residency), ind.nl (residence permit), and one session with an expat tax advisor in the Netherlands. Worth it.',
+                  'منابع مرحله ۴: belastingdienst.nl (Box 3، اقامت مالیاتی)، ind.nl (اجازه اقامت)، و یک جلسه با مشاور مالیاتی expat در هلند. ارزشش را دارد.') },
         { kind: 'card', id: 's2c6', addition: true, cite: 'https://www.belastingdienst.nl/wps/wcm/connect/nl/box-3/', source: 'roadmap-facts rows 11 to 13',
           text: T('Box 3 in 2026: the first €59,357 is tax-free (€118,714 with a partner). Deemed returns are 1.28 percent on savings, 6.00 percent on investments, 2.70 percent on debts, taxed at 36 percent.',
                   'Box 3 در ۲۰۲۶: ۵۹٬۳۵۷ یورو اول معاف است (۱۱۸٬۷۱۴ با شریک). بازده فرضی: ۱٫۲۸٪ پس‌انداز، ۶٫۰۰٪ سرمایه‌گذاری، ۲٫۷۰٪ بدهی، با نرخ ۳۶٪.') },
@@ -476,7 +479,6 @@ FI.content = (() => {
         { kind: 'check', id: 's4k5', type: 'tf', source: 's4c5',
           prompt: T('The roadmap says bad financial decisions come from fatigue and FOMO.', 'نقشه راه می‌گوید تصمیم‌های مالی بد از خستگی و FOMO می‌آیند.'), answer: true },
         { kind: 'widget', id: 's4w1', widget: 'habits', source: 'section 4', title: T('This week’s habits', 'عادت‌های این هفته') },
-        { kind: 'widget', id: 's4w2', widget: 'journal', source: 'section 4, bullet 2', title: T('Decision journal', 'دفتر تصمیم') },
       ],
     },
     {
@@ -1037,7 +1039,7 @@ FI.render = (() => {
     if (!books.length) return `<p class="help">${t('noBooks', s.mode)}</p>`;
     return `<ul class="books">${books.map((b) => bookCard(s, content, b)).join('')}</ul>`;
   }
-  function shelfWidget(s, content) {
+  function shelfWidget(s, content, compact) {
     const stages = ['all', '1', '2', '3', '5', '6'].map((k) => `<button class="chip ${ui.stage === k ? 'on' : ''}" ${A({ type: 'UI_STAGE', value: k })} aria-pressed="${ui.stage === k}">${k === 'all' ? t('all', s.mode) : `${t('stage', s.mode)} ${num(k, s.mode)}`}</button>`).join('');
     const musts = [['all', t('all', s.mode)], ['must', '⭐ ' + t('mustRead', s.mode)], ['opt', '○ ' + t('optionalRead', s.mode)]].map(([k, l]) => `<button class="chip ${ui.must === k ? 'on' : ''}" ${A({ type: 'UI_MUST', value: k })} aria-pressed="${ui.must === k}">${l}</button>`).join('');
     const lit = content.readingOrder.filter((b) => s.lit[b]).length;
@@ -1045,8 +1047,10 @@ FI.render = (() => {
       const b = content.station(id);
       return `<li class="${s.lit[id] ? 'lit' : ''}"><span class="n">${num(i + 1, s.mode)}</span><button class="linkish" ${A({ type: 'OPEN_STATION', value: id })}><span class="t-en" lang="en">${esc(b.title)}</span></button>${s.lit[id] ? `<span class="tick">${ICONS.check}</span>` : ''}</li>`;
     }).join('');
+    const orderSection = `<section class="order"><h3>${t('readingOrder', s.mode)} · ${num(lit, s.mode)}/${num(content.readingOrder.length, s.mode)}</h3><ol class="rorder">${order}</ol><p class="help">${pair(content.item('s6', 's6c2').text, s.mode)}</p></section>`;
+    if (compact) return `<div class="widget shelf" data-widget="shelf">${orderSection}<p class="help">${t('shelfInTools', s.mode)}</p></div>`;
     return `<div class="widget shelf" data-widget="shelf">
-      <section class="order"><h3>${t('readingOrder', s.mode)} · ${num(lit, s.mode)}/${num(content.readingOrder.length, s.mode)}</h3><ol class="rorder">${order}</ol><p class="help">${pair(content.item('s6', 's6c2').text, s.mode)}</p></section>
+      ${orderSection}
       <div class="filters"><div class="chips">${stages}</div><div class="chips">${musts}</div>
         <input type="search" data-search placeholder="${t('search', s.mode)}" value="${esc(ui.search)}" aria-label="${t('search', s.mode)}"></div>
       <div class="shelfgrid">${shelfGrid(s, content)}</div>
@@ -1060,8 +1064,8 @@ FI.render = (() => {
     const overlay = ui.milestone ? `<div class="overlay${ui.dolly ? ' dolly' : ''}"><section class="panel result milestone"><div class="big">${ICONS.star}</div><h2>${t('milestoneTitle', s.mode)}</h2><p>${t('milestoneBody', s.mode)} · +${num(content.MILESTONE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_MILESTONE_CLOSE' })} data-focus>${t('milestoneDone', s.mode)}</button></section></div>` : '';
     return `<main class="station tools${ui.milestone && ui.dolly ? ' dolly-bg' : ''}" data-theme="${st.theme}">
       <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${pair(st.name, s.mode)}</h2></div>
-      ${widgets}${overlay}
-    </main>`;
+      ${widgets}
+    </main>${overlay}`;
   }
 
   // ---- Station run ---------------------------------------------------------
@@ -1085,7 +1089,7 @@ FI.render = (() => {
     </section>`;
   }
   function widgetPanel(s, content, item, st) {
-    return `<section class="panel"><p class="kicker">${pair(item.title, one(s.mode))}</p>${WIDGET_FN[item.widget](s, content)}
+    return `<section class="panel"><p class="kicker">${pair(item.title, one(s.mode))}</p>${WIDGET_FN[item.widget](s, content, true)}
       <div class="actions"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div></section>`;
   }
   function checkPanel(s, content, k, st) {
