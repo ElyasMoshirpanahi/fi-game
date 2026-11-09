@@ -35,3 +35,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - UI prototype: prototypes/ui-variations.html on branch prototype/ui-variations, three variants checked in Chrome, no console errors. Owner chose B (Brilliant lesson). ADR-0007.
 - Observed in variant C: a Latin term at the end of an RTL pull quote wrapped with its period on the wrong side. Noted for the RTL play-test.
 - Tests: none yet.
+- Step 3 owner decisions: all seven flagged groups decided (keep-and-nuance for returns, 25x and 600k to 1M; correct ind.nl; reword brokers to residence; full book attributions with years; add Box 3, 30% ruling and loss-rate cards as research-sourced). Recorded at the end of docs/research/roadmap-facts.md.
