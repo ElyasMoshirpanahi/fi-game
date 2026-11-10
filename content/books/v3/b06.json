@@ -1,0 +1,2464 @@
+{
+  "id": "b06",
+  "title": "A Random Walk Down Wall Street",
+  "author": {
+    "en": "Burton Malkiel",
+    "fa": "Burton Malkiel"
+  },
+  "year": 1973,
+  "stage": 2,
+  "must": true,
+  "why": {
+    "en": "Why the market cannot be beaten",
+    "fa": "چرا بازار را نمی‌شود شکست داد"
+  },
+  "badge": {
+    "en": "Blindfolded monkey",
+    "fa": "میمون چشم‌بسته"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b06c1",
+      "title": {
+        "en": "Value, crowds and bubbles",
+        "fa": "ارزش، جمعیت و حباب‌ها"
+      },
+      "lessons": [
+        {
+          "id": "b06c1l1",
+          "title": {
+            "en": "Firm foundations and castles in the air",
+            "fa": "بنیان محکم و قصر در هوا"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 1, the two big theories of what a share is worth. It matters because every price you see on DEGIRO or Interactive Brokers is set by one of these two ways of thinking.",
+                "fa": "این درس فصل ۱ را خلاصه می‌کند: دو نظریهٔ بزرگ دربارهٔ ارزش یک سهم. مهم است چون هر قیمتی که در DEGIRO یا Interactive Brokers می‌بینی با یکی از این دو طرز فکر ساخته می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p2",
+              "text": {
+                "en": "A random walk is one in which future steps cannot be predicted from past steps. Applied to shares, it means short-term price changes cannot be forecast from earlier prices.",
+                "fa": "گام تصادفی یعنی مسیری که قدم‌های بعدی‌اش را نمی‌شود از قدم‌های قبلی پیش‌بینی کرد. در سهام یعنی تغییرات کوتاه‌مدت قیمت را نمی‌شود از قیمت‌های گذشته پیش‌بینی کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p3",
+              "text": {
+                "en": "Malkiel's famous line: a blindfolded monkey throwing darts at the newspaper's stock pages could pick a portfolio that would do just as well as one chosen by experts.",
+                "fa": "جملهٔ معروف Malkiel: میمونی چشم‌بسته که به صفحهٔ سهام روزنامه دارت پرتاب کند، می‌تواند سبدی بچیند که به خوبیِ سبد انتخاب‌شده توسط کارشناسان عمل کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k1",
+              "type": "tap",
+              "source": "b06c1l1p2",
+              "prompt": {
+                "en": "What defines a random walk?",
+                "fa": "گام تصادفی چه تعریفی دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Future steps cannot be predicted from past steps",
+                  "fa": "قدم‌های بعدی را نمی‌شود از قدم‌های قبلی پیش‌بینی کرد"
+                },
+                {
+                  "en": "Each step repeats the one before it",
+                  "fa": "هر قدم همان قدم قبلی را تکرار می‌کند"
+                },
+                {
+                  "en": "Prices always drift upward each week",
+                  "fa": "قیمت‌ها هر هفته همیشه کمی بالا می‌روند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p4",
+              "text": {
+                "en": "Malkiel separates investing from speculating. An investor buys for reasonably predictable income or appreciation over the long term; a speculator hopes for quick gains.",
+                "fa": "Malkiel سرمایه‌گذاری را از سفته‌بازی جدا می‌کند. سرمایه‌گذار برای درآمد یا رشد ارزشی نسبتاً قابل‌پیش‌بینی در بلندمدت می‌خرد؛ سفته‌باز به سود سریع امید دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p5",
+              "text": {
+                "en": "The firm-foundation theory says every asset has an intrinsic value, found by analysing present conditions and future prospects. Buy when the price falls below it, sell when it rises above.",
+                "fa": "نظریهٔ «بنیان محکم» می‌گوید هر دارایی ارزش ذاتی دارد که با تحلیل شرایط فعلی و چشم‌انداز آینده به دست می‌آید. وقتی قیمت زیر آن رفت بخر و وقتی بالاتر رفت بفروش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k2",
+              "type": "tf",
+              "source": "b06c1l1p5",
+              "prompt": {
+                "en": "The firm-foundation theory says a share has no value beyond what the next buyer pays.",
+                "fa": "نظریهٔ بنیان محکم می‌گوید سهم ارزشی جز پولی که خریدار بعدی می‌دهد ندارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p6",
+              "text": {
+                "en": "Intrinsic value rests on discounting: a dividend paid years from now is worth less than cash today. John Burr Williams set out this method in 1938.",
+                "fa": "ارزش ذاتی بر تنزیل استوار است: سود نقدی‌ای که سال‌ها بعد پرداخت شود از پول نقد امروز کم‌ارزش‌تر است. John Burr Williams این روش را در سال ۱۹۳۸ شرح داد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p7",
+              "text": {
+                "en": "The castle-in-the-air theory looks at psychology instead. A share is worth what someone else will pay for it, so the game is guessing how the crowd will behave.",
+                "fa": "نظریهٔ «قصر در هوا» به‌جای آن به روان‌شناسی نگاه می‌کند. سهم به اندازهٔ پولی می‌ارزد که کس دیگری برایش می‌دهد، پس بازی یعنی حدس زدن رفتار جمعیت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p8",
+              "text": {
+                "en": "John Maynard Keynes championed this view. He compared investing to a newspaper beauty contest you win by picking the faces other judges will pick, not the ones you find prettiest.",
+                "fa": "John Maynard Keynes از این دیدگاه دفاع می‌کرد. او سرمایه‌گذاری را به مسابقهٔ زیبایی روزنامه تشبیه کرد که در آن برنده کسی است که چهره‌هایی را انتخاب کند که داوران دیگر انتخاب می‌کنند، نه آن‌هایی که خودش زیباتر می‌داند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k3",
+              "type": "tap",
+              "source": "b06c1l1p8",
+              "prompt": {
+                "en": "In Keynes's beauty contest, how do you win?",
+                "fa": "در مسابقهٔ زیبایی Keynes چطور برنده می‌شوی؟"
+              },
+              "options": [
+                {
+                  "en": "Pick the face you personally find prettiest",
+                  "fa": "چهره‌ای را انتخاب کن که خودت زیباتر می‌دانی"
+                },
+                {
+                  "en": "Pick the faces other judges will pick",
+                  "fa": "چهره‌هایی را انتخاب کن که داوران دیگر انتخاب می‌کنند"
+                },
+                {
+                  "en": "Pick the face that won last year",
+                  "fa": "چهره‌ای را انتخاب کن که پارسال برنده شد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p9",
+              "text": {
+                "en": "Under castle logic, paying a silly price is fine if a greater fool will pay more later. The danger is holding the share when no greater fool is left.",
+                "fa": "در منطق قصر در هوا، پرداخت قیمت احمقانه اشکالی ندارد اگر «احمق بزرگ‌تری» بعداً بیشتر بدهد. خطر این است که وقتی احمق بزرگ‌تری باقی نمانده، سهم در دست تو باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p10",
+              "text": {
+                "en": "Malkiel shows both theories at work in markets. The firm foundation pulls prices toward value over time, while castle-building crowds can push them far away for long stretches.",
+                "fa": "Malkiel نشان می‌دهد هر دو نظریه در بازار کار می‌کنند. بنیان محکم قیمت‌ها را با گذر زمان به سمت ارزش می‌کشد، اما جمعیتِ قصرساز می‌تواند مدت‌ها آن‌ها را دور نگه دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k4",
+              "type": "tf",
+              "source": "b06c1l1p7",
+              "prompt": {
+                "en": "Under the castle-in-the-air theory, a share is worth what someone else will pay for it.",
+                "fa": "در نظریهٔ قصر در هوا، سهم به اندازهٔ پولی می‌ارزد که کس دیگری برایش می‌دهد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p11",
+              "text": {
+                "en": "For you, the firm foundation is a habit: before buying anything, ask what cash it will pay you over time. If the only answer is that someone will pay more later, you are building a castle.",
+                "fa": "برای تو، بنیان محکم یک عادت است: پیش از خرید هر چیزی بپرس در طول زمان چه پولی به تو می‌دهد. اگر تنها پاسخ این است که کسی بعداً بیشتر می‌خرد، داری قصر در هوا می‌سازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p12",
+              "text": {
+                "en": "Write that question into your decision journal before every purchase. A one-line answer about future cash keeps you from paying for a story alone.",
+                "fa": "این سؤال را پیش از هر خرید در دفتر تصمیم‌هایت بنویس. یک پاسخ یک‌خطی دربارهٔ پول آینده جلوی پرداخت پول فقط برای یک داستان را می‌گیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k5",
+              "type": "tap",
+              "source": "b06c1l1p4",
+              "prompt": {
+                "en": "How does Malkiel describe an investor, as opposed to a speculator?",
+                "fa": "Malkiel سرمایه‌گذار را در برابر سفته‌باز چطور توصیف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Buys for a quick doubling within weeks",
+                  "fa": "برای دو برابر شدن سریع در چند هفته می‌خرد"
+                },
+                {
+                  "en": "Buys only what the crowd is buying",
+                  "fa": "فقط چیزی را می‌خرد که جمعیت می‌خرد"
+                },
+                {
+                  "en": "Buys for predictable income over the long term",
+                  "fa": "برای درآمد قابل‌پیش‌بینی در بلندمدت می‌خرد"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b06c1l2",
+          "title": {
+            "en": "Tulips, the South Sea and 1929",
+            "fa": "لاله‌ها، دریای جنوب و ۱۹۲۹"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 2, The Madness of Crowds: the tulip craze, the South Sea Bubble and the 1929 crash. It matters because the same crowd behaviour will appear in your own investing life.",
+                "fa": "این درس فصل ۲، «جنون جمعیت»، را خلاصه می‌کند: جنون لاله، حباب دریای جنوب و سقوط ۱۹۲۹. مهم است چون همین رفتار جمعی در زندگی سرمایه‌گذاری خودت هم پیدا می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p2",
+              "text": {
+                "en": "In 1630s Holland, tulip bulbs with striking striped petals became objects of speculation. The prized patterns came from a mosaic virus, which made rare bulbs even rarer.",
+                "fa": "در هلندِ دههٔ ۱۶۳۰، پیاز لاله‌هایی با گلبرگ‌های راه‌راهِ چشمگیر موضوع سفته‌بازی شدند. این طرح‌های گران‌بها از یک ویروس موزاییک می‌آمد که پیازهای کمیاب را کمیاب‌تر می‌کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p3",
+              "text": {
+                "en": "As prices soared, people sold land, homes and jewels to buy bulbs, often trading bulbs they never planted. Malkiel reports bulb prices rose about twentyfold in January 1637 alone.",
+                "fa": "با اوج گرفتن قیمت‌ها، مردم زمین و خانه و جواهر فروختند تا پیاز بخرند و اغلب پیازهایی را معامله می‌کردند که هرگز نکاشتند. به گفتهٔ Malkiel قیمت پیازها فقط در ژانویهٔ ۱۶۳۷ حدود بیست برابر شد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k1",
+              "type": "tf",
+              "source": "b06c1l2p3",
+              "prompt": {
+                "en": "Tulip bulb prices rose about twentyfold in January 1637 alone.",
+                "fa": "قیمت پیاز لاله فقط در ژانویهٔ ۱۶۳۷ حدود بیست برابر شد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p4",
+              "text": {
+                "en": "In February 1637 the crash came, and prices fell lower than ever before. Some bulbs ended up worth no more than a common onion.",
+                "fa": "در فوریهٔ ۱۶۳۷ سقوط آمد و قیمت‌ها از همیشه پایین‌تر رفتند. برخی پیازها در نهایت بیش از یک پیاز معمولی خوراکی نمی‌ارزیدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p5",
+              "text": {
+                "en": "In 1720 Britain, the South Sea Company, granted a monopoly on trade with South America, sold the public a dream of riches. Its shares soared though its trade barely existed.",
+                "fa": "در بریتانیای ۱۷۲۰، شرکت دریای جنوب که انحصار تجارت با آمریکای جنوبی را گرفته بود، رؤیای ثروت را به مردم فروخت. سهامش اوج گرفت با اینکه تجارتش تقریباً وجود نداشت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k2",
+              "type": "tap",
+              "source": "b06c1l2p4",
+              "prompt": {
+                "en": "What happened to tulip prices in February 1637?",
+                "fa": "در فوریهٔ ۱۶۳۷ چه بر سر قیمت لاله آمد؟"
+              },
+              "options": [
+                {
+                  "en": "The government fixed them at their peak",
+                  "fa": "دولت آن‌ها را در اوج ثابت کرد"
+                },
+                {
+                  "en": "Prices fell lower than ever before",
+                  "fa": "قیمت‌ها از همیشه پایین‌تر رفتند"
+                },
+                {
+                  "en": "Prices kept rising for a decade",
+                  "fa": "قیمت‌ها یک دهه دیگر بالا رفتند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p6",
+              "text": {
+                "en": "Copycat 'bubble companies' followed, one raising money for an undertaking of great advantage, but nobody to know what it is. Parliament passed the Bubble Act in 1720 to curb them.",
+                "fa": "«شرکت‌های حبابی» مقلد از پی آمدند؛ یکی برای «کاری بسیار سودمند که هیچ‌کس نباید بداند چیست» پول جمع کرد. پارلمان در ۱۷۲۰ «قانون حباب» را برای مهارشان تصویب کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p7",
+              "text": {
+                "en": "Isaac Newton lost about £20,000 in the South Sea Bubble. He said he could calculate the motions of heavenly bodies, but not the madness of the people.",
+                "fa": "Isaac Newton در حباب دریای جنوب حدود ۲۰٬۰۰۰ پوند از دست داد. او گفت می‌تواند حرکت اجرام آسمانی را محاسبه کند، اما جنون مردم را نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k3",
+              "type": "tf",
+              "source": "b06c1l2p7",
+              "prompt": {
+                "en": "Isaac Newton, a genius, avoided losses in the South Sea Bubble.",
+                "fa": "Isaac Newton که نابغه بود، از ضرر در حباب دریای جنوب در امان ماند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p8",
+              "text": {
+                "en": "The 1920s brought the next mania, on Wall Street. Shares were bought on margin, often with only 10 percent down, so rising prices fed more borrowing.",
+                "fa": "دههٔ ۱۹۲۰ جنون بعدی را به Wall Street آورد. سهام با خرید اعتباری (margin) خریده می‌شد، اغلب فقط با ۱۰ درصد پیش‌پرداخت، پس بالا رفتن قیمت‌ها وام بیشتری می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p9",
+              "text": {
+                "en": "Pools of traders rigged prices by trading a share among themselves to fake activity, then dumped it on the public. Radio Corporation of America was a famous pool target.",
+                "fa": "گروه‌های معامله‌گر (pool) با خرید و فروش یک سهم میان خودشان فعالیت ساختگی درست می‌کردند و بعد آن را روی دست مردم خالی می‌کردند. Radio Corporation of America هدف معروف این گروه‌ها بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p10",
+              "text": {
+                "en": "After the 1929 crash the market kept falling for years, and by 1932 it had lost most of its value. Borrowed money turned the fall into ruin for many.",
+                "fa": "پس از سقوط ۱۹۲۹ بازار سال‌ها پایین رفت و تا ۱۹۳۲ بیشتر ارزشش را از دست داده بود. پول قرضی این سقوط را برای بسیاری به ورشکستگی تبدیل کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k4",
+              "type": "tap",
+              "source": "b06c1l2p9",
+              "prompt": {
+                "en": "How did 1920s trading pools rig prices?",
+                "fa": "گروه‌های معامله‌گر دههٔ ۱۹۲۰ چطور قیمت‌ها را دستکاری می‌کردند؟"
+              },
+              "options": [
+                {
+                  "en": "They bought only shares paying high dividends",
+                  "fa": "فقط سهام با سود نقدی بالا می‌خریدند"
+                },
+                {
+                  "en": "They published honest research reports",
+                  "fa": "گزارش‌های پژوهشی صادقانه منتشر می‌کردند"
+                },
+                {
+                  "en": "Traded a share among themselves to fake activity, then dumped it on the public",
+                  "fa": "سهمی را میان خودشان معامله می‌کردند تا فعالیت ساختگی بسازند و بعد روی دست مردم خالی می‌کردند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p11",
+              "text": {
+                "en": "Malkiel draws the lesson that greed run amok has been an essential feature of every spectacular boom. Crowd psychology can lift prices far above any firm foundation.",
+                "fa": "درسی که Malkiel می‌گیرد این است که طمعِ افسارگسیخته جزء اصلی هر رونق تماشایی بوده است. روان‌شناسی جمعی می‌تواند قیمت‌ها را بسیار بالاتر از هر بنیان محکمی ببرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p12",
+              "text": {
+                "en": "You cannot know when a mania will end, but you can refuse to borrow to join one. Keeping margin off your broker account means a crash costs you paper gains, not your home.",
+                "fa": "نمی‌توانی بدانی یک جنون کی تمام می‌شود، اما می‌توانی برای پیوستن به آن قرض نگیری. وقتی حساب کارگزاری‌ات margin ندارد، سقوط فقط سودهای کاغذی را می‌برد، نه خانه‌ات را."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k5",
+              "type": "tf",
+              "source": "b06c1l2p8",
+              "prompt": {
+                "en": "In the 1920s, shares were often bought on margin with only a small cash payment.",
+                "fa": "در دههٔ ۱۹۲۰ سهام اغلب با margin و فقط با پرداخت نقدی کمی خریده می‌شد."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b06c1l3",
+          "title": {
+            "en": "Booms from the sixties to Tokyo",
+            "fa": "رونق‌ها از دههٔ شصت تا توکیو"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 3, the speculative bubbles from the 1960s to the 1990s. It matters because each one wore a new costume, and spotting the costume helps you avoid paying for the next one.",
+                "fa": "این درس فصل ۳ را خلاصه می‌کند: حباب‌های سفته‌بازی از دههٔ ۱۹۶۰ تا ۱۹۹۰. مهم است چون هر کدام لباس تازه‌ای پوشید و شناختن آن لباس کمک می‌کند هزینهٔ حباب بعدی را ندهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p2",
+              "text": {
+                "en": "In the early 1960s, new issues with names ending in 'tronics' soared, whatever the business. The tronics boom showed that a fashionable name could sell almost any stock.",
+                "fa": "در اوایل دههٔ ۱۹۶۰، عرضه‌های تازه‌ای که نامشان به «tronics» ختم می‌شد، بدون توجه به کسب‌وکارشان اوج گرفتند. رونق tronics نشان داد یک نام مُد روز تقریباً هر سهمی را می‌فروشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p3",
+              "text": {
+                "en": "In the late 1960s came the conglomerates, which bought unrelated firms to show smooth earnings growth. They claimed synergy, where two plus two equals five.",
+                "fa": "در اواخر دههٔ ۱۹۶۰ نوبت conglomerateها رسید که شرکت‌های بی‌ربط را می‌خریدند تا رشد سود یکنواختی نشان دهند. آن‌ها مدعی هم‌افزایی بودند، جایی که دو به‌علاوهٔ دو می‌شود پنج."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k1",
+              "type": "tap",
+              "source": "b06c1l3p3",
+              "prompt": {
+                "en": "What did the conglomerates claim to offer?",
+                "fa": "conglomerateها مدعی ارائهٔ چه چیزی بودند؟"
+              },
+              "options": [
+                {
+                  "en": "Synergy, where two plus two equals five",
+                  "fa": "هم‌افزایی، جایی که دو به‌علاوهٔ دو می‌شود پنج"
+                },
+                {
+                  "en": "Lower fees for their shareholders",
+                  "fa": "کارمزد کمتر برای سهام‌دارانشان"
+                },
+                {
+                  "en": "Guaranteed dividends from government bonds",
+                  "fa": "سود نقدی تضمینی از اوراق دولتی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p4",
+              "text": {
+                "en": "The trick was buying firms with lower price-earnings multiples, which lifted combined earnings per share. Once acquisitions slowed, the game ended and the shares collapsed.",
+                "fa": "ترفند این بود که شرکت‌هایی با نسبت قیمت به سود پایین‌تر بخرند تا سود هر سهمِ مجموعه بالا برود. وقتی خریدها کند شد، بازی تمام شد و سهام فرو ریخت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p5",
+              "text": {
+                "en": "In the early 1970s, institutions crowded into the Nifty Fifty, big growth firms such as Xerox, IBM and Polaroid. They were called one-decision stocks: buy them and never sell.",
+                "fa": "در اوایل دههٔ ۱۹۷۰، نهادهای مالی به Nifty Fifty هجوم بردند، شرکت‌های بزرگ رشدی مثل Xerox و IBM و Polaroid. به آن‌ها «سهام یک‌تصمیمه» می‌گفتند: بخر و هرگز نفروش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k2",
+              "type": "tf",
+              "source": "b06c1l3p5",
+              "prompt": {
+                "en": "Nifty Fifty shares were sold as one-decision stocks you buy and never sell.",
+                "fa": "سهام Nifty Fifty به‌عنوان سهام یک‌تصمیمه معرفی می‌شدند: بخر و هرگز نفروش."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p6",
+              "text": {
+                "en": "Polaroid sold at about 90 times earnings at its peak. In the 1973 to 1974 bear market, many Nifty Fifty shares lost most of their value.",
+                "fa": "Polaroid در اوجش حدود ۹۰ برابر سودش معامله می‌شد. در بازار نزولی ۱۹۷۳ تا ۱۹۷۴، بسیاری از سهام Nifty Fifty بیشتر ارزششان را از دست دادند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p7",
+              "text": {
+                "en": "The 1980s brought a new-issue craze and a biotech boom, with firms that had no revenue trading on stories of future cures. Again prices ran far ahead of any firm foundation.",
+                "fa": "دههٔ ۱۹۸۰ جنون عرضه‌های اولیه و رونق biotech را آورد؛ شرکت‌هایی بدون درآمد با داستان درمان‌های آینده معامله می‌شدند. باز قیمت‌ها بسیار جلوتر از هر بنیان محکمی دویدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p8",
+              "text": {
+                "en": "The biggest bubble of the era was in Japan. By the late 1980s, the land under the Imperial Palace in Tokyo was said to be worth as much as all the land in California.",
+                "fa": "بزرگ‌ترین حباب آن دوران در ژاپن بود. تا اواخر دههٔ ۱۹۸۰ گفته می‌شد زمین زیر کاخ امپراتوری در توکیو به اندازهٔ کل زمین‌های California می‌ارزد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k3",
+              "type": "tap",
+              "source": "b06c1l3p8",
+              "prompt": {
+                "en": "Which claim captured the Japanese land bubble?",
+                "fa": "کدام ادعا حباب زمین ژاپن را نشان می‌داد؟"
+              },
+              "options": [
+                {
+                  "en": "Tokyo office rents had fallen for ten years",
+                  "fa": "اجارهٔ دفتر در توکیو ده سال کاهش یافته بود"
+                },
+                {
+                  "en": "Land under the Imperial Palace in Tokyo was worth as much as all the land in California",
+                  "fa": "زمین زیر کاخ امپراتوری در توکیو به اندازهٔ کل زمین‌های California می‌ارزید"
+                },
+                {
+                  "en": "Japanese land was cheaper than farmland in Kansas",
+                  "fa": "زمین ژاپن از زمین کشاورزی Kansas ارزان‌تر بود"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p9",
+              "text": {
+                "en": "Japanese shares traded at more than 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
+                "fa": "سهام ژاپن بیش از ۶۰ برابر سودشان معامله می‌شدند و با دلایل محلی توجیه می‌شدند. شاخص Nikkei از اوج ۱۹۸۹ ظرف چند سال بیش از نیمی از ارزشش را از دست داد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p10",
+              "text": {
+                "en": "Malkiel's point: each boom claims the old rules of value no longer apply. They always reassert themselves in the end, and the crowd pays for forgetting them.",
+                "fa": "نکتهٔ Malkiel: هر رونق ادعا می‌کند قواعد قدیمی ارزش دیگر صدق نمی‌کنند. این قواعد در نهایت همیشه برمی‌گردند و جمعیت تاوان فراموش کردنشان را می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k4",
+              "type": "tf",
+              "source": "b06c1l3p9",
+              "prompt": {
+                "en": "After the 1989 peak, Japanese shares held their value.",
+                "fa": "پس از اوج ۱۹۸۹، سهام ژاپن ارزششان را حفظ کردند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p11",
+              "text": {
+                "en": "When colleagues say 'this time is different' about a hot sector, write the price-earnings ratio next to the story. A great company can still be a poor buy at 90 times earnings.",
+                "fa": "وقتی همکارانت دربارهٔ یک بخش داغ می‌گویند «این بار فرق دارد»، نسبت قیمت به سود را کنار داستان بنویس. یک شرکت عالی با ۹۰ برابر سود هنوز می‌تواند خرید بدی باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p12",
+              "text": {
+                "en": "A core holding in a global index ETF such as VWCE or IWDA owns every fashionable sector at market weight. You take part in the next boom without betting everything on it.",
+                "fa": "هستهٔ سبدی که در یک ETF شاخصی جهانی مثل VWCE یا IWDA است، هر بخش مُد روز را به وزن بازار دارد. در رونق بعدی شریکی بی‌آنکه همه‌چیز را روی آن شرط ببندی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k5",
+              "type": "tap",
+              "source": "b06c1l3p2",
+              "prompt": {
+                "en": "What did the tronics boom of the early 1960s show?",
+                "fa": "رونق tronics در اوایل دههٔ ۱۹۶۰ چه چیزی را نشان داد؟"
+              },
+              "options": [
+                {
+                  "en": "Electronics firms always earn the most",
+                  "fa": "شرکت‌های الکترونیک همیشه بیشترین سود را دارند"
+                },
+                {
+                  "en": "A fashionable name could sell almost any stock",
+                  "fa": "یک نام مُد روز تقریباً هر سهمی را می‌فروشد"
+                },
+                {
+                  "en": "New issues are safer than old shares",
+                  "fa": "عرضه‌های تازه از سهام قدیمی امن‌ترند"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b06c1l4",
+          "title": {
+            "en": "The dot-com bubble and its heirs",
+            "fa": "حباب دات‌کام و وارثانش"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 4, the internet bubble of the late 1990s and the manias that followed. It matters because you work in tech, where the next story will sound most convincing to you.",
+                "fa": "این درس فصل ۴ را خلاصه می‌کند: حباب اینترنت در اواخر دههٔ ۱۹۹۰ و جنون‌هایی که پس از آن آمد. مهم است چون در حوزهٔ فناوری کار می‌کنی و داستان بعدی برای تو از همه قانع‌کننده‌تر به نظر می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p2",
+              "text": {
+                "en": "In the late 1990s, any company tied to the internet could raise money and soar. Simply adding '.com' to a company's name could lift its share price sharply.",
+                "fa": "در اواخر دههٔ ۱۹۹۰ هر شرکتی که به اینترنت ربط داشت می‌توانست پول جمع کند و اوج بگیرد. فقط افزودن «.com» به نام شرکت می‌توانست قیمت سهمش را تند بالا ببرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p3",
+              "text": {
+                "en": "Analysts dropped profits as a yardstick and valued firms on 'eyeballs' and page views. Firms such as Pets.com and eToys sold dreams instead of earnings.",
+                "fa": "تحلیلگران سود را کنار گذاشتند و شرکت‌ها را با «تعداد چشم‌ها» و بازدید صفحه ارزش‌گذاری کردند. شرکت‌هایی مثل Pets.com و eToys به‌جای سود، رؤیا می‌فروختند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k1",
+              "type": "tf",
+              "source": "b06c1l4p3",
+              "prompt": {
+                "en": "During the dot-com boom, analysts valued firms on eyeballs and page views rather than profits.",
+                "fa": "در رونق دات‌کام، تحلیلگران شرکت‌ها را به‌جای سود با تعداد چشم‌ها و بازدید صفحه ارزش‌گذاری می‌کردند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p4",
+              "text": {
+                "en": "From its March 2000 peak, the Nasdaq index fell almost 80 percent by 2002. Many dot-com darlings went to zero.",
+                "fa": "شاخص Nasdaq از اوج مارس ۲۰۰۰ تا سال ۲۰۰۲ نزدیک ۸۰ درصد سقوط کرد. بسیاری از عزیزکرده‌های دات‌کام به صفر رسیدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p5",
+              "text": {
+                "en": "Malkiel also blames the enablers: analysts rated shares 'buy' to win banking deals, and some firms used creative accounting. Media cheerleading fed the frenzy.",
+                "fa": "Malkiel زمینه‌سازان را هم مقصر می‌داند: تحلیلگران برای گرفتن قراردادهای بانکی به سهام توصیهٔ «خرید» می‌دادند و برخی شرکت‌ها حسابداری خلاقانه داشتند. تشویق رسانه‌ها هم این هیجان را دامن زد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k2",
+              "type": "tap",
+              "source": "b06c1l4p4",
+              "prompt": {
+                "en": "How far did the Nasdaq fall from its March 2000 peak?",
+                "fa": "Nasdaq از اوج مارس ۲۰۰۰ چقدر سقوط کرد؟"
+              },
+              "options": [
+                {
+                  "en": "About 20 percent",
+                  "fa": "حدود ۲۰ درصد"
+                },
+                {
+                  "en": "Almost 80 percent by 2002",
+                  "fa": "نزدیک ۸۰ درصد تا ۲۰۰۲"
+                },
+                {
+                  "en": "It rose until 2002",
+                  "fa": "تا ۲۰۰۲ بالا رفت"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p6",
+              "text": {
+                "en": "Every bubble follows a similar path: a true story about a new technology, crowd euphoria, prices unhinged from value, then collapse.",
+                "fa": "هر حبابی مسیری مشابه دارد: یک داستان واقعی دربارهٔ یک فناوری تازه، سرخوشی جمعی، قیمت‌های جداشده از ارزش و سپس فروپاشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p7",
+              "text": {
+                "en": "The internet did change the world, yet most investors in it lost money. A real technology is no guarantee of a good investment at any price.",
+                "fa": "اینترنت واقعاً دنیا را عوض کرد، اما بیشتر سرمایه‌گذارانش پول از دست دادند. یک فناوری واقعی تضمینی برای یک سرمایه‌گذاری خوب به هر قیمتی نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k3",
+              "type": "order",
+              "source": "b06c1l4p6",
+              "prompt": {
+                "en": "Put the stages of a bubble in order.",
+                "fa": "مراحل یک حباب را به ترتیب بچین."
+              },
+              "options": [
+                {
+                  "en": "Collapse",
+                  "fa": "فروپاشی"
+                },
+                {
+                  "en": "Crowd euphoria",
+                  "fa": "سرخوشی جمعی"
+                },
+                {
+                  "en": "A true story about a new technology",
+                  "fa": "یک داستان واقعی دربارهٔ یک فناوری تازه"
+                },
+                {
+                  "en": "Prices unhinged from value",
+                  "fa": "قیمت‌های جداشده از ارزش"
+                }
+              ],
+              "answer": [
+                2,
+                1,
+                3,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p8",
+              "text": {
+                "en": "A housing bubble followed in the 2000s, fed by easy mortgages to borrowers who could not repay. When house prices fell, the 2008 financial crisis spread around the world.",
+                "fa": "در دههٔ ۲۰۰۰ حباب مسکن آمد که با وام‌های رهنی آسان به وام‌گیرندگانی که توان بازپرداخت نداشتند تغذیه می‌شد. وقتی قیمت خانه افتاد، بحران مالی ۲۰۰۸ در سراسر دنیا پخش شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p9",
+              "text": {
+                "en": "Later editions add new manias, from Bitcoin to meme stocks such as GameStop. Malkiel notes Bitcoin pays no income, so its price rests on castles in the air.",
+                "fa": "ویرایش‌های بعدی جنون‌های تازه را هم می‌آورند، از Bitcoin تا meme stockها مثل GameStop. Malkiel می‌گوید Bitcoin هیچ درآمدی نمی‌دهد، پس قیمتش بر قصر در هوا تکیه دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k4",
+              "type": "tf",
+              "source": "b06c1l4p9",
+              "prompt": {
+                "en": "Malkiel says Bitcoin's price rests on a firm foundation of income.",
+                "fa": "Malkiel می‌گوید قیمت Bitcoin بر بنیان محکمِ درآمد استوار است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p10",
+              "text": {
+                "en": "Malkiel's verdict: markets make big mistakes but eventually correct them, and nobody reliably knows when. So he argues for owning the whole market, not timing bubbles.",
+                "fa": "حکم Malkiel: بازارها اشتباه‌های بزرگ می‌کنند اما در نهایت اصلاحشان می‌کنند و هیچ‌کس به‌طور قابل‌اعتماد نمی‌داند کی. پس او از داشتن کل بازار دفاع می‌کند، نه زمان‌بندی حباب‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p11",
+              "text": {
+                "en": "As a CTO you will meet founders pitching the next 'new era'. Judge startup equity on revenue and a written cap table, not on how many users it might one day reach.",
+                "fa": "به‌عنوان CTO با بنیان‌گذارانی روبه‌رو می‌شوی که «عصر تازه» بعدی را می‌فروشند. سهام استارتاپ را با درآمد و یک cap table مکتوب بسنج، نه با تعداد کاربرانی که شاید روزی برسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p12",
+              "text": {
+                "en": "Keep speculative bets, if any, inside a small satellite slice. A bubble can then pop without touching the 80 percent index core you rely on.",
+                "fa": "شرط‌های سفته‌بازانه را، اگر داری، در یک بخش اقماری کوچک نگه دار. آن‌وقت حباب می‌ترکد بی‌آنکه به هستهٔ ۸۰ درصدی شاخصی که به آن تکیه داری آسیب بزند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k5",
+              "type": "tap",
+              "source": "b06c1l4p7",
+              "prompt": {
+                "en": "What does Malkiel take from the internet's real success?",
+                "fa": "Malkiel از موفقیت واقعی اینترنت چه نتیجه‌ای می‌گیرد؟"
+              },
+              "options": [
+                {
+                  "en": "Tech booms always reward early investors",
+                  "fa": "رونق‌های فناوری همیشه به سرمایه‌گذاران اولیه پاداش می‌دهند"
+                },
+                {
+                  "en": "Investors should buy only internet shares",
+                  "fa": "سرمایه‌گذاران فقط باید سهام اینترنتی بخرند"
+                },
+                {
+                  "en": "A real technology is no guarantee of a good investment",
+                  "fa": "یک فناوری واقعی تضمینی برای یک سرمایه‌گذاری خوب نیست"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b06c2",
+      "title": {
+        "en": "How the pros play, and why they lose",
+        "fa": "بازی حرفه‌ای‌ها و چرا می‌بازند"
+      },
+      "lessons": [
+        {
+          "id": "b06c2l1",
+          "title": {
+            "en": "Technical analysis and coin-flip charts",
+            "fa": "تحلیل تکنیکال و نمودارهای شیر یا خط"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 5 and 6, on technical analysis and the random-walk evidence. It matters because trading apps push charts at you, and Malkiel tested whether charts actually work.",
+                "fa": "این درس فصل‌های ۵ و ۶ را خلاصه می‌کند: تحلیل تکنیکال و شواهد گام تصادفی. مهم است چون اپ‌های معامله مدام نمودار جلویت می‌گذارند و Malkiel آزمود که آیا نمودارها واقعاً کار می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p2",
+              "text": {
+                "en": "Technical analysis studies charts of past prices and volume to forecast future moves. Chartists believe the market is only 10 percent logical and 90 percent psychological.",
+                "fa": "تحلیل تکنیکال نمودار قیمت‌ها و حجم معاملات گذشته را بررسی می‌کند تا حرکت‌های آینده را پیش‌بینی کند. چارتیست‌ها باور دارند بازار فقط ۱۰ درصد منطقی و ۹۰ درصد روانی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p3",
+              "text": {
+                "en": "Chartists read patterns such as head-and-shoulders tops, support and resistance levels, and moving averages. They care about price action, not what the company earns.",
+                "fa": "چارتیست‌ها الگوهایی مثل سر و شانه، سطوح حمایت و مقاومت و میانگین متحرک را می‌خوانند. برایشان حرکت قیمت مهم است، نه سودی که شرکت می‌سازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k1",
+              "type": "tap",
+              "source": "b06c2l1p2",
+              "prompt": {
+                "en": "What do chartists study?",
+                "fa": "چارتیست‌ها چه چیزی را بررسی می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "Charts of past prices and volume",
+                  "fa": "نمودار قیمت‌ها و حجم گذشته"
+                },
+                {
+                  "en": "Company earnings and dividends",
+                  "fa": "سود و سود نقدی شرکت"
+                },
+                {
+                  "en": "Interest rates set by central banks",
+                  "fa": "نرخ بهره‌ای که بانک مرکزی تعیین می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p4",
+              "text": {
+                "en": "Malkiel had his students build a chart by flipping a coin each day: heads up, tails down. One chart showed a classic breakout, and a chartist he showed it to urged him to buy at once.",
+                "fa": "Malkiel از دانشجویانش خواست با انداختن سکه در هر روز یک نمودار بسازند: شیر بالا، خط پایین. یکی از نمودارها شکست کلاسیکی نشان داد و چارتیستی که آن را دید اصرار کرد فوراً بخرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p5",
+              "text": {
+                "en": "The point: random coin flips produce patterns that look meaningful. If pure chance makes the shapes chartists trade on, the shapes carry no real signal.",
+                "fa": "نکته این است: شیر یا خط تصادفی الگوهایی می‌سازد که معنادار به نظر می‌رسند. اگر شانس محض همان شکل‌هایی را بسازد که چارتیست‌ها با آن معامله می‌کنند، آن شکل‌ها سیگنال واقعی ندارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k2",
+              "type": "tf",
+              "source": "b06c2l1p4",
+              "prompt": {
+                "en": "A chartist shown Malkiel's coin-flip chart recognised it as random.",
+                "fa": "چارتیستی که نمودار شیر یا خط Malkiel را دید، تصادفی بودنش را تشخیص داد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p6",
+              "text": {
+                "en": "Researchers tested whether price changes follow from earlier ones. The correlations were close to zero: the market has very little memory.",
+                "fa": "پژوهشگران آزمودند که آیا تغییرات قیمت از تغییرات قبلی پیروی می‌کنند. همبستگی‌ها نزدیک صفر بود: بازار حافظهٔ بسیار کمی دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p7",
+              "text": {
+                "en": "Mechanical filter rules, such as buying after a 10 percent rise, beat buy and hold only before trading costs. After costs and taxes, they lost.",
+                "fa": "قواعد فیلتر مکانیکی، مثل خرید پس از ۱۰ درصد رشد، فقط پیش از هزینهٔ معاملات از خرید و نگهداری بهتر بودند. پس از هزینه‌ها و مالیات، باختند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k3",
+              "type": "tap",
+              "source": "b06c2l1p7",
+              "prompt": {
+                "en": "What happened to filter rules once trading costs were counted?",
+                "fa": "وقتی هزینهٔ معاملات حساب شد، قواعد فیلتر چه شدند؟"
+              },
+              "options": [
+                {
+                  "en": "After costs, they beat the market",
+                  "fa": "پس از هزینه‌ها از بازار بهتر شدند"
+                },
+                {
+                  "en": "After costs, they lost",
+                  "fa": "پس از هزینه‌ها باختند"
+                },
+                {
+                  "en": "Costs made no difference to them",
+                  "fa": "هزینه‌ها برایشان فرقی نکرد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p8",
+              "text": {
+                "en": "Why would charts fail? Any reliable pattern, once known, gets traded on until it disappears, since everyone tries to act before everyone else.",
+                "fa": "چرا نمودارها شکست می‌خورند؟ هر الگوی قابل‌اعتمادی وقتی شناخته شد آن‌قدر با آن معامله می‌شود که از بین برود، چون همه می‌خواهند زودتر از بقیه عمل کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p9",
+              "text": {
+                "en": "The one sure winner from chart-based trading is the broker, who earns a fee on every trade. Frequent trading also tends to trigger more taxes.",
+                "fa": "تنها برندهٔ مطمئن معاملهٔ مبتنی بر نمودار کارگزار است که از هر معامله کارمزد می‌گیرد. معاملهٔ مکرر معمولاً مالیات بیشتری هم به دنبال دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k4",
+              "type": "tf",
+              "source": "b06c2l1p9",
+              "prompt": {
+                "en": "Malkiel says the one sure winner from chart-based trading is the broker.",
+                "fa": "Malkiel می‌گوید تنها برندهٔ مطمئن معاملهٔ مبتنی بر نمودار کارگزار است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p10",
+              "text": {
+                "en": "Malkiel's conclusion: past stock prices are not a reliable guide to future ones. For almost everyone, buy and hold beats chart reading.",
+                "fa": "نتیجهٔ Malkiel: قیمت‌های گذشتهٔ سهام راهنمای قابل‌اعتمادی برای قیمت‌های آینده نیستند. برای تقریباً همه، خرید و نگهداری از خواندن نمودار بهتر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p11",
+              "text": {
+                "en": "Each trade on your broker costs a fee and a spread. A chart pattern that looks like an edge is more often just a cost.",
+                "fa": "هر معامله در کارگزاری‌ات کارمزد و اختلاف قیمت خرید و فروش دارد. الگوی نموداری که شبیه برتری به نظر می‌رسد بیشتر وقت‌ها فقط یک هزینه است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p12",
+              "text": {
+                "en": "Turn off price alerts on your index core. Checking charts daily invites exactly the trading Malkiel shows does not pay.",
+                "fa": "هشدارهای قیمت را برای هستهٔ شاخصی‌ات خاموش کن. نگاه روزانه به نمودار دقیقاً همان معامله‌ای را دعوت می‌کند که Malkiel نشان می‌دهد سودی ندارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k5",
+              "type": "tap",
+              "source": "b06c2l1p6",
+              "prompt": {
+                "en": "What did researchers find about links between past and future price changes?",
+                "fa": "پژوهشگران دربارهٔ رابطهٔ تغییرات گذشته و آیندهٔ قیمت چه یافتند؟"
+              },
+              "options": [
+                {
+                  "en": "Strong positive correlations",
+                  "fa": "همبستگی مثبت قوی"
+                },
+                {
+                  "en": "Correlations close to zero",
+                  "fa": "همبستگی نزدیک صفر"
+                },
+                {
+                  "en": "Prices reverse every single week",
+                  "fa": "قیمت‌ها هر هفته برمی‌گردند"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b06c2l2",
+          "title": {
+            "en": "The limits of fundamental analysis",
+            "fa": "محدودیت‌های تحلیل بنیادی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 7, which asks how good fundamental analysis really is. It matters because analyst ratings and earnings forecasts fill the financial news you read.",
+                "fa": "این درس فصل ۷ را خلاصه می‌کند که می‌پرسد تحلیل بنیادی واقعاً چقدر خوب است. مهم است چون رتبه‌بندی تحلیلگران و پیش‌بینی سود، اخبار مالی‌ای را که می‌خوانی پر کرده‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p2",
+              "text": {
+                "en": "Fundamental analysts estimate a firm's intrinsic value from its earnings growth, dividends, risk and interest rates. It is the firm-foundation theory put to work by professionals.",
+                "fa": "تحلیلگران بنیادی ارزش ذاتی شرکت را از رشد سود، سود نقدی، ریسک و نرخ بهره تخمین می‌زنند. این همان نظریهٔ بنیان محکم است که حرفه‌ای‌ها به کار می‌گیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p3",
+              "text": {
+                "en": "Malkiel studied analysts' earnings forecasts and found them poor, even for the next year. Forecasts five years ahead did no better than simply extending past growth.",
+                "fa": "Malkiel پیش‌بینی‌های سود تحلیلگران را بررسی کرد و آن‌ها را ضعیف یافت، حتی برای سال بعد. پیش‌بینی‌های پنج‌ساله بهتر از ادامه دادن سادهٔ رشد گذشته نبودند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k1",
+              "type": "tf",
+              "source": "b06c2l2p3",
+              "prompt": {
+                "en": "Malkiel found analysts' five-year earnings forecasts beat simply extending past growth.",
+                "fa": "Malkiel دریافت پیش‌بینی‌های پنج‌سالهٔ سود تحلیلگران از ادامه دادن سادهٔ رشد گذشته بهترند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p4",
+              "text": {
+                "en": "He gives five reasons forecasts fail. The first is random events, such as new competitors or a sudden shock no model can foresee.",
+                "fa": "او پنج دلیل برای شکست پیش‌بینی‌ها می‌آورد. اول، رویدادهای تصادفی، مثل رقبای تازه یا شوکی ناگهانی که هیچ مدلی پیش‌بینی نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p5",
+              "text": {
+                "en": "Second, creative accounting lets firms dress up reported earnings. Third, many analysts are simply not very good at the job.",
+                "fa": "دوم، حسابداری خلاقانه به شرکت‌ها اجازه می‌دهد سود گزارش‌شده را بزک کنند. سوم، بسیاری از تحلیلگران در کارشان چندان خوب نیستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p6",
+              "text": {
+                "en": "Fourth, the best analysts are often promoted into sales or portfolio management. Fifth, conflicts of interest push analysts to praise firms their bank wants as clients.",
+                "fa": "چهارم، بهترین تحلیلگران اغلب به فروش یا مدیریت سبد ارتقا می‌یابند. پنجم، تضاد منافع تحلیلگران را وادار می‌کند شرکت‌هایی را تحسین کنند که بانکشان آن‌ها را به‌عنوان مشتری می‌خواهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k2",
+              "type": "tap",
+              "source": "b06c2l2p6",
+              "prompt": {
+                "en": "Which conflict of interest does Malkiel describe?",
+                "fa": "Malkiel کدام تضاد منافع را شرح می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Regulators pay analysts for good ratings",
+                  "fa": "نهادهای ناظر برای رتبهٔ خوب به تحلیلگران پول می‌دهند"
+                },
+                {
+                  "en": "Analysts praise firms their bank wants as clients",
+                  "fa": "تحلیلگران شرکت‌هایی را تحسین می‌کنند که بانکشان به‌عنوان مشتری می‌خواهد"
+                },
+                {
+                  "en": "Analysts must own every share they rate",
+                  "fa": "تحلیلگران باید همهٔ سهامی را که رتبه می‌دهند داشته باشند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p7",
+              "text": {
+                "en": "Even when analysts are right about a company, it may not help. If the good news is already in the price, a great firm can be a poor buy.",
+                "fa": "حتی وقتی تحلیلگران دربارهٔ یک شرکت درست می‌گویند، شاید کمکی نکند. اگر خبر خوب از قبل در قیمت باشد، یک شرکت عالی می‌تواند خرید بدی باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p8",
+              "text": {
+                "en": "Malkiel then looked at professional fund managers. Funds that beat the market in one period are rarely the ones that beat it in the next.",
+                "fa": "Malkiel سپس به مدیران حرفه‌ای صندوق‌ها نگاه کرد. صندوق‌هایی که در یک دوره از بازار بهتر بودند به‌ندرت همان‌هایی هستند که در دورهٔ بعد بهترند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k3",
+              "type": "tf",
+              "source": "b06c2l2p8",
+              "prompt": {
+                "en": "Fund managers who beat the market in one period usually keep winning in the next.",
+                "fa": "مدیرانی که در یک دوره بازار را شکست می‌دهند معمولاً در دورهٔ بعد هم برنده‌اند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p9",
+              "text": {
+                "en": "Over long periods, most actively managed funds trail a broad index. The losers are not foolish; they pay fees and trading costs the index does not.",
+                "fa": "در دوره‌های بلند، بیشتر صندوق‌های فعال از یک شاخص گسترده عقب می‌مانند. بازنده‌ها نادان نیستند؛ کارمزد و هزینهٔ معاملاتی می‌پردازند که شاخص نمی‌پردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p10",
+              "text": {
+                "en": "This supports the semi-strong form of the efficient-market hypothesis. Public information, such as earnings reports, is already reflected in prices.",
+                "fa": "این از شکل نیمه‌قوی فرضیهٔ بازار کارا پشتیبانی می‌کند. اطلاعات عمومی، مثل گزارش‌های سود، از قبل در قیمت‌ها منعکس شده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k4",
+              "type": "tap",
+              "source": "b06c2l2p9",
+              "prompt": {
+                "en": "Why do most active funds trail an index?",
+                "fa": "چرا بیشتر صندوق‌های فعال از شاخص عقب می‌مانند؟"
+              },
+              "options": [
+                {
+                  "en": "They pay fees and trading costs the index does not",
+                  "fa": "کارمزد و هزینهٔ معاملاتی می‌پردازند که شاخص نمی‌پردازد"
+                },
+                {
+                  "en": "Their managers are foolish",
+                  "fa": "مدیرانشان نادان‌اند"
+                },
+                {
+                  "en": "Index funds receive government subsidies",
+                  "fa": "صندوق‌های شاخصی یارانهٔ دولتی می‌گیرند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p11",
+              "text": {
+                "en": "When a newsletter says a share is undervalued, ask what the price already assumes. Write the claim in your decision journal and check it a year later.",
+                "fa": "وقتی یک خبرنامه می‌گوید سهمی کم‌ارزش‌گذاری شده، بپرس قیمت از قبل چه چیزی را فرض کرده است. ادعا را در دفتر تصمیم‌هایت بنویس و یک سال بعد بررسی‌اش کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p12",
+              "text": {
+                "en": "Your edge as an engineer is building and owning things, not out-forecasting thousands of full-time analysts. Spend your daily reading hour on that edge.",
+                "fa": "برتری تو به‌عنوان مهندس ساختن و مالک شدن است، نه پیش‌بینی بهتر از هزاران تحلیلگر تمام‌وقت. ساعت مطالعهٔ روزانه‌ات را صرف همین برتری کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k5",
+              "type": "tf",
+              "source": "b06c2l2p7",
+              "prompt": {
+                "en": "A great company can still be a poor buy if the good news is already in the price.",
+                "fa": "اگر خبر خوب از قبل در قیمت باشد، یک شرکت عالی هنوز می‌تواند خرید بدی باشد."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b06c2l3",
+          "title": {
+            "en": "The efficient market and its critics",
+            "fa": "بازار کارا و منتقدانش"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the efficient-market hypothesis and Malkiel's reply to its critics. It matters because it is why index investing is the sensible default, not just a lazy choice.",
+                "fa": "این درس فرضیهٔ بازار کارا و پاسخ Malkiel به منتقدانش را خلاصه می‌کند. مهم است چون همین دلیل است که سرمایه‌گذاری شاخصی پیش‌فرض معقول است، نه فقط انتخابی تنبلانه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p2",
+              "text": {
+                "en": "The efficient-market hypothesis says prices quickly reflect all available information. Only news moves them, and news arrives randomly, so price changes look random too.",
+                "fa": "فرضیهٔ بازار کارا می‌گوید قیمت‌ها به‌سرعت همهٔ اطلاعات موجود را منعکس می‌کنند. فقط خبر تازه آن‌ها را تکان می‌دهد و خبر تصادفی می‌رسد، پس تغییرات قیمت هم تصادفی به نظر می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p3",
+              "text": {
+                "en": "It comes in three forms. The weak form says past prices cannot predict future ones, the semi-strong form adds all public information, and the strong form adds even inside information.",
+                "fa": "این فرضیه سه شکل دارد. شکل ضعیف می‌گوید قیمت‌های گذشته آینده را پیش‌بینی نمی‌کنند، شکل نیمه‌قوی همهٔ اطلاعات عمومی را اضافه می‌کند و شکل قوی حتی اطلاعات نهانی را."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k1",
+              "type": "tap",
+              "source": "b06c2l3p3",
+              "prompt": {
+                "en": "What does the weak form of the hypothesis say?",
+                "fa": "شکل ضعیف این فرضیه چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "Past prices cannot predict future ones",
+                  "fa": "قیمت‌های گذشته آینده را پیش‌بینی نمی‌کنند"
+                },
+                {
+                  "en": "Inside information always pays",
+                  "fa": "اطلاعات نهانی همیشه سود می‌دهد"
+                },
+                {
+                  "en": "Prices never move without a reason",
+                  "fa": "قیمت‌ها هرگز بی‌دلیل حرکت نمی‌کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p4",
+              "text": {
+                "en": "Malkiel tells the joke of a finance professor and a student who see a $100 bill on the street. The professor walks on: if it were real, someone would already have picked it up.",
+                "fa": "Malkiel شوخی استاد مالی و دانشجویی را تعریف می‌کند که یک اسکناس ۱۰۰ دلاری در خیابان می‌بینند. استاد رد می‌شود: اگر واقعی بود، کسی تا حالا برش داشته بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p5",
+              "text": {
+                "en": "Malkiel does not claim prices are always right. He argues that pricing errors exist but nobody can reliably exploit them for long, especially after costs.",
+                "fa": "Malkiel ادعا نمی‌کند قیمت‌ها همیشه درست‌اند. استدلالش این است که خطای قیمت‌گذاری وجود دارد اما هیچ‌کس نمی‌تواند به‌طور قابل‌اعتماد و طولانی از آن بهره ببرد، به‌ویژه پس از هزینه‌ها."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k2",
+              "type": "tf",
+              "source": "b06c2l3p5",
+              "prompt": {
+                "en": "Malkiel claims market prices are always correct.",
+                "fa": "Malkiel ادعا می‌کند قیمت‌های بازار همیشه درست‌اند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p6",
+              "text": {
+                "en": "Critics point to patterns: shares that rose recently tend to keep rising for a while, and over longer periods extreme winners and losers tend to reverse.",
+                "fa": "منتقدان به الگوهایی اشاره می‌کنند: سهامی که اخیراً بالا رفته‌اند تا مدتی به رشد ادامه می‌دهند و در دوره‌های طولانی‌تر برنده‌ها و بازنده‌های افراطی برمی‌گردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p7",
+              "text": {
+                "en": "Other anomalies include the January effect, value shares with low price-earnings ratios, and small firms that once beat the market. Many weakened soon after they were published.",
+                "fa": "ناهنجاری‌های دیگر شامل اثر ژانویه، سهام ارزشی با نسبت قیمت به سود پایین و شرکت‌های کوچکی است که زمانی بازار را شکست می‌دادند. بسیاری از آن‌ها کمی پس از انتشار ضعیف شدند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k3",
+              "type": "tap",
+              "source": "b06c2l3p7",
+              "prompt": {
+                "en": "What happened to many market anomalies after they were published?",
+                "fa": "بسیاری از ناهنجاری‌های بازار پس از انتشار چه شدند؟"
+              },
+              "options": [
+                {
+                  "en": "They grew much stronger",
+                  "fa": "بسیار قوی‌تر شدند"
+                },
+                {
+                  "en": "Many weakened soon after",
+                  "fa": "بسیاری کمی بعد ضعیف شدند"
+                },
+                {
+                  "en": "They were banned by regulators",
+                  "fa": "نهادهای ناظر ممنوعشان کردند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p8",
+              "text": {
+                "en": "Robert Shiller argued that prices swing far more than dividends justify. The 1987 crash, when shares fell more than 20 percent in a day, had no clear news behind it.",
+                "fa": "Robert Shiller استدلال کرد که قیمت‌ها بسیار بیشتر از آنچه سود نقدی توجیه می‌کند نوسان دارند. سقوط ۱۹۸۷، که سهام در یک روز بیش از ۲۰ درصد افتاد، هیچ خبر روشنی پشتش نبود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p9",
+              "text": {
+                "en": "Malkiel accepts that markets make errors and that bubbles happen. His point is that the errors are not predictable enough to give a reliable edge.",
+                "fa": "Malkiel می‌پذیرد که بازارها اشتباه می‌کنند و حباب پیش می‌آید. نکته‌اش این است که این خطاها آن‌قدر قابل‌پیش‌بینی نیستند که برتری قابل‌اعتمادی بدهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p10",
+              "text": {
+                "en": "His strongest evidence is practical: professional managers, with every resource, still mostly fail to beat the index. If the market were easy to beat, the pros would do it.",
+                "fa": "قوی‌ترین شاهد او عملی است: مدیران حرفه‌ای با همهٔ امکاناتشان هنوز بیشتر وقت‌ها نمی‌توانند شاخص را شکست دهند. اگر شکست دادن بازار آسان بود، حرفه‌ای‌ها این کار را می‌کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k4",
+              "type": "tf",
+              "source": "b06c2l3p8",
+              "prompt": {
+                "en": "Robert Shiller argued prices swing far more than dividends justify.",
+                "fa": "Robert Shiller استدلال کرد قیمت‌ها بسیار بیشتر از آنچه سود نقدی توجیه می‌کند نوسان دارند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p11",
+              "text": {
+                "en": "For your €40k, the hypothesis does not need to be perfectly true. It only needs to be true enough that a low-cost index fund beats your own attempts after fees.",
+                "fa": "برای ۴۰ هزار یورو تو، لازم نیست این فرضیه کاملاً درست باشد. کافی است آن‌قدر درست باشد که یک صندوق شاخصی کم‌هزینه پس از کارمزدها از تلاش‌های خودت بهتر عمل کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p12",
+              "text": {
+                "en": "If a strategy looks like free money, treat it like the $100 bill on the street. Check twice, and assume the crowd has seen it already.",
+                "fa": "اگر استراتژی‌ای شبیه پول مفت به نظر می‌رسد، با آن مثل همان اسکناس ۱۰۰ دلاری توی خیابان رفتار کن. دو بار بررسی کن و فرض کن جمعیت آن را قبلاً دیده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k5",
+              "type": "tap",
+              "source": "b06c2l3p4",
+              "prompt": {
+                "en": "Why does the professor in Malkiel's joke walk past the $100 bill?",
+                "fa": "چرا استاد در شوخی Malkiel از کنار اسکناس ۱۰۰ دلاری رد می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "He thinks it is stolen money",
+                  "fa": "فکر می‌کند پول دزدی است"
+                },
+                {
+                  "en": "He is late for a lecture",
+                  "fa": "برای کلاس دیر کرده است"
+                },
+                {
+                  "en": "If it were real, someone would already have picked it up",
+                  "fa": "اگر واقعی بود، کسی تا حالا برش داشته بود"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b06c2l4",
+          "title": {
+            "en": "Behavioural finance",
+            "fa": "مالی رفتاری"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 10 on behavioural finance, the study of how real investors misbehave. It matters because the biggest risk to your plan is usually you, not the market.",
+                "fa": "این درس فصل ۱۰ دربارهٔ مالی رفتاری را خلاصه می‌کند، یعنی مطالعهٔ اینکه سرمایه‌گذاران واقعی چطور بد رفتار می‌کنند. مهم است چون بزرگ‌ترین خطر برای برنامه‌ات معمولاً خودت هستی، نه بازار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p2",
+              "text": {
+                "en": "Behavioural finance says many investors are not rational, and their errors can push prices away from value. Malkiel groups the errors into overconfidence, biased judgments, herding and loss aversion.",
+                "fa": "مالی رفتاری می‌گوید بسیاری از سرمایه‌گذاران عقلانی نیستند و خطاهایشان می‌تواند قیمت‌ها را از ارزش دور کند. Malkiel این خطاها را در چهار گروه می‌چیند: اعتمادبه‌نفس بیش از حد، قضاوت‌های سوگیرانه، رفتار گله‌ای و زیان‌گریزی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p3",
+              "text": {
+                "en": "Overconfidence: most people rate themselves above average, as drivers and as investors. They credit wins to skill and blame losses on bad luck.",
+                "fa": "اعتمادبه‌نفس بیش از حد: بیشتر آدم‌ها خودشان را بالاتر از متوسط می‌دانند، هم در رانندگی هم در سرمایه‌گذاری. بردها را به مهارت و باخت‌ها را به بدشانسی نسبت می‌دهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k1",
+              "type": "tap",
+              "source": "b06c2l4p2",
+              "prompt": {
+                "en": "What does behavioural finance say about many investors?",
+                "fa": "مالی رفتاری دربارهٔ بسیاری از سرمایه‌گذاران چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "Many are not rational, and errors can push prices away from value",
+                  "fa": "بسیاری عقلانی نیستند و خطاها می‌تواند قیمت‌ها را از ارزش دور کند"
+                },
+                {
+                  "en": "They always act on full information",
+                  "fa": "همیشه با اطلاعات کامل عمل می‌کنند"
+                },
+                {
+                  "en": "They trade too rarely to affect prices",
+                  "fa": "آن‌قدر کم معامله می‌کنند که بر قیمت اثری ندارند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p4",
+              "text": {
+                "en": "Overconfident investors trade too much. Studies Malkiel cites show the most active traders earn the lowest returns after costs.",
+                "fa": "سرمایه‌گذاران بیش‌ازحد مطمئن زیادی معامله می‌کنند. پژوهش‌هایی که Malkiel نقل می‌کند نشان می‌دهد فعال‌ترین معامله‌گران پس از هزینه‌ها کمترین بازده را دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p5",
+              "text": {
+                "en": "Biased judgments include the illusion of control: people feel they can steer outcomes that are pure chance, like choosing their own lottery number.",
+                "fa": "قضاوت‌های سوگیرانه شامل توهم کنترل است: آدم‌ها حس می‌کنند می‌توانند نتیجه‌هایی را هدایت کنند که شانس محض‌اند، مثل انتخاب شمارهٔ بلیت بخت‌آزمایی خودشان."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k2",
+              "type": "tf",
+              "source": "b06c2l4p4",
+              "prompt": {
+                "en": "Studies show the most active traders earn the highest returns after costs.",
+                "fa": "پژوهش‌ها نشان می‌دهد فعال‌ترین معامله‌گران پس از هزینه‌ها بیشترین بازده را دارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p6",
+              "text": {
+                "en": "Herding: people take comfort in doing what everyone else does. Money pours into funds and sectors right after they have risen, near the top.",
+                "fa": "رفتار گله‌ای: آدم‌ها از انجام کاری که همه می‌کنند آرامش می‌گیرند. پول درست پس از رشد صندوق‌ها و بخش‌ها، نزدیک اوج، به آن‌ها سرازیر می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p7",
+              "text": {
+                "en": "Loss aversion, from Kahneman and Tversky's prospect theory: a loss hurts about twice as much as an equal gain pleases. So investors hold losers too long, hoping to break even.",
+                "fa": "زیان‌گریزی، از نظریهٔ چشم‌انداز Kahneman و Tversky: درد یک زیان حدود دو برابر لذت سودی هم‌اندازه است. برای همین سرمایه‌گذاران بازنده‌ها را بیش از حد نگه می‌دارند به امید سر به سر شدن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k3",
+              "type": "tap",
+              "source": "b06c2l4p7",
+              "prompt": {
+                "en": "Under loss aversion, how does a loss compare with an equal gain?",
+                "fa": "در زیان‌گریزی، یک زیان در برابر سودی هم‌اندازه چطور است؟"
+              },
+              "options": [
+                {
+                  "en": "It feels exactly the same",
+                  "fa": "دقیقاً همان حس را دارد"
+                },
+                {
+                  "en": "It is quickly forgotten",
+                  "fa": "زود فراموش می‌شود"
+                },
+                {
+                  "en": "It hurts about twice as much",
+                  "fa": "حدود دو برابر درد دارد"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p8",
+              "text": {
+                "en": "Pride and regret make people sell winners to feel smart and keep losers to avoid admitting a mistake. Malkiel advises the reverse: be willing to sell losers.",
+                "fa": "غرور و پشیمانی باعث می‌شود آدم‌ها برنده‌ها را بفروشند تا احساس زرنگی کنند و بازنده‌ها را نگه دارند تا اشتباهشان را نپذیرند. توصیهٔ Malkiel برعکس است: آمادهٔ فروش بازنده‌ها باش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p9",
+              "text": {
+                "en": "Malkiel's lessons: avoid herd behaviour, avoid overtrading, stay away from new issues and hot tips, and distrust anything that sounds too good to be true.",
+                "fa": "درس‌های Malkiel: از رفتار گله‌ای دوری کن، از معاملهٔ بیش از حد دوری کن، از عرضه‌های اولیه و خبرهای داغ فاصله بگیر و به هر چیزی که بیش از حد خوب به نظر می‌رسد بی‌اعتماد باش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p10",
+              "text": {
+                "en": "He adds that behavioural finance does not show anyone can profit from these errors. Knowing the biases mainly helps you avoid your own.",
+                "fa": "او اضافه می‌کند که مالی رفتاری نشان نمی‌دهد کسی می‌تواند از این خطاها سود ببرد. شناختن سوگیری‌ها بیشتر کمک می‌کند از سوگیری‌های خودت دوری کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k4",
+              "type": "tf",
+              "source": "b06c2l4p6",
+              "prompt": {
+                "en": "Herding means money pours into funds after they have already risen.",
+                "fa": "رفتار گله‌ای یعنی پول پس از رشد صندوق‌ها به آن‌ها سرازیر می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p11",
+              "text": {
+                "en": "Your decision journal is a bias filter: write why you bought, what would prove you wrong, and how you felt. Reading it later exposes overconfidence and regret.",
+                "fa": "دفتر تصمیم‌هایت یک فیلتر سوگیری است: بنویس چرا خریدی، چه چیزی اشتباهت را ثابت می‌کند و چه حسی داشتی. خواندنش در آینده اعتمادبه‌نفس کاذب و پشیمانی را آشکار می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p12",
+              "text": {
+                "en": "Automate monthly purchases of your index ETF so your feelings cannot vote. Sleep and a quarterly net-worth log beat watching prices every day.",
+                "fa": "خرید ماهانهٔ ETF شاخصی‌ات را خودکار کن تا احساساتت حق رأی نداشته باشند. خواب کافی و ثبت فصلی دارایی خالص از تماشای روزانهٔ قیمت‌ها بهتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k5",
+              "type": "tap",
+              "source": "b06c2l4p9",
+              "prompt": {
+                "en": "Which is one of Malkiel's behavioural lessons?",
+                "fa": "کدام یکی از درس‌های رفتاری Malkiel است؟"
+              },
+              "options": [
+                {
+                  "en": "Follow the crowd into hot sectors",
+                  "fa": "دنبال جمعیت به بخش‌های داغ برو"
+                },
+                {
+                  "en": "Avoid overtrading",
+                  "fa": "از معاملهٔ بیش از حد دوری کن"
+                },
+                {
+                  "en": "Trade more after every loss",
+                  "fa": "پس از هر زیان بیشتر معامله کن"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b06c3",
+      "title": {
+        "en": "A practical guide for random walkers",
+        "fa": "راهنمای عملی برای گام‌زنان تصادفی"
+      },
+      "lessons": [
+        {
+          "id": "b06c3l1",
+          "title": {
+            "en": "Risk, diversification and beta",
+            "fa": "ریسک، تنوع‌بخشی و بتا"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 8 and 9, on modern portfolio theory and how risk is rewarded. It matters because diversification is how your €40k can lower risk without giving up expected return.",
+                "fa": "این درس فصل‌های ۸ و ۹ را خلاصه می‌کند: نظریهٔ مدرن سبد و اینکه ریسک چطور پاداش می‌گیرد. مهم است چون تنوع‌بخشی راهی است که ۴۰ هزار یورو تو ریسک را کم کند بی‌آنکه از بازده مورد انتظار بگذرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p2",
+              "text": {
+                "en": "Malkiel defines risk as the chance that expected returns will not be achieved, measured by how widely returns vary. Higher expected returns come only with higher risk.",
+                "fa": "Malkiel ریسک را احتمال محقق نشدن بازده مورد انتظار تعریف می‌کند که با میزان پراکندگی بازده‌ها سنجیده می‌شود. بازده مورد انتظار بالاتر فقط با ریسک بالاتر می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p3",
+              "text": {
+                "en": "Harry Markowitz showed that combining risky assets can lower the risk of the whole portfolio. What matters is how the assets move together, not only how risky each one is.",
+                "fa": "Harry Markowitz نشان داد ترکیب دارایی‌های پرریسک می‌تواند ریسک کل سبد را پایین بیاورد. آنچه مهم است این است که دارایی‌ها چطور با هم حرکت می‌کنند، نه فقط ریسک هر کدام."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k1",
+              "type": "tap",
+              "source": "b06c3l1p3",
+              "prompt": {
+                "en": "What did Harry Markowitz show?",
+                "fa": "Harry Markowitz چه چیزی را نشان داد؟"
+              },
+              "options": [
+                {
+                  "en": "Only the safest asset should be held",
+                  "fa": "فقط امن‌ترین دارایی را باید نگه داشت"
+                },
+                {
+                  "en": "Combining risky assets can lower the risk of the whole portfolio",
+                  "fa": "ترکیب دارایی‌های پرریسک می‌تواند ریسک کل سبد را کم کند"
+                },
+                {
+                  "en": "Risk cannot be reduced at all",
+                  "fa": "ریسک اصلاً کم نمی‌شود"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p4",
+              "text": {
+                "en": "Malkiel's example is an island with a resort and an umbrella maker. Owning both evens out your returns whether the season is sunny or rainy.",
+                "fa": "مثال Malkiel جزیره‌ای است با یک استراحتگاه و یک سازندهٔ چتر. داشتن هر دو بازده‌ات را یکنواخت می‌کند، چه فصل آفتابی باشد چه بارانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p5",
+              "text": {
+                "en": "A portfolio of a few dozen shares across industries removes much of the risk of any single company. Adding shares from other countries reduces risk further.",
+                "fa": "سبدی از چند ده سهم در صنایع مختلف بخش بزرگی از ریسک هر شرکت تکی را حذف می‌کند. افزودن سهام کشورهای دیگر ریسک را باز هم کمتر می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k2",
+              "type": "tf",
+              "source": "b06c3l1p4",
+              "prompt": {
+                "en": "In Malkiel's island example, owning both the resort and the umbrella maker evens out returns.",
+                "fa": "در مثال جزیرهٔ Malkiel، داشتن هم استراحتگاه و هم سازندهٔ چتر بازده را یکنواخت می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p6",
+              "text": {
+                "en": "The risk left after diversifying is market risk, measured by beta. A beta of 1 means a share tends to move with the market; above 1, it swings more than the market.",
+                "fa": "ریسکی که پس از تنوع‌بخشی باقی می‌ماند ریسک بازار است که با بتا سنجیده می‌شود. بتای ۱ یعنی سهم همراه بازار حرکت می‌کند؛ بالاتر از ۱ یعنی بیشتر از بازار نوسان دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p7",
+              "text": {
+                "en": "The capital asset pricing model says investors are paid only for beta, since company-specific risk can be diversified away for free.",
+                "fa": "مدل قیمت‌گذاری دارایی‌های سرمایه‌ای (CAPM) می‌گوید سرمایه‌گذاران فقط برای بتا پاداش می‌گیرند، چون ریسک خاص شرکت را می‌شود رایگان با تنوع‌بخشی حذف کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k3",
+              "type": "tap",
+              "source": "b06c3l1p7",
+              "prompt": {
+                "en": "Under the capital asset pricing model, what risk are investors paid for?",
+                "fa": "در مدل CAPM سرمایه‌گذاران برای کدام ریسک پاداش می‌گیرند؟"
+              },
+              "options": [
+                {
+                  "en": "Company-specific risk",
+                  "fa": "ریسک خاص شرکت"
+                },
+                {
+                  "en": "Only beta",
+                  "fa": "فقط بتا"
+                },
+                {
+                  "en": "Currency risk alone",
+                  "fa": "فقط ریسک ارز"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p8",
+              "text": {
+                "en": "Later research by Eugene Fama and Kenneth French found beta alone explains returns poorly. Size and value seemed to matter too, which led to 'smart beta' factor funds.",
+                "fa": "پژوهش‌های بعدی Eugene Fama و Kenneth French نشان داد بتا به‌تنهایی بازده را ضعیف توضیح می‌دهد. اندازه و ارزش هم مهم به نظر رسیدند و همین به صندوق‌های عاملی «smart beta» انجامید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p9",
+              "text": {
+                "en": "Malkiel is sceptical of smart beta: factor funds cost more, and their extra returns have been inconsistent. He treats them as no substitute for a broad, low-cost index fund.",
+                "fa": "Malkiel به smart beta بدبین است: صندوق‌های عاملی گران‌ترند و بازده اضافه‌شان ناپایدار بوده است. او آن‌ها را جایگزین یک صندوق شاخصی گسترده و کم‌هزینه نمی‌داند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k4",
+              "type": "tf",
+              "source": "b06c3l1p8",
+              "prompt": {
+                "en": "Fama and French found that beta alone explains returns very well.",
+                "fa": "Fama و French دریافتند بتا به‌تنهایی بازده را خیلی خوب توضیح می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p10",
+              "text": {
+                "en": "The lesson for Malkiel: diversify widely, across shares, countries and asset classes, because no one knows which part will lead next.",
+                "fa": "درس Malkiel: گسترده تنوع بده، میان سهام، کشورها و طبقات دارایی، چون هیچ‌کس نمی‌داند کدام بخش بعداً جلو می‌افتد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p11",
+              "text": {
+                "en": "A global index fund such as VWCE or IWDA holds well over a thousand companies in many countries. That is Markowitz's diversification in a single ticker.",
+                "fa": "یک صندوق شاخصی جهانی مثل VWCE یا IWDA بیش از هزار شرکت در کشورهای بسیار را در خود دارد. این همان تنوع‌بخشی Markowitz در یک نماد است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p12",
+              "text": {
+                "en": "Concentrating in startup equity adds risk on top of the risk to your salary from the same company. Keep that in mind when sizing ownership bets against your index core.",
+                "fa": "تمرکز روی سهام استارتاپ ریسکی روی ریسک حقوقت از همان شرکت می‌گذارد. هنگام تعیین اندازهٔ شرط‌های مالکیتی در برابر هستهٔ شاخصی‌ات این را در نظر داشته باش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k5",
+              "type": "tap",
+              "source": "b06c3l1p6",
+              "prompt": {
+                "en": "What does a beta above 1 mean?",
+                "fa": "بتای بالاتر از ۱ یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "The share pays no dividend",
+                  "fa": "سهم سود نقدی نمی‌دهد"
+                },
+                {
+                  "en": "The share never falls",
+                  "fa": "سهم هرگز پایین نمی‌آید"
+                },
+                {
+                  "en": "The share swings more than the market",
+                  "fa": "سهم بیشتر از بازار نوسان دارد"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b06c3l2",
+          "title": {
+            "en": "A fitness manual for random walkers",
+            "fa": "برنامهٔ تمرینی برای گام‌زنان تصادفی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 13 and 14, Malkiel's fitness manual and his way to estimate future returns. It matters because these basics come before any choice of fund.",
+                "fa": "این درس فصل‌های ۱۳ و ۱۴ را خلاصه می‌کند: برنامهٔ تمرینی Malkiel و روش او برای تخمین بازده آینده. مهم است چون این پایه‌ها پیش از انتخاب هر صندوقی می‌آیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p2",
+              "text": {
+                "en": "Exercise one: keep a cash reserve for emergencies and buy the insurance you need. Malkiel favours cheap term life insurance over policies mixed with investing.",
+                "fa": "تمرین اول: یک ذخیرهٔ نقدی برای اضطرار نگه دار و بیمه‌ای را که لازم داری بخر. Malkiel بیمهٔ عمر زمان‌دار ارزان را به بیمه‌نامه‌های آمیخته با سرمایه‌گذاری ترجیح می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p3",
+              "text": {
+                "en": "Exercise two: keep your cash competitive, in money-market funds or similar accounts, not in a bank account paying almost nothing.",
+                "fa": "تمرین دوم: پول نقدت را رقابتی نگه دار، در صندوق‌های بازار پول یا حساب‌های مشابه، نه در حساب بانکی‌ای که تقریباً هیچ سودی نمی‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k1",
+              "type": "tf",
+              "source": "b06c3l2p2",
+              "prompt": {
+                "en": "Malkiel's first exercise is to keep a cash reserve for emergencies.",
+                "fa": "تمرین اول Malkiel نگه داشتن ذخیرهٔ نقدی برای اضطرار است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p4",
+              "text": {
+                "en": "Exercise three: dodge the tax collector legally, using tax-advantaged retirement accounts. Every euro not lost to tax keeps compounding for you.",
+                "fa": "تمرین سوم: به‌طور قانونی از مأمور مالیات طفره برو و از حساب‌های بازنشستگی با مزیت مالیاتی استفاده کن. هر یورویی که به مالیات نرود برایت به رشد مرکب ادامه می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p5",
+              "text": {
+                "en": "Exercise four: make sure the shoe fits. Match your investments to your goals, your stage of life and how much risk lets you sleep at night.",
+                "fa": "تمرین چهارم: مطمئن شو کفش اندازهٔ پایت است. سرمایه‌گذاری‌هایت را با هدف‌ها، مرحلهٔ زندگی و میزان ریسکی که اجازه می‌دهد شب راحت بخوابی هماهنگ کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k2",
+              "type": "tap",
+              "source": "b06c3l2p5",
+              "prompt": {
+                "en": "What does 'make sure the shoe fits' mean?",
+                "fa": "«مطمئن شو کفش اندازهٔ پایت است» یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Buy only the cheapest fund available",
+                  "fa": "فقط ارزان‌ترین صندوق موجود را بخر"
+                },
+                {
+                  "en": "Copy what your colleagues hold",
+                  "fa": "همان چیزی را بخر که همکارانت دارند"
+                },
+                {
+                  "en": "Match your investments to your goals and how much risk lets you sleep",
+                  "fa": "سرمایه‌گذاری‌ها را با هدف‌ها و ریسکی که با آن راحت می‌خوابی هماهنگ کن"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p6",
+              "text": {
+                "en": "Exercise five: begin your walk at home. Malkiel sees owning a house as a sound investment for most people, and real estate adds diversification.",
+                "fa": "تمرین پنجم: گام‌زدن را از خانه شروع کن. Malkiel داشتن خانه را برای بیشتر مردم سرمایه‌گذاری درستی می‌داند و ملک به تنوع سبد هم کمک می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p7",
+              "text": {
+                "en": "Exercise six: consider bonds for steady income and treat gold and collectibles with caution. Exercise seven: compare fees, because costs come straight out of returns.",
+                "fa": "تمرین ششم: اوراق قرضه را برای درآمد پایدار در نظر بگیر و با طلا و کلکسیون‌ها محتاط باش. تمرین هفتم: کارمزدها را مقایسه کن، چون هزینه‌ها مستقیم از بازده کم می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p8",
+              "text": {
+                "en": "Exercise eight: diversify. Spread money across asset classes and also across time, investing regularly rather than all at once.",
+                "fa": "تمرین هشتم: تنوع بده. پول را میان طبقات دارایی و همچنین در طول زمان پخش کن و به‌جای یک‌جا، منظم سرمایه‌گذاری کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k3",
+              "type": "tf",
+              "source": "b06c3l2p7",
+              "prompt": {
+                "en": "Malkiel says fees matter little because good funds earn them back.",
+                "fa": "Malkiel می‌گوید کارمزد اهمیت کمی دارد چون صندوق‌های خوب آن را جبران می‌کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p9",
+              "text": {
+                "en": "Chapter 14 gives a simple way to estimate long-run stock returns: the starting dividend yield plus the growth rate of earnings and dividends.",
+                "fa": "فصل ۱۴ راهی ساده برای تخمین بازده بلندمدت سهام می‌دهد: بازده سود نقدی اولیه به‌علاوهٔ نرخ رشد سود و سود نقدی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p10",
+              "text": {
+                "en": "Over shorter periods, a change in valuation, the price-earnings multiple, can swamp that estimate. When starting valuations are high, expect lower future returns.",
+                "fa": "در دوره‌های کوتاه‌تر، تغییر ارزش‌گذاری، یعنی نسبت قیمت به سود، می‌تواند این تخمین را تحت‌الشعاع قرار دهد. وقتی ارزش‌گذاری اولیه بالاست، بازده آیندهٔ کمتری انتظار داشته باش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k4",
+              "type": "tap",
+              "source": "b06c3l2p9",
+              "prompt": {
+                "en": "How does Malkiel estimate long-run stock returns?",
+                "fa": "Malkiel بازده بلندمدت سهام را چطور تخمین می‌زند؟"
+              },
+              "options": [
+                {
+                  "en": "Last year's return times two",
+                  "fa": "بازده پارسال ضرب در دو"
+                },
+                {
+                  "en": "Starting dividend yield plus the growth rate of earnings",
+                  "fa": "بازده سود نقدی اولیه به‌علاوهٔ نرخ رشد سود"
+                },
+                {
+                  "en": "Whatever the chart trend shows",
+                  "fa": "هرچه روند نمودار نشان دهد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p11",
+              "text": {
+                "en": "Build your cash reserve in euros before buying your first ETF in the Netherlands. Several months of expenses is a sensible cushion while you settle in.",
+                "fa": "پیش از خرید اولین ETF در هلند، ذخیرهٔ نقدی‌ات را به یورو بساز. هزینهٔ چند ماه، تا وقتی جا بیفتی، پشتوانهٔ معقولی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p12",
+              "text": {
+                "en": "Then sort the rest by time: money needed within a few years stays safe, and long-term money works toward 25 times your annual expenses.",
+                "fa": "بعد بقیه را بر اساس زمان مرتب کن: پولی که ظرف چند سال لازم داری امن بماند و پول بلندمدت به سمت ۲۵ برابر هزینهٔ سالانه‌ات کار کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k5",
+              "type": "tf",
+              "source": "b06c3l2p10",
+              "prompt": {
+                "en": "When starting valuations are high, Malkiel says to expect higher future returns.",
+                "fa": "Malkiel می‌گوید وقتی ارزش‌گذاری اولیه بالاست، بازده آیندهٔ بیشتری انتظار داشته باش."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b06c3l3",
+          "title": {
+            "en": "The life-cycle guide and rebalancing",
+            "fa": "راهنمای چرخهٔ زندگی و بازتوازن"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 15, the life-cycle guide to investing. It matters because your mix of shares and bonds should change as you move from your 30s toward financial independence.",
+                "fa": "این درس فصل ۱۵، راهنمای چرخهٔ زندگی برای سرمایه‌گذاری، را خلاصه می‌کند. مهم است چون ترکیب سهام و اوراق قرضه‌ات باید از دههٔ ۳۰ زندگی تا استقلال مالی تغییر کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p2",
+              "text": {
+                "en": "Malkiel gives five principles. First, risk and reward are related: higher returns come only by accepting more risk.",
+                "fa": "Malkiel پنج اصل می‌دهد. اول، ریسک و پاداش به هم گره خورده‌اند: بازده بالاتر فقط با پذیرش ریسک بیشتر به دست می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p3",
+              "text": {
+                "en": "Second, the real risk of shares depends on how long you hold them. Over one year returns swing wildly; over 25 years the range narrows sharply.",
+                "fa": "دوم، ریسک واقعی سهام به مدت نگهداری‌اش بستگی دارد. در یک سال بازده‌ها به‌شدت نوسان دارند؛ در ۲۵ سال این دامنه به‌شدت باریک می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k1",
+              "type": "tf",
+              "source": "b06c3l3p3",
+              "prompt": {
+                "en": "Malkiel says the risk of holding shares grows the longer you hold them.",
+                "fa": "Malkiel می‌گوید ریسک نگهداری سهام هرچه بیشتر نگهش داری بیشتر می‌شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p4",
+              "text": {
+                "en": "Third, dollar-cost averaging: invest the same amount at regular intervals. You buy more shares when prices are low and fewer when they are high.",
+                "fa": "سوم، میانگین‌گیری هزینه (dollar-cost averaging): مبلغی ثابت را در فاصله‌های منظم سرمایه‌گذاری کن. وقتی قیمت پایین است سهم بیشتر و وقتی بالاست سهم کمتری می‌خری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p5",
+              "text": {
+                "en": "Fourth, rebalance: once a year, bring your mix of assets back to its target. This lowers risk and can raise returns, since you trim what rose and add to what fell.",
+                "fa": "چهارم، بازتوازن: سالی یک بار ترکیب دارایی‌هایت را به هدفش برگردان. این کار ریسک را کم و می‌تواند بازده را زیاد کند، چون از آنچه بالا رفته کم و به آنچه افتاده اضافه می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k2",
+              "type": "tap",
+              "source": "b06c3l3p5",
+              "prompt": {
+                "en": "How often does Malkiel suggest rebalancing?",
+                "fa": "Malkiel پیشنهاد می‌کند هر چند وقت یک بار بازتوازن کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Every single day",
+                  "fa": "هر روز"
+                },
+                {
+                  "en": "Once a year",
+                  "fa": "سالی یک بار"
+                },
+                {
+                  "en": "Never, let it ride",
+                  "fa": "هرگز، بگذار خودش برود"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p6",
+              "text": {
+                "en": "Fifth, separate your attitude toward risk from your capacity for risk. A young worker with steady pay can afford more risk than someone near retirement.",
+                "fa": "پنجم، نگرشت به ریسک را از توانت برای تحمل ریسک جدا کن. یک کارمند جوان با درآمد ثابت بیشتر از کسی که نزدیک بازنشستگی است توان ریسک دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p7",
+              "text": {
+                "en": "So the right mix depends on your age and income. Young investors can hold mostly shares; as retirement nears, the share of bonds and safer assets rises.",
+                "fa": "پس ترکیب درست به سن و درآمدت بستگی دارد. سرمایه‌گذاران جوان می‌توانند بیشتر سهام داشته باشند؛ با نزدیک شدن بازنشستگی، سهم اوراق قرضه و دارایی‌های امن‌تر بالا می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p8",
+              "text": {
+                "en": "His life-cycle portfolios start heavy in shares in the 20s and shift steadily toward bonds by the late 60s. Target-date funds make this shift automatically.",
+                "fa": "سبدهای چرخهٔ زندگی او در دههٔ ۲۰ پر از سهام شروع می‌شوند و تا اواخر دههٔ ۶۰ به‌تدریج به سمت اوراق قرضه می‌روند. صندوق‌های تاریخ‌هدف (target-date) این جابه‌جایی را خودکار انجام می‌دهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k3",
+              "type": "tap",
+              "source": "b06c3l3p6",
+              "prompt": {
+                "en": "What should you separate when choosing your risk level?",
+                "fa": "هنگام انتخاب سطح ریسک چه چیزهایی را باید از هم جدا کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Your attitude toward risk from your capacity for risk",
+                  "fa": "نگرشت به ریسک از توانت برای تحمل ریسک"
+                },
+                {
+                  "en": "Your salary from your bonus",
+                  "fa": "حقوقت از پاداشت"
+                },
+                {
+                  "en": "Bonds from cash savings",
+                  "fa": "اوراق قرضه از پس‌انداز نقدی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p9",
+              "text": {
+                "en": "In retirement, Malkiel suggests spending about 4 percent of your portfolio a year so it can last. Spending much more risks running out.",
+                "fa": "در بازنشستگی، Malkiel پیشنهاد می‌کند سالانه حدود ۴ درصد از سبدت را خرج کنی تا دوام بیاورد. خرج خیلی بیشتر خطر تمام شدن پول را دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p10",
+              "text": {
+                "en": "The guide is a starting point, not a formula. Adjust it for a pension, a home, other income and how well you sleep in a crash.",
+                "fa": "این راهنما نقطهٔ شروع است، نه فرمول. آن را با توجه به مستمری، خانه، درآمدهای دیگر و اینکه در سقوط بازار چقدر راحت می‌خوابی تنظیم کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k4",
+              "type": "tf",
+              "source": "b06c3l3p4",
+              "prompt": {
+                "en": "Dollar-cost averaging means buying more shares when prices are low and fewer when they are high.",
+                "fa": "میانگین‌گیری هزینه یعنی وقتی قیمت پایین است سهم بیشتر و وقتی بالاست سهم کمتری بخری."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p11",
+              "text": {
+                "en": "In your 30s with a steady tech salary, Malkiel's guide points to a share-heavy mix. Write your own target split in your journal and rebalance to it once a year.",
+                "fa": "در دههٔ ۳۰ با یک حقوق ثابت فنی، راهنمای Malkiel به ترکیبی پر از سهام اشاره می‌کند. نسبت هدف خودت را در دفترت بنویس و سالی یک بار به آن بازتوازن کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p12",
+              "text": {
+                "en": "Your quarterly net-worth log shows when the mix has drifted. Rebalancing with new monthly savings avoids selling and keeps costs low.",
+                "fa": "ثبت فصلی دارایی خالص نشان می‌دهد ترکیب کی از هدف دور شده است. بازتوازن با پس‌انداز ماهانهٔ تازه نیاز به فروش را از بین می‌برد و هزینه‌ها را پایین نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k5",
+              "type": "tap",
+              "source": "b06c3l3p3",
+              "prompt": {
+                "en": "Over which period does the range of share returns narrow sharply?",
+                "fa": "دامنهٔ بازده سهام در کدام دوره به‌شدت باریک می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Over one year",
+                  "fa": "در یک سال"
+                },
+                {
+                  "en": "Over 25 years",
+                  "fa": "در ۲۵ سال"
+                },
+                {
+                  "en": "Over one week",
+                  "fa": "در یک هفته"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b06c3l4",
+          "title": {
+            "en": "Index funds and three giant steps",
+            "fa": "صندوق‌های شاخصی و سه گام بزرگ"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b06c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 16, Malkiel's three giant steps down Wall Street, and his case for index funds. It matters because this is the core of your roadmap: 80 percent in broad index ETFs.",
+                "fa": "این درس فصل ۱۶ را خلاصه می‌کند: سه گام بزرگ Malkiel در Wall Street و استدلالش برای صندوق‌های شاخصی. مهم است چون این هستهٔ نقشهٔ راه توست: ۸۰ درصد در ETFهای شاخصی گسترده."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p2",
+              "text": {
+                "en": "In the 1973 first edition, Malkiel called for a fund that simply bought the whole market, though none existed for the public. Vanguard launched the first retail index fund in 1976.",
+                "fa": "Malkiel در ویرایش اول ۱۹۷۳ خواستار صندوقی شد که فقط کل بازار را بخرد، در حالی که چنین صندوقی برای عموم وجود نداشت. Vanguard نخستین صندوق شاخصی برای عموم را در ۱۹۷۶ راه انداخت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p3",
+              "text": {
+                "en": "Step one, the no-brainer step: buy a broad index fund that owns the whole market. Malkiel prefers a total-market fund to one tracking only the S&P 500.",
+                "fa": "گام اول، گام بی‌دردسر: یک صندوق شاخصی گسترده بخر که کل بازار را دارد. Malkiel صندوق کل بازار را به صندوقی که فقط S&P 500 را دنبال می‌کند ترجیح می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k1",
+              "type": "tap",
+              "source": "b06c3l4p2",
+              "prompt": {
+                "en": "When did Vanguard launch the first retail index fund?",
+                "fa": "Vanguard نخستین صندوق شاخصی برای عموم را کی راه انداخت؟"
+              },
+              "options": [
+                {
+                  "en": "1973",
+                  "fa": "۱۹۷۳"
+                },
+                {
+                  "en": "1976",
+                  "fa": "۱۹۷۶"
+                },
+                {
+                  "en": "2000",
+                  "fa": "۲۰۰۰"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p4",
+              "text": {
+                "en": "Index funds win on cost: they charge tiny fees and trade little. Year after year, most active funds lose to them after costs.",
+                "fa": "صندوق‌های شاخصی در هزینه برنده‌اند: کارمزد ناچیزی می‌گیرند و کم معامله می‌کنند. سال به سال، بیشتر صندوق‌های فعال پس از هزینه‌ها به آن‌ها می‌بازند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p5",
+              "text": {
+                "en": "They are also tax-efficient, since low turnover means fewer taxable gains, and they spare you the work of picking. That simplicity is the point.",
+                "fa": "از نظر مالیاتی هم کارآمدند، چون گردش کم یعنی سودهای مشمول مالیات کمتر، و زحمت انتخاب سهم را از دوشت برمی‌دارند. نکته همین سادگی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k2",
+              "type": "tf",
+              "source": "b06c3l4p4",
+              "prompt": {
+                "en": "Index funds charge tiny fees and trade little.",
+                "fa": "صندوق‌های شاخصی کارمزد ناچیزی می‌گیرند و کم معامله می‌کنند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p6",
+              "text": {
+                "en": "Step two, the deep-thinker step: pick stocks yourself if you insist, following four rules.",
+                "fa": "گام دوم، گام متفکرانه: اگر اصرار داری خودت سهم انتخاب کنی، چهار قاعده را دنبال کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p7",
+              "text": {
+                "en": "Rule one: buy firms able to grow earnings faster than average for five or more years. Rule two: never pay more than a firm foundation of value.",
+                "fa": "قاعدهٔ اول: شرکت‌هایی بخر که بتوانند پنج سال یا بیشتر سریع‌تر از میانگین سودشان را رشد دهند. قاعدهٔ دوم: هرگز بیشتر از بنیان محکم ارزش نپرداز."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p8",
+              "text": {
+                "en": "Rule three: look for growth stories on which the crowd can build castles in the air. Rule four: trade as little as possible.",
+                "fa": "قاعدهٔ سوم: دنبال داستان‌های رشدی باش که جمعیت بتواند روی آن‌ها قصر در هوا بسازد. قاعدهٔ چهارم: تا جای ممکن کم معامله کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k3",
+              "type": "tap",
+              "source": "b06c3l4p8",
+              "prompt": {
+                "en": "What is Malkiel's fourth rule for picking stocks?",
+                "fa": "قاعدهٔ چهارم Malkiel برای انتخاب سهم چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Trade as little as possible",
+                  "fa": "تا جای ممکن کم معامله کن"
+                },
+                {
+                  "en": "Buy every new issue",
+                  "fa": "هر عرضهٔ اولیه‌ای را بخر"
+                },
+                {
+                  "en": "Follow analyst upgrades",
+                  "fa": "از ارتقای رتبهٔ تحلیلگران پیروی کن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p9",
+              "text": {
+                "en": "Step three, the substitute-player step: hire a professional manager. Malkiel's advice is to choose low-cost funds, since past winners rarely stay winners.",
+                "fa": "گام سوم، گام بازیکن جانشین: یک مدیر حرفه‌ای استخدام کن. توصیهٔ Malkiel انتخاب صندوق‌های کم‌هزینه است، چون برنده‌های گذشته به‌ندرت برنده می‌مانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p10",
+              "text": {
+                "en": "Costs compound like returns. A 1 percent yearly fee can take about a fifth of your wealth over 25 years, money that would have kept growing for you.",
+                "fa": "هزینه‌ها هم مثل بازده مرکب می‌شوند. کارمزد سالانهٔ ۱ درصدی می‌تواند در ۲۵ سال حدود یک‌پنجم ثروتت را ببرد، پولی که می‌توانست برایت رشد کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k4",
+              "type": "tf",
+              "source": "b06c3l4p10",
+              "prompt": {
+                "en": "A 1 percent yearly fee makes little difference over 25 years.",
+                "fa": "کارمزد سالانهٔ ۱ درصدی در ۲۵ سال تفاوت چندانی ایجاد نمی‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p11",
+              "text": {
+                "en": "Malkiel's compromise: keep the core of your portfolio in index funds and, if you enjoy it, play with a smaller part. That is the core-satellite approach.",
+                "fa": "راه میانهٔ Malkiel: هستهٔ سبدت را در صندوق‌های شاخصی نگه دار و اگر لذت می‌بری، با بخش کوچک‌تری بازی کن. این همان رویکرد هسته‌ـاقمار (core-satellite) است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p12",
+              "text": {
+                "en": "For you, that means a core in VWCE or IWDA through DEGIRO or Interactive Brokers, with any stock picking in a small satellite. Then let compounding run toward 25 times expenses.",
+                "fa": "برای تو یعنی هسته‌ای در VWCE یا IWDA از طریق DEGIRO یا Interactive Brokers و هر سهم‌چینی در یک بخش اقماری کوچک. بعد بگذار رشد مرکب تا ۲۵ برابر هزینه‌ها پیش برود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k5",
+              "type": "tap",
+              "source": "b06c3l4p11",
+              "prompt": {
+                "en": "What is Malkiel's compromise for people who enjoy picking stocks?",
+                "fa": "راه میانهٔ Malkiel برای کسانی که از انتخاب سهم لذت می‌برند چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Put everything in one favourite stock",
+                  "fa": "همه را در یک سهم محبوب بگذار"
+                },
+                {
+                  "en": "Sell all index funds in a crash",
+                  "fa": "در سقوط همهٔ صندوق‌های شاخصی را بفروش"
+                },
+                {
+                  "en": "Keep the core in index funds and play with a smaller part",
+                  "fa": "هسته را در صندوق‌های شاخصی نگه دار و با بخش کوچک‌تری بازی کن"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

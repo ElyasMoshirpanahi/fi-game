@@ -1,0 +1,2428 @@
+{
+  "id": "b10",
+  "title": "Financial Intelligence",
+  "author": {
+    "en": "Karen Berman and Joe Knight with John Case",
+    "fa": "Karen Berman and Joe Knight with John Case"
+  },
+  "year": 2006,
+  "stage": 3,
+  "must": true,
+  "why": {
+    "en": "Financial statements for the non-financial manager; essential for a CTO",
+    "fa": "صورت‌های مالی برای مدیر غیرمالی؛ برای CTO ضروری"
+  },
+  "badge": {
+    "en": "Profit Is Not Cash",
+    "fa": "سود، نقد نیست"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b10c1",
+      "title": {
+        "en": "The art of finance and the income statement",
+        "fa": "هنر مالی و صورت سود و زیان"
+      },
+      "lessons": [
+        {
+          "id": "b10c1l1",
+          "title": {
+            "en": "Financial intelligence and the art of finance",
+            "fa": "هوش مالی و هنر مالی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the introduction and Part 1, chapters 1 to 3: why numbers rest on judgment. As a CTO weighing startup equity, you will be handed numbers, and this is how you learn to question them.",
+                "fa": "این درس مقدمه و بخش ۱، فصل‌های ۱ تا ۳ را خلاصه می‌کند: چرا اعداد بر قضاوت استوارند. به‌عنوان CTO که سهام استارتاپ را می‌سنجد، اعدادی جلویت می‌گذارند و این‌جا یاد می‌گیری چطور درباره‌شان سؤال کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p2",
+              "text": {
+                "en": "Karen Berman and Joe Knight run the Business Literacy Institute, which teaches finance to managers who are not accountants. John Case, a writer on open-book management, joined them on the book.",
+                "fa": "Karen Berman و Joe Knight مؤسسهٔ Business Literacy Institute را اداره می‌کنند که به مدیران غیرحسابدار مالی یاد می‌دهد. John Case، نویسنده‌ای در حوزهٔ مدیریت کتاب‌باز (open-book management)، در نوشتن کتاب به آن‌ها پیوست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p3",
+              "text": {
+                "en": "The authors define financial intelligence as four skill sets: understanding the foundation, understanding the art, understanding analysis and understanding the big picture.",
+                "fa": "نویسندگان هوش مالی را چهار مجموعه مهارت می‌دانند: فهم پایه‌ها، فهم هنر، فهم تحلیل و فهم تصویر بزرگ."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k1",
+              "type": "tap",
+              "source": "b10c1l1p3",
+              "prompt": {
+                "en": "Which of these is one of the four skill sets of financial intelligence?",
+                "fa": "کدام‌یک از این‌ها یکی از چهار مهارت هوش مالی است؟"
+              },
+              "options": [
+                {
+                  "en": "Memorizing tax law",
+                  "fa": "حفظ کردن قانون مالیات"
+                },
+                {
+                  "en": "Understanding the art",
+                  "fa": "فهم هنر"
+                },
+                {
+                  "en": "Predicting stock prices",
+                  "fa": "پیش‌بینی قیمت سهام"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p4",
+              "text": {
+                "en": "The foundation is the basics: the income statement, the balance sheet and the cash flow statement, and what each one measures.",
+                "fa": "پایه‌ها یعنی اصول اولیه: صورت سود و زیان، ترازنامه و صورت جریان وجوه نقد، و این‌که هرکدام چه چیزی را می‌سنجد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p5",
+              "text": {
+                "en": "The art is the part most managers miss: accountants and finance people must use estimates and judgment to turn messy reality into neat numbers.",
+                "fa": "هنر بخشی است که بیشتر مدیران نمی‌بینند: حسابداران و مالی‌ها باید با برآورد و قضاوت، واقعیت درهم‌ریخته را به اعداد مرتب تبدیل کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k2",
+              "type": "tf",
+              "source": "b10c1l1p5",
+              "prompt": {
+                "en": "Financial statements are pure measurement, with no estimates or judgment involved.",
+                "fa": "صورت‌های مالی اندازه‌گیری خالص‌اند و هیچ برآورد یا قضاوتی در آن‌ها نیست."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p6",
+              "text": {
+                "en": "Analysis means using the numbers, through ratios, return on investment and the like, to understand the business better and make decisions.",
+                "fa": "تحلیل یعنی به کار بردن اعداد، از راه نسبت‌ها، بازده سرمایه‌گذاری و مانند آن‌ها، برای فهم بهتر کسب‌وکار و تصمیم‌گیری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p7",
+              "text": {
+                "en": "The big picture is the context: the economy, competitors, regulation and customer needs all shape how a company's numbers should be read.",
+                "fa": "تصویر بزرگ یعنی بافت: اقتصاد، رقبا، مقررات و نیاز مشتریان همه بر این‌که اعداد یک شرکت را چطور باید خواند اثر می‌گذارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p8",
+              "text": {
+                "en": "Chapter 1 warns that you can't always trust the numbers. Not because finance people lie, but because every figure carries assumptions you cannot see.",
+                "fa": "فصل ۱ هشدار می‌دهد که همیشه نمی‌توان به اعداد اعتماد کرد. نه چون مالی‌ها دروغ می‌گویند، بلکه چون هر عدد فرض‌هایی در خود دارد که تو نمی‌بینی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k3",
+              "type": "tap",
+              "source": "b10c1l1p8",
+              "prompt": {
+                "en": "Why, according to chapter 1, can't you always trust the numbers?",
+                "fa": "طبق فصل ۱، چرا همیشه نمی‌توان به اعداد اعتماد کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Every figure carries assumptions you cannot see",
+                  "fa": "هر عدد فرض‌هایی در خود دارد که نمی‌بینی"
+                },
+                {
+                  "en": "Finance people usually lie",
+                  "fa": "مالی‌ها معمولاً دروغ می‌گویند"
+                },
+                {
+                  "en": "Computers make arithmetic errors",
+                  "fa": "کامپیوترها اشتباه حسابی می‌کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p9",
+              "text": {
+                "en": "Chapter 2 shows where assumptions hide: when revenue is recognized, how long equipment is assumed to last, and how much cost is accrued before a bill arrives.",
+                "fa": "فصل ۲ نشان می‌دهد فرض‌ها کجا پنهان‌اند: درآمد کی شناسایی می‌شود، فرض می‌شود تجهیزات چند سال دوام می‌آورند، و پیش از رسیدن صورت‌حساب چه مقدار هزینه به‌صورت تعهدی ثبت می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p10",
+              "text": {
+                "en": "Estimates also bend with bias. A public company may want profit to look high for investors, while a private firm may prefer it low to reduce taxes.",
+                "fa": "برآوردها با سوگیری هم خم می‌شوند. یک شرکت سهامی عام شاید بخواهد سود برای سرمایه‌گذاران بالا به نظر برسد، در حالی که یک شرکت خصوصی شاید ترجیح دهد پایین باشد تا مالیات کمتری بدهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k4",
+              "type": "tf",
+              "source": "b10c1l1p10",
+              "prompt": {
+                "en": "The book says every company always wants its reported profit to look as high as possible.",
+                "fa": "کتاب می‌گوید هر شرکتی همیشه می‌خواهد سود گزارش‌شده‌اش تا حد ممکن بالا باشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p11",
+              "text": {
+                "en": "Chapter 3 argues that financially literate managers make better decisions, can judge their company's health and can challenge the finance team with confidence.",
+                "fa": "فصل ۳ استدلال می‌کند مدیرانی که سواد مالی دارند تصمیم‌های بهتری می‌گیرند، سلامت شرکتشان را می‌سنجند و می‌توانند با اطمینان از تیم مالی سؤال کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p12",
+              "text": {
+                "en": "Applied: when a founder shows you a profit figure for the startup, ask which estimates sit behind it. That question is financial intelligence in action, not distrust.",
+                "fa": "کاربردی: وقتی بنیان‌گذاری عدد سود استارتاپ را نشانت می‌دهد، بپرس چه برآوردهایی پشت آن است. این پرسش هوش مالی در عمل است، نه بی‌اعتمادی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k5",
+              "type": "tf",
+              "source": "b10c1l1p12",
+              "prompt": {
+                "en": "Asking which estimates sit behind a profit figure is a sign of financial intelligence.",
+                "fa": "پرسیدن این‌که چه برآوردهایی پشت عدد سود است، نشانهٔ هوش مالی است."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b10c1l2",
+          "title": {
+            "en": "The rules accountants follow",
+            "fa": "قواعدی که حسابداران دنبال می‌کنند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 4 and the Part 1 toolbox: the rules behind the statements and how they get abused. Knowing them helps you read any company you might join.",
+                "fa": "این درس فصل ۴ و جعبه‌ابزار بخش ۱ را خلاصه می‌کند: قواعد پشت صورت‌های مالی و این‌که چطور از آن‌ها سوءاستفاده می‌شود. دانستنشان کمکت می‌کند هر شرکتی را که شاید به آن بپیوندی بخوانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p2",
+              "text": {
+                "en": "In the United States the rules are GAAP, generally accepted accounting principles. They set a framework, but they leave plenty of room for judgment within it.",
+                "fa": "در آمریکا این قواعد GAAP هستند، یعنی اصول پذیرفته‌شدهٔ حسابداری. آن‌ها چارچوبی می‌سازند، اما درون آن جای زیادی برای قضاوت باقی می‌گذارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p3",
+              "text": {
+                "en": "The authors' point is that managers need to grasp the main principles and where judgment enters, not memorize every rule in the book.",
+                "fa": "حرف نویسندگان این است که مدیران باید اصول اصلی و جایی را که قضاوت وارد می‌شود بفهمند، نه این‌که همهٔ قواعد را حفظ کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k1",
+              "type": "tf",
+              "source": "b10c1l2p2",
+              "prompt": {
+                "en": "GAAP leaves no room for judgment.",
+                "fa": "GAAP هیچ جایی برای قضاوت باقی نمی‌گذارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p4",
+              "text": {
+                "en": "One principle is conservatism: when in doubt, accountants tend to understate profit and assets rather than overstate them.",
+                "fa": "یکی از اصول محافظه‌کاری است: در صورت تردید، حسابداران ترجیح می‌دهند سود و دارایی‌ها را کمتر نشان دهند تا بیشتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p5",
+              "text": {
+                "en": "Another is the matching principle: costs are matched to the revenue they help produce in the same period, not to the day the money is spent.",
+                "fa": "اصل دیگر اصل تطابق است: هزینه‌ها با درآمدی که به تولیدش کمک می‌کنند در همان دوره تطبیق داده می‌شوند، نه با روزی که پول خرج می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k2",
+              "type": "tap",
+              "source": "b10c1l2p5",
+              "prompt": {
+                "en": "What does the matching principle match?",
+                "fa": "اصل تطابق چه چیزی را با چه چیزی تطبیق می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Cash spent to cash received on the same day",
+                  "fa": "نقد خرج‌شده با نقد دریافتی در همان روز"
+                },
+                {
+                  "en": "Costs to the revenue they help produce in the same period",
+                  "fa": "هزینه‌ها با درآمدی که به تولیدش کمک می‌کنند در همان دوره"
+                },
+                {
+                  "en": "Assets to liabilities on the balance sheet",
+                  "fa": "دارایی‌ها با بدهی‌ها در ترازنامه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p6",
+              "text": {
+                "en": "Judgment can turn into fraud. The authors discuss scandals such as Enron and WorldCom, where the numbers were bent far past any honest estimate.",
+                "fa": "قضاوت می‌تواند به تقلب تبدیل شود. نویسندگان رسوایی‌هایی مثل Enron و WorldCom را بررسی می‌کنند که در آن‌ها اعداد خیلی فراتر از هر برآورد صادقانه‌ای خم شدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p7",
+              "text": {
+                "en": "WorldCom recorded billions of dollars of ordinary operating costs as capital expenditures. That moved costs off the income statement and inflated profit.",
+                "fa": "WorldCom میلیاردها دلار هزینهٔ عملیاتی عادی را به‌عنوان مخارج سرمایه‌ای ثبت کرد. این کار هزینه‌ها را از صورت سود و زیان بیرون برد و سود را باد کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p8",
+              "text": {
+                "en": "After those scandals, the Sarbanes-Oxley Act of 2002 made top executives certify their financial statements and tightened internal controls.",
+                "fa": "پس از این رسوایی‌ها، قانون Sarbanes-Oxley در سال ۲۰۰۲ مدیران ارشد را ملزم کرد صورت‌های مالی را تأیید کنند و کنترل‌های داخلی را سخت‌تر کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k3",
+              "type": "tf",
+              "source": "b10c1l2p7",
+              "prompt": {
+                "en": "WorldCom inflated profit by booking ordinary costs as capital expenditures.",
+                "fa": "WorldCom با ثبت هزینه‌های عادی به‌عنوان مخارج سرمایه‌ای، سود را باد کرد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p9",
+              "text": {
+                "en": "Most companies are honest, the authors stress, but honest people still make different, defensible choices. So the same business can report different profits.",
+                "fa": "نویسندگان تأکید می‌کنند بیشتر شرکت‌ها صادق‌اند، اما آدم‌های صادق هم انتخاب‌های متفاوت و قابل دفاعی می‌کنند. پس یک کسب‌وکار واحد می‌تواند سودهای متفاوتی گزارش کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p10",
+              "text": {
+                "en": "Public companies also publish notes to the financial statements. The notes explain the methods and assumptions, and many judgment calls are disclosed there.",
+                "fa": "شرکت‌های سهامی عام یادداشت‌های صورت‌های مالی را هم منتشر می‌کنند. این یادداشت‌ها روش‌ها و فرض‌ها را توضیح می‌دهند و بسیاری از قضاوت‌ها آن‌جا افشا می‌شوند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k4",
+              "type": "tap",
+              "source": "b10c1l2p10",
+              "prompt": {
+                "en": "Where do public companies explain the methods and assumptions behind their numbers?",
+                "fa": "شرکت‌های سهامی عام روش‌ها و فرض‌های پشت اعدادشان را کجا توضیح می‌دهند؟"
+              },
+              "options": [
+                {
+                  "en": "In the press release headline",
+                  "fa": "در تیتر بیانیهٔ مطبوعاتی"
+                },
+                {
+                  "en": "In the CEO's letter",
+                  "fa": "در نامهٔ مدیرعامل"
+                },
+                {
+                  "en": "In the notes to the financial statements",
+                  "fa": "در یادداشت‌های صورت‌های مالی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p11",
+              "text": {
+                "en": "The finance department has distinct roles: bookkeepers and accountants record transactions, the controller runs the books, and the CFO looks ahead at strategy and capital.",
+                "fa": "واحد مالی نقش‌های جدا دارد: دفتردارها و حسابداران تراکنش‌ها را ثبت می‌کنند، کنترلر دفاتر را اداره می‌کند و CFO به آینده، استراتژی و سرمایه نگاه می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p12",
+              "text": {
+                "en": "Applied: when you read a startup's numbers before taking equity, ask which methods they use for revenue and capitalized costs. Two honest answers can tell very different stories.",
+                "fa": "کاربردی: وقتی پیش از گرفتن سهام اعداد یک استارتاپ را می‌خوانی، بپرس برای درآمد و هزینه‌های سرمایه‌ای‌شده از چه روشی استفاده می‌کنند. دو پاسخ صادقانه می‌توانند داستان‌های بسیار متفاوتی بگویند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k5",
+              "type": "tf",
+              "source": "b10c1l2p12",
+              "prompt": {
+                "en": "Before taking equity, it is worth asking which revenue method a startup uses.",
+                "fa": "پیش از گرفتن سهام، ارزش دارد بپرسی استارتاپ از چه روشی برای درآمد استفاده می‌کند."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b10c1l3",
+          "title": {
+            "en": "Revenue and costs: profit is an estimate",
+            "fa": "درآمد و هزینه‌ها: سود یک برآورد است"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 5 to 8 of Part 2, the income statement. Your AI product's first profit will be an estimate too, so you should know which parts are judgment.",
+                "fa": "این درس فصل‌های ۵ تا ۸ از بخش ۲، صورت سود و زیان، را خلاصه می‌کند. اولین سود محصول AI تو هم یک برآورد خواهد بود، پس باید بدانی کدام بخش‌هایش قضاوت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p2",
+              "text": {
+                "en": "Chapter 5's message is in its title: profit is an estimate. The income statement tries to show the revenue earned in a period and the costs incurred to earn it.",
+                "fa": "پیام فصل ۵ در عنوانش است: سود یک برآورد است. صورت سود و زیان می‌کوشد درآمد کسب‌شده در یک دوره و هزینه‌های لازم برای کسب آن را نشان دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p3",
+              "text": {
+                "en": "The income statement goes by other names: profit and loss statement, P&L, statement of operations or earnings statement. They all mean the same report.",
+                "fa": "صورت سود و زیان نام‌های دیگری هم دارد: P&L، صورت عملیات یا صورت درآمد. همهٔ این‌ها یک گزارش‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k1",
+              "type": "tf",
+              "source": "b10c1l3p3",
+              "prompt": {
+                "en": "A P&L and an income statement are two different reports.",
+                "fa": "P&L و صورت سود و زیان دو گزارش متفاوت‌اند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p4",
+              "text": {
+                "en": "Read it top to bottom: revenue first, then cost of goods sold, then operating expenses, then interest and taxes, and finally net profit on the bottom line.",
+                "fa": "آن را از بالا به پایین بخوان: اول درآمد، بعد بهای تمام‌شدهٔ کالای فروش‌رفته، بعد هزینه‌های عملیاتی، بعد بهره و مالیات، و در آخر سود خالص در خط پایانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p5",
+              "text": {
+                "en": "Chapter 7 says the issue with revenue is recognition: a sale is booked when the product or service is delivered, not when the customer signs or pays.",
+                "fa": "فصل ۷ می‌گوید مسئلهٔ درآمد، شناسایی است: فروش وقتی ثبت می‌شود که کالا یا خدمت تحویل شده، نه وقتی مشتری امضا یا پرداخت می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k2",
+              "type": "tap",
+              "source": "b10c1l3p5",
+              "prompt": {
+                "en": "When is a sale recognized as revenue?",
+                "fa": "فروش چه زمانی به‌عنوان درآمد شناسایی می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "When the customer signs",
+                  "fa": "وقتی مشتری امضا می‌کند"
+                },
+                {
+                  "en": "When the product or service is delivered",
+                  "fa": "وقتی کالا یا خدمت تحویل شده"
+                },
+                {
+                  "en": "When the cash is in the bank",
+                  "fa": "وقتی پول در بانک است"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p6",
+              "text": {
+                "en": "Revenue recognition is a favourite place for games. Booking sales too early, before delivery, makes a period look better than it was.",
+                "fa": "شناسایی درآمد جای محبوبی برای بازی با اعداد است. ثبت فروش زودتر از موعد، پیش از تحویل، یک دوره را بهتر از آن‌چه بوده نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p7",
+              "text": {
+                "en": "Chapter 8 splits costs into cost of goods sold, the direct costs of making what you sell, and operating expenses such as sales, marketing and administration.",
+                "fa": "فصل ۸ هزینه‌ها را به بهای تمام‌شدهٔ کالای فروش‌رفته، یعنی هزینه‌های مستقیم ساختن آن‌چه می‌فروشی، و هزینه‌های عملیاتی مثل فروش، بازاریابی و اداری تقسیم می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k3",
+              "type": "tap",
+              "source": "b10c1l3p7",
+              "prompt": {
+                "en": "What does the book call the direct costs of making what you sell?",
+                "fa": "کتاب هزینه‌های مستقیم ساختن آن‌چه می‌فروشی را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "Cost of goods sold",
+                  "fa": "بهای تمام‌شدهٔ کالای فروش‌رفته"
+                },
+                {
+                  "en": "Operating expenses",
+                  "fa": "هزینه‌های عملیاتی"
+                },
+                {
+                  "en": "Retained earnings",
+                  "fa": "سود انباشته"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p8",
+              "text": {
+                "en": "Which costs go into cost of goods sold is itself a judgment. Moving an item between the two buckets changes gross profit without changing the business.",
+                "fa": "این‌که کدام هزینه در بهای تمام‌شده قرار بگیرد خودش یک قضاوت است. جابه‌جا کردن یک قلم بین این دو سبد، سود ناخالص را بدون تغییر کسب‌وکار عوض می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p9",
+              "text": {
+                "en": "Depreciation spreads the cost of a long-lived asset, such as a machine or a server, over its useful life instead of expensing it all at once.",
+                "fa": "استهلاک هزینهٔ یک دارایی بلندمدت، مثل یک ماشین یا سرور، را به‌جای ثبت یک‌جا، روی عمر مفیدش پخش می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p10",
+              "text": {
+                "en": "Choosing that useful life is an estimate. Stretching a machine's assumed life from three years to five lowers yearly depreciation and raises reported profit.",
+                "fa": "انتخاب این عمر مفید یک برآورد است. کش دادن عمر فرضی یک ماشین از سه به پنج سال، استهلاک سالانه را کم و سود گزارش‌شده را زیاد می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k4",
+              "type": "tf",
+              "source": "b10c1l3p10",
+              "prompt": {
+                "en": "Assuming a longer useful life for equipment raises reported profit.",
+                "fa": "فرض عمر مفید طولانی‌تر برای تجهیزات، سود گزارش‌شده را بالا می‌برد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p11",
+              "text": {
+                "en": "Amortization does the same for intangible assets such as patents. Accruals record costs, like a bonus, in the period they belong to, even before they are paid.",
+                "fa": "استهلاک دارایی‌های نامشهود (amortization) همین کار را برای دارایی‌هایی مثل حق اختراع می‌کند. اقلام تعهدی (accruals) هزینه‌هایی مثل پاداش را در دوره‌ای که به آن تعلق دارند ثبت می‌کنند، حتی پیش از پرداخت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p12",
+              "text": {
+                "en": "Applied: if you pay a year of GPU credits up front for your product, accrual thinking spreads that cost over the twelve months it serves, not the month you paid.",
+                "fa": "کاربردی: اگر برای محصولت اعتبار GPU یک سال را پیش‌پرداخت کنی، منطق تعهدی آن هزینه را روی دوازده ماهی که از آن استفاده می‌شود پخش می‌کند، نه ماهی که پرداخت کردی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k5",
+              "type": "tf",
+              "source": "b10c1l3p12",
+              "prompt": {
+                "en": "Under accrual thinking, a year of credits paid up front is all a cost of the month you paid.",
+                "fa": "در منطق تعهدی، اعتبار یک سالِ پیش‌پرداخت‌شده تماماً هزینهٔ ماهی است که پرداخت کردی."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b10c1l4",
+          "title": {
+            "en": "The many forms of profit",
+            "fa": "شکل‌های گوناگون سود"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 9 and the Part 2 toolbox: gross, operating and net profit. Each level tells you something different about a business, including one you might help build.",
+                "fa": "این درس فصل ۹ و جعبه‌ابزار بخش ۲ را خلاصه می‌کند: سود ناخالص، عملیاتی و خالص. هر سطح چیز متفاوتی دربارهٔ یک کسب‌وکار می‌گوید، از جمله کسب‌وکاری که شاید تو در ساختنش سهیم باشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p2",
+              "text": {
+                "en": "Gross profit is revenue minus cost of goods sold. It shows how much each sale leaves over to pay for everything else in the company.",
+                "fa": "سود ناخالص برابر است با درآمد منهای بهای تمام‌شدهٔ کالای فروش‌رفته. نشان می‌دهد هر فروش چقدر برای پرداخت بقیهٔ هزینه‌های شرکت باقی می‌گذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p3",
+              "text": {
+                "en": "Operating profit, also called operating income or EBIT, is gross profit minus operating expenses. It shows how well the business itself runs, before financing and taxes.",
+                "fa": "سود عملیاتی، که به آن EBIT هم می‌گویند، برابر است با سود ناخالص منهای هزینه‌های عملیاتی. نشان می‌دهد خود کسب‌وکار، پیش از تأمین مالی و مالیات، چقدر خوب اداره می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k1",
+              "type": "tap",
+              "source": "b10c1l4p3",
+              "prompt": {
+                "en": "What is operating profit also called?",
+                "fa": "سود عملیاتی چه نام دیگری دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Gross margin",
+                  "fa": "حاشیهٔ ناخالص"
+                },
+                {
+                  "en": "Retained earnings",
+                  "fa": "سود انباشته"
+                },
+                {
+                  "en": "EBIT",
+                  "fa": "EBIT"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p4",
+              "text": {
+                "en": "Net profit, the bottom line, is what remains after interest and taxes. It is the profit that belongs to the owners.",
+                "fa": "سود خالص، خط پایانی، چیزی است که پس از بهره و مالیات می‌ماند. این سودی است که به مالکان تعلق دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p5",
+              "text": {
+                "en": "EBITDA adds depreciation and amortization back to operating profit. It is popular as a rough gauge of cash-generating power, but it is not cash flow.",
+                "fa": "EBITDA استهلاک را به سود عملیاتی برمی‌گرداند. به‌عنوان سنجهٔ تقریبی توان تولید نقد محبوب است، اما جریان نقدی نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k2",
+              "type": "tf",
+              "source": "b10c1l4p4",
+              "prompt": {
+                "en": "Net profit is what remains after interest and taxes.",
+                "fa": "سود خالص چیزی است که پس از بهره و مالیات می‌ماند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p6",
+              "text": {
+                "en": "Percent-of-sales analysis divides each line by revenue. It shows at a glance whether costs are growing faster than sales.",
+                "fa": "تحلیل درصد از فروش هر قلم را بر درآمد تقسیم می‌کند. با یک نگاه نشان می‌دهد آیا هزینه‌ها سریع‌تر از فروش رشد می‌کنند یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p7",
+              "text": {
+                "en": "Variance analysis compares actual results with the budget or with last year. A big variance is a question to ask, not automatically a problem.",
+                "fa": "تحلیل انحراف نتایج واقعی را با بودجه یا سال قبل مقایسه می‌کند. یک انحراف بزرگ سؤالی برای پرسیدن است، نه خودبه‌خود یک مشکل."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k3",
+              "type": "tf",
+              "source": "b10c1l4p7",
+              "prompt": {
+                "en": "In variance analysis, every big variance is automatically a problem.",
+                "fa": "در تحلیل انحراف، هر انحراف بزرگی خودبه‌خود یک مشکل است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p8",
+              "text": {
+                "en": "Comparing periods matters: one income statement says little, while a run of them shows trends in margins and costs.",
+                "fa": "مقایسهٔ دوره‌ها مهم است: یک صورت سود و زیان چیز زیادی نمی‌گوید، اما مجموعه‌ای از آن‌ها روند حاشیه‌ها و هزینه‌ها را نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p9",
+              "text": {
+                "en": "Nonoperating items, such as a one-time gain from selling a building, can lift net profit without saying anything about the core business.",
+                "fa": "اقلام غیرعملیاتی، مثل سود یک‌بارهٔ فروش یک ساختمان، می‌توانند سود خالص را بالا ببرند بی‌آن‌که چیزی دربارهٔ کسب‌وکار اصلی بگویند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p10",
+              "text": {
+                "en": "For a service or software company, cost of goods sold is often called cost of services or cost of revenue, such as hosting and support.",
+                "fa": "در یک شرکت خدماتی یا نرم‌افزاری، بهای تمام‌شده اغلب «بهای خدمات» یا «بهای درآمد» نامیده می‌شود، مثل میزبانی و پشتیبانی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k4",
+              "type": "tap",
+              "source": "b10c1l4p9",
+              "prompt": {
+                "en": "What can lift net profit without saying anything about the core business?",
+                "fa": "چه چیزی می‌تواند سود خالص را بالا ببرد بی‌آن‌که چیزی دربارهٔ کسب‌وکار اصلی بگوید؟"
+              },
+              "options": [
+                {
+                  "en": "A one-time gain from selling a building",
+                  "fa": "سود یک‌بارهٔ فروش یک ساختمان"
+                },
+                {
+                  "en": "A higher margin on each sale",
+                  "fa": "حاشیهٔ بالاتر روی هر فروش"
+                },
+                {
+                  "en": "Lower operating expenses",
+                  "fa": "هزینه‌های عملیاتی کمتر"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p11",
+              "text": {
+                "en": "Restructuring charges and other one-time items deserve a close look. Some companies label costs one-time year after year.",
+                "fa": "هزینه‌های تجدید ساختار و دیگر اقلام یک‌باره ارزش بررسی دقیق دارند. برخی شرکت‌ها سال به سال هزینه‌ها را «یک‌باره» می‌نامند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p12",
+              "text": {
+                "en": "Applied: for your AI product, gross profit is subscription revenue minus model and hosting costs. If that margin is thin, growth alone will not make the product profitable.",
+                "fa": "کاربردی: برای محصول AI تو، سود ناخالص برابر است با درآمد اشتراک منهای هزینهٔ مدل و میزبانی. اگر این حاشیه باریک باشد، رشد به‌تنهایی محصول را سودده نمی‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k5",
+              "type": "tap",
+              "source": "b10c1l4p12",
+              "prompt": {
+                "en": "What is gross profit for your AI product?",
+                "fa": "سود ناخالص محصول AI تو چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Subscriptions signed minus marketing",
+                  "fa": "اشتراک‌های ثبت‌شده منهای بازاریابی"
+                },
+                {
+                  "en": "Subscription revenue minus model and hosting costs",
+                  "fa": "درآمد اشتراک منهای هزینهٔ مدل و میزبانی"
+                },
+                {
+                  "en": "Cash in the bank minus salaries",
+                  "fa": "پول بانک منهای حقوق‌ها"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10c2",
+      "title": {
+        "en": "The balance sheet and cash",
+        "fa": "ترازنامه و نقد"
+      },
+      "lessons": [
+        {
+          "id": "b10c2l1",
+          "title": {
+            "en": "Balance sheet basics and assets",
+            "fa": "مبانی ترازنامه و دارایی‌ها"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 10 and 11 of Part 3, the balance sheet. The authors say it reveals the most, and your quarterly net-worth log is a personal balance sheet.",
+                "fa": "این درس فصل‌های ۱۰ و ۱۱ از بخش ۳، ترازنامه، را خلاصه می‌کند. نویسندگان می‌گویند ترازنامه بیش از همه چیز را آشکار می‌کند، و ثبت فصلی دارایی خالص تو هم یک ترازنامهٔ شخصی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p2",
+              "text": {
+                "en": "The balance sheet shows what a company owns and owes at one moment. The income statement covers a period; the balance sheet is a snapshot of a single day.",
+                "fa": "ترازنامه نشان می‌دهد شرکت در یک لحظه چه دارد و چه بدهکار است. صورت سود و زیان یک دوره را پوشش می‌دهد؛ ترازنامه عکسی از یک روز است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k1",
+              "type": "tf",
+              "source": "b10c2l1p2",
+              "prompt": {
+                "en": "The balance sheet covers a period, like a year, rather than a single day.",
+                "fa": "ترازنامه یک دوره، مثلاً یک سال، را پوشش می‌دهد نه یک روز را."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p3",
+              "text": {
+                "en": "Its core equation is fixed: assets equal liabilities plus owners' equity. Every number on the sheet fits into one of those three groups.",
+                "fa": "معادلهٔ اصلی آن ثابت است: دارایی‌ها برابرند با بدهی‌ها به‌علاوهٔ حقوق صاحبان سهام. هر عدد ترازنامه در یکی از این سه گروه جا می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p4",
+              "text": {
+                "en": "Assets are listed roughly in order of liquidity: cash first, then accounts receivable and inventory, then long-lived assets.",
+                "fa": "دارایی‌ها تقریباً به ترتیب نقدشوندگی فهرست می‌شوند: اول نقد، بعد حساب‌های دریافتنی و موجودی کالا، بعد دارایی‌های بلندمدت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k2",
+              "type": "tap",
+              "source": "b10c2l1p3",
+              "prompt": {
+                "en": "What does the balance sheet's core equation say?",
+                "fa": "معادلهٔ اصلی ترازنامه چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "Revenue equals costs plus profit",
+                  "fa": "درآمد برابر است با هزینه‌ها به‌علاوهٔ سود"
+                },
+                {
+                  "en": "Cash equals profit",
+                  "fa": "نقد برابر است با سود"
+                },
+                {
+                  "en": "Assets equal liabilities plus owners' equity",
+                  "fa": "دارایی‌ها برابرند با بدهی‌ها به‌علاوهٔ حقوق صاحبان سهام"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p5",
+              "text": {
+                "en": "Current assets are those expected to turn into cash within a year. Cash is the only asset that needs no estimate.",
+                "fa": "دارایی‌های جاری آن‌هایی‌اند که انتظار می‌رود ظرف یک سال به نقد تبدیل شوند. نقد تنها دارایی‌ای است که به برآورد نیاز ندارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p6",
+              "text": {
+                "en": "Accounts receivable is money customers owe. Companies estimate how much will never be collected and set aside an allowance for bad debts.",
+                "fa": "حساب‌های دریافتنی پولی است که مشتریان بدهکارند. شرکت‌ها برآورد می‌کنند چه مقدار هرگز وصول نمی‌شود و برای مطالبات مشکوک‌الوصول ذخیره کنار می‌گذارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p7",
+              "text": {
+                "en": "Inventory includes raw materials, work in process and finished goods. How it is valued, and when it is written down as obsolete, are judgment calls.",
+                "fa": "موجودی کالا شامل مواد اولیه، کالای در جریان ساخت و کالای ساخته‌شده است. این‌که چطور ارزش‌گذاری شود و کی به‌عنوان کالای منسوخ کاهش ارزش بخورد، قضاوت است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k3",
+              "type": "tap",
+              "source": "b10c2l1p5",
+              "prompt": {
+                "en": "Which asset, according to the book, needs no estimate?",
+                "fa": "طبق کتاب، کدام دارایی به برآورد نیاز ندارد؟"
+              },
+              "options": [
+                {
+                  "en": "Cash",
+                  "fa": "نقد"
+                },
+                {
+                  "en": "Inventory",
+                  "fa": "موجودی کالا"
+                },
+                {
+                  "en": "Goodwill",
+                  "fa": "سرقفلی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p8",
+              "text": {
+                "en": "Property, plant and equipment is recorded at cost minus accumulated depreciation. The result, net book value, rarely equals what the asset would sell for.",
+                "fa": "اموال، ماشین‌آلات و تجهیزات به بهای تمام‌شده منهای استهلاک انباشته ثبت می‌شوند. نتیجه، یعنی ارزش دفتری خالص، به‌ندرت با قیمت فروش آن دارایی برابر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p9",
+              "text": {
+                "en": "Goodwill appears when a company buys another for more than the fair value of its net assets. The premium sits on the balance sheet as an intangible asset.",
+                "fa": "سرقفلی (goodwill) وقتی پیدا می‌شود که شرکتی شرکت دیگری را گران‌تر از ارزش منصفانهٔ خالص دارایی‌هایش بخرد. این مازاد به‌عنوان دارایی نامشهود در ترازنامه می‌نشیند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k4",
+              "type": "tf",
+              "source": "b10c2l1p8",
+              "prompt": {
+                "en": "Net book value of equipment usually equals what it would sell for.",
+                "fa": "ارزش دفتری خالص تجهیزات معمولاً با قیمت فروش آن برابر است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p10",
+              "text": {
+                "en": "Goodwill is tested for impairment; if an acquisition turns out to be worth less than was paid, the company writes goodwill down and takes a charge against profit.",
+                "fa": "سرقفلی آزمون کاهش ارزش می‌شود؛ اگر معلوم شود خرید کمتر از مبلغ پرداختی می‌ارزد، شرکت سرقفلی را کاهش می‌دهد و هزینه‌ای از سود کم می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p11",
+              "text": {
+                "en": "Patents and trademarks bought from others appear too, but a home-grown brand or team usually does not, so the sheet misses much of a tech company's value.",
+                "fa": "حق اختراع و علامت تجاری خریداری‌شده هم در ترازنامه می‌آیند، اما برند یا تیمی که خود شرکت ساخته معمولاً نه؛ پس ترازنامه بخش بزرگی از ارزش یک شرکت فناوری را نشان نمی‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p12",
+              "text": {
+                "en": "Applied: your net-worth log is a personal balance sheet. List assets such as cash, ETFs and vested equity, subtract debts, and the remainder is your equity.",
+                "fa": "کاربردی: ثبت دارایی خالص تو یک ترازنامهٔ شخصی است. دارایی‌هایی مثل نقد، ETFها و سهام vest‌شده را فهرست کن، بدهی‌ها را کم کن، و باقی‌مانده equity یا ارزش خالص توست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k5",
+              "type": "tap",
+              "source": "b10c2l1p12",
+              "prompt": {
+                "en": "In your personal balance sheet, what is left after subtracting debts from assets?",
+                "fa": "در ترازنامهٔ شخصی‌ات، پس از کم کردن بدهی‌ها از دارایی‌ها چه می‌ماند؟"
+              },
+              "options": [
+                {
+                  "en": "Your income",
+                  "fa": "درآمد تو"
+                },
+                {
+                  "en": "Your equity",
+                  "fa": "equity تو، یعنی ارزش خالص"
+                },
+                {
+                  "en": "Your cash flow",
+                  "fa": "جریان نقدی تو"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b10c2l2",
+          "title": {
+            "en": "Liabilities, equity and why it balances",
+            "fa": "بدهی‌ها، حقوق صاحبان سهام و چرا تراز می‌شود"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 12 to 14: liabilities, equity and how the statements connect. Startup equity is a claim on this equity line, so it pays to know what feeds it.",
+                "fa": "این درس فصل‌های ۱۲ تا ۱۴ را خلاصه می‌کند: بدهی‌ها، حقوق صاحبان سهام و پیوند صورت‌ها. سهام استارتاپ ادعایی بر همین خط حقوق صاحبان سهام است، پس ارزش دارد بدانی چه چیزی آن را تغذیه می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p2",
+              "text": {
+                "en": "Liabilities are what the company owes. Current liabilities fall due within a year, such as accounts payable, accrued expenses and short-term loans.",
+                "fa": "بدهی‌ها چیزهایی‌اند که شرکت بدهکار است. بدهی‌های جاری ظرف یک سال سررسید می‌شوند، مثل حساب‌های پرداختنی، هزینه‌های تعهدی و وام‌های کوتاه‌مدت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p3",
+              "text": {
+                "en": "Long-term liabilities include bank loans and bonds due after more than a year. Debt is a claim that must be repaid whatever happens to profit.",
+                "fa": "بدهی‌های بلندمدت شامل وام‌های بانکی و اوراق قرضه با سررسید بیش از یک سال است. بدهی ادعایی است که هرچه بر سر سود بیاید باید بازپرداخت شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k1",
+              "type": "tap",
+              "source": "b10c2l2p2",
+              "prompt": {
+                "en": "Which of these is a current liability?",
+                "fa": "کدام‌یک از این‌ها بدهی جاری است؟"
+              },
+              "options": [
+                {
+                  "en": "Accounts payable",
+                  "fa": "حساب‌های پرداختنی"
+                },
+                {
+                  "en": "Goodwill",
+                  "fa": "سرقفلی"
+                },
+                {
+                  "en": "Inventory",
+                  "fa": "موجودی کالا"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p4",
+              "text": {
+                "en": "Owners' equity is what is left for the owners: the money they put in, called paid-in capital, plus retained earnings.",
+                "fa": "حقوق صاحبان سهام چیزی است که برای مالکان می‌ماند: پولی که آورده‌اند، یعنی سرمایهٔ پرداخت‌شده، به‌علاوهٔ سود انباشته."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p5",
+              "text": {
+                "en": "Retained earnings are the profits a company has kept over its whole life rather than paid out as dividends. They are not a pile of cash.",
+                "fa": "سود انباشته سودهایی است که شرکت در تمام عمرش نگه داشته و به‌صورت سود سهام پرداخت نکرده. این یک کپه پول نقد نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k2",
+              "type": "tf",
+              "source": "b10c2l2p5",
+              "prompt": {
+                "en": "Retained earnings are a pile of cash the company keeps in the bank.",
+                "fa": "سود انباشته کپه‌ای پول نقد است که شرکت در بانک نگه می‌دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p6",
+              "text": {
+                "en": "Chapter 13 explains why the sheet balances: every transaction has two sides. Borrowing €1,000 adds €1,000 of cash and €1,000 of debt.",
+                "fa": "فصل ۱۳ توضیح می‌دهد چرا ترازنامه تراز می‌شود: هر تراکنش دو طرف دارد. قرض گرفتن ۱٬۰۰۰ یورو، ۱٬۰۰۰ یورو نقد و ۱٬۰۰۰ یورو بدهی اضافه می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p7",
+              "text": {
+                "en": "Buying equipment with cash swaps one asset for another, so total assets do not change at all.",
+                "fa": "خرید تجهیزات با نقد یک دارایی را با دارایی دیگر عوض می‌کند، پس جمع دارایی‌ها اصلاً تغییر نمی‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k3",
+              "type": "tf",
+              "source": "b10c2l2p7",
+              "prompt": {
+                "en": "Buying equipment with cash raises total assets.",
+                "fa": "خرید تجهیزات با نقد، جمع دارایی‌ها را بالا می‌برد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p8",
+              "text": {
+                "en": "Chapter 14 shows how the income statement affects the balance sheet: net profit flows into retained earnings, so a profitable year raises equity.",
+                "fa": "فصل ۱۴ نشان می‌دهد صورت سود و زیان چطور بر ترازنامه اثر می‌گذارد: سود خالص به سود انباشته می‌ریزد، پس یک سال سودده حقوق صاحبان سهام را بالا می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p9",
+              "text": {
+                "en": "Sales on credit raise accounts receivable, and costs not yet paid raise accounts payable. That is how profit and cash drift apart.",
+                "fa": "فروش نسیه حساب‌های دریافتنی را بالا می‌برد و هزینه‌های پرداخت‌نشده حساب‌های پرداختنی را. این‌طور است که سود و نقد از هم فاصله می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k4",
+              "type": "tap",
+              "source": "b10c2l2p8",
+              "prompt": {
+                "en": "Where does net profit flow on the balance sheet?",
+                "fa": "سود خالص در ترازنامه به کجا می‌ریزد؟"
+              },
+              "options": [
+                {
+                  "en": "Into accounts payable",
+                  "fa": "به حساب‌های پرداختنی"
+                },
+                {
+                  "en": "Into goodwill",
+                  "fa": "به سرقفلی"
+                },
+                {
+                  "en": "Into retained earnings",
+                  "fa": "به سود انباشته"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p10",
+              "text": {
+                "en": "Book value is assets minus liabilities, the equity on the sheet. A company's market value can be far above it because markets price future earnings.",
+                "fa": "ارزش دفتری برابر است با دارایی‌ها منهای بدهی‌ها، یعنی حقوق صاحبان سهام در ترازنامه. ارزش بازار یک شرکت می‌تواند خیلی بالاتر باشد چون بازار سودهای آینده را قیمت‌گذاری می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p11",
+              "text": {
+                "en": "Comparing two balance sheets, from the start and end of a year, shows where money went: more receivables, more inventory or less debt.",
+                "fa": "مقایسهٔ دو ترازنامه، از ابتدا و انتهای یک سال، نشان می‌دهد پول کجا رفته: دریافتنی بیشتر، موجودی بیشتر یا بدهی کمتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p12",
+              "text": {
+                "en": "Applied: before accepting equity, look at the startup's liabilities. Lenders are paid before owners, so your share of equity sits behind every debt.",
+                "fa": "کاربردی: پیش از پذیرفتن سهام، بدهی‌های استارتاپ را ببین. وام‌دهندگان پیش از مالکان پول می‌گیرند، پس سهم تو از حقوق صاحبان سهام پشت سر همهٔ بدهی‌ها قرار دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k5",
+              "type": "tf",
+              "source": "b10c2l2p12",
+              "prompt": {
+                "en": "Lenders are paid before owners, so a startup's debts sit ahead of your equity.",
+                "fa": "وام‌دهندگان پیش از مالکان پول می‌گیرند، پس بدهی‌های استارتاپ جلوتر از سهم تو قرار دارند."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b10c2l3",
+          "title": {
+            "en": "Profit is not cash",
+            "fa": "سود، نقد نیست"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 15 and 16 of Part 4, Cash Is King. A side product can show a profit and still empty your account, which is the idea behind the badge.",
+                "fa": "این درس فصل‌های ۱۵ و ۱۶ از بخش ۴، «نقد پادشاه است»، را خلاصه می‌کند. یک محصول جانبی می‌تواند سود نشان دهد و باز حسابت را خالی کند؛ ایدهٔ پشت این نشان همین است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p2",
+              "text": {
+                "en": "Chapter 15 calls cash a reality check. Profit is an estimate full of judgment calls, but cash in the bank is a hard fact you can count.",
+                "fa": "فصل ۱۵ نقد را محک واقعیت می‌نامد. سود برآوردی پر از قضاوت است، اما پول در بانک واقعیتی سفت است که می‌توانی بشماری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k1",
+              "type": "tf",
+              "source": "b10c2l3p2",
+              "prompt": {
+                "en": "The authors treat cash in the bank as a harder fact than profit.",
+                "fa": "نویسندگان پول در بانک را واقعیتی سفت‌تر از سود می‌دانند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p3",
+              "text": {
+                "en": "Chapter 16 says profit does not equal cash, and a business needs both. Profit is needed for long-term health; cash is needed to survive each month.",
+                "fa": "فصل ۱۶ می‌گوید سود برابر نقد نیست و کسب‌وکار به هر دو نیاز دارد. سود برای سلامت بلندمدت لازم است؛ نقد برای زنده ماندن در هر ماه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p4",
+              "text": {
+                "en": "The first reason they differ is the timing of revenue: a sale is booked on delivery, but on 30-day or 60-day terms the cash arrives weeks later.",
+                "fa": "اولین دلیل تفاوتشان زمان‌بندی درآمد است: فروش هنگام تحویل ثبت می‌شود، اما با شرایط پرداخت ۳۰ یا ۶۰ روزه پولش هفته‌ها بعد می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p5",
+              "text": {
+                "en": "The second is the timing of costs: cost of goods sold counts only the items sold, while the company may have paid for that inventory long before.",
+                "fa": "دومی زمان‌بندی هزینه‌هاست: بهای تمام‌شده فقط اقلام فروش‌رفته را حساب می‌کند، در حالی که شرکت شاید خیلی پیش‌تر پول آن موجودی را داده باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k2",
+              "type": "tap",
+              "source": "b10c2l3p4",
+              "prompt": {
+                "en": "What is one reason profit and cash differ?",
+                "fa": "یکی از دلایل تفاوت سود و نقد چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Taxes are always zero",
+                  "fa": "مالیات همیشه صفر است"
+                },
+                {
+                  "en": "A sale is booked on delivery, but the cash arrives later",
+                  "fa": "فروش هنگام تحویل ثبت می‌شود، اما پولش بعداً می‌رسد"
+                },
+                {
+                  "en": "Depreciation is paid in cash each month",
+                  "fa": "استهلاک هر ماه نقدی پرداخت می‌شود"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p6",
+              "text": {
+                "en": "The third is capital spending: buying a machine drains cash at once, but only a slice reaches the income statement each year as depreciation.",
+                "fa": "سومی مخارج سرمایه‌ای است: خرید یک ماشین نقد را یک‌جا خالی می‌کند، اما هر سال فقط تکه‌ای از آن به‌صورت استهلاک به صورت سود و زیان می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p7",
+              "text": {
+                "en": "Other items move cash but not profit: borrowing, repaying loan principal and raising money from investors.",
+                "fa": "اقلام دیگری هم نقد را جابه‌جا می‌کنند اما سود را نه: قرض گرفتن، بازپرداخت اصل وام و جذب پول از سرمایه‌گذاران."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p8",
+              "text": {
+                "en": "So a fast-growing, profitable company can run out of cash. It pays for staff and stock today while its customers pay next quarter.",
+                "fa": "پس یک شرکت سودده با رشد سریع می‌تواند بی‌پول شود. امروز هزینهٔ کارکنان و موجودی را می‌دهد در حالی که مشتریانش فصل بعد پرداخت می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k3",
+              "type": "tf",
+              "source": "b10c2l3p8",
+              "prompt": {
+                "en": "A fast-growing, profitable company cannot run out of cash.",
+                "fa": "یک شرکت سودده با رشد سریع نمی‌تواند بی‌پول شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p9",
+              "text": {
+                "en": "The reverse also happens: a company can be cash-rich while unprofitable, for example by collecting large up-front payments or by borrowing.",
+                "fa": "عکسش هم پیش می‌آید: شرکتی می‌تواند زیان‌ده اما پرپول باشد، مثلاً با گرفتن پیش‌پرداخت‌های بزرگ یا با قرض گرفتن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p10",
+              "text": {
+                "en": "That is why the authors say managers should watch both numbers. Profit tells you whether the model works; cash tells you whether you can keep going.",
+                "fa": "برای همین نویسندگان می‌گویند مدیران باید هر دو عدد را زیر نظر داشته باشند. سود می‌گوید مدل کار می‌کند یا نه؛ نقد می‌گوید می‌توانی ادامه دهی یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k4",
+              "type": "tap",
+              "source": "b10c2l3p10",
+              "prompt": {
+                "en": "According to the authors, what does cash tell you?",
+                "fa": "به گفتهٔ نویسندگان، نقد چه چیزی را به تو می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "Whether you can keep going",
+                  "fa": "این‌که می‌توانی ادامه دهی یا نه"
+                },
+                {
+                  "en": "Whether the model works",
+                  "fa": "این‌که مدل کار می‌کند یا نه"
+                },
+                {
+                  "en": "Whether the share price will rise",
+                  "fa": "این‌که قیمت سهم بالا می‌رود یا نه"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p11",
+              "text": {
+                "en": "Growth eats cash. The more a company sells on credit and stocks up on inventory, the more cash it ties up before the money comes back.",
+                "fa": "رشد نقد را می‌خورد. هرچه شرکت بیشتر نسیه بفروشد و موجودی انبار کند، نقد بیشتری را پیش از بازگشت پول حبس می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p12",
+              "text": {
+                "en": "Applied: if your product bills customers yearly up front, you get cash before you earn revenue. If it bills monthly in arrears, you earn before you get paid.",
+                "fa": "کاربردی: اگر محصولت سالانه و پیشاپیش از مشتری پول بگیرد، نقد را پیش از کسب درآمد می‌گیری. اگر ماهانه و پس از مصرف صورت‌حساب بدهد، پیش از دریافت پول درآمد کسب می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k5",
+              "type": "tf",
+              "source": "b10c2l3p12",
+              "prompt": {
+                "en": "Billing customers yearly up front brings in cash before the revenue is earned.",
+                "fa": "صورت‌حساب سالانه و پیشاپیش، نقد را پیش از کسب درآمد وارد می‌کند."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b10c2l4",
+          "title": {
+            "en": "The cash flow statement",
+            "fa": "صورت جریان وجوه نقد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 17 to 19: the language of cash flow and why cash matters. It lets you check any startup's story against the statement hardest to dress up.",
+                "fa": "این درس فصل‌های ۱۷ تا ۱۹ را خلاصه می‌کند: زبان جریان نقدی و چرا نقد مهم است. به تو امکان می‌دهد داستان هر استارتاپی را با صورتی بسنجی که آرایش کردنش از همه سخت‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p2",
+              "text": {
+                "en": "The cash flow statement shows cash coming in and going out during a period, split into three sections: operating, investing and financing activities.",
+                "fa": "صورت جریان وجوه نقد ورود و خروج نقد در یک دوره را نشان می‌دهد و به سه بخش تقسیم می‌شود: فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k1",
+              "type": "tap",
+              "source": "b10c2l4p2",
+              "prompt": {
+                "en": "Which three sections does the cash flow statement use?",
+                "fa": "صورت جریان وجوه نقد از کدام سه بخش استفاده می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Revenue, costs and profit",
+                  "fa": "درآمد، هزینه‌ها و سود"
+                },
+                {
+                  "en": "Operating, investing and financing activities",
+                  "fa": "فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی"
+                },
+                {
+                  "en": "Assets, liabilities and equity",
+                  "fa": "دارایی‌ها، بدهی‌ها و حقوق صاحبان سهام"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p3",
+              "text": {
+                "en": "Cash from operating activities is the cash the core business generates. The authors treat it as the most important number on the statement.",
+                "fa": "نقد حاصل از فعالیت‌های عملیاتی نقدی است که کسب‌وکار اصلی تولید می‌کند. نویسندگان آن را مهم‌ترین عدد این صورت می‌دانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p4",
+              "text": {
+                "en": "Investing activities cover cash spent on or received from long-term assets, such as buying equipment or selling a division.",
+                "fa": "فعالیت‌های سرمایه‌گذاری نقدی را پوشش می‌دهند که صرف دارایی‌های بلندمدت می‌شود یا از آن‌ها می‌آید، مثل خرید تجهیزات یا فروش یک بخش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p5",
+              "text": {
+                "en": "Financing activities cover cash from or to lenders and owners: borrowing, repaying debt, issuing shares, buying back shares and paying dividends.",
+                "fa": "فعالیت‌های تأمین مالی نقد میان شرکت و وام‌دهندگان و مالکان را پوشش می‌دهند: قرض گرفتن، بازپرداخت بدهی، انتشار سهام، بازخرید سهام و پرداخت سود سهام."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k2",
+              "type": "tf",
+              "source": "b10c2l4p5",
+              "prompt": {
+                "en": "Paying dividends shows up under investing activities.",
+                "fa": "پرداخت سود سهام زیر فعالیت‌های سرمایه‌گذاری می‌آید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p6",
+              "text": {
+                "en": "Most companies use the indirect method: start with net profit, add back noncash items such as depreciation, then adjust for changes in working capital.",
+                "fa": "بیشتر شرکت‌ها از روش غیرمستقیم استفاده می‌کنند: از سود خالص شروع کن، اقلام غیرنقدی مثل استهلاک را برگردان، بعد تغییرات سرمایه در گردش را اعمال کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p7",
+              "text": {
+                "en": "A rise in receivables or inventory is subtracted, because cash is tied up. A rise in payables is added, because the company has not paid yet.",
+                "fa": "افزایش دریافتنی‌ها یا موجودی کم می‌شود، چون نقد حبس شده. افزایش پرداختنی‌ها اضافه می‌شود، چون شرکت هنوز پرداخت نکرده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k3",
+              "type": "tf",
+              "source": "b10c2l4p7",
+              "prompt": {
+                "en": "In the indirect method, a rise in accounts receivable is subtracted from net profit.",
+                "fa": "در روش غیرمستقیم، افزایش حساب‌های دریافتنی از سود خالص کم می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p8",
+              "text": {
+                "en": "Chapter 18 shows how cash connects with everything else: the three statements tie together, and the cash at the end matches the cash on the balance sheet.",
+                "fa": "فصل ۱۸ نشان می‌دهد نقد چطور به همه چیز وصل است: سه صورت به هم گره خورده‌اند و نقد پایان دوره با نقد ترازنامه می‌خواند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p9",
+              "text": {
+                "en": "Free cash flow is operating cash flow minus capital expenditures. It is the cash a company could hand back to owners and lenders, and Wall Street watches it closely.",
+                "fa": "جریان نقد آزاد برابر است با جریان نقد عملیاتی منهای مخارج سرمایه‌ای. نقدی است که شرکت می‌تواند به مالکان و وام‌دهندگان برگرداند، و Wall Street آن را دقیق زیر نظر دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p10",
+              "text": {
+                "en": "Chapter 19 says cash matters because it is the hardest number to manipulate. Investors look for operating cash flow that keeps pace with net profit.",
+                "fa": "فصل ۱۹ می‌گوید نقد مهم است چون دستکاری‌اش از همه سخت‌تر است. سرمایه‌گذاران دنبال جریان نقد عملیاتی‌ای هستند که هم‌پای سود خالص پیش برود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k4",
+              "type": "tap",
+              "source": "b10c2l4p9",
+              "prompt": {
+                "en": "What is free cash flow?",
+                "fa": "جریان نقد آزاد چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Net profit plus depreciation",
+                  "fa": "سود خالص به‌علاوهٔ استهلاک"
+                },
+                {
+                  "en": "Revenue minus all costs",
+                  "fa": "درآمد منهای همهٔ هزینه‌ها"
+                },
+                {
+                  "en": "Operating cash flow minus capital expenditures",
+                  "fa": "جریان نقد عملیاتی منهای مخارج سرمایه‌ای"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p11",
+              "text": {
+                "en": "If profit keeps rising while operating cash flow falls, something may be off, such as revenue booked before customers pay or inventory piling up.",
+                "fa": "اگر سود مدام بالا برود در حالی که جریان نقد عملیاتی پایین می‌آید، شاید چیزی درست نباشد، مثل درآمدی که پیش از پرداخت مشتری ثبت شده یا موجودی‌ای که انباشته می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p12",
+              "text": {
+                "en": "Applied: the same lens works for your own money. Salary in minus spending is operating cash flow, ETF purchases are investing, and a mortgage is financing.",
+                "fa": "کاربردی: همین عدسی برای پول خودت هم کار می‌کند. حقوق ورودی منهای خرج، جریان نقد عملیاتی است؛ خرید ETF سرمایه‌گذاری است و وام مسکن تأمین مالی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k5",
+              "type": "tf",
+              "source": "b10c2l4p11",
+              "prompt": {
+                "en": "Rising profit with falling operating cash flow is always a healthy sign.",
+                "fa": "سود رو به افزایش همراه با جریان نقد عملیاتی رو به کاهش همیشه نشانهٔ سلامت است."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10c3",
+      "title": {
+        "en": "Ratios, return on investment and working capital",
+        "fa": "نسبت‌ها، بازده سرمایه‌گذاری و سرمایه در گردش"
+      },
+      "lessons": [
+        {
+          "id": "b10c3l1",
+          "title": {
+            "en": "Profitability and leverage ratios",
+            "fa": "نسبت‌های سودآوری و اهرمی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 20 to 22 of Part 5, on ratios. They turn a company's statements into a few numbers you can compare across years and against rivals.",
+                "fa": "این درس فصل‌های ۲۰ تا ۲۲ از بخش ۵، دربارهٔ نسبت‌ها، را خلاصه می‌کند. نسبت‌ها صورت‌های مالی یک شرکت را به چند عدد تبدیل می‌کنند که می‌توانی در طول سال‌ها و با رقبا مقایسه کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p2",
+              "text": {
+                "en": "Chapter 20 says ratios show relationships between numbers. A single figure means little; a ratio compared over time or against peers tells a story.",
+                "fa": "فصل ۲۰ می‌گوید نسبت‌ها رابطهٔ میان اعداد را نشان می‌دهند. یک عدد تنها معنای کمی دارد؛ نسبتی که در طول زمان یا با هم‌تایان مقایسه شود داستانی می‌گوید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k1",
+              "type": "tf",
+              "source": "b10c3l1p2",
+              "prompt": {
+                "en": "A ratio is most useful when compared over time or against peers.",
+                "fa": "یک نسبت وقتی بیشترین فایده را دارد که در طول زمان یا با هم‌تایان مقایسه شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p3",
+              "text": {
+                "en": "Gross margin percentage is gross profit divided by revenue. It shows how much of each euro of sales is left after the direct costs.",
+                "fa": "درصد حاشیهٔ ناخالص برابر است با سود ناخالص تقسیم بر درآمد. نشان می‌دهد از هر یورو فروش پس از هزینه‌های مستقیم چقدر می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p4",
+              "text": {
+                "en": "Operating margin percentage is operating profit divided by revenue. It shows how well managers run the business before interest and taxes.",
+                "fa": "درصد حاشیهٔ عملیاتی برابر است با سود عملیاتی تقسیم بر درآمد. نشان می‌دهد مدیران پیش از بهره و مالیات کسب‌وکار را چقدر خوب اداره می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p5",
+              "text": {
+                "en": "Net profit margin percentage, often called return on sales, is net profit divided by revenue: the share of each sale the owners finally keep.",
+                "fa": "درصد حاشیهٔ سود خالص، که اغلب بازده فروش نامیده می‌شود، برابر است با سود خالص تقسیم بر درآمد: سهمی از هر فروش که در نهایت به مالکان می‌رسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k2",
+              "type": "tap",
+              "source": "b10c3l1p3",
+              "prompt": {
+                "en": "How is gross margin percentage calculated?",
+                "fa": "درصد حاشیهٔ ناخالص چطور محاسبه می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Gross profit divided by revenue",
+                  "fa": "سود ناخالص تقسیم بر درآمد"
+                },
+                {
+                  "en": "Net profit divided by equity",
+                  "fa": "سود خالص تقسیم بر حقوق صاحبان سهام"
+                },
+                {
+                  "en": "Revenue divided by assets",
+                  "fa": "درآمد تقسیم بر دارایی‌ها"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p6",
+              "text": {
+                "en": "Return on assets, or ROA, is net profit divided by total assets. It shows how well a company uses everything it owns to earn a profit.",
+                "fa": "بازده دارایی‌ها یا ROA برابر است با سود خالص تقسیم بر کل دارایی‌ها. نشان می‌دهد شرکت از هرچه دارد چقدر خوب برای کسب سود استفاده می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p7",
+              "text": {
+                "en": "Return on equity, or ROE, is net profit divided by owners' equity. It shows the return the owners earn on the money they have in the business.",
+                "fa": "بازده حقوق صاحبان سهام یا ROE برابر است با سود خالص تقسیم بر حقوق صاحبان سهام. نشان می‌دهد مالکان روی پولی که در کسب‌وکار دارند چه بازدهی می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k3",
+              "type": "tap",
+              "source": "b10c3l1p7",
+              "prompt": {
+                "en": "Which ratio shows the return owners earn on their money in the business?",
+                "fa": "کدام نسبت بازده مالکان روی پولشان در کسب‌وکار را نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Return on assets",
+                  "fa": "بازده دارایی‌ها"
+                },
+                {
+                  "en": "Gross margin",
+                  "fa": "حاشیهٔ ناخالص"
+                },
+                {
+                  "en": "Return on equity",
+                  "fa": "بازده حقوق صاحبان سهام"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p8",
+              "text": {
+                "en": "Leverage means using borrowed money. Chapter 22's main measure is debt to equity: total liabilities divided by owners' equity.",
+                "fa": "اهرم یعنی استفاده از پول قرضی. معیار اصلی فصل ۲۲ نسبت بدهی به حقوق صاحبان سهام است: کل بدهی‌ها تقسیم بر حقوق صاحبان سهام."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p9",
+              "text": {
+                "en": "More leverage lifts return on equity in good years and deepens losses in bad ones. Lenders and investors watch the ratio for that reason.",
+                "fa": "اهرم بیشتر بازده حقوق صاحبان سهام را در سال‌های خوب بالا می‌برد و زیان را در سال‌های بد عمیق‌تر می‌کند. وام‌دهندگان و سرمایه‌گذاران به همین دلیل این نسبت را زیر نظر دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k4",
+              "type": "tf",
+              "source": "b10c3l1p9",
+              "prompt": {
+                "en": "More leverage only helps return on equity and never hurts it.",
+                "fa": "اهرم بیشتر فقط به بازده حقوق صاحبان سهام کمک می‌کند و هرگز به آن آسیب نمی‌زند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p10",
+              "text": {
+                "en": "Interest coverage is operating profit divided by annual interest expense. It shows how easily a company can pay the interest on its debt.",
+                "fa": "پوشش بهره برابر است با سود عملیاتی تقسیم بر هزینهٔ بهرهٔ سالانه. نشان می‌دهد شرکت چقدر راحت می‌تواند بهرهٔ بدهی‌اش را بپردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p11",
+              "text": {
+                "en": "What counts as a good ratio depends on the industry: a software firm and a grocery chain have very different normal margins.",
+                "fa": "این‌که چه نسبتی خوب است به صنعت بستگی دارد: یک شرکت نرم‌افزاری و یک زنجیرهٔ خواربارفروشی حاشیه‌های عادی بسیار متفاوتی دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p12",
+              "text": {
+                "en": "Applied: as a CTO you can read gross margin to see if the product scales, and debt to equity to see how much of the company is financed by lenders.",
+                "fa": "کاربردی: به‌عنوان CTO می‌توانی حاشیهٔ ناخالص را بخوانی تا ببینی محصول مقیاس‌پذیر است یا نه، و نسبت بدهی به حقوق صاحبان سهام را تا ببینی چه بخشی از شرکت با پول وام‌دهندگان تأمین شده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k5",
+              "type": "tap",
+              "source": "b10c3l1p10",
+              "prompt": {
+                "en": "What does interest coverage show?",
+                "fa": "پوشش بهره چه چیزی را نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "How fast customers pay",
+                  "fa": "مشتریان چقدر سریع پرداخت می‌کنند"
+                },
+                {
+                  "en": "How easily a company can pay the interest on its debt",
+                  "fa": "شرکت چقدر راحت می‌تواند بهرهٔ بدهی‌اش را بپردازد"
+                },
+                {
+                  "en": "How much stock is on hand",
+                  "fa": "چه مقدار موجودی در انبار است"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b10c3l2",
+          "title": {
+            "en": "Liquidity and efficiency ratios",
+            "fa": "نسبت‌های نقدشوندگی و کارایی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 23 to 25: liquidity, efficiency and the investor's view. These ratios show whether a business can pay its bills and how hard its assets work.",
+                "fa": "این درس فصل‌های ۲۳ تا ۲۵ را خلاصه می‌کند: نقدشوندگی، کارایی و نگاه سرمایه‌گذار. این نسبت‌ها نشان می‌دهند کسب‌وکار می‌تواند صورت‌حساب‌هایش را بپردازد یا نه و دارایی‌هایش چقدر سخت کار می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p2",
+              "text": {
+                "en": "Liquidity ratios ask whether a company can meet its obligations. The current ratio is current assets divided by current liabilities.",
+                "fa": "نسبت‌های نقدشوندگی می‌پرسند آیا شرکت می‌تواند تعهداتش را انجام دهد. نسبت جاری برابر است با دارایی‌های جاری تقسیم بر بدهی‌های جاری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p3",
+              "text": {
+                "en": "The quick ratio, or acid test, leaves inventory out of current assets, because inventory can be hard to turn into cash fast.",
+                "fa": "نسبت آنی، یا آزمون اسید، موجودی کالا را از دارایی‌های جاری کنار می‌گذارد، چون تبدیل سریع موجودی به نقد می‌تواند سخت باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k1",
+              "type": "tap",
+              "source": "b10c3l2p3",
+              "prompt": {
+                "en": "What does the quick ratio leave out of current assets?",
+                "fa": "نسبت آنی چه چیزی را از دارایی‌های جاری کنار می‌گذارد؟"
+              },
+              "options": [
+                {
+                  "en": "Cash",
+                  "fa": "نقد"
+                },
+                {
+                  "en": "Inventory",
+                  "fa": "موجودی کالا"
+                },
+                {
+                  "en": "Accounts receivable",
+                  "fa": "حساب‌های دریافتنی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p4",
+              "text": {
+                "en": "A current ratio that is too low signals trouble paying bills. One that is very high may mean cash or inventory is sitting idle.",
+                "fa": "نسبت جاری خیلی پایین نشانهٔ دشواری در پرداخت صورت‌حساب‌هاست. نسبت خیلی بالا ممکن است یعنی نقد یا موجودی بی‌کار مانده."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p5",
+              "text": {
+                "en": "Efficiency ratios show how well a company manages its assets. Days in inventory is how long, on average, items sit before they are sold.",
+                "fa": "نسبت‌های کارایی نشان می‌دهند شرکت دارایی‌هایش را چقدر خوب مدیریت می‌کند. روزهای نگهداری موجودی یعنی کالاها به‌طور میانگین چه مدت پیش از فروش می‌مانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k2",
+              "type": "tf",
+              "source": "b10c3l2p4",
+              "prompt": {
+                "en": "A very high current ratio is always a good sign.",
+                "fa": "نسبت جاری خیلی بالا همیشه نشانهٔ خوبی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p6",
+              "text": {
+                "en": "Inventory turns is cost of goods sold divided by average inventory. More turns means stock moves faster and ties up less cash.",
+                "fa": "گردش موجودی برابر است با بهای تمام‌شده تقسیم بر میانگین موجودی. گردش بیشتر یعنی کالا سریع‌تر حرکت می‌کند و نقد کمتری حبس می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p7",
+              "text": {
+                "en": "Days sales outstanding, or DSO, is ending accounts receivable divided by revenue per day. It shows how long customers take to pay.",
+                "fa": "دورهٔ وصول مطالبات یا DSO برابر است با حساب‌های دریافتنی پایان دوره تقسیم بر درآمد روزانه. نشان می‌دهد پرداخت مشتریان چه مدت طول می‌کشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p8",
+              "text": {
+                "en": "Days payable outstanding shows how long the company takes to pay its own suppliers. It is the mirror image of DSO.",
+                "fa": "دورهٔ پرداخت بدهی‌ها (DPO) نشان می‌دهد پرداخت شرکت به تأمین‌کنندگان خودش چه مدت طول می‌کشد. تصویر آینه‌ای DSO است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k3",
+              "type": "tap",
+              "source": "b10c3l2p7",
+              "prompt": {
+                "en": "What does days sales outstanding show?",
+                "fa": "دورهٔ وصول مطالبات چه چیزی را نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "How long customers take to pay",
+                  "fa": "پرداخت مشتریان چه مدت طول می‌کشد"
+                },
+                {
+                  "en": "How long stock sits on shelves",
+                  "fa": "کالا چه مدت در قفسه می‌ماند"
+                },
+                {
+                  "en": "How long the company takes to pay suppliers",
+                  "fa": "پرداخت شرکت به تأمین‌کنندگان چه مدت طول می‌کشد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p9",
+              "text": {
+                "en": "Property, plant and equipment turnover is revenue divided by net fixed assets. It shows how many dollars of sales each dollar of equipment produces.",
+                "fa": "گردش اموال، ماشین‌آلات و تجهیزات برابر است با درآمد تقسیم بر خالص دارایی‌های ثابت. نشان می‌دهد هر دلار تجهیزات چند دلار فروش می‌سازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p10",
+              "text": {
+                "en": "Total asset turnover is revenue divided by total assets. Capital-light businesses such as software usually score high on it.",
+                "fa": "گردش کل دارایی‌ها برابر است با درآمد تقسیم بر کل دارایی‌ها. کسب‌وکارهای کم‌سرمایه مثل نرم‌افزار معمولاً در آن نمرهٔ بالایی می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k4",
+              "type": "tf",
+              "source": "b10c3l2p9",
+              "prompt": {
+                "en": "Property, plant and equipment turnover compares revenue with net fixed assets.",
+                "fa": "گردش اموال، ماشین‌آلات و تجهیزات درآمد را با خالص دارایی‌های ثابت مقایسه می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p11",
+              "text": {
+                "en": "Chapter 25 adds the investor's view: earnings per share and the price-to-earnings ratio, which shows what the market pays for each dollar of earnings.",
+                "fa": "فصل ۲۵ نگاه سرمایه‌گذار را اضافه می‌کند: سود هر سهم و نسبت قیمت به سود، که نشان می‌دهد بازار برای هر دلار سود چقدر می‌پردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p12",
+              "text": {
+                "en": "Applied: a broad index ETF such as VWCE holds thousands of companies, so you need not judge each one. These ratios are for reading the company you work for or join.",
+                "fa": "کاربردی: یک ETF شاخصی گسترده مثل VWCE هزاران شرکت را در خود دارد، پس لازم نیست تک‌تک‌شان را بسنجی. این نسبت‌ها برای خواندن شرکتی است که در آن کار می‌کنی یا به آن می‌پیوندی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k5",
+              "type": "tap",
+              "source": "b10c3l2p11",
+              "prompt": {
+                "en": "What does the price-to-earnings ratio show?",
+                "fa": "نسبت قیمت به سود چه چیزی را نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "How fast customers pay",
+                  "fa": "مشتریان چقدر سریع پرداخت می‌کنند"
+                },
+                {
+                  "en": "How much debt the company carries",
+                  "fa": "شرکت چقدر بدهی دارد"
+                },
+                {
+                  "en": "What the market pays for each dollar of earnings",
+                  "fa": "بازار برای هر دلار سود چقدر می‌پردازد"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b10c3l3",
+          "title": {
+            "en": "Return on investment and capital expenditure",
+            "fa": "بازده سرمایه‌گذاری و مخارج سرمایه‌ای"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part 6, chapters 26 to 28, on return on investment. The same logic applies when you weigh building your AI product against keeping cash in index funds.",
+                "fa": "این درس بخش ۶، فصل‌های ۲۶ تا ۲۸، دربارهٔ بازده سرمایه‌گذاری را خلاصه می‌کند. همین منطق وقتی به کار می‌آید که ساختن محصول AI خودت را با نگه داشتن پول در صندوق‌های شاخصی می‌سنجی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p2",
+              "text": {
+                "en": "Capital expenditures are purchases of long-lived assets, such as equipment, buildings or a big software system, expected to pay off over several years.",
+                "fa": "مخارج سرمایه‌ای خرید دارایی‌های بلندمدت است، مثل تجهیزات، ساختمان یا یک سیستم نرم‌افزاری بزرگ، که انتظار می‌رود طی چند سال بازده بدهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p3",
+              "text": {
+                "en": "The key building block is the time value of money: a euro today is worth more than a euro next year, because today's euro can be invested.",
+                "fa": "سنگ‌بنای اصلی ارزش زمانی پول است: یک یورو امروز بیشتر از یک یورو در سال بعد می‌ارزد، چون یوروی امروز را می‌توان سرمایه‌گذاری کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k1",
+              "type": "tf",
+              "source": "b10c3l3p3",
+              "prompt": {
+                "en": "A euro received next year is worth more than a euro today.",
+                "fa": "یک یورو که سال بعد دریافت شود بیشتر از یک یوروی امروز می‌ارزد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p4",
+              "text": {
+                "en": "Future value grows today's money at an interest rate. Present value runs it backwards, discounting future cash to what it is worth today.",
+                "fa": "ارزش آتی پول امروز را با یک نرخ بهره رشد می‌دهد. ارزش فعلی آن را برعکس می‌کند و نقد آینده را به ارزش امروزش تنزیل می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p5",
+              "text": {
+                "en": "The discount rate a company uses is its hurdle rate, the minimum return a project must earn. It is linked to the company's cost of capital.",
+                "fa": "نرخ تنزیلی که شرکت به کار می‌برد نرخ مانع (hurdle rate) است، یعنی حداقل بازدهی که یک پروژه باید کسب کند. این نرخ به هزینهٔ سرمایهٔ شرکت مربوط است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k2",
+              "type": "tap",
+              "source": "b10c3l3p5",
+              "prompt": {
+                "en": "What is the hurdle rate?",
+                "fa": "نرخ مانع چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The minimum return a project must earn",
+                  "fa": "حداقل بازدهی که یک پروژه باید کسب کند"
+                },
+                {
+                  "en": "The interest paid on short-term loans",
+                  "fa": "بهرهٔ پرداختی روی وام‌های کوتاه‌مدت"
+                },
+                {
+                  "en": "The tax rate on profit",
+                  "fa": "نرخ مالیات بر سود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p6",
+              "text": {
+                "en": "Chapter 27 sets out the steps: determine the initial cash outlay, project the future cash flows, then evaluate those future cash flows.",
+                "fa": "فصل ۲۷ گام‌ها را می‌چیند: هزینهٔ نقدی اولیه را تعیین کن، جریان‌های نقدی آینده را پیش‌بینی کن، سپس آن جریان‌های نقدی آینده را ارزیابی کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k3",
+              "type": "order",
+              "source": "b10c3l3p6",
+              "prompt": {
+                "en": "Put the steps of a capital expenditure analysis in the book's order.",
+                "fa": "گام‌های تحلیل مخارج سرمایه‌ای را به ترتیب کتاب بچین."
+              },
+              "options": [
+                {
+                  "en": "Evaluate the future cash flows",
+                  "fa": "جریان‌های نقدی آینده را ارزیابی کن"
+                },
+                {
+                  "en": "Determine the initial cash outlay",
+                  "fa": "هزینهٔ نقدی اولیه را تعیین کن"
+                },
+                {
+                  "en": "Project the future cash flows",
+                  "fa": "جریان‌های نقدی آینده را پیش‌بینی کن"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p7",
+              "text": {
+                "en": "Payback is the simplest method: how many years until the cash flows repay the outlay. It ignores the time value of money and anything after payback.",
+                "fa": "دورهٔ بازگشت سرمایه ساده‌ترین روش است: چند سال طول می‌کشد تا جریان‌های نقدی هزینهٔ اولیه را برگردانند. ارزش زمانی پول و هرچه پس از بازگشت سرمایه بیاید را نادیده می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p8",
+              "text": {
+                "en": "Net present value discounts every future cash flow at the hurdle rate and subtracts the outlay. A positive NPV means the project beats the hurdle rate.",
+                "fa": "ارزش فعلی خالص (NPV) هر جریان نقدی آینده را با نرخ مانع تنزیل می‌کند و هزینهٔ اولیه را کم می‌کند. NPV مثبت یعنی پروژه از نرخ مانع بهتر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p9",
+              "text": {
+                "en": "Internal rate of return, or IRR, is the discount rate at which NPV equals zero. If it is above the hurdle rate, the project is worth considering.",
+                "fa": "نرخ بازده داخلی یا IRR نرخ تنزیلی است که در آن NPV صفر می‌شود. اگر از نرخ مانع بالاتر باشد، پروژه ارزش بررسی دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k4",
+              "type": "tf",
+              "source": "b10c3l3p8",
+              "prompt": {
+                "en": "A positive NPV means the project earns less than the hurdle rate.",
+                "fa": "NPV مثبت یعنی پروژه کمتر از نرخ مانع بازده دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p10",
+              "text": {
+                "en": "Every method rests on forecasts of future cash, so the art of finance returns here: change the assumptions and the answer can flip.",
+                "fa": "همهٔ روش‌ها بر پیش‌بینی نقد آینده استوارند، پس هنر مالی این‌جا برمی‌گردد: فرض‌ها را عوض کن و پاسخ می‌تواند برعکس شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p11",
+              "text": {
+                "en": "Chapter 28 turns this into a capital expenditure proposal. A good proposal spells out the assumptions behind the cash flows so decision makers can test them.",
+                "fa": "فصل ۲۸ این را به یک پیشنهاد مخارج سرمایه‌ای تبدیل می‌کند. یک پیشنهاد خوب فرض‌های پشت جریان‌های نقدی را روشن می‌نویسد تا تصمیم‌گیرندگان بتوانند آن‌ها را بیازمایند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k5",
+              "type": "tap",
+              "source": "b10c3l3p9",
+              "prompt": {
+                "en": "What is the internal rate of return?",
+                "fa": "نرخ بازده داخلی چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The return on a company's shares",
+                  "fa": "بازده سهام یک شرکت"
+                },
+                {
+                  "en": "The discount rate at which NPV equals zero",
+                  "fa": "نرخ تنزیلی که در آن NPV صفر می‌شود"
+                },
+                {
+                  "en": "The interest rate a bank charges",
+                  "fa": "نرخ بهره‌ای که بانک می‌گیرد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p12",
+              "text": {
+                "en": "Applied: before building your product, estimate the hours and cash it needs and the cash flows it could bring. Compare that return with what the money could earn in an index fund.",
+                "fa": "کاربردی: پیش از ساختن محصولت، ساعت‌ها و نقدی که لازم دارد و جریان‌های نقدی‌ای که ممکن است بیاورد را برآورد کن. آن بازده را با آن‌چه همان پول در یک صندوق شاخصی می‌تواند کسب کند مقایسه کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k6",
+              "type": "tf",
+              "source": "b10c3l3p12",
+              "prompt": {
+                "en": "The Lesson suggests comparing your product's expected return with what the same money could earn in an index fund.",
+                "fa": "این درس پیشنهاد می‌کند بازده مورد انتظار محصولت را با آن‌چه همان پول در یک صندوق شاخصی می‌تواند کسب کند مقایسه کنی."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b10c3l4",
+          "title": {
+            "en": "Working capital and the financially intelligent company",
+            "fa": "سرمایه در گردش و شرکت باهوش مالی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b10c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part 7 on working capital and Part 8 on the financially intelligent company. These are levers a manager, including a CTO, can actually pull.",
+                "fa": "این درس بخش ۷ دربارهٔ سرمایه در گردش و بخش ۸ دربارهٔ شرکت باهوش مالی را خلاصه می‌کند. این‌ها اهرم‌هایی‌اند که یک مدیر، از جمله یک CTO، واقعاً می‌تواند بکشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p2",
+              "text": {
+                "en": "Working capital is current assets minus current liabilities. Its three main levers are receivables, inventory and payables.",
+                "fa": "سرمایه در گردش برابر است با دارایی‌های جاری منهای بدهی‌های جاری. سه اهرم اصلی آن دریافتنی‌ها، موجودی کالا و پرداختنی‌ها هستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p3",
+              "text": {
+                "en": "Chapter 29 calls managing the balance sheet a kind of magic: improving working capital frees cash without selling a single extra unit.",
+                "fa": "فصل ۲۹ مدیریت ترازنامه را نوعی جادو می‌نامد: بهبود سرمایه در گردش بدون فروش حتی یک واحد بیشتر، نقد آزاد می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k1",
+              "type": "tap",
+              "source": "b10c3l4p2",
+              "prompt": {
+                "en": "What is working capital?",
+                "fa": "سرمایه در گردش چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Revenue minus cost of goods sold",
+                  "fa": "درآمد منهای بهای تمام‌شده"
+                },
+                {
+                  "en": "Total assets minus goodwill",
+                  "fa": "کل دارایی‌ها منهای سرقفلی"
+                },
+                {
+                  "en": "Current assets minus current liabilities",
+                  "fa": "دارایی‌های جاری منهای بدهی‌های جاری"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p4",
+              "text": {
+                "en": "Cutting DSO by even one day frees roughly one day of revenue in cash. For a large company that can mean millions.",
+                "fa": "کم کردن DSO حتی به اندازهٔ یک روز، تقریباً معادل درآمد یک روز نقد آزاد می‌کند. برای یک شرکت بزرگ این می‌تواند یعنی میلیون‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p5",
+              "text": {
+                "en": "Inventory can be cut through better forecasting and less waste, but too little stock loses sales. The goal is balance, not zero.",
+                "fa": "موجودی را می‌توان با پیش‌بینی بهتر و اتلاف کمتر کاهش داد، اما موجودی خیلی کم فروش را از دست می‌دهد. هدف تعادل است، نه صفر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k2",
+              "type": "tf",
+              "source": "b10c3l4p4",
+              "prompt": {
+                "en": "Cutting DSO by one day frees roughly one day of revenue in cash.",
+                "fa": "کم کردن DSO به اندازهٔ یک روز تقریباً معادل درآمد یک روز نقد آزاد می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p6",
+              "text": {
+                "en": "Payables are the subtle lever: paying suppliers on time, not early, keeps cash longer, but stretching too far damages relationships.",
+                "fa": "پرداختنی‌ها اهرم ظریف‌اند: پرداخت به تأمین‌کنندگان سر موعد، نه زودتر، نقد را بیشتر نگه می‌دارد، اما کش دادن بیش از حد رابطه‌ها را خراب می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p7",
+              "text": {
+                "en": "Chapter 31 combines the levers into the cash conversion cycle: days in inventory plus days sales outstanding minus days payable outstanding.",
+                "fa": "فصل ۳۱ این اهرم‌ها را در چرخهٔ تبدیل نقد ترکیب می‌کند: روزهای نگهداری موجودی به‌علاوهٔ دورهٔ وصول مطالبات منهای دورهٔ پرداخت بدهی‌ها."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k3",
+              "type": "tap",
+              "source": "b10c3l4p7",
+              "prompt": {
+                "en": "How is the cash conversion cycle calculated?",
+                "fa": "چرخهٔ تبدیل نقد چطور محاسبه می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Revenue minus all expenses",
+                  "fa": "درآمد منهای همهٔ هزینه‌ها"
+                },
+                {
+                  "en": "Days in inventory plus days sales outstanding minus days payable outstanding",
+                  "fa": "روزهای نگهداری موجودی به‌علاوهٔ دورهٔ وصول مطالبات منهای دورهٔ پرداخت بدهی‌ها"
+                },
+                {
+                  "en": "Current ratio times quick ratio",
+                  "fa": "نسبت جاری ضرب در نسبت آنی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p8",
+              "text": {
+                "en": "Part 8 argues that companies perform better when employees understand the numbers, because people can then see how their daily work affects results.",
+                "fa": "بخش ۸ استدلال می‌کند شرکت‌ها وقتی کارکنان اعداد را می‌فهمند بهتر عمل می‌کنند، چون آن‌وقت آدم‌ها می‌بینند کار روزانه‌شان چه اثری بر نتایج دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p9",
+              "text": {
+                "en": "The strategies include financial training, regularly sharing the numbers, and tying part of pay to measures people can influence.",
+                "fa": "راهبردها شامل آموزش مالی، به اشتراک گذاشتن منظم اعداد و گره زدن بخشی از حقوق به معیارهایی است که آدم‌ها می‌توانند بر آن اثر بگذارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p10",
+              "text": {
+                "en": "This is close to open-book management, which John Case has written about. Companies share their statements and teach staff to read them.",
+                "fa": "این به مدیریت کتاب‌باز نزدیک است که John Case درباره‌اش نوشته. شرکت‌ها صورت‌های مالی‌شان را به اشتراک می‌گذارند و به کارکنان خواندنشان را یاد می‌دهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k4",
+              "type": "tf",
+              "source": "b10c3l4p8",
+              "prompt": {
+                "en": "The authors argue that only the finance team needs to understand the numbers.",
+                "fa": "نویسندگان استدلال می‌کنند فقط تیم مالی باید اعداد را بفهمد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p11",
+              "text": {
+                "en": "Joe Knight's own company, Setpoint, practises this: it shares its financials with employees and reviews the numbers with them regularly.",
+                "fa": "شرکت خود Joe Knight، یعنی Setpoint، همین را اجرا می‌کند: صورت‌های مالی‌اش را با کارکنان به اشتراک می‌گذارد و به‌طور منظم اعداد را با آن‌ها مرور می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p12",
+              "text": {
+                "en": "Applied: in your startup, share the few numbers that matter, such as cash runway and gross margin, with the engineers. Teams decide better when they can see the score.",
+                "fa": "کاربردی: در استارتاپت چند عدد مهم، مثل مدت دوام نقد (runway) و حاشیهٔ ناخالص، را با مهندسان به اشتراک بگذار. تیم‌ها وقتی امتیاز را ببینند بهتر تصمیم می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k5",
+              "type": "tap",
+              "source": "b10c3l4p12",
+              "prompt": {
+                "en": "Which numbers does the Lesson suggest sharing with your engineers?",
+                "fa": "این درس پیشنهاد می‌کند کدام اعداد را با مهندسانت به اشتراک بگذاری؟"
+              },
+              "options": [
+                {
+                  "en": "Cash runway and gross margin",
+                  "fa": "مدت دوام نقد و حاشیهٔ ناخالص"
+                },
+                {
+                  "en": "Each person's salary",
+                  "fa": "حقوق تک‌تک افراد"
+                },
+                {
+                  "en": "The share prices of rivals",
+                  "fa": "قیمت سهام رقبا"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

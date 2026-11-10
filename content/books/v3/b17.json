@@ -1,0 +1,2101 @@
+{
+  "id": "b17",
+  "title": "The Almanack of Naval Ravikant (free)",
+  "author": {
+    "en": "Eric Jorgenson",
+    "fa": "Eric Jorgenson"
+  },
+  "year": 2020,
+  "stage": 5,
+  "must": true,
+  "why": {
+    "en": "Exactly the philosophy of wealth without a boss",
+    "fa": "دقیقاً فلسفه «ثروت بدون رئیس»"
+  },
+  "badge": {
+    "en": "Permissionless Leverage",
+    "fa": "اهرم بدون اجازه"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b17c1",
+      "title": {
+        "en": "Building wealth",
+        "fa": "ساختن ثروت"
+      },
+      "lessons": [
+        {
+          "id": "b17c1l1",
+          "title": {
+            "en": "Seek wealth, not money or status",
+            "fa": "ثروت را بجو، نه پول یا جایگاه"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the opening of Part I, Understanding How Wealth Is Created. It matters because your roadmap aims at ownership income, and Naval explains why ownership beats a bigger salary.",
+                "fa": "این درس آغاز بخش اول، «فهم چگونگی خلق ثروت»، را خلاصه می‌کند. مهم است چون نقشهٔ راه تو درآمد از مالکیت است و Naval توضیح می‌دهد چرا مالکیت از حقوق بیشتر بهتر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p2",
+              "text": {
+                "en": "The Almanack is Eric Jorgenson's collection of Naval Ravikant's tweets, podcasts and essays. Naval is an entrepreneur and investor who cofounded AngelList.",
+                "fa": "Almanack مجموعه‌ای است که Eric Jorgenson از توییت‌ها، پادکست‌ها و نوشته‌های Naval Ravikant گردآوری کرده. Naval کارآفرین و سرمایه‌گذاری است که AngelList را هم‌بنیان‌گذاری کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p3",
+              "text": {
+                "en": "Seek wealth, not money or status. Wealth is having assets that earn while you sleep; money is how we transfer time and wealth.",
+                "fa": "ثروت را بجو، نه پول یا جایگاه. ثروت یعنی دارایی‌هایی که وقتی خوابی درآمد می‌سازند؛ پول وسیلهٔ انتقال زمان و ثروت است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l1k1",
+              "type": "tap",
+              "source": "b17c1l1p3",
+              "prompt": {
+                "en": "What is wealth, in Naval's definition?",
+                "fa": "در تعریف Naval، ثروت چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Assets that earn while you sleep",
+                  "fa": "دارایی‌هایی که وقتی خوابی درآمد می‌سازند"
+                },
+                {
+                  "en": "A high salary paid every month",
+                  "fa": "حقوق بالایی که هر ماه پرداخت می‌شود"
+                },
+                {
+                  "en": "Status among your peers",
+                  "fa": "جایگاه در میان هم‌قطاران"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p4",
+              "text": {
+                "en": "Status is your place in the social hierarchy. Wealth creation is a positive-sum game, while status is zero-sum: for one person to rise, another must fall.",
+                "fa": "جایگاه یعنی رتبهٔ تو در سلسله‌مراتب اجتماعی. خلق ثروت بازی‌ای با جمع مثبت است، اما جایگاه جمع صفر است: برای بالا رفتن یکی، دیگری باید پایین بیاید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p5",
+              "text": {
+                "en": "Naval warns you to ignore people playing status games. They gain status by attacking people who are playing wealth creation games.",
+                "fa": "Naval هشدار می‌دهد به کسانی که بازی جایگاه می‌کنند اعتنا نکنی. آن‌ها با حمله به کسانی که بازی خلق ثروت می‌کنند جایگاه می‌گیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p6",
+              "text": {
+                "en": "Making money is not a thing you do; it is a skill you learn. Society pays you for giving it what it wants but does not yet know how to get.",
+                "fa": "پول درآوردن کاری نیست که انجام دهی؛ مهارتی است که یاد می‌گیری. جامعه به تو پول می‌دهد تا چیزی را بدهی که می‌خواهد اما هنوز نمی‌داند چطور به دست آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l1k2",
+              "type": "tf",
+              "source": "b17c1l1p4",
+              "prompt": {
+                "en": "Naval calls status a positive-sum game.",
+                "fa": "Naval جایگاه را بازی‌ای با جمع مثبت می‌نامد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p7",
+              "text": {
+                "en": "You won't get rich renting out your time. You must own equity, a piece of a business, to gain your financial freedom.",
+                "fa": "با اجاره دادن وقتت ثروتمند نمی‌شوی. برای رسیدن به آزادی مالی باید مالک equity باشی، یعنی تکه‌ای از یک کسب‌وکار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p8",
+              "text": {
+                "en": "Naval wants wealth for freedom, not for luxury. Wealth buys you out of the nine-to-five, so you can spend your time as you choose.",
+                "fa": "Naval ثروت را برای آزادی می‌خواهد، نه برای تجمل. ثروت تو را از کار ساعتی بیرون می‌خرد تا وقتت را هر طور خواستی بگذرانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p9",
+              "text": {
+                "en": "Naval's 2018 tweetstorm How to Get Rich (without getting lucky) is the spine of Part I. Its message: wealth comes from specific knowledge, accountability and leverage.",
+                "fa": "رشته‌توییت ۲۰۱۸ Naval با عنوان How to Get Rich (without getting lucky) ستون بخش اول است. پیامش: ثروت از دانش خاص، پاسخ‌گویی و اهرم می‌آید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l1k3",
+              "type": "tap",
+              "source": "b17c1l1p7",
+              "prompt": {
+                "en": "What must you own to gain financial freedom, according to Naval?",
+                "fa": "به گفتهٔ Naval، برای آزادی مالی مالک چه باید باشی؟"
+              },
+              "options": [
+                {
+                  "en": "Equity, a piece of a business",
+                  "fa": "equity، یعنی تکه‌ای از یک کسب‌وکار"
+                },
+                {
+                  "en": "A bigger hourly rate",
+                  "fa": "نرخ ساعتی بالاتر"
+                },
+                {
+                  "en": "A senior job title",
+                  "fa": "یک عنوان شغلی ارشد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p10",
+              "text": {
+                "en": "In your roadmap, ownership means a written share in a startup cap table or a small product you own. A higher salary in Amsterdam is still renting out your time.",
+                "fa": "در نقشهٔ راه تو، مالکیت یعنی سهم مکتوب در cap table یک استارتاپ یا محصول کوچکی که مال خودت است. حقوق بالاتر در Amsterdam هنوز همان اجاره دادن وقتت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l1p11",
+              "text": {
+                "en": "Your first goal of €100 of ownership income is small on purpose. It proves you can earn while you sleep, which a salary never shows.",
+                "fa": "هدف اولت، €۱۰۰ درآمد از مالکیت، عمداً کوچک است. ثابت می‌کند می‌توانی وقتی خوابی درآمد بسازی؛ چیزی که حقوق هرگز نشان نمی‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l1k4",
+              "type": "tf",
+              "source": "b17c1l1p10",
+              "prompt": {
+                "en": "In Naval's terms, a higher salary in Amsterdam counts as owning equity.",
+                "fa": "از نگاه Naval، حقوق بالاتر در Amsterdam یعنی مالکیت equity."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b17c1l2",
+          "title": {
+            "en": "Specific knowledge",
+            "fa": "دانش خاص"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter Find and Build Specific Knowledge. It matters because specific knowledge makes you hard to replace and gives your product an edge.",
+                "fa": "این درس فصل «دانش خاص را پیدا کن و بساز» را خلاصه می‌کند. مهم است چون دانش خاص تو را سخت‌جایگزین می‌کند و به محصولت برتری می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p2",
+              "text": {
+                "en": "Specific knowledge is knowledge you cannot be trained for. If society can train you, it can train someone else and replace you.",
+                "fa": "دانش خاص دانشی است که نمی‌شود برایش آموزشت داد. اگر جامعه بتواند تو را آموزش دهد، می‌تواند کس دیگری را هم آموزش دهد و جایگزینت کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p3",
+              "text": {
+                "en": "Specific knowledge is found by pursuing your genuine curiosity, not by chasing whatever is hot right now. It feels like play to you but looks like work to others.",
+                "fa": "دانش خاص را با دنبال کردن کنجکاوی واقعی‌ات پیدا می‌کنی، نه با دویدن دنبال چیزی که الان داغ است. برای تو مثل بازی است، اما از بیرون شبیه کار به نظر می‌رسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l2k1",
+              "type": "tf",
+              "source": "b17c1l2p2",
+              "prompt": {
+                "en": "If society can train you for a skill, that skill is specific knowledge.",
+                "fa": "اگر جامعه بتواند تو را برای مهارتی آموزش دهد، آن مهارت دانش خاص است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p4",
+              "text": {
+                "en": "It is often highly technical or creative and cannot be outsourced or automated. Naval says it cannot be taught, but it can be learned.",
+                "fa": "معمولاً بسیار فنی یا خلاقانه است و نمی‌شود برون‌سپاری یا خودکارش کرد. Naval می‌گوید نمی‌شود آن را یاد داد، اما می‌شود یادش گرفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p5",
+              "text": {
+                "en": "If you are not fully into a field, someone who is fully into it will outperform you. Genuine interest is what lets you outlast the competition.",
+                "fa": "اگر کاملاً شیفتهٔ یک حوزه نباشی، کسی که کاملاً شیفته است از تو جلو می‌زند. علاقهٔ واقعی است که تو را در رقابت ماندگار می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p6",
+              "text": {
+                "en": "Escape competition through authenticity. Nobody can compete with you on being you.",
+                "fa": "با اصالت از رقابت فرار کن. هیچ‌کس نمی‌تواند در «خودِ تو بودن» با تو رقابت کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l2k2",
+              "type": "tap",
+              "source": "b17c1l2p6",
+              "prompt": {
+                "en": "How does Naval say you escape competition?",
+                "fa": "Naval می‌گوید چطور از رقابت فرار می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Through authenticity",
+                  "fa": "با اصالت"
+                },
+                {
+                  "en": "Through lower prices",
+                  "fa": "با قیمت پایین‌تر"
+                },
+                {
+                  "en": "Through longer hours",
+                  "fa": "با ساعت‌های کاری بیشتر"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p7",
+              "text": {
+                "en": "Learn to sell, learn to build; if you can do both, you will be unstoppable. Builders who can also sell are rare.",
+                "fa": "فروختن را یاد بگیر، ساختن را یاد بگیر؛ اگر هر دو را بلد باشی، توقف‌ناپذیر می‌شوی. سازنده‌هایی که فروختن هم بلدند کم‌یاب‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p8",
+              "text": {
+                "en": "Become the best in the world at what you do, and keep redefining what you do until this is true. Combining several skills narrows the niche until you can lead it.",
+                "fa": "در کاری که می‌کنی بهترین در دنیا شو و آن‌قدر تعریف کارت را عوض کن تا این درست شود. ترکیب چند مهارت حوزه را آن‌قدر باریک می‌کند که بتوانی در آن پیشرو شوی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p9",
+              "text": {
+                "en": "The most important skill for getting rich is becoming a perpetual learner. Specific knowledge shifts as technology changes, so keep learning.",
+                "fa": "مهم‌ترین مهارت برای ثروتمند شدن این است که یادگیرنده‌ای همیشگی شوی. دانش خاص با تغییر فناوری جابه‌جا می‌شود، پس یادگیری را ادامه بده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l2k3",
+              "type": "tf",
+              "source": "b17c1l2p8",
+              "prompt": {
+                "en": "Naval advises picking a fixed job title and never redefining what you do.",
+                "fa": "Naval توصیه می‌کند یک عنوان شغلی ثابت انتخاب کنی و هرگز تعریف کارت را عوض نکنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p10",
+              "text": {
+                "en": "Your specific knowledge may sit where your engineering meets something you know firsthand, such as relocating to the Netherlands as an Iranian. Few people combine both.",
+                "fa": "دانش خاص تو شاید جایی باشد که مهندسی‌ات با چیزی که از نزدیک می‌شناسی تلاقی می‌کند، مثل مهاجرت به هلند به‌عنوان یک ایرانی. کمتر کسی هر دو را با هم دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l2p11",
+              "text": {
+                "en": "Pick the AI product from your genuine curiosity, not from what is hot this month. Because it feels like play, you keep going while the first version earns nothing.",
+                "fa": "محصول AI را از کنجکاوی واقعی‌ات انتخاب کن، نه از چیزی که این ماه داغ است. چون برایت مثل بازی است، وقتی نسخهٔ اول هیچ درآمدی ندارد هم ادامه می‌دهی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l2k4",
+              "type": "tap",
+              "source": "b17c1l2p11",
+              "prompt": {
+                "en": "Where should you pick your product idea from, in Naval's spirit?",
+                "fa": "با روحیهٔ Naval، ایدهٔ محصولت را از کجا باید برداری؟"
+              },
+              "options": [
+                {
+                  "en": "Your genuine curiosity",
+                  "fa": "کنجکاوی واقعی‌ات"
+                },
+                {
+                  "en": "Whatever is hot this month",
+                  "fa": "هر چیزی که این ماه داغ است"
+                },
+                {
+                  "en": "A list of top startup ideas",
+                  "fa": "فهرستی از بهترین ایده‌های استارتاپی"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b17c1l3",
+          "title": {
+            "en": "Accountability",
+            "fa": "پاسخ‌گویی"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's case for accountability and taking risks under your own name. It matters because ownership income needs your name on the product, not only your hours.",
+                "fa": "این درس استدلال Naval برای پاسخ‌گویی و ریسک کردن به نام خودت را خلاصه می‌کند. مهم است چون درآمد از مالکیت به نام تو روی محصول نیاز دارد، نه فقط ساعت‌های کارت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p2",
+              "text": {
+                "en": "Embrace accountability and take business risks under your own name. Society will reward you with responsibility, equity and leverage.",
+                "fa": "پاسخ‌گویی را بپذیر و ریسک‌های کاری را به نام خودت بپذیر. جامعه در عوض به تو مسئولیت، equity و اهرم می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p3",
+              "text": {
+                "en": "Accountability cuts both ways: you get the credit when things go well and the blame when they fail. That risk of public failure is why it is rewarded.",
+                "fa": "پاسخ‌گویی دو لبه دارد: وقتی کار خوب پیش برود اعتبارش با توست و وقتی شکست بخورد سرزنشش. همین ریسک شکست علنی است که پاداش می‌گیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l3k1",
+              "type": "tap",
+              "source": "b17c1l3p2",
+              "prompt": {
+                "en": "What does society reward accountability with?",
+                "fa": "جامعه به پاسخ‌گویی چه پاداشی می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Responsibility, equity and leverage",
+                  "fa": "مسئولیت، equity و اهرم"
+                },
+                {
+                  "en": "A fixed salary and job security",
+                  "fa": "حقوق ثابت و امنیت شغلی"
+                },
+                {
+                  "en": "Fame without any risk",
+                  "fa": "شهرت بدون هیچ ریسکی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p4",
+              "text": {
+                "en": "Without accountability you don't have incentives, and you can't build credibility. A name people trust is itself a form of leverage.",
+                "fa": "بدون پاسخ‌گویی انگیزه نداری و نمی‌توانی اعتبار بسازی. نامی که مردم به آن اعتماد دارند خودش نوعی اهرم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p5",
+              "text": {
+                "en": "Naval notes that failing no longer means being cast out of the tribe. In modern society, failing under your own name is survivable and often forgiven.",
+                "fa": "Naval یادآوری می‌کند که شکست دیگر به معنای رانده شدن از قبیله نیست. در جامعهٔ امروز، شکست به نام خودت قابل‌تحمل است و اغلب بخشیده می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p6",
+              "text": {
+                "en": "The Almanack links accountability to equity: owners carry the downside, so they share the upside. Employees carry little downside and get a fixed wage.",
+                "fa": "Almanack پاسخ‌گویی را به equity گره می‌زند: مالکان ضرر را به دوش می‌کشند، پس در سود شریک‌اند. کارمندان ضرر کمی می‌برند و حقوق ثابت می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l3k2",
+              "type": "tf",
+              "source": "b17c1l3p4",
+              "prompt": {
+                "en": "Naval says you can build credibility without accountability.",
+                "fa": "Naval می‌گوید بدون پاسخ‌گویی هم می‌توانی اعتبار بسازی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p7",
+              "text": {
+                "en": "Arm yourself with specific knowledge, accountability and leverage. Apply them with patience, and eventually you will get what you deserve.",
+                "fa": "خودت را با دانش خاص، پاسخ‌گویی و اهرم مسلح کن. با صبر به کارشان ببر تا سرانجام به آنچه سزاوارش هستی برسی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p8",
+              "text": {
+                "en": "There are no get-rich-quick schemes; those are just someone else getting rich off you. Real wealth takes years of patient work.",
+                "fa": "طرح پولدار شدن سریع وجود ندارد؛ آن‌ها فقط راهی‌اند که کس دیگری از تو پولدار شود. ثروت واقعی سال‌ها کار صبورانه می‌خواهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p9",
+              "text": {
+                "en": "Taking accountability does not mean working alone. It means your name is on the outcome, whether you lead a team or ship a solo product.",
+                "fa": "پاسخ‌گویی به معنای تنها کار کردن نیست. یعنی نام تو پای نتیجه است، چه تیمی را رهبری کنی چه محصولی را تنها عرضه کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l3k3",
+              "type": "tap",
+              "source": "b17c1l3p8",
+              "prompt": {
+                "en": "What are get-rich-quick schemes, according to Naval?",
+                "fa": "به گفتهٔ Naval، طرح‌های پولدار شدن سریع در واقع چیستند؟"
+              },
+              "options": [
+                {
+                  "en": "Someone else getting rich off you",
+                  "fa": "کس دیگری که از تو پولدار می‌شود"
+                },
+                {
+                  "en": "A shortcut for smart engineers",
+                  "fa": "میان‌بری برای مهندسان باهوش"
+                },
+                {
+                  "en": "A safe use of spare capital",
+                  "fa": "استفادهٔ امن از سرمایهٔ اضافه"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p10",
+              "text": {
+                "en": "When you join a startup, accountability is what earns you equity. Get your share in a written cap table with vesting, so your risk is matched by ownership.",
+                "fa": "وقتی به استارتاپی می‌پیوندی، پاسخ‌گویی است که برایت equity می‌آورد. سهمت را در cap table مکتوب با vesting بگیر تا ریسکت با مالکیت جبران شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l3p11",
+              "text": {
+                "en": "Launching your AI product under your own name is accountability in practice. Customers who pay you know exactly who answers when it breaks.",
+                "fa": "عرضهٔ محصول AI به نام خودت یعنی پاسخ‌گویی در عمل. مشتریانی که پول می‌دهند دقیقاً می‌دانند وقتی خراب شد چه کسی جواب می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l3k4",
+              "type": "tf",
+              "source": "b17c1l3p10",
+              "prompt": {
+                "en": "Your roadmap says startup equity belongs in a written cap table with vesting.",
+                "fa": "نقشهٔ راهت می‌گوید equity استارتاپ باید در cap table مکتوب با vesting باشد."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b17c1l4",
+          "title": {
+            "en": "Leverage: labour, capital, code and media",
+            "fa": "اهرم: نیروی کار، سرمایه، کد و رسانه"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter Find a Position of Leverage. It matters because, as an engineer, you already hold the newest and most powerful kind.",
+                "fa": "این درس فصل «جایگاهی با اهرم پیدا کن» را خلاصه می‌کند. مهم است چون تو به‌عنوان مهندس، تازه‌ترین و قوی‌ترین نوع آن را در دست داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p2",
+              "text": {
+                "en": "Fortunes require leverage. Naval quotes Archimedes: give me a lever long enough and a place to stand, and I will move the earth.",
+                "fa": "ثروت‌های بزرگ به اهرم نیاز دارند. Naval از ارشمیدس نقل می‌کند: اهرمی به اندازهٔ کافی بلند و جایی برای ایستادن به من بده، زمین را جابه‌جا می‌کنم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p3",
+              "text": {
+                "en": "Leverage comes in three forms: labor, capital, and products with no marginal cost of replication, meaning code and media.",
+                "fa": "اهرم سه شکل دارد: نیروی کار، سرمایه، و محصولاتی که هزینهٔ تکثیر حاشیه‌ای ندارند، یعنی کد و رسانه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l4k1",
+              "type": "tap",
+              "source": "b17c1l4p3",
+              "prompt": {
+                "en": "Which of these is one of Naval's three forms of leverage?",
+                "fa": "کدام‌یک از سه شکل اهرم از نگاه Naval است؟"
+              },
+              "options": [
+                {
+                  "en": "Products with no marginal cost of replication",
+                  "fa": "محصولاتی بدون هزینهٔ تکثیر حاشیه‌ای"
+                },
+                {
+                  "en": "A prestigious university degree",
+                  "fa": "مدرک دانشگاهی معتبر"
+                },
+                {
+                  "en": "A large circle of friends",
+                  "fa": "حلقهٔ بزرگی از دوستان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p4",
+              "text": {
+                "en": "Labor, people working for you, is the oldest form and the hardest to manage. Naval calls leading people messy and says it takes strong leadership skills.",
+                "fa": "نیروی کار، یعنی کسانی که برایت کار می‌کنند، قدیمی‌ترین شکل و سخت‌ترین برای مدیریت است. Naval رهبری آدم‌ها را دشوار می‌داند و می‌گوید مهارت رهبری قوی می‌خواهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p5",
+              "text": {
+                "en": "Capital, money that multiplies your decisions, made most fortunes of the last century. Getting it takes a track record, so labor and capital both need permission.",
+                "fa": "سرمایه، یعنی پولی که تصمیم‌هایت را چند برابر می‌کند، بیشتر ثروت‌های قرن گذشته را ساخت. گرفتنش سابقه می‌خواهد؛ پس نیروی کار و سرمایه هر دو به اجازه نیاز دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p6",
+              "text": {
+                "en": "Code and media are permissionless: nobody has to approve them. Naval calls them the leverage behind the newly rich.",
+                "fa": "کد و رسانه بدون اجازه‌اند: کسی لازم نیست تأییدشان کند. Naval آن‌ها را اهرم پشت ثروتمندان تازه می‌نامد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l4k2",
+              "type": "tf",
+              "source": "b17c1l4p5",
+              "prompt": {
+                "en": "Labor and capital are permissionless forms of leverage.",
+                "fa": "نیروی کار و سرمایه شکل‌های بدون اجازهٔ اهرم‌اند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p7",
+              "text": {
+                "en": "An army of robots is freely available; it is just packed in data centers. You can write software that works for you while you sleep.",
+                "fa": "ارتشی از ربات‌ها رایگان در دسترس است؛ فقط در دیتاسنترها جا گرفته. می‌توانی نرم‌افزاری بنویسی که وقتی خوابی برایت کار کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p8",
+              "text": {
+                "en": "Forget rich versus poor or white-collar versus blue-collar. Naval says it is now leveraged versus unleveraged.",
+                "fa": "فقیر و ثروتمند یا یقه‌سفید و یقه‌آبی را فراموش کن. Naval می‌گوید حالا تقسیم‌بندی بین اهرم‌دار و بی‌اهرم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p9",
+              "text": {
+                "en": "Productize yourself: turn your specific knowledge into something that scales through code or media. Your judgment then works without your hours.",
+                "fa": "خودت را محصول کن: دانش خاصت را به چیزی تبدیل کن که با کد یا رسانه مقیاس بگیرد. آن‌وقت قضاوتت بدون ساعت‌های کارت کار می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l4k3",
+              "type": "tap",
+              "source": "b17c1l4p6",
+              "prompt": {
+                "en": "What does Naval call code and media?",
+                "fa": "Naval کد و رسانه را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "Permissionless leverage",
+                  "fa": "اهرم بدون اجازه"
+                },
+                {
+                  "en": "Risky side projects",
+                  "fa": "پروژه‌های جانبی پرریسک"
+                },
+                {
+                  "en": "Tools only big firms can use",
+                  "fa": "ابزارهایی فقط برای شرکت‌های بزرگ"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p10",
+              "text": {
+                "en": "A small AI product that runs while you sleep is code leverage. Nobody has to approve it, and it can earn your first €100.",
+                "fa": "یک محصول کوچک AI که وقتی خوابی کار می‌کند اهرم کد است. کسی لازم نیست تأییدش کند و می‌تواند اولین €۱۰۰ تو را بسازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c1l4p11",
+              "text": {
+                "en": "Your roadmap puts most of your €40k in index ETFs. That capital compounds slowly, while code lets you add leverage without asking anyone.",
+                "fa": "نقشهٔ راهت بیشتر €۴۰k را در ETFهای شاخصی می‌گذارد. آن سرمایه آرام رشد می‌کند، اما کد اجازه می‌دهد بدون اجازه از کسی اهرم اضافه کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c1l4k4",
+              "type": "tf",
+              "source": "b17c1l4p7",
+              "prompt": {
+                "en": "Naval says the army of robots in data centers is only available to big companies.",
+                "fa": "Naval می‌گوید ارتش ربات‌ها در دیتاسنترها فقط در اختیار شرکت‌های بزرگ است."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b17c2",
+      "title": {
+        "en": "Judgment and long-term games",
+        "fa": "قضاوت و بازی‌های بلندمدت"
+      },
+      "lessons": [
+        {
+          "id": "b17c2l1",
+          "title": {
+            "en": "Judgment",
+            "fa": "قضاوت"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's chapters on judgment and clear thinking. It matters because leverage multiplies every decision you make, good or bad.",
+                "fa": "این درس فصل‌های Naval دربارهٔ قضاوت و تفکر روشن را خلاصه می‌کند. مهم است چون اهرم هر تصمیمت را، خوب یا بد، چند برابر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p2",
+              "text": {
+                "en": "Leverage is a force multiplier for your judgment. In an age of infinite leverage, judgment is the most important skill.",
+                "fa": "اهرم ضریب‌افزای قضاوت توست. در عصر اهرم بی‌پایان، قضاوت مهم‌ترین مهارت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p3",
+              "text": {
+                "en": "Naval defines wisdom as knowing the long-term consequences of your actions. Judgment is wisdom applied to external problems.",
+                "fa": "Naval خرد را دانستن پیامدهای بلندمدت کارهایت تعریف می‌کند. قضاوت همان خرد است که روی مسائل بیرونی به کار می‌رود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l1k1",
+              "type": "tap",
+              "source": "b17c2l1p3",
+              "prompt": {
+                "en": "How does Naval define wisdom?",
+                "fa": "Naval خرد را چطور تعریف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Knowing the long-term consequences of your actions",
+                  "fa": "دانستن پیامدهای بلندمدت کارهایت"
+                },
+                {
+                  "en": "Having read the most books",
+                  "fa": "خواندن بیشترین تعداد کتاب"
+                },
+                {
+                  "en": "Never changing your mind",
+                  "fa": "هرگز تغییر ندادن نظرت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p4",
+              "text": {
+                "en": "Being right with high leverage pays off hugely, and being wrong with it does great damage. That is why people with proven judgment are paid so much.",
+                "fa": "درست بودن با اهرم زیاد بازده عظیمی دارد و اشتباه بودن با آن خسارت بزرگی می‌زند. برای همین به کسانی که قضاوتشان ثابت شده این‌قدر پول می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p5",
+              "text": {
+                "en": "Clear thinkers appeal to their own authority. If you cannot explain something simply, you probably do not understand it well.",
+                "fa": "متفکران روشن به مرجعیت خودشان تکیه می‌کنند. اگر نتوانی چیزی را ساده توضیح دهی، احتمالاً آن را خوب نفهمیده‌ای."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p6",
+              "text": {
+                "en": "Naval says ego, emotion and identity cloud judgment. The less you tie your identity to a view, the more clearly you can see the truth.",
+                "fa": "Naval می‌گوید منیت، احساس و هویت قضاوت را تیره می‌کنند. هرچه هویتت را کمتر به یک دیدگاه گره بزنی، حقیقت را روشن‌تر می‌بینی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l1k2",
+              "type": "tf",
+              "source": "b17c2l1p5",
+              "prompt": {
+                "en": "Naval says clear thinkers rely mainly on the authority of famous experts.",
+                "fa": "Naval می‌گوید متفکران روشن بیشتر به مرجعیت کارشناسان مشهور تکیه می‌کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p7",
+              "text": {
+                "en": "In early life you make three really big decisions: where you live, who you are with, and what you do. Spend real time on them, because they compound.",
+                "fa": "در اوایل زندگی سه تصمیم واقعاً بزرگ می‌گیری: کجا زندگی کنی، با چه کسی باشی و چه کار کنی. وقت واقعی صرفشان کن، چون اثرشان مرکب می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p8",
+              "text": {
+                "en": "If you cannot decide, the answer is no. Naval treats hesitation as a sign that the option is not clearly good enough.",
+                "fa": "اگر نمی‌توانی تصمیم بگیری، جواب «نه» است. Naval تردید را نشانهٔ این می‌داند که آن گزینه به اندازهٔ کافی روشن خوب نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p9",
+              "text": {
+                "en": "Naval suggests learning foundations that sharpen judgment: microeconomics, game theory, persuasion and mathematics. These mental models carry across every field.",
+                "fa": "Naval یادگیری پایه‌هایی را پیشنهاد می‌کند که قضاوت را تیز می‌کنند: اقتصاد خرد، نظریهٔ بازی، اقناع و ریاضیات. این مدل‌های ذهنی در هر حوزه‌ای به کار می‌آیند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l1k3",
+              "type": "tap",
+              "source": "b17c2l1p7",
+              "prompt": {
+                "en": "Which are the three big early-life decisions Naval names?",
+                "fa": "سه تصمیم بزرگ اوایل زندگی که Naval نام می‌برد کدام‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "Where you live, who you are with, what you do",
+                  "fa": "کجا زندگی کنی، با چه کسی باشی، چه کار کنی"
+                },
+                {
+                  "en": "Which phone, car and school you choose",
+                  "fa": "کدام گوشی، ماشین و مدرسه را انتخاب کنی"
+                },
+                {
+                  "en": "Your salary, your title and your city",
+                  "fa": "حقوقت، عنوانت و شهرت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p10",
+              "text": {
+                "en": "A decision journal trains this skill. Write the decision, your reasoning and the expected outcome, then review it months later against what happened.",
+                "fa": "دفترچهٔ تصمیم این مهارت را تمرین می‌دهد. تصمیم، استدلال و نتیجهٔ مورد انتظار را بنویس و ماه‌ها بعد با آنچه رخ داد مقایسه کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l1p11",
+              "text": {
+                "en": "Moving to the Netherlands is one of those three big decisions. Treat the next ones, such as your startup and your partner, with the same care.",
+                "fa": "مهاجرت به هلند یکی از همان سه تصمیم بزرگ است. با تصمیم‌های بعدی، مثل استارتاپ و شریکت، با همان دقت رفتار کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l1k4",
+              "type": "tf",
+              "source": "b17c2l1p10",
+              "prompt": {
+                "en": "A decision journal records your reasoning so you can check it later.",
+                "fa": "دفترچهٔ تصمیم استدلالت را ثبت می‌کند تا بعداً بررسی‌اش کنی."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b17c2l2",
+          "title": {
+            "en": "Long-term games with long-term people",
+            "fa": "بازی بلندمدت با آدم‌های بلندمدت"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's ideas on compounding and choosing partners. It matters because your index core, your reading and your startup pay off only if you stay in the game.",
+                "fa": "این درس ایده‌های Naval دربارهٔ اثر مرکب و انتخاب شریک را خلاصه می‌کند. مهم است چون هستهٔ شاخصی، مطالعه و استارتاپت فقط اگر در بازی بمانی نتیجه می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p2",
+              "text": {
+                "en": "Play iterated games. All the returns in life, whether in wealth, relationships or knowledge, come from compound interest.",
+                "fa": "بازی‌های تکرارشونده بازی کن. همهٔ بازده‌های زندگی، چه در ثروت، چه در رابطه‌ها و چه در دانش، از بهرهٔ مرکب می‌آیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p3",
+              "text": {
+                "en": "Play long-term games with long-term people. When you work with the same people for years, trust compounds and deals get easier.",
+                "fa": "بازی بلندمدت را با آدم‌های بلندمدت بازی کن. وقتی سال‌ها با همان آدم‌ها کار کنی، اعتماد مرکب می‌شود و معامله‌ها ساده‌تر می‌شوند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l2k1",
+              "type": "tap",
+              "source": "b17c2l2p2",
+              "prompt": {
+                "en": "Where do all the returns in life come from, according to Naval?",
+                "fa": "به گفتهٔ Naval، همهٔ بازده‌های زندگی از کجا می‌آیند؟"
+              },
+              "options": [
+                {
+                  "en": "Compound interest",
+                  "fa": "بهرهٔ مرکب"
+                },
+                {
+                  "en": "Lucky breaks",
+                  "fa": "شانس‌های ناگهانی"
+                },
+                {
+                  "en": "Short-term trades",
+                  "fa": "معامله‌های کوتاه‌مدت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p4",
+              "text": {
+                "en": "In long-term games, it seems everybody is making each other rich. In short-term games, it seems everybody is making themselves rich.",
+                "fa": "در بازی‌های بلندمدت انگار همه یکدیگر را ثروتمند می‌کنند. در بازی‌های کوتاه‌مدت انگار هر کس فقط خودش را ثروتمند می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p5",
+              "text": {
+                "en": "Pick business partners with high intelligence, high energy and, above all, high integrity. Without integrity, intelligence and energy can be turned against you.",
+                "fa": "شریک‌های کاری با هوش بالا، انرژی بالا و بیش از همه درستکاری بالا انتخاب کن. بدون درستکاری، هوش و انرژی می‌توانند علیه تو به کار بروند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p6",
+              "text": {
+                "en": "Don't partner with cynics and pessimists. Their beliefs are self-fulfilling.",
+                "fa": "با بدبین‌ها و منفی‌بافان شریک نشو. باورهایشان خودشان را محقق می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l2k2",
+              "type": "tf",
+              "source": "b17c2l2p5",
+              "prompt": {
+                "en": "Naval ranks integrity above intelligence and energy when picking partners.",
+                "fa": "Naval در انتخاب شریک، درستکاری را بالاتر از هوش و انرژی می‌گذارد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p7",
+              "text": {
+                "en": "Compounding in relationships builds trust and reputation. Once people know you over many rounds, they bring opportunities to you.",
+                "fa": "اثر مرکب در رابطه‌ها اعتماد و اعتبار می‌سازد. وقتی آدم‌ها تو را در دورهای زیادی بشناسند، فرصت‌ها را پیش تو می‌آورند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p8",
+              "text": {
+                "en": "Knowledge compounds too: each idea you learn makes the next one easier to learn. Staying in one field for years lets this snowball.",
+                "fa": "دانش هم مرکب می‌شود: هر ایده‌ای که یاد می‌گیری، یادگیری ایدهٔ بعدی را آسان‌تر می‌کند. سال‌ها ماندن در یک حوزه این گلولهٔ برفی را بزرگ می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p9",
+              "text": {
+                "en": "Compounding needs time, so the biggest mistake is quitting early. The gains come late, which is why most people never see them.",
+                "fa": "اثر مرکب زمان می‌خواهد، پس بزرگ‌ترین اشتباه کنار کشیدن زودهنگام است. سودها دیر می‌رسند و برای همین بیشتر مردم هرگز آن‌ها را نمی‌بینند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l2k3",
+              "type": "tap",
+              "source": "b17c2l2p6",
+              "prompt": {
+                "en": "What does Naval say about the beliefs of cynics and pessimists?",
+                "fa": "Naval دربارهٔ باورهای بدبین‌ها و منفی‌بافان چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "Their beliefs are self-fulfilling",
+                  "fa": "باورهایشان خودشان را محقق می‌کنند"
+                },
+                {
+                  "en": "They protect you from risk",
+                  "fa": "تو را از ریسک محافظت می‌کنند"
+                },
+                {
+                  "en": "They make the best partners",
+                  "fa": "بهترین شریک‌ها را می‌سازند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p10",
+              "text": {
+                "en": "Your 80 percent index core of ETFs such as VWCE or IWDA is a long-term game. It compounds only if you hold through bad years instead of trading.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی تو، با ETFهایی مثل VWCE یا IWDA، یک بازی بلندمدت است. فقط اگر در سال‌های بد نگهش داری و معامله نکنی، مرکب می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l2p11",
+              "text": {
+                "en": "A mentor and a cofounder are long-term people. Choose them for integrity first, then put the equity split in a written cap table with vesting.",
+                "fa": "مربی و هم‌بنیان‌گذار آدم‌های بلندمدت‌اند. اول برای درستکاری انتخابشان کن، بعد تقسیم equity را در cap table مکتوب با vesting بنویس."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l2k4",
+              "type": "tf",
+              "source": "b17c2l2p10",
+              "prompt": {
+                "en": "Your index core compounds best if you trade it actively in bad years.",
+                "fa": "هستهٔ شاخصی تو وقتی بهتر مرکب می‌شود که در سال‌های بد فعالانه معامله‌اش کنی."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b17c2l3",
+          "title": {
+            "en": "Reading and learning",
+            "fa": "مطالعه و یادگیری"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's advice on reading and lifelong learning. It matters because your roadmap sets one hour of reading a day, and Naval shows how to make it stick.",
+                "fa": "این درس توصیه‌های Naval دربارهٔ مطالعه و یادگیری مادام‌العمر را خلاصه می‌کند. مهم است چون نقشهٔ راهت روزی یک ساعت مطالعه تعیین کرده و Naval نشان می‌دهد چطور ماندگارش کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p2",
+              "text": {
+                "en": "Read what you love until you love to read. The habit matters more than any single book.",
+                "fa": "آنچه را دوست داری بخوان تا خواندن را دوست داشته باشی. خودِ عادت از هر کتاب خاصی مهم‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p3",
+              "text": {
+                "en": "Naval calls a genuine love of reading, once cultivated, a superpower. Reading is faster than listening, and doing is faster than watching.",
+                "fa": "Naval علاقهٔ واقعی به مطالعه را، وقتی پرورش یابد، یک ابرقدرت می‌داند. خواندن از شنیدن سریع‌تر است و انجام دادن از تماشا کردن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l3k1",
+              "type": "tap",
+              "source": "b17c2l3p2",
+              "prompt": {
+                "en": "What is Naval's advice for building a reading habit?",
+                "fa": "توصیهٔ Naval برای ساختن عادت مطالعه چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Read what you love until you love to read",
+                  "fa": "آنچه دوست داری بخوان تا خواندن را دوست داشته باشی"
+                },
+                {
+                  "en": "Finish every book you start",
+                  "fa": "هر کتابی را که شروع کردی تمام کن"
+                },
+                {
+                  "en": "Read only the bestseller lists",
+                  "fa": "فقط فهرست پرفروش‌ها را بخوان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p4",
+              "text": {
+                "en": "Read the greats in math, science and philosophy. Ignore your contemporaries and the news.",
+                "fa": "بزرگان ریاضی، علم و فلسفه را بخوان. هم‌عصرانت و اخبار را نادیده بگیر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p5",
+              "text": {
+                "en": "Foundations are key. If you understand the basics deeply, you can work out the rest instead of memorizing it.",
+                "fa": "پایه‌ها کلیدی‌اند. اگر اصول را عمیق بفهمی، می‌توانی باقی را خودت استنتاج کنی به‌جای این‌که حفظش کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p6",
+              "text": {
+                "en": "Naval does not feel bound to finish books. He skims, jumps around and rereads the few books that really matter to him.",
+                "fa": "Naval خودش را مجبور به تمام کردن کتاب‌ها نمی‌داند. ورق می‌زند، بین بخش‌ها می‌پرد و چند کتابی را که واقعاً برایش مهم‌اند دوباره می‌خواند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l3k2",
+              "type": "tf",
+              "source": "b17c2l3p6",
+              "prompt": {
+                "en": "Naval insists you must finish every book you start.",
+                "fa": "Naval اصرار دارد هر کتابی را که شروع می‌کنی باید تمام کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p7",
+              "text": {
+                "en": "The news is mostly noise built for short-term attention. Time spent on it does not compound the way old, tested books do.",
+                "fa": "اخبار بیشتر نویزی است که برای توجه کوتاه‌مدت ساخته شده. زمانی که صرفش می‌کنی مثل کتاب‌های قدیمی و آزموده مرکب نمی‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p8",
+              "text": {
+                "en": "Naval sees reading as how you learn to learn. Once you can learn anything, you can build the specific knowledge the market rewards.",
+                "fa": "Naval مطالعه را راه یاد گرفتنِ یادگیری می‌بیند. وقتی بتوانی هر چیزی را یاد بگیری، می‌توانی دانش خاصی را بسازی که بازار به آن پاداش می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p9",
+              "text": {
+                "en": "Explain what you read in your own words. If you cannot, read the foundations again rather than collecting more books.",
+                "fa": "آنچه می‌خوانی را با کلمات خودت توضیح بده. اگر نتوانستی، به‌جای جمع کردن کتاب‌های بیشتر، پایه‌ها را دوباره بخوان."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l3k3",
+              "type": "tap",
+              "source": "b17c2l3p4",
+              "prompt": {
+                "en": "What does Naval tell you to ignore?",
+                "fa": "Naval می‌گوید چه چیزی را نادیده بگیری؟"
+              },
+              "options": [
+                {
+                  "en": "Your contemporaries and the news",
+                  "fa": "هم‌عصرانت و اخبار"
+                },
+                {
+                  "en": "Classic science books",
+                  "fa": "کتاب‌های کلاسیک علمی"
+                },
+                {
+                  "en": "Philosophy and math",
+                  "fa": "فلسفه و ریاضی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p10",
+              "text": {
+                "en": "Your one hour of reading a day is a compounding asset. Spend most of it on books you love and on foundations, not on headlines.",
+                "fa": "یک ساعت مطالعهٔ روزانه‌ات دارایی‌ای مرکب است. بیشترش را صرف کتاب‌هایی کن که دوست داری و صرف پایه‌ها، نه سرخط خبرها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l3p11",
+              "text": {
+                "en": "Keep notes from each book in your decision journal. Review them each quarter, along with your net-worth log, to see what you actually changed.",
+                "fa": "از هر کتاب در دفترچهٔ تصمیمت یادداشت بردار. هر فصل آن‌ها را همراه با گزارش دارایی خالصت مرور کن تا ببینی واقعاً چه چیزی را تغییر دادی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l3k4",
+              "type": "tf",
+              "source": "b17c2l3p10",
+              "prompt": {
+                "en": "The applied advice is to spend reading time on books you love and on foundations.",
+                "fa": "توصیهٔ کاربردی این است که وقت مطالعه را صرف کتاب‌هایی که دوست داری و صرف پایه‌ها کنی."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b17c2l4",
+          "title": {
+            "en": "Earn with your mind, not your time",
+            "fa": "با ذهنت درآمد بساز، نه با وقتت"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's chapters on how to work and on luck. It matters because a CTO's hours are limited, and Naval shows how to get paid for judgment instead.",
+                "fa": "این درس فصل‌های Naval دربارهٔ شیوهٔ کار و شانس را خلاصه می‌کند. مهم است چون ساعت‌های یک CTO محدود است و Naval نشان می‌دهد چطور به‌جایش برای قضاوت پول بگیری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p2",
+              "text": {
+                "en": "Earn with your mind, not your time. In leveraged work, inputs and outputs are not linked: one good decision can be worth a year of hours.",
+                "fa": "با ذهنت درآمد بساز، نه با وقتت. در کار اهرمی، ورودی و خروجی به هم گره نخورده‌اند: یک تصمیم خوب می‌تواند به اندازهٔ یک سال ساعت کاری بیرزد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p3",
+              "text": {
+                "en": "Work like a lion: sprint hard when the opportunity is there, then rest and reassess. Naval rejects the idea that steady long hours are the path to wealth.",
+                "fa": "مثل شیر کار کن: وقتی فرصت هست با تمام قوا بدو، بعد استراحت کن و دوباره ارزیابی کن. Naval این ایده را رد می‌کند که ساعت‌های طولانی و یکنواخت راه ثروت است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l4k1",
+              "type": "tap",
+              "source": "b17c2l4p3",
+              "prompt": {
+                "en": "How does Naval say you should work?",
+                "fa": "Naval می‌گوید چطور باید کار کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Like a lion: sprint, then rest",
+                  "fa": "مثل شیر: بدو، بعد استراحت کن"
+                },
+                {
+                  "en": "Steady long hours every day",
+                  "fa": "هر روز ساعت‌های طولانی و یکنواخت"
+                },
+                {
+                  "en": "Only when a boss is watching",
+                  "fa": "فقط وقتی رئیس نگاه می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p4",
+              "text": {
+                "en": "Work as hard as you can, but what you work on and who you work with matter more than how hard you work.",
+                "fa": "تا جایی که می‌توانی سخت کار کن، اما این‌که روی چه چیزی و با چه کسی کار می‌کنی از میزان سختی کارت مهم‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p5",
+              "text": {
+                "en": "Set and enforce an aspirational hourly rate. If a task is worth less than that rate, outsource it or ignore it.",
+                "fa": "یک نرخ ساعتی آرمانی برای خودت تعیین کن و پایش بایست. اگر کاری کمتر از این نرخ می‌ارزد، برون‌سپاری‌اش کن یا نادیده‌اش بگیر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p6",
+              "text": {
+                "en": "There are four kinds of luck: blind luck, luck from hustling, luck from preparation, and luck from your unique character. Naval says aim for the last one.",
+                "fa": "چهار نوع شانس وجود دارد: شانس کور، شانس از تکاپو، شانس از آمادگی، و شانس از شخصیت یکتای تو. Naval می‌گوید هدفت نوع آخر باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l4k2",
+              "type": "tf",
+              "source": "b17c2l4p5",
+              "prompt": {
+                "en": "Naval says to outsource a task when it is worth less than your aspirational hourly rate.",
+                "fa": "Naval می‌گوید کاری را که کمتر از نرخ ساعتی آرمانی‌ات می‌ارزد برون‌سپاری کن."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p7",
+              "text": {
+                "en": "Luck from character means you become so good at one thing that opportunities find you. People seek you out for who you are and what you are known for.",
+                "fa": "شانس از شخصیت یعنی در یک کار آن‌قدر خوب شوی که فرصت‌ها تو را پیدا کنند. مردم به خاطر کسی که هستی و چیزی که به آن شناخته می‌شوی سراغت می‌آیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p8",
+              "text": {
+                "en": "Naval says you cannot have good ideas without free time. He keeps his calendar open so he has room to think.",
+                "fa": "Naval می‌گوید بدون وقت آزاد ایدهٔ خوب به سراغت نمی‌آید. او تقویمش را خالی نگه می‌دارد تا جا برای فکر کردن داشته باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p9",
+              "text": {
+                "en": "Apply specific knowledge with leverage and you get paid for judgment, not hours. That is how you escape the trap of trading time for money.",
+                "fa": "دانش خاص را با اهرم به کار ببر تا برای قضاوت پول بگیری، نه برای ساعت. این‌طور از تلهٔ معاوضهٔ وقت با پول بیرون می‌آیی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l4k3",
+              "type": "tap",
+              "source": "b17c2l4p6",
+              "prompt": {
+                "en": "Which kind of luck does Naval tell you to aim for?",
+                "fa": "Naval می‌گوید هدفت کدام نوع شانس باشد؟"
+              },
+              "options": [
+                {
+                  "en": "Luck from your unique character",
+                  "fa": "شانس از شخصیت یکتای تو"
+                },
+                {
+                  "en": "Blind luck",
+                  "fa": "شانس کور"
+                },
+                {
+                  "en": "Luck from hustling",
+                  "fa": "شانس از تکاپو"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p10",
+              "text": {
+                "en": "Pick a target hourly rate above your salary rate. Use it to decide which chores, admin and paperwork in the Netherlands to pay someone else for.",
+                "fa": "یک نرخ ساعتی هدف بالاتر از نرخ حقوقت انتخاب کن. با آن تصمیم بگیر کدام کارهای روزمره، اداری و کاغذبازی در هلند را به دیگران بسپاری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c2l4p11",
+              "text": {
+                "en": "Sprint on your AI product in focused blocks, then rest and review. Steady burnout hours help neither your startup nor your sleep.",
+                "fa": "روی محصول AI خودت در بلوک‌های متمرکز بدو، بعد استراحت و بازبینی کن. ساعت‌های فرساینده و یکنواخت نه به استارتاپت کمک می‌کنند نه به خوابت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c2l4k4",
+              "type": "tf",
+              "source": "b17c2l4p4",
+              "prompt": {
+                "en": "Naval says how hard you work matters more than what you work on.",
+                "fa": "Naval می‌گوید میزان سختی کارت از این‌که روی چه کار می‌کنی مهم‌تر است."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b17c3",
+      "title": {
+        "en": "Happiness, peace and self",
+        "fa": "شادی، آرامش و خود"
+      },
+      "lessons": [
+        {
+          "id": "b17c3l1",
+          "title": {
+            "en": "Happiness is a skill",
+            "fa": "شادی یک مهارت است"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the start of Part II, Learning Happiness. It matters because reaching 25 times your annual expenses takes years, and Naval says you can learn happiness on the way.",
+                "fa": "این درس آغاز بخش دوم، «یاد گرفتن شادی»، را خلاصه می‌کند. مهم است چون رسیدن به ۲۵ برابر هزینه‌های سالانه سال‌ها طول می‌کشد و Naval می‌گوید شادی را می‌شود در مسیر یاد گرفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p2",
+              "text": {
+                "en": "Happiness is a skill you can learn and a choice you make, not something that happens to you. Like fitness, it improves with practice.",
+                "fa": "شادی مهارتی است که یاد می‌گیری و انتخابی است که می‌کنی، نه چیزی که برایت اتفاق می‌افتد. مثل تناسب اندام، با تمرین بهتر می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p3",
+              "text": {
+                "en": "Desire is a contract you make with yourself to be unhappy until you get what you want. Naval suggests picking one big desire at a time.",
+                "fa": "میل قراردادی است که با خودت می‌بندی تا ناشاد بمانی تا وقتی به آنچه می‌خواهی برسی. Naval پیشنهاد می‌کند هر بار فقط یک میل بزرگ را انتخاب کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l1k1",
+              "type": "tap",
+              "source": "b17c3l1p3",
+              "prompt": {
+                "en": "What does Naval call desire?",
+                "fa": "Naval میل را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "A contract with yourself to be unhappy",
+                  "fa": "قراردادی با خودت برای ناشاد ماندن"
+                },
+                {
+                  "en": "The engine of all happiness",
+                  "fa": "موتور همهٔ شادی‌ها"
+                },
+                {
+                  "en": "A promise of future joy",
+                  "fa": "وعدهٔ شادی در آینده"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p4",
+              "text": {
+                "en": "Happiness is what is there when you remove the sense that something is missing. It is the state when nothing is missing.",
+                "fa": "شادی چیزی است که می‌ماند وقتی حس کمبود را کنار بگذاری. حالتی است که در آن چیزی کم نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p5",
+              "text": {
+                "en": "Naval names the fundamental delusion: that something out there will make you happy and fulfilled forever. Every new goal brings new desires.",
+                "fa": "Naval توهم بنیادین را نام می‌برد: این‌که چیزی در بیرون تو را برای همیشه شاد و کامل می‌کند. هر هدف تازه، امیال تازه می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p6",
+              "text": {
+                "en": "The three big things in life are wealth, health and happiness. We pursue them in that order, but their importance is the reverse.",
+                "fa": "سه چیز بزرگ زندگی ثروت، سلامت و شادی‌اند. آن‌ها را به همین ترتیب دنبال می‌کنیم، اما اهمیتشان برعکس است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l1k2",
+              "type": "tf",
+              "source": "b17c3l1p6",
+              "prompt": {
+                "en": "Naval says wealth is the most important of wealth, health and happiness.",
+                "fa": "Naval می‌گوید از میان ثروت، سلامت و شادی، ثروت از همه مهم‌تر است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p7",
+              "text": {
+                "en": "Envy is the enemy of happiness. You cannot swap only the parts of someone's life you like; you would have to be them entirely.",
+                "fa": "حسادت دشمن شادی است. نمی‌توانی فقط بخش‌هایی از زندگی کسی را که دوست داری بگیری؛ باید کاملاً جای او باشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p8",
+              "text": {
+                "en": "A happy person is not someone who is happy all the time. It is someone who interprets events in a way that keeps their inner peace.",
+                "fa": "آدم شاد کسی نیست که همیشه شاد باشد. کسی است که رویدادها را طوری تفسیر می‌کند که آرامش درونی‌اش را از دست ندهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p9",
+              "text": {
+                "en": "Naval says the mind's constant chatter about the past and the future pulls us away from the present. Happiness is easier to find when that noise quiets down.",
+                "fa": "Naval می‌گوید وراجی دائمی ذهن دربارهٔ گذشته و آینده ما را از اکنون دور می‌کند. وقتی این سروصدا آرام شود، شادی راحت‌تر پیدا می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l1k3",
+              "type": "tap",
+              "source": "b17c3l1p7",
+              "prompt": {
+                "en": "Why does envy make no sense, according to Naval?",
+                "fa": "به گفتهٔ Naval، چرا حسادت معنایی ندارد؟"
+              },
+              "options": [
+                {
+                  "en": "You would have to be them entirely",
+                  "fa": "باید کاملاً جای او باشی"
+                },
+                {
+                  "en": "Envy always leads to success",
+                  "fa": "حسادت همیشه به موفقیت می‌رسد"
+                },
+                {
+                  "en": "Other people are never happy",
+                  "fa": "دیگران هرگز شاد نیستند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p10",
+              "text": {
+                "en": "Your roadmap holds many desires at once: a broker, a startup, a product, a new country. Pick one main desire per season so you are not unhappy on every front.",
+                "fa": "نقشهٔ راهت هم‌زمان امیال زیادی دارد: کارگزار، استارتاپ، محصول، کشوری تازه. در هر دوره یک میل اصلی انتخاب کن تا در همهٔ جبهه‌ها ناشاد نباشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l1p11",
+              "text": {
+                "en": "Do not compare your first €100 of income to a founder's exit. Envy would trade your peace for a story you only see from outside.",
+                "fa": "اولین €۱۰۰ درآمدت را با فروش شرکت یک بنیان‌گذار مقایسه نکن. حسادت آرامشت را با داستانی معاوضه می‌کند که فقط از بیرون می‌بینی‌اش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l1k4",
+              "type": "tf",
+              "source": "b17c3l1p10",
+              "prompt": {
+                "en": "The applied advice is to pick one main desire per season.",
+                "fa": "توصیهٔ کاربردی این است که در هر دوره یک میل اصلی انتخاب کنی."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b17c3l2",
+          "title": {
+            "en": "Peace and acceptance",
+            "fa": "آرامش و پذیرش"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's chapters on peace, acceptance and living in the present. It matters because a move abroad, a startup and the markets all bring stress you cannot fully control.",
+                "fa": "این درس فصل‌های Naval دربارهٔ آرامش، پذیرش و زندگی در اکنون را خلاصه می‌کند. مهم است چون مهاجرت، استارتاپ و بازارها همه استرسی می‌آورند که کاملاً در اختیارت نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p2",
+              "text": {
+                "en": "Peace is happiness at rest, and happiness is peace in motion. Naval now values inner peace more than excitement.",
+                "fa": "آرامش، شادی در حال سکون است و شادی، آرامش در حرکت. Naval اکنون آرامش درونی را بیش از هیجان ارزش می‌گذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p3",
+              "text": {
+                "en": "In any situation you have three options: change it, accept it or leave it. Wanting it to change while doing none of these causes suffering.",
+                "fa": "در هر موقعیتی سه گزینه داری: تغییرش دهی، بپذیری‌اش یا ترکش کنی. خواستن تغییر بدون انجام هیچ‌کدام از این‌ها رنج می‌سازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l2k1",
+              "type": "tap",
+              "source": "b17c3l2p3",
+              "prompt": {
+                "en": "What are your three options in any situation, according to Naval?",
+                "fa": "به گفتهٔ Naval، در هر موقعیتی سه گزینه‌ات چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Change it, accept it or leave it",
+                  "fa": "تغییرش بده، بپذیرش یا ترکش کن"
+                },
+                {
+                  "en": "Complain, wait or ignore it",
+                  "fa": "شکایت کن، صبر کن یا نادیده‌اش بگیر"
+                },
+                {
+                  "en": "Fight, hide or blame others",
+                  "fa": "بجنگ، پنهان شو یا دیگران را مقصر بدان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p4",
+              "text": {
+                "en": "Acceptance is not giving up. It means seeing the situation as it is, so you can respond without fighting yourself.",
+                "fa": "پذیرش تسلیم شدن نیست. یعنی موقعیت را همان‌طور که هست ببینی تا بدون جنگ با خودت واکنش نشان دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p5",
+              "text": {
+                "en": "Most unhappiness comes from not accepting the present moment. The mind lives in the past or the future, while life happens now.",
+                "fa": "بیشتر ناشادی از نپذیرفتن لحظهٔ حال می‌آید. ذهن در گذشته یا آینده زندگی می‌کند، در حالی که زندگی در اکنون رخ می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p6",
+              "text": {
+                "en": "A calm mind, a fit body and a house full of love cannot be bought. They must be earned.",
+                "fa": "ذهن آرام، بدن سالم و خانه‌ای پر از عشق را نمی‌شود خرید. باید به دستشان آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l2k2",
+              "type": "tf",
+              "source": "b17c3l2p6",
+              "prompt": {
+                "en": "Naval says a calm mind and a fit body can be bought with enough money.",
+                "fa": "Naval می‌گوید ذهن آرام و بدن سالم را می‌شود با پول کافی خرید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p7",
+              "text": {
+                "en": "Naval links peace to a quieter ego. The less you need to defend your self-image, the less there is to disturb you.",
+                "fa": "Naval آرامش را به منیت آرام‌تر گره می‌زند. هرچه کمتر لازم باشد از تصویرت از خود دفاع کنی، چیز کمتری آرامشت را برهم می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p8",
+              "text": {
+                "en": "Naval calls life a single-player game: your interpretations are your own. No one else can choose your peace for you.",
+                "fa": "Naval زندگی را بازی تک‌نفره می‌نامد: تفسیرهایت مال خودت است. هیچ‌کس دیگری نمی‌تواند آرامشت را برایت انتخاب کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p9",
+              "text": {
+                "en": "Meditation shows you how restless the mind is. Over time, watching thoughts without acting on them builds a habit of peace.",
+                "fa": "مدیتیشن نشانت می‌دهد ذهن چقدر ناآرام است. با گذشت زمان، تماشای افکار بدون عمل به آن‌ها عادت آرامش را می‌سازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l2k3",
+              "type": "tap",
+              "source": "b17c3l2p8",
+              "prompt": {
+                "en": "What does Naval call life?",
+                "fa": "Naval زندگی را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "A single-player game",
+                  "fa": "بازی تک‌نفره"
+                },
+                {
+                  "en": "A team sport",
+                  "fa": "ورزش تیمی"
+                },
+                {
+                  "en": "A zero-sum race",
+                  "fa": "مسابقه‌ای با جمع صفر"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p10",
+              "text": {
+                "en": "You cannot control BSN queues or a market drop. Use change, accept or leave: fix the paperwork you can, and accept what you cannot.",
+                "fa": "نمی‌توانی صف BSN یا افت بازار را کنترل کنی. از تغییر، پذیرش یا ترک استفاده کن: کاغذبازی‌ای را که می‌توانی درست کن و آنچه را نمی‌توانی بپذیر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l2p11",
+              "text": {
+                "en": "When your quarterly net-worth log shows a market drop, note it and move on. Your index core is a long-term game, and peace keeps you from selling in panic.",
+                "fa": "وقتی گزارش فصلی دارایی خالصت افت بازار را نشان می‌دهد، یادداشتش کن و بگذر. هستهٔ شاخصی تو بازی بلندمدت است و آرامش نمی‌گذارد با وحشت بفروشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l2k4",
+              "type": "tf",
+              "source": "b17c3l2p5",
+              "prompt": {
+                "en": "Naval says most unhappiness comes from not accepting the present moment.",
+                "fa": "Naval می‌گوید بیشتر ناشادی از نپذیرفتن لحظهٔ حال می‌آید."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b17c3l3",
+          "title": {
+            "en": "Choosing to build habits",
+            "fa": "انتخاب ساختن عادت‌ها"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's chapters on choosing to build habits and on health. It matters because reading, journaling and sleep are habits, and habits run your days.",
+                "fa": "این درس فصل‌های Naval دربارهٔ انتخاب ساختن عادت و سلامت را خلاصه می‌کند. مهم است چون مطالعه، دفترچه‌نویسی و خواب عادت‌اند و عادت‌ها روزهایت را می‌گردانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p2",
+              "text": {
+                "en": "Naval says happiness, love and passion are not things you find; they are choices you make. Habits are how those choices become automatic.",
+                "fa": "Naval می‌گوید شادی، عشق و شور چیزهایی نیستند که پیدا کنی؛ انتخاب‌هایی‌اند که می‌کنی. عادت‌ها راهی‌اند که این انتخاب‌ها خودکار شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p3",
+              "text": {
+                "en": "Your number one priority is your physical health. Naval puts exercise first and works out daily, usually in the morning.",
+                "fa": "اولویت شمارهٔ یک تو سلامت جسمی‌ات است. Naval ورزش را در صدر می‌گذارد و هر روز، معمولاً صبح، تمرین می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l3k1",
+              "type": "tf",
+              "source": "b17c3l3p3",
+              "prompt": {
+                "en": "Naval treats physical health as a low priority until you are wealthy.",
+                "fa": "Naval سلامت جسمی را تا وقتی ثروتمند شوی اولویتی پایین می‌داند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p4",
+              "text": {
+                "en": "Naval calls meditation intermittent fasting for the mind. He has practiced sitting quietly for an hour in the morning.",
+                "fa": "Naval مدیتیشن را روزه‌داری متناوب برای ذهن می‌نامد. او تمرین کرده هر صبح یک ساعت در سکوت بنشیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p5",
+              "text": {
+                "en": "Naval says you break a bad habit by noticing it and replacing it, not by willpower alone.",
+                "fa": "Naval می‌گوید عادت بد را با دیدنش و جایگزین کردنش می‌شکنی، نه فقط با اراده."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p6",
+              "text": {
+                "en": "The hardest thing is not doing what you want; it is knowing what you want. Clear priorities make habits easier to keep.",
+                "fa": "سخت‌ترین کار انجام دادن آنچه می‌خواهی نیست؛ دانستن این است که چه می‌خواهی. اولویت‌های روشن نگه داشتن عادت‌ها را آسان‌تر می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l3k2",
+              "type": "tap",
+              "source": "b17c3l3p4",
+              "prompt": {
+                "en": "What does Naval call meditation?",
+                "fa": "Naval مدیتیشن را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "Intermittent fasting for the mind",
+                  "fa": "روزه‌داری متناوب برای ذهن"
+                },
+                {
+                  "en": "A waste of morning time",
+                  "fa": "هدر دادن وقت صبح"
+                },
+                {
+                  "en": "A cure for every illness",
+                  "fa": "درمان هر بیماری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p7",
+              "text": {
+                "en": "Naval says a fit body supports a calm mind. Diet, sleep and exercise are the base on which other habits stand.",
+                "fa": "Naval می‌گوید بدن سالم پشتیبان ذهن آرام است. تغذیه، خواب و ورزش پایه‌ای‌اند که عادت‌های دیگر روی آن می‌ایستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p8",
+              "text": {
+                "en": "Naval notes we are largely a collection of habits picked up as children. As adults we can choose them on purpose.",
+                "fa": "Naval یادآوری می‌کند که ما تا حد زیادی مجموعه‌ای از عادت‌هایی هستیم که در کودکی گرفته‌ایم. در بزرگسالی می‌توانیم آگاهانه انتخابشان کنیم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p9",
+              "text": {
+                "en": "Change one habit at a time. Trying to fix everything at once rarely lasts.",
+                "fa": "هر بار یک عادت را تغییر بده. تلاش برای درست کردن همه‌چیز با هم کمتر ماندگار است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l3k3",
+              "type": "tf",
+              "source": "b17c3l3p8",
+              "prompt": {
+                "en": "Naval says adults can choose their habits on purpose.",
+                "fa": "Naval می‌گوید بزرگسالان می‌توانند آگاهانه عادت‌هایشان را انتخاب کنند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p10",
+              "text": {
+                "en": "Your roadmap habits are small: one hour of reading, a decision journal entry, sleep. Add them one at a time, not all in your first week in the Netherlands.",
+                "fa": "عادت‌های نقشهٔ راهت کوچک‌اند: یک ساعت مطالعه، یک یادداشت در دفترچهٔ تصمیم، خواب. یکی‌یکی اضافه‌شان کن، نه همه در اولین هفته‌ات در هلند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l3p11",
+              "text": {
+                "en": "Protect sleep first. Tired judgment makes worse decisions, and leverage multiplies every bad one.",
+                "fa": "اول از خواب محافظت کن. قضاوت خسته تصمیم‌های بدتری می‌گیرد و اهرم هر تصمیم بد را چند برابر می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l3k4",
+              "type": "tap",
+              "source": "b17c3l3p11",
+              "prompt": {
+                "en": "Why protect sleep first, in the applied view?",
+                "fa": "از نگاه کاربردی، چرا اول باید از خواب محافظت کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Tired judgment makes worse decisions",
+                  "fa": "قضاوت خسته تصمیم‌های بدتری می‌گیرد"
+                },
+                {
+                  "en": "Sleep is wasted working time",
+                  "fa": "خواب وقت کاری هدررفته است"
+                },
+                {
+                  "en": "Leverage removes all mistakes",
+                  "fa": "اهرم همهٔ اشتباه‌ها را از بین می‌برد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b17c3l4",
+          "title": {
+            "en": "Self-esteem and growing yourself",
+            "fa": "عزت‌نفس و رشد خود"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b17c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Naval's chapters on self-esteem, growing yourself and his philosophy. It matters because a founder who keeps promises to themself is one others can trust.",
+                "fa": "این درس فصل‌های Naval دربارهٔ عزت‌نفس، رشد خود و فلسفه‌اش را خلاصه می‌کند. مهم است چون بنیان‌گذاری که به قول‌هایش به خودش عمل کند، کسی است که دیگران هم به او اعتماد می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p2",
+              "text": {
+                "en": "Self-esteem is the reputation you have with yourself. You always know what you did.",
+                "fa": "عزت‌نفس اعتباری است که نزد خودت داری. تو همیشه می‌دانی چه کرده‌ای."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p3",
+              "text": {
+                "en": "You build it by keeping the promises you make to yourself. Each kept promise is a small deposit in that reputation.",
+                "fa": "آن را با عمل کردن به قول‌هایی که به خودت می‌دهی می‌سازی. هر قول عمل‌شده واریزی کوچک به این اعتبار است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l4k1",
+              "type": "tap",
+              "source": "b17c3l4p2",
+              "prompt": {
+                "en": "How does Naval define self-esteem?",
+                "fa": "Naval عزت‌نفس را چطور تعریف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The reputation you have with yourself",
+                  "fa": "اعتباری که نزد خودت داری"
+                },
+                {
+                  "en": "The praise you receive from others",
+                  "fa": "تحسینی که از دیگران می‌گیری"
+                },
+                {
+                  "en": "Your rank at work",
+                  "fa": "رتبه‌ات در محل کار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p4",
+              "text": {
+                "en": "Naval says you cannot outsource your growth. No doctor, coach or book can make you healthy or wise if you do not do the work.",
+                "fa": "Naval می‌گوید رشدت را نمی‌توانی برون‌سپاری کنی. هیچ پزشک، مربی یا کتابی تو را سالم یا خردمند نمی‌کند اگر خودت کار را انجام ندهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p5",
+              "text": {
+                "en": "Be yourself: Naval argues that copying someone else is a losing game. Your unique mix is what nobody can compete with.",
+                "fa": "خودت باش: Naval می‌گوید کپی کردن کس دیگر بازی‌ای بازنده است. ترکیب یکتای تو چیزی است که هیچ‌کس نمی‌تواند با آن رقابت کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p6",
+              "text": {
+                "en": "Naval puts great weight on honesty, starting with honesty toward yourself. You cannot judge clearly what you refuse to see.",
+                "fa": "Naval به صداقت اهمیت زیادی می‌دهد و از صداقت با خودت شروع می‌کند. چیزی را که حاضر نیستی ببینی نمی‌توانی روشن قضاوت کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l4k2",
+              "type": "tf",
+              "source": "b17c3l4p3",
+              "prompt": {
+                "en": "Self-esteem grows each time you keep a promise to yourself.",
+                "fa": "عزت‌نفس هر بار که به قولی به خودت عمل می‌کنی رشد می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p7",
+              "text": {
+                "en": "Naval finds Stoicism and Buddhism useful lenses. Both teach that you control your reactions, not outside events.",
+                "fa": "Naval رواقی‌گری و بودیسم را عدسی‌هایی کارآمد می‌داند. هر دو می‌آموزند که واکنش‌هایت در اختیار توست، نه رویدادهای بیرونی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p8",
+              "text": {
+                "en": "Naval believes the meaning of life is personal: you have to find or create your own. No outside authority can hand it to you.",
+                "fa": "Naval معتقد است معنای زندگی شخصی است: باید خودت آن را پیدا کنی یا بسازی. هیچ مرجع بیرونی نمی‌تواند آن را به دستت بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p9",
+              "text": {
+                "en": "The Almanack closes with Naval's recommended reading list. He sees books as the best way to keep growing yourself.",
+                "fa": "Almanack با فهرست کتاب‌های پیشنهادی Naval تمام می‌شود. او کتاب‌ها را بهترین راه برای ادامهٔ رشد خود می‌داند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l4k3",
+              "type": "tap",
+              "source": "b17c3l4p8",
+              "prompt": {
+                "en": "What does Naval say about the meaning of life?",
+                "fa": "Naval دربارهٔ معنای زندگی چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "It is personal: you find your own",
+                  "fa": "شخصی است: خودت آن را پیدا می‌کنی"
+                },
+                {
+                  "en": "It is set by society",
+                  "fa": "جامعه آن را تعیین می‌کند"
+                },
+                {
+                  "en": "It is written in one book",
+                  "fa": "در یک کتاب نوشته شده"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p10",
+              "text": {
+                "en": "Your decision journal is a promise-keeping tool. Write what you will do this week, then check it, and your self-esteem grows with each kept line.",
+                "fa": "دفترچهٔ تصمیمت ابزاری برای عمل به قول‌هاست. بنویس این هفته چه می‌کنی، بعد بررسی‌اش کن تا با هر خط عمل‌شده عزت‌نفست رشد کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b17c3l4p11",
+              "text": {
+                "en": "Wealth, health and happiness all compound from small daily actions. Own equity, keep your index core, read, sleep, and keep your word to yourself.",
+                "fa": "ثروت، سلامت و شادی همه از کارهای کوچک روزانه مرکب می‌شوند. مالک equity باش، هستهٔ شاخصی‌ات را نگه دار، بخوان، بخواب و به قولت به خودت عمل کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b17c3l4k4",
+              "type": "tf",
+              "source": "b17c3l4p4",
+              "prompt": {
+                "en": "Naval says a good coach can do the work of growing for you.",
+                "fa": "Naval می‌گوید یک مربی خوب می‌تواند کار رشد را به‌جای تو انجام دهد."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
