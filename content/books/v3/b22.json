@@ -1,254 +1,817 @@
 {
   "id": "b22",
   "title": "Paul Graham Essays (free)",
-  "author": {"en": "Paul Graham", "fa": "Paul Graham"},
+  "author": {
+    "en": "Paul Graham",
+    "fa": "Paul Graham"
+  },
   "year": 2001,
   "stage": 5,
   "must": false,
-  "why": {"en": "paulgraham.com; read them all", "fa": "paulgraham.com؛ همه را بخوان"},
-  "badge": {"en": "Make Something People Want", "fa": "چیزی بساز که مردم بخواهند"},
+  "why": {
+    "en": "paulgraham.com; read them all",
+    "fa": "paulgraham.com؛ همه را بخوان"
+  },
+  "badge": {
+    "en": "Make Something People Want",
+    "fa": "چیزی بساز که مردم بخواهند"
+  },
   "tier": "low",
+  "complexity": 3,
   "circles": [
     {
       "id": "b22c1",
-      "title": {"en": "Make something people want, grow it, stay alive", "fa": "چیزی بساز که مردم بخواهند، رشدش بده، زنده بمان"},
+      "title": {
+        "en": "Make something people want, grow it, stay alive",
+        "fa": "چیزی بساز که مردم بخواهند، رشدش بده، زنده بمان"
+      },
       "lessons": [
         {
           "id": "b22c1l1",
-          "title": {"en": "Find a real problem, start cheap", "fa": "مشکلی واقعی پیدا کن، ارزان شروع کن"},
+          "title": {
+            "en": "Find a real problem, start cheap",
+            "fa": "مشکلی واقعی پیدا کن، ارزان شروع کن"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b22c1l1p1", "frame": true, "text": {
-              "en": "This Lesson distils How to Get Startup Ideas (2012) and How to Start a Startup (2005). It matters because your first €100 of ownership income will come from a problem people pay to solve.",
-              "fa": "این درس دو مقالهٔ How to Get Startup Ideas (۲۰۱۲) و How to Start a Startup (۲۰۰۵) را خلاصه می‌کند. مهم است چون اولین ۱۰۰ یورو درآمد مالکیتی تو از مشکلی می‌آید که مردم برای حلش پول می‌دهند."
-            }},
-            {"kind": "card", "id": "b22c1l1p2", "text": {
-              "en": "How to Get Startup Ideas: the way to get startup ideas is not to try to think of them. Look for problems, preferably problems you have yourself.",
-              "fa": "How to Get Startup Ideas: راه پیدا کردن ایدهٔ استارتاپی این نیست که برای فکر کردن به آن تلاش کنی. دنبال مشکل بگرد، ترجیحاً مشکلی که خودت داری."
-            }},
-            {"kind": "card", "id": "b22c1l1p3", "text": {
-              "en": "How to Get Startup Ideas: the best ideas share three things. The founders want it themselves, they can build it themselves, and few others see it is worth doing.",
-              "fa": "How to Get Startup Ideas: بهترین ایده‌ها سه ویژگی مشترک دارند. بنیان‌گذاران خودشان آن را می‌خواهند، خودشان می‌توانند بسازندش، و کمتر کسی می‌بیند که ارزش انجام دارد."
-            }},
-            {"kind": "check", "id": "b22c1l1k1", "type": "tap", "source": "b22c1l1p3",
-              "prompt": {"en": "In How to Get Startup Ideas, which is one of the three things the best ideas share?", "fa": "در How to Get Startup Ideas، کدام یکی از سه ویژگی مشترک بهترین ایده‌هاست؟"},
+            {
+              "kind": "card",
+              "id": "b22c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils How to Get Startup Ideas (2012) and How to Start a Startup (2005). It matters because your first €100 of ownership income will come from a problem people pay to solve.",
+                "fa": "این درس دو مقالهٔ How to Get Startup Ideas (۲۰۱۲) و How to Start a Startup (۲۰۰۵) را خلاصه می‌کند. مهم است چون اولین ۱۰۰ یورو درآمد مالکیتی تو از مشکلی می‌آید که مردم برای حلش پول می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p2",
+              "text": {
+                "en": "How to Get Startup Ideas: the way to get startup ideas is not to try to think of them. Look for problems, preferably problems you have yourself.",
+                "fa": "How to Get Startup Ideas: راه پیدا کردن ایدهٔ استارتاپی این نیست که برای فکر کردن به آن تلاش کنی. دنبال مشکل بگرد، ترجیحاً مشکلی که خودت داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p3",
+              "text": {
+                "en": "How to Get Startup Ideas: the best ideas share three things. The founders want it themselves, they can build it themselves, and few others see it is worth doing.",
+                "fa": "How to Get Startup Ideas: بهترین ایده‌ها سه ویژگی مشترک دارند. بنیان‌گذاران خودشان آن را می‌خواهند، خودشان می‌توانند بسازندش، و کمتر کسی می‌بیند که ارزش انجام دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l1k1",
+              "type": "tap",
+              "source": "b22c1l1p3",
+              "prompt": {
+                "en": "In How to Get Startup Ideas, which is one of the three things the best ideas share?",
+                "fa": "در How to Get Startup Ideas، کدام یکی از سه ویژگی مشترک بهترین ایده‌هاست؟"
+              },
               "options": [
-                {"en": "The founders want it themselves", "fa": "بنیان‌گذاران خودشان آن را می‌خواهند"},
-                {"en": "It needs a large team to build", "fa": "ساختنش به تیمی بزرگ نیاز دارد"},
-                {"en": "Everyone already agrees it is worth doing", "fa": "همه از قبل قبول دارند که ارزش انجام دارد"}
-              ], "answer": 0},
-            {"kind": "card", "id": "b22c1l1p4", "text": {
-              "en": "How to Get Startup Ideas: beware sitcom ideas, made-up ideas that sound plausible, like a social network for pet owners. Almost nobody wants them badly enough to use them.",
-              "fa": "How to Get Startup Ideas: از ایده‌های سریال‌کمدی بپرهیز، ایده‌های ساختگی که معقول به نظر می‌رسند، مثل شبکهٔ اجتماعی برای صاحبان حیوان خانگی. تقریباً هیچ‌کس آن‌قدر نمی‌خواهدشان که استفاده کند."
-            }},
-            {"kind": "card", "id": "b22c1l1p5", "text": {
-              "en": "How to Get Startup Ideas: better a few users who want it urgently than many who want it a little. Facebook began as a site for Harvard students only, a narrow but deep well.",
-              "fa": "How to Get Startup Ideas: چند کاربر که فوری به آن نیاز دارند بهتر از کاربران زیادی است که کمی می‌خواهندش. Facebook با سایتی فقط برای دانشجویان Harvard شروع شد، چاهی باریک اما عمیق."
-            }},
-            {"kind": "check", "id": "b22c1l1k2", "type": "tf", "source": "b22c1l1p5",
-              "prompt": {"en": "Graham prefers an idea many people want a little over one a few people want urgently.", "fa": "Graham ایده‌ای را که خیلی‌ها کمی می‌خواهند به ایده‌ای که چند نفر فوری می‌خواهند ترجیح می‌دهد."},
-              "answer": false},
-            {"kind": "card", "id": "b22c1l1p6", "text": {
-              "en": "How to Get Startup Ideas: live in the future, then build what's missing. Ideas found this way are organic; they grow from noticing what you need, not from brainstorming.",
-              "fa": "How to Get Startup Ideas: در آینده زندگی کن، بعد چیزی را بساز که کم است. ایده‌هایی که این‌طور پیدا می‌شوند طبیعی‌اند؛ از دیدن نیاز خودت می‌رویند، نه از طوفان فکری."
-            }},
-            {"kind": "card", "id": "b22c1l1p7", "text": {
-              "en": "How to Get Startup Ideas: schlep blindness hides good ideas behind tedious work. Stripe took on payments, a painful problem other hackers avoided even thinking about.",
-              "fa": "How to Get Startup Ideas: کوری نسبت به کار طاقت‌فرسا (schlep blindness) ایده‌های خوب را پشت کارهای کسل‌کننده پنهان می‌کند. Stripe سراغ پرداخت رفت، مشکلی دردناک که هکرهای دیگر حتی از فکرش فرار می‌کردند."
-            }},
-            {"kind": "card", "id": "b22c1l1p8", "text": {
-              "en": "How to Start a Startup: you need three things. Start with good people, make something customers actually want, and spend as little money as possible.",
-              "fa": "How to Start a Startup: به سه چیز نیاز داری. با آدم‌های خوب شروع کن، چیزی بساز که مشتری‌ها واقعاً بخواهند، و تا جای ممکن کم پول خرج کن."
-            }},
-            {"kind": "check", "id": "b22c1l1k3", "type": "tap", "source": "b22c1l1p8",
-              "prompt": {"en": "Which three things does How to Start a Startup say you need?", "fa": "How to Start a Startup می‌گوید به کدام سه چیز نیاز داری؟"},
+                {
+                  "en": "The founders want it themselves",
+                  "fa": "بنیان‌گذاران خودشان آن را می‌خواهند"
+                },
+                {
+                  "en": "It needs a large team to build",
+                  "fa": "ساختنش به تیمی بزرگ نیاز دارد"
+                },
+                {
+                  "en": "Everyone already agrees it is worth doing",
+                  "fa": "همه از قبل قبول دارند که ارزش انجام دارد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p4",
+              "text": {
+                "en": "How to Get Startup Ideas: beware sitcom ideas, made-up ideas that sound plausible, like a social network for pet owners. Almost nobody wants them badly enough to use them.",
+                "fa": "How to Get Startup Ideas: از ایده‌های سریال‌کمدی بپرهیز، ایده‌های ساختگی که معقول به نظر می‌رسند، مثل شبکهٔ اجتماعی برای صاحبان حیوان خانگی. تقریباً هیچ‌کس آن‌قدر نمی‌خواهدشان که استفاده کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p5",
+              "text": {
+                "en": "How to Get Startup Ideas: better a few users who want it urgently than many who want it a little. Facebook began as a site for Harvard students only, a narrow but deep well.",
+                "fa": "How to Get Startup Ideas: چند کاربر که فوری به آن نیاز دارند بهتر از کاربران زیادی است که کمی می‌خواهندش. Facebook با سایتی فقط برای دانشجویان Harvard شروع شد، چاهی باریک اما عمیق."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l1k2",
+              "type": "tf",
+              "source": "b22c1l1p5",
+              "prompt": {
+                "en": "Graham prefers an idea many people want a little over one a few people want urgently.",
+                "fa": "Graham ایده‌ای را که خیلی‌ها کمی می‌خواهند به ایده‌ای که چند نفر فوری می‌خواهند ترجیح می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p6",
+              "text": {
+                "en": "How to Get Startup Ideas: live in the future, then build what's missing. Ideas found this way are organic; they grow from noticing what you need, not from brainstorming.",
+                "fa": "How to Get Startup Ideas: در آینده زندگی کن، بعد چیزی را بساز که کم است. ایده‌هایی که این‌طور پیدا می‌شوند طبیعی‌اند؛ از دیدن نیاز خودت می‌رویند، نه از طوفان فکری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p7",
+              "text": {
+                "en": "How to Get Startup Ideas: schlep blindness hides good ideas behind tedious work. Stripe took on payments, a painful problem other hackers avoided even thinking about.",
+                "fa": "How to Get Startup Ideas: کوری نسبت به کار طاقت‌فرسا (schlep blindness) ایده‌های خوب را پشت کارهای کسل‌کننده پنهان می‌کند. Stripe سراغ پرداخت رفت، مشکلی دردناک که هکرهای دیگر حتی از فکرش فرار می‌کردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p8",
+              "text": {
+                "en": "How to Start a Startup: you need three things. Start with good people, make something customers actually want, and spend as little money as possible.",
+                "fa": "How to Start a Startup: به سه چیز نیاز داری. با آدم‌های خوب شروع کن، چیزی بساز که مشتری‌ها واقعاً بخواهند، و تا جای ممکن کم پول خرج کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l1k3",
+              "type": "tap",
+              "source": "b22c1l1p8",
+              "prompt": {
+                "en": "Which three things does How to Start a Startup say you need?",
+                "fa": "How to Start a Startup می‌گوید به کدام سه چیز نیاز داری؟"
+              },
               "options": [
-                {"en": "A patent, a big office and a press launch", "fa": "یک patent، یک دفتر بزرگ و یک رونمایی مطبوعاتی"},
-                {"en": "Good people, something customers actually want, spending little money", "fa": "آدم‌های خوب، چیزی که مشتری‌ها واقعاً بخواهند، کم خرج کردن"},
-                {"en": "Venture funding, a large team and a famous brand", "fa": "سرمایهٔ خطرپذیر، تیمی بزرگ و برندی معروف"}
-              ], "answer": 1},
-            {"kind": "card", "id": "b22c1l1p9", "text": {
-              "en": "How to Start a Startup: most startups that fail break one of these three rules. And what matters is not ideas but the people who have them.",
-              "fa": "How to Start a Startup: بیشتر استارتاپ‌هایی که شکست می‌خورند یکی از این سه قاعده را می‌شکنند. و آنچه اهمیت دارد ایده‌ها نیست، آدم‌هایی است که آن‌ها را دارند."
-            }},
-            {"kind": "card", "id": "b22c1l1p10", "text": {
-              "en": "How to Start a Startup: it is better to make a few people really happy than a lot of people semi-happy. Start with a small group who love what you built.",
-              "fa": "How to Start a Startup: بهتر است چند نفر را واقعاً خوشحال کنی تا خیلی‌ها را نیمه‌خوشحال. با گروهی کوچک شروع کن که چیزی را که ساختی دوست دارند."
-            }},
-            {"kind": "check", "id": "b22c1l1k4", "type": "tf", "source": "b22c1l1p10",
-              "prompt": {"en": "Graham says it is better to make a few people really happy than many semi-happy.", "fa": "Graham می‌گوید بهتر است چند نفر را واقعاً خوشحال کنی تا خیلی‌ها را نیمه‌خوشحال."},
-              "answer": true},
-            {"kind": "card", "id": "b22c1l1p11", "text": {
-              "en": "How to Start a Startup: spend as little as possible. Graham calls not hiring people the most important way to not spend money.",
-              "fa": "How to Start a Startup: تا جای ممکن کم خرج کن. Graham استخدام نکردن را مهم‌ترین راه خرج نکردن پول می‌داند."
-            }},
-            {"kind": "card", "id": "b22c1l1p12", "text": {
-              "en": "Applied: for your small AI product, pick a problem you hit at work, find ten people who want it badly, and keep costs near zero. That is the three rules at your scale.",
-              "fa": "کاربردی: برای محصول کوچک AI خودت، مشکلی را انتخاب کن که در کار با آن روبه‌رو می‌شوی، ده نفر پیدا کن که شدیداً می‌خواهندش، و هزینه را نزدیک صفر نگه دار. این همان سه قاعده در مقیاس توست."
-            }},
-            {"kind": "check", "id": "b22c1l1k5", "type": "tap", "source": "b22c1l1p12",
-              "prompt": {"en": "What is the first step for your small AI product in this Lesson?", "fa": "در این درس، اولین قدم برای محصول کوچک AI تو چیست؟"},
+                {
+                  "en": "A patent, a big office and a press launch",
+                  "fa": "یک patent، یک دفتر بزرگ و یک رونمایی مطبوعاتی"
+                },
+                {
+                  "en": "Good people, something customers actually want, spending little money",
+                  "fa": "آدم‌های خوب، چیزی که مشتری‌ها واقعاً بخواهند، کم خرج کردن"
+                },
+                {
+                  "en": "Venture funding, a large team and a famous brand",
+                  "fa": "سرمایهٔ خطرپذیر، تیمی بزرگ و برندی معروف"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p9",
+              "text": {
+                "en": "How to Start a Startup: most startups that fail break one of these three rules. And what matters is not ideas but the people who have them.",
+                "fa": "How to Start a Startup: بیشتر استارتاپ‌هایی که شکست می‌خورند یکی از این سه قاعده را می‌شکنند. و آنچه اهمیت دارد ایده‌ها نیست، آدم‌هایی است که آن‌ها را دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p10",
+              "text": {
+                "en": "How to Start a Startup: the only way to make something customers want is to get a prototype in front of them and refine it based on their reactions. So get a version 1 out as soon as you can.",
+                "fa": "How to Start a Startup: تنها راه ساختن چیزی که مشتری‌ها بخواهند این است که یک prototype جلویشان بگذاری و بر اساس واکنششان بهترش کنی. پس نسخهٔ ۱ را هرچه زودتر بیرون بده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l1k4",
+              "type": "tf",
+              "source": "b22c1l1p10",
+              "prompt": {
+                "en": "How to Start a Startup says to refine a prototype based on customers' reactions.",
+                "fa": "How to Start a Startup می‌گوید prototype را بر اساس واکنش مشتری‌ها بهتر کن."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p11",
+              "text": {
+                "en": "How to Start a Startup: spend as little as possible. Graham calls not hiring people the most important way to not spend money.",
+                "fa": "How to Start a Startup: تا جای ممکن کم خرج کن. Graham استخدام نکردن را مهم‌ترین راه خرج نکردن پول می‌داند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l1p12",
+              "text": {
+                "en": "Applied: for your small AI product, pick a problem you hit at work, find ten people who want it badly, and keep costs near zero. That is the three rules at your scale.",
+                "fa": "کاربردی: برای محصول کوچک AI خودت، مشکلی را انتخاب کن که در کار با آن روبه‌رو می‌شوی، ده نفر پیدا کن که شدیداً می‌خواهندش، و هزینه را نزدیک صفر نگه دار. این همان سه قاعده در مقیاس توست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l1k5",
+              "type": "tap",
+              "source": "b22c1l1p12",
+              "prompt": {
+                "en": "What is the first step for your small AI product in this Lesson?",
+                "fa": "در این درس، اولین قدم برای محصول کوچک AI تو چیست؟"
+              },
               "options": [
-                {"en": "Raise venture funding first", "fa": "اول سرمایهٔ خطرپذیر جذب کن"},
-                {"en": "Hire a team of five engineers", "fa": "تیمی پنج‌نفره از مهندس‌ها استخدام کن"},
-                {"en": "Pick a problem you hit at work", "fa": "مشکلی را انتخاب کن که در کار با آن روبه‌رو می‌شوی"}
-              ], "answer": 2}
+                {
+                  "en": "Raise venture funding first",
+                  "fa": "اول سرمایهٔ خطرپذیر جذب کن"
+                },
+                {
+                  "en": "Hire a team of five engineers",
+                  "fa": "تیمی پنج‌نفره از مهندس‌ها استخدام کن"
+                },
+                {
+                  "en": "Pick a problem you hit at work",
+                  "fa": "مشکلی را انتخاب کن که در کار با آن روبه‌رو می‌شوی"
+                }
+              ],
+              "answer": 2
+            }
           ]
         },
         {
           "id": "b22c1l2",
-          "title": {"en": "Growth is the compass; start it by hand", "fa": "رشد قطب‌نماست؛ با دست شروعش کن"},
+          "title": {
+            "en": "Growth is the compass; start it by hand",
+            "fa": "رشد قطب‌نماست؛ با دست شروعش کن"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b22c1l2p1", "frame": true, "text": {
-              "en": "This Lesson distils Startup = Growth (2012) and Do Things That Don't Scale (2013). It matters because a product becomes ownership worth having only once it grows, and growth starts by hand.",
-              "fa": "این درس دو مقالهٔ Startup = Growth (۲۰۱۲) و Do Things That Don't Scale (۲۰۱۳) را خلاصه می‌کند. مهم است چون محصول فقط وقتی به مالکیتی ارزشمند تبدیل می‌شود که رشد کند، و رشد با دست شروع می‌شود."
-            }},
-            {"kind": "card", "id": "b22c1l2p2", "text": {
-              "en": "Startup = Growth: a startup is a company designed to grow fast. Being newly founded does not make a company a startup, and neither does technology or venture funding.",
-              "fa": "Startup = Growth: استارتاپ شرکتی است که برای رشد سریع طراحی شده. تازه‌تأسیس بودن شرکت را استارتاپ نمی‌کند، فناوری یا سرمایهٔ خطرپذیر هم نمی‌کند."
-            }},
-            {"kind": "card", "id": "b22c1l2p3", "text": {
-              "en": "Startup = Growth: a barbershop is not designed to grow fast, so it is not a startup. Everything else we link with startups follows from growth.",
-              "fa": "Startup = Growth: آرایشگاه برای رشد سریع طراحی نشده، پس استارتاپ نیست. هر چیز دیگری که به استارتاپ‌ها نسبت می‌دهیم از رشد ناشی می‌شود."
-            }},
-            {"kind": "check", "id": "b22c1l2k1", "type": "tf", "source": "b22c1l2p2",
-              "prompt": {"en": "In Startup = Growth, any newly founded tech company counts as a startup.", "fa": "در Startup = Growth، هر شرکت فناوری تازه‌تأسیس استارتاپ حساب می‌شود."},
-              "answer": false},
-            {"kind": "card", "id": "b22c1l2p4", "text": {
-              "en": "Startup = Growth: at Y Combinator a good growth rate is 5 to 7 percent a week. 10 percent a week is exceptional; 1 percent means you have not yet figured out what you are doing.",
-              "fa": "Startup = Growth: در Y Combinator نرخ رشد خوب ۵ تا ۷ درصد در هفته است. ۱۰ درصد در هفته استثنایی است؛ ۱ درصد یعنی هنوز نفهمیده‌ای چه می‌کنی."
-            }},
-            {"kind": "card", "id": "b22c1l2p5", "text": {
-              "en": "Startup = Growth: measure growth in revenue, or in active users if you are not charging yet. Track that one number every week.",
-              "fa": "Startup = Growth: رشد را با درآمد بسنج، یا اگر هنوز پول نمی‌گیری با کاربران فعال. همان یک عدد را هر هفته دنبال کن."
-            }},
-            {"kind": "check", "id": "b22c1l2k2", "type": "tap", "source": "b22c1l2p4",
-              "prompt": {"en": "What growth rate does Startup = Growth call good at Y Combinator?", "fa": "Startup = Growth چه نرخ رشدی را در Y Combinator خوب می‌داند؟"},
+            {
+              "kind": "card",
+              "id": "b22c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Startup = Growth (2012) and Do Things That Don't Scale (2013). It matters because a product becomes ownership worth having only once it grows, and growth starts by hand.",
+                "fa": "این درس دو مقالهٔ Startup = Growth (۲۰۱۲) و Do Things That Don't Scale (۲۰۱۳) را خلاصه می‌کند. مهم است چون محصول فقط وقتی به مالکیتی ارزشمند تبدیل می‌شود که رشد کند، و رشد با دست شروع می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p2",
+              "text": {
+                "en": "Startup = Growth: a startup is a company designed to grow fast. Being newly founded does not make a company a startup, and neither does technology or venture funding.",
+                "fa": "Startup = Growth: استارتاپ شرکتی است که برای رشد سریع طراحی شده. تازه‌تأسیس بودن شرکت را استارتاپ نمی‌کند، فناوری یا سرمایهٔ خطرپذیر هم نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p3",
+              "text": {
+                "en": "Startup = Growth: a barbershop is not designed to grow fast, so it is not a startup. Everything else we link with startups follows from growth.",
+                "fa": "Startup = Growth: آرایشگاه برای رشد سریع طراحی نشده، پس استارتاپ نیست. هر چیز دیگری که به استارتاپ‌ها نسبت می‌دهیم از رشد ناشی می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l2k1",
+              "type": "tf",
+              "source": "b22c1l2p2",
+              "prompt": {
+                "en": "In Startup = Growth, any newly founded tech company counts as a startup.",
+                "fa": "در Startup = Growth، هر شرکت فناوری تازه‌تأسیس استارتاپ حساب می‌شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p4",
+              "text": {
+                "en": "Startup = Growth: at Y Combinator a good growth rate is 5 to 7 percent a week. 10 percent a week is exceptional; 1 percent means you have not yet figured out what you are doing.",
+                "fa": "Startup = Growth: در Y Combinator نرخ رشد خوب ۵ تا ۷ درصد در هفته است. ۱۰ درصد در هفته استثنایی است؛ ۱ درصد یعنی هنوز نفهمیده‌ای چه می‌کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p5",
+              "text": {
+                "en": "Startup = Growth: measure growth in revenue, or in active users if you are not charging yet. Track that one number every week.",
+                "fa": "Startup = Growth: رشد را با درآمد بسنج، یا اگر هنوز پول نمی‌گیری با کاربران فعال. همان یک عدد را هر هفته دنبال کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l2k2",
+              "type": "tap",
+              "source": "b22c1l2p4",
+              "prompt": {
+                "en": "What growth rate does Startup = Growth call good at Y Combinator?",
+                "fa": "Startup = Growth چه نرخ رشدی را در Y Combinator خوب می‌داند؟"
+              },
               "options": [
-                {"en": "1 percent a year", "fa": "۱ درصد در سال"},
-                {"en": "5 to 7 percent a week", "fa": "۵ تا ۷ درصد در هفته"},
-                {"en": "50 percent a month, every month", "fa": "۵۰ درصد در ماه، هر ماه"}
-              ], "answer": 1},
-            {"kind": "card", "id": "b22c1l2p6", "text": {
-              "en": "Startup = Growth: small weekly rates compound. 1 percent a week gives about 1.7 times in a year, while 5 percent a week gives about 12.6 times.",
-              "fa": "Startup = Growth: نرخ‌های هفتگی کوچک مرکب می‌شوند. ۱ درصد در هفته در یک سال حدود ۱٫۷ برابر می‌شود، ولی ۵ درصد در هفته حدود ۱۲٫۶ برابر."
-            }},
-            {"kind": "card", "id": "b22c1l2p7", "text": {
-              "en": "Startup = Growth: use the growth rate as a compass. Set a weekly target, and when you face a decision, choose what helps you hit it.",
-              "fa": "Startup = Growth: نرخ رشد را قطب‌نما کن. هدفی هفتگی بگذار و هر وقت با تصمیمی روبه‌رو شدی، گزینه‌ای را بردار که به رسیدن به آن کمک می‌کند."
-            }},
-            {"kind": "check", "id": "b22c1l2k3", "type": "tf", "source": "b22c1l2p6",
-              "prompt": {"en": "Growing 5 percent a week compounds to about 12.6 times in a year.", "fa": "رشد ۵ درصد در هفته در یک سال به حدود ۱۲٫۶ برابر می‌رسد."},
-              "answer": true},
-            {"kind": "card", "id": "b22c1l2p8", "text": {
-              "en": "Do Things That Don't Scale: the most common unscalable thing founders must do is recruit users manually. Startups take off because the founders make them take off.",
-              "fa": "Do Things That Don't Scale: رایج‌ترین کار مقیاس‌ناپذیری که بنیان‌گذاران باید بکنند جذب دستی کاربران است. استارتاپ‌ها اوج می‌گیرند چون بنیان‌گذاران آن‌ها را به اوج می‌برند."
-            }},
-            {"kind": "card", "id": "b22c1l2p9", "text": {
-              "en": "Do Things That Don't Scale: Stripe's founders used the Collison installation. When someone agreed to try Stripe, they asked for the laptop and installed it on the spot.",
-              "fa": "Do Things That Don't Scale: بنیان‌گذاران Stripe از «نصب Collison» استفاده می‌کردند. وقتی کسی می‌پذیرفت Stripe را امتحان کند، لپ‌تاپش را می‌گرفتند و همان‌جا نصبش می‌کردند."
-            }},
-            {"kind": "card", "id": "b22c1l2p10", "text": {
-              "en": "Do Things That Don't Scale: Airbnb's founders went door to door in New York, recruiting hosts and helping them improve their listings.",
-              "fa": "Do Things That Don't Scale: بنیان‌گذاران Airbnb در New York خانه‌به‌خانه رفتند، میزبان جذب کردند و کمکشان کردند آگهی‌هایشان را بهتر کنند."
-            }},
-            {"kind": "check", "id": "b22c1l2k4", "type": "tap", "source": "b22c1l2p9",
-              "prompt": {"en": "What was the Collison installation?", "fa": "«نصب Collison» چه بود؟"},
+                {
+                  "en": "1 percent a year",
+                  "fa": "۱ درصد در سال"
+                },
+                {
+                  "en": "5 to 7 percent a week",
+                  "fa": "۵ تا ۷ درصد در هفته"
+                },
+                {
+                  "en": "50 percent a month, every month",
+                  "fa": "۵۰ درصد در ماه، هر ماه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p6",
+              "text": {
+                "en": "Startup = Growth: small weekly rates compound. 1 percent a week gives about 1.7 times in a year, while 5 percent a week gives about 12.6 times.",
+                "fa": "Startup = Growth: نرخ‌های هفتگی کوچک مرکب می‌شوند. ۱ درصد در هفته در یک سال حدود ۱٫۷ برابر می‌شود، ولی ۵ درصد در هفته حدود ۱۲٫۶ برابر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p7",
+              "text": {
+                "en": "Startup = Growth: use the growth rate as a compass. Set a weekly target, and when you face a decision, choose what helps you hit it.",
+                "fa": "Startup = Growth: نرخ رشد را قطب‌نما کن. هدفی هفتگی بگذار و هر وقت با تصمیمی روبه‌رو شدی، گزینه‌ای را بردار که به رسیدن به آن کمک می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l2k3",
+              "type": "tf",
+              "source": "b22c1l2p6",
+              "prompt": {
+                "en": "Growing 5 percent a week compounds to about 12.6 times in a year.",
+                "fa": "رشد ۵ درصد در هفته در یک سال به حدود ۱۲٫۶ برابر می‌رسد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p8",
+              "text": {
+                "en": "Do Things That Don't Scale: the most common unscalable thing founders must do is recruit users manually. Startups take off because the founders make them take off.",
+                "fa": "Do Things That Don't Scale: رایج‌ترین کار مقیاس‌ناپذیری که بنیان‌گذاران باید بکنند جذب دستی کاربران است. استارتاپ‌ها اوج می‌گیرند چون بنیان‌گذاران آن‌ها را به اوج می‌برند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p9",
+              "text": {
+                "en": "Do Things That Don't Scale: Stripe's founders used the Collison installation. When someone agreed to try Stripe, they asked for the laptop and installed it on the spot.",
+                "fa": "Do Things That Don't Scale: بنیان‌گذاران Stripe از «نصب Collison» استفاده می‌کردند. وقتی کسی می‌پذیرفت Stripe را امتحان کند، لپ‌تاپش را می‌گرفتند و همان‌جا نصبش می‌کردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p10",
+              "text": {
+                "en": "Do Things That Don't Scale: Airbnb's founders went door to door in New York, recruiting hosts and helping them improve their listings.",
+                "fa": "Do Things That Don't Scale: بنیان‌گذاران Airbnb در New York خانه‌به‌خانه رفتند، میزبان جذب کردند و کمکشان کردند آگهی‌هایشان را بهتر کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l2k4",
+              "type": "tap",
+              "source": "b22c1l2p9",
+              "prompt": {
+                "en": "What was the Collison installation?",
+                "fa": "«نصب Collison» چه بود؟"
+              },
               "options": [
-                {"en": "Asked for the laptop and installed Stripe on the spot", "fa": "لپ‌تاپ را گرفتند و Stripe را همان‌جا نصب کردند"},
-                {"en": "An automated email sequence for new signups", "fa": "یک سری ایمیل خودکار برای ثبت‌نام‌های جدید"},
-                {"en": "A paid ad campaign aimed at developers", "fa": "یک کمپین تبلیغاتی پولی برای برنامه‌نویس‌ها"}
-              ], "answer": 0},
-            {"kind": "card", "id": "b22c1l2p11", "text": {
-              "en": "Do Things That Don't Scale: take extraordinary measures to delight early users. Wufoo sent each new user a hand-written thank-you note, something a big company never does.",
-              "fa": "Do Things That Don't Scale: برای شگفت‌زده کردن کاربران اولیه کارهای فوق‌العاده بکن. Wufoo برای هر کاربر جدید یادداشت تشکر دست‌نویس می‌فرستاد، کاری که شرکت بزرگ هرگز نمی‌کند."
-            }},
-            {"kind": "card", "id": "b22c1l2p12", "text": {
-              "en": "Applied: for your AI product, recruit the first ten paying users one by one and onboard each yourself. Then track weekly revenue and aim for 5 percent growth a week.",
-              "fa": "کاربردی: برای محصول AI خودت، ده کاربر پول‌دهندهٔ اول را یکی‌یکی جذب کن و خودت راه‌اندازی هرکدام را انجام بده. بعد درآمد هفتگی را دنبال کن و هدف را ۵ درصد رشد در هفته بگذار."
-            }},
-            {"kind": "check", "id": "b22c1l2k5", "type": "tf", "source": "b22c1l2p12",
-              "prompt": {"en": "This Lesson suggests waiting for a big launch to bring in your first users.", "fa": "این درس پیشنهاد می‌کند برای آوردن اولین کاربرانت منتظر یک رونمایی بزرگ بمانی."},
-              "answer": false}
+                {
+                  "en": "Asked for the laptop and installed Stripe on the spot",
+                  "fa": "لپ‌تاپ را گرفتند و Stripe را همان‌جا نصب کردند"
+                },
+                {
+                  "en": "An automated email sequence for new signups",
+                  "fa": "یک سری ایمیل خودکار برای ثبت‌نام‌های جدید"
+                },
+                {
+                  "en": "A paid ad campaign aimed at developers",
+                  "fa": "یک کمپین تبلیغاتی پولی برای برنامه‌نویس‌ها"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p11",
+              "text": {
+                "en": "Do Things That Don't Scale: take extraordinary measures to delight early users. Wufoo sent each new user a hand-written thank-you note, something a big company never does.",
+                "fa": "Do Things That Don't Scale: برای شگفت‌زده کردن کاربران اولیه کارهای فوق‌العاده بکن. Wufoo برای هر کاربر جدید یادداشت تشکر دست‌نویس می‌فرستاد، کاری که شرکت بزرگ هرگز نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l2p12",
+              "text": {
+                "en": "Applied: for your AI product, recruit the first ten paying users one by one and onboard each yourself. Then track weekly revenue and aim for 5 percent growth a week.",
+                "fa": "کاربردی: برای محصول AI خودت، ده کاربر پول‌دهندهٔ اول را یکی‌یکی جذب کن و خودت راه‌اندازی هرکدام را انجام بده. بعد درآمد هفتگی را دنبال کن و هدف را ۵ درصد رشد در هفته بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l2k5",
+              "type": "tf",
+              "source": "b22c1l2p12",
+              "prompt": {
+                "en": "This Lesson suggests waiting for a big launch to bring in your first users.",
+                "fa": "این درس پیشنهاد می‌کند برای آوردن اولین کاربرانت منتظر یک رونمایی بزرگ بمانی."
+              },
+              "answer": false
+            }
           ]
         },
         {
           "id": "b22c1l3",
-          "title": {"en": "Stay alive and guard your hours", "fa": "زنده بمان و ساعت‌هایت را نگه دار"},
+          "title": {
+            "en": "Stay alive and guard your hours",
+            "fa": "زنده بمان و ساعت‌هایت را نگه دار"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b22c1l3p1", "frame": true, "text": {
-              "en": "This Lesson distils Default Alive or Default Dead (2015) and Maker's Schedule, Manager's Schedule (2009). It matters because runway and focused hours decide whether you ship.",
-              "fa": "این درس دو مقالهٔ Default Alive or Default Dead (۲۰۱۵) و Maker's Schedule, Manager's Schedule (۲۰۰۹) را خلاصه می‌کند. مهم است چون runway و ساعت‌های متمرکز تعیین می‌کنند محصولت عرضه می‌شود یا نه."
-            }},
-            {"kind": "card", "id": "b22c1l3p2", "text": {
-              "en": "Default Alive or Default Dead: assume expenses stay constant and revenue keeps growing as it has these last months. Do you reach profitability on the money you have left?",
-              "fa": "Default Alive or Default Dead: فرض کن هزینه‌ها ثابت بمانند و درآمد مثل چند ماه گذشته رشد کند. آیا با پولی که مانده به سودآوری می‌رسی؟"
-            }},
-            {"kind": "card", "id": "b22c1l3p3", "text": {
-              "en": "Default Alive or Default Dead: if yes, you are default alive; if no, default dead. Graham found that half the founders he talks to do not know which they are.",
-              "fa": "Default Alive or Default Dead: اگر بله، به‌طور پیش‌فرض زنده‌ای؛ اگر نه، به‌طور پیش‌فرض مرده. Graham دید نیمی از بنیان‌گذارانی که با آن‌ها حرف می‌زند نمی‌دانند کدام‌اند."
-            }},
-            {"kind": "check", "id": "b22c1l3k1", "type": "tf", "source": "b22c1l3p3",
-              "prompt": {"en": "Graham found that almost every founder knows whether they are default alive.", "fa": "Graham دید تقریباً همهٔ بنیان‌گذاران می‌دانند به‌طور پیش‌فرض زنده‌اند یا نه."},
-              "answer": false},
-            {"kind": "card", "id": "b22c1l3p4", "text": {
-              "en": "Default Alive or Default Dead: Trevor Blackwell made a calculator to answer the question. You enter expenses, revenue and growth, and it shows whether you make it.",
-              "fa": "Default Alive or Default Dead: Trevor Blackwell ماشین‌حسابی برای پاسخ به این پرسش ساخت. هزینه، درآمد و رشد را وارد می‌کنی و نشان می‌دهد دوام می‌آوری یا نه."
-            }},
-            {"kind": "card", "id": "b22c1l3p5", "text": {
-              "en": "Default Alive or Default Dead: founders who are default dead often assume investors will save them. That is dangerous, since raising money is hard when growth is slow.",
-              "fa": "Default Alive or Default Dead: بنیان‌گذارانی که به‌طور پیش‌فرض مرده‌اند اغلب فرض می‌کنند سرمایه‌گذاران نجاتشان می‌دهند. این خطرناک است، چون وقتی رشد کند است جذب پول سخت است."
-            }},
-            {"kind": "check", "id": "b22c1l3k2", "type": "tap", "source": "b22c1l3p5",
-              "prompt": {"en": "What do default dead founders often assume?", "fa": "بنیان‌گذارانی که به‌طور پیش‌فرض مرده‌اند اغلب چه فرض می‌کنند؟"},
+            {
+              "kind": "card",
+              "id": "b22c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Default Alive or Default Dead (2015) and Maker's Schedule, Manager's Schedule (2009). It matters because runway and focused hours decide whether you ship.",
+                "fa": "این درس دو مقالهٔ Default Alive or Default Dead (۲۰۱۵) و Maker's Schedule, Manager's Schedule (۲۰۰۹) را خلاصه می‌کند. مهم است چون runway و ساعت‌های متمرکز تعیین می‌کنند محصولت عرضه می‌شود یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p2",
+              "text": {
+                "en": "Default Alive or Default Dead: assume expenses stay constant and revenue keeps growing as it has these last months. Do you reach profitability on the money you have left?",
+                "fa": "Default Alive or Default Dead: فرض کن هزینه‌ها ثابت بمانند و درآمد مثل چند ماه گذشته رشد کند. آیا با پولی که مانده به سودآوری می‌رسی؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p3",
+              "text": {
+                "en": "Default Alive or Default Dead: if yes, you are default alive; if no, default dead. Graham found that half the founders he talks to do not know which they are.",
+                "fa": "Default Alive or Default Dead: اگر بله، به‌طور پیش‌فرض زنده‌ای؛ اگر نه، به‌طور پیش‌فرض مرده. Graham دید نیمی از بنیان‌گذارانی که با آن‌ها حرف می‌زند نمی‌دانند کدام‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l3k1",
+              "type": "tf",
+              "source": "b22c1l3p3",
+              "prompt": {
+                "en": "Graham found that almost every founder knows whether they are default alive.",
+                "fa": "Graham دید تقریباً همهٔ بنیان‌گذاران می‌دانند به‌طور پیش‌فرض زنده‌اند یا نه."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p4",
+              "text": {
+                "en": "Default Alive or Default Dead: Trevor Blackwell made a calculator to answer the question. You enter expenses, revenue and growth, and it shows whether you make it.",
+                "fa": "Default Alive or Default Dead: Trevor Blackwell ماشین‌حسابی برای پاسخ به این پرسش ساخت. هزینه، درآمد و رشد را وارد می‌کنی و نشان می‌دهد دوام می‌آوری یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p5",
+              "text": {
+                "en": "Default Alive or Default Dead: founders who are default dead often assume investors will save them. That is dangerous, since raising money is hard when growth is slow.",
+                "fa": "Default Alive or Default Dead: بنیان‌گذارانی که به‌طور پیش‌فرض مرده‌اند اغلب فرض می‌کنند سرمایه‌گذاران نجاتشان می‌دهند. این خطرناک است، چون وقتی رشد کند است جذب پول سخت است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l3k2",
+              "type": "tap",
+              "source": "b22c1l3p5",
+              "prompt": {
+                "en": "What do default dead founders often assume?",
+                "fa": "بنیان‌گذارانی که به‌طور پیش‌فرض مرده‌اند اغلب چه فرض می‌کنند؟"
+              },
               "options": [
-                {"en": "Costs will double next month", "fa": "هزینه‌ها ماه بعد دو برابر می‌شود"},
-                {"en": "Customers will stop paying", "fa": "مشتری‌ها دیگر پول نمی‌دهند"},
-                {"en": "Investors will save them", "fa": "سرمایه‌گذاران نجاتشان می‌دهند"}
-              ], "answer": 2},
-            {"kind": "card", "id": "b22c1l3p6", "text": {
-              "en": "Default Alive or Default Dead: the fatal pinch is default dead, slow growth and too little time to fix it. So ask the question early, while there is still room to act.",
-              "fa": "Default Alive or Default Dead: تنگنای مرگبار یعنی مرگ پیش‌فرض، رشد کند و زمان کم برای درست کردنش. پس پرسش را زود بپرس، تا هنوز جای اقدام هست."
-            }},
-            {"kind": "card", "id": "b22c1l3p7", "text": {
-              "en": "Default Alive or Default Dead: Graham names hiring too fast as a common way startups become default dead. More people rarely fix a product that is not yet growing.",
-              "fa": "Default Alive or Default Dead: Graham استخدام بیش از حد سریع را راهی رایج برای رسیدن استارتاپ‌ها به مرگ پیش‌فرض می‌داند. آدم بیشتر به‌ندرت محصولی را که هنوز رشد نمی‌کند درست می‌کند."
-            }},
-            {"kind": "check", "id": "b22c1l3k3", "type": "tf", "source": "b22c1l3p6",
-              "prompt": {"en": "The fatal pinch combines default dead, slow growth and too little time to fix it.", "fa": "تنگنای مرگبار ترکیب مرگ پیش‌فرض، رشد کند و زمان کم برای درست کردنش است."},
-              "answer": true},
-            {"kind": "card", "id": "b22c1l3p8", "text": {
-              "en": "Maker's Schedule, Manager's Schedule: the manager's schedule cuts the day into one-hour blocks. The maker's schedule needs units of at least half a day to write code or prose.",
-              "fa": "Maker's Schedule, Manager's Schedule: برنامهٔ مدیر روز را به بلوک‌های یک‌ساعته تقسیم می‌کند. برنامهٔ سازنده برای نوشتن کد یا متن به واحدهای دست‌کم نیم‌روزه نیاز دارد."
-            }},
-            {"kind": "card", "id": "b22c1l3p9", "text": {
-              "en": "Maker's Schedule, Manager's Schedule: for a maker, one meeting can blow a whole afternoon by breaking it into two pieces too small to do anything hard in.",
-              "fa": "Maker's Schedule, Manager's Schedule: برای سازنده، یک جلسه می‌تواند کل بعدازظهر را هدر دهد، چون آن را به دو تکه می‌شکند که برای هر کار سختی کوچک‌اند."
-            }},
-            {"kind": "card", "id": "b22c1l3p10", "text": {
-              "en": "Maker's Schedule, Manager's Schedule: each schedule works fine by itself; problems arise when they meet. Managers often do not see what a meeting costs a maker.",
-              "fa": "Maker's Schedule, Manager's Schedule: هر برنامه به‌تنهایی خوب کار می‌کند؛ مشکل وقتی پیش می‌آید که به هم برسند. مدیران اغلب نمی‌بینند یک جلسه برای سازنده چه هزینه‌ای دارد."
-            }},
-            {"kind": "check", "id": "b22c1l3k4", "type": "tap", "source": "b22c1l3p8",
-              "prompt": {"en": "How long are the units a maker's schedule needs?", "fa": "برنامهٔ سازنده به واحدهایی با چه طولی نیاز دارد؟"},
+                {
+                  "en": "Costs will double next month",
+                  "fa": "هزینه‌ها ماه بعد دو برابر می‌شود"
+                },
+                {
+                  "en": "Customers will stop paying",
+                  "fa": "مشتری‌ها دیگر پول نمی‌دهند"
+                },
+                {
+                  "en": "Investors will save them",
+                  "fa": "سرمایه‌گذاران نجاتشان می‌دهند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p6",
+              "text": {
+                "en": "Default Alive or Default Dead: the fatal pinch is default dead, slow growth and too little time to fix it. So ask the question early, while there is still room to act.",
+                "fa": "Default Alive or Default Dead: تنگنای مرگبار یعنی مرگ پیش‌فرض، رشد کند و زمان کم برای درست کردنش. پس پرسش را زود بپرس، تا هنوز جای اقدام هست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p7",
+              "text": {
+                "en": "Default Alive or Default Dead: Graham names hiring too fast as a common way startups become default dead. More people rarely fix a product that is not yet growing.",
+                "fa": "Default Alive or Default Dead: Graham استخدام بیش از حد سریع را راهی رایج برای رسیدن استارتاپ‌ها به مرگ پیش‌فرض می‌داند. آدم بیشتر به‌ندرت محصولی را که هنوز رشد نمی‌کند درست می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l3k3",
+              "type": "tf",
+              "source": "b22c1l3p6",
+              "prompt": {
+                "en": "The fatal pinch combines default dead, slow growth and too little time to fix it.",
+                "fa": "تنگنای مرگبار ترکیب مرگ پیش‌فرض، رشد کند و زمان کم برای درست کردنش است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p8",
+              "text": {
+                "en": "Maker's Schedule, Manager's Schedule: the manager's schedule cuts the day into one-hour blocks. The maker's schedule needs units of at least half a day to write code or prose.",
+                "fa": "Maker's Schedule, Manager's Schedule: برنامهٔ مدیر روز را به بلوک‌های یک‌ساعته تقسیم می‌کند. برنامهٔ سازنده برای نوشتن کد یا متن به واحدهای دست‌کم نیم‌روزه نیاز دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p9",
+              "text": {
+                "en": "Maker's Schedule, Manager's Schedule: for a maker, one meeting can blow a whole afternoon by breaking it into two pieces too small to do anything hard in.",
+                "fa": "Maker's Schedule, Manager's Schedule: برای سازنده، یک جلسه می‌تواند کل بعدازظهر را هدر دهد، چون آن را به دو تکه می‌شکند که برای هر کار سختی کوچک‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p10",
+              "text": {
+                "en": "Maker's Schedule, Manager's Schedule: each schedule works fine by itself; problems arise when they meet. Managers often do not see what a meeting costs a maker.",
+                "fa": "Maker's Schedule, Manager's Schedule: هر برنامه به‌تنهایی خوب کار می‌کند؛ مشکل وقتی پیش می‌آید که به هم برسند. مدیران اغلب نمی‌بینند یک جلسه برای سازنده چه هزینه‌ای دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l3k4",
+              "type": "tap",
+              "source": "b22c1l3p8",
+              "prompt": {
+                "en": "How long are the units a maker's schedule needs?",
+                "fa": "برنامهٔ سازنده به واحدهایی با چه طولی نیاز دارد؟"
+              },
               "options": [
-                {"en": "Fifteen minutes", "fa": "پانزده دقیقه"},
-                {"en": "At least half a day", "fa": "دست‌کم نیم روز"},
-                {"en": "Exactly one hour", "fa": "دقیقاً یک ساعت"}
-              ], "answer": 1},
-            {"kind": "card", "id": "b22c1l3p11", "text": {
-              "en": "Maker's Schedule, Manager's Schedule: for a maker, a meeting is like throwing an exception. Graham once programmed from dinner till about 3 am, because at night no one could interrupt him.",
-              "fa": "Maker's Schedule, Manager's Schedule: برای سازنده، جلسه مثل پرتاب یک exception است. Graham زمانی از شام تا حدود ساعت ۳ بامداد برنامه می‌نوشت، چون شب کسی مزاحمش نمی‌شد."
-            }},
-            {"kind": "card", "id": "b22c1l3p12", "text": {
-              "en": "Applied: guard two half-day blocks a week for your AI product and keep meetings at one end of the day. Each quarter, check whether the product is default alive.",
-              "fa": "کاربردی: هر هفته دو بلوک نیم‌روزه برای محصول AI خودت نگه دار و جلسه‌ها را به یک سر روز ببر. هر فصل بررسی کن محصول به‌طور پیش‌فرض زنده است یا نه."
-            }},
-            {"kind": "check", "id": "b22c1l3k5", "type": "tf", "source": "b22c1l3p12",
-              "prompt": {"en": "This Lesson suggests scattering meetings across your build days.", "fa": "این درس پیشنهاد می‌کند جلسه‌ها را در روزهای ساختن پخش کنی."},
-              "answer": false}
+                {
+                  "en": "Fifteen minutes",
+                  "fa": "پانزده دقیقه"
+                },
+                {
+                  "en": "At least half a day",
+                  "fa": "دست‌کم نیم روز"
+                },
+                {
+                  "en": "Exactly one hour",
+                  "fa": "دقیقاً یک ساعت"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p11",
+              "text": {
+                "en": "Maker's Schedule, Manager's Schedule: for a maker, a meeting is like throwing an exception. Graham once programmed from dinner till about 3 am, because at night no one could interrupt him.",
+                "fa": "Maker's Schedule, Manager's Schedule: برای سازنده، جلسه مثل پرتاب یک exception است. Graham زمانی از شام تا حدود ساعت ۳ بامداد برنامه می‌نوشت، چون شب کسی مزاحمش نمی‌شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l3p12",
+              "text": {
+                "en": "Applied: guard two half-day blocks a week for your AI product and keep meetings at one end of the day. Each quarter, check whether the product is default alive.",
+                "fa": "کاربردی: هر هفته دو بلوک نیم‌روزه برای محصول AI خودت نگه دار و جلسه‌ها را به یک سر روز ببر. هر فصل بررسی کن محصول به‌طور پیش‌فرض زنده است یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l3k5",
+              "type": "tf",
+              "source": "b22c1l3p12",
+              "prompt": {
+                "en": "This Lesson suggests scattering meetings across your build days.",
+                "fa": "این درس پیشنهاد می‌کند جلسه‌ها را در روزهای ساختن پخش کنی."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b22c1l4",
+          "title": {
+            "en": "Choose work you are curious about, and keep at it",
+            "fa": "کاری را برگزین که کنجکاوت می‌کند و پایش بمان"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b22c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils How to Do Great Work (2023). It matters because a product is only as good as the work you choose and how long you stay with it.",
+                "fa": "این درس مقالهٔ How to Do Great Work (۲۰۲۳) را خلاصه می‌کند. مهم است چون محصول فقط به اندازهٔ کاری که انتخاب می‌کنی و مدتی که پایش می‌مانی خوب است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p2",
+              "text": {
+                "en": "How to Do Great Work: the work you choose should fit three tests. You have a natural aptitude for it, a deep interest in it, and it offers scope to do great work.",
+                "fa": "How to Do Great Work: کاری که انتخاب می‌کنی باید سه شرط داشته باشد. استعداد طبیعی برایش داری، علاقهٔ عمیق به آن داری و جا برای کار بزرگ دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p3",
+              "text": {
+                "en": "How to Do Great Work: if you are not sure what to work on, guess, then pick something and get going. You will guess wrong some of the time, but you find out by working.",
+                "fa": "How to Do Great Work: اگر مطمئن نیستی روی چه کار کنی، حدس بزن، بعد چیزی را انتخاب کن و شروع کن. گاهی اشتباه حدس می‌زنی، اما با کار کردن است که می‌فهمی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l4k1",
+              "type": "tap",
+              "source": "b22c1l4p2",
+              "prompt": {
+                "en": "Which is one of the three tests in How to Do Great Work?",
+                "fa": "کدام یکی از سه شرط How to Do Great Work است؟"
+              },
+              "options": [
+                {
+                  "en": "It pays well from day one",
+                  "fa": "از روز اول پول خوبی می‌دهد"
+                },
+                {
+                  "en": "A deep interest in it",
+                  "fa": "علاقهٔ عمیق به آن"
+                },
+                {
+                  "en": "Your friends approve of it",
+                  "fa": "دوستانت تأییدش می‌کنند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p4",
+              "text": {
+                "en": "How to Do Great Work: the path has four steps. Choose a field, learn enough to reach its frontier, notice gaps, and explore the promising ones.",
+                "fa": "How to Do Great Work: مسیر چهار گام دارد. حوزه‌ای انتخاب کن، آن‌قدر یاد بگیر که به مرز دانشش برسی، شکاف‌ها را ببین و امیدوارکننده‌ها را کاوش کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p5",
+              "text": {
+                "en": "How to Do Great Work: noticing gaps takes skill, because your brain wants to ignore them to keep a simpler model of the world. Graham says to boldly chase outlier ideas, even when others are not interested.",
+                "fa": "How to Do Great Work: دیدن شکاف‌ها مهارت می‌خواهد، چون مغزت می‌خواهد نادیده‌شان بگیرد تا مدل ساده‌تری از جهان داشته باشد. Graham می‌گوید ایده‌های غیرعادی را جسورانه دنبال کن، حتی اگر دیگران علاقه‌ای ندارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l4k2",
+              "type": "tf",
+              "source": "b22c1l4p5",
+              "prompt": {
+                "en": "How to Do Great Work advises dropping an outlier idea when others show no interest.",
+                "fa": "How to Do Great Work توصیه می‌کند وقتی دیگران علاقه‌ای نشان نمی‌دهند، ایدهٔ غیرعادی را رها کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p6",
+              "text": {
+                "en": "How to Do Great Work: the strongest motives are curiosity, delight and the desire to do something impressive. Curiosity is the one Graham trusts most as a guide.",
+                "fa": "How to Do Great Work: قوی‌ترین انگیزه‌ها کنجکاوی، لذت و میل به انجام کاری چشمگیرند. Graham بیش از همه به کنجکاوی به‌عنوان راهنما اعتماد دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p7",
+              "text": {
+                "en": "How to Do Great Work: develop a habit of working on your own projects. Do not let work mean only what someone else tells you to do.",
+                "fa": "How to Do Great Work: عادت کن روی پروژه‌های خودت کار کنی. نگذار کار فقط یعنی چیزی که دیگری به تو می‌گوید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l4k3",
+              "type": "tap",
+              "source": "b22c1l4p6",
+              "prompt": {
+                "en": "Which motive does How to Do Great Work trust most as a guide?",
+                "fa": "How to Do Great Work بیش از همه به کدام انگیزه به‌عنوان راهنما اعتماد دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Fear of missing out",
+                  "fa": "ترس از جا ماندن"
+                },
+                {
+                  "en": "Curiosity",
+                  "fa": "کنجکاوی"
+                },
+                {
+                  "en": "Approval from peers",
+                  "fa": "تأیید همکاران"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p8",
+              "text": {
+                "en": "How to Do Great Work: we underestimate the cumulative effect of steady work. Work that compounds grows exponentially, and learning is one example: the more you know, the easier it is to learn more.",
+                "fa": "How to Do Great Work: ما اثر انباشتهٔ کار پیوسته را دست‌کم می‌گیریم. کاری که مرکب می‌شود نمایی رشد می‌کند و یادگیری یک نمونه است: هرچه بیشتر بدانی، یادگیری بیشتر آسان‌تر می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p9",
+              "text": {
+                "en": "How to Do Great Work: beware per-project procrastination, putting off the ambitious project you most want to do. It hides well, because you stay busy with other things.",
+                "fa": "How to Do Great Work: مراقب تعلل پروژه‌ای باش، یعنی عقب انداختن پروژهٔ بلندپروازانه‌ای که بیش از همه می‌خواهی. خوب پنهان می‌ماند، چون با کارهای دیگر سرگرم می‌مانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p10",
+              "text": {
+                "en": "How to Do Great Work: be intellectually honest and willing to say you were wrong. Talking and writing about your interests is also a good way to get new ideas.",
+                "fa": "How to Do Great Work: از نظر فکری صادق باش و آماده باش بگویی اشتباه کردی. حرف زدن و نوشتن دربارهٔ علاقه‌هایت هم راه خوبی برای ایده‌های تازه است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l4k4",
+              "type": "tf",
+              "source": "b22c1l4p9",
+              "prompt": {
+                "en": "In How to Do Great Work, per-project procrastination is easy to spot because you sit idle.",
+                "fa": "در How to Do Great Work، تعلل پروژه‌ای راحت دیده می‌شود چون بیکار می‌نشینی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p11",
+              "text": {
+                "en": "How to Do Great Work: work on a problem long enough and your mind keeps at it when you rest. Ideas often arrive in the shower or on a walk, after hard work.",
+                "fa": "How to Do Great Work: اگر به‌قدر کافی روی مسئله‌ای کار کنی، ذهنت در استراحت هم رویش کار می‌کند. ایده‌ها اغلب زیر دوش یا در پیاده‌روی، پس از کار سخت، می‌رسند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b22c1l4p12",
+              "text": {
+                "en": "Applied: pick the AI product idea you are most curious about, not the safest one. Work on it a little every day and note the gaps users show you.",
+                "fa": "کاربردی: ایدهٔ محصول AI را انتخاب کن که بیش از همه کنجکاوت می‌کند، نه امن‌ترین را. هر روز کمی رویش کار کن و شکاف‌هایی را که کاربران نشانت می‌دهند یادداشت کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b22c1l4k5",
+              "type": "tap",
+              "source": "b22c1l4p12",
+              "prompt": {
+                "en": "Which AI product idea does this Lesson suggest picking?",
+                "fa": "این درس پیشنهاد می‌کند کدام ایدهٔ محصول AI را انتخاب کنی؟"
+              },
+              "options": [
+                {
+                  "en": "The safest one",
+                  "fa": "امن‌ترین"
+                },
+                {
+                  "en": "The one you are most curious about",
+                  "fa": "آن که بیش از همه کنجکاوت می‌کند"
+                },
+                {
+                  "en": "The one a friend suggests",
+                  "fa": "آن که دوستی پیشنهاد می‌دهد"
+                }
+              ],
+              "answer": 1
+            }
           ]
         }
       ]

@@ -127,3 +127,10 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Play-test: headless Chrome over CDP (extension disconnected); docs/playtests/lessons.md with screenshots; one layout bug fixed.
 - /code-review: docs/review/lessons-code-review.md; fixes include shuffled tap answers (15 books had every answer first), five Cards rewritten for advice or accuracy, a render smoke test after a rename broke the Path.
 - Owner decision after review: ship value-based sizing now; complexity-based re-cut next. 181 tests green.
+
+## Complexity re-cut and accuracy audit (2026-11-10)
+- Owner approved docs/sizing-complexity.md: complexity 1 to 5 sets Lessons per Circle and Points per Lesson; value sets Circles. 25 books re-cut by agents (docs/recut-brief.md); validator enforces the shape. 196 Lessons, 2,471 Points.
+- A side note flagged that only 3 of 28 books had been read for accuracy (5 bad Cards in 45). Merge held. All 28 books then read in full, en and fa (docs/audit-brief.md); about 500 items corrected; record and the unverified list in docs/review/accuracy-audit.md. Readers worked from memory, not the texts.
+- Added test/advice-lint.test.mjs. Restored b03's verbatim why line after a reader changed it.
+- Owner instruction: questions, blockers, updates and browser recordings go to Telegram while the channel is open.
+- 209 tests green; headless Chrome run clean; recording sent.

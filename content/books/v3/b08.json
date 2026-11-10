@@ -1,1495 +1,1560 @@
 {
- "id": "b08",
- "title": "The Four Pillars of Investing",
- "author": {
-  "en": "William Bernstein",
-  "fa": "William Bernstein"
- },
- "year": 2002,
- "stage": 2,
- "must": true,
- "why": {
-  "en": "Theory, history, psychology, the industry",
-  "fa": "تئوری، تاریخ، روانشناسی، صنعت"
- },
- "badge": {
-  "en": "Four Pillars",
-  "fa": "چهار ستون"
- },
- "tier": "mid",
- "circles": [
-  {
-   "id": "b08c1",
-   "title": {
-    "en": "Theory and history: how markets pay",
-    "fa": "تئوری و تاریخ: بازار چگونه پاداش می‌دهد"
-   },
-   "lessons": [
-    {
-     "id": "b08c1l1",
-     "title": {
-      "en": "Four pillars, and why risk and return are one",
-      "fa": "چهار ستون، و چرا ریسک و بازده یکی‌اند"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c1l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the introduction and chapter 1, No Guts, No Glory. It matters because before you put your €40k into VWCE or IWDA, you need to know what pain buys you return.",
-        "fa": "این درس مقدمه و فصل ۱، No Guts, No Glory، را خلاصه می‌کند. مهم است چون پیش از آنکه ۴۰ هزار یورویت را در VWCE یا IWDA بگذاری، باید بدانی چه دردی بهای بازده است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p2",
-       "text": {
-        "en": "Bernstein says a successful investor needs four pillars: the theory of investing, its history, its psychology and the business of the investment industry.",
-        "fa": "Bernstein می‌گوید سرمایه‌گذار موفق به چهار ستون نیاز دارد: تئوری سرمایه‌گذاری، تاریخ آن، روانشناسی آن و کسب‌وکار صنعت سرمایه‌گذاری."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p3",
-       "text": {
-        "en": "He argues that most investors are weak in all four, and that a gap in any one pillar can bring the whole structure down.",
-        "fa": "او می‌گوید بیشتر سرمایه‌گذاران در هر چهار ستون ضعیف‌اند و کمبود در هر یک از ستون‌ها می‌تواند کل بنا را فرو بریزد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l1k1",
-       "type": "tap",
-       "source": "b08c1l1p2",
-       "prompt": {
-        "en": "Which are Bernstein's four pillars?",
-        "fa": "چهار ستون Bernstein کدام‌اند؟"
-       },
-       "options": [
-        {
-         "en": "Theory, history, psychology and the business of investing",
-         "fa": "تئوری، تاریخ، روانشناسی و کسب‌وکار سرمایه‌گذاری"
-        },
-        {
-         "en": "Stocks, bonds, gold and real estate",
-         "fa": "سهام، اوراق قرضه، طلا و املاک"
-        },
-        {
-         "en": "Saving, budgeting, insurance and taxes",
-         "fa": "پس‌انداز، بودجه‌بندی، بیمه و مالیات"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p4",
-       "text": {
-        "en": "Chapter 1 opens with a basic law: risk and return are inseparable. An asset with a high expected return will, sooner or later, hand its owner heavy losses.",
-        "fa": "فصل ۱ با یک قانون پایه شروع می‌شود: ریسک و بازده از هم جدا نمی‌شوند. دارایی با بازده مورد انتظار بالا دیر یا زود زیان‌های سنگینی به صاحبش می‌دهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p5",
-       "text": {
-        "en": "Bernstein traces interest rates back to the ancient world: lenders charged more when repayment was unsure. Return has always been the price paid for bearing risk.",
-        "fa": "Bernstein نرخ بهره را تا دنیای باستان دنبال می‌کند: وام‌دهندگان وقتی بازپرداخت نامطمئن بود بیشتر می‌گرفتند. بازده همیشه بهای تحمل ریسک بوده است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p6",
-       "text": {
-        "en": "Safe assets such as Treasury bills pay little because they almost never hurt you. Stocks pay more over the long run precisely because they can fall by half.",
-        "fa": "دارایی‌های امن مثل اسناد خزانه کم می‌دهند چون تقریباً هرگز به تو آسیب نمی‌زنند. سهام در بلندمدت بیشتر می‌دهد دقیقاً چون می‌تواند تا نصف سقوط کند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l1k2",
-       "type": "tf",
-       "source": "b08c1l1p4",
-       "prompt": {
-        "en": "According to Bernstein, an asset can offer a high expected return with little chance of heavy losses.",
-        "fa": "به گفتهٔ Bernstein، یک دارایی می‌تواند بازده مورد انتظار بالا با احتمال کم زیان سنگین داشته باشد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p7",
-       "text": {
-        "en": "The extra return stocks earn over safe bills is called the risk premium. It is not a gift; it is payment for sitting through crashes that others cannot stand.",
-        "fa": "بازده اضافه‌ای که سهام نسبت به اسناد امن می‌گیرد صرف ریسک نام دارد. هدیه نیست؛ مزد ماندن در سقوط‌هایی است که دیگران تحملش را ندارند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p8",
-       "text": {
-        "en": "Bernstein stresses that returns compound: small differences in yearly return become huge gaps over decades. A few percent a year decides how often your money doubles.",
-        "fa": "Bernstein تأکید می‌کند بازده مرکب می‌شود: تفاوت‌های کوچک در بازده سالانه در طول دهه‌ها به شکاف‌های بزرگ تبدیل می‌شود. چند درصد در سال تعیین می‌کند پولت چند بار دو برابر شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p9",
-       "text": {
-        "en": "Risk also works in time: one bad stretch can wipe out years of gains. Bernstein reminds readers that US stocks lost most of their value from 1929 to 1932.",
-        "fa": "ریسک در زمان هم عمل می‌کند: یک دورهٔ بد می‌تواند سود سال‌ها را پاک کند. Bernstein یادآوری می‌کند که سهام آمریکا از ۱۹۲۹ تا ۱۹۳۲ بیشتر ارزشش را از دست داد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l1k3",
-       "type": "tap",
-       "source": "b08c1l1p7",
-       "prompt": {
-        "en": "What is the risk premium?",
-        "fa": "صرف ریسک چیست؟"
-       },
-       "options": [
-        {
-         "en": "The extra return stocks earn over safe bills",
-         "fa": "بازده اضافهٔ سهام نسبت به اسناد امن"
-        },
-        {
-         "en": "A fee brokers charge for risky trades",
-         "fa": "کارمزدی که کارگزاران برای معاملات پرریسک می‌گیرند"
-        },
-        {
-         "en": "Insurance paid out when markets crash",
-         "fa": "بیمه‌ای که هنگام سقوط بازار پرداخت می‌شود"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p10",
-       "text": {
-        "en": "For you the lesson is direct: higher expected returns in your plan will come with deeper drops. Pick assets knowing how far they can fall, not only how fast they can rise.",
-        "fa": "درس برای تو روشن است: بازده مورد انتظار بالاتر در برنامه‌ات با افت‌های عمیق‌تر می‌آید. دارایی را با دانستن اینکه چقدر می‌تواند سقوط کند انتخاب کن، نه فقط اینکه چقدر سریع بالا می‌رود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p11",
-       "text": {
-        "en": "Bernstein also warns about the opposite error: if you avoid all risk, inflation and low returns quietly eat your capital. Safety has a cost too.",
-        "fa": "Bernstein دربارهٔ خطای برعکس هم هشدار می‌دهد: اگر از همهٔ ریسک‌ها فرار کنی، تورم و بازده پایین آرام سرمایه‌ات را می‌خورند. امنیت هم هزینه دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l1p12",
-       "text": {
-        "en": "So the first pillar starts here: no guts, no glory. Every later choice in the book is about how much risk you take and how you are paid for it.",
-        "fa": "پس ستون اول از اینجا شروع می‌شود: بی‌جرئت، افتخاری نیست. هر انتخاب بعدی در کتاب دربارهٔ این است که چقدر ریسک می‌پذیری و چگونه بابتش پاداش می‌گیری."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l1k4",
-       "type": "tf",
-       "source": "b08c1l1p11",
-       "prompt": {
-        "en": "Bernstein says avoiding all risk comes at no cost.",
-        "fa": "Bernstein می‌گوید فرار از همهٔ ریسک‌ها هیچ هزینه‌ای ندارد."
-       },
-       "answer": false
-      }
-     ]
-    },
-    {
-     "id": "b08c1l2",
-     "title": {
-      "en": "Measuring the beast: what markets return",
-      "fa": "اندازه‌گیری هیولا: بازار چه بازدهی می‌دهد"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c1l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils chapter 2, Measuring the Beast, on what stocks and bonds have earned and may earn. It matters because your 25-times-expenses target rests on a sane return estimate.",
-        "fa": "این درس فصل ۲، Measuring the Beast، را خلاصه می‌کند: سهام و اوراق قرضه چه بازدهی داشته‌اند و چه می‌توانند داشته باشند. مهم است چون هدف ۲۵ برابر هزینه‌هایت به برآورد معقولی از بازده تکیه دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p2",
-       "text": {
-        "en": "Using US data since 1926, Bernstein shows stocks earned about 10 percent a year and long bonds about 5 percent. Treasury bills earned little more than inflation.",
-        "fa": "Bernstein با داده‌های آمریکا از ۱۹۲۶ نشان می‌دهد سهام حدود ۱۰ درصد در سال و اوراق بلندمدت حدود ۵ درصد بازده داشته‌اند. اسناد خزانه کمی بیش از تورم بازده داشته‌اند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p3",
-       "text": {
-        "en": "Those numbers are the record of one lucky country over one strong century. Bernstein warns against treating past returns as a promise.",
-        "fa": "این اعداد کارنامهٔ یک کشور خوش‌شانس در یک قرن قوی است. Bernstein هشدار می‌دهد که بازده گذشته را وعده ندانیم."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l2k1",
-       "type": "tap",
-       "source": "b08c1l2p2",
-       "prompt": {
-        "en": "Per Bernstein, roughly what did US long bonds earn a year since 1926?",
-        "fa": "به گفتهٔ Bernstein، اوراق بلندمدت آمریکا از ۱۹۲۶ تقریباً سالی چند درصد بازده داشته‌اند؟"
-       },
-       "options": [
-        {
-         "en": "About 5 percent",
-         "fa": "حدود ۵ درصد"
-        },
-        {
-         "en": "About 15 percent",
-         "fa": "حدود ۱۵ درصد"
-        },
-        {
-         "en": "About 1 percent",
-         "fa": "حدود ۱ درصد"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p4",
-       "text": {
-        "en": "His better tool is the discounted dividend model: a stock is worth the stream of dividends it will pay, discounted back to today.",
-        "fa": "ابزار بهتر او مدل تنزیل سود سهام است: ارزش سهم برابر جریان سودهایی است که خواهد پرداخت، تنزیل‌شده به امروز."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p5",
-       "text": {
-        "en": "A simple form, the Gordon equation, says the expected return of stocks equals the dividend yield plus the growth rate of dividends.",
-        "fa": "شکل ساده‌اش، معادلهٔ Gordon، می‌گوید بازده مورد انتظار سهام برابر است با بازده نقدی به‌علاوهٔ نرخ رشد سودهای تقسیمی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p6",
-       "text": {
-        "en": "When prices soar, the dividend yield shrinks, so future returns must fall. High prices today mean low returns tomorrow.",
-        "fa": "وقتی قیمت‌ها اوج می‌گیرند، بازده نقدی کوچک می‌شود و بازده آینده باید پایین بیاید. قیمت بالای امروز یعنی بازده پایین فردا."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l2k2",
-       "type": "tap",
-       "source": "b08c1l2p5",
-       "prompt": {
-        "en": "What does the Gordon equation say the expected stock return equals?",
-        "fa": "معادلهٔ Gordon می‌گوید بازده مورد انتظار سهام برابر با چیست؟"
-       },
-       "options": [
-        {
-         "en": "The dividend yield plus the growth rate of dividends",
-         "fa": "بازده نقدی به‌علاوهٔ نرخ رشد سودهای تقسیمی"
-        },
-        {
-         "en": "Last year's return plus inflation",
-         "fa": "بازده سال گذشته به‌علاوهٔ تورم"
-        },
-        {
-         "en": "The bond yield minus fund fees",
-         "fa": "بازده اوراق منهای کارمزد صندوق"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p7",
-       "text": {
-        "en": "Writing in 2002, after the late-1990s boom, Bernstein expected future stock returns well below the historic figure. He urged readers to plan with modest numbers.",
-        "fa": "Bernstein در ۲۰۰۲، پس از رونق اواخر دههٔ ۱۹۹۰، بازده آیندهٔ سهام را بسیار کمتر از رقم تاریخی می‌دانست. او از خوانندگان خواست با اعداد متواضعانه برنامه بریزند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p8",
-       "text": {
-        "en": "The same logic applies to bonds: their yield today is a fair guess of their return if held. There is no magic in either asset, only price and cash flow.",
-        "fa": "همین منطق برای اوراق قرضه هم درست است: بازده امروزشان حدس خوبی از بازده آن‌ها در صورت نگه‌داشتن است. در هیچ‌کدام جادویی نیست، فقط قیمت و جریان نقدی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p9",
-       "text": {
-        "en": "Bernstein also shows that riskier corners, such as small companies and value stocks, earned more in the past. He treats that extra return as pay for extra risk.",
-        "fa": "Bernstein همچنین نشان می‌دهد گوشه‌های پرریسک‌تر، مثل شرکت‌های کوچک و سهام ارزشی، در گذشته بیشتر بازده داشته‌اند. او این بازده اضافه را مزد ریسک اضافه می‌داند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l2k3",
-       "type": "tf",
-       "source": "b08c1l2p6",
-       "prompt": {
-        "en": "Bernstein argues that soaring prices today point to higher future returns.",
-        "fa": "Bernstein می‌گوید قیمت‌های در حال اوج امروز نشانهٔ بازده بالاتر آینده است."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p10",
-       "text": {
-        "en": "Value stocks are often dull or troubled firms. Bernstein's line is that good companies are often bad stocks, because their bright future is already in the price.",
-        "fa": "سهام ارزشی اغلب شرکت‌های کسل‌کننده یا گرفتارند. حرف Bernstein این است که شرکت‌های خوب اغلب سهام بدی‌اند، چون آیندهٔ درخشانشان از قبل در قیمت آمده است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p11",
-       "text": {
-        "en": "For your plan, estimate future returns from yield plus growth, not from the last ten years. A modest number keeps your 25-times target honest.",
-        "fa": "در برنامه‌ات بازده آینده را از بازده نقدی به‌علاوهٔ رشد برآورد کن، نه از ده سال گذشته. عددی متواضعانه هدف ۲۵ برابری‌ات را صادق نگه می‌دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l2p12",
-       "text": {
-        "en": "Measuring the beast means asking what the price implies, not what the chart shows. That habit protects you most when everyone else is excited.",
-        "fa": "اندازه‌گیری هیولا یعنی بپرسی قیمت چه چیزی را نشان می‌دهد، نه نمودار. این عادت بیشتر از همه وقتی محافظتت می‌کند که همه هیجان‌زده‌اند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l2k4",
-       "type": "tf",
-       "source": "b08c1l2p10",
-       "prompt": {
-        "en": "Bernstein says good companies are often bad stocks because their future is already in the price.",
-        "fa": "Bernstein می‌گوید شرکت‌های خوب اغلب سهام بدی‌اند چون آینده‌شان از قبل در قیمت آمده است."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b08c1l3",
-     "title": {
-      "en": "The market is smarter than you; the perfect portfolio",
-      "fa": "بازار از تو باهوش‌تر است؛ سبد کامل"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c1l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils chapters 3 and 4: why you cannot beat the market and how to build a portfolio from whole asset classes. It matters because it is why your core is 80 percent index ETFs.",
-        "fa": "این درس فصل‌های ۳ و ۴ را خلاصه می‌کند: چرا نمی‌توانی بازار را شکست دهی و چگونه سبدی از کل طبقات دارایی بسازی. مهم است چون دلیل ۸۰ درصد ETF شاخصی در هستهٔ تو همین است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p2",
-       "text": {
-        "en": "Chapter 3 argues that the market already prices in what is known. Millions of informed traders compete, so a single investor rarely finds a mispriced stock.",
-        "fa": "فصل ۳ می‌گوید بازار آنچه را معلوم است از قبل در قیمت آورده است. میلیون‌ها معامله‌گر مطلع رقابت می‌کنند، پس یک سرمایه‌گذار تنها به‌ندرت سهمی با قیمت اشتباه پیدا می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p3",
-       "text": {
-        "en": "Before costs, all investors together earn the market return. After costs, the average active investor must earn less than an index fund that owns everything cheaply.",
-        "fa": "پیش از هزینه‌ها، همهٔ سرمایه‌گذاران با هم بازده بازار را می‌گیرند. پس از هزینه‌ها، سرمایه‌گذار فعال متوسط باید کمتر از صندوق شاخصی ارزانی بگیرد که همه چیز را دارد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l3k1",
-       "type": "tap",
-       "source": "b08c1l3p3",
-       "prompt": {
-        "en": "Why must the average active investor trail an index fund?",
-        "fa": "چرا سرمایه‌گذار فعال متوسط باید از صندوق شاخصی عقب بماند؟"
-       },
-       "options": [
-        {
-         "en": "After costs, the average active investor earns less",
-         "fa": "پس از هزینه‌ها، سرمایه‌گذار فعال متوسط کمتر می‌گیرد"
-        },
-        {
-         "en": "Index funds use secret information",
-         "fa": "صندوق‌های شاخصی از اطلاعات محرمانه استفاده می‌کنند"
-        },
-        {
-         "en": "Active investors are banned from many stocks",
-         "fa": "سرمایه‌گذاران فعال از خرید بسیاری از سهام منع شده‌اند"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p4",
-       "text": {
-        "en": "Bernstein shows that fund managers who beat the market in one period rarely repeat it in the next. Past winning performance is mostly luck, not lasting skill.",
-        "fa": "Bernstein نشان می‌دهد مدیران صندوقی که در یک دوره بازار را شکست می‌دهند به‌ندرت در دورهٔ بعد تکرارش می‌کنند. عملکرد برندهٔ گذشته بیشتر شانس است، نه مهارت ماندگار."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p5",
-       "text": {
-        "en": "Market timing fails for the same reason: no one reliably knows when the market will turn. Missing a few of the best days can ruin a long-term return.",
-        "fa": "زمان‌بندی بازار به همین دلیل شکست می‌خورد: هیچ‌کس به‌طور قابل اتکا نمی‌داند بازار کی برمی‌گردد. از دست دادن چند روز از بهترین روزها می‌تواند بازده بلندمدت را خراب کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p6",
-       "text": {
-        "en": "His answer is to stop trying to win and own the whole market through cheap index funds. You then get the market's return minus a tiny cost.",
-        "fa": "پاسخ او این است که از تلاش برای بردن دست بکشی و کل بازار را از راه صندوق‌های شاخصی ارزان داشته باشی. آن‌وقت بازده بازار را منهای هزینه‌ای ناچیز می‌گیری."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l3k2",
-       "type": "tf",
-       "source": "b08c1l3p4",
-       "prompt": {
-        "en": "Bernstein finds that fund managers who beat the market usually repeat it in the next period.",
-        "fa": "Bernstein درمی‌یابد که مدیران صندوقی که بازار را شکست می‌دهند معمولاً در دورهٔ بعد تکرارش می‌کنند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p7",
-       "text": {
-        "en": "Chapter 4, The Perfect Portfolio, starts from diversification: mix assets that do not move together. The whole can then be less risky than its parts.",
-        "fa": "فصل ۴، The Perfect Portfolio، از تنوع‌بخشی شروع می‌شود: دارایی‌هایی را ترکیب کن که با هم حرکت نمی‌کنند. آن‌وقت کل می‌تواند کم‌ریسک‌تر از اجزایش باشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p8",
-       "text": {
-        "en": "Bernstein builds from asset classes: home and foreign stocks, large and small, growth and value, REITs and short-term bonds. Each plays a role.",
-        "fa": "Bernstein از طبقات دارایی می‌سازد: سهام داخلی و خارجی، بزرگ و کوچک، رشدی و ارزشی، REIT و اوراق کوتاه‌مدت. هر کدام نقشی دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p9",
-       "text": {
-        "en": "He admits no one knows the perfect portfolio in advance; the best mix is clear only in hindsight. So pick a sensible spread and keep it.",
-        "fa": "او می‌پذیرد که هیچ‌کس سبد کامل را از پیش نمی‌داند؛ بهترین ترکیب فقط در نگاه به گذشته روشن می‌شود. پس پخشی معقول انتخاب کن و نگهش دار."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l3k3",
-       "type": "tap",
-       "source": "b08c1l3p7",
-       "prompt": {
-        "en": "What is the base idea of Bernstein's perfect portfolio?",
-        "fa": "ایدهٔ پایهٔ سبد کامل Bernstein چیست؟"
-       },
-       "options": [
-        {
-         "en": "Mix assets that do not move together",
-         "fa": "ترکیب دارایی‌هایی که با هم حرکت نمی‌کنند"
-        },
-        {
-         "en": "Hold only the single best stock",
-         "fa": "نگه داشتن فقط بهترین سهم"
-        },
-        {
-         "en": "Keep everything in cash until a crash",
-         "fa": "نگه داشتن همه چیز به‌صورت نقد تا سقوط بعدی"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p10",
-       "text": {
-        "en": "Rebalancing back to fixed weights makes you sell what rose and buy what fell. Bernstein shows it controls risk and can even add return.",
-        "fa": "متوازن‌سازی به وزن‌های ثابت وادارت می‌کند آنچه بالا رفته را بفروشی و آنچه افتاده را بخری. Bernstein نشان می‌دهد این کار ریسک را مهار می‌کند و حتی می‌تواند بازده بیفزاید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p11",
-       "text": {
-        "en": "In your plan, one all-world ETF such as VWCE already spreads money over thousands of companies in many countries. That is diversification in a single buy.",
-        "fa": "در برنامهٔ تو، یک ETF جهانی مثل VWCE پول را میان هزاران شرکت در کشورهای بسیار پخش می‌کند. این تنوع‌بخشی در یک خرید است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l3p12",
-       "text": {
-        "en": "Bernstein's point: you cannot control returns, but you can control costs, spread and discipline. Those three are where an investor's effort pays.",
-        "fa": "نکتهٔ Bernstein: بازده را نمی‌توانی کنترل کنی، اما هزینه، پخش و انضباط را می‌توانی. تلاش سرمایه‌گذار در همین سه جا نتیجه می‌دهد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l3k4",
-       "type": "tf",
-       "source": "b08c1l3p12",
-       "prompt": {
-        "en": "Bernstein says investors can control costs, spread and discipline, but not returns.",
-        "fa": "Bernstein می‌گوید سرمایه‌گذار می‌تواند هزینه، پخش و انضباط را کنترل کند، اما بازده را نه."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b08c1l4",
-     "title": {
-      "en": "Manias and panics: the history pillar",
-      "fa": "جنون و وحشت: ستون تاریخ"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c1l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the second pillar, the history of markets, with its bubbles and crashes. It matters because you will live through at least one mania and one panic with real money in.",
-        "fa": "این درس ستون دوم، تاریخ بازارها با حباب‌ها و سقوط‌هایش، را خلاصه می‌کند. مهم است چون دست‌کم یک جنون و یک وحشت را با پول واقعی تجربه خواهی کرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p2",
-       "text": {
-        "en": "Bernstein walks through the great manias: the South Sea Bubble, the British railway mania of the 1840s, the 1920s boom and the 1990s tech bubble.",
-        "fa": "Bernstein جنون‌های بزرگ را مرور می‌کند: حباب South Sea، جنون راه‌آهن بریتانیا در دههٔ ۱۸۴۰، رونق دههٔ ۱۹۲۰ و حباب فناوری دههٔ ۱۹۹۰."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p3",
-       "text": {
-        "en": "He draws on Charles Mackay's Extraordinary Popular Delusions and the Madness of Crowds. Crowds in every century lose their heads in much the same way.",
-        "fa": "او از کتاب Extraordinary Popular Delusions and the Madness of Crowds نوشتهٔ Charles Mackay بهره می‌گیرد. جمعیت‌ها در هر قرن تقریباً به یک شکل عقلشان را از دست می‌دهند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l4k1",
-       "type": "order",
-       "source": "b08c1l4p2",
-       "prompt": {
-        "en": "Put these manias in historical order",
-        "fa": "این جنون‌ها را به ترتیب تاریخی بچین"
-       },
-       "options": [
-        {
-         "en": "The 1990s tech bubble",
-         "fa": "حباب فناوری دههٔ ۱۹۹۰"
-        },
-        {
-         "en": "The South Sea Bubble",
-         "fa": "حباب South Sea"
-        },
-        {
-         "en": "The British railway mania of the 1840s",
-         "fa": "جنون راه‌آهن بریتانیا در دههٔ ۱۸۴۰"
-        },
-        {
-         "en": "The 1920s boom",
-         "fa": "رونق دههٔ ۱۹۲۰"
-        }
-       ],
-       "answer": [
-        1,
-        2,
-        3,
-        0
-       ]
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p4",
-       "text": {
-        "en": "Bernstein names four conditions for a bubble: a new technology, easy credit, amnesia about the last crash, and dropping tried ways of valuing assets.",
-        "fa": "Bernstein چهار شرط برای حباب نام می‌برد: فناوری جدید، اعتبار آسان، فراموشی سقوط قبلی و کنار گذاشتن روش‌های آزموده برای ارزش‌گذاری دارایی‌ها."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p5",
-       "text": {
-        "en": "A new technology can change the world and still ruin its investors. Railways and the internet transformed life, yet most shares bought at the peak lost heavily.",
-        "fa": "فناوری جدید می‌تواند دنیا را عوض کند و باز سرمایه‌گذارانش را نابود کند. راه‌آهن و اینترنت زندگی را دگرگون کردند، اما بیشتر سهامی که در اوج خریده شد زیان سنگینی داد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p6",
-       "text": {
-        "en": "In a mania, people quit their jobs to trade, and talk at dinner turns to stocks. Bernstein reads these as signs for caution, not for buying more.",
-        "fa": "در جنون، مردم کارشان را رها می‌کنند تا معامله کنند و صحبت سر شام به سهام می‌رسد. Bernstein این‌ها را نشانهٔ احتیاط می‌داند، نه خرید بیشتر."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l4k2",
-       "type": "tap",
-       "source": "b08c1l4p4",
-       "prompt": {
-        "en": "Which is one of Bernstein's four conditions for a bubble?",
-        "fa": "کدام یکی از چهار شرط Bernstein برای حباب است؟"
-       },
-       "options": [
-        {
-         "en": "Easy credit",
-         "fa": "اعتبار آسان"
-        },
-        {
-         "en": "High interest rates",
-         "fa": "نرخ بهرهٔ بالا"
-        },
-        {
-         "en": "Strict market regulation",
-         "fa": "مقررات سخت‌گیرانهٔ بازار"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p7",
-       "text": {
-        "en": "Bottoms look the opposite: after a long fall, investors give up on stocks. In 1979 Business Week ran a cover called The Death of Equities, close to a great time to buy.",
-        "fa": "کف‌ها برعکس‌اند: پس از سقوطی طولانی، سرمایه‌گذاران از سهام دست می‌کشند. در ۱۹۷۹ مجلهٔ Business Week جلدی با عنوان The Death of Equities چاپ کرد، نزدیک به زمانی عالی برای خرید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p8",
-       "text": {
-        "en": "At bottoms, prices are low and expected returns are high, but buying feels terrible. The best returns go to those who buy when everyone is afraid.",
-        "fa": "در کف، قیمت‌ها پایین و بازده مورد انتظار بالاست، اما خریدن حس وحشتناکی دارد. بهترین بازده نصیب کسانی می‌شود که وقتی همه می‌ترسند می‌خرند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p9",
-       "text": {
-        "en": "Bernstein's lesson is that a market's mood swings far more than its value. Prices overshoot in both directions.",
-        "fa": "درس Bernstein این است که حال‌وهوای بازار خیلی بیشتر از ارزشش نوسان می‌کند. قیمت‌ها در هر دو جهت از حد می‌گذرند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l4k3",
-       "type": "tap",
-       "source": "b08c1l4p8",
-       "prompt": {
-        "en": "According to Bernstein, who gets the best returns?",
-        "fa": "به گفتهٔ Bernstein، بهترین بازده نصیب چه کسانی می‌شود؟"
-       },
-       "options": [
-        {
-         "en": "Those who buy when everyone is afraid",
-         "fa": "کسانی که وقتی همه می‌ترسند می‌خرند"
-        },
-        {
-         "en": "Those who buy what is in the news",
-         "fa": "کسانی که آنچه در اخبار است می‌خرند"
-        },
-        {
-         "en": "Those who wait until prices feel safe",
-         "fa": "کسانی که صبر می‌کنند تا قیمت‌ها امن به نظر برسند"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p10",
-       "text": {
-        "en": "History also shows crashes can last a long time: the Dow took about 25 years to regain its 1929 peak. Patience must be measured in decades, not months.",
-        "fa": "تاریخ همچنین نشان می‌دهد سقوط‌ها می‌توانند طولانی باشند: شاخص Dow حدود ۲۵ سال طول کشید تا به اوج ۱۹۲۹ برگردد. صبر را باید با دهه سنجید، نه ماه."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p11",
-       "text": {
-        "en": "For you, history is the vaccine: knowing the South Sea Bubble and 2000 helps you hold your index core in the next crash. Write that down in your decision journal now.",
-        "fa": "برای تو، تاریخ واکسن است: شناختن حباب South Sea و سال ۲۰۰۰ کمکت می‌کند در سقوط بعدی هستهٔ شاخصی‌ات را نگه داری. همین حالا آن را در دفتر تصمیم‌هایت بنویس."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c1l4p12",
-       "text": {
-        "en": "Bernstein's summary: when it feels safe it is often dangerous, and when it feels dangerous it is often the time to act. Read history so the crowd does not decide for you.",
-        "fa": "جمع‌بندی Bernstein: وقتی امن به نظر می‌رسد اغلب خطرناک است و وقتی خطرناک به نظر می‌رسد اغلب وقت اقدام است. تاریخ بخوان تا جمعیت به جای تو تصمیم نگیرد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c1l4k4",
-       "type": "tf",
-       "source": "b08c1l4p10",
-       "prompt": {
-        "en": "History shows that a crash can take decades, not months, to recover from.",
-        "fa": "تاریخ نشان می‌دهد که بهبود از یک سقوط می‌تواند دهه‌ها طول بکشد، نه چند ماه."
-       },
-       "answer": true
-      }
-     ]
-    }
-   ]
+  "id": "b08",
+  "title": "The Four Pillars of Investing",
+  "author": {
+    "en": "William Bernstein",
+    "fa": "William Bernstein"
   },
-  {
-   "id": "b08c2",
-   "title": {
-    "en": "Psychology, the industry and your portfolio",
-    "fa": "روانشناسی، صنعت و سبد تو"
-   },
-   "lessons": [
+  "year": 2002,
+  "stage": 2,
+  "must": true,
+  "why": {
+    "en": "Theory, history, psychology, the industry",
+    "fa": "تئوری، تاریخ، روانشناسی، صنعت"
+  },
+  "badge": {
+    "en": "Four Pillars",
+    "fa": "چهار ستون"
+  },
+  "tier": "mid",
+  "complexity": 4,
+  "circles": [
     {
-     "id": "b08c2l1",
-     "title": {
-      "en": "Misbehaviour: the psychology pillar",
-      "fa": "رفتار نادرست: ستون روانشناسی"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c2l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the third pillar, the psychology of investing, and Bernstein's behavioural therapy. It matters because your own mind can cost you more than any fee.",
-        "fa": "این درس ستون سوم، روانشناسی سرمایه‌گذاری، و درمان رفتاری Bernstein را خلاصه می‌کند. مهم است چون ذهن خودت می‌تواند بیش از هر کارمزدی برایت گران تمام شود."
-       }
+      "id": "b08c1",
+      "title": {
+        "en": "Theory and history: how markets pay",
+        "fa": "تئوری و تاریخ: بازار چگونه پاداش می‌دهد"
       },
-      {
-       "kind": "card",
-       "id": "b08c2l1p2",
-       "text": {
-        "en": "Bernstein says investors are their own worst enemies. Most of the damage comes from predictable errors, not from bad luck.",
-        "fa": "Bernstein می‌گوید سرمایه‌گذاران بدترین دشمن خودشان‌اند. بیشتر آسیب از خطاهای قابل پیش‌بینی می‌آید، نه از بدشانسی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p3",
-       "text": {
-        "en": "The first error is overconfidence: most people think they are above-average investors. That belief drives too much trading and too little diversification.",
-        "fa": "خطای اول اعتمادبه‌نفس بیش از حد است: بیشتر مردم فکر می‌کنند سرمایه‌گذارانی بالاتر از متوسط‌اند. این باور به معاملهٔ بیش از حد و تنوع‌بخشی بسیار کم می‌انجامد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l1k1",
-       "type": "tap",
-       "source": "b08c2l1p3",
-       "prompt": {
-        "en": "What does overconfidence lead investors to?",
-        "fa": "اعتمادبه‌نفس بیش از حد سرمایه‌گذاران را به چه می‌کشاند؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "Too much trading and too little diversification",
-         "fa": "معاملهٔ بیش از حد و تنوع‌بخشی بسیار کم"
+          "id": "b08c1l1",
+          "title": {
+            "en": "Four pillars, and why risk and return are one",
+            "fa": "چهار ستون، و چرا ریسک و بازده یکی‌اند"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the introduction and chapter 1, No Guts, No Glory. It matters because the roadmap leans on index ETFs, and Bernstein shows what pain buys return.",
+                "fa": "این درس مقدمه و فصل ۱، No Guts, No Glory، را خلاصه می‌کند. مهم است چون نقشهٔ راه بر ETFهای شاخصی تکیه دارد و Bernstein نشان می‌دهد چه دردی بازده می‌خرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p2",
+              "text": {
+                "en": "Bernstein says a successful investor needs four pillars: the theory of investing, its history, its psychology and the business of the investment industry.",
+                "fa": "Bernstein می‌گوید سرمایه‌گذار موفق به چهار ستون نیاز دارد: تئوری سرمایه‌گذاری، تاریخ آن، روانشناسی آن و کسب‌وکار صنعت سرمایه‌گذاری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p3",
+              "text": {
+                "en": "He argues that few investors master all four, and that a gap in any one pillar can bring the whole structure down.",
+                "fa": "او می‌گوید کمتر سرمایه‌گذاری بر هر چهار ستون مسلط است و کمبود در هر یک از ستون‌ها می‌تواند کل بنا را فرو بریزد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l1k1",
+              "type": "tap",
+              "source": "b08c1l1p2",
+              "prompt": {
+                "en": "Which are Bernstein's four pillars?",
+                "fa": "چهار ستون Bernstein کدام‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "Theory, history, psychology and the business of investing",
+                  "fa": "تئوری، تاریخ، روانشناسی و کسب‌وکار سرمایه‌گذاری"
+                },
+                {
+                  "en": "Stocks, bonds, gold and real estate",
+                  "fa": "سهام، اوراق قرضه، طلا و املاک"
+                },
+                {
+                  "en": "Saving, budgeting, insurance and taxes",
+                  "fa": "پس‌انداز، بودجه‌بندی، بیمه و مالیات"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p4",
+              "text": {
+                "en": "Chapter 1 opens with a basic law: risk and return are inseparable. An asset with a high expected return will, sooner or later, hand its owner heavy losses.",
+                "fa": "فصل ۱ با یک قانون پایه شروع می‌شود: ریسک و بازده از هم جدا نمی‌شوند. دارایی با بازده مورد انتظار بالا دیر یا زود زیان‌های سنگینی به صاحبش می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p5",
+              "text": {
+                "en": "Bernstein traces interest rates back to the ancient world: lenders charged more when repayment was unsure. Return has always been the price paid for bearing risk.",
+                "fa": "Bernstein نرخ بهره را تا دنیای باستان دنبال می‌کند: وام‌دهندگان وقتی بازپرداخت نامطمئن بود بیشتر می‌گرفتند. بازده همیشه بهای تحمل ریسک بوده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p6",
+              "text": {
+                "en": "Safe assets such as Treasury bills pay little because they almost never hurt you. Stocks pay more over the long run precisely because they can fall by half.",
+                "fa": "دارایی‌های امن مثل اسناد خزانه کم می‌دهند چون تقریباً هرگز به تو آسیب نمی‌زنند. سهام در بلندمدت بیشتر می‌دهد دقیقاً چون می‌تواند تا نصف سقوط کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l1k2",
+              "type": "tf",
+              "source": "b08c1l1p4",
+              "prompt": {
+                "en": "According to Bernstein, an asset can offer a high expected return with little chance of heavy losses.",
+                "fa": "به گفتهٔ Bernstein، یک دارایی می‌تواند بازده مورد انتظار بالا با احتمال کم زیان سنگین داشته باشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p7",
+              "text": {
+                "en": "The extra return stocks earn over safe bills is called the risk premium. It is not a gift; it is payment for sitting through crashes that others cannot stand.",
+                "fa": "بازده اضافه‌ای که سهام نسبت به اسناد امن می‌گیرد صرف ریسک نام دارد. هدیه نیست؛ مزد ماندن در سقوط‌هایی است که دیگران تحملش را ندارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p8",
+              "text": {
+                "en": "Bernstein stresses that returns compound: small differences in yearly return become huge gaps over decades. A few percent a year decides how often your money doubles.",
+                "fa": "Bernstein تأکید می‌کند بازده مرکب می‌شود: تفاوت‌های کوچک در بازده سالانه در طول دهه‌ها به شکاف‌های بزرگ تبدیل می‌شود. چند درصد در سال تعیین می‌کند پولت چند بار دو برابر شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p9",
+              "text": {
+                "en": "Risk also works in time: one bad stretch can wipe out years of gains. Bernstein reminds readers that US stocks lost most of their value from 1929 to 1932.",
+                "fa": "ریسک در زمان هم عمل می‌کند: یک دورهٔ بد می‌تواند سود سال‌ها را پاک کند. Bernstein یادآوری می‌کند که سهام آمریکا از ۱۹۲۹ تا ۱۹۳۲ بیشتر ارزشش را از دست داد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l1k3",
+              "type": "tap",
+              "source": "b08c1l1p7",
+              "prompt": {
+                "en": "What is the risk premium?",
+                "fa": "صرف ریسک چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The extra return stocks earn over safe bills",
+                  "fa": "بازده اضافهٔ سهام نسبت به اسناد امن"
+                },
+                {
+                  "en": "A fee brokers charge for risky trades",
+                  "fa": "کارمزدی که کارگزاران برای معاملات پرریسک می‌گیرند"
+                },
+                {
+                  "en": "Insurance paid out when markets crash",
+                  "fa": "بیمه‌ای که هنگام سقوط بازار پرداخت می‌شود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p10",
+              "text": {
+                "en": "For you the lesson is direct: higher expected returns in your plan will come with deeper drops. Pick assets knowing how far they can fall, not only how fast they can rise.",
+                "fa": "درس برای تو روشن است: بازده مورد انتظار بالاتر در برنامه‌ات با افت‌های عمیق‌تر می‌آید. دارایی را با دانستن اینکه چقدر می‌تواند سقوط کند انتخاب کن، نه فقط اینکه چقدر سریع بالا می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p11",
+              "text": {
+                "en": "Bernstein also warns about the opposite error: if you avoid all risk, inflation and low returns quietly eat your capital. Safety has a cost too.",
+                "fa": "Bernstein دربارهٔ خطای برعکس هم هشدار می‌دهد: اگر از همهٔ ریسک‌ها فرار کنی، تورم و بازده پایین آرام سرمایه‌ات را می‌خورند. امنیت هم هزینه دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p12",
+              "text": {
+                "en": "So the first pillar starts here: no guts, no glory. Every later choice in the book is about how much risk you take and how you are paid for it.",
+                "fa": "پس ستون اول از اینجا شروع می‌شود: بی‌جرئت، افتخاری نیست. هر انتخاب بعدی در کتاب دربارهٔ این است که چقدر ریسک می‌پذیری و چگونه بابتش پاداش می‌گیری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l1k4",
+              "type": "tf",
+              "source": "b08c1l1p11",
+              "prompt": {
+                "en": "Bernstein says avoiding all risk comes at no cost.",
+                "fa": "Bernstein می‌گوید فرار از همهٔ ریسک‌ها هیچ هزینه‌ای ندارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l1p13",
+              "text": {
+                "en": "Bernstein separates short-term risk, the gut-wrenching drops, from long-term risk, the chance your money falls short of your needs. He argues the second matters more, though the first is what we feel.",
+                "fa": "Bernstein ریسک کوتاه‌مدت، یعنی افت‌های دل‌آشوب، را از ریسک بلندمدت، یعنی احتمال کم آمدن پول برای نیازهایت، جدا می‌کند. او می‌گوید دومی مهم‌تر است، هرچند اولی همان است که حسش می‌کنیم."
+              }
+            }
+          ]
         },
         {
-         "en": "Too much saving and too little spending",
-         "fa": "پس‌انداز بیش از حد و خرج بسیار کم"
+          "id": "b08c1l2",
+          "title": {
+            "en": "Measuring the beast: what markets return",
+            "fa": "اندازه‌گیری هیولا: بازار چه بازدهی می‌دهد"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 2, Measuring the Beast, on what stocks and bonds have earned and may earn. It matters because your 25-times-expenses target rests on a sane return estimate.",
+                "fa": "این درس فصل ۲، Measuring the Beast، را خلاصه می‌کند: سهام و اوراق قرضه چه بازدهی داشته‌اند و چه می‌توانند داشته باشند. مهم است چون هدف ۲۵ برابر هزینه‌هایت به برآورد معقولی از بازده تکیه دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p2",
+              "text": {
+                "en": "Using US data since 1926, Bernstein shows stocks earned about 10 percent a year and long bonds about 5 percent. Treasury bills earned little more than inflation.",
+                "fa": "Bernstein با داده‌های آمریکا از ۱۹۲۶ نشان می‌دهد سهام حدود ۱۰ درصد در سال و اوراق بلندمدت حدود ۵ درصد بازده داشته‌اند. اسناد خزانه کمی بیش از تورم بازده داشته‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p3",
+              "text": {
+                "en": "Those numbers are the record of one lucky country over one strong century. Bernstein warns against treating past returns as a promise.",
+                "fa": "این اعداد کارنامهٔ یک کشور خوش‌شانس در یک قرن قوی است. Bernstein هشدار می‌دهد که بازده گذشته را وعده ندانیم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l2k1",
+              "type": "tap",
+              "source": "b08c1l2p2",
+              "prompt": {
+                "en": "Per Bernstein, roughly what did US long bonds earn a year since 1926?",
+                "fa": "به گفتهٔ Bernstein، اوراق بلندمدت آمریکا از ۱۹۲۶ تقریباً سالی چند درصد بازده داشته‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "About 5 percent",
+                  "fa": "حدود ۵ درصد"
+                },
+                {
+                  "en": "About 15 percent",
+                  "fa": "حدود ۱۵ درصد"
+                },
+                {
+                  "en": "About 1 percent",
+                  "fa": "حدود ۱ درصد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p4",
+              "text": {
+                "en": "His better tool is the discounted dividend model: a stock is worth the stream of dividends it will pay, discounted back to today.",
+                "fa": "ابزار بهتر او مدل تنزیل سود سهام است: ارزش سهم برابر جریان سودهایی است که خواهد پرداخت، تنزیل‌شده به امروز."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p5",
+              "text": {
+                "en": "A simple form, the Gordon equation, says the expected return of stocks equals the dividend yield plus the growth rate of dividends.",
+                "fa": "شکل ساده‌اش، معادلهٔ Gordon، می‌گوید بازده مورد انتظار سهام برابر است با بازده نقدی به‌علاوهٔ نرخ رشد سودهای تقسیمی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p6",
+              "text": {
+                "en": "When prices soar, the dividend yield shrinks, so future returns must fall. High prices today mean low returns tomorrow.",
+                "fa": "وقتی قیمت‌ها اوج می‌گیرند، بازده نقدی کوچک می‌شود و بازده آینده باید پایین بیاید. قیمت بالای امروز یعنی بازده پایین فردا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l2k2",
+              "type": "tap",
+              "source": "b08c1l2p5",
+              "prompt": {
+                "en": "What does the Gordon equation say the expected stock return equals?",
+                "fa": "معادلهٔ Gordon می‌گوید بازده مورد انتظار سهام برابر با چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The dividend yield plus the growth rate of dividends",
+                  "fa": "بازده نقدی به‌علاوهٔ نرخ رشد سودهای تقسیمی"
+                },
+                {
+                  "en": "Last year's return plus inflation",
+                  "fa": "بازده سال گذشته به‌علاوهٔ تورم"
+                },
+                {
+                  "en": "The bond yield minus fund fees",
+                  "fa": "بازده اوراق منهای کارمزد صندوق"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p7",
+              "text": {
+                "en": "Writing in 2002, after the late-1990s boom, Bernstein expected future stock returns well below the historic figure. He urged readers to plan with modest numbers.",
+                "fa": "Bernstein در ۲۰۰۲، پس از رونق اواخر دههٔ ۱۹۹۰، بازده آیندهٔ سهام را بسیار کمتر از رقم تاریخی می‌دانست. او از خوانندگان خواست با اعداد متواضعانه برنامه بریزند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p8",
+              "text": {
+                "en": "The same logic applies to bonds: their yield today is a fair guess of their return if held. There is no magic in either asset, only price and cash flow.",
+                "fa": "همین منطق برای اوراق قرضه هم درست است: بازده امروزشان حدس خوبی از بازده آن‌ها در صورت نگه‌داشتن است. در هیچ‌کدام جادویی نیست، فقط قیمت و جریان نقدی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p9",
+              "text": {
+                "en": "Bernstein also shows that riskier corners, such as small companies and value stocks, earned more in the past. He treats that extra return as pay for extra risk.",
+                "fa": "Bernstein همچنین نشان می‌دهد گوشه‌های پرریسک‌تر، مثل شرکت‌های کوچک و سهام ارزشی، در گذشته بیشتر بازده داشته‌اند. او این بازده اضافه را مزد ریسک اضافه می‌داند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l2k3",
+              "type": "tf",
+              "source": "b08c1l2p6",
+              "prompt": {
+                "en": "Bernstein argues that soaring prices today point to higher future returns.",
+                "fa": "Bernstein می‌گوید قیمت‌های در حال اوج امروز نشانهٔ بازده بالاتر آینده است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p10",
+              "text": {
+                "en": "Value stocks are often dull or troubled firms. Bernstein's line is that good companies are often bad stocks, because their bright future is already in the price.",
+                "fa": "سهام ارزشی اغلب شرکت‌های کسل‌کننده یا گرفتارند. حرف Bernstein این است که شرکت‌های خوب اغلب سهام بدی‌اند، چون آیندهٔ درخشانشان از قبل در قیمت آمده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p11",
+              "text": {
+                "en": "For your plan, estimate future returns from yield plus growth, not from the last ten years. A modest number keeps your 25-times target honest.",
+                "fa": "در برنامه‌ات بازده آینده را از بازده نقدی به‌علاوهٔ رشد برآورد کن، نه از ده سال گذشته. عددی متواضعانه هدف ۲۵ برابری‌ات را صادق نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p12",
+              "text": {
+                "en": "Measuring the beast means asking what the price implies, not what the chart shows. That habit protects you most when everyone else is excited.",
+                "fa": "اندازه‌گیری هیولا یعنی بپرسی قیمت چه چیزی را نشان می‌دهد، نه نمودار. این عادت بیشتر از همه وقتی محافظتت می‌کند که همه هیجان‌زده‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l2k4",
+              "type": "tf",
+              "source": "b08c1l2p10",
+              "prompt": {
+                "en": "Bernstein says good companies are often bad stocks because their future is already in the price.",
+                "fa": "Bernstein می‌گوید شرکت‌های خوب اغلب سهام بدی‌اند چون آینده‌شان از قبل در قیمت آمده است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l2p13",
+              "text": {
+                "en": "Bernstein also reminds readers that returns are often quoted before inflation. Subtract inflation to see how much real buying power your money actually gains.",
+                "fa": "Bernstein یادآوری می‌کند که بازده‌ها اغلب پیش از کسر تورم گفته می‌شوند. تورم را کم کن تا ببینی پولت واقعاً چقدر قدرت خرید به دست می‌آورد."
+              }
+            }
+          ]
         },
         {
-         "en": "Holding only government bonds",
-         "fa": "نگه داشتن فقط اوراق دولتی"
+          "id": "b08c1l3",
+          "title": {
+            "en": "The market is smarter than you; the perfect portfolio",
+            "fa": "بازار از تو باهوش‌تر است؛ سبد کامل"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 3 and 4: why you cannot beat the market and how to build a portfolio from whole asset classes. It matters because it is why your core is 80 percent index ETFs.",
+                "fa": "این درس فصل‌های ۳ و ۴ را خلاصه می‌کند: چرا نمی‌توانی بازار را شکست دهی و چگونه سبدی از کل طبقات دارایی بسازی. مهم است چون دلیل ۸۰ درصد ETF شاخصی در هستهٔ تو همین است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p2",
+              "text": {
+                "en": "Chapter 3 argues that the market already prices in what is known. Millions of informed traders compete, so a single investor rarely finds a mispriced stock.",
+                "fa": "فصل ۳ می‌گوید بازار آنچه را معلوم است از قبل در قیمت آورده است. میلیون‌ها معامله‌گر مطلع رقابت می‌کنند، پس یک سرمایه‌گذار تنها به‌ندرت سهمی با قیمت اشتباه پیدا می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p3",
+              "text": {
+                "en": "Before costs, all investors together earn the market return. After costs, the average active investor must earn less than an index fund that owns everything cheaply.",
+                "fa": "پیش از هزینه‌ها، همهٔ سرمایه‌گذاران با هم بازده بازار را می‌گیرند. پس از هزینه‌ها، سرمایه‌گذار فعال متوسط باید کمتر از صندوق شاخصی ارزانی بگیرد که همه چیز را دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l3k1",
+              "type": "tap",
+              "source": "b08c1l3p3",
+              "prompt": {
+                "en": "Why must the average active investor trail an index fund?",
+                "fa": "چرا سرمایه‌گذار فعال متوسط باید از صندوق شاخصی عقب بماند؟"
+              },
+              "options": [
+                {
+                  "en": "After costs, the average active investor earns less",
+                  "fa": "پس از هزینه‌ها، سرمایه‌گذار فعال متوسط کمتر می‌گیرد"
+                },
+                {
+                  "en": "Index funds use secret information",
+                  "fa": "صندوق‌های شاخصی از اطلاعات محرمانه استفاده می‌کنند"
+                },
+                {
+                  "en": "Active investors are banned from many stocks",
+                  "fa": "سرمایه‌گذاران فعال از خرید بسیاری از سهام منع شده‌اند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p4",
+              "text": {
+                "en": "Bernstein shows that fund managers who beat the market in one period rarely repeat it in the next. Past winning performance is mostly luck, not lasting skill.",
+                "fa": "Bernstein نشان می‌دهد مدیران صندوقی که در یک دوره بازار را شکست می‌دهند به‌ندرت در دورهٔ بعد تکرارش می‌کنند. عملکرد برندهٔ گذشته بیشتر شانس است، نه مهارت ماندگار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p5",
+              "text": {
+                "en": "Market timing fails for the same reason: no one reliably knows when the market will turn. Bernstein cites a study of market-timing newsletters that found no dependable skill.",
+                "fa": "زمان‌بندی بازار به همین دلیل شکست می‌خورد: هیچ‌کس به‌طور قابل اتکا نمی‌داند بازار کی برمی‌گردد. Bernstein به پژوهشی دربارهٔ خبرنامه‌های زمان‌بندی بازار اشاره می‌کند که مهارت قابل اتکایی در آن‌ها نیافت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p6",
+              "text": {
+                "en": "His answer is to stop trying to win and own the whole market through cheap index funds. You then get the market's return minus a tiny cost.",
+                "fa": "پاسخ او این است که از تلاش برای بردن دست بکشی و کل بازار را از راه صندوق‌های شاخصی ارزان داشته باشی. آن‌وقت بازده بازار را منهای هزینه‌ای ناچیز می‌گیری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l3k2",
+              "type": "tf",
+              "source": "b08c1l3p4",
+              "prompt": {
+                "en": "Bernstein finds that fund managers who beat the market usually repeat it in the next period.",
+                "fa": "Bernstein درمی‌یابد که مدیران صندوقی که بازار را شکست می‌دهند معمولاً در دورهٔ بعد تکرارش می‌کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p7",
+              "text": {
+                "en": "Chapter 4, The Perfect Portfolio, builds on diversification: mix assets that do not move together. The whole can then be less risky than its parts.",
+                "fa": "فصل ۴، The Perfect Portfolio، بر تنوع‌بخشی بنا شده است: دارایی‌هایی را ترکیب کن که با هم حرکت نمی‌کنند. آن‌وقت کل می‌تواند کم‌ریسک‌تر از اجزایش باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p8",
+              "text": {
+                "en": "Bernstein builds from asset classes: home and foreign stocks, large and small, growth and value, REITs and short-term bonds. Each plays a role.",
+                "fa": "Bernstein از طبقات دارایی می‌سازد: سهام داخلی و خارجی، بزرگ و کوچک، رشدی و ارزشی، REIT و اوراق کوتاه‌مدت. هر کدام نقشی دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p9",
+              "text": {
+                "en": "He admits no one knows the perfect portfolio in advance; the best mix is clear only in hindsight. So pick a sensible spread and keep it.",
+                "fa": "او می‌پذیرد که هیچ‌کس سبد کامل را از پیش نمی‌داند؛ بهترین ترکیب فقط در نگاه به گذشته روشن می‌شود. پس پخشی معقول انتخاب کن و نگهش دار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l3k3",
+              "type": "tap",
+              "source": "b08c1l3p7",
+              "prompt": {
+                "en": "What is the base idea of Bernstein's perfect portfolio?",
+                "fa": "ایدهٔ پایهٔ سبد کامل Bernstein چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Mix assets that do not move together",
+                  "fa": "ترکیب دارایی‌هایی که با هم حرکت نمی‌کنند"
+                },
+                {
+                  "en": "Hold only the single best stock",
+                  "fa": "نگه داشتن فقط بهترین سهم"
+                },
+                {
+                  "en": "Keep everything in cash until a crash",
+                  "fa": "نگه داشتن همه چیز به‌صورت نقد تا سقوط بعدی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p10",
+              "text": {
+                "en": "Rebalancing back to fixed weights makes you sell what rose and buy what fell. Bernstein shows it controls risk and can even add return.",
+                "fa": "متوازن‌سازی به وزن‌های ثابت وادارت می‌کند آنچه بالا رفته را بفروشی و آنچه افتاده را بخری. Bernstein نشان می‌دهد این کار ریسک را مهار می‌کند و حتی می‌تواند بازده بیفزاید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p11",
+              "text": {
+                "en": "In your plan, one all-world ETF such as VWCE already spreads money over thousands of companies in many countries. That is diversification in a single buy.",
+                "fa": "در برنامهٔ تو، یک ETF جهانی مثل VWCE پول را میان هزاران شرکت در کشورهای بسیار پخش می‌کند. این تنوع‌بخشی در یک خرید است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p12",
+              "text": {
+                "en": "Bernstein's point: you cannot control returns, but you can control costs, spread and discipline. Those three are where an investor's effort pays.",
+                "fa": "نکتهٔ Bernstein: بازده را نمی‌توانی کنترل کنی، اما هزینه، پخش و انضباط را می‌توانی. تلاش سرمایه‌گذار در همین سه جا نتیجه می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l3k4",
+              "type": "tf",
+              "source": "b08c1l3p12",
+              "prompt": {
+                "en": "Bernstein says investors can control costs, spread and discipline, but not returns.",
+                "fa": "Bernstein می‌گوید سرمایه‌گذار می‌تواند هزینه، پخش و انضباط را کنترل کند، اما بازده را نه."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l3p13",
+              "text": {
+                "en": "Index funds beat most active managers not because they are clever but because they are cheap. Low cost is the one edge an investor can be sure of.",
+                "fa": "صندوق‌های شاخصی از بیشتر مدیران فعال جلو می‌زنند نه چون باهوش‌اند، بلکه چون ارزان‌اند. هزینهٔ کم تنها برتری‌ای است که سرمایه‌گذار می‌تواند از آن مطمئن باشد."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b08c1l4",
+          "title": {
+            "en": "Manias and panics: the history pillar",
+            "fa": "جنون و وحشت: ستون تاریخ"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the second pillar, the history of markets, with its bubbles and crashes. It matters because you will live through at least one mania and one panic with real money in.",
+                "fa": "این درس ستون دوم، تاریخ بازارها با حباب‌ها و سقوط‌هایش، را خلاصه می‌کند. مهم است چون دست‌کم یک جنون و یک وحشت را با پول واقعی تجربه خواهی کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p2",
+              "text": {
+                "en": "Bernstein walks through the great manias: the South Sea Bubble, the British railway mania of the 1840s, the 1920s boom and the 1990s tech bubble.",
+                "fa": "Bernstein جنون‌های بزرگ را مرور می‌کند: حباب South Sea، جنون راه‌آهن بریتانیا در دههٔ ۱۸۴۰، رونق دههٔ ۱۹۲۰ و حباب فناوری دههٔ ۱۹۹۰."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p3",
+              "text": {
+                "en": "He draws on Charles Mackay's Extraordinary Popular Delusions and the Madness of Crowds. Crowds in every century lose their heads in much the same way.",
+                "fa": "او از کتاب Extraordinary Popular Delusions and the Madness of Crowds نوشتهٔ Charles Mackay بهره می‌گیرد. جمعیت‌ها در هر قرن تقریباً به یک شکل عقلشان را از دست می‌دهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l4k1",
+              "type": "order",
+              "source": "b08c1l4p2",
+              "prompt": {
+                "en": "Put these manias in historical order",
+                "fa": "این جنون‌ها را به ترتیب تاریخی بچین"
+              },
+              "options": [
+                {
+                  "en": "The 1990s tech bubble",
+                  "fa": "حباب فناوری دههٔ ۱۹۹۰"
+                },
+                {
+                  "en": "The South Sea Bubble",
+                  "fa": "حباب South Sea"
+                },
+                {
+                  "en": "The British railway mania of the 1840s",
+                  "fa": "جنون راه‌آهن بریتانیا در دههٔ ۱۸۴۰"
+                },
+                {
+                  "en": "The 1920s boom",
+                  "fa": "رونق دههٔ ۱۹۲۰"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p4",
+              "text": {
+                "en": "Bernstein names four conditions for a bubble: a new technology, easy credit, amnesia about the last crash, and dropping tried ways of valuing assets.",
+                "fa": "Bernstein چهار شرط برای حباب نام می‌برد: فناوری جدید، اعتبار آسان، فراموشی سقوط قبلی و کنار گذاشتن روش‌های آزموده برای ارزش‌گذاری دارایی‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p5",
+              "text": {
+                "en": "A new technology can change the world and still ruin its investors. Railways and the internet transformed life, yet most shares bought at the peak lost heavily.",
+                "fa": "فناوری جدید می‌تواند دنیا را عوض کند و باز سرمایه‌گذارانش را نابود کند. راه‌آهن و اینترنت زندگی را دگرگون کردند، اما بیشتر سهامی که در اوج خریده شد زیان سنگینی داد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p6",
+              "text": {
+                "en": "In a mania, people quit their jobs to trade, and talk at dinner turns to stocks. Bernstein reads these as signs for caution, not for buying more.",
+                "fa": "در جنون، مردم کارشان را رها می‌کنند تا معامله کنند و صحبت سر شام به سهام می‌رسد. Bernstein این‌ها را نشانهٔ احتیاط می‌داند، نه خرید بیشتر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l4k2",
+              "type": "tap",
+              "source": "b08c1l4p4",
+              "prompt": {
+                "en": "Which is one of Bernstein's four conditions for a bubble?",
+                "fa": "کدام یکی از چهار شرط Bernstein برای حباب است؟"
+              },
+              "options": [
+                {
+                  "en": "Easy credit",
+                  "fa": "اعتبار آسان"
+                },
+                {
+                  "en": "High interest rates",
+                  "fa": "نرخ بهرهٔ بالا"
+                },
+                {
+                  "en": "Strict market regulation",
+                  "fa": "مقررات سخت‌گیرانهٔ بازار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p7",
+              "text": {
+                "en": "Bottoms look the opposite: after a long fall, investors give up on stocks. In 1979 Business Week ran a cover called The Death of Equities, close to a great time to buy.",
+                "fa": "کف‌ها برعکس‌اند: پس از سقوطی طولانی، سرمایه‌گذاران از سهام دست می‌کشند. در ۱۹۷۹ مجلهٔ Business Week جلدی با عنوان The Death of Equities چاپ کرد، نزدیک به زمانی عالی برای خرید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p8",
+              "text": {
+                "en": "At bottoms, prices are low and expected returns are high, but buying feels terrible. The best returns go to those who buy when everyone is afraid.",
+                "fa": "در کف، قیمت‌ها پایین و بازده مورد انتظار بالاست، اما خریدن حس وحشتناکی دارد. بهترین بازده نصیب کسانی می‌شود که وقتی همه می‌ترسند می‌خرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p9",
+              "text": {
+                "en": "Bernstein's lesson is that a market's mood swings far more than its value. Prices overshoot in both directions.",
+                "fa": "درس Bernstein این است که حال‌وهوای بازار خیلی بیشتر از ارزشش نوسان می‌کند. قیمت‌ها در هر دو جهت از حد می‌گذرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l4k3",
+              "type": "tap",
+              "source": "b08c1l4p8",
+              "prompt": {
+                "en": "According to Bernstein, who gets the best returns?",
+                "fa": "به گفتهٔ Bernstein، بهترین بازده نصیب چه کسانی می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Those who buy when everyone is afraid",
+                  "fa": "کسانی که وقتی همه می‌ترسند می‌خرند"
+                },
+                {
+                  "en": "Those who buy what is in the news",
+                  "fa": "کسانی که آنچه در اخبار است می‌خرند"
+                },
+                {
+                  "en": "Those who wait until prices feel safe",
+                  "fa": "کسانی که صبر می‌کنند تا قیمت‌ها امن به نظر برسند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p10",
+              "text": {
+                "en": "History also shows bad stretches can be long: Bernstein describes US stocks lagging inflation from the mid-1960s to the early 1980s. Patience must be measured in years and decades, not months.",
+                "fa": "تاریخ همچنین نشان می‌دهد دوره‌های بد می‌توانند طولانی باشند: Bernstein شرح می‌دهد که سهام آمریکا از میانهٔ دههٔ ۱۹۶۰ تا اوایل دههٔ ۱۹۸۰ از تورم عقب ماند. صبر را باید با سال و دهه سنجید، نه ماه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p11",
+              "text": {
+                "en": "For you, history is the vaccine: knowing the South Sea Bubble and 2000 helps you hold your index core in the next crash. Write that down in your decision journal now.",
+                "fa": "برای تو، تاریخ واکسن است: شناختن حباب South Sea و سال ۲۰۰۰ کمکت می‌کند در سقوط بعدی هستهٔ شاخصی‌ات را نگه داری. همین حالا آن را در دفتر تصمیم‌هایت بنویس."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p12",
+              "text": {
+                "en": "Bernstein's summary: when it feels safe it is often dangerous, and when it feels dangerous it is often the time to act. Read history so the crowd does not decide for you.",
+                "fa": "جمع‌بندی Bernstein: وقتی امن به نظر می‌رسد اغلب خطرناک است و وقتی خطرناک به نظر می‌رسد اغلب وقت اقدام است. تاریخ بخوان تا جمعیت به جای تو تصمیم نگیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c1l4k4",
+              "type": "tf",
+              "source": "b08c1l4p10",
+              "prompt": {
+                "en": "History shows that a bad stretch for stocks can last many years, not just months.",
+                "fa": "تاریخ نشان می‌دهد که دورهٔ بد سهام می‌تواند سال‌ها طول بکشد، نه فقط چند ماه."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c1l4p13",
+              "text": {
+                "en": "In every mania, people claim a new era has made the old valuation rules useless. Bernstein shows that claim was made in the 1920s and the 1990s, and failed both times.",
+                "fa": "در هر جنونی، مردم ادعا می‌کنند دوران تازه‌ای قواعد قدیمی ارزش‌گذاری را بی‌فایده کرده است. Bernstein نشان می‌دهد این ادعا در دههٔ ۱۹۲۰ و ۱۹۹۰ مطرح شد و هر دو بار شکست خورد."
+              }
+            }
+          ]
         }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p4",
-       "text": {
-        "en": "The second is recency: investors stretch the last few years into the future. They buy what has recently soared and sell what has recently fallen.",
-        "fa": "خطای دوم تأثیر رویدادهای اخیر است: سرمایه‌گذاران چند سال اخیر را به آینده امتداد می‌دهند. آنچه اخیراً اوج گرفته را می‌خرند و آنچه اخیراً افتاده را می‌فروشند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p5",
-       "text": {
-        "en": "The third is herding: people feel safer doing what everyone else does. In investing, the crowd is usually most confident just before it is wrong.",
-        "fa": "خطای سوم رفتار گله‌ای است: مردم وقتی کاری را می‌کنند که همه می‌کنند احساس امنیت بیشتری دارند. در سرمایه‌گذاری، جمعیت معمولاً درست پیش از اشتباه از همیشه مطمئن‌تر است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p6",
-       "text": {
-        "en": "Investors also love glamour stocks with exciting stories, much like lottery tickets. Bernstein shows that such stocks have tended to deliver poor returns.",
-        "fa": "سرمایه‌گذاران عاشق سهام پرزرق‌وبرق با داستان‌های هیجان‌انگیزند، درست مثل بلیت بخت‌آزمایی. Bernstein نشان می‌دهد این سهام معمولاً بازده ضعیفی داشته‌اند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l1k2",
-       "type": "tf",
-       "source": "b08c2l1p4",
-       "prompt": {
-        "en": "Recency bias makes investors buy what has recently fallen.",
-        "fa": "سوگیری رویدادهای اخیر باعث می‌شود سرمایه‌گذاران آنچه اخیراً افتاده را بخرند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p7",
-       "text": {
-        "en": "Loss aversion makes a loss hurt about twice as much as an equal gain pleases. Checking your portfolio often means feeling many small losses, which invites panic.",
-        "fa": "زیان‌گریزی باعث می‌شود زیان حدود دو برابر سودی هم‌اندازه درد داشته باشد. نگاه مکرر به سبد یعنی حس کردن زیان‌های کوچک فراوان، که وحشت می‌آورد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p8",
-       "text": {
-        "en": "Investors also see patterns in random noise and trends where none exist. A short streak of good results feels like proof of skill.",
-        "fa": "سرمایه‌گذاران در نویز تصادفی هم الگو می‌بینند و روند را جایی که نیست تشخیص می‌دهند. چند نتیجهٔ خوب پشت سر هم شبیه اثبات مهارت به نظر می‌رسد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p9",
-       "text": {
-        "en": "Mental accounting puts money in separate boxes and judges each one alone. Bernstein asks you to look only at the whole portfolio.",
-        "fa": "حسابداری ذهنی پول را در جعبه‌های جدا می‌گذارد و هر کدام را تنها قضاوت می‌کند. Bernstein از تو می‌خواهد فقط به کل سبد نگاه کنی."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l1k3",
-       "type": "tap",
-       "source": "b08c2l1p7",
-       "prompt": {
-        "en": "What does loss aversion do?",
-        "fa": "زیان‌گریزی چه می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "Makes a loss hurt about twice as much as an equal gain",
-         "fa": "باعث می‌شود زیان حدود دو برابر سودی هم‌اندازه درد داشته باشد"
-        },
-        {
-         "en": "Makes investors buy more after every loss",
-         "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان بیشتر بخرند"
-        },
-        {
-         "en": "Removes the fear of falling prices",
-         "fa": "ترس از افت قیمت را از بین می‌برد"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p10",
-       "text": {
-        "en": "His therapy: accept that you cannot pick winners, compare your results honestly with an index, and avoid exciting stocks. Boredom is a good sign.",
-        "fa": "درمان او: بپذیر که نمی‌توانی برنده‌ها را انتخاب کنی، نتایجت را صادقانه با یک شاخص مقایسه کن و از سهام هیجان‌انگیز دوری کن. حوصله‌سربر بودن نشانهٔ خوبی است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p11",
-       "text": {
-        "en": "He also advises looking at your portfolio less often and following a written plan. The less you react to news, the less harm your instincts can do.",
-        "fa": "او همچنین توصیه می‌کند کمتر به سبدت نگاه کنی و از برنامه‌ای مکتوب پیروی کنی. هرچه کمتر به اخبار واکنش نشان دهی، غریزه‌هایت کمتر آسیب می‌زنند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l1p12",
-       "text": {
-        "en": "Your decision journal is this therapy in practice: write why you buy before you buy. Rereading it in a crash shows whether fear or the plan is speaking.",
-        "fa": "دفتر تصمیم‌هایت همین درمان در عمل است: پیش از خرید بنویس چرا می‌خری. بازخوانی آن در سقوط نشان می‌دهد ترس حرف می‌زند یا برنامه."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l1k4",
-       "type": "tf",
-       "source": "b08c2l1p11",
-       "prompt": {
-        "en": "Bernstein advises checking your portfolio more often to stay safe.",
-        "fa": "Bernstein توصیه می‌کند برای امنیت بیشتر، سبدت را بیشتر بررسی کنی."
-       },
-       "answer": false
-      }
-     ]
+      ]
     },
     {
-     "id": "b08c2l2",
-     "title": {
-      "en": "The business of investing: whose side are they on?",
-      "fa": "کسب‌وکار سرمایه‌گذاری: آن‌ها طرف کیستند؟"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c2l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the fourth pillar, the business of investing: brokers, fund companies and the financial press. It matters because you will soon pick a broker and funds in the Netherlands.",
-        "fa": "این درس ستون چهارم، کسب‌وکار سرمایه‌گذاری، را خلاصه می‌کند: کارگزاران، شرکت‌های صندوق و مطبوعات مالی. مهم است چون به‌زودی در هلند کارگزار و صندوق انتخاب می‌کنی."
-       }
+      "id": "b08c2",
+      "title": {
+        "en": "Psychology, the industry and your portfolio",
+        "fa": "روانشناسی، صنعت و سبد تو"
       },
-      {
-       "kind": "card",
-       "id": "b08c2l2p2",
-       "text": {
-        "en": "Bernstein says your broker is not your friend. Brokers earn from your trades and the products they sell you, not from your results.",
-        "fa": "Bernstein می‌گوید کارگزارت دوست تو نیست. کارگزاران از معاملات تو و محصولاتی که به تو می‌فروشند درآمد دارند، نه از نتایج تو."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p3",
-       "text": {
-        "en": "A broker's job is selling, so the incentive is to make you trade often and buy high-fee products. Your interests and theirs point in different directions.",
-        "fa": "کار کارگزار فروختن است، پس انگیزه‌اش این است که زیاد معامله کنی و محصولات پرکارمزد بخری. منافع تو و او در جهت‌های متفاوتی است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l2k1",
-       "type": "tap",
-       "source": "b08c2l2p2",
-       "prompt": {
-        "en": "How do brokers earn, per Bernstein?",
-        "fa": "به گفتهٔ Bernstein، کارگزاران چگونه درآمد دارند؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "From your trades and the products they sell you",
-         "fa": "از معاملات تو و محصولاتی که به تو می‌فروشند"
+          "id": "b08c2l1",
+          "title": {
+            "en": "Misbehaviour: the psychology pillar",
+            "fa": "رفتار نادرست: ستون روانشناسی"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the third pillar, the psychology of investing, and Bernstein's behavioural therapy. It matters because your own mind can cost you more than any fee.",
+                "fa": "این درس ستون سوم، روانشناسی سرمایه‌گذاری، و درمان رفتاری Bernstein را خلاصه می‌کند. مهم است چون ذهن خودت می‌تواند بیش از هر کارمزدی برایت گران تمام شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p2",
+              "text": {
+                "en": "Bernstein says investors are their own worst enemies. Most of the damage comes from predictable errors, not from bad luck.",
+                "fa": "Bernstein می‌گوید سرمایه‌گذاران بدترین دشمن خودشان‌اند. بیشتر آسیب از خطاهای قابل پیش‌بینی می‌آید، نه از بدشانسی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p3",
+              "text": {
+                "en": "The first error is overconfidence: most people think they are above-average investors. That belief drives too much trading and too little diversification.",
+                "fa": "خطای اول اعتمادبه‌نفس بیش از حد است: بیشتر مردم فکر می‌کنند سرمایه‌گذارانی بالاتر از متوسط‌اند. این باور به معاملهٔ بیش از حد و تنوع‌بخشی بسیار کم می‌انجامد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l1k1",
+              "type": "tap",
+              "source": "b08c2l1p3",
+              "prompt": {
+                "en": "What does overconfidence lead investors to?",
+                "fa": "اعتمادبه‌نفس بیش از حد سرمایه‌گذاران را به چه می‌کشاند؟"
+              },
+              "options": [
+                {
+                  "en": "Too much trading and too little diversification",
+                  "fa": "معاملهٔ بیش از حد و تنوع‌بخشی بسیار کم"
+                },
+                {
+                  "en": "Too much saving and too little spending",
+                  "fa": "پس‌انداز بیش از حد و خرج بسیار کم"
+                },
+                {
+                  "en": "Holding only government bonds",
+                  "fa": "نگه داشتن فقط اوراق دولتی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p4",
+              "text": {
+                "en": "The second is recency: investors stretch the last few years into the future. They buy what has recently soared and sell what has recently fallen.",
+                "fa": "خطای دوم تأثیر رویدادهای اخیر است: سرمایه‌گذاران چند سال اخیر را به آینده امتداد می‌دهند. آنچه اخیراً اوج گرفته را می‌خرند و آنچه اخیراً افتاده را می‌فروشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p5",
+              "text": {
+                "en": "The third is herding: people feel safer doing what everyone else does. In investing, the crowd is usually most confident just before it is wrong.",
+                "fa": "خطای سوم رفتار گله‌ای است: مردم وقتی کاری را می‌کنند که همه می‌کنند احساس امنیت بیشتری دارند. در سرمایه‌گذاری، جمعیت معمولاً درست پیش از اشتباه از همیشه مطمئن‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p6",
+              "text": {
+                "en": "Investors also love glamour stocks with exciting stories, much like lottery tickets. Bernstein shows that such stocks have tended to deliver poor returns.",
+                "fa": "سرمایه‌گذاران عاشق سهام پرزرق‌وبرق با داستان‌های هیجان‌انگیزند، درست مثل بلیت بخت‌آزمایی. Bernstein نشان می‌دهد این سهام معمولاً بازده ضعیفی داشته‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l1k2",
+              "type": "tf",
+              "source": "b08c2l1p4",
+              "prompt": {
+                "en": "Recency bias makes investors buy what has recently fallen.",
+                "fa": "سوگیری رویدادهای اخیر باعث می‌شود سرمایه‌گذاران آنچه اخیراً افتاده را بخرند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p7",
+              "text": {
+                "en": "Loss aversion makes a loss hurt far more than an equal gain pleases. Checking your portfolio often means feeling many small losses, which invites panic.",
+                "fa": "زیان‌گریزی باعث می‌شود زیان بسیار بیشتر از لذت سودی هم‌اندازه درد داشته باشد. نگاه مکرر به سبد یعنی حس کردن زیان‌های کوچک فراوان، که وحشت می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p8",
+              "text": {
+                "en": "Investors also see patterns in random noise and trends where none exist. A short streak of good results feels like proof of skill.",
+                "fa": "سرمایه‌گذاران در نویز تصادفی هم الگو می‌بینند و روند را جایی که نیست تشخیص می‌دهند. چند نتیجهٔ خوب پشت سر هم شبیه اثبات مهارت به نظر می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p9",
+              "text": {
+                "en": "Mental accounting puts money in separate boxes and judges each one alone. Bernstein asks you to look only at the whole portfolio.",
+                "fa": "حسابداری ذهنی پول را در جعبه‌های جدا می‌گذارد و هر کدام را تنها قضاوت می‌کند. Bernstein از تو می‌خواهد فقط به کل سبد نگاه کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l1k3",
+              "type": "tap",
+              "source": "b08c2l1p7",
+              "prompt": {
+                "en": "What does loss aversion do?",
+                "fa": "زیان‌گریزی چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Makes a loss hurt far more than an equal gain pleases",
+                  "fa": "باعث می‌شود زیان بسیار بیشتر از لذت سودی هم‌اندازه درد داشته باشد"
+                },
+                {
+                  "en": "Makes investors buy more after every loss",
+                  "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان بیشتر بخرند"
+                },
+                {
+                  "en": "Removes the fear of falling prices",
+                  "fa": "ترس از افت قیمت را از بین می‌برد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p10",
+              "text": {
+                "en": "His therapy: accept that you cannot pick winners, compare your results honestly with an index, and avoid exciting stocks. Boredom is a good sign.",
+                "fa": "درمان او: بپذیر که نمی‌توانی برنده‌ها را انتخاب کنی، نتایجت را صادقانه با یک شاخص مقایسه کن و از سهام هیجان‌انگیز دوری کن. حوصله‌سربر بودن نشانهٔ خوبی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p11",
+              "text": {
+                "en": "He also advises looking at your portfolio less often and following a written plan. The less you react to news, the less harm your instincts can do.",
+                "fa": "او همچنین توصیه می‌کند کمتر به سبدت نگاه کنی و از برنامه‌ای مکتوب پیروی کنی. هرچه کمتر به اخبار واکنش نشان دهی، غریزه‌هایت کمتر آسیب می‌زنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p12",
+              "text": {
+                "en": "Your decision journal is this therapy in practice: write why you buy before you buy. Rereading it in a crash shows whether fear or the plan is speaking.",
+                "fa": "دفتر تصمیم‌هایت همین درمان در عمل است: پیش از خرید بنویس چرا می‌خری. بازخوانی آن در سقوط نشان می‌دهد ترس حرف می‌زند یا برنامه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l1k4",
+              "type": "tf",
+              "source": "b08c2l1p11",
+              "prompt": {
+                "en": "Bernstein advises checking your portfolio more often to stay safe.",
+                "fa": "Bernstein توصیه می‌کند برای امنیت بیشتر، سبدت را بیشتر بررسی کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l1p13",
+              "text": {
+                "en": "Bernstein's deeper point is that the investor's worst enemy is not the market but the mirror. Knowing your biases is the first step to keeping them away from your money.",
+                "fa": "نکتهٔ عمیق‌تر Bernstein این است که بدترین دشمن سرمایه‌گذار بازار نیست، بلکه آینه است. شناختن سوگیری‌هایت اولین قدم برای دور نگه داشتن آن‌ها از پولت است."
+              }
+            }
+          ]
         },
         {
-         "en": "From a share of your investment gains only",
-         "fa": "فقط از سهمی از سود سرمایه‌گذاری تو"
+          "id": "b08c2l2",
+          "title": {
+            "en": "The business of investing: whose side are they on?",
+            "fa": "کسب‌وکار سرمایه‌گذاری: آن‌ها طرف کیستند؟"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the fourth pillar, the business of investing: brokers, fund companies and the financial press. It matters because you will soon pick a broker and funds in the Netherlands.",
+                "fa": "این درس ستون چهارم، کسب‌وکار سرمایه‌گذاری، را خلاصه می‌کند: کارگزاران، شرکت‌های صندوق و مطبوعات مالی. مهم است چون به‌زودی در هلند کارگزار و صندوق انتخاب می‌کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p2",
+              "text": {
+                "en": "Bernstein says your broker is not your friend. Brokers earn from your trades and the products they sell you, not from your results.",
+                "fa": "Bernstein می‌گوید کارگزارت دوست تو نیست. کارگزاران از معاملات تو و محصولاتی که به تو می‌فروشند درآمد دارند، نه از نتایج تو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p3",
+              "text": {
+                "en": "A broker's job is selling, so the incentive is to make you trade often and buy high-fee products. Your interests and theirs point in different directions.",
+                "fa": "کار کارگزار فروختن است، پس انگیزه‌اش این است که زیاد معامله کنی و محصولات پرکارمزد بخری. منافع تو و او در جهت‌های متفاوتی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l2k1",
+              "type": "tap",
+              "source": "b08c2l2p2",
+              "prompt": {
+                "en": "How do brokers earn, per Bernstein?",
+                "fa": "به گفتهٔ Bernstein، کارگزاران چگونه درآمد دارند؟"
+              },
+              "options": [
+                {
+                  "en": "From your trades and the products they sell you",
+                  "fa": "از معاملات تو و محصولاتی که به تو می‌فروشند"
+                },
+                {
+                  "en": "From a share of your investment gains only",
+                  "fa": "فقط از سهمی از سود سرمایه‌گذاری تو"
+                },
+                {
+                  "en": "From government grants",
+                  "fa": "از کمک‌های دولتی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p4",
+              "text": {
+                "en": "Full-service advice adds commissions and hidden costs that compound against you. Over decades, a few percent a year can take a large share of your wealth.",
+                "fa": "مشاورهٔ تمام‌خدمت کمیسیون و هزینه‌های پنهانی می‌افزاید که علیه تو مرکب می‌شوند. در طول دهه‌ها، چند درصد در سال می‌تواند سهم بزرگی از ثروتت را ببرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p5",
+              "text": {
+                "en": "Neither is your mutual fund your friend. Fund companies earn fees on assets, so they care more about gathering money than about earning you a return.",
+                "fa": "صندوق مشترکت هم دوست تو نیست. شرکت‌های صندوق از دارایی‌ها کارمزد می‌گیرند، پس بیشتر به جمع کردن پول اهمیت می‌دهند تا به بازده تو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p6",
+              "text": {
+                "en": "Active funds charge high expense ratios and trade a lot, which adds hidden costs. Most of them trail their index after these costs.",
+                "fa": "صندوق‌های فعال نسبت هزینهٔ بالا می‌گیرند و زیاد معامله می‌کنند که هزینهٔ پنهان می‌افزاید. بیشترشان پس از این هزینه‌ها از شاخص خود عقب می‌مانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l2k2",
+              "type": "tf",
+              "source": "b08c2l2p5",
+              "prompt": {
+                "en": "Bernstein says fund companies care most about earning you a high return.",
+                "fa": "Bernstein می‌گوید شرکت‌های صندوق بیش از همه به کسب بازده بالا برای تو اهمیت می‌دهند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p7",
+              "text": {
+                "en": "Bernstein praises Vanguard, whose funds are owned by their own investors, as a rare low-cost exception. That ownership structure removes much of the conflict.",
+                "fa": "Bernstein از Vanguard تمجید می‌کند، که صندوق‌هایش متعلق به سرمایه‌گذاران خودشان است، به‌عنوان استثنای کم‌هزینه‌ای نادر. این ساختار مالکیت بخش بزرگی از تعارض منافع را از بین می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p8",
+              "text": {
+                "en": "Hot funds advertise their past returns and attract money just before they cool. Investors who chase them buy high and earn less than the funds themselves.",
+                "fa": "صندوق‌های داغ بازده گذشته‌شان را تبلیغ می‌کنند و درست پیش از سرد شدن پول جذب می‌کنند. سرمایه‌گذارانی که دنبالشان می‌روند گران می‌خرند و کمتر از خود صندوق‌ها بازده می‌گیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p9",
+              "text": {
+                "en": "The financial press is a business too: it sells attention, not wealth. Bernstein judges most of what it says about investing to be of little or no value to you.",
+                "fa": "مطبوعات مالی هم یک کسب‌وکارند: توجه می‌فروشند، نه ثروت. Bernstein بیشتر آنچه را دربارهٔ سرمایه‌گذاری می‌گویند برای تو کم‌ارزش یا بی‌ارزش می‌داند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l2k3",
+              "type": "tap",
+              "source": "b08c2l2p9",
+              "prompt": {
+                "en": "How does Bernstein judge most of what the financial press says about investing?",
+                "fa": "Bernstein بیشتر آنچه را مطبوعات مالی دربارهٔ سرمایه‌گذاری می‌گویند چگونه ارزیابی می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "As of little or no value",
+                  "fa": "کم‌ارزش یا بی‌ارزش"
+                },
+                {
+                  "en": "As a reliable buy signal",
+                  "fa": "نشانهٔ قابل اتکای خرید"
+                },
+                {
+                  "en": "As expert advice to follow",
+                  "fa": "توصیهٔ کارشناسی که باید دنبالش کرد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p10",
+              "text": {
+                "en": "Forecasts by strategists and newsletters are no better than chance. Bernstein notes that no one can reliably predict where the market will go.",
+                "fa": "پیش‌بینی‌های استراتژیست‌ها و خبرنامه‌ها بهتر از شانس نیستند. Bernstein یادآوری می‌کند که هیچ‌کس نمی‌تواند مسیر بازار را به‌طور قابل اتکا پیش‌بینی کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p11",
+              "text": {
+                "en": "Before you open an account after your BSN, read the broker's fee page: trading fees, currency conversion and custody costs. Low cost is the point.",
+                "fa": "پیش از باز کردن حساب پس از گرفتن BSN، صفحهٔ کارمزد کارگزار را بخوان: کارمزد معامله، تبدیل ارز و هزینهٔ نگهداری. نکتهٔ اصلی هزینهٔ پایین است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p12",
+              "text": {
+                "en": "When you choose an ETF, compare the yearly cost, called the TER, before anything else. A cheap whole-market fund keeps the industry's share of your return small.",
+                "fa": "وقتی ETF انتخاب می‌کنی، پیش از هر چیز هزینهٔ سالانه، یعنی TER، را مقایسه کن. صندوق ارزان کل بازار سهم صنعت از بازده تو را کوچک نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l2k4",
+              "type": "tf",
+              "source": "b08c2l2p12",
+              "prompt": {
+                "en": "When choosing an ETF, compare its yearly cost before anything else.",
+                "fa": "هنگام انتخاب ETF، پیش از هر چیز هزینهٔ سالانه‌اش را مقایسه کن."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l2p13",
+              "text": {
+                "en": "The thread through this pillar: the more someone earns from your money, the more carefully you should weigh their advice. Low cost and few middlemen are the best protection.",
+                "fa": "رشتهٔ اصلی این ستون: هرچه کسی از پول تو بیشتر درآمد داشته باشد، باید توصیه‌اش را با دقت بیشتری بسنجی. هزینهٔ کم و واسطه‌های کم بهترین محافظ‌اند."
+              }
+            }
+          ]
         },
         {
-         "en": "From government grants",
-         "fa": "از کمک‌های دولتی"
+          "id": "b08c2l3",
+          "title": {
+            "en": "Will you have enough? Defining your mix",
+            "fa": "آیا کافی خواهی داشت؟ تعیین ترکیب"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils how Bernstein assembles the pillars: estimating what you need and choosing your mix of stocks and bonds. It turns theory into your actual €40k plan.",
+                "fa": "این درس خلاصه می‌کند Bernstein چگونه ستون‌ها را کنار هم می‌گذارد: برآورد آنچه لازم داری و انتخاب ترکیب سهام و اوراق قرضه. این کار تئوری را به برنامهٔ واقعی ۴۰ هزار یورویی تو تبدیل می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p2",
+              "text": {
+                "en": "Bernstein first asks whether you will have enough: how much you must save and how long the money must last. Your need, not your hope, sets the plan.",
+                "fa": "Bernstein اول می‌پرسد آیا کافی خواهی داشت: چقدر باید پس‌انداز کنی و پول تا کی باید دوام بیاورد. نیاز تو، نه امیدت، برنامه را تعیین می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p3",
+              "text": {
+                "en": "He warns that a retiree can safely spend only a few percent of the portfolio each year. That logic sits behind targets such as 25 times annual expenses.",
+                "fa": "او هشدار می‌دهد که بازنشسته فقط می‌تواند هر سال چند درصد از سبد را با خیال راحت خرج کند. همین منطق پشت هدف‌هایی مثل ۲۵ برابر هزینه‌های سالانه است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l3k1",
+              "type": "tap",
+              "source": "b08c2l3p2",
+              "prompt": {
+                "en": "What sets the plan, according to Bernstein?",
+                "fa": "به گفتهٔ Bernstein، چه چیزی برنامه را تعیین می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Your need, not your hope",
+                  "fa": "نیاز تو، نه امیدت"
+                },
+                {
+                  "en": "Last year's best fund",
+                  "fa": "بهترین صندوق سال گذشته"
+                },
+                {
+                  "en": "Your broker's forecast",
+                  "fa": "پیش‌بینی کارگزارت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p4",
+              "text": {
+                "en": "Asset allocation, the mix of stocks, bonds and cash, decides most of your results. Picking funds within each class matters far less.",
+                "fa": "تخصیص دارایی، یعنی ترکیب سهام، اوراق قرضه و نقد، بیشترِ نتایج تو را تعیین می‌کند. انتخاب صندوق در هر طبقه اهمیت بسیار کمتری دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p5",
+              "text": {
+                "en": "The key question is how much loss you can bear without selling. Bernstein ties your stock share to the worst drop you could tolerate.",
+                "fa": "سؤال کلیدی این است که چقدر زیان را بدون فروختن تحمل می‌کنی. Bernstein سهم سهام تو را به بدترین افتی که می‌توانی تحمل کنی گره می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p6",
+              "text": {
+                "en": "The more loss you can bear, the higher your stock share; the less, the more bonds you need. Many people learn their true tolerance only in a real crash.",
+                "fa": "هرچه زیان بیشتری را تحمل کنی، سهم سهامت بالاتر؛ هرچه کمتر، اوراق قرضهٔ بیشتری لازم داری. بسیاری فقط در یک سقوط واقعی تحمل واقعی‌شان را می‌فهمند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l3k2",
+              "type": "tf",
+              "source": "b08c2l3p6",
+              "prompt": {
+                "en": "According to Bernstein, an investor who can bear only small losses should hold more stocks.",
+                "fa": "به گفتهٔ Bernstein، سرمایه‌گذاری که فقط زیان‌های کوچک را تحمل می‌کند باید سهام بیشتری داشته باشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p7",
+              "text": {
+                "en": "Time horizon matters too: money needed within a few years should not be in stocks. Long-term money can ride out crashes.",
+                "fa": "افق زمانی هم مهم است: پولی که تا چند سال دیگر لازم داری نباید در سهام باشد. پول بلندمدت می‌تواند از سقوط‌ها عبور کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p8",
+              "text": {
+                "en": "Bonds in a portfolio are there for safety, not for return, so Bernstein prefers short-term, high-quality bonds. They tend to hold up when stocks fall.",
+                "fa": "اوراق قرضه در سبد برای امنیت‌اند، نه بازده، پس Bernstein اوراق کوتاه‌مدت و باکیفیت را ترجیح می‌دهد. این اوراق معمولاً وقتی سهام سقوط می‌کند دوام می‌آورند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p9",
+              "text": {
+                "en": "Within stocks, he spreads money across home and foreign markets and adds small and value tilts. Simple versions of his mix need only a few index funds.",
+                "fa": "در بخش سهام، او پول را میان بازارهای داخلی و خارجی پخش می‌کند و کمی به سمت شرکت‌های کوچک و ارزشی متمایل می‌شود. نسخه‌های سادهٔ ترکیب او فقط به چند صندوق شاخصی نیاز دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l3k3",
+              "type": "tap",
+              "source": "b08c2l3p8",
+              "prompt": {
+                "en": "Why does Bernstein hold bonds in a portfolio?",
+                "fa": "چرا Bernstein در سبد اوراق قرضه نگه می‌دارد؟"
+              },
+              "options": [
+                {
+                  "en": "For safety, not for return",
+                  "fa": "برای امنیت، نه بازده"
+                },
+                {
+                  "en": "To beat stocks over the long run",
+                  "fa": "برای شکست دادن سهام در بلندمدت"
+                },
+                {
+                  "en": "To trade them often for profit",
+                  "fa": "برای معاملهٔ مکرر و سود گرفتن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p10",
+              "text": {
+                "en": "Bernstein gives sample portfolios for different investors, from simple to detailed. He stresses that the best mix is one you can hold through bad years.",
+                "fa": "Bernstein برای سرمایه‌گذاران مختلف سبدهای نمونه، از ساده تا مفصل، ارائه می‌دهد. او تأکید می‌کند بهترین ترکیب آن است که بتوانی در سال‌های بد نگهش داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p11",
+              "text": {
+                "en": "In your plan, the 80 percent index core and 20 percent satellite are an allocation decision. Write your stock-and-bond split down before you invest your €40k.",
+                "fa": "در برنامهٔ تو، هستهٔ شاخصی ۸۰ درصدی و ماهوارهٔ ۲۰ درصدی یک تصمیم تخصیص است. پیش از سرمایه‌گذاری ۴۰ هزار یورویت، تقسیم سهام و اوراق را بنویس."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p12",
+              "text": {
+                "en": "Then test it: imagine your portfolio down by a third in one year. If you would sell, your mix is too aggressive for you.",
+                "fa": "بعد آزمایشش کن: تصور کن سبدت در یک سال یک‌سوم افت کند. اگر می‌فروشی، ترکیبت برایت بیش از حد تهاجمی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l3k4",
+              "type": "tf",
+              "source": "b08c2l3p12",
+              "prompt": {
+                "en": "If you would sell after a one-third fall, your mix is too aggressive for you.",
+                "fa": "اگر پس از افت یک‌سومی بفروشی، ترکیبت برایت بیش از حد تهاجمی است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l3p13",
+              "text": {
+                "en": "Bernstein adds that a young saver should welcome falling prices: each new contribution then buys more shares. A long bear market hurts retirees who are spending, not savers who are still buying.",
+                "fa": "Bernstein اضافه می‌کند که پس‌اندازکنندهٔ جوان باید از افت قیمت‌ها استقبال کند: هر واریز تازه سهام بیشتری می‌خرد. بازار نزولی طولانی به بازنشسته‌ای که خرج می‌کند آسیب می‌زند، نه به پس‌اندازکننده‌ای که هنوز می‌خرد."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b08c2l4",
+          "title": {
+            "en": "Getting started and staying the course",
+            "fa": "شروع کردن و در مسیر ماندن"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b08c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the book's final chapters on putting the portfolio in place and keeping it there. It matters because the hardest part of investing is the years after you start.",
+                "fa": "این درس فصل‌های پایانی کتاب را دربارهٔ برپا کردن سبد و نگه داشتن آن خلاصه می‌کند. مهم است چون سخت‌ترین بخش سرمایه‌گذاری سال‌های پس از شروع است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p2",
+              "text": {
+                "en": "Bernstein notes that moving a large sum into stocks at once feels brutal if the market falls next month. He suggests easing in over a period to make it bearable.",
+                "fa": "Bernstein یادآوری می‌کند که بردن یکبارهٔ مبلغی بزرگ به سهام، اگر بازار ماه بعد سقوط کند، بسیار دردناک است. او پیشنهاد می‌کند در یک دوره به‌تدریج وارد شوی تا قابل تحمل باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p3",
+              "text": {
+                "en": "Whichever path you take, decide the schedule in advance and stick to it. A plan you follow beats a better plan you abandon.",
+                "fa": "هر راهی را برگزینی، زمان‌بندی را از پیش تعیین کن و به آن پایبند بمان. برنامه‌ای که دنبالش می‌کنی از برنامهٔ بهتری که رهایش می‌کنی بهتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l4k1",
+              "type": "tf",
+              "source": "b08c2l4p3",
+              "prompt": {
+                "en": "Bernstein says it is fine to change the schedule whenever the news turns bad.",
+                "fa": "Bernstein می‌گوید هر وقت اخبار بد شد، تغییر زمان‌بندی اشکالی ندارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p4",
+              "text": {
+                "en": "Rebalancing brings the mix back to its targets after markets move it. Bernstein suggests doing it on a set schedule and not too often.",
+                "fa": "متوازن‌سازی ترکیب را پس از جابه‌جایی بازار به هدف‌هایش برمی‌گرداند. Bernstein پیشنهاد می‌کند این کار را با برنامه‌ای ثابت و نه خیلی مکرر انجام دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p5",
+              "text": {
+                "en": "Rebalancing forces you to sell what has risen and buy what has fallen. It is a rare rule that makes you buy low and sell high automatically.",
+                "fa": "متوازن‌سازی وادارت می‌کند آنچه بالا رفته را بفروشی و آنچه افتاده را بخری. قاعده‌ای نادر است که خودکار وادارت می‌کند ارزان بخری و گران بفروشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p6",
+              "text": {
+                "en": "It feels wrong, because you buy the asset everyone hates. That discomfort is the point of the rule.",
+                "fa": "حس اشتباه دارد، چون دارایی‌ای را می‌خری که همه از آن متنفرند. همین ناراحتی هدف این قاعده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l4k2",
+              "type": "tap",
+              "source": "b08c2l4p5",
+              "prompt": {
+                "en": "What does rebalancing force you to do?",
+                "fa": "متوازن‌سازی وادارت می‌کند چه کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Sell what has risen and buy what has fallen",
+                  "fa": "آنچه بالا رفته را بفروشی و آنچه افتاده را بخری"
+                },
+                {
+                  "en": "Buy more of whatever rose most",
+                  "fa": "بیشتر از هر چه بیشتر بالا رفته بخری"
+                },
+                {
+                  "en": "Move everything to cash each year",
+                  "fa": "هر سال همه چیز را به نقد تبدیل کنی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p7",
+              "text": {
+                "en": "Taxes matter: Bernstein advises placing tax-inefficient assets in sheltered accounts where possible. Low-turnover index funds also keep taxes down.",
+                "fa": "مالیات مهم است: Bernstein توصیه می‌کند دارایی‌های ناکارآمد از نظر مالیاتی را تا جای ممکن در حساب‌های معاف از مالیات بگذاری. صندوق‌های شاخصی کم‌گردش هم مالیات را پایین نگه می‌دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p8",
+              "text": {
+                "en": "Keep costs low at every step: cheap funds, few trades, no paid forecasts. Every euro saved in fees compounds for you.",
+                "fa": "در هر مرحله هزینه‌ها را پایین نگه دار: صندوق ارزان، معاملهٔ کم، بدون پیش‌بینی پولی. هر یورویی که در کارمزد صرفه‌جویی شود برای تو مرکب می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p9",
+              "text": {
+                "en": "The book's last message is discipline: stay the course through bad years. A good portfolio only works if you are still holding it after the crash.",
+                "fa": "پیام پایانی کتاب انضباط است: در سال‌های بد در مسیر بمان. سبد خوب فقط وقتی کار می‌کند که پس از سقوط هنوز نگهش داشته باشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l4k3",
+              "type": "tap",
+              "source": "b08c2l4p9",
+              "prompt": {
+                "en": "What is the book's last message?",
+                "fa": "پیام پایانی کتاب چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Stay the course through bad years",
+                  "fa": "در سال‌های بد در مسیر بمان"
+                },
+                {
+                  "en": "Sell everything before a crash",
+                  "fa": "پیش از سقوط همه چیز را بفروش"
+                },
+                {
+                  "en": "Switch to the best fund each year",
+                  "fa": "هر سال به بهترین صندوق جابه‌جا شو"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p10",
+              "text": {
+                "en": "The four pillars support each other: theory says what to own, history what to expect, psychology warns you about yourself, and the business pillar guards your costs.",
+                "fa": "چهار ستون از هم پشتیبانی می‌کنند: تئوری می‌گوید چه داشته باشی، تاریخ چه انتظاری داشته باشی، روانشناسی دربارهٔ خودت هشدار می‌دهد و ستون کسب‌وکار از هزینه‌هایت محافظت می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p11",
+              "text": {
+                "en": "For you, keep a quarterly net-worth log and rebalance on a fixed date in your calendar. The log shows progress; the fixed date stops you from tinkering.",
+                "fa": "برای تو: هر فصل ثبت دارایی خالص را نگه دار و در تاریخی ثابت در تقویمت متوازن‌سازی کن. ثبت، پیشرفت را نشان می‌دهد؛ تاریخ ثابت جلوی دستکاری مدام را می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p12",
+              "text": {
+                "en": "With a cheap all-world ETF core, a written mix and a rebalancing date, you have a Bernstein-style portfolio. The rest is reading, sleep and patience.",
+                "fa": "با هسته‌ای از ETF جهانی ارزان، ترکیبی مکتوب و یک تاریخ متوازن‌سازی، سبدی به سبک Bernstein داری. بقیه‌اش مطالعه، خواب و صبر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b08c2l4k4",
+              "type": "tf",
+              "source": "b08c2l4p11",
+              "prompt": {
+                "en": "A fixed rebalancing date in your calendar helps stop you from tinkering.",
+                "fa": "تاریخ ثابت متوازن‌سازی در تقویمت کمک می‌کند جلوی دستکاری مدام را بگیری."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b08c2l4p13",
+              "text": {
+                "en": "Bernstein urges readers to keep learning and recommends books by authors such as John Bogle and Burton Malkiel. Your hour of reading a day keeps the four pillars standing.",
+                "fa": "Bernstein خوانندگان را به ادامهٔ یادگیری تشویق می‌کند و کتاب‌های نویسندگانی مثل John Bogle و Burton Malkiel را توصیه می‌کند. یک ساعت مطالعهٔ روزانه‌ات چهار ستون را سرپا نگه می‌دارد."
+              }
+            }
+          ]
         }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p4",
-       "text": {
-        "en": "Full-service advice adds commissions and hidden costs that compound against you. Over decades, a few percent a year can take a large share of your wealth.",
-        "fa": "مشاورهٔ تمام‌خدمت کمیسیون و هزینه‌های پنهانی می‌افزاید که علیه تو مرکب می‌شوند. در طول دهه‌ها، چند درصد در سال می‌تواند سهم بزرگی از ثروتت را ببرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p5",
-       "text": {
-        "en": "Neither is your mutual fund your friend. Fund companies earn fees on assets, so they care more about gathering money than about earning you a return.",
-        "fa": "صندوق مشترکت هم دوست تو نیست. شرکت‌های صندوق از دارایی‌ها کارمزد می‌گیرند، پس بیشتر به جمع کردن پول اهمیت می‌دهند تا به بازده تو."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p6",
-       "text": {
-        "en": "Active funds charge high expense ratios and trade a lot, which adds hidden costs. Most of them trail their index after these costs.",
-        "fa": "صندوق‌های فعال نسبت هزینهٔ بالا می‌گیرند و زیاد معامله می‌کنند که هزینهٔ پنهان می‌افزاید. بیشترشان پس از این هزینه‌ها از شاخص خود عقب می‌مانند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l2k2",
-       "type": "tf",
-       "source": "b08c2l2p5",
-       "prompt": {
-        "en": "Bernstein says fund companies care most about earning you a high return.",
-        "fa": "Bernstein می‌گوید شرکت‌های صندوق بیش از همه به کسب بازده بالا برای تو اهمیت می‌دهند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p7",
-       "text": {
-        "en": "Bernstein praises Vanguard, whose funds are owned by their own investors, as a rare low-cost exception. That ownership structure removes much of the conflict.",
-        "fa": "Bernstein از Vanguard تمجید می‌کند، که صندوق‌هایش متعلق به سرمایه‌گذاران خودشان است، به‌عنوان استثنای کم‌هزینه‌ای نادر. این ساختار مالکیت بخش بزرگی از تعارض منافع را از بین می‌برد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p8",
-       "text": {
-        "en": "Hot funds advertise their past returns and attract money just before they cool. Investors who chase them buy high and earn less than the funds themselves.",
-        "fa": "صندوق‌های داغ بازده گذشته‌شان را تبلیغ می‌کنند و درست پیش از سرد شدن پول جذب می‌کنند. سرمایه‌گذارانی که دنبالشان می‌روند گران می‌خرند و کمتر از خود صندوق‌ها بازده می‌گیرند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p9",
-       "text": {
-        "en": "The financial press is a business too: it sells attention, not wealth. Bernstein advises treating market news and forecasts as entertainment.",
-        "fa": "مطبوعات مالی هم یک کسب‌وکارند: توجه می‌فروشند، نه ثروت. Bernstein توصیه می‌کند اخبار و پیش‌بینی‌های بازار را سرگرمی بدانی."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l2k3",
-       "type": "tap",
-       "source": "b08c2l2p9",
-       "prompt": {
-        "en": "How does Bernstein advise treating market news and forecasts?",
-        "fa": "Bernstein توصیه می‌کند با اخبار و پیش‌بینی‌های بازار چگونه رفتار کنی؟"
-       },
-       "options": [
-        {
-         "en": "As entertainment",
-         "fa": "به‌عنوان سرگرمی"
-        },
-        {
-         "en": "As a buy signal",
-         "fa": "به‌عنوان نشانهٔ خرید"
-        },
-        {
-         "en": "As expert advice to follow",
-         "fa": "به‌عنوان توصیهٔ کارشناسی که باید دنبالش کرد"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p10",
-       "text": {
-        "en": "Forecasts by strategists and newsletters are no better than chance. Bernstein notes that no one can reliably predict where the market will go.",
-        "fa": "پیش‌بینی‌های استراتژیست‌ها و خبرنامه‌ها بهتر از شانس نیستند. Bernstein یادآوری می‌کند که هیچ‌کس نمی‌تواند مسیر بازار را به‌طور قابل اتکا پیش‌بینی کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p11",
-       "text": {
-        "en": "Before you open an account after your BSN, read the broker's fee page: trading fees, currency conversion and custody costs. Low cost is the point.",
-        "fa": "پیش از باز کردن حساب پس از گرفتن BSN، صفحهٔ کارمزد کارگزار را بخوان: کارمزد معامله، تبدیل ارز و هزینهٔ نگهداری. نکتهٔ اصلی هزینهٔ پایین است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l2p12",
-       "text": {
-        "en": "When you choose an ETF, compare the yearly cost, called the TER, before anything else. A cheap whole-market fund keeps the industry's share of your return small.",
-        "fa": "وقتی ETF انتخاب می‌کنی، پیش از هر چیز هزینهٔ سالانه، یعنی TER، را مقایسه کن. صندوق ارزان کل بازار سهم صنعت از بازده تو را کوچک نگه می‌دارد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l2k4",
-       "type": "tf",
-       "source": "b08c2l2p12",
-       "prompt": {
-        "en": "When choosing an ETF, compare its yearly cost before anything else.",
-        "fa": "هنگام انتخاب ETF، پیش از هر چیز هزینهٔ سالانه‌اش را مقایسه کن."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b08c2l3",
-     "title": {
-      "en": "Will you have enough? Defining your mix",
-      "fa": "آیا کافی خواهی داشت؟ تعیین ترکیب"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c2l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils how Bernstein assembles the pillars: estimating what you need and choosing your mix of stocks and bonds. It turns theory into your actual €40k plan.",
-        "fa": "این درس خلاصه می‌کند Bernstein چگونه ستون‌ها را کنار هم می‌گذارد: برآورد آنچه لازم داری و انتخاب ترکیب سهام و اوراق قرضه. این کار تئوری را به برنامهٔ واقعی ۴۰ هزار یورویی تو تبدیل می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p2",
-       "text": {
-        "en": "Bernstein first asks whether you will have enough: how much you must save and how long the money must last. Your need, not your hope, sets the plan.",
-        "fa": "Bernstein اول می‌پرسد آیا کافی خواهی داشت: چقدر باید پس‌انداز کنی و پول تا کی باید دوام بیاورد. نیاز تو، نه امیدت، برنامه را تعیین می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p3",
-       "text": {
-        "en": "He warns that a retiree can safely spend only a few percent of the portfolio each year. That logic sits behind targets such as 25 times annual expenses.",
-        "fa": "او هشدار می‌دهد که بازنشسته فقط می‌تواند هر سال چند درصد از سبد را با خیال راحت خرج کند. همین منطق پشت هدف‌هایی مثل ۲۵ برابر هزینه‌های سالانه است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l3k1",
-       "type": "tap",
-       "source": "b08c2l3p2",
-       "prompt": {
-        "en": "What sets the plan, according to Bernstein?",
-        "fa": "به گفتهٔ Bernstein، چه چیزی برنامه را تعیین می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "Your need, not your hope",
-         "fa": "نیاز تو، نه امیدت"
-        },
-        {
-         "en": "Last year's best fund",
-         "fa": "بهترین صندوق سال گذشته"
-        },
-        {
-         "en": "Your broker's forecast",
-         "fa": "پیش‌بینی کارگزارت"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p4",
-       "text": {
-        "en": "Asset allocation, the mix of stocks, bonds and cash, decides most of your results. Picking funds within each class matters far less.",
-        "fa": "تخصیص دارایی، یعنی ترکیب سهام، اوراق قرضه و نقد، بیشترِ نتایج تو را تعیین می‌کند. انتخاب صندوق در هر طبقه اهمیت بسیار کمتری دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p5",
-       "text": {
-        "en": "The key question is how much loss you can bear without selling. Bernstein ties your stock share to the worst drop you could tolerate.",
-        "fa": "سؤال کلیدی این است که چقدر زیان را بدون فروختن تحمل می‌کنی. Bernstein سهم سهام تو را به بدترین افتی که می‌توانی تحمل کنی گره می‌زند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p6",
-       "text": {
-        "en": "The more loss you can bear, the higher your stock share; the less, the more bonds you need. Many people learn their true tolerance only in a real crash.",
-        "fa": "هرچه زیان بیشتری را تحمل کنی، سهم سهامت بالاتر؛ هرچه کمتر، اوراق قرضهٔ بیشتری لازم داری. بسیاری فقط در یک سقوط واقعی تحمل واقعی‌شان را می‌فهمند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l3k2",
-       "type": "tf",
-       "source": "b08c2l3p6",
-       "prompt": {
-        "en": "According to Bernstein, an investor who can bear only small losses should hold more stocks.",
-        "fa": "به گفتهٔ Bernstein، سرمایه‌گذاری که فقط زیان‌های کوچک را تحمل می‌کند باید سهام بیشتری داشته باشد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p7",
-       "text": {
-        "en": "Time horizon matters too: money needed within a few years should not be in stocks. Long-term money can ride out crashes.",
-        "fa": "افق زمانی هم مهم است: پولی که تا چند سال دیگر لازم داری نباید در سهام باشد. پول بلندمدت می‌تواند از سقوط‌ها عبور کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p8",
-       "text": {
-        "en": "Bonds in a portfolio are there for safety, not for return, so Bernstein prefers short-term, high-quality bonds. They tend to hold up when stocks fall.",
-        "fa": "اوراق قرضه در سبد برای امنیت‌اند، نه بازده، پس Bernstein اوراق کوتاه‌مدت و باکیفیت را ترجیح می‌دهد. این اوراق معمولاً وقتی سهام سقوط می‌کند دوام می‌آورند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p9",
-       "text": {
-        "en": "Within stocks, he spreads money across home and foreign markets and adds small and value tilts. Simple versions of his mix need only a few index funds.",
-        "fa": "در بخش سهام، او پول را میان بازارهای داخلی و خارجی پخش می‌کند و کمی به سمت شرکت‌های کوچک و ارزشی متمایل می‌شود. نسخه‌های سادهٔ ترکیب او فقط به چند صندوق شاخصی نیاز دارند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l3k3",
-       "type": "tap",
-       "source": "b08c2l3p8",
-       "prompt": {
-        "en": "Why does Bernstein hold bonds in a portfolio?",
-        "fa": "چرا Bernstein در سبد اوراق قرضه نگه می‌دارد؟"
-       },
-       "options": [
-        {
-         "en": "For safety, not for return",
-         "fa": "برای امنیت، نه بازده"
-        },
-        {
-         "en": "To beat stocks over the long run",
-         "fa": "برای شکست دادن سهام در بلندمدت"
-        },
-        {
-         "en": "To trade them often for profit",
-         "fa": "برای معاملهٔ مکرر و سود گرفتن"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p10",
-       "text": {
-        "en": "Bernstein gives sample portfolios for different investors, from simple to detailed. He stresses that the best mix is one you can hold through bad years.",
-        "fa": "Bernstein برای سرمایه‌گذاران مختلف سبدهای نمونه، از ساده تا مفصل، ارائه می‌دهد. او تأکید می‌کند بهترین ترکیب آن است که بتوانی در سال‌های بد نگهش داری."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p11",
-       "text": {
-        "en": "In your plan, the 80 percent index core and 20 percent satellite are an allocation decision. Write your stock-and-bond split down before you invest your €40k.",
-        "fa": "در برنامهٔ تو، هستهٔ شاخصی ۸۰ درصدی و ماهوارهٔ ۲۰ درصدی یک تصمیم تخصیص است. پیش از سرمایه‌گذاری ۴۰ هزار یورویت، تقسیم سهام و اوراق را بنویس."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l3p12",
-       "text": {
-        "en": "Then test it: imagine your portfolio down by a third in one year. If you would sell, your mix is too aggressive for you.",
-        "fa": "بعد آزمایشش کن: تصور کن سبدت در یک سال یک‌سوم افت کند. اگر می‌فروشی، ترکیبت برایت بیش از حد تهاجمی است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l3k4",
-       "type": "tf",
-       "source": "b08c2l3p12",
-       "prompt": {
-        "en": "If you would sell after a one-third fall, your mix is too aggressive for you.",
-        "fa": "اگر پس از افت یک‌سومی بفروشی، ترکیبت برایت بیش از حد تهاجمی است."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b08c2l4",
-     "title": {
-      "en": "Getting started and staying the course",
-      "fa": "شروع کردن و در مسیر ماندن"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b08c2l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the book's final chapters on putting the portfolio in place and keeping it there. It matters because the hardest part of investing is the years after you start.",
-        "fa": "این درس فصل‌های پایانی کتاب را دربارهٔ برپا کردن سبد و نگه داشتن آن خلاصه می‌کند. مهم است چون سخت‌ترین بخش سرمایه‌گذاری سال‌های پس از شروع است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p2",
-       "text": {
-        "en": "Bernstein notes that moving a large sum into stocks at once feels brutal if the market falls next month. He suggests easing in over a period to make it bearable.",
-        "fa": "Bernstein یادآوری می‌کند که بردن یکبارهٔ مبلغی بزرگ به سهام، اگر بازار ماه بعد سقوط کند، بسیار دردناک است. او پیشنهاد می‌کند در یک دوره به‌تدریج وارد شوی تا قابل تحمل باشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p3",
-       "text": {
-        "en": "Whichever path you take, decide the schedule in advance and stick to it. A plan you follow beats a better plan you abandon.",
-        "fa": "هر راهی را برگزینی، زمان‌بندی را از پیش تعیین کن و به آن پایبند بمان. برنامه‌ای که دنبالش می‌کنی از برنامهٔ بهتری که رهایش می‌کنی بهتر است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l4k1",
-       "type": "tf",
-       "source": "b08c2l4p3",
-       "prompt": {
-        "en": "Bernstein says it is fine to change the schedule whenever the news turns bad.",
-        "fa": "Bernstein می‌گوید هر وقت اخبار بد شد، تغییر زمان‌بندی اشکالی ندارد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p4",
-       "text": {
-        "en": "Rebalancing brings the mix back to its targets after markets move it. Bernstein suggests doing it on a set schedule and not too often.",
-        "fa": "متوازن‌سازی ترکیب را پس از جابه‌جایی بازار به هدف‌هایش برمی‌گرداند. Bernstein پیشنهاد می‌کند این کار را با برنامه‌ای ثابت و نه خیلی مکرر انجام دهی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p5",
-       "text": {
-        "en": "Rebalancing forces you to sell what has risen and buy what has fallen. It is a rare rule that makes you buy low and sell high automatically.",
-        "fa": "متوازن‌سازی وادارت می‌کند آنچه بالا رفته را بفروشی و آنچه افتاده را بخری. قاعده‌ای نادر است که خودکار وادارت می‌کند ارزان بخری و گران بفروشی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p6",
-       "text": {
-        "en": "It feels wrong, because you buy the asset everyone hates. That discomfort is the point of the rule.",
-        "fa": "حس اشتباه دارد، چون دارایی‌ای را می‌خری که همه از آن متنفرند. همین ناراحتی هدف این قاعده است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l4k2",
-       "type": "tap",
-       "source": "b08c2l4p5",
-       "prompt": {
-        "en": "What does rebalancing force you to do?",
-        "fa": "متوازن‌سازی وادارت می‌کند چه کنی؟"
-       },
-       "options": [
-        {
-         "en": "Sell what has risen and buy what has fallen",
-         "fa": "آنچه بالا رفته را بفروشی و آنچه افتاده را بخری"
-        },
-        {
-         "en": "Buy more of whatever rose most",
-         "fa": "بیشتر از هر چه بیشتر بالا رفته بخری"
-        },
-        {
-         "en": "Move everything to cash each year",
-         "fa": "هر سال همه چیز را به نقد تبدیل کنی"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p7",
-       "text": {
-        "en": "Taxes matter: Bernstein advises placing tax-inefficient assets in sheltered accounts where possible. Low-turnover index funds also keep taxes down.",
-        "fa": "مالیات مهم است: Bernstein توصیه می‌کند دارایی‌های ناکارآمد از نظر مالیاتی را تا جای ممکن در حساب‌های معاف از مالیات بگذاری. صندوق‌های شاخصی کم‌گردش هم مالیات را پایین نگه می‌دارند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p8",
-       "text": {
-        "en": "Keep costs low at every step: cheap funds, few trades, no paid forecasts. Every euro saved in fees compounds for you.",
-        "fa": "در هر مرحله هزینه‌ها را پایین نگه دار: صندوق ارزان، معاملهٔ کم، بدون پیش‌بینی پولی. هر یورویی که در کارمزد صرفه‌جویی شود برای تو مرکب می‌شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p9",
-       "text": {
-        "en": "The book's last message is discipline: stay the course through bad years. A good portfolio only works if you are still holding it after the crash.",
-        "fa": "پیام پایانی کتاب انضباط است: در سال‌های بد در مسیر بمان. سبد خوب فقط وقتی کار می‌کند که پس از سقوط هنوز نگهش داشته باشی."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l4k3",
-       "type": "tap",
-       "source": "b08c2l4p9",
-       "prompt": {
-        "en": "What is the book's last message?",
-        "fa": "پیام پایانی کتاب چیست؟"
-       },
-       "options": [
-        {
-         "en": "Stay the course through bad years",
-         "fa": "در سال‌های بد در مسیر بمان"
-        },
-        {
-         "en": "Sell everything before a crash",
-         "fa": "پیش از سقوط همه چیز را بفروش"
-        },
-        {
-         "en": "Switch to the best fund each year",
-         "fa": "هر سال به بهترین صندوق جابه‌جا شو"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p10",
-       "text": {
-        "en": "The four pillars support each other: theory says what to own, history what to expect, psychology warns you about yourself, and the business pillar guards your costs.",
-        "fa": "چهار ستون از هم پشتیبانی می‌کنند: تئوری می‌گوید چه داشته باشی، تاریخ چه انتظاری داشته باشی، روانشناسی دربارهٔ خودت هشدار می‌دهد و ستون کسب‌وکار از هزینه‌هایت محافظت می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p11",
-       "text": {
-        "en": "For you, keep a quarterly net-worth log and rebalance on a fixed date in your calendar. The log shows progress; the fixed date stops you from tinkering.",
-        "fa": "برای تو: هر فصل ثبت دارایی خالص را نگه دار و در تاریخی ثابت در تقویمت متوازن‌سازی کن. ثبت، پیشرفت را نشان می‌دهد؛ تاریخ ثابت جلوی دستکاری مدام را می‌گیرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b08c2l4p12",
-       "text": {
-        "en": "With a cheap all-world ETF core, a written mix and a rebalancing date, you have a Bernstein-style portfolio. The rest is reading, sleep and patience.",
-        "fa": "با هسته‌ای از ETF جهانی ارزان، ترکیبی مکتوب و یک تاریخ متوازن‌سازی، سبدی به سبک Bernstein داری. بقیه‌اش مطالعه، خواب و صبر است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b08c2l4k4",
-       "type": "tf",
-       "source": "b08c2l4p11",
-       "prompt": {
-        "en": "A fixed rebalancing date in your calendar helps stop you from tinkering.",
-        "fa": "تاریخ ثابت متوازن‌سازی در تقویمت کمک می‌کند جلوی دستکاری مدام را بگیری."
-       },
-       "answer": true
-      }
-     ]
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
