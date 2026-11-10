@@ -63,6 +63,10 @@ _Avoid_: point, gem, star
 **Fare wording**:
 The second wording every Check carries (`fare`): the same Check asked in other words, shown only in the Fare. Same answer as the prompt.
 
+**Continue**:
+The one-tap way back in: the first Lesson still to play in the Section last played, else the first in Path order. A Lesson is still to play until it is lit or its Fare is passed.
+_Avoid_: resume (resume is the reload that puts the player back inside a Lesson)
+
 **Notes**:
 The player's own page for a book: free text in any language, about 300 words, kept in the browser and in the backup. One page per book.
 _Avoid_: journal (the decision journal is a separate Tool for decisions, not books), summary

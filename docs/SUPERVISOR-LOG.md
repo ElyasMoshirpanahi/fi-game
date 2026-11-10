@@ -171,3 +171,9 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Links to unauthorised full-text copies were removed from the records (147 rows); those rows keep their verdict and say how they were read.
 - Nine books need the owner's eye on edition and `year` (eight taught from a later text, one drawing partly on a later edition); `year` left unchanged. Record: `docs/review/spec6-verification.md`. 413 tests green.
 - Second reader re-opened 36 sources: 25 plain confirmations, 5 thin, 2 not on the page, 2 Cards that went beyond their source, 2 not openable. Four Cards fixed, labels made consistent, the test tightened. 123 verified rows rest on copies that are not linked and cannot be re-checked from the record.
+
+## Spec 7: Continue, search, phone pass (2026-11-11)
+- Continue on the Path follows the Section last played, falls back to Path order, and says so when everything is lit. Search covers Section and Lesson titles and the Cards of loaded books, in English and Farsi.
+- Phone pass at 360 px over 21 screens: no overflow; tap targets raised to 44 px; record in `docs/playtests/phone-pass-360.md`. 460 tests green.
+- Review (Standards + Spec, browser at 360 and 320 px): Continue was scrolled off-screen on load, search missed books downloaded later, Farsi matching was too strict. Fixed with the rest in `docs/review/spec7-ux-code-review.md`. 464 tests green; phone pass 21 of 21 clean.
+- Owner answered decision 42 on Telegram: show the edition year (decision 43). Applied to nine books.
