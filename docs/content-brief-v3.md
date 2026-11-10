@@ -48,7 +48,7 @@ The 20/80 rule: the Circles cover the 20 percent of the book that carries 80 per
 
 ## The player
 
-A software engineer or CTO with Iranian citizenship, about €40k capital, moving to the Netherlands (BSN, then a broker such as Interactive Brokers or DEGIRO). The roadmap: wealth is built by ownership (startup equity with a written cap table and vesting, a small AI product people pay for, first goal €100 of ownership income) and kept with index investing (core-satellite, 80 percent index ETFs such as VWCE / IWDA); target capital 25 times annual expenses; 1 hour of reading a day, a decision journal, a quarterly net-worth log, a mentor, sleep. Use this in framing Points and in a few applied Points per Circle; most Points teach the book.
+A software engineer or CTO with Iranian citizenship, about €40k capital, moving to the Netherlands (BSN, then a broker such as Interactive Brokers or DEGIRO). The roadmap: wealth is built by ownership (startup equity with a written cap table and vesting, a small AI product people pay for, first goal €100 of ownership income) and kept with index investing (core-satellite, 80 percent index ETFs such as VWCE / IWDA); target capital 25 times annual expenses; 1 hour of reading a day, a decision journal, a quarterly net-worth log, a mentor, sleep. Use this in framing Points and in a few applied Points per Circle; most Points teach the book. The player context is for framing only: describe what the roadmap or the book says, never tell the player what to buy, hold, sell or keep doing with a named product (added after the Lessons review).
 
 ## Accuracy and tone
 

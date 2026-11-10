@@ -38,8 +38,8 @@
               "id": "b06c1l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 1, the two big theories of what a share is worth. It matters because every price you see on DEGIRO or Interactive Brokers is set by one of these two ways of thinking.",
-                "fa": "این درس فصل ۱ را خلاصه می‌کند: دو نظریهٔ بزرگ دربارهٔ ارزش یک سهم. مهم است چون هر قیمتی که در DEGIRO یا Interactive Brokers می‌بینی با یکی از این دو طرز فکر ساخته می‌شود."
+                "en": "This Lesson distils chapter 1, the two big theories of what a share is worth. It matters because these two ways of thinking shape how investors judge any price on any broker.",
+                "fa": "این درس فصل ۱ را خلاصه می‌کند: دو نظریهٔ بزرگ دربارهٔ ارزش یک سهم. مهم است چون این دو طرز فکر شکل می‌دهند که سرمایه‌گذاران هر قیمتی را در هر کارگزاری چگونه داوری کنند."
               }
             },
             {
@@ -2427,8 +2427,8 @@
               "kind": "card",
               "id": "b06c3l4p12",
               "text": {
-                "en": "For you, that means a core in VWCE or IWDA through DEGIRO or Interactive Brokers, with any stock picking in a small satellite. Then let compounding run toward 25 times expenses.",
-                "fa": "برای تو یعنی هسته‌ای در VWCE یا IWDA از طریق DEGIRO یا Interactive Brokers و هر سهم‌چینی در یک بخش اقماری کوچک. بعد بگذار رشد مرکب تا ۲۵ برابر هزینه‌ها پیش برود."
+                "en": "The roadmap's core-satellite plan echoes Malkiel: a broad index core, with any stock picking kept to a small satellite. Compounding then does the slow work.",
+                "fa": "طرح core-satellite نقشهٔ راه پژواک Malkiel است: هسته‌ای شاخصی و گسترده، و هر سهم‌چینی در یک بخش اقماری کوچک. بعد رشد مرکب کار آهسته را انجام می‌دهد."
               }
             },
             {

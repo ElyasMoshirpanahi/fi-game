@@ -153,7 +153,7 @@ describe('Rewards on three horizons', () => {
     let s = passStation(engine.initial(), 's6');
     expect(s.farePassed.s6).toBe(true);
     expect(s.lit.s6).toBeUndefined();
-    for (const id of content.readingOrder) for (const u of content.sectionOf(id).units) s = passStation(s, u);
+    for (const id of content.readingOrder) for (const u of content.sectionOf(id).runs) s = passStation(s, u);
     expect(s.lit.s6).toBe(true);
   });
 

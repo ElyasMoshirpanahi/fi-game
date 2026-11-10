@@ -1,1630 +1,1630 @@
 {
- "id": "b25",
- "title": "Antifragile",
- "author": {
-  "en": "Nassim Nicholas Taleb",
-  "fa": "Nassim Nicholas Taleb"
- },
- "year": 2012,
- "stage": 6,
- "must": true,
- "why": {
-  "en": "How to gain from volatility instead of losing",
-  "fa": "چطور از نوسان سود ببری نه ضرر"
- },
- "badge": {
-  "en": "Gain From Disorder",
-  "fa": "سود از بی‌نظمی"
- },
- "tier": "mid",
- "circles": [
-  {
-   "id": "b25c1",
-   "title": {
-    "en": "Gaining from disorder",
-    "fa": "سود بردن از بی‌نظمی"
-   },
-   "lessons": [
-    {
-     "id": "b25c1l1",
-     "title": {
-      "en": "The triad: Damocles, Phoenix and Hydra",
-      "fa": "سه‌گانه: Damocles، Phoenix و Hydra"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c1l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the Prologue and Chapter 1, where Taleb names the antifragile. It matters because a move abroad, a startup and the markets all bring shocks, and you choose how they land.",
-        "fa": "این درس پیش‌گفتار و فصل ۱ را خلاصه می‌کند، جایی که Taleb ضدشکننده را نام‌گذاری می‌کند. مهم است چون مهاجرت، استارتاپ و بازار همه ضربه می‌آورند و تو انتخاب می‌کنی این ضربه‌ها چطور فرود بیایند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p2",
-       "text": {
-        "en": "Some things break under shocks, some resist them, and some get stronger from them. Taleb found no word for the third kind, so he coined one: antifragile.",
-        "fa": "بعضی چیزها زیر ضربه می‌شکنند، بعضی مقاومت می‌کنند و بعضی از آن قوی‌تر می‌شوند. Taleb برای نوع سوم واژه‌ای پیدا نکرد، پس خودش یکی ساخت: ضدشکننده (antifragile)."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l1k1",
-       "type": "tf",
-       "source": "b25c1l1p2",
-       "prompt": {
-        "en": "Taleb borrowed an old, existing word for things that gain from shocks.",
-        "fa": "Taleb برای چیزهایی که از ضربه سود می‌برند یک واژهٔ قدیمی و موجود را به کار برد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p3",
-       "text": {
-        "en": "Antifragile is not the same as resilient or robust. The resilient resists shocks and stays the same; the antifragile gets better.",
-        "fa": "ضدشکننده همان تاب‌آور یا استوار نیست. تاب‌آور در برابر ضربه مقاومت می‌کند و همان می‌ماند؛ ضدشکننده بهتر می‌شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p4",
-       "text": {
-        "en": "A package marked \"handle with care\" is fragile. An antifragile package would be marked \"please mishandle\", because rough treatment would improve it.",
-        "fa": "بسته‌ای که رویش نوشته «با احتیاط حمل شود» شکننده است. بستهٔ ضدشکننده می‌نوشت «لطفاً بد حمل کنید»، چون رفتار خشن بهترش می‌کرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p5",
-       "text": {
-        "en": "Taleb uses Greek myths to name the triad. Damocles, with a sword hanging over him by a single hair, is fragile; the Phoenix, reborn from its own ashes, is robust.",
-        "fa": "Taleb برای نام‌گذاری این سه‌گانه از اسطوره‌های یونانی کمک می‌گیرد. Damocles، با شمشیری که با یک تار مو بالای سرش آویزان است، شکننده است؛ Phoenix که از خاکستر خود دوباره زاده می‌شود، استوار است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l1k2",
-       "type": "tap",
-       "source": "b25c1l1p5",
-       "prompt": {
-        "en": "In Taleb's myths, what does the Phoenix stand for?",
-        "fa": "در اسطوره‌های Taleb، Phoenix نماد چیست؟"
-       },
-       "options": [
-        {
-         "en": "Fragile",
-         "fa": "شکننده"
-        },
-        {
-         "en": "Robust",
-         "fa": "استوار"
-        },
-        {
-         "en": "Antifragile",
-         "fa": "ضدشکننده"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p6",
-       "text": {
-        "en": "The Hydra is antifragile: each time one of its heads is cut off, two grow back. Harm makes it stronger.",
-        "fa": "Hydra ضدشکننده است: هر بار یکی از سرهایش را ببری، دو سر جایش می‌روید. آسیب قوی‌ترش می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p7",
-       "text": {
-        "en": "Antifragility comes from asymmetry. If you have more to gain than to lose from a shock, you like volatility; if you have more to lose, you are fragile.",
-        "fa": "ضدشکنندگی از عدم تقارن می‌آید. اگر از یک ضربه بیشتر سود ببری تا ضرر، نوسان را دوست داری؛ اگر بیشتر ضرر کنی، شکننده‌ای."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l1k3",
-       "type": "tap",
-       "source": "b25c1l1p6",
-       "prompt": {
-        "en": "Which myth stands for the antifragile?",
-        "fa": "کدام اسطوره نماد ضدشکننده است؟"
-       },
-       "options": [
-        {
-         "en": "Damocles",
-         "fa": "Damocles"
-        },
-        {
-         "en": "The Phoenix",
-         "fa": "Phoenix"
-        },
-        {
-         "en": "The Hydra",
-         "fa": "Hydra"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p8",
-       "text": {
-        "en": "Fragility is easier to see than risk. You cannot predict the next shock, but you can tell whether something is hurt more than helped by shocks.",
-        "fa": "شکنندگی را راحت‌تر از ریسک می‌شود دید. ضربهٔ بعدی را نمی‌توانی پیش‌بینی کنی، اما می‌توانی بفهمی چیزی از ضربه‌ها بیشتر آسیب می‌بیند یا سود می‌برد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p9",
-       "text": {
-        "en": "A hotel guest has a porter carry his bags, then goes to the gym to lift weights. Taleb calls this domain dependence: we seek stressors in one context and avoid them in another.",
-        "fa": "مهمان هتل چمدانش را به باربر می‌دهد، بعد به باشگاه می‌رود تا وزنه بزند. Taleb این را وابستگی به حوزه می‌نامد: در یک موقعیت دنبال فشار می‌گردیم و در موقعیت دیگر از آن فرار می‌کنیم."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p10",
-       "text": {
-        "en": "Much of modern life tries to remove all stress, discomfort and randomness. Taleb argues this makes people, companies and economies more fragile, not safer.",
-        "fa": "بخش بزرگی از زندگی مدرن می‌کوشد همهٔ استرس، ناراحتی و تصادف را حذف کند. Taleb استدلال می‌کند این کار آدم‌ها، شرکت‌ها و اقتصادها را شکننده‌تر می‌کند، نه امن‌تر."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l1k4",
-       "type": "tap",
-       "source": "b25c1l1p10",
-       "prompt": {
-        "en": "What does removing all stress and randomness do, according to Taleb?",
-        "fa": "به گفتهٔ Taleb، حذف همهٔ استرس و تصادف چه می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "More fragile, not safer",
-         "fa": "شکننده‌ترشان می‌کند، نه امن‌تر"
-        },
-        {
-         "en": "Safer, with fewer shocks",
-         "fa": "امن‌ترشان می‌کند، با ضربه‌های کمتر"
-        },
-        {
-         "en": "Exactly as strong as before",
-         "fa": "دقیقاً به همان قوت قبل نگهشان می‌دارد"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p11",
-       "text": {
-        "en": "Antifragile things need some volatility to stay strong, the way muscles need load. Deprive them of it and they weaken.",
-        "fa": "چیزهای ضدشکننده برای قوی ماندن به کمی نوسان نیاز دارند، همان‌طور که عضله به بار نیاز دارد. از آن محرومشان کنی، ضعیف می‌شوند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l1p12",
-       "text": {
-        "en": "So the question is not how to avoid every shock in your move to the Netherlands. It is how to set up your money, career and habits so that shocks help more than they hurt.",
-        "fa": "پس سؤال این نیست که چطور در مهاجرت به هلند از هر ضربه‌ای فرار کنی. سؤال این است که پول، شغل و عادت‌هایت را چطور بچینی تا ضربه‌ها بیشتر کمکت کنند تا آسیب."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l1k5",
-       "type": "tf",
-       "source": "b25c1l1p12",
-       "prompt": {
-        "en": "The goal is to arrange your money, career and habits so shocks help more than they hurt.",
-        "fa": "هدف این است که پول، شغل و عادت‌هایت را طوری بچینی که ضربه‌ها بیشتر کمک کنند تا آسیب."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b25c1l2",
-     "title": {
-      "en": "Hormesis: small stressors make you stronger",
-      "fa": "Hormesis: فشارهای کوچک قوی‌ترت می‌کنند"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c1l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Chapters 2 to 4 on overcompensation, hormesis and how systems learn from errors. It matters because your body, skills and startup all grow from doses of stress you can recover from.",
-        "fa": "این درس فصل‌های ۲ تا ۴ را دربارهٔ جبرانِ بیش‌ازحد، hormesis و یادگیری سیستم‌ها از خطا خلاصه می‌کند. مهم است چون بدن، مهارت‌ها و استارتاپت همه از دوزهایی از استرس رشد می‌کنند که بتوانی از آن‌ها بهبود یابی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p2",
-       "text": {
-        "en": "King Mithridates of Pontus feared being poisoned, so he took small doses of poison to build tolerance. Taleb uses the story to show hormesis: small doses of harm can make you stronger.",
-        "fa": "Mithridates، پادشاه Pontus، از مسموم شدن می‌ترسید، پس دوزهای کوچک سم می‌خورد تا تحمل بسازد. Taleb با این داستان hormesis را نشان می‌دهد: دوزهای کوچک آسیب می‌توانند قوی‌ترت کنند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l2k1",
-       "type": "tap",
-       "source": "b25c1l2p2",
-       "prompt": {
-        "en": "What is hormesis?",
-        "fa": "hormesis چیست؟"
-       },
-       "options": [
-        {
-         "en": "Small doses of harm can make you stronger",
-         "fa": "دوزهای کوچک آسیب می‌توانند قوی‌ترت کنند"
-        },
-        {
-         "en": "Avoiding every harmful thing completely",
-         "fa": "پرهیز کامل از هر چیز آسیب‌زا"
-        },
-        {
-         "en": "Taking a large dose of medicine at once",
-         "fa": "خوردن یک‌بارهٔ دوز بزرگ دارو"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p3",
-       "text": {
-        "en": "Living systems overcompensate. Stress a bone and it grows denser; lift a heavy load and the muscle rebuilds stronger than before.",
-        "fa": "سیستم‌های زنده بیش از حد جبران می‌کنند. به استخوان فشار بیاور، متراکم‌تر می‌شود؛ بار سنگین بلند کن، عضله قوی‌تر از قبل بازسازی می‌شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p4",
-       "text": {
-        "en": "The key is dose and recovery. Short, sharp stressors followed by rest strengthen you; chronic stress with no recovery wears you down.",
-        "fa": "کلید، دوز و بهبودی است. فشارهای کوتاه و تند همراه با استراحت قوی‌ترت می‌کنند؛ استرس مزمن بدون بهبودی فرسوده‌ات می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p5",
-       "text": {
-        "en": "Redundancy is a form of overcompensation. The body keeps two kidneys and spare capacity, which looks wasteful until a shock arrives.",
-        "fa": "افزونگی نوعی جبرانِ بیش‌ازحد است. بدن دو کلیه و ظرفیت اضافه نگه می‌دارد که تا وقتی ضربه‌ای نرسیده، اسراف به نظر می‌آید."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l2k2",
-       "type": "tf",
-       "source": "b25c1l2p4",
-       "prompt": {
-        "en": "Taleb says chronic stress with no recovery makes you stronger.",
-        "fa": "Taleb می‌گوید استرس مزمن بدون بهبودی قوی‌ترت می‌کند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p6",
-       "text": {
-        "en": "Taleb contrasts the cat and the washing machine. A machine wears out with use, but an organism like a cat needs use and stress to stay healthy.",
-        "fa": "Taleb گربه را با ماشین لباسشویی مقایسه می‌کند. ماشین با استفاده فرسوده می‌شود، اما موجود زنده‌ای مثل گربه برای سالم ماندن به استفاده و فشار نیاز دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p7",
-       "text": {
-        "en": "Deprive organic things of stressors and they weaken, the way a muscle wastes inside a plaster cast. Too much comfort is its own kind of harm.",
-        "fa": "موجودات زنده را از فشار محروم کنی، ضعیف می‌شوند، همان‌طور که عضله درون گچ تحلیل می‌رود. راحتی بیش از حد خودش نوعی آسیب است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l2k3",
-       "type": "tap",
-       "source": "b25c1l2p6",
-       "prompt": {
-        "en": "In the cat and washing machine contrast, what does an organism need to stay healthy?",
-        "fa": "در مقایسهٔ گربه و ماشین لباسشویی، موجود زنده برای سالم ماندن به چه نیاز دارد؟"
-       },
-       "options": [
-        {
-         "en": "Complete rest",
-         "fa": "استراحت کامل"
-        },
-        {
-         "en": "Careful protection",
-         "fa": "محافظت دقیق"
-        },
-        {
-         "en": "Use and stress",
-         "fa": "استفاده و فشار"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p8",
-       "text": {
-        "en": "Some systems are antifragile because their parts are fragile. Each failed restaurant teaches the industry something, so the restaurant scene as a whole keeps improving.",
-        "fa": "بعضی سیستم‌ها ضدشکننده‌اند چون اجزایشان شکننده‌اند. هر رستوران ورشکسته چیزی به این صنعت یاد می‌دهد، پس صنعت رستوران در کل مدام بهتر می‌شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p9",
-       "text": {
-        "en": "Air travel works the same way: every crash is studied, and the lesson makes the next flight safer. Small, informative errors strengthen the whole system.",
-        "fa": "سفر هوایی هم همین‌طور است: هر سانحه بررسی می‌شود و درسش پرواز بعدی را امن‌تر می‌کند. خطاهای کوچک و آموزنده کل سیستم را قوی‌تر می‌کنند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p10",
-       "text": {
-        "en": "Taleb honours failed entrepreneurs, because their failures make the economy stronger. He even proposes a National Entrepreneur Day to thank them.",
-        "fa": "Taleb از کارآفرینان شکست‌خورده تجلیل می‌کند، چون شکست‌هایشان اقتصاد را قوی‌تر می‌کند. حتی پیشنهاد یک «روز ملی کارآفرین» را می‌دهد تا از آن‌ها قدردانی شود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l2k4",
-       "type": "tf",
-       "source": "b25c1l2p8",
-       "prompt": {
-        "en": "In Taleb's view, each failed restaurant makes the restaurant industry weaker.",
-        "fa": "از دید Taleb، هر رستوران ورشکسته صنعت رستوران را ضعیف‌تر می‌کند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p11",
-       "text": {
-        "en": "Hormesis for you: a hard workout, a tough code review, or shipping a small product that customers can reject. Each is a dose you recover from, so it builds strength.",
-        "fa": "hormesis برای تو: یک تمرین سخت، یک code review سخت‌گیرانه، یا عرضهٔ محصولی کوچک که مشتری می‌تواند ردش کند. هر کدام دوزی است که از آن بهبود می‌یابی، پس قدرت می‌سازد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l2p12",
-       "text": {
-        "en": "Sleep is the recovery half of hormesis. Without it, the same stressors that should build you up simply wear you down.",
-        "fa": "خواب نیمهٔ بهبودیِ hormesis است. بدون آن، همان فشارهایی که باید تو را بسازند فقط فرسوده‌ات می‌کنند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l2k5",
-       "type": "tap",
-       "source": "b25c1l2p12",
-       "prompt": {
-        "en": "Which half of hormesis does sleep provide?",
-        "fa": "خواب کدام نیمهٔ hormesis را فراهم می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "The stressor",
-         "fa": "فشار"
-        },
-        {
-         "en": "The recovery",
-         "fa": "بهبودی"
-        },
-        {
-         "en": "The poison",
-         "fa": "سم"
-        }
-       ],
-       "answer": 1
-      }
-     ]
-    },
-    {
-     "id": "b25c1l3",
-     "title": {
-      "en": "The turkey and hidden fragility",
-      "fa": "بوقلمون و شکنندگی پنهان"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c1l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Chapters 5 and 6: the turkey, the two brothers and why suppressing volatility backfires. It matters because a steady salary or a calm market can hide the biggest risk you carry.",
-        "fa": "این درس فصل‌های ۵ و ۶ را خلاصه می‌کند: بوقلمون، دو برادر و اینکه چرا سرکوب نوسان نتیجهٔ معکوس دارد. مهم است چون یک حقوق ثابت یا بازاری آرام می‌تواند بزرگ‌ترین ریسکت را پنهان کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p2",
-       "text": {
-        "en": "A turkey is fed every day for a thousand days by a butcher. Each meal raises its confidence that humans love turkeys, until the Wednesday before Thanksgiving.",
-        "fa": "قصابی بوقلمونی را هزار روز هر روز غذا می‌دهد. هر وعده اطمینان بوقلمون را بیشتر می‌کند که آدم‌ها بوقلمون را دوست دارند، تا چهارشنبهٔ پیش از Thanksgiving."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p3",
-       "text": {
-        "en": "The turkey problem: the absence of harm in the past is not evidence of safety. The turkey's confidence was highest exactly when its risk was greatest.",
-        "fa": "مسئلهٔ بوقلمون: نبودِ آسیب در گذشته دلیل امنیت نیست. اطمینان بوقلمون درست وقتی در اوج بود که ریسکش از همیشه بیشتر بود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l3k1",
-       "type": "tf",
-       "source": "b25c1l3p3",
-       "prompt": {
-        "en": "For the turkey, a thousand calm days proved it was safe.",
-        "fa": "برای بوقلمون، هزار روز آرام ثابت کرد که در امان است."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p4",
-       "text": {
-        "en": "Taleb compares two brothers. John works in a large bank with a steady salary; George is a taxi driver whose income swings from day to day.",
-        "fa": "Taleb دو برادر را مقایسه می‌کند. John در یک بانک بزرگ با حقوق ثابت کار می‌کند؛ George راننده تاکسی است و درآمدش روزبه‌روز بالا و پایین می‌رود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p5",
-       "text": {
-        "en": "George looks riskier, but his small daily swings carry information and he can adapt. John can lose all his income in one phone call from HR.",
-        "fa": "George پرریسک‌تر به نظر می‌رسد، اما نوسان‌های کوچک روزانه‌اش اطلاعات دارند و می‌تواند خودش را وفق دهد. John با یک تماس تلفنی از HR می‌تواند همهٔ درآمدش را از دست بدهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p6",
-       "text": {
-        "en": "A steady income without variation can be the more fragile setup. A little visible volatility often signals less hidden risk.",
-        "fa": "درآمد ثابت و بی‌نوسان می‌تواند چیدمان شکننده‌تری باشد. کمی نوسان آشکار اغلب نشانهٔ ریسک پنهان کمتر است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l3k2",
-       "type": "tap",
-       "source": "b25c1l3p5",
-       "prompt": {
-        "en": "Which brother can lose all his income in one phone call?",
-        "fa": "کدام برادر می‌تواند با یک تماس تلفنی همهٔ درآمدش را از دست بدهد؟"
-       },
-       "options": [
-        {
-         "en": "George",
-         "fa": "George"
-        },
-        {
-         "en": "John",
-         "fa": "John"
-        },
-        {
-         "en": "Both equally",
-         "fa": "هر دو به یک اندازه"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p7",
-       "text": {
-        "en": "Suppressing every small forest fire lets dry wood pile up, so the eventual fire is catastrophic. Taleb applies this to Alan Greenspan's effort to iron out the boom and bust cycle.",
-        "fa": "سرکوب هر آتش‌سوزی کوچک در جنگل باعث انباشت چوب خشک می‌شود و آتش نهایی فاجعه‌بار است. Taleb همین را دربارهٔ تلاش Alan Greenspan برای صاف کردن چرخهٔ رونق و رکود به کار می‌برد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l3k3",
-       "type": "tf",
-       "source": "b25c1l3p7",
-       "prompt": {
-        "en": "Suppressing every small forest fire makes the forest safer in the long run.",
-        "fa": "سرکوب هر آتش‌سوزی کوچک، جنگل را در بلندمدت امن‌تر می‌کند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p8",
-       "text": {
-        "en": "Switzerland, Taleb notes, is run largely from the bottom up by its cantons. Its local, noisy politics help keep the whole country stable.",
-        "fa": "به گفتهٔ Taleb، سوئیس عمدتاً از پایین به بالا و توسط کانتون‌هایش اداره می‌شود. سیاست محلی و پرسروصدایش به ثبات کل کشور کمک می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p9",
-       "text": {
-        "en": "Small, decentralized units absorb shocks locally. Large, centralized systems look calm until a single error spreads everywhere.",
-        "fa": "واحدهای کوچک و غیرمتمرکز ضربه‌ها را محلی جذب می‌کنند. سیستم‌های بزرگ و متمرکز آرام به نظر می‌رسند تا وقتی یک خطای واحد همه‌جا پخش شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p10",
-       "text": {
-        "en": "Chapter 6 shows randomness can help. Buridan's donkey, equally hungry and thirsty, starves between food and water unless a random nudge pushes it to one side.",
-        "fa": "فصل ۶ نشان می‌دهد تصادف می‌تواند کمک کند. الاغ Buridan که به یک اندازه گرسنه و تشنه است، میان غذا و آب از گرسنگی می‌میرد مگر اینکه تلنگری تصادفی او را به یک سو هل دهد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l3k4",
-       "type": "tap",
-       "source": "b25c1l3p9",
-       "prompt": {
-        "en": "Which systems look calm until a single error spreads everywhere?",
-        "fa": "کدام سیستم‌ها آرام به نظر می‌رسند تا وقتی یک خطای واحد همه‌جا پخش شود؟"
-       },
-       "options": [
-        {
-         "en": "Large, centralized systems",
-         "fa": "سیستم‌های بزرگ و متمرکز"
-        },
-        {
-         "en": "Small, local units",
-         "fa": "واحدهای کوچک و محلی"
-        },
-        {
-         "en": "Bottom-up cantons",
-         "fa": "کانتون‌های پایین به بالا"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p11",
-       "text": {
-        "en": "Black Swans are rare, high-impact events that the past does not predict. Systems that suppress small variations are the most exposed to them.",
-        "fa": "قوهای سیاه (Black Swan) رویدادهای نادر و پراثری‌اند که گذشته پیش‌بینی‌شان نمی‌کند. سیستم‌هایی که نوسان‌های کوچک را سرکوب می‌کنند بیش از همه در معرض آن‌ها هستند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l3p12",
-       "text": {
-        "en": "A job contract feels like John's salary. Owning a small product with paying customers adds George's small, informative swings to your income.",
-        "fa": "قرارداد کاری شبیه حقوق John است. مالکیت محصولی کوچک با مشتریان پرداخت‌کننده، نوسان‌های کوچک و آموزندهٔ George را به درآمدت اضافه می‌کند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l3k5",
-       "type": "tf",
-       "source": "b25c1l3p12",
-       "prompt": {
-        "en": "Owning a small product with paying customers adds George's informative swings to your income.",
-        "fa": "مالکیت محصولی کوچک با مشتریان پرداخت‌کننده، نوسان‌های آموزندهٔ George را به درآمدت اضافه می‌کند."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b25c1l4",
-     "title": {
-      "en": "Iatrogenics: the harm of the helper",
-      "fa": "Iatrogenics: آسیبِ درمانگر"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c1l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Chapter 7 on naive intervention and the fragilistas of Book III. It matters because checking your portfolio daily or reorganising your startup weekly can do more harm than good.",
-        "fa": "این درس فصل ۷ دربارهٔ مداخلهٔ ساده‌لوحانه و fragilistaهای بخش سوم را خلاصه می‌کند. مهم است چون چک کردن روزانهٔ سبد سرمایه یا بازسازی هفتگی استارتاپ می‌تواند بیشتر ضرر بزند تا سود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p2",
-       "text": {
-        "en": "Iatrogenics means harm caused by the healer. In medicine, a treatment can do more damage than the illness it was meant to cure.",
-        "fa": "Iatrogenics یعنی آسیبی که درمانگر ایجاد می‌کند. در پزشکی، یک درمان می‌تواند از خود بیماری‌ای که قرار بود درمانش کند آسیب بیشتری بزند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l4k1",
-       "type": "tap",
-       "source": "b25c1l4p2",
-       "prompt": {
-        "en": "What does iatrogenics mean?",
-        "fa": "iatrogenics یعنی چه؟"
-       },
-       "options": [
-        {
-         "en": "Harm caused by the healer",
-         "fa": "آسیبی که درمانگر ایجاد می‌کند"
-        },
-        {
-         "en": "A cure for every illness",
-         "fa": "درمانی برای هر بیماری"
-        },
-        {
-         "en": "Harm caused by bad luck",
-         "fa": "آسیبی که بدشانسی ایجاد می‌کند"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p3",
-       "text": {
-        "en": "Taleb extends the idea beyond medicine to economic policy, planning and management. Every intervention has hidden costs as well as visible benefits.",
-        "fa": "Taleb این ایده را از پزشکی فراتر می‌برد و به سیاست اقتصادی، برنامه‌ریزی و مدیریت می‌رساند. هر مداخله در کنار فایده‌های آشکار، هزینه‌های پنهان هم دارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p4",
-       "text": {
-        "en": "A fragilista is Taleb's name for someone who makes things fragile by trying to control them. He mistakes the unknown for the nonexistent and intervenes where he does not understand.",
-        "fa": "fragilista نامی است که Taleb به کسی می‌دهد که با تلاش برای کنترل، چیزها را شکننده می‌کند. ناشناخته را با ناموجود اشتباه می‌گیرد و جایی دخالت می‌کند که آن را نمی‌فهمد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p5",
-       "text": {
-        "en": "Taleb is not against all intervention. He wants it where the benefits are large and clear, as in an emergency, and restraint where they are small or unclear.",
-        "fa": "Taleb مخالف هر مداخله‌ای نیست. آن را جایی می‌خواهد که فایده‌ها بزرگ و روشن‌اند، مثل وضعیت اضطراری، و خودداری را جایی که کوچک یا نامعلوم‌اند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l4k2",
-       "type": "tf",
-       "source": "b25c1l4p5",
-       "prompt": {
-        "en": "Taleb argues against every kind of intervention.",
-        "fa": "Taleb با هر نوع مداخله‌ای مخالفت می‌کند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p6",
-       "text": {
-        "en": "Procrastination can be a natural defence. Waiting lets some problems solve themselves and filters out actions that were never needed.",
-        "fa": "تعلل می‌تواند یک دفاع طبیعی باشد. صبر کردن اجازه می‌دهد برخی مشکلات خودبه‌خود حل شوند و کارهایی را که هرگز لازم نبودند غربال می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p7",
-       "text": {
-        "en": "More data brings more noise. Look at a market daily and most of what you see is noise; look yearly and more of it is signal.",
-        "fa": "دادهٔ بیشتر نویز بیشتری می‌آورد. بازار را روزانه نگاه کنی، بیشتر چیزی که می‌بینی نویز است؛ سالانه نگاه کنی، سهم بیشتری از آن سیگنال است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l4k3",
-       "type": "tap",
-       "source": "b25c1l4p7",
-       "prompt": {
-        "en": "If you look at a market daily, what do you mostly see?",
-        "fa": "اگر بازار را روزانه نگاه کنی، بیشتر چه می‌بینی؟"
-       },
-       "options": [
-        {
-         "en": "A clear signal",
-         "fa": "سیگنالی روشن"
-        },
-        {
-         "en": "Noise",
-         "fa": "نویز"
-        },
-        {
-         "en": "A guaranteed trend",
-         "fa": "روندی تضمین‌شده"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p8",
-       "text": {
-        "en": "Reacting to noise causes overreaction and needless action. Someone who checks prices every hour is more likely to trade on randomness.",
-        "fa": "واکنش به نویز به واکنش افراطی و کارهای بی‌مورد می‌انجامد. کسی که هر ساعت قیمت‌ها را چک می‌کند بیشتر احتمال دارد بر اساس تصادف معامله کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p9",
-       "text": {
-        "en": "Book III calls prediction a child of modernity. Forecasters and planners rarely pay for being wrong, so their errors keep fragilizing the systems they run.",
-        "fa": "بخش سوم پیش‌بینی را فرزند مدرنیته می‌نامد. پیش‌بینان و برنامه‌ریزان به‌ندرت تاوان اشتباهشان را می‌دهند، پس خطاهایشان مدام سیستم‌هایی را که اداره می‌کنند شکننده‌تر می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p10",
-       "text": {
-        "en": "Taleb's character Fat Tony, a street-smart trader, ignores forecasts and spots who is fragile instead. He bets against the fragilistas and profits when their systems break.",
-        "fa": "شخصیت Fat Tony در کتاب Taleb، معامله‌گری زیرک و کوچه‌بازاری، پیش‌بینی‌ها را نادیده می‌گیرد و به‌جایش شکننده‌ها را پیدا می‌کند. علیه fragilistaها شرط می‌بندد و وقتی سیستمشان می‌شکند سود می‌برد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l4k4",
-       "type": "tf",
-       "source": "b25c1l4p10",
-       "prompt": {
-        "en": "Fat Tony profits by trusting the forecasters' predictions.",
-        "fa": "Fat Tony با اعتماد به پیش‌بینی‌های پیش‌بینان سود می‌برد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p11",
-       "text": {
-        "en": "For an index portfolio, the least harmful habit is often to look rarely. A quarterly net-worth log gives signal; a broker app checked daily mostly gives noise.",
-        "fa": "برای سبد ETF شاخصی، کم‌ضررترین عادت اغلب کم نگاه کردن است. ثبت فصلی دارایی خالص سیگنال می‌دهد؛ اپ کارگزاری که روزانه چک شود بیشتر نویز می‌دهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c1l4p12",
-       "text": {
-        "en": "Before you intervene, ask whether doing nothing is safer. If the benefit is small and uncertain, the hidden harm of acting may be larger.",
-        "fa": "پیش از مداخله بپرس آیا هیچ کاری نکردن امن‌تر است. اگر فایده کوچک و نامطمئن باشد، آسیب پنهانِ اقدام ممکن است بزرگ‌تر باشد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c1l4k5",
-       "type": "tap",
-       "source": "b25c1l4p12",
-       "prompt": {
-        "en": "When is doing nothing likely to be safer than intervening?",
-        "fa": "چه وقت هیچ کاری نکردن احتمالاً از مداخله امن‌تر است؟"
-       },
-       "options": [
-        {
-         "en": "If the benefit is small and uncertain",
-         "fa": "اگر فایده کوچک و نامطمئن باشد"
-        },
-        {
-         "en": "If the problem is an emergency",
-         "fa": "اگر مشکل اضطراری باشد"
-        },
-        {
-         "en": "If the benefit is large and clear",
-         "fa": "اگر فایده بزرگ و روشن باشد"
-        }
-       ],
-       "answer": 0
-      }
-     ]
-    }
-   ]
+  "id": "b25",
+  "title": "Antifragile",
+  "author": {
+    "en": "Nassim Nicholas Taleb",
+    "fa": "Nassim Nicholas Taleb"
   },
-  {
-   "id": "b25c2",
-   "title": {
-    "en": "Living antifragile: barbell, options, subtraction, skin",
-    "fa": "زندگی ضدشکننده: هالتر، اختیار، حذف، پوست در بازی"
-   },
-   "lessons": [
+  "year": 2012,
+  "stage": 6,
+  "must": true,
+  "why": {
+    "en": "How to gain from volatility instead of losing",
+    "fa": "چطور از نوسان سود ببری نه ضرر"
+  },
+  "badge": {
+    "en": "Gain From Disorder",
+    "fa": "سود از بی‌نظمی"
+  },
+  "tier": "mid",
+  "circles": [
     {
-     "id": "b25c2l1",
-     "title": {
-      "en": "The barbell strategy",
-      "fa": "استراتژی هالتر (barbell)"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c2l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Chapters 10 and 11 on Seneca and the barbell strategy. It matters because how you split €40k between safety and bets decides whether a shock can ruin you.",
-        "fa": "این درس فصل‌های ۱۰ و ۱۱ دربارهٔ Seneca و استراتژی هالتر را خلاصه می‌کند. مهم است چون نحوهٔ تقسیم ۴۰ هزار یورو میان امنیت و شرط‌ها تعیین می‌کند که آیا یک ضربه می‌تواند نابودت کند یا نه."
-       }
+      "id": "b25c1",
+      "title": {
+        "en": "Gaining from disorder",
+        "fa": "سود بردن از بی‌نظمی"
       },
-      {
-       "kind": "card",
-       "id": "b25c2l1p2",
-       "text": {
-        "en": "Seneca, one of the richest men in Rome, used Stoicism to shrink the emotional downside of losing his wealth. He kept the upside of fortune while training himself not to fear its loss.",
-        "fa": "Seneca، یکی از ثروتمندترین مردان روم، با رواقی‌گری زیان عاطفیِ از دست دادن ثروتش را کوچک کرد. سود بخت را نگه داشت و خود را تمرین داد که از فقدانش نترسد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l1k1",
-       "type": "tf",
-       "source": "b25c2l1p2",
-       "prompt": {
-        "en": "Taleb reads Seneca's Stoicism as a way to keep the upside of fortune while shrinking the downside.",
-        "fa": "Taleb رواقی‌گری Seneca را راهی می‌بیند برای نگه داشتن سود بخت و کوچک کردن زیانش."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p3",
-       "text": {
-        "en": "Taleb's barbell: put most of your exposure in something extremely safe and a small part in something extremely speculative. Avoid the middle.",
-        "fa": "هالتر Taleb: بیشتر سرمایه‌ات را در چیزی به‌شدت امن بگذار و بخش کوچکی را در چیزی به‌شدت سفته‌بازانه. از میانه دوری کن."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p4",
-       "text": {
-        "en": "With money, that might be 90 percent in the safest assets and 10 percent in high-risk bets. Your worst case is capped at losing the 10 percent, while the upside stays open.",
-        "fa": "در پول، این می‌تواند ۹۰ درصد در امن‌ترین دارایی‌ها و ۱۰ درصد در شرط‌های پرریسک باشد. بدترین حالتت به از دست دادن همان ۱۰ درصد محدود است، در حالی که سود باز می‌ماند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p5",
-       "text": {
-        "en": "The middle is dangerous because medium-risk bets often hide large, mismeasured risks. Taleb prefers knowing exactly what you can lose.",
-        "fa": "میانه خطرناک است چون شرط‌های با ریسک متوسط اغلب ریسک‌های بزرگ و بد اندازه‌گیری‌شده را پنهان می‌کنند. Taleb ترجیح می‌دهد دقیقاً بدانی چه چیزی را می‌توانی از دست بدهی."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l1k2",
-       "type": "tap",
-       "source": "b25c2l1p4",
-       "prompt": {
-        "en": "In the 90/10 barbell, what is your worst case capped at?",
-        "fa": "در هالتر ۹۰/۱۰، بدترین حالتت به چه محدود است؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "Losing the 10 percent",
-         "fa": "از دست دادن همان ۱۰ درصد"
+          "id": "b25c1l1",
+          "title": {
+            "en": "The triad: Damocles, Phoenix and Hydra",
+            "fa": "سه‌گانه: Damocles، Phoenix و Hydra"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the Prologue and Chapter 1, where Taleb names the antifragile. It matters because a move abroad, a startup and the markets all bring shocks, and you choose how they land.",
+                "fa": "این درس پیش‌گفتار و فصل ۱ را خلاصه می‌کند، جایی که Taleb ضدشکننده را نام‌گذاری می‌کند. مهم است چون مهاجرت، استارتاپ و بازار همه ضربه می‌آورند و تو انتخاب می‌کنی این ضربه‌ها چطور فرود بیایند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p2",
+              "text": {
+                "en": "Some things break under shocks, some resist them, and some get stronger from them. Taleb found no word for the third kind, so he coined one: antifragile.",
+                "fa": "بعضی چیزها زیر ضربه می‌شکنند، بعضی مقاومت می‌کنند و بعضی از آن قوی‌تر می‌شوند. Taleb برای نوع سوم واژه‌ای پیدا نکرد، پس خودش یکی ساخت: ضدشکننده (antifragile)."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k1",
+              "type": "tf",
+              "source": "b25c1l1p2",
+              "prompt": {
+                "en": "Taleb borrowed an old, existing word for things that gain from shocks.",
+                "fa": "Taleb برای چیزهایی که از ضربه سود می‌برند یک واژهٔ قدیمی و موجود را به کار برد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p3",
+              "text": {
+                "en": "Antifragile is not the same as resilient or robust. The resilient resists shocks and stays the same; the antifragile gets better.",
+                "fa": "ضدشکننده همان تاب‌آور یا استوار نیست. تاب‌آور در برابر ضربه مقاومت می‌کند و همان می‌ماند؛ ضدشکننده بهتر می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p4",
+              "text": {
+                "en": "A package marked \"handle with care\" is fragile. An antifragile package would be marked \"please mishandle\", because rough treatment would improve it.",
+                "fa": "بسته‌ای که رویش نوشته «با احتیاط حمل شود» شکننده است. بستهٔ ضدشکننده می‌نوشت «لطفاً بد حمل کنید»، چون رفتار خشن بهترش می‌کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p5",
+              "text": {
+                "en": "Taleb uses Greek myths to name the triad. Damocles, with a sword hanging over him by a single hair, is fragile; the Phoenix, reborn from its own ashes, is robust.",
+                "fa": "Taleb برای نام‌گذاری این سه‌گانه از اسطوره‌های یونانی کمک می‌گیرد. Damocles، با شمشیری که با یک تار مو بالای سرش آویزان است، شکننده است؛ Phoenix که از خاکستر خود دوباره زاده می‌شود، استوار است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k2",
+              "type": "tap",
+              "source": "b25c1l1p5",
+              "prompt": {
+                "en": "In Taleb's myths, what does the Phoenix stand for?",
+                "fa": "در اسطوره‌های Taleb، Phoenix نماد چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Fragile",
+                  "fa": "شکننده"
+                },
+                {
+                  "en": "Robust",
+                  "fa": "استوار"
+                },
+                {
+                  "en": "Antifragile",
+                  "fa": "ضدشکننده"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p6",
+              "text": {
+                "en": "The Hydra is antifragile: each time one of its heads is cut off, two grow back. Harm makes it stronger.",
+                "fa": "Hydra ضدشکننده است: هر بار یکی از سرهایش را ببری، دو سر جایش می‌روید. آسیب قوی‌ترش می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p7",
+              "text": {
+                "en": "Antifragility comes from asymmetry. If you have more to gain than to lose from a shock, you like volatility; if you have more to lose, you are fragile.",
+                "fa": "ضدشکنندگی از عدم تقارن می‌آید. اگر از یک ضربه بیشتر سود ببری تا ضرر، نوسان را دوست داری؛ اگر بیشتر ضرر کنی، شکننده‌ای."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k3",
+              "type": "tap",
+              "source": "b25c1l1p6",
+              "prompt": {
+                "en": "Which myth stands for the antifragile?",
+                "fa": "کدام اسطوره نماد ضدشکننده است؟"
+              },
+              "options": [
+                {
+                  "en": "Damocles",
+                  "fa": "Damocles"
+                },
+                {
+                  "en": "The Phoenix",
+                  "fa": "Phoenix"
+                },
+                {
+                  "en": "The Hydra",
+                  "fa": "Hydra"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p8",
+              "text": {
+                "en": "Fragility is easier to see than risk. You cannot predict the next shock, but you can tell whether something is hurt more than helped by shocks.",
+                "fa": "شکنندگی را راحت‌تر از ریسک می‌شود دید. ضربهٔ بعدی را نمی‌توانی پیش‌بینی کنی، اما می‌توانی بفهمی چیزی از ضربه‌ها بیشتر آسیب می‌بیند یا سود می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p9",
+              "text": {
+                "en": "A hotel guest has a porter carry his bags, then goes to the gym to lift weights. Taleb calls this domain dependence: we seek stressors in one context and avoid them in another.",
+                "fa": "مهمان هتل چمدانش را به باربر می‌دهد، بعد به باشگاه می‌رود تا وزنه بزند. Taleb این را وابستگی به حوزه می‌نامد: در یک موقعیت دنبال فشار می‌گردیم و در موقعیت دیگر از آن فرار می‌کنیم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p10",
+              "text": {
+                "en": "Much of modern life tries to remove all stress, discomfort and randomness. Taleb argues this makes people, companies and economies more fragile, not safer.",
+                "fa": "بخش بزرگی از زندگی مدرن می‌کوشد همهٔ استرس، ناراحتی و تصادف را حذف کند. Taleb استدلال می‌کند این کار آدم‌ها، شرکت‌ها و اقتصادها را شکننده‌تر می‌کند، نه امن‌تر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k4",
+              "type": "tap",
+              "source": "b25c1l1p10",
+              "prompt": {
+                "en": "What does removing all stress and randomness do, according to Taleb?",
+                "fa": "به گفتهٔ Taleb، حذف همهٔ استرس و تصادف چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "More fragile, not safer",
+                  "fa": "شکننده‌ترشان می‌کند، نه امن‌تر"
+                },
+                {
+                  "en": "Safer, with fewer shocks",
+                  "fa": "امن‌ترشان می‌کند، با ضربه‌های کمتر"
+                },
+                {
+                  "en": "Exactly as strong as before",
+                  "fa": "دقیقاً به همان قوت قبل نگهشان می‌دارد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p11",
+              "text": {
+                "en": "Antifragile things need some volatility to stay strong, the way muscles need load. Deprive them of it and they weaken.",
+                "fa": "چیزهای ضدشکننده برای قوی ماندن به کمی نوسان نیاز دارند، همان‌طور که عضله به بار نیاز دارد. از آن محرومشان کنی، ضعیف می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p12",
+              "text": {
+                "en": "So the question is not how to avoid every shock in your move to the Netherlands. It is how to set up your money, career and habits so that shocks help more than they hurt.",
+                "fa": "پس سؤال این نیست که چطور در مهاجرت به هلند از هر ضربه‌ای فرار کنی. سؤال این است که پول، شغل و عادت‌هایت را چطور بچینی تا ضربه‌ها بیشتر کمکت کنند تا آسیب."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k5",
+              "type": "tf",
+              "source": "b25c1l1p12",
+              "prompt": {
+                "en": "The goal is to arrange your money, career and habits so shocks help more than they hurt.",
+                "fa": "هدف این است که پول، شغل و عادت‌هایت را طوری بچینی که ضربه‌ها بیشتر کمک کنند تا آسیب."
+              },
+              "answer": true
+            }
+          ]
         },
         {
-         "en": "Losing half of the capital",
-         "fa": "از دست دادن نیمی از سرمایه"
+          "id": "b25c1l2",
+          "title": {
+            "en": "Hormesis: small stressors make you stronger",
+            "fa": "Hormesis: فشارهای کوچک قوی‌ترت می‌کنند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 2 to 4 on overcompensation, hormesis and how systems learn from errors. It matters because your body, skills and startup all grow from doses of stress you can recover from.",
+                "fa": "این درس فصل‌های ۲ تا ۴ را دربارهٔ جبرانِ بیش‌ازحد، hormesis و یادگیری سیستم‌ها از خطا خلاصه می‌کند. مهم است چون بدن، مهارت‌ها و استارتاپت همه از دوزهایی از استرس رشد می‌کنند که بتوانی از آن‌ها بهبود یابی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p2",
+              "text": {
+                "en": "King Mithridates of Pontus feared being poisoned, so he took small doses of poison to build tolerance. Taleb uses the story to show hormesis: small doses of harm can make you stronger.",
+                "fa": "Mithridates، پادشاه Pontus، از مسموم شدن می‌ترسید، پس دوزهای کوچک سم می‌خورد تا تحمل بسازد. Taleb با این داستان hormesis را نشان می‌دهد: دوزهای کوچک آسیب می‌توانند قوی‌ترت کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k1",
+              "type": "tap",
+              "source": "b25c1l2p2",
+              "prompt": {
+                "en": "What is hormesis?",
+                "fa": "hormesis چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Small doses of harm can make you stronger",
+                  "fa": "دوزهای کوچک آسیب می‌توانند قوی‌ترت کنند"
+                },
+                {
+                  "en": "Avoiding every harmful thing completely",
+                  "fa": "پرهیز کامل از هر چیز آسیب‌زا"
+                },
+                {
+                  "en": "Taking a large dose of medicine at once",
+                  "fa": "خوردن یک‌بارهٔ دوز بزرگ دارو"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p3",
+              "text": {
+                "en": "Living systems overcompensate. Stress a bone and it grows denser; lift a heavy load and the muscle rebuilds stronger than before.",
+                "fa": "سیستم‌های زنده بیش از حد جبران می‌کنند. به استخوان فشار بیاور، متراکم‌تر می‌شود؛ بار سنگین بلند کن، عضله قوی‌تر از قبل بازسازی می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p4",
+              "text": {
+                "en": "The key is dose and recovery. Short, sharp stressors followed by rest strengthen you; chronic stress with no recovery wears you down.",
+                "fa": "کلید، دوز و بهبودی است. فشارهای کوتاه و تند همراه با استراحت قوی‌ترت می‌کنند؛ استرس مزمن بدون بهبودی فرسوده‌ات می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p5",
+              "text": {
+                "en": "Redundancy is a form of overcompensation. The body keeps two kidneys and spare capacity, which looks wasteful until a shock arrives.",
+                "fa": "افزونگی نوعی جبرانِ بیش‌ازحد است. بدن دو کلیه و ظرفیت اضافه نگه می‌دارد که تا وقتی ضربه‌ای نرسیده، اسراف به نظر می‌آید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k2",
+              "type": "tf",
+              "source": "b25c1l2p4",
+              "prompt": {
+                "en": "Taleb says chronic stress with no recovery makes you stronger.",
+                "fa": "Taleb می‌گوید استرس مزمن بدون بهبودی قوی‌ترت می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p6",
+              "text": {
+                "en": "Taleb contrasts the cat and the washing machine. A machine wears out with use, but an organism like a cat needs use and stress to stay healthy.",
+                "fa": "Taleb گربه را با ماشین لباسشویی مقایسه می‌کند. ماشین با استفاده فرسوده می‌شود، اما موجود زنده‌ای مثل گربه برای سالم ماندن به استفاده و فشار نیاز دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p7",
+              "text": {
+                "en": "Deprive organic things of stressors and they weaken, the way a muscle wastes inside a plaster cast. Too much comfort is its own kind of harm.",
+                "fa": "موجودات زنده را از فشار محروم کنی، ضعیف می‌شوند، همان‌طور که عضله درون گچ تحلیل می‌رود. راحتی بیش از حد خودش نوعی آسیب است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k3",
+              "type": "tap",
+              "source": "b25c1l2p6",
+              "prompt": {
+                "en": "In the cat and washing machine contrast, what does an organism need to stay healthy?",
+                "fa": "در مقایسهٔ گربه و ماشین لباسشویی، موجود زنده برای سالم ماندن به چه نیاز دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Complete rest",
+                  "fa": "استراحت کامل"
+                },
+                {
+                  "en": "Careful protection",
+                  "fa": "محافظت دقیق"
+                },
+                {
+                  "en": "Use and stress",
+                  "fa": "استفاده و فشار"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p8",
+              "text": {
+                "en": "Some systems are antifragile because their parts are fragile. Each failed restaurant teaches the industry something, so the restaurant scene as a whole keeps improving.",
+                "fa": "بعضی سیستم‌ها ضدشکننده‌اند چون اجزایشان شکننده‌اند. هر رستوران ورشکسته چیزی به این صنعت یاد می‌دهد، پس صنعت رستوران در کل مدام بهتر می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p9",
+              "text": {
+                "en": "Air travel works the same way: every crash is studied, and the lesson makes the next flight safer. Small, informative errors strengthen the whole system.",
+                "fa": "سفر هوایی هم همین‌طور است: هر سانحه بررسی می‌شود و درسش پرواز بعدی را امن‌تر می‌کند. خطاهای کوچک و آموزنده کل سیستم را قوی‌تر می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p10",
+              "text": {
+                "en": "Taleb honours failed entrepreneurs, because their failures make the economy stronger. He even proposes a National Entrepreneur Day to thank them.",
+                "fa": "Taleb از کارآفرینان شکست‌خورده تجلیل می‌کند، چون شکست‌هایشان اقتصاد را قوی‌تر می‌کند. حتی پیشنهاد یک «روز ملی کارآفرین» را می‌دهد تا از آن‌ها قدردانی شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k4",
+              "type": "tf",
+              "source": "b25c1l2p8",
+              "prompt": {
+                "en": "In Taleb's view, each failed restaurant makes the restaurant industry weaker.",
+                "fa": "از دید Taleb، هر رستوران ورشکسته صنعت رستوران را ضعیف‌تر می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p11",
+              "text": {
+                "en": "Hormesis for you: a hard workout, a tough code review, or shipping a small product that customers can reject. Each is a dose you recover from, so it builds strength.",
+                "fa": "hormesis برای تو: یک تمرین سخت، یک code review سخت‌گیرانه، یا عرضهٔ محصولی کوچک که مشتری می‌تواند ردش کند. هر کدام دوزی است که از آن بهبود می‌یابی، پس قدرت می‌سازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p12",
+              "text": {
+                "en": "Sleep is the recovery half of hormesis. Without it, the same stressors that should build you up simply wear you down.",
+                "fa": "خواب نیمهٔ بهبودیِ hormesis است. بدون آن، همان فشارهایی که باید تو را بسازند فقط فرسوده‌ات می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k5",
+              "type": "tap",
+              "source": "b25c1l2p12",
+              "prompt": {
+                "en": "Which half of hormesis does sleep provide?",
+                "fa": "خواب کدام نیمهٔ hormesis را فراهم می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The stressor",
+                  "fa": "فشار"
+                },
+                {
+                  "en": "The recovery",
+                  "fa": "بهبودی"
+                },
+                {
+                  "en": "The poison",
+                  "fa": "سم"
+                }
+              ],
+              "answer": 1
+            }
+          ]
         },
         {
-         "en": "Losing nothing at all",
-         "fa": "هیچ ضرری نکردن"
+          "id": "b25c1l3",
+          "title": {
+            "en": "The turkey and hidden fragility",
+            "fa": "بوقلمون و شکنندگی پنهان"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 5 and 6: the turkey, the two brothers and why suppressing volatility backfires. It matters because a steady salary or a calm market can hide the biggest risk you carry.",
+                "fa": "این درس فصل‌های ۵ و ۶ را خلاصه می‌کند: بوقلمون، دو برادر و اینکه چرا سرکوب نوسان نتیجهٔ معکوس دارد. مهم است چون یک حقوق ثابت یا بازاری آرام می‌تواند بزرگ‌ترین ریسکت را پنهان کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p2",
+              "text": {
+                "en": "A turkey is fed every day for a thousand days by a butcher. Each meal raises its confidence that humans love turkeys, until the Wednesday before Thanksgiving.",
+                "fa": "قصابی بوقلمونی را هزار روز هر روز غذا می‌دهد. هر وعده اطمینان بوقلمون را بیشتر می‌کند که آدم‌ها بوقلمون را دوست دارند، تا چهارشنبهٔ پیش از Thanksgiving."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p3",
+              "text": {
+                "en": "The turkey problem: the absence of harm in the past is not evidence of safety. The turkey's confidence was highest exactly when its risk was greatest.",
+                "fa": "مسئلهٔ بوقلمون: نبودِ آسیب در گذشته دلیل امنیت نیست. اطمینان بوقلمون درست وقتی در اوج بود که ریسکش از همیشه بیشتر بود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k1",
+              "type": "tf",
+              "source": "b25c1l3p3",
+              "prompt": {
+                "en": "For the turkey, a thousand calm days proved it was safe.",
+                "fa": "برای بوقلمون، هزار روز آرام ثابت کرد که در امان است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p4",
+              "text": {
+                "en": "Taleb compares two brothers. John works in a large bank with a steady salary; George is a taxi driver whose income swings from day to day.",
+                "fa": "Taleb دو برادر را مقایسه می‌کند. John در یک بانک بزرگ با حقوق ثابت کار می‌کند؛ George راننده تاکسی است و درآمدش روزبه‌روز بالا و پایین می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p5",
+              "text": {
+                "en": "George looks riskier, but his small daily swings carry information and he can adapt. John can lose all his income in one phone call from HR.",
+                "fa": "George پرریسک‌تر به نظر می‌رسد، اما نوسان‌های کوچک روزانه‌اش اطلاعات دارند و می‌تواند خودش را وفق دهد. John با یک تماس تلفنی از HR می‌تواند همهٔ درآمدش را از دست بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p6",
+              "text": {
+                "en": "A steady income without variation can be the more fragile setup. A little visible volatility often signals less hidden risk.",
+                "fa": "درآمد ثابت و بی‌نوسان می‌تواند چیدمان شکننده‌تری باشد. کمی نوسان آشکار اغلب نشانهٔ ریسک پنهان کمتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k2",
+              "type": "tap",
+              "source": "b25c1l3p5",
+              "prompt": {
+                "en": "Which brother can lose all his income in one phone call?",
+                "fa": "کدام برادر می‌تواند با یک تماس تلفنی همهٔ درآمدش را از دست بدهد؟"
+              },
+              "options": [
+                {
+                  "en": "George",
+                  "fa": "George"
+                },
+                {
+                  "en": "John",
+                  "fa": "John"
+                },
+                {
+                  "en": "Both equally",
+                  "fa": "هر دو به یک اندازه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p7",
+              "text": {
+                "en": "Suppressing every small forest fire lets dry wood pile up, so the eventual fire is catastrophic. Taleb applies this to Alan Greenspan's effort to iron out the boom and bust cycle.",
+                "fa": "سرکوب هر آتش‌سوزی کوچک در جنگل باعث انباشت چوب خشک می‌شود و آتش نهایی فاجعه‌بار است. Taleb همین را دربارهٔ تلاش Alan Greenspan برای صاف کردن چرخهٔ رونق و رکود به کار می‌برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k3",
+              "type": "tf",
+              "source": "b25c1l3p7",
+              "prompt": {
+                "en": "Suppressing every small forest fire makes the forest safer in the long run.",
+                "fa": "سرکوب هر آتش‌سوزی کوچک، جنگل را در بلندمدت امن‌تر می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p8",
+              "text": {
+                "en": "Switzerland, Taleb notes, is run largely from the bottom up by its cantons. Its local, noisy politics help keep the whole country stable.",
+                "fa": "به گفتهٔ Taleb، سوئیس عمدتاً از پایین به بالا و توسط کانتون‌هایش اداره می‌شود. سیاست محلی و پرسروصدایش به ثبات کل کشور کمک می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p9",
+              "text": {
+                "en": "Small, decentralized units absorb shocks locally. Large, centralized systems look calm until a single error spreads everywhere.",
+                "fa": "واحدهای کوچک و غیرمتمرکز ضربه‌ها را محلی جذب می‌کنند. سیستم‌های بزرگ و متمرکز آرام به نظر می‌رسند تا وقتی یک خطای واحد همه‌جا پخش شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p10",
+              "text": {
+                "en": "Chapter 6 shows randomness can help. Buridan's donkey, equally hungry and thirsty, starves between food and water unless a random nudge pushes it to one side.",
+                "fa": "فصل ۶ نشان می‌دهد تصادف می‌تواند کمک کند. الاغ Buridan که به یک اندازه گرسنه و تشنه است، میان غذا و آب از گرسنگی می‌میرد مگر اینکه تلنگری تصادفی او را به یک سو هل دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k4",
+              "type": "tap",
+              "source": "b25c1l3p9",
+              "prompt": {
+                "en": "Which systems look calm until a single error spreads everywhere?",
+                "fa": "کدام سیستم‌ها آرام به نظر می‌رسند تا وقتی یک خطای واحد همه‌جا پخش شود؟"
+              },
+              "options": [
+                {
+                  "en": "Large, centralized systems",
+                  "fa": "سیستم‌های بزرگ و متمرکز"
+                },
+                {
+                  "en": "Small, local units",
+                  "fa": "واحدهای کوچک و محلی"
+                },
+                {
+                  "en": "Bottom-up cantons",
+                  "fa": "کانتون‌های پایین به بالا"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p11",
+              "text": {
+                "en": "Black Swans are rare, high-impact events that the past does not predict. Systems that suppress small variations are the most exposed to them.",
+                "fa": "قوهای سیاه (Black Swan) رویدادهای نادر و پراثری‌اند که گذشته پیش‌بینی‌شان نمی‌کند. سیستم‌هایی که نوسان‌های کوچک را سرکوب می‌کنند بیش از همه در معرض آن‌ها هستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p12",
+              "text": {
+                "en": "A job contract feels like John's salary. Owning a small product with paying customers adds George's small, informative swings to your income.",
+                "fa": "قرارداد کاری شبیه حقوق John است. مالکیت محصولی کوچک با مشتریان پرداخت‌کننده، نوسان‌های کوچک و آموزندهٔ George را به درآمدت اضافه می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k5",
+              "type": "tf",
+              "source": "b25c1l3p12",
+              "prompt": {
+                "en": "Owning a small product with paying customers adds George's informative swings to your income.",
+                "fa": "مالکیت محصولی کوچک با مشتریان پرداخت‌کننده، نوسان‌های آموزندهٔ George را به درآمدت اضافه می‌کند."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b25c1l4",
+          "title": {
+            "en": "Iatrogenics: the harm of the helper",
+            "fa": "Iatrogenics: آسیبِ درمانگر"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapter 7 on naive intervention and the fragilistas of Book III. It matters because checking your portfolio daily or reorganising your startup weekly can do more harm than good.",
+                "fa": "این درس فصل ۷ دربارهٔ مداخلهٔ ساده‌لوحانه و fragilistaهای بخش سوم را خلاصه می‌کند. مهم است چون چک کردن روزانهٔ سبد سرمایه یا بازسازی هفتگی استارتاپ می‌تواند بیشتر ضرر بزند تا سود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p2",
+              "text": {
+                "en": "Iatrogenics means harm caused by the healer. In medicine, a treatment can do more damage than the illness it was meant to cure.",
+                "fa": "Iatrogenics یعنی آسیبی که درمانگر ایجاد می‌کند. در پزشکی، یک درمان می‌تواند از خود بیماری‌ای که قرار بود درمانش کند آسیب بیشتری بزند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k1",
+              "type": "tap",
+              "source": "b25c1l4p2",
+              "prompt": {
+                "en": "What does iatrogenics mean?",
+                "fa": "iatrogenics یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Harm caused by the healer",
+                  "fa": "آسیبی که درمانگر ایجاد می‌کند"
+                },
+                {
+                  "en": "A cure for every illness",
+                  "fa": "درمانی برای هر بیماری"
+                },
+                {
+                  "en": "Harm caused by bad luck",
+                  "fa": "آسیبی که بدشانسی ایجاد می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p3",
+              "text": {
+                "en": "Taleb extends the idea beyond medicine to economic policy, planning and management. Every intervention has hidden costs as well as visible benefits.",
+                "fa": "Taleb این ایده را از پزشکی فراتر می‌برد و به سیاست اقتصادی، برنامه‌ریزی و مدیریت می‌رساند. هر مداخله در کنار فایده‌های آشکار، هزینه‌های پنهان هم دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p4",
+              "text": {
+                "en": "A fragilista is Taleb's name for someone who makes things fragile by trying to control them. He mistakes the unknown for the nonexistent and intervenes where he does not understand.",
+                "fa": "fragilista نامی است که Taleb به کسی می‌دهد که با تلاش برای کنترل، چیزها را شکننده می‌کند. ناشناخته را با ناموجود اشتباه می‌گیرد و جایی دخالت می‌کند که آن را نمی‌فهمد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p5",
+              "text": {
+                "en": "Taleb is not against all intervention. He wants it where the benefits are large and clear, as in an emergency, and restraint where they are small or unclear.",
+                "fa": "Taleb مخالف هر مداخله‌ای نیست. آن را جایی می‌خواهد که فایده‌ها بزرگ و روشن‌اند، مثل وضعیت اضطراری، و خودداری را جایی که کوچک یا نامعلوم‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k2",
+              "type": "tf",
+              "source": "b25c1l4p5",
+              "prompt": {
+                "en": "Taleb argues against every kind of intervention.",
+                "fa": "Taleb با هر نوع مداخله‌ای مخالفت می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p6",
+              "text": {
+                "en": "Procrastination can be a natural defence. Waiting lets some problems solve themselves and filters out actions that were never needed.",
+                "fa": "تعلل می‌تواند یک دفاع طبیعی باشد. صبر کردن اجازه می‌دهد برخی مشکلات خودبه‌خود حل شوند و کارهایی را که هرگز لازم نبودند غربال می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p7",
+              "text": {
+                "en": "More data brings more noise. Look at a market daily and most of what you see is noise; look yearly and more of it is signal.",
+                "fa": "دادهٔ بیشتر نویز بیشتری می‌آورد. بازار را روزانه نگاه کنی، بیشتر چیزی که می‌بینی نویز است؛ سالانه نگاه کنی، سهم بیشتری از آن سیگنال است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k3",
+              "type": "tap",
+              "source": "b25c1l4p7",
+              "prompt": {
+                "en": "If you look at a market daily, what do you mostly see?",
+                "fa": "اگر بازار را روزانه نگاه کنی، بیشتر چه می‌بینی؟"
+              },
+              "options": [
+                {
+                  "en": "A clear signal",
+                  "fa": "سیگنالی روشن"
+                },
+                {
+                  "en": "Noise",
+                  "fa": "نویز"
+                },
+                {
+                  "en": "A guaranteed trend",
+                  "fa": "روندی تضمین‌شده"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p8",
+              "text": {
+                "en": "Reacting to noise causes overreaction and needless action. Someone who checks prices every hour is more likely to trade on randomness.",
+                "fa": "واکنش به نویز به واکنش افراطی و کارهای بی‌مورد می‌انجامد. کسی که هر ساعت قیمت‌ها را چک می‌کند بیشتر احتمال دارد بر اساس تصادف معامله کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p9",
+              "text": {
+                "en": "Book III calls prediction a child of modernity. Forecasters and planners rarely pay for being wrong, so their errors keep fragilizing the systems they run.",
+                "fa": "بخش سوم پیش‌بینی را فرزند مدرنیته می‌نامد. پیش‌بینان و برنامه‌ریزان به‌ندرت تاوان اشتباهشان را می‌دهند، پس خطاهایشان مدام سیستم‌هایی را که اداره می‌کنند شکننده‌تر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p10",
+              "text": {
+                "en": "Taleb's character Fat Tony, a street-smart trader, ignores forecasts and spots who is fragile instead. He bets against the fragilistas and profits when their systems break.",
+                "fa": "شخصیت Fat Tony در کتاب Taleb، معامله‌گری زیرک و کوچه‌بازاری، پیش‌بینی‌ها را نادیده می‌گیرد و به‌جایش شکننده‌ها را پیدا می‌کند. علیه fragilistaها شرط می‌بندد و وقتی سیستمشان می‌شکند سود می‌برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k4",
+              "type": "tf",
+              "source": "b25c1l4p10",
+              "prompt": {
+                "en": "Fat Tony profits by trusting the forecasters' predictions.",
+                "fa": "Fat Tony با اعتماد به پیش‌بینی‌های پیش‌بینان سود می‌برد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p11",
+              "text": {
+                "en": "For an index portfolio, the least harmful habit is often to look rarely. A quarterly net-worth log gives signal; a broker app checked daily mostly gives noise.",
+                "fa": "برای سبد ETF شاخصی، کم‌ضررترین عادت اغلب کم نگاه کردن است. ثبت فصلی دارایی خالص سیگنال می‌دهد؛ اپ کارگزاری که روزانه چک شود بیشتر نویز می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p12",
+              "text": {
+                "en": "Before you intervene, ask whether doing nothing is safer. If the benefit is small and uncertain, the hidden harm of acting may be larger.",
+                "fa": "پیش از مداخله بپرس آیا هیچ کاری نکردن امن‌تر است. اگر فایده کوچک و نامطمئن باشد، آسیب پنهانِ اقدام ممکن است بزرگ‌تر باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k5",
+              "type": "tap",
+              "source": "b25c1l4p12",
+              "prompt": {
+                "en": "When is doing nothing likely to be safer than intervening?",
+                "fa": "چه وقت هیچ کاری نکردن احتمالاً از مداخله امن‌تر است؟"
+              },
+              "options": [
+                {
+                  "en": "If the benefit is small and uncertain",
+                  "fa": "اگر فایده کوچک و نامطمئن باشد"
+                },
+                {
+                  "en": "If the problem is an emergency",
+                  "fa": "اگر مشکل اضطراری باشد"
+                },
+                {
+                  "en": "If the benefit is large and clear",
+                  "fa": "اگر فایده بزرگ و روشن باشد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
         }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p6",
-       "text": {
-        "en": "The barbell applies beyond money. Many writers kept a safe, dull day job and wrote freely on the side, protected from the pressure to sell.",
-        "fa": "هالتر فراتر از پول هم کاربرد دارد. بسیاری از نویسندگان یک شغل روزانهٔ امن و کسل‌کننده داشتند و در کنارش آزادانه می‌نوشتند، بی‌آنکه زیر فشار فروش باشند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p7",
-       "text": {
-        "en": "In personal risk, the barbell means being paranoid about ruin and relaxed about small risks. Avoid what can wipe you out, then take many small, bounded chances.",
-        "fa": "در ریسک شخصی، هالتر یعنی دربارهٔ نابودی وسواس داشته باش و دربارهٔ ریسک‌های کوچک آسوده باش. از آنچه می‌تواند نابودت کند دوری کن، بعد شانس‌های کوچک و محدود زیادی را امتحان کن."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l1k3",
-       "type": "tf",
-       "source": "b25c2l1p7",
-       "prompt": {
-        "en": "The personal barbell means taking big risks that could wipe you out.",
-        "fa": "هالتر شخصی یعنی ریسک‌های بزرگی بکنی که می‌توانند نابودت کنند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p8",
-       "text": {
-        "en": "Ruin is different from loss. You can recover from a loss; ruin ends the game, so no later upside can make up for it.",
-        "fa": "نابودی با ضرر فرق دارد. از ضرر می‌شود برگشت؛ نابودی بازی را تمام می‌کند، پس هیچ سود بعدی جبرانش نمی‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p9",
-       "text": {
-        "en": "Taleb's safe end means the safest instruments, like cash or treasury bills. A stock index fund is not that safe: it can fall sharply in a crash.",
-        "fa": "سر امن هالتر Taleb یعنی امن‌ترین ابزارها، مثل پول نقد یا اوراق خزانهٔ کوتاه‌مدت. صندوق شاخص سهام آن‌قدر امن نیست: در سقوط بازار می‌تواند به‌شدت افت کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p10",
-       "text": {
-        "en": "The roadmap's 80 percent index core is a looser cousin of the barbell. To make it more Taleb-like, keep an emergency fund in cash and size startup bets so losing them never ruins you.",
-        "fa": "هستهٔ ۸۰ درصدی ETF شاخصی در نقشهٔ راه، خویشاوند شل‌تری از هالتر است. برای Taleb‌وارتر شدنش، صندوق اضطراری را نقد نگه دار و اندازهٔ شرط‌های استارتاپی را طوری بگیر که باختنشان هرگز نابودت نکند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l1k4",
-       "type": "tap",
-       "source": "b25c2l1p9",
-       "prompt": {
-        "en": "Which is the safe end of Taleb's barbell?",
-        "fa": "سر امن هالتر Taleb کدام است؟"
-       },
-       "options": [
-        {
-         "en": "A stock index fund",
-         "fa": "صندوق شاخص سهام"
-        },
-        {
-         "en": "Cash or treasury bills",
-         "fa": "پول نقد یا اوراق خزانه"
-        },
-        {
-         "en": "A medium-risk bond fund",
-         "fa": "صندوق اوراق با ریسک متوسط"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p11",
-       "text": {
-        "en": "The risky end holds small bets with open payoffs. A side project, an early equity stake with vesting, or a new skill can all fit there.",
-        "fa": "سر پرریسک شرط‌های کوچکی با بازده بی‌سقف را در خود دارد. یک پروژهٔ جانبی، سهم اولیه در یک استارتاپ با vesting، یا یک مهارت تازه همه می‌توانند آنجا جا بگیرند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l1p12",
-       "text": {
-        "en": "The barbell is about the shape of outcomes, not the average. You choose a known worst case and leave the best case unlimited.",
-        "fa": "هالتر دربارهٔ شکل نتایج است، نه میانگین. بدترین حالتی شناخته‌شده را انتخاب می‌کنی و بهترین حالت را بی‌سقف می‌گذاری."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l1k5",
-       "type": "tf",
-       "source": "b25c2l1p12",
-       "prompt": {
-        "en": "The barbell aims for a known worst case and an unlimited best case.",
-        "fa": "هالتر به دنبال بدترین حالتی شناخته‌شده و بهترین حالتی بی‌سقف است."
-       },
-       "answer": true
-      }
-     ]
+      ]
     },
     {
-     "id": "b25c2l2",
-     "title": {
-      "en": "Optionality and tinkering",
-      "fa": "اختیار (optionality) و آزمون و خطا"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c2l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Chapters 12 to 14 on optionality, tinkering and the green lumber fallacy. It matters because building a small AI product is a series of cheap options, not one big forecast.",
-        "fa": "این درس فصل‌های ۱۲ تا ۱۴ دربارهٔ اختیار، آزمون و خطا و مغالطهٔ green lumber را خلاصه می‌کند. مهم است چون ساختن یک محصول کوچک AI مجموعه‌ای از اختیارهای ارزان است، نه یک پیش‌بینی بزرگ."
-       }
+      "id": "b25c2",
+      "title": {
+        "en": "Living antifragile: barbell, options, subtraction, skin",
+        "fa": "زندگی ضدشکننده: هالتر، اختیار، حذف، پوست در بازی"
       },
-      {
-       "kind": "card",
-       "id": "b25c2l2p2",
-       "text": {
-        "en": "Thales of Miletus, mocked as a poor philosopher, put small deposits on olive presses before a harvest. When the harvest was large, he rented them out at high prices and grew rich.",
-        "fa": "Thales اهل Miletus که او را فیلسوفی فقیر مسخره می‌کردند، پیش از برداشت روی دستگاه‌های روغن‌کشی زیتون بیعانهٔ کوچکی گذاشت. وقتی محصول فراوان شد، آن‌ها را به قیمت بالا اجاره داد و ثروتمند شد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p3",
-       "text": {
-        "en": "Taleb's point: Thales did not need to predict the harvest. He had an option, a small cost with a large possible payoff, so the asymmetry mattered more than being right.",
-        "fa": "نکتهٔ Taleb: Thales نیازی به پیش‌بینی محصول نداشت. او یک اختیار داشت، هزینه‌ای کوچک با بازدهی بالقوه بزرگ، پس عدم تقارن مهم‌تر از درست بودن بود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l2k1",
-       "type": "tap",
-       "source": "b25c2l2p3",
-       "prompt": {
-        "en": "Why did Thales profit, in Taleb's reading?",
-        "fa": "از نگاه Taleb، چرا Thales سود برد؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "He predicted the harvest exactly",
-         "fa": "محصول را دقیق پیش‌بینی کرد"
+          "id": "b25c2l1",
+          "title": {
+            "en": "The barbell strategy",
+            "fa": "استراتژی هالتر (barbell)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 10 and 11 on Seneca and the barbell strategy. It matters because how you split €40k between safety and bets decides whether a shock can ruin you.",
+                "fa": "این درس فصل‌های ۱۰ و ۱۱ دربارهٔ Seneca و استراتژی هالتر را خلاصه می‌کند. مهم است چون نحوهٔ تقسیم ۴۰ هزار یورو میان امنیت و شرط‌ها تعیین می‌کند که آیا یک ضربه می‌تواند نابودت کند یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p2",
+              "text": {
+                "en": "Seneca, one of the richest men in Rome, used Stoicism to shrink the emotional downside of losing his wealth. He kept the upside of fortune while training himself not to fear its loss.",
+                "fa": "Seneca، یکی از ثروتمندترین مردان روم، با رواقی‌گری زیان عاطفیِ از دست دادن ثروتش را کوچک کرد. سود بخت را نگه داشت و خود را تمرین داد که از فقدانش نترسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k1",
+              "type": "tf",
+              "source": "b25c2l1p2",
+              "prompt": {
+                "en": "Taleb reads Seneca's Stoicism as a way to keep the upside of fortune while shrinking the downside.",
+                "fa": "Taleb رواقی‌گری Seneca را راهی می‌بیند برای نگه داشتن سود بخت و کوچک کردن زیانش."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p3",
+              "text": {
+                "en": "Taleb's barbell: put most of your exposure in something extremely safe and a small part in something extremely speculative. Avoid the middle.",
+                "fa": "هالتر Taleb: بیشتر سرمایه‌ات را در چیزی به‌شدت امن بگذار و بخش کوچکی را در چیزی به‌شدت سفته‌بازانه. از میانه دوری کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p4",
+              "text": {
+                "en": "With money, that might be 90 percent in the safest assets and 10 percent in high-risk bets. Your worst case is capped at losing the 10 percent, while the upside stays open.",
+                "fa": "در پول، این می‌تواند ۹۰ درصد در امن‌ترین دارایی‌ها و ۱۰ درصد در شرط‌های پرریسک باشد. بدترین حالتت به از دست دادن همان ۱۰ درصد محدود است، در حالی که سود باز می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p5",
+              "text": {
+                "en": "The middle is dangerous because medium-risk bets often hide large, mismeasured risks. Taleb prefers knowing exactly what you can lose.",
+                "fa": "میانه خطرناک است چون شرط‌های با ریسک متوسط اغلب ریسک‌های بزرگ و بد اندازه‌گیری‌شده را پنهان می‌کنند. Taleb ترجیح می‌دهد دقیقاً بدانی چه چیزی را می‌توانی از دست بدهی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k2",
+              "type": "tap",
+              "source": "b25c2l1p4",
+              "prompt": {
+                "en": "In the 90/10 barbell, what is your worst case capped at?",
+                "fa": "در هالتر ۹۰/۱۰، بدترین حالتت به چه محدود است؟"
+              },
+              "options": [
+                {
+                  "en": "Losing the 10 percent",
+                  "fa": "از دست دادن همان ۱۰ درصد"
+                },
+                {
+                  "en": "Losing half of the capital",
+                  "fa": "از دست دادن نیمی از سرمایه"
+                },
+                {
+                  "en": "Losing nothing at all",
+                  "fa": "هیچ ضرری نکردن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p6",
+              "text": {
+                "en": "The barbell applies beyond money. Many writers kept a safe, dull day job and wrote freely on the side, protected from the pressure to sell.",
+                "fa": "هالتر فراتر از پول هم کاربرد دارد. بسیاری از نویسندگان یک شغل روزانهٔ امن و کسل‌کننده داشتند و در کنارش آزادانه می‌نوشتند، بی‌آنکه زیر فشار فروش باشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p7",
+              "text": {
+                "en": "In personal risk, the barbell means being paranoid about ruin and relaxed about small risks. Avoid what can wipe you out, then take many small, bounded chances.",
+                "fa": "در ریسک شخصی، هالتر یعنی دربارهٔ نابودی وسواس داشته باش و دربارهٔ ریسک‌های کوچک آسوده باش. از آنچه می‌تواند نابودت کند دوری کن، بعد شانس‌های کوچک و محدود زیادی را امتحان کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k3",
+              "type": "tf",
+              "source": "b25c2l1p7",
+              "prompt": {
+                "en": "The personal barbell means taking big risks that could wipe you out.",
+                "fa": "هالتر شخصی یعنی ریسک‌های بزرگی بکنی که می‌توانند نابودت کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p8",
+              "text": {
+                "en": "Ruin is different from loss. You can recover from a loss; ruin ends the game, so no later upside can make up for it.",
+                "fa": "نابودی با ضرر فرق دارد. از ضرر می‌شود برگشت؛ نابودی بازی را تمام می‌کند، پس هیچ سود بعدی جبرانش نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p9",
+              "text": {
+                "en": "Taleb's safe end means the safest instruments, like cash or treasury bills. A stock index fund is not that safe: it can fall sharply in a crash.",
+                "fa": "سر امن هالتر Taleb یعنی امن‌ترین ابزارها، مثل پول نقد یا اوراق خزانهٔ کوتاه‌مدت. صندوق شاخص سهام آن‌قدر امن نیست: در سقوط بازار می‌تواند به‌شدت افت کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p10",
+              "text": {
+                "en": "An index core is not Taleb's barbell: his safe end is cash-like and ultra-safe, not stocks. What carries over: keep an emergency fund safe and size startup bets so losing one never ruins you.",
+                "fa": "هستهٔ شاخصی هالتر Taleb نیست: سرِ امن او شبه‌نقد و فوق‌امن است، نه سهام. آنچه منتقل می‌شود: صندوق اضطراری را امن نگه دار و شرط‌های استارتاپی را طوری اندازه بگیر که باختن یکی هرگز نابودت نکند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k4",
+              "type": "tap",
+              "source": "b25c2l1p9",
+              "prompt": {
+                "en": "Which is the safe end of Taleb's barbell?",
+                "fa": "سر امن هالتر Taleb کدام است؟"
+              },
+              "options": [
+                {
+                  "en": "A stock index fund",
+                  "fa": "صندوق شاخص سهام"
+                },
+                {
+                  "en": "Cash or treasury bills",
+                  "fa": "پول نقد یا اوراق خزانه"
+                },
+                {
+                  "en": "A medium-risk bond fund",
+                  "fa": "صندوق اوراق با ریسک متوسط"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p11",
+              "text": {
+                "en": "The risky end holds small bets with open payoffs. A side project, an early equity stake with vesting, or a new skill can all fit there.",
+                "fa": "سر پرریسک شرط‌های کوچکی با بازده بی‌سقف را در خود دارد. یک پروژهٔ جانبی، سهم اولیه در یک استارتاپ با vesting، یا یک مهارت تازه همه می‌توانند آنجا جا بگیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p12",
+              "text": {
+                "en": "The barbell is about the shape of outcomes, not the average. You choose a known worst case and leave the best case unlimited.",
+                "fa": "هالتر دربارهٔ شکل نتایج است، نه میانگین. بدترین حالتی شناخته‌شده را انتخاب می‌کنی و بهترین حالت را بی‌سقف می‌گذاری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k5",
+              "type": "tf",
+              "source": "b25c2l1p12",
+              "prompt": {
+                "en": "The barbell aims for a known worst case and an unlimited best case.",
+                "fa": "هالتر به دنبال بدترین حالتی شناخته‌شده و بهترین حالتی بی‌سقف است."
+              },
+              "answer": true
+            }
+          ]
         },
         {
-         "en": "He had an option with asymmetry",
-         "fa": "یک اختیار با عدم تقارن داشت"
+          "id": "b25c2l2",
+          "title": {
+            "en": "Optionality and tinkering",
+            "fa": "اختیار (optionality) و آزمون و خطا"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 12 to 14 on optionality, tinkering and the green lumber fallacy. It matters because building a small AI product is a series of cheap options, not one big forecast.",
+                "fa": "این درس فصل‌های ۱۲ تا ۱۴ دربارهٔ اختیار، آزمون و خطا و مغالطهٔ green lumber را خلاصه می‌کند. مهم است چون ساختن یک محصول کوچک AI مجموعه‌ای از اختیارهای ارزان است، نه یک پیش‌بینی بزرگ."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p2",
+              "text": {
+                "en": "Thales of Miletus, mocked as a poor philosopher, put small deposits on olive presses before a harvest. When the harvest was large, he rented them out at high prices and grew rich.",
+                "fa": "Thales اهل Miletus که او را فیلسوفی فقیر مسخره می‌کردند، پیش از برداشت روی دستگاه‌های روغن‌کشی زیتون بیعانهٔ کوچکی گذاشت. وقتی محصول فراوان شد، آن‌ها را به قیمت بالا اجاره داد و ثروتمند شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p3",
+              "text": {
+                "en": "Taleb's point: Thales did not need to predict the harvest. He had an option, a small cost with a large possible payoff, so the asymmetry mattered more than being right.",
+                "fa": "نکتهٔ Taleb: Thales نیازی به پیش‌بینی محصول نداشت. او یک اختیار داشت، هزینه‌ای کوچک با بازدهی بالقوه بزرگ، پس عدم تقارن مهم‌تر از درست بودن بود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k1",
+              "type": "tap",
+              "source": "b25c2l2p3",
+              "prompt": {
+                "en": "Why did Thales profit, in Taleb's reading?",
+                "fa": "از نگاه Taleb، چرا Thales سود برد؟"
+              },
+              "options": [
+                {
+                  "en": "He predicted the harvest exactly",
+                  "fa": "محصول را دقیق پیش‌بینی کرد"
+                },
+                {
+                  "en": "He had an option with asymmetry",
+                  "fa": "یک اختیار با عدم تقارن داشت"
+                },
+                {
+                  "en": "He owned every olive farm",
+                  "fa": "صاحب همهٔ باغ‌های زیتون بود"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p4",
+              "text": {
+                "en": "An option is the right but not the obligation to act. You take the good outcomes and walk away from the bad ones.",
+                "fa": "اختیار یعنی حقِ عمل کردن، بدون الزام به آن. نتایج خوب را برمی‌داری و از نتایج بد کنار می‌کشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p5",
+              "text": {
+                "en": "Options love volatility. The wider the range of outcomes, the more an option is worth, since you keep only the favourable ones.",
+                "fa": "اختیارها نوسان را دوست دارند. هرچه دامنهٔ نتایج گسترده‌تر باشد، اختیار ارزشمندتر است، چون فقط نتایج مطلوب را نگه می‌داری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k2",
+              "type": "tf",
+              "source": "b25c2l2p4",
+              "prompt": {
+                "en": "An option obliges you to act even when the outcome is bad.",
+                "fa": "اختیار تو را ملزم می‌کند حتی وقتی نتیجه بد است عمل کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p6",
+              "text": {
+                "en": "Trial and error with options beats planning. Each try costs little, failures stay small, and one success can pay for all of them.",
+                "fa": "آزمون و خطا همراه با اختیار از برنامه‌ریزی بهتر عمل می‌کند. هر تلاش هزینهٔ کمی دارد، شکست‌ها کوچک می‌مانند و یک موفقیت می‌تواند هزینهٔ همه را بپردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p7",
+              "text": {
+                "en": "Taleb's rational flâneur keeps options open and changes plans as he learns. The tourist follows a fixed itinerary even when better paths appear.",
+                "fa": "flâneur عاقلِ Taleb اختیارهایش را باز نگه می‌دارد و همان‌طور که یاد می‌گیرد برنامه‌اش را عوض می‌کند. توریست حتی وقتی راه‌های بهتری پیدا می‌شود، برنامهٔ سفر ثابتش را دنبال می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k3",
+              "type": "tap",
+              "source": "b25c2l2p7",
+              "prompt": {
+                "en": "Who keeps options open and changes plans as he learns?",
+                "fa": "چه کسی اختیارهایش را باز نگه می‌دارد و با یادگیری برنامه‌اش را عوض می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The tourist",
+                  "fa": "توریست"
+                },
+                {
+                  "en": "The central planner",
+                  "fa": "برنامه‌ریز مرکزی"
+                },
+                {
+                  "en": "The rational flâneur",
+                  "fa": "flâneur عاقل"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p8",
+              "text": {
+                "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. Jet engines and much of the Industrial Revolution came from tinkerers, not academics.",
+                "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. موتور جت و بخش بزرگی از انقلاب صنعتی حاصل کار تعمیرکاران و آزمایشگران بود، نه دانشگاهیان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p9",
+              "text": {
+                "en": "Academics then write the theory and take the credit, like lecturing birds on how to fly. Taleb calls this the Soviet-Harvard delusion.",
+                "fa": "سپس دانشگاهیان نظریه را می‌نویسند و اعتبارش را می‌برند، مثل درس پرواز دادن به پرندگان. Taleb این را توهم Soviet-Harvard می‌نامد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p10",
+              "text": {
+                "en": "The green lumber fallacy: Joe Siegel made a fortune trading green lumber while thinking it was painted green. It is simply freshly cut wood; what mattered was knowing the market.",
+                "fa": "مغالطهٔ green lumber: Joe Siegel با معاملهٔ «الوار سبز» ثروتی به دست آورد در حالی که فکر می‌کرد این الوار رنگ سبز خورده است. این فقط چوب تازه‌بریده است؛ آنچه اهمیت داشت شناخت بازار بود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k4",
+              "type": "tf",
+              "source": "b25c2l2p10",
+              "prompt": {
+                "en": "Joe Siegel needed to know what green lumber really was to trade it well.",
+                "fa": "Joe Siegel برای معاملهٔ خوب باید می‌دانست green lumber واقعاً چیست."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p11",
+              "text": {
+                "en": "For an AI product, write down the cost of each try in weekends and euros before you start. If the cost is small and the upside open, you hold an option.",
+                "fa": "برای یک محصول AI، پیش از شروع هزینهٔ هر تلاش را به آخر هفته و یورو بنویس. اگر هزینه کوچک و سود بی‌سقف باشد، یک اختیار در دست داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p12",
+              "text": {
+                "en": "Run several cheap experiments rather than betting everything on the one idea you are sure about. Let customers, not your forecast, pick the winner.",
+                "fa": "به‌جای اینکه همه‌چیز را روی تنها ایده‌ای که به آن مطمئنی شرط ببندی، چند آزمایش ارزان اجرا کن. بگذار مشتریان، نه پیش‌بینی تو، برنده را انتخاب کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k5",
+              "type": "tap",
+              "source": "b25c2l2p12",
+              "prompt": {
+                "en": "Who should pick the winning product idea?",
+                "fa": "چه کسی باید ایدهٔ برندهٔ محصول را انتخاب کند؟"
+              },
+              "options": [
+                {
+                  "en": "Your forecast",
+                  "fa": "پیش‌بینی تو"
+                },
+                {
+                  "en": "Customers",
+                  "fa": "مشتریان"
+                },
+                {
+                  "en": "An investor's spreadsheet",
+                  "fa": "صفحه‌گستردهٔ یک سرمایه‌گذار"
+                }
+              ],
+              "answer": 1
+            }
+          ]
         },
         {
-         "en": "He owned every olive farm",
-         "fa": "صاحب همهٔ باغ‌های زیتون بود"
+          "id": "b25c2l3",
+          "title": {
+            "en": "Via negativa and the Lindy effect",
+            "fa": "Via negativa و اثر Lindy"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Book V on size and Book VI on via negativa, time and medicine. It matters because removing a few harmful things often does more for your wealth and health than adding new ones.",
+                "fa": "این درس بخش پنجم دربارهٔ اندازه و بخش ششم دربارهٔ via negativa، زمان و پزشکی را خلاصه می‌کند. مهم است چون حذف چند چیز آسیب‌زا اغلب برای ثروت و سلامتت بیشتر از افزودن چیزهای تازه کار می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p2",
+              "text": {
+                "en": "Via negativa means improving by subtraction. Taleb argues we know far more about what is wrong than about what is right, so removing errors is the more robust path.",
+                "fa": "Via negativa یعنی بهتر شدن از راه حذف. Taleb استدلال می‌کند ما دربارهٔ آنچه غلط است خیلی بیشتر از آنچه درست است می‌دانیم، پس حذف خطاها راه استوارتری است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k1",
+              "type": "tf",
+              "source": "b25c2l3p2",
+              "prompt": {
+                "en": "Via negativa means improving by adding new fixes.",
+                "fa": "Via negativa یعنی بهتر شدن با افزودن راه‌حل‌های تازه."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p3",
+              "text": {
+                "en": "Subtraction carries less hidden harm than addition. Stop smoking and you gain a lot; add a new pill and you add unknown side effects.",
+                "fa": "حذف کردن آسیب پنهان کمتری از افزودن دارد. سیگار را ترک کنی، خیلی چیز به دست می‌آوری؛ قرص تازه‌ای اضافه کنی، عوارض ناشناخته اضافه کرده‌ای."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p4",
+              "text": {
+                "en": "In finance, via negativa means avoiding debt, leverage and products you do not understand. Not losing money matters more than finding the next winner.",
+                "fa": "در امور مالی، via negativa یعنی دوری از بدهی، اهرم و محصولاتی که نمی‌فهمی. پول از دست ندادن مهم‌تر از پیدا کردن برندهٔ بعدی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p5",
+              "text": {
+                "en": "Book V, on the large stone and the thousand pebbles, shows that fragility is nonlinear. A single 10 metre jump hurts far more than ten jumps of 1 metre.",
+                "fa": "بخش پنجم، با مثال سنگ بزرگ و هزار ریگ، نشان می‌دهد شکنندگی غیرخطی است. یک پرش ۱۰ متری خیلی بیشتر از ده پرش ۱ متری آسیب می‌زند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k2",
+              "type": "tap",
+              "source": "b25c2l3p5",
+              "prompt": {
+                "en": "Which hurts more, by Taleb's nonlinearity argument?",
+                "fa": "طبق استدلال غیرخطی بودن Taleb، کدام بیشتر آسیب می‌زند؟"
+              },
+              "options": [
+                {
+                  "en": "Ten jumps of 1 metre",
+                  "fa": "ده پرش ۱ متری"
+                },
+                {
+                  "en": "A single 10 metre jump",
+                  "fa": "یک پرش ۱۰ متری"
+                },
+                {
+                  "en": "They hurt the same",
+                  "fa": "هر دو به یک اندازه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p6",
+              "text": {
+                "en": "This is why size and debt make things fragile. A large, leveraged company is hurt by a shock far more than in proportion to its size.",
+                "fa": "برای همین است که اندازه و بدهی چیزها را شکننده می‌کنند. یک شرکت بزرگ و اهرمی از ضربه خیلی بیشتر از نسبت اندازه‌اش آسیب می‌بیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p7",
+              "text": {
+                "en": "The Lindy effect: for nonperishable things like books and ideas, every year they survive adds to their expected remaining life. A book in print for 50 years will probably last another 50.",
+                "fa": "اثر Lindy: برای چیزهای فسادناپذیر مثل کتاب و ایده، هر سالی که دوام می‌آورند به عمر باقی‌ماندهٔ مورد انتظارشان اضافه می‌کند. کتابی که ۵۰ سال چاپ شده احتمالاً ۵۰ سال دیگر هم دوام می‌آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k3",
+              "type": "tf",
+              "source": "b25c2l3p7",
+              "prompt": {
+                "en": "By the Lindy effect, an old book is likely to vanish sooner than a new one.",
+                "fa": "طبق اثر Lindy، یک کتاب قدیمی احتمالاً زودتر از کتاب تازه از بین می‌رود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p8",
+              "text": {
+                "en": "Taleb calls the love of the new neomania. Most new technology and fashionable ideas fade; what has lasted has already been tested by time.",
+                "fa": "Taleb عشق به چیزهای نو را neomania می‌نامد. بیشتر فناوری‌های تازه و ایده‌های مُد روز محو می‌شوند؛ آنچه دوام آورده پیش‌تر از آزمون زمان گذشته است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p9",
+              "text": {
+                "en": "In medicine, treat the very ill boldly and the mildly ill rarely. For a severe condition the benefits are large; for a mild one, iatrogenics can outweigh them.",
+                "fa": "در پزشکی، بیماران خیلی بدحال را جسورانه درمان کن و بیماران خفیف را به‌ندرت. در بیماری شدید فایده‌ها بزرگ‌اند؛ در بیماری خفیف، iatrogenics می‌تواند از آن‌ها سنگین‌تر باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p10",
+              "text": {
+                "en": "Taleb favours randomness in eating, including fasting, over steady daily meals. Occasional deprivation is a stressor the body responds to.",
+                "fa": "Taleb تصادف در غذا خوردن، از جمله روزه‌داری، را به وعده‌های ثابت روزانه ترجیح می‌دهد. محرومیت گاه‌به‌گاه فشاری است که بدن به آن پاسخ می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k4",
+              "type": "tap",
+              "source": "b25c2l3p9",
+              "prompt": {
+                "en": "Whom should medicine treat boldly, by Taleb's rule?",
+                "fa": "طبق قاعدهٔ Taleb، پزشکی چه کسانی را باید جسورانه درمان کند؟"
+              },
+              "options": [
+                {
+                  "en": "The very ill",
+                  "fa": "بیماران خیلی بدحال"
+                },
+                {
+                  "en": "The mildly ill",
+                  "fa": "بیماران خفیف"
+                },
+                {
+                  "en": "Everyone equally",
+                  "fa": "همه را به یک اندازه"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p11",
+              "text": {
+                "en": "Apply via negativa first: cut high-interest debt, delete the trading app and drop meetings that add nothing. Then decide what, if anything, to add.",
+                "fa": "اول via negativa را به کار ببند: بدهی پربهره را قطع کن، اپ معامله را پاک کن و جلسه‌های بی‌فایده را کنار بگذار. بعد تصمیم بگیر چه چیزی، اگر اصلاً لازم است، اضافه کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p12",
+              "text": {
+                "en": "For your reading hour, prefer books that have lasted decades over this year's bestsellers. By the Lindy effect, they are more likely to stay useful.",
+                "fa": "برای ساعت مطالعه‌ات، کتاب‌هایی را که دهه‌ها دوام آورده‌اند به پرفروش‌های امسال ترجیح بده. طبق اثر Lindy، احتمال اینکه مفید بمانند بیشتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k5",
+              "type": "tf",
+              "source": "b25c2l3p12",
+              "prompt": {
+                "en": "By the Lindy effect, books that have lasted decades are more likely to stay useful.",
+                "fa": "طبق اثر Lindy، کتاب‌هایی که دهه‌ها دوام آورده‌اند احتمال بیشتری دارد که مفید بمانند."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b25c2l4",
+          "title": {
+            "en": "Skin in the game",
+            "fa": "پوست در بازی (skin in the game)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b25c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Book VII on skin in the game and the ethics of fragility. It matters because the mentor, adviser and co-founders you pick should share your downside, in writing.",
+                "fa": "این درس بخش هفتم دربارهٔ پوست در بازی و اخلاقِ شکنندگی را خلاصه می‌کند. مهم است چون مربی، مشاور و هم‌بنیان‌گذارانی که انتخاب می‌کنی باید به‌طور مکتوب در زیانت شریک باشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p2",
+              "text": {
+                "en": "Skin in the game means bearing the consequences of your own decisions. Taleb's worst ethical problem is people who take the upside while others carry the downside.",
+                "fa": "پوست در بازی یعنی پذیرفتن پیامدهای تصمیم‌های خودت. بدترین مسئلهٔ اخلاقی از نظر Taleb کسانی‌اند که سود را برمی‌دارند و زیان را بر دوش دیگران می‌گذارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k1",
+              "type": "tap",
+              "source": "b25c2l4p2",
+              "prompt": {
+                "en": "What does skin in the game mean?",
+                "fa": "پوست در بازی یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Bearing the consequences of your own decisions",
+                  "fa": "پذیرفتن پیامدهای تصمیم‌های خودت"
+                },
+                {
+                  "en": "Giving advice to many people",
+                  "fa": "نصیحت کردن به آدم‌های زیاد"
+                },
+                {
+                  "en": "Avoiding all personal risk",
+                  "fa": "دوری از هر ریسک شخصی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p3",
+              "text": {
+                "en": "Hammurabi's code, about 3,800 years old, said that if a house collapsed and killed its owner, the builder would be put to death. Builders had every reason to build well.",
+                "fa": "قانون Hammurabi، با حدود ۳۸۰۰ سال قدمت، می‌گفت اگر خانه‌ای فرو بریزد و صاحبش را بکشد، سازنده اعدام می‌شود. سازندگان همهٔ دلایل را داشتند که خوب بسازند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p4",
+              "text": {
+                "en": "Modern systems often break this link. Bankers can take large bonuses in good years while taxpayers absorb the losses in a crisis.",
+                "fa": "سیستم‌های مدرن اغلب این پیوند را می‌شکنند. بانکداران در سال‌های خوب پاداش‌های کلان می‌گیرند و در بحران مالیات‌دهندگان زیان را جذب می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p5",
+              "text": {
+                "en": "Taleb's example is Robert Rubin, who earned more than $100 million from Citigroup in the decade before 2008. When the bank needed a bailout, he kept the money.",
+                "fa": "مثال Taleb، Robert Rubin است که در دههٔ پیش از ۲۰۰۸ بیش از ۱۰۰ میلیون دلار از Citigroup درآمد داشت. وقتی بانک به نجات دولتی نیاز پیدا کرد، او پول را نگه داشت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k2",
+              "type": "tf",
+              "source": "b25c2l4p5",
+              "prompt": {
+                "en": "In Taleb's example, Robert Rubin returned his pay when Citigroup needed a bailout.",
+                "fa": "در مثال Taleb، Robert Rubin وقتی Citigroup به نجات نیاز داشت دستمزدش را پس داد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p6",
+              "text": {
+                "en": "Taleb's rule for advice: do not tell me what you think, tell me what is in your portfolio. Opinions without exposure are cheap.",
+                "fa": "قاعدهٔ Taleb برای نصیحت: نگو چه فکر می‌کنی، بگو در سبد سرمایه‌ات چه داری. نظر بدون درگیری در ریسک ارزان است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p7",
+              "text": {
+                "en": "Forecasters, consultants and pundits who never pay for errors keep making them. People with skin in the game learn fast or leave the game.",
+                "fa": "پیش‌بینان، مشاوران و کارشناسانی که هرگز تاوان خطا نمی‌دهند، مدام تکرارش می‌کنند. کسانی که پوست در بازی دارند یا سریع یاد می‌گیرند یا از بازی بیرون می‌روند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k3",
+              "type": "tap",
+              "source": "b25c2l4p6",
+              "prompt": {
+                "en": "What does Taleb ask advisers to show him?",
+                "fa": "Taleb از مشاوران می‌خواهد چه چیزی را نشانش دهند؟"
+              },
+              "options": [
+                {
+                  "en": "Your forecast for next year",
+                  "fa": "پیش‌بینی‌شان برای سال آینده"
+                },
+                {
+                  "en": "What is in your portfolio",
+                  "fa": "آنچه در سبد سرمایه‌شان است"
+                },
+                {
+                  "en": "Your list of credentials",
+                  "fa": "فهرست مدرک‌هایشان"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p8",
+              "text": {
+                "en": "At the top Taleb places those with soul in the game, who take risks for others. At the bottom are those who keep the upside and hand others the downside.",
+                "fa": "Taleb در بالاترین جایگاه کسانی را می‌گذارد که روحشان در بازی است و برای دیگران ریسک می‌کنند. در پایین‌ترین جایگاه کسانی‌اند که سود را نگه می‌دارند و زیان را به دیگران می‌سپارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p9",
+              "text": {
+                "en": "Entrepreneurs who risk their own money and fail still serve the system. Taleb respects them far more than planners who risk nothing.",
+                "fa": "کارآفرینانی که پول خودشان را به خطر می‌اندازند و شکست می‌خورند باز هم به سیستم خدمت می‌کنند. Taleb برایشان خیلی بیشتر از برنامه‌ریزانی که هیچ ریسکی نمی‌کنند احترام قائل است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p10",
+              "text": {
+                "en": "Antifragility for some can come at the expense of others. A system is fair only when those who gain from volatility also pay when it turns against them.",
+                "fa": "ضدشکنندگی برخی می‌تواند به هزینهٔ دیگران باشد. سیستمی منصفانه است که کسانی که از نوسان سود می‌برند، وقتی نوسان علیهشان شد تاوانش را هم بدهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k4",
+              "type": "tf",
+              "source": "b25c2l4p10",
+              "prompt": {
+                "en": "Taleb wants those who gain from volatility to also pay when it turns against them.",
+                "fa": "Taleb می‌خواهد کسانی که از نوسان سود می‌برند، وقتی علیهشان شد تاوانش را هم بدهند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p11",
+              "text": {
+                "en": "Choose a mentor who has built and owned something, not one who only sells courses. Their scars carry information that advice without exposure lacks.",
+                "fa": "مربی‌ای انتخاب کن که چیزی ساخته و مالکش بوده، نه کسی که فقط دوره می‌فروشد. زخم‌های او اطلاعاتی دارند که نصیحتِ بدون ریسک ندارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p12",
+              "text": {
+                "en": "In a startup, skin in the game is written down: a cap table, vesting for every founder, and your own capital or time at risk. Ignore advice from anyone who loses nothing if it fails.",
+                "fa": "در استارتاپ، پوست در بازی مکتوب است: یک cap table، vesting برای هر بنیان‌گذار، و سرمایه یا زمان خودت در معرض ریسک. نصیحت کسی را که اگر شکست بخورد چیزی از دست نمی‌دهد نادیده بگیر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k5",
+              "type": "tap",
+              "source": "b25c2l4p12",
+              "prompt": {
+                "en": "Where is skin in the game written down in a startup?",
+                "fa": "در استارتاپ، پوست در بازی کجا مکتوب می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "In a press release",
+                  "fa": "در یک بیانیهٔ خبری"
+                },
+                {
+                  "en": "A cap table and vesting",
+                  "fa": "یک cap table و vesting"
+                },
+                {
+                  "en": "In a pitch deck",
+                  "fa": "در یک pitch deck"
+                }
+              ],
+              "answer": 1
+            }
+          ]
         }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p4",
-       "text": {
-        "en": "An option is the right but not the obligation to act. You take the good outcomes and walk away from the bad ones.",
-        "fa": "اختیار یعنی حقِ عمل کردن، بدون الزام به آن. نتایج خوب را برمی‌داری و از نتایج بد کنار می‌کشی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p5",
-       "text": {
-        "en": "Options love volatility. The wider the range of outcomes, the more an option is worth, since you keep only the favourable ones.",
-        "fa": "اختیارها نوسان را دوست دارند. هرچه دامنهٔ نتایج گسترده‌تر باشد، اختیار ارزشمندتر است، چون فقط نتایج مطلوب را نگه می‌داری."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l2k2",
-       "type": "tf",
-       "source": "b25c2l2p4",
-       "prompt": {
-        "en": "An option obliges you to act even when the outcome is bad.",
-        "fa": "اختیار تو را ملزم می‌کند حتی وقتی نتیجه بد است عمل کنی."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p6",
-       "text": {
-        "en": "Trial and error with options beats planning. Each try costs little, failures stay small, and one success can pay for all of them.",
-        "fa": "آزمون و خطا همراه با اختیار از برنامه‌ریزی بهتر عمل می‌کند. هر تلاش هزینهٔ کمی دارد، شکست‌ها کوچک می‌مانند و یک موفقیت می‌تواند هزینهٔ همه را بپردازد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p7",
-       "text": {
-        "en": "Taleb's rational flâneur keeps options open and changes plans as he learns. The tourist follows a fixed itinerary even when better paths appear.",
-        "fa": "flâneur عاقلِ Taleb اختیارهایش را باز نگه می‌دارد و همان‌طور که یاد می‌گیرد برنامه‌اش را عوض می‌کند. توریست حتی وقتی راه‌های بهتری پیدا می‌شود، برنامهٔ سفر ثابتش را دنبال می‌کند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l2k3",
-       "type": "tap",
-       "source": "b25c2l2p7",
-       "prompt": {
-        "en": "Who keeps options open and changes plans as he learns?",
-        "fa": "چه کسی اختیارهایش را باز نگه می‌دارد و با یادگیری برنامه‌اش را عوض می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "The tourist",
-         "fa": "توریست"
-        },
-        {
-         "en": "The central planner",
-         "fa": "برنامه‌ریز مرکزی"
-        },
-        {
-         "en": "The rational flâneur",
-         "fa": "flâneur عاقل"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p8",
-       "text": {
-        "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. Jet engines and much of the Industrial Revolution came from tinkerers, not academics.",
-        "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. موتور جت و بخش بزرگی از انقلاب صنعتی حاصل کار تعمیرکاران و آزمایشگران بود، نه دانشگاهیان."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p9",
-       "text": {
-        "en": "Academics then write the theory and take the credit, like lecturing birds on how to fly. Taleb calls this the Soviet-Harvard delusion.",
-        "fa": "سپس دانشگاهیان نظریه را می‌نویسند و اعتبارش را می‌برند، مثل درس پرواز دادن به پرندگان. Taleb این را توهم Soviet-Harvard می‌نامد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p10",
-       "text": {
-        "en": "The green lumber fallacy: Joe Siegel made a fortune trading green lumber while thinking it was painted green. It is simply freshly cut wood; what mattered was knowing the market.",
-        "fa": "مغالطهٔ green lumber: Joe Siegel با معاملهٔ «الوار سبز» ثروتی به دست آورد در حالی که فکر می‌کرد این الوار رنگ سبز خورده است. این فقط چوب تازه‌بریده است؛ آنچه اهمیت داشت شناخت بازار بود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l2k4",
-       "type": "tf",
-       "source": "b25c2l2p10",
-       "prompt": {
-        "en": "Joe Siegel needed to know what green lumber really was to trade it well.",
-        "fa": "Joe Siegel برای معاملهٔ خوب باید می‌دانست green lumber واقعاً چیست."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p11",
-       "text": {
-        "en": "For an AI product, write down the cost of each try in weekends and euros before you start. If the cost is small and the upside open, you hold an option.",
-        "fa": "برای یک محصول AI، پیش از شروع هزینهٔ هر تلاش را به آخر هفته و یورو بنویس. اگر هزینه کوچک و سود بی‌سقف باشد، یک اختیار در دست داری."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l2p12",
-       "text": {
-        "en": "Run several cheap experiments rather than betting everything on the one idea you are sure about. Let customers, not your forecast, pick the winner.",
-        "fa": "به‌جای اینکه همه‌چیز را روی تنها ایده‌ای که به آن مطمئنی شرط ببندی، چند آزمایش ارزان اجرا کن. بگذار مشتریان، نه پیش‌بینی تو، برنده را انتخاب کنند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l2k5",
-       "type": "tap",
-       "source": "b25c2l2p12",
-       "prompt": {
-        "en": "Who should pick the winning product idea?",
-        "fa": "چه کسی باید ایدهٔ برندهٔ محصول را انتخاب کند؟"
-       },
-       "options": [
-        {
-         "en": "Your forecast",
-         "fa": "پیش‌بینی تو"
-        },
-        {
-         "en": "Customers",
-         "fa": "مشتریان"
-        },
-        {
-         "en": "An investor's spreadsheet",
-         "fa": "صفحه‌گستردهٔ یک سرمایه‌گذار"
-        }
-       ],
-       "answer": 1
-      }
-     ]
-    },
-    {
-     "id": "b25c2l3",
-     "title": {
-      "en": "Via negativa and the Lindy effect",
-      "fa": "Via negativa و اثر Lindy"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c2l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Book V on size and Book VI on via negativa, time and medicine. It matters because removing a few harmful things often does more for your wealth and health than adding new ones.",
-        "fa": "این درس بخش پنجم دربارهٔ اندازه و بخش ششم دربارهٔ via negativa، زمان و پزشکی را خلاصه می‌کند. مهم است چون حذف چند چیز آسیب‌زا اغلب برای ثروت و سلامتت بیشتر از افزودن چیزهای تازه کار می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p2",
-       "text": {
-        "en": "Via negativa means improving by subtraction. Taleb argues we know far more about what is wrong than about what is right, so removing errors is the more robust path.",
-        "fa": "Via negativa یعنی بهتر شدن از راه حذف. Taleb استدلال می‌کند ما دربارهٔ آنچه غلط است خیلی بیشتر از آنچه درست است می‌دانیم، پس حذف خطاها راه استوارتری است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l3k1",
-       "type": "tf",
-       "source": "b25c2l3p2",
-       "prompt": {
-        "en": "Via negativa means improving by adding new fixes.",
-        "fa": "Via negativa یعنی بهتر شدن با افزودن راه‌حل‌های تازه."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p3",
-       "text": {
-        "en": "Subtraction carries less hidden harm than addition. Stop smoking and you gain a lot; add a new pill and you add unknown side effects.",
-        "fa": "حذف کردن آسیب پنهان کمتری از افزودن دارد. سیگار را ترک کنی، خیلی چیز به دست می‌آوری؛ قرص تازه‌ای اضافه کنی، عوارض ناشناخته اضافه کرده‌ای."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p4",
-       "text": {
-        "en": "In finance, via negativa means avoiding debt, leverage and products you do not understand. Not losing money matters more than finding the next winner.",
-        "fa": "در امور مالی، via negativa یعنی دوری از بدهی، اهرم و محصولاتی که نمی‌فهمی. پول از دست ندادن مهم‌تر از پیدا کردن برندهٔ بعدی است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p5",
-       "text": {
-        "en": "Book V, on the large stone and the thousand pebbles, shows that fragility is nonlinear. A single 10 metre jump hurts far more than ten jumps of 1 metre.",
-        "fa": "بخش پنجم، با مثال سنگ بزرگ و هزار ریگ، نشان می‌دهد شکنندگی غیرخطی است. یک پرش ۱۰ متری خیلی بیشتر از ده پرش ۱ متری آسیب می‌زند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l3k2",
-       "type": "tap",
-       "source": "b25c2l3p5",
-       "prompt": {
-        "en": "Which hurts more, by Taleb's nonlinearity argument?",
-        "fa": "طبق استدلال غیرخطی بودن Taleb، کدام بیشتر آسیب می‌زند؟"
-       },
-       "options": [
-        {
-         "en": "Ten jumps of 1 metre",
-         "fa": "ده پرش ۱ متری"
-        },
-        {
-         "en": "A single 10 metre jump",
-         "fa": "یک پرش ۱۰ متری"
-        },
-        {
-         "en": "They hurt the same",
-         "fa": "هر دو به یک اندازه"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p6",
-       "text": {
-        "en": "This is why size and debt make things fragile. A large, leveraged company is hurt by a shock far more than in proportion to its size.",
-        "fa": "برای همین است که اندازه و بدهی چیزها را شکننده می‌کنند. یک شرکت بزرگ و اهرمی از ضربه خیلی بیشتر از نسبت اندازه‌اش آسیب می‌بیند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p7",
-       "text": {
-        "en": "The Lindy effect: for nonperishable things like books and ideas, every year they survive adds to their expected remaining life. A book in print for 50 years will probably last another 50.",
-        "fa": "اثر Lindy: برای چیزهای فسادناپذیر مثل کتاب و ایده، هر سالی که دوام می‌آورند به عمر باقی‌ماندهٔ مورد انتظارشان اضافه می‌کند. کتابی که ۵۰ سال چاپ شده احتمالاً ۵۰ سال دیگر هم دوام می‌آورد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l3k3",
-       "type": "tf",
-       "source": "b25c2l3p7",
-       "prompt": {
-        "en": "By the Lindy effect, an old book is likely to vanish sooner than a new one.",
-        "fa": "طبق اثر Lindy، یک کتاب قدیمی احتمالاً زودتر از کتاب تازه از بین می‌رود."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p8",
-       "text": {
-        "en": "Taleb calls the love of the new neomania. Most new technology and fashionable ideas fade; what has lasted has already been tested by time.",
-        "fa": "Taleb عشق به چیزهای نو را neomania می‌نامد. بیشتر فناوری‌های تازه و ایده‌های مُد روز محو می‌شوند؛ آنچه دوام آورده پیش‌تر از آزمون زمان گذشته است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p9",
-       "text": {
-        "en": "In medicine, treat the very ill boldly and the mildly ill rarely. For a severe condition the benefits are large; for a mild one, iatrogenics can outweigh them.",
-        "fa": "در پزشکی، بیماران خیلی بدحال را جسورانه درمان کن و بیماران خفیف را به‌ندرت. در بیماری شدید فایده‌ها بزرگ‌اند؛ در بیماری خفیف، iatrogenics می‌تواند از آن‌ها سنگین‌تر باشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p10",
-       "text": {
-        "en": "Taleb favours randomness in eating, including fasting, over steady daily meals. Occasional deprivation is a stressor the body responds to.",
-        "fa": "Taleb تصادف در غذا خوردن، از جمله روزه‌داری، را به وعده‌های ثابت روزانه ترجیح می‌دهد. محرومیت گاه‌به‌گاه فشاری است که بدن به آن پاسخ می‌دهد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l3k4",
-       "type": "tap",
-       "source": "b25c2l3p9",
-       "prompt": {
-        "en": "Whom should medicine treat boldly, by Taleb's rule?",
-        "fa": "طبق قاعدهٔ Taleb، پزشکی چه کسانی را باید جسورانه درمان کند؟"
-       },
-       "options": [
-        {
-         "en": "The very ill",
-         "fa": "بیماران خیلی بدحال"
-        },
-        {
-         "en": "The mildly ill",
-         "fa": "بیماران خفیف"
-        },
-        {
-         "en": "Everyone equally",
-         "fa": "همه را به یک اندازه"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p11",
-       "text": {
-        "en": "Apply via negativa first: cut high-interest debt, delete the trading app and drop meetings that add nothing. Then decide what, if anything, to add.",
-        "fa": "اول via negativa را به کار ببند: بدهی پربهره را قطع کن، اپ معامله را پاک کن و جلسه‌های بی‌فایده را کنار بگذار. بعد تصمیم بگیر چه چیزی، اگر اصلاً لازم است، اضافه کنی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l3p12",
-       "text": {
-        "en": "For your reading hour, prefer books that have lasted decades over this year's bestsellers. By the Lindy effect, they are more likely to stay useful.",
-        "fa": "برای ساعت مطالعه‌ات، کتاب‌هایی را که دهه‌ها دوام آورده‌اند به پرفروش‌های امسال ترجیح بده. طبق اثر Lindy، احتمال اینکه مفید بمانند بیشتر است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l3k5",
-       "type": "tf",
-       "source": "b25c2l3p12",
-       "prompt": {
-        "en": "By the Lindy effect, books that have lasted decades are more likely to stay useful.",
-        "fa": "طبق اثر Lindy، کتاب‌هایی که دهه‌ها دوام آورده‌اند احتمال بیشتری دارد که مفید بمانند."
-       },
-       "answer": true
-      }
-     ]
-    },
-    {
-     "id": "b25c2l4",
-     "title": {
-      "en": "Skin in the game",
-      "fa": "پوست در بازی (skin in the game)"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b25c2l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils Book VII on skin in the game and the ethics of fragility. It matters because the mentor, adviser and co-founders you pick should share your downside, in writing.",
-        "fa": "این درس بخش هفتم دربارهٔ پوست در بازی و اخلاقِ شکنندگی را خلاصه می‌کند. مهم است چون مربی، مشاور و هم‌بنیان‌گذارانی که انتخاب می‌کنی باید به‌طور مکتوب در زیانت شریک باشند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p2",
-       "text": {
-        "en": "Skin in the game means bearing the consequences of your own decisions. Taleb's worst ethical problem is people who take the upside while others carry the downside.",
-        "fa": "پوست در بازی یعنی پذیرفتن پیامدهای تصمیم‌های خودت. بدترین مسئلهٔ اخلاقی از نظر Taleb کسانی‌اند که سود را برمی‌دارند و زیان را بر دوش دیگران می‌گذارند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l4k1",
-       "type": "tap",
-       "source": "b25c2l4p2",
-       "prompt": {
-        "en": "What does skin in the game mean?",
-        "fa": "پوست در بازی یعنی چه؟"
-       },
-       "options": [
-        {
-         "en": "Bearing the consequences of your own decisions",
-         "fa": "پذیرفتن پیامدهای تصمیم‌های خودت"
-        },
-        {
-         "en": "Giving advice to many people",
-         "fa": "نصیحت کردن به آدم‌های زیاد"
-        },
-        {
-         "en": "Avoiding all personal risk",
-         "fa": "دوری از هر ریسک شخصی"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p3",
-       "text": {
-        "en": "Hammurabi's code, about 3,800 years old, said that if a house collapsed and killed its owner, the builder would be put to death. Builders had every reason to build well.",
-        "fa": "قانون Hammurabi، با حدود ۳۸۰۰ سال قدمت، می‌گفت اگر خانه‌ای فرو بریزد و صاحبش را بکشد، سازنده اعدام می‌شود. سازندگان همهٔ دلایل را داشتند که خوب بسازند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p4",
-       "text": {
-        "en": "Modern systems often break this link. Bankers can take large bonuses in good years while taxpayers absorb the losses in a crisis.",
-        "fa": "سیستم‌های مدرن اغلب این پیوند را می‌شکنند. بانکداران در سال‌های خوب پاداش‌های کلان می‌گیرند و در بحران مالیات‌دهندگان زیان را جذب می‌کنند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p5",
-       "text": {
-        "en": "Taleb's example is Robert Rubin, who earned more than $100 million from Citigroup in the decade before 2008. When the bank needed a bailout, he kept the money.",
-        "fa": "مثال Taleb، Robert Rubin است که در دههٔ پیش از ۲۰۰۸ بیش از ۱۰۰ میلیون دلار از Citigroup درآمد داشت. وقتی بانک به نجات دولتی نیاز پیدا کرد، او پول را نگه داشت."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l4k2",
-       "type": "tf",
-       "source": "b25c2l4p5",
-       "prompt": {
-        "en": "In Taleb's example, Robert Rubin returned his pay when Citigroup needed a bailout.",
-        "fa": "در مثال Taleb، Robert Rubin وقتی Citigroup به نجات نیاز داشت دستمزدش را پس داد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p6",
-       "text": {
-        "en": "Taleb's rule for advice: do not tell me what you think, tell me what is in your portfolio. Opinions without exposure are cheap.",
-        "fa": "قاعدهٔ Taleb برای نصیحت: نگو چه فکر می‌کنی، بگو در سبد سرمایه‌ات چه داری. نظر بدون درگیری در ریسک ارزان است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p7",
-       "text": {
-        "en": "Forecasters, consultants and pundits who never pay for errors keep making them. People with skin in the game learn fast or leave the game.",
-        "fa": "پیش‌بینان، مشاوران و کارشناسانی که هرگز تاوان خطا نمی‌دهند، مدام تکرارش می‌کنند. کسانی که پوست در بازی دارند یا سریع یاد می‌گیرند یا از بازی بیرون می‌روند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l4k3",
-       "type": "tap",
-       "source": "b25c2l4p6",
-       "prompt": {
-        "en": "What does Taleb ask advisers to show him?",
-        "fa": "Taleb از مشاوران می‌خواهد چه چیزی را نشانش دهند؟"
-       },
-       "options": [
-        {
-         "en": "Your forecast for next year",
-         "fa": "پیش‌بینی‌شان برای سال آینده"
-        },
-        {
-         "en": "What is in your portfolio",
-         "fa": "آنچه در سبد سرمایه‌شان است"
-        },
-        {
-         "en": "Your list of credentials",
-         "fa": "فهرست مدرک‌هایشان"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p8",
-       "text": {
-        "en": "At the top Taleb places those with soul in the game, who take risks for others. At the bottom are those who keep the upside and hand others the downside.",
-        "fa": "Taleb در بالاترین جایگاه کسانی را می‌گذارد که روحشان در بازی است و برای دیگران ریسک می‌کنند. در پایین‌ترین جایگاه کسانی‌اند که سود را نگه می‌دارند و زیان را به دیگران می‌سپارند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p9",
-       "text": {
-        "en": "Entrepreneurs who risk their own money and fail still serve the system. Taleb respects them far more than planners who risk nothing.",
-        "fa": "کارآفرینانی که پول خودشان را به خطر می‌اندازند و شکست می‌خورند باز هم به سیستم خدمت می‌کنند. Taleb برایشان خیلی بیشتر از برنامه‌ریزانی که هیچ ریسکی نمی‌کنند احترام قائل است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p10",
-       "text": {
-        "en": "Antifragility for some can come at the expense of others. A system is fair only when those who gain from volatility also pay when it turns against them.",
-        "fa": "ضدشکنندگی برخی می‌تواند به هزینهٔ دیگران باشد. سیستمی منصفانه است که کسانی که از نوسان سود می‌برند، وقتی نوسان علیهشان شد تاوانش را هم بدهند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l4k4",
-       "type": "tf",
-       "source": "b25c2l4p10",
-       "prompt": {
-        "en": "Taleb wants those who gain from volatility to also pay when it turns against them.",
-        "fa": "Taleb می‌خواهد کسانی که از نوسان سود می‌برند، وقتی علیهشان شد تاوانش را هم بدهند."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p11",
-       "text": {
-        "en": "Choose a mentor who has built and owned something, not one who only sells courses. Their scars carry information that advice without exposure lacks.",
-        "fa": "مربی‌ای انتخاب کن که چیزی ساخته و مالکش بوده، نه کسی که فقط دوره می‌فروشد. زخم‌های او اطلاعاتی دارند که نصیحتِ بدون ریسک ندارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b25c2l4p12",
-       "text": {
-        "en": "In a startup, skin in the game is written down: a cap table, vesting for every founder, and your own capital or time at risk. Ignore advice from anyone who loses nothing if it fails.",
-        "fa": "در استارتاپ، پوست در بازی مکتوب است: یک cap table، vesting برای هر بنیان‌گذار، و سرمایه یا زمان خودت در معرض ریسک. نصیحت کسی را که اگر شکست بخورد چیزی از دست نمی‌دهد نادیده بگیر."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b25c2l4k5",
-       "type": "tap",
-       "source": "b25c2l4p12",
-       "prompt": {
-        "en": "Where is skin in the game written down in a startup?",
-        "fa": "در استارتاپ، پوست در بازی کجا مکتوب می‌شود؟"
-       },
-       "options": [
-        {
-         "en": "In a press release",
-         "fa": "در یک بیانیهٔ خبری"
-        },
-        {
-         "en": "A cap table and vesting",
-         "fa": "یک cap table و vesting"
-        },
-        {
-         "en": "In a pitch deck",
-         "fa": "در یک pitch deck"
-        }
-       ],
-       "answer": 1
-      }
-     ]
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

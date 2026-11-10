@@ -1,1876 +1,1876 @@
 {
- "id": "b12",
- "title": "Berkshire Hathaway Shareholder Letters (free)",
- "author": {
-  "en": "Warren Buffett",
-  "fa": "Warren Buffett"
- },
- "year": 1977,
- "stage": 3,
- "must": true,
- "why": {
-  "en": "The best business lesson in the world, free",
-  "fa": "بهترین درس کسب‌وکار دنیا، مجانی"
- },
- "badge": {
-  "en": "Circle of Competence",
-  "fa": "دایرهٔ صلاحیت"
- },
- "tier": "mid",
- "circles": [
-  {
-   "id": "b12c1",
-   "title": {
-    "en": "Think like a business owner",
-    "fa": "مثل مالک یک کسب‌وکار فکر کن"
-   },
-   "lessons": [
-    {
-     "id": "b12c1l1",
-     "title": {
-      "en": "What Berkshire buys: owner earnings",
-      "fa": "Berkshire چه می‌خرد: سود مالکانه"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c1l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on what Berkshire buys and how it measures a business. It matters because every share or startup stake you take is a slice of a real business.",
-        "fa": "این درس نامه‌هایی را خلاصه می‌کند که می‌گویند Berkshire چه می‌خرد و یک کسب‌وکار را چطور می‌سنجد. مهم است چون هر سهم یا سهم استارتاپی که برمی‌داری تکه‌ای از یک کسب‌وکار واقعی است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p2",
-       "text": {
-        "en": "Buffett's 1977 letter lists what Berkshire wants: a business it understands, with favorable long-term prospects, run by honest and competent people, at a very attractive price.",
-        "fa": "نامهٔ ۱۹۷۷ فهرست می‌کند Berkshire چه می‌خواهد: کسب‌وکاری که می‌فهمد، با چشم‌انداز بلندمدت مطلوب، با مدیرانی درستکار و توانا، و با قیمتی بسیار جذاب."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l1k1",
-       "type": "tap",
-       "source": "b12c1l1p2",
-       "prompt": {
-        "en": "Which is one of Berkshire's buying tests from 1977?",
-        "fa": "کدام یکی از آزمون‌های خرید Berkshire در ۱۹۷۷ است؟"
-       },
-       "options": [
-        {
-         "en": "Run by honest and competent people",
-         "fa": "اداره‌شده با مدیرانی درستکار و توانا"
-        },
-        {
-         "en": "A stock that rose fast last year",
-         "fa": "سهمی که پارسال سریع بالا رفت"
-        },
-        {
-         "en": "A company with celebrity backers",
-         "fa": "شرکتی با حامیان مشهور"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p3",
-       "text": {
-        "en": "Buffett treats a stock as a part interest in a business, not a ticker that wiggles. An owner asks what the whole business will earn, not what the quote will do next week.",
-        "fa": "Buffett سهم را بخشی از مالکیت یک کسب‌وکار می‌داند، نه نمادی که بالا و پایین می‌پرد. مالک می‌پرسد کل کسب‌وکار چقدر سود می‌سازد، نه اینکه قیمت هفتهٔ بعد چه می‌شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p4",
-       "text": {
-        "en": "In the 1986 letter he defines owner earnings: reported earnings plus depreciation and other non-cash charges, minus the capital spending needed to keep the business competitive.",
-        "fa": "در نامهٔ ۱۹۸۶ سود مالکانه را تعریف می‌کند: سود گزارش‌شده به‌علاوهٔ استهلاک و دیگر هزینه‌های غیرنقدی، منهای مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l1k2",
-       "type": "tf",
-       "source": "b12c1l1p4",
-       "prompt": {
-        "en": "Owner earnings subtract the capital spending needed to keep a business competitive.",
-        "fa": "در سود مالکانه، مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار کم می‌شود."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p5",
-       "text": {
-        "en": "He admits the capital spending figure must be a guess. Still, he argues owner earnings, not the deceptively precise accounting figure, is what matters for valuation.",
-        "fa": "خودش می‌پذیرد که رقم مخارج سرمایه‌ای باید تخمینی باشد. با این حال می‌گوید برای ارزش‌گذاری، سود مالکانه مهم است، نه رقم حسابداری‌ای که فریبنده دقیق به نظر می‌رسد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p6",
-       "text": {
-        "en": "In the 2000 letter he says talk of EBITDA makes him shudder, and asks whether management thinks the tooth fairy pays for capital spending.",
-        "fa": "در نامهٔ ۲۰۰۰ می‌گوید حرف زدن از EBITDA تنش را می‌لرزاند، و می‌پرسد آیا مدیران فکر می‌کنند پری دندان هزینهٔ مخارج سرمایه‌ای را می‌دهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p7",
-       "text": {
-        "en": "Some businesses report profits yet must reinvest nearly all of them just to stand still. Their owner earnings are far smaller than the headline number suggests.",
-        "fa": "بعضی کسب‌وکارها سود گزارش می‌کنند اما باید تقریباً همه‌اش را دوباره خرج کنند تا فقط سر جایشان بمانند. سود مالکانهٔ آن‌ها خیلی کمتر از عدد تیتر است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l1k3",
-       "type": "tap",
-       "source": "b12c1l1p6",
-       "prompt": {
-        "en": "What does Buffett mock about EBITDA in the 2000 letter?",
-        "fa": "Buffett در نامهٔ ۲۰۰۰ چه چیزی از EBITDA را مسخره می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "It ignores marketing costs",
-         "fa": "هزینه‌های بازاریابی را نادیده می‌گیرد"
-        },
-        {
-         "en": "It counts dividends twice",
-         "fa": "سود تقسیمی را دو بار حساب می‌کند"
-        },
-        {
-         "en": "As if the tooth fairy pays for capital spending",
-         "fa": "انگار پری دندان هزینهٔ مخارج سرمایه‌ای را می‌دهد"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p8",
-       "text": {
-        "en": "In the 1989 letter Buffett reviews mistakes of his first 25 years, starting with cigar butt investing: buying a poor business cheaply for one last free puff.",
-        "fa": "در نامهٔ ۱۹۸۹ Buffett اشتباهات ۲۵ سال اولش را مرور می‌کند و از سرمایه‌گذاری «ته‌سیگاری» شروع می‌کند: خریدن ارزان یک کسب‌وکار ضعیف برای یک پک مجانی آخر."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p9",
-       "text": {
-        "en": "His conclusion: it is far better to buy a wonderful company at a fair price than a fair company at a wonderful price. Charlie Munger saw this early; Buffett calls himself a slow learner.",
-        "fa": "نتیجه‌اش: خیلی بهتر است یک شرکت عالی را به قیمت منصفانه بخری تا یک شرکت معمولی را به قیمت عالی. Charlie Munger این را زود فهمید؛ Buffett خودش را شاگرد کندی می‌نامد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l1k4",
-       "type": "tf",
-       "source": "b12c1l1p9",
-       "prompt": {
-        "en": "Buffett concluded it is better to buy a fair company at a wonderful price.",
-        "fa": "Buffett نتیجه گرفت بهتر است یک شرکت معمولی را به قیمت عالی بخری."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p10",
-       "text": {
-        "en": "A bargain price wears off fast, he warns, because time is the friend of the wonderful business and the enemy of the mediocre one.",
-        "fa": "هشدار می‌دهد که مزیت قیمت ارزان زود از بین می‌رود، چون زمان دوست کسب‌وکار عالی و دشمن کسب‌وکار متوسط است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p11",
-       "text": {
-        "en": "Apply it to your own small AI product: its owner earnings are the cash it brings in minus the hosting, API and tool spend needed to keep it competitive.",
-        "fa": "این را روی محصول کوچک AI خودت به کار ببر: سود مالکانه‌اش نقدی است که می‌آورد منهای هزینهٔ هاستینگ، API و ابزارهایی که برای رقابتی ماندنش لازم است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l1k5",
-       "type": "tap",
-       "source": "b12c1l1p11",
-       "prompt": {
-        "en": "Using owner earnings, what do you subtract from your product's cash?",
-        "fa": "با منطق سود مالکانه، از نقد محصولت چه چیزی کم می‌کنی؟"
-       },
-       "options": [
-        {
-         "en": "Only the income tax you expect",
-         "fa": "فقط مالیات بر درآمدی که انتظار داری"
-        },
-        {
-         "en": "Hosting, API and tool spend needed to keep it competitive",
-         "fa": "هزینهٔ هاستینگ، API و ابزار لازم برای رقابتی ماندنش"
-        },
-        {
-         "en": "Nothing, revenue is all the owner's money",
-         "fa": "هیچ، کل درآمد پول مالک است"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l1p12",
-       "text": {
-        "en": "In the 1990s letters he adds look-through earnings: Berkshire's share of the retained profits of companies it partly owns counts too, though accounting leaves it out.",
-        "fa": "در نامه‌های دههٔ ۱۹۹۰ «سود نگاه‌ازپشت» را اضافه می‌کند: سهم Berkshire از سود انباشتهٔ شرکت‌هایی که بخشی از آن‌ها را دارد هم حساب است، هرچند حسابداری آن را کنار می‌گذارد."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c1l2",
-     "title": {
-      "en": "Moats: castles worth owning",
-      "fa": "خندق‌ها: قلعه‌هایی که ارزش داشتن دارند"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c1l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on moats, above all the 2007 letter on great, good and gruesome businesses. It matters because a startup you join or build needs something rivals cannot easily copy.",
-        "fa": "این درس نامه‌های مربوط به خندق را خلاصه می‌کند، به‌ویژه نامهٔ ۲۰۰۷ دربارهٔ کسب‌وکارهای عالی، خوب و وحشتناک. مهم است چون استارتاپی که می‌سازی یا به آن می‌پیوندی به چیزی نیاز دارد که رقبا نتوانند راحت کپی کنند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p2",
-       "text": {
-        "en": "Buffett pictures a great business as an economic castle protected by a durable moat. Capitalism sends rivals to attack any castle earning high returns.",
-        "fa": "Buffett کسب‌وکار عالی را قلعه‌ای اقتصادی می‌بیند که خندقی پایدار از آن محافظت می‌کند. سرمایه‌داری رقبا را به جنگ هر قلعه‌ای می‌فرستد که بازده بالا دارد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l2k1",
-       "type": "tap",
-       "source": "b12c1l2p2",
-       "prompt": {
-        "en": "What does Buffett say protects a great business's high returns?",
-        "fa": "Buffett می‌گوید چه چیزی از بازده بالای یک کسب‌وکار عالی محافظت می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "A durable moat",
-         "fa": "خندقی پایدار"
-        },
-        {
-         "en": "A famous chief executive",
-         "fa": "مدیرعاملی مشهور"
-        },
-        {
-         "en": "A rising share price",
-         "fa": "قیمت سهمی که بالا می‌رود"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p3",
-       "text": {
-        "en": "Moats come from things like being the low-cost producer, as GEICO and Costco are, or owning a powerful worldwide brand, like Coca-Cola or Gillette.",
-        "fa": "خندق از چیزهایی مثل تولیدکنندهٔ کم‌هزینه بودن می‌آید، مثل GEICO و Costco، یا از داشتن برندی قدرتمند در سراسر جهان، مثل Coca-Cola یا Gillette."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p4",
-       "text": {
-        "en": "He wants a moat that lasts, so he rules out industries where rapid and continuous change is the rule. A moat that must be rebuilt every few years is not durable.",
-        "fa": "او خندقی می‌خواهد که دوام بیاورد، پس صنایعی را که تغییر سریع و مداوم در آن‌ها قاعده است کنار می‌گذارد. خندقی که هر چند سال باید از نو ساخته شود پایدار نیست."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l2k2",
-       "type": "tf",
-       "source": "b12c1l2p4",
-       "prompt": {
-        "en": "Buffett prefers industries where rapid and continuous change is the rule.",
-        "fa": "Buffett صنایعی را ترجیح می‌دهد که تغییر سریع و مداوم در آن‌ها قاعده است."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p5",
-       "text": {
-        "en": "If a business needs a superstar to produce great results, Buffett says, the business itself cannot be called great.",
-        "fa": "Buffett می‌گوید اگر کسب‌وکاری برای نتایج عالی به یک ابرستاره نیاز دارد، خود آن کسب‌وکار را نمی‌شود عالی نامید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p6",
-       "text": {
-        "en": "His model is See's Candies, bought in 1972 for $25 million when it earned about $4 million pre-tax on $8 million of capital.",
-        "fa": "الگوی او See's Candies است که در ۱۹۷۲ به ۲۵ میلیون دلار خریده شد، وقتی با ۸ میلیون دلار سرمایه حدود ۴ میلیون دلار سود پیش از مالیات داشت."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p7",
-       "text": {
-        "en": "By 2007 See's earned $82 million pre-tax yet needed only $40 million of capital. The surplus went to Omaha to buy other businesses.",
-        "fa": "تا ۲۰۰۷ See's به ۸۲ میلیون دلار سود پیش از مالیات رسید ولی فقط ۴۰ میلیون دلار سرمایه لازم داشت. مازاد به Omaha رفت تا کسب‌وکارهای دیگر خریده شود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l2k3",
-       "type": "tap",
-       "source": "b12c1l2p7",
-       "prompt": {
-        "en": "How much capital did See's need in 2007 to earn $82 million pre-tax?",
-        "fa": "See's در ۲۰۰۷ برای ۸۲ میلیون دلار سود پیش از مالیات چقدر سرمایه لازم داشت؟"
-       },
-       "options": [
-        {
-         "en": "About $800 million",
-         "fa": "حدود ۸۰۰ میلیون دلار"
-        },
-        {
-         "en": "More than $1 billion",
-         "fa": "بیش از ۱ میلیارد دلار"
-        },
-        {
-         "en": "Only $40 million",
-         "fa": "فقط ۴۰ میلیون دلار"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p8",
-       "text": {
-        "en": "Buffett calls See's a dream business: it grows with little new capital and sends its spare cash elsewhere to compound.",
-        "fa": "Buffett به See's می‌گوید کسب‌وکار رؤیایی: با سرمایهٔ جدید اندک رشد می‌کند و نقد اضافه‌اش را برای رشد مرکب به جای دیگر می‌فرستد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p9",
-       "text": {
-        "en": "A good business, in his 2007 terms, earns fine returns but needs heavy reinvestment to grow, as FlightSafety does.",
-        "fa": "از نگاه نامهٔ ۲۰۰۷، کسب‌وکار خوب بازده مناسبی دارد اما برای رشد به سرمایه‌گذاری مجدد سنگین نیاز دارد، مثل FlightSafety."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l2k4",
-       "type": "tf",
-       "source": "b12c1l2p9",
-       "prompt": {
-        "en": "Buffett names airlines as an example of a gruesome business.",
-        "fa": "Buffett خطوط هوایی را نمونه‌ای از کسب‌وکار وحشتناک می‌داند."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p10",
-       "text": {
-        "en": "The gruesome business grows rapidly, needs significant capital to do so, and earns little or nothing. Airlines, he writes, have been a death trap for investors since the Wright Brothers.",
-        "fa": "کسب‌وکار وحشتناک سریع رشد می‌کند، برای آن سرمایهٔ زیادی می‌خواهد و سود کم یا هیچ می‌دهد. می‌نویسد خطوط هوایی از زمان برادران Wright تلهٔ مرگ سرمایه‌گذاران بوده‌اند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p11",
-       "text": {
-        "en": "For a small AI product, a thin wrapper over someone else's API is a castle without a moat. Data, workflow lock-in or a trusted niche brand are attempts at one.",
-        "fa": "برای یک محصول کوچک AI، پوسته‌ای نازک روی API دیگران قلعه‌ای بدون خندق است. داده، وابستگی به گردش کار یا برندی مورد اعتماد در یک بازار کوچک تلاش‌هایی برای ساختن خندق‌اند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l2k5",
-       "type": "tap",
-       "source": "b12c1l2p11",
-       "prompt": {
-        "en": "In Buffett's terms, what is a thin wrapper over someone else's API?",
-        "fa": "به زبان Buffett، پوستهٔ نازک روی API دیگران چیست؟"
-       },
-       "options": [
-        {
-         "en": "A low-cost producer",
-         "fa": "یک تولیدکنندهٔ کم‌هزینه"
-        },
-        {
-         "en": "A castle without a moat",
-         "fa": "قلعه‌ای بدون خندق"
-        },
-        {
-         "en": "A powerful worldwide brand",
-         "fa": "برندی قدرتمند در سراسر جهان"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l2p12",
-       "text": {
-        "en": "Every day, Buffett wrote in 2005, the competitive position of each business grows either weaker or stronger. Delighting customers and cutting needless cost widens the moat.",
-        "fa": "Buffett در ۲۰۰۵ نوشت هر روز جایگاه رقابتی هر کسب‌وکار یا ضعیف‌تر می‌شود یا قوی‌تر. خشنود کردن مشتری و حذف هزینهٔ بی‌جا خندق را عریض‌تر می‌کند."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c1l3",
-     "title": {
-      "en": "Mr. Market, fear and greed",
-      "fa": "Mr. Market، ترس و طمع"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c1l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on market prices, from Mr. Market in 1987 to the fear and greed rule of 1986; it matters because VWCE will swing wildly while you hold it for decades.",
-        "fa": "این درس نامه‌های مربوط به قیمت بازار را خلاصه می‌کند: Mr. Market در ۱۹۸۷ و قاعدهٔ ترس و طمع در ۱۹۸۶. مهم است چون VWCE در دهه‌هایی که نگهش می‌داری شدیداً نوسان خواهد کرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p2",
-       "text": {
-        "en": "In the 1987 letter Buffett retells Ben Graham's parable of Mr. Market, a partner who appears daily offering to buy your share or sell you his.",
-        "fa": "Buffett در نامهٔ ۱۹۸۷ تمثیل Mr. Market از Ben Graham را بازگو می‌کند: شریکی که هر روز می‌آید و پیشنهاد می‌دهد سهمت را بخرد یا سهمش را به تو بفروشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p3",
-       "text": {
-        "en": "Mr. Market is emotionally unstable: some days euphoric and quoting very high prices, other days depressed and quoting very low ones.",
-        "fa": "Mr. Market از نظر احساسی بی‌ثبات است: بعضی روزها سرخوش است و قیمت‌های خیلی بالا می‌دهد، روزهای دیگر افسرده است و قیمت‌های خیلی پایین."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l3k1",
-       "type": "tf",
-       "source": "b12c1l3p3",
-       "prompt": {
-        "en": "Mr. Market quotes the same sensible price every day.",
-        "fa": "Mr. Market هر روز همان قیمت معقول را می‌دهد."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p4",
-       "text": {
-        "en": "His quotes are there to serve you, not to guide you. You may ignore him, or trade with him only when his price is foolish.",
-        "fa": "قیمت‌های او برای خدمت به تو هستند، نه راهنمایی تو. می‌توانی نادیده‌اش بگیری، یا فقط وقتی قیمتش احمقانه است با او معامله کنی."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l3k2",
-       "type": "tap",
-       "source": "b12c1l3p4",
-       "prompt": {
-        "en": "How should you treat the market's daily quotes, per Buffett?",
-        "fa": "به گفتهٔ Buffett با قیمت‌های روزانهٔ بازار چه کنی؟"
-       },
-       "options": [
-        {
-         "en": "Follow them as the best guide to value",
-         "fa": "آن‌ها را بهترین راهنمای ارزش بدانی و دنبالشان کنی"
-        },
-        {
-         "en": "Quotes are there to serve you, not guide you",
-         "fa": "قیمت‌ها برای خدمت به تو هستند، نه راهنمایی تو"
-        },
-        {
-         "en": "Sell whenever the price falls",
-         "fa": "هر بار قیمت افتاد بفروشی"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p5",
-       "text": {
-        "en": "If you cannot understand and value your business far better than the market does, Buffett says, you do not belong in the game.",
-        "fa": "Buffett می‌گوید اگر نمی‌توانی کسب‌وکارت را خیلی بهتر از بازار بفهمی و ارزش‌گذاری کنی، جایت در این بازی نیست."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p6",
-       "text": {
-        "en": "In the 1986 letter he states his rule: be fearful when others are greedy, and greedy only when others are fearful.",
-        "fa": "در نامهٔ ۱۹۸۶ قاعده‌اش را می‌گوید: وقتی دیگران طمع دارند بترس، و فقط وقتی دیگران می‌ترسند طمع کن."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p7",
-       "text": {
-        "en": "Fear and greed, he writes, will keep breaking out like epidemics. Their timing and severity cannot be predicted, only their return.",
-        "fa": "می‌نویسد ترس و طمع مثل همه‌گیری مدام شیوع پیدا می‌کنند. زمان و شدتشان پیش‌بینی‌پذیر نیست، فقط بازگشتشان قطعی است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l3k3",
-       "type": "tap",
-       "source": "b12c1l3p6",
-       "prompt": {
-        "en": "What is Buffett's 1986 rule on fear and greed?",
-        "fa": "قاعدهٔ ۱۹۸۶ Buffett دربارهٔ ترس و طمع چیست؟"
-       },
-       "options": [
-        {
-         "en": "Be fearful when others are greedy",
-         "fa": "وقتی دیگران طمع دارند بترس"
-        },
-        {
-         "en": "Be greedy when others are greedy",
-         "fa": "وقتی دیگران طمع دارند تو هم طمع کن"
-        },
-        {
-         "en": "Stay out whenever others are fearful",
-         "fa": "هر وقت دیگران می‌ترسند کنار بکش"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p8",
-       "text": {
-        "en": "In the 1997 letter he asks: if you will be a net buyer of hamburgers, or of stocks, for years, should you want prices higher or lower?",
-        "fa": "در نامهٔ ۱۹۹۷ می‌پرسد: اگر سال‌ها خریدار خالص همبرگر، یا سهام، خواهی بود، باید بخواهی قیمت‌ها بالاتر بروند یا پایین‌تر؟"
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p9",
-       "text": {
-        "en": "His answer: net savers should cheer falling prices, because they let you buy more of the same businesses for the same money.",
-        "fa": "پاسخش: پس‌اندازکنندگان خالص باید از افت قیمت‌ها خوشحال شوند، چون با همان پول سهم بیشتری از همان کسب‌وکارها می‌خرند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l3k4",
-       "type": "tf",
-       "source": "b12c1l3p9",
-       "prompt": {
-        "en": "Buffett says a long-term net buyer of stocks should welcome falling prices.",
-        "fa": "Buffett می‌گوید خریدار خالص بلندمدت سهام باید از افت قیمت‌ها استقبال کند."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p10",
-       "text": {
-        "en": "In the 2017 letter he notes Berkshire's own stock fell about 50 percent four times. Borrowed money can force you to sell at exactly the wrong time.",
-        "fa": "در نامهٔ ۲۰۱۷ یادآوری می‌کند که سهم خود Berkshire چهار بار حدود ۵۰ درصد افت کرد. پول قرضی می‌تواند مجبورت کند درست در بدترین زمان بفروشی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p11",
-       "text": {
-        "en": "Buffett insists on a margin of safety in the purchase price, a principle from Graham. If value is only slightly above price, he does not buy.",
-        "fa": "Buffett بر حاشیهٔ ایمنی در قیمت خرید پافشاری می‌کند، اصلی از Graham. اگر ارزش فقط کمی بالاتر از قیمت باشد، نمی‌خرد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l3k5",
-       "type": "tap",
-       "source": "b12c1l3p10",
-       "prompt": {
-        "en": "Why does Buffett warn against owning stocks with borrowed money?",
-        "fa": "چرا Buffett دربارهٔ خرید سهام با پول قرضی هشدار می‌دهد؟"
-       },
-       "options": [
-        {
-         "en": "Interest rates are always too high",
-         "fa": "نرخ بهره همیشه خیلی بالاست"
-        },
-        {
-         "en": "Berkshire's stock has never fallen much",
-         "fa": "سهم Berkshire هرگز زیاد افت نکرده"
-        },
-        {
-         "en": "It can force you to sell at the wrong time",
-         "fa": "می‌تواند مجبورت کند در زمان غلط بفروشی"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l3p12",
-       "text": {
-        "en": "For your index core, a 40 percent fall in VWCE is just the market in a panic; your plan says keep buying, never sell in fear.",
-        "fa": "برای هستهٔ شاخصی تو، افت ۴۰ درصدی VWCE فقط بازاری وحشت‌زده است؛ برنامه‌ات می‌گوید به خرید ادامه بده و هرگز از ترس نفروش."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c1l4",
-     "title": {
-      "en": "Circle of competence and patience",
-      "fa": "دایرهٔ صلاحیت و صبر"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c1l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the 1996 letter on the circle of competence and the letters on holding for the long run. It matters because your edge is software and AI, not every hot sector.",
-        "fa": "این درس نامهٔ ۱۹۹۶ دربارهٔ دایرهٔ صلاحیت و نامه‌های مربوط به نگهداری بلندمدت را خلاصه می‌کند. مهم است چون مزیت تو نرم‌افزار و AI است، نه هر بخش داغ بازار."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p2",
-       "text": {
-        "en": "You do not have to be an expert on every company, Buffett writes in 1996, only on those inside your circle of competence.",
-        "fa": "Buffett در ۱۹۹۶ می‌نویسد لازم نیست در مورد هر شرکتی متخصص باشی، فقط شرکت‌های داخل دایرهٔ صلاحیت خودت."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p3",
-       "text": {
-        "en": "The size of that circle is not very important; knowing its boundaries, however, is vital.",
-        "fa": "اندازهٔ این دایره خیلی مهم نیست؛ اما شناختن مرزهایش حیاتی است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l4k1",
-       "type": "tap",
-       "source": "b12c1l4p3",
-       "prompt": {
-        "en": "What matters most about your circle of competence, per Buffett?",
-        "fa": "به گفتهٔ Buffett، دربارهٔ دایرهٔ صلاحیت چه چیزی از همه مهم‌تر است؟"
-       },
-       "options": [
-        {
-         "en": "Making it as large as possible",
-         "fa": "تا جای ممکن بزرگ کردنش"
-        },
-        {
-         "en": "Knowing its boundaries",
-         "fa": "شناختن مرزهایش"
-        },
-        {
-         "en": "Keeping it secret from rivals",
-         "fa": "پنهان نگه داشتنش از رقبا"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p4",
-       "text": {
-        "en": "He calls intelligent investing not complex, though far from easy. What an investor needs is the ability to correctly evaluate selected businesses.",
-        "fa": "او سرمایه‌گذاری هوشمندانه را پیچیده نمی‌داند، هرچند اصلاً آسان نیست. سرمایه‌گذار به توانایی ارزیابی درست کسب‌وکارهای انتخاب‌شده نیاز دارد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l4k2",
-       "type": "tf",
-       "source": "b12c1l4p4",
-       "prompt": {
-        "en": "Buffett says intelligent investing is complex but easy.",
-        "fa": "Buffett می‌گوید سرمایه‌گذاری هوشمندانه پیچیده اما آسان است."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p5",
-       "text": {
-        "en": "The goal: buy, at a rational price, part of an easily understood business whose earnings will almost surely be materially higher in five, ten and twenty years.",
-        "fa": "هدف: با قیمتی منطقی بخشی از کسب‌وکاری ساده‌فهم را بخری که سودش تقریباً با اطمینان در پنج، ده و بیست سال آینده به‌طور چشمگیری بیشتر باشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p6",
-       "text": {
-        "en": "If you are not willing to own a stock for ten years, he adds, do not even think about owning it for ten minutes.",
-        "fa": "اضافه می‌کند اگر حاضر نیستی سهمی را ده سال نگه داری، حتی به ده دقیقه داشتنش هم فکر نکن."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p7",
-       "text": {
-        "en": "In 1988 he wrote that when Berkshire owns parts of outstanding businesses with outstanding managers, its favorite holding period is forever.",
-        "fa": "در ۱۹۸۸ نوشت وقتی Berkshire بخشی از کسب‌وکارهای برجسته با مدیران برجسته را دارد، دورهٔ نگهداری محبوبش «برای همیشه» است."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l4k3",
-       "type": "tap",
-       "source": "b12c1l4p6",
-       "prompt": {
-        "en": "How long should you be willing to own a stock before buying it?",
-        "fa": "پیش از خرید یک سهم باید حاضر باشی چه مدت نگهش داری؟"
-       },
-       "options": [
-        {
-         "en": "Ten years",
-         "fa": "ده سال"
-        },
-        {
-         "en": "Ten minutes",
-         "fa": "ده دقیقه"
-        },
-        {
-         "en": "One quarter",
-         "fa": "یک فصل"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p8",
-       "text": {
-        "en": "Through the late-1990s tech boom Berkshire stayed away, Buffett saying he could not judge which tech firms would keep a durable advantage.",
-        "fa": "در رونق فناوری اواخر دههٔ ۱۹۹۰ Berkshire کنار ماند، و Buffett گفت نمی‌تواند تشخیص دهد کدام شرکت فناوری مزیت پایدار خواهد داشت."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p9",
-       "text": {
-        "en": "He reports mistakes openly, including errors of omission: deals inside his circle that he understood and still failed to make.",
-        "fa": "او اشتباهاتش را آشکارا گزارش می‌کند، از جمله خطاهای ترک فعل: معاملاتی داخل دایره‌اش که می‌فهمید و باز انجامشان نداد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l4k4",
-       "type": "tf",
-       "source": "b12c1l4p9",
-       "prompt": {
-        "en": "Buffett counts failing to act on deals he understood as mistakes too.",
-        "fa": "Buffett انجام ندادن معاملاتی را که می‌فهمید هم اشتباه حساب می‌کند."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p10",
-       "text": {
-        "en": "In the 1990 letter he praises lethargy bordering on sloth as the right investment style. Activity is not a virtue in itself.",
-        "fa": "در نامهٔ ۱۹۹۰ رخوتی در حد تنبلی را سبک درست سرمایه‌گذاری می‌ستاید. فعالیت به خودی خود فضیلت نیست."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p11",
-       "text": {
-        "en": "Your circle is software and AI products. Use it for the 20 percent satellite and for judging which startup to join; the 80 percent index core needs no circle at all.",
-        "fa": "دایرهٔ تو نرم‌افزار و محصولات AI است. از آن برای ۲۰ درصد ماهواره‌ای و برای سنجیدن استارتاپی که به آن می‌پیوندی استفاده کن؛ هستهٔ شاخصی ۸۰ درصدی اصلاً دایره نمی‌خواهد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c1l4k5",
-       "type": "tap",
-       "source": "b12c1l4p11",
-       "prompt": {
-        "en": "Where does your circle of competence matter most in your plan?",
-        "fa": "دایرهٔ صلاحیتت در برنامه‌ات کجا بیشتر از همه به کار می‌آید؟"
-       },
-       "options": [
-        {
-         "en": "Only the 80 percent index core",
-         "fa": "فقط هستهٔ شاخصی ۸۰ درصدی"
-        },
-        {
-         "en": "Choosing a Dutch bank account",
-         "fa": "انتخاب حساب بانکی هلندی"
-        },
-        {
-         "en": "The 20 percent satellite and judging which startup to join",
-         "fa": "۲۰ درصد ماهواره‌ای و سنجیدن استارتاپی که به آن می‌پیوندی"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c1l4p12",
-       "text": {
-        "en": "The 1977 test still frames everything: understand the business first, then judge its prospects, its people and its price.",
-        "fa": "آزمون ۱۹۷۷ هنوز چارچوب همه چیز است: اول کسب‌وکار را بفهم، بعد چشم‌انداز، آدم‌ها و قیمتش را بسنج."
-       }
-      }
-     ]
-    }
-   ]
+  "id": "b12",
+  "title": "Berkshire Hathaway Shareholder Letters (free)",
+  "author": {
+    "en": "Warren Buffett",
+    "fa": "Warren Buffett"
   },
-  {
-   "id": "b12c2",
-   "title": {
-    "en": "How Berkshire compounds: float, capital and partners",
-    "fa": "Berkshire چطور رشد مرکب می‌سازد: شناوری، سرمایه و شرکا"
-   },
-   "lessons": [
+  "year": 1977,
+  "stage": 3,
+  "must": true,
+  "why": {
+    "en": "The best business lesson in the world, free",
+    "fa": "بهترین درس کسب‌وکار دنیا، مجانی"
+  },
+  "badge": {
+    "en": "Circle of Competence",
+    "fa": "دایرهٔ صلاحیت"
+  },
+  "tier": "mid",
+  "circles": [
     {
-     "id": "b12c2l1",
-     "title": {
-      "en": "Insurance float",
-      "fa": "شناوری بیمه"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c2l1p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on insurance float, the engine under Berkshire since 1967. It matters because it shows how cheap, patient money compounds for decades.",
-        "fa": "این درس نامه‌های مربوط به شناوری بیمه را خلاصه می‌کند، موتوری که از ۱۹۶۷ زیر Berkshire کار می‌کند. مهم است چون نشان می‌دهد پول ارزان و صبور چطور دهه‌ها رشد مرکب می‌کند."
-       }
+      "id": "b12c1",
+      "title": {
+        "en": "Think like a business owner",
+        "fa": "مثل مالک یک کسب‌وکار فکر کن"
       },
-      {
-       "kind": "card",
-       "id": "b12c2l1p2",
-       "text": {
-        "en": "In 1967 Berkshire bought National Indemnity for $8.6 million, its entry into insurance. It became the core of Berkshire's growth.",
-        "fa": "در ۱۹۶۷ Berkshire شرکت National Indemnity را به ۸٫۶ میلیون دلار خرید، ورودش به بیمه. این خرید هستهٔ رشد Berkshire شد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p3",
-       "text": {
-        "en": "Float is money an insurer holds that is not its own: premiums come in first, and claims are paid later, sometimes years later.",
-        "fa": "شناوری پولی است که بیمه‌گر نگه می‌دارد ولی مال خودش نیست: حق بیمه اول می‌رسد و خسارت‌ها بعداً پرداخت می‌شوند، گاهی سال‌ها بعد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l1k1",
-       "type": "tap",
-       "source": "b12c2l1p3",
-       "prompt": {
-        "en": "What is insurance float?",
-        "fa": "شناوری بیمه چیست؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "Money an insurer holds that is not its own",
-         "fa": "پولی که بیمه‌گر نگه می‌دارد ولی مال خودش نیست"
+          "id": "b12c1l1",
+          "title": {
+            "en": "What Berkshire buys: owner earnings",
+            "fa": "Berkshire چه می‌خرد: سود مالکانه"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on what Berkshire buys and how it measures a business. It matters because every share or startup stake you take is a slice of a real business.",
+                "fa": "این درس نامه‌هایی را خلاصه می‌کند که می‌گویند Berkshire چه می‌خرد و یک کسب‌وکار را چطور می‌سنجد. مهم است چون هر سهم یا سهم استارتاپی که برمی‌داری تکه‌ای از یک کسب‌وکار واقعی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p2",
+              "text": {
+                "en": "Buffett's 1977 letter lists what Berkshire wants: a business it understands, with favorable long-term prospects, run by honest and competent people, at a very attractive price.",
+                "fa": "نامهٔ ۱۹۷۷ فهرست می‌کند Berkshire چه می‌خواهد: کسب‌وکاری که می‌فهمد، با چشم‌انداز بلندمدت مطلوب، با مدیرانی درستکار و توانا، و با قیمتی بسیار جذاب."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k1",
+              "type": "tap",
+              "source": "b12c1l1p2",
+              "prompt": {
+                "en": "Which is one of Berkshire's buying tests from 1977?",
+                "fa": "کدام یکی از آزمون‌های خرید Berkshire در ۱۹۷۷ است؟"
+              },
+              "options": [
+                {
+                  "en": "Run by honest and competent people",
+                  "fa": "اداره‌شده با مدیرانی درستکار و توانا"
+                },
+                {
+                  "en": "A stock that rose fast last year",
+                  "fa": "سهمی که پارسال سریع بالا رفت"
+                },
+                {
+                  "en": "A company with celebrity backers",
+                  "fa": "شرکتی با حامیان مشهور"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p3",
+              "text": {
+                "en": "Buffett treats a stock as a part interest in a business, not a ticker that wiggles. An owner asks what the whole business will earn, not what the quote will do next week.",
+                "fa": "Buffett سهم را بخشی از مالکیت یک کسب‌وکار می‌داند، نه نمادی که بالا و پایین می‌پرد. مالک می‌پرسد کل کسب‌وکار چقدر سود می‌سازد، نه اینکه قیمت هفتهٔ بعد چه می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p4",
+              "text": {
+                "en": "In the 1986 letter he defines owner earnings: reported earnings plus depreciation and other non-cash charges, minus the capital spending needed to keep the business competitive.",
+                "fa": "در نامهٔ ۱۹۸۶ سود مالکانه را تعریف می‌کند: سود گزارش‌شده به‌علاوهٔ استهلاک و دیگر هزینه‌های غیرنقدی، منهای مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k2",
+              "type": "tf",
+              "source": "b12c1l1p4",
+              "prompt": {
+                "en": "Owner earnings subtract the capital spending needed to keep a business competitive.",
+                "fa": "در سود مالکانه، مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار کم می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p5",
+              "text": {
+                "en": "He admits the capital spending figure must be a guess. Still, he argues owner earnings, not the deceptively precise accounting figure, is what matters for valuation.",
+                "fa": "خودش می‌پذیرد که رقم مخارج سرمایه‌ای باید تخمینی باشد. با این حال می‌گوید برای ارزش‌گذاری، سود مالکانه مهم است، نه رقم حسابداری‌ای که فریبنده دقیق به نظر می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p6",
+              "text": {
+                "en": "In the 2000 letter he says talk of EBITDA makes him shudder, and asks whether management thinks the tooth fairy pays for capital spending.",
+                "fa": "در نامهٔ ۲۰۰۰ می‌گوید حرف زدن از EBITDA تنش را می‌لرزاند، و می‌پرسد آیا مدیران فکر می‌کنند پری دندان هزینهٔ مخارج سرمایه‌ای را می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p7",
+              "text": {
+                "en": "Some businesses report profits yet must reinvest nearly all of them just to stand still. Their owner earnings are far smaller than the headline number suggests.",
+                "fa": "بعضی کسب‌وکارها سود گزارش می‌کنند اما باید تقریباً همه‌اش را دوباره خرج کنند تا فقط سر جایشان بمانند. سود مالکانهٔ آن‌ها خیلی کمتر از عدد تیتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k3",
+              "type": "tap",
+              "source": "b12c1l1p6",
+              "prompt": {
+                "en": "What does Buffett mock about EBITDA in the 2000 letter?",
+                "fa": "Buffett در نامهٔ ۲۰۰۰ چه چیزی از EBITDA را مسخره می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "It ignores marketing costs",
+                  "fa": "هزینه‌های بازاریابی را نادیده می‌گیرد"
+                },
+                {
+                  "en": "It counts dividends twice",
+                  "fa": "سود تقسیمی را دو بار حساب می‌کند"
+                },
+                {
+                  "en": "As if the tooth fairy pays for capital spending",
+                  "fa": "انگار پری دندان هزینهٔ مخارج سرمایه‌ای را می‌دهد"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p8",
+              "text": {
+                "en": "In the 1989 letter Buffett reviews mistakes of his first 25 years, starting with cigar butt investing: buying a poor business cheaply for one last free puff.",
+                "fa": "در نامهٔ ۱۹۸۹ Buffett اشتباهات ۲۵ سال اولش را مرور می‌کند و از سرمایه‌گذاری «ته‌سیگاری» شروع می‌کند: خریدن ارزان یک کسب‌وکار ضعیف برای یک پک مجانی آخر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p9",
+              "text": {
+                "en": "His conclusion: it is far better to buy a wonderful company at a fair price than a fair company at a wonderful price. Charlie Munger saw this early; Buffett calls himself a slow learner.",
+                "fa": "نتیجه‌اش: خیلی بهتر است یک شرکت عالی را به قیمت منصفانه بخری تا یک شرکت معمولی را به قیمت عالی. Charlie Munger این را زود فهمید؛ Buffett خودش را شاگرد کندی می‌نامد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k4",
+              "type": "tf",
+              "source": "b12c1l1p9",
+              "prompt": {
+                "en": "Buffett concluded it is better to buy a fair company at a wonderful price.",
+                "fa": "Buffett نتیجه گرفت بهتر است یک شرکت معمولی را به قیمت عالی بخری."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p10",
+              "text": {
+                "en": "A bargain price wears off fast, he warns, because time is the friend of the wonderful business and the enemy of the mediocre one.",
+                "fa": "هشدار می‌دهد که مزیت قیمت ارزان زود از بین می‌رود، چون زمان دوست کسب‌وکار عالی و دشمن کسب‌وکار متوسط است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p11",
+              "text": {
+                "en": "Apply it to your own small AI product: its owner earnings are the cash it brings in minus the hosting, API and tool spend needed to keep it competitive.",
+                "fa": "این را روی محصول کوچک AI خودت به کار ببر: سود مالکانه‌اش نقدی است که می‌آورد منهای هزینهٔ هاستینگ، API و ابزارهایی که برای رقابتی ماندنش لازم است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k5",
+              "type": "tap",
+              "source": "b12c1l1p11",
+              "prompt": {
+                "en": "Using owner earnings, what do you subtract from your product's cash?",
+                "fa": "با منطق سود مالکانه، از نقد محصولت چه چیزی کم می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Only the income tax you expect",
+                  "fa": "فقط مالیات بر درآمدی که انتظار داری"
+                },
+                {
+                  "en": "Hosting, API and tool spend needed to keep it competitive",
+                  "fa": "هزینهٔ هاستینگ، API و ابزار لازم برای رقابتی ماندنش"
+                },
+                {
+                  "en": "Nothing, revenue is all the owner's money",
+                  "fa": "هیچ، کل درآمد پول مالک است"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p12",
+              "text": {
+                "en": "In the 1990s letters he adds look-through earnings: Berkshire's share of the retained profits of companies it partly owns counts too, though accounting leaves it out.",
+                "fa": "در نامه‌های دههٔ ۱۹۹۰ «سود نگاه‌ازپشت» را اضافه می‌کند: سهم Berkshire از سود انباشتهٔ شرکت‌هایی که بخشی از آن‌ها را دارد هم حساب است، هرچند حسابداری آن را کنار می‌گذارد."
+              }
+            }
+          ]
         },
         {
-         "en": "Profit paid out to shareholders",
-         "fa": "سودی که به سهامداران پرداخت می‌شود"
+          "id": "b12c1l2",
+          "title": {
+            "en": "Moats: castles worth owning",
+            "fa": "خندق‌ها: قلعه‌هایی که ارزش داشتن دارند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on moats, above all the 2007 letter on great, good and gruesome businesses. It matters because a startup you join or build needs something rivals cannot easily copy.",
+                "fa": "این درس نامه‌های مربوط به خندق را خلاصه می‌کند، به‌ویژه نامهٔ ۲۰۰۷ دربارهٔ کسب‌وکارهای عالی، خوب و وحشتناک. مهم است چون استارتاپی که می‌سازی یا به آن می‌پیوندی به چیزی نیاز دارد که رقبا نتوانند راحت کپی کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p2",
+              "text": {
+                "en": "Buffett pictures a great business as an economic castle protected by a durable moat. Capitalism sends rivals to attack any castle earning high returns.",
+                "fa": "Buffett کسب‌وکار عالی را قلعه‌ای اقتصادی می‌بیند که خندقی پایدار از آن محافظت می‌کند. سرمایه‌داری رقبا را به جنگ هر قلعه‌ای می‌فرستد که بازده بالا دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k1",
+              "type": "tap",
+              "source": "b12c1l2p2",
+              "prompt": {
+                "en": "What does Buffett say protects a great business's high returns?",
+                "fa": "Buffett می‌گوید چه چیزی از بازده بالای یک کسب‌وکار عالی محافظت می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A durable moat",
+                  "fa": "خندقی پایدار"
+                },
+                {
+                  "en": "A famous chief executive",
+                  "fa": "مدیرعاملی مشهور"
+                },
+                {
+                  "en": "A rising share price",
+                  "fa": "قیمت سهمی که بالا می‌رود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p3",
+              "text": {
+                "en": "Moats come from things like being the low-cost producer, as GEICO and Costco are, or owning a powerful worldwide brand, like Coca-Cola or Gillette.",
+                "fa": "خندق از چیزهایی مثل تولیدکنندهٔ کم‌هزینه بودن می‌آید، مثل GEICO و Costco، یا از داشتن برندی قدرتمند در سراسر جهان، مثل Coca-Cola یا Gillette."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p4",
+              "text": {
+                "en": "He wants a moat that lasts, so he rules out industries where rapid and continuous change is the rule. A moat that must be rebuilt every few years is not durable.",
+                "fa": "او خندقی می‌خواهد که دوام بیاورد، پس صنایعی را که تغییر سریع و مداوم در آن‌ها قاعده است کنار می‌گذارد. خندقی که هر چند سال باید از نو ساخته شود پایدار نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k2",
+              "type": "tf",
+              "source": "b12c1l2p4",
+              "prompt": {
+                "en": "Buffett prefers industries where rapid and continuous change is the rule.",
+                "fa": "Buffett صنایعی را ترجیح می‌دهد که تغییر سریع و مداوم در آن‌ها قاعده است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p5",
+              "text": {
+                "en": "If a business needs a superstar to produce great results, Buffett says, the business itself cannot be called great.",
+                "fa": "Buffett می‌گوید اگر کسب‌وکاری برای نتایج عالی به یک ابرستاره نیاز دارد، خود آن کسب‌وکار را نمی‌شود عالی نامید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p6",
+              "text": {
+                "en": "His model is See's Candies, bought in 1972 for $25 million when it earned about $4 million pre-tax on $8 million of capital.",
+                "fa": "الگوی او See's Candies است که در ۱۹۷۲ به ۲۵ میلیون دلار خریده شد، وقتی با ۸ میلیون دلار سرمایه حدود ۴ میلیون دلار سود پیش از مالیات داشت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p7",
+              "text": {
+                "en": "By 2007 See's earned $82 million pre-tax yet needed only $40 million of capital. The surplus went to Omaha to buy other businesses.",
+                "fa": "تا ۲۰۰۷ See's به ۸۲ میلیون دلار سود پیش از مالیات رسید ولی فقط ۴۰ میلیون دلار سرمایه لازم داشت. مازاد به Omaha رفت تا کسب‌وکارهای دیگر خریده شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k3",
+              "type": "tap",
+              "source": "b12c1l2p7",
+              "prompt": {
+                "en": "How much capital did See's need in 2007 to earn $82 million pre-tax?",
+                "fa": "See's در ۲۰۰۷ برای ۸۲ میلیون دلار سود پیش از مالیات چقدر سرمایه لازم داشت؟"
+              },
+              "options": [
+                {
+                  "en": "About $800 million",
+                  "fa": "حدود ۸۰۰ میلیون دلار"
+                },
+                {
+                  "en": "More than $1 billion",
+                  "fa": "بیش از ۱ میلیارد دلار"
+                },
+                {
+                  "en": "Only $40 million",
+                  "fa": "فقط ۴۰ میلیون دلار"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p8",
+              "text": {
+                "en": "Buffett calls See's a dream business: it grows with little new capital and sends its spare cash elsewhere to compound.",
+                "fa": "Buffett به See's می‌گوید کسب‌وکار رؤیایی: با سرمایهٔ جدید اندک رشد می‌کند و نقد اضافه‌اش را برای رشد مرکب به جای دیگر می‌فرستد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p9",
+              "text": {
+                "en": "A good business, in his 2007 terms, earns fine returns but needs heavy reinvestment to grow, as FlightSafety does.",
+                "fa": "از نگاه نامهٔ ۲۰۰۷، کسب‌وکار خوب بازده مناسبی دارد اما برای رشد به سرمایه‌گذاری مجدد سنگین نیاز دارد، مثل FlightSafety."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k4",
+              "type": "tf",
+              "source": "b12c1l2p9",
+              "prompt": {
+                "en": "Buffett names airlines as an example of a gruesome business.",
+                "fa": "Buffett خطوط هوایی را نمونه‌ای از کسب‌وکار وحشتناک می‌داند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p10",
+              "text": {
+                "en": "The gruesome business grows rapidly, needs significant capital to do so, and earns little or nothing. Airlines, he writes, have been a death trap for investors since the Wright Brothers.",
+                "fa": "کسب‌وکار وحشتناک سریع رشد می‌کند، برای آن سرمایهٔ زیادی می‌خواهد و سود کم یا هیچ می‌دهد. می‌نویسد خطوط هوایی از زمان برادران Wright تلهٔ مرگ سرمایه‌گذاران بوده‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p11",
+              "text": {
+                "en": "For a small AI product, a thin wrapper over someone else's API is a castle without a moat. Data, workflow lock-in or a trusted niche brand are attempts at one.",
+                "fa": "برای یک محصول کوچک AI، پوسته‌ای نازک روی API دیگران قلعه‌ای بدون خندق است. داده، وابستگی به گردش کار یا برندی مورد اعتماد در یک بازار کوچک تلاش‌هایی برای ساختن خندق‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k5",
+              "type": "tap",
+              "source": "b12c1l2p11",
+              "prompt": {
+                "en": "In Buffett's terms, what is a thin wrapper over someone else's API?",
+                "fa": "به زبان Buffett، پوستهٔ نازک روی API دیگران چیست؟"
+              },
+              "options": [
+                {
+                  "en": "A low-cost producer",
+                  "fa": "یک تولیدکنندهٔ کم‌هزینه"
+                },
+                {
+                  "en": "A castle without a moat",
+                  "fa": "قلعه‌ای بدون خندق"
+                },
+                {
+                  "en": "A powerful worldwide brand",
+                  "fa": "برندی قدرتمند در سراسر جهان"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p12",
+              "text": {
+                "en": "Every day, Buffett wrote in 2005, the competitive position of each business grows either weaker or stronger. Delighting customers and cutting needless cost widens the moat.",
+                "fa": "Buffett در ۲۰۰۵ نوشت هر روز جایگاه رقابتی هر کسب‌وکار یا ضعیف‌تر می‌شود یا قوی‌تر. خشنود کردن مشتری و حذف هزینهٔ بی‌جا خندق را عریض‌تر می‌کند."
+              }
+            }
+          ]
         },
         {
-         "en": "A loan from a bank",
-         "fa": "وامی از بانک"
+          "id": "b12c1l3",
+          "title": {
+            "en": "Mr. Market, fear and greed",
+            "fa": "Mr. Market، ترس و طمع"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on market prices, from Mr. Market in 1987 to the fear and greed rule of 1986; it matters because VWCE will swing wildly while you hold it for decades.",
+                "fa": "این درس نامه‌های مربوط به قیمت بازار را خلاصه می‌کند: Mr. Market در ۱۹۸۷ و قاعدهٔ ترس و طمع در ۱۹۸۶. مهم است چون VWCE در دهه‌هایی که نگهش می‌داری شدیداً نوسان خواهد کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p2",
+              "text": {
+                "en": "In the 1987 letter Buffett retells Ben Graham's parable of Mr. Market, a partner who appears daily offering to buy your share or sell you his.",
+                "fa": "Buffett در نامهٔ ۱۹۸۷ تمثیل Mr. Market از Ben Graham را بازگو می‌کند: شریکی که هر روز می‌آید و پیشنهاد می‌دهد سهمت را بخرد یا سهمش را به تو بفروشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p3",
+              "text": {
+                "en": "Mr. Market is emotionally unstable: some days euphoric and quoting very high prices, other days depressed and quoting very low ones.",
+                "fa": "Mr. Market از نظر احساسی بی‌ثبات است: بعضی روزها سرخوش است و قیمت‌های خیلی بالا می‌دهد، روزهای دیگر افسرده است و قیمت‌های خیلی پایین."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k1",
+              "type": "tf",
+              "source": "b12c1l3p3",
+              "prompt": {
+                "en": "Mr. Market quotes the same sensible price every day.",
+                "fa": "Mr. Market هر روز همان قیمت معقول را می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p4",
+              "text": {
+                "en": "His quotes are there to serve you, not to guide you. You may ignore him, or trade with him only when his price is foolish.",
+                "fa": "قیمت‌های او برای خدمت به تو هستند، نه راهنمایی تو. می‌توانی نادیده‌اش بگیری، یا فقط وقتی قیمتش احمقانه است با او معامله کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k2",
+              "type": "tap",
+              "source": "b12c1l3p4",
+              "prompt": {
+                "en": "How should you treat the market's daily quotes, per Buffett?",
+                "fa": "به گفتهٔ Buffett با قیمت‌های روزانهٔ بازار چه کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Follow them as the best guide to value",
+                  "fa": "آن‌ها را بهترین راهنمای ارزش بدانی و دنبالشان کنی"
+                },
+                {
+                  "en": "Quotes are there to serve you, not guide you",
+                  "fa": "قیمت‌ها برای خدمت به تو هستند، نه راهنمایی تو"
+                },
+                {
+                  "en": "Sell whenever the price falls",
+                  "fa": "هر بار قیمت افتاد بفروشی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p5",
+              "text": {
+                "en": "If you cannot understand and value your business far better than the market does, Buffett says, you do not belong in the game.",
+                "fa": "Buffett می‌گوید اگر نمی‌توانی کسب‌وکارت را خیلی بهتر از بازار بفهمی و ارزش‌گذاری کنی، جایت در این بازی نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p6",
+              "text": {
+                "en": "In the 1986 letter he states his rule: be fearful when others are greedy, and greedy only when others are fearful.",
+                "fa": "در نامهٔ ۱۹۸۶ قاعده‌اش را می‌گوید: وقتی دیگران طمع دارند بترس، و فقط وقتی دیگران می‌ترسند طمع کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p7",
+              "text": {
+                "en": "Fear and greed, he writes, will keep breaking out like epidemics. Their timing and severity cannot be predicted, only their return.",
+                "fa": "می‌نویسد ترس و طمع مثل همه‌گیری مدام شیوع پیدا می‌کنند. زمان و شدتشان پیش‌بینی‌پذیر نیست، فقط بازگشتشان قطعی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k3",
+              "type": "tap",
+              "source": "b12c1l3p6",
+              "prompt": {
+                "en": "What is Buffett's 1986 rule on fear and greed?",
+                "fa": "قاعدهٔ ۱۹۸۶ Buffett دربارهٔ ترس و طمع چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Be fearful when others are greedy",
+                  "fa": "وقتی دیگران طمع دارند بترس"
+                },
+                {
+                  "en": "Be greedy when others are greedy",
+                  "fa": "وقتی دیگران طمع دارند تو هم طمع کن"
+                },
+                {
+                  "en": "Stay out whenever others are fearful",
+                  "fa": "هر وقت دیگران می‌ترسند کنار بکش"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p8",
+              "text": {
+                "en": "In the 1997 letter he asks: if you will be a net buyer of hamburgers, or of stocks, for years, should you want prices higher or lower?",
+                "fa": "در نامهٔ ۱۹۹۷ می‌پرسد: اگر سال‌ها خریدار خالص همبرگر، یا سهام، خواهی بود، باید بخواهی قیمت‌ها بالاتر بروند یا پایین‌تر؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p9",
+              "text": {
+                "en": "His answer: net savers should cheer falling prices, because they let you buy more of the same businesses for the same money.",
+                "fa": "پاسخش: پس‌اندازکنندگان خالص باید از افت قیمت‌ها خوشحال شوند، چون با همان پول سهم بیشتری از همان کسب‌وکارها می‌خرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k4",
+              "type": "tf",
+              "source": "b12c1l3p9",
+              "prompt": {
+                "en": "Buffett says a long-term net buyer of stocks should welcome falling prices.",
+                "fa": "Buffett می‌گوید خریدار خالص بلندمدت سهام باید از افت قیمت‌ها استقبال کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p10",
+              "text": {
+                "en": "In the 2017 letter he notes Berkshire's own stock fell about 50 percent four times. Borrowed money can force you to sell at exactly the wrong time.",
+                "fa": "در نامهٔ ۲۰۱۷ یادآوری می‌کند که سهم خود Berkshire چهار بار حدود ۵۰ درصد افت کرد. پول قرضی می‌تواند مجبورت کند درست در بدترین زمان بفروشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p11",
+              "text": {
+                "en": "Buffett insists on a margin of safety in the purchase price, a principle from Graham. If value is only slightly above price, he does not buy.",
+                "fa": "Buffett بر حاشیهٔ ایمنی در قیمت خرید پافشاری می‌کند، اصلی از Graham. اگر ارزش فقط کمی بالاتر از قیمت باشد، نمی‌خرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k5",
+              "type": "tap",
+              "source": "b12c1l3p10",
+              "prompt": {
+                "en": "Why does Buffett warn against owning stocks with borrowed money?",
+                "fa": "چرا Buffett دربارهٔ خرید سهام با پول قرضی هشدار می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Interest rates are always too high",
+                  "fa": "نرخ بهره همیشه خیلی بالاست"
+                },
+                {
+                  "en": "Berkshire's stock has never fallen much",
+                  "fa": "سهم Berkshire هرگز زیاد افت نکرده"
+                },
+                {
+                  "en": "It can force you to sell at the wrong time",
+                  "fa": "می‌تواند مجبورت کند در زمان غلط بفروشی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p12",
+              "text": {
+                "en": "Buffett's point applied to an index core: a 40 percent fall in a world index is a market in a panic, not a verdict on the businesses inside it.",
+                "fa": "نکتهٔ Buffett دربارهٔ یک هستهٔ شاخصی: افت ۴۰ درصدی یک شاخص جهانی، بازاری در وحشت است، نه حکمی دربارهٔ کسب‌وکارهای درون آن."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b12c1l4",
+          "title": {
+            "en": "Circle of competence and patience",
+            "fa": "دایرهٔ صلاحیت و صبر"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the 1996 letter on the circle of competence and the letters on holding for the long run. It matters because your edge is software and AI, not every hot sector.",
+                "fa": "این درس نامهٔ ۱۹۹۶ دربارهٔ دایرهٔ صلاحیت و نامه‌های مربوط به نگهداری بلندمدت را خلاصه می‌کند. مهم است چون مزیت تو نرم‌افزار و AI است، نه هر بخش داغ بازار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p2",
+              "text": {
+                "en": "You do not have to be an expert on every company, Buffett writes in 1996, only on those inside your circle of competence.",
+                "fa": "Buffett در ۱۹۹۶ می‌نویسد لازم نیست در مورد هر شرکتی متخصص باشی، فقط شرکت‌های داخل دایرهٔ صلاحیت خودت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p3",
+              "text": {
+                "en": "The size of that circle is not very important; knowing its boundaries, however, is vital.",
+                "fa": "اندازهٔ این دایره خیلی مهم نیست؛ اما شناختن مرزهایش حیاتی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k1",
+              "type": "tap",
+              "source": "b12c1l4p3",
+              "prompt": {
+                "en": "What matters most about your circle of competence, per Buffett?",
+                "fa": "به گفتهٔ Buffett، دربارهٔ دایرهٔ صلاحیت چه چیزی از همه مهم‌تر است؟"
+              },
+              "options": [
+                {
+                  "en": "Making it as large as possible",
+                  "fa": "تا جای ممکن بزرگ کردنش"
+                },
+                {
+                  "en": "Knowing its boundaries",
+                  "fa": "شناختن مرزهایش"
+                },
+                {
+                  "en": "Keeping it secret from rivals",
+                  "fa": "پنهان نگه داشتنش از رقبا"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p4",
+              "text": {
+                "en": "He calls intelligent investing not complex, though far from easy. What an investor needs is the ability to correctly evaluate selected businesses.",
+                "fa": "او سرمایه‌گذاری هوشمندانه را پیچیده نمی‌داند، هرچند اصلاً آسان نیست. سرمایه‌گذار به توانایی ارزیابی درست کسب‌وکارهای انتخاب‌شده نیاز دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k2",
+              "type": "tf",
+              "source": "b12c1l4p4",
+              "prompt": {
+                "en": "Buffett says intelligent investing is complex but easy.",
+                "fa": "Buffett می‌گوید سرمایه‌گذاری هوشمندانه پیچیده اما آسان است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p5",
+              "text": {
+                "en": "The goal: buy, at a rational price, part of an easily understood business whose earnings will almost surely be materially higher in five, ten and twenty years.",
+                "fa": "هدف: با قیمتی منطقی بخشی از کسب‌وکاری ساده‌فهم را بخری که سودش تقریباً با اطمینان در پنج، ده و بیست سال آینده به‌طور چشمگیری بیشتر باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p6",
+              "text": {
+                "en": "If you are not willing to own a stock for ten years, he adds, do not even think about owning it for ten minutes.",
+                "fa": "اضافه می‌کند اگر حاضر نیستی سهمی را ده سال نگه داری، حتی به ده دقیقه داشتنش هم فکر نکن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p7",
+              "text": {
+                "en": "In 1988 he wrote that when Berkshire owns parts of outstanding businesses with outstanding managers, its favorite holding period is forever.",
+                "fa": "در ۱۹۸۸ نوشت وقتی Berkshire بخشی از کسب‌وکارهای برجسته با مدیران برجسته را دارد، دورهٔ نگهداری محبوبش «برای همیشه» است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k3",
+              "type": "tap",
+              "source": "b12c1l4p6",
+              "prompt": {
+                "en": "How long should you be willing to own a stock before buying it?",
+                "fa": "پیش از خرید یک سهم باید حاضر باشی چه مدت نگهش داری؟"
+              },
+              "options": [
+                {
+                  "en": "Ten years",
+                  "fa": "ده سال"
+                },
+                {
+                  "en": "Ten minutes",
+                  "fa": "ده دقیقه"
+                },
+                {
+                  "en": "One quarter",
+                  "fa": "یک فصل"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p8",
+              "text": {
+                "en": "Through the late-1990s tech boom Berkshire stayed away, Buffett saying he could not judge which tech firms would keep a durable advantage.",
+                "fa": "در رونق فناوری اواخر دههٔ ۱۹۹۰ Berkshire کنار ماند، و Buffett گفت نمی‌تواند تشخیص دهد کدام شرکت فناوری مزیت پایدار خواهد داشت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p9",
+              "text": {
+                "en": "He reports mistakes openly, including errors of omission: deals inside his circle that he understood and still failed to make.",
+                "fa": "او اشتباهاتش را آشکارا گزارش می‌کند، از جمله خطاهای ترک فعل: معاملاتی داخل دایره‌اش که می‌فهمید و باز انجامشان نداد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k4",
+              "type": "tf",
+              "source": "b12c1l4p9",
+              "prompt": {
+                "en": "Buffett counts failing to act on deals he understood as mistakes too.",
+                "fa": "Buffett انجام ندادن معاملاتی را که می‌فهمید هم اشتباه حساب می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p10",
+              "text": {
+                "en": "In the 1990 letter he praises lethargy bordering on sloth as the right investment style. Activity is not a virtue in itself.",
+                "fa": "در نامهٔ ۱۹۹۰ رخوتی در حد تنبلی را سبک درست سرمایه‌گذاری می‌ستاید. فعالیت به خودی خود فضیلت نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p11",
+              "text": {
+                "en": "Your circle is software and AI products. Use it for the 20 percent satellite and for judging which startup to join; the 80 percent index core needs no circle at all.",
+                "fa": "دایرهٔ تو نرم‌افزار و محصولات AI است. از آن برای ۲۰ درصد ماهواره‌ای و برای سنجیدن استارتاپی که به آن می‌پیوندی استفاده کن؛ هستهٔ شاخصی ۸۰ درصدی اصلاً دایره نمی‌خواهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k5",
+              "type": "tap",
+              "source": "b12c1l4p11",
+              "prompt": {
+                "en": "Where does your circle of competence matter most in your plan?",
+                "fa": "دایرهٔ صلاحیتت در برنامه‌ات کجا بیشتر از همه به کار می‌آید؟"
+              },
+              "options": [
+                {
+                  "en": "Only the 80 percent index core",
+                  "fa": "فقط هستهٔ شاخصی ۸۰ درصدی"
+                },
+                {
+                  "en": "Choosing a Dutch bank account",
+                  "fa": "انتخاب حساب بانکی هلندی"
+                },
+                {
+                  "en": "The 20 percent satellite and judging which startup to join",
+                  "fa": "۲۰ درصد ماهواره‌ای و سنجیدن استارتاپی که به آن می‌پیوندی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p12",
+              "text": {
+                "en": "The 1977 test still frames everything: understand the business first, then judge its prospects, its people and its price.",
+                "fa": "آزمون ۱۹۷۷ هنوز چارچوب همه چیز است: اول کسب‌وکار را بفهم، بعد چشم‌انداز، آدم‌ها و قیمتش را بسنج."
+              }
+            }
+          ]
         }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p4",
-       "text": {
-        "en": "Berkshire invests that float for its own benefit while it waits. Float grew from $39 million in 1970 to about $169 billion by the 2023 letter.",
-        "fa": "Berkshire در این فاصله آن پول را به نفع خودش سرمایه‌گذاری می‌کند. شناوری از ۳۹ میلیون دلار در ۱۹۷۰ به حدود ۱۶۹ میلیارد دلار در نامهٔ ۲۰۲۳ رسید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p5",
-       "text": {
-        "en": "If underwriting is profitable, premiums exceed losses and expenses, and the float costs less than nothing. Buffett reports that in most years.",
-        "fa": "اگر بیمه‌گری سودآور باشد، حق بیمه از خسارت‌ها و هزینه‌ها بیشتر است و شناوری کمتر از هیچ هزینه دارد. Buffett این را در بیشتر سال‌ها گزارش می‌کند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l1k2",
-       "type": "tf",
-       "source": "b12c2l1p5",
-       "prompt": {
-        "en": "When underwriting is profitable, float costs Berkshire less than nothing.",
-        "fa": "وقتی بیمه‌گری سودآور است، شناوری برای Berkshire کمتر از هیچ هزینه دارد."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p6",
-       "text": {
-        "en": "Float is only valuable if it is cheap. An insurer that writes underpriced policies to grow pays for float through losses, and that cost can exceed borrowing.",
-        "fa": "شناوری فقط وقتی ارزش دارد که ارزان باشد. بیمه‌گری که برای رشد بیمه‌نامهٔ زیر قیمت می‌فروشد هزینهٔ شناوری را با زیان می‌پردازد، و این هزینه می‌تواند از وام گرفتن بیشتر شود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p7",
-       "text": {
-        "en": "So Buffett demands underwriting discipline: walk away from business when prices are inadequate, even if volume shrinks a lot.",
-        "fa": "پس Buffett انضباط بیمه‌گری می‌خواهد: وقتی قیمت‌ها ناکافی است از کار کنار برو، حتی اگر حجم خیلی کم شود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l1k3",
-       "type": "tap",
-       "source": "b12c2l1p7",
-       "prompt": {
-        "en": "What does underwriting discipline mean for Berkshire?",
-        "fa": "انضباط بیمه‌گری برای Berkshire یعنی چه؟"
-       },
-       "options": [
-        {
-         "en": "Write every policy to grow volume",
-         "fa": "هر بیمه‌نامه‌ای را برای رشد حجم بفروش"
-        },
-        {
-         "en": "Walk away when prices are inadequate",
-         "fa": "وقتی قیمت‌ها ناکافی است کنار برو"
-        },
-        {
-         "en": "Match whatever price rivals charge",
-         "fa": "هر قیمتی رقبا گرفتند همان را بگیر"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p8",
-       "text": {
-        "en": "He credits managers like Ajit Jain, who built Berkshire's reinsurance business, and Tony Nicely, who ran GEICO for decades.",
-        "fa": "او موفقیت را به مدیرانی مثل Ajit Jain، سازندهٔ کسب‌وکار بیمهٔ اتکایی Berkshire، و Tony Nicely، که دهه‌ها GEICO را اداره کرد، نسبت می‌دهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p9",
-       "text": {
-        "en": "GEICO, fully owned since 1996, sells direct to drivers at low cost. That cost edge is its moat.",
-        "fa": "GEICO که از ۱۹۹۶ کاملاً مال Berkshire است، مستقیم و با هزینهٔ کم به رانندگان می‌فروشد. همین مزیت هزینه خندق اوست."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l1k4",
-       "type": "tf",
-       "source": "b12c2l1p9",
-       "prompt": {
-        "en": "GEICO's moat comes from selling direct at low cost.",
-        "fa": "خندق GEICO از فروش مستقیم با هزینهٔ کم می‌آید."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p10",
-       "text": {
-        "en": "Buffett plans for mega-catastrophes far worse than any seen, and keeps Berkshire's capital large enough to pay claims even then.",
-        "fa": "Buffett برای فاجعه‌های عظیمی خیلی بدتر از هر چه تاکنون دیده شده برنامه می‌ریزد و سرمایهٔ Berkshire را آن‌قدر بزرگ نگه می‌دارد که حتی آن موقع هم خسارت‌ها را بپردازد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p11",
-       "text": {
-        "en": "Your own version is smaller: an emergency fund kept apart from investments. It lets you hold index funds through a crash without forced selling.",
-        "fa": "نسخهٔ خودت کوچک‌تر است: صندوق اضطراری جدا از سرمایه‌گذاری‌ها. این به تو اجازه می‌دهد در سقوط بازار صندوق‌های شاخصی را بدون فروش اجباری نگه داری."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l1k5",
-       "type": "tap",
-       "source": "b12c2l1p10",
-       "prompt": {
-        "en": "What does Buffett plan for in insurance?",
-        "fa": "Buffett در بیمه برای چه چیزی برنامه می‌ریزد؟"
-       },
-       "options": [
-        {
-         "en": "Steady small claims only",
-         "fa": "فقط خسارت‌های کوچک و منظم"
-        },
-        {
-         "en": "Government bailouts after big losses",
-         "fa": "نجات دولتی پس از زیان‌های بزرگ"
-        },
-        {
-         "en": "Mega-catastrophes far worse than any seen",
-         "fa": "فاجعه‌های عظیمی خیلی بدتر از هر چه دیده شده"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l1p12",
-       "text": {
-        "en": "Float plus disciplined underwriting gave Berkshire cheap money to buy stocks and whole businesses, which is why Buffett calls insurance its core operation.",
-        "fa": "شناوری به‌علاوهٔ بیمه‌گری منضبط به Berkshire پول ارزان داد تا سهام و کل کسب‌وکارها را بخرد، و برای همین Buffett بیمه را عملیات اصلی آن می‌نامد."
-       }
-      }
-     ]
+      ]
     },
     {
-     "id": "b12c2l2",
-     "title": {
-      "en": "Capital allocation",
-      "fa": "تخصیص سرمایه"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c2l2p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on capital allocation: where each spare dollar goes. It matters because every month you decide what to do with salary and any startup profit.",
-        "fa": "این درس نامه‌های مربوط به تخصیص سرمایه را خلاصه می‌کند: هر دلار اضافه کجا می‌رود. مهم است چون هر ماه تصمیم می‌گیری با حقوق و هر سود استارتاپی چه کنی."
-       }
+      "id": "b12c2",
+      "title": {
+        "en": "How Berkshire compounds: float, capital and partners",
+        "fa": "Berkshire چطور رشد مرکب می‌سازد: شناوری، سرمایه و شرکا"
       },
-      {
-       "kind": "card",
-       "id": "b12c2l2p2",
-       "text": {
-        "en": "Buffett says allocating capital is a CEO's key job, yet most bosses reach the top through marketing, production, engineering or administration, not allocation skill.",
-        "fa": "Buffett می‌گوید تخصیص سرمایه کار کلیدی مدیرعامل است، اما بیشتر مدیران از راه بازاریابی، تولید، مهندسی یا اداره به بالا می‌رسند، نه مهارت تخصیص."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l2k1",
-       "type": "tap",
-       "source": "b12c2l2p2",
-       "prompt": {
-        "en": "Why does Buffett think many CEOs allocate capital poorly?",
-        "fa": "چرا Buffett فکر می‌کند بسیاری از مدیرعامل‌ها سرمایه را بد تخصیص می‌دهند؟"
-       },
-       "options": [
+      "lessons": [
         {
-         "en": "They are paid too little",
-         "fa": "حقوقشان خیلی کم است"
+          "id": "b12c2l1",
+          "title": {
+            "en": "Insurance float",
+            "fa": "شناوری بیمه"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on insurance float, the engine under Berkshire since 1967. It matters because it shows how cheap, patient money compounds for decades.",
+                "fa": "این درس نامه‌های مربوط به شناوری بیمه را خلاصه می‌کند، موتوری که از ۱۹۶۷ زیر Berkshire کار می‌کند. مهم است چون نشان می‌دهد پول ارزان و صبور چطور دهه‌ها رشد مرکب می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p2",
+              "text": {
+                "en": "In 1967 Berkshire bought National Indemnity for $8.6 million, its entry into insurance. It became the core of Berkshire's growth.",
+                "fa": "در ۱۹۶۷ Berkshire شرکت National Indemnity را به ۸٫۶ میلیون دلار خرید، ورودش به بیمه. این خرید هستهٔ رشد Berkshire شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p3",
+              "text": {
+                "en": "Float is money an insurer holds that is not its own: premiums come in first, and claims are paid later, sometimes years later.",
+                "fa": "شناوری پولی است که بیمه‌گر نگه می‌دارد ولی مال خودش نیست: حق بیمه اول می‌رسد و خسارت‌ها بعداً پرداخت می‌شوند، گاهی سال‌ها بعد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k1",
+              "type": "tap",
+              "source": "b12c2l1p3",
+              "prompt": {
+                "en": "What is insurance float?",
+                "fa": "شناوری بیمه چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Money an insurer holds that is not its own",
+                  "fa": "پولی که بیمه‌گر نگه می‌دارد ولی مال خودش نیست"
+                },
+                {
+                  "en": "Profit paid out to shareholders",
+                  "fa": "سودی که به سهامداران پرداخت می‌شود"
+                },
+                {
+                  "en": "A loan from a bank",
+                  "fa": "وامی از بانک"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p4",
+              "text": {
+                "en": "Berkshire invests that float for its own benefit while it waits. Float grew from $39 million in 1970 to about $169 billion by the 2023 letter.",
+                "fa": "Berkshire در این فاصله آن پول را به نفع خودش سرمایه‌گذاری می‌کند. شناوری از ۳۹ میلیون دلار در ۱۹۷۰ به حدود ۱۶۹ میلیارد دلار در نامهٔ ۲۰۲۳ رسید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p5",
+              "text": {
+                "en": "If underwriting is profitable, premiums exceed losses and expenses, and the float costs less than nothing. Buffett reports that in most years.",
+                "fa": "اگر بیمه‌گری سودآور باشد، حق بیمه از خسارت‌ها و هزینه‌ها بیشتر است و شناوری کمتر از هیچ هزینه دارد. Buffett این را در بیشتر سال‌ها گزارش می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k2",
+              "type": "tf",
+              "source": "b12c2l1p5",
+              "prompt": {
+                "en": "When underwriting is profitable, float costs Berkshire less than nothing.",
+                "fa": "وقتی بیمه‌گری سودآور است، شناوری برای Berkshire کمتر از هیچ هزینه دارد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p6",
+              "text": {
+                "en": "Float is only valuable if it is cheap. An insurer that writes underpriced policies to grow pays for float through losses, and that cost can exceed borrowing.",
+                "fa": "شناوری فقط وقتی ارزش دارد که ارزان باشد. بیمه‌گری که برای رشد بیمه‌نامهٔ زیر قیمت می‌فروشد هزینهٔ شناوری را با زیان می‌پردازد، و این هزینه می‌تواند از وام گرفتن بیشتر شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p7",
+              "text": {
+                "en": "So Buffett demands underwriting discipline: walk away from business when prices are inadequate, even if volume shrinks a lot.",
+                "fa": "پس Buffett انضباط بیمه‌گری می‌خواهد: وقتی قیمت‌ها ناکافی است از کار کنار برو، حتی اگر حجم خیلی کم شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k3",
+              "type": "tap",
+              "source": "b12c2l1p7",
+              "prompt": {
+                "en": "What does underwriting discipline mean for Berkshire?",
+                "fa": "انضباط بیمه‌گری برای Berkshire یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Write every policy to grow volume",
+                  "fa": "هر بیمه‌نامه‌ای را برای رشد حجم بفروش"
+                },
+                {
+                  "en": "Walk away when prices are inadequate",
+                  "fa": "وقتی قیمت‌ها ناکافی است کنار برو"
+                },
+                {
+                  "en": "Match whatever price rivals charge",
+                  "fa": "هر قیمتی رقبا گرفتند همان را بگیر"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p8",
+              "text": {
+                "en": "He credits managers like Ajit Jain, who built Berkshire's reinsurance business, and Tony Nicely, who ran GEICO for decades.",
+                "fa": "او موفقیت را به مدیرانی مثل Ajit Jain، سازندهٔ کسب‌وکار بیمهٔ اتکایی Berkshire، و Tony Nicely، که دهه‌ها GEICO را اداره کرد، نسبت می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p9",
+              "text": {
+                "en": "GEICO, fully owned since 1996, sells direct to drivers at low cost. That cost edge is its moat.",
+                "fa": "GEICO که از ۱۹۹۶ کاملاً مال Berkshire است، مستقیم و با هزینهٔ کم به رانندگان می‌فروشد. همین مزیت هزینه خندق اوست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k4",
+              "type": "tf",
+              "source": "b12c2l1p9",
+              "prompt": {
+                "en": "GEICO's moat comes from selling direct at low cost.",
+                "fa": "خندق GEICO از فروش مستقیم با هزینهٔ کم می‌آید."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p10",
+              "text": {
+                "en": "Buffett plans for mega-catastrophes far worse than any seen, and keeps Berkshire's capital large enough to pay claims even then.",
+                "fa": "Buffett برای فاجعه‌های عظیمی خیلی بدتر از هر چه تاکنون دیده شده برنامه می‌ریزد و سرمایهٔ Berkshire را آن‌قدر بزرگ نگه می‌دارد که حتی آن موقع هم خسارت‌ها را بپردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p11",
+              "text": {
+                "en": "Your own version is smaller: an emergency fund kept apart from investments. It lets you hold index funds through a crash without forced selling.",
+                "fa": "نسخهٔ خودت کوچک‌تر است: صندوق اضطراری جدا از سرمایه‌گذاری‌ها. این به تو اجازه می‌دهد در سقوط بازار صندوق‌های شاخصی را بدون فروش اجباری نگه داری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k5",
+              "type": "tap",
+              "source": "b12c2l1p10",
+              "prompt": {
+                "en": "What does Buffett plan for in insurance?",
+                "fa": "Buffett در بیمه برای چه چیزی برنامه می‌ریزد؟"
+              },
+              "options": [
+                {
+                  "en": "Steady small claims only",
+                  "fa": "فقط خسارت‌های کوچک و منظم"
+                },
+                {
+                  "en": "Government bailouts after big losses",
+                  "fa": "نجات دولتی پس از زیان‌های بزرگ"
+                },
+                {
+                  "en": "Mega-catastrophes far worse than any seen",
+                  "fa": "فاجعه‌های عظیمی خیلی بدتر از هر چه دیده شده"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p12",
+              "text": {
+                "en": "Float plus disciplined underwriting gave Berkshire cheap money to buy stocks and whole businesses, which is why Buffett calls insurance its core operation.",
+                "fa": "شناوری به‌علاوهٔ بیمه‌گری منضبط به Berkshire پول ارزان داد تا سهام و کل کسب‌وکارها را بخرد، و برای همین Buffett بیمه را عملیات اصلی آن می‌نامد."
+              }
+            }
+          ]
         },
         {
-         "en": "Bosses reach the top through marketing or engineering",
-         "fa": "مدیران از راه بازاریابی یا مهندسی به بالا می‌رسند"
+          "id": "b12c2l2",
+          "title": {
+            "en": "Capital allocation",
+            "fa": "تخصیص سرمایه"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on capital allocation: where each spare dollar goes. It matters because every month you decide what to do with salary and any startup profit.",
+                "fa": "این درس نامه‌های مربوط به تخصیص سرمایه را خلاصه می‌کند: هر دلار اضافه کجا می‌رود. مهم است چون هر ماه تصمیم می‌گیری با حقوق و هر سود استارتاپی چه کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p2",
+              "text": {
+                "en": "Buffett says allocating capital is a CEO's key job, yet most bosses reach the top through marketing, production, engineering or administration, not allocation skill.",
+                "fa": "Buffett می‌گوید تخصیص سرمایه کار کلیدی مدیرعامل است، اما بیشتر مدیران از راه بازاریابی، تولید، مهندسی یا اداره به بالا می‌رسند، نه مهارت تخصیص."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k1",
+              "type": "tap",
+              "source": "b12c2l2p2",
+              "prompt": {
+                "en": "Why does Buffett think many CEOs allocate capital poorly?",
+                "fa": "چرا Buffett فکر می‌کند بسیاری از مدیرعامل‌ها سرمایه را بد تخصیص می‌دهند؟"
+              },
+              "options": [
+                {
+                  "en": "They are paid too little",
+                  "fa": "حقوقشان خیلی کم است"
+                },
+                {
+                  "en": "Bosses reach the top through marketing or engineering",
+                  "fa": "مدیران از راه بازاریابی یا مهندسی به بالا می‌رسند"
+                },
+                {
+                  "en": "Boards forbid them from investing",
+                  "fa": "هیئت‌مدیره سرمایه‌گذاری را برایشان ممنوع می‌کند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p3",
+              "text": {
+                "en": "At Berkshire the managers run operations, while Buffett and Munger decide where surplus cash goes across all the businesses.",
+                "fa": "در Berkshire مدیران عملیات را می‌گردانند و Buffett و Munger تصمیم می‌گیرند نقد مازاد همهٔ کسب‌وکارها کجا برود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p4",
+              "text": {
+                "en": "His test for keeping profits: each dollar retained should, over time, create at least one dollar of market value for owners.",
+                "fa": "آزمون او برای نگه داشتن سود: هر دلار انباشته باید در طول زمان دست‌کم یک دلار ارزش بازار برای مالکان بسازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k2",
+              "type": "tf",
+              "source": "b12c2l2p4",
+              "prompt": {
+                "en": "Buffett's test: each retained dollar should create at least one dollar of market value.",
+                "fa": "آزمون Buffett: هر دلار انباشته باید دست‌کم یک دلار ارزش بازار بسازد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p5",
+              "text": {
+                "en": "If a business cannot pass that test, the cash belongs with the owners or in a better use elsewhere, not in empire building.",
+                "fa": "اگر کسب‌وکاری از این آزمون رد نشود، جای آن نقد پیش مالکان یا در استفادهٔ بهتری در جای دیگر است، نه در امپراتوری‌سازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p6",
+              "text": {
+                "en": "The 1989 letter describes the institutional imperative: companies mindlessly imitate peers, resist change and pour cash into dubious projects and acquisitions.",
+                "fa": "نامهٔ ۱۹۸۹ «اجبار نهادی» را شرح می‌دهد: شرکت‌ها بی‌فکر از همتایان تقلید می‌کنند، در برابر تغییر مقاومت می‌کنند و نقد را در پروژه‌ها و خریدهای مشکوک می‌ریزند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p7",
+              "text": {
+                "en": "Buffett names his own allocation mistakes: buying Berkshire, a dying textile mill, and paying for Dexter Shoe with Berkshire stock.",
+                "fa": "Buffett اشتباهات تخصیص خودش را نام می‌برد: خرید Berkshire که کارخانهٔ نساجی رو به مرگی بود، و پرداخت بهای Dexter Shoe با سهام Berkshire."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k3",
+              "type": "tap",
+              "source": "b12c2l2p7",
+              "prompt": {
+                "en": "Which allocation mistake does Buffett admit?",
+                "fa": "Buffett کدام اشتباه تخصیص را می‌پذیرد؟"
+              },
+              "options": [
+                {
+                  "en": "Paying for Dexter Shoe with Berkshire stock",
+                  "fa": "پرداخت بهای Dexter Shoe با سهام Berkshire"
+                },
+                {
+                  "en": "Buying See's Candies in 1972",
+                  "fa": "خرید See's Candies در ۱۹۷۲"
+                },
+                {
+                  "en": "Buying all of GEICO in 1996",
+                  "fa": "خرید کامل GEICO در ۱۹۹۶"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p8",
+              "text": {
+                "en": "Paying with shares made Dexter worse: the shoe business went to zero, while the Berkshire shares he gave up kept compounding.",
+                "fa": "پرداخت با سهام Dexter را بدتر کرد: کسب‌وکار کفش به صفر رسید، در حالی که سهام Berkshire که داده بود همچنان رشد مرکب کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p9",
+              "text": {
+                "en": "He issues stock rarely. When Berkshire gives shares, it gives away part of every owner's business, so it must get equal value back.",
+                "fa": "او به‌ندرت سهم منتشر می‌کند. وقتی Berkshire سهم می‌دهد، بخشی از کسب‌وکار همهٔ مالکان را می‌دهد، پس باید ارزشی برابر پس بگیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k4",
+              "type": "tf",
+              "source": "b12c2l2p9",
+              "prompt": {
+                "en": "Buffett treats issuing Berkshire shares as costless.",
+                "fa": "Buffett انتشار سهام Berkshire را بی‌هزینه می‌داند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p10",
+              "text": {
+                "en": "Berkshire pays no dividend because retained dollars have produced more than a dollar of value. The 2012 letter shows owners wanting cash can sell a few shares instead.",
+                "fa": "Berkshire سود تقسیم نمی‌کند چون دلارهای انباشته بیش از یک دلار ارزش ساخته‌اند. نامهٔ ۲۰۱۲ نشان می‌دهد مالکی که نقد می‌خواهد می‌تواند به جایش چند سهم بفروشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p11",
+              "text": {
+                "en": "Ask the same of your own spare euros: does keeping cash in your startup create more value than putting it into the index core?",
+                "fa": "همین را از یوروهای اضافهٔ خودت بپرس: آیا نگه داشتن نقد در استارتاپت ارزشی بیشتر از گذاشتنش در هستهٔ شاخصی می‌سازد؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k5",
+              "type": "tap",
+              "source": "b12c2l2p10",
+              "prompt": {
+                "en": "Why does Berkshire pay no dividend?",
+                "fa": "چرا Berkshire سود تقسیم نمی‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The law forbids it",
+                  "fa": "قانون منعش می‌کند"
+                },
+                {
+                  "en": "Buffett thinks owners do not need cash",
+                  "fa": "Buffett فکر می‌کند مالکان نقد لازم ندارند"
+                },
+                {
+                  "en": "Retained dollars have produced more than a dollar of value",
+                  "fa": "دلارهای انباشته بیش از یک دلار ارزش ساخته‌اند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p12",
+              "text": {
+                "en": "Good allocation is often saying no: Buffett and Munger let cash pile up rather than buy businesses at silly prices.",
+                "fa": "تخصیص خوب اغلب یعنی نه گفتن: Buffett و Munger ترجیح دادند نقد انباشته شود تا اینکه کسب‌وکارها را به قیمت‌های احمقانه بخرند."
+              }
+            }
+          ]
         },
         {
-         "en": "Boards forbid them from investing",
-         "fa": "هیئت‌مدیره سرمایه‌گذاری را برایشان ممنوع می‌کند"
+          "id": "b12c2l3",
+          "title": {
+            "en": "Buybacks: only below value",
+            "fa": "بازخرید سهام: فقط زیر ارزش"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on share repurchases, from the 1980s to 2022. It matters because buybacks can help or hurt the owners of any company you hold, including through index funds.",
+                "fa": "این درس نامه‌های مربوط به بازخرید سهام را از دههٔ ۱۹۸۰ تا ۲۰۲۲ خلاصه می‌کند. مهم است چون بازخرید می‌تواند به مالکان هر شرکتی که داری، از جمله از راه صندوق شاخصی، سود یا زیان برساند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p2",
+              "text": {
+                "en": "Buffett's rule: buybacks make sense only when a company has cash beyond its business needs and its stock sells below intrinsic value.",
+                "fa": "قاعدهٔ Buffett: بازخرید فقط وقتی منطقی است که شرکت نقدی بیش از نیاز کسب‌وکارش داشته باشد و سهمش زیر ارزش ذاتی فروخته شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k1",
+              "type": "tap",
+              "source": "b12c2l3p2",
+              "prompt": {
+                "en": "When do buybacks make sense, per Buffett?",
+                "fa": "به گفتهٔ Buffett بازخرید کی منطقی است؟"
+              },
+              "options": [
+                {
+                  "en": "When the stock sells below intrinsic value",
+                  "fa": "وقتی سهم زیر ارزش ذاتی فروخته می‌شود"
+                },
+                {
+                  "en": "Whenever the share price is rising",
+                  "fa": "هر وقت قیمت سهم بالا می‌رود"
+                },
+                {
+                  "en": "Whenever earnings per share look low",
+                  "fa": "هر وقت سود هر سهم پایین به نظر می‌رسد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p3",
+              "text": {
+                "en": "Bought below value, each repurchase raises intrinsic value per share for owners who stay. Bought above value, it hands money to the sellers.",
+                "fa": "بازخرید زیر ارزش، ارزش ذاتی هر سهم را برای مالکانی که می‌مانند بالا می‌برد. بازخرید بالای ارزش، پول را به فروشندگان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p4",
+              "text": {
+                "en": "He criticizes companies that buy back shares at any price, to signal confidence or offset stock options, while ignoring value.",
+                "fa": "او از شرکت‌هایی انتقاد می‌کند که به هر قیمتی سهم بازمی‌خرند، برای نشان دادن اطمینان یا جبران اختیار سهام، و ارزش را نادیده می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k2",
+              "type": "tf",
+              "source": "b12c2l3p3",
+              "prompt": {
+                "en": "Buffett says buying back shares above intrinsic value helps owners who stay.",
+                "fa": "Buffett می‌گوید بازخرید بالای ارزش ذاتی به مالکانی که می‌مانند کمک می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p5",
+              "text": {
+                "en": "For years Berkshire set a price ceiling: in 2011 up to 110 percent of book value, raised to 120 percent in 2012.",
+                "fa": "Berkshire سال‌ها سقف قیمت داشت: در ۲۰۱۱ تا ۱۱۰ درصد ارزش دفتری، که در ۲۰۱۲ به ۱۲۰ درصد رسید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p6",
+              "text": {
+                "en": "In 2018 the board changed the rule: Buffett may repurchase whenever he and Munger believe the price is below intrinsic value, conservatively determined.",
+                "fa": "در ۲۰۱۸ هیئت‌مدیره قاعده را عوض کرد: Buffett هر وقت او و Munger باور داشته باشند قیمت زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده است، می‌تواند بازخرید کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p7",
+              "text": {
+                "en": "Berkshire then bought back heavily, about $24.7 billion in 2020 alone, while still keeping a large cash reserve.",
+                "fa": "سپس Berkshire به‌شدت بازخرید کرد، حدود ۲۴٫۷ میلیارد دلار فقط در ۲۰۲۰، و همچنان ذخیرهٔ نقدی بزرگی نگه داشت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k3",
+              "type": "tap",
+              "source": "b12c2l3p6",
+              "prompt": {
+                "en": "What is Berkshire's buyback rule since 2018?",
+                "fa": "قاعدهٔ بازخرید Berkshire از ۲۰۱۸ چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Buy only at 110 percent of book value",
+                  "fa": "فقط تا ۱۱۰ درصد ارزش دفتری بخر"
+                },
+                {
+                  "en": "Never repurchase shares",
+                  "fa": "هرگز سهم بازخرید نکن"
+                },
+                {
+                  "en": "Buy when the price is below intrinsic value, conservatively determined",
+                  "fa": "وقتی قیمت زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده است بخر"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p8",
+              "text": {
+                "en": "In 2022 he wrote that anyone calling all buybacks harmful is either an economic illiterate or a silver-tongued demagogue.",
+                "fa": "در ۲۰۲۲ نوشت هر کس همهٔ بازخریدها را زیان‌بار بداند یا بی‌سواد اقتصادی است یا عوام‌فریبی چرب‌زبان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p9",
+              "text": {
+                "en": "His 2022 math: when the share count goes down, each owner's interest in the businesses goes up, provided the price paid is right.",
+                "fa": "حساب ۲۰۲۲ او: وقتی تعداد سهام کم می‌شود، سهم هر مالک از کسب‌وکارها بالا می‌رود، به شرطی که قیمت پرداختی درست باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k4",
+              "type": "tf",
+              "source": "b12c2l3p9",
+              "prompt": {
+                "en": "Buffett says a falling share count raises each owner's interest in the businesses.",
+                "fa": "Buffett می‌گوید کاهش تعداد سهام سهم هر مالک از کسب‌وکارها را بالا می‌برد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p10",
+              "text": {
+                "en": "In 2021 he noted Apple's buybacks lifted Berkshire's stake from 5.39 to 5.55 percent without Berkshire buying a share.",
+                "fa": "در ۲۰۲۱ اشاره کرد بازخریدهای Apple سهم Berkshire را از ۵٫۳۹ به ۵٫۵۵ درصد رساند، بی‌آنکه Berkshire سهمی بخرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p11",
+              "text": {
+                "en": "If your startup offers to buy back vested shares, apply the same test: is the price fair against what the business is really worth?",
+                "fa": "اگر استارتاپت پیشنهاد بازخرید سهام وست‌شده‌ات را داد، همین آزمون را به کار ببر: آیا قیمت در برابر ارزش واقعی کسب‌وکار منصفانه است؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k5",
+              "type": "tap",
+              "source": "b12c2l3p10",
+              "prompt": {
+                "en": "How did Berkshire's Apple stake grow in 2021?",
+                "fa": "سهم Berkshire از Apple در ۲۰۲۱ چطور بزرگ شد؟"
+              },
+              "options": [
+                {
+                  "en": "Berkshire bought more Apple shares",
+                  "fa": "Berkshire سهام بیشتری از Apple خرید"
+                },
+                {
+                  "en": "Apple's buybacks lifted it without Berkshire buying",
+                  "fa": "بازخریدهای Apple آن را بالا برد بی‌آنکه Berkshire بخرد"
+                },
+                {
+                  "en": "Apple paid a special dividend in shares",
+                  "fa": "Apple سود ویژه‌ای به شکل سهم داد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p12",
+              "text": {
+                "en": "His test reduces to one question: does this use of cash raise intrinsic value per share for owners who stay? If not, skip it.",
+                "fa": "آزمون او به یک پرسش می‌رسد: آیا این مصرف نقد ارزش ذاتی هر سهم را برای مالکانی که می‌مانند بالا می‌برد؟ اگر نه، انجامش نده."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b12c2l4",
+          "title": {
+            "en": "Managers as partners",
+            "fa": "مدیران به‌عنوان شریک"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the owner's manual in the letters and Buffett's way with managers. It matters because startup equity makes you a partner, and partners need trust and fair terms.",
+                "fa": "این درس «راهنمای مالکان» در نامه‌ها و شیوهٔ Buffett با مدیران را خلاصه می‌کند. مهم است چون سهام استارتاپ تو را شریک می‌کند، و شرکا به اعتماد و شرایط منصفانه نیاز دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p2",
+              "text": {
+                "en": "The owner's manual opens: although our form is corporate, our attitude is partnership. Buffett and Munger see shareholders as owner-partners and themselves as managing partners.",
+                "fa": "راهنمای مالکان این‌طور شروع می‌شود: هرچند شکل ما شرکتی است، نگرش ما شراکت است. Buffett و Munger سهامداران را شریک‌مالک و خودشان را شریک مدیر می‌دانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k1",
+              "type": "tap",
+              "source": "b12c2l4p2",
+              "prompt": {
+                "en": "How does the owner's manual describe Berkshire's shareholders?",
+                "fa": "راهنمای مالکان سهامداران Berkshire را چطور توصیف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "As owner-partners",
+                  "fa": "شریک‌مالک"
+                },
+                {
+                  "en": "As customers",
+                  "fa": "مشتری"
+                },
+                {
+                  "en": "As lenders",
+                  "fa": "وام‌دهنده"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p3",
+              "text": {
+                "en": "They eat their own cooking: most of Buffett's net worth sits in Berkshire, so he gains or loses alongside other owners.",
+                "fa": "آن‌ها از دستپخت خودشان می‌خورند: بیشتر دارایی خالص Buffett در Berkshire است، پس همراه دیگر مالکان سود یا زیان می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p4",
+              "text": {
+                "en": "Berkshire runs on decentralization: a tiny head office in Omaha, and the managers of each business given near-total autonomy.",
+                "fa": "Berkshire بر پایهٔ عدم تمرکز می‌چرخد: دفتر مرکزی کوچکی در Omaha، و مدیران هر کسب‌وکار با استقلال تقریباً کامل."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k2",
+              "type": "tf",
+              "source": "b12c2l4p3",
+              "prompt": {
+                "en": "Most of Buffett's own net worth is invested in Berkshire.",
+                "fa": "بیشتر دارایی خالص خود Buffett در Berkshire سرمایه‌گذاری شده است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p5",
+              "text": {
+                "en": "Buffett says Berkshire delegates almost to the point of abdication, trusting managers to run their businesses as if they owned them outright.",
+                "fa": "Buffett می‌گوید Berkshire تقریباً تا مرز کناره‌گیری تفویض می‌کند و به مدیران اعتماد دارد که کسب‌وکار را طوری بگردانند که انگار کاملاً مال خودشان است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p6",
+              "text": {
+                "en": "He picks managers for talent and integrity, and many are already rich: they keep working because they love the business, not for the pay.",
+                "fa": "او مدیران را برای استعداد و درستکاری انتخاب می‌کند و بسیاری از آن‌ها از قبل ثروتمندند: به کار ادامه می‌دهند چون عاشق کسب‌وکارند، نه برای حقوق."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p7",
+              "text": {
+                "en": "Mrs. B, Rose Blumkin, built Nebraska Furniture Mart from $500 and kept working there for years after Berkshire bought it in 1983.",
+                "fa": "Mrs. B، یعنی Rose Blumkin، فروشگاه Nebraska Furniture Mart را با ۵۰۰ دلار ساخت و سال‌ها پس از خرید آن توسط Berkshire در ۱۹۸۳ همان‌جا به کار ادامه داد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k3",
+              "type": "tap",
+              "source": "b12c2l4p5",
+              "prompt": {
+                "en": "How far does Berkshire's delegation to managers go?",
+                "fa": "تفویض Berkshire به مدیران تا کجا پیش می‌رود؟"
+              },
+              "options": [
+                {
+                  "en": "Managers clear every hire with Omaha",
+                  "fa": "مدیران هر استخدام را با Omaha هماهنگ می‌کنند"
+                },
+                {
+                  "en": "Almost to the point of abdication",
+                  "fa": "تقریباً تا مرز کناره‌گیری"
+                },
+                {
+                  "en": "Buffett approves each budget line",
+                  "fa": "Buffett هر ردیف بودجه را تأیید می‌کند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p8",
+              "text": {
+                "en": "To sellers Berkshire offers a permanent home: regardless of price, it has no interest in selling any good business it owns.",
+                "fa": "Berkshire به فروشندگان خانه‌ای دائمی پیشنهاد می‌کند: به هر قیمتی، هیچ علاقه‌ای به فروش کسب‌وکارهای خوبی که دارد ندارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p9",
+              "text": {
+                "en": "He writes the letters as if to his sisters Doris and Bertie: plain and candid, with mistakes reported, not buried.",
+                "fa": "نامه‌ها را طوری می‌نویسد که انگار برای خواهرانش Doris و Bertie است: ساده و صریح، با اشتباهاتی که گزارش می‌شوند، نه پنهان."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k4",
+              "type": "tf",
+              "source": "b12c2l4p9",
+              "prompt": {
+                "en": "Buffett writes the letters to keep mistakes out of view.",
+                "fa": "Buffett نامه‌ها را می‌نویسد تا اشتباهات دیده نشوند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p10",
+              "text": {
+                "en": "He criticizes fixed-price stock options because they reward managers for earnings that merely come from retained capital piling up.",
+                "fa": "او از اختیار سهام با قیمت ثابت انتقاد می‌کند چون به مدیران برای سودی پاداش می‌دهد که صرفاً از انباشته شدن سرمایه می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p11",
+              "text": {
+                "en": "When you take startup equity, ask for partnership terms in writing: a cap table, vesting, and founders who eat their own cooking.",
+                "fa": "وقتی سهام استارتاپ می‌گیری، شرایط شراکت را مکتوب بخواه: cap table، vesting، و بنیان‌گذارانی که از دستپخت خودشان می‌خورند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k5",
+              "type": "tap",
+              "source": "b12c2l4p10",
+              "prompt": {
+                "en": "Why does Buffett criticize fixed-price stock options?",
+                "fa": "چرا Buffett از اختیار سهام با قیمت ثابت انتقاد می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "They give managers too little pay",
+                  "fa": "پرداختی خیلی کم به مدیران می‌دهند"
+                },
+                {
+                  "en": "They are banned in most states",
+                  "fa": "در بیشتر ایالت‌ها ممنوع‌اند"
+                },
+                {
+                  "en": "They reward earnings from retained capital piling up",
+                  "fa": "به سودِ ناشی از انباشته شدن سرمایه پاداش می‌دهند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p12",
+              "text": {
+                "en": "Buffett credits culture, not rulebooks, for keeping dozens of Berkshire managers acting like owners.",
+                "fa": "Buffett فرهنگ را، نه دفترچهٔ قوانین را، عامل این می‌داند که ده‌ها مدیر Berkshire مثل مالک رفتار کنند."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b12c2l5",
+          "title": {
+            "en": "Index funds and the Protégé bet",
+            "fa": "صندوق‌های شاخصی و شرط با Protégé"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b12c2l5p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the letters on index funds, above all the 2017 report on Buffett's ten-year bet. It matters because the roadmap's core-satellite plan leans on index ETFs.",
+                "fa": "این درس نامه‌های مربوط به صندوق‌های شاخصی را خلاصه می‌کند، به‌ویژه گزارش ۲۰۱۷ دربارهٔ شرط ده‌سالهٔ Buffett. مهم است چون طرح core-satellite نقشهٔ راه بر ETFهای شاخصی تکیه دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p2",
+              "text": {
+                "en": "Buffett repeatedly writes that most investors, institutions or individuals, will do best owning a low-cost index fund rather than picking stocks.",
+                "fa": "Buffett بارها می‌نویسد بیشتر سرمایه‌گذاران، چه نهادها چه افراد، با داشتن یک صندوق شاخصی کم‌هزینه بهتر از انتخاب سهام عمل می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k1",
+              "type": "tap",
+              "source": "b12c2l5p2",
+              "prompt": {
+                "en": "What does Buffett say most investors should own?",
+                "fa": "Buffett می‌گوید بیشتر سرمایه‌گذاران چه چیزی داشته باشند؟"
+              },
+              "options": [
+                {
+                  "en": "A low-cost index fund",
+                  "fa": "یک صندوق شاخصی کم‌هزینه"
+                },
+                {
+                  "en": "A hedge fund chosen by an adviser",
+                  "fa": "صندوق پوشش ریسکی که مشاور انتخاب کرده"
+                },
+                {
+                  "en": "A few stocks traded every week",
+                  "fa": "چند سهم که هر هفته معامله می‌شوند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p3",
+              "text": {
+                "en": "In 1993 he wrote that a know-nothing investor who buys an index fund steadily over time will outperform most investment professionals.",
+                "fa": "در ۱۹۹۳ نوشت سرمایه‌گذار «هیچ‌ندان» که به‌طور منظم در طول زمان صندوق شاخصی بخرد از بیشتر حرفه‌ای‌های سرمایه‌گذاری جلو می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p4",
+              "text": {
+                "en": "In late 2007 he bet $500,000 that an S&P 500 index fund would beat a set of hedge funds over the ten years 2008 to 2017.",
+                "fa": "در اواخر ۲۰۰۷ او ۵۰۰ هزار دلار شرط بست که یک صندوق شاخصی S&P 500 در ده سال ۲۰۰۸ تا ۲۰۱۷ از مجموعه‌ای از صندوق‌های پوشش ریسک بهتر عمل می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k2",
+              "type": "tf",
+              "source": "b12c2l5p4",
+              "prompt": {
+                "en": "Buffett bet that hedge funds would beat an S&P 500 index fund.",
+                "fa": "Buffett شرط بست که صندوق‌های پوشش ریسک از صندوق شاخصی S&P 500 بهتر عمل می‌کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p5",
+              "text": {
+                "en": "Ted Seides of Protégé Partners took the bet and chose five funds of funds, which together held more than 200 hedge funds.",
+                "fa": "Ted Seides از Protégé Partners شرط را پذیرفت و پنج صندوقِ صندوق‌ها را انتخاب کرد که روی هم بیش از ۲۰۰ صندوق پوشش ریسک داشتند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p6",
+              "text": {
+                "en": "Over the ten years the index fund compounded about 7.1 percent a year; the five funds of funds averaged only about 2.2 percent.",
+                "fa": "در این ده سال صندوق شاخصی سالانه حدود ۷٫۱ درصد رشد مرکب کرد؛ میانگین پنج صندوقِ صندوق‌ها فقط حدود ۲٫۲ درصد بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p7",
+              "text": {
+                "en": "Put in dollars, $1 million in the index fund gained about $854,000, while the funds of funds gained about $220,000 on average.",
+                "fa": "به دلار، ۱ میلیون دلار در صندوق شاخصی حدود ۸۵۴ هزار دلار سود کرد، در حالی که صندوقِ صندوق‌ها به‌طور میانگین حدود ۲۲۰ هزار دلار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k3",
+              "type": "tap",
+              "source": "b12c2l5p6",
+              "prompt": {
+                "en": "How did the index fund compound during the bet?",
+                "fa": "صندوق شاخصی در طول شرط چطور رشد مرکب کرد؟"
+              },
+              "options": [
+                {
+                  "en": "About 15 percent a year",
+                  "fa": "حدود ۱۵ درصد در سال"
+                },
+                {
+                  "en": "About 2.2 percent a year",
+                  "fa": "حدود ۲٫۲ درصد در سال"
+                },
+                {
+                  "en": "About 7.1 percent a year",
+                  "fa": "حدود ۷٫۱ درصد در سال"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p8",
+              "text": {
+                "en": "Buffett blames fees: layers of fees on fees ate most of the hedge funds' returns, while their managers did very well.",
+                "fa": "Buffett کارمزدها را مقصر می‌داند: لایه‌های کارمزد روی کارمزد بیشتر بازده صندوق‌های پوشش ریسک را خورد، در حالی که مدیرانشان خیلی خوب درآمد داشتند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p9",
+              "text": {
+                "en": "His winnings, about $2.2 million, went to Girls Inc. of Omaha.",
+                "fa": "برد او، حدود ۲٫۲ میلیون دلار، به Girls Inc. در Omaha رسید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k4",
+              "type": "tf",
+              "source": "b12c2l5p8",
+              "prompt": {
+                "en": "Buffett blames layers of fees for eating most of the hedge funds' returns.",
+                "fa": "Buffett لایه‌های کارمزد را مقصر خوردن بیشتر بازده صندوق‌های پوشش ریسک می‌داند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p10",
+              "text": {
+                "en": "When trillions are managed by people charging high fees, he writes, it is usually the managers who reap outsized profits, not the clients.",
+                "fa": "می‌نویسد وقتی تریلیون‌ها دلار را کسانی با کارمزد بالا مدیریت می‌کنند، معمولاً مدیران سودهای کلان می‌برند، نه مشتریان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p11",
+              "text": {
+                "en": "In the 2013 letter he set his own estate plan: 10 percent in short-term government bonds and 90 percent in a very low-cost S&P 500 index fund.",
+                "fa": "در نامهٔ ۲۰۱۳ برنامهٔ ارثیهٔ خودش را گفت: ۱۰ درصد در اوراق کوتاه‌مدت دولتی و ۹۰ درصد در یک صندوق شاخصی S&P 500 با هزینهٔ بسیار کم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k5",
+              "type": "tap",
+              "source": "b12c2l5p11",
+              "prompt": {
+                "en": "What split did Buffett's 2013 letter set for his estate?",
+                "fa": "نامهٔ ۲۰۱۳ Buffett چه تقسیمی برای ارثیه‌اش تعیین کرد؟"
+              },
+              "options": [
+                {
+                  "en": "90 percent in Berkshire stock",
+                  "fa": "۹۰ درصد در سهام Berkshire"
+                },
+                {
+                  "en": "90 percent in a low-cost S&P 500 index fund",
+                  "fa": "۹۰ درصد در صندوق شاخصی S&P 500 کم‌هزینه"
+                },
+                {
+                  "en": "Half in gold, half in bonds",
+                  "fa": "نیمی طلا، نیمی اوراق"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p12",
+              "text": {
+                "en": "Your core follows the same idea: a cheap world index ETF such as VWCE, bought steadily through IBKR or DEGIRO and held for decades.",
+                "fa": "هستهٔ تو همین ایده را دنبال می‌کند: یک ETF شاخص جهانی ارزان مثل VWCE، که به‌طور منظم از طریق IBKR یا DEGIRO خریده و دهه‌ها نگه داشته می‌شود."
+              }
+            }
+          ]
         }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p3",
-       "text": {
-        "en": "At Berkshire the managers run operations, while Buffett and Munger decide where surplus cash goes across all the businesses.",
-        "fa": "در Berkshire مدیران عملیات را می‌گردانند و Buffett و Munger تصمیم می‌گیرند نقد مازاد همهٔ کسب‌وکارها کجا برود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p4",
-       "text": {
-        "en": "His test for keeping profits: each dollar retained should, over time, create at least one dollar of market value for owners.",
-        "fa": "آزمون او برای نگه داشتن سود: هر دلار انباشته باید در طول زمان دست‌کم یک دلار ارزش بازار برای مالکان بسازد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l2k2",
-       "type": "tf",
-       "source": "b12c2l2p4",
-       "prompt": {
-        "en": "Buffett's test: each retained dollar should create at least one dollar of market value.",
-        "fa": "آزمون Buffett: هر دلار انباشته باید دست‌کم یک دلار ارزش بازار بسازد."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p5",
-       "text": {
-        "en": "If a business cannot pass that test, the cash belongs with the owners or in a better use elsewhere, not in empire building.",
-        "fa": "اگر کسب‌وکاری از این آزمون رد نشود، جای آن نقد پیش مالکان یا در استفادهٔ بهتری در جای دیگر است، نه در امپراتوری‌سازی."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p6",
-       "text": {
-        "en": "The 1989 letter describes the institutional imperative: companies mindlessly imitate peers, resist change and pour cash into dubious projects and acquisitions.",
-        "fa": "نامهٔ ۱۹۸۹ «اجبار نهادی» را شرح می‌دهد: شرکت‌ها بی‌فکر از همتایان تقلید می‌کنند، در برابر تغییر مقاومت می‌کنند و نقد را در پروژه‌ها و خریدهای مشکوک می‌ریزند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p7",
-       "text": {
-        "en": "Buffett names his own allocation mistakes: buying Berkshire, a dying textile mill, and paying for Dexter Shoe with Berkshire stock.",
-        "fa": "Buffett اشتباهات تخصیص خودش را نام می‌برد: خرید Berkshire که کارخانهٔ نساجی رو به مرگی بود، و پرداخت بهای Dexter Shoe با سهام Berkshire."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l2k3",
-       "type": "tap",
-       "source": "b12c2l2p7",
-       "prompt": {
-        "en": "Which allocation mistake does Buffett admit?",
-        "fa": "Buffett کدام اشتباه تخصیص را می‌پذیرد؟"
-       },
-       "options": [
-        {
-         "en": "Paying for Dexter Shoe with Berkshire stock",
-         "fa": "پرداخت بهای Dexter Shoe با سهام Berkshire"
-        },
-        {
-         "en": "Buying See's Candies in 1972",
-         "fa": "خرید See's Candies در ۱۹۷۲"
-        },
-        {
-         "en": "Buying all of GEICO in 1996",
-         "fa": "خرید کامل GEICO در ۱۹۹۶"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p8",
-       "text": {
-        "en": "Paying with shares made Dexter worse: the shoe business went to zero, while the Berkshire shares he gave up kept compounding.",
-        "fa": "پرداخت با سهام Dexter را بدتر کرد: کسب‌وکار کفش به صفر رسید، در حالی که سهام Berkshire که داده بود همچنان رشد مرکب کرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p9",
-       "text": {
-        "en": "He issues stock rarely. When Berkshire gives shares, it gives away part of every owner's business, so it must get equal value back.",
-        "fa": "او به‌ندرت سهم منتشر می‌کند. وقتی Berkshire سهم می‌دهد، بخشی از کسب‌وکار همهٔ مالکان را می‌دهد، پس باید ارزشی برابر پس بگیرد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l2k4",
-       "type": "tf",
-       "source": "b12c2l2p9",
-       "prompt": {
-        "en": "Buffett treats issuing Berkshire shares as costless.",
-        "fa": "Buffett انتشار سهام Berkshire را بی‌هزینه می‌داند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p10",
-       "text": {
-        "en": "Berkshire pays no dividend because retained dollars have produced more than a dollar of value. The 2012 letter shows owners wanting cash can sell a few shares instead.",
-        "fa": "Berkshire سود تقسیم نمی‌کند چون دلارهای انباشته بیش از یک دلار ارزش ساخته‌اند. نامهٔ ۲۰۱۲ نشان می‌دهد مالکی که نقد می‌خواهد می‌تواند به جایش چند سهم بفروشد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p11",
-       "text": {
-        "en": "Ask the same of your own spare euros: does keeping cash in your startup create more value than putting it into the index core?",
-        "fa": "همین را از یوروهای اضافهٔ خودت بپرس: آیا نگه داشتن نقد در استارتاپت ارزشی بیشتر از گذاشتنش در هستهٔ شاخصی می‌سازد؟"
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l2k5",
-       "type": "tap",
-       "source": "b12c2l2p10",
-       "prompt": {
-        "en": "Why does Berkshire pay no dividend?",
-        "fa": "چرا Berkshire سود تقسیم نمی‌کند؟"
-       },
-       "options": [
-        {
-         "en": "The law forbids it",
-         "fa": "قانون منعش می‌کند"
-        },
-        {
-         "en": "Buffett thinks owners do not need cash",
-         "fa": "Buffett فکر می‌کند مالکان نقد لازم ندارند"
-        },
-        {
-         "en": "Retained dollars have produced more than a dollar of value",
-         "fa": "دلارهای انباشته بیش از یک دلار ارزش ساخته‌اند"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l2p12",
-       "text": {
-        "en": "Good allocation is often saying no: Buffett and Munger let cash pile up rather than buy businesses at silly prices.",
-        "fa": "تخصیص خوب اغلب یعنی نه گفتن: Buffett و Munger ترجیح دادند نقد انباشته شود تا اینکه کسب‌وکارها را به قیمت‌های احمقانه بخرند."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c2l3",
-     "title": {
-      "en": "Buybacks: only below value",
-      "fa": "بازخرید سهام: فقط زیر ارزش"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c2l3p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on share repurchases, from the 1980s to 2022. It matters because buybacks can help or hurt the owners of any company you hold, including through index funds.",
-        "fa": "این درس نامه‌های مربوط به بازخرید سهام را از دههٔ ۱۹۸۰ تا ۲۰۲۲ خلاصه می‌کند. مهم است چون بازخرید می‌تواند به مالکان هر شرکتی که داری، از جمله از راه صندوق شاخصی، سود یا زیان برساند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p2",
-       "text": {
-        "en": "Buffett's rule: buybacks make sense only when a company has cash beyond its business needs and its stock sells below intrinsic value.",
-        "fa": "قاعدهٔ Buffett: بازخرید فقط وقتی منطقی است که شرکت نقدی بیش از نیاز کسب‌وکارش داشته باشد و سهمش زیر ارزش ذاتی فروخته شود."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l3k1",
-       "type": "tap",
-       "source": "b12c2l3p2",
-       "prompt": {
-        "en": "When do buybacks make sense, per Buffett?",
-        "fa": "به گفتهٔ Buffett بازخرید کی منطقی است؟"
-       },
-       "options": [
-        {
-         "en": "When the stock sells below intrinsic value",
-         "fa": "وقتی سهم زیر ارزش ذاتی فروخته می‌شود"
-        },
-        {
-         "en": "Whenever the share price is rising",
-         "fa": "هر وقت قیمت سهم بالا می‌رود"
-        },
-        {
-         "en": "Whenever earnings per share look low",
-         "fa": "هر وقت سود هر سهم پایین به نظر می‌رسد"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p3",
-       "text": {
-        "en": "Bought below value, each repurchase raises intrinsic value per share for owners who stay. Bought above value, it hands money to the sellers.",
-        "fa": "بازخرید زیر ارزش، ارزش ذاتی هر سهم را برای مالکانی که می‌مانند بالا می‌برد. بازخرید بالای ارزش، پول را به فروشندگان می‌دهد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p4",
-       "text": {
-        "en": "He criticizes companies that buy back shares at any price, to signal confidence or offset stock options, while ignoring value.",
-        "fa": "او از شرکت‌هایی انتقاد می‌کند که به هر قیمتی سهم بازمی‌خرند، برای نشان دادن اطمینان یا جبران اختیار سهام، و ارزش را نادیده می‌گیرند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l3k2",
-       "type": "tf",
-       "source": "b12c2l3p3",
-       "prompt": {
-        "en": "Buffett says buying back shares above intrinsic value helps owners who stay.",
-        "fa": "Buffett می‌گوید بازخرید بالای ارزش ذاتی به مالکانی که می‌مانند کمک می‌کند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p5",
-       "text": {
-        "en": "For years Berkshire set a price ceiling: in 2011 up to 110 percent of book value, raised to 120 percent in 2012.",
-        "fa": "Berkshire سال‌ها سقف قیمت داشت: در ۲۰۱۱ تا ۱۱۰ درصد ارزش دفتری، که در ۲۰۱۲ به ۱۲۰ درصد رسید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p6",
-       "text": {
-        "en": "In 2018 the board changed the rule: Buffett may repurchase whenever he and Munger believe the price is below intrinsic value, conservatively determined.",
-        "fa": "در ۲۰۱۸ هیئت‌مدیره قاعده را عوض کرد: Buffett هر وقت او و Munger باور داشته باشند قیمت زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده است، می‌تواند بازخرید کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p7",
-       "text": {
-        "en": "Berkshire then bought back heavily, about $24.7 billion in 2020 alone, while still keeping a large cash reserve.",
-        "fa": "سپس Berkshire به‌شدت بازخرید کرد، حدود ۲۴٫۷ میلیارد دلار فقط در ۲۰۲۰، و همچنان ذخیرهٔ نقدی بزرگی نگه داشت."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l3k3",
-       "type": "tap",
-       "source": "b12c2l3p6",
-       "prompt": {
-        "en": "What is Berkshire's buyback rule since 2018?",
-        "fa": "قاعدهٔ بازخرید Berkshire از ۲۰۱۸ چیست؟"
-       },
-       "options": [
-        {
-         "en": "Buy only at 110 percent of book value",
-         "fa": "فقط تا ۱۱۰ درصد ارزش دفتری بخر"
-        },
-        {
-         "en": "Never repurchase shares",
-         "fa": "هرگز سهم بازخرید نکن"
-        },
-        {
-         "en": "Buy when the price is below intrinsic value, conservatively determined",
-         "fa": "وقتی قیمت زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده است بخر"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p8",
-       "text": {
-        "en": "In 2022 he wrote that anyone calling all buybacks harmful is either an economic illiterate or a silver-tongued demagogue.",
-        "fa": "در ۲۰۲۲ نوشت هر کس همهٔ بازخریدها را زیان‌بار بداند یا بی‌سواد اقتصادی است یا عوام‌فریبی چرب‌زبان."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p9",
-       "text": {
-        "en": "His 2022 math: when the share count goes down, each owner's interest in the businesses goes up, provided the price paid is right.",
-        "fa": "حساب ۲۰۲۲ او: وقتی تعداد سهام کم می‌شود، سهم هر مالک از کسب‌وکارها بالا می‌رود، به شرطی که قیمت پرداختی درست باشد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l3k4",
-       "type": "tf",
-       "source": "b12c2l3p9",
-       "prompt": {
-        "en": "Buffett says a falling share count raises each owner's interest in the businesses.",
-        "fa": "Buffett می‌گوید کاهش تعداد سهام سهم هر مالک از کسب‌وکارها را بالا می‌برد."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p10",
-       "text": {
-        "en": "In 2021 he noted Apple's buybacks lifted Berkshire's stake from 5.39 to 5.55 percent without Berkshire buying a share.",
-        "fa": "در ۲۰۲۱ اشاره کرد بازخریدهای Apple سهم Berkshire را از ۵٫۳۹ به ۵٫۵۵ درصد رساند، بی‌آنکه Berkshire سهمی بخرد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p11",
-       "text": {
-        "en": "If your startup offers to buy back vested shares, apply the same test: is the price fair against what the business is really worth?",
-        "fa": "اگر استارتاپت پیشنهاد بازخرید سهام وست‌شده‌ات را داد، همین آزمون را به کار ببر: آیا قیمت در برابر ارزش واقعی کسب‌وکار منصفانه است؟"
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l3k5",
-       "type": "tap",
-       "source": "b12c2l3p10",
-       "prompt": {
-        "en": "How did Berkshire's Apple stake grow in 2021?",
-        "fa": "سهم Berkshire از Apple در ۲۰۲۱ چطور بزرگ شد؟"
-       },
-       "options": [
-        {
-         "en": "Berkshire bought more Apple shares",
-         "fa": "Berkshire سهام بیشتری از Apple خرید"
-        },
-        {
-         "en": "Apple's buybacks lifted it without Berkshire buying",
-         "fa": "بازخریدهای Apple آن را بالا برد بی‌آنکه Berkshire بخرد"
-        },
-        {
-         "en": "Apple paid a special dividend in shares",
-         "fa": "Apple سود ویژه‌ای به شکل سهم داد"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l3p12",
-       "text": {
-        "en": "His test reduces to one question: does this use of cash raise intrinsic value per share for owners who stay? If not, skip it.",
-        "fa": "آزمون او به یک پرسش می‌رسد: آیا این مصرف نقد ارزش ذاتی هر سهم را برای مالکانی که می‌مانند بالا می‌برد؟ اگر نه، انجامش نده."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c2l4",
-     "title": {
-      "en": "Managers as partners",
-      "fa": "مدیران به‌عنوان شریک"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c2l4p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the owner's manual in the letters and Buffett's way with managers. It matters because startup equity makes you a partner, and partners need trust and fair terms.",
-        "fa": "این درس «راهنمای مالکان» در نامه‌ها و شیوهٔ Buffett با مدیران را خلاصه می‌کند. مهم است چون سهام استارتاپ تو را شریک می‌کند، و شرکا به اعتماد و شرایط منصفانه نیاز دارند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p2",
-       "text": {
-        "en": "The owner's manual opens: although our form is corporate, our attitude is partnership. Buffett and Munger see shareholders as owner-partners and themselves as managing partners.",
-        "fa": "راهنمای مالکان این‌طور شروع می‌شود: هرچند شکل ما شرکتی است، نگرش ما شراکت است. Buffett و Munger سهامداران را شریک‌مالک و خودشان را شریک مدیر می‌دانند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l4k1",
-       "type": "tap",
-       "source": "b12c2l4p2",
-       "prompt": {
-        "en": "How does the owner's manual describe Berkshire's shareholders?",
-        "fa": "راهنمای مالکان سهامداران Berkshire را چطور توصیف می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "As owner-partners",
-         "fa": "شریک‌مالک"
-        },
-        {
-         "en": "As customers",
-         "fa": "مشتری"
-        },
-        {
-         "en": "As lenders",
-         "fa": "وام‌دهنده"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p3",
-       "text": {
-        "en": "They eat their own cooking: most of Buffett's net worth sits in Berkshire, so he gains or loses alongside other owners.",
-        "fa": "آن‌ها از دستپخت خودشان می‌خورند: بیشتر دارایی خالص Buffett در Berkshire است، پس همراه دیگر مالکان سود یا زیان می‌کند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p4",
-       "text": {
-        "en": "Berkshire runs on decentralization: a tiny head office in Omaha, and the managers of each business given near-total autonomy.",
-        "fa": "Berkshire بر پایهٔ عدم تمرکز می‌چرخد: دفتر مرکزی کوچکی در Omaha، و مدیران هر کسب‌وکار با استقلال تقریباً کامل."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l4k2",
-       "type": "tf",
-       "source": "b12c2l4p3",
-       "prompt": {
-        "en": "Most of Buffett's own net worth is invested in Berkshire.",
-        "fa": "بیشتر دارایی خالص خود Buffett در Berkshire سرمایه‌گذاری شده است."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p5",
-       "text": {
-        "en": "Buffett says Berkshire delegates almost to the point of abdication, trusting managers to run their businesses as if they owned them outright.",
-        "fa": "Buffett می‌گوید Berkshire تقریباً تا مرز کناره‌گیری تفویض می‌کند و به مدیران اعتماد دارد که کسب‌وکار را طوری بگردانند که انگار کاملاً مال خودشان است."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p6",
-       "text": {
-        "en": "He picks managers for talent and integrity, and many are already rich: they keep working because they love the business, not for the pay.",
-        "fa": "او مدیران را برای استعداد و درستکاری انتخاب می‌کند و بسیاری از آن‌ها از قبل ثروتمندند: به کار ادامه می‌دهند چون عاشق کسب‌وکارند، نه برای حقوق."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p7",
-       "text": {
-        "en": "Mrs. B, Rose Blumkin, built Nebraska Furniture Mart from $500 and kept working there for years after Berkshire bought it in 1983.",
-        "fa": "Mrs. B، یعنی Rose Blumkin، فروشگاه Nebraska Furniture Mart را با ۵۰۰ دلار ساخت و سال‌ها پس از خرید آن توسط Berkshire در ۱۹۸۳ همان‌جا به کار ادامه داد."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l4k3",
-       "type": "tap",
-       "source": "b12c2l4p5",
-       "prompt": {
-        "en": "How far does Berkshire's delegation to managers go?",
-        "fa": "تفویض Berkshire به مدیران تا کجا پیش می‌رود؟"
-       },
-       "options": [
-        {
-         "en": "Managers clear every hire with Omaha",
-         "fa": "مدیران هر استخدام را با Omaha هماهنگ می‌کنند"
-        },
-        {
-         "en": "Almost to the point of abdication",
-         "fa": "تقریباً تا مرز کناره‌گیری"
-        },
-        {
-         "en": "Buffett approves each budget line",
-         "fa": "Buffett هر ردیف بودجه را تأیید می‌کند"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p8",
-       "text": {
-        "en": "To sellers Berkshire offers a permanent home: regardless of price, it has no interest in selling any good business it owns.",
-        "fa": "Berkshire به فروشندگان خانه‌ای دائمی پیشنهاد می‌کند: به هر قیمتی، هیچ علاقه‌ای به فروش کسب‌وکارهای خوبی که دارد ندارد."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p9",
-       "text": {
-        "en": "He writes the letters as if to his sisters Doris and Bertie: plain and candid, with mistakes reported, not buried.",
-        "fa": "نامه‌ها را طوری می‌نویسد که انگار برای خواهرانش Doris و Bertie است: ساده و صریح، با اشتباهاتی که گزارش می‌شوند، نه پنهان."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l4k4",
-       "type": "tf",
-       "source": "b12c2l4p9",
-       "prompt": {
-        "en": "Buffett writes the letters to keep mistakes out of view.",
-        "fa": "Buffett نامه‌ها را می‌نویسد تا اشتباهات دیده نشوند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p10",
-       "text": {
-        "en": "He criticizes fixed-price stock options because they reward managers for earnings that merely come from retained capital piling up.",
-        "fa": "او از اختیار سهام با قیمت ثابت انتقاد می‌کند چون به مدیران برای سودی پاداش می‌دهد که صرفاً از انباشته شدن سرمایه می‌آید."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p11",
-       "text": {
-        "en": "When you take startup equity, ask for partnership terms in writing: a cap table, vesting, and founders who eat their own cooking.",
-        "fa": "وقتی سهام استارتاپ می‌گیری، شرایط شراکت را مکتوب بخواه: cap table، vesting، و بنیان‌گذارانی که از دستپخت خودشان می‌خورند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l4k5",
-       "type": "tap",
-       "source": "b12c2l4p10",
-       "prompt": {
-        "en": "Why does Buffett criticize fixed-price stock options?",
-        "fa": "چرا Buffett از اختیار سهام با قیمت ثابت انتقاد می‌کند؟"
-       },
-       "options": [
-        {
-         "en": "They give managers too little pay",
-         "fa": "پرداختی خیلی کم به مدیران می‌دهند"
-        },
-        {
-         "en": "They are banned in most states",
-         "fa": "در بیشتر ایالت‌ها ممنوع‌اند"
-        },
-        {
-         "en": "They reward earnings from retained capital piling up",
-         "fa": "به سودِ ناشی از انباشته شدن سرمایه پاداش می‌دهند"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l4p12",
-       "text": {
-        "en": "Buffett credits culture, not rulebooks, for keeping dozens of Berkshire managers acting like owners.",
-        "fa": "Buffett فرهنگ را، نه دفترچهٔ قوانین را، عامل این می‌داند که ده‌ها مدیر Berkshire مثل مالک رفتار کنند."
-       }
-      }
-     ]
-    },
-    {
-     "id": "b12c2l5",
-     "title": {
-      "en": "Index funds and the Protégé bet",
-      "fa": "صندوق‌های شاخصی و شرط با Protégé"
-     },
-     "minutes": 12,
-     "items": [
-      {
-       "kind": "card",
-       "id": "b12c2l5p1",
-       "frame": true,
-       "text": {
-        "en": "This Lesson distils the letters on index funds, above all the 2017 report on Buffett's ten-year bet. It matters because 80 percent of your money goes into index ETFs like VWCE or IWDA.",
-        "fa": "این درس نامه‌های مربوط به صندوق‌های شاخصی را خلاصه می‌کند، به‌ویژه گزارش ۲۰۱۷ دربارهٔ شرط ده‌سالهٔ Buffett. مهم است چون ۸۰ درصد پولت به ETFهای شاخصی مثل VWCE یا IWDA می‌رود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p2",
-       "text": {
-        "en": "Buffett repeatedly writes that most investors, institutions or individuals, will do best owning a low-cost index fund rather than picking stocks.",
-        "fa": "Buffett بارها می‌نویسد بیشتر سرمایه‌گذاران، چه نهادها چه افراد، با داشتن یک صندوق شاخصی کم‌هزینه بهتر از انتخاب سهام عمل می‌کنند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l5k1",
-       "type": "tap",
-       "source": "b12c2l5p2",
-       "prompt": {
-        "en": "What does Buffett say most investors should own?",
-        "fa": "Buffett می‌گوید بیشتر سرمایه‌گذاران چه چیزی داشته باشند؟"
-       },
-       "options": [
-        {
-         "en": "A low-cost index fund",
-         "fa": "یک صندوق شاخصی کم‌هزینه"
-        },
-        {
-         "en": "A hedge fund chosen by an adviser",
-         "fa": "صندوق پوشش ریسکی که مشاور انتخاب کرده"
-        },
-        {
-         "en": "A few stocks traded every week",
-         "fa": "چند سهم که هر هفته معامله می‌شوند"
-        }
-       ],
-       "answer": 0
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p3",
-       "text": {
-        "en": "In 1993 he wrote that a know-nothing investor who buys an index fund steadily over time will outperform most investment professionals.",
-        "fa": "در ۱۹۹۳ نوشت سرمایه‌گذار «هیچ‌ندان» که به‌طور منظم در طول زمان صندوق شاخصی بخرد از بیشتر حرفه‌ای‌های سرمایه‌گذاری جلو می‌زند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p4",
-       "text": {
-        "en": "In late 2007 he bet $500,000 that an S&P 500 index fund would beat a set of hedge funds over the ten years 2008 to 2017.",
-        "fa": "در اواخر ۲۰۰۷ او ۵۰۰ هزار دلار شرط بست که یک صندوق شاخصی S&P 500 در ده سال ۲۰۰۸ تا ۲۰۱۷ از مجموعه‌ای از صندوق‌های پوشش ریسک بهتر عمل می‌کند."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l5k2",
-       "type": "tf",
-       "source": "b12c2l5p4",
-       "prompt": {
-        "en": "Buffett bet that hedge funds would beat an S&P 500 index fund.",
-        "fa": "Buffett شرط بست که صندوق‌های پوشش ریسک از صندوق شاخصی S&P 500 بهتر عمل می‌کنند."
-       },
-       "answer": false
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p5",
-       "text": {
-        "en": "Ted Seides of Protégé Partners took the bet and chose five funds of funds, which together held more than 200 hedge funds.",
-        "fa": "Ted Seides از Protégé Partners شرط را پذیرفت و پنج صندوقِ صندوق‌ها را انتخاب کرد که روی هم بیش از ۲۰۰ صندوق پوشش ریسک داشتند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p6",
-       "text": {
-        "en": "Over the ten years the index fund compounded about 7.1 percent a year; the five funds of funds averaged only about 2.2 percent.",
-        "fa": "در این ده سال صندوق شاخصی سالانه حدود ۷٫۱ درصد رشد مرکب کرد؛ میانگین پنج صندوقِ صندوق‌ها فقط حدود ۲٫۲ درصد بود."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p7",
-       "text": {
-        "en": "Put in dollars, $1 million in the index fund gained about $854,000, while the funds of funds gained about $220,000 on average.",
-        "fa": "به دلار، ۱ میلیون دلار در صندوق شاخصی حدود ۸۵۴ هزار دلار سود کرد، در حالی که صندوقِ صندوق‌ها به‌طور میانگین حدود ۲۲۰ هزار دلار."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l5k3",
-       "type": "tap",
-       "source": "b12c2l5p6",
-       "prompt": {
-        "en": "How did the index fund compound during the bet?",
-        "fa": "صندوق شاخصی در طول شرط چطور رشد مرکب کرد؟"
-       },
-       "options": [
-        {
-         "en": "About 15 percent a year",
-         "fa": "حدود ۱۵ درصد در سال"
-        },
-        {
-         "en": "About 2.2 percent a year",
-         "fa": "حدود ۲٫۲ درصد در سال"
-        },
-        {
-         "en": "About 7.1 percent a year",
-         "fa": "حدود ۷٫۱ درصد در سال"
-        }
-       ],
-       "answer": 2
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p8",
-       "text": {
-        "en": "Buffett blames fees: layers of fees on fees ate most of the hedge funds' returns, while their managers did very well.",
-        "fa": "Buffett کارمزدها را مقصر می‌داند: لایه‌های کارمزد روی کارمزد بیشتر بازده صندوق‌های پوشش ریسک را خورد، در حالی که مدیرانشان خیلی خوب درآمد داشتند."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p9",
-       "text": {
-        "en": "His winnings, about $2.2 million, went to Girls Inc. of Omaha.",
-        "fa": "برد او، حدود ۲٫۲ میلیون دلار، به Girls Inc. در Omaha رسید."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l5k4",
-       "type": "tf",
-       "source": "b12c2l5p8",
-       "prompt": {
-        "en": "Buffett blames layers of fees for eating most of the hedge funds' returns.",
-        "fa": "Buffett لایه‌های کارمزد را مقصر خوردن بیشتر بازده صندوق‌های پوشش ریسک می‌داند."
-       },
-       "answer": true
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p10",
-       "text": {
-        "en": "When trillions are managed by people charging high fees, he writes, it is usually the managers who reap outsized profits, not the clients.",
-        "fa": "می‌نویسد وقتی تریلیون‌ها دلار را کسانی با کارمزد بالا مدیریت می‌کنند، معمولاً مدیران سودهای کلان می‌برند، نه مشتریان."
-       }
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p11",
-       "text": {
-        "en": "In the 2013 letter he set his own estate plan: 10 percent in short-term government bonds and 90 percent in a very low-cost S&P 500 index fund.",
-        "fa": "در نامهٔ ۲۰۱۳ برنامهٔ ارثیهٔ خودش را گفت: ۱۰ درصد در اوراق کوتاه‌مدت دولتی و ۹۰ درصد در یک صندوق شاخصی S&P 500 با هزینهٔ بسیار کم."
-       }
-      },
-      {
-       "kind": "check",
-       "id": "b12c2l5k5",
-       "type": "tap",
-       "source": "b12c2l5p11",
-       "prompt": {
-        "en": "What split did Buffett's 2013 letter set for his estate?",
-        "fa": "نامهٔ ۲۰۱۳ Buffett چه تقسیمی برای ارثیه‌اش تعیین کرد؟"
-       },
-       "options": [
-        {
-         "en": "90 percent in Berkshire stock",
-         "fa": "۹۰ درصد در سهام Berkshire"
-        },
-        {
-         "en": "90 percent in a low-cost S&P 500 index fund",
-         "fa": "۹۰ درصد در صندوق شاخصی S&P 500 کم‌هزینه"
-        },
-        {
-         "en": "Half in gold, half in bonds",
-         "fa": "نیمی طلا، نیمی اوراق"
-        }
-       ],
-       "answer": 1
-      },
-      {
-       "kind": "card",
-       "id": "b12c2l5p12",
-       "text": {
-        "en": "Your core follows the same idea: a cheap world index ETF such as VWCE, bought steadily through IBKR or DEGIRO and held for decades.",
-        "fa": "هستهٔ تو همین ایده را دنبال می‌کند: یک ETF شاخص جهانی ارزان مثل VWCE، که به‌طور منظم از طریق IBKR یا DEGIRO خریده و دهه‌ها نگه داشته می‌شود."
-       }
-      }
-     ]
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

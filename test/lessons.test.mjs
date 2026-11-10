@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadModules } from './load.mjs';
+import { reducer } from './helpers.mjs';
 
 // Decisions 30 to 37, ADR-0010: books are Sections of Circles of Lessons, loaded on demand.
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -11,7 +12,7 @@ const files = fs.existsSync(v3dir) ? fs.readdirSync(v3dir).filter((f) => /^b\d\d
 const readBook = (f) => JSON.parse(fs.readFileSync(path.join(v3dir, f), 'utf8'));
 
 const { content, engine, store } = loadModules(['content', 'engine', 'store']);
-const R = (s, ...actions) => actions.reduce((st, a) => engine.reduce(st, a, content), s);
+const R = reducer(engine, content);
 const right = (stationId, id) => ({ type: 'ANSWER', value: content.item(stationId, id).answer });
 const fixture = files.length ? readBook(files[0]) : null; // smallest id on disk; the pilot low-tier book when present
 
@@ -43,7 +44,7 @@ describe('Manifest: Sections of Circles of Lessons', () => {
         expect(c.xp).toBe(content.CIRCLE_XP);
       }
       expect(sec.xp).toBe(content.SECTION_XP);
-      expect(sec.units).toEqual(sec.circles.flatMap((c) => c.lessons));
+      expect(sec.runs).toEqual(sec.circles.flatMap((c) => c.lessons));
     }
   });
 
@@ -137,6 +138,31 @@ describe('Engine: Lessons, Circles, Sections (decision 37)', () => {
   });
 });
 
+describe('Tap answers are not always first (Lessons review)', () => {
+  it('after registering every book, correct tap answers spread across positions', () => {
+    const counts = [0, 0, 0, 0];
+    for (const f of files) {
+      const b = readBook(f); content.registerBook(b, b.id);
+      for (const c of b.circles) for (const l of c.lessons) for (const k of content.station(l.id).items) if (k.kind === 'check' && k.type === 'tap') counts[k.answer]++;
+    }
+    const total = counts.reduce((a, x) => a + x, 0);
+    expect(total).toBeGreaterThan(100);
+    expect(counts[0] / total).toBeLessThan(0.5);
+    expect(counts[1] + counts[2]).toBeGreaterThan(total * 0.4);
+  });
+
+  it('shuffling keeps the correct option correct', () => {
+    const b = readBook(files[0]); content.registerBook(b, b.id);
+    const raw = b.circles[0].lessons[0].items.find((i) => i.kind === 'check' && i.type === 'tap');
+    const live = content.item(b.circles[0].lessons[0].id, raw.id);
+    expect(live.options[live.answer]).toEqual(raw.options[raw.answer]);
+  });
+
+  it('registerBook refuses a file whose id does not match the requested book', () => {
+    expect(content.registerBook(readBook(files[0]), 'b99')).toBe(false);
+  });
+});
+
 describe('Migration v2 to v3 (decision 33): Basics kept, book progress fresh', () => {
   const v2 = {
     v: 1, mode: 'FA', coins: 31, xp: 50 + 20 + 20 + 100, milestone: true,
@@ -162,6 +188,12 @@ describe('Migration v2 to v3 (decision 33): Basics kept, book progress fresh', (
     expect(s.milestone).toBe(true);
     expect(s.xp).toBe(content.station('s1').xp + content.MILESTONE_XP);
     expect(s.mode).toBe('FA');
+  });
+
+  it('a document whose only legacy trace is a book bookmark still migrates', () => {
+    const doc = { v: 1, xp: 50, lit: { s1: true }, farePassed: { s1: true }, rings: { s1: 1 }, awarded: {}, bookmarks: [{ stationId: 'b01u1', cardId: 'b01c1' }], run: null };
+    const s = R(engine.initial(), { type: 'HYDRATE', value: store.load({ getItem: () => JSON.stringify(doc) }) });
+    expect(s.bookmarks).toEqual([]);
   });
 
   it('a v1 document (whole-book keys) migrates the same way', () => {
