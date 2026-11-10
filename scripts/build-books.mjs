@@ -55,7 +55,9 @@ for (const f of baseFiles) {
   for (const [n, items] of [[1, u1], [2, u2], [3, apply.items]]) {
     if (!items.some((i) => i.kind === 'check')) { console.error(`${b.id} unit ${n}: no Check, cannot draw a Fare`); process.exit(1); }
   }
-  books.push({ id: b.id, title: b.title, author: b.author, year: b.year, stage: b.stage, must: b.must, why: b.why, badge: b.badge, units: [u1, u2, apply.items] });
+  // Card provenance (chapter notes) stays in the JSON files; the page does not read it. Check.source stays (the fairness rule).
+  const lean = (items) => items.map((i) => (i.kind === 'card' ? { kind: 'card', id: i.id, text: i.text } : i));
+  books.push({ id: b.id, title: b.title, author: b.author, year: b.year, stage: b.stage, must: b.must, why: b.why, badge: b.badge, units: [lean(u1), lean(u2), lean(apply.items)] });
 }
 
 const indexPath = path.join(root, 'index.html');
