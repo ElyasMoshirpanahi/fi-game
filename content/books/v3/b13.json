@@ -602,12 +602,12 @@
                   "fa": "برتری کوچک در شرط‌های زیاد سود را تقریباً قطعی می‌کند"
                 },
                 {
-                  "en": "To show that investing is pure gambling with no real edge",
-                  "fa": "تا نشان دهد سرمایه‌گذاری قمار محض و بدون هیچ برتری واقعی است"
+                  "en": "Investing is pure gambling with no real edge at all",
+                  "fa": "سرمایه‌گذاری قمار محض و بدون هیچ برتری واقعی است"
                 },
                 {
-                  "en": "To advise betting everything you have on one lucky number",
-                  "fa": "تا توصیه کند هرچه داری را روی یک عدد خوش‌شانس بگذاری"
+                  "en": "One big bet pays better than many small ones do",
+                  "fa": "یک شرط بزرگ بیشتر از شرط‌های کوچکِ زیاد سود می‌دهد"
                 }
               ],
               "answer": 0
@@ -686,8 +686,8 @@
                   "fa": "وقتی خیلی گران خریده شود"
                 },
                 {
-                  "en": "Bought with a cap table",
-                  "fa": "وقتی با cap table خریده شود"
+                  "en": "Bought very early",
+                  "fa": "وقتی خیلی زود خریده شود"
                 },
                 {
                   "en": "Held for many years",

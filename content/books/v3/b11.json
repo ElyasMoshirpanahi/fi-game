@@ -1044,8 +1044,8 @@
                   "fa": "قیمت آخرین دور"
                 },
                 {
-                  "en": "The founder's salary",
-                  "fa": "حقوق بنیان‌گذار"
+                  "en": "The founders' shares",
+                  "fa": "سهام بنیان‌گذاران"
                 }
               ],
               "answer": 0
@@ -1524,12 +1524,12 @@
                   "fa": "رشد"
                 },
                 {
-                  "en": "More shares",
-                  "fa": "سهام بیشتر"
+                  "en": "Firm size",
+                  "fa": "اندازهٔ شرکت"
                 },
                 {
-                  "en": "A new auditor",
-                  "fa": "حسابرس تازه"
+                  "en": "Firm age",
+                  "fa": "سن شرکت"
                 }
               ],
               "answer": 0
@@ -2060,8 +2060,8 @@
                   "fa": "رشد درآمد، حاشیهٔ سود هدف، سرمایه‌گذاری مجدد و بقا"
                 },
                 {
-                  "en": "Office location, employee headcount and the company logo",
-                  "fa": "محل دفتر، تعداد کارکنان و لوگوی شرکت"
+                  "en": "Share price history, trading volume and analyst ratings",
+                  "fa": "سابقهٔ قیمت سهم، حجم معاملات و رتبه‌بندی تحلیلگران"
                 },
                 {
                   "en": "Last year's reported profit and the dividend it paid out",
@@ -2140,8 +2140,8 @@
                   "fa": "درآمد سال گذشته ضرب در ده"
                 },
                 {
-                  "en": "The founders' salaries plus office costs",
-                  "fa": "حقوق بنیان‌گذاران به‌علاوهٔ هزینهٔ دفتر"
+                  "en": "Pre-money value minus the new cash raised",
+                  "fa": "ارزش pre-money منهای پول نقد تازهٔ جذب‌شده"
                 }
               ],
               "answer": 0
@@ -2490,8 +2490,8 @@
                   "fa": "از تنها بهترین سال دههٔ اخیر استفاده می‌کند"
                 },
                 {
-                  "en": "Ignore earnings and value it on headcount",
-                  "fa": "سود را نادیده می‌گیرد و بر پایهٔ تعداد کارکنان ارزش‌گذاری می‌کند"
+                  "en": "Use this year's earnings exactly as reported",
+                  "fa": "از سود امسال دقیقاً همان‌طور که گزارش شده استفاده می‌کند"
                 }
               ],
               "answer": 0

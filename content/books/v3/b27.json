@@ -597,8 +597,8 @@
                 "fa": "کدام سبک مدیریت با بلوغ مرتبط با کارِ پایین جور است؟"
               },
               "fare": {
-                "en": "A strong engineer takes on a task they have never done before. Which style does Grove recommend for managing them?",
-                "fa": "یک مهندس قوی کاری را برمی‌دارد که تا حالا انجام نداده است. Grove برای مدیریت او کدام سبک را پیشنهاد می‌کند؟"
+                "en": "A strong engineer has low TRM on a task that is new to them. Which style does Grove recommend for managing them there?",
+                "fa": "یک مهندس قوی در کاری که برایش تازه است TRM پایینی دارد. Grove برای مدیریت او در آن کار کدام سبک را پیشنهاد می‌کند؟"
               },
               "options": [
                 {
@@ -745,8 +745,8 @@
                 "fa": "از نگاه Grove، سازمان کارکردی چه چیزی به دست می‌آورد؟"
               },
               "fare": {
-                "en": "A company puts all its engineers in one shared group. What is the benefit, according to Grove?",
-                "fa": "شرکتی همهٔ مهندسانش را در یک گروه مشترک جمع می‌کند. به گفتهٔ Grove فایده‌اش چیست؟"
+                "en": "A company gathers all its engineers into one functional group that serves every unit. Which benefit does Grove expect from that?",
+                "fa": "شرکتی همهٔ مهندسانش را در یک گروه کارکردی جمع می‌کند که به همهٔ واحدها خدمت می‌دهد. Grove از این کار چه فایده‌ای انتظار دارد؟"
               },
               "options": [
                 {

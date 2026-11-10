@@ -341,8 +341,8 @@
                 "fa": "اصل تطابق چه چیزی را با چه چیزی تطبیق می‌دهد؟"
               },
               "fare": {
-                "en": "A cost is recorded in the period of the sale it supports, not on the day of payment. Which pairing is the matching principle making?",
-                "fa": "هزینه‌ای در دورهٔ فروشی که پشتیبانش بوده ثبت می‌شود، نه در روز پرداخت. اصل تطابق این‌جا چه چیزی را کنار چه چیزی گذاشته است؟"
+                "en": "The matching principle decides in which period a cost is recorded. What does it pair up to do that?",
+                "fa": "اصل تطابق تعیین می‌کند هزینه در کدام دوره ثبت شود. برای این کار چه چیزی را کنار چه چیزی می‌گذارد؟"
               },
               "options": [
                 {
@@ -806,7 +806,7 @@
                 },
                 {
                   "en": "Operating income or EBIT",
-                  "fa": "درآمد عملیاتی یا EBIT"
+                  "fa": "EBIT"
                 }
               ],
               "answer": 2
