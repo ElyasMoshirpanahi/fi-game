@@ -1,0 +1,82 @@
+{
+  "book": "b22",
+  "edition": {
+    "text": "Web essays on paulgraham.com, 2005–2023",
+    "source": "https://paulgraham.com/articles.html",
+    "note": "Not a printed book, so no edition exists. The Lessons follow seven essays as now published on the author's site; each page carries its own date: How to Start a Startup (March 2005), Maker's Schedule, Manager's Schedule (July 2009), Startup = Growth (September 2012), How to Get Startup Ideas (November 2012), Do Things That Don't Scale (July 2013), Default Alive or Default Dead? (October 2015), How to Do Great Work (July 2023). The book's year 2001 matches no essay used; it is near the site's early essays (avg.html is dated April 2001)."
+  },
+  "rows": [
+    {
+      "id": "b22c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils How to Get Startup Ideas (2012) and How to Start a Startup (2005). It matters because your first €100 of ownership income will come from a problem people pay to solve.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/startupideas.html",
+      "note": "startupideas.html is headed \"November 2012\"; start.html (https://paulgraham.com/start.html) is headed \"March 2005\". Both years match. The €100 is the reader's roadmap sum, not from the essays. Card unchanged."
+    },
+    {
+      "id": "b22c1l1p10",
+      "kind": "quote",
+      "claim": "How to Start a Startup: the only way to make something customers want is to get a prototype in front of them and refine it based on their reactions. So get a version 1 out as soon as you can.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/start.html",
+      "note": "Essay: \"The only way to make something customers want is to get a prototype in front of them and refine it based on their reactions.\" and \"get a version 1 out as soon as you can\" (Graham calls it a possible fourth rule, implicit in the second). Wording matches. Card unchanged."
+    },
+    {
+      "id": "b22c1l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils Startup = Growth (2012) and Do Things That Don't Scale (2013). It matters because a product becomes ownership worth having only once it grows, and growth starts by hand.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/growth.html",
+      "note": "growth.html is headed \"September 2012\"; ds.html (https://paulgraham.com/ds.html) is headed \"July 2013\". Both years match. Card unchanged."
+    },
+    {
+      "id": "b22c1l2p4",
+      "kind": "figure",
+      "claim": "Startup = Growth: at Y Combinator a good growth rate is 5 to 7 percent a week. 10 percent a week is exceptional; 1 percent means you have not yet figured out what you are doing.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/growth.html",
+      "note": "Essay: \"A good growth rate during YC is 5-7% a week. If you can hit 10% a week you're doing exceptionally well. If you can only manage 1%, it's a sign you haven't yet figured out what you're doing.\" Card unchanged."
+    },
+    {
+      "id": "b22c1l2p6",
+      "kind": "figure",
+      "claim": "Startup = Growth: small weekly rates compound. 1 percent a week gives about 1.7 times in a year, while 5 percent a week gives about 12.6 times.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/growth.html",
+      "note": "Essay table: weekly 1% = 1.7x yearly, 5% = 12.6x; \"A company that grows at 1% a week will grow 1.7x a year, whereas a company that grows at 5% a week will grow 12.6x.\" Card unchanged."
+    },
+    {
+      "id": "b22c1l2p12",
+      "kind": "figure",
+      "claim": "Applied: for your AI product, recruit the first ten paying users one by one and onboard each yourself. Then track weekly revenue and aim for 5 percent growth a week.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/growth.html",
+      "note": "Applied Card. Its 5 percent a week is the low end of the essay's \"good growth rate during YC is 5-7% a week\"; \"recruit users manually\" is in ds.html. The count of ten users is the Lesson's own framing, not an essay figure. Card unchanged."
+    },
+    {
+      "id": "b22c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Default Alive or Default Dead (2015) and Maker's Schedule, Manager's Schedule (2009). It matters because runway and focused hours decide whether you ship.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/aord.html",
+      "note": "aord.html is headed \"October 2015\"; makersschedule.html (https://paulgraham.com/makersschedule.html) is headed \"July 2009\". Both years match. Card unchanged."
+    },
+    {
+      "id": "b22c1l3p11",
+      "kind": "quote",
+      "claim": "Maker's Schedule, Manager's Schedule: for a maker, a meeting is like throwing an exception. Graham once programmed from dinner till about 3 am, because at night no one could interrupt him.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/makersschedule.html",
+      "note": "Essay: \"For someone on the maker's schedule, having a meeting is like throwing an exception.\" and \"I used to program from dinner till about 3 am every day, because at night no one could interrupt me.\" The essay describes a daily habit in the 1990s; the Card's \"once\" reads as \"formerly\". Card unchanged."
+    },
+    {
+      "id": "b22c1l4p1",
+      "kind": "other",
+      "claim": "This Lesson distils How to Do Great Work (2023). It matters because a product is only as good as the work you choose and how long you stay with it.",
+      "verdict": "verified",
+      "source": "https://paulgraham.com/greatwork.html",
+      "note": "greatwork.html is headed \"July 2023\". Year matches. Card unchanged."
+    }
+  ]
+}

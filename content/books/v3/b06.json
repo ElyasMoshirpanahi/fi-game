@@ -6,6 +6,10 @@
     "fa": "Burton Malkiel"
   },
   "year": 1973,
+  "edition": {
+    "en": "13th edition, 2023",
+    "fa": "ویراست سیزدهم، ۲۰۲۳"
+  },
   "stage": 2,
   "must": true,
   "why": {
@@ -310,8 +314,8 @@
               "kind": "card",
               "id": "b06c1l2p3",
               "text": {
-                "en": "As prices soared, people bartered belongings such as land, jewels and furniture for bulbs. Malkiel reports bulb prices rose twentyfold in January 1637 alone.",
-                "fa": "با اوج گرفتن قیمت‌ها، مردم دارایی‌هایی مثل زمین، جواهر و اثاث خانه را با پیاز لاله تاخت زدند. به گفتهٔ Malkiel قیمت پیازها فقط در ژانویهٔ ۱۶۳۷ بیست برابر شد."
+                "en": "As prices soared, people bartered valuables such as land and jewels for bulbs. Malkiel reports bulb prices rose twentyfold in January 1637 alone.",
+                "fa": "با اوج گرفتن قیمت‌ها، مردم دارایی‌های باارزشی مثل زمین و جواهر را با پیاز لاله تاخت زدند. به گفتهٔ Malkiel قیمت پیازها فقط در ژانویهٔ ۱۶۳۷ بیست برابر شد."
               }
             },
             {
@@ -341,8 +345,8 @@
               "kind": "card",
               "id": "b06c1l2p5",
               "text": {
-                "en": "In 1720 Britain, the South Sea Company, granted a monopoly on trade to the South Seas, sold the public a dream of riches. Its shares soared though its trade barely existed.",
-                "fa": "در بریتانیای ۱۷۲۰، شرکت دریای جنوب که انحصار تجارت با دریاهای جنوب را گرفته بود، رؤیای ثروت را به مردم فروخت. سهامش اوج گرفت با اینکه تجارتش تقریباً وجود نداشت."
+                "en": "In 1720 Britain, the South Sea Company, granted a monopoly on trade to the South Seas, sold the public a dream of riches. Its shares soared though the trade itself earned little.",
+                "fa": "در بریتانیای ۱۷۲۰، شرکت دریای جنوب که انحصار تجارت با دریاهای جنوب را گرفته بود، رؤیای ثروت را به مردم فروخت. سهامش اوج گرفت با اینکه خودِ این تجارت سود چندانی نداشت."
               }
             },
             {
@@ -565,8 +569,8 @@
               "kind": "card",
               "id": "b06c1l3p3",
               "text": {
-                "en": "In the late 1960s came the conglomerates, which bought unrelated firms to show rising earnings per share. They claimed synergy, where two plus two equals five.",
-                "fa": "در اواخر دههٔ ۱۹۶۰ نوبت conglomerateها رسید که شرکت‌های بی‌ربط را می‌خریدند تا سود هر سهمِ رو به رشدی نشان دهند. آن‌ها مدعی هم‌افزایی بودند، جایی که دو به‌علاوهٔ دو می‌شود پنج."
+                "en": "In the 1960s came the conglomerates, which bought unrelated firms to show rising earnings per share. They claimed synergy, where two plus two equals five.",
+                "fa": "در دههٔ ۱۹۶۰ نوبت conglomerateها رسید که شرکت‌های بی‌ربط را می‌خریدند تا سود هر سهمِ رو به رشدی نشان دهند. آن‌ها مدعی هم‌افزایی بودند، جایی که دو به‌علاوهٔ دو می‌شود پنج."
               }
             },
             {
@@ -686,8 +690,8 @@
               "kind": "card",
               "id": "b06c1l3p9",
               "text": {
-                "en": "Japanese shares traded at about 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
-                "fa": "سهام ژاپن حدود ۶۰ برابر سودشان معامله می‌شدند و با دلایل محلی توجیه می‌شدند. شاخص Nikkei از اوج ۱۹۸۹ ظرف چند سال بیش از نیمی از ارزشش را از دست داد."
+                "en": "Japanese shares traded at more than 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
+                "fa": "سهام ژاپن بیش از ۶۰ برابر سودشان معامله می‌شدند و با دلایل محلی توجیه می‌شدند. شاخص Nikkei از اوج ۱۹۸۹ ظرف چند سال بیش از نیمی از ارزشش را از دست داد."
               }
             },
             {
@@ -762,8 +766,8 @@
               "kind": "card",
               "id": "b06c1l3p13",
               "text": {
-                "en": "In the late 1960s, concept stocks such as National Student Marketing sold on a simple story. Its price soared, then collapsed when the market turned.",
-                "fa": "در اواخر دههٔ ۱۹۶۰، سهام مفهومی (concept stocks) مانند National Student Marketing با یک داستان ساده فروخته شدند. قیمت آن اوج گرفت و سپس با برگشتن بازار فرو ریخت."
+                "en": "In the late 1960s came concept stocks: firms with little revenue that sold on a compelling story. Their prices soared, then collapsed in the bear market that followed.",
+                "fa": "در اواخر دههٔ ۱۹۶۰ نوبت سهام مفهومی (concept stocks) رسید: شرکت‌هایی با درآمد اندک که با یک داستان جذاب فروخته می‌شدند. قیمتشان اوج گرفت و سپس در بازار نزولیِ پس از آن فرو ریخت."
               }
             },
             {
@@ -1183,8 +1187,8 @@
               "kind": "card",
               "id": "b06c2l1p7",
               "text": {
-                "en": "Mechanical filter rules, such as buying after a share rises 5 percent from a low, were tested too. Once trading costs were counted, they did not consistently beat buy and hold.",
-                "fa": "قواعد فیلتر مکانیکی، مثل خرید پس از ۵ درصد رشد سهم از یک کف، هم آزموده شدند. وقتی هزینهٔ معاملات حساب شد، به‌طور پایدار از خرید و نگهداری بهتر نبودند."
+                "en": "Mechanical filter rules, such as buying after a share rises a set percentage from a low, were tested too. Once trading costs were counted, they did not consistently beat buy and hold.",
+                "fa": "قواعد فیلتر مکانیکی، مثل خرید پس از رشد سهم به اندازهٔ درصدی معین از یک کف، هم آزموده شدند. وقتی هزینهٔ معاملات حساب شد، به‌طور پایدار از خرید و نگهداری بهتر نبودند."
               }
             },
             {

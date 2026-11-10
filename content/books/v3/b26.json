@@ -6,6 +6,10 @@
     "fa": "Charlie Munger، ویراستهٔ Peter D. Kaufman"
   },
   "year": 2005,
+  "edition": {
+    "en": "Abridged Stripe Press edition, 2023 (first published 2005)",
+    "fa": "ویراست خلاصه‌شدهٔ Stripe Press، ۲۰۲۳ (چاپ نخست ۲۰۰۵)"
+  },
   "stage": 6,
   "must": false,
   "why": {
@@ -647,8 +651,8 @@
               "kind": "card",
               "id": "b26c1l3p6",
               "text": {
-                "en": "Munger sorts ideas into three baskets: in, out and too tough. An idea he has no special insight into goes in the too-tough basket, and that is fine.",
-                "fa": "Munger ایده‌ها را در سه سبد می‌گذارد: داخل، بیرون و زیادی سخت. ایده‌ای که درباره‌اش بینش ویژه‌ای ندارد به سبد زیادی سخت می‌رود و این اشکالی ندارد."
+                "en": "Munger sorts investments into three baskets: yes, no and too tough to understand. An idea he has no special insight into goes in the too-tough basket, and that is fine.",
+                "fa": "Munger سرمایه‌گذاری‌ها را در سه سبد می‌گذارد: بله، نه و زیادی سخت برای فهمیدن. ایده‌ای که درباره‌اش بینش ویژه‌ای ندارد به سبد زیادی سخت می‌رود و این اشکالی ندارد."
               }
             },
             {
@@ -673,8 +677,8 @@
               "type": "tap",
               "source": "b26c1l3p6",
               "prompt": {
-                "en": "What are Munger's three baskets for ideas?",
-                "fa": "سه سبد Munger برای ایده‌ها کدام‌اند؟"
+                "en": "What are Munger's three baskets for investing?",
+                "fa": "سه سبد Munger برای سرمایه‌گذاری کدام‌اند؟"
               },
               "fare": {
                 "en": "Into which three piles does Munger sort the ideas that reach him?",
@@ -690,8 +694,8 @@
                   "fa": "ارزان، منصفانه و زیادی گران"
                 },
                 {
-                  "en": "In, out and too tough",
-                  "fa": "داخل، بیرون و زیادی سخت"
+                  "en": "Yes, no and too tough",
+                  "fa": "بله، نه و زیادی سخت"
                 }
               ],
               "answer": 2
@@ -700,8 +704,8 @@
               "kind": "card",
               "id": "b26c1l3p9",
               "text": {
-                "en": "Then sit on your hands. Munger says the big money is not in the buying and selling but in the waiting.",
-                "fa": "بعد دست روی دست بگذار. Munger می‌گوید پول کلان نه در خرید و فروش، بلکه در انتظار کشیدن است."
+                "en": "Then sit on your hands. A line widely attributed to Munger holds that the big money is not in the buying and selling but in the waiting.",
+                "fa": "بعد دست روی دست بگذار. جمله‌ای که بسیار به Munger نسبت داده می‌شود می‌گوید پول کلان نه در خرید و فروش، بلکه در انتظار کشیدن است."
               }
             },
             {
@@ -784,8 +788,8 @@
               "kind": "card",
               "id": "b26c1l3p14",
               "text": {
-                "en": "Someone will always get rich faster than you, Munger says, and that is no tragedy. He treats envy of other people's gains as a trap to stay out of.",
-                "fa": "Munger می‌گوید همیشه کسی سریع‌تر از تو ثروتمند می‌شود و این فاجعه نیست. او حسادت به سود دیگران را دامی می‌داند که باید از آن دور ماند."
+                "en": "A remark widely attributed to Munger: someone will always get rich faster than you, and that is no tragedy. The book lists avoidance of envy among his values.",
+                "fa": "سخنی که بسیار به Munger نسبت داده می‌شود: همیشه کسی سریع‌تر از تو ثروتمند می‌شود و این فاجعه نیست. کتاب پرهیز از حسادت را در شمار ارزش‌های او می‌آورد."
               }
             },
             {
@@ -885,8 +889,8 @@
               "kind": "card",
               "id": "b26c1l4p4",
               "text": {
-                "en": "Envy/jealousy tendency is so strong that two of the Ten Commandments forbid coveting. Munger notes that envy drives much behaviour that people rarely admit to.",
-                "fa": "گرایش به حسادت آن‌قدر قوی است که دو فرمان از ده فرمان طمع‌ورزی را منع می‌کنند. Munger می‌گوید حسادت پشت بسیاری از رفتارهایی است که آدم‌ها به‌ندرت به آن اعتراف می‌کنند."
+                "en": "Envy/jealousy tendency is so strong that the laws of Moses forbade coveting in phrase after phrase. Munger notes that envy drives much behaviour that people rarely admit to.",
+                "fa": "گرایش به حسادت آن‌قدر قوی است که شریعت موسی با عبارت‌هایی پیاپی طمع‌ورزی را منع کرده است. Munger می‌گوید حسادت پشت بسیاری از رفتارهایی است که آدم‌ها به‌ندرت به آن اعتراف می‌کنند."
               }
             },
             {

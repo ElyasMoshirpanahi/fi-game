@@ -6,6 +6,10 @@
     "fa": "Meb Faber"
   },
   "year": 2015,
+  "edition": {
+    "en": "1st edition, 2015",
+    "fa": "ویراست اول، ۲۰۱۵"
+  },
   "stage": 2,
   "must": false,
   "why": {
@@ -341,8 +345,8 @@
               "kind": "card",
               "id": "b09c1l2p7",
               "text": {
-                "en": "He also warns that 1973 to 2013 included a long fall in interest rates, which gave bonds unusually strong returns that may not repeat.",
-                "fa": "او هشدار هم می‌دهد که سال‌های ۱۹۷۳ تا ۲۰۱۳ شامل افتی طولانی در نرخ بهره بود که بازده غیرعادی قوی به اوراق قرضه داد و شاید تکرار نشود."
+                "en": "He also warns that the test period may not repeat: when he wrote, very low bond yields pointed to much lower bond returns ahead.",
+                "fa": "او هشدار هم می‌دهد که دورهٔ آزمایش شاید تکرار نشود: هنگام نوشتن کتاب، بازده جاری بسیار پایین اوراق قرضه از بازده بسیار کمتر اوراق در سال‌های پیش رو خبر می‌داد."
               }
             },
             {
@@ -351,17 +355,17 @@
               "type": "tap",
               "source": "b09c1l2p7",
               "prompt": {
-                "en": "What does Faber warn about bonds in his test period?",
-                "fa": "Faber دربارهٔ اوراق قرضه در دورهٔ آزمایشش چه هشداری می‌دهد؟"
+                "en": "What does Faber warn about bonds?",
+                "fa": "Faber دربارهٔ اوراق قرضه چه هشداری می‌دهد؟"
               },
               "fare": {
-                "en": "According to Faber, why might the bond results of 1973 to 2013 not repeat?",
-                "fa": "به گفتهٔ Faber، چرا شاید نتیجهٔ اوراق قرضه در سال‌های ۱۹۷۳ تا ۲۰۱۳ دوباره تکرار نشود؟"
+                "en": "According to Faber, why might bonds earn less in the years ahead than in the test period?",
+                "fa": "به گفتهٔ Faber، چرا شاید اوراق قرضه در سال‌های پیش رو کمتر از دورهٔ آزمایش بازده بدهد؟"
               },
               "options": [
                 {
-                  "en": "A long fall in interest rates gave bonds unusually strong returns",
-                  "fa": "افت طولانی نرخ بهره بازده غیرعادی قوی به اوراق قرضه داد"
+                  "en": "Very low bond yields pointed to much lower bond returns ahead",
+                  "fa": "بازده جاری بسیار پایین اوراق قرضه از بازده کمتر در آینده خبر می‌داد"
                 },
                 {
                   "en": "Bonds lost money in every year of the forty-year test",
@@ -489,8 +493,8 @@
               "kind": "card",
               "id": "b09c1l3p3",
               "text": {
-                "en": "Faber treats it as the natural starting point: it needs no forecasts, because its weights are simply what the world's investors already hold.",
-                "fa": "Faber آن را نقطهٔ شروع طبیعی می‌داند: به هیچ پیش‌بینی نیاز ندارد، چون وزن‌هایش همان چیزی است که سرمایه‌گذاران دنیا همین حالا نگه داشته‌اند."
+                "en": "The global market portfolio needs no forecasts: its weights are simply what the world's investors already hold.",
+                "fa": "پرتفوی بازار جهانی به هیچ پیش‌بینی نیاز ندارد: وزن‌هایش همان چیزی است که سرمایه‌گذاران دنیا همین حالا نگه داشته‌اند."
               }
             },
             {
@@ -649,8 +653,8 @@
               "kind": "card",
               "id": "b09c1l3p12",
               "text": {
-                "en": "Your 80 percent index core follows Faber's rule: start near the global market, keep costs low and stick with it while the satellites take the risks.",
-                "fa": "هستهٔ ۸۰ درصدی شاخصی تو از قاعدهٔ Faber پیروی می‌کند: نزدیک بازار جهانی شروع کن، هزینه را پایین نگه دار و پایش بمان، در حالی که اقمار ریسک‌ها را می‌پذیرند."
+                "en": "Your 80 percent index core follows Faber's rule: spread it across the world, keep costs low and stick with it while the satellites take the risks.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی تو از قاعدهٔ Faber پیروی می‌کند: آن را در سراسر دنیا پخش کن، هزینه را پایین نگه دار و پایش بمان، در حالی که اقمار ریسک‌ها را می‌پذیرند."
               }
             },
             {

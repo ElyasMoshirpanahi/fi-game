@@ -1,0 +1,114 @@
+{
+  "book": "b13",
+  "edition": {
+    "text": "4th revised edition, 1973",
+    "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+    "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The Lessons cite chapter 8 (The Investor and Market Fluctuations) and chapter 20 (Margin of Safety as the Central Concept of Investment); that numbering is the Fourth Revised Edition, which the opened text states was \"updated by Graham in 1971-1972 and initially published in 1973\" (the same Graham text is reprinted in the 2003 Zweig-annotated edition; chapter list confirmed at https://en.wikipedia.org/wiki/The_Intelligent_Investor). Content also fits only the later text: the Cards use the formula-plans passage about the rise that began in 1949-50 and figures Graham introduces as from former editions. The book's year field says 1949 (first edition); left unchanged for the owner to decide. Chapter numbering of the 1949 first edition was not checked against a scan."
+  },
+  "rows": [
+    {
+      "id": "b13c1l1p11",
+      "kind": "other",
+      "claim": "Applied: with 80 percent in index ETFs such as VWCE, a new quote arrives every second; a steep fall is Mr. Market's mood, not a verdict on the world's companies.",
+      "verdict": "verified",
+      "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80",
+      "note": "Applied Card; 80 percent is the game's own plan, not a book figure. Source shows Vanguard FTSE All-World UCITS ETF (USD) Accumulating tracks the FTSE All-World index (VWCE is its Xetra ticker; the page shows the LSE ticker VWRA). The Mr. Market parable is in ch. 8 of the full text."
+    },
+    {
+      "id": "b13c1l1p12",
+      "kind": "other",
+      "claim": "Before markets drop, write in your decision journal what you will do when VWCE falls 30 percent. A rule set in calm protects you from your own panic.",
+      "verdict": "verified",
+      "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80",
+      "note": "Applied Card; the 30 percent fall is the game's own scenario, not attributed to Graham. VWCE confirmed as an index ETF (FTSE All-World). No book figure to confirm."
+    },
+    {
+      "id": "b13c1l2p5",
+      "kind": "figure",
+      "claim": "The defensive investor splits money between high-grade bonds and leading common stocks, with never less than 25 or more than 75 percent in stocks. A 50-50 split is the standard.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"divide his holdings between high-grade bonds and leading common stocks\"; \"never have less than 25% or more than 75% of his funds in common stocks\"; \"the standard division should be an equal one, or 50-50\"."
+    },
+    {
+      "id": "b13c1l2p11",
+      "kind": "other",
+      "claim": "Applied: your 80 percent core in index ETFs such as VWCE or IWDA is the defensive path in modern form: broad diversification, little effort and few decisions.",
+      "verdict": "verified",
+      "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983",
+      "note": "Applied Card; 80 percent is the game's own plan. Source shows iShares Core MSCI World UCITS ETF USD (Acc), ticker IWDA, tracks MSCI World; VWCE tracks FTSE All-World (https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80)."
+    },
+    {
+      "id": "b13c1l2p12",
+      "kind": "other",
+      "claim": "The 20 percent satellite, your startup equity and AI product, is where enterprising effort belongs, and only as far as you truly bring the time and knowledge.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card; 20 percent is the game's own plan. The book idea is confirmed: the enterprising investor is defined by willingness to devote time and care, and results depend on the intelligent effort brought to the task (Introduction and ch. 4 of the text)."
+    },
+    {
+      "id": "b13c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 20, Margin of Safety as the Central Concept of Investment. It matters because every euro you put into ETFs, startup equity or your 25 times target needs room for error.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text heading: \"CHAPTER 20 / 'Margin of Safety' as the Central Concept of Investment\". The 25 times target is the game's own figure."
+    },
+    {
+      "id": "b13c1l3p5",
+      "kind": "figure",
+      "claim": "For stocks, Graham's example: earnings of 9 percent on the price against a 4 percent bond rate. Over ten years the 5 percent excess can add up to half the price paid.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"Assume in a typical case that the earning power is 9% on the price and that the bond rate is 4%; then the stockbuyer will have an average annual margin of 5% accruing in his favor.\" and \"Over a ten-year period the typical excess of stock earning power over bond interest may aggregate 50% of the price paid.\" Graham introduces these as figures from former editions."
+    },
+    {
+      "id": "b13c1l3p10",
+      "kind": "quote",
+      "claim": "\"Investment is most intelligent when it is most businesslike,\" Graham writes. Treat a share as a stake in a business and judge it by what that business earns.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text, ch. 20 \"To Sum Up\": \"Investment is most intelligent when it is most businesslike.\" Exact wording."
+    },
+    {
+      "id": "b13c1l3p11",
+      "kind": "other",
+      "claim": "Applied: if your estimate of annual expenses in the Netherlands is a guess, pad the 25 times target, because a margin protects you from errors, bad luck and a changing world.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card; 25 times is the game's own target. Book idea confirmed: ch. 20 says the margin of safety makes an accurate estimate of the future unnecessary and absorbs miscalculation and worse-than-average luck."
+    },
+    {
+      "id": "b13c1l4p1",
+      "kind": "other",
+      "claim": "This Lesson turns chapters 8 and 20 into practice: formula rules for the defensive investor, bargains for the enterprising one, and Graham's business principles. Ideas protect you only once they become rules.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter numbers 8 (\"The Investor and Market Fluctuations\") and 20 match the 4th revised edition text. The formula rule comes from ch. 4 and the bargain definition from ch. 7 of the same edition."
+    },
+    {
+      "id": "b13c1l4p2",
+      "kind": "figure",
+      "claim": "Graham gives the defensive investor a simple formula: when rising prices push stocks above the 50-50 split, sell some to restore it; when falling prices push them below, buy some.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text, ch. 4: \"an oversimplified 50-50 formula ... When changes in the market level have raised the common-stock component to, say, 55%, the balance would be restored by a sale of one-eleventh of the stock portfolio ... Conversely, a fall in the common-stock proportion to 45% would call for the use of one-eleventh of the bond fund to buy additional equities.\""
+    },
+    {
+      "id": "b13c1l4p3",
+      "kind": "figure",
+      "claim": "Graham notes that such mechanical formula plans, once popular, sold out too early in the long rise after 1949. Any approach that becomes widely followed tends to lose its edge.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text, ch. 8 \"Formula Plans\": \"In the early years of the stock-market rise that began in 1949-50 ...\"; \"Many of the 'formula planners' found themselves entirely or nearly out of the stock market at some level in the middle 1950s ... the market 'ran away' from them\"; \"any approach to moneymaking in the stock market which can be easily described and followed by a lot of people is by its terms too simple and too easy to last.\" This passage postdates the 1949 first edition."
+    },
+    {
+      "id": "b13c1l4p5",
+      "kind": "figure",
+      "claim": "For the enterprising investor, Graham's bargain is a security whose appraised value is well above its price, by his rule of thumb at least 50 percent more.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20(chapters%208%20and%2020)%20Benjamin%20Graham",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text, ch. 7: \"an issue is not a true 'bargain' unless the indicated value is at least 50% more than the price.\""
+    }
+  ]
+}

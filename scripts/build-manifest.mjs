@@ -18,7 +18,7 @@ for (const f of files) {
   const errs = validateBook(b, []);
   if (errs.length) { failed++; console.log(`${f}: FAIL\n  - ${errs.slice(0, 20).join('\n  - ')}`); continue; }
   manifest.push({
-    id: b.id, title: b.title, author: b.author, year: b.year, stage: b.stage, must: b.must, why: b.why, badge: b.badge, tier: b.tier,
+    id: b.id, title: b.title, author: b.author, year: b.year, edition: b.edition, stage: b.stage, must: b.must, why: b.why, badge: b.badge, tier: b.tier,
     circles: b.circles.map((c) => ({ id: c.id, title: c.title, lessons: c.lessons.map((l) => ({ id: l.id, title: l.title, points: l.items.filter((i) => i.kind === 'card').length, checks: l.items.filter((i) => i.kind === 'check').length, minutes: l.minutes || l.items.filter((i) => i.kind === 'card').length })) })),
   });
 }

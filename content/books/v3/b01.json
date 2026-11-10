@@ -6,6 +6,10 @@
     "fa": "Morgan Housel"
   },
   "year": 2020,
+  "edition": {
+    "en": "1st edition, 2020",
+    "fa": "ویراست اول، ۲۰۲۰"
+  },
   "stage": 1,
   "must": true,
   "why": {
@@ -728,8 +732,8 @@
               "kind": "card",
               "id": "b01c2l1p2",
               "text": {
-                "en": "Jesse Livermore shorted the market before the crash of October 1929 and made the equivalent of $3 billion in one day. Emboldened, he kept making bigger bets, lost everything, and took his own life in 1940.",
-                "fa": "Jesse Livermore پیش از سقوط اکتبر ۱۹۲۹ بازار را short کرد و در یک روز معادل ۳ میلیارد دلار به دست آورد. جسورتر شد، شرط‌های بزرگ‌تر و بزرگ‌تری بست، همه‌چیز را باخت و در ۱۹۴۰ به زندگی خود پایان داد."
+                "en": "Jesse Livermore shorted the market before the crash of October 1929 and made the equivalent of $3 billion in one day. Emboldened, he kept making bigger bets, lost everything, and eventually took his own life.",
+                "fa": "Jesse Livermore پیش از سقوط اکتبر ۱۹۲۹ بازار را short کرد و در یک روز معادل ۳ میلیارد دلار به دست آورد. جسورتر شد، شرط‌های بزرگ‌تر و بزرگ‌تری بست، همه‌چیز را باخت و سرانجام به زندگی خود پایان داد."
               }
             },
             {
@@ -1501,8 +1505,8 @@
               "kind": "card",
               "id": "b01c3l1p8",
               "text": {
-                "en": "The Great Depression, World War II, the dot-com bust, 9/11 and the 2008 housing collapse were all outliers. The biggest events in history are things no past data predicted.",
-                "fa": "رکود بزرگ، جنگ جهانی دوم، سقوط dot-com، ۱۱ سپتامبر و فروپاشی مسکن ۲۰۰۸ همگی پرت بودند. بزرگ‌ترین رویدادهای تاریخ چیزهایی‌اند که هیچ دادهٔ گذشته‌ای پیش‌بینی‌شان نکرده بود."
+                "en": "The Great Depression, World War II, the dot-com bubble, 9/11 and the housing crash of the mid-2000s were all outliers. The biggest events in history are things no past data predicted.",
+                "fa": "رکود بزرگ، جنگ جهانی دوم، حباب dot-com، ۱۱ سپتامبر و سقوط مسکنِ میانهٔ دههٔ ۲۰۰۰ همگی پرت بودند. بزرگ‌ترین رویدادهای تاریخ چیزهایی‌اند که هیچ دادهٔ گذشته‌ای پیش‌بینی‌شان نکرده بود."
               }
             },
             {

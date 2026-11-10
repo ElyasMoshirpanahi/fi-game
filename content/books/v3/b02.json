@@ -6,6 +6,10 @@
     "fa": "JL Collins"
   },
   "year": 2016,
+  "edition": {
+    "en": "1st edition, 2016",
+    "fa": "ویراست اول، ۲۰۱۶"
+  },
   "stage": 1,
   "must": true,
   "why": {
@@ -767,8 +771,8 @@
               "kind": "card",
               "id": "b02c2l1p5",
               "text": {
-                "en": "Collins is clear that the ride is rough. Crashes such as 1929, 1987 and 2008 are part of the trip, not exceptions.",
-                "fa": "Collins روشن می‌گوید که مسیر پرتلاطم است. سقوط‌هایی مثل ۱۹۲۹، ۱۹۸۷ و ۲۰۰۸ بخشی از سفرند، نه استثنا."
+                "en": "Collins is clear that the ride is rough. Crashes such as 1987 and 2008 are part of the trip, not exceptions.",
+                "fa": "Collins روشن می‌گوید که مسیر پرتلاطم است. سقوط‌هایی مثل ۱۹۸۷ و ۲۰۰۸ بخشی از سفرند، نه استثنا."
               }
             },
             {
@@ -781,8 +785,8 @@
                 "fa": "Collins سقوط‌ها را چطور توصیف می‌کند؟"
               },
               "fare": {
-                "en": "Where do 1929, 1987 and 2008 fit in Collins’s picture of the market?",
-                "fa": "سال‌های ۱۹۲۹، ۱۹۸۷ و ۲۰۰۸ در تصویر Collins از بازار چه جایی دارند؟"
+                "en": "Where do 1987 and 2008 fit in Collins’s picture of the market?",
+                "fa": "سال‌های ۱۹۸۷ و ۲۰۰۸ در تصویر Collins از بازار چه جایی دارند؟"
               },
               "options": [
                 {
@@ -1448,8 +1452,8 @@
               "kind": "card",
               "id": "b02c3l1p5",
               "text": {
-                "en": "That only works if you can hold through a 50 percent drop without selling. If you cannot, add some bonds even while building.",
-                "fa": "این فقط وقتی کار می‌کند که بتوانی افت ۵۰ درصدی را بدون فروش تحمل کنی. اگر نمی‌توانی، حتی در مرحلهٔ ساختن مقداری اوراق اضافه کن."
+                "en": "That only works if you can hold through a steep drop without selling. If you cannot, add some bonds even while building.",
+                "fa": "این فقط وقتی کار می‌کند که بتوانی افت شدید را بدون فروش تحمل کنی. اگر نمی‌توانی، حتی در مرحلهٔ ساختن مقداری اوراق اضافه کن."
               }
             },
             {
@@ -1462,8 +1466,8 @@
                 "fa": "Collins می‌گوید حتی اگر افت بزرگ تو را به فروش بکشاند باید سهام کامل نگه داری."
               },
               "fare": {
-                "en": "For Collins, an investor who would sell in a 50 percent drop should still stay fully in stocks.",
-                "fa": "از نظر Collins، سرمایه‌گذاری که در افت ۵۰ درصدی می‌فروشد باز هم باید تماماً در سهام بماند."
+                "en": "For Collins, an investor who would sell in a steep drop should still stay fully in stocks.",
+                "fa": "از نظر Collins، سرمایه‌گذاری که در افت شدید می‌فروشد باز هم باید تماماً در سهام بماند."
               },
               "answer": false
             },
@@ -1919,8 +1923,8 @@
               "kind": "card",
               "id": "b02c3l3p6",
               "text": {
-                "en": "Collins treats 4 percent as a guideline, not a law. He urges flexibility: spend less after a bad market year and more after strong ones.",
-                "fa": "Collins ۴ درصد را راهنما می‌داند، نه قانون. او انعطاف را توصیه می‌کند: پس از سال بد بازار کمتر خرج کن و پس از سال‌های قوی بیشتر."
+                "en": "Collins treats 4 percent as a guideline, not a law. He urges flexibility: cut back your spending when the market takes a big dive, until it recovers.",
+                "fa": "Collins ۴ درصد را راهنما می‌داند، نه قانون. او انعطاف را توصیه می‌کند: وقتی بازار سقوط بزرگی می‌کند، تا برگشتنش خرجت را کم کن."
               }
             },
             {

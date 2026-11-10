@@ -6,6 +6,10 @@
     "fa": "Andrew S. Grove"
   },
   "year": 1983,
+  "edition": {
+    "en": "2nd Vintage edition, 1995",
+    "fa": "ویراست دوم Vintage، ۱۹۹۵"
+  },
   "stage": 6,
   "must": false,
   "why": {

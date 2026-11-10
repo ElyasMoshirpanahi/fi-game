@@ -1,0 +1,42 @@
+{
+  "book": "b11",
+  "edition": {
+    "text": "1st edition, 2011",
+    "source": "https://content.e-bookshelf.de/media/reading/L-590182-c78c28c8e6.pdf",
+    "note": "Publisher's excerpt (Wiley) shows \"Copyright 2011 by Aswath Damodaran\", ISBN 978-1-118-00477-7, and the contents: chapter 1 Value--More Than a Number!, chapter 5 Promise Aplenty, 6 Growing Pains, 7 Valuation Viagra, 8 Doomsday, 9 Bank on It, 10 Roller-Coaster Investing, 11 Invisible Value, Conclusion. The Lessons use this numbering (chapter 5 = young growth companies). In the updated 2024 edition chapter 5 is a new storytelling chapter and young growth companies move to chapter 6 (https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook2ed.htm), so the Lessons do not follow it. The author's 2024 page calls the first edition \"the 2012 version\"; the copyright page says 2011. No Lesson was found to rest on material that exists only in the 2024 edition."
+  },
+  "rows": [
+    {
+      "id": "b11c1l2p12",
+      "kind": "figure",
+      "claim": "Applied: your €40k in an index ETF and your shares in a startup face the same two tools. The startup's riskier cash flows deserve a much higher discount rate.",
+      "verdict": "verified",
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/discountrates.htm",
+      "note": "Author's companion page for the book: \"We use higher discount rates on riskier cash flows and lower discount rates on safer cash flows.\" The EUR 40k is the player profile set in docs/content-brief-v3.md, used as an illustration in an applied Card; it is not presented as a figure from the book. Card unchanged."
+    },
+    {
+      "id": "b11c2l1p11",
+      "kind": "figure",
+      "claim": "Applied: a startup priced at 20 times revenue only looks cheap next to peers at 30 times if its growth, margins and risk are similar.",
+      "verdict": "verified",
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/comparables.htm",
+      "note": "Author's companion page: \"A comparable firm is one with cash flows, growth potential, and risk similar to the firm being valued.\" Companion page controldifferences.htm lists net margin among the determinants of the price to sales ratio. The 20 times and 30 times revenue are a hypothetical example in an applied Card, not figures from the book. Card unchanged."
+    },
+    {
+      "id": "b11c2l3p12",
+      "kind": "figure",
+      "claim": "Applied: an option grant at a €10 million valuation is worth far less to you if the company has a high chance of failing and later rounds dilute your stake.",
+      "verdict": "verified",
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/youngrowth.htm",
+      "note": "Author's companion page on young growth companies: many young firms do not survive (it cites a study in which only 31% of businesses founded in 1998 lasted seven years), and under \"Multiple claims on equity\" earlier equity investors are exposed \"to the possibility that their value can be reduced by deals offered to subsequent equity investors\". The EUR 10 million valuation is a hypothetical example in an applied Card, not a figure from the book. Card unchanged."
+    },
+    {
+      "id": "b11c2l4p11",
+      "kind": "figure",
+      "claim": "Applied: your 80 percent VWCE core accepts the market's price. The 20 percent satellite and your startup stake are where your own story and valuation must do the work.",
+      "verdict": "verified",
+      "source": "https://content.e-bookshelf.de/media/reading/L-590182-c78c28c8e6.pdf",
+      "note": "The 80 percent index core (VWCE) and 20 percent satellite are the player's roadmap as set in docs/content-brief-v3.md, not a figure from the book, so no book source applies to the split. The idea applied is the book's: the publisher's excerpt of the 2011 edition, chapter 1, says \"you have to at least try to value whatever you are buying before buying it\", and its foreword names the \"10 Rules for the Road\" in the conclusion; the tenth rule, \"Convert stories to numbers\", was read in the list reproduced at https://acquirersmultiple.com/2018/07/aswath-damodaran-analyzing-investments-assessing-value (secondary). Card unchanged."
+    }
+  ]
+}

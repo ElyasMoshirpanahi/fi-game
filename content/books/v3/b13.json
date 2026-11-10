@@ -6,6 +6,10 @@
     "fa": "Benjamin Graham"
   },
   "year": 1949,
+  "edition": {
+    "en": "4th revised edition, 1973",
+    "fa": "ویراست چهارم بازبینی‌شده، ۱۹۷۳"
+  },
   "stage": 3,
   "must": false,
   "why": {

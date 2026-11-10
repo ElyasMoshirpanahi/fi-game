@@ -6,6 +6,10 @@
     "fa": "Vicki Robin و Joe Dominguez"
   },
   "year": 1992,
+  "edition": {
+    "en": "1st edition, 1992",
+    "fa": "ویراست اول، ۱۹۹۲"
+  },
   "stage": 1,
   "must": true,
   "why": {
@@ -39,8 +43,8 @@
               "id": "b03c1l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapters 1 and 2: Step 1 of the nine steps and the idea of life energy. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
-                "fa": "این درس فصل‌های ۱ و ۲ را خلاصه می‌کند: گام ۱ از نُه گام و ایدهٔ انرژی زندگی. مهم است چون بدون دانستن اینکه کار گذشته‌ات واقعاً چه حاصلی داشته، نمی‌توانی جابه‌جایی و سبد سرمایه‌ات را برنامه‌ریزی کنی."
+                "en": "This Lesson distils the opening chapters of the book: Step 1 of the nine steps and the idea of life energy. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
+                "fa": "این درس فصل‌های آغازین کتاب را خلاصه می‌کند: گام ۱ از نُه گام و ایدهٔ انرژی زندگی. مهم است چون بدون دانستن اینکه کار گذشته‌ات واقعاً چه حاصلی داشته، نمی‌توانی جابه‌جایی و سبد سرمایه‌ات را برنامه‌ریزی کنی."
               }
             },
             {
@@ -92,8 +96,8 @@
               "kind": "card",
               "id": "b03c1l1p4",
               "text": {
-                "en": "The book counts the hours: at 40 you can expect roughly 330,000 hours of life left, and about half go to sleep and body maintenance. The rest is all the life energy you have to spend.",
-                "fa": "کتاب ساعت‌ها را می‌شمارد: در ۴۰ سالگی می‌توانی انتظار حدود ۳۳۰٬۰۰۰ ساعت زندگی باقی‌مانده داشته باشی و تقریباً نیمی از آن صرف خواب و نگهداری بدن می‌شود. باقی‌مانده همهٔ انرژی زندگی‌ای است که برای خرج کردن داری."
+                "en": "The book counts the hours: by its actuarial table, a 40-year-old has 329,601 hours of life left, roughly 330,000. Those hours are all the life energy you have to spend.",
+                "fa": "کتاب ساعت‌ها را می‌شمارد: طبق جدول آماری آن، یک فرد ۴۰ ساله ۳۲۹٬۶۰۱ ساعت زندگی باقی‌مانده دارد، یعنی حدود ۳۳۰٬۰۰۰ ساعت. این ساعت‌ها همهٔ انرژی زندگی‌ای است که برای خرج کردن داری."
               }
             },
             {

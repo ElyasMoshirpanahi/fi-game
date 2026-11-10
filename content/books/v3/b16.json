@@ -6,6 +6,10 @@
     "fa": "Rob Fitzpatrick"
   },
   "year": 2013,
+  "edition": {
+    "en": "1st edition, 2013 (text revised 2014)",
+    "fa": "ویراست اول، ۲۰۱۳ (متن بازبینی‌شده ۲۰۱۴)"
+  },
   "stage": 5,
   "must": true,
   "why": {

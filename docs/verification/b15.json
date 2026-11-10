@@ -1,0 +1,210 @@
+{
+  "book": "b15",
+  "edition": {
+    "text": "3rd edition, 2016",
+    "source": "https://archive.org/details/venturedealsbesm0000feld_a7y9",
+    "note": "The Lessons include a Crowdfunding chapter and the safe. The Internet Archive record for ISBN 9781119259756 is dated 2016 and describes 'This new third edition'. The third-edition text (copyright 2016, searched in a third-party upload at https://archive.org/details/wdr-2015-full-report/Venture-deals) has 'Chapter 9, Crowdfunding' and indexes 'Safe, the (Simple Agreement for Future Equity), 121-122'; its foreword says the book was first written 'back in 2011' and 'is now on its Third Edition'. The file's year, 2011, is the first edition. The first and second editions could not be opened, so which edition first added each chapter was not confirmed directly. Page numbers in the rows are scan page numbers of that upload, not printed page numbers."
+  },
+  "rows": [
+    {
+      "id": "b15c1l3p6",
+      "kind": "figure",
+      "claim": "Example: an $8 million pre-money and a $2 million investment give a $10 million post-money. The new investor then owns 20 percent of the company.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card used invented numbers ($8M pre, $2M, $10M post). Book: 'a $5 million investment at a pre-money valuation of $20 million, which would buy only 20% of the $25 million post-money company' (scan p58). Card, Check b15c1l3k3 and b15c1l3p7 now use the book's numbers."
+    },
+    {
+      "id": "b15c1l3p9",
+      "kind": "figure",
+      "claim": "So a $2 million unallocated pool inside an $8 million pre-money leaves an effective pre-money of only $6 million. The headline price stays the same, but founders get less.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card said a $2M pool inside $8M pre-money leaves $6M. Book: existing 10% pool, VCs want 20%, 'the extra 10% will come out of the pre-money valuation, resulting in an effective pre-money valuation of $18 million' on $20M pre-money (scan p59). Card rewritten to that example."
+    },
+    {
+      "id": "b15c1l4p3",
+      "kind": "other",
+      "claim": "The preference has two parts: the actual preference and participation. The actual preference is a multiple of the investment, such as 1x, paid before common holders.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'There are two components that make up what most people call the liquidation preference: the actual preference and participation'; 'a certain multiple of the original investment per share is returned to the investor before the common stock' (scan p63)."
+    },
+    {
+      "id": "b15c1l4p4",
+      "kind": "figure",
+      "claim": "A 1x preference on a $5 million investment means investors get their $5 million back first. Multiples above 1x appear in tough markets but are rarer in good ones.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'For many years, a 1x liquidation preference, or simply the amount of money invested, was the standard. In 2001, as the Internet bubble burst, investors often increased this multiple, sometimes as high as 10x'; examples use a $5 million Series A (scan p63, p66)."
+    },
+    {
+      "id": "b15c1l4p7",
+      "kind": "figure",
+      "claim": "Capped participation is a middle ground: investors participate until their total return reaches a cap, such as 3x. Above that, converting to common pays them more.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Capped participation: shares 'until a certain multiple return is reached'; 'If the participation multiple is three (three times the original purchase price)' the preferred stops participating once 300% is returned (scan p64-65)."
+    },
+    {
+      "id": "b15c1l4p8",
+      "kind": "figure",
+      "claim": "Example: investors put in $5 million for 50 percent with full participation, and the company sells for $15 million. They take $5 million first, then half of $10 million.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card said $5M for 50%, taking half of $10M. Book: '$5 million at a $10 million pre-money valuation... Series A investors own 33.3%'; $15M sale, 1x participating: 'first $5 million and then 33% of the remaining amount, or $3.3 million... total return of $8.3 million' (scan p66-67). Card now follows the book."
+    },
+    {
+      "id": "b15c1l4p9",
+      "kind": "figure",
+      "claim": "With non-participating preferred in the same sale, investors choose between $5 million back or 50 percent as common, which is $7.5 million. They convert, and founders keep far more.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card said converting gives $7.5M so investors convert. Book, Case 1 at $15M: 'take its $5 million liquidation preference and be done, or convert to common and take 33% of the proceeds, which in this case is also $5 million. Note that the common gets $10 million' (scan p67); with participation common gets $6.7M. Card and Check b15c1l4k4 rewritten."
+    },
+    {
+      "id": "b15c1l4p12",
+      "kind": "other",
+      "claim": "As a CTO with common stock or options, ask for the total preference stack above you. A $40 million sale means little if $40 million of preferences sit ahead of your shares.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card; its $40M figures are an illustration, not a book figure. The principle is the book's: in a $100M sale with a 2x preference on $50M invested 'The common gets nothing' (scan p69). Left unchanged."
+    },
+    {
+      "id": "b15c2l1p3",
+      "kind": "figure",
+      "claim": "The standard schedule in the book is four years with a one-year cliff. Nothing vests in the first year, then 25 percent vests at once and the rest monthly.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'Industry standard vesting for early-stage companies is a one-year vesting cliff and monthly vesting thereafter for a total of four years... After a year, you have vested 25%' (scan p75)."
+    },
+    {
+      "id": "b15c2l1p9",
+      "kind": "figure",
+      "claim": "The employee option pool is the stock reserved for future hires. Typical pools run about 10 to 20 percent of the company.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'The typical early-stage company option pool ends up in a range of 10% to 20%' (scan p59)."
+    },
+    {
+      "id": "b15c2l1p10",
+      "kind": "figure",
+      "claim": "In the US, founders who receive restricted stock often file an 83(b) election within 30 days. It lets them pay tax on today's low value instead of at each vesting date.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'If you don't file an 83(b) election within 30 days after receiving your stock in a company, you will almost always lose capital gains treatment' (scan p221); p76 names it as Internal Revenue Code Section 83(b), used to 'lock in long-term capital gains tax rates early on'. The Card's description of the tax mechanism is a general one, not the book's wording."
+    },
+    {
+      "id": "b15c2l1p12",
+      "kind": "other",
+      "claim": "Before signing a CTO offer, get the vesting start date, cliff and acceleration terms in writing. Dutch tax rules differ from the US 83(b) system, so check them locally.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card with no book figure. The book treats 83(b) as a US Internal Revenue Code section (scan p76, p221), which supports calling it a US system. Left unchanged."
+    },
+    {
+      "id": "b15c2l3p2",
+      "kind": "figure",
+      "claim": "Control terms give investors power beyond their share of ownership. A VC with 20 percent of the stock can still block major decisions.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The 20 percent was not the book's figure. Book: 'While VCs often have less than 50% ownership of a company, they usually have a variety of control terms that effectively give them control of many activities of the company' (scan p85). Card and Check b15c2l3k1 now say 'less than half of the stock'."
+    },
+    {
+      "id": "b15c2l5p5",
+      "kind": "other",
+      "claim": "US companies usually get an outside 409A valuation before granting options, to set a fair market value for the strike price. A strike price set too low can trigger heavy taxes for employees.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'Section 409A says that all stock options given to employees of a company need to be at fair market value'; the IRS 'created dramatic penalties for the incorrect valuation of stock options. The penalties included excise taxes on the employee' (scan p222)."
+    },
+    {
+      "id": "b15c2l5p7",
+      "kind": "quote",
+      "claim": "The book warns that a missed 83(b) election is one of the few mistakes that cannot be fixed afterwards. The filing window is 30 days from receiving the stock.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Book: 'This is another \"if you don't do it right in the beginning you can't fix it later\" issue', with the 30-day window (scan p221). 'One of the few mistakes' was not the book's wording and was removed; the rest stands."
+    },
+    {
+      "id": "b15c2l5p11",
+      "kind": "other",
+      "claim": "Using a professional valuation firm gives the company a safe harbor under 409A. The valuation is then presumed correct unless the tax authority proves otherwise.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'the IRS gave everyone a way out, also known... as a safe harbor. If a company used a professional valuation firm, the valuation would be assumed to be correct unless the IRS could prove otherwise' (scan p222)."
+    },
+    {
+      "id": "b15c3l1p3",
+      "kind": "figure",
+      "claim": "The discount is one reward: noteholders convert at a lower price than new investors, often 10 to 30 percent below. A 20 percent discount is common.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'The range of discounts we typically see is 10 to 30%, with 20% being the most common' (scan p126)."
+    },
+    {
+      "id": "b15c3l1p13",
+      "kind": "figure",
+      "claim": "If the company is sold before a priced round, a note often pays the holder a multiple of the principal, such as 2x, or converts at the cap.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card said 'such as 2x'. Book: 'Usually we see a multiple of two to three times'; another scenario is that 'the debt converts into stock of the acquiring company... at a valuation subject to a cap' (scan p130). Card now says 'usually two to three times'; fare of b15c3l1k6 adjusted."
+    },
+    {
+      "id": "b15c3l2p4",
+      "kind": "figure",
+      "claim": "The management fee pays salaries and costs, typically about 2 to 2.5 percent of the fund each year. Over a ten-year fund, fees absorb a large share of committed capital.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Card said 'about 2 to 2.5 percent' and 'a large share'. Book: 'typically between 1.5% and 2.5%'; 'the average total fee over a 10-year period is about 15% of the committed capital' (scan p147-148). Card now gives both figures."
+    },
+    {
+      "id": "b15c3l2p5",
+      "kind": "figure",
+      "claim": "Carried interest, or carry, is the VCs' share of profits, usually 20 percent and sometimes up to 30. LPs normally get their capital back before carry is paid.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'Most VCs get 20% of the profits after returning capital (a 20% carry), although some long-standing or extremely successful funds take up to 30% of the profits'; carry is received 'after they've returned $100 million to their LPs' (scan p149)."
+    },
+    {
+      "id": "b15c3l2p12",
+      "kind": "figure",
+      "claim": "LPs pay roughly 2 and 20 for access to a few top deals. The roadmap's core-satellite plan keeps the core in low-cost index ETFs and puts any startup bets in the 20 percent satellite.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. '2 and 20' matches the book's roughly 2% fee and 20% carry (scan p148-149). The second sentence is about the roadmap, not the book; its 20 percent satellite matches the 80 percent index core in docs/content-brief-v3.md."
+    },
+    {
+      "id": "b15c3l4p7",
+      "kind": "figure",
+      "claim": "An escrow, or holdback, keeps part of the price, often 10 to 20 percent, for a year or more. It covers claims if the seller's representations and warranties turn out wrong.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'The escrow (also known as a holdback)...'; 'Normally between 10% and 20% of the aggregate purchase price is set aside for between 12 and 24 months to cure any breaches of the reps' (scan p201-202)."
+    },
+    {
+      "id": "b15c3l5p7",
+      "kind": "figure",
+      "claim": "Equity crowdfunding lets many people buy actual shares. In the US, the JOBS Act of 2012 opened it to non-accredited investors.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. 'the JOBS Act (the full name is the Jumpstart Our Business Startups Act) that was passed in 2012'; 'nonaccredited investors can participate in a Title III financing' (scan p140-142)."
+    },
+    {
+      "id": "b15c3l5p14",
+      "kind": "other",
+      "claim": "For a small AI product, a pre-sale works like a mini crowdfund: proof people will pay before you build too much. The roadmap's first €100 of ownership income can start this way.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card. The book likens product crowdfunding to a preorder: 'you will also hear people refer to them as \"presales\" or \"preorders\"' (scan p139). The EUR 100 goal is the roadmap's, as stated in docs/content-brief-v3.md."
+    },
+    {
+      "id": "b15c1l3p7",
+      "kind": "figure",
+      "claim": "Always say whether a number is pre-money or post-money. A VC who says ten million could mean either, and the gap is the size of the round.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Venture%20Deals%20Brad%20Feld%20and%20Jason%20Mendelson",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Not listed. 'Ten million' changed to 'twenty million' to match the book's own example and the corrected b15c1l3p6: 'I assume you mean $20 million pre-money' (scan p58)."
+    }
+  ]
+}

@@ -6,6 +6,10 @@
     "fa": "Ben Horowitz"
   },
   "year": 2014,
+  "edition": {
+    "en": "1st edition, 2014",
+    "fa": "ویراست اول، ۲۰۱۴"
+  },
   "stage": 5,
   "must": true,
   "why": {

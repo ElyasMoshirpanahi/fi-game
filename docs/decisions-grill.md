@@ -62,3 +62,4 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 - Disclaimer "آموزشی است، نه توصیه خرید" / "Educational, not investment advice" is always visible.
 - 40 (spec 1 review, supervisor call inside decisions 38-39): the Review cap of 20 is per day; a Review Coin is paid once per Card and ladder step; bookmarks made before Review existed join the Deck.
 - 41 (owner, Telegram 2026-11-10): the whole app takes a cyberpunk look. One dark neon theme (the light theme is removed), the road redrawn as a circuit trace, and feedback on every move. A Combo counter is added as feedback only. Recorded in ADR-0011.
+- 42 (spec 6, supervisor call, open for the owner): eight books are dated by first publication while their Lessons follow a later edition (table in docs/review/spec6-verification.md). The `year` field was not changed. Verification records do not link to unauthorised copies of books.

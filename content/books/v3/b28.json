@@ -6,6 +6,10 @@
     "fa": "Cal Newport"
   },
   "year": 2012,
+  "edition": {
+    "en": "1st edition, 2012",
+    "fa": "ویراست اول، ۲۰۱۲"
+  },
   "stage": 6,
   "must": false,
   "why": {
@@ -47,8 +51,8 @@
               "kind": "card",
               "id": "b28c1l1p2",
               "text": {
-                "en": "In his 2005 Stanford speech, Steve Jobs told graduates to find what they love and not settle. Newport points out that young Jobs had no clear passion: he dabbled in Western history, dance and Eastern mysticism.",
-                "fa": "Steve Jobs در سخنرانی ۲۰۰۵ خود در Stanford به فارغ‌التحصیلان گفت آنچه را دوست دارند پیدا کنند و به کمتر قانع نشوند. Newport یادآوری می‌کند که Jobs جوان اشتیاق روشنی نداشت: سراغ تاریخ غرب، رقص و عرفان شرقی رفته بود."
+                "en": "In his 2005 Stanford speech, Steve Jobs told graduates to find what they love and not settle. Newport argues that Jobs did not follow that advice himself: Apple was not born out of a passion he already had.",
+                "fa": "Steve Jobs در سخنرانی ۲۰۰۵ خود در Stanford به فارغ‌التحصیلان گفت آنچه را دوست دارند پیدا کنند و به کمتر قانع نشوند. Newport استدلال می‌کند که خود Jobs به این توصیه عمل نکرد: Apple از دل اشتیاقی که از قبل داشته باشد زاده نشد."
               }
             },
             {

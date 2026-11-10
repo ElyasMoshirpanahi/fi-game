@@ -6,6 +6,10 @@
     "fa": "Brad Feld و Jason Mendelson"
   },
   "year": 2011,
+  "edition": {
+    "en": "3rd edition, 2016",
+    "fa": "ویراست سوم، ۲۰۱۶"
+  },
   "stage": 5,
   "must": true,
   "why": {
@@ -647,16 +651,16 @@
               "kind": "card",
               "id": "b15c1l3p6",
               "text": {
-                "en": "Example: an $8 million pre-money and a $2 million investment give a $10 million post-money. The new investor then owns 20 percent of the company.",
-                "fa": "مثال: pre-money هشت میلیون دلاری و سرمایه‌گذاری دو میلیون دلاری، post-money ده میلیون دلاری می‌دهد. سرمایه‌گذار جدید آن‌وقت ۲۰ درصد شرکت را دارد."
+                "en": "The book's example: $5 million invested at a $20 million pre-money gives a $25 million post-money. The new investor then owns 20 percent of the company.",
+                "fa": "مثال کتاب: سرمایه‌گذاری پنج میلیون دلاری با pre-money بیست میلیون دلاری، post-money بیست‌وپنج میلیون دلاری می‌دهد. سرمایه‌گذار جدید آن‌وقت ۲۰ درصد شرکت را دارد."
               }
             },
             {
               "kind": "card",
               "id": "b15c1l3p7",
               "text": {
-                "en": "Always say whether a number is pre-money or post-money. A VC who says ten million could mean either, and the gap is the size of the round.",
-                "fa": "همیشه بگو عدد pre-money است یا post-money. VCای که می‌گوید ده میلیون ممکن است منظورش هر کدام باشد و فاصلهٔ این دو به اندازهٔ کل دور است."
+                "en": "Always say whether a number is pre-money or post-money. A VC who says twenty million could mean either, and the gap is the size of the round.",
+                "fa": "همیشه بگو عدد pre-money است یا post-money. VCای که می‌گوید بیست میلیون ممکن است منظورش هر کدام باشد و فاصلهٔ این دو به اندازهٔ کل دور است."
               }
             },
             {
@@ -673,12 +677,12 @@
               "type": "tap",
               "source": "b15c1l3p6",
               "prompt": {
-                "en": "With an $8 million pre-money and a $2 million investment, what does the new investor own?",
-                "fa": "با pre-money هشت میلیون و سرمایه‌گذاری دو میلیون دلاری، سرمایه‌گذار جدید چقدر از شرکت را دارد؟"
+                "en": "With a $20 million pre-money and a $5 million investment, what does the new investor own?",
+                "fa": "با pre-money بیست میلیون و سرمایه‌گذاری پنج میلیون دلاری، سرمایه‌گذار جدید چقدر از شرکت را دارد؟"
               },
               "fare": {
-                "en": "A $2 million cheque goes into a company valued at $8 million before the money. What stake does it buy?",
-                "fa": "چکی دو میلیون دلاری وارد شرکتی می‌شود که پیش از پول هشت میلیون ارزش دارد. چه سهمی می‌خرد؟"
+                "en": "A $5 million cheque goes into a company valued at $20 million before the money. What stake does it buy?",
+                "fa": "چکی پنج میلیون دلاری وارد شرکتی می‌شود که پیش از پول بیست میلیون ارزش دارد. چه سهمی می‌خرد؟"
               },
               "options": [
                 {
@@ -700,8 +704,8 @@
               "kind": "card",
               "id": "b15c1l3p9",
               "text": {
-                "en": "So a $2 million unallocated pool inside an $8 million pre-money leaves an effective pre-money of only $6 million. The headline price stays the same, but founders get less.",
-                "fa": "پس استخر تخصیص‌نیافتهٔ دو میلیون دلاری داخل pre-money هشت میلیونی، pre-money مؤثر را فقط شش میلیون دلار می‌کند. قیمت اعلام‌شده همان می‌ماند، اما بنیان‌گذاران کمتر می‌گیرند."
+                "en": "In the book's example the pool must grow from 10 to 20 percent inside that $20 million pre-money, so the effective pre-money falls to $18 million. The headline price stays the same, but founders get less.",
+                "fa": "در مثال کتاب استخر باید داخل همان pre-money بیست میلیونی از ۱۰ به ۲۰ درصد برسد، پس pre-money مؤثر به هجده میلیون دلار می‌افتد. قیمت اعلام‌شده همان می‌ماند، اما بنیان‌گذاران کمتر می‌گیرند."
               }
             },
             {
@@ -932,8 +936,8 @@
               "kind": "card",
               "id": "b15c1l4p8",
               "text": {
-                "en": "Example: investors put in $5 million for 50 percent with full participation, and the company sells for $15 million. They take $5 million first, then half of $10 million.",
-                "fa": "مثال: سرمایه‌گذاران پنج میلیون دلار برای ۵۰ درصد با مشارکت کامل می‌گذارند و شرکت پانزده میلیون دلار فروخته می‌شود. آن‌ها اول پنج میلیون و بعد نصف ده میلیون باقی را برمی‌دارند."
+                "en": "The book's example: investors put in $5 million at a $10 million pre-money, so they own a third, with full participation. In a $15 million sale they take $5 million first, then a third of the remaining $10 million.",
+                "fa": "مثال کتاب: سرمایه‌گذاران پنج میلیون دلار با pre-money ده میلیونی می‌گذارند، پس یک‌سوم شرکت را با مشارکت کامل دارند. در فروش پانزده میلیون دلاری اول پنج میلیون و بعد یک‌سوم ده میلیون باقی را برمی‌دارند."
               }
             },
             {
@@ -969,8 +973,8 @@
               "kind": "card",
               "id": "b15c1l4p9",
               "text": {
-                "en": "With non-participating preferred in the same sale, investors choose between $5 million back or 50 percent as common, which is $7.5 million. They convert, and founders keep far more.",
-                "fa": "با سهام ترجیحی غیرمشارکتی در همان فروش، سرمایه‌گذاران بین پنج میلیون یا ۵۰ درصد به‌عنوان سهام عادی، یعنی هفت و نیم میلیون، انتخاب می‌کنند. تبدیل می‌کنند و سهم بنیان‌گذاران خیلی بیشتر می‌ماند."
+                "en": "With non-participating preferred in the same sale, investors choose between $5 million back or a third as common, which is also $5 million. Common holders then get $10 million instead of about $6.7 million.",
+                "fa": "با سهام ترجیحی غیرمشارکتی در همان فروش، سرمایه‌گذاران بین پس‌گرفتن پنج میلیون یا یک‌سوم به‌عنوان سهام عادی، که آن هم پنج میلیون است، انتخاب می‌کنند. آن‌وقت دارندگان سهام عادی به‌جای حدود ۶٫۷ میلیون، ده میلیون دلار می‌گیرند."
               }
             },
             {
@@ -979,12 +983,12 @@
               "type": "tf",
               "source": "b15c1l4p9",
               "prompt": {
-                "en": "In that non-participating example, the investors convert to common.",
-                "fa": "در آن مثال غیرمشارکتی، سرمایه‌گذاران به سهام عادی تبدیل می‌کنند."
+                "en": "In that non-participating example, common holders get $10 million.",
+                "fa": "در آن مثال غیرمشارکتی، دارندگان سهام عادی ده میلیون دلار می‌گیرند."
               },
               "fare": {
-                "en": "In that same sale, non-participating investors do better giving up the $5 million preference and taking their 50 percent as common.",
-                "fa": "در همان فروش، برای سرمایه‌گذاران غیرمشارکتی به‌صرفه‌تر است از ترجیح پنج میلیونی بگذرند و ۵۰ درصدشان را به‌شکل سهام عادی بگیرند."
+                "en": "In that same $15 million sale, non-participating preferred leaves $10 million for the common holders.",
+                "fa": "در همان فروش پانزده میلیون دلاری، سهام ترجیحی غیرمشارکتی ده میلیون دلار برای دارندگان سهام عادی باقی می‌گذارد."
               },
               "answer": true
             },
@@ -1883,8 +1887,8 @@
               "kind": "card",
               "id": "b15c2l3p2",
               "text": {
-                "en": "Control terms give investors power beyond their share of ownership. A VC with 20 percent of the stock can still block major decisions.",
-                "fa": "بندهای کنترلی به سرمایه‌گذاران قدرتی فراتر از سهم مالکیتشان می‌دهند. VCای با ۲۰ درصد سهام هم می‌تواند جلوی تصمیم‌های بزرگ را بگیرد."
+                "en": "Control terms give investors power beyond their share of ownership. A VC with less than half of the stock can still block major decisions.",
+                "fa": "بندهای کنترلی به سرمایه‌گذاران قدرتی فراتر از سهم مالکیتشان می‌دهند. VCای با کمتر از نصف سهام هم می‌تواند جلوی تصمیم‌های بزرگ را بگیرد."
               }
             },
             {
@@ -1905,8 +1909,8 @@
                 "fa": "بندهای کنترلی فقط به نسبت مالکیت به سرمایه‌گذاران قدرت می‌دهند."
               },
               "fare": {
-                "en": "An investor holding 20 percent of the stock has no way to block a major company decision.",
-                "fa": "سرمایه‌گذاری که ۲۰ درصد سهام را دارد هیچ راهی برای جلوگیری از یک تصمیم بزرگ شرکت ندارد."
+                "en": "An investor holding less than half of the stock has no way to block a major company decision.",
+                "fa": "سرمایه‌گذاری که کمتر از نصف سهام را دارد هیچ راهی برای جلوگیری از یک تصمیم بزرگ شرکت ندارد."
               },
               "answer": false
             },
@@ -2491,8 +2495,8 @@
               "kind": "card",
               "id": "b15c2l5p7",
               "text": {
-                "en": "The book warns that a missed 83(b) election is one of the few mistakes that cannot be fixed afterwards. The filing window is 30 days from receiving the stock.",
-                "fa": "کتاب هشدار می‌دهد که جاانداختن 83(b) election از معدود اشتباه‌هایی است که بعداً قابل جبران نیست. مهلت ثبت ۳۰ روز از دریافت سهام است."
+                "en": "The book warns that a missed 83(b) election cannot be fixed afterwards. The filing window is 30 days from receiving the stock.",
+                "fa": "کتاب هشدار می‌دهد که جاانداختن 83(b) election بعداً قابل جبران نیست. مهلت ثبت ۳۰ روز از دریافت سهام است."
               }
             },
             {
@@ -2890,8 +2894,8 @@
               "kind": "card",
               "id": "b15c3l1p13",
               "text": {
-                "en": "If the company is sold before a priced round, a note often pays the holder a multiple of the principal, such as 2x, or converts at the cap.",
-                "fa": "اگر شرکت پیش از دور قیمت‌گذاری‌شده فروخته شود، note اغلب به دارنده‌اش مضربی از اصل پول، مثلاً ۲ برابر، می‌پردازد یا با سقف ارزش‌گذاری تبدیل می‌شود."
+                "en": "If the company is sold before a priced round, a note can pay the holder a multiple of the principal, usually two to three times, or convert at a capped valuation.",
+                "fa": "اگر شرکت پیش از دور قیمت‌گذاری‌شده فروخته شود، note می‌تواند به دارنده‌اش مضربی از اصل پول، معمولاً دو تا سه برابر، بپردازد یا با ارزش‌گذاری سقف‌دار تبدیل شود."
               }
             },
             {
@@ -2912,8 +2916,8 @@
                 "fa": "اگر شرکت پیش از دور قیمت‌گذاری‌شده فروخته شود، note چه می‌تواند بپردازد؟"
               },
               "fare": {
-                "en": "An acquisition happens before any priced round. Besides converting at the cap, what does a note often give its holder?",
-                "fa": "شرکت پیش از هر دور قیمت‌گذاری‌شده خریده می‌شود. note، جدا از تبدیل با cap، اغلب چه چیزی به دارنده‌اش می‌دهد؟"
+                "en": "An acquisition happens before any priced round. Besides converting at the cap, what can a note give its holder?",
+                "fa": "شرکت پیش از هر دور قیمت‌گذاری‌شده خریده می‌شود. note، جدا از تبدیل با cap، چه چیزی می‌تواند به دارنده‌اش بدهد؟"
               },
               "options": [
                 {
@@ -2999,8 +3003,8 @@
               "kind": "card",
               "id": "b15c3l2p4",
               "text": {
-                "en": "The management fee pays salaries and costs, typically about 2 to 2.5 percent of the fund each year. Over a ten-year fund, fees absorb a large share of committed capital.",
-                "fa": "management fee حقوق و هزینه‌ها را می‌پردازد، معمولاً سالانه حدود ۲ تا ۲٫۵ درصد صندوق. در یک صندوق ده‌ساله، کارمزدها سهم بزرگی از سرمایهٔ تعهدشده را می‌بلعند."
+                "en": "The management fee pays salaries and costs, typically between 1.5 and 2.5 percent of the fund each year. Over a ten-year fund, fees total about 15 percent of committed capital.",
+                "fa": "management fee حقوق و هزینه‌ها را می‌پردازد، معمولاً سالانه بین ۱٫۵ تا ۲٫۵ درصد صندوق. در یک صندوق ده‌ساله، کارمزدها روی‌هم حدود ۱۵ درصد سرمایهٔ تعهدشده می‌شوند."
               }
             },
             {

@@ -1,0 +1,18 @@
+{
+  "book": "b04",
+  "edition": {
+    "text": "Later collected text, as in the 1955 Hawthorn edition",
+    "source": "https://archive.org/download/RichestManInBabylon_650/the_richest_man_in_babylon_djvu.txt",
+    "note": "The Lessons follow the standard collected text. Its tale \"The Clay Tablets From Babylon\" carries letters dated October 21, 1934 and November 7th, 1936, so that tale cannot come from a 1926 printing. Open Library (https://openlibrary.org/books/OL6175371M) lists a 1955 Hawthorn edition under this title; a Wikipedia talk-page note says the pamphlets began in 1926 and the book under this title appeared in 1955. Which printing first held all the tales was not established from a primary source."
+  },
+  "rows": [
+    {
+      "id": "b04c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils the Five Laws of Gold and the later tales: the gold lender, the camel trader and the clay tablets. For an index investor they are rules on where €40k may safely go, and where it may not.",
+      "verdict": "verified",
+      "source": "https://archive.org/download/RichestManInBabylon_650/the_richest_man_in_babylon_djvu.txt",
+      "note": "The table of contents shows \"The Five Laws of Gold\", \"The Gold Lender of Babylon\", \"The Camel Trader of Babylon\" and \"The Clay Tablets From Babylon\". The €40k is the reader's own roadmap sum, not a figure from the book. Card unchanged."
+    }
+  ]
+}

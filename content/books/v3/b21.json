@@ -6,6 +6,10 @@
     "fa": "Jason Calacanis"
   },
   "year": 2017,
+  "edition": {
+    "en": "1st edition, 2017",
+    "fa": "ویراست اول، ۲۰۱۷"
+  },
   "stage": 5,
   "must": false,
   "why": {
@@ -115,8 +119,8 @@
               "kind": "card",
               "id": "b21c1l1p5",
               "text": {
-                "en": "Because you cannot know in advance which company will be the outlier, Calacanis says to spread small checks across at least 30 startups.",
-                "fa": "چون از پیش نمی‌دانی کدام شرکت استثنا خواهد بود، Calacanis می‌گوید چک‌های کوچک را روی دست‌کم ۳۰ استارتاپ پخش کن."
+                "en": "Because you cannot know in advance which company will be the outlier, Calacanis says to invest in fifty startups over three years.",
+                "fa": "چون از پیش نمی‌دانی کدام شرکت استثنا خواهد بود، Calacanis می‌گوید در ۵۰ استارتاپ طی سه سال سرمایه‌گذاری کن."
               }
             },
             {
@@ -133,21 +137,21 @@
               "type": "tap",
               "source": "b21c1l1p5",
               "prompt": {
-                "en": "Across how many startups does Calacanis say to spread checks?",
-                "fa": "Calacanis می‌گوید چک‌ها را روی چند استارتاپ پخش کنی؟"
+                "en": "Across how many startups does Calacanis say to invest?",
+                "fa": "Calacanis می‌گوید در چند استارتاپ سرمایه‌گذاری کنی؟"
               },
               "fare": {
-                "en": "Since nobody knows the outlier in advance, how wide a spread of small checks does the book call for?",
-                "fa": "چون کسی از پیش استثنا را نمی‌شناسد، کتاب می‌خواهد چک‌های کوچک در چه گستره‌ای پخش شوند؟"
+                "en": "Since nobody knows the outlier in advance, how wide a spread of bets does the book call for?",
+                "fa": "چون کسی از پیش استثنا را نمی‌شناسد، کتاب می‌خواهد شرط‌ها در چه گستره‌ای پخش شوند؟"
               },
               "options": [
                 {
-                  "en": "At least 30 startups",
-                  "fa": "دست‌کم ۳۰ استارتاپ"
+                  "en": "Fifty startups over three years",
+                  "fa": "۵۰ استارتاپ طی سه سال"
                 },
                 {
-                  "en": "Exactly three startups",
-                  "fa": "دقیقاً سه استارتاپ"
+                  "en": "Three startups in one year",
+                  "fa": "سه استارتاپ در یک سال"
                 },
                 {
                   "en": "Only the one you love most",
@@ -199,8 +203,8 @@
               "kind": "card",
               "id": "b21c1l1p10",
               "text": {
-                "en": "Applied: with about €40k, the 30-startup spread does not fit, so in your roadmap angel bets could at most live in the 20 percent satellite.",
-                "fa": "کاربردی: با حدود ۴۰ هزار یورو، پخش ۳۰ استارتاپی جا نمی‌شود، پس در نقشهٔ راهت شرط‌های فرشته حداکثر می‌توانند در ۲۰ درصد satellite بنشینند."
+                "en": "Applied: with about €40k, the fifty-startup spread does not fit, so in your roadmap angel bets could at most live in the 20 percent satellite.",
+                "fa": "کاربردی: با حدود ۴۰ هزار یورو، پخش ۵۰ استارتاپی جا نمی‌شود، پس در نقشهٔ راهت شرط‌های فرشته حداکثر می‌توانند در ۲۰ درصد satellite بنشینند."
               }
             },
             {

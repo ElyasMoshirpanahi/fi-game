@@ -1,0 +1,106 @@
+{
+  "book": "b10",
+  "edition": {
+    "text": "Revised edition, 2013",
+    "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+    "note": "Every Part and chapter number cited in the Lessons (Parts 1 to 8, chapters 1 to 33, chapter 4 on the rules accountants follow, chapter 25 on the investor's perspective) matches the contents list of the Revised Edition, Harvard Business Review Press, 2013. The book file's year is 2006, the first edition (Harvard Business School Press, per https://www.w-ilmu.intan.my/neuseal/Record/0000039305/Versions). No contents list of the 2006 edition could be opened, so which chapters are new in 2013 is not confirmed."
+  },
+  "rows": [
+    {
+      "id": "b10c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils the introduction and Part 1, chapters 1 to 3: why numbers rest on judgment. As a CTO weighing startup equity, you will be handed numbers, and this is how you learn to question them.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 1, The Art of Finance (and Why It Matters), chapters 1 to 3: You Can't Always Trust the Numbers; Spotting Assumptions, Estimates, and Biases; Why Increase Your Financial Intelligence?"
+    },
+    {
+      "id": "b10c1l2p8",
+      "kind": "figure",
+      "claim": "After those scandals, the Sarbanes-Oxley Act of 2002 made top executives certify their financial statements and tightened internal controls.",
+      "verdict": "verified",
+      "source": "https://en.wikipedia.org/wiki/Sarbanes%E2%80%93Oxley_Act",
+      "note": "Signed into law 30 July 2002 after Enron, WorldCom and others; Section 302 has the CEO and CFO certify the financial reports; Section 404 requires a management report on internal controls. Secondary source for the law itself; the book passage was not opened."
+    },
+    {
+      "id": "b10c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 5 to 8 of Part 2, the income statement. Your AI product's first profit will be an estimate too, so you should know which parts are judgment.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 2, The (Many) Peculiarities of the Income Statement: ch. 5 Profit Is an Estimate, ch. 6 Cracking the Code of the Income Statement, ch. 7 Revenue, ch. 8 Costs and Expenses."
+    },
+    {
+      "id": "b10c2l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 10 and 11 of Part 3, the balance sheet. The authors say it reveals the most, and your quarterly net-worth log is a personal balance sheet.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 3, The Balance Sheet Reveals the Most: ch. 10 Understanding Balance Sheet Basics, ch. 11 Assets."
+    },
+    {
+      "id": "b10c2l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 12 to 14: liabilities, equity and how the statements connect. Startup equity is a claim on this equity line, so it pays to know what feeds it.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: ch. 12 On the Other Side, ch. 13 Why the Balance Sheet Balances, ch. 14 The Income Statement Affects the Balance Sheet."
+    },
+    {
+      "id": "b10c2l2p6",
+      "kind": "figure",
+      "claim": "Chapter 13 explains why the sheet balances: every transaction has two sides. Borrowing €1,000 adds €1,000 of cash and €1,000 of debt.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Chapter 13 is titled Why the Balance Sheet Balances. A summary (https://readingraphics.com/?p=78998) reports the book's point that every transaction affects both sides. The 1,000 euro loan is the Card's own arithmetic illustration, not a figure attributed to the book."
+    },
+    {
+      "id": "b10c2l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 15 and 16 of Part 4, Cash Is King. A side product can show a profit and still empty your account, which is the idea behind the badge.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 4, Cash Is King: ch. 15 Cash Is a Reality Check, ch. 16 Profit Does Not Equal Cash."
+    },
+    {
+      "id": "b10c2l3p4",
+      "kind": "figure",
+      "claim": "The first reason they differ is the timing of revenue: a sale is booked on delivery, but on 30-day or 60-day terms the cash arrives weeks later.",
+      "verdict": "verified",
+      "source": "https://nateliason.com/notes/financial-intelligence-karen-berman-joe-knight",
+      "note": "Secondary: reader's notes quoting the book: \"Revenue ... is recognized when a product or service is delivered, not when the bill is paid\" and profit \"won't turn into cash until thirty days or maybe sixty days after it is billed out\". The order of the three reasons (revenue booked at sale first) is given by https://codesignal.com/learn/courses/mastering-the-financial-statements/lessons/reconciling-profit-and-cash and by https://readingraphics.com/?p=78998."
+    },
+    {
+      "id": "b10c2l4p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 17 to 19: the language of cash flow and why cash matters. It lets you check any startup's story against the statement hardest to dress up.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: ch. 17 The Language of Cash Flow, ch. 18 How Cash Connects with Everything Else, ch. 19 Why Cash Matters."
+    },
+    {
+      "id": "b10c3l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 20 to 22 of Part 5, on ratios. They turn a company's statements into a few numbers you can compare across years and against rivals.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 5, Ratios: ch. 20 The Power of Ratios, ch. 21 Profitability Ratios, ch. 22 Leverage Ratios."
+    },
+    {
+      "id": "b10c3l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 23 to 25: liquidity, efficiency and the investor's view. These ratios show whether a business can pay its bills and how hard its assets work.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: ch. 23 Liquidity Ratios, ch. 24 Efficiency Ratios, ch. 25 The Investor's Perspective."
+    },
+    {
+      "id": "b10c3l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Part 6, chapters 26 and 27, on return on investment. The same logic applies when you weigh building your AI product against keeping cash in index funds.",
+      "verdict": "verified",
+      "source": "https://www.schweitzer-online.de/en/ebook/Berman/Financial-Intelligence-Revised-Edition/9781422144121/A32626444/",
+      "note": "Contents of the Revised Edition (Harvard Business Review Press, 2013) show: Part 6, How to Calculate (and Really Understand) Return on Investment: ch. 26 The Building Blocks of ROI, ch. 27 Figuring ROI."
+    }
+  ]
+}

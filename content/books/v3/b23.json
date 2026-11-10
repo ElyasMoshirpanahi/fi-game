@@ -6,6 +6,10 @@
     "fa": "James Clear"
   },
   "year": 2018,
+  "edition": {
+    "en": "1st edition, 2018",
+    "fa": "ویراست اول، ۲۰۱۸"
+  },
   "stage": 6,
   "must": true,
   "why": {
@@ -1017,8 +1021,8 @@
               "kind": "card",
               "id": "b23c2l2p7",
               "text": {
-                "en": "During the Vietnam War, about one in five US soldiers became addicted to heroin. Back home, away from the cues of war, only about 5 percent relapsed within a year.",
-                "fa": "در جنگ ویتنام، حدود یک نفر از هر پنج سرباز آمریکایی به هروئین معتاد شد. در بازگشت به خانه و دور از نشانه‌های جنگ، فقط حدود ۵ درصد ظرف یک سال دوباره مصرف کردند."
+                "en": "During the Vietnam War, as many as one in five US soldiers were addicted to heroin. Back home, away from the cues of war, only about 5 percent relapsed within a year.",
+                "fa": "در جنگ ویتنام، تا یک نفر از هر پنج سرباز آمریکایی به هروئین معتاد بود. در بازگشت به خانه و دور از نشانه‌های جنگ، فقط حدود ۵ درصد ظرف یک سال دوباره مصرف کردند."
               }
             },
             {

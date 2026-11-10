@@ -6,6 +6,10 @@
     "fa": "Aswath Damodaran"
   },
   "year": 2011,
+  "edition": {
+    "en": "1st edition, 2011",
+    "fa": "ویراست اول، ۲۰۱۱"
+  },
   "stage": 3,
   "must": true,
   "why": {

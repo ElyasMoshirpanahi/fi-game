@@ -6,6 +6,10 @@
     "fa": "William Bernstein"
   },
   "year": 2002,
+  "edition": {
+    "en": "1st edition, 2002",
+    "fa": "ویراست اول، ۲۰۰۲"
+  },
   "stage": 2,
   "must": true,
   "why": {
@@ -250,8 +254,8 @@
               "kind": "card",
               "id": "b08c1l2p2",
               "text": {
-                "en": "Using US data since 1926, Bernstein shows stocks earned about 10 percent a year and long bonds about 5 percent. Treasury bills earned little more than inflation.",
-                "fa": "Bernstein با داده‌های آمریکا از ۱۹۲۶ نشان می‌دهد سهام حدود ۱۰ درصد در سال و اوراق بلندمدت حدود ۵ درصد بازده داشته‌اند. اسناد خزانه کمی بیش از تورم بازده داشته‌اند."
+                "en": "Chapter 1's US data since 1900 show stocks earned about 10 percent a year and long bonds about 5 percent. Treasury bills earned little more than inflation.",
+                "fa": "داده‌های آمریکا از ۱۹۰۰ در فصل ۱ نشان می‌دهد سهام حدود ۱۰ درصد در سال و اوراق بلندمدت حدود ۵ درصد بازده داشته‌اند. اسناد خزانه کمی بیش از تورم بازده داشته‌اند."
               }
             },
             {
@@ -268,12 +272,12 @@
               "type": "tap",
               "source": "b08c1l2p2",
               "prompt": {
-                "en": "Per Bernstein, roughly what did US long bonds earn a year since 1926?",
-                "fa": "به گفتهٔ Bernstein، اوراق بلندمدت آمریکا از ۱۹۲۶ تقریباً سالی چند درصد بازده داشته‌اند؟"
+                "en": "Per Bernstein, roughly what did US long bonds earn a year since 1900?",
+                "fa": "به گفتهٔ Bernstein، اوراق بلندمدت آمریکا از ۱۹۰۰ تقریباً سالی چند درصد بازده داشته‌اند؟"
               },
               "fare": {
-                "en": "In the US data from 1926 on that Bernstein uses, which yearly return belongs to long bonds?",
-                "fa": "در داده‌های آمریکا از ۱۹۲۶ که Bernstein می‌آورد، کدام بازده سالانه مال اوراق بلندمدت است؟"
+                "en": "In the US data from 1900 on that Bernstein uses, which yearly return belongs to long bonds?",
+                "fa": "در داده‌های آمریکا از ۱۹۰۰ که Bernstein می‌آورد، کدام بازده سالانه مال اوراق بلندمدت است؟"
               },
               "options": [
                 {
@@ -816,8 +820,8 @@
               "kind": "card",
               "id": "b08c1l4p10",
               "text": {
-                "en": "History also shows bad stretches can be long: Bernstein describes US stocks lagging inflation from the mid-1960s to the early 1980s. Patience must be measured in years and decades, not months.",
-                "fa": "تاریخ همچنین نشان می‌دهد دوره‌های بد می‌توانند طولانی باشند: Bernstein شرح می‌دهد که سهام آمریکا از میانهٔ دههٔ ۱۹۶۰ تا اوایل دههٔ ۱۹۸۰ از تورم عقب ماند. صبر را باید با سال و دهه سنجید، نه ماه."
+                "en": "History also shows bad stretches can be long: Bernstein notes that from 1966 to 1982 US stocks barely kept up with inflation. Patience must be measured in years and decades, not months.",
+                "fa": "تاریخ همچنین نشان می‌دهد دوره‌های بد می‌توانند طولانی باشند: Bernstein یادآوری می‌کند که سهام آمریکا از ۱۹۶۶ تا ۱۹۸۲ به‌زحمت پابه‌پای تورم آمد. صبر را باید با سال و دهه سنجید، نه ماه."
               }
             },
             {
@@ -846,8 +850,8 @@
                 "fa": "تاریخ نشان می‌دهد که دورهٔ بد سهام می‌تواند سال‌ها طول بکشد، نه فقط چند ماه."
               },
               "fare": {
-                "en": "An investor's patience may be tested for years or decades, as when US stocks lagged inflation from the mid-1960s.",
-                "fa": "صبر سرمایه‌گذار ممکن است سال‌ها یا دهه‌ها آزموده شود، مثل وقتی که سهام آمریکا از میانهٔ دههٔ ۱۹۶۰ از تورم عقب ماند."
+                "en": "An investor's patience may be tested for years or decades, as when US stocks barely kept up with inflation from 1966 to 1982.",
+                "fa": "صبر سرمایه‌گذار ممکن است سال‌ها یا دهه‌ها آزموده شود، مثل وقتی که سهام آمریکا از ۱۹۶۶ تا ۱۹۸۲ به‌زحمت پابه‌پای تورم آمد."
               },
               "answer": true
             },
@@ -855,8 +859,8 @@
               "kind": "card",
               "id": "b08c1l4p13",
               "text": {
-                "en": "In every mania, people claim a new era has made the old valuation rules useless. Bernstein shows that claim was made in the 1920s and the 1990s, and failed both times.",
-                "fa": "در هر جنونی، مردم ادعا می‌کنند دوران تازه‌ای قواعد قدیمی ارزش‌گذاری را بی‌فایده کرده است. Bernstein نشان می‌دهد این ادعا در دههٔ ۱۹۲۰ و ۱۹۹۰ مطرح شد و هر دو بار شکست خورد."
+                "en": "In every mania, the old valuation rules seem to go out of the window. Bernstein passes on John Templeton's warning against believing that this time is different.",
+                "fa": "در هر جنونی، به نظر می‌رسد قواعد قدیمی ارزش‌گذاری کنار گذاشته می‌شود. Bernstein هشدار John Templeton را بازگو می‌کند: باور نکنید که این بار فرق دارد."
               }
             }
           ]

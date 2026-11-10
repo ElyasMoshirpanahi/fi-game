@@ -1,0 +1,58 @@
+{
+  "book": "b16",
+  "edition": {
+    "text": "1st edition, 2013 (text revised 2014)",
+    "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+    "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Opened the author's PDF edition hosted by McMaster University: title page reads \"v1.06, Launched: August, 2013, Revised: August, 2014\". Its contents and CHAPTER ONE to EIGHT headings match the chapter numbers used in all Lessons. Open Library lists one English edition (CreateSpace, ISBN 9781492180746). A revised edition from Authors Equity (ISBN 9798893312577) appeared in search results only; its page returned 403 and no Lesson depends on it."
+  },
+  "rows": [
+    {
+      "id": "b16c1l1p5",
+      "kind": "quote",
+      "claim": "Rule 1: talk about their life instead of your idea. Your idea invites kindness and opinions; their life gives you facts.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Book text (v1.06), chapter 1 list \"The Mom Test:\" shows \"1. Talk about their life instead of your idea\". The second sentence is the Lesson's gloss, not quoted."
+    },
+    {
+      "id": "b16c1l1p6",
+      "kind": "quote",
+      "claim": "Rule 2: ask about specifics in the past instead of generics or opinions about the future. 'When did this last happen?' beats 'Would you ever use this?'",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Book shows \"2. Ask about specifics in the past instead of generics or opinions about the future\". The two example questions are the Lesson's illustrations; the book has close forms: \"When's the last time that happened?\" and lists \"Would you ever...\" among fluff."
+    },
+    {
+      "id": "b16c1l1p7",
+      "kind": "quote",
+      "claim": "Rule 3: talk less and listen more. While you are talking you are not learning, and the more you say, the more you steer them.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Book shows \"3. Talk less and listen more\"; chapter 2 ends with \"Rule of thumb: The more you're talking, the worse you're doing.\""
+    },
+    {
+      "id": "b16c2l1p10",
+      "kind": "figure",
+      "claim": "Rule of thumb: always have a list of your 3 big questions. Pre-plan the three most important things to learn from each type of person.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter 3, \"Prepare your list of 3\": \"Pre-plan the 3 most important things you want to learn from any given type of person\"; \"Rule of thumb: You always need a list of your 3 big questions.\""
+    },
+    {
+      "id": "b16c2l2p12",
+      "kind": "figure",
+      "claim": "Applied: for your AI product, a €10 pre-order from a stranger tells you more than fifty friends saying they'd use it.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The EUR 10 and fifty friends are the Lesson's own applied illustration, not attributed to the book. The idea is confirmed in chapter 5: a compliment \"costs them nothing, so it's worth nothing\"; major currencies \"are time, reputation risk, and cash\"; cash commitments include a pre-order."
+    },
+    {
+      "id": "b16c2l3p1",
+      "kind": "figure",
+      "claim": "This Lesson distils the end of chapter 5: early evangelists and pushing each meeting forward. It matters because your first €100 of ownership income will come from a few keen buyers, not a crowd.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter number confirmed: \"CHAPTER FIVE\" is Commitment and advancement, and its closing section covers \"earlyvangelists (early evangelists)\" (pp. 83-84). The EUR 100 is the app's own framing, not a book claim."
+    }
+  ]
+}
