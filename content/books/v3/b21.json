@@ -60,6 +60,10 @@
                 "en": "In the book, Calacanis's Uber check was a large, late-stage investment.",
                 "fa": "در کتاب، چک Uber که Calacanis نوشت سرمایه‌گذاری بزرگی در مرحلهٔ دیرهنگام بود."
               },
+              "fare": {
+                "en": "Per the book, Calacanis put a big sum into Uber when it was already a mature company.",
+                "fa": "به گفتهٔ کتاب، Calacanis وقتی Uber دیگر شرکتی جاافتاده بود مبلغ هنگفتی در آن گذاشت."
+              },
               "answer": false
             },
             {
@@ -87,6 +91,10 @@
                 "en": "What shape do startup returns follow, per the book?",
                 "fa": "طبق کتاب، بازده استارتاپ‌ها چه شکلی دارد؟"
               },
+              "fare": {
+                "en": "The book says one best outcome can outweigh all the rest of a portfolio. Which distribution is that?",
+                "fa": "کتاب می‌گوید بهترین نتیجهٔ یک پرتفوی می‌تواند از مجموع بقیه بیشتر بیرزد. این کدام توزیع است؟"
+              },
               "options": [
                 {
                   "en": "A power law",
@@ -97,8 +105,8 @@
                   "fa": "منحنی زنگوله‌ای"
                 },
                 {
-                  "en": "A steady straight line",
-                  "fa": "یک خط صاف و یکنواخت"
+                  "en": "A steady line",
+                  "fa": "یک خط یکنواخت"
                 }
               ],
               "answer": 0
@@ -128,18 +136,22 @@
                 "en": "Across how many startups does Calacanis say to spread checks?",
                 "fa": "Calacanis می‌گوید چک‌ها را روی چند استارتاپ پخش کنی؟"
               },
+              "fare": {
+                "en": "Since nobody knows the outlier in advance, how wide a spread of small checks does the book call for?",
+                "fa": "چون کسی از پیش استثنا را نمی‌شناسد، کتاب می‌خواهد چک‌های کوچک در چه گستره‌ای پخش شوند؟"
+              },
               "options": [
                 {
                   "en": "At least 30 startups",
                   "fa": "دست‌کم ۳۰ استارتاپ"
                 },
                 {
-                  "en": "Exactly three",
-                  "fa": "دقیقاً سه"
+                  "en": "Exactly three startups",
+                  "fa": "دقیقاً سه استارتاپ"
                 },
                 {
                   "en": "Only the one you love most",
-                  "fa": "فقط همانی که بیشتر از همه دوستش داری"
+                  "fa": "فقط محبوب‌ترین استارتاپت"
                 }
               ],
               "answer": 0
@@ -177,6 +189,10 @@
                 "en": "The book says angels should invest money they will need back within a year.",
                 "fa": "کتاب می‌گوید فرشته‌ها باید پولی را بگذارند که ظرف یک سال لازمش دارند."
               },
+              "fare": {
+                "en": "According to the book, cash you must have back in twelve months is suitable for angel bets.",
+                "fa": "از نگاه کتاب، پولی که دوازده ماه دیگر باید دوباره دستت باشد برای شرط‌های فرشته مناسب است."
+              },
               "answer": false
             },
             {
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "Why do investors ask a founder how big the company can get?",
                 "fa": "چرا سرمایه‌گذارها از بنیان‌گذار می‌پرسند شرکت چقدر می‌تواند بزرگ شود؟"
+              },
+              "fare": {
+                "en": "When an investor backs you as a founder, what lies behind the question about your company's future size?",
+                "fa": "وقتی سرمایه‌گذاری پشت تو می‌ایستد، پشت سؤالش دربارهٔ اندازهٔ آیندهٔ شرکتت چه چیزی است؟"
               },
               "options": [
                 {
@@ -272,6 +292,10 @@
                 "en": "In a syndicate, who finds the deal and does the diligence?",
                 "fa": "در یک syndicate چه کسی معامله را پیدا می‌کند و diligence را انجام می‌دهد؟"
               },
+              "fare": {
+                "en": "Backers in a syndicate invest on the same terms as the one who sourced and checked the deal. Who is that?",
+                "fa": "حامیان syndicate با همان شرایطِ کسی سرمایه می‌گذارند که معامله را یافته و بررسی کرده است. او کیست؟"
+              },
               "options": [
                 {
                   "en": "An experienced lead",
@@ -313,6 +337,10 @@
                 "en": "In a syndicate, carry is a fixed fee backers pay even if the deal fails.",
                 "fa": "در syndicate، carry کارمزد ثابتی است که حامیان حتی اگر معامله شکست بخورد می‌پردازند."
               },
+              "fare": {
+                "en": "A syndicate lead collects carry from backers whether or not the investment makes a profit.",
+                "fa": "لید syndicate چه سرمایه‌گذاری سود بدهد چه ندهد، carry را از حامیان می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -339,6 +367,10 @@
               "prompt": {
                 "en": "Order the book's path for a new angel",
                 "fa": "مسیر کتاب برای یک فرشتهٔ تازه‌کار را مرتب کن"
+              },
+              "fare": {
+                "en": "Put these steps in the sequence the book gives, from a beginner's first move to the last",
+                "fa": "این گام‌ها را به ترتیبی که کتاب می‌گوید بچین، از اولین قدم تازه‌کار تا آخرین قدم"
               },
               "options": [
                 {
@@ -393,6 +425,10 @@
                 "en": "How, per the book, do angels earn the best deal flow?",
                 "fa": "طبق کتاب، فرشته‌ها چطور بهترین deal flow را به دست می‌آورند؟"
               },
+              "fare": {
+                "en": "Founders recommend some angels to other founders. What did those angels do to earn it?",
+                "fa": "بنیان‌گذاران بعضی فرشته‌ها را به بنیان‌گذاران دیگر معرفی می‌کنند. آن فرشته‌ها با چه کاری به اینجا رسیده‌اند؟"
+              },
               "options": [
                 {
                   "en": "By being useful to founders",
@@ -433,6 +469,10 @@
               "prompt": {
                 "en": "Learning from syndicate memos requires you to invest in every deal.",
                 "fa": "یادگرفتن از memoهای syndicate لازم می‌کند در هر معامله سرمایه‌گذاری کنی."
+              },
+              "fare": {
+                "en": "You cannot learn anything from syndicate memos unless you write a check each time.",
+                "fa": "تا هر بار چک ننویسی، از memoهای syndicate چیزی یاد نمی‌گیری."
               },
               "answer": false
             }
@@ -480,6 +520,10 @@
                 "en": "Calacanis says to bet on the idea rather than the founder.",
                 "fa": "Calacanis می‌گوید روی ایده شرط ببند، نه روی بنیان‌گذار."
               },
+              "fare": {
+                "en": "For Calacanis, a strong early idea matters more than who the founder is.",
+                "fa": "از نظر Calacanis، ایدهٔ اولیهٔ قوی مهم‌تر از این است که بنیان‌گذار چه کسی باشد."
+              },
               "answer": false
             },
             {
@@ -507,18 +551,22 @@
                 "en": "Which is one of Calacanis's core founder questions?",
                 "fa": "کدام یکی از سؤال‌های اصلی Calacanis از بنیان‌گذار است؟"
               },
+              "fare": {
+                "en": "In a founder meeting, which of these would Calacanis actually ask?",
+                "fa": "Calacanis در جلسه با بنیان‌گذار واقعاً کدام‌یک از این‌ها را می‌پرسد؟"
+              },
               "options": [
                 {
                   "en": "Why now?",
                   "fa": "چرا حالا؟"
                 },
                 {
-                  "en": "What car do you drive?",
-                  "fa": "چه ماشینی سوار می‌شوی؟"
+                  "en": "Any rivals?",
+                  "fa": "رقیبی داری؟"
                 },
                 {
-                  "en": "Which university did your parents attend?",
-                  "fa": "پدر و مادرت به کدام دانشگاه رفتند؟"
+                  "en": "What price?",
+                  "fa": "قیمت چند است؟"
                 }
               ],
               "answer": 0
@@ -548,18 +596,22 @@
                 "en": "What goes into a deal memo, per the book?",
                 "fa": "طبق کتاب، در deal memo چه می‌نویسی؟"
               },
+              "fare": {
+                "en": "Before a check goes out, what does the book want written down?",
+                "fa": "پیش از آنکه چک برود، کتاب می‌خواهد چه چیزی روی کاغذ بیاید؟"
+              },
               "options": [
                 {
                   "en": "Why you invested, what has to go right, what could kill the company",
                   "fa": "چرا سرمایه‌گذاری کردی، چه باید درست پیش برود، چه می‌تواند شرکت را نابود کند"
                 },
                 {
-                  "en": "The founder's home address",
-                  "fa": "نشانی خانهٔ بنیان‌گذار"
+                  "en": "How much you invested, the date of the transfer, the bank you used",
+                  "fa": "چقدر سرمایه گذاشتی، تاریخ انتقال پول، و بانکی که استفاده کردی"
                 },
                 {
-                  "en": "Only the share price",
-                  "fa": "فقط قیمت سهم"
+                  "en": "Only the share price on the day you invested and the size of the round",
+                  "fa": "فقط قیمت سهم در روزی که سرمایه‌گذاری کردی و اندازهٔ دور سرمایه"
                 }
               ],
               "answer": 0
@@ -597,6 +649,10 @@
                 "en": "What do pro rata rights let an angel do?",
                 "fa": "حق pro rata به فرشته چه اجازه‌ای می‌دهد؟"
               },
+              "fare": {
+                "en": "One of your winners raises a new round. What does holding pro rata allow?",
+                "fa": "یکی از برنده‌هایت دور تازه‌ای می‌بندد. داشتن pro rata چه امکانی به تو می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Keep your ownership share in later rounds",
@@ -607,8 +663,8 @@
                   "fa": "هر وقت بخواهی سهم را در بورس عمومی بفروشی"
                 },
                 {
-                  "en": "Take over as CEO",
-                  "fa": "جای مدیرعامل را بگیری"
+                  "en": "Replace the founder and take over as CEO",
+                  "fa": "بنیان‌گذار را کنار بزنی و جای مدیرعامل را بگیری"
                 }
               ],
               "answer": 0
@@ -637,6 +693,10 @@
               "prompt": {
                 "en": "The book treats a founder who stops sending updates as a good sign of focus.",
                 "fa": "کتاب بنیان‌گذاری را که فرستادن گزارش را قطع می‌کند نشانهٔ خوبِ تمرکز می‌داند."
+              },
+              "fare": {
+                "en": "When a company's updates stop arriving, the book reads it as the team being productively heads-down.",
+                "fa": "وقتی گزارش‌های یک شرکت دیگر نمی‌رسد، کتاب آن را نشانهٔ این می‌گیرد که تیم غرق کار است و اوضاع خوب است."
               },
               "answer": false
             }
@@ -684,6 +744,10 @@
                 "en": "Which four things can an angel bring, per the book?",
                 "fa": "طبق کتاب، فرشته کدام چهار چیز را می‌تواند بیاورد؟"
               },
+              "fare": {
+                "en": "An angel needs at least two items from a list of four in the book. What is on that list?",
+                "fa": "کتاب فهرستی چهارتایی دارد که فرشته دست‌کم دو تایش را لازم دارد. در آن فهرست چیست؟"
+              },
               "options": [
                 {
                   "en": "Money, time, expertise and a network",
@@ -725,6 +789,10 @@
                 "en": "The book advises angels to try to run the company for the founder.",
                 "fa": "کتاب به فرشته‌ها توصیه می‌کند سعی کنند شرکت را به‌جای بنیان‌گذار اداره کنند."
               },
+              "fare": {
+                "en": "According to the book, a good angel steps in and takes the company's decisions over from the founder.",
+                "fa": "به گفتهٔ کتاب، فرشتهٔ خوب وارد می‌شود و تصمیم‌های شرکت را از دست بنیان‌گذار می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -751,6 +819,10 @@
               "prompt": {
                 "en": "Which exit does this Lesson call far more common?",
                 "fa": "این درس کدام exit را بسیار رایج‌تر می‌داند؟"
+              },
+              "fare": {
+                "en": "By which route do startups more often reach an exit, per this Lesson?",
+                "fa": "طبق این درس، استارتاپ‌ها بیشتر از کدام راه به exit می‌رسند؟"
               },
               "options": [
                 {
@@ -793,6 +865,10 @@
                 "en": "The book treats an angel check as money you can take back out whenever you need it.",
                 "fa": "کتاب چک فرشته را پولی می‌داند که هر وقت لازمش داشتی می‌توانی پس بگیری."
               },
+              "fare": {
+                "en": "Per the book, the money in an angel check stays available to withdraw before any exit.",
+                "fa": "طبق کتاب، پولِ چک فرشته پیش از هر exit هم برای برداشت در دسترس است."
+              },
               "answer": false
             },
             {
@@ -828,18 +904,22 @@
                 "en": "As a founder, what does this Lesson suggest reading in each term sheet?",
                 "fa": "به‌عنوان بنیان‌گذار، این درس پیشنهاد می‌کند در هر term sheet چه چیزی را بخوانی؟"
               },
+              "fare": {
+                "en": "Which part of a term sheet sets who is paid first in a sale?",
+                "fa": "کدام بخش term sheet تعیین می‌کند در فروش چه کسی اول پول می‌گیرد؟"
+              },
               "options": [
                 {
                   "en": "The liquidation preference",
                   "fa": "liquidation preference"
                 },
                 {
-                  "en": "The office address",
-                  "fa": "نشانی دفتر"
+                  "en": "The company's office address",
+                  "fa": "نشانی دفتر شرکت"
                 },
                 {
-                  "en": "The logo rules",
-                  "fa": "قوانین لوگو"
+                  "en": "The rules for using the logo",
+                  "fa": "قوانین استفاده از لوگو"
                 }
               ],
               "answer": 0

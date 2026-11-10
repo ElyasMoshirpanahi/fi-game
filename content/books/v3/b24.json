@@ -68,10 +68,14 @@
                 "en": "What does deep work create, in Newport's definition?",
                 "fa": "در تعریف Newport، کار عمیق چه می‌آفریند؟"
               },
+              "fare": {
+                "en": "By Newport's definition, what comes out of an hour of distraction-free concentration at your limit?",
+                "fa": "طبق تعریف Newport، حاصل یک ساعت تمرکز بی‌حواس‌پرتی در مرز توانت چیست؟"
+              },
               "options": [
                 {
-                  "en": "Quick replies that keep everyone informed",
-                  "fa": "پاسخ‌های سریعی که همه را در جریان نگه می‌دارد"
+                  "en": "Quick replies that inform everyone",
+                  "fa": "پاسخ‌های سریع برای خبردار کردن همه"
                 },
                 {
                   "en": "New value, and it improves your skill",
@@ -109,6 +113,10 @@
                 "en": "Newport says shallow work is easy to replicate.",
                 "fa": "Newport می‌گوید کار سطحی به‌آسانی تکرارشدنی است."
               },
+              "fare": {
+                "en": "In Newport's view, someone else could reproduce your shallow work without much trouble.",
+                "fa": "از نگاه Newport، دیگران می‌توانند کار سطحی تو را بی‌دردسر زیاد تکرار کنند."
+              },
               "answer": true
             },
             {
@@ -136,18 +144,22 @@
                 "en": "What does Newport blame for fragmented attention?",
                 "fa": "Newport چه چیزی را عامل تکه‌تکه شدن توجه می‌داند؟"
               },
+              "fare": {
+                "en": "According to Newport, what has broken knowledge workers' concentration into pieces?",
+                "fa": "به گفتهٔ Newport، چه چیزی تمرکز کارکنان دانشی را خرد کرده است؟"
+              },
               "options": [
                 {
                   "en": "Network tools such as email, SMS and social media",
                   "fa": "ابزارهای شبکه‌ای مثل ایمیل، پیامک و شبکه‌های اجتماعی"
                 },
                 {
-                  "en": "Too many long books",
-                  "fa": "کتاب‌های بلند بیش از حد"
+                  "en": "Too many long books that take weeks to finish reading",
+                  "fa": "کتاب‌های بلند بیش از حد که خواندنشان هفته‌ها طول می‌کشد"
                 },
                 {
-                  "en": "Working from a quiet tower",
-                  "fa": "کار کردن در یک برج آرام"
+                  "en": "Working alone from a quiet tower in the countryside",
+                  "fa": "تنها کار کردن در یک برج آرام در دل روستا"
                 }
               ],
               "answer": 0
@@ -177,6 +189,10 @@
                 "en": "The Deep Work Hypothesis says deep work is becoming more common as it becomes more valuable.",
                 "fa": "فرضیهٔ کار عمیق می‌گوید کار عمیق هم‌زمان با ارزشمندتر شدن، رایج‌تر هم می‌شود."
               },
+              "fare": {
+                "en": "According to the Deep Work Hypothesis, the more valuable deep work gets, the more people are doing it.",
+                "fa": "طبق فرضیهٔ کار عمیق، هرچه کار عمیق ارزشمندتر می‌شود، آدم‌های بیشتری آن را انجام می‌دهند."
+              },
               "answer": false
             },
             {
@@ -203,6 +219,10 @@
               "prompt": {
                 "en": "Answering Slack all day counts as deep work if it feels productive.",
                 "fa": "جواب دادن Slack در تمام روز اگر حس بهره‌وری بدهد، کار عمیق حساب می‌شود."
+              },
+              "fare": {
+                "en": "A day spent replying on Slack is deep work as long as you feel you got a lot done.",
+                "fa": "روزی که به جواب دادن در Slack گذشته، تا وقتی حس کنی کار زیادی کرده‌ای، کار عمیق است."
               },
               "answer": false
             }
@@ -250,14 +270,18 @@
                 "en": "Which three groups thrive in Newport's new economy?",
                 "fa": "در اقتصاد جدید Newport کدام سه گروه شکوفا می‌شوند؟"
               },
+              "fare": {
+                "en": "Who comes out ahead as intelligent machines reshape work, according to Newport?",
+                "fa": "به گفتهٔ Newport، وقتی ماشین‌های هوشمند کار را دگرگون می‌کنند چه کسانی جلو می‌افتند؟"
+              },
               "options": [
                 {
-                  "en": "Managers, sellers and lawyers",
-                  "fa": "مدیران، فروشندگان و وکلا"
+                  "en": "Middle managers, travelling sellers and corporate lawyers",
+                  "fa": "مدیران میانی، فروشندگان دوره‌گرد و وکلای شرکتی"
                 },
                 {
-                  "en": "Students, freelancers and retirees",
-                  "fa": "دانشجویان، فریلنسرها و بازنشستگان"
+                  "en": "University students, part-time freelancers and retirees",
+                  "fa": "دانشجویان دانشگاه، فریلنسرهای پاره‌وقت و بازنشستگان"
                 },
                 {
                   "en": "High-skilled workers, superstars and owners with capital",
@@ -291,6 +315,10 @@
                 "en": "Newport builds most of the book around becoming an owner with capital.",
                 "fa": "Newport بیشتر کتاب را حول مالک سرمایه شدن می‌سازد."
               },
+              "fare": {
+                "en": "The path Newport mainly teaches readers is to join the owners by investing capital.",
+                "fa": "راهی که Newport بیشتر به خواننده یاد می‌دهد، پیوستن به مالکان از راه سرمایه‌گذاری است."
+              },
               "answer": false
             },
             {
@@ -318,18 +346,22 @@
                 "en": "What does deliberate practice combine?",
                 "fa": "تمرین آگاهانه چه چیزهایی را با هم ترکیب می‌کند؟"
               },
+              "fare": {
+                "en": "Which mix does Ericsson's deliberate practice call for?",
+                "fa": "تمرین آگاهانه‌ای که Ericsson بررسی کرد از چه آمیزه‌ای ساخته شده است؟"
+              },
               "options": [
                 {
                   "en": "Tight focus on one skill plus feedback",
                   "fa": "تمرکز فشرده روی یک مهارت به‌همراه بازخورد"
                 },
                 {
-                  "en": "Many skills practised at once",
-                  "fa": "تمرین هم‌زمان چند مهارت"
+                  "en": "Many different skills practised all at once",
+                  "fa": "تمرین هم‌زمان چند مهارت متفاوت"
                 },
                 {
-                  "en": "Long hours without any feedback",
-                  "fa": "ساعت‌های طولانی بدون هیچ بازخورد"
+                  "en": "Long hours of work without any feedback",
+                  "fa": "ساعت‌های طولانی کار بدون هیچ بازخورد"
                 }
               ],
               "answer": 0
@@ -359,6 +391,10 @@
                 "en": "By attention residue, a quick inbox check before hard work costs nothing.",
                 "fa": "طبق پسماند توجه، یک نگاه سریع به ایمیل پیش از کار سخت هزینه‌ای ندارد."
               },
+              "fare": {
+                "en": "Leroy's attention residue finding suggests a brief look at email leaves your next task unharmed.",
+                "fa": "یافتهٔ Leroy دربارهٔ پسماند توجه نشان می‌دهد یک نگاه کوتاه به ایمیل به کار بعدی‌ات آسیبی نمی‌زند."
+              },
               "answer": false
             },
             {
@@ -386,10 +422,14 @@
                 "en": "Shipping a product people pay for maps to which core ability?",
                 "fa": "عرضهٔ محصولی که مردم برایش پول بدهند با کدام توانایی اصلی جور است؟"
               },
+              "fare": {
+                "en": "Which of the two core abilities are you using when customers pay for what you ship?",
+                "fa": "وقتی مشتری برای چیزی که عرضه کرده‌ای پول می‌دهد، کدام‌یک از دو توانایی اصلی را به کار گرفته‌ای؟"
+              },
               "options": [
                 {
-                  "en": "Answering messages quickly",
-                  "fa": "پاسخ سریع به پیام‌ها"
+                  "en": "Answering every message quickly",
+                  "fa": "پاسخ سریع به همهٔ پیام‌ها"
                 },
                 {
                   "en": "Producing at an elite level",
@@ -446,18 +486,22 @@
                 "en": "Which three trends does Newport say work against depth?",
                 "fa": "به گفتهٔ Newport کدام سه روند علیه عمق کار می‌کنند؟"
               },
+              "fare": {
+                "en": "Which set of workplace habits does Newport name as fragmenting attention?",
+                "fa": "Newport کدام دسته از عادت‌های محیط کار را عامل تکه‌تکه شدن توجه می‌نامد؟"
+              },
               "options": [
                 {
-                  "en": "Remote work, long reports and quiet rooms",
-                  "fa": "دورکاری، گزارش‌های بلند و اتاق‌های ساکت"
+                  "en": "Remote work, long written reports and quiet private rooms",
+                  "fa": "دورکاری، گزارش‌های مکتوب بلند و اتاق‌های خصوصی ساکت"
                 },
                 {
                   "en": "Open offices, instant messaging and social media presence",
                   "fa": "دفترهای باز، پیام‌رسان فوری و حضور در شبکه‌های اجتماعی"
                 },
                 {
-                  "en": "Libraries, deadlines and walking",
-                  "fa": "کتابخانه‌ها، ضرب‌الاجل‌ها و پیاده‌روی"
+                  "en": "Public libraries, tight deadlines and long daily walks",
+                  "fa": "کتابخانه‌های عمومی، ضرب‌الاجل‌های فشرده و پیاده‌روی طولانی روزانه"
                 }
               ],
               "answer": 1
@@ -487,6 +531,10 @@
                 "en": "The metric black hole means the cost of distraction is easy to measure.",
                 "fa": "سیاه‌چالهٔ معیارها یعنی هزینهٔ حواس‌پرتی به‌آسانی اندازه‌گیری می‌شود."
               },
+              "fare": {
+                "en": "Businesses can readily put a number on what distraction costs them, which is what the metric black hole describes.",
+                "fa": "کسب‌وکارها به‌راحتی می‌توانند برای هزینهٔ حواس‌پرتی عدد بگذارند، و سیاه‌چالهٔ معیارها همین را توصیف می‌کند."
+              },
               "answer": false
             },
             {
@@ -514,18 +562,22 @@
                 "en": "What did Perlow's consultants take each week?",
                 "fa": "مشاوران Perlow هر هفته چه چیزی گرفتند؟"
               },
+              "fare": {
+                "en": "Which change did Leslie Perlow test at Boston Consulting Group?",
+                "fa": "Leslie Perlow چه تغییری را در Boston Consulting Group آزمود؟"
+              },
               "options": [
                 {
                   "en": "One predictable day fully disconnected",
                   "fa": "یک روز قابل‌پیش‌بینی کاملاً قطع ارتباط"
                 },
                 {
-                  "en": "An extra hour of email time",
-                  "fa": "یک ساعت اضافه برای ایمیل"
+                  "en": "One extra hour of email time every evening",
+                  "fa": "یک ساعت اضافه برای ایمیل در هر عصر"
                 },
                 {
-                  "en": "A weekly team party",
-                  "fa": "یک مهمانی هفتگی تیمی"
+                  "en": "A weekly team party paid for by the firm",
+                  "fa": "یک مهمانی هفتگی تیمی به خرج شرکت"
                 }
               ],
               "answer": 0
@@ -555,6 +607,10 @@
                 "en": "Newport says busyness is a reliable sign of real productivity.",
                 "fa": "Newport می‌گوید شلوغی نشانهٔ قابل‌اعتمادی از بهره‌وری واقعی است."
               },
+              "fare": {
+                "en": "In Newport's account, visibly doing lots of things proves a person is truly productive.",
+                "fa": "در روایت Newport، انجام آشکار کارهای زیاد ثابت می‌کند که آدم واقعاً بهره‌ور است."
+              },
               "answer": false
             },
             {
@@ -582,10 +638,14 @@
                 "en": "Why does rarity help those who do deep work?",
                 "fa": "چرا کمیابی به کسانی که کار عمیق می‌کنند کمک می‌کند؟"
               },
+              "fare": {
+                "en": "Few people work deeply. What does that scarcity do for someone who does?",
+                "fa": "کم‌اند کسانی که عمیق کار می‌کنند. این کمیابی برای کسی که چنین می‌کند چه می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "It lowers their workload",
-                  "fa": "بار کارشان را کم می‌کند"
+                  "en": "It cuts their work for equal pay",
+                  "fa": "کارشان را با همان حقوق کم می‌کند"
                 },
                 {
                   "en": "It removes the need to learn",
@@ -643,6 +703,10 @@
                 "en": "Newport treats willpower as an unlimited resource you can always draw on.",
                 "fa": "Newport اراده را منبعی نامحدود می‌داند که همیشه می‌توان از آن برداشت."
               },
+              "fare": {
+                "en": "According to Newport, resisting distractions all day does not use up your willpower.",
+                "fa": "به گفتهٔ Newport، مقاومت در برابر حواس‌پرتی در تمام روز چیزی از اراده‌ات کم نمی‌کند."
+              },
               "answer": false
             },
             {
@@ -670,6 +734,10 @@
                 "en": "What does the monastic philosophy do?",
                 "fa": "فلسفهٔ رهبانی چه می‌کند؟"
               },
+              "fare": {
+                "en": "Donald Knuth has no email address. What does the philosophy he follows do?",
+                "fa": "Donald Knuth نشانی ایمیل ندارد. فلسفه‌ای که او دنبال می‌کند چه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Removes or radically cuts shallow obligations",
@@ -680,8 +748,8 @@
                   "fa": "کار عمیق را هر جا وقت آزاد پیدا شد جا می‌دهد"
                 },
                 {
-                  "en": "Uses a fixed daily time slot",
-                  "fa": "از یک بازهٔ زمانی ثابت روزانه استفاده می‌کند"
+                  "en": "Uses the same fixed time slot every single day",
+                  "fa": "هر روز از همان بازهٔ زمانی ثابت استفاده می‌کند"
                 }
               ],
               "answer": 0
@@ -710,6 +778,10 @@
               "prompt": {
                 "en": "In the bimodal philosophy, deep stretches last at least a full day.",
                 "fa": "در فلسفهٔ دووجهی، بازه‌های عمیق دست‌کم یک روز کامل طول می‌کشند."
+              },
+              "fare": {
+                "en": "A bimodal worker's deep periods are never shorter than one whole day.",
+                "fa": "دوره‌های عمیقِ کسی که دووجهی کار می‌کند هیچ‌وقت کوتاه‌تر از یک روز کامل نیست."
               },
               "answer": true
             },
@@ -746,14 +818,18 @@
                 "en": "Which philosophy fits deep work in wherever free time appears?",
                 "fa": "کدام فلسفه کار عمیق را هر جا وقت آزاد پیدا شد جا می‌دهد؟"
               },
+              "fare": {
+                "en": "Walter Isaacson wrote biographies in whatever gaps his job left. Which philosophy is that?",
+                "fa": "Walter Isaacson زندگی‌نامه‌هایش را در هر فرصتی که شغلش باقی می‌گذاشت نوشت. این کدام فلسفه است؟"
+              },
               "options": [
                 {
-                  "en": "The monastic philosophy",
-                  "fa": "فلسفهٔ رهبانی"
+                  "en": "The monastic philosophy of depth",
+                  "fa": "فلسفهٔ رهبانی عمق"
                 },
                 {
-                  "en": "The bimodal philosophy",
-                  "fa": "فلسفهٔ دووجهی"
+                  "en": "The bimodal philosophy of depth",
+                  "fa": "فلسفهٔ دووجهی عمق"
                 },
                 {
                   "en": "The journalistic philosophy",
@@ -787,6 +863,10 @@
                 "en": "Newport says the journalistic approach is the easiest for beginners.",
                 "fa": "Newport می‌گوید روش روزنامه‌نگارانه برای تازه‌کارها آسان‌ترین است."
               },
+              "fare": {
+                "en": "Newport recommends beginners start with the journalistic approach because it takes little practice.",
+                "fa": "Newport به تازه‌کارها توصیه می‌کند با روش روزنامه‌نگارانه شروع کنند چون تمرین کمی می‌خواهد."
+              },
               "answer": false
             },
             {
@@ -806,18 +886,22 @@
                 "en": "How should you pick a depth philosophy?",
                 "fa": "فلسفهٔ عمق را چطور انتخاب کنی؟"
               },
+              "fare": {
+                "en": "With four depth philosophies on offer, what is the right way to choose?",
+                "fa": "با چهار فلسفهٔ عمق پیش رو، راه درستِ انتخاب چیست؟"
+              },
               "options": [
                 {
-                  "en": "Copy the most famous author",
-                  "fa": "از مشهورترین نویسنده تقلید کن"
+                  "en": "Copy the most famous author you have read",
+                  "fa": "از مشهورترین نویسنده‌ای که خوانده‌ای تقلید کن"
                 },
                 {
                   "en": "Pick the one that matches your life",
                   "fa": "آن را انتخاب کن که با زندگی‌ات جور است"
                 },
                 {
-                  "en": "Always choose the monastic one",
-                  "fa": "همیشه رهبانی را انتخاب کن"
+                  "en": "Always choose the monastic one, whatever your job",
+                  "fa": "همیشه رهبانی را انتخاب کن، در هر شغلی"
                 }
               ],
               "answer": 1
@@ -865,6 +949,10 @@
               "prompt": {
                 "en": "Put the four disciplines of 4DX in order",
                 "fa": "چهار اصل 4DX را به ترتیب بچین"
+              },
+              "fare": {
+                "en": "Arrange the 4DX disciplines from first to fourth",
+                "fa": "اصل‌های 4DX را از اول تا چهارم مرتب کن"
               },
               "options": [
                 {
@@ -916,18 +1004,22 @@
                 "en": "For deep work, what is the lead measure?",
                 "fa": "برای کار عمیق، معیار پیشرو چیست؟"
               },
+              "fare": {
+                "en": "Which number do you track day to day to drive your deep work results?",
+                "fa": "برای جلو بردن نتیجه‌های کار عمیق، کدام عدد را روزبه‌روز دنبال می‌کنی؟"
+              },
               "options": [
                 {
-                  "en": "Revenue earned",
-                  "fa": "درآمد کسب‌شده"
+                  "en": "Revenue earned over the whole year",
+                  "fa": "درآمد کسب‌شده در کل سال"
                 },
                 {
                   "en": "Time spent in a state of depth",
                   "fa": "زمان سپری‌شده در حالت عمق"
                 },
                 {
-                  "en": "Emails answered",
-                  "fa": "ایمیل‌های پاسخ‌داده‌شده"
+                  "en": "Emails answered before each lunch",
+                  "fa": "ایمیل‌های جواب‌داده پیش از هر ناهار"
                 }
               ],
               "answer": 1
@@ -957,6 +1049,10 @@
                 "en": "4DX says you should review your scoreboard once a year.",
                 "fa": "4DX می‌گوید جدول امتیازت را سالی یک بار مرور کنی."
               },
+              "fare": {
+                "en": "Under 4DX, the cadence of accountability is a yearly look at the scoreboard.",
+                "fa": "در 4DX، ریتم پاسخ‌گویی یعنی سالی یک بار نگاه کردن به جدول امتیاز."
+              },
               "answer": false
             },
             {
@@ -984,6 +1080,10 @@
                 "en": "What does attention restoration theory say restores focus?",
                 "fa": "نظریهٔ بازیابی توجه می‌گوید چه چیزی تمرکز را بازمی‌گرداند؟"
               },
+              "fare": {
+                "en": "By attention restoration theory, which break brings back your ability to direct focus?",
+                "fa": "طبق نظریهٔ بازیابی توجه، کدام استراحت توانایی هدایت تمرکز را برمی‌گرداند؟"
+              },
               "options": [
                 {
                   "en": "A walk in nature",
@@ -995,7 +1095,7 @@
                 },
                 {
                   "en": "Checking social media",
-                  "fa": "نگاه کردن به شبکه‌های اجتماعی"
+                  "fa": "سر زدن به شبکه‌های اجتماعی"
                 }
               ],
               "answer": 0
@@ -1024,6 +1124,10 @@
               "prompt": {
                 "en": "Newport says experts can sustain about ten hours of deliberate practice a day.",
                 "fa": "Newport می‌گوید خبره‌ها می‌توانند روزانه حدود ده ساعت تمرین آگاهانه داشته باشند."
+              },
+              "fare": {
+                "en": "Ericsson found that experts routinely put in around ten hours of deliberate practice daily.",
+                "fa": "Ericsson دید خبره‌ها معمولاً هر روز حدود ده ساعت تمرین آگاهانه انجام می‌دهند."
               },
               "answer": false
             }
@@ -1071,18 +1175,22 @@
                 "en": "Which is one of Newport's three reasons to shut down?",
                 "fa": "کدام یکی از سه دلیل Newport برای خاموشی است؟"
               },
+              "fare": {
+                "en": "What does ending work thinking for the evening do for you, in Newport's argument?",
+                "fa": "در استدلال Newport، کنار گذاشتن فکر کاری در عصر چه فایده‌ای برایت دارد؟"
+              },
               "options": [
                 {
                   "en": "It recharges the energy needed for deep work",
                   "fa": "انرژی لازم برای کار عمیق را شارژ می‌کند"
                 },
                 {
-                  "en": "It lets you answer email faster",
-                  "fa": "به تو اجازه می‌دهد سریع‌تر ایمیل جواب بدهی"
+                  "en": "It lets you answer tomorrow's email faster",
+                  "fa": "می‌گذارد ایمیل فردا را سریع‌تر جواب بدهی"
                 },
                 {
-                  "en": "It makes meetings shorter",
-                  "fa": "جلسه‌ها را کوتاه‌تر می‌کند"
+                  "en": "It makes tomorrow's meetings shorter",
+                  "fa": "جلسه‌های فردا را کوتاه‌تر می‌کند"
                 }
               ],
               "answer": 0
@@ -1112,6 +1220,10 @@
                 "en": "To quiet the Zeigarnik effect you must finish every task before you stop.",
                 "fa": "برای آرام کردن اثر Zeigarnik باید هر کاری را پیش از توقف تمام کنی."
               },
+              "fare": {
+                "en": "Baumeister and Masicampo found that only completing a task stops it pulling at your attention.",
+                "fa": "Baumeister و Masicampo دریافتند فقط تمام کردن یک کار جلوی کشیده شدن توجهت به آن را می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -1138,6 +1250,10 @@
               "prompt": {
                 "en": "Put the shutdown ritual in order",
                 "fa": "آیین خاموشی را به ترتیب بچین"
+              },
+              "fare": {
+                "en": "Arrange these shutdown steps from first to last",
+                "fa": "این گام‌های خاموشی را از اول تا آخر مرتب کن"
               },
               "options": [
                 {
@@ -1184,18 +1300,22 @@
                 "en": "How much time does Newport say a shutdown ritual adds to the workday?",
                 "fa": "Newport می‌گوید آیین خاموشی چقدر به روز کاری اضافه می‌کند؟"
               },
+              "fare": {
+                "en": "By Newport's estimate, how much longer does your workday get with a strict shutdown ritual?",
+                "fa": "به برآورد Newport، با یک آیین خاموشی سخت‌گیرانه روز کاری‌ات چقدر طولانی‌تر می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "An hour or more",
-                  "fa": "یک ساعت یا بیشتر"
+                  "en": "An hour or more each evening",
+                  "fa": "یک ساعت یا بیشتر در هر عصر"
                 },
                 {
                   "en": "Ten to fifteen minutes",
                   "fa": "ده تا پانزده دقیقه"
                 },
                 {
-                  "en": "Under ten seconds",
-                  "fa": "کمتر از ده ثانیه"
+                  "en": "Under ten seconds in total",
+                  "fa": "در مجموع کمتر از ده ثانیه"
                 }
               ],
               "answer": 1
@@ -1224,6 +1344,10 @@
               "prompt": {
                 "en": "A strict shutdown ritual helps protect your sleep.",
                 "fa": "یک آیین خاموشی سخت‌گیرانه به حفظ خوابت کمک می‌کند."
+              },
+              "fare": {
+                "en": "Shutting down work cleanly each evening is one way to guard your sleep.",
+                "fa": "خاموش کردن تمیز کار در هر عصر یکی از راه‌های محافظت از خوابت است."
               },
               "answer": true
             }
@@ -1280,6 +1404,10 @@
                 "en": "Nass found heavy multitaskers filter out distraction better than others.",
                 "fa": "Nass دید چندکاره‌های سنگین حواس‌پرتی را بهتر از دیگران فیلتر می‌کنند."
               },
+              "fare": {
+                "en": "In Nass's research, people who multitask heavily turned out to be the best at ignoring irrelevant things.",
+                "fa": "در پژوهش Nass، کسانی که زیاد چندکاره‌اند در نادیده گرفتن چیزهای بی‌ربط از همه بهتر بودند."
+              },
               "answer": false
             },
             {
@@ -1306,6 +1434,10 @@
               "prompt": {
                 "en": "What does Newport say to take breaks from?",
                 "fa": "Newport می‌گوید از چه چیزی استراحت بگیری؟"
+              },
+              "fare": {
+                "en": "When you schedule internet blocks and stay offline between them, which Rule 2 instruction are you following?",
+                "fa": "وقتی زمان اینترنت را از پیش تعیین می‌کنی و بین آن‌ها آفلاین می‌مانی، به کدام دستور قانون ۲ عمل کرده‌ای؟"
               },
               "options": [
                 {
@@ -1356,14 +1488,18 @@
                 "en": "What do you hold in mind during productive meditation?",
                 "fa": "در مراقبهٔ بهره‌ور چه چیزی را در ذهن نگه می‌داری؟"
               },
+              "fare": {
+                "en": "On a walk or commute used for productive meditation, where does your attention keep returning?",
+                "fa": "در پیاده‌روی یا رفت‌وآمدی که صرف مراقبهٔ بهره‌ور می‌شود، توجهت مدام به چه چیزی برمی‌گردد؟"
+              },
               "options": [
                 {
-                  "en": "A song you like",
-                  "fa": "آهنگی که دوست داری"
+                  "en": "A song you like, played over and over",
+                  "fa": "آهنگی که دوست داری، پشت سر هم"
                 },
                 {
-                  "en": "Your social media feed",
-                  "fa": "فید شبکه‌های اجتماعی‌ات"
+                  "en": "Your social media feed from that morning",
+                  "fa": "فید شبکه‌های اجتماعی‌ات از همان صبح"
                 },
                 {
                   "en": "One well-defined professional problem",
@@ -1397,6 +1533,10 @@
                 "en": "Under Rule 2, you should give in to a sudden urge to go online if it is small.",
                 "fa": "طبق قانون ۲، اگر وسوسهٔ آنلاین شدن کوچک است، باید تسلیمش شوی."
               },
+              "fare": {
+                "en": "Rule 2 allows going online on impulse between blocks, provided the urge is minor.",
+                "fa": "قانون ۲ اجازه می‌دهد بین بلوک‌ها از سر وسوسه آنلاین شوی، به شرطی که وسوسه جزئی باشد."
+              },
               "answer": false
             },
             {
@@ -1416,18 +1556,22 @@
                 "en": "What is a queue or a tram ride a chance to do?",
                 "fa": "صف یا سفر با تراموا فرصتی برای چه کاری است؟"
               },
+              "fare": {
+                "en": "Your phone stays in your pocket while you wait in line. What does that waiting time let you do?",
+                "fa": "در صف منتظری و گوشی در جیبت می‌ماند. این زمان انتظار فرصت چه کاری را به تو می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "Catch up on news",
-                  "fa": "به‌روز شدن با اخبار"
+                  "en": "Read the news",
+                  "fa": "خواندن اخبار"
                 },
                 {
                   "en": "Practise boredom",
                   "fa": "تمرین کسالت"
                 },
                 {
-                  "en": "Clear your inbox",
-                  "fa": "خالی کردن صندوق ایمیل"
+                  "en": "Check your mail",
+                  "fa": "چک کردن ایمیل"
                 }
               ],
               "answer": 1
@@ -1476,6 +1620,10 @@
                 "en": "Newport supports the any-benefit approach to choosing tools.",
                 "fa": "Newport از رویکرد «هر سودی» برای انتخاب ابزار حمایت می‌کند."
               },
+              "fare": {
+                "en": "Newport agrees that any benefit at all is reason enough to use a tool.",
+                "fa": "Newport قبول دارد که وجود هر سودی برای استفاده از یک ابزار کافی است."
+              },
               "answer": false
             },
             {
@@ -1503,18 +1651,22 @@
                 "en": "When does the craftsman approach let you adopt a tool?",
                 "fa": "رویکرد صنعتگرانه کی اجازهٔ پذیرفتن یک ابزار را می‌دهد؟"
               },
+              "fare": {
+                "en": "Under the craftsman approach, in which case is a tool worth taking up?",
+                "fa": "در رویکرد صنعتگرانه، در چه حالتی یک ابزار ارزش پذیرفتن دارد؟"
+              },
               "options": [
                 {
-                  "en": "If its positive impacts on your core factors outweigh its negative ones",
-                  "fa": "وقتی اثر مثبتش بر عوامل اصلی‌ات از اثر منفی‌اش بیشتر باشد"
+                  "en": "If its positive impacts on core factors outweigh the negative",
+                  "fa": "وقتی اثر مثبتش بر عوامل اصلی از اثر منفی‌اش بیشتر باشد"
                 },
                 {
-                  "en": "When it offers any benefit at all",
-                  "fa": "وقتی هر سودی داشته باشد"
+                  "en": "When it offers any benefit at all, however small it is",
+                  "fa": "وقتی هر سودی داشته باشد، هرقدر هم کوچک باشد"
                 },
                 {
-                  "en": "When your friends use it",
-                  "fa": "وقتی دوستانت از آن استفاده می‌کنند"
+                  "en": "When most of your friends and colleagues already use it",
+                  "fa": "وقتی بیشتر دوستان و همکارانت از آن استفاده می‌کنند"
                 }
               ],
               "answer": 0
@@ -1544,6 +1696,10 @@
                 "en": "The law of the vital few says most results come from a few activities.",
                 "fa": "قانون اندک‌های حیاتی می‌گوید بیشتر نتیجه از چند فعالیت معدود می‌آید."
               },
+              "fare": {
+                "en": "By the 80/20 rule, a small number of activities account for the bulk of your results.",
+                "fa": "طبق قاعدهٔ ۸۰/۲۰، تعداد کمی از فعالیت‌ها بخش عمدهٔ نتیجه‌هایت را می‌سازند."
+              },
               "answer": true
             },
             {
@@ -1571,18 +1727,22 @@
                 "en": "How long is Newport's social media test?",
                 "fa": "آزمون Newport برای شبکه‌های اجتماعی چقدر طول می‌کشد؟"
               },
+              "fare": {
+                "en": "For what period, and in what manner, do you step away from social media in Newport's experiment?",
+                "fa": "در آزمایش Newport، برای چه مدت و به چه شکلی از شبکه‌های اجتماعی کنار می‌کشی؟"
+              },
               "options": [
                 {
                   "en": "7 days, with a public goodbye post",
-                  "fa": "۷ روز، با یک پست خداحافظی عمومی"
+                  "fa": "۷ روز، با پست خداحافظی عمومی"
                 },
                 {
                   "en": "30 days, without announcing it",
                   "fa": "۳۰ روز، بدون اعلام"
                 },
                 {
-                  "en": "One full year",
-                  "fa": "یک سال کامل"
+                  "en": "One full year, with no exceptions",
+                  "fa": "یک سال کامل، بدون هیچ استثنا"
                 }
               ],
               "answer": 1
@@ -1611,6 +1771,10 @@
               "prompt": {
                 "en": "Arnold Bennett's advice is to fill leisure time with endless browsing.",
                 "fa": "توصیهٔ Arnold Bennett این است که فراغت را با گشت‌وگذار بی‌پایان پر کنی."
+              },
+              "fare": {
+                "en": "Following Arnold Bennett, the best use of free hours is browsing the internet without end.",
+                "fa": "به پیروی از Arnold Bennett، بهترین استفاده از ساعت‌های آزاد گشت‌زدن بی‌پایان در اینترنت است."
               },
               "answer": false
             }
@@ -1658,10 +1822,14 @@
                 "en": "What did 37signals cut to fit a four-day week?",
                 "fa": "37signals برای جا دادن هفتهٔ چهارروزه چه چیزی را کم کرد؟"
               },
+              "fare": {
+                "en": "37signals staff got as much done in four days. What had they dropped?",
+                "fa": "کارکنان 37signals در چهار روز همان‌قدر کار انجام دادند. چه چیزی را کنار گذاشته بودند؟"
+              },
               "options": [
                 {
                   "en": "Deep product work",
-                  "fa": "کار عمیق روی محصول"
+                  "fa": "کار عمیق محصول"
                 },
                 {
                   "en": "Customer support",
@@ -1699,6 +1867,10 @@
                 "en": "Newport says once a time-block plan breaks, you should give up on it for the day.",
                 "fa": "Newport می‌گوید وقتی برنامهٔ بلوک‌بندی به هم خورد، باید آن روز کنارش بگذاری."
               },
+              "fare": {
+                "en": "When your time blocks fall apart mid-day, Newport's advice is to abandon scheduling until tomorrow.",
+                "fa": "وقتی بلوک‌های زمانی‌ات وسط روز به هم می‌ریزد، توصیهٔ Newport این است که برنامه‌ریزی را تا فردا رها کنی."
+              },
               "answer": false
             },
             {
@@ -1734,18 +1906,22 @@
                 "en": "How does Newport quantify the depth of an activity?",
                 "fa": "Newport عمق یک فعالیت را چطور می‌سنجد؟"
               },
+              "fare": {
+                "en": "In Newport's method, how do you tell whether a task is deep or shallow?",
+                "fa": "در روش Newport، از کجا می‌فهمی یک کار عمیق است یا سطحی؟"
+              },
               "options": [
                 {
                   "en": "By how long it takes to train a recent college graduate to do it",
                   "fa": "با این‌که آموزش یک فارغ‌التحصیل تازه برای انجامش چقدر طول می‌کشد"
                 },
                 {
-                  "en": "By how many people are copied on the email",
-                  "fa": "با تعداد افرادی که در ایمیل رونوشت گرفته‌اند"
+                  "en": "By counting how many people are copied on the email thread about it",
+                  "fa": "با شمردن افرادی که در رشته‌ایمیل مربوط به آن رونوشت گرفته‌اند"
                 },
                 {
-                  "en": "By how tired you feel afterward",
-                  "fa": "با این‌که بعدش چقدر خسته‌ای"
+                  "en": "By how tired and drained you feel in the hours afterward",
+                  "fa": "با این‌که در ساعت‌های بعدش چقدر خسته و بی‌رمق هستی"
                 }
               ],
               "answer": 0
@@ -1775,6 +1951,10 @@
                 "en": "Newport says the shallow work budget of most non-entry-level knowledge workers lands at 30 to 50 percent.",
                 "fa": "Newport می‌گوید بودجهٔ کار سطحیِ بیشتر کارکنان دانشی غیرتازه‌کار به ۳۰ تا ۵۰ درصد می‌رسد."
               },
+              "fare": {
+                "en": "For most knowledge workers beyond entry level, Newport puts shallow work at between 30 and 50 percent of their time.",
+                "fa": "Newport برای بیشتر کارکنان دانشی که تازه‌کار نیستند، سهم کار سطحی را بین ۳۰ تا ۵۰ درصد وقتشان می‌داند."
+              },
               "answer": true
             },
             {
@@ -1794,6 +1974,10 @@
                 "en": "What goes in the deep blocks of a CTO's calendar?",
                 "fa": "در بلوک‌های عمیق تقویم یک CTO چه چیزی قرار می‌گیرد؟"
               },
+              "fare": {
+                "en": "Which kind of work does a CTO reserve deep blocks for?",
+                "fa": "یک CTO بلوک‌های عمیقش را برای چه نوع کاری کنار می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Email and meetings",
@@ -1804,8 +1988,8 @@
                   "fa": "معماری و کد"
                 },
                 {
-                  "en": "Social media updates",
-                  "fa": "به‌روزرسانی شبکه‌های اجتماعی"
+                  "en": "Social media posts",
+                  "fa": "پست شبکهٔ اجتماعی"
                 }
               ],
               "answer": 1

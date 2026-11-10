@@ -60,6 +60,9 @@ _Avoid_: final, boss, exam, recap quiz
 The short-term reward. One Coin per correct Check answer, and one per Card for each step it climbs in Review. A Coin is paid once: repeating the same Check or the same Review step pays nothing. Coins never decrease.
 _Avoid_: point, gem, star
 
+**Fare wording**:
+The second wording every Check carries (`fare`): the same Check asked in other words, shown only in the Fare. Same answer as the prompt.
+
 **Combo**:
 Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is feedback only: it pays no Coins or XP and is not saved.
 _Avoid_: streak (a streak counts days, and the game has none)

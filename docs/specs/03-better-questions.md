@@ -25,6 +25,9 @@ Tap Checks whose options give nothing away by length, and a Fare that asks each 
 - Content is rewritten per book by content agents following an addendum to the content brief, then re-read under the audit brief, since rewording options can introduce errors.
 - The Basics Stations get the same treatment by hand, with the same rules asserted by a test.
 
+- As built (after the code review): the rules are measured in both languages. Per Check the longest option may be at most 1.6 times the shortest, with a slack of 8 characters for short options. Per book, and over the Basics Stations as one set, the correct option may be the longest, the shortest, or neither in at most 45 percent of the tap Checks each; chance is a third. The first cut capped only "longest" per Lesson, which moved the signal to the middle option instead of removing it. A `fare` wording that differs from the prompt only in case or punctuation is rejected.
+- Review shows a Card's Check with its `prompt`; only the Fare uses the `fare` wording.
+
 ## Testing Decisions
 
 - The validator is the seam: fixture books that break each rule must fail; all 28 real books must pass. A reducer test confirms a Fare answer is judged against the same answer as its Check.

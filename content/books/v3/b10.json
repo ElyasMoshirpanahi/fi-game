@@ -68,18 +68,22 @@
                 "en": "Which of these is one of the four skill sets of financial intelligence?",
                 "fa": "کدام‌یک از این‌ها یکی از چهار مهارت هوش مالی است؟"
               },
+              "fare": {
+                "en": "A manager wants to build financial intelligence the way the authors define it. Which of these would she work on?",
+                "fa": "مدیری می‌خواهد هوش مالی را آن‌طور که نویسندگان تعریف می‌کنند در خود بسازد. روی کدام‌یک باید کار کند؟"
+              },
               "options": [
                 {
-                  "en": "Memorizing tax law",
-                  "fa": "حفظ کردن قانون مالیات"
+                  "en": "Memorizing tax rates",
+                  "fa": "حفظ نرخ مالیات"
                 },
                 {
                   "en": "Understanding the art",
                   "fa": "فهم هنر"
                 },
                 {
-                  "en": "Predicting stock prices",
-                  "fa": "پیش‌بینی قیمت سهام"
+                  "en": "Predicting the market",
+                  "fa": "پیش‌بینی بازار"
                 }
               ],
               "answer": 1
@@ -108,6 +112,10 @@
               "prompt": {
                 "en": "Financial statements are pure measurement, with no estimates or judgment involved.",
                 "fa": "صورت‌های مالی اندازه‌گیری خالص‌اند و هیچ برآورد یا قضاوتی در آن‌ها نیست."
+              },
+              "fare": {
+                "en": "Turning messy reality into neat numbers needs no estimates from accountants.",
+                "fa": "حسابداران برای تبدیل واقعیت درهم‌ریخته به اعداد مرتب، به هیچ برآوردی نیاز ندارند."
               },
               "answer": false
             },
@@ -144,18 +152,22 @@
                 "en": "Why, according to chapter 1, can't you always trust the numbers?",
                 "fa": "طبق فصل ۱، چرا همیشه نمی‌توان به اعداد اعتماد کرد؟"
               },
+              "fare": {
+                "en": "A finance team is fully honest. What still keeps you from taking its numbers at face value?",
+                "fa": "تیم مالی کاملاً صادق است. با این حال چه چیزی نمی‌گذارد اعدادش را دربست بپذیری؟"
+              },
               "options": [
                 {
                   "en": "Every figure carries assumptions you cannot see",
                   "fa": "هر عدد فرض‌هایی در خود دارد که نمی‌بینی"
                 },
                 {
-                  "en": "Finance people usually lie",
-                  "fa": "مالی‌ها معمولاً دروغ می‌گویند"
+                  "en": "Finance people usually lie about the results",
+                  "fa": "مالی‌ها معمولاً دربارهٔ نتایج دروغ می‌گویند"
                 },
                 {
-                  "en": "Computers make arithmetic errors",
-                  "fa": "کامپیوترها اشتباه حسابی می‌کنند"
+                  "en": "Computers make small errors in the totals",
+                  "fa": "کامپیوترها در جمع‌ها خطاهای کوچک می‌کنند"
                 }
               ],
               "answer": 0
@@ -185,6 +197,10 @@
                 "en": "By bias, the authors mean that the numbers are simply wrong.",
                 "fa": "منظور نویسندگان از سوگیری این است که اعداد صرفاً غلط‌اند."
               },
+              "fare": {
+                "en": "For the authors, saying a number is biased is the same as saying it is incorrect.",
+                "fa": "از نگاه نویسندگان، سوگیری داشتنِ یک عدد همان نادرست بودنِ آن است."
+              },
               "answer": false
             },
             {
@@ -212,6 +228,10 @@
                 "en": "Asking which estimates sit behind a profit figure is a sign of financial intelligence.",
                 "fa": "پرسیدن این‌که چه برآوردهایی پشت عدد سود است، نشانهٔ هوش مالی است."
               },
+              "fare": {
+                "en": "A CTO who asks a founder about the estimates behind the startup's profit is practising financial intelligence, not showing distrust.",
+                "fa": "CTOای که از بنیان‌گذار دربارهٔ برآوردهای پشت سود استارتاپ می‌پرسد، هوش مالی را به کار بسته، نه بی‌اعتمادی را."
+              },
               "answer": true
             },
             {
@@ -238,6 +258,10 @@
               "prompt": {
                 "en": "Financial intelligence means you must become a trained accountant.",
                 "fa": "هوش مالی یعنی باید حسابدار آموزش‌دیده شوی."
+              },
+              "fare": {
+                "en": "A manager who can ask good questions about the numbers but is not an accountant lacks financial intelligence.",
+                "fa": "مدیری که می‌تواند دربارهٔ اعداد پرسش‌های خوب بپرسد اما حسابدار نیست، هوش مالی ندارد."
               },
               "answer": false
             }
@@ -285,6 +309,10 @@
                 "en": "GAAP leaves no room for judgment.",
                 "fa": "GAAP هیچ جایی برای قضاوت باقی نمی‌گذارد."
               },
+              "fare": {
+                "en": "Two companies following GAAP have no choices left to make, because the framework settles every question.",
+                "fa": "دو شرکتی که از GAAP پیروی می‌کنند دیگر هیچ انتخابی ندارند، چون این چارچوب تکلیف همه‌چیز را روشن کرده است."
+              },
               "answer": false
             },
             {
@@ -312,6 +340,10 @@
                 "en": "What does the matching principle match?",
                 "fa": "اصل تطابق چه چیزی را با چه چیزی تطبیق می‌دهد؟"
               },
+              "fare": {
+                "en": "The matching principle decides in which period a cost is recorded. What does it pair up to do that?",
+                "fa": "اصل تطابق تعیین می‌کند هزینه در کدام دوره ثبت شود. برای این کار چه چیزی را کنار چه چیزی می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Cash spent to cash received on the same day",
@@ -322,8 +354,8 @@
                   "fa": "هزینه‌ها با درآمدی که به تولیدش کمک می‌کنند در همان دوره"
                 },
                 {
-                  "en": "Assets to liabilities on the balance sheet",
-                  "fa": "دارایی‌ها با بدهی‌ها در ترازنامه"
+                  "en": "Assets to liabilities on the same balance sheet date",
+                  "fa": "دارایی‌ها با بدهی‌ها در همان تاریخ ترازنامه"
                 }
               ],
               "answer": 1
@@ -361,6 +393,10 @@
                 "en": "WorldCom inflated profit by booking ordinary costs as capital expenditures.",
                 "fa": "WorldCom با ثبت هزینه‌های عادی به‌عنوان مخارج سرمایه‌ای، سود را باد کرد."
               },
+              "fare": {
+                "en": "Treating everyday operating costs as capital expenditures took them off WorldCom's income statement and made its profit look bigger.",
+                "fa": "WorldCom با سرمایه‌ای حساب کردن هزینه‌های روزمرهٔ عملیاتی، آن‌ها را از صورت سود و زیان بیرون برد و سودش را بزرگ‌تر نشان داد."
+              },
               "answer": true
             },
             {
@@ -388,14 +424,18 @@
                 "en": "Where do public companies explain the methods and assumptions behind their numbers?",
                 "fa": "شرکت‌های سهامی عام روش‌ها و فرض‌های پشت اعدادشان را کجا توضیح می‌دهند؟"
               },
+              "fare": {
+                "en": "You want to see which judgment calls a listed company made in its accounts. Where would you look?",
+                "fa": "می‌خواهی ببینی یک شرکت سهامی عام در حساب‌هایش چه قضاوت‌هایی کرده است. کجا را نگاه می‌کنی؟"
+              },
               "options": [
                 {
-                  "en": "In the press release headline",
-                  "fa": "در تیتر بیانیهٔ مطبوعاتی"
+                  "en": "In the headline of the earnings press release",
+                  "fa": "در تیتر بیانیهٔ مطبوعاتی اعلام سود"
                 },
                 {
-                  "en": "In the CEO's letter",
-                  "fa": "در نامهٔ مدیرعامل"
+                  "en": "In the CEO's letter to the shareholders",
+                  "fa": "در نامهٔ مدیرعامل به سهام‌داران"
                 },
                 {
                   "en": "In the notes to the financial statements",
@@ -429,6 +469,10 @@
                 "en": "Before taking equity, it is worth asking which revenue method a startup uses.",
                 "fa": "پیش از گرفتن سهام، ارزش دارد بپرسی استارتاپ از چه روشی برای درآمد استفاده می‌کند."
               },
+              "fare": {
+                "en": "Two honest startups can tell very different stories with their numbers, so the revenue method is a fair thing to ask about before you accept equity.",
+                "fa": "دو استارتاپ صادق می‌توانند با اعدادشان داستان‌های بسیار متفاوتی بگویند؛ پس پرسیدن روش شناسایی درآمد پیش از پذیرفتن سهام، پرسش به‌جایی است."
+              },
               "answer": true
             },
             {
@@ -455,6 +499,10 @@
               "prompt": {
                 "en": "Under accrual accounting, revenue is recorded only when the customer's cash arrives.",
                 "fa": "در حسابداری تعهدی، درآمد فقط وقتی ثبت می‌شود که پول مشتری برسد."
+              },
+              "fare": {
+                "en": "A company on accrual accounting waits for payment to land before it counts a sale as revenue.",
+                "fa": "شرکتی که حسابداری تعهدی دارد صبر می‌کند تا پول به حسابش بنشیند و بعد فروش را درآمد حساب می‌کند."
               },
               "answer": false
             }
@@ -502,6 +550,10 @@
                 "en": "A P&L and an income statement are two different reports.",
                 "fa": "P&L و صورت سود و زیان دو گزارش متفاوت‌اند."
               },
+              "fare": {
+                "en": "If one company publishes a P&L and another an income statement, you are looking at two different kinds of report.",
+                "fa": "اگر شرکتی P&L منتشر کند و شرکت دیگری صورت سود و زیان، با دو نوع گزارش متفاوت روبه‌رو هستی."
+              },
               "answer": false
             },
             {
@@ -529,18 +581,22 @@
                 "en": "When is a sale recognized as revenue?",
                 "fa": "فروش چه زمانی به‌عنوان درآمد شناسایی می‌شود؟"
               },
+              "fare": {
+                "en": "A customer signs in March, receives the product in April and pays in May. Which event puts the sale on the income statement?",
+                "fa": "مشتری در مارس امضا می‌کند، در آوریل کالا را می‌گیرد و در مه پول می‌دهد. کدام رویداد فروش را وارد صورت سود و زیان می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "When the customer signs",
-                  "fa": "وقتی مشتری امضا می‌کند"
+                  "en": "When the customer signs the sales contract",
+                  "fa": "وقتی مشتری قرارداد فروش را امضا می‌کند"
                 },
                 {
                   "en": "When the product or service is delivered",
                   "fa": "وقتی کالا یا خدمت تحویل شده"
                 },
                 {
-                  "en": "When the cash is in the bank",
-                  "fa": "وقتی پول در بانک است"
+                  "en": "When the cash arrives in the bank account",
+                  "fa": "وقتی پول به حساب بانکی می‌رسد"
                 }
               ],
               "answer": 1
@@ -570,18 +626,22 @@
                 "en": "What does the book call the direct costs of making what you sell?",
                 "fa": "کتاب هزینه‌های مستقیم ساختن آن‌چه می‌فروشی را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Which line of the income statement holds the costs tied directly to producing the product?",
+                "fa": "هزینه‌هایی که مستقیماً صرف ساختن محصول می‌شوند در کدام قلم صورت سود و زیان می‌نشینند؟"
+              },
               "options": [
                 {
                   "en": "Cost of goods sold",
                   "fa": "بهای تمام‌شدهٔ کالای فروش‌رفته"
                 },
                 {
-                  "en": "Operating expenses",
-                  "fa": "هزینه‌های عملیاتی"
+                  "en": "General operating expenses",
+                  "fa": "هزینه‌های عمومی عملیاتی"
                 },
                 {
-                  "en": "Retained earnings",
-                  "fa": "سود انباشته"
+                  "en": "Retained earnings to date",
+                  "fa": "سود انباشته تا امروز"
                 }
               ],
               "answer": 0
@@ -619,6 +679,10 @@
                 "en": "Assuming a longer useful life for equipment raises reported profit.",
                 "fa": "فرض عمر مفید طولانی‌تر برای تجهیزات، سود گزارش‌شده را بالا می‌برد."
               },
+              "fare": {
+                "en": "If a company stretches the assumed life of a machine from three years to five, its yearly depreciation falls and its profit looks higher.",
+                "fa": "اگر شرکتی عمر فرضی یک ماشین را از سه سال به پنج سال برساند، استهلاک سالانه‌اش کم می‌شود و سودش بیشتر به نظر می‌رسد."
+              },
               "answer": true
             },
             {
@@ -646,6 +710,10 @@
                 "en": "Under accrual thinking, a year of credits paid up front is all a cost of the month you paid.",
                 "fa": "در منطق تعهدی، اعتبار یک سالِ پیش‌پرداخت‌شده تماماً هزینهٔ ماهی است که پرداخت کردی."
               },
+              "fare": {
+                "en": "You pay for twelve months of GPU credits in January. Accrual thinking puts the whole cost in January.",
+                "fa": "در ژانویه پول دوازده ماه اعتبار GPU را می‌دهی. منطق تعهدی کل این هزینه را به ژانویه نسبت می‌دهد."
+              },
               "answer": false
             },
             {
@@ -672,6 +740,10 @@
               "prompt": {
                 "en": "How overhead is allocated can change which product line looks profitable.",
                 "fa": "نحوهٔ تسهیم سربار می‌تواند تغییر دهد کدام خط محصول سودآور به نظر برسد."
+              },
+              "fare": {
+                "en": "A product line can go from looking like a loser to looking profitable just because the overhead split was changed.",
+                "fa": "یک خط محصول می‌تواند فقط با عوض شدن شیوهٔ تقسیم سربار، از زیان‌ده به سودآور تغییر چهره بدهد."
               },
               "answer": true
             }
@@ -719,17 +791,21 @@
                 "en": "What is operating profit also called?",
                 "fa": "سود عملیاتی چه نام دیگری دارد؟"
               },
+              "fare": {
+                "en": "Gross profit minus operating expenses gives a figure that goes by which other name?",
+                "fa": "حاصل سود ناخالص منهای هزینه‌های عملیاتی را با چه نام دیگری می‌شناسند؟"
+              },
               "options": [
                 {
-                  "en": "Gross margin",
-                  "fa": "حاشیهٔ ناخالص"
+                  "en": "The gross profit",
+                  "fa": "سود ناخالص"
                 },
                 {
                   "en": "Retained earnings",
                   "fa": "سود انباشته"
                 },
                 {
-                  "en": "EBIT",
+                  "en": "Operating income or EBIT",
                   "fa": "EBIT"
                 }
               ],
@@ -760,6 +836,10 @@
                 "en": "Net profit is what remains after interest and taxes.",
                 "fa": "سود خالص چیزی است که پس از بهره و مالیات می‌ماند."
               },
+              "fare": {
+                "en": "Interest and taxes have already been taken out by the time you reach the bottom line.",
+                "fa": "تا به خط پایانی برسی، بهره و مالیات پیش‌تر کم شده‌اند."
+              },
               "answer": true
             },
             {
@@ -786,6 +866,10 @@
               "prompt": {
                 "en": "In variance analysis, every big variance is automatically a problem.",
                 "fa": "در تحلیل انحراف، هر انحراف بزرگی خودبه‌خود یک مشکل است."
+              },
+              "fare": {
+                "en": "A manager who finds a large gap between actual results and budget has, by that fact alone, found something wrong.",
+                "fa": "مدیری که فاصلهٔ بزرگی میان نتایج واقعی و بودجه می‌بیند، به همین دلیل حتماً ایرادی پیدا کرده است."
               },
               "answer": false
             },
@@ -822,18 +906,22 @@
                 "en": "What can lift net profit without saying anything about the core business?",
                 "fa": "چه چیزی می‌تواند سود خالص را بالا ببرد بی‌آن‌که چیزی دربارهٔ کسب‌وکار اصلی بگوید؟"
               },
+              "fare": {
+                "en": "Net profit jumped this year, yet the core business did no better. Which of these could explain it?",
+                "fa": "سود خالص امسال جهش کرده، اما کسب‌وکار اصلی بهتر نشده است. کدام‌یک می‌تواند دلیلش باشد؟"
+              },
               "options": [
                 {
                   "en": "A one-time gain from selling a building",
                   "fa": "سود یک‌بارهٔ فروش یک ساختمان"
                 },
                 {
-                  "en": "A higher margin on each sale",
-                  "fa": "حاشیهٔ بالاتر روی هر فروش"
+                  "en": "A higher gross margin on each product sold",
+                  "fa": "حاشیهٔ ناخالص بالاتر روی هر محصول فروخته‌شده"
                 },
                 {
-                  "en": "Lower operating expenses",
-                  "fa": "هزینه‌های عملیاتی کمتر"
+                  "en": "Lower operating expenses across the company",
+                  "fa": "هزینه‌های عملیاتی کمتر در کل شرکت"
                 }
               ],
               "answer": 0
@@ -863,18 +951,22 @@
                 "en": "What is gross profit for your AI product?",
                 "fa": "سود ناخالص محصول AI تو چیست؟"
               },
+              "fare": {
+                "en": "Which calculation shows how much your AI product leaves over after its direct costs?",
+                "fa": "کدام محاسبه نشان می‌دهد محصول AI تو، پس از هزینه‌های مستقیمش، چقدر باقی می‌گذارد؟"
+              },
               "options": [
                 {
-                  "en": "Subscriptions signed minus marketing",
-                  "fa": "اشتراک‌های ثبت‌شده منهای بازاریابی"
+                  "en": "Subscriptions signed minus sales and marketing spend",
+                  "fa": "اشتراک‌های ثبت‌شده منهای هزینهٔ فروش و بازاریابی"
                 },
                 {
                   "en": "Subscription revenue minus model and hosting costs",
                   "fa": "درآمد اشتراک منهای هزینهٔ مدل و میزبانی"
                 },
                 {
-                  "en": "Cash in the bank minus salaries",
-                  "fa": "پول بانک منهای حقوق‌ها"
+                  "en": "Cash in the bank minus salaries and office rent",
+                  "fa": "پول بانک منهای حقوق‌ها و اجارهٔ دفتر"
                 }
               ],
               "answer": 1
@@ -903,6 +995,10 @@
               "prompt": {
                 "en": "A healthy gross profit guarantees a net profit.",
                 "fa": "سود ناخالص خوب، سود خالص را تضمین می‌کند."
+              },
+              "fare": {
+                "en": "If gross profit is healthy, operating expenses cannot push the company into a loss.",
+                "fa": "اگر سود ناخالص خوب باشد، هزینه‌های عملیاتی نمی‌توانند شرکت را به زیان بکشانند."
               },
               "answer": false
             }
@@ -951,6 +1047,10 @@
                 "en": "The balance sheet covers a period, like a year, rather than a single day.",
                 "fa": "ترازنامه یک دوره، مثلاً یک سال، را پوشش می‌دهد نه یک روز را."
               },
+              "fare": {
+                "en": "Like the income statement, the balance sheet adds up what happened across a whole period.",
+                "fa": "ترازنامه هم مثل صورت سود و زیان، آن‌چه را در طول یک دورهٔ کامل رخ داده جمع می‌زند."
+              },
               "answer": false
             },
             {
@@ -978,14 +1078,18 @@
                 "en": "What does the balance sheet's core equation say?",
                 "fa": "معادلهٔ اصلی ترازنامه چه می‌گوید؟"
               },
+              "fare": {
+                "en": "If you know a company's liabilities and owners' equity, which relationship gives you its assets?",
+                "fa": "اگر بدهی‌ها و حقوق صاحبان سهام یک شرکت را بدانی، کدام رابطه دارایی‌هایش را به تو می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "Revenue equals costs plus profit",
-                  "fa": "درآمد برابر است با هزینه‌ها به‌علاوهٔ سود"
+                  "en": "Revenue equals costs plus net profit",
+                  "fa": "درآمد برابر است با هزینه‌ها به‌علاوهٔ سود خالص"
                 },
                 {
-                  "en": "Cash equals profit",
-                  "fa": "نقد برابر است با سود"
+                  "en": "Cash equals profit plus retained earnings",
+                  "fa": "نقد برابر است با سود به‌علاوهٔ سود انباشته"
                 },
                 {
                   "en": "Assets equal liabilities plus owners' equity",
@@ -1026,6 +1130,10 @@
               "prompt": {
                 "en": "Which asset, according to the book, needs no estimate?",
                 "fa": "طبق کتاب، کدام دارایی به برآورد نیاز ندارد؟"
+              },
+              "fare": {
+                "en": "Most asset values on the balance sheet rest on judgment. Which one is the exception?",
+                "fa": "ارزش بیشتر دارایی‌های ترازنامه به قضاوت تکیه دارد. کدام‌یک استثناست؟"
               },
               "options": [
                 {
@@ -1068,6 +1176,10 @@
                 "en": "Net book value of equipment usually equals what it would sell for.",
                 "fa": "ارزش دفتری خالص تجهیزات معمولاً با قیمت فروش آن برابر است."
               },
+              "fare": {
+                "en": "If a machine's net book value is 10,000, you can count on selling it for about 10,000.",
+                "fa": "اگر ارزش دفتری خالص یک ماشین ۱۰٬۰۰۰ باشد، می‌توانی مطمئن باشی حدود همان ۱۰٬۰۰۰ فروش می‌رود."
+              },
               "answer": false
             },
             {
@@ -1103,18 +1215,22 @@
                 "en": "In your personal balance sheet, what is left after subtracting debts from assets?",
                 "fa": "در ترازنامهٔ شخصی‌ات، پس از کم کردن بدهی‌ها از دارایی‌ها چه می‌ماند؟"
               },
+              "fare": {
+                "en": "You list your cash, ETFs and vested equity and take away what you owe. What is the name for the result?",
+                "fa": "نقد، ETFها و سهام vest‌شده‌ات را فهرست می‌کنی و آن‌چه بدهکاری را کم می‌کنی. نام حاصل چیست؟"
+              },
               "options": [
                 {
-                  "en": "Your income",
-                  "fa": "درآمد تو"
+                  "en": "Your yearly income",
+                  "fa": "درآمد سالانهٔ تو"
                 },
                 {
                   "en": "Your equity",
                   "fa": "equity تو، یعنی ارزش خالص"
                 },
                 {
-                  "en": "Your cash flow",
-                  "fa": "جریان نقدی تو"
+                  "en": "Your free cash flow",
+                  "fa": "جریان نقدی آزاد تو"
                 }
               ],
               "answer": 1
@@ -1143,6 +1259,10 @@
               "prompt": {
                 "en": "Insurance paid a year ahead can appear on the balance sheet as a current asset.",
                 "fa": "بیمه‌ای که یک سال جلوتر پرداخت شده می‌تواند در ترازنامه دارایی جاری باشد."
+              },
+              "fare": {
+                "en": "A benefit the company has paid for but not yet used counts among its current assets.",
+                "fa": "منفعتی که شرکت پولش را داده اما هنوز از آن استفاده نکرده، جزو دارایی‌های جاری‌اش به حساب می‌آید."
               },
               "answer": true
             }
@@ -1190,14 +1310,18 @@
                 "en": "Which of these is a current liability?",
                 "fa": "کدام‌یک از این‌ها بدهی جاری است؟"
               },
+              "fare": {
+                "en": "Which of these must the company settle within a year?",
+                "fa": "شرکت کدام‌یک از این‌ها را باید ظرف یک سال تسویه کند؟"
+              },
               "options": [
                 {
                   "en": "Accounts payable",
                   "fa": "حساب‌های پرداختنی"
                 },
                 {
-                  "en": "Goodwill",
-                  "fa": "سرقفلی"
+                  "en": "Brand goodwill",
+                  "fa": "سرقفلی برند"
                 },
                 {
                   "en": "Inventory",
@@ -1231,6 +1355,10 @@
                 "en": "Retained earnings are a pile of cash the company keeps in the bank.",
                 "fa": "سود انباشته کپه‌ای پول نقد است که شرکت در بانک نگه می‌دارد."
               },
+              "fare": {
+                "en": "A company with large retained earnings must hold at least that much cash.",
+                "fa": "شرکتی که سود انباشتهٔ بزرگی دارد حتماً دست‌کم همان‌قدر پول نقد دارد."
+              },
               "answer": false
             },
             {
@@ -1257,6 +1385,10 @@
               "prompt": {
                 "en": "Buying equipment with cash raises total assets.",
                 "fa": "خرید تجهیزات با نقد، جمع دارایی‌ها را بالا می‌برد."
+              },
+              "fare": {
+                "en": "A company pays cash for a new server, so the assets side of its balance sheet grows.",
+                "fa": "شرکتی یک سرور تازه را نقد می‌خرد؛ پس سمت دارایی‌های ترازنامه‌اش بزرگ‌تر می‌شود."
               },
               "answer": false
             },
@@ -1285,14 +1417,18 @@
                 "en": "Where does net profit flow on the balance sheet?",
                 "fa": "سود خالص در ترازنامه به کجا می‌ریزد؟"
               },
+              "fare": {
+                "en": "A profitable year raises equity. Where on the balance sheet does that year's profit end up?",
+                "fa": "یک سال سودده حقوق صاحبان سهام را بالا می‌برد. سودِ آن سال در ترازنامه به کجا می‌رود؟"
+              },
               "options": [
                 {
                   "en": "Into accounts payable",
                   "fa": "به حساب‌های پرداختنی"
                 },
                 {
-                  "en": "Into goodwill",
-                  "fa": "به سرقفلی"
+                  "en": "Into purchased goodwill",
+                  "fa": "به سرقفلی خریداری‌شده"
                 },
                 {
                   "en": "Into retained earnings",
@@ -1334,6 +1470,10 @@
                 "en": "Lenders are paid before owners, so a startup's debts sit ahead of your equity.",
                 "fa": "وام‌دهندگان پیش از مالکان پول می‌گیرند، پس بدهی‌های استارتاپ جلوتر از سهم تو قرار دارند."
               },
+              "fare": {
+                "en": "If a startup carries heavy debts, your equity share only has a claim after those debts.",
+                "fa": "اگر استارتاپی بدهی سنگین داشته باشد، سهم تو فقط پس از آن بدهی‌ها حقی پیدا می‌کند."
+              },
               "answer": true
             },
             {
@@ -1360,6 +1500,10 @@
               "prompt": {
                 "en": "Cash received for a service not yet delivered is recorded as a liability.",
                 "fa": "پولی که برای خدمتی هنوز تحویل‌نشده دریافت شده، به‌عنوان بدهی ثبت می‌شود."
+              },
+              "fare": {
+                "en": "A customer pays in advance for a year of service. Until the work is done, the company shows that money as something it owes.",
+                "fa": "مشتری پول یک سال خدمت را پیشاپیش می‌دهد. تا وقتی کار انجام نشده، شرکت آن پول را چیزی می‌داند که بدهکار است."
               },
               "answer": true
             }
@@ -1399,6 +1543,10 @@
                 "en": "The authors treat cash in the bank as a harder fact than profit.",
                 "fa": "نویسندگان پول در بانک را واقعیتی سفت‌تر از سود می‌دانند."
               },
+              "fare": {
+                "en": "Profit depends on judgment calls in a way that a counted bank balance does not.",
+                "fa": "سود به قضاوت‌هایی وابسته است که ماندهٔ شمرده‌شدهٔ حساب بانکی به آن‌ها وابسته نیست."
+              },
               "answer": true
             },
             {
@@ -1434,18 +1582,22 @@
                 "en": "What is one reason profit and cash differ?",
                 "fa": "یکی از دلایل تفاوت سود و نقد چیست؟"
               },
+              "fare": {
+                "en": "A company shows a profit this month but its bank balance has not moved. Which of these explains the gap?",
+                "fa": "شرکتی این ماه سود نشان می‌دهد، اما ماندهٔ حساب بانکی‌اش تکان نخورده است. کدام‌یک این فاصله را توضیح می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "Taxes are always zero",
-                  "fa": "مالیات همیشه صفر است"
+                  "en": "Taxes are always zero, whatever the profit turns out to be",
+                  "fa": "مالیات همیشه صفر است، سود هرچه باشد"
                 },
                 {
                   "en": "A sale is booked on delivery, but the cash arrives later",
                   "fa": "فروش هنگام تحویل ثبت می‌شود، اما پولش بعداً می‌رسد"
                 },
                 {
-                  "en": "Depreciation is paid in cash each month",
-                  "fa": "استهلاک هر ماه نقدی پرداخت می‌شود"
+                  "en": "Depreciation is paid out in cash to suppliers every month",
+                  "fa": "استهلاک هر ماه نقدی به تأمین‌کنندگان پرداخت می‌شود"
                 }
               ],
               "answer": 1
@@ -1483,6 +1635,10 @@
                 "en": "A fast-growing, profitable company cannot run out of cash.",
                 "fa": "یک شرکت سودده با رشد سریع نمی‌تواند بی‌پول شود."
               },
+              "fare": {
+                "en": "A company that is both profitable and growing fast is safe from a cash shortage.",
+                "fa": "شرکتی که هم سودده است و هم سریع رشد می‌کند، از کمبود نقد در امان است."
+              },
               "answer": false
             },
             {
@@ -1509,6 +1665,10 @@
               "prompt": {
                 "en": "According to the authors, what does cash tell you?",
                 "fa": "به گفتهٔ نویسندگان، نقد چه چیزی را به تو می‌گوید؟"
+              },
+              "fare": {
+                "en": "Profit says whether the model works. Which question is left for cash to answer?",
+                "fa": "سود می‌گوید مدل کار می‌کند یا نه. پاسخ کدام پرسش با نقد است؟"
               },
               "options": [
                 {
@@ -1551,6 +1711,10 @@
                 "en": "Billing customers yearly up front brings in cash before the revenue is earned.",
                 "fa": "صورت‌حساب سالانه و پیشاپیش، نقد را پیش از کسب درآمد وارد می‌کند."
               },
+              "fare": {
+                "en": "With yearly billing up front, the money is in your account before you have earned it as revenue.",
+                "fa": "وقتی سالانه و پیشاپیش صورت‌حساب می‌دهی، پول پیش از آن‌که به‌عنوان درآمد کسب شده باشد در حساب توست."
+              },
               "answer": true
             },
             {
@@ -1577,6 +1741,10 @@
               "prompt": {
                 "en": "As long as a company reports a profit, it can go a long time without cash.",
                 "fa": "تا وقتی شرکت سود گزارش می‌کند، می‌تواند مدت زیادی بدون پول نقد دوام بیاورد."
+              },
+              "fare": {
+                "en": "Salaries, suppliers and lenders can be paid out of reported profit, so a profitable company can last long with no cash.",
+                "fa": "حقوق‌ها، تأمین‌کنندگان و وام‌دهندگان را می‌توان از سود گزارش‌شده پرداخت؛ پس شرکت سودده بدون پول نقد هم مدت‌ها دوام می‌آورد."
               },
               "answer": false
             }
@@ -1616,17 +1784,21 @@
                 "en": "Which three sections does the cash flow statement use?",
                 "fa": "صورت جریان وجوه نقد از کدام سه بخش استفاده می‌کند؟"
               },
+              "fare": {
+                "en": "Every movement of cash in a period is sorted under one of three headings. Which set of headings is it?",
+                "fa": "هر جابه‌جایی نقد در یک دوره زیر یکی از سه عنوان می‌رود. این سه عنوان کدام‌اند؟"
+              },
               "options": [
                 {
-                  "en": "Revenue, costs and profit",
-                  "fa": "درآمد، هزینه‌ها و سود"
+                  "en": "Revenue, operating costs and net profit",
+                  "fa": "درآمد، هزینه‌های عملیاتی و سود خالص"
                 },
                 {
                   "en": "Operating, investing and financing activities",
                   "fa": "فعالیت‌های عملیاتی، سرمایه‌گذاری و تأمین مالی"
                 },
                 {
-                  "en": "Assets, liabilities and equity",
+                  "en": "Assets, liabilities and shareholders' equity",
                   "fa": "دارایی‌ها، بدهی‌ها و حقوق صاحبان سهام"
                 }
               ],
@@ -1665,6 +1837,10 @@
                 "en": "Paying dividends shows up under investing activities.",
                 "fa": "پرداخت سود سهام زیر فعالیت‌های سرمایه‌گذاری می‌آید."
               },
+              "fare": {
+                "en": "Cash paid out to owners as dividends is reported in the investing section of the cash flow statement.",
+                "fa": "پولی که به‌صورت سود سهام به مالکان پرداخت می‌شود در بخش سرمایه‌گذاریِ صورت جریان وجوه نقد گزارش می‌شود."
+              },
               "answer": false
             },
             {
@@ -1691,6 +1867,10 @@
               "prompt": {
                 "en": "In the indirect method, a rise in accounts receivable is subtracted from net profit.",
                 "fa": "در روش غیرمستقیم، افزایش حساب‌های دریافتنی از سود خالص کم می‌شود."
+              },
+              "fare": {
+                "en": "When customers owe more than before, cash is tied up, so that increase is taken away in the cash flow calculation.",
+                "fa": "وقتی مشتریان بیش از قبل بدهکارند، نقد گیر افتاده است؛ پس این افزایش در محاسبهٔ جریان نقد کسر می‌شود."
               },
               "answer": true
             },
@@ -1727,14 +1907,18 @@
                 "en": "What is free cash flow?",
                 "fa": "جریان نقد آزاد چیست؟"
               },
+              "fare": {
+                "en": "Which calculation gives the cash a company could hand back to its owners and lenders?",
+                "fa": "کدام محاسبه نقدی را نشان می‌دهد که شرکت می‌تواند به مالکان و وام‌دهندگانش برگرداند؟"
+              },
               "options": [
                 {
-                  "en": "Net profit plus depreciation",
-                  "fa": "سود خالص به‌علاوهٔ استهلاک"
+                  "en": "Net profit plus depreciation and amortization",
+                  "fa": "سود خالص به‌علاوهٔ استهلاک دارایی‌های مشهود و نامشهود"
                 },
                 {
-                  "en": "Revenue minus all costs",
-                  "fa": "درآمد منهای همهٔ هزینه‌ها"
+                  "en": "Revenue minus all operating costs and taxes paid",
+                  "fa": "درآمد منهای همهٔ هزینه‌های عملیاتی و مالیات پرداختی"
                 },
                 {
                   "en": "Operating cash flow minus capital expenditures",
@@ -1768,6 +1952,10 @@
                 "en": "Rising profit with falling operating cash flow is always a healthy sign.",
                 "fa": "سود رو به افزایش همراه با جریان نقد عملیاتی رو به کاهش همیشه نشانهٔ سلامت است."
               },
+              "fare": {
+                "en": "A company whose profit climbs while its operating cash flow drops gives you no reason to look closer.",
+                "fa": "شرکتی که سودش بالا می‌رود و جریان نقد عملیاتی‌اش پایین می‌آید، هیچ دلیلی برای بررسی بیشتر به دست نمی‌دهد."
+              },
               "answer": false
             },
             {
@@ -1794,6 +1982,10 @@
               "prompt": {
                 "en": "A company that keeps borrowing to cover its operations shows a healthy pattern.",
                 "fa": "شرکتی که مدام برای پوشش عملیاتش وام می‌گیرد، الگوی سالمی نشان می‌دهد."
+              },
+              "fare": {
+                "en": "Covering day-to-day operations with new loans, year after year, means the company is living on its business.",
+                "fa": "پوشاندن هزینه‌های روزمرهٔ عملیات با وام‌های تازه، سال پس از سال، یعنی شرکت از خودِ کسب‌وکارش زندگی می‌کند."
               },
               "answer": false
             }
@@ -1842,6 +2034,10 @@
                 "en": "A ratio is most useful when compared over time or against peers.",
                 "fa": "یک نسبت وقتی بیشترین فایده را دارد که در طول زمان یا با هم‌تایان مقایسه شود."
               },
+              "fare": {
+                "en": "A single figure on its own tells you less than the same ratio tracked across several years.",
+                "fa": "یک عدد تنها کمتر از همان نسبت که طی چند سال دنبال شده باشد به تو می‌گوید."
+              },
               "answer": true
             },
             {
@@ -1877,18 +2073,22 @@
                 "en": "How is gross margin percentage calculated?",
                 "fa": "درصد حاشیهٔ ناخالص چطور محاسبه می‌شود؟"
               },
+              "fare": {
+                "en": "You want to know how much of each euro of sales is left after direct costs. Which calculation tells you?",
+                "fa": "می‌خواهی بدانی از هر یورو فروش، پس از هزینه‌های مستقیم چقدر می‌ماند. کدام محاسبه این را می‌گوید؟"
+              },
               "options": [
                 {
                   "en": "Gross profit divided by revenue",
                   "fa": "سود ناخالص تقسیم بر درآمد"
                 },
                 {
-                  "en": "Net profit divided by equity",
+                  "en": "Net profit divided by owners' equity",
                   "fa": "سود خالص تقسیم بر حقوق صاحبان سهام"
                 },
                 {
-                  "en": "Revenue divided by assets",
-                  "fa": "درآمد تقسیم بر دارایی‌ها"
+                  "en": "Sales revenue divided by total assets",
+                  "fa": "درآمد فروش تقسیم بر کل دارایی‌ها"
                 }
               ],
               "answer": 0
@@ -1918,14 +2118,18 @@
                 "en": "Which ratio shows the return owners earn on their money in the business?",
                 "fa": "کدام نسبت بازده مالکان روی پولشان در کسب‌وکار را نشان می‌دهد؟"
               },
+              "fare": {
+                "en": "Net profit divided by owners' equity gives which ratio?",
+                "fa": "سود خالص تقسیم بر حقوق صاحبان سهام کدام نسبت را می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Return on assets",
                   "fa": "بازده دارایی‌ها"
                 },
                 {
-                  "en": "Gross margin",
-                  "fa": "حاشیهٔ ناخالص"
+                  "en": "Gross profit margin",
+                  "fa": "حاشیهٔ سود ناخالص"
                 },
                 {
                   "en": "Return on equity",
@@ -1958,6 +2162,10 @@
               "prompt": {
                 "en": "More leverage only helps return on equity and never hurts it.",
                 "fa": "اهرم بیشتر فقط به بازده حقوق صاحبان سهام کمک می‌کند و هرگز به آن آسیب نمی‌زند."
+              },
+              "fare": {
+                "en": "In a bad year, a heavily leveraged company's losses are no deeper than they would be without the debt.",
+                "fa": "در یک سال بد، زیان شرکتی با اهرم سنگین عمیق‌تر از حالتی نیست که آن بدهی را نداشت."
               },
               "answer": false
             },
@@ -1994,18 +2202,22 @@
                 "en": "What does interest coverage show?",
                 "fa": "پوشش بهره چه چیزی را نشان می‌دهد؟"
               },
+              "fare": {
+                "en": "Operating profit divided by annual interest expense answers which question?",
+                "fa": "سود عملیاتی تقسیم بر هزینهٔ بهرهٔ سالانه به کدام پرسش پاسخ می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "How fast customers pay",
-                  "fa": "مشتریان چقدر سریع پرداخت می‌کنند"
+                  "en": "How quickly a company's customers pay",
+                  "fa": "مشتریان شرکت چقدر سریع پرداخت می‌کنند"
                 },
                 {
                   "en": "How easily a company can pay the interest on its debt",
                   "fa": "شرکت چقدر راحت می‌تواند بهرهٔ بدهی‌اش را بپردازد"
                 },
                 {
-                  "en": "How much stock is on hand",
-                  "fa": "چه مقدار موجودی در انبار است"
+                  "en": "How much unsold stock a company holds",
+                  "fa": "شرکت چه مقدار کالای فروش‌نرفته دارد"
                 }
               ],
               "answer": 1
@@ -2034,6 +2246,10 @@
               "prompt": {
                 "en": "Ratios are immune to the estimates in the numbers behind them.",
                 "fa": "نسبت‌ها از برآوردهای موجود در اعداد پشتشان مصون‌اند."
+              },
+              "fare": {
+                "en": "Even when profit rests on aggressive estimates, a ratio built from it stays free of that bias.",
+                "fa": "حتی وقتی سود بر برآوردهای تهاجمی تکیه دارد، نسبتی که از آن ساخته می‌شود از آن سوگیری پاک می‌ماند."
               },
               "answer": false
             }
@@ -2081,17 +2297,21 @@
                 "en": "What does the quick ratio leave out of current assets?",
                 "fa": "نسبت آنی چه چیزی را از دارایی‌های جاری کنار می‌گذارد؟"
               },
+              "fare": {
+                "en": "The acid test counts fewer current assets than the current ratio does. Which one is missing?",
+                "fa": "آزمون اسید دارایی‌های جاریِ کمتری را از نسبت جاری می‌شمارد. کدام‌یک در آن نیست؟"
+              },
               "options": [
                 {
-                  "en": "Cash",
-                  "fa": "نقد"
+                  "en": "Cash on hand",
+                  "fa": "نقد موجود"
                 },
                 {
                   "en": "Inventory",
                   "fa": "موجودی کالا"
                 },
                 {
-                  "en": "Accounts receivable",
+                  "en": "Receivables",
                   "fa": "حساب‌های دریافتنی"
                 }
               ],
@@ -2121,6 +2341,10 @@
               "prompt": {
                 "en": "A very high current ratio is always a good sign.",
                 "fa": "نسبت جاری خیلی بالا همیشه نشانهٔ خوبی است."
+              },
+              "fare": {
+                "en": "The higher a company's current ratio climbs, the better, with no downside.",
+                "fa": "نسبت جاری یک شرکت هرچه بالاتر برود بهتر است و هیچ عیبی ندارد."
               },
               "answer": false
             },
@@ -2157,6 +2381,10 @@
                 "en": "What does days sales outstanding show?",
                 "fa": "دورهٔ وصول مطالبات چه چیزی را نشان می‌دهد؟"
               },
+              "fare": {
+                "en": "Ending accounts receivable divided by revenue per day tells you what?",
+                "fa": "حساب‌های دریافتنی پایان دوره تقسیم بر درآمد روزانه چه چیزی را به تو می‌گوید؟"
+              },
               "options": [
                 {
                   "en": "How long customers take to pay",
@@ -2167,8 +2395,8 @@
                   "fa": "کالا چه مدت در قفسه می‌ماند"
                 },
                 {
-                  "en": "How long the company takes to pay suppliers",
-                  "fa": "پرداخت شرکت به تأمین‌کنندگان چه مدت طول می‌کشد"
+                  "en": "How long suppliers wait to be paid",
+                  "fa": "تأمین‌کنندگان چه مدت منتظر پول می‌مانند"
                 }
               ],
               "answer": 0
@@ -2198,6 +2426,10 @@
                 "en": "Property, plant and equipment turnover compares revenue with net fixed assets.",
                 "fa": "گردش اموال، ماشین‌آلات و تجهیزات درآمد را با خالص دارایی‌های ثابت مقایسه می‌کند."
               },
+              "fare": {
+                "en": "Dividing revenue by net fixed assets shows how many dollars of sales each dollar of equipment produces.",
+                "fa": "تقسیم درآمد بر خالص دارایی‌های ثابت نشان می‌دهد هر دلار تجهیزات چند دلار فروش می‌سازد."
+              },
               "answer": true
             },
             {
@@ -2224,6 +2456,10 @@
               "prompt": {
                 "en": "Which of these is one of the five measures chapter 25 says investors watch?",
                 "fa": "کدام‌یک از این‌ها یکی از پنج سنجه‌ای است که طبق فصل ۲۵ سرمایه‌گذاران دنبال می‌کنند؟"
+              },
+              "fare": {
+                "en": "An analyst sticks to the five measures chapter 25 names. Which of these would be on her screen?",
+                "fa": "تحلیل‌گری فقط به پنج سنجه‌ای که فصل ۲۵ نام می‌برد نگاه می‌کند. کدام‌یک روی صفحهٔ اوست؟"
               },
               "options": [
                 {
@@ -2265,6 +2501,10 @@
               "prompt": {
                 "en": "A DSO trend over several quarters can reveal more than a single reading.",
                 "fa": "روند DSO در چند فصل می‌تواند بیش از یک خوانش تکی چیز نشان دهد."
+              },
+              "fare": {
+                "en": "One DSO figure tells you less than seeing it creep up quarter after quarter.",
+                "fa": "یک عدد DSO کمتر از دیدنِ بالا خزیدنش فصل به فصل به تو می‌گوید."
               },
               "answer": true
             }
@@ -2312,6 +2552,10 @@
                 "en": "A euro received next year is worth more than a euro today.",
                 "fa": "یک یورو که سال بعد دریافت شود بیشتر از یک یوروی امروز می‌ارزد."
               },
+              "fare": {
+                "en": "Because money can be invested, waiting a year for a euro makes it more valuable than having it now.",
+                "fa": "چون پول را می‌توان سرمایه‌گذاری کرد، یک سال صبر کردن برای یک یورو آن را باارزش‌تر از داشتنِ همین حالایش می‌کند."
+              },
               "answer": false
             },
             {
@@ -2339,6 +2583,10 @@
                 "en": "What is the hurdle rate?",
                 "fa": "نرخ مانع چیست؟"
               },
+              "fare": {
+                "en": "A project is turned down because its return falls short of the hurdle rate. What was that rate measuring?",
+                "fa": "پروژه‌ای رد می‌شود چون بازده‌اش به نرخ مانع نمی‌رسد. این نرخ چه چیزی را مشخص می‌کرد؟"
+              },
               "options": [
                 {
                   "en": "The minimum return a project must earn",
@@ -2349,8 +2597,8 @@
                   "fa": "بهرهٔ پرداختی روی وام‌های کوتاه‌مدت"
                 },
                 {
-                  "en": "The tax rate on profit",
-                  "fa": "نرخ مالیات بر سود"
+                  "en": "The tax rate applied to a company's profit",
+                  "fa": "نرخ مالیاتی که بر سود شرکت اعمال می‌شود"
                 }
               ],
               "answer": 0
@@ -2371,6 +2619,10 @@
               "prompt": {
                 "en": "Put the steps of a capital expenditure analysis in the book's order.",
                 "fa": "گام‌های تحلیل مخارج سرمایه‌ای را به ترتیب کتاب بچین."
+              },
+              "fare": {
+                "en": "Arrange these stages of evaluating a capital expenditure from first to last, as chapter 27 lays them out.",
+                "fa": "این مراحل ارزیابی یک مخارج سرمایه‌ای را، آن‌طور که فصل ۲۷ آورده، از اول تا آخر مرتب کن."
               },
               "options": [
                 {
@@ -2425,6 +2677,10 @@
                 "en": "A positive NPV means the project earns less than the hurdle rate.",
                 "fa": "NPV مثبت یعنی پروژه کمتر از نرخ مانع بازده دارد."
               },
+              "fare": {
+                "en": "A project that beats the hurdle rate will show a negative NPV.",
+                "fa": "پروژه‌ای که از نرخ مانع بهتر عمل می‌کند، NPV منفی نشان می‌دهد."
+              },
               "answer": false
             },
             {
@@ -2452,10 +2708,14 @@
                 "en": "What is the internal rate of return?",
                 "fa": "نرخ بازده داخلی چیست؟"
               },
+              "fare": {
+                "en": "A project's IRR sits above the hurdle rate, so it is worth considering. What does that IRR figure represent?",
+                "fa": "IRR یک پروژه بالاتر از نرخ مانع است، پس ارزش بررسی دارد. این عدد IRR نشان‌دهندهٔ چیست؟"
+              },
               "options": [
                 {
                   "en": "The return on a company's shares",
-                  "fa": "بازده سهام یک شرکت"
+                  "fa": "بازدهی که سهام یک شرکت می‌دهد"
                 },
                 {
                   "en": "The discount rate at which NPV equals zero",
@@ -2485,6 +2745,10 @@
                 "en": "The Lesson suggests comparing your product's expected return with what the same money could earn in an index fund.",
                 "fa": "این درس پیشنهاد می‌کند بازده مورد انتظار محصولت را با آن‌چه همان پول در یک صندوق شاخصی می‌تواند کسب کند مقایسه کنی."
               },
+              "fare": {
+                "en": "According to the Lesson, what your money could earn in an index fund is a yardstick for the return you expect from building your product.",
+                "fa": "طبق این درس، آن‌چه پولت در یک صندوق شاخصی می‌تواند کسب کند معیاری است برای سنجیدن بازده مورد انتظار از ساختن محصولت."
+              },
               "answer": true
             },
             {
@@ -2511,6 +2775,10 @@
               "prompt": {
                 "en": "Raising the hurdle rate lets more projects pass the NPV test.",
                 "fa": "بالا بردن نرخ مانع باعث می‌شود پروژه‌های بیشتری از آزمون NPV بگذرند."
+              },
+              "fare": {
+                "en": "If a company lowers its hurdle rate, fewer projects will pass.",
+                "fa": "اگر شرکتی نرخ مانعش را پایین بیاورد، پروژه‌های کمتری قبول می‌شوند."
               },
               "answer": false
             }
@@ -2558,14 +2826,18 @@
                 "en": "What is working capital?",
                 "fa": "سرمایه در گردش چیست؟"
               },
+              "fare": {
+                "en": "Which calculation gives the figure whose three main levers are receivables, inventory and payables?",
+                "fa": "کدام محاسبه عددی را می‌دهد که سه اهرم اصلی‌اش حساب‌های دریافتنی، موجودی کالا و حساب‌های پرداختنی است؟"
+              },
               "options": [
                 {
-                  "en": "Revenue minus cost of goods sold",
-                  "fa": "درآمد منهای بهای تمام‌شده"
+                  "en": "Sales revenue minus cost of goods sold",
+                  "fa": "درآمد فروش منهای بهای تمام‌شده"
                 },
                 {
-                  "en": "Total assets minus goodwill",
-                  "fa": "کل دارایی‌ها منهای سرقفلی"
+                  "en": "Total assets minus goodwill and intangibles",
+                  "fa": "کل دارایی‌ها منهای سرقفلی و دارایی‌های نامشهود"
                 },
                 {
                   "en": "Current assets minus current liabilities",
@@ -2599,6 +2871,10 @@
                 "en": "Cutting DSO by one day frees roughly one day of revenue in cash.",
                 "fa": "کم کردن DSO به اندازهٔ یک روز تقریباً معادل درآمد یک روز نقد آزاد می‌کند."
               },
+              "fare": {
+                "en": "If customers pay one day sooner on average, about one day's worth of revenue turns into available cash.",
+                "fa": "اگر مشتریان به‌طور میانگین یک روز زودتر بپردازند، تقریباً به اندازهٔ درآمد یک روز، نقد در دسترس قرار می‌گیرد."
+              },
               "answer": true
             },
             {
@@ -2626,18 +2902,22 @@
                 "en": "How is the cash conversion cycle calculated?",
                 "fa": "چرخهٔ تبدیل نقد چطور محاسبه می‌شود؟"
               },
+              "fare": {
+                "en": "Chapter 30 joins the working-capital levers into a single measure. Which formula does it use?",
+                "fa": "فصل ۳۰ اهرم‌های سرمایه در گردش را در یک سنجه کنار هم می‌گذارد. از کدام فرمول استفاده می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Revenue minus all expenses",
-                  "fa": "درآمد منهای همهٔ هزینه‌ها"
+                  "en": "Revenue for the period minus all expenses, divided by the number of days in it",
+                  "fa": "درآمد دوره منهای همهٔ هزینه‌ها، تقسیم بر تعداد روزهای آن"
                 },
                 {
                   "en": "Days in inventory plus days sales outstanding minus days payable outstanding",
                   "fa": "روزهای نگهداری موجودی به‌علاوهٔ دورهٔ وصول مطالبات منهای دورهٔ پرداخت بدهی‌ها"
                 },
                 {
-                  "en": "Current ratio times quick ratio",
-                  "fa": "نسبت جاری ضرب در نسبت آنی"
+                  "en": "Current ratio times quick ratio, expressed in days of average daily revenue",
+                  "fa": "نسبت جاری ضرب در نسبت آنی، بر حسب روزهای میانگین درآمد روزانه"
                 }
               ],
               "answer": 1
@@ -2675,6 +2955,10 @@
                 "en": "The authors argue that only the finance team needs to understand the numbers.",
                 "fa": "نویسندگان استدلال می‌کنند فقط تیم مالی باید اعداد را بفهمد."
               },
+              "fare": {
+                "en": "In the authors' view, a company gains nothing when employees outside finance can read the numbers.",
+                "fa": "از نگاه نویسندگان، شرکت هیچ سودی نمی‌برد اگر کارکنان بیرون از واحد مالی هم اعداد را بفهمند."
+              },
               "answer": false
             },
             {
@@ -2702,18 +2986,22 @@
                 "en": "Which numbers does the Lesson suggest sharing with your engineers?",
                 "fa": "این درس پیشنهاد می‌کند کدام اعداد را با مهندسانت به اشتراک بگذاری؟"
               },
+              "fare": {
+                "en": "Teams decide better when they can see the score. For your startup, which figures make up that score?",
+                "fa": "تیم‌ها وقتی امتیاز را ببینند بهتر تصمیم می‌گیرند. در استارتاپ تو این امتیاز از کدام اعداد ساخته می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Cash runway and gross margin",
                   "fa": "مدت دوام نقد و حاشیهٔ ناخالص"
                 },
                 {
-                  "en": "Each person's salary",
-                  "fa": "حقوق تک‌تک افراد"
+                  "en": "Each person's salary and bonus",
+                  "fa": "حقوق و پاداش تک‌تک افراد"
                 },
                 {
-                  "en": "The share prices of rivals",
-                  "fa": "قیمت سهام رقبا"
+                  "en": "The share prices of rival firms",
+                  "fa": "قیمت سهام شرکت‌های رقیب"
                 }
               ],
               "answer": 0
@@ -2742,6 +3030,10 @@
               "prompt": {
                 "en": "The authors see financial intelligence as a skill only accountants can learn.",
                 "fa": "نویسندگان هوش مالی را مهارتی می‌دانند که فقط حسابداران می‌توانند بیاموزند."
+              },
+              "fare": {
+                "en": "According to the book's closing message, someone without accounting training cannot learn to read the statements.",
+                "fa": "طبق پیام پایانی کتاب، کسی که آموزش حسابداری ندیده نمی‌تواند خواندن صورت‌های مالی را یاد بگیرد."
               },
               "answer": false
             }

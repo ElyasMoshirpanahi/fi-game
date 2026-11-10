@@ -68,6 +68,10 @@
                 "en": "In How to Get Startup Ideas, which is one of the three things the best ideas share?",
                 "fa": "در How to Get Startup Ideas، کدام یکی از سه ویژگی مشترک بهترین ایده‌هاست؟"
               },
+              "fare": {
+                "en": "According to How to Get Startup Ideas, what marks an idea as one of the best?",
+                "fa": "به گفتهٔ How to Get Startup Ideas، چه چیزی نشان می‌دهد ایده‌ای از بهترین‌هاست؟"
+              },
               "options": [
                 {
                   "en": "The founders want it themselves",
@@ -109,6 +113,10 @@
                 "en": "Graham prefers an idea many people want a little over one a few people want urgently.",
                 "fa": "Graham ایده‌ای را که خیلی‌ها کمی می‌خواهند به ایده‌ای که چند نفر فوری می‌خواهند ترجیح می‌دهد."
               },
+              "fare": {
+                "en": "For Graham, a few users with an urgent need are worth less than a crowd with a mild wish.",
+                "fa": "از نظر Graham، چند کاربر با نیاز فوری کمتر از جمعیتی با خواستهٔ کم‌رنگ می‌ارزند."
+              },
               "answer": false
             },
             {
@@ -144,18 +152,22 @@
                 "en": "Which three things does How to Start a Startup say you need?",
                 "fa": "How to Start a Startup می‌گوید به کدام سه چیز نیاز داری؟"
               },
+              "fare": {
+                "en": "Most failed startups break one of three rules in How to Start a Startup. Which set is it?",
+                "fa": "بیشتر استارتاپ‌های شکست‌خورده یکی از سه قاعدهٔ How to Start a Startup را می‌شکنند. آن سه کدام‌اند؟"
+              },
               "options": [
                 {
-                  "en": "A patent, a big office and a press launch",
-                  "fa": "یک patent، یک دفتر بزرگ و یک رونمایی مطبوعاتی"
+                  "en": "A registered patent, a big downtown office and a launch covered by the press",
+                  "fa": "یک patent ثبت‌شده، دفتری بزرگ در مرکز شهر و رونمایی‌ای با پوشش مطبوعاتی"
                 },
                 {
                   "en": "Good people, something customers actually want, spending little money",
                   "fa": "آدم‌های خوب، چیزی که مشتری‌ها واقعاً بخواهند، کم خرج کردن"
                 },
                 {
-                  "en": "Venture funding, a large team and a famous brand",
-                  "fa": "سرمایهٔ خطرپذیر، تیمی بزرگ و برندی معروف"
+                  "en": "Venture funding from day one, a large team and an already famous brand",
+                  "fa": "سرمایهٔ خطرپذیر از روز اول، تیمی بزرگ و برندی از قبل معروف"
                 }
               ],
               "answer": 1
@@ -185,6 +197,10 @@
                 "en": "How to Start a Startup says to refine a prototype based on customers' reactions.",
                 "fa": "How to Start a Startup می‌گوید prototype را بر اساس واکنش مشتری‌ها بهتر کن."
               },
+              "fare": {
+                "en": "In How to Start a Startup, what customers do with a prototype guides how you improve it.",
+                "fa": "در How to Start a Startup، برخورد مشتری‌ها با prototype راه بهتر کردنش را نشان می‌دهد."
+              },
               "answer": true
             },
             {
@@ -212,13 +228,17 @@
                 "en": "What is the first step for your small AI product in this Lesson?",
                 "fa": "در این درس، اولین قدم برای محصول کوچک AI تو چیست؟"
               },
+              "fare": {
+                "en": "Before anything else, what does this Lesson have you do for your small AI product?",
+                "fa": "این درس برای محصول کوچک AI تو، پیش از هر کار دیگری چه می‌خواهد؟"
+              },
               "options": [
                 {
-                  "en": "Raise venture funding first",
-                  "fa": "اول سرمایهٔ خطرپذیر جذب کن"
+                  "en": "Raise VC money, then build",
+                  "fa": "اول سرمایهٔ خطرپذیر جذب کن، بعد بساز"
                 },
                 {
-                  "en": "Hire a team of five engineers",
+                  "en": "Hire a five-engineer team",
                   "fa": "تیمی پنج‌نفره از مهندس‌ها استخدام کن"
                 },
                 {
@@ -272,6 +292,10 @@
                 "en": "In Startup = Growth, any newly founded tech company counts as a startup.",
                 "fa": "در Startup = Growth، هر شرکت فناوری تازه‌تأسیس استارتاپ حساب می‌شود."
               },
+              "fare": {
+                "en": "By Startup = Growth, being new and built on technology is enough to make a company a startup.",
+                "fa": "طبق Startup = Growth، تازه بودن و تکیه بر فناوری کافی است تا شرکتی استارتاپ باشد."
+              },
               "answer": false
             },
             {
@@ -299,10 +323,14 @@
                 "en": "What growth rate does Startup = Growth call good at Y Combinator?",
                 "fa": "Startup = Growth چه نرخ رشدی را در Y Combinator خوب می‌داند؟"
               },
+              "fare": {
+                "en": "A Y Combinator company is growing well, by Startup = Growth. How fast is that?",
+                "fa": "طبق Startup = Growth، شرکتی در Y Combinator خوب رشد می‌کند. این یعنی با چه سرعتی؟"
+              },
               "options": [
                 {
-                  "en": "1 percent a year",
-                  "fa": "۱ درصد در سال"
+                  "en": "1 percent over a full year",
+                  "fa": "۱ درصد در یک سال کامل"
                 },
                 {
                   "en": "5 to 7 percent a week",
@@ -340,6 +368,10 @@
                 "en": "Growing 5 percent a week compounds to about 12.6 times in a year.",
                 "fa": "رشد ۵ درصد در هفته در یک سال به حدود ۱۲٫۶ برابر می‌رسد."
               },
+              "fare": {
+                "en": "A startup that ends a year about 12.6 times bigger has grown roughly 5 percent a week.",
+                "fa": "استارتاپی که پس از یک سال حدود ۱۲٫۶ برابر شده، تقریباً هفته‌ای ۵ درصد رشد کرده است."
+              },
               "answer": true
             },
             {
@@ -375,18 +407,22 @@
                 "en": "What was the Collison installation?",
                 "fa": "«نصب Collison» چه بود؟"
               },
+              "fare": {
+                "en": "How did Stripe's founders get a willing person started on Stripe?",
+                "fa": "بنیان‌گذاران Stripe کسی را که حاضر به امتحان بود چطور راه می‌انداختند؟"
+              },
               "options": [
                 {
                   "en": "Asked for the laptop and installed Stripe on the spot",
                   "fa": "لپ‌تاپ را گرفتند و Stripe را همان‌جا نصب کردند"
                 },
                 {
-                  "en": "An automated email sequence for new signups",
-                  "fa": "یک سری ایمیل خودکار برای ثبت‌نام‌های جدید"
+                  "en": "An automated email sequence sent to all new signups",
+                  "fa": "یک سری ایمیل خودکار که برای همهٔ ثبت‌نام‌های جدید می‌رود"
                 },
                 {
-                  "en": "A paid ad campaign aimed at developers",
-                  "fa": "یک کمپین تبلیغاتی پولی برای برنامه‌نویس‌ها"
+                  "en": "A paid ad campaign aimed at developers on social media",
+                  "fa": "یک کمپین تبلیغاتی پولی در شبکه‌های اجتماعی برای برنامه‌نویس‌ها"
                 }
               ],
               "answer": 0
@@ -415,6 +451,10 @@
               "prompt": {
                 "en": "This Lesson suggests waiting for a big launch to bring in your first users.",
                 "fa": "این درس پیشنهاد می‌کند برای آوردن اولین کاربرانت منتظر یک رونمایی بزرگ بمانی."
+              },
+              "fare": {
+                "en": "By this Lesson, your first users should arrive through a big launch, not one by one.",
+                "fa": "طبق این درس، اولین کاربرانت باید با یک رونمایی بزرگ بیایند، نه یکی‌یکی."
               },
               "answer": false
             }
@@ -462,6 +502,10 @@
                 "en": "Graham found that almost every founder knows whether they are default alive.",
                 "fa": "Graham دید تقریباً همهٔ بنیان‌گذاران می‌دانند به‌طور پیش‌فرض زنده‌اند یا نه."
               },
+              "fare": {
+                "en": "By Graham's count, only a rare founder is unsure whether they are default alive.",
+                "fa": "به حساب Graham، فقط تعداد انگشت‌شماری از بنیان‌گذاران نمی‌دانند به‌طور پیش‌فرض زنده‌اند یا نه."
+              },
               "answer": false
             },
             {
@@ -488,6 +532,10 @@
               "prompt": {
                 "en": "What do default dead founders often assume?",
                 "fa": "بنیان‌گذارانی که به‌طور پیش‌فرض مرده‌اند اغلب چه فرض می‌کنند؟"
+              },
+              "fare": {
+                "en": "A founder is default dead yet stays calm. Which belief often lies behind that?",
+                "fa": "بنیان‌گذاری به‌طور پیش‌فرض مرده است اما آرام می‌ماند. اغلب کدام باور پشت این آرامش است؟"
               },
               "options": [
                 {
@@ -530,6 +578,10 @@
                 "en": "The fatal pinch combines default dead, slow growth and too little time to fix it.",
                 "fa": "تنگنای مرگبار ترکیب مرگ پیش‌فرض، رشد کند و زمان کم برای درست کردنش است."
               },
+              "fare": {
+                "en": "A startup that is default dead, growing slowly and short of time to fix it is in the fatal pinch.",
+                "fa": "استارتاپی که به‌طور پیش‌فرض مرده، کند رشد می‌کند و وقت کمی برای درست کردنش دارد، در تنگنای مرگبار است."
+              },
               "answer": true
             },
             {
@@ -565,18 +617,22 @@
                 "en": "How long are the units a maker's schedule needs?",
                 "fa": "برنامهٔ سازنده به واحدهایی با چه طولی نیاز دارد؟"
               },
+              "fare": {
+                "en": "To write code or prose, a maker needs blocks of what size?",
+                "fa": "سازنده برای نوشتن کد یا متن به بلوک‌هایی با چه اندازه‌ای نیاز دارد؟"
+              },
               "options": [
                 {
-                  "en": "Fifteen minutes",
-                  "fa": "پانزده دقیقه"
+                  "en": "Up to 15 minutes",
+                  "fa": "تا ۱۵ دقیقه"
                 },
                 {
                   "en": "At least half a day",
                   "fa": "دست‌کم نیم روز"
                 },
                 {
-                  "en": "Exactly one hour",
-                  "fa": "دقیقاً یک ساعت"
+                  "en": "Just one hour",
+                  "fa": "فقط یک ساعت"
                 }
               ],
               "answer": 1
@@ -605,6 +661,10 @@
               "prompt": {
                 "en": "This Lesson suggests scattering meetings across your build days.",
                 "fa": "این درس پیشنهاد می‌کند جلسه‌ها را در روزهای ساختن پخش کنی."
+              },
+              "fare": {
+                "en": "By this Lesson, it is fine to spread meetings through the day on days you build.",
+                "fa": "طبق این درس، اشکالی ندارد در روزهایی که می‌سازی جلسه‌ها در طول روز پراکنده باشند."
               },
               "answer": false
             }
@@ -652,6 +712,10 @@
                 "en": "Which is one of the three tests in How to Do Great Work?",
                 "fa": "کدام یکی از سه شرط How to Do Great Work است؟"
               },
+              "fare": {
+                "en": "By How to Do Great Work, which of these is a sign you chose the right work?",
+                "fa": "طبق How to Do Great Work، کدام‌یک نشانهٔ این است که کار درستی انتخاب کرده‌ای؟"
+              },
               "options": [
                 {
                   "en": "It pays well from day one",
@@ -662,8 +726,8 @@
                   "fa": "علاقهٔ عمیق به آن"
                 },
                 {
-                  "en": "Your friends approve of it",
-                  "fa": "دوستانت تأییدش می‌کنند"
+                  "en": "Friends approve of it",
+                  "fa": "دوستانت می‌پسندند"
                 }
               ],
               "answer": 1
@@ -693,6 +757,10 @@
                 "en": "How to Do Great Work advises dropping an outlier idea when others show no interest.",
                 "fa": "How to Do Great Work توصیه می‌کند وقتی دیگران علاقه‌ای نشان نمی‌دهند، ایدهٔ غیرعادی را رها کنی."
               },
+              "fare": {
+                "en": "By How to Do Great Work, others' lack of interest is a reason to stop chasing an outlier idea.",
+                "fa": "طبق How to Do Great Work، بی‌علاقگی دیگران دلیلی است برای دست کشیدن از یک ایدهٔ غیرعادی."
+              },
               "answer": false
             },
             {
@@ -720,9 +788,13 @@
                 "en": "Which motive does How to Do Great Work trust most as a guide?",
                 "fa": "How to Do Great Work بیش از همه به کدام انگیزه به‌عنوان راهنما اعتماد دارد؟"
               },
+              "fare": {
+                "en": "When Graham needs something to steer his work, which motive does he rely on first?",
+                "fa": "وقتی Graham چیزی می‌خواهد که مسیر کارش را نشان دهد، اول به کدام انگیزه تکیه می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Fear of missing out",
+                  "en": "Fear of lagging",
                   "fa": "ترس از جا ماندن"
                 },
                 {
@@ -730,7 +802,7 @@
                   "fa": "کنجکاوی"
                 },
                 {
-                  "en": "Approval from peers",
+                  "en": "Peer approval",
                   "fa": "تأیید همکاران"
                 }
               ],
@@ -769,6 +841,10 @@
                 "en": "In How to Do Great Work, per-project procrastination is easy to spot because you sit idle.",
                 "fa": "در How to Do Great Work، تعلل پروژه‌ای راحت دیده می‌شود چون بیکار می‌نشینی."
               },
+              "fare": {
+                "en": "By How to Do Great Work, per-project procrastination shows plainly, since you stop doing anything.",
+                "fa": "طبق How to Do Great Work، تعلل پروژه‌ای آشکار است، چون دیگر هیچ کاری نمی‌کنی."
+              },
               "answer": false
             },
             {
@@ -796,10 +872,14 @@
                 "en": "Which AI product idea does this Lesson suggest picking?",
                 "fa": "این درس پیشنهاد می‌کند کدام ایدهٔ محصول AI را انتخاب کنی؟"
               },
+              "fare": {
+                "en": "By this Lesson, which AI product idea deserves your daily work?",
+                "fa": "طبق این درس، کدام ایدهٔ محصول AI ارزش کار هرروزهٔ تو را دارد؟"
+              },
               "options": [
                 {
-                  "en": "The safest one",
-                  "fa": "امن‌ترین"
+                  "en": "The one that looks safest",
+                  "fa": "آن که به نظرت امن‌ترین است"
                 },
                 {
                   "en": "The one you are most curious about",

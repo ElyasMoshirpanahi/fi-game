@@ -68,6 +68,10 @@
                 "en": "Faber shows that cash earns a strong return after inflation over long periods.",
                 "fa": "Faber نشان می‌دهد نقد در دوره‌های بلند پس از تورم بازده قوی می‌دهد."
               },
+              "fare": {
+                "en": "Over long periods, holding cash grows your buying power strongly once inflation is counted.",
+                "fa": "در بلندمدت، نگه‌داشتن نقد بعد از حساب‌کردن تورم قدرت خریدت را به‌شدت بالا می‌برد."
+              },
               "answer": false
             },
             {
@@ -95,6 +99,10 @@
                 "en": "What are the four parts of Harry Browne's Permanent Portfolio?",
                 "fa": "چهار بخش Permanent Portfolio از Harry Browne چیست؟"
               },
+              "fare": {
+                "en": "Browne gives one equal quarter to each economic season. Which assets fill those four quarters?",
+                "fa": "Browne برای هر فصل اقتصادی یک ربع مساوی کنار می‌گذارد. این چهار ربع با کدام دارایی‌ها پر می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Stocks, long-term bonds, gold and cash",
@@ -102,7 +110,7 @@
                 },
                 {
                   "en": "US stocks, foreign stocks, REITs and commodities",
-                  "fa": "سهام آمریکا، سهام خارجی، REIT و کالا"
+                  "fa": "سهام آمریکا و خارجی، REIT و کالا"
                 },
                 {
                   "en": "Bonds, bills, crypto and real estate",
@@ -136,6 +144,10 @@
                 "en": "Dalio's All Seasons portfolio puts most of its money in stocks.",
                 "fa": "سبد All Seasons از Dalio بیشتر پولش را در سهام می‌گذارد."
               },
+              "fare": {
+                "en": "Stocks are the largest slice of the All Seasons portfolio, ahead of bonds.",
+                "fa": "بزرگ‌ترین برش سبد All Seasons سهام است و اوراق قرضه بعد از آن قرار می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -163,18 +175,22 @@
                 "en": "Which five equal parts make up Faber's Ivy Portfolio?",
                 "fa": "Ivy Portfolio از Faber از کدام پنج بخش مساوی تشکیل شده است؟"
               },
+              "fare": {
+                "en": "The Ivy Portfolio puts 20 percent into each of five assets. Which list names them?",
+                "fa": "Ivy Portfolio در هر یک از پنج دارایی ۲۰ درصد می‌گذارد. کدام فهرست این دارایی‌ها را نام می‌برد؟"
+              },
               "options": [
                 {
                   "en": "US stocks, foreign stocks, bonds, REITs and commodities",
                   "fa": "سهام آمریکا، سهام خارجی، اوراق قرضه، REIT و کالا"
                 },
                 {
-                  "en": "Stocks, gold, cash, bitcoin and art",
-                  "fa": "سهام، طلا، نقد، بیت‌کوین و هنر"
+                  "en": "Stocks, gold, cash, bitcoin and works of fine art",
+                  "fa": "سهام، طلا، نقد، بیت‌کوین و آثار هنری نفیس"
                 },
                 {
-                  "en": "Only US stocks of five different sizes",
-                  "fa": "فقط سهام آمریکا در پنج اندازهٔ متفاوت"
+                  "en": "Only US stocks, split into five company sizes",
+                  "fa": "فقط سهام آمریکا، تقسیم‌شده به پنج اندازهٔ شرکت"
                 }
               ],
               "answer": 0
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "Faber only tests portfolios made of stocks and bonds.",
                 "fa": "Faber فقط سبدهایی را آزمایش می‌کند که از سهام و اوراق قرضه ساخته شده‌اند."
+              },
+              "fare": {
+                "en": "Every portfolio on Faber's menu leaves out gold and real estate.",
+                "fa": "هیچ‌کدام از سبدهای فهرست Faber طلا یا املاک ندارد."
               },
               "answer": false
             }
@@ -258,18 +278,22 @@
                 "en": "What did Faber find when he compared the famous portfolios?",
                 "fa": "Faber وقتی سبدهای معروف را مقایسه کرد به چه نتیجه‌ای رسید؟"
               },
+              "fare": {
+                "en": "Over the four decades Faber tested, how did the annual returns of the famous portfolios compare?",
+                "fa": "در چهار دهه‌ای که Faber بررسی کرد، بازده سالانهٔ سبدهای معروف نسبت به هم چطور از آب درآمد؟"
+              },
               "options": [
                 {
                   "en": "Leaving out the Permanent Portfolio, the portfolios landed within about one percentage point",
                   "fa": "به‌جز Permanent Portfolio، سبدها در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند"
                 },
                 {
-                  "en": "The 60/40 portfolio beat every other one by a wide margin",
-                  "fa": "سبد ۶۰/۴۰ با فاصلهٔ زیاد از همه جلو زد"
+                  "en": "Over the four decades, the classic 60/40 portfolio beat every other one by a wide margin",
+                  "fa": "در این چهار دهه، سبد کلاسیک ۶۰/۴۰ با فاصلهٔ زیاد از همهٔ سبدهای دیگر جلو زد"
                 },
                 {
-                  "en": "Gold-heavy portfolios doubled the return of the rest",
-                  "fa": "سبدهای پرطلا بازده بقیه را دو برابر کردند"
+                  "en": "Portfolios heavy in gold doubled the annual return of all the rest",
+                  "fa": "سبدهای پرطلا بازده سالانهٔ همهٔ سبدهای دیگر را دو برابر کردند"
                 }
               ],
               "answer": 0
@@ -299,6 +323,10 @@
                 "en": "In Faber's tests the portfolios differed more in risk than in return.",
                 "fa": "در آزمایش‌های Faber سبدها بیشتر در ریسک با هم فرق داشتند تا در بازده."
               },
+              "fare": {
+                "en": "What separated Faber's portfolios was mostly how deep they fell in bad years, not how much they earned.",
+                "fa": "آنچه سبدهای Faber را از هم جدا می‌کرد بیشتر عمق افتشان در سال‌های بد بود، نه مقدار سودشان."
+              },
               "answer": true
             },
             {
@@ -326,18 +354,22 @@
                 "en": "What does Faber warn about bonds in his test period?",
                 "fa": "Faber دربارهٔ اوراق قرضه در دورهٔ آزمایشش چه هشداری می‌دهد؟"
               },
+              "fare": {
+                "en": "According to Faber, why might the bond results of 1973 to 2013 not repeat?",
+                "fa": "به گفتهٔ Faber، چرا شاید نتیجهٔ اوراق قرضه در سال‌های ۱۹۷۳ تا ۲۰۱۳ دوباره تکرار نشود؟"
+              },
               "options": [
                 {
                   "en": "A long fall in interest rates gave bonds unusually strong returns",
                   "fa": "افت طولانی نرخ بهره بازده غیرعادی قوی به اوراق قرضه داد"
                 },
                 {
-                  "en": "Bonds lost money in every year of the test",
-                  "fa": "اوراق قرضه در همهٔ سال‌های آزمایش زیان دادند"
+                  "en": "Bonds lost money in every year of the forty-year test",
+                  "fa": "اوراق قرضه در همهٔ سال‌های دورهٔ چهل‌ساله زیان دادند"
                 },
                 {
-                  "en": "Bonds were left out of every portfolio",
-                  "fa": "اوراق قرضه از همهٔ سبدها کنار گذاشته شدند"
+                  "en": "Bonds were left out of every portfolio he compared",
+                  "fa": "اوراق قرضه از همهٔ سبدهای مقایسه‌شده کنار گذاشته شدند"
                 }
               ],
               "answer": 0
@@ -366,6 +398,10 @@
               "prompt": {
                 "en": "Faber's results show that picking the right famous portfolio is the most important decision.",
                 "fa": "نتایج Faber نشان می‌دهد انتخاب سبد معروف درست مهم‌ترین تصمیم است."
+              },
+              "fare": {
+                "en": "According to Faber's results, choosing among the famous portfolios outweighs cost, taxes and staying with the plan.",
+                "fa": "طبق نتایج Faber، اینکه کدام سبد معروف را برداری از هزینه، مالیات و ماندن با برنامه سنگین‌تر است."
               },
               "answer": false
             },
@@ -401,6 +437,10 @@
               "prompt": {
                 "en": "By Faber's measure, what matters more than the exact split?",
                 "fa": "با سنجهٔ Faber، چه چیزی بیش از تقسیم دقیق اهمیت دارد؟"
+              },
+              "fare": {
+                "en": "A 70/30 and an 80/20 mix are a small choice in Faber's result. What weighs more on the outcome?",
+                "fa": "ترکیب ۷۰/۳۰ و ۸۰/۲۰ در نتیجهٔ Faber انتخاب کوچکی است. چه چیزی روی حاصل کار سنگین‌تر است؟"
               },
               "options": [
                 {
@@ -462,18 +502,22 @@
                 "en": "What does the global market portfolio hold?",
                 "fa": "سبد بازار جهانی چه چیزی نگه می‌دارد؟"
               },
+              "fare": {
+                "en": "How is the one mix that all investors together actually own put together?",
+                "fa": "تنها ترکیبی که همهٔ سرمایه‌گذاران روی هم واقعاً مالکش هستند چطور چیده شده است؟"
+              },
               "options": [
                 {
                   "en": "Every asset in the world in proportion to its market value",
                   "fa": "هر دارایی دنیا به نسبت ارزش بازارش"
                 },
                 {
-                  "en": "Equal parts of the five best assets of last year",
-                  "fa": "سهم‌های مساوی از پنج داراییِ برتر پارسال"
+                  "en": "Equal parts of the five best-performing asset classes of last year",
+                  "fa": "سهم‌های مساوی از پنج طبقهٔ داراییِ برتر پارسال"
                 },
                 {
-                  "en": "Only the stocks of the largest country",
-                  "fa": "فقط سهام بزرگ‌ترین کشور"
+                  "en": "Only the stocks of the single largest country by market value",
+                  "fa": "فقط سهام یک کشور، بزرگ‌ترین از نظر ارزش بازار"
                 }
               ],
               "answer": 0
@@ -503,6 +547,10 @@
                 "en": "Faber found the global market portfolio did far worse than the famous portfolios.",
                 "fa": "Faber دریافت سبد بازار جهانی خیلی بدتر از سبدهای معروف عمل کرد."
               },
+              "fare": {
+                "en": "The returns of the global market portfolio fell well below the narrow band of the famous portfolios.",
+                "fa": "بازده سبد بازار جهانی خیلی پایین‌تر از بازهٔ باریک سبدهای معروف افتاد."
+              },
               "answer": false
             },
             {
@@ -530,14 +578,18 @@
                 "en": "What can cost more than the gap between the best and worst allocation?",
                 "fa": "چه چیزی می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد؟"
               },
+              "fare": {
+                "en": "What can make a good portfolio lose to a mediocre one?",
+                "fa": "چه چیزی می‌تواند یک سبد خوب را از یک سبد متوسط عقب بیندازد؟"
+              },
               "options": [
                 {
                   "en": "Fees and taxes",
                   "fa": "کارمزد و مالیات"
                 },
                 {
-                  "en": "Rebalancing once a year",
-                  "fa": "تعادل‌بخشی سالی یک بار"
+                  "en": "Rebalancing each year",
+                  "fa": "تعادل‌بخشی هر سال"
                 },
                 {
                   "en": "Holding foreign stocks",
@@ -570,6 +622,10 @@
               "prompt": {
                 "en": "Faber's advice is to pick a sensible diversified allocation, buy it cheaply and stick with it.",
                 "fa": "توصیهٔ Faber این است که یک تخصیص معقول و متنوع انتخاب کنی، ارزان بخری و پای آن بمانی."
+              },
+              "fare": {
+                "en": "For Faber, switching portfolios after a bad year ruins results; his rule is a sensible low-cost mix that you keep holding.",
+                "fa": "از نگاه Faber، عوض کردن سبد بعد از یک سال بد نتیجه را خراب می‌کند؛ قاعدهٔ او یک ترکیب معقول و کم‌هزینه است که نگهش می‌داری."
               },
               "answer": true
             },
@@ -606,18 +662,22 @@
                 "en": "When comparing brokers, what should you add up?",
                 "fa": "هنگام مقایسهٔ کارگزارها چه چیزی را باید جمع بزنی؟"
               },
+              "fare": {
+                "en": "To see what Interactive Brokers or DEGIRO really costs, which total do you work out?",
+                "fa": "برای فهمیدن هزینهٔ واقعی Interactive Brokers یا DEGIRO، کدام مجموع را حساب می‌کنی؟"
+              },
               "options": [
                 {
                   "en": "Ten years of trading, custody and fund costs",
                   "fa": "ده سال هزینهٔ معامله، نگهداری و صندوق"
                 },
                 {
-                  "en": "Only the price of the first trade",
-                  "fa": "فقط قیمت اولین معامله"
+                  "en": "Only the price charged for the very first trade",
+                  "fa": "فقط قیمتی که برای اولین معامله گرفته می‌شود"
                 },
                 {
                   "en": "Last year's return of each broker's app",
-                  "fa": "بازده پارسال اپ هر کارگزار"
+                  "fa": "بازده پارسال اپلیکیشن هر کارگزار"
                 }
               ],
               "answer": 0

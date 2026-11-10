@@ -68,6 +68,10 @@
                 "en": "The book says founders can leave understanding the terms to their lawyers.",
                 "fa": "کتاب می‌گوید بنیان‌گذار می‌تواند فهمیدن بندها را به وکیلش بسپارد."
               },
+              "fare": {
+                "en": "According to the book, once a good lawyer is hired, the founder no longer needs to grasp each term personally.",
+                "fa": "به گفتهٔ کتاب، با داشتن وکیل خوب دیگر لازم نیست بنیان‌گذار خودش از تک‌تک بندها سر دربیاورد."
+              },
               "answer": false
             },
             {
@@ -95,18 +99,22 @@
                 "en": "Who usually makes the final investment decision in a VC firm?",
                 "fa": "در یک شرکت VC معمولاً چه کسی تصمیم نهایی سرمایه‌گذاری را می‌گیرد؟"
               },
+              "fare": {
+                "en": "At a VC firm, whose yes is normally needed before money is invested?",
+                "fa": "در یک شرکت VC، «بله»ی چه کسانی معمولاً لازم است تا پول سرمایه‌گذاری شود؟"
+              },
               "options": [
                 {
-                  "en": "Associates who screen deals",
-                  "fa": "associateهایی که معامله‌ها را غربال می‌کنند"
+                  "en": "Associates who find and screen new deals",
+                  "fa": "associateهایی که معامله‌های تازه را پیدا و غربال می‌کنند"
                 },
                 {
                   "en": "Managing directors or general partners",
                   "fa": "managing directorها یا general partnerها"
                 },
                 {
-                  "en": "The firm's outside lawyers",
-                  "fa": "وکیل‌های بیرونی شرکت"
+                  "en": "The outside lawyers the firm works with",
+                  "fa": "وکیل‌های بیرونی‌ای که شرکت با آن‌ها کار می‌کند"
                 }
               ],
               "answer": 1
@@ -144,6 +152,10 @@
                 "en": "In a syndicate, who usually sets the terms of the round?",
                 "fa": "در یک syndicate معمولاً چه کسی شرایط دور را تعیین می‌کند؟"
               },
+              "fare": {
+                "en": "Several investors share one round. Whose job is it to negotiate the term sheet for all of them?",
+                "fa": "چند سرمایه‌گذار در یک دور شریک‌اند. مذاکرهٔ term sheet از طرف همه معمولاً کار چه کسی است؟"
+              },
               "options": [
                 {
                   "en": "The lead investor",
@@ -151,10 +163,10 @@
                 },
                 {
                   "en": "The newest angel",
-                  "fa": "تازه‌ترین سرمایه‌گذار فرشته"
+                  "fa": "تازه‌ترین angel"
                 },
                 {
-                  "en": "The company's auditor",
+                  "en": "The auditor",
                   "fa": "حسابرس شرکت"
                 }
               ],
@@ -176,6 +188,10 @@
               "prompt": {
                 "en": "The book encourages paying an adviser a fee for VC introductions.",
                 "fa": "کتاب پرداخت کارمزد به مشاور برای معرفی به VCها را تشویق می‌کند."
+              },
+              "fare": {
+                "en": "In the book's view, an adviser who charges for investor introductions is money well spent.",
+                "fa": "از نگاه کتاب، پولی که برای معرفی به سرمایه‌گذاران به مشاور می‌دهی خوب خرج شده است."
               },
               "answer": false
             },
@@ -212,14 +228,18 @@
                 "en": "What does the book say makes a deal easier?",
                 "fa": "به گفتهٔ کتاب چه چیزی معامله را آسان‌تر می‌کند؟"
               },
+              "fare": {
+                "en": "According to the book, which of these helps a negotiation go more smoothly?",
+                "fa": "طبق کتاب، کدام‌یک از این‌ها کمک می‌کند مذاکره روان‌تر پیش برود؟"
+              },
               "options": [
                 {
-                  "en": "Hiding your numbers until the end",
-                  "fa": "پنهان‌کردن اعدادت تا آخر کار"
+                  "en": "Hiding your numbers until the last meeting",
+                  "fa": "پنهان‌کردن اعدادت تا آخرین جلسه"
                 },
                 {
-                  "en": "Insisting on the highest price",
-                  "fa": "پافشاری بر بالاترین قیمت"
+                  "en": "Insisting on the highest possible price",
+                  "fa": "پافشاری بر بالاترین قیمت ممکن"
                 },
                 {
                   "en": "Knowing what the person across the table needs",
@@ -252,6 +272,10 @@
               "prompt": {
                 "en": "What are corporate VCs?",
                 "fa": "VCهای شرکتی چه هستند؟"
+              },
+              "fare": {
+                "en": "A corporate VC is best described as which of these?",
+                "fa": "کدام توصیف برای VC شرکتی درست است؟"
               },
               "options": [
                 {
@@ -313,6 +337,10 @@
                 "en": "The book says VCs usually read a full business plan in detail.",
                 "fa": "کتاب می‌گوید VCها معمولاً business plan کامل را با جزئیات می‌خوانند."
               },
+              "fare": {
+                "en": "According to the book, a complete business plan is still the document VCs study most closely.",
+                "fa": "به گفتهٔ کتاب، business plan کامل هنوز سندی است که VCها با بیشترین دقت بررسی‌اش می‌کنند."
+              },
               "answer": false
             },
             {
@@ -340,18 +368,22 @@
                 "en": "What does a financial model mainly show a VC?",
                 "fa": "مدل مالی عمدتاً چه چیزی را به VC نشان می‌دهد؟"
               },
+              "fare": {
+                "en": "When a VC studies your financial model, what are they really looking for?",
+                "fa": "وقتی VC مدل مالی‌ات را بررسی می‌کند، در واقع دنبال چیست؟"
+              },
               "options": [
                 {
                   "en": "You understand the drivers of your business",
                   "fa": "اینکه محرک‌های کسب‌وکارت را می‌فهمی"
                 },
                 {
-                  "en": "The exact revenue in year five",
-                  "fa": "درآمد دقیق سال پنجم"
+                  "en": "The exact revenue you reach in year five",
+                  "fa": "درآمد دقیقت در سال پنجم"
                 },
                 {
-                  "en": "The lowest price you accept",
-                  "fa": "پایین‌ترین قیمتی که می‌پذیری"
+                  "en": "The lowest price you are willing to accept",
+                  "fa": "پایین‌ترین قیمتی که حاضری بپذیری"
                 }
               ],
               "answer": 0
@@ -389,18 +421,22 @@
                 "en": "According to the book, what works far better than a cold email?",
                 "fa": "به گفتهٔ کتاب، چه چیزی خیلی بهتر از ایمیل سرد جواب می‌دهد؟"
               },
+              "fare": {
+                "en": "Which way of reaching a VC does the book rate well above an unsolicited message?",
+                "fa": "کتاب کدام راهِ رسیدن به VC را بسیار مؤثرتر از پیام بی‌مقدمه می‌داند؟"
+              },
               "options": [
                 {
-                  "en": "A longer pitch deck",
-                  "fa": "یک pitch deck طولانی‌تر"
+                  "en": "A longer, more detailed presentation deck",
+                  "fa": "یک presentation deck طولانی‌تر و مفصل‌تر"
                 },
                 {
                   "en": "A warm introduction from someone the VC trusts",
                   "fa": "معرفی گرم از طرف کسی که VC به او اعتماد دارد"
                 },
                 {
-                  "en": "A signed NDA",
-                  "fa": "یک NDA امضاشده"
+                  "en": "A signed NDA sent ahead of the first meeting",
+                  "fa": "یک NDA امضاشده که پیش از جلسهٔ اول فرستاده شود"
                 }
               ],
               "answer": 1
@@ -430,6 +466,10 @@
                 "en": "The book suggests treating a VC's long silence as a likely no.",
                 "fa": "کتاب پیشنهاد می‌کند سکوت طولانی VC را احتمالاً «نه» بدانی."
               },
+              "fare": {
+                "en": "If a VC stops replying for a long time, the book's advice is to assume the answer is no and move on.",
+                "fa": "اگر VC مدت زیادی جواب ندهد، توصیهٔ کتاب این است که آن را «نه» فرض کنی و سراغ بعدی بروی."
+              },
               "answer": true
             },
             {
@@ -457,14 +497,18 @@
                 "en": "What gives you the strongest position when raising?",
                 "fa": "هنگام جذب سرمایه چه چیزی قوی‌ترین موقعیت را به تو می‌دهد؟"
               },
+              "fare": {
+                "en": "Which of these puts a founder in the best bargaining spot during a raise?",
+                "fa": "کدام‌یک بنیان‌گذار را هنگام جذب سرمایه در بهترین جایگاه چانه‌زنی می‌گذارد؟"
+              },
               "options": [
                 {
-                  "en": "A single friendly investor",
-                  "fa": "یک سرمایه‌گذار دوستانهٔ تنها"
+                  "en": "One friendly investor",
+                  "fa": "یک سرمایه‌گذار همراه"
                 },
                 {
-                  "en": "A very high asking price",
-                  "fa": "قیمت درخواستی خیلی بالا"
+                  "en": "A high asking price",
+                  "fa": "قیمت درخواستی بالا"
                 },
                 {
                   "en": "Competing interest",
@@ -497,6 +541,10 @@
               "prompt": {
                 "en": "The book suggests pitching every VC in town to maximise interest.",
                 "fa": "کتاب پیشنهاد می‌کند برای بیشترین توجه به همهٔ VCهای شهر pitch بدهی."
+              },
+              "fare": {
+                "en": "Showing your deal to as many firms as possible makes it look more wanted, the book says.",
+                "fa": "کتاب می‌گوید هرچه معامله را به شرکت‌های بیشتری نشان بدهی، خواستنی‌تر به نظر می‌رسد."
               },
               "answer": false
             }
@@ -544,14 +592,18 @@
                 "en": "Which two things does the book say really matter in a term sheet?",
                 "fa": "کتاب می‌گوید کدام دو چیز در term sheet واقعاً مهم‌اند؟"
               },
+              "fare": {
+                "en": "Behind all the clauses, VCs focus on which pair of concerns?",
+                "fa": "پشت همهٔ بندها، VCها روی کدام دو دغدغه تمرکز دارند؟"
+              },
               "options": [
                 {
-                  "en": "Valuation and legal fees",
-                  "fa": "ارزش‌گذاری و هزینه‌های حقوقی"
+                  "en": "Valuation and fees",
+                  "fa": "ارزش‌گذاری و هزینه‌ها"
                 },
                 {
-                  "en": "Board size and founder salary",
-                  "fa": "اندازهٔ هیئت‌مدیره و حقوق بنیان‌گذار"
+                  "en": "Board size and pay",
+                  "fa": "اندازهٔ هیئت و حقوق"
                 },
                 {
                   "en": "Economics and control",
@@ -584,6 +636,10 @@
               "prompt": {
                 "en": "Post-money valuation equals pre-money valuation minus the new investment.",
                 "fa": "ارزش‌گذاری post-money برابر است با pre-money منهای سرمایه‌گذاری جدید."
+              },
+              "fare": {
+                "en": "To get the pre-money valuation, you add the new investment to the post-money valuation.",
+                "fa": "برای رسیدن به pre-money باید سرمایه‌گذاری جدید را به post-money اضافه کنی."
               },
               "answer": false
             },
@@ -620,6 +676,10 @@
                 "en": "With an $8 million pre-money and a $2 million investment, what does the new investor own?",
                 "fa": "با pre-money هشت میلیون و سرمایه‌گذاری دو میلیون دلاری، سرمایه‌گذار جدید چقدر از شرکت را دارد؟"
               },
+              "fare": {
+                "en": "A $2 million cheque goes into a company valued at $8 million before the money. What stake does it buy?",
+                "fa": "چکی دو میلیون دلاری وارد شرکتی می‌شود که پیش از پول هشت میلیون ارزش دارد. چه سهمی می‌خرد؟"
+              },
               "options": [
                 {
                   "en": "10 percent",
@@ -652,6 +712,10 @@
               "prompt": {
                 "en": "When the option pool sits inside the pre-money, it mainly dilutes the new investor.",
                 "fa": "وقتی option pool داخل pre-money باشد، عمدتاً سهم سرمایه‌گذار جدید را رقیق می‌کند."
+              },
+              "fare": {
+                "en": "Creating the option pool inside the pre-money leaves existing holders untouched and puts the dilution on the new investor.",
+                "fa": "ساختن option pool داخل pre-money به سهام‌داران فعلی کاری ندارد و رقیق‌شدن را روی دوش سرمایه‌گذار جدید می‌گذارد."
               },
               "answer": false
             },
@@ -688,13 +752,17 @@
                 "en": "What does the book suggest instead of accepting warrants?",
                 "fa": "کتاب به‌جای پذیرفتن warrant چه پیشنهادی می‌دهد؟"
               },
+              "fare": {
+                "en": "An investor wants warrants added to the deal. What approach does the book prefer?",
+                "fa": "سرمایه‌گذار می‌خواهد warrant به معامله اضافه شود. کتاب چه رویکردی را ترجیح می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Negotiating the price directly",
                   "fa": "مذاکرهٔ مستقیم روی قیمت"
                 },
                 {
-                  "en": "Asking for a larger option pool",
+                  "en": "Seeking a bigger option pool",
                   "fa": "درخواست option pool بزرگ‌تر"
                 },
                 {
@@ -728,6 +796,10 @@
               "prompt": {
                 "en": "Why can an inflated valuation hurt later?",
                 "fa": "چرا ارزش‌گذاری بادکرده می‌تواند بعداً آسیب بزند؟"
+              },
+              "fare": {
+                "en": "What is the risk of taking a valuation that is too high today?",
+                "fa": "خطر پذیرفتن ارزش‌گذاری بیش‌ازحد بالا در امروز چیست؟"
               },
               "options": [
                 {
@@ -789,6 +861,10 @@
                 "en": "Liquidation preference applies only when a company shuts down, never when it is sold.",
                 "fa": "liquidation preference فقط هنگام تعطیلی شرکت اعمال می‌شود، نه هنگام فروش آن."
               },
+              "fare": {
+                "en": "If a startup is acquired rather than wound down, the liquidation preference does not come into play.",
+                "fa": "اگر استارتاپ به‌جای انحلال خریده شود، liquidation preference وارد ماجرا نمی‌شود."
+              },
               "answer": false
             },
             {
@@ -816,18 +892,22 @@
                 "en": "What can non-participating preferred holders take at a sale?",
                 "fa": "دارندگان سهام ترجیحی غیرمشارکتی هنگام فروش چه می‌توانند بگیرند؟"
               },
+              "fare": {
+                "en": "The company is sold. Which payout rule applies to investors holding non-participating preferred?",
+                "fa": "شرکت فروخته شده است. کدام قاعدهٔ پرداخت برای سرمایه‌گذارانی با سهام ترجیحی غیرمشارکتی صدق می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Both the preference and a common share",
-                  "fa": "هم ترجیح و هم سهم عادی"
+                  "en": "Both the full preference and a share alongside common holders",
+                  "fa": "هم کل ترجیح و هم سهمی در کنار دارندگان سهام عادی"
                 },
                 {
                   "en": "The preference or converting to common, whichever pays more",
                   "fa": "ترجیح یا تبدیل به سهام عادی، هر کدام بیشتر بدهد"
                 },
                 {
-                  "en": "Only a fixed dividend",
-                  "fa": "فقط یک سود ثابت"
+                  "en": "Only a fixed yearly dividend, with no share of the sale price",
+                  "fa": "فقط یک سود ثابت سالانه، بدون سهمی از قیمت فروش"
                 }
               ],
               "answer": 1
@@ -865,6 +945,10 @@
                 "en": "What does fully participating preferred take at a sale?",
                 "fa": "سهام ترجیحی کاملاً مشارکتی هنگام فروش چه می‌گیرد؟"
               },
+              "fare": {
+                "en": "Which payout describes investors with full participation when the company is sold?",
+                "fa": "کدام پرداخت وضع سرمایه‌گذاران با مشارکت کامل را هنگام فروش شرکت توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Its preference, then a share of the rest",
@@ -876,7 +960,7 @@
                 },
                 {
                   "en": "Nothing until common is paid",
-                  "fa": "هیچ، تا وقتی سهام عادی پولش را بگیرد"
+                  "fa": "هیچ، تا پرداخت سهام عادی"
                 }
               ],
               "answer": 0
@@ -897,6 +981,10 @@
               "prompt": {
                 "en": "In that non-participating example, the investors convert to common.",
                 "fa": "در آن مثال غیرمشارکتی، سرمایه‌گذاران به سهام عادی تبدیل می‌کنند."
+              },
+              "fare": {
+                "en": "In that same sale, non-participating investors do better giving up the $5 million preference and taking their 50 percent as common.",
+                "fa": "در همان فروش، برای سرمایه‌گذاران غیرمشارکتی به‌صرفه‌تر است از ترجیح پنج میلیونی بگذرند و ۵۰ درصدشان را به‌شکل سهام عادی بگیرند."
               },
               "answer": true
             },
@@ -933,10 +1021,14 @@
                 "en": "Where does liquidation preference matter most?",
                 "fa": "liquidation preference کجا بیشترین اهمیت را دارد؟"
               },
+              "fare": {
+                "en": "In which kind of outcome can the preference wipe out common holders?",
+                "fa": "در چه نوع نتیجه‌ای ترجیح می‌تواند سهم دارندگان سهام عادی را صفر کند؟"
+              },
               "options": [
                 {
-                  "en": "In large exits",
-                  "fa": "در خروج‌های بزرگ"
+                  "en": "In very large exits",
+                  "fa": "در خروج‌های خیلی بزرگ"
                 },
                 {
                   "en": "In public offerings",
@@ -973,6 +1065,10 @@
               "prompt": {
                 "en": "Pari passu means all preferred series share equally in a payout.",
                 "fa": "pari passu یعنی همهٔ سری‌های preferred در پرداخت به‌طور برابر سهم می‌برند."
+              },
+              "fare": {
+                "en": "When preferred series are pari passu, none of them is paid ahead of the others.",
+                "fa": "وقتی سری‌های preferred به‌شکل pari passu باشند، هیچ‌کدام زودتر از بقیه پول نمی‌گیرد."
               },
               "answer": true
             }
@@ -1020,6 +1116,10 @@
                 "en": "The book favours heavy, complex terms at the seed stage.",
                 "fa": "کتاب در مرحلهٔ seed بندهای سنگین و پیچیده را ترجیح می‌دهد."
               },
+              "fare": {
+                "en": "For a seed round, the book prefers thick legal documents covering every possible term.",
+                "fa": "برای دور seed، کتاب اسناد حقوقی قطور را که هر بند ممکنی را پوشش دهند می‌پسندد."
+              },
               "answer": false
             },
             {
@@ -1047,14 +1147,18 @@
                 "en": "What does the book say many seed rounds use?",
                 "fa": "به گفتهٔ کتاب بسیاری از دورهای seed از چه استفاده می‌کنند؟"
               },
+              "fare": {
+                "en": "Which instrument does the book describe as a common, simpler choice for a small first round?",
+                "fa": "کتاب کدام ابزار را گزینه‌ای رایج و ساده‌تر برای یک دور اول کوچک معرفی می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Venture debt from a bank",
-                  "fa": "وام venture از بانک"
+                  "en": "Venture debt from a commercial bank",
+                  "fa": "وام venture از یک بانک تجاری"
                 },
                 {
-                  "en": "A public share offering",
-                  "fa": "عرضهٔ عمومی سهام"
+                  "en": "A public share offering on an exchange",
+                  "fa": "عرضهٔ عمومی سهام در یک بازار بورس"
                 },
                 {
                   "en": "Convertible debt instead of priced equity",
@@ -1096,17 +1200,21 @@
                 "en": "What does the book flag at mid and late stages?",
                 "fa": "کتاب در مراحل میانی و پایانی روی چه چیزی انگشت می‌گذارد؟"
               },
+              "fare": {
+                "en": "As more rounds bring in new lead investors, which issue does the book tell founders to watch?",
+                "fa": "با ورود سرمایه‌گذاران پیشروی تازه در دورهای بعدی، کتاب می‌گوید بنیان‌گذاران مراقب کدام مسئله باشند؟"
+              },
               "options": [
                 {
                   "en": "Board and voting control",
                   "fa": "کنترل هیئت‌مدیره و رأی"
                 },
                 {
-                  "en": "The length of the pitch deck",
-                  "fa": "طول pitch deck"
+                  "en": "How long the pitch deck is",
+                  "fa": "اینکه pitch deck چقدر طولانی است"
                 },
                 {
-                  "en": "The wording of the elevator pitch",
+                  "en": "How the elevator pitch is worded",
                   "fa": "جمله‌بندی elevator pitch"
                 }
               ],
@@ -1137,6 +1245,10 @@
                 "en": "The book says each term matters equally at every financing stage.",
                 "fa": "کتاب می‌گوید هر بند در همهٔ مراحل سرمایه‌گذاری به یک اندازه مهم است."
               },
+              "fare": {
+                "en": "According to the book, a clause that is minor in a seed round will be just as minor in a late round.",
+                "fa": "به گفتهٔ کتاب، بندی که در دور seed کم‌اهمیت است در دور پایانی هم همان‌قدر کم‌اهمیت خواهد بود."
+              },
               "answer": false
             },
             {
@@ -1164,6 +1276,10 @@
                 "en": "Why can a strategic investor's first look at a sale be a problem?",
                 "fa": "چرا حق نگاه اول سرمایه‌گذار راهبردی به فروش می‌تواند مشکل باشد؟"
               },
+              "fare": {
+                "en": "A strategic investor holds the right to see any sale offer first. What can that do to an exit?",
+                "fa": "سرمایه‌گذار راهبردی حق دارد هر پیشنهاد فروش را اول ببیند. این با خروج چه می‌تواند بکند؟"
+              },
               "options": [
                 {
                   "en": "It raises the legal fees",
@@ -1175,7 +1291,7 @@
                 },
                 {
                   "en": "It cancels founder vesting",
-                  "fa": "vesting بنیان‌گذار را لغو می‌کند"
+                  "fa": "vesting بنیان‌گذاران را لغو می‌کند"
                 }
               ],
               "answer": 1
@@ -1204,6 +1320,10 @@
               "prompt": {
                 "en": "Joining a startup at a later stage usually means more equity and more risk.",
                 "fa": "پیوستن به استارتاپ در مرحلهٔ دیرتر معمولاً یعنی سهام بیشتر و ریسک بیشتر."
+              },
+              "fare": {
+                "en": "A CTO who joins late typically gets a bigger grant than an early joiner while also carrying more risk.",
+                "fa": "CTOای که دیر می‌پیوندد معمولاً هم سهم بیشتری از هم‌تای زودآمده می‌گیرد و هم ریسک بیشتری می‌پذیرد."
               },
               "answer": false
             }
@@ -1260,10 +1380,14 @@
                 "en": "What is the standard vesting schedule in the book?",
                 "fa": "برنامهٔ استاندارد vesting در کتاب چیست؟"
               },
+              "fare": {
+                "en": "Under the usual schedule, nothing vests in year one and the rest follows monthly. Which schedule is that?",
+                "fa": "در برنامهٔ معمول، سال اول چیزی vest نمی‌شود و باقی ماهانه می‌آید. این کدام برنامه است؟"
+              },
               "options": [
                 {
-                  "en": "Two years, no cliff",
-                  "fa": "دو سال، بدون cliff"
+                  "en": "Two years with no cliff of any kind",
+                  "fa": "دو سال، بدون هیچ‌گونه cliff"
                 },
                 {
                   "en": "Four years with a one-year cliff",
@@ -1301,6 +1425,10 @@
                 "en": "The book says founder vesting only protects investors.",
                 "fa": "کتاب می‌گوید vesting بنیان‌گذاران فقط از سرمایه‌گذاران محافظت می‌کند."
               },
+              "fare": {
+                "en": "According to the book, founders gain nothing from vesting their own shares; it serves the VCs alone.",
+                "fa": "به گفتهٔ کتاب، vest شدن سهام خود بنیان‌گذاران هیچ سودی برایشان ندارد و فقط به کار VCها می‌آید."
+              },
               "answer": false
             },
             {
@@ -1336,6 +1464,10 @@
                 "en": "What two events does double-trigger acceleration need?",
                 "fa": "acceleration دوماشه‌ای به چه دو رویدادی نیاز دارد؟"
               },
+              "fare": {
+                "en": "Which pair of events must both happen before double-trigger acceleration applies?",
+                "fa": "کدام دو اتفاق باید هر دو رخ دهند تا acceleration دوماشه‌ای فعال شود؟"
+              },
               "options": [
                 {
                   "en": "A sale and the person being let go",
@@ -1347,7 +1479,7 @@
                 },
                 {
                   "en": "A board vote and an audit",
-                  "fa": "رأی هیئت‌مدیره و یک حسابرسی"
+                  "fa": "رأی هیئت‌مدیره و حسابرسی"
                 }
               ],
               "answer": 0
@@ -1377,6 +1509,10 @@
                 "en": "Typical option pools run about 10 to 20 percent of the company.",
                 "fa": "استخرهای option رایج حدود ۱۰ تا ۲۰ درصد شرکت‌اند."
               },
+              "fare": {
+                "en": "A pool reserving 15 percent of the company for future hires falls within the typical range.",
+                "fa": "استخری که ۱۵ درصد شرکت را برای استخدام‌های آینده کنار می‌گذارد در محدودهٔ رایج است."
+              },
               "answer": true
             },
             {
@@ -1403,6 +1539,10 @@
               "prompt": {
                 "en": "Within how many days is an 83(b) election usually filed?",
                 "fa": "83(b) election معمولاً ظرف چند روز ثبت می‌شود؟"
+              },
+              "fare": {
+                "en": "A founder receives restricted stock today. How long is the usual window for the 83(b) filing?",
+                "fa": "بنیان‌گذاری امروز restricted stock می‌گیرد. مهلت معمول ثبت 83(b) چقدر است؟"
               },
               "options": [
                 {
@@ -1445,10 +1585,14 @@
                 "en": "What can the company usually do with a leaver's unvested stock?",
                 "fa": "شرکت معمولاً با سهام vest‌نشدهٔ فردی که می‌رود چه می‌تواند بکند؟"
               },
+              "fare": {
+                "en": "Someone leaves before fully vesting. What right does the company usually have over the unvested shares?",
+                "fa": "کسی پیش از vest کامل شرکت را ترک می‌کند. شرکت معمولاً حق دارد با سهام vest‌نشده‌اش چه کند؟"
+              },
               "options": [
                 {
-                  "en": "Pay it out as a bonus",
-                  "fa": "آن را به‌عنوان پاداش پرداخت کند"
+                  "en": "Pay it out to them as a cash bonus",
+                  "fa": "آن را به‌عنوان پاداش نقدی به او پرداخت کند"
                 },
                 {
                   "en": "Turn it into preferred stock",
@@ -1505,6 +1649,10 @@
                 "en": "A down round sells shares at a higher price than earlier investors paid.",
                 "fa": "در down round سهام به قیمتی بالاتر از قیمت سرمایه‌گذاران قبلی فروخته می‌شود."
               },
+              "fare": {
+                "en": "A round priced above what earlier investors paid is called a down round.",
+                "fa": "دوری که قیمتش بالاتر از پرداختیِ سرمایه‌گذاران قبلی باشد down round نام دارد."
+              },
               "answer": false
             },
             {
@@ -1532,14 +1680,18 @@
                 "en": "Which form of anti-dilution is the harshest?",
                 "fa": "کدام شکل anti-dilution سخت‌گیرانه‌ترین است؟"
               },
+              "fare": {
+                "en": "Under which anti-dilution form can one tiny cheap round reprice the old investors' shares all the way down?",
+                "fa": "در کدام شکل anti-dilution یک دور کوچک و ارزان می‌تواند قیمت سهام سرمایه‌گذاران قدیمی را تا همان قیمت تازه پایین بکشد؟"
+              },
               "options": [
                 {
                   "en": "Broad-based weighted average",
                   "fa": "میانگین وزنی broad-based"
                 },
                 {
-                  "en": "Full ratchet",
-                  "fa": "full ratchet"
+                  "en": "The full ratchet form",
+                  "fa": "شکل full ratchet"
                 },
                 {
                   "en": "Narrow-based weighted average",
@@ -1581,6 +1733,10 @@
                 "en": "Which weighted average form is more founder friendly?",
                 "fa": "کدام شکل میانگین وزنی برای بنیان‌گذاران مساعدتر است؟"
               },
+              "fare": {
+                "en": "Which version of the formula counts all outstanding common and options, making it gentler on founders?",
+                "fa": "کدام نسخهٔ فرمول همهٔ سهام عادی و optionهای موجود را می‌شمارد و برای بنیان‌گذاران ملایم‌تر است؟"
+              },
               "options": [
                 {
                   "en": "Full ratchet",
@@ -1613,6 +1769,10 @@
               "prompt": {
                 "en": "The book says founders can usually remove anti-dilution entirely from a term sheet.",
                 "fa": "کتاب می‌گوید بنیان‌گذاران معمولاً می‌توانند anti-dilution را کاملاً از term sheet حذف کنند."
+              },
+              "fare": {
+                "en": "In the book's experience, pushing to strike anti-dilution from the deal altogether usually succeeds.",
+                "fa": "به تجربهٔ کتاب، تلاش برای حذف کامل anti-dilution از معامله معمولاً نتیجه می‌دهد."
               },
               "answer": false
             },
@@ -1649,6 +1809,10 @@
                 "en": "Onto whom does anti-dilution mostly shift dilution?",
                 "fa": "anti-dilution رقیق‌شدن را عمدتاً به چه کسانی منتقل می‌کند؟"
               },
+              "fare": {
+                "en": "After an anti-dilution adjustment in a down round, whose stake shrinks the most?",
+                "fa": "پس از تعدیل anti-dilution در یک down round، سهم چه کسانی بیشتر از همه آب می‌رود؟"
+              },
               "options": [
                 {
                   "en": "The lead investor",
@@ -1660,7 +1824,7 @@
                 },
                 {
                   "en": "The company's bank",
-                  "fa": "بانک شرکت"
+                  "fa": "بانک طرف حساب شرکت"
                 }
               ],
               "answer": 1
@@ -1689,6 +1853,10 @@
               "prompt": {
                 "en": "A carve-out can let a majority of the preferred waive anti-dilution for a round.",
                 "fa": "یک carve-out می‌تواند به اکثریت سهام ترجیحی اجازه دهد برای یک دور از anti-dilution بگذرند."
+              },
+              "fare": {
+                "en": "With the right carve-out, one small investor cannot hold up a financing, because most of the preferred can waive anti-dilution.",
+                "fa": "با carve-out مناسب، یک سرمایه‌گذار کوچک نمی‌تواند جلوی دور را بگیرد، چون اکثریت سهام ترجیحی می‌توانند از anti-dilution بگذرند."
               },
               "answer": true
             }
@@ -1736,6 +1904,10 @@
                 "en": "Control terms give investors power only in proportion to their ownership.",
                 "fa": "بندهای کنترلی فقط به نسبت مالکیت به سرمایه‌گذاران قدرت می‌دهند."
               },
+              "fare": {
+                "en": "An investor holding 20 percent of the stock has no way to block a major company decision.",
+                "fa": "سرمایه‌گذاری که ۲۰ درصد سهام را دارد هیچ راهی برای جلوگیری از یک تصمیم بزرگ شرکت ندارد."
+              },
               "answer": false
             },
             {
@@ -1763,10 +1935,14 @@
                 "en": "What do protective provisions give preferred holders?",
                 "fa": "protective provisions به دارندگان سهام ترجیحی چه می‌دهد؟"
               },
+              "fare": {
+                "en": "Selling the company or changing board size may need preferred holders' consent. What do protective provisions hand them?",
+                "fa": "فروش شرکت یا تغییر اندازهٔ هیئت‌مدیره ممکن است رضایت دارندگان سهام ترجیحی را بخواهد. protective provisions چه چیزی در اختیارشان می‌گذارد؟"
+              },
               "options": [
                 {
-                  "en": "A guaranteed dividend",
-                  "fa": "سود تضمین‌شده"
+                  "en": "A guaranteed yearly dividend",
+                  "fa": "سود سالانهٔ تضمین‌شده"
                 },
                 {
                   "en": "Veto rights over key actions",
@@ -1812,14 +1988,18 @@
                 "en": "What do drag-along rights force other shareholders to do?",
                 "fa": "حق drag-along بقیهٔ سهام‌داران را به چه کاری ملزم می‌کند؟"
               },
+              "fare": {
+                "en": "The preferred majority approves an exit and a small holder objects. What does drag-along require of that holder?",
+                "fa": "اکثریت سهام ترجیحی خروج را تأیید کرده و یک سهام‌دار کوچک مخالف است. drag-along از او چه می‌خواهد؟"
+              },
               "options": [
                 {
-                  "en": "Buy more shares",
-                  "fa": "خرید سهام بیشتر"
+                  "en": "Buy more shares at the sale price",
+                  "fa": "خرید سهام بیشتر به قیمت فروش"
                 },
                 {
-                  "en": "Leave the board",
-                  "fa": "ترک هیئت‌مدیره"
+                  "en": "Step down from the board at once",
+                  "fa": "کناره‌گیری فوری از هیئت‌مدیره"
                 },
                 {
                   "en": "Vote for an approved sale",
@@ -1844,6 +2024,10 @@
               "prompt": {
                 "en": "Founders can negotiate that a drag-along also needs board or common approval.",
                 "fa": "بنیان‌گذاران می‌توانند مذاکره کنند که drag-along تأیید هیئت‌مدیره یا سهام عادی را هم لازم داشته باشد."
+              },
+              "fare": {
+                "en": "A drag-along can be written so that investors alone cannot trigger it without the board or common holders agreeing.",
+                "fa": "می‌شود drag-along را طوری نوشت که سرمایه‌گذاران به‌تنهایی و بدون موافقت هیئت‌مدیره یا دارندگان سهام عادی نتوانند آن را به کار بیندازند."
               },
               "answer": true
             },
@@ -1879,6 +2063,10 @@
               "prompt": {
                 "en": "When do preferred holders usually convert to common?",
                 "fa": "دارندگان سهام ترجیحی معمولاً کی به سهام عادی تبدیل می‌کنند؟"
+              },
+              "fare": {
+                "en": "In which situation does turning preferred stock into common make sense for its holders?",
+                "fa": "در چه وضعیتی تبدیل سهام ترجیحی به سهام عادی برای دارندگانش منطقی است؟"
               },
               "options": [
                 {
@@ -1920,6 +2108,10 @@
               "prompt": {
                 "en": "What does each new lead investor often ask for?",
                 "fa": "هر سرمایه‌گذار اصلی جدید اغلب چه می‌خواهد؟"
+              },
+              "fare": {
+                "en": "The board tends to grow with each round because every new lead investor usually requests what?",
+                "fa": "هیئت‌مدیره با هر دور بزرگ‌تر می‌شود، چون هر سرمایه‌گذار پیشروی تازه معمولاً چه چیزی طلب می‌کند؟"
               },
               "options": [
                 {
@@ -1981,6 +2173,10 @@
                 "en": "The book says dividends are usually the most important economic term in VC deals.",
                 "fa": "کتاب می‌گوید سود سهام معمولاً مهم‌ترین بند اقتصادی در معاملات VC است."
               },
+              "fare": {
+                "en": "In a typical venture deal, the book ranks dividends above every other economic term.",
+                "fa": "در یک معاملهٔ venture معمولی، کتاب سود سهام را بالاتر از هر بند اقتصادی دیگری می‌نشاند."
+              },
               "answer": false
             },
             {
@@ -2008,14 +2204,18 @@
                 "en": "What can a long list of conditions precedent signal?",
                 "fa": "فهرست طولانی conditions precedent نشانهٔ چه می‌تواند باشد؟"
               },
+              "fare": {
+                "en": "A term sheet lists many things that must happen before funding. What might that tell you?",
+                "fa": "term sheet کارهای زیادی را فهرست کرده که باید پیش از واریز پول انجام شوند. این چه چیزی را می‌تواند به تو بگوید؟"
+              },
               "options": [
                 {
-                  "en": "The price is too low",
-                  "fa": "قیمت خیلی پایین است"
+                  "en": "The price offered is too low",
+                  "fa": "قیمت پیشنهادی خیلی پایین است"
                 },
                 {
-                  "en": "The board is too big",
-                  "fa": "هیئت‌مدیره خیلی بزرگ است"
+                  "en": "The board has grown too large",
+                  "fa": "هیئت‌مدیره زیادی بزرگ شده"
                 },
                 {
                   "en": "The VC is not yet committed",
@@ -2057,6 +2257,10 @@
                 "en": "The book says registration rights are worth a hard fight.",
                 "fa": "کتاب می‌گوید حق ثبت ارزش جنگیدن سخت را دارد."
               },
+              "fare": {
+                "en": "According to the book, founders should spend real negotiating effort on registration rights.",
+                "fa": "به گفتهٔ کتاب، بنیان‌گذاران باید انرژی جدی مذاکره را صرف حق ثبت کنند."
+              },
               "answer": false
             },
             {
@@ -2084,18 +2288,22 @@
                 "en": "What does a no-shop clause forbid after the term sheet is signed?",
                 "fa": "بند no-shop پس از امضای term sheet چه چیزی را منع می‌کند؟"
               },
+              "fare": {
+                "en": "You have signed a term sheet with a no-shop. Which activity is now off limits for a set time?",
+                "fa": "term sheetای با بند no-shop امضا کرده‌ای. کدام کار برای مدتی معین ممنوع می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Seeking other investors",
                   "fa": "جست‌وجوی سرمایه‌گذاران دیگر"
                 },
                 {
-                  "en": "Hiring new staff",
-                  "fa": "استخدام کارکنان جدید"
+                  "en": "Hiring new employees",
+                  "fa": "استخدام کارمند جدید"
                 },
                 {
-                  "en": "Paying salaries",
-                  "fa": "پرداخت حقوق"
+                  "en": "Paying staff salaries",
+                  "fa": "پرداخت حقوق کارکنان"
                 }
               ],
               "answer": 0
@@ -2125,18 +2333,22 @@
                 "en": "What does a pro rata right let investors do?",
                 "fa": "حق pro rata به سرمایه‌گذاران اجازهٔ چه کاری می‌دهد؟"
               },
+              "fare": {
+                "en": "A pro rata right protects an investor's ownership in later rounds by allowing what?",
+                "fa": "حق pro rata با اجازهٔ چه کاری نمی‌گذارد سهم سرمایه‌گذار در دورهای بعد کم شود؟"
+              },
               "options": [
                 {
-                  "en": "Sell shares to anyone",
-                  "fa": "فروش سهام به هر کسی"
+                  "en": "Sell their shares to any outside buyer",
+                  "fa": "فروش سهامشان به هر خریدار بیرونی"
                 },
                 {
                   "en": "Buy their share of future financings",
                   "fa": "خرید سهمشان در دورهای آینده"
                 },
                 {
-                  "en": "Replace the CEO",
-                  "fa": "جایگزینی مدیرعامل"
+                  "en": "Replace the company's CEO at will",
+                  "fa": "جایگزینی مدیرعامل شرکت به دلخواه"
                 }
               ],
               "answer": 1
@@ -2165,6 +2377,10 @@
               "prompt": {
                 "en": "The book says the company usually pays for the investors' lawyers too.",
                 "fa": "کتاب می‌گوید شرکت معمولاً هزینهٔ وکیل‌های سرمایه‌گذاران را هم می‌پردازد."
+              },
+              "fare": {
+                "en": "Legal bills in a venture deal, including those of the investors' counsel, normally land on the company.",
+                "fa": "صورت‌حساب‌های حقوقی معاملهٔ venture، از جمله حق‌الزحمهٔ وکیل سرمایه‌گذاران، معمولاً پای شرکت نوشته می‌شود."
               },
               "answer": true
             }
@@ -2212,6 +2428,10 @@
                 "en": "Work done at a previous employer can never be claimed by that employer.",
                 "fa": "کاری که نزد کارفرمای قبلی انجام شده هرگز نمی‌تواند مورد ادعای آن کارفرما باشد."
               },
+              "fare": {
+                "en": "Code you wrote while working for a past employer is safely yours to build a startup on.",
+                "fa": "کدی که هنگام کار برای کارفرمای قبلی نوشته‌ای بی‌دردسر مال توست و می‌توانی استارتاپ را رویش بسازی."
+              },
               "answer": false
             },
             {
@@ -2239,10 +2459,14 @@
                 "en": "To whom does US law usually limit startup share sales?",
                 "fa": "قانون آمریکا فروش سهام استارتاپ را معمولاً به چه کسانی محدود می‌کند؟"
               },
+              "fare": {
+                "en": "Which group of buyers, defined by income or wealth tests, may usually buy startup shares in the US?",
+                "fa": "در آمریکا معمولاً کدام گروه از خریداران، که با معیار درآمد یا دارایی تعریف می‌شوند، اجازهٔ خرید سهام استارتاپ دارند؟"
+              },
               "options": [
                 {
-                  "en": "Company employees only",
-                  "fa": "فقط کارکنان شرکت"
+                  "en": "The company's own staff only",
+                  "fa": "فقط کارکنان خود شرکت"
                 },
                 {
                   "en": "Accredited investors",
@@ -2250,7 +2474,7 @@
                 },
                 {
                   "en": "Banks and pension funds only",
-                  "fa": "فقط بانک‌ها و صندوق‌های بازنشستگی"
+                  "fa": "فقط بانک و صندوق بازنشستگی"
                 }
               ],
               "answer": 1
@@ -2288,6 +2512,10 @@
                 "en": "What does the book say about a missed 83(b) election?",
                 "fa": "کتاب دربارهٔ جاانداختن 83(b) election چه می‌گوید؟"
               },
+              "fare": {
+                "en": "A founder lets the 30-day 83(b) window pass. How does the book rate that mistake?",
+                "fa": "بنیان‌گذاری مهلت ۳۰روزهٔ 83(b) را از دست می‌دهد. کتاب این اشتباه را چطور ارزیابی می‌کند؟"
+              },
               "options": [
                 {
                   "en": "It cannot be fixed afterwards",
@@ -2298,7 +2526,7 @@
                   "fa": "می‌شود در دور بعد ثبتش کرد"
                 },
                 {
-                  "en": "It only affects the investors",
+                  "en": "It only matters to the investors",
                   "fa": "فقط به سرمایه‌گذاران مربوط است"
                 }
               ],
@@ -2329,6 +2557,10 @@
                 "en": "Messy records can slow due diligence and even break a deal.",
                 "fa": "سوابق آشفته می‌تواند due diligence را کند کند و حتی معامله را به هم بزند."
               },
+              "fare": {
+                "en": "Poorly kept corporate records are a risk to closing a deal, not just an inconvenience.",
+                "fa": "سوابق شرکتی نامرتب فقط مایهٔ دردسر نیست؛ می‌تواند بسته‌شدن معامله را هم به خطر بیندازد."
+              },
               "answer": true
             },
             {
@@ -2356,18 +2588,22 @@
                 "en": "What does using a professional valuation firm give the company under 409A?",
                 "fa": "استفاده از یک شرکت حرفه‌ای ارزش‌گذاری در 409A چه چیزی به شرکت می‌دهد؟"
               },
+              "fare": {
+                "en": "A company hires an outside valuation firm for its 409A. What protection does that create?",
+                "fa": "شرکتی برای 409A سراغ یک شرکت ارزش‌گذاری بیرونی می‌رود. این چه پشتوانه‌ای برایش می‌سازد؟"
+              },
               "options": [
                 {
-                  "en": "A higher share price",
-                  "fa": "قیمت سهم بالاتر"
+                  "en": "A higher price for its common shares",
+                  "fa": "قیمت بالاتر برای سهام عادی‌اش"
                 },
                 {
                   "en": "An exemption from all taxes",
                   "fa": "معافیت از همهٔ مالیات‌ها"
                 },
                 {
-                  "en": "A safe harbor",
-                  "fa": "یک safe harbor"
+                  "en": "A safe harbor for its valuation",
+                  "fa": "یک safe harbor برای ارزش‌گذاری‌اش"
                 }
               ],
               "answer": 2
@@ -2397,6 +2633,10 @@
                 "en": "What does the book advise about legal help?",
                 "fa": "کتاب دربارهٔ کمک حقوقی چه توصیه‌ای می‌کند؟"
               },
+              "fare": {
+                "en": "Founders need not become lawyers. What does the book tell them to do instead?",
+                "fa": "لازم نیست بنیان‌گذار خودش وکیل شود. کتاب می‌گوید به‌جایش چه کند؟"
+              },
               "options": [
                 {
                   "en": "Hire an experienced lawyer early",
@@ -2408,7 +2648,7 @@
                 },
                 {
                   "en": "Use free online forms only",
-                  "fa": "فقط از فرم‌های رایگان آنلاین استفاده کن"
+                  "fa": "فقط فرم رایگان آنلاین پر کن"
                 }
               ],
               "answer": 0
@@ -2466,6 +2706,10 @@
                 "en": "A convertible note fixes a share price on the day it is signed.",
                 "fa": "convertible note در روز امضا قیمت سهم را ثابت می‌کند."
               },
+              "fare": {
+                "en": "With a convertible note, investor and founder agree the price per share upfront, when the note is issued.",
+                "fa": "در convertible note، سرمایه‌گذار و بنیان‌گذار همان ابتدا، هنگام صدور note، روی قیمت هر سهم توافق می‌کنند."
+              },
               "answer": false
             },
             {
@@ -2493,18 +2737,22 @@
                 "en": "What does a valuation cap set?",
                 "fa": "valuation cap چه چیزی را تعیین می‌کند؟"
               },
+              "fare": {
+                "en": "The next round prices very high, yet noteholders convert at a lower figure. What did the cap fix in advance?",
+                "fa": "دور بعد خیلی گران قیمت می‌خورد، اما دارندگان note با رقمی پایین‌تر تبدیل می‌کنند. cap از پیش چه چیزی را مشخص کرده بود؟"
+              },
               "options": [
                 {
-                  "en": "A minimum interest rate",
-                  "fa": "حداقل نرخ بهره"
+                  "en": "A minimum interest rate the note must pay",
+                  "fa": "حداقل نرخ بهره‌ای که note باید بپردازد"
                 },
                 {
                   "en": "A maximum valuation at which the note converts",
                   "fa": "حداکثر ارزش‌گذاری‌ای که note با آن تبدیل می‌شود"
                 },
                 {
-                  "en": "A deadline for the next round",
-                  "fa": "مهلتی برای دور بعد"
+                  "en": "A deadline by which the next round must close",
+                  "fa": "مهلتی که دور بعد باید تا آن بسته شود"
                 }
               ],
               "answer": 1
@@ -2541,6 +2789,10 @@
               "prompt": {
                 "en": "Why do notes suit small early amounts?",
                 "fa": "چرا note به مبالغ کوچک اولیه می‌خورد؟"
+              },
+              "fare": {
+                "en": "What advantage do notes have over a priced round for a small first raise?",
+                "fa": "note در یک جذب کوچک اولیه چه برتری‌ای بر دور قیمت‌گذاری‌شده دارد؟"
               },
               "options": [
                 {
@@ -2583,6 +2835,10 @@
                 "en": "A SAFE carries an interest rate and a maturity date like a loan.",
                 "fa": "SAFE مثل وام نرخ بهره و تاریخ سررسید دارد."
               },
+              "fare": {
+                "en": "A SAFE investor can demand repayment once the maturity date passes.",
+                "fa": "سرمایه‌گذار SAFE می‌تواند پس از گذشتن تاریخ سررسید پولش را مطالبه کند."
+              },
               "answer": false
             },
             {
@@ -2609,6 +2865,10 @@
               "prompt": {
                 "en": "Who introduced the SAFE?",
                 "fa": "چه کسی SAFE را معرفی کرد؟"
+              },
+              "fare": {
+                "en": "The simple agreement for future equity came from which organisation?",
+                "fa": "«simple agreement for future equity» ابتکار کدام نهاد بود؟"
               },
               "options": [
                 {
@@ -2651,18 +2911,22 @@
                 "en": "What can a note pay if the company is sold before a priced round?",
                 "fa": "اگر شرکت پیش از دور قیمت‌گذاری‌شده فروخته شود، note چه می‌تواند بپردازد؟"
               },
+              "fare": {
+                "en": "An acquisition happens before any priced round. Besides converting at the cap, what does a note often give its holder?",
+                "fa": "شرکت پیش از هر دور قیمت‌گذاری‌شده خریده می‌شود. note، جدا از تبدیل با cap، اغلب چه چیزی به دارنده‌اش می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "Nothing at all",
-                  "fa": "هیچ"
+                  "en": "Nothing at all to the holder",
+                  "fa": "هیچ چیزی به دارنده"
                 },
                 {
                   "en": "A multiple of the principal",
                   "fa": "مضربی از اصل پول"
                 },
                 {
-                  "en": "Only the interest",
-                  "fa": "فقط بهره"
+                  "en": "Only the interest earned",
+                  "fa": "فقط بهرهٔ انباشته"
                 }
               ],
               "answer": 1
@@ -2711,6 +2975,10 @@
                 "en": "Who supplies the money in a VC fund?",
                 "fa": "پول یک صندوق VC را چه کسانی تأمین می‌کنند؟"
               },
+              "fare": {
+                "en": "In the limited partnership behind a fund, which group puts in the capital?",
+                "fa": "در limited partnership پشت یک صندوق، سرمایه را کدام گروه می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "General partners",
@@ -2718,7 +2986,7 @@
                 },
                 {
                   "en": "Portfolio founders",
-                  "fa": "بنیان‌گذاران شرکت‌های پرتفوی"
+                  "fa": "بنیان‌گذاران پرتفوی"
                 },
                 {
                   "en": "Limited partners",
@@ -2751,6 +3019,10 @@
               "prompt": {
                 "en": "Carry is usually paid before LPs get their capital back.",
                 "fa": "carry معمولاً پیش از بازگشت سرمایهٔ LPها پرداخت می‌شود."
+              },
+              "fare": {
+                "en": "VCs normally collect their 20 percent of profits first, and only then do LPs recover their capital.",
+                "fa": "VCها معمولاً اول ۲۰ درصد سودشان را برمی‌دارند و تازه بعد LPها اصل سرمایه‌شان را پس می‌گیرند."
               },
               "answer": false
             },
@@ -2787,18 +3059,22 @@
                 "en": "What are reserves in a VC fund?",
                 "fa": "reserves در یک صندوق VC چیست؟"
               },
+              "fare": {
+                "en": "A firm that is running low on these may not back you in a later round. What are they?",
+                "fa": "شرکتی که این‌ها را کم داشته باشد شاید در دور بعد پشتت نایستد. این‌ها چه هستند؟"
+              },
               "options": [
                 {
-                  "en": "The management fee",
-                  "fa": "management fee"
+                  "en": "The management fee charged yearly",
+                  "fa": "management fee که هر سال گرفته می‌شود"
                 },
                 {
                   "en": "Money set aside for follow-on rounds",
                   "fa": "پولی که برای دورهای بعدی کنار گذاشته شده"
                 },
                 {
-                  "en": "Carry paid to partners",
-                  "fa": "carry پرداخت‌شده به شرکا"
+                  "en": "Carry already paid to the partners",
+                  "fa": "carry که پیش‌تر به شرکا پرداخت شده"
                 }
               ],
               "answer": 1
@@ -2819,6 +3095,10 @@
               "prompt": {
                 "en": "Near the end of a fund's life, VCs may push for exits.",
                 "fa": "نزدیک پایان عمر صندوق، VCها ممکن است به خروج فشار بیاورند."
+              },
+              "fare": {
+                "en": "A fund late in its cycle can have a reason to want your company sold sooner.",
+                "fa": "صندوقی که به آخر چرخه‌اش نزدیک است ممکن است دلیلی داشته باشد که بخواهد شرکتت زودتر فروخته شود."
               },
               "answer": true
             },
@@ -2854,6 +3134,10 @@
               "prompt": {
                 "en": "To whom do VC board members owe fiduciary duties?",
                 "fa": "VCهای عضو هیئت‌مدیره در برابر چه کسانی وظیفهٔ امانی دارند؟"
+              },
+              "fare": {
+                "en": "A VC sits on your board. Whose interests does fiduciary duty require them to serve?",
+                "fa": "یک VC در هیئت‌مدیرهٔ تو نشسته است. وظیفهٔ امانی او را به رعایت منافع چه کسانی ملزم می‌کند؟"
               },
               "options": [
                 {
@@ -2895,6 +3179,10 @@
               "prompt": {
                 "en": "A firm's management fees depend on its investments doing well.",
                 "fa": "management fee یک شرکت به خوب بودن نتیجهٔ سرمایه‌گذاری‌هایش بستگی دارد."
+              },
+              "fare": {
+                "en": "If a firm's investments perform badly, its management fee income shrinks accordingly.",
+                "fa": "اگر سرمایه‌گذاری‌های یک شرکت بد نتیجه بدهند، درآمدش از management fee هم به همان نسبت کم می‌شود."
               },
               "answer": false
             }
@@ -2942,6 +3230,10 @@
                 "en": "The book advises fighting hard on every clause in the term sheet.",
                 "fa": "کتاب توصیه می‌کند سر هر بند term sheet سخت بجنگی."
               },
+              "fare": {
+                "en": "According to the book, contesting each term in turn is how founders win the ones that count.",
+                "fa": "به گفتهٔ کتاب، بنیان‌گذار با چانه‌زدن سر تک‌تک بندها بندهای مهم را می‌برد."
+              },
               "answer": false
             },
             {
@@ -2969,18 +3261,22 @@
                 "en": "What does the book call the best leverage in a negotiation?",
                 "fa": "کتاب بهترین اهرم در مذاکره را چه می‌داند؟"
               },
+              "fare": {
+                "en": "A founder wants better terms from a VC. What strengthens their hand the most, per the book?",
+                "fa": "بنیان‌گذاری شرایط بهتری از VC می‌خواهد. به گفتهٔ کتاب چه چیزی بیش از همه دستش را قوی می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "A tough lawyer",
-                  "fa": "یک وکیل سرسخت"
+                  "en": "A tough, aggressive lawyer",
+                  "fa": "یک وکیل سرسخت و تهاجمی"
                 },
                 {
                   "en": "Having more than one option",
                   "fa": "داشتن بیش از یک گزینه"
                 },
                 {
-                  "en": "A short deadline",
-                  "fa": "یک مهلت کوتاه"
+                  "en": "A short deadline for the VC",
+                  "fa": "یک مهلت کوتاه برای VC"
                 }
               ],
               "answer": 1
@@ -3018,6 +3314,10 @@
                 "en": "How does the book describe a VC deal in game theory terms?",
                 "fa": "کتاب معاملهٔ VC را با زبان نظریهٔ بازی‌ها چطور توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "Both sides will work together for years after signing. Which game theory idea does the book use for that?",
+                "fa": "دو طرف پس از امضا سال‌ها با هم کار می‌کنند. کتاب برای این وضعیت کدام مفهوم نظریهٔ بازی‌ها را به کار می‌برد؟"
+              },
               "options": [
                 {
                   "en": "A one-off sale",
@@ -3025,7 +3325,7 @@
                 },
                 {
                   "en": "A zero-sum auction",
-                  "fa": "یک مزایدهٔ حاصل‌جمع صفر"
+                  "fa": "یک حراج حاصل‌جمع صفر"
                 },
                 {
                   "en": "A repeated game",
@@ -3059,6 +3359,10 @@
                 "en": "How a VC negotiates hints at how they will act on your board.",
                 "fa": "شیوهٔ مذاکرهٔ VC نشانه‌ای از رفتار او در هیئت‌مدیرهٔ توست."
               },
+              "fare": {
+                "en": "An investor who is unreasonable during the deal will probably be unreasonable in a crisis too.",
+                "fa": "سرمایه‌گذاری که هنگام معامله غیرمنطقی است، به احتمال زیاد در بحران هم غیرمنطقی خواهد بود."
+              },
               "answer": true
             },
             {
@@ -3085,6 +3389,10 @@
               "prompt": {
                 "en": "What kind of lawyer does the book recommend?",
                 "fa": "کتاب چه نوع وکیلی را توصیه می‌کند؟"
+              },
+              "fare": {
+                "en": "Which lawyer fits the book's advice for a financing?",
+                "fa": "کدام وکیل با توصیهٔ کتاب برای یک دور سرمایه‌گذاری جور است؟"
               },
               "options": [
                 {
@@ -3126,6 +3434,10 @@
               "prompt": {
                 "en": "What does BATNA stand for?",
                 "fa": "BATNA مخفف چیست؟"
+              },
+              "fare": {
+                "en": "Your backup plan if no deal is reached is your BATNA. What do the letters mean?",
+                "fa": "برنامهٔ پشتیبانت در صورت نرسیدن به توافق، BATNA توست. این حروف به چه معناست؟"
               },
               "options": [
                 {
@@ -3187,6 +3499,10 @@
                 "en": "Price is the only LOI term that really matters.",
                 "fa": "قیمت تنها بند LOI است که واقعاً اهمیت دارد."
               },
+              "fare": {
+                "en": "Between two offers, the book says the one with the higher price is always worth more to the seller.",
+                "fa": "کتاب می‌گوید بین دو پیشنهاد، آن‌که قیمت بالاتری دارد همیشه برای فروشنده ارزش بیشتری دارد."
+              },
               "answer": false
             },
             {
@@ -3213,6 +3529,10 @@
               "prompt": {
                 "en": "What does the buyer leave behind in an asset deal?",
                 "fa": "خریدار در asset deal چه چیزی را جا می‌گذارد؟"
+              },
+              "fare": {
+                "en": "A buyer picks an asset deal over a stock deal. What does it avoid taking on?",
+                "fa": "خریدار به‌جای stock deal سراغ asset deal می‌رود. از قبول چه چیزی شانه خالی می‌کند؟"
               },
               "options": [
                 {
@@ -3263,18 +3583,22 @@
                 "en": "What does an escrow in an acquisition cover?",
                 "fa": "escrow در خرید شرکت چه چیزی را پوشش می‌دهد؟"
               },
+              "fare": {
+                "en": "Part of the sale price is held back for a year or more. What is that money there to pay for?",
+                "fa": "بخشی از قیمت فروش یک سال یا بیشتر نگه داشته می‌شود. این پول برای پرداخت چه چیزی کنار گذاشته شده است؟"
+              },
               "options": [
                 {
                   "en": "Claims if representations and warranties turn out wrong",
                   "fa": "ادعاها در صورت نادرستی اظهارات و تضمین‌ها"
                 },
                 {
-                  "en": "The buyer's legal fees",
-                  "fa": "هزینه‌های حقوقی خریدار"
+                  "en": "The buyer's legal fees and other costs of the transaction",
+                  "fa": "هزینه‌های حقوقی خریدار و دیگر هزینه‌های معامله"
                 },
                 {
-                  "en": "Employee holiday pay",
-                  "fa": "حقوق مرخصی کارکنان"
+                  "en": "Holiday pay owed to employees at the time of the sale",
+                  "fa": "حقوق مرخصی طلب کارکنان در زمان فروش"
                 }
               ],
               "answer": 0
@@ -3304,6 +3628,10 @@
                 "en": "Employee matters in an LOI include how unvested options are treated.",
                 "fa": "موضوعات کارکنان در LOI شامل نحوهٔ برخورد با optionهای vest‌نشده است."
               },
+              "fare": {
+                "en": "What happens to options that have not yet vested is one of the points an LOI deals with.",
+                "fa": "سرنوشت optionهایی که هنوز vest نشده‌اند یکی از نکاتی است که LOI به آن می‌پردازد."
+              },
               "answer": true
             },
             {
@@ -3331,18 +3659,22 @@
                 "en": "What does an LOI's no-shop clause stop?",
                 "fa": "بند no-shop در LOI جلوی چه چیزی را می‌گیرد؟"
               },
+              "fare": {
+                "en": "After an LOI with a no-shop is signed, which activity is blocked?",
+                "fa": "پس از امضای LOIای با بند no-shop، کدام کار ممنوع می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "The buyer hiring staff",
-                  "fa": "استخدام کارکنان توسط خریدار"
+                  "en": "The buyer hiring the seller's staff",
+                  "fa": "استخدام کارکنان فروشنده توسط خریدار"
                 },
                 {
                   "en": "The seller talking to other buyers",
                   "fa": "صحبت فروشنده با خریداران دیگر"
                 },
                 {
-                  "en": "Board meetings",
-                  "fa": "جلسات هیئت‌مدیره"
+                  "en": "The seller holding board meetings",
+                  "fa": "برگزاری جلسات هیئت‌مدیره توسط فروشنده"
                 }
               ],
               "answer": 1
@@ -3371,6 +3703,10 @@
               "prompt": {
                 "en": "In an earn-out, part of the price depends on hitting targets after the sale.",
                 "fa": "در earn-out بخشی از قیمت به رسیدن به اهداف پس از فروش بستگی دارد."
+              },
+              "fare": {
+                "en": "With an earn-out, the seller receives some of the money only later, and only if agreed goals are reached.",
+                "fa": "در earn-out فروشنده بخشی از پول را دیرتر می‌گیرد، آن هم فقط اگر اهداف توافق‌شده محقق شوند."
               },
               "answer": true
             }
@@ -3418,6 +3754,10 @@
                 "en": "Product crowdfunding backers receive shares in the company.",
                 "fa": "حامیان crowdfunding محصول سهمی از شرکت دریافت می‌کنند."
               },
+              "fare": {
+                "en": "Backing a Kickstarter product campaign makes you a part-owner of the company behind it.",
+                "fa": "حمایت از یک کمپین محصول در Kickstarter تو را شریک مالکیت شرکت سازنده‌اش می‌کند."
+              },
               "answer": false
             },
             {
@@ -3445,10 +3785,14 @@
                 "en": "What does the company give up in a product campaign?",
                 "fa": "شرکت در کمپین محصول چه چیزی واگذار می‌کند؟"
               },
+              "fare": {
+                "en": "A product campaign works as a pre-order. What does it cost the company in ownership or control?",
+                "fa": "کمپین محصول در عمل یک پیش‌فروش است. از نظر مالکیت یا کنترل چه هزینه‌ای برای شرکت دارد؟"
+              },
               "options": [
                 {
-                  "en": "No equity",
-                  "fa": "هیچ سهمی"
+                  "en": "No equity at all",
+                  "fa": "اصلاً هیچ سهمی"
                 },
                 {
                   "en": "A board seat",
@@ -3494,18 +3838,22 @@
                 "en": "Which US law opened equity crowdfunding to non-accredited investors?",
                 "fa": "کدام قانون آمریکا crowdfunding سهام را به روی سرمایه‌گذاران non-accredited باز کرد؟"
               },
+              "fare": {
+                "en": "People who do not meet the accredited tests gained access to buying startup shares through which law?",
+                "fa": "کسانی که شرایط accredited را ندارند با کدام قانون به خرید سهام استارتاپ راه پیدا کردند؟"
+              },
               "options": [
                 {
                   "en": "The Sarbanes-Oxley Act",
                   "fa": "قانون Sarbanes-Oxley"
                 },
                 {
-                  "en": "The JOBS Act",
-                  "fa": "JOBS Act"
+                  "en": "The JOBS Act of 2012",
+                  "fa": "JOBS Act سال ۲۰۱۲"
                 },
                 {
-                  "en": "The 409A rule",
-                  "fa": "قاعدهٔ 409A"
+                  "en": "The 409A tax rule",
+                  "fa": "قاعدهٔ مالیاتی 409A"
                 }
               ],
               "answer": 1
@@ -3535,6 +3883,10 @@
                 "en": "The book notes that an equity crowdfunding round often has no lead investor.",
                 "fa": "کتاب اشاره می‌کند که دور crowdfunding سهام اغلب سرمایه‌گذار پیشرو ندارد."
               },
+              "fare": {
+                "en": "Unlike a VC round, an equity crowdfunding round may have nobody who sets the terms and joins the board.",
+                "fa": "برخلاف دور VC، در دور crowdfunding سهام ممکن است کسی نباشد که شرایط را تعیین کند و به هیئت‌مدیره بیاید."
+              },
               "answer": true
             },
             {
@@ -3562,18 +3914,22 @@
                 "en": "Which products is product crowdfunding most popular for?",
                 "fa": "crowdfunding محصول بیشتر برای کدام محصولات رایج است؟"
               },
+              "fare": {
+                "en": "The book sees product crowdfunding taking off mainly for which kind of product?",
+                "fa": "به گفتهٔ کتاب، crowdfunding محصول بیشتر برای کدام نوع محصول جا افتاده است؟"
+              },
               "options": [
                 {
-                  "en": "Deep B2B software",
-                  "fa": "نرم‌افزار تخصصی B2B"
+                  "en": "Deep B2B software sold to enterprises",
+                  "fa": "نرم‌افزار تخصصی B2B برای سازمان‌ها"
                 },
                 {
                   "en": "Physical products such as hardware",
                   "fa": "محصولات فیزیکی مثل سخت‌افزار"
                 },
                 {
-                  "en": "Products with no prototype",
-                  "fa": "محصولات بدون نمونهٔ اولیه"
+                  "en": "Products that have no prototype yet",
+                  "fa": "محصولاتی که هنوز نمونهٔ اولیه ندارند"
                 }
               ],
               "answer": 1
@@ -3602,6 +3958,10 @@
               "prompt": {
                 "en": "An equity crowdfunding campaign still has a price and terms.",
                 "fa": "کمپین crowdfunding سهام هم قیمت و شرایط دارد."
+              },
+              "fare": {
+                "en": "Raising equity from a crowd does not free a founder from reading the price and terms carefully.",
+                "fa": "جذب سرمایهٔ سهامی از جمع، بنیان‌گذار را از دقیق خواندن قیمت و شرایط بی‌نیاز نمی‌کند."
               },
               "answer": true
             }

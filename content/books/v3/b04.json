@@ -68,6 +68,10 @@
                 "en": "Arkad tells his friends that fate made him rich.",
                 "fa": "Arkad به دوستانش می‌گوید سرنوشت او را ثروتمند کرد."
               },
+              "fare": {
+                "en": "Asked why he grew rich, Arkad gives the credit to fate.",
+                "fa": "Arkad در پاسخ دوستانش، ثروتش را به حساب سرنوشت می‌گذارد."
+              },
               "answer": false
             },
             {
@@ -103,18 +107,22 @@
                 "en": "Why did Arkad's first investment fail?",
                 "fa": "چرا اولین سرمایه‌گذاری Arkad شکست خورد؟"
               },
+              "fare": {
+                "en": "What mistake cost Arkad his first savings?",
+                "fa": "کدام اشتباه اولین پس‌انداز Arkad را به باد داد؟"
+              },
               "options": [
                 {
                   "en": "He gave his savings to a brickmaker to buy jewels",
                   "fa": "پس‌اندازش را به یک آجرساز داد تا جواهر بخرد"
                 },
                 {
-                  "en": "He lent to a shield maker who never repaid",
-                  "fa": "به سپرسازی قرض داد که هیچ‌وقت پس نداد"
+                  "en": "He lent it all to a shield maker who never repaid him",
+                  "fa": "همهٔ آن را به سپرسازی قرض داد که هیچ‌وقت پس نداد"
                 },
                 {
-                  "en": "Algamish took his tenth as a fee",
-                  "fa": "Algamish یک‌دهمش را به‌عنوان کارمزد گرفت"
+                  "en": "Algamish took the whole tenth as his own fee",
+                  "fa": "Algamish کل یک‌دهم را به‌عنوان کارمزد خودش گرفت"
                 }
               ],
               "answer": 0
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "What did Algamish accuse Arkad of after the shield maker's rental was spent?",
                 "fa": "پس از خرج شدن بهرهٔ سپرساز، Algamish چه اتهامی به Arkad زد؟"
+              },
+              "fare": {
+                "en": "Arkad used the shield maker's rental for a feast and a tunic. How did Algamish describe that?",
+                "fa": "Arkad بهرهٔ سپرساز را صرف مهمانی و جامه کرد. Algamish این کار را چه نامید؟"
               },
               "options": [
                 {
@@ -177,6 +189,10 @@
                 "en": "Arkad advises taking financial advice from anyone willing to give it.",
                 "fa": "Arkad توصیه می‌کند از هرکسی که مایل است، مشورت مالی بگیری."
               },
+              "fare": {
+                "en": "In Arkad's lessons, any willing adviser is good enough for money matters, experienced or not.",
+                "fa": "در درس‌های Arkad، برای کار پول هر مشاورِ مشتاقی کافی است، چه باتجربه چه بی‌تجربه."
+              },
               "answer": false
             },
             {
@@ -204,18 +220,22 @@
                 "en": "According to Arkad's students, whom does the goddess of good luck favour?",
                 "fa": "به گفتهٔ شاگردان Arkad، ایزدبانوی خوش‌شانسی چه کسانی را دوست دارد؟"
               },
+              "fare": {
+                "en": "At the Temple of Learning, the debate on luck ends by saying good fortune comes to which people?",
+                "fa": "بحث شانس در معبد دانش به این نتیجه می‌رسد که بخت خوب سراغ چه کسانی می‌رود؟"
+              },
               "options": [
                 {
                   "en": "Men of action",
                   "fa": "اهل عمل"
                 },
                 {
-                  "en": "Those who wait for the right moment",
-                  "fa": "کسانی که منتظر لحظهٔ مناسب می‌مانند"
+                  "en": "Men who wait and see",
+                  "fa": "اهل انتظار"
                 },
                 {
                   "en": "Gamblers at the races",
-                  "fa": "قماربازان مسابقه"
+                  "fa": "اهل قمار مسابقه"
                 }
               ],
               "answer": 0
@@ -263,6 +283,10 @@
               "prompt": {
                 "en": "What is Arkad's first cure?",
                 "fa": "درمان اول Arkad چیست؟"
+              },
+              "fare": {
+                "en": "Which habit does 'start thy purse to fattening' describe?",
+                "fa": "«کیسه‌ات را پر کردن آغاز کن» کدام عادت را توصیف می‌کند؟"
               },
               "options": [
                 {
@@ -313,6 +337,10 @@
                 "en": "Clason says necessary expenses stay fixed as income rises.",
                 "fa": "Clason می‌گوید هزینه‌های ضروری با بالا رفتن درآمد ثابت می‌مانند."
               },
+              "fare": {
+                "en": "In Clason's view, a pay rise leaves the expenses we call necessary just where they were.",
+                "fa": "به نظر Clason، وقتی درآمد بیشتر می‌شود، خرج‌هایی که ضروری می‌نامیم همان‌جا که بودند می‌مانند."
+              },
               "answer": false
             },
             {
@@ -340,6 +368,10 @@
                 "en": "What does the seventh cure ask of you?",
                 "fa": "درمان هفتم از تو چه می‌خواهد؟"
               },
+              "fare": {
+                "en": "Which of these is the last of Arkad's seven cures?",
+                "fa": "کدام‌یک آخرین درمان از هفت درمان Arkad است؟"
+              },
               "options": [
                 {
                   "en": "Increase your ability to earn",
@@ -351,7 +383,7 @@
                 },
                 {
                   "en": "Buy a larger dwelling",
-                  "fa": "خانهٔ بزرگ‌تری بخر"
+                  "fa": "یک خانهٔ بزرگ‌تر بخر"
                 }
               ],
               "answer": 0
@@ -380,6 +412,10 @@
               "prompt": {
                 "en": "Put the first four cures in order",
                 "fa": "چهار درمان اول را به ترتیب بچین"
+              },
+              "fare": {
+                "en": "Arrange these four cures from the first Arkad taught to the fourth",
+                "fa": "این چهار درمان را از اولی که Arkad درس داد تا چهارمی مرتب کن"
               },
               "options": [
                 {
@@ -422,6 +458,10 @@
               "prompt": {
                 "en": "Applying Arkad's first cure, what happens the day salary lands?",
                 "fa": "با درمان اول Arkad، روزی که حقوق می‌رسد چه می‌شود؟"
+              },
+              "fare": {
+                "en": "On a Dutch payday, what does 'kept first' look like in practice?",
+                "fa": "در روز واریز حقوق در هلند، «اول نگه داشتن» در عمل چه شکلی دارد؟"
               },
               "options": [
                 {
@@ -483,6 +523,10 @@
                 "en": "Nomasir read the tablet first and never lost his father's gold.",
                 "fa": "Nomasir اول لوح را خواند و هیچ‌وقت طلای پدرش را از دست نداد."
               },
+              "fare": {
+                "en": "Nomasir kept his father's gold safe because he followed the tablet from the start.",
+                "fa": "Nomasir چون از همان آغاز به لوح عمل کرد، طلای پدرش را سالم نگه داشت."
+              },
               "answer": false
             },
             {
@@ -509,6 +553,10 @@
               "prompt": {
                 "en": "Under the third law, whose advice keeps gold safe?",
                 "fa": "بنا بر قانون سوم، مشورت چه کسانی طلا را امن نگه می‌دارد؟"
+              },
+              "fare": {
+                "en": "The third law says gold clings to the cautious owner who invests on whose counsel?",
+                "fa": "قانون سوم می‌گوید طلا نزد مالک محتاطی می‌ماند که به توصیهٔ چه کسانی سرمایه‌گذاری کند؟"
               },
               "options": [
                 {
@@ -559,6 +607,10 @@
                 "en": "What did Nomasir bring back for the clay tablet?",
                 "fa": "Nomasir در ازای لوح گلی چه چیزی برگرداند؟"
               },
+              "fare": {
+                "en": "On his return, what did Nomasir hand his father as the price of the tablet's wisdom?",
+                "fa": "Nomasir هنگام بازگشت، بهای خرد لوح را با چه چیزی به پدرش پرداخت؟"
+              },
               "options": [
                 {
                   "en": "Two bags of gold",
@@ -569,8 +621,8 @@
                   "fa": "یک اسب تندروتر"
                 },
                 {
-                  "en": "Nothing, he had lost everything",
-                  "fa": "هیچ، همه‌چیز را از دست داده بود"
+                  "en": "Nothing, all was lost",
+                  "fa": "هیچ، همه بر باد رفت"
                 }
               ],
               "answer": 0
@@ -600,6 +652,10 @@
                 "en": "Mathon says the kindest way to help a friend is to take his burdens onto yourself.",
                 "fa": "Mathon می‌گوید مهربانانه‌ترین راه کمک به دوست، به دوش گرفتن بار اوست."
               },
+              "fare": {
+                "en": "In Mathon's rule, helping a friend properly means his burdens become yours.",
+                "fa": "طبق قاعدهٔ Mathon، کمک درست به دوست یعنی بار او بار تو شود."
+              },
               "answer": false
             },
             {
@@ -619,18 +675,22 @@
                 "en": "How does Dabasir's plan split income?",
                 "fa": "برنامهٔ Dabasir درآمد را چگونه تقسیم می‌کند؟"
               },
+              "fare": {
+                "en": "Which division of earnings is recorded on Dabasir's clay tablets?",
+                "fa": "کدام تقسیم درآمد روی لوح‌های گلی Dabasir ثبت شده است؟"
+              },
               "options": [
                 {
                   "en": "One-tenth saved, seven-tenths to live, two-tenths to creditors",
                   "fa": "یک‌دهم پس‌انداز، هفت‌دهم زندگی، دو‌دهم طلبکاران"
                 },
                 {
-                  "en": "Half saved, half spent",
-                  "fa": "نصف پس‌انداز، نصف خرج"
+                  "en": "Half saved for the future, half spent on daily living needs",
+                  "fa": "نصف پس‌انداز برای آینده، نصف خرج نیازهای روزمره"
                 },
                 {
-                  "en": "Everything to creditors until the debts are gone",
-                  "fa": "همه به طلبکاران تا بدهی‌ها تمام شود"
+                  "en": "Everything goes to creditors until all of the debts are fully gone",
+                  "fa": "همه‌چیز به طلبکاران می‌رسد تا همهٔ بدهی‌ها کاملاً تمام شود"
                 }
               ],
               "answer": 0

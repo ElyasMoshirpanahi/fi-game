@@ -68,14 +68,18 @@
                 "en": "What defines a random walk?",
                 "fa": "گام تصادفی چه تعریفی دارد؟"
               },
+              "fare": {
+                "en": "A path is called a random walk when which of these holds?",
+                "fa": "مسیری را وقتی گام تصادفی می‌نامند که کدام‌یک برقرار باشد؟"
+              },
               "options": [
                 {
                   "en": "Future steps cannot be predicted from past steps",
                   "fa": "قدم‌های بعدی را نمی‌شود از قدم‌های قبلی پیش‌بینی کرد"
                 },
                 {
-                  "en": "Each step repeats the one before it",
-                  "fa": "هر قدم همان قدم قبلی را تکرار می‌کند"
+                  "en": "Each step simply repeats the one that came before it",
+                  "fa": "هر قدم صرفاً همان قدمی را که پیش از آن آمده تکرار می‌کند"
                 },
                 {
                   "en": "Prices always drift upward each week",
@@ -108,6 +112,10 @@
               "prompt": {
                 "en": "The firm-foundation theory says a share has no value beyond what the next buyer pays.",
                 "fa": "نظریهٔ بنیان محکم می‌گوید سهم ارزشی جز پولی که خریدار بعدی می‌دهد ندارد."
+              },
+              "fare": {
+                "en": "According to the firm-foundation theory, the only thing behind a share's price is the next buyer's willingness to pay.",
+                "fa": "طبق نظریهٔ بنیان محکم، پشت قیمت سهم چیزی جز تمایل خریدار بعدی به پرداخت نیست."
               },
               "answer": false
             },
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "In Keynes's beauty contest, how do you win?",
                 "fa": "در مسابقهٔ زیبایی Keynes چطور برنده می‌شوی؟"
+              },
+              "fare": {
+                "en": "Which strategy takes the prize in the newspaper contest Keynes compared investing to?",
+                "fa": "در مسابقهٔ روزنامه‌ای که Keynes سرمایه‌گذاری را به آن تشبیه کرد، کدام راهبرد جایزه را می‌برد؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "Under the castle-in-the-air theory, a share is worth what someone else will pay for it.",
                 "fa": "در نظریهٔ قصر در هوا، سهم به اندازهٔ پولی می‌ارزد که کس دیگری برایش می‌دهد."
               },
+              "fare": {
+                "en": "A castle-in-the-air investor values a share by the price another person is ready to pay.",
+                "fa": "سرمایه‌گذارِ پیرو نظریهٔ قصر در هوا ارزش سهم را با قیمتی می‌سنجد که شخص دیگری حاضر است بپردازد."
+              },
               "answer": true
             },
             {
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "How does Malkiel describe an investor, as opposed to a speculator?",
                 "fa": "Malkiel سرمایه‌گذار را در برابر سفته‌باز چطور توصیف می‌کند؟"
+              },
+              "fare": {
+                "en": "Which buying motive marks someone as an investor in Malkiel's sense, not a speculator?",
+                "fa": "کدام انگیزهٔ خرید، به تعبیر Malkiel، نشانهٔ سرمایه‌گذار است نه سفته‌باز؟"
               },
               "options": [
                 {
@@ -252,6 +272,10 @@
               "prompt": {
                 "en": "Intrinsic value is easy to pin down because growth far into the future is easy to forecast.",
                 "fa": "ارزش ذاتی را آسان می‌توان تعیین کرد، چون رشد در آیندهٔ دور به‌آسانی پیش‌بینی‌پذیر است."
+              },
+              "fare": {
+                "en": "Because distant growth can be forecast with confidence, working out intrinsic value is straightforward.",
+                "fa": "چون رشد سال‌های دور را می‌توان با اطمینان پیش‌بینی کرد، محاسبهٔ ارزش ذاتی کار ساده‌ای است."
               },
               "answer": false
             }
@@ -299,6 +323,10 @@
                 "en": "Tulip bulb prices rose twentyfold in January 1637 alone.",
                 "fa": "قیمت پیاز لاله فقط در ژانویهٔ ۱۶۳۷ بیست برابر شد."
               },
+              "fare": {
+                "en": "In a single month, January 1637, a tulip bulb came to cost twenty times as much.",
+                "fa": "تنها در یک ماه، ژانویهٔ ۱۶۳۷، بهای پیاز لاله به بیست برابر رسید."
+              },
               "answer": true
             },
             {
@@ -325,6 +353,10 @@
               "prompt": {
                 "en": "What happened to tulip prices in February 1637?",
                 "fa": "در فوریهٔ ۱۶۳۷ چه بر سر قیمت لاله آمد؟"
+              },
+              "fare": {
+                "en": "What became of tulip prices in the month after their January 1637 surge?",
+                "fa": "قیمت لاله در ماهِ پس از جهش ژانویهٔ ۱۶۳۷ چه سرنوشتی پیدا کرد؟"
               },
               "options": [
                 {
@@ -367,6 +399,10 @@
                 "en": "Isaac Newton, a genius, avoided losses in the South Sea Bubble.",
                 "fa": "Isaac Newton که نابغه بود، از ضرر در حباب دریای جنوب در امان ماند."
               },
+              "fare": {
+                "en": "Being a genius kept Isaac Newton's money safe during the South Sea Bubble.",
+                "fa": "نبوغ Isaac Newton پولش را در حباب دریای جنوب از ضرر حفظ کرد."
+              },
               "answer": false
             },
             {
@@ -402,18 +438,22 @@
                 "en": "How did 1920s trading pools rig prices?",
                 "fa": "گروه‌های معامله‌گر دههٔ ۱۹۲۰ چطور قیمت‌ها را دستکاری می‌کردند؟"
               },
+              "fare": {
+                "en": "What trick did trading pools of the 1920s use to move a share's price?",
+                "fa": "گروه‌های معامله‌گر دههٔ ۱۹۲۰ برای تکان دادن قیمت یک سهم چه ترفندی به کار می‌بردند؟"
+              },
               "options": [
                 {
                   "en": "They bought only shares paying high dividends",
-                  "fa": "فقط سهام با سود نقدی بالا می‌خریدند"
+                  "fa": "فقط سهامی می‌خریدند که سود نقدی بالا می‌داد"
                 },
                 {
-                  "en": "They published honest research reports",
-                  "fa": "گزارش‌های پژوهشی صادقانه منتشر می‌کردند"
+                  "en": "They published honest research reports on every share",
+                  "fa": "دربارهٔ هر سهم گزارش‌های پژوهشی صادقانه منتشر می‌کردند"
                 },
                 {
-                  "en": "Traded a share among themselves to fake activity, then dumped it on the public",
-                  "fa": "سهمی را میان خودشان معامله می‌کردند تا فعالیت ساختگی بسازند و بعد روی دست مردم خالی می‌کردند"
+                  "en": "Traded a share among themselves to fake activity",
+                  "fa": "سهمی را میان خودشان معامله می‌کردند تا فعالیت ساختگی بسازند"
                 }
               ],
               "answer": 2
@@ -443,6 +483,10 @@
                 "en": "In the 1920s, speculators often bought shares on margin, with borrowed money.",
                 "fa": "در دههٔ ۱۹۲۰ سفته‌بازان اغلب سهام را با margin، یعنی با پول قرضی، می‌خریدند."
               },
+              "fare": {
+                "en": "Margin buying, paying for shares with a broker's loan, was common among 1920s speculators.",
+                "fa": "خرید با margin، یعنی پرداخت پول سهام با وام کارگزار، میان سفته‌بازان دههٔ ۱۹۲۰ رایج بود."
+              },
               "answer": true
             },
             {
@@ -470,18 +514,22 @@
                 "en": "What let tulip speculators bet with little money down?",
                 "fa": "چه چیزی به سفته‌بازان لاله اجازه می‌داد با پول اندک شرط ببندند؟"
               },
+              "fare": {
+                "en": "Which instrument allowed a small stake to ride on rising tulip prices?",
+                "fa": "کدام ابزار اجازه می‌داد با مبلغی کم روی بالا رفتن قیمت لاله شرط بسته شود؟"
+              },
               "options": [
                 {
-                  "en": "Government bonds",
-                  "fa": "اوراق قرضهٔ دولتی"
+                  "en": "Bonds issued by the government",
+                  "fa": "اوراق قرضه‌ای که دولت منتشر کرده بود"
                 },
                 {
                   "en": "Call options on bulbs",
                   "fa": "اختیار خرید روی پیاز لاله"
                 },
                 {
-                  "en": "Shares in the South Sea Company",
-                  "fa": "سهام شرکت دریای جنوب"
+                  "en": "New South Sea Company shares",
+                  "fa": "سهام تازهٔ شرکت دریای جنوب"
                 }
               ],
               "answer": 1
@@ -530,6 +578,10 @@
                 "en": "What did the conglomerates claim to offer?",
                 "fa": "conglomerateها مدعی ارائهٔ چه چیزی بودند؟"
               },
+              "fare": {
+                "en": "What benefit were the conglomerates' mergers supposed to bring?",
+                "fa": "ادغام‌های conglomerateها قرار بود چه مزیتی به بار بیاورد؟"
+              },
               "options": [
                 {
                   "en": "Synergy, where two plus two equals five",
@@ -571,6 +623,10 @@
                 "en": "Nifty Fifty shares were sold as one-decision stocks you buy and never sell.",
                 "fa": "سهام Nifty Fifty به‌عنوان سهام یک‌تصمیمه معرفی می‌شدند: بخر و هرگز نفروش."
               },
+              "fare": {
+                "en": "The pitch for the Nifty Fifty was that one purchase was enough, with no need ever to sell.",
+                "fa": "حرفِ فروشندگان Nifty Fifty این بود که یک بار خریدن کافی است و هیچ‌وقت لازم نیست بفروشی."
+              },
               "answer": true
             },
             {
@@ -606,18 +662,22 @@
                 "en": "Which claim captured the Japanese land bubble?",
                 "fa": "کدام ادعا حباب زمین ژاپن را نشان می‌داد؟"
               },
+              "fare": {
+                "en": "Which comparison showed how far Japanese land prices had run in the late 1980s?",
+                "fa": "کدام مقایسه نشان می‌داد قیمت زمین در ژاپن اواخر دههٔ ۱۹۸۰ تا کجا بالا رفته بود؟"
+              },
               "options": [
                 {
-                  "en": "Tokyo office rents had fallen for ten years",
-                  "fa": "اجارهٔ دفتر در توکیو ده سال کاهش یافته بود"
+                  "en": "Office rents in central Tokyo had fallen every year for a full decade",
+                  "fa": "اجارهٔ دفتر در مرکز توکیو یک دههٔ کامل هر سال کاهش یافته بود"
                 },
                 {
                   "en": "Land under the Imperial Palace in Tokyo was worth as much as all the land in California",
                   "fa": "زمین زیر کاخ امپراتوری در توکیو به اندازهٔ کل زمین‌های California می‌ارزید"
                 },
                 {
-                  "en": "Japanese land was cheaper than farmland in Kansas",
-                  "fa": "زمین ژاپن از زمین کشاورزی Kansas ارزان‌تر بود"
+                  "en": "An acre of Japanese land was cheaper than an acre of farmland in Kansas",
+                  "fa": "هر جریب زمین در ژاپن از هر جریب زمین کشاورزی Kansas ارزان‌تر بود"
                 }
               ],
               "answer": 1
@@ -647,6 +707,10 @@
                 "en": "After the 1989 peak, Japanese shares held their value.",
                 "fa": "پس از اوج ۱۹۸۹، سهام ژاپن ارزششان را حفظ کردند."
               },
+              "fare": {
+                "en": "The Nikkei index stayed near its 1989 high in the years that followed.",
+                "fa": "شاخص Nikkei در سال‌های بعد نزدیک قلهٔ ۱۹۸۹ خود باقی ماند."
+              },
               "answer": false
             },
             {
@@ -674,18 +738,22 @@
                 "en": "What did the tronics boom of the early 1960s show?",
                 "fa": "رونق tronics در اوایل دههٔ ۱۹۶۰ چه چیزی را نشان داد؟"
               },
+              "fare": {
+                "en": "Which lesson follows from the soaring 'tronics' new issues?",
+                "fa": "از اوج‌گیری عرضه‌های تازه با پسوند tronics چه درسی به دست می‌آید؟"
+              },
               "options": [
                 {
-                  "en": "Electronics firms always earn the most",
-                  "fa": "شرکت‌های الکترونیک همیشه بیشترین سود را دارند"
+                  "en": "Electronics firms always earn the most profit of any sector",
+                  "fa": "شرکت‌های الکترونیک همیشه بیش از هر بخش دیگری سود می‌کنند"
                 },
                 {
                   "en": "A fashionable name could sell almost any stock",
                   "fa": "یک نام مُد روز تقریباً هر سهمی را می‌فروشد"
                 },
                 {
-                  "en": "New issues are safer than old shares",
-                  "fa": "عرضه‌های تازه از سهام قدیمی امن‌ترند"
+                  "en": "New issues are safer than long-established shares",
+                  "fa": "عرضه‌های تازه از سهام باسابقه امن‌ترند"
                 }
               ],
               "answer": 1
@@ -714,6 +782,10 @@
               "prompt": {
                 "en": "Malkiel says the Nifty Fifty hurt investors because they were poor companies.",
                 "fa": "Malkiel می‌گوید Nifty Fifty به سرمایه‌گذاران ضرر زد چون شرکت‌های بدی بودند."
+              },
+              "fare": {
+                "en": "In Malkiel's account, weak businesses, not high prices, were what cost Nifty Fifty buyers their money.",
+                "fa": "به روایت Malkiel، آنچه پول خریداران Nifty Fifty را به باد داد کسب‌وکارهای ضعیف بود، نه قیمت‌های بالا."
               },
               "answer": false
             }
@@ -761,6 +833,10 @@
                 "en": "During the dot-com boom, analysts valued firms on eyeballs and page views rather than profits.",
                 "fa": "در رونق دات‌کام، تحلیلگران شرکت‌ها را به‌جای سود با تعداد چشم‌ها و بازدید صفحه ارزش‌گذاری می‌کردند."
               },
+              "fare": {
+                "en": "Profits gave way to page views and eyeballs as the analysts' yardstick in the dot-com boom.",
+                "fa": "در رونق دات‌کام، معیار تحلیلگران از سود به بازدید صفحه و تعداد چشم‌ها تغییر کرد."
+              },
               "answer": true
             },
             {
@@ -788,18 +864,22 @@
                 "en": "How far did the Nasdaq fall from its March 2000 peak?",
                 "fa": "Nasdaq از اوج مارس ۲۰۰۰ چقدر سقوط کرد؟"
               },
+              "fare": {
+                "en": "How much of its March 2000 peak value did the Nasdaq lose?",
+                "fa": "Nasdaq چه مقدار از ارزش قلهٔ مارس ۲۰۰۰ خود را از دست داد؟"
+              },
               "options": [
                 {
-                  "en": "About 20 percent",
-                  "fa": "حدود ۲۰ درصد"
+                  "en": "About 20 percent by 2002",
+                  "fa": "حدود ۲۰ درصد تا ۲۰۰۲"
                 },
                 {
                   "en": "Almost 80 percent by 2002",
                   "fa": "نزدیک ۸۰ درصد تا ۲۰۰۲"
                 },
                 {
-                  "en": "It rose until 2002",
-                  "fa": "تا ۲۰۰۲ بالا رفت"
+                  "en": "It kept rising until 2002",
+                  "fa": "تا ۲۰۰۲ همچنان بالا رفت"
                 }
               ],
               "answer": 1
@@ -828,6 +908,10 @@
               "prompt": {
                 "en": "Put the stages of the internet bubble in order.",
                 "fa": "مراحل حباب اینترنت را به ترتیب بچین."
+              },
+              "fare": {
+                "en": "Arrange the path the internet bubble followed, from its beginning to its end.",
+                "fa": "مسیری را که حباب اینترنت پیمود از آغاز تا پایان مرتب کن."
               },
               "options": [
                 {
@@ -879,6 +963,10 @@
                 "en": "Malkiel says Bitcoin's price rests on a firm foundation of income.",
                 "fa": "Malkiel می‌گوید قیمت Bitcoin بر بنیان محکمِ درآمد استوار است."
               },
+              "fare": {
+                "en": "According to Malkiel, the income Bitcoin pays gives its price a firm foundation.",
+                "fa": "به گفتهٔ Malkiel، درآمدی که Bitcoin می‌پردازد به قیمتش بنیانی محکم می‌دهد."
+              },
               "answer": false
             },
             {
@@ -914,14 +1002,18 @@
                 "en": "What does Malkiel take from the internet's real success?",
                 "fa": "Malkiel از موفقیت واقعی اینترنت چه نتیجه‌ای می‌گیرد؟"
               },
+              "fare": {
+                "en": "The internet truly changed the world. What does that tell a buyer of its shares, according to Malkiel?",
+                "fa": "اینترنت واقعاً دنیا را عوض کرد. به گفتهٔ Malkiel این برای خریدار سهامش چه معنایی دارد؟"
+              },
               "options": [
                 {
                   "en": "Tech booms always reward early investors",
                   "fa": "رونق‌های فناوری همیشه به سرمایه‌گذاران اولیه پاداش می‌دهند"
                 },
                 {
-                  "en": "Investors should buy only internet shares",
-                  "fa": "سرمایه‌گذاران فقط باید سهام اینترنتی بخرند"
+                  "en": "Investors should fill their portfolios with only internet shares",
+                  "fa": "سرمایه‌گذاران باید سبدشان را فقط با سهام اینترنتی پر کنند"
                 },
                 {
                   "en": "A real technology is no guarantee of a good investment",
@@ -954,6 +1046,10 @@
               "prompt": {
                 "en": "Why did many lenders in the housing bubble have little reason to check borrowers?",
                 "fa": "چرا بسیاری از وام‌دهندگان در حباب مسکن دلیل چندانی برای بررسی وام‌گیرندگان نداشتند؟"
+              },
+              "fare": {
+                "en": "What removed the lenders' incentive to vet borrowers during the housing bubble?",
+                "fa": "در حباب مسکن چه چیزی انگیزهٔ وام‌دهندگان برای سنجیدن وام‌گیرندگان را از بین برد؟"
               },
               "options": [
                 {
@@ -1024,6 +1120,10 @@
                 "en": "What do chartists study?",
                 "fa": "چارتیست‌ها چه چیزی را بررسی می‌کنند؟"
               },
+              "fare": {
+                "en": "Which material does technical analysis rely on to forecast moves?",
+                "fa": "تحلیل تکنیکال برای پیش‌بینی حرکت‌ها به چه داده‌ای تکیه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Charts of past prices and volume",
@@ -1031,7 +1131,7 @@
                 },
                 {
                   "en": "Company earnings and dividends",
-                  "fa": "سود و سود نقدی شرکت"
+                  "fa": "سود شرکت‌ها و سود نقدی سهامشان"
                 },
                 {
                   "en": "Interest rates set by central banks",
@@ -1065,6 +1165,10 @@
                 "en": "A chartist shown Malkiel's coin-flip chart recognised it as random.",
                 "fa": "چارتیستی که نمودار شیر یا خط Malkiel را دید، تصادفی بودنش را تشخیص داد."
               },
+              "fare": {
+                "en": "The chartist who saw the coin-flip chart said it held no signal worth trading.",
+                "fa": "چارتیستی که نمودار شیر یا خط را دید گفت در آن هیچ نشانه‌ای برای معامله نیست."
+              },
               "answer": false
             },
             {
@@ -1092,6 +1196,10 @@
                 "en": "What happened to filter rules once trading costs were counted?",
                 "fa": "وقتی هزینهٔ معاملات حساب شد، قواعد فیلتر چه شدند؟"
               },
+              "fare": {
+                "en": "After trading costs, how did mechanical filter rules compare with simply holding?",
+                "fa": "قواعد فیلتر مکانیکی، پس از کسر هزینهٔ معاملات، در مقایسه با نگهداری ساده چه نتیجه‌ای داشتند؟"
+              },
               "options": [
                 {
                   "en": "After costs, they beat the market",
@@ -1103,7 +1211,7 @@
                 },
                 {
                   "en": "Costs made no difference to them",
-                  "fa": "هزینه‌ها برایشان فرقی نکرد"
+                  "fa": "هزینه‌ها هیچ فرقی برایشان نداشت"
                 }
               ],
               "answer": 1
@@ -1132,6 +1240,10 @@
               "prompt": {
                 "en": "Malkiel says the one sure winner from chart-based trading is the broker.",
                 "fa": "Malkiel می‌گوید تنها برندهٔ مطمئن معاملهٔ مبتنی بر نمودار کارگزار است."
+              },
+              "fare": {
+                "en": "In chart-based trading, Malkiel says only the broker is certain to come out ahead.",
+                "fa": "به گفتهٔ Malkiel در معامله با نمودار فقط کارگزار است که حتماً سود می‌برد."
               },
               "answer": true
             },
@@ -1168,10 +1280,14 @@
                 "en": "What did researchers find about links between past and future price changes?",
                 "fa": "پژوهشگران دربارهٔ رابطهٔ تغییرات گذشته و آیندهٔ قیمت چه یافتند؟"
               },
+              "fare": {
+                "en": "When tests asked whether one price change follows from the last, what turned up?",
+                "fa": "وقتی آزمودند که آیا هر تغییر قیمت از تغییر قبلی پیروی می‌کند، چه به دست آمد؟"
+              },
               "options": [
                 {
-                  "en": "Strong positive correlations",
-                  "fa": "همبستگی مثبت قوی"
+                  "en": "Very strong positive correlations",
+                  "fa": "همبستگی مثبت و بسیار قوی"
                 },
                 {
                   "en": "Correlations close to zero",
@@ -1208,6 +1324,10 @@
               "prompt": {
                 "en": "Malkiel reports that the Dow theory reliably beat buy and hold after costs.",
                 "fa": "Malkiel گزارش می‌کند که نظریهٔ Dow پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر است."
+              },
+              "fare": {
+                "en": "With costs paid, followers of the Dow theory dependably came out ahead of buy and hold in Malkiel's review.",
+                "fa": "در بررسی Malkiel، پیروان نظریهٔ Dow پس از پرداخت هزینه‌ها همواره از خرید و نگهداری جلو می‌زدند."
               },
               "answer": false
             }
@@ -1255,6 +1375,10 @@
                 "en": "Malkiel found analysts' five-year earnings forecasts beat simply extending past growth.",
                 "fa": "Malkiel دریافت پیش‌بینی‌های پنج‌سالهٔ سود تحلیلگران از ادامه دادن سادهٔ رشد گذشته بهترند."
               },
+              "fare": {
+                "en": "Simply extending past growth did worse than analysts' five-year earnings forecasts in Malkiel's study.",
+                "fa": "در پژوهش Malkiel، ادامه دادن سادهٔ رشد گذشته از پیش‌بینی پنج‌سالهٔ تحلیلگران بدتر عمل کرد."
+              },
               "answer": false
             },
             {
@@ -1289,6 +1413,10 @@
               "prompt": {
                 "en": "Which conflict of interest does Malkiel describe?",
                 "fa": "Malkiel کدام تضاد منافع را شرح می‌دهد؟"
+              },
+              "fare": {
+                "en": "What pressure distorts analysts' ratings, in Malkiel's fifth reason?",
+                "fa": "در دلیل پنجم Malkiel، چه فشاری رتبه‌بندی تحلیلگران را منحرف می‌کند؟"
               },
               "options": [
                 {
@@ -1331,6 +1459,10 @@
                 "en": "Fund managers who beat the market in one period usually keep winning in the next.",
                 "fa": "مدیرانی که در یک دوره بازار را شکست می‌دهند معمولاً در دورهٔ بعد هم برنده‌اند."
               },
+              "fare": {
+                "en": "A fund that beat the market last period is a reliable bet to beat it again.",
+                "fa": "صندوقی که دورهٔ قبل بازار را شکست داد، شرط مطمئنی برای شکست دادن دوبارهٔ آن است."
+              },
               "answer": false
             },
             {
@@ -1358,14 +1490,18 @@
                 "en": "Why do most active funds trail an index?",
                 "fa": "چرا بیشتر صندوق‌های فعال از شاخص عقب می‌مانند؟"
               },
+              "fare": {
+                "en": "Over long periods a broad index ends up ahead of most actively managed funds. What causes that?",
+                "fa": "در بلندمدت شاخص گسترده از بیشتر صندوق‌های فعال جلو می‌افتد. علتش چیست؟"
+              },
               "options": [
                 {
                   "en": "They pay fees and trading costs the index does not",
                   "fa": "کارمزد و هزینهٔ معاملاتی می‌پردازند که شاخص نمی‌پردازد"
                 },
                 {
-                  "en": "Their managers are foolish",
-                  "fa": "مدیرانشان نادان‌اند"
+                  "en": "Their managers are foolish and pick shares without any care",
+                  "fa": "مدیرانشان نادان‌اند و بی‌هیچ دقتی سهم انتخاب می‌کنند"
                 },
                 {
                   "en": "Index funds receive government subsidies",
@@ -1399,6 +1535,10 @@
                 "en": "A great company can still be a poor buy if the good news is already in the price.",
                 "fa": "اگر خبر خوب از قبل در قیمت باشد، یک شرکت عالی هنوز می‌تواند خرید بدی باشد."
               },
+              "fare": {
+                "en": "Once good news is fully priced in, buying even an excellent firm can turn out badly.",
+                "fa": "وقتی خبر خوب کاملاً در قیمت آمده باشد، خرید حتی یک شرکت درجه‌یک هم می‌تواند بد از آب درآید."
+              },
               "answer": true
             },
             {
@@ -1425,6 +1565,10 @@
               "prompt": {
                 "en": "During the internet boom, analysts rarely issued sell ratings.",
                 "fa": "در رونق اینترنت، تحلیلگران به‌ندرت توصیهٔ فروش می‌دادند."
+              },
+              "fare": {
+                "en": "Sell ratings were scarce in the internet boom, even for firms on the road to ruin.",
+                "fa": "در رونق اینترنت توصیهٔ فروش کمیاب بود، حتی برای شرکت‌هایی که رو به نابودی می‌رفتند."
               },
               "answer": true
             }
@@ -1472,6 +1616,10 @@
                 "en": "What does the weak form of the hypothesis say?",
                 "fa": "شکل ضعیف این فرضیه چه می‌گوید؟"
               },
+              "fare": {
+                "en": "Which claim belongs to the weak form of the efficient-market hypothesis?",
+                "fa": "کدام ادعا متعلق به شکل ضعیف فرضیهٔ بازار کارا است؟"
+              },
               "options": [
                 {
                   "en": "Past prices cannot predict future ones",
@@ -1513,6 +1661,10 @@
                 "en": "Malkiel claims market prices are always correct.",
                 "fa": "Malkiel ادعا می‌کند قیمت‌های بازار همیشه درست‌اند."
               },
+              "fare": {
+                "en": "In Malkiel's view, pricing errors never occur in the market.",
+                "fa": "از نگاه Malkiel، در بازار هیچ‌گاه خطای قیمت‌گذاری رخ نمی‌دهد."
+              },
               "answer": false
             },
             {
@@ -1539,6 +1691,10 @@
               "prompt": {
                 "en": "What happened to many market anomalies after they were published?",
                 "fa": "بسیاری از ناهنجاری‌های بازار پس از انتشار چه شدند؟"
+              },
+              "fare": {
+                "en": "Once anomalies such as the January effect became widely known, what became of many of them?",
+                "fa": "وقتی ناهنجاری‌هایی مثل اثر ژانویه شناخته شدند، بسیاری از آن‌ها چه سرنوشتی پیدا کردند؟"
               },
               "options": [
                 {
@@ -1589,6 +1745,10 @@
                 "en": "Robert Shiller argued prices swing far more than dividends justify.",
                 "fa": "Robert Shiller استدلال کرد قیمت‌ها بسیار بیشتر از آنچه سود نقدی توجیه می‌کند نوسان دارند."
               },
+              "fare": {
+                "en": "According to Robert Shiller, dividends cannot justify how widely prices swing.",
+                "fa": "به گفتهٔ Robert Shiller، سود نقدی نمی‌تواند دامنهٔ نوسان قیمت‌ها را توجیه کند."
+              },
               "answer": true
             },
             {
@@ -1616,14 +1776,18 @@
                 "en": "Why does the professor in Malkiel's joke walk past the $100 bill?",
                 "fa": "چرا استاد در شوخی Malkiel از کنار اسکناس ۱۰۰ دلاری رد می‌شود؟"
               },
+              "fare": {
+                "en": "What reasoning keeps the finance professor from picking up the $100 bill?",
+                "fa": "چه استدلالی باعث می‌شود استاد مالی اسکناس ۱۰۰ دلاری را برندارد؟"
+              },
               "options": [
                 {
-                  "en": "He thinks it is stolen money",
-                  "fa": "فکر می‌کند پول دزدی است"
+                  "en": "He suspects it is stolen money and wants no trouble with police",
+                  "fa": "گمان می‌کند پول دزدی است و نمی‌خواهد با پلیس دردسر پیدا کند"
                 },
                 {
-                  "en": "He is late for a lecture",
-                  "fa": "برای کلاس دیر کرده است"
+                  "en": "He is running late for a lecture across campus",
+                  "fa": "برای کلاسی در آن سر دانشگاه دیرش شده است"
                 },
                 {
                   "en": "If it were real, someone would already have picked it up",
@@ -1657,18 +1821,22 @@
                 "en": "Why do a few managers show long winning streaks?",
                 "fa": "چرا چند مدیر رشته‌های برد طولانی نشان می‌دهند؟"
               },
+              "fare": {
+                "en": "What lies behind the long winning records of a handful of managers among thousands?",
+                "fa": "پشت سابقهٔ طولانیِ بردِ چند مدیر از میان هزاران مدیر چه چیزی است؟"
+              },
               "options": [
                 {
-                  "en": "They trade on secret charts",
-                  "fa": "با نمودارهای مخفی معامله می‌کنند"
+                  "en": "They trade on secret charts no one else sees",
+                  "fa": "با نمودارهای مخفی‌ای معامله می‌کنند که کس دیگری نمی‌بیند"
                 },
                 {
                   "en": "Chance alone produces a few streaks",
                   "fa": "شانس به‌تنهایی چند رشتهٔ برد پدید می‌آورد"
                 },
                 {
-                  "en": "The index is easy to beat",
-                  "fa": "شکست دادن شاخص آسان است"
+                  "en": "The index is easy for anyone to beat",
+                  "fa": "شکست دادن شاخص برای هر کسی آسان است"
                 }
               ],
               "answer": 1
@@ -1717,18 +1885,22 @@
                 "en": "What does behavioural finance say about many investors?",
                 "fa": "مالی رفتاری دربارهٔ بسیاری از سرمایه‌گذاران چه می‌گوید؟"
               },
+              "fare": {
+                "en": "Which picture of investors does behavioural finance start from?",
+                "fa": "مالی رفتاری از چه تصویری از سرمایه‌گذاران آغاز می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Many are not rational, and errors can push prices away from value",
                   "fa": "بسیاری عقلانی نیستند و خطاها می‌تواند قیمت‌ها را از ارزش دور کند"
                 },
                 {
-                  "en": "They always act on full information",
-                  "fa": "همیشه با اطلاعات کامل عمل می‌کنند"
+                  "en": "They always act calmly on full information about every share they own",
+                  "fa": "همیشه با آرامش و با اطلاعات کامل دربارهٔ هر سهمی که دارند عمل می‌کنند"
                 },
                 {
-                  "en": "They trade too rarely to affect prices",
-                  "fa": "آن‌قدر کم معامله می‌کنند که بر قیمت اثری ندارند"
+                  "en": "They trade far too rarely for their errors to have any effect on prices",
+                  "fa": "آن‌قدر کم معامله می‌کنند که خطاهایشان هیچ اثری بر قیمت‌ها ندارد"
                 }
               ],
               "answer": 0
@@ -1758,6 +1930,10 @@
                 "en": "Studies show the most active traders earn the highest returns after costs.",
                 "fa": "پژوهش‌ها نشان می‌دهد فعال‌ترین معامله‌گران پس از هزینه‌ها بیشترین بازده را دارند."
               },
+              "fare": {
+                "en": "After costs, the investors who trade most often come out with the best returns, studies show.",
+                "fa": "پژوهش‌ها نشان می‌دهد کسانی که بیش از همه معامله می‌کنند، پس از هزینه‌ها بهترین بازده را می‌برند."
+              },
               "answer": false
             },
             {
@@ -1785,14 +1961,18 @@
                 "en": "Under loss aversion, how does a loss compare with an equal gain?",
                 "fa": "در زیان‌گریزی، یک زیان در برابر سودی هم‌اندازه چطور است؟"
               },
+              "fare": {
+                "en": "Prospect theory compares the pain of losing with the pleasure of gaining the same amount. What does it find about the loss?",
+                "fa": "نظریهٔ چشم‌انداز درد باختن را با لذت بردنِ همان مبلغ مقایسه می‌کند. دربارهٔ زیان چه می‌گوید؟"
+              },
               "options": [
                 {
-                  "en": "It feels exactly the same",
-                  "fa": "دقیقاً همان حس را دارد"
+                  "en": "It feels exactly the same as the equal gain does",
+                  "fa": "دقیقاً همان حسِ سودِ هم‌اندازه را دارد"
                 },
                 {
-                  "en": "It is quickly forgotten",
-                  "fa": "زود فراموش می‌شود"
+                  "en": "It is forgotten far more quickly than the gain",
+                  "fa": "خیلی زودتر از آن سود فراموش می‌شود"
                 },
                 {
                   "en": "It hurts about two and a half times as much",
@@ -1834,6 +2014,10 @@
                 "en": "Herding means money pours into funds after they have already risen.",
                 "fa": "رفتار گله‌ای یعنی پول پس از رشد صندوق‌ها به آن‌ها سرازیر می‌شود."
               },
+              "fare": {
+                "en": "A sign of herding is a flood of new money reaching funds right after a rise.",
+                "fa": "یک نشانهٔ رفتار گله‌ای این است که سیل پول تازه درست پس از رشد صندوق‌ها به سویشان می‌رود."
+              },
               "answer": true
             },
             {
@@ -1861,18 +2045,22 @@
                 "en": "Which is one of Malkiel's behavioural lessons?",
                 "fa": "کدام یکی از درس‌های رفتاری Malkiel است؟"
               },
+              "fare": {
+                "en": "Which piece of advice would Malkiel give an investor prone to behavioural errors?",
+                "fa": "Malkiel به سرمایه‌گذاری که گرفتار خطاهای رفتاری است کدام توصیه را می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Follow the crowd into hot sectors",
-                  "fa": "دنبال جمعیت به بخش‌های داغ برو"
+                  "en": "Chase the hot sectors",
+                  "fa": "دنبال بخش‌های داغ بدو"
                 },
                 {
                   "en": "Avoid overtrading",
                   "fa": "از معاملهٔ بیش از حد دوری کن"
                 },
                 {
-                  "en": "Trade more after every loss",
-                  "fa": "پس از هر زیان بیشتر معامله کن"
+                  "en": "Trade more after a loss",
+                  "fa": "پس از زیان بیشتر معامله کن"
                 }
               ],
               "answer": 1
@@ -1901,6 +2089,10 @@
               "prompt": {
                 "en": "Rational traders can always correct crowd errors quickly.",
                 "fa": "معامله‌گران عاقل همیشه می‌توانند خطای جمعیت را سریع اصلاح کنند."
+              },
+              "fare": {
+                "en": "Crowd errors never last, because rational traders can always bet against a mania safely.",
+                "fa": "خطاهای جمعیت دوام نمی‌آورند، چون معامله‌گران عاقل همیشه می‌توانند بی‌خطر علیه جنون بازار شرط ببندند."
               },
               "answer": false
             }
@@ -1957,18 +2149,22 @@
                 "en": "What did Harry Markowitz show?",
                 "fa": "Harry Markowitz چه چیزی را نشان داد؟"
               },
+              "fare": {
+                "en": "Which insight about portfolios is credited to Harry Markowitz?",
+                "fa": "کدام بینش دربارهٔ سبد سرمایه‌گذاری به Harry Markowitz نسبت داده می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "Only the safest asset should be held",
-                  "fa": "فقط امن‌ترین دارایی را باید نگه داشت"
+                  "en": "Only the single safest asset should ever be held in a portfolio",
+                  "fa": "در سبد فقط باید همان یک دارایی را نگه داشت که از همه امن‌تر است"
                 },
                 {
                   "en": "Combining risky assets can lower the risk of the whole portfolio",
                   "fa": "ترکیب دارایی‌های پرریسک می‌تواند ریسک کل سبد را کم کند"
                 },
                 {
-                  "en": "Risk cannot be reduced at all",
-                  "fa": "ریسک اصلاً کم نمی‌شود"
+                  "en": "The risk of a portfolio cannot be reduced, however many assets it holds",
+                  "fa": "ریسک سبد کم‌شدنی نیست، هر چند دارایی هم که در آن باشد"
                 }
               ],
               "answer": 1
@@ -1998,6 +2194,10 @@
                 "en": "In Malkiel's island example, owning both the resort and the umbrella maker evens out returns.",
                 "fa": "در مثال جزیرهٔ Malkiel، داشتن هم استراحتگاه و هم سازندهٔ چتر بازده را یکنواخت می‌کند."
               },
+              "fare": {
+                "en": "Holding the resort together with the umbrella maker smooths your returns in sun and rain alike.",
+                "fa": "اگر استراحتگاه و سازندهٔ چتر را با هم داشته باشی، بازده‌ات چه در آفتاب و چه در باران هموار می‌شود."
+              },
               "answer": true
             },
             {
@@ -2025,17 +2225,21 @@
                 "en": "Under the capital asset pricing model, what risk are investors paid for?",
                 "fa": "در مدل CAPM سرمایه‌گذاران برای کدام ریسک پاداش می‌گیرند؟"
               },
+              "fare": {
+                "en": "Which kind of risk earns a reward, according to the capital asset pricing model?",
+                "fa": "طبق مدل CAPM کدام نوع ریسک پاداش دارد؟"
+              },
               "options": [
                 {
-                  "en": "Company-specific risk",
-                  "fa": "ریسک خاص شرکت"
+                  "en": "Only company risk",
+                  "fa": "فقط ریسک شرکت"
                 },
                 {
-                  "en": "Only beta",
-                  "fa": "فقط بتا"
+                  "en": "Only beta risk",
+                  "fa": "فقط ریسک بتا"
                 },
                 {
-                  "en": "Currency risk alone",
+                  "en": "Only currency risk",
                   "fa": "فقط ریسک ارز"
                 }
               ],
@@ -2065,6 +2269,10 @@
               "prompt": {
                 "en": "Fama and French found that beta alone explains returns very well.",
                 "fa": "Fama و French دریافتند بتا به‌تنهایی بازده را خیلی خوب توضیح می‌دهد."
+              },
+              "fare": {
+                "en": "The research of Fama and French confirmed that beta by itself accounts for returns.",
+                "fa": "پژوهش Fama و French تأیید کرد که بتا به‌تنهایی برای توضیح بازده کافی است."
               },
               "answer": false
             },
@@ -2101,14 +2309,18 @@
                 "en": "What does a beta above 1 mean?",
                 "fa": "بتای بالاتر از ۱ یعنی چه؟"
               },
+              "fare": {
+                "en": "How does a share with a beta higher than 1 behave?",
+                "fa": "سهمی با بتای بیشتر از ۱ چه رفتاری دارد؟"
+              },
               "options": [
                 {
-                  "en": "The share pays no dividend",
-                  "fa": "سهم سود نقدی نمی‌دهد"
+                  "en": "The share pays no dividend at all",
+                  "fa": "سهم هیچ سود نقدی‌ای پرداخت نمی‌کند"
                 },
                 {
-                  "en": "The share never falls",
-                  "fa": "سهم هرگز پایین نمی‌آید"
+                  "en": "The share never falls in a crash",
+                  "fa": "سهم در سقوط بازار هرگز پایین نمی‌آید"
                 },
                 {
                   "en": "The share swings more than the market",
@@ -2141,6 +2353,10 @@
               "prompt": {
                 "en": "Diversification can remove all risk, including market risk.",
                 "fa": "تنوع‌بخشی می‌تواند همهٔ ریسک‌ها، از جمله ریسک بازار، را از بین ببرد."
+              },
+              "fare": {
+                "en": "A well-diversified portfolio is protected even when a global crash drags most shares down.",
+                "fa": "سبدی که خوب متنوع شده حتی وقتی سقوط جهانی بیشتر سهام را پایین می‌کشد هم در امان است."
               },
               "answer": false
             }
@@ -2188,6 +2404,10 @@
                 "en": "Malkiel's fitness manual includes holding a cash reserve and insurance.",
                 "fa": "برنامهٔ تمرینی Malkiel شامل داشتن ذخیرهٔ نقدی و بیمه است."
               },
+              "fare": {
+                "en": "A cash reserve and insurance form one of the exercises in Malkiel's fitness manual.",
+                "fa": "ذخیرهٔ نقدی و بیمه یکی از تمرین‌های برنامهٔ تمرینی Malkiel است."
+              },
               "answer": true
             },
             {
@@ -2215,14 +2435,18 @@
                 "en": "What does 'make sure the shoe fits' mean?",
                 "fa": "«مطمئن شو کفش اندازهٔ پایت است» یعنی چه؟"
               },
+              "fare": {
+                "en": "Which behaviour follows Malkiel's exercise about the shoe fitting?",
+                "fa": "کدام رفتار با تمرین «کفشِ اندازه» در برنامهٔ Malkiel جور است؟"
+              },
               "options": [
                 {
-                  "en": "Buy only the cheapest fund available",
-                  "fa": "فقط ارزان‌ترین صندوق موجود را بخر"
+                  "en": "Buy only the cheapest fund available, whatever your goals and age",
+                  "fa": "فقط ارزان‌ترین صندوق موجود را بخر، هدف و سنت هرچه باشد"
                 },
                 {
-                  "en": "Copy what your colleagues hold",
-                  "fa": "همان چیزی را بخر که همکارانت دارند"
+                  "en": "Copy whatever your colleagues hold, since they earn what you earn",
+                  "fa": "هرچه همکارانت دارند همان را بخر، چون درآمدشان مثل توست"
                 },
                 {
                   "en": "Match your investments to your goals and how much risk lets you sleep",
@@ -2264,6 +2488,10 @@
                 "en": "Malkiel says fees matter little because good funds earn them back.",
                 "fa": "Malkiel می‌گوید کارمزد اهمیت کمی دارد چون صندوق‌های خوب آن را جبران می‌کنند."
               },
+              "fare": {
+                "en": "Comparing fees is a waste of time, in Malkiel's view, since costs do not reduce returns.",
+                "fa": "از نگاه Malkiel مقایسهٔ کارمزدها وقت تلف کردن است، چون هزینه‌ها از بازده کم نمی‌کنند."
+              },
               "answer": false
             },
             {
@@ -2291,18 +2519,22 @@
                 "en": "How does Malkiel estimate long-run stock returns?",
                 "fa": "Malkiel بازده بلندمدت سهام را چطور تخمین می‌زند؟"
               },
+              "fare": {
+                "en": "Chapter 13 offers a simple rule of thumb for what stocks return in the long run. What goes into it?",
+                "fa": "فصل ۱۳ برای بازده بلندمدت سهام یک قاعدهٔ سرانگشتی ساده می‌دهد. این برآورد از چه چیزی ساخته می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "Last year's return times two",
-                  "fa": "بازده پارسال ضرب در دو"
+                  "en": "Last year's return times two, carried forward for every year",
+                  "fa": "بازده پارسال ضرب در دو، که برای هر سال تکرار شود"
                 },
                 {
                   "en": "Starting dividend yield plus the growth rate of earnings",
                   "fa": "بازده سود نقدی اولیه به‌علاوهٔ نرخ رشد سود"
                 },
                 {
-                  "en": "Whatever the chart trend shows",
-                  "fa": "هرچه روند نمودار نشان دهد"
+                  "en": "Whatever the trend on the price chart shows for next year",
+                  "fa": "هرچه روند نمودار قیمت برای سال بعد نشان دهد"
                 }
               ],
               "answer": 1
@@ -2332,6 +2564,10 @@
                 "en": "When starting valuations are high, Malkiel says to expect higher future returns.",
                 "fa": "Malkiel می‌گوید وقتی ارزش‌گذاری اولیه بالاست، بازده آیندهٔ بیشتری انتظار داشته باش."
               },
+              "fare": {
+                "en": "A high price-earnings multiple at the start is a sign of richer returns to come, Malkiel says.",
+                "fa": "Malkiel می‌گوید بالا بودن نسبت قیمت به سود در آغاز نشانهٔ بازدهی پربارتر در آینده است."
+              },
               "answer": false
             },
             {
@@ -2358,6 +2594,10 @@
               "prompt": {
                 "en": "What do inflation-protected bonds do?",
                 "fa": "اوراق قرضهٔ محافظت‌شده در برابر تورم چه می‌کنند؟"
+              },
+              "fare": {
+                "en": "What feature sets inflation-protected bonds apart?",
+                "fa": "ویژگی متمایز اوراق قرضهٔ محافظت‌شده در برابر تورم چیست؟"
               },
               "options": [
                 {
@@ -2419,6 +2659,10 @@
                 "en": "Malkiel says the risk of holding shares grows the longer you hold them.",
                 "fa": "Malkiel می‌گوید ریسک نگهداری سهام هرچه بیشتر نگهش داری بیشتر می‌شود."
               },
+              "fare": {
+                "en": "According to Malkiel, a 25-year holding period makes share returns swing more widely than a single year does.",
+                "fa": "به گفتهٔ Malkiel، بازده سهام در دورهٔ ۲۵ ساله بیشتر از یک سال نوسان دارد."
+              },
               "answer": false
             },
             {
@@ -2446,10 +2690,14 @@
                 "en": "How often does Malkiel suggest rebalancing?",
                 "fa": "Malkiel پیشنهاد می‌کند هر چند وقت یک بار بازتوازن کنی؟"
               },
+              "fare": {
+                "en": "At what interval should your asset mix be brought back to its target, in Malkiel's view?",
+                "fa": "از نگاه Malkiel ترکیب دارایی‌ها را با چه فاصله‌ای باید به هدف برگرداند؟"
+              },
               "options": [
                 {
                   "en": "Every single day",
-                  "fa": "هر روز"
+                  "fa": "هر روز، بدون استثنا"
                 },
                 {
                   "en": "Once a year",
@@ -2457,7 +2705,7 @@
                 },
                 {
                   "en": "Never, let it ride",
-                  "fa": "هرگز، بگذار خودش برود"
+                  "fa": "هرگز، بگذار بماند"
                 }
               ],
               "answer": 1
@@ -2495,18 +2743,22 @@
                 "en": "What should you separate when choosing your risk level?",
                 "fa": "هنگام انتخاب سطح ریسک چه چیزهایی را باید از هم جدا کنی؟"
               },
+              "fare": {
+                "en": "Malkiel's fifth principle tells you to keep which two things apart?",
+                "fa": "اصل پنجم Malkiel می‌گوید کدام دو چیز را از هم تفکیک کنی؟"
+              },
               "options": [
                 {
                   "en": "Your attitude toward risk from your capacity for risk",
                   "fa": "نگرشت به ریسک از توانت برای تحمل ریسک"
                 },
                 {
-                  "en": "Your salary from your bonus",
-                  "fa": "حقوقت از پاداشت"
+                  "en": "Your regular monthly salary from your yearly bonus",
+                  "fa": "حقوق ماهانه‌ات از پاداش سالانه‌ات"
                 },
                 {
-                  "en": "Bonds from cash savings",
-                  "fa": "اوراق قرضه از پس‌انداز نقدی"
+                  "en": "Your bonds from the cash savings you keep in the bank",
+                  "fa": "اوراق قرضه‌ات از پس‌انداز نقدی‌ات در بانک"
                 }
               ],
               "answer": 0
@@ -2536,6 +2788,10 @@
                 "en": "Dollar-cost averaging means buying more shares when prices are low and fewer when they are high.",
                 "fa": "میانگین‌گیری هزینه یعنی وقتی قیمت پایین است سهم بیشتر و وقتی بالاست سهم کمتری بخری."
               },
+              "fare": {
+                "en": "Investing the same amount at regular intervals gets you fewer shares at high prices and more at low ones.",
+                "fa": "اگر در فاصله‌های منظم مبلغ ثابتی سرمایه‌گذاری کنی، در قیمت بالا سهم کمتر و در قیمت پایین سهم بیشتری می‌گیری."
+              },
               "answer": true
             },
             {
@@ -2562,6 +2818,10 @@
               "prompt": {
                 "en": "Over which period does the range of share returns narrow sharply?",
                 "fa": "دامنهٔ بازده سهام در کدام دوره به‌شدت باریک می‌شود؟"
+              },
+              "fare": {
+                "en": "Which holding period gives the narrowest range of outcomes for shares?",
+                "fa": "کدام دورهٔ نگهداری باریک‌ترین دامنهٔ نتیجه را برای سهام دارد؟"
               },
               "options": [
                 {
@@ -2603,6 +2863,10 @@
               "prompt": {
                 "en": "Malkiel calls dollar-cost averaging a cure-all that protects you in any market.",
                 "fa": "Malkiel میانگین‌گیری هزینه را نوشدارویی می‌داند که در هر بازاری از تو محافظت می‌کند."
+              },
+              "fare": {
+                "en": "Even in a market that falls for good, Malkiel says dollar-cost averaging keeps you safe.",
+                "fa": "Malkiel می‌گوید حتی در بازاری که برای همیشه سقوط می‌کند، میانگین‌گیری هزینه تو را ایمن نگه می‌دارد."
               },
               "answer": false
             }
@@ -2650,6 +2914,10 @@
                 "en": "When did Vanguard launch the first retail index fund?",
                 "fa": "Vanguard نخستین صندوق شاخصی برای عموم را کی راه انداخت؟"
               },
+              "fare": {
+                "en": "In which year could the public first buy an index fund from Vanguard?",
+                "fa": "مردم از چه سالی توانستند صندوق شاخصی Vanguard را بخرند؟"
+              },
               "options": [
                 {
                   "en": "1973",
@@ -2691,6 +2959,10 @@
                 "en": "Index funds charge tiny fees and trade little.",
                 "fa": "صندوق‌های شاخصی کارمزد ناچیزی می‌گیرند و کم معامله می‌کنند."
               },
+              "fare": {
+                "en": "An index fund's costs are low because its fees are tiny and it rarely trades.",
+                "fa": "هزینهٔ صندوق شاخصی پایین است چون کارمزدش ناچیز است و کم معامله می‌کند."
+              },
               "answer": true
             },
             {
@@ -2725,6 +2997,10 @@
               "prompt": {
                 "en": "What is Malkiel's fourth rule for picking stocks?",
                 "fa": "قاعدهٔ چهارم Malkiel برای انتخاب سهم چیست؟"
+              },
+              "fare": {
+                "en": "Which advice closes Malkiel's four rules for do-it-yourself stock pickers?",
+                "fa": "چهار قاعدهٔ Malkiel برای کسانی که خودشان سهم انتخاب می‌کنند با کدام توصیه تمام می‌شود؟"
               },
               "options": [
                 {
@@ -2767,6 +3043,10 @@
                 "en": "A 1 percent yearly fee makes little difference over 25 years.",
                 "fa": "کارمزد سالانهٔ ۱ درصدی در ۲۵ سال تفاوت چندانی ایجاد نمی‌کند."
               },
+              "fare": {
+                "en": "Over 25 years, a 1 percent yearly fee leaves the final sum almost untouched.",
+                "fa": "در ۲۵ سال، کارمزد سالانهٔ ۱ درصدی مبلغ نهایی را تقریباً دست‌نخورده می‌گذارد."
+              },
               "answer": false
             },
             {
@@ -2794,14 +3074,18 @@
                 "en": "What is Malkiel's compromise for people who enjoy picking stocks?",
                 "fa": "راه میانهٔ Malkiel برای کسانی که از انتخاب سهم لذت می‌برند چیست؟"
               },
+              "fare": {
+                "en": "How does the core-satellite approach arrange a stock picker's portfolio?",
+                "fa": "رویکرد core-satellite سبد کسی را که سهم انتخاب می‌کند چطور می‌چیند؟"
+              },
               "options": [
                 {
-                  "en": "Put everything in one favourite stock",
-                  "fa": "همه را در یک سهم محبوب بگذار"
+                  "en": "Put everything in one favourite stock and watch it every day",
+                  "fa": "همه را در یک سهم محبوب بگذار و هر روز زیر نظرش بگیر"
                 },
                 {
-                  "en": "Sell all index funds in a crash",
-                  "fa": "در سقوط همهٔ صندوق‌های شاخصی را بفروش"
+                  "en": "Sell all your index funds in a crash and buy them back later",
+                  "fa": "در سقوط همهٔ صندوق‌های شاخصی‌ات را بفروش و بعداً دوباره بخر"
                 },
                 {
                   "en": "Keep the core in index funds and play with a smaller part",
@@ -2834,6 +3118,10 @@
               "prompt": {
                 "en": "Which ETFs does Malkiel warn against?",
                 "fa": "Malkiel دربارهٔ کدام ETFها هشدار می‌دهد؟"
+              },
+              "fare": {
+                "en": "Which kind of ETF falls outside Malkiel's praise for ETFs as index vehicles?",
+                "fa": "کدام نوع ETF از تمجید Malkiel از ETFها به‌عنوان ابزار شاخصی بیرون می‌ماند؟"
               },
               "options": [
                 {

@@ -68,6 +68,10 @@
                 "en": "Newport shows that Jobs founded Apple to follow a clear, lifelong passion for computers.",
                 "fa": "Newport نشان می‌دهد که Jobs برای دنبال کردن اشتیاقی روشن و همیشگی به کامپیوتر، Apple را بنیان گذاشت."
               },
+              "fare": {
+                "en": "According to Newport, Apple was a calling for Jobs from the start, and his passion was in place before the company succeeded.",
+                "fa": "به گفتهٔ Newport، شرکت Apple از همان ابتدا برای Jobs یک رسالت بود و اشتیاقش پیش از موفقیت شرکت شکل گرفته بود."
+              },
               "answer": false
             },
             {
@@ -103,6 +107,10 @@
                 "en": "What were most passions in Vallerand's student survey about?",
                 "fa": "بیشتر اشتیاق‌ها در نظرسنجی Vallerand از دانشجویان دربارهٔ چه بود؟"
               },
+              "fare": {
+                "en": "When Vallerand asked Canadian students what they were passionate about, which kind of answer dominated?",
+                "fa": "وقتی Vallerand از دانشجویان کانادایی پرسید به چه چیزی اشتیاق دارند، کدام نوع پاسخ از همه پرتکرارتر بود؟"
+              },
               "options": [
                 {
                   "en": "Hobbies like dance, hockey and reading",
@@ -113,8 +121,8 @@
                   "fa": "شغلی در آینده که از قبل انتخاب کرده بودند"
                 },
                 {
-                  "en": "Starting their own company",
-                  "fa": "راه‌اندازی شرکت خودشان"
+                  "en": "Starting a company of their own one day",
+                  "fa": "راه‌اندازی شرکت خودشان در آینده"
                 }
               ],
               "answer": 0
@@ -144,18 +152,22 @@
                 "en": "What does self-determination theory say motivation needs?",
                 "fa": "نظریهٔ خودتعیین‌گری می‌گوید انگیزه به چه نیاز دارد؟"
               },
+              "fare": {
+                "en": "Which ingredients does self-determination theory name as the basis of feeling motivated at work?",
+                "fa": "نظریهٔ خودتعیین‌گری کدام عناصر را پایهٔ انگیزه داشتن در کار می‌شمارد؟"
+              },
               "options": [
                 {
                   "en": "Autonomy, competence and relatedness",
                   "fa": "خودمختاری، شایستگی و پیوند با دیگران"
                 },
                 {
-                  "en": "A high salary, status and a title",
+                  "en": "A high salary, status and a job title",
                   "fa": "حقوق بالا، جایگاه و عنوان شغلی"
                 },
                 {
-                  "en": "A job that matches your passion",
-                  "fa": "شغلی که با اشتیاقت جور باشد"
+                  "en": "A job that closely matches your passion",
+                  "fa": "شغلی که کاملاً با اشتیاقت جور باشد"
                 }
               ],
               "answer": 0
@@ -185,6 +197,10 @@
                 "en": "Newport argues that passion usually comes after mastery rather than before it.",
                 "fa": "Newport استدلال می‌کند که اشتیاق معمولاً بعد از تسلط می‌آید، نه پیش از آن."
               },
+              "fare": {
+                "en": "For Newport, waiting to feel passion before you get good at valuable work puts things in the wrong order.",
+                "fa": "از نگاه Newport، اگر صبر کنی تا اول اشتیاق را حس کنی و بعد در کاری ارزشمند خوب شوی، ترتیب را برعکس چیده‌ای."
+              },
               "answer": true
             },
             {
@@ -212,18 +228,22 @@
                 "en": "What should you ask first about a new role, in Newport's spirit?",
                 "fa": "به روح حرف Newport، دربارهٔ یک نقش تازه اول چه باید بپرسی؟"
               },
+              "fare": {
+                "en": "You are weighing a new Dutch role. Which test fits Newport's argument better than \"Do I love this?\"",
+                "fa": "داری یک نقش تازه در هلند را سبک‌سنگین می‌کنی. کدام آزمون به استدلال Newport نزدیک‌تر است تا «آیا عاشق این کارم؟»"
+              },
               "options": [
                 {
                   "en": "Whether it lets you build rare and valuable skills",
                   "fa": "آیا اجازه می‌دهد مهارت‌های کمیاب و ارزشمند بسازی"
                 },
                 {
-                  "en": "Whether you already love it on day one",
-                  "fa": "آیا از روز اول عاشقش هستی"
+                  "en": "Whether you already love the work on day one",
+                  "fa": "آیا از همان روز اول عاشق این کار هستی"
                 },
                 {
-                  "en": "Whether it matches a hobby you enjoy",
-                  "fa": "آیا با سرگرمی‌ای که دوست داری جور است"
+                  "en": "Whether it matches a hobby you already enjoy",
+                  "fa": "آیا با سرگرمی‌ای که از قبل دوست داری جور است"
                 }
               ],
               "answer": 0
@@ -271,6 +291,10 @@
               "prompt": {
                 "en": "What does the craftsman mindset focus on?",
                 "fa": "ذهنیت صنعتگر روی چه تمرکز دارد؟"
+              },
+              "fare": {
+                "en": "Someone with the craftsman mindset looks at a job. What do they care about most?",
+                "fa": "کسی که ذهنیت صنعتگر دارد به یک شغل نگاه می‌کند. بیش از همه چه چیزی برایش مهم است؟"
               },
               "options": [
                 {
@@ -321,6 +345,10 @@
                 "en": "Newport says you can win creativity, impact and control without offering rare and valuable skills.",
                 "fa": "Newport می‌گوید می‌توانی بدون عرضهٔ مهارت‌های کمیاب و ارزشمند، خلاقیت، اثرگذاری و کنترل به دست بیاوری."
               },
+              "fare": {
+                "en": "For Newport, creativity, impact and control come to anyone who wants them, with no career capital needed in exchange.",
+                "fa": "از نگاه Newport، خلاقیت، اثرگذاری و کنترل به هر کسی که بخواهد می‌رسد و لازم نیست در ازایش سرمایهٔ شغلی بدهد."
+              },
               "answer": false
             },
             {
@@ -348,18 +376,22 @@
                 "en": "What is deliberate practice?",
                 "fa": "تمرین عامدانه چیست؟"
               },
+              "fare": {
+                "en": "Which kind of effort counts as deliberate practice in Anders Ericsson's research?",
+                "fa": "در پژوهش Anders Ericsson کدام نوع تلاش تمرین عامدانه به حساب می‌آید؟"
+              },
               "options": [
                 {
                   "en": "Effort that stretches you past your comfort zone",
                   "fa": "تلاشی که تو را فراتر از منطقهٔ امنت می‌برد"
                 },
                 {
-                  "en": "Repeating what you already do well",
-                  "fa": "تکرار کاری که از قبل خوب انجام می‌دهی"
+                  "en": "Repeating what you already do well until it is automatic",
+                  "fa": "تکرار کاری که از قبل خوب انجام می‌دهی تا خودکار شود"
                 },
                 {
-                  "en": "Playing many tournaments for experience",
-                  "fa": "شرکت در مسابقه‌های زیاد برای تجربه"
+                  "en": "Playing many tournaments to gain match experience",
+                  "fa": "شرکت در مسابقه‌های زیاد برای کسب تجربهٔ بازی"
                 }
               ],
               "answer": 0
@@ -389,18 +421,22 @@
                 "en": "What marks an auction market for career capital?",
                 "fa": "ویژگی بازار حراج برای سرمایهٔ شغلی چیست؟"
               },
+              "fare": {
+                "en": "How does skill turn into value when your capital market is an auction?",
+                "fa": "وقتی بازار سرمایه‌ات از نوع حراج است، مهارت چطور به ارزش تبدیل می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Many skills can be combined into value",
                   "fa": "مهارت‌های زیادی را می‌توان با هم به ارزش تبدیل کرد"
                 },
                 {
-                  "en": "Only one skill counts",
-                  "fa": "فقط یک مهارت مهم است"
+                  "en": "Only one skill counts toward your value",
+                  "fa": "فقط یک مهارت در ارزش تو به حساب می‌آید"
                 },
                 {
-                  "en": "Passion decides who gets paid",
-                  "fa": "اشتیاق تعیین می‌کند به چه کسی پول برسد"
+                  "en": "Passion alone decides who ends up getting paid",
+                  "fa": "فقط اشتیاق تعیین می‌کند آخر سر به چه کسی پول برسد"
                 }
               ],
               "answer": 0
@@ -429,6 +465,10 @@
               "prompt": {
                 "en": "In Newport's spirit, the daily reading hour works best as light entertainment.",
                 "fa": "به روح حرف Newport، ساعت مطالعهٔ روزانه بهتر است سرگرمی سبک باشد."
+              },
+              "fare": {
+                "en": "Newport's approach would have you pick easy reading for the daily hour and skip testing what you read.",
+                "fa": "رویکرد Newport این است که برای ساعت مطالعهٔ روزانه متن‌های آسان انتخاب کنی و آنچه خوانده‌ای را امتحان نکنی."
               },
               "answer": false
             }
@@ -476,6 +516,10 @@
                 "en": "The first control trap is seeking control before you have career capital.",
                 "fa": "تلهٔ اول کنترل یعنی دنبال کنترل رفتن پیش از آنکه سرمایهٔ شغلی داشته باشی."
               },
+              "fare": {
+                "en": "Quitting for freedom with no rare skills to sell is a case of the first control trap.",
+                "fa": "ترک شغل به هوای آزادی، وقتی مهارت کمیابی برای فروش نداری، نمونه‌ای از تلهٔ اول کنترل است."
+              },
               "answer": true
             },
             {
@@ -511,18 +555,22 @@
                 "en": "What does the law of financial viability tell you to ask?",
                 "fa": "قانون پایداری مالی می‌گوید چه بپرسی؟"
               },
+              "fare": {
+                "en": "Before chasing a pursuit that gives you more control, which question does the law drawn from Derek Sivers put first?",
+                "fa": "پیش از رفتن سراغ کاری که کنترل بیشتری به تو می‌دهد، قانونی که از Derek Sivers گرفته شده کدام پرسش را جلو می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Whether people are willing to pay for it",
                   "fa": "آیا مردم حاضرند برایش پول بدهند"
                 },
                 {
-                  "en": "Whether your boss approves of it",
-                  "fa": "آیا رئیست آن را تأیید می‌کند"
+                  "en": "Whether your boss is willing to approve of it",
+                  "fa": "آیا رئیست حاضر است آن را تأیید کند"
                 },
                 {
-                  "en": "Whether it feels like your passion",
-                  "fa": "آیا حس اشتیاق می‌دهد"
+                  "en": "Whether it feels like a real passion",
+                  "fa": "آیا حس اشتیاق واقعی می‌دهد"
                 }
               ],
               "answer": 0
@@ -552,18 +600,22 @@
                 "en": "Where do big ideas for a mission appear?",
                 "fa": "ایده‌های بزرگ برای مأموریت کجا پیدا می‌شوند؟"
               },
+              "fare": {
+                "en": "Where does the adjacent possible, the home of big mission ideas, sit?",
+                "fa": "«مجاورِ ممکن»، یعنی خانهٔ ایده‌های بزرگ مأموریت، کجا قرار دارد؟"
+              },
               "options": [
                 {
                   "en": "Just beyond the current frontier of a field",
                   "fa": "درست آن‌سوی مرز فعلی یک رشته"
                 },
                 {
-                  "en": "In a field you have never worked in",
-                  "fa": "در رشته‌ای که هرگز در آن کار نکرده‌ای"
+                  "en": "In a field you have never worked in before",
+                  "fa": "در رشته‌ای که پیش‌تر هرگز در آن کار نکرده‌ای"
                 },
                 {
-                  "en": "In a passion you had as a child",
-                  "fa": "در اشتیاقی که در کودکی داشتی"
+                  "en": "In a passion you had back when you were a child",
+                  "fa": "در اشتیاقی که زمان کودکی‌ات داشتی"
                 }
               ],
               "answer": 0
@@ -593,6 +645,10 @@
                 "en": "Newport advises exploring a mission through one large, irreversible project.",
                 "fa": "Newport توصیه می‌کند مأموریت را با یک پروژهٔ بزرگ و برگشت‌ناپذیر بکاوی."
               },
+              "fare": {
+                "en": "Little bets, as Newport uses the term, means staking your mission on a single big project you cannot undo.",
+                "fa": "شرط‌های کوچک، به معنایی که Newport به کار می‌برد، یعنی گرو گذاشتن مأموریتت روی یک پروژهٔ بزرگ که راه برگشت ندارد."
+              },
               "answer": false
             },
             {
@@ -620,18 +676,22 @@
                 "en": "What does the law of remarkability require of a mission project?",
                 "fa": "قانون چشمگیر بودن از پروژهٔ مأموریت چه می‌خواهد؟"
               },
+              "fare": {
+                "en": "Which kind of mission project satisfies the law of remarkability?",
+                "fa": "کدام نوع پروژهٔ مأموریت با قانون چشمگیر بودن جور درمی‌آید؟"
+              },
               "options": [
                 {
                   "en": "Work that compels people to remark, launched in a venue where remarks spread",
                   "fa": "کاری که مردم را به حرف زدن وادارد و در جایی عرضه شود که حرف‌ها پخش شوند"
                 },
                 {
-                  "en": "A big budget and a famous partner",
-                  "fa": "بودجهٔ بزرگ و یک شریک مشهور"
+                  "en": "A big budget and a famous partner, announced at a major industry event",
+                  "fa": "بودجهٔ بزرگ و یک شریک مشهور که در یک رویداد مهم صنعت اعلام شود"
                 },
                 {
-                  "en": "Secrecy until the project is perfect",
-                  "fa": "پنهان‌کاری تا وقتی پروژه بی‌نقص شود"
+                  "en": "Secrecy until the project is perfect, then a quiet launch to a small circle",
+                  "fa": "پنهان‌کاری تا وقتی پروژه بی‌نقص شود و بعد عرضه‌ای بی‌سروصدا برای جمعی کوچک"
                 }
               ],
               "answer": 0

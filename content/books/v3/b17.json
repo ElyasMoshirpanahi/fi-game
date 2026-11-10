@@ -68,6 +68,10 @@
                 "en": "If society can train you for a skill, that skill is specific knowledge.",
                 "fa": "اگر جامعه بتواند تو را برای مهارتی آموزش دهد، آن مهارت دانش خاص است."
               },
+              "fare": {
+                "en": "A skill that anyone can be trained for counts as specific knowledge.",
+                "fa": "مهارتی که هر کسی را می‌شود برایش آموزش داد، دانش خاص به حساب می‌آید."
+              },
               "answer": false
             },
             {
@@ -103,18 +107,22 @@
                 "en": "How does Naval say you escape competition?",
                 "fa": "Naval می‌گوید چطور از رقابت فرار می‌کنی؟"
               },
+              "fare": {
+                "en": "Nobody can compete with you on being you. Which way out of competition does that describe?",
+                "fa": "هیچ‌کس نمی‌تواند در «خودِ تو بودن» با تو رقابت کند. این جمله کدام راه بیرون رفتن از رقابت را توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Through authenticity",
-                  "fa": "با اصالت"
+                  "fa": "از راه اصالت"
                 },
                 {
-                  "en": "Through lower prices",
-                  "fa": "با قیمت پایین‌تر"
+                  "en": "Through cheaper pricing",
+                  "fa": "با قیمت ارزان‌تر"
                 },
                 {
-                  "en": "Through longer hours",
-                  "fa": "با ساعت‌های کاری بیشتر"
+                  "en": "Through working more hours",
+                  "fa": "با ساعت کار بیشتر"
                 }
               ],
               "answer": 0
@@ -152,6 +160,10 @@
                 "en": "Naval advises picking a fixed job title and never redefining what you do.",
                 "fa": "Naval توصیه می‌کند یک عنوان شغلی ثابت انتخاب کنی و هرگز تعریف کارت را عوض نکنی."
               },
+              "fare": {
+                "en": "According to Naval, once you have defined what you do, you must keep that definition for good.",
+                "fa": "به گفتهٔ Naval، وقتی یک بار کارت را تعریف کردی، باید همان تعریف را برای همیشه نگه داری."
+              },
               "answer": false
             },
             {
@@ -179,6 +191,10 @@
                 "en": "Where should you pick your product idea from, in Naval's spirit?",
                 "fa": "با روحیهٔ Naval، ایدهٔ محصولت را از کجا باید برداری؟"
               },
+              "fare": {
+                "en": "Which source for a product idea lets you keep going while the first version earns nothing?",
+                "fa": "ایدهٔ محصول از کدام سرچشمه بیاید تا وقتی نسخهٔ اول هیچ درآمدی ندارد هم ادامه بدهی؟"
+              },
               "options": [
                 {
                   "en": "Your genuine curiosity",
@@ -186,11 +202,11 @@
                 },
                 {
                   "en": "Whatever is hot this month",
-                  "fa": "هر چیزی که این ماه داغ است"
+                  "fa": "هرچه این ماه داغ است"
                 },
                 {
-                  "en": "A list of top startup ideas",
-                  "fa": "فهرستی از بهترین ایده‌های استارتاپی"
+                  "en": "A list of startup ideas",
+                  "fa": "فهرست ایده‌های استارتاپی"
                 }
               ],
               "answer": 0
@@ -239,18 +255,22 @@
                 "en": "What does society reward accountability with?",
                 "fa": "جامعه به پاسخ‌گویی چه پاداشی می‌دهد؟"
               },
+              "fare": {
+                "en": "If you take business risks under your own name, what do you get in return?",
+                "fa": "اگر به نام خودت ریسک کاری کنی، در عوض چه چیزی به دست می‌آوری؟"
+              },
               "options": [
                 {
                   "en": "Responsibility, equity and leverage",
                   "fa": "مسئولیت، equity و اهرم"
                 },
                 {
-                  "en": "A fixed salary and job security",
-                  "fa": "حقوق ثابت و امنیت شغلی"
+                  "en": "A fixed salary and lasting job security",
+                  "fa": "حقوق ثابت و امنیت شغلی پایدار"
                 },
                 {
-                  "en": "Fame without any risk",
-                  "fa": "شهرت بدون هیچ ریسکی"
+                  "en": "Fame and status without any risk",
+                  "fa": "شهرت و جایگاه بی‌ریسک"
                 }
               ],
               "answer": 0
@@ -288,6 +308,10 @@
                 "en": "Naval says you can build credibility without accountability.",
                 "fa": "Naval می‌گوید بدون پاسخ‌گویی هم می‌توانی اعتبار بسازی."
               },
+              "fare": {
+                "en": "In Naval's view, credibility does not depend on being accountable.",
+                "fa": "از نگاه Naval، اعتبار ساختن ربطی به پاسخ‌گو بودن ندارد."
+              },
               "answer": false
             },
             {
@@ -322,6 +346,10 @@
               "prompt": {
                 "en": "What are get-rich-quick schemes, according to Naval?",
                 "fa": "به گفتهٔ Naval، طرح‌های پولدار شدن سریع در واقع چیستند؟"
+              },
+              "fare": {
+                "en": "What is really going on when a scheme promises fast riches?",
+                "fa": "وقتی طرحی وعدهٔ ثروت فوری می‌دهد، در واقع چه اتفاقی دارد می‌افتد؟"
               },
               "options": [
                 {
@@ -363,6 +391,10 @@
               "prompt": {
                 "en": "Your roadmap says startup equity belongs in a written cap table with vesting.",
                 "fa": "نقشهٔ راهت می‌گوید equity استارتاپ باید در cap table مکتوب با vesting باشد."
+              },
+              "fare": {
+                "en": "A spoken promise of startup equity is not what your roadmap asks for: it wants the share written in a cap table with vesting.",
+                "fa": "وعدهٔ شفاهی equity در استارتاپ آن چیزی نیست که نقشهٔ راهت می‌خواهد: سهم باید در cap table مکتوب با vesting ثبت شود."
               },
               "answer": true
             }
@@ -410,18 +442,22 @@
                 "en": "Which of these is one of Naval's three forms of leverage?",
                 "fa": "کدام‌یک از سه شکل اهرم از نگاه Naval است؟"
               },
+              "fare": {
+                "en": "Code and media are examples of which kind of leverage?",
+                "fa": "کد و رسانه نمونه‌های کدام نوع اهرم‌اند؟"
+              },
               "options": [
                 {
                   "en": "Products with no marginal cost of replication",
                   "fa": "محصولاتی بدون هزینهٔ تکثیر حاشیه‌ای"
                 },
                 {
-                  "en": "A prestigious university degree",
-                  "fa": "مدرک دانشگاهی معتبر"
+                  "en": "A prestigious degree from a very well-known university",
+                  "fa": "مدرکی معتبر از یک دانشگاه بسیار سرشناس"
                 },
                 {
-                  "en": "A large circle of friends",
-                  "fa": "حلقهٔ بزرگی از دوستان"
+                  "en": "A large circle of well-connected friends",
+                  "fa": "حلقهٔ بزرگی از دوستان بانفوذ"
                 }
               ],
               "answer": 0
@@ -459,6 +495,10 @@
                 "en": "Labor and capital are permissionless forms of leverage.",
                 "fa": "نیروی کار و سرمایه شکل‌های بدون اجازهٔ اهرم‌اند."
               },
+              "fare": {
+                "en": "You need nobody's approval to use labor or capital as leverage.",
+                "fa": "برای این‌که از نیروی کار یا سرمایه به‌عنوان اهرم استفاده کنی، به تأیید هیچ‌کس نیاز نداری."
+              },
               "answer": false
             },
             {
@@ -494,18 +534,22 @@
                 "en": "What does Naval call code and media?",
                 "fa": "Naval کد و رسانه را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Nobody has to approve code or media. What does that make them?",
+                "fa": "کسی لازم نیست کد یا رسانه را تأیید کند. این ویژگی آن‌ها را به چه چیزی تبدیل می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Permissionless leverage",
                   "fa": "اهرم بدون اجازه"
                 },
                 {
-                  "en": "Risky side projects",
+                  "en": "Side projects with high risk",
                   "fa": "پروژه‌های جانبی پرریسک"
                 },
                 {
                   "en": "Tools only big firms can use",
-                  "fa": "ابزارهایی فقط برای شرکت‌های بزرگ"
+                  "fa": "ابزار خاص شرکت‌های بزرگ"
                 }
               ],
               "answer": 0
@@ -534,6 +578,10 @@
               "prompt": {
                 "en": "Naval says the army of robots in data centers is only available to big companies.",
                 "fa": "Naval می‌گوید ارتش ربات‌ها در دیتاسنترها فقط در اختیار شرکت‌های بزرگ است."
+              },
+              "fare": {
+                "en": "According to Naval, one person cannot reach the army of robots packed in data centers; only large firms can.",
+                "fa": "به گفتهٔ Naval، یک فرد تنها به ارتش ربات‌های درون دیتاسنترها دسترسی ندارد؛ فقط شرکت‌های بزرگ دارند."
               },
               "answer": false
             }
@@ -590,18 +638,22 @@
                 "en": "How does Naval define wisdom?",
                 "fa": "Naval خرد را چطور تعریف می‌کند؟"
               },
+              "fare": {
+                "en": "Which ability does Naval have in mind when he speaks of wisdom?",
+                "fa": "وقتی Naval از خرد حرف می‌زند، کدام توانایی را در نظر دارد؟"
+              },
               "options": [
                 {
                   "en": "Knowing the long-term consequences of your actions",
                   "fa": "دانستن پیامدهای بلندمدت کارهایت"
                 },
                 {
-                  "en": "Having read the most books",
-                  "fa": "خواندن بیشترین تعداد کتاب"
+                  "en": "Having read more books than everyone else around you",
+                  "fa": "خواندن کتاب بیشتر از همهٔ اطرافیانت"
                 },
                 {
-                  "en": "Never changing your mind",
-                  "fa": "هرگز تغییر ندادن نظرت"
+                  "en": "Never changing your mind once you have decided",
+                  "fa": "عوض نکردن نظر پس از تصمیم"
                 }
               ],
               "answer": 0
@@ -639,6 +691,10 @@
                 "en": "Naval says clear thinkers rely mainly on the authority of famous experts.",
                 "fa": "Naval می‌گوید متفکران روشن بیشتر به مرجعیت کارشناسان مشهور تکیه می‌کنند."
               },
+              "fare": {
+                "en": "In Naval's view, a clear thinker settles a question by citing well-known experts, not by his own reasoning.",
+                "fa": "از نگاه Naval، متفکر روشن برای حل یک مسئله به حرف کارشناسان سرشناس استناد می‌کند، نه به استدلال خودش."
+              },
               "answer": false
             },
             {
@@ -674,6 +730,10 @@
                 "en": "Which are the three big early-life decisions Naval names?",
                 "fa": "سه تصمیم بزرگ اوایل زندگی که Naval نام می‌برد کدام‌اند؟"
               },
+              "fare": {
+                "en": "Naval says a few choices made early in life compound for years. Which set does he mean?",
+                "fa": "Naval می‌گوید چند انتخابِ اوایل زندگی سال‌ها اثر مرکب دارند. منظورش کدام مجموعه است؟"
+              },
               "options": [
                 {
                   "en": "Where you live, who you are with, what you do",
@@ -684,8 +744,8 @@
                   "fa": "کدام گوشی، ماشین و مدرسه را انتخاب کنی"
                 },
                 {
-                  "en": "Your salary, your title and your degree",
-                  "fa": "حقوقت، عنوانت و مدرکت"
+                  "en": "Your salary, your job title and your degree",
+                  "fa": "میزان حقوقت، عنوان شغلی‌ات و مدرکت"
                 }
               ],
               "answer": 0
@@ -714,6 +774,10 @@
               "prompt": {
                 "en": "A decision journal records your reasoning so you can check it later.",
                 "fa": "دفترچهٔ تصمیم استدلالت را ثبت می‌کند تا بعداً بررسی‌اش کنی."
+              },
+              "fare": {
+                "en": "Writing down why you decided lets you compare it months later with what actually happened.",
+                "fa": "وقتی دلیل تصمیمت را بنویسی، می‌توانی ماه‌ها بعد آن را با آنچه واقعاً رخ داد مقایسه کنی."
               },
               "answer": true
             }
@@ -761,18 +825,22 @@
                 "en": "Where do all the returns in life come from, according to Naval?",
                 "fa": "به گفتهٔ Naval، همهٔ بازده‌های زندگی از کجا می‌آیند؟"
               },
+              "fare": {
+                "en": "In Naval's view, wealth, relationships and knowledge all grow from the same source. Which one?",
+                "fa": "از نگاه Naval، ثروت، رابطه‌ها و دانش همه از یک سرچشمه رشد می‌کنند. آن سرچشمه کدام است؟"
+              },
               "options": [
                 {
                   "en": "Compound interest",
                   "fa": "بهرهٔ مرکب"
                 },
                 {
-                  "en": "Lucky breaks",
+                  "en": "Sudden lucky breaks",
                   "fa": "شانس‌های ناگهانی"
                 },
                 {
-                  "en": "Short-term trades",
-                  "fa": "معامله‌های کوتاه‌مدت"
+                  "en": "Short-term trading",
+                  "fa": "معاملهٔ کوتاه‌مدت"
                 }
               ],
               "answer": 0
@@ -810,6 +878,10 @@
                 "en": "Naval ranks integrity above intelligence and energy when picking partners.",
                 "fa": "Naval در انتخاب شریک، درستکاری را بالاتر از هوش و انرژی می‌گذارد."
               },
+              "fare": {
+                "en": "For Naval, a smart and energetic partner without integrity is a danger, so integrity comes first.",
+                "fa": "برای Naval شریکِ باهوش و پرانرژی اما بدون درستکاری خطرناک است؛ پس درستکاری در درجهٔ اول قرار دارد."
+              },
               "answer": true
             },
             {
@@ -845,14 +917,18 @@
                 "en": "What does Naval say about the beliefs of cynics and pessimists?",
                 "fa": "Naval دربارهٔ باورهای بدبین‌ها و منفی‌بافان چه می‌گوید؟"
               },
+              "fare": {
+                "en": "Why does Naval warn against partnering with cynics and pessimists?",
+                "fa": "چرا Naval از شریک شدن با بدبین‌ها و منفی‌بافان برحذر می‌دارد؟"
+              },
               "options": [
                 {
                   "en": "Their beliefs are self-fulfilling",
                   "fa": "باورهایشان خودشان را محقق می‌کنند"
                 },
                 {
-                  "en": "They protect you from risk",
-                  "fa": "تو را از ریسک محافظت می‌کنند"
+                  "en": "They protect you from taking any risk",
+                  "fa": "تو را از هر نوع ریسکی محافظت می‌کنند"
                 },
                 {
                   "en": "They make the best partners",
@@ -885,6 +961,10 @@
               "prompt": {
                 "en": "Your roadmap treats the index core as something to trade actively.",
                 "fa": "نقشهٔ راهت هستهٔ شاخصی را چیزی می‌داند که باید فعالانه معامله شود."
+              },
+              "fare": {
+                "en": "According to your roadmap, the index core should be bought and sold often rather than left alone.",
+                "fa": "طبق نقشهٔ راهت، هستهٔ شاخصی را باید مدام خرید و فروخت، نه این‌که به حال خود گذاشت."
               },
               "answer": false
             }
@@ -932,18 +1012,22 @@
                 "en": "What is Naval's advice for building a reading habit?",
                 "fa": "توصیهٔ Naval برای ساختن عادت مطالعه چیست؟"
               },
+              "fare": {
+                "en": "How do you come to love reading, in Naval's view?",
+                "fa": "از نگاه Naval، آدم چطور به خواندن علاقه‌مند می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Read what you love until you love to read",
                   "fa": "آنچه دوست داری بخوان تا خواندن را دوست داشته باشی"
                 },
                 {
-                  "en": "Finish every book you start",
+                  "en": "Finish every single book you start",
                   "fa": "هر کتابی را که شروع کردی تمام کن"
                 },
                 {
-                  "en": "Read only the bestseller lists",
-                  "fa": "فقط فهرست پرفروش‌ها را بخوان"
+                  "en": "Read only from the bestseller lists",
+                  "fa": "فقط از فهرست کتاب‌های پرفروش بخوان"
                 }
               ],
               "answer": 0
@@ -981,6 +1065,10 @@
                 "en": "Naval insists you must finish every book you start.",
                 "fa": "Naval اصرار دارد هر کتابی را که شروع می‌کنی باید تمام کنی."
               },
+              "fare": {
+                "en": "For Naval, putting a book down halfway is not allowed.",
+                "fa": "از نظر Naval، نیمه‌کاره رها کردن کتاب مجاز نیست."
+              },
               "answer": false
             },
             {
@@ -1016,18 +1104,22 @@
                 "en": "What does Naval tell you to ignore?",
                 "fa": "Naval می‌گوید چه چیزی را نادیده بگیری؟"
               },
+              "fare": {
+                "en": "While you read the greats in math, science and philosophy, what does Naval say to leave aside?",
+                "fa": "وقتی بزرگان ریاضی، علم و فلسفه را می‌خوانی، Naval می‌گوید چه چیزی را کنار بگذاری؟"
+              },
               "options": [
                 {
                   "en": "Your contemporaries and the news",
                   "fa": "هم‌عصرانت و اخبار"
                 },
                 {
-                  "en": "Classic science books",
-                  "fa": "کتاب‌های کلاسیک علمی"
+                  "en": "Classic science books and textbooks",
+                  "fa": "کتاب‌های کلاسیک و درسی علمی"
                 },
                 {
-                  "en": "Philosophy and math",
-                  "fa": "فلسفه و ریاضی"
+                  "en": "Books on philosophy and mathematics",
+                  "fa": "کتاب‌های فلسفه و ریاضیات"
                 }
               ],
               "answer": 0
@@ -1056,6 +1148,10 @@
               "prompt": {
                 "en": "The applied advice is to spend reading time on books you love and on foundations.",
                 "fa": "توصیهٔ کاربردی این است که وقت مطالعه را صرف کتاب‌هایی که دوست داری و صرف پایه‌ها کنی."
+              },
+              "fare": {
+                "en": "In the applied view, headlines deserve less of your reading hour than loved books and foundations.",
+                "fa": "از نگاه کاربردی، سرخط خبرها سهم کمتری از ساعت مطالعه‌ات می‌برند تا کتاب‌های محبوبت و پایه‌ها."
               },
               "answer": true
             }
@@ -1112,18 +1208,22 @@
                 "en": "What does Naval call desire?",
                 "fa": "Naval میل را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Wanting something means staying unhappy until you get it. How does Naval describe that?",
+                "fa": "خواستنِ چیزی یعنی تا رسیدن به آن ناشاد بمانی. Naval این را چطور توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "A contract with yourself to be unhappy",
                   "fa": "قراردادی با خودت برای ناشاد ماندن"
                 },
                 {
-                  "en": "The engine of all happiness",
-                  "fa": "موتور همهٔ شادی‌ها"
+                  "en": "The engine that drives all your happiness",
+                  "fa": "موتوری که همهٔ شادی‌هایت را پیش می‌برد"
                 },
                 {
-                  "en": "A promise of future joy",
-                  "fa": "وعدهٔ شادی در آینده"
+                  "en": "A promise of joy in the near future",
+                  "fa": "وعدهٔ شادی در آیندهٔ نزدیک"
                 }
               ],
               "answer": 0
@@ -1161,6 +1261,10 @@
                 "en": "Naval says wealth is the most important of wealth, health and happiness.",
                 "fa": "Naval می‌گوید از میان ثروت، سلامت و شادی، ثروت از همه مهم‌تر است."
               },
+              "fare": {
+                "en": "By importance, Naval puts wealth first and happiness last among the three big things in life.",
+                "fa": "Naval از نظر اهمیت، میان سه چیز بزرگ زندگی ثروت را اول و شادی را آخر می‌گذارد."
+              },
               "answer": false
             },
             {
@@ -1196,18 +1300,22 @@
                 "en": "Why did envy stop making sense to Naval?",
                 "fa": "چرا حسادت دیگر برای Naval معنایی نداشت؟"
               },
+              "fare": {
+                "en": "What is the catch in wanting only the best parts of another person's life?",
+                "fa": "ایرادِ خواستنِ فقط بهترین بخش‌های زندگی یک نفر دیگر چیست؟"
+              },
               "options": [
                 {
                   "en": "You would have to be them entirely",
                   "fa": "باید کاملاً جای او باشی"
                 },
                 {
-                  "en": "Envy always leads to success",
-                  "fa": "حسادت همیشه به موفقیت می‌رسد"
+                  "en": "Envy leads you to success in the end",
+                  "fa": "حسادت در نهایت به موفقیت می‌رسد"
                 },
                 {
-                  "en": "Other people are never happy",
-                  "fa": "دیگران هرگز شاد نیستند"
+                  "en": "Other people are never really happy either",
+                  "fa": "دیگران هم هرگز واقعاً شاد نیستند"
                 }
               ],
               "answer": 0
@@ -1236,6 +1344,10 @@
               "prompt": {
                 "en": "The applied advice is to pick one main desire per season.",
                 "fa": "توصیهٔ کاربردی این است که در هر دوره یک میل اصلی انتخاب کنی."
+              },
+              "fare": {
+                "en": "Chasing all your roadmap desires at once is what the applied advice steers away from: one main desire per season is enough.",
+                "fa": "توصیهٔ کاربردی با دنبال کردن هم‌زمان همهٔ امیال نقشهٔ راه مخالف است: برای هر دوره یک میل اصلی کافی است."
               },
               "answer": true
             }
@@ -1283,18 +1395,22 @@
                 "en": "What are your three options in any situation, according to Naval?",
                 "fa": "به گفتهٔ Naval، در هر موقعیتی سه گزینه‌ات چیست؟"
               },
+              "fare": {
+                "en": "Wanting a situation to be different while doing nothing causes suffering. Which choices does Naval offer?",
+                "fa": "خواستنِ عوض شدن یک موقعیت بدون هیچ اقدامی رنج می‌سازد. Naval چه انتخاب‌هایی پیش پایت می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Change it, accept it or leave it",
                   "fa": "تغییرش بده، بپذیرش یا ترکش کن"
                 },
                 {
-                  "en": "Complain, wait or ignore it",
-                  "fa": "شکایت کن، صبر کن یا نادیده‌اش بگیر"
+                  "en": "Complain, wait or simply ignore it",
+                  "fa": "شکایت کن، صبر کن یا کلاً نادیده‌اش بگیر"
                 },
                 {
                   "en": "Fight, hide or blame others",
-                  "fa": "بجنگ، پنهان شو یا دیگران را مقصر بدان"
+                  "fa": "بجنگ، پنهان شو یا مقصر بتراش"
                 }
               ],
               "answer": 0
@@ -1332,6 +1448,10 @@
                 "en": "Naval says a calm mind and a fit body can be bought with enough money.",
                 "fa": "Naval می‌گوید ذهن آرام و بدن سالم را می‌شود با پول کافی خرید."
               },
+              "fare": {
+                "en": "According to Naval, enough wealth lets you purchase peace of mind and fitness.",
+                "fa": "به گفتهٔ Naval، با ثروت کافی می‌توانی آرامش ذهن و تناسب اندام را بخری."
+              },
               "answer": false
             },
             {
@@ -1367,18 +1487,22 @@
                 "en": "What does Naval call life?",
                 "fa": "Naval زندگی را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Your interpretations are your own and nobody can choose your peace for you. Which image does Naval use for this?",
+                "fa": "تفسیرهایت مال خودت است و کسی نمی‌تواند آرامشت را برایت انتخاب کند. Naval برای این موضوع چه تصویری به کار می‌برد؟"
+              },
               "options": [
                 {
                   "en": "A single-player game",
                   "fa": "بازی تک‌نفره"
                 },
                 {
-                  "en": "A team sport",
-                  "fa": "ورزش تیمی"
+                  "en": "A team sport for everyone",
+                  "fa": "ورزشی تیمی برای همه"
                 },
                 {
-                  "en": "A zero-sum race",
-                  "fa": "مسابقه‌ای با جمع صفر"
+                  "en": "A zero-sum competition",
+                  "fa": "رقابتی با جمع صفر"
                 }
               ],
               "answer": 0
@@ -1407,6 +1531,10 @@
               "prompt": {
                 "en": "Naval ties happiness to embracing the present moment.",
                 "fa": "Naval شادی را به در آغوش گرفتن لحظهٔ حال گره می‌زند."
+              },
+              "fare": {
+                "en": "For Naval, being happy is mostly a matter of embracing the present and reality as it is.",
+                "fa": "برای Naval شاد بودن بیشتر به این برمی‌گردد که اکنون و واقعیت را همان‌طور که هست در آغوش بگیری."
               },
               "answer": true
             }
@@ -1454,6 +1582,10 @@
                 "en": "Naval treats physical health as a low priority until you are wealthy.",
                 "fa": "Naval سلامت جسمی را تا وقتی ثروتمند شوی اولویتی پایین می‌داند."
               },
+              "fare": {
+                "en": "According to Naval, your body can wait: wealth comes first and health becomes a priority afterwards.",
+                "fa": "به گفتهٔ Naval، بدنت می‌تواند صبر کند: اول ثروت، و سلامت بعد از آن اولویت پیدا می‌کند."
+              },
               "answer": false
             },
             {
@@ -1489,18 +1621,22 @@
                 "en": "What does Naval call meditation?",
                 "fa": "Naval مدیتیشن را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Which image does Naval use for sitting quietly for an hour in the morning?",
+                "fa": "Naval برای یک ساعت نشستن در سکوتِ صبح چه تصویری به کار می‌برد؟"
+              },
               "options": [
                 {
                   "en": "Intermittent fasting for the mind",
                   "fa": "روزه‌داری متناوب برای ذهن"
                 },
                 {
-                  "en": "A waste of morning time",
-                  "fa": "هدر دادن وقت صبح"
+                  "en": "A waste of your morning hours",
+                  "fa": "هدر دادن ساعت‌های صبحت"
                 },
                 {
                   "en": "A cure for every illness",
-                  "fa": "درمان هر بیماری"
+                  "fa": "درمان همهٔ بیماری‌ها"
                 }
               ],
               "answer": 0
@@ -1538,6 +1674,10 @@
                 "en": "Naval says adults can choose their habits on purpose.",
                 "fa": "Naval می‌گوید بزرگسالان می‌توانند آگاهانه عادت‌هایشان را انتخاب کنند."
               },
+              "fare": {
+                "en": "In Naval's view, the habits we picked up as children can be replaced deliberately once we are grown.",
+                "fa": "از نگاه Naval، عادت‌هایی را که در کودکی گرفته‌ایم می‌شود در بزرگسالی آگاهانه عوض کرد."
+              },
               "answer": true
             },
             {
@@ -1565,18 +1705,22 @@
                 "en": "Why protect sleep first, in the applied view?",
                 "fa": "از نگاه کاربردی، چرا اول باید از خواب محافظت کرد؟"
               },
+              "fare": {
+                "en": "What is the cost of short sleep, in the applied view?",
+                "fa": "از نگاه کاربردی، کم‌خوابی چه هزینه‌ای دارد؟"
+              },
               "options": [
                 {
                   "en": "Tired judgment makes worse decisions",
                   "fa": "قضاوت خسته تصمیم‌های بدتری می‌گیرد"
                 },
                 {
-                  "en": "Sleep is wasted working time",
-                  "fa": "خواب وقت کاری هدررفته است"
+                  "en": "Sleep is just wasted work time",
+                  "fa": "خواب فقط وقت کاری هدررفته است"
                 },
                 {
                   "en": "Leverage removes all mistakes",
-                  "fa": "اهرم همهٔ اشتباه‌ها را از بین می‌برد"
+                  "fa": "اهرم همهٔ خطاها را از بین می‌برد"
                 }
               ],
               "answer": 0

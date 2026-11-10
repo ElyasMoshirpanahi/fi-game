@@ -68,6 +68,10 @@
                 "en": "Bogle invented the Gotrocks parable himself, with no outside source.",
                 "fa": "Bogle حکایت Gotrocks را خودش و بدون هیچ منبع بیرونی ساخته است."
               },
+              "fare": {
+                "en": "The Gotrocks story first appeared in this book, as Bogle's own creation.",
+                "fa": "داستان Gotrocks نخستین بار در همین کتاب و به قلم خود Bogle پدید آمد."
+              },
               "answer": false
             },
             {
@@ -103,18 +107,22 @@
                 "en": "Who were the first Helpers in the parable?",
                 "fa": "در این حکایت، نخستین کمک‌کارها چه کسانی بودند؟"
               },
+              "fare": {
+                "en": "Which group reached the family before any other layer of Helpers?",
+                "fa": "کدام گروه پیش از همهٔ لایه‌های دیگرِ کمک‌کارها سراغ خانواده آمد؟"
+              },
               "options": [
                 {
                   "en": "Brokers paid a commission on every trade",
                   "fa": "کارگزارهایی که از هر معامله کمیسیون می‌گرفتند"
                 },
                 {
-                  "en": "The founders of the first index fund",
-                  "fa": "بنیان‌گذاران نخستین صندوق شاخصی"
+                  "en": "Founders who launched the first index fund",
+                  "fa": "بنیان‌گذارانی که نخستین صندوق شاخصی را راه انداختند"
                 },
                 {
-                  "en": "Government tax officials",
-                  "fa": "مأموران مالیاتی دولت"
+                  "en": "Tax officials who took a share of gains",
+                  "fa": "مأموران مالیاتی که سهمی از سود می‌گرفتند"
                 }
               ],
               "answer": 0
@@ -152,6 +160,10 @@
                 "en": "Trading shares among family members raised the profits the companies produced.",
                 "fa": "معاملهٔ سهام میان اعضای خانواده سودی را که شرکت‌ها تولید می‌کردند بالا برد."
               },
+              "fare": {
+                "en": "Because relatives swapped shares with each other, the family as a whole earned more.",
+                "fa": "چون خویشاوندان سهامشان را با هم ردوبدل کردند، درآمد کل خانواده بیشتر شد."
+              },
               "answer": false
             },
             {
@@ -187,10 +199,14 @@
                 "en": "In Bogle's telling, how does a single investor join the Gotrocks family?",
                 "fa": "به روایت Bogle، یک سرمایه‌گذار تنها چطور به خانوادهٔ Gotrocks می‌پیوندد؟"
               },
+              "fare": {
+                "en": "How can one person end up owning what the Gotrocks owned, with almost nothing paid to Helpers?",
+                "fa": "یک نفر چطور می‌تواند مثل Gotrocksها مالک باشد و تقریباً چیزی به کمک‌کارها ندهد؟"
+              },
               "options": [
                 {
-                  "en": "By hiring the best stock picker",
-                  "fa": "با استخدام بهترین سهم‌چین"
+                  "en": "By hiring the best stock picker available",
+                  "fa": "با استخدام بهترین سهم‌چینِ موجود"
                 },
                 {
                   "en": "By trading more often than others",
@@ -247,18 +263,22 @@
                 "en": "In Bogle's rule, what is the haystack?",
                 "fa": "در قاعدهٔ Bogle، انبار کاه چیست؟"
               },
+              "fare": {
+                "en": "What does a total market index fund hold, in place of one needle?",
+                "fa": "صندوق شاخصی کل بازار به‌جای یک سوزن، چه چیزی را نگه می‌دارد؟"
+              },
               "options": [
                 {
-                  "en": "The single best stock",
-                  "fa": "تنها بهترین سهم"
+                  "en": "The single best stock of the year",
+                  "fa": "تنها بهترین سهمِ سال"
                 },
                 {
                   "en": "Every listed business",
                   "fa": "همهٔ شرکت‌های بورسی"
                 },
                 {
-                  "en": "Last year's top fund",
-                  "fa": "برترین صندوق پارسال"
+                  "en": "Last year's top-ranked fund",
+                  "fa": "برترین صندوقِ سال گذشته"
                 }
               ],
               "answer": 1
@@ -287,6 +307,10 @@
               "prompt": {
                 "en": "The first index fund raised far more money than its organizers hoped.",
                 "fa": "نخستین صندوق شاخصی خیلی بیشتر از امید برگزارکنندگانش پول جمع کرد."
+              },
+              "fare": {
+                "en": "The first index fund's launch was a fundraising success that met its organizers' target.",
+                "fa": "عرضهٔ نخستین صندوق شاخصی از نظر جذب پول موفق بود و به هدف برگزارکنندگانش رسید."
               },
               "answer": false
             },
@@ -323,14 +347,18 @@
                 "en": "Why did the index beat the average equity fund by about two points a year?",
                 "fa": "چرا شاخص سالانه حدود دو واحد درصد از میانگین صندوق سهامی جلو بود؟"
               },
+              "fare": {
+                "en": "The S&P 500's lead over active funds in Bogle's 25-year comparison comes down to what?",
+                "fa": "در مقایسهٔ ۲۵ سالهٔ Bogle، جلو بودن S&P 500 از صندوق‌های فعال به چه چیزی برمی‌گردد؟"
+              },
               "options": [
                 {
-                  "en": "Better luck in picking stocks",
-                  "fa": "شانس بهتر در انتخاب سهم"
+                  "en": "Luckier stock picking",
+                  "fa": "شانس بهتر در انتخاب سهام"
                 },
                 {
-                  "en": "Lower taxes on dividends",
-                  "fa": "مالیات کمتر بر سود نقدی"
+                  "en": "Lower dividend taxes",
+                  "fa": "مالیات کمتر بر سودهای نقدی"
                 },
                 {
                   "en": "Roughly the funds' costs",
@@ -371,6 +399,10 @@
               "prompt": {
                 "en": "The index fund works mainly because it trades often to follow the best stocks.",
                 "fa": "صندوق شاخصی عمدتاً به این دلیل کار می‌کند که برای دنبال کردن بهترین سهم‌ها زیاد معامله می‌کند."
+              },
+              "fare": {
+                "en": "Frequent buying and selling is what gives an index fund its edge.",
+                "fa": "برتری صندوق شاخصی از خرید و فروش پرتعداد می‌آید."
               },
               "answer": false
             }
@@ -418,6 +450,10 @@
                 "en": "Before costs, investors as a group earn exactly the market return.",
                 "fa": "پیش از هزینه‌ها، سرمایه‌گذاران در مجموع دقیقاً بازده بازار را می‌گیرند."
               },
+              "fare": {
+                "en": "Taken together and before costs, investors can do neither better nor worse than the market.",
+                "fa": "سرمایه‌گذاران روی‌هم‌رفته و پیش از هزینه‌ها، نه می‌توانند از بازار بهتر باشند و نه بدتر."
+              },
               "answer": true
             },
             {
@@ -452,6 +488,10 @@
               "prompt": {
                 "en": "What does the investor actually receive?",
                 "fa": "سرمایه‌گذار در واقع چه چیزی دریافت می‌کند؟"
+              },
+              "fare": {
+                "en": "What is left for investors once financial intermediation has been paid for?",
+                "fa": "وقتی سهم واسطه‌های مالی پرداخت شد، چه چیزی برای سرمایه‌گذار می‌ماند؟"
               },
               "options": [
                 {
@@ -502,6 +542,10 @@
                 "en": "Which lever does every investor hold?",
                 "fa": "کدام اهرم در دست هر سرمایه‌گذاری است؟"
               },
+              "fare": {
+                "en": "Which of these is actually within an investor's power?",
+                "fa": "کدام‌یک از این‌ها واقعاً در اختیار سرمایه‌گذار است؟"
+              },
               "options": [
                 {
                   "en": "Control the market's return",
@@ -550,6 +594,10 @@
               "prompt": {
                 "en": "As a group, active managers' average return trails the market by about their average cost.",
                 "fa": "در مجموع، میانگین بازده مدیران فعال تقریباً به اندازهٔ میانگین هزینه‌شان از بازار عقب است."
+              },
+              "fare": {
+                "en": "Even if some managers are skilled, active managers together fall short of the market by roughly what they charge.",
+                "fa": "حتی اگر بعضی مدیران ماهر باشند، مدیران فعال روی‌هم تقریباً به اندازهٔ هزینه‌ای که می‌گیرند از بازار کم می‌آورند."
               },
               "answer": true
             }
@@ -606,6 +654,10 @@
                 "en": "Bogle says past returns persist more reliably than costs.",
                 "fa": "Bogle می‌گوید بازده گذشته از هزینه‌ها پایدارتر است."
               },
+              "fare": {
+                "en": "A fund's strong past returns are more likely to repeat next year than its low costs are.",
+                "fa": "احتمال تکرار بازده خوبِ گذشتهٔ یک صندوق در سال بعد، از احتمال ارزان ماندنش بیشتر است."
+              },
               "answer": false
             },
             {
@@ -641,18 +693,22 @@
                 "en": "Which cost never appears in the expense ratio?",
                 "fa": "کدام هزینه هرگز در نسبت هزینه دیده نمی‌شود؟"
               },
+              "fare": {
+                "en": "What does a fund cost you that its expense ratio leaves out?",
+                "fa": "صندوق چه هزینه‌ای برایت دارد که در نسبت هزینه‌اش نمی‌آید؟"
+              },
               "options": [
                 {
-                  "en": "The management fee",
-                  "fa": "کارمزد مدیریت"
+                  "en": "Annual management fee",
+                  "fa": "کارمزد سالانهٔ مدیریت"
                 },
                 {
                   "en": "Turnover trading costs",
                   "fa": "هزینه‌های معاملاتیِ گردش پرتفوی"
                 },
                 {
-                  "en": "None; it shows everything",
-                  "fa": "هیچ‌کدام؛ همه‌چیز را نشان می‌دهد"
+                  "en": "None: all are shown",
+                  "fa": "هیچ‌کدام؛ همه را نشان می‌دهد"
                 }
               ],
               "answer": 1
@@ -690,18 +746,22 @@
                 "en": "How did Bogle structure Vanguard?",
                 "fa": "Bogle ساختار Vanguard را چطور طراحی کرد؟"
               },
+              "fare": {
+                "en": "What kind of organization did Bogle make Vanguard, so that profits return to fund holders as lower costs?",
+                "fa": "Bogle چه نوع سازمانی از Vanguard ساخت تا سود به شکل هزینهٔ کمتر به دارندگان صندوق برگردد؟"
+              },
               "options": [
                 {
                   "en": "A mutual company owned by its funds",
                   "fa": "شرکتی متقابل که مالکش صندوق‌های خودش هستند"
                 },
                 {
-                  "en": "A listed company owned by traders",
-                  "fa": "شرکتی بورسی که مالکش معامله‌گران‌اند"
+                  "en": "A listed company owned by its traders",
+                  "fa": "شرکتی بورسی که مالکش معامله‌گران خودش هستند"
                 },
                 {
-                  "en": "A bank owned by brokers",
-                  "fa": "بانکی که مالکش کارگزارها هستند"
+                  "en": "A private bank owned by its brokers",
+                  "fa": "بانکی خصوصی که مالکش کارگزارهایش هستند"
                 }
               ],
               "answer": 0
@@ -738,6 +798,10 @@
               "prompt": {
                 "en": "Among funds tracking the same index, the cheapest one usually wins.",
                 "fa": "میان صندوق‌هایی که یک شاخص را دنبال می‌کنند، معمولاً ارزان‌ترین برنده است."
+              },
+              "fare": {
+                "en": "When two funds follow the same index, the one with lower costs usually comes out ahead.",
+                "fa": "وقتی دو صندوق از یک شاخص پیروی می‌کنند، معمولاً آن‌که هزینهٔ کمتری دارد جلو می‌افتد."
               },
               "answer": true
             }
@@ -784,6 +848,10 @@
               "prompt": {
                 "en": "What does Bogle set against the magic of compounding returns?",
                 "fa": "Bogle چه چیزی را در برابر جادوی بازده مرکب قرار می‌دهد؟"
+              },
+              "fare": {
+                "en": "Which force, in Bogle's words, works as relentlessly as compounding returns but in the opposite direction?",
+                "fa": "به گفتهٔ Bogle کدام نیرو به همان بی‌رحمیِ بازده مرکب، اما در جهت عکس کار می‌کند؟"
               },
               "options": [
                 {
@@ -834,6 +902,10 @@
                 "en": "In the illustration, costs take more than two thirds of the potential wealth.",
                 "fa": "در این مثال، هزینه‌ها بیش از دوسوم ثروت بالقوه را می‌برند."
               },
+              "fare": {
+                "en": "In the 50-year example, the investor ends up with less than a third of the wealth the market could have produced.",
+                "fa": "در مثال ۵۰ ساله، کمتر از یک‌سوم ثروتی که بازار می‌توانست بسازد به دست سرمایه‌گذار می‌رسد."
+              },
               "answer": true
             },
             {
@@ -869,6 +941,10 @@
                 "en": "What does a longer horizon do to costs?",
                 "fa": "افق زمانی بلندتر با هزینه‌ها چه می‌کند؟"
               },
+              "fare": {
+                "en": "How does the weight of a small cost difference change as the years add up?",
+                "fa": "با گذشت سال‌های بیشتر، وزن یک تفاوت کوچک در هزینه چه تغییری می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Costs stop mattering after ten years",
@@ -879,8 +955,8 @@
                   "fa": "هر یک‌دهم درصد مهم‌تر می‌شود"
                 },
                 {
-                  "en": "Luck offsets the costs",
-                  "fa": "شانس هزینه‌ها را جبران می‌کند"
+                  "en": "Luck offsets the costs over time",
+                  "fa": "شانس با گذشت زمان هزینه‌ها را جبران می‌کند"
                 }
               ],
               "answer": 1
@@ -917,6 +993,10 @@
               "prompt": {
                 "en": "Bogle suggests planning with modest return estimates minus costs and inflation.",
                 "fa": "Bogle پیشنهاد می‌کند با تخمین محتاطانهٔ بازده، منهای هزینه‌ها و تورم، برنامه‌ریزی کنی."
+              },
+              "fare": {
+                "en": "In Bogle's method, the figure you can plan on is what is left after costs and inflation are taken off a cautious return estimate.",
+                "fa": "در روش Bogle، عددی که می‌شود رویش حساب کرد همان است که پس از کم کردن هزینه و تورم از یک تخمین محتاطانهٔ بازده باقی می‌ماند."
               },
               "answer": true
             }
@@ -964,6 +1044,10 @@
                 "en": "On average, investors using brokers did better than those who bought funds directly.",
                 "fa": "به‌طور میانگین، کسانی که از کارگزار استفاده کردند بهتر از کسانی بودند که صندوق را مستقیم خریدند."
               },
+              "fare": {
+                "en": "Buying funds directly, without a broker, left investors worse off on average than going through one.",
+                "fa": "خرید مستقیم صندوق، بدون کارگزار، به‌طور میانگین نتیجهٔ بدتری از خرید از طریق کارگزار داشت."
+              },
               "answer": false
             },
             {
@@ -998,6 +1082,10 @@
               "prompt": {
                 "en": "Where can a good adviser add value, per Bogle?",
                 "fa": "به گفتهٔ Bogle، یک مشاور خوب کجا می‌تواند ارزش بیافریند؟"
+              },
+              "fare": {
+                "en": "Which kind of help from an adviser does Bogle rate above all?",
+                "fa": "Bogle کدام کمکِ مشاور را از همه مهم‌تر می‌داند؟"
               },
               "options": [
                 {
@@ -1048,18 +1136,22 @@
                 "en": "Who does complexity serve?",
                 "fa": "پیچیدگی به سود چه کسی است؟"
               },
+              "fare": {
+                "en": "More products, more trades and more fees work in whose favor?",
+                "fa": "محصول بیشتر، معاملهٔ بیشتر و کارمزد بیشتر به نفع کیست؟"
+              },
               "options": [
                 {
-                  "en": "The owner",
-                  "fa": "مالک"
+                  "en": "The fund buyer",
+                  "fa": "خریدار صندوق"
                 },
                 {
                   "en": "The Helpers",
                   "fa": "کمک‌کارها"
                 },
                 {
-                  "en": "The index fund investor",
-                  "fa": "سرمایه‌گذار صندوق شاخصی"
+                  "en": "The index investor",
+                  "fa": "سرمایه‌گذار شاخصی"
                 }
               ],
               "answer": 1
@@ -1096,6 +1188,10 @@
               "prompt": {
                 "en": "Bogle invokes Occam's razor to favor the simplest solution.",
                 "fa": "Bogle با استناد به تیغ Occam ساده‌ترین راه‌حل را ترجیح می‌دهد."
+              },
+              "fare": {
+                "en": "Faced with several answers to one problem, Bogle follows William of Occam and picks the least complicated.",
+                "fa": "وقتی برای یک مسئله چند پاسخ هست، Bogle به پیروی از William of Occam سراغ کم‌پیچیده‌ترین می‌رود."
               },
               "answer": true
             }
@@ -1152,6 +1248,10 @@
                 "en": "Most of the 355 funds from 1970 had gone out of business by 2005.",
                 "fa": "بیشتر آن ۳۵۵ صندوق سال ۱۹۷۰ تا ۲۰۰۵ از میان رفته بودند."
               },
+              "fare": {
+                "en": "Only a minority of the equity funds that existed in 1970 were still around in 2005.",
+                "fa": "از صندوق‌های سهامی موجود در ۱۹۷۰، فقط اقلیتی تا ۲۰۰۵ باقی مانده بودند."
+              },
               "answer": true
             },
             {
@@ -1187,14 +1287,18 @@
                 "en": "What does Bogle call the force that pulls hot performance back?",
                 "fa": "Bogle نیرویی را که عملکرد داغ را برمی‌گرداند چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Chart-topping funds rarely stay on top. What name does Bogle give this?",
+                "fa": "صندوق‌های صدرنشین به‌ندرت در صدر می‌مانند. Bogle چه نامی بر این می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Momentum investing",
                   "fa": "سرمایه‌گذاری مومنتوم"
                 },
                 {
-                  "en": "Compound growth",
-                  "fa": "رشد مرکب"
+                  "en": "Compounding effect",
+                  "fa": "اثر رشد مرکب"
                 },
                 {
                   "en": "Reversion to the mean",
@@ -1236,6 +1340,10 @@
                 "en": "What happens when a hot fund attracts too much money?",
                 "fa": "وقتی یک صندوق داغ بیش از حد پول جذب می‌کند چه می‌شود؟"
               },
+              "fare": {
+                "en": "What is the effect of size on a fund that has become popular?",
+                "fa": "اندازهٔ بزرگ با صندوقی که محبوب شده چه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Its strategy stops working",
@@ -1243,11 +1351,11 @@
                 },
                 {
                   "en": "Its fees always fall to zero",
-                  "fa": "کارمزدش همیشه صفر می‌شود"
+                  "fa": "کارمزدش همیشه به صفر می‌رسد"
                 },
                 {
-                  "en": "Its returns double",
-                  "fa": "بازده‌اش دو برابر می‌شود"
+                  "en": "Its returns double within a year",
+                  "fa": "بازده‌اش ظرف یک سال دو برابر می‌شود"
                 }
               ],
               "answer": 0
@@ -1282,8 +1390,12 @@
               "type": "tf",
               "source": "b07c3l1p12",
               "prompt": {
-                "en": "In Bogle's view, a list of this year's top ETFs is a good guide to what to buy.",
-                "fa": "از نگاه Bogle، فهرست برترین ETFهای امسال راهنمای خوبی برای خرید است."
+                "en": "A list of this year's top ETFs is a good guide to what to buy.",
+                "fa": "فهرست برترین ETFهای امسال راهنمای خوبی برای خرید است."
+              },
+              "fare": {
+                "en": "A broker app's ranking of this year's best ETFs is a sound reason to change your core holding.",
+                "fa": "رتبه‌بندی اپ کارگزاری از بهترین ETFهای امسال دلیل خوبی برای عوض کردن هستهٔ پرتفوی است."
               },
               "answer": false
             }
@@ -1331,6 +1443,10 @@
                 "en": "Fund investors' dollar-weighted returns tend to exceed the funds' own reported returns.",
                 "fa": "بازده دلارموزون سرمایه‌گذاران صندوق معمولاً از بازده گزارش‌شدهٔ خود صندوق‌ها بیشتر است."
               },
+              "fare": {
+                "en": "Counting when money actually went in and out, fund investors come out ahead of the funds they hold.",
+                "fa": "اگر زمان واقعی ورود و خروج پول را حساب کنیم، سرمایه‌گذاران از صندوق‌هایی که دارند جلوترند."
+              },
               "answer": false
             },
             {
@@ -1365,6 +1481,10 @@
               "prompt": {
                 "en": "Why do investors earn less than their funds?",
                 "fa": "چرا سرمایه‌گذاران کمتر از صندوق‌هایشان به دست می‌آورند؟"
+              },
+              "fare": {
+                "en": "What is the result of money flooding in after strong performance and fleeing after losses?",
+                "fa": "وقتی پول پس از عملکرد قوی سرازیر می‌شود و پس از زیان فرار می‌کند، نتیجه چیست؟"
               },
               "options": [
                 {
@@ -1415,14 +1535,18 @@
                 "en": "What double penalty does the typical investor pay?",
                 "fa": "سرمایه‌گذار معمولی کدام جریمهٔ دوگانه را می‌پردازد؟"
               },
+              "fare": {
+                "en": "Which two costs stack up on an investor who chases hot active funds?",
+                "fa": "کدام دو هزینه روی سرمایه‌گذاری که دنبال صندوق‌های فعال داغ می‌رود تلنبار می‌شود؟"
+              },
               "options": [
                 {
                   "en": "The cost of active funds, then poor timing",
                   "fa": "هزینهٔ صندوق‌های فعال، سپس زمان‌بندی بد"
                 },
                 {
-                  "en": "Low fees and high taxes",
-                  "fa": "کارمزد کم و مالیات زیاد"
+                  "en": "Low fund fees, then high taxes on gains",
+                  "fa": "کارمزد کم صندوق، سپس مالیات زیاد بر سود"
                 },
                 {
                   "en": "Too much diversification and too little risk",
@@ -1463,6 +1587,10 @@
               "prompt": {
                 "en": "Your own behavior can cost more than any fund fee.",
                 "fa": "رفتار خودت می‌تواند از هر کارمزد صندوق گران‌تر تمام شود."
+              },
+              "fare": {
+                "en": "Even the highest fund fee may hurt you less than what you do yourself.",
+                "fa": "حتی بالاترین کارمزد صندوق هم شاید کمتر از کارهای خودت به تو ضرر بزند."
               },
               "answer": true
             }
@@ -1510,17 +1638,21 @@
                 "en": "What is Bogle's rough bond guideline?",
                 "fa": "قاعدهٔ سرانگشتی Bogle برای اوراق چیست؟"
               },
+              "fare": {
+                "en": "How would a 30-year-old who follows Bogle's rough guideline settle the bond part of a portfolio?",
+                "fa": "یک فرد ۳۰ ساله که از قاعدهٔ سرانگشتی Bogle پیروی می‌کند، بخش اوراق سبدش را چطور تعیین می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Always hold 100 percent stocks",
-                  "fa": "همیشه ۱۰۰ درصد سهام نگه دار"
+                  "en": "Always hold 100 percent in stocks",
+                  "fa": "همیشه ۱۰۰ درصد در سهام بمان"
                 },
                 {
                   "en": "A bond share equal to your age",
                   "fa": "سهم اوراق برابر سنت"
                 },
                 {
-                  "en": "Buy bonds only after retiring",
+                  "en": "Buy bonds only after you have retired",
                   "fa": "فقط پس از بازنشستگی اوراق بخر"
                 }
               ],
@@ -1559,6 +1691,10 @@
                 "en": "Bogle says a sensible plan needs at least ten different funds.",
                 "fa": "Bogle می‌گوید یک برنامهٔ معقول دست‌کم به ده صندوق مختلف نیاز دارد."
               },
+              "fare": {
+                "en": "According to Bogle, two index funds are too few to cover both the stock and the bond part of a plan.",
+                "fa": "به گفتهٔ Bogle، دو صندوق شاخصی برای پوشش هر دو بخش سهام و اوراقِ برنامه کافی نیست."
+              },
               "answer": false
             },
             {
@@ -1593,6 +1729,10 @@
               "prompt": {
                 "en": "In Bogle's closing advice, what is the enemy?",
                 "fa": "در توصیهٔ پایانی Bogle، دشمن چیست؟"
+              },
+              "fare": {
+                "en": "Staying the course means resisting which of these?",
+                "fa": "در مسیر ماندن یعنی ایستادگی در برابر کدام‌یک از این‌ها؟"
               },
               "options": [
                 {
@@ -1642,6 +1782,10 @@
               "prompt": {
                 "en": "Bogle claims an index fund tops the performance charts every year.",
                 "fa": "Bogle ادعا می‌کند صندوق شاخصی هر سال صدرنشین جدول عملکرد است."
+              },
+              "fare": {
+                "en": "In any single year, Bogle expects an index fund to finish ahead of every other fund.",
+                "fa": "Bogle انتظار دارد صندوق شاخصی در هر سالِ تنها از همهٔ صندوق‌های دیگر جلو بزند."
               },
               "answer": false
             }

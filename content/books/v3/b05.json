@@ -68,18 +68,22 @@
                 "en": "Which system does the effortful work of computing 17 × 24?",
                 "fa": "کار پرزحمت حساب کردن ۱۷ × ۲۴ با کدام سیستم است؟"
               },
+              "fare": {
+                "en": "Multiplying 17 by 24 in your head takes effort. Which system takes on that job?",
+                "fa": "ضرب ۱۷ در ۲۴ در ذهن زحمت دارد. این کار را کدام سیستم به عهده می‌گیرد؟"
+              },
               "options": [
                 {
-                  "en": "System 2",
-                  "fa": "سیستم ۲"
+                  "en": "System 2, the conscious self",
+                  "fa": "سیستم ۲، خودِ آگاه"
                 },
                 {
-                  "en": "System 1",
-                  "fa": "سیستم ۱"
+                  "en": "System 1, the automatic one",
+                  "fa": "سیستم ۱، سیستمِ خودکار"
                 },
                 {
                   "en": "Neither; it is a reflex",
-                  "fa": "هیچ‌کدام؛ یک واکنش غیرارادی است"
+                  "fa": "هیچ‌کدام؛ یک بازتاب است"
                 }
               ],
               "answer": 0
@@ -108,6 +112,10 @@
               "prompt": {
                 "en": "Most students at elite universities caught the error in the bat-and-ball puzzle.",
                 "fa": "بیشتر دانشجویان دانشگاه‌های برتر خطای معمای چوب و توپ را تشخیص دادند."
+              },
+              "fare": {
+                "en": "In the bat-and-ball puzzle, fewer than half the students at Harvard, MIT and Princeton gave the intuitive 10 cent answer.",
+                "fa": "در معمای چوب و توپ، کمتر از نیمی از دانشجویان Harvard، MIT و Princeton جواب شهودی ۱۰ سنت را دادند."
               },
               "answer": false
             },
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "What does WYSIATI stand for?",
                 "fa": "WYSIATI مخفف چیست؟"
+              },
+              "fare": {
+                "en": "System 1 builds a story from the information at hand and ignores what is missing. Which phrase sums this up as WYSIATI?",
+                "fa": "سیستم ۱ با همان اطلاعات دمِ دست داستان می‌سازد و جای خالی‌ها را نادیده می‌گیرد. WYSIATI این را با کدام عبارت خلاصه می‌کند؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "Once you know the Müller-Lyer lines are equal, they stop looking unequal.",
                 "fa": "وقتی بدانی خطوط Müller-Lyer برابرند، دیگر نابرابر دیده نمی‌شوند."
               },
+              "fare": {
+                "en": "Measuring the two Müller-Lyer lines and finding them equal makes the illusion disappear.",
+                "fa": "اگر دو خط Müller-Lyer را اندازه بگیری و ببینی برابرند، خطای دید از بین می‌رود."
+              },
               "answer": false
             },
             {
@@ -212,18 +228,22 @@
                 "en": "Before joining a startup, what should System 2 check?",
                 "fa": "پیش از پیوستن به یک استارتاپ، سیستم ۲ باید چه چیزی را بررسی کند؟"
               },
+              "fare": {
+                "en": "System 1 judges a startup by how the founder makes you feel. Which missing facts is System 2 meant to look up?",
+                "fa": "سیستم ۱ استارتاپ را با حسی که بنیان‌گذار به تو می‌دهد قضاوت می‌کند. سیستم ۲ قرار است سراغ کدام اطلاعاتِ جاافتاده برود؟"
+              },
               "options": [
                 {
                   "en": "The written cap table, the vesting and the runway",
                   "fa": "cap table مکتوب، vesting و runway"
                 },
                 {
-                  "en": "How confident the founder sounds",
-                  "fa": "اینکه بنیان‌گذار چقدر مطمئن حرف می‌زند"
+                  "en": "How confident the founder sounds when pitching the vision",
+                  "fa": "اینکه بنیان‌گذار در معرفی چشم‌انداز چقدر مطمئن است"
                 },
                 {
-                  "en": "Whether the office feels exciting",
-                  "fa": "اینکه دفتر کار هیجان‌انگیز به نظر می‌رسد یا نه"
+                  "en": "Whether the office feels exciting on a first visit",
+                  "fa": "اینکه دفتر کار در بازدید اول هیجان‌انگیز است یا نه"
                 }
               ],
               "answer": 0
@@ -252,6 +272,10 @@
               "prompt": {
                 "en": "Listing the same traits in a different order changes how people judge Alan and Ben.",
                 "fa": "فهرست کردن همان ویژگی‌ها با ترتیبی دیگر، قضاوت مردم دربارهٔ Alan و Ben را تغییر می‌دهد."
+              },
+              "fare": {
+                "en": "Alan and Ben have the same traits, yet most people like Alan more because his list starts with the good ones.",
+                "fa": "Alan و Ben همان ویژگی‌ها را دارند، اما بیشتر مردم Alan را بیشتر می‌پسندند چون فهرست او با ویژگی‌های خوب شروع می‌شود."
               },
               "answer": true
             }
@@ -299,6 +323,10 @@
                 "en": "In the wheel of fortune study, the random number had no effect on estimates.",
                 "fa": "در آزمایش چرخ شانس، عدد تصادفی هیچ اثری بر تخمین‌ها نداشت."
               },
+              "fare": {
+                "en": "People who saw the wheel stop at 10 and people who saw it stop at 65 gave about the same estimate.",
+                "fa": "کسانی که چرخ را روی ۱۰ دیدند و کسانی که روی ۶۵ دیدند، تقریباً یک تخمین دادند."
+              },
               "answer": false
             },
             {
@@ -325,6 +353,10 @@
               "prompt": {
                 "en": "What did the German judges who rolled a 9 do?",
                 "fa": "قاضیان آلمانی که ۹ آوردند چه کردند؟"
+              },
+              "fare": {
+                "en": "A loaded die showed 9 before sentencing. What sentence followed from those German judges?",
+                "fa": "تاسِ دست‌کاری‌شده پیش از صدور حکم ۹ آمد. آن قاضیان آلمانی چه حکمی دادند؟"
               },
               "options": [
                 {
@@ -375,6 +407,10 @@
                 "en": "Which defence against an anchor does Kahneman describe?",
                 "fa": "Kahneman کدام دفاع در برابر لنگر را توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "A first number is pulling your estimate towards it. Which countermeasure comes from Kahneman?",
+                "fa": "عدد اول دارد تخمینت را به سمت خودش می‌کشد. کدام راه مقابله از Kahneman است؟"
+              },
               "options": [
                 {
                   "en": "Deliberately think the opposite",
@@ -416,6 +452,10 @@
                 "en": "Strokes cause almost twice as many deaths as all accidents combined.",
                 "fa": "سکته تقریباً دو برابرِ همهٔ حوادث روی هم باعث مرگ می‌شود."
               },
+              "fare": {
+                "en": "All accidents combined cause only about half as many deaths as strokes.",
+                "fa": "همهٔ حوادث روی هم فقط حدود نصفِ سکته باعث مرگ می‌شوند."
+              },
               "answer": true
             },
             {
@@ -443,6 +483,10 @@
                 "en": "What drives an availability cascade?",
                 "fa": "چه چیزی آبشار دسترس‌پذیری را پیش می‌برد؟"
               },
+              "fare": {
+                "en": "A minor risk grows into a public scare and then into policy. What keeps this cascade going?",
+                "fa": "یک خطر کوچک به ترس عمومی و بعد به سیاست‌گذاری می‌رسد. چه چیزی این آبشار را زنده نگه می‌دارد؟"
+              },
               "options": [
                 {
                   "en": "Media coverage feeding itself",
@@ -450,7 +494,7 @@
                 },
                 {
                   "en": "Careful statistical reports",
-                  "fa": "گزارش‌های آماری دقیق"
+                  "fa": "گزارش‌های آماریِ تهیه‌شده با دقت"
                 },
                 {
                   "en": "Expert risk calculations",
@@ -484,6 +528,10 @@
                 "en": "Why do sparsely populated counties show both the lowest and highest cancer rates?",
                 "fa": "چرا شهرستان‌های کم‌جمعیت هم کمترین و هم بیشترین نرخ سرطان را نشان می‌دهند؟"
               },
+              "fare": {
+                "en": "The counties with the most extreme kidney cancer rates, high and low, are mostly rural and thinly populated. What explains this?",
+                "fa": "شهرستان‌هایی که نرخ سرطان کلیه در آن‌ها از همه بالاتر یا پایین‌تر است بیشتر روستایی و کم‌جمعیت‌اند. توضیحش چیست؟"
+              },
               "options": [
                 {
                   "en": "Small samples give more extreme results",
@@ -491,11 +539,11 @@
                 },
                 {
                   "en": "Rural life both causes and prevents cancer",
-                  "fa": "زندگی روستایی هم سرطان می‌آورد هم جلویش را می‌گیرد"
+                  "fa": "زندگی روستایی هم سرطان‌زاست هم مانع سرطان"
                 },
                 {
                   "en": "The data were collected wrongly",
-                  "fa": "داده‌ها اشتباه جمع شده‌اند"
+                  "fa": "داده‌ها به‌اشتباه جمع‌آوری شده‌اند"
                 }
               ],
               "answer": 0
@@ -516,6 +564,10 @@
               "prompt": {
                 "en": "The cadets improved after being shouted at mainly because shouting works.",
                 "fa": "خلبانان دانشجو پس از داد زدن بهتر شدند، عمدتاً چون داد زدن مؤثر است."
+              },
+              "fare": {
+                "en": "The cadets' better performance after shouting shows that punishment improves flying.",
+                "fa": "بهتر شدن خلبانان دانشجو پس از داد زدن نشان می‌دهد که تنبیه پرواز را بهتر می‌کند."
               },
               "answer": false
             }
@@ -563,6 +615,10 @@
                 "en": "What did Kahneman call confidence that survives evidence of failure?",
                 "fa": "Kahneman اطمینانی را که پس از شواهد شکست باقی می‌ماند چه نامید؟"
               },
+              "fare": {
+                "en": "A team's forecasts keep failing, yet the team still feels sure of them. Which name did Kahneman give this?",
+                "fa": "پیش‌بینی‌های یک تیم مدام غلط از آب درمی‌آید، اما تیم همچنان به آن‌ها مطمئن است. Kahneman چه نامی بر این گذاشت؟"
+              },
               "options": [
                 {
                   "en": "The illusion of validity",
@@ -604,6 +660,10 @@
                 "en": "The advisers' yearly rankings were strongly consistent from year to year.",
                 "fa": "رتبه‌های سالانهٔ مشاوران از سالی به سال دیگر بسیار ثابت بود."
               },
+              "fare": {
+                "en": "An adviser who ranked high one year was very likely to rank high the next year too.",
+                "fa": "مشاوری که یک سال رتبهٔ بالایی داشت، به احتمال زیاد سال بعد هم رتبهٔ بالایی می‌گرفت."
+              },
               "answer": false
             },
             {
@@ -639,6 +699,10 @@
                 "en": "What share of similar teams never finished, according to Seymour Fox?",
                 "fa": "به گفتهٔ Seymour Fox چه سهمی از تیم‌های مشابه هرگز کار را تمام نکردند؟"
               },
+              "fare": {
+                "en": "Seymour Fox gave the base rate for teams like Kahneman's. How many of them gave up before finishing?",
+                "fa": "Seymour Fox نرخ پایهٔ تیم‌هایی مثل تیم Kahneman را گفت. چه تعدادشان پیش از پایان کار دست کشیدند؟"
+              },
               "options": [
                 {
                   "en": "40 percent",
@@ -650,7 +714,7 @@
                 },
                 {
                   "en": "Almost none",
-                  "fa": "تقریباً هیچ‌کدام"
+                  "fa": "تقریباً هیچ"
                 }
               ],
               "answer": 0
@@ -680,6 +744,10 @@
                 "en": "The outside view starts from the base rate of similar projects.",
                 "fa": "دید بیرونی از نرخ پایهٔ پروژه‌های مشابه شروع می‌کند."
               },
+              "fare": {
+                "en": "Reference class forecasting begins with how similar projects turned out, then adjusts for what is special about yours.",
+                "fa": "پیش‌بینی بر پایهٔ طبقهٔ مرجع اول نگاه می‌کند پروژه‌های مشابه چه سرانجامی داشتند و بعد برای ویژگی‌های پروژهٔ خودت تعدیل می‌کند."
+              },
               "answer": true
             },
             {
@@ -707,6 +775,10 @@
                 "en": "In a premortem, what do you imagine?",
                 "fa": "در premortem چه چیزی را تصور می‌کنی؟"
               },
+              "fare": {
+                "en": "Gary Klein's exercise is run before committing to a plan. Which scene does it start from?",
+                "fa": "تمرین Gary Klein پیش از متعهد شدن به یک برنامه انجام می‌شود. این تمرین از کدام صحنه شروع می‌کند؟"
+              },
               "options": [
                 {
                   "en": "A year later, the plan was a disaster",
@@ -718,7 +790,7 @@
                 },
                 {
                   "en": "The competitors gave up early",
-                  "fa": "رقبا زود کنار کشیده‌اند"
+                  "fa": "رقیبان زودهنگام کنار کشیده‌اند"
                 }
               ],
               "answer": 0
@@ -748,18 +820,22 @@
                 "en": "When can an expert's intuition be trusted?",
                 "fa": "کی می‌شود به شهود یک کارشناس اعتماد کرد؟"
               },
+              "fare": {
+                "en": "Firefighters and chess players qualify, stock pickers do not. Under which condition does an expert's gut feeling deserve belief?",
+                "fa": "آتش‌نشان‌ها و شطرنج‌بازها این شرط را دارند و انتخاب‌کنندگان سهام نه. حسِ درونی یک کارشناس با چه شرطی باورکردنی است؟"
+              },
               "options": [
                 {
                   "en": "In a regular environment, after long practice with quick feedback",
                   "fa": "در محیطی منظم، پس از تمرین طولانی با بازخورد سریع"
                 },
                 {
-                  "en": "Whenever the expert feels very confident",
-                  "fa": "هر وقت کارشناس خیلی مطمئن باشد"
+                  "en": "Whenever the expert feels very confident and explains the reasoning fluently",
+                  "fa": "هر وقت کارشناس خیلی مطمئن باشد و دلیل‌هایش را روان توضیح دهد"
                 },
                 {
-                  "en": "Whenever the expert has a famous name",
-                  "fa": "هر وقت کارشناس نام مشهوری داشته باشد"
+                  "en": "Whenever the expert has a famous name and a large public following",
+                  "fa": "هر وقت کارشناس نام مشهوری داشته باشد و مخاطبان زیادی دنبالش کنند"
                 }
               ],
               "answer": 0
@@ -808,18 +884,22 @@
                 "en": "In prospect theory, outcomes are judged against what?",
                 "fa": "در نظریهٔ چشم‌انداز، نتیجه‌ها نسبت به چه چیزی سنجیده می‌شوند؟"
               },
+              "fare": {
+                "en": "Jack and Jill both have 5 million today but are not equally happy. Prospect theory says each measures the outcome against what?",
+                "fa": "Jack و Jill امروز هر دو ۵ میلیون دارند اما به یک اندازه خوشحال نیستند. طبق نظریهٔ چشم‌انداز، هر کدام نتیجه را با چه چیزی می‌سنجد؟"
+              },
               "options": [
                 {
                   "en": "A reference point",
                   "fa": "یک نقطهٔ مرجع"
                 },
                 {
-                  "en": "Total wealth",
-                  "fa": "کل ثروت"
+                  "en": "Their total wealth",
+                  "fa": "کل ثروتشان"
                 },
                 {
-                  "en": "The average outcome of others",
-                  "fa": "میانگین نتیجهٔ دیگران"
+                  "en": "Others' average outcome",
+                  "fa": "متوسط نتیجهٔ بقیه"
                 }
               ],
               "answer": 0
@@ -848,6 +928,10 @@
               "prompt": {
                 "en": "Most people accept a coin toss that loses $100 or wins $150.",
                 "fa": "بیشتر مردم شیر یا خطی با ۱۰۰ دلار باخت یا ۱۵۰ دلار برد را می‌پذیرند."
+              },
+              "fare": {
+                "en": "A possible win of $150 is enough to make most people risk losing $100 on a coin toss.",
+                "fa": "احتمال بردِ ۱۵۰ دلار کافی است تا بیشتر مردم خطر باختِ ۱۰۰ دلار را در یک شیر یا خط بپذیرند."
               },
               "answer": false
             },
@@ -884,6 +968,10 @@
                 "en": "What does the endowment effect make giving something up feel like?",
                 "fa": "اثر مالکیت باعث می‌شود از دست دادن چیزی چه حسی داشته باشد؟"
               },
+              "fare": {
+                "en": "Once a mug is yours, you ask about twice as much to sell it. How does parting with it register in your mind?",
+                "fa": "وقتی لیوان مال تو شد، برای فروشش حدود دو برابر می‌خواهی. جدا شدن از آن در ذهنت چه چیزی حساب می‌شود؟"
+              },
               "options": [
                 {
                   "en": "A loss",
@@ -891,11 +979,11 @@
                 },
                 {
                   "en": "A fair trade",
-                  "fa": "یک معاملهٔ منصفانه"
+                  "fa": "معاملهٔ منصفانه"
                 },
                 {
                   "en": "A gain",
-                  "fa": "یک سود"
+                  "fa": "نوعی سود"
                 }
               ],
               "answer": 0
@@ -925,6 +1013,10 @@
                 "en": "Physicians were not swayed by survival versus mortality framing.",
                 "fa": "قاب‌بندی بقا در برابر مرگ‌ومیر روی پزشکان اثری نداشت."
               },
+              "fare": {
+                "en": "A 90 percent survival rate and a 10 percent mortality rate won equal support for surgery among physicians.",
+                "fa": "نرخ بقای ۹۰ درصد و نرخ مرگ‌ومیر ۱۰ درصد، نزد پزشکان به یک اندازه برای جراحی حمایت جلب کرد."
+              },
               "answer": false
             },
             {
@@ -951,6 +1043,10 @@
               "prompt": {
                 "en": "In the roadmap, how often is the index ETF core reviewed?",
                 "fa": "در نقشهٔ راه، هستهٔ ETF شاخصی هر چند وقت یک بار مرور می‌شود؟"
+              },
+              "fare": {
+                "en": "The roadmap turns Kahneman's risk policy into a fixed schedule for the index ETF core. Which schedule is it?",
+                "fa": "نقشهٔ راه سیاست ریسکِ Kahneman را به برنامه‌ای ثابت برای هستهٔ ETF شاخصی تبدیل می‌کند. آن برنامه کدام است؟"
               },
               "options": [
                 {
@@ -992,6 +1088,10 @@
               "prompt": {
                 "en": "Most people think the woman who lost her tickets will buy new ones, while the one who lost cash will go home.",
                 "fa": "بیشتر مردم فکر می‌کنند زنی که بلیت‌هایش را گم کرده بلیت تازه می‌خرد و زنی که پول نقد گم کرده به خانه برمی‌گردد."
+              },
+              "fare": {
+                "en": "Most people expect the woman who lost cash to skip the play, and the one who lost her tickets to buy them again.",
+                "fa": "بیشتر مردم انتظار دارند زنی که پول نقد گم کرده از تئاتر بگذرد و زنی که بلیت‌هایش را گم کرده دوباره بلیت بخرد."
               },
               "answer": false
             }
@@ -1039,6 +1139,10 @@
                 "en": "Which self keeps score and makes choices?",
                 "fa": "کدام خود حساب نگه می‌دارد و انتخاب می‌کند؟"
               },
+              "fare": {
+                "en": "One self answers \"How was it, on the whole?\" and decides what you do next time. Which one?",
+                "fa": "یکی از دو خود به پرسش «روی هم رفته چطور بود؟» جواب می‌دهد و تصمیم می‌گیرد دفعهٔ بعد چه کنی. کدام‌یک؟"
+              },
               "options": [
                 {
                   "en": "The experiencing self",
@@ -1050,7 +1154,7 @@
                 },
                 {
                   "en": "Neither; choices are random",
-                  "fa": "هیچ‌کدام؛ انتخاب‌ها تصادفی‌اند"
+                  "fa": "هیچ‌کدام؛ تصادفی‌اند"
                 }
               ],
               "answer": 1
@@ -1079,6 +1183,10 @@
               "prompt": {
                 "en": "Most people chose to repeat the longer cold-hand trial, though it held more total pain.",
                 "fa": "بیشتر مردم تکرار آزمایش طولانی‌ترِ آب سرد را انتخاب کردند، هرچند درد کلی بیشتری داشت."
+              },
+              "fare": {
+                "en": "Given the choice, most people preferred 90 seconds of cold water with a slightly warmer end over 60 seconds.",
+                "fa": "بیشتر مردم وقتی حق انتخاب داشتند، ۹۰ ثانیه آب سرد با پایانی کمی گرم‌تر را به ۶۰ ثانیه ترجیح دادند."
               },
               "answer": true
             },
@@ -1115,14 +1223,18 @@
                 "en": "What does the U-index measure?",
                 "fa": "شاخص U چه چیزی را می‌سنجد؟"
               },
+              "fare": {
+                "en": "In the Day Reconstruction Method, people relive yesterday episode by episode. Which figure does the U-index draw from that?",
+                "fa": "در روش بازسازی روز، افراد دیروزشان را رویداد به رویداد مرور می‌کنند. شاخص U از دل آن چه عددی بیرون می‌کشد؟"
+              },
               "options": [
                 {
-                  "en": "Overall life satisfaction",
-                  "fa": "رضایت کلی از زندگی"
+                  "en": "How satisfied people say they are with their lives",
+                  "fa": "اینکه مردم می‌گویند چقدر از زندگی‌شان راضی‌اند"
                 },
                 {
-                  "en": "Yearly household income",
-                  "fa": "درآمد سالانهٔ خانوار"
+                  "en": "How much a household earns in a typical year",
+                  "fa": "اینکه یک خانوار در یک سال معمولی چقدر درآمد دارد"
                 },
                 {
                   "en": "The share of time spent in an unpleasant state",
@@ -1156,6 +1268,10 @@
                 "en": "Above about $75,000 a year, more income kept raising experienced well-being in the US data.",
                 "fa": "در داده‌های آمریکا، بالاتر از حدود ۷۵٬۰۰۰ دلار در سال، درآمد بیشتر همچنان بهزیستیِ تجربه‌شده را بالا برد."
               },
+              "fare": {
+                "en": "In the US data, life satisfaction stopped rising above about $75,000 a year, while experienced well-being kept climbing.",
+                "fa": "در داده‌های آمریکا، بالاتر از حدود ۷۵٬۰۰۰ دلار در سال رضایت از زندگی دیگر بالا نرفت، اما بهزیستیِ تجربه‌شده همچنان بیشتر شد."
+              },
               "answer": false
             },
             {
@@ -1183,18 +1299,22 @@
                 "en": "What is the easiest way to raise experienced well-being, according to Kahneman?",
                 "fa": "به گفتهٔ Kahneman آسان‌ترین راه بالا بردن بهزیستیِ تجربه‌شده چیست؟"
               },
+              "fare": {
+                "en": "Commuting and chores score low, time with other people scores high. Which lever does Kahneman name for feeling better day to day?",
+                "fa": "رفت‌وآمد و کارهای خانه امتیاز پایین دارند و وقت با دیگران امتیاز بالا. Kahneman کدام اهرم را برای بهتر شدن حالِ روزمره نام می‌برد؟"
+              },
               "options": [
                 {
                   "en": "Control how you use your time",
                   "fa": "کنترل نحوهٔ گذراندن وقت"
                 },
                 {
-                  "en": "Buy a bigger flat",
-                  "fa": "خریدن خانهٔ بزرگ‌تر"
+                  "en": "Buy a bigger and more comfortable flat",
+                  "fa": "خریدن خانهٔ بزرگ‌تر و راحت‌تر"
                 },
                 {
-                  "en": "Take longer holidays",
-                  "fa": "رفتن به تعطیلات طولانی‌تر"
+                  "en": "Take longer holidays every year",
+                  "fa": "هر سال رفتن به تعطیلات طولانی‌تر"
                 }
               ],
               "answer": 0
@@ -1223,6 +1343,10 @@
               "prompt": {
                 "en": "Your memory of a past investment weighs every month of it equally.",
                 "fa": "خاطره‌ات از یک سرمایه‌گذاری گذشته به همهٔ ماه‌هایش وزن برابر می‌دهد."
+              },
+              "fare": {
+                "en": "When you look back on a job or an investment, its peak and its end count no more than any other stretch.",
+                "fa": "وقتی به یک شغل یا سرمایه‌گذاری گذشته نگاه می‌کنی، اوج و پایانش بیش از هیچ دورهٔ دیگری به حساب نمی‌آید."
               },
               "answer": false
             }
