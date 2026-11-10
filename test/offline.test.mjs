@@ -10,7 +10,7 @@ import { reducer } from './helpers.mjs';
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => fs.readFileSync(path.join(root, f), 'utf8');
 const swSource = read('sw.js');
-const sw = new Function(`${swSource}\nreturn { strategyFor, SHELL, SHELL_CACHE, BOOK_CACHE };`)();
+const sw = new Function(`${swSource}\nreturn { strategyFor, cacheable, SHELL, SHELL_CACHE, BOOK_CACHE, RETIRED_CACHES };`)();
 const SCOPE = 'https://example.github.io/fi-game/';
 const route = (url, { method = 'GET', mode = 'cors' } = {}) => sw.strategyFor(method, url, SCOPE, mode);
 
@@ -40,11 +40,42 @@ describe('Service worker routing', () => {
     expect(route(`${SCOPE}content/books/v3/evil.json`)).toBe('pass');
     expect(route(`${SCOPE}sw.js`)).toBe('pass');
     expect(route(SCOPE, { method: 'POST', mode: 'navigate' })).toBe('pass');
+    expect(route(`${SCOPE}README.md`, { mode: 'navigate' })).toBe('pass');
+    expect(route(`${SCOPE}docs/FINAL-REPORT.md`, { mode: 'navigate' })).toBe('pass');
   });
 
   it('works under a local server at the root too', () => {
     expect(sw.strategyFor('GET', 'http://localhost:8766/content/books/v3/b04.json', 'http://localhost:8766/', 'cors')).toBe('book');
     expect(sw.strategyFor('GET', 'http://localhost:8766/', 'http://localhost:8766/', 'navigate')).toBe('page');
+  });
+});
+
+describe('What the worker may keep', () => {
+  const json = { ok: true, redirected: false, type: 'basic', contentType: 'application/json' };
+  it('a book only when it is a plain successful JSON answer', () => {
+    expect(sw.cacheable('book', json)).toBe(true);
+    expect(sw.cacheable('book', { ...json, contentType: 'text/html; charset=utf-8' })).toBe(false); // a captive portal answering for a book
+    expect(sw.cacheable('book', { ...json, ok: false })).toBe(false);
+    expect(sw.cacheable('book', { ...json, redirected: true })).toBe(false);
+    expect(sw.cacheable('book', { ...json, type: 'opaque' })).toBe(false);
+    expect(sw.cacheable('book', { ...json, contentType: null })).toBe(false);
+    expect(sw.cacheable('book', null)).toBe(false);
+  });
+  it('the page and assets when the answer is plain and successful; never anything it does not serve', () => {
+    expect(sw.cacheable('page', { ...json, contentType: 'text/html' })).toBe(true);
+    expect(sw.cacheable('asset', { ...json, contentType: 'image/png' })).toBe(true);
+    expect(sw.cacheable('page', { ...json, ok: false })).toBe(false);
+    expect(sw.cacheable('page', { ...json, redirected: true })).toBe(false);
+    expect(sw.cacheable('pass', json)).toBe(false);
+  });
+  it('deletes only caches it names itself: Cache Storage is shared with other sites on the origin', () => {
+    expect(Array.isArray(sw.RETIRED_CACHES)).toBe(true);
+    expect(swSource).not.toMatch(/startsWith\('fi-'\)/);
+    expect(swSource).not.toMatch(/caches\.keys\(\)/);
+  });
+  it('a failed cache write cannot fail a response: every write is inside a try', () => {
+    expect(swSource.match(/cache\.put\(/g)).toHaveLength(1);
+    expect(swSource).toMatch(/try \{ const cache = await open\(name\); if \(cache\) await cache\.put\(key, response\); \} catch/);
   });
 });
 
@@ -71,6 +102,8 @@ describe('The files beside the page (ADR-0001 amendment)', () => {
     expect(page).toContain('<link rel="apple-touch-icon" href="apple-touch-icon.png">');
     expect(page).toMatch(/serviceWorker\.register\('sw\.js'\)/);
     expect(page).toMatch(/location\.protocol !== 'file:'/);
+    // the panel is trusted only once a worker is registered
+    expect(page).toMatch(/navigator\.serviceWorker\.ready\)\.then\(\(\) => \{ workerReady = true;/);
   });
 
   it('the page and the worker agree on the name of the book cache', () => {
@@ -81,7 +114,8 @@ describe('The files beside the page (ADR-0001 amendment)', () => {
     for (const f of ['sw.js', 'manifest.webmanifest', 'icon.svg']) {
       const text = read(f).replace('http://www.w3.org/2000/svg', '');
       expect(text, f).not.toMatch(/https?:\/\//);
-      expect(text, f).not.toMatch(/importScripts|<script/);
+      expect(text, f).not.toMatch(/["'`(]\/\/[a-z0-9]/i); // a protocol-relative URL
+      expect(text, f).not.toMatch(/importScripts|<script|\bimport\s*\(|\bimport\s+["'{*]/);
     }
   });
 });
@@ -106,6 +140,7 @@ describe('Offline panel on the Path', () => {
     FI.render.setOffline({ supported: true, ready: 3, downloading: null, failed: 0 });
     const h = html(FI.engine.initial());
     expect(h).toMatch(/Available offline: 3\/28 books/);
+    expect(h).toMatch(/role="progressbar"[^>]*aria-valuemax="28"[^>]*aria-valuenow="3"/);
     expect(h).toContain('DOWNLOAD_BOOKS');
   });
 
@@ -122,13 +157,22 @@ describe('Offline panel on the Path', () => {
     expect(html(FI.engine.initial())).not.toContain('DOWNLOAD_BOOKS');
     FI.render.setOffline({ supported: true, ready: 26, downloading: null, failed: 2 });
     expect(html(FI.engine.initial())).toMatch(/2 could not be downloaded/);
+    FI.render.setOffline({ supported: true, ready: 20, downloading: null, failed: 0, unstored: 8 });
+    expect(html(FI.engine.initial())).toMatch(/8 could not be stored/);
+    expect(html(FI.engine.initial())).not.toMatch(/could not be downloaded/);
+    FI.render.setOffline({ unstored: 0 });
   });
 
   it('offers Install only when the browser offered it', () => {
     FI.render.setOffline({ supported: true, ready: 0, failed: 0, installable: false });
     expect(html(FI.engine.initial())).not.toContain('"INSTALL"'.replace(/"/g, '&quot;'));
+    expect(html(FI.engine.initial())).toContain('To install: open the browser menu'); // Safari and Firefox have no prompt
     FI.render.setOffline({ installable: true });
     expect(html(FI.engine.initial())).toContain('INSTALL');
+    expect(html(FI.engine.initial())).not.toContain('To install: open the browser menu');
+    FI.render.setOffline({ installable: false, standalone: true });
+    expect(html(FI.engine.initial())).not.toContain('To install: open the browser menu'); // already installed
+    FI.render.setOffline({ standalone: false });
     FI.render.setOffline({ supported: false, installable: false });
   });
 
