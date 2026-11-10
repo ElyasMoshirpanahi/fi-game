@@ -60,14 +60,18 @@
                 "en": "Which is one of Berkshire's buying tests from 1977?",
                 "fa": "کدام یکی از آزمون‌های خرید Berkshire در ۱۹۷۷ است؟"
               },
+              "fare": {
+                "en": "Buffett's 1977 list names four things Berkshire looks for. Which of these is on it?",
+                "fa": "فهرست ۱۹۷۷ Buffett چهار چیز را نام می‌برد که Berkshire دنبالش است. کدام‌یک در آن فهرست هست؟"
+              },
               "options": [
                 {
                   "en": "Run by honest and competent people",
                   "fa": "اداره‌شده با مدیرانی درستکار و توانا"
                 },
                 {
-                  "en": "A stock that rose fast last year",
-                  "fa": "سهمی که پارسال سریع بالا رفت"
+                  "en": "A stock that rose fast over the last year",
+                  "fa": "سهمی که در یک سال گذشته سریع بالا رفت"
                 },
                 {
                   "en": "A company with celebrity backers",
@@ -100,6 +104,10 @@
               "prompt": {
                 "en": "Owner earnings subtract the capital spending needed to keep a business competitive.",
                 "fa": "در سود مالکانه، مخارج سرمایه‌ای لازم برای رقابتی ماندن کسب‌وکار کم می‌شود."
+              },
+              "fare": {
+                "en": "To get owner earnings, you take off the capital spending a business needs to stay competitive.",
+                "fa": "برای رسیدن به سود مالکانه، مخارج سرمایه‌ای‌ای را که کسب‌وکار برای رقابتی ماندن لازم دارد از سود کم می‌کنی."
               },
               "answer": true
             },
@@ -136,14 +144,18 @@
                 "en": "What does Buffett mock about EBITDA in the 2000 letter?",
                 "fa": "Buffett در نامهٔ ۲۰۰۰ چه چیزی از EBITDA را مسخره می‌کند؟"
               },
+              "fare": {
+                "en": "In 2000, which jab does Buffett aim at managers who talk up EBITDA?",
+                "fa": "Buffett در سال ۲۰۰۰ به مدیرانی که از EBITDA دم می‌زنند چه طعنه‌ای می‌زند؟"
+              },
               "options": [
                 {
-                  "en": "It ignores marketing costs",
-                  "fa": "هزینه‌های بازاریابی را نادیده می‌گیرد"
+                  "en": "It ignores the marketing costs a business must pay",
+                  "fa": "هزینه‌های بازاریابی‌ای را که کسب‌وکار باید بپردازد نادیده می‌گیرد"
                 },
                 {
-                  "en": "It counts dividends twice",
-                  "fa": "سود تقسیمی را دو بار حساب می‌کند"
+                  "en": "It counts dividends paid to owners twice over",
+                  "fa": "سود تقسیمیِ پرداخت‌شده به مالکان را دو بار حساب می‌کند"
                 },
                 {
                   "en": "As if the tooth fairy pays for capital spending",
@@ -177,6 +189,10 @@
                 "en": "Buffett concluded it is better to buy a fair company at a wonderful price.",
                 "fa": "Buffett نتیجه گرفت بهتر است یک شرکت معمولی را به قیمت عالی بخری."
               },
+              "fare": {
+                "en": "Buffett's lesson from his cigar butt years: a fair company at a wonderful price beats a wonderful company at a fair price.",
+                "fa": "درس Buffett از سال‌های «ته‌سیگاری»: شرکت معمولی با قیمت عالی از شرکت عالی با قیمت منصفانه بهتر است."
+              },
               "answer": false
             },
             {
@@ -204,18 +220,22 @@
                 "en": "Using owner earnings, what do you subtract from your product's cash?",
                 "fa": "با منطق سود مالکانه، از نقد محصولت چه چیزی کم می‌کنی؟"
               },
+              "fare": {
+                "en": "Your product's cash is not yet its owner earnings. What has to come off first?",
+                "fa": "نقدی که محصولت می‌آورد هنوز سود مالکانه نیست. اول چه چیزی باید از آن کم شود؟"
+              },
               "options": [
                 {
-                  "en": "Only the income tax you expect",
-                  "fa": "فقط مالیات بر درآمدی که انتظار داری"
+                  "en": "Only the income tax you expect to pay on its profit this year",
+                  "fa": "فقط مالیات بر درآمدی که انتظار داری امسال بابت سودش بدهی"
                 },
                 {
                   "en": "Hosting, API and tool spend needed to keep it competitive",
                   "fa": "هزینهٔ هاستینگ، API و ابزار لازم برای رقابتی ماندنش"
                 },
                 {
-                  "en": "Nothing, revenue is all the owner's money",
-                  "fa": "هیچ، کل درآمد پول مالک است"
+                  "en": "Nothing, since all revenue is simply the owner's own money",
+                  "fa": "هیچ، چون کل درآمد به‌سادگی پول خود مالک است"
                 }
               ],
               "answer": 1
@@ -244,6 +264,10 @@
               "prompt": {
                 "en": "Buffett defines intrinsic value as the discounted cash a business can take out over its remaining life.",
                 "fa": "Buffett ارزش ذاتی را نقد تنزیل‌شده‌ای می‌داند که کسب‌وکار در باقی عمرش می‌تواند بیرون بدهد."
+              },
+              "fare": {
+                "en": "In the owner's manual, a business's intrinsic value comes from the cash it can pay out for the rest of its life, discounted to today.",
+                "fa": "در راهنمای مالکان، ارزش ذاتی یک کسب‌وکار از نقدی می‌آید که تا پایان عمرش می‌تواند بیرون بدهد، با تنزیل به امروز."
               },
               "answer": true
             }
@@ -283,13 +307,17 @@
                 "en": "What does Buffett say protects a great business's high returns?",
                 "fa": "Buffett می‌گوید چه چیزی از بازده بالای یک کسب‌وکار عالی محافظت می‌کند؟"
               },
+              "fare": {
+                "en": "Rivals attack any castle earning high returns. What keeps them out, in Buffett's picture?",
+                "fa": "رقبا به هر قلعه‌ای که بازده بالا دارد حمله می‌کنند. در تصویر Buffett چه چیزی جلویشان را می‌گیرد؟"
+              },
               "options": [
                 {
                   "en": "A durable moat",
                   "fa": "خندقی پایدار"
                 },
                 {
-                  "en": "A famous chief executive",
+                  "en": "A famous CEO",
                   "fa": "مدیرعاملی مشهور"
                 },
                 {
@@ -323,6 +351,10 @@
               "prompt": {
                 "en": "Buffett prefers industries where rapid and continuous change is the rule.",
                 "fa": "Buffett صنایعی را ترجیح می‌دهد که تغییر سریع و مداوم در آن‌ها قاعده است."
+              },
+              "fare": {
+                "en": "Fast, constant change in an industry is what Buffett looks for when he wants a lasting moat.",
+                "fa": "وقتی Buffett خندقی ماندگار می‌خواهد، دنبال صنعتی می‌گردد که مدام و سریع عوض شود."
               },
               "answer": false
             },
@@ -358,6 +390,10 @@
               "prompt": {
                 "en": "How much capital did See's need in 2007 to earn $82 million pre-tax?",
                 "fa": "See's در ۲۰۰۷ برای ۸۲ میلیون دلار سود پیش از مالیات چقدر سرمایه لازم داشت؟"
+              },
+              "fare": {
+                "en": "See's earned $82 million pre-tax in 2007. What capital base produced that?",
+                "fa": "See's در ۲۰۰۷ به ۸۲ میلیون دلار سود پیش از مالیات رسید. این سود با چه مقدار سرمایه ساخته شد؟"
               },
               "options": [
                 {
@@ -400,6 +436,10 @@
                 "en": "In the 2007 letter, FlightSafety is an example of a business that needs heavy reinvestment to grow.",
                 "fa": "در نامهٔ ۲۰۰۷، FlightSafety نمونهٔ کسب‌وکاری است که برای رشد به سرمایه‌گذاری مجدد سنگین نیاز دارد."
               },
+              "fare": {
+                "en": "Buffett's 2007 example of a good, not great, business is FlightSafety: fine returns, but growth takes heavy reinvestment.",
+                "fa": "نمونهٔ Buffett در ۲۰۰۷ برای کسب‌وکار خوب ولی نه عالی FlightSafety است: بازده مناسب، اما رشدش سرمایه‌گذاری مجدد سنگین می‌خواهد."
+              },
               "answer": true
             },
             {
@@ -426,6 +466,10 @@
               "prompt": {
                 "en": "In Buffett's terms, what is a thin wrapper over someone else's API?",
                 "fa": "به زبان Buffett، پوستهٔ نازک روی API دیگران چیست؟"
+              },
+              "fare": {
+                "en": "An AI product that only wraps another company's API fits which of Buffett's pictures?",
+                "fa": "محصول AI‌ای که فقط روی API شرکت دیگری سوار است با کدام تصویر Buffett جور است؟"
               },
               "options": [
                 {
@@ -467,6 +511,10 @@
               "prompt": {
                 "en": "Which is a trait of a franchise in the 1991 letter?",
                 "fa": "کدام ویژگی فرانچایز در نامهٔ ۱۹۹۱ است؟"
+              },
+              "fare": {
+                "en": "The 1991 letter says a franchise can raise prices. Which feature helps make that possible?",
+                "fa": "نامهٔ ۱۹۹۱ می‌گوید فرانچایز می‌تواند قیمت را بالا ببرد. کدام ویژگی این را ممکن می‌کند؟"
               },
               "options": [
                 {
@@ -528,6 +576,10 @@
                 "en": "Mr. Market quotes the same sensible price every day.",
                 "fa": "Mr. Market هر روز همان قیمت معقول را می‌دهد."
               },
+              "fare": {
+                "en": "Mr. Market's mood is steady, so his price barely changes from one day to the next.",
+                "fa": "حال Mr. Market ثابت است، برای همین قیمتش از امروز تا فردا تقریباً عوض نمی‌شود."
+              },
               "answer": false
             },
             {
@@ -547,6 +599,10 @@
                 "en": "How should you treat the market's daily quotes, per Buffett?",
                 "fa": "به گفتهٔ Buffett با قیمت‌های روزانهٔ بازار چه کنی؟"
               },
+              "fare": {
+                "en": "Mr. Market turns up with a new price every day. Which response fits Buffett's view?",
+                "fa": "Mr. Market هر روز با قیمتی تازه می‌آید. کدام برخورد با نگاه Buffett جور است؟"
+              },
               "options": [
                 {
                   "en": "Follow them as the best guide to value",
@@ -557,8 +613,8 @@
                   "fa": "قیمت‌ها برای خدمت به تو هستند، نه راهنمایی تو"
                 },
                 {
-                  "en": "Sell whenever the price falls",
-                  "fa": "هر بار قیمت افتاد بفروشی"
+                  "en": "Sell your shares whenever the quoted price falls",
+                  "fa": "هر بار قیمت اعلام‌شده افتاد سهمت را بفروشی"
                 }
               ],
               "answer": 1
@@ -595,6 +651,10 @@
               "prompt": {
                 "en": "What is Buffett's 1986 rule on fear and greed?",
                 "fa": "قاعدهٔ ۱۹۸۶ Buffett دربارهٔ ترس و طمع چیست؟"
+              },
+              "fare": {
+                "en": "Others are getting greedy. Which of these is the 1986 letter's rule for that moment?",
+                "fa": "دیگران دارند طمع می‌کنند. کدام‌یک قاعدهٔ نامهٔ ۱۹۸۶ برای چنین لحظه‌ای است؟"
               },
               "options": [
                 {
@@ -637,6 +697,10 @@
                 "en": "Buffett says a long-term net buyer of stocks should welcome falling prices.",
                 "fa": "Buffett می‌گوید خریدار خالص بلندمدت سهام باید از افت قیمت‌ها استقبال کند."
               },
+              "fare": {
+                "en": "If you will keep buying stocks for years, lower prices are good news for you, in Buffett's view.",
+                "fa": "به نظر Buffett، اگر قرار است سال‌ها سهام بخری، پایین آمدن قیمت‌ها برایت خبر خوبی است."
+              },
               "answer": true
             },
             {
@@ -664,10 +728,14 @@
                 "en": "Why does Buffett warn against owning stocks with borrowed money?",
                 "fa": "چرا Buffett دربارهٔ خرید سهام با پول قرضی هشدار می‌دهد؟"
               },
+              "fare": {
+                "en": "What is the risk of holding stocks on borrowed money, in the 2017 letter?",
+                "fa": "در نامهٔ ۲۰۱۷، خطر نگه داشتن سهام با پول قرضی چیست؟"
+              },
               "options": [
                 {
-                  "en": "Interest rates are always too high",
-                  "fa": "نرخ بهره همیشه خیلی بالاست"
+                  "en": "Interest rates on loans are always far too high",
+                  "fa": "نرخ بهرهٔ وام همیشه خیلی بیش از حد بالاست"
                 },
                 {
                   "en": "Berkshire's stock has never fallen much",
@@ -704,6 +772,10 @@
               "prompt": {
                 "en": "In 2008 Buffett said a crash is a reason to stop buying quality businesses.",
                 "fa": "Buffett در ۲۰۰۸ گفت سقوط بازار دلیلی برای توقف خرید کسب‌وکارهای باکیفیت است."
+              },
+              "fare": {
+                "en": "During the 2008 crisis, Buffett wrote that marked-down quality merchandise is something to avoid.",
+                "fa": "وسط بحران ۲۰۰۸، Buffett نوشت باید از کالای باکیفیتی که تخفیف خورده دوری کرد."
               },
               "answer": false
             }
@@ -751,6 +823,10 @@
                 "en": "What matters most about your circle of competence, per Buffett?",
                 "fa": "به گفتهٔ Buffett، دربارهٔ دایرهٔ صلاحیت چه چیزی از همه مهم‌تر است؟"
               },
+              "fare": {
+                "en": "Buffett calls one thing about your circle of competence vital. Which?",
+                "fa": "Buffett یک چیز را دربارهٔ دایرهٔ صلاحیت «حیاتی» می‌داند. کدام؟"
+              },
               "options": [
                 {
                   "en": "Making it as large as possible",
@@ -783,6 +859,10 @@
               "prompt": {
                 "en": "Buffett says intelligent investing is complex but easy.",
                 "fa": "Buffett می‌گوید سرمایه‌گذاری هوشمندانه پیچیده اما آسان است."
+              },
+              "fare": {
+                "en": "In Buffett's words, intelligent investing is a complex subject that turns out to be easy to do.",
+                "fa": "به تعبیر Buffett، سرمایه‌گذاری هوشمندانه موضوعی پیچیده است که انجامش آسان از آب درمی‌آید."
               },
               "answer": false
             },
@@ -818,6 +898,10 @@
               "prompt": {
                 "en": "How long should you be willing to own a stock before buying it?",
                 "fa": "پیش از خرید یک سهم باید حاضر باشی چه مدت نگهش داری؟"
+              },
+              "fare": {
+                "en": "Buffett says not to hold a stock even briefly unless you would hold it for how long?",
+                "fa": "Buffett می‌گوید سهمی را حتی کوتاه هم نگه ندار، مگر اینکه حاضر باشی چه مدت نگهش داری؟"
               },
               "options": [
                 {
@@ -860,6 +944,10 @@
                 "en": "Buffett counts failing to act on deals he understood as mistakes too.",
                 "fa": "Buffett انجام ندادن معاملاتی را که می‌فهمید هم اشتباه حساب می‌کند."
               },
+              "fare": {
+                "en": "Deals Buffett understood but let pass go on his list of mistakes.",
+                "fa": "معامله‌هایی که Buffett می‌فهمید ولی از دست داد هم در فهرست اشتباهاتش می‌آیند."
+              },
               "answer": true
             },
             {
@@ -887,14 +975,18 @@
                 "en": "Where does your circle of competence matter most in your plan?",
                 "fa": "دایرهٔ صلاحیتت در برنامه‌ات کجا بیشتر از همه به کار می‌آید؟"
               },
+              "fare": {
+                "en": "Which part of your plan actually draws on your software and AI know-how?",
+                "fa": "کدام بخش برنامه‌ات واقعاً از دانش نرم‌افزار و AI تو استفاده می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Only the 80 percent index core",
-                  "fa": "فقط هستهٔ شاخصی ۸۰ درصدی"
+                  "en": "Only the 80 percent index core you plan to hold for decades",
+                  "fa": "فقط هستهٔ شاخصی ۸۰ درصدی که قرار است دهه‌ها نگهش داری"
                 },
                 {
-                  "en": "Choosing a Dutch bank account",
-                  "fa": "انتخاب حساب بانکی هلندی"
+                  "en": "Choosing which Dutch bank account to keep your savings in",
+                  "fa": "انتخاب حساب بانکی هلندی برای نگه داشتن پس‌اندازت"
                 },
                 {
                   "en": "The 20 percent satellite and judging which startup to join",
@@ -928,18 +1020,22 @@
                 "en": "Why can an investor afford to wait, per the 1997 letter?",
                 "fa": "طبق نامهٔ ۱۹۹۷ چرا سرمایه‌گذار می‌تواند صبر کند؟"
               },
+              "fare": {
+                "en": "How does an investor's position differ from Ted Williams's at the plate?",
+                "fa": "وضع سرمایه‌گذار با وضع Ted Williams پشت خط ضربه چه فرقی دارد؟"
+              },
               "options": [
                 {
-                  "en": "Every pitch is worth swinging at",
-                  "fa": "هر توپی ارزش ضربه زدن دارد"
+                  "en": "Every pitch that comes along is worth taking a full swing at",
+                  "fa": "هر توپی که می‌آید ارزش یک ضربهٔ کامل را دارد"
                 },
                 {
                   "en": "An investor cannot be called out for letting a pitch go by",
                   "fa": "سرمایه‌گذار به خاطر رها کردن یک توپ اخراج نمی‌شود"
                 },
                 {
-                  "en": "Prices only ever move upward",
-                  "fa": "قیمت‌ها همیشه فقط بالا می‌روند"
+                  "en": "Prices only ever move upward over any stretch of time",
+                  "fa": "قیمت‌ها در هر بازه‌ای همیشه فقط بالا می‌روند"
                 }
               ],
               "answer": 1
@@ -997,18 +1093,22 @@
                 "en": "What is insurance float?",
                 "fa": "شناوری بیمه چیست؟"
               },
+              "fare": {
+                "en": "Premiums arrive first and claims are paid later. What does that gap leave the insurer holding?",
+                "fa": "حق بیمه اول می‌رسد و خسارت بعداً پرداخت می‌شود. در این فاصله چه چیزی در دست بیمه‌گر می‌ماند؟"
+              },
               "options": [
                 {
                   "en": "Money an insurer holds that is not its own",
                   "fa": "پولی که بیمه‌گر نگه می‌دارد ولی مال خودش نیست"
                 },
                 {
-                  "en": "Profit paid out to shareholders",
-                  "fa": "سودی که به سهامداران پرداخت می‌شود"
+                  "en": "Profit an insurer pays out to its shareholders",
+                  "fa": "سودی که بیمه‌گر به سهامدارانش پرداخت می‌کند"
                 },
                 {
-                  "en": "A loan from a bank",
-                  "fa": "وامی از بانک"
+                  "en": "A loan an insurer takes out from a bank",
+                  "fa": "وامی که بیمه‌گر از بانک می‌گیرد"
                 }
               ],
               "answer": 0
@@ -1038,6 +1138,10 @@
                 "en": "When underwriting is profitable, float costs Berkshire less than nothing.",
                 "fa": "وقتی بیمه‌گری سودآور است، شناوری برای Berkshire کمتر از هیچ هزینه دارد."
               },
+              "fare": {
+                "en": "If premiums exceed losses and expenses, Berkshire is in effect being paid to hold its float.",
+                "fa": "اگر حق بیمه از خسارت‌ها و هزینه‌ها بیشتر باشد، Berkshire عملاً برای نگه داشتن شناوری پول هم می‌گیرد."
+              },
               "answer": true
             },
             {
@@ -1065,6 +1169,10 @@
                 "en": "What does underwriting discipline mean for Berkshire?",
                 "fa": "انضباط بیمه‌گری برای Berkshire یعنی چه؟"
               },
+              "fare": {
+                "en": "Rivals are selling policies too cheaply. What does Buffett want his insurers to do?",
+                "fa": "رقبا بیمه‌نامه را خیلی ارزان می‌فروشند. Buffett از بیمه‌گرانش چه می‌خواهد؟"
+              },
               "options": [
                 {
                   "en": "Write every policy to grow volume",
@@ -1075,8 +1183,8 @@
                   "fa": "وقتی قیمت‌ها ناکافی است کنار برو"
                 },
                 {
-                  "en": "Match whatever price rivals charge",
-                  "fa": "هر قیمتی رقبا گرفتند همان را بگیر"
+                  "en": "Match whatever price the rivals charge",
+                  "fa": "هر قیمتی که رقبا گرفتند همان را بگیر"
                 }
               ],
               "answer": 1
@@ -1106,6 +1214,10 @@
                 "en": "GEICO's moat comes from selling direct at low cost.",
                 "fa": "خندق GEICO از فروش مستقیم با هزینهٔ کم می‌آید."
               },
+              "fare": {
+                "en": "Low costs from selling straight to drivers are what protect GEICO from rivals.",
+                "fa": "چیزی که GEICO را در برابر رقبا حفظ می‌کند هزینهٔ پایینِ فروش بی‌واسطه به رانندگان است."
+              },
               "answer": true
             },
             {
@@ -1133,14 +1245,18 @@
                 "en": "What does Buffett plan for in insurance?",
                 "fa": "Buffett در بیمه برای چه چیزی برنامه می‌ریزد؟"
               },
+              "fare": {
+                "en": "Berkshire keeps its capital very large. Which scenario is that sized for?",
+                "fa": "Berkshire سرمایه‌اش را خیلی بزرگ نگه می‌دارد. این اندازه برای کدام سناریو در نظر گرفته شده؟"
+              },
               "options": [
                 {
-                  "en": "Steady small claims only",
-                  "fa": "فقط خسارت‌های کوچک و منظم"
+                  "en": "Only a steady flow of small, routine claims",
+                  "fa": "فقط جریان منظمی از خسارت‌های کوچک و معمولی"
                 },
                 {
-                  "en": "Government bailouts after big losses",
-                  "fa": "نجات دولتی پس از زیان‌های بزرگ"
+                  "en": "Government bailouts arriving after big losses",
+                  "fa": "نجات دولتی که پس از زیان‌های بزرگ می‌رسد"
                 },
                 {
                   "en": "Mega-catastrophes far worse than any seen",
@@ -1173,6 +1289,10 @@
               "prompt": {
                 "en": "Float stays invested longer when claims are paid out slowly.",
                 "fa": "شناوری وقتی خسارت‌ها آهسته پرداخت شوند مدت بیشتری سرمایه‌گذاری می‌ماند."
+              },
+              "fare": {
+                "en": "In lines where claims take years to settle, the insurer gets to invest the float for longer.",
+                "fa": "در رشته‌هایی که تسویهٔ خسارت سال‌ها طول می‌کشد، بیمه‌گر فرصت بیشتری برای سرمایه‌گذاری شناوری دارد."
               },
               "answer": true
             }
@@ -1212,18 +1332,22 @@
                 "en": "Why does Buffett think many CEOs allocate capital poorly?",
                 "fa": "چرا Buffett فکر می‌کند بسیاری از مدیرعامل‌ها سرمایه را بد تخصیص می‌دهند؟"
               },
+              "fare": {
+                "en": "Capital allocation is a CEO's key job. What explains why so many arrive unprepared for it?",
+                "fa": "تخصیص سرمایه کار کلیدی مدیرعامل است. چرا خیلی‌ها بدون آمادگی برای آن به این جایگاه می‌رسند؟"
+              },
               "options": [
                 {
-                  "en": "They are paid too little",
-                  "fa": "حقوقشان خیلی کم است"
+                  "en": "They are paid too little for such a demanding job",
+                  "fa": "برای چنین کار سختی حقوقشان خیلی کم است"
                 },
                 {
                   "en": "Bosses reach the top through marketing or engineering",
                   "fa": "مدیران از راه بازاریابی یا مهندسی به بالا می‌رسند"
                 },
                 {
-                  "en": "Boards forbid them from investing",
-                  "fa": "هیئت‌مدیره سرمایه‌گذاری را برایشان ممنوع می‌کند"
+                  "en": "Boards forbid them from investing any spare cash at all",
+                  "fa": "هیئت‌مدیره سرمایه‌گذاری هر نقد اضافه‌ای را برایشان ممنوع می‌کند"
                 }
               ],
               "answer": 1
@@ -1252,6 +1376,10 @@
               "prompt": {
                 "en": "Buffett's test: each retained dollar should create at least one dollar of market value.",
                 "fa": "آزمون Buffett: هر دلار انباشته باید دست‌کم یک دلار ارزش بازار بسازد."
+              },
+              "fare": {
+                "en": "By Buffett's test, keeping a dollar of profit is justified if it adds a dollar or more of market value over time.",
+                "fa": "طبق آزمون Buffett، نگه داشتن یک دلار سود وقتی موجه است که در طول زمان یک دلار یا بیشتر به ارزش بازار اضافه کند."
               },
               "answer": true
             },
@@ -1288,18 +1416,22 @@
                 "en": "Which allocation mistake does Buffett admit?",
                 "fa": "Buffett کدام اشتباه تخصیص را می‌پذیرد؟"
               },
+              "fare": {
+                "en": "Which of these deals does Buffett himself list as a capital allocation error?",
+                "fa": "Buffett خودش کدام‌یک از این معامله‌ها را خطای تخصیص سرمایه می‌شمارد؟"
+              },
               "options": [
                 {
                   "en": "Paying for Dexter Shoe with Berkshire stock",
                   "fa": "پرداخت بهای Dexter Shoe با سهام Berkshire"
                 },
                 {
-                  "en": "Buying See's Candies in 1972",
-                  "fa": "خرید See's Candies در ۱۹۷۲"
+                  "en": "Buying the whole of See's Candies back in 1972",
+                  "fa": "خرید کل See's Candies در سال ۱۹۷۲"
                 },
                 {
-                  "en": "Buying all of GEICO in 1996",
-                  "fa": "خرید کامل GEICO در ۱۹۹۶"
+                  "en": "Taking full ownership of GEICO back in 1996",
+                  "fa": "به دست گرفتن مالکیت کامل GEICO در سال ۱۹۹۶"
                 }
               ],
               "answer": 0
@@ -1329,6 +1461,10 @@
                 "en": "Buffett treats issuing Berkshire shares as costless.",
                 "fa": "Buffett انتشار سهام Berkshire را بی‌هزینه می‌داند."
               },
+              "fare": {
+                "en": "When Berkshire pays for a deal with its own shares, existing owners give up nothing.",
+                "fa": "وقتی Berkshire بهای معامله‌ای را با سهام خودش می‌پردازد، مالکان فعلی چیزی از دست نمی‌دهند."
+              },
               "answer": false
             },
             {
@@ -1356,14 +1492,18 @@
                 "en": "Why does Berkshire pay no dividend?",
                 "fa": "چرا Berkshire سود تقسیم نمی‌کند؟"
               },
+              "fare": {
+                "en": "What reason do the letters give for Berkshire keeping its profits and not paying them out?",
+                "fa": "نامه‌ها چه دلیلی می‌آورند که Berkshire سودش را نگه می‌دارد و بین مالکان پخش نمی‌کند؟"
+              },
               "options": [
                 {
-                  "en": "The law forbids it",
-                  "fa": "قانون منعش می‌کند"
+                  "en": "The law forbids a holding company from paying one out",
+                  "fa": "قانون شرکت هلدینگ را از پرداخت آن منع می‌کند"
                 },
                 {
-                  "en": "Buffett thinks owners do not need cash",
-                  "fa": "Buffett فکر می‌کند مالکان نقد لازم ندارند"
+                  "en": "Buffett thinks Berkshire's owners never have any need for cash",
+                  "fa": "Buffett فکر می‌کند مالکان Berkshire هیچ‌وقت نقد لازم ندارند"
                 },
                 {
                   "en": "Retained dollars have produced more than a dollar of value",
@@ -1397,14 +1537,18 @@
                 "en": "What advantage does Berkshire's structure give its capital allocation?",
                 "fa": "ساختار Berkshire چه مزیتی به تخصیص سرمایه‌اش می‌دهد؟"
               },
+              "fare": {
+                "en": "One Berkshire business has few chances to reinvest and another has greater promise. What does the structure allow?",
+                "fa": "یک کسب‌وکار Berkshire فرصت کمی برای سرمایه‌گذاری مجدد دارد و دیگری چشم‌انداز بهتری. ساختار Berkshire چه چیزی را ممکن می‌کند؟"
+              },
               "options": [
                 {
                   "en": "It can move cash between businesses without tax friction",
                   "fa": "می‌تواند نقد را بدون اصطکاک مالیاتی بین کسب‌وکارها جابه‌جا کند"
                 },
                 {
-                  "en": "It must pay out all profits as dividends",
-                  "fa": "باید همهٔ سود را سود سهام بدهد"
+                  "en": "It must pay out all of its profits to owners as dividends",
+                  "fa": "باید همهٔ سودش را به شکل سود سهام به مالکان بدهد"
                 },
                 {
                   "en": "Each business keeps its own cash forever",
@@ -1449,6 +1593,10 @@
                 "en": "When do buybacks make sense, per Buffett?",
                 "fa": "به گفتهٔ Buffett بازخرید کی منطقی است؟"
               },
+              "fare": {
+                "en": "A company has cash beyond its business needs. What else must hold before Buffett backs a buyback?",
+                "fa": "شرکتی نقدی بیش از نیاز کسب‌وکارش دارد. چه شرط دیگری باید برقرار باشد تا Buffett بازخرید را منطقی بداند؟"
+              },
               "options": [
                 {
                   "en": "When the stock sells below intrinsic value",
@@ -1459,8 +1607,8 @@
                   "fa": "هر وقت قیمت سهم بالا می‌رود"
                 },
                 {
-                  "en": "Whenever earnings per share look low",
-                  "fa": "هر وقت سود هر سهم پایین به نظر می‌رسد"
+                  "en": "Whenever its earnings per share look rather low",
+                  "fa": "هر وقت سود هر سهمش نسبتاً پایین به نظر می‌رسد"
                 }
               ],
               "answer": 0
@@ -1489,6 +1637,10 @@
               "prompt": {
                 "en": "Buffett says buying back shares above intrinsic value helps owners who stay.",
                 "fa": "Buffett می‌گوید بازخرید بالای ارزش ذاتی به مالکانی که می‌مانند کمک می‌کند."
+              },
+              "fare": {
+                "en": "When a company buys back stock above intrinsic value, the remaining owners gain and the sellers lose.",
+                "fa": "وقتی شرکتی سهمش را بالای ارزش ذاتی بازخرید می‌کند، مالکانی که می‌مانند سود می‌برند و فروشندگان ضرر می‌کنند."
               },
               "answer": false
             },
@@ -1525,18 +1677,22 @@
                 "en": "What is Berkshire's buyback rule since 2018?",
                 "fa": "قاعدهٔ بازخرید Berkshire از ۲۰۱۸ چیست؟"
               },
+              "fare": {
+                "en": "Which instruction matches the board's 2018 change on repurchases?",
+                "fa": "کدام دستور با تغییر سال ۲۰۱۸ هیئت‌مدیره دربارهٔ بازخرید جور است؟"
+              },
               "options": [
                 {
-                  "en": "Buy only at 110 percent of book value",
-                  "fa": "فقط تا ۱۱۰ درصد ارزش دفتری بخر"
+                  "en": "Buy only up to 110 percent of book value per share",
+                  "fa": "فقط تا ۱۱۰ درصد ارزش دفتری هر سهم بخر"
                 },
                 {
-                  "en": "Never repurchase shares",
-                  "fa": "هرگز سهم بازخرید نکن"
+                  "en": "Never repurchase any shares, whatever the price may be",
+                  "fa": "هرگز، با هر قیمتی، هیچ سهمی بازخرید نکن"
                 },
                 {
-                  "en": "Buy when the price is below intrinsic value, conservatively determined",
-                  "fa": "وقتی قیمت زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده است بخر"
+                  "en": "Buy below intrinsic value, conservatively determined",
+                  "fa": "زیر ارزش ذاتیِ محافظه‌کارانه سنجیده‌شده بخر"
                 }
               ],
               "answer": 2
@@ -1566,6 +1722,10 @@
                 "en": "Buffett says a falling share count raises each owner's interest in the businesses.",
                 "fa": "Buffett می‌گوید کاهش تعداد سهام سهم هر مالک از کسب‌وکارها را بالا می‌برد."
               },
+              "fare": {
+                "en": "In Buffett's 2022 math, fewer shares outstanding means each remaining owner holds a larger slice of the businesses.",
+                "fa": "در حساب ۲۰۲۲ Buffett، هرچه سهام کمتری باقی بماند، تکهٔ هر مالکِ باقی‌مانده از کسب‌وکارها بزرگ‌تر می‌شود."
+              },
               "answer": true
             },
             {
@@ -1593,18 +1753,22 @@
                 "en": "How did Berkshire's Apple stake grow in 2021?",
                 "fa": "سهم Berkshire از Apple در ۲۰۲۱ چطور بزرگ شد؟"
               },
+              "fare": {
+                "en": "Berkshire's share of Apple went from 5.39 to 5.55 percent in 2021. What caused it?",
+                "fa": "سهم Berkshire از Apple در ۲۰۲۱ از ۵٫۳۹ به ۵٫۵۵ درصد رسید. علتش چه بود؟"
+              },
               "options": [
                 {
-                  "en": "Berkshire bought more Apple shares",
-                  "fa": "Berkshire سهام بیشتری از Apple خرید"
+                  "en": "Berkshire bought more Apple shares on the open market",
+                  "fa": "Berkshire در بازار سهام بیشتری از Apple خرید"
                 },
                 {
                   "en": "Apple's buybacks lifted it without Berkshire buying",
                   "fa": "بازخریدهای Apple آن را بالا برد بی‌آنکه Berkshire بخرد"
                 },
                 {
-                  "en": "Apple paid a special dividend in shares",
-                  "fa": "Apple سود ویژه‌ای به شکل سهم داد"
+                  "en": "Apple paid a special dividend in new shares",
+                  "fa": "Apple سود ویژه‌ای به شکل سهام جدید داد"
                 }
               ],
               "answer": 1
@@ -1633,6 +1797,10 @@
               "prompt": {
                 "en": "Under the 2018 rule, Berkshire could buy back shares even if cash fell below $20 billion.",
                 "fa": "طبق قاعدهٔ ۲۰۱۸، Berkshire حتی اگر نقدش زیر ۲۰ میلیارد دلار می‌رفت می‌توانست سهام بازخرید کند."
+              },
+              "fare": {
+                "en": "The 2018 rule put no cash limit on buybacks: they could run even with less than $20 billion left.",
+                "fa": "قاعدهٔ ۲۰۱۸ هیچ کف نقدی برای بازخرید نگذاشته بود: حتی با کمتر از ۲۰ میلیارد دلار نقد هم می‌شد ادامه داد."
               },
               "answer": false
             }
@@ -1672,18 +1840,22 @@
                 "en": "How does the owner's manual describe Berkshire's shareholders?",
                 "fa": "راهنمای مالکان سهامداران Berkshire را چطور توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "\"Our form is corporate, our attitude is partnership.\" How does that lead Buffett and Munger to see shareholders?",
+                "fa": "«شکل ما شرکتی است، نگرش ما شراکت.» با این نگاه، Buffett و Munger سهامداران را چه می‌بینند؟"
+              },
               "options": [
                 {
                   "en": "As owner-partners",
                   "fa": "شریک‌مالک"
                 },
                 {
-                  "en": "As customers",
-                  "fa": "مشتری"
+                  "en": "As its customers",
+                  "fa": "مشتریان آن"
                 },
                 {
-                  "en": "As lenders",
-                  "fa": "وام‌دهنده"
+                  "en": "As the firm's lenders",
+                  "fa": "وام‌دهندگان شرکت"
                 }
               ],
               "answer": 0
@@ -1712,6 +1884,10 @@
               "prompt": {
                 "en": "Most of Buffett's own net worth is invested in Berkshire.",
                 "fa": "بیشتر دارایی خالص خود Buffett در Berkshire سرمایه‌گذاری شده است."
+              },
+              "fare": {
+                "en": "Buffett gains or loses alongside other owners because the bulk of his wealth sits in Berkshire.",
+                "fa": "Buffett همراه دیگر مالکان سود یا زیان می‌کند، چون بخش عمدهٔ ثروتش در Berkshire است."
               },
               "answer": true
             },
@@ -1747,6 +1923,10 @@
               "prompt": {
                 "en": "How far does Berkshire's delegation to managers go?",
                 "fa": "تفویض Berkshire به مدیران تا کجا پیش می‌رود؟"
+              },
+              "fare": {
+                "en": "How far does Omaha step back from the running of its businesses?",
+                "fa": "Omaha تا چه حد از ادارهٔ کسب‌وکارهایش کنار می‌کشد؟"
               },
               "options": [
                 {
@@ -1789,6 +1969,10 @@
                 "en": "Buffett writes the letters to keep mistakes out of view.",
                 "fa": "Buffett نامه‌ها را می‌نویسد تا اشتباهات دیده نشوند."
               },
+              "fare": {
+                "en": "In his letters Buffett buries his mistakes so that shareholders never read about them.",
+                "fa": "Buffett در نامه‌هایش اشتباهات را پنهان می‌کند تا سهامداران چیزی از آن‌ها نخوانند."
+              },
               "answer": false
             },
             {
@@ -1816,14 +2000,18 @@
                 "en": "Why does Buffett criticize fixed-price stock options?",
                 "fa": "چرا Buffett از اختیار سهام با قیمت ثابت انتقاد می‌کند؟"
               },
+              "fare": {
+                "en": "What flaw does Buffett see in stock options granted at a fixed price?",
+                "fa": "Buffett چه ایرادی در اختیار سهامی می‌بیند که با قیمت ثابت داده می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "They give managers too little pay",
-                  "fa": "پرداختی خیلی کم به مدیران می‌دهند"
+                  "en": "They give managers too little pay for the work they do",
+                  "fa": "برای کاری که مدیران می‌کنند پرداختی خیلی کم می‌دهند"
                 },
                 {
-                  "en": "They are banned in most states",
-                  "fa": "در بیشتر ایالت‌ها ممنوع‌اند"
+                  "en": "They are banned by law in most American states today",
+                  "fa": "امروز در بیشتر ایالت‌های آمریکا قانوناً ممنوع‌اند"
                 },
                 {
                   "en": "They reward earnings from retained capital piling up",
@@ -1857,14 +2045,18 @@
                 "en": "What does Buffett rely on to keep Berkshire working after him?",
                 "fa": "Buffett برای ادامهٔ کار Berkshire پس از خودش به چه تکیه می‌کند؟"
               },
+              "fare": {
+                "en": "Berkshire must outlast its founder. What is Buffett counting on for that?",
+                "fa": "Berkshire باید از بنیان‌گذارش بیشتر عمر کند. Buffett برای این به چه چیزی دل بسته است؟"
+              },
               "options": [
                 {
-                  "en": "A thick rulebook for every manager",
-                  "fa": "یک کتاب قوانین قطور برای هر مدیر"
+                  "en": "A thick rulebook written out for every single manager",
+                  "fa": "یک کتاب قوانین قطور که برای تک‌تک مدیران نوشته شده"
                 },
                 {
-                  "en": "Selling the businesses to the highest bidder",
-                  "fa": "فروش کسب‌وکارها به بالاترین پیشنهاد"
+                  "en": "Selling all of the businesses off to the highest bidder",
+                  "fa": "فروش همهٔ کسب‌وکارها به بالاترین پیشنهاد"
                 },
                 {
                   "en": "A successor and a culture of owner-minded managers",
@@ -1909,18 +2101,22 @@
                 "en": "What does Buffett say most investors should own?",
                 "fa": "Buffett می‌گوید بیشتر سرمایه‌گذاران چه چیزی داشته باشند؟"
               },
+              "fare": {
+                "en": "Buffett's repeated message covers institutions and individuals alike. What holding does he point them to?",
+                "fa": "پیام همیشگی Buffett هم برای نهادهاست هم برای افراد. او کدام دارایی را به آن‌ها نشان می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "A low-cost index fund",
                   "fa": "یک صندوق شاخصی کم‌هزینه"
                 },
                 {
-                  "en": "A hedge fund chosen by an adviser",
+                  "en": "A hedge fund an adviser chose",
                   "fa": "صندوق پوشش ریسکی که مشاور انتخاب کرده"
                 },
                 {
-                  "en": "A few stocks traded every week",
-                  "fa": "چند سهم که هر هفته معامله می‌شوند"
+                  "en": "A few stocks traded weekly",
+                  "fa": "چند سهم که هفتگی معامله می‌شوند"
                 }
               ],
               "answer": 0
@@ -1949,6 +2145,10 @@
               "prompt": {
                 "en": "Buffett bet that hedge funds would beat an S&P 500 index fund.",
                 "fa": "Buffett شرط بست که صندوق‌های پوشش ریسک از صندوق شاخصی S&P 500 بهتر عمل می‌کنند."
+              },
+              "fare": {
+                "en": "In his 2007 bet, Buffett put his $500,000 on the hedge funds to win.",
+                "fa": "در شرط ۲۰۰۷، Buffett پانصد هزار دلارش را روی برد صندوق‌های پوشش ریسک گذاشت."
               },
               "answer": false
             },
@@ -1984,6 +2184,10 @@
               "prompt": {
                 "en": "How had the index fund compounded after nine years of the bet?",
                 "fa": "صندوق شاخصی پس از نُه سال از شرط چطور رشد مرکب کرده بود؟"
+              },
+              "fare": {
+                "en": "Nine years into the bet, what yearly rate did the 2016 letter report for the S&P 500 index fund?",
+                "fa": "نُه سال پس از شروع شرط، نامهٔ ۲۰۱۶ چه نرخ سالانه‌ای برای صندوق شاخصی S&P 500 گزارش کرد؟"
               },
               "options": [
                 {
@@ -2026,6 +2230,10 @@
                 "en": "Buffett blames layers of fees for eating most of the hedge funds' returns.",
                 "fa": "Buffett لایه‌های کارمزد را مقصر خوردن بیشتر بازده صندوق‌های پوشش ریسک می‌داند."
               },
+              "fare": {
+                "en": "In Buffett's account, fees stacked on fees took most of what the hedge funds earned.",
+                "fa": "به روایت Buffett، کارمزدهای روی‌هم‌چیده‌شده بیشترِ آنچه صندوق‌های پوشش ریسک درآوردند را بلعید."
+              },
               "answer": true
             },
             {
@@ -2053,18 +2261,22 @@
                 "en": "What split does the 2013 letter describe for the cash left in trust for Buffett's wife?",
                 "fa": "نامهٔ ۲۰۱۳ چه تقسیمی را برای نقدی که به صورت امانی برای همسر Buffett می‌ماند شرح می‌دهد؟"
               },
+              "fare": {
+                "en": "In his will, where does Buffett direct most of the cash held in trust for his wife?",
+                "fa": "Buffett در وصیت‌نامه‌اش بیشترِ نقدِ امانی همسرش را به کجا می‌فرستد؟"
+              },
               "options": [
                 {
-                  "en": "90 percent in Berkshire stock",
-                  "fa": "۹۰ درصد در سهام Berkshire"
+                  "en": "90 percent in shares of Berkshire Hathaway itself",
+                  "fa": "۹۰ درصد در سهام خود Berkshire Hathaway"
                 },
                 {
                   "en": "90 percent in a low-cost S&P 500 index fund",
                   "fa": "۹۰ درصد در صندوق شاخصی S&P 500 کم‌هزینه"
                 },
                 {
-                  "en": "Half in gold, half in bonds",
-                  "fa": "نیمی طلا، نیمی اوراق"
+                  "en": "Half in physical gold, half in government bonds",
+                  "fa": "نیمی طلای فیزیکی، نیمی اوراق دولتی"
                 }
               ],
               "answer": 1
@@ -2093,6 +2305,10 @@
               "prompt": {
                 "en": "Buffett says index investors do best by timing when to get in and out.",
                 "fa": "Buffett می‌گوید سرمایه‌گذار شاخصی با زمان‌بندی ورود و خروج بهترین نتیجه را می‌گیرد."
+              },
+              "fare": {
+                "en": "For an index investor, Buffett says guessing the right moment beats buying steadily over time.",
+                "fa": "Buffett می‌گوید برای سرمایه‌گذار شاخصی، حدس زدن لحظهٔ درست از خرید منظم در طول زمان بهتر است."
               },
               "answer": false
             }

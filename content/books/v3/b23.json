@@ -68,18 +68,22 @@
                 "en": "In Clear's terms, what is a system?",
                 "fa": "به زبان Clear، سیستم چیست؟"
               },
+              "fare": {
+                "en": "Which of these describes a system, as opposed to a goal, in the book?",
+                "fa": "در این کتاب، کدام گزینه سیستم را توصیف می‌کند و نه هدف را؟"
+              },
               "options": [
                 {
                   "en": "The processes that lead to results",
                   "fa": "فرایندهایی که به نتایج می‌رسند"
                 },
                 {
-                  "en": "The result you want to achieve",
-                  "fa": "نتیجه‌ای که می‌خواهی به دست آوری"
+                  "en": "The results you most want to achieve",
+                  "fa": "نتایجی که بیش از همه می‌خواهی به دست آوری"
                 },
                 {
-                  "en": "A deadline for each goal",
-                  "fa": "یک ضرب‌الاجل برای هر هدف"
+                  "en": "A firm deadline set for each goal",
+                  "fa": "ضرب‌الاجلی قطعی برای هر هدف"
                 }
               ],
               "answer": 0
@@ -109,6 +113,10 @@
                 "en": "Clear says winners differ from losers mainly because winners set better goals.",
                 "fa": "Clear می‌گوید تفاوت اصلی برنده‌ها با بازنده‌ها این است که هدف‌های بهتری می‌گذارند."
               },
+              "fare": {
+                "en": "According to Clear, the goal itself is what separates Olympic champions from everyone else.",
+                "fa": "به گفتهٔ Clear، همین هدف است که قهرمانان المپیک را از بقیه جدا می‌کند."
+              },
               "answer": false
             },
             {
@@ -136,18 +144,22 @@
                 "en": "Why can a goal hurt long-term progress?",
                 "fa": "چرا هدف می‌تواند به پیشرفت بلندمدت آسیب بزند؟"
               },
+              "fare": {
+                "en": "What is the trouble with a goal when you look at progress over many years?",
+                "fa": "وقتی به پیشرفت در طول سال‌ها نگاه کنی، ایراد هدف کجاست؟"
+              },
               "options": [
                 {
                   "en": "You may stop after the finish line",
                   "fa": "ممکن است بعد از خط پایان دست بکشی"
                 },
                 {
-                  "en": "Goals are too easy to reach",
-                  "fa": "رسیدن به هدف‌ها خیلی آسان است"
+                  "en": "Goals are far too easy for most to reach",
+                  "fa": "رسیدن به هدف‌ها برای بیشتر آدم‌ها زیادی آسان است"
                 },
                 {
-                  "en": "Goals make you train too hard",
-                  "fa": "هدف‌ها وادارت می‌کنند زیادی تمرین کنی"
+                  "en": "Goals push you to train much too hard",
+                  "fa": "هدف‌ها وادارت می‌کنند خیلی بیش از حد تمرین کنی"
                 }
               ],
               "answer": 0
@@ -177,6 +189,10 @@
                 "en": "Clear says the purpose of building systems is to keep playing the game.",
                 "fa": "Clear می‌گوید هدفِ ساختن سیستم ادامه دادن بازی است."
               },
+              "fare": {
+                "en": "In Clear's view, goals are set to win the game, while systems are built so that you can continue it.",
+                "fa": "از نگاه Clear، هدف را برای بردن بازی می‌گذارند و سیستم را برای اینکه بتوانی در بازی بمانی می‌سازند."
+              },
               "answer": true
             },
             {
@@ -204,18 +220,22 @@
                 "en": "Which of these is a system rather than a goal?",
                 "fa": "کدام‌یک سیستم است، نه هدف؟"
               },
+              "fare": {
+                "en": "Which item belongs to the process side of the plan and not to the result side?",
+                "fa": "کدام مورد به بخش فرایندِ برنامه تعلق دارد، نه به بخش نتیجه؟"
+              },
               "options": [
                 {
                   "en": "The automatic monthly transfer",
                   "fa": "انتقال خودکار ماهانه"
                 },
                 {
-                  "en": "Capital of 25 times expenses",
-                  "fa": "سرمایه‌ای برابر ۲۵ برابر هزینه‌ها"
+                  "en": "Capital of 25 times annual expenses",
+                  "fa": "سرمایه‌ای برابر ۲۵ برابر هزینهٔ سالانه"
                 },
                 {
-                  "en": "Retiring by 45",
-                  "fa": "بازنشستگی تا ۴۵ سالگی"
+                  "en": "Retiring by the age of 45",
+                  "fa": "بازنشستگی تا سن ۴۵ سالگی"
                 }
               ],
               "answer": 0
@@ -264,6 +284,10 @@
                 "en": "Order the three layers of change from the outermost to the core",
                 "fa": "سه لایهٔ تغییر را از بیرونی‌ترین تا هسته مرتب کن"
               },
+              "fare": {
+                "en": "Arrange the layers of change, starting at the surface and ending at the deepest one",
+                "fa": "لایه‌های تغییر را بچین؛ از سطح شروع کن و به عمیق‌ترین لایه برس"
+              },
               "options": [
                 {
                   "en": "Identity",
@@ -309,6 +333,10 @@
                 "en": "Clear says the goal is to read a book, not to become a reader.",
                 "fa": "Clear می‌گوید هدف خواندن یک کتاب است، نه کتاب‌خوان شدن."
               },
+              "fare": {
+                "en": "For Clear, finishing one book matters more than turning into a reader.",
+                "fa": "از نظر Clear، تمام کردن یک کتاب مهم‌تر از این است که آدمِ کتاب‌خوانی بشوی."
+              },
               "answer": false
             },
             {
@@ -336,18 +364,22 @@
                 "en": "What is each action, in Clear's metaphor?",
                 "fa": "در استعارهٔ Clear، هر کار چیست؟"
               },
+              "fare": {
+                "en": "How does Clear picture the things you do day after day?",
+                "fa": "Clear کارهایی را که روز به روز انجام می‌دهی به چه تشبیه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "A vote for the person you wish to become",
                   "fa": "یک رأی به آدمی که می‌خواهی بشوی"
                 },
                 {
-                  "en": "A test you can fail",
-                  "fa": "آزمونی که می‌توانی در آن رد شوی"
+                  "en": "A test of willpower that you can pass or fail",
+                  "fa": "آزمون اراده‌ای که می‌توانی در آن قبول یا رد شوی"
                 },
                 {
-                  "en": "A debt you must repay",
-                  "fa": "بدهی‌ای که باید پس بدهی"
+                  "en": "A debt to yourself that you must repay later",
+                  "fa": "بدهی‌ای به خودت که باید بعداً پس بدهی"
                 }
               ],
               "answer": 0
@@ -377,6 +409,10 @@
                 "en": "To change identity, Clear says every single vote must go the right way.",
                 "fa": "Clear می‌گوید برای تغییر هویت، تک‌تک رأی‌ها باید درست باشند."
               },
+              "fare": {
+                "en": "Clear holds that a new identity needs a unanimous vote, and a majority is not enough.",
+                "fa": "Clear معتقد است هویت تازه رأی همگانی می‌خواهد و اکثریت کافی نیست."
+              },
               "answer": false
             },
             {
@@ -404,18 +440,22 @@
                 "en": "Which action is a vote for the identity of an owner who invests?",
                 "fa": "کدام کار رأیی به هویت مالکی است که سرمایه‌گذاری می‌کند؟"
               },
+              "fare": {
+                "en": "What does someone do that counts as evidence of being an owner who invests?",
+                "fa": "آدم چه کاری می‌کند که شاهدی باشد بر اینکه مالکی سرمایه‌گذار است؟"
+              },
               "options": [
                 {
                   "en": "Buying the index fund each month",
                   "fa": "خرید صندوق شاخصی هر ماه"
                 },
                 {
-                  "en": "Checking prices every hour",
-                  "fa": "هر ساعت قیمت‌ها را چک کردن"
+                  "en": "Checking share prices every single hour",
+                  "fa": "هر ساعت قیمت سهم‌ها را چک کردن"
                 },
                 {
-                  "en": "Waiting for a hot tip",
-                  "fa": "منتظر یک خبر داغ ماندن"
+                  "en": "Waiting for a hot tip from a friend",
+                  "fa": "منتظر یک خبر داغ از یک دوست ماندن"
                 }
               ],
               "answer": 0
@@ -464,6 +504,10 @@
                 "en": "In Thorndike's puzzle boxes, the cats escaped faster as the trials were repeated.",
                 "fa": "در جعبه‌های معمای Thorndike، گربه‌ها با تکرار سریع‌تر فرار می‌کردند."
               },
+              "fare": {
+                "en": "After many repeats, Thorndike's cats needed less time to press the lever than at the start.",
+                "fa": "گربه‌های Thorndike پس از تکرارهای زیاد، برای فشار دادن اهرم زمان کمتری از اول کار لازم داشتند."
+              },
               "answer": true
             },
             {
@@ -490,6 +534,10 @@
               "prompt": {
                 "en": "Put the four steps of the habit loop in order",
                 "fa": "چهار مرحلهٔ حلقهٔ عادت را به ترتیب بچین"
+              },
+              "fare": {
+                "en": "Arrange the stages that every habit passes through, from the first to the last",
+                "fa": "مرحله‌هایی را که هر عادت طی می‌کند از اولین تا آخرین مرتب کن"
               },
               "options": [
                 {
@@ -541,6 +589,10 @@
                 "en": "Which two steps form the problem phase?",
                 "fa": "کدام دو مرحله مرحلهٔ مسئله را می‌سازند؟"
               },
+              "fare": {
+                "en": "Response and reward are the solution phase. Which pair comes before them as the problem?",
+                "fa": "پاسخ و پاداش مرحلهٔ راه‌حل‌اند. کدام جفت پیش از آن‌ها می‌آید و مسئله را می‌سازد؟"
+              },
               "options": [
                 {
                   "en": "Cue and craving",
@@ -582,6 +634,10 @@
                 "en": "What is the inversion of 'make it easy'?",
                 "fa": "وارونهٔ «آسانش کن» چیست؟"
               },
+              "fare": {
+                "en": "To break a bad habit, which law takes the place of 'make it easy'?",
+                "fa": "برای ترک عادت بد، کدام قانون جای «آسانش کن» می‌نشیند؟"
+              },
               "options": [
                 {
                   "en": "Make it difficult",
@@ -622,6 +678,10 @@
               "prompt": {
                 "en": "Clear describes each of the four laws as a lever that influences behavior.",
                 "fa": "Clear هر یک از چهار قانون را اهرمی می‌داند که بر رفتار اثر می‌گذارد."
+              },
+              "fare": {
+                "en": "In Clear's wording, a law of behavior change works like a lever on what you do.",
+                "fa": "به تعبیر Clear، هر قانونِ تغییر رفتار مثل اهرمی روی کارهایت عمل می‌کند."
               },
               "answer": true
             }
@@ -678,6 +738,10 @@
                 "en": "What do many people who think they lack motivation actually lack?",
                 "fa": "بسیاری که فکر می‌کنند انگیزه ندارند در واقع چه ندارند؟"
               },
+              "fare": {
+                "en": "People who believe motivation is their problem are often missing what instead?",
+                "fa": "کسانی که مشکلشان را بی‌انگیزگی می‌دانند اغلب در اصل چه چیزی کم دارند؟"
+              },
               "options": [
                 {
                   "en": "Clarity",
@@ -719,6 +783,10 @@
                 "en": "With an implementation intention, you wait until you feel inspired before acting.",
                 "fa": "با نیت اجرایی، پیش از عمل منتظر می‌مانی تا الهام بگیری."
               },
+              "fare": {
+                "en": "Someone with a clear when-and-where plan still has to wait for inspiration before starting.",
+                "fa": "کسی که برنامهٔ روشنِ «کی و کجا» دارد هم باید برای شروع منتظر الهام بماند."
+              },
               "answer": false
             },
             {
@@ -746,14 +814,18 @@
                 "en": "What does habit stacking link a new habit to?",
                 "fa": "انباشت عادت، عادت تازه را به چه وصل می‌کند؟"
               },
+              "fare": {
+                "en": "When you stack habits, what is the new habit tied to?",
+                "fa": "وقتی عادت‌ها را روی هم می‌چینی، عادت تازه به چه چیزی گره می‌خورد؟"
+              },
               "options": [
                 {
                   "en": "One you already do",
                   "fa": "عادتی که از قبل داری"
                 },
                 {
-                  "en": "A reward you buy",
-                  "fa": "پاداشی که می‌خری"
+                  "en": "A reward you buy yourself",
+                  "fa": "پاداشی که برای خودت می‌خری"
                 },
                 {
                   "en": "A deadline at work",
@@ -787,6 +859,10 @@
                 "en": "The habit-stacking formula is: after [current habit], I will [new habit].",
                 "fa": "فرمول انباشت عادت این است: بعد از [عادت فعلی]، [عادت تازه] را انجام می‌دهم."
               },
+              "fare": {
+                "en": "In a habit stack, the current habit comes first and the new habit follows it.",
+                "fa": "در انباشت عادت، اول عادت فعلی می‌آید و عادت تازه پشت سرش."
+              },
               "answer": true
             },
             {
@@ -814,18 +890,22 @@
                 "en": "Which is a well-formed habit stack?",
                 "fa": "کدام یک انباشت عادت درست است؟"
               },
+              "fare": {
+                "en": "Which sentence ties a new habit to a clear cue that already exists?",
+                "fa": "کدام جمله عادت تازه را به نشانه‌ای روشن و موجود گره می‌زند؟"
+              },
               "options": [
                 {
                   "en": "After I pour my morning coffee, I will read ten pages",
                   "fa": "بعد از ریختن قهوهٔ صبح، ده صفحه می‌خوانم"
                 },
                 {
-                  "en": "I will read more this year",
-                  "fa": "امسال بیشتر می‌خوانم"
+                  "en": "I will read many more books this year than I did last year",
+                  "fa": "امسال خیلی بیشتر از پارسال کتاب می‌خوانم"
                 },
                 {
-                  "en": "I will read whenever I feel free",
-                  "fa": "هر وقت وقت آزاد داشتم می‌خوانم"
+                  "en": "I will read whenever I happen to feel free enough",
+                  "fa": "هر وقت به اندازهٔ کافی وقت آزاد داشتم می‌خوانم"
                 }
               ],
               "answer": 0
@@ -874,6 +954,10 @@
                 "en": "When water was placed near the registers, soda sales went up.",
                 "fa": "وقتی آب کنار صندوق‌ها گذاشته شد، فروش نوشابه بالا رفت."
               },
+              "fare": {
+                "en": "After bottled water was added around the cafeteria, people bought more soda than before.",
+                "fa": "بعد از اینکه آب بطری در کافه‌تریا بیشتر در دسترس قرار گرفت، مردم بیشتر از قبل نوشابه خریدند."
+              },
               "answer": false
             },
             {
@@ -901,14 +985,18 @@
                 "en": "Why are visual cues the biggest drivers of behavior?",
                 "fa": "چرا نشانه‌های دیداری بزرگ‌ترین محرک رفتارند؟"
               },
+              "fare": {
+                "en": "Which fact about the human senses explains the power of what we see?",
+                "fa": "کدام واقعیت دربارهٔ حواس انسان، قدرت چیزهایی را که می‌بینیم توضیح می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Vision is the strongest human sense",
                   "fa": "بینایی قوی‌ترین حس انسان است"
                 },
                 {
-                  "en": "Habits form only in daylight",
-                  "fa": "عادت‌ها فقط در روشنایی روز شکل می‌گیرند"
+                  "en": "Habits can form only in full daylight",
+                  "fa": "عادت‌ها فقط در روشنایی کامل روز شکل می‌گیرند"
                 },
                 {
                   "en": "Cues work only when written down",
@@ -942,14 +1030,18 @@
                 "en": "What happened when addicted soldiers came home?",
                 "fa": "وقتی سربازان معتاد به خانه برگشتند چه شد؟"
               },
+              "fare": {
+                "en": "How did the heroin habit of US soldiers change once they were away from the cues of war?",
+                "fa": "اعتیاد سربازان آمریکایی به هروئین، دور از نشانه‌های جنگ چه سرنوشتی پیدا کرد؟"
+              },
               "options": [
                 {
                   "en": "About 5 percent relapsed within a year",
                   "fa": "حدود ۵ درصد ظرف یک سال دوباره مصرف کردند"
                 },
                 {
-                  "en": "Almost all of them relapsed",
-                  "fa": "تقریباً همه دوباره مصرف کردند"
+                  "en": "Almost all of them relapsed within weeks",
+                  "fa": "تقریباً همه ظرف چند هفته دوباره مصرف کردند"
                 },
                 {
                   "en": "Half relapsed within a month",
@@ -983,6 +1075,10 @@
                 "en": "Clear says disciplined people mostly win by resisting temptation more often.",
                 "fa": "Clear می‌گوید آدم‌های منضبط بیشتر با مقاومت بیشتر در برابر وسوسه موفق می‌شوند."
               },
+              "fare": {
+                "en": "In Clear's view, disciplined people simply have a stronger ability to say no to temptation.",
+                "fa": "از نگاه Clear، آدم‌های منضبط صرفاً توان بیشتری برای «نه» گفتن به وسوسه دارند."
+              },
               "answer": false
             },
             {
@@ -1010,18 +1106,22 @@
                 "en": "Which change makes the trading cue invisible?",
                 "fa": "کدام تغییر نشانهٔ معامله را نامرئی می‌کند؟"
               },
+              "fare": {
+                "en": "Which step takes the prompt to trade out of your day?",
+                "fa": "کدام اقدام، محرک معامله کردن را از روزت بیرون می‌برد؟"
+              },
               "options": [
                 {
                   "en": "Delete the broker app from your phone",
                   "fa": "اپ کارگزار را از گوشی‌ات پاک کن"
                 },
                 {
-                  "en": "Add more price alerts",
-                  "fa": "هشدارهای قیمت بیشتری بگذار"
+                  "en": "Add more price alerts to your phone",
+                  "fa": "هشدارهای قیمت بیشتری روی گوشی‌ات بگذار"
                 },
                 {
-                  "en": "Keep the app on the home screen",
-                  "fa": "اپ را روی صفحهٔ اصلی نگه دار"
+                  "en": "Keep the broker app on the home screen",
+                  "fa": "اپ کارگزار را روی صفحهٔ اصلی نگه دار"
                 }
               ],
               "answer": 0
@@ -1070,6 +1170,10 @@
                 "en": "The gull chicks ignored the fake beak with bigger red spots.",
                 "fa": "جوجه‌مرغ‌های دریایی منقار مصنوعی با لکه‌های بزرگ‌تر را نادیده گرفتند."
               },
+              "fare": {
+                "en": "Tinbergen's fake beak with larger red spots drew less pecking than a real beak did.",
+                "fa": "منقار مصنوعی Tinbergen با لکه‌های قرمز بزرگ‌تر، کمتر از منقار واقعی نوک خورد."
+              },
               "answer": false
             },
             {
@@ -1097,18 +1201,22 @@
                 "en": "When does dopamine rise, according to Clear?",
                 "fa": "به گفتهٔ Clear، دوپامین کی بالا می‌رود؟"
               },
+              "fare": {
+                "en": "Which moment sets off a dopamine rise, so that craving drives the action?",
+                "fa": "کدام لحظه دوپامین را بالا می‌برد، طوری که میل عمل را پیش ببرد؟"
+              },
               "options": [
                 {
                   "en": "When you anticipate a reward",
                   "fa": "وقتی انتظار پاداش را داری"
                 },
                 {
-                  "en": "Only after you finish a task",
-                  "fa": "فقط بعد از تمام کردن کار"
+                  "en": "Only after you have finished a task",
+                  "fa": "فقط بعد از اینکه کار را تمام کرده‌ای"
                 },
                 {
-                  "en": "Only while you sleep",
-                  "fa": "فقط هنگام خواب"
+                  "en": "Only while you are asleep",
+                  "fa": "فقط وقتی در خوابی"
                 }
               ],
               "answer": 0
@@ -1138,13 +1246,17 @@
                 "en": "Which three groups do we imitate?",
                 "fa": "از کدام سه گروه تقلید می‌کنیم؟"
               },
+              "fare": {
+                "en": "Whose habits are we most likely to copy, in Clear's account?",
+                "fa": "طبق توضیح Clear، بیشتر عادت‌های چه کسانی را الگو می‌گیریم؟"
+              },
               "options": [
                 {
                   "en": "The close, the many and the powerful",
                   "fa": "نزدیکان، اکثریت و قدرتمندان"
                 },
                 {
-                  "en": "The young, the rich and the famous",
+                  "en": "The young, the wealthy and the famous",
                   "fa": "جوان‌ها، ثروتمندان و مشهورها"
                 },
                 {
@@ -1179,6 +1291,10 @@
                 "en": "Clear suggests reframing 'I have to' as 'I get to' to make a habit more attractive.",
                 "fa": "Clear پیشنهاد می‌کند «باید» را به «فرصت دارم» تبدیل کنی تا عادت جذاب‌تر شود."
               },
+              "fare": {
+                "en": "Saying 'I get to go to work' in place of 'I have to' is a reframing Clear recommends.",
+                "fa": "اینکه به جای «باید سر کار بروم» بگویی «فرصت دارم سر کار بروم»، تغییر قابی است که Clear توصیه می‌کند."
+              },
               "answer": true
             },
             {
@@ -1206,18 +1322,22 @@
                 "en": "What makes buying and holding index funds feel normal?",
                 "fa": "چه چیزی خرید و نگهداری صندوق شاخصی را عادی جلوه می‌دهد؟"
               },
+              "fare": {
+                "en": "Which step surrounds you with people for whom patient index investing is the usual thing?",
+                "fa": "کدام اقدام تو را میان آدم‌هایی می‌برد که سرمایه‌گذاری صبورانه در صندوق شاخصی برایشان معمول است؟"
+              },
               "options": [
                 {
                   "en": "Join investors who buy index funds and hold",
                   "fa": "پیوستن به سرمایه‌گذارانی که صندوق شاخصی می‌خرند و نگه می‌دارند"
                 },
                 {
-                  "en": "Follow day-trading channels",
-                  "fa": "دنبال کردن کانال‌های معاملهٔ روزانه"
+                  "en": "Follow day-trading channels and copy their trades",
+                  "fa": "دنبال کردن کانال‌های معاملهٔ روزانه و تقلید معامله‌هایشان"
                 },
                 {
-                  "en": "Read only price headlines",
-                  "fa": "فقط خواندن تیتر قیمت‌ها"
+                  "en": "Read only the daily price headlines",
+                  "fa": "فقط خواندن تیتر روزانهٔ قیمت‌ها"
                 }
               ],
               "answer": 0
@@ -1275,6 +1395,10 @@
                 "en": "Which group in Uelsmann's class produced the best photos?",
                 "fa": "کدام گروه در کلاس Uelsmann بهترین عکس‌ها را گرفت؟"
               },
+              "fare": {
+                "en": "In Uelsmann's experiment, whose work turned out best in the end?",
+                "fa": "در آزمایش Uelsmann، در پایان کار چه کسانی بهتر از آب درآمد؟"
+              },
               "options": [
                 {
                   "en": "The quantity group",
@@ -1316,6 +1440,10 @@
                 "en": "Clear says habits form after a fixed number of days, such as 21.",
                 "fa": "Clear می‌گوید عادت پس از تعداد ثابتی روز، مثلاً ۲۱ روز، شکل می‌گیرد."
               },
+              "fare": {
+                "en": "For Clear, the length of time matters more than the number of repetitions in forming a habit.",
+                "fa": "از نظر Clear، در شکل‌گیری عادت مدت زمان مهم‌تر از تعداد تکرار است."
+              },
               "answer": false
             },
             {
@@ -1343,18 +1471,22 @@
                 "en": "What do people pick when choosing between two similar options?",
                 "fa": "آدم‌ها بین دو گزینهٔ مشابه کدام را برمی‌گزینند؟"
               },
+              "fare": {
+                "en": "According to the Law of Least Effort, which option do people naturally go for?",
+                "fa": "طبق قانون کمترین تلاش، آدم‌ها طبیعتاً سراغ کدام گزینه می‌روند؟"
+              },
               "options": [
                 {
                   "en": "The one that needs the least work",
                   "fa": "آن که کمترین کار را می‌خواهد"
                 },
                 {
-                  "en": "The more impressive one",
-                  "fa": "آن که چشمگیرتر است"
+                  "en": "The one that looks the most impressive",
+                  "fa": "آن که از همه چشمگیرتر به نظر می‌آید"
                 },
                 {
-                  "en": "The newest one",
-                  "fa": "تازه‌ترین را"
+                  "en": "The newest one they can find",
+                  "fa": "تازه‌ترینی که پیدا می‌کنند"
                 }
               ],
               "answer": 0
@@ -1384,6 +1516,10 @@
                 "en": "Resetting the room means preparing your space so the next good action is easy.",
                 "fa": "بازچینی اتاق یعنی فضایت را طوری آماده کنی که کار خوب بعدی آسان باشد."
               },
+              "fare": {
+                "en": "Setting out your workout clothes and water bottle ahead of time is a way of priming the environment.",
+                "fa": "از پیش آماده گذاشتن لباس ورزش و بطری آب، راهی برای آماده کردن محیط است."
+              },
               "answer": true
             },
             {
@@ -1411,18 +1547,22 @@
                 "en": "How do you make investing take no effort?",
                 "fa": "چطور سرمایه‌گذاری را بی‌زحمت کنی؟"
               },
+              "fare": {
+                "en": "Which step removes the effort from putting money in each month?",
+                "fa": "کدام اقدام زحمتِ پول گذاشتنِ هر ماه را از میان برمی‌دارد؟"
+              },
               "options": [
                 {
                   "en": "Automate the monthly transfer",
                   "fa": "انتقال ماهانه را خودکار کن"
                 },
                 {
-                  "en": "Pick stocks each morning",
-                  "fa": "هر صبح سهم انتخاب کن"
+                  "en": "Pick new stocks each morning",
+                  "fa": "هر صبح سهم تازه انتخاب کن"
                 },
                 {
-                  "en": "Wait for a market dip",
-                  "fa": "منتظر افت بازار بمان"
+                  "en": "Wait for a big market dip first",
+                  "fa": "اول منتظر افت بزرگ بازار بمان"
                 }
               ],
               "answer": 0
@@ -1471,6 +1611,10 @@
                 "en": "Under the Two-Minute Rule, what does 'read before bed each night' become?",
                 "fa": "با قانون دو دقیقه، «هر شب پیش از خواب بخوان» چه می‌شود؟"
               },
+              "fare": {
+                "en": "Which is the scaled-down form of a nightly reading habit that takes under two minutes?",
+                "fa": "شکل کوچک‌شدهٔ عادت مطالعهٔ شبانه که کمتر از دو دقیقه وقت می‌گیرد کدام است؟"
+              },
               "options": [
                 {
                   "en": "Read one page",
@@ -1512,6 +1656,10 @@
                 "en": "Clear advises optimizing a habit before you have learned to show up for it.",
                 "fa": "Clear توصیه می‌کند پیش از اینکه حاضر شدن را یاد بگیری، عادت را بهینه کنی."
               },
+              "fare": {
+                "en": "According to Clear, a habit should be improved first and established afterwards.",
+                "fa": "به گفتهٔ Clear، عادت را باید اول بهبود داد و بعد تثبیت کرد."
+              },
               "answer": false
             },
             {
@@ -1539,6 +1687,10 @@
                 "en": "What was the reader building by leaving the gym after five minutes?",
                 "fa": "آن خواننده با ترک باشگاه بعد از پنج دقیقه چه می‌ساخت؟"
               },
+              "fare": {
+                "en": "What did the five-minute gym visits give the reader who lost over 100 pounds?",
+                "fa": "آن سر زدن‌های پنج‌دقیقه‌ای به باشگاه برای خواننده‌ای که بیش از ۱۰۰ پوند وزن کم کرد چه به بار آورد؟"
+              },
               "options": [
                 {
                   "en": "The habit of showing up",
@@ -1549,8 +1701,8 @@
                   "fa": "قدرت با بیشترین سرعت"
                 },
                 {
-                  "en": "An excuse to quit",
-                  "fa": "بهانه‌ای برای کنار کشیدن"
+                  "en": "An excuse to quit early",
+                  "fa": "بهانه‌ای برای زود کنار کشیدن"
                 }
               ],
               "answer": 0
@@ -1580,6 +1732,10 @@
                 "en": "A commitment device is a present choice that controls your future actions.",
                 "fa": "ابزار تعهد انتخابی در حال است که کارهای آینده‌ات را کنترل می‌کند."
               },
+              "fare": {
+                "en": "Victor Hugo having his clothes locked away so he had to write is an example of a commitment device.",
+                "fa": "اینکه Victor Hugo لباس‌هایش را زیر قفل گذاشت تا ناچار بنویسد، نمونه‌ای از ابزار تعهد است."
+              },
               "answer": true
             },
             {
@@ -1607,18 +1763,22 @@
                 "en": "What is the two-minute version of the reading hour?",
                 "fa": "نسخهٔ دودقیقه‌ای ساعت مطالعه چیست؟"
               },
+              "fare": {
+                "en": "Which small start stands in for the full reading hour?",
+                "fa": "کدام شروع کوچک جای کل ساعت مطالعه را می‌گیرد؟"
+              },
               "options": [
                 {
                   "en": "Opening the book and reading one page",
                   "fa": "باز کردن کتاب و خواندن یک صفحه"
                 },
                 {
-                  "en": "Buying three new books",
-                  "fa": "خریدن سه کتاب تازه"
+                  "en": "Buying three new books to read later",
+                  "fa": "خریدن سه کتاب تازه برای بعد"
                 },
                 {
-                  "en": "Reading for one hour anyway",
-                  "fa": "به هر حال یک ساعت خواندن"
+                  "en": "Reading for the full hour no matter what",
+                  "fa": "هر طور شده یک ساعت کامل خواندن"
                 }
               ],
               "answer": 0
@@ -1667,6 +1827,10 @@
                 "en": "In Karachi, a pleasant soap made handwashing satisfying and illness among children fell.",
                 "fa": "در Karachi، یک صابون خوشایند شستن دست را رضایت‌بخش کرد و بیماری کودکان کم شد."
               },
+              "fare": {
+                "en": "After Luby handed out a premium soap in Karachi, diarrhea among children fell by 52 percent.",
+                "fa": "پس از آنکه Luby در Karachi صابونی مرغوب پخش کرد، اسهال در میان کودکان ۵۲ درصد کاهش یافت."
+              },
               "answer": true
             },
             {
@@ -1693,6 +1857,10 @@
               "prompt": {
                 "en": "What kind of environment do we live in, according to Clear?",
                 "fa": "به گفتهٔ Clear، در چه محیطی زندگی می‌کنیم؟"
+              },
+              "fare": {
+                "en": "Our brains evolved for immediate returns. Which kind of environment surrounds us today?",
+                "fa": "مغز ما برای بازده فوری تکامل یافته است. امروز چه نوع محیطی دور و برمان است؟"
               },
               "options": [
                 {
@@ -1735,6 +1903,10 @@
                 "en": "What did Trent Dyrsmid move for every sales call?",
                 "fa": "Trent Dyrsmid برای هر تماس فروش چه چیزی را جابه‌جا می‌کرد؟"
               },
+              "fare": {
+                "en": "Which small object served as Trent Dyrsmid's habit tracker?",
+                "fa": "کدام شیء کوچک نقش ردیاب عادت را برای Trent Dyrsmid داشت؟"
+              },
               "options": [
                 {
                   "en": "A paper clip",
@@ -1776,6 +1948,10 @@
                 "en": "Clear says missing a habit once is already the start of a new habit.",
                 "fa": "Clear می‌گوید یک بار جا انداختن عادت، خودش شروع یک عادت تازه است."
               },
+              "fare": {
+                "en": "In Clear's rule, a single missed day already counts as a new habit taking shape.",
+                "fa": "در قاعدهٔ Clear، همان یک روزِ جاافتاده یعنی عادت تازه‌ای دارد شکل می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -1803,10 +1979,14 @@
                 "en": "What should you do if you skip a monthly buy?",
                 "fa": "اگر یک خرید ماهانه را جا انداختی چه باید بکنی؟"
               },
+              "fare": {
+                "en": "Which rule applies after one skipped monthly purchase?",
+                "fa": "بعد از یک خرید ماهانهٔ ازدست‌رفته کدام قاعده به کار می‌آید؟"
+              },
               "options": [
                 {
-                  "en": "Never miss twice",
-                  "fa": "هرگز دو بار پشت سر هم جا نینداز"
+                  "en": "Never miss a monthly buy twice",
+                  "fa": "خرید ماهانه را هرگز دو بار پشت سر هم جا نینداز"
                 },
                 {
                   "en": "Stop investing for a year",

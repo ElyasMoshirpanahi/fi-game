@@ -68,18 +68,22 @@
                 "en": "Which are Bernstein's four pillars?",
                 "fa": "چهار ستون Bernstein کدام‌اند؟"
               },
+              "fare": {
+                "en": "A successful investor, Bernstein says, must master which set of four?",
+                "fa": "به گفتهٔ Bernstein، سرمایه‌گذار موفق باید بر کدام چهار حوزه مسلط باشد؟"
+              },
               "options": [
                 {
                   "en": "Theory, history, psychology and the business of investing",
                   "fa": "تئوری، تاریخ، روانشناسی و کسب‌وکار سرمایه‌گذاری"
                 },
                 {
-                  "en": "Stocks, bonds, gold and real estate",
-                  "fa": "سهام، اوراق قرضه، طلا و املاک"
+                  "en": "Stocks, bonds, gold and real estate as asset classes",
+                  "fa": "سهام، اوراق قرضه، طلا و املاک به‌عنوان طبقات دارایی"
                 },
                 {
-                  "en": "Saving, budgeting, insurance and taxes",
-                  "fa": "پس‌انداز، بودجه‌بندی، بیمه و مالیات"
+                  "en": "Saving, budgeting, insurance and the tax rules of your country",
+                  "fa": "پس‌انداز، بودجه‌بندی، بیمه و قواعد مالیاتی کشورت"
                 }
               ],
               "answer": 0
@@ -117,6 +121,10 @@
                 "en": "According to Bernstein, an asset can offer a high expected return with little chance of heavy losses.",
                 "fa": "به گفتهٔ Bernstein، یک دارایی می‌تواند بازده مورد انتظار بالا با احتمال کم زیان سنگین داشته باشد."
               },
+              "fare": {
+                "en": "Bernstein holds that an asset promising high returns can spare its owner heavy losses for good.",
+                "fa": "از نگاه Bernstein، دارایی‌ای که بازده بالا وعده می‌دهد می‌تواند صاحبش را برای همیشه از زیان سنگین دور نگه دارد."
+              },
               "answer": false
             },
             {
@@ -152,17 +160,21 @@
                 "en": "What is the risk premium?",
                 "fa": "صرف ریسک چیست؟"
               },
+              "fare": {
+                "en": "Sitting through crashes that others cannot stand is paid for with what?",
+                "fa": "مزد ماندن در سقوط‌هایی که دیگران تحملش را ندارند چیست؟"
+              },
               "options": [
                 {
                   "en": "The extra return stocks earn over safe bills",
                   "fa": "بازده اضافهٔ سهام نسبت به اسناد امن"
                 },
                 {
-                  "en": "A fee brokers charge for risky trades",
-                  "fa": "کارمزدی که کارگزاران برای معاملات پرریسک می‌گیرند"
+                  "en": "A fee that brokers charge clients for risky trades",
+                  "fa": "کارمزدی که کارگزاران برای معاملات پرریسک از مشتری می‌گیرند"
                 },
                 {
-                  "en": "Insurance paid out when markets crash",
+                  "en": "Insurance that is paid out when markets crash",
                   "fa": "بیمه‌ای که هنگام سقوط بازار پرداخت می‌شود"
                 }
               ],
@@ -200,6 +212,10 @@
               "prompt": {
                 "en": "Bernstein says avoiding all risk comes at no cost.",
                 "fa": "Bernstein می‌گوید فرار از همهٔ ریسک‌ها هیچ هزینه‌ای ندارد."
+              },
+              "fare": {
+                "en": "In Bernstein's view, an investor who shuns every risk keeps capital fully intact.",
+                "fa": "از نگاه Bernstein، کسی که از هر ریسکی دوری می‌کند سرمایه‌اش را کاملاً دست‌نخورده نگه می‌دارد."
               },
               "answer": false
             },
@@ -255,6 +271,10 @@
                 "en": "Per Bernstein, roughly what did US long bonds earn a year since 1926?",
                 "fa": "به گفتهٔ Bernstein، اوراق بلندمدت آمریکا از ۱۹۲۶ تقریباً سالی چند درصد بازده داشته‌اند؟"
               },
+              "fare": {
+                "en": "In the US data from 1926 on that Bernstein uses, which yearly return belongs to long bonds?",
+                "fa": "در داده‌های آمریکا از ۱۹۲۶ که Bernstein می‌آورد، کدام بازده سالانه مال اوراق بلندمدت است؟"
+              },
               "options": [
                 {
                   "en": "About 5 percent",
@@ -304,18 +324,22 @@
                 "en": "What does the Gordon equation say the expected stock return equals?",
                 "fa": "معادلهٔ Gordon می‌گوید بازده مورد انتظار سهام برابر با چیست؟"
               },
+              "fare": {
+                "en": "In the Gordon equation, which two parts add up to the return you can expect from stocks?",
+                "fa": "در معادلهٔ Gordon، کدام دو جزء روی هم بازده قابل انتظار سهام را می‌سازند؟"
+              },
               "options": [
                 {
                   "en": "The dividend yield plus the growth rate of dividends",
                   "fa": "بازده نقدی به‌علاوهٔ نرخ رشد سودهای تقسیمی"
                 },
                 {
-                  "en": "Last year's return plus inflation",
-                  "fa": "بازده سال گذشته به‌علاوهٔ تورم"
+                  "en": "Last year's market return plus the current rate of inflation",
+                  "fa": "بازده سال گذشتهٔ بازار به‌علاوهٔ نرخ فعلی تورم"
                 },
                 {
-                  "en": "The bond yield minus fund fees",
-                  "fa": "بازده اوراق منهای کارمزد صندوق"
+                  "en": "The long bond yield minus the yearly fees of the fund",
+                  "fa": "بازده اوراق بلندمدت منهای کارمزد سالانهٔ صندوق"
                 }
               ],
               "answer": 0
@@ -353,6 +377,10 @@
                 "en": "Bernstein argues that soaring prices today point to higher future returns.",
                 "fa": "Bernstein می‌گوید قیمت‌های در حال اوج امروز نشانهٔ بازده بالاتر آینده است."
               },
+              "fare": {
+                "en": "For Bernstein, a shrinking dividend yield after a price surge is a sign of better returns ahead.",
+                "fa": "از نظر Bernstein، کوچک شدن بازده نقدی پس از جهش قیمت‌ها نشانهٔ بازده بهتر در آینده است."
+              },
               "answer": false
             },
             {
@@ -387,6 +415,10 @@
               "prompt": {
                 "en": "Bernstein says good companies are often bad stocks because their future is already in the price.",
                 "fa": "Bernstein می‌گوید شرکت‌های خوب اغلب سهام بدی‌اند چون آینده‌شان از قبل در قیمت آمده است."
+              },
+              "fare": {
+                "en": "For Bernstein, a firm's bright prospects are often priced in already, so a fine company can make a poor stock.",
+                "fa": "از نظر Bernstein، چشم‌انداز روشن یک شرکت اغلب از قبل در قیمتش حساب شده و برای همین شرکت خوب می‌تواند سهم بدی باشد."
               },
               "answer": true
             },
@@ -442,14 +474,18 @@
                 "en": "Why must the average active investor trail an index fund?",
                 "fa": "چرا سرمایه‌گذار فعال متوسط باید از صندوق شاخصی عقب بماند؟"
               },
+              "fare": {
+                "en": "What explains an index fund ending up ahead of the typical active investor?",
+                "fa": "چه چیزی توضیح می‌دهد که صندوق شاخصی از سرمایه‌گذار فعال معمولی جلو می‌افتد؟"
+              },
               "options": [
                 {
                   "en": "After costs, the average active investor earns less",
                   "fa": "پس از هزینه‌ها، سرمایه‌گذار فعال متوسط کمتر می‌گیرد"
                 },
                 {
-                  "en": "Index funds use secret information",
-                  "fa": "صندوق‌های شاخصی از اطلاعات محرمانه استفاده می‌کنند"
+                  "en": "Index funds use secret information that others cannot get",
+                  "fa": "صندوق‌های شاخصی از اطلاعات محرمانه‌ای استفاده می‌کنند که دیگران ندارند"
                 },
                 {
                   "en": "Active investors are banned from many stocks",
@@ -491,6 +527,10 @@
                 "en": "Bernstein finds that fund managers who beat the market usually repeat it in the next period.",
                 "fa": "Bernstein درمی‌یابد که مدیران صندوقی که بازار را شکست می‌دهند معمولاً در دورهٔ بعد تکرارش می‌کنند."
               },
+              "fare": {
+                "en": "According to Bernstein, a manager's market-beating record is a dependable sign of lasting skill.",
+                "fa": "به گفتهٔ Bernstein، سابقهٔ شکست دادن بازار نشانهٔ قابل اتکایی از مهارت ماندگار مدیر است."
+              },
               "answer": false
             },
             {
@@ -526,14 +566,18 @@
                 "en": "What is the base idea of Bernstein's perfect portfolio?",
                 "fa": "ایدهٔ پایهٔ سبد کامل Bernstein چیست؟"
               },
+              "fare": {
+                "en": "How does chapter 4 make a whole portfolio less risky than its parts?",
+                "fa": "فصل ۴ چگونه کل سبد را کم‌ریسک‌تر از اجزایش می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Mix assets that do not move together",
                   "fa": "ترکیب دارایی‌هایی که با هم حرکت نمی‌کنند"
                 },
                 {
-                  "en": "Hold only the single best stock",
-                  "fa": "نگه داشتن فقط بهترین سهم"
+                  "en": "Hold only the single best stock you can find",
+                  "fa": "نگه داشتن فقط بهترین سهمی که پیدا می‌کنی"
                 },
                 {
                   "en": "Keep everything in cash until a crash",
@@ -574,6 +618,10 @@
               "prompt": {
                 "en": "Bernstein says investors can control costs, spread and discipline, but not returns.",
                 "fa": "Bernstein می‌گوید سرمایه‌گذار می‌تواند هزینه، پخش و انضباط را کنترل کند، اما بازده را نه."
+              },
+              "fare": {
+                "en": "For Bernstein, returns are out of an investor's hands, while costs, spread and discipline are not.",
+                "fa": "از نظر Bernstein، بازده از دست سرمایه‌گذار خارج است، اما هزینه، پخش و انضباط در اختیار اوست."
               },
               "answer": true
             },
@@ -628,6 +676,10 @@
               "prompt": {
                 "en": "Put these manias in historical order",
                 "fa": "این جنون‌ها را به ترتیب تاریخی بچین"
+              },
+              "fare": {
+                "en": "Arrange these manias from the earliest to the most recent",
+                "fa": "این جنون‌ها را از قدیمی‌ترین تا تازه‌ترین مرتب کن"
               },
               "options": [
                 {
@@ -687,6 +739,10 @@
                 "en": "Which is one of Bernstein's four conditions for a bubble?",
                 "fa": "کدام یکی از چهار شرط Bernstein برای حباب است؟"
               },
+              "fare": {
+                "en": "Bernstein lists what must be present for a bubble to form. Which of these is on his list?",
+                "fa": "Bernstein فهرستی از زمینه‌های شکل‌گیری حباب می‌دهد. کدام‌یک در فهرست اوست؟"
+              },
               "options": [
                 {
                   "en": "Easy credit",
@@ -697,8 +753,8 @@
                   "fa": "نرخ بهرهٔ بالا"
                 },
                 {
-                  "en": "Strict market regulation",
-                  "fa": "مقررات سخت‌گیرانهٔ بازار"
+                  "en": "Strict regulation",
+                  "fa": "مقررات سخت‌گیرانه"
                 }
               ],
               "answer": 0
@@ -735,6 +791,10 @@
               "prompt": {
                 "en": "According to Bernstein, who gets the best returns?",
                 "fa": "به گفتهٔ Bernstein، بهترین بازده نصیب چه کسانی می‌شود؟"
+              },
+              "fare": {
+                "en": "At market bottoms, Bernstein says the highest rewards go to which investors?",
+                "fa": "Bernstein می‌گوید در کف بازار بیشترین پاداش به کدام سرمایه‌گذاران می‌رسد؟"
               },
               "options": [
                 {
@@ -784,6 +844,10 @@
               "prompt": {
                 "en": "History shows that a bad stretch for stocks can last many years, not just months.",
                 "fa": "تاریخ نشان می‌دهد که دورهٔ بد سهام می‌تواند سال‌ها طول بکشد، نه فقط چند ماه."
+              },
+              "fare": {
+                "en": "An investor's patience may be tested for years or decades, as when US stocks lagged inflation from the mid-1960s.",
+                "fa": "صبر سرمایه‌گذار ممکن است سال‌ها یا دهه‌ها آزموده شود، مثل وقتی که سهام آمریکا از میانهٔ دههٔ ۱۹۶۰ از تورم عقب ماند."
               },
               "answer": true
             },
@@ -848,6 +912,10 @@
                 "en": "What does overconfidence lead investors to?",
                 "fa": "اعتمادبه‌نفس بیش از حد سرمایه‌گذاران را به چه می‌کشاند؟"
               },
+              "fare": {
+                "en": "Believing you are an above-average investor tends to produce which behaviour?",
+                "fa": "باور به اینکه سرمایه‌گذاری بالاتر از متوسط هستی معمولاً به کدام رفتار می‌انجامد؟"
+              },
               "options": [
                 {
                   "en": "Too much trading and too little diversification",
@@ -858,8 +926,8 @@
                   "fa": "پس‌انداز بیش از حد و خرج بسیار کم"
                 },
                 {
-                  "en": "Holding only government bonds",
-                  "fa": "نگه داشتن فقط اوراق دولتی"
+                  "en": "Holding only safe government bonds and nothing else",
+                  "fa": "نگه داشتن فقط اوراق دولتی امن و نه هیچ چیز دیگر"
                 }
               ],
               "answer": 0
@@ -897,6 +965,10 @@
                 "en": "Recency bias makes investors buy what has recently fallen.",
                 "fa": "سوگیری رویدادهای اخیر باعث می‌شود سرمایه‌گذاران آنچه اخیراً افتاده را بخرند."
               },
+              "fare": {
+                "en": "Under recency bias, investors sell what has lately soared and pile into what has lately dropped.",
+                "fa": "زیر اثر سوگیری رویدادهای اخیر، سرمایه‌گذاران آنچه تازه اوج گرفته را می‌فروشند و سراغ آنچه تازه افت کرده می‌روند."
+              },
               "answer": false
             },
             {
@@ -932,18 +1004,22 @@
                 "en": "What does loss aversion do?",
                 "fa": "زیان‌گریزی چه می‌کند؟"
               },
+              "fare": {
+                "en": "Loss aversion shapes how investors feel. What is its effect?",
+                "fa": "زیان‌گریزی بر احساس سرمایه‌گذار اثر می‌گذارد. این اثر چیست؟"
+              },
               "options": [
                 {
                   "en": "Makes a loss hurt far more than an equal gain pleases",
                   "fa": "باعث می‌شود زیان بسیار بیشتر از لذت سودی هم‌اندازه درد داشته باشد"
                 },
                 {
-                  "en": "Makes investors buy more after every loss",
-                  "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان بیشتر بخرند"
+                  "en": "Makes investors keen to buy more shares after every loss",
+                  "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان مشتاق خرید سهام بیشتر شوند"
                 },
                 {
-                  "en": "Removes the fear of falling prices",
-                  "fa": "ترس از افت قیمت را از بین می‌برد"
+                  "en": "Removes the fear of falling prices from investors",
+                  "fa": "ترس از افت قیمت را از سرمایه‌گذاران می‌گیرد"
                 }
               ],
               "answer": 0
@@ -980,6 +1056,10 @@
               "prompt": {
                 "en": "Bernstein advises checking your portfolio more often to stay safe.",
                 "fa": "Bernstein توصیه می‌کند برای امنیت بیشتر، سبدت را بیشتر بررسی کنی."
+              },
+              "fare": {
+                "en": "Part of Bernstein's therapy is to look at your holdings frequently and react quickly to the news.",
+                "fa": "بخشی از درمان Bernstein این است که مدام به دارایی‌هایت سر بزنی و سریع به اخبار واکنش نشان دهی."
               },
               "answer": false
             },
@@ -1035,6 +1115,10 @@
                 "en": "How do brokers earn, per Bernstein?",
                 "fa": "به گفتهٔ Bernstein، کارگزاران چگونه درآمد دارند؟"
               },
+              "fare": {
+                "en": "Bernstein says your broker is not your friend. Where does a broker's income come from?",
+                "fa": "Bernstein می‌گوید کارگزارت دوست تو نیست. درآمد کارگزار از کجا می‌آید؟"
+              },
               "options": [
                 {
                   "en": "From your trades and the products they sell you",
@@ -1045,8 +1129,8 @@
                   "fa": "فقط از سهمی از سود سرمایه‌گذاری تو"
                 },
                 {
-                  "en": "From government grants",
-                  "fa": "از کمک‌های دولتی"
+                  "en": "From government grants paid out to licensed brokers",
+                  "fa": "از کمک‌های دولتی که به کارگزاران دارای مجوز پرداخت می‌شود"
                 }
               ],
               "answer": 0
@@ -1084,6 +1168,10 @@
                 "en": "Bernstein says fund companies care most about earning you a high return.",
                 "fa": "Bernstein می‌گوید شرکت‌های صندوق بیش از همه به کسب بازده بالا برای تو اهمیت می‌دهند."
               },
+              "fare": {
+                "en": "In Bernstein's account, a fund company puts your return ahead of gathering more assets.",
+                "fa": "به روایت Bernstein، شرکت صندوق بازده تو را بر جمع کردن دارایی بیشتر مقدم می‌داند."
+              },
               "answer": false
             },
             {
@@ -1118,6 +1206,10 @@
               "prompt": {
                 "en": "How does Bernstein judge most of what the financial press says about investing?",
                 "fa": "Bernstein بیشتر آنچه را مطبوعات مالی دربارهٔ سرمایه‌گذاری می‌گویند چگونه ارزیابی می‌کند؟"
+              },
+              "fare": {
+                "en": "The financial press sells attention. How does Bernstein rate most of its investing coverage?",
+                "fa": "مطبوعات مالی توجه می‌فروشند. Bernstein بیشتر مطالب سرمایه‌گذاری آن‌ها را چگونه می‌سنجد؟"
               },
               "options": [
                 {
@@ -1167,6 +1259,10 @@
               "prompt": {
                 "en": "When choosing an ETF, compare its yearly cost before anything else.",
                 "fa": "هنگام انتخاب ETF، پیش از هر چیز هزینهٔ سالانه‌اش را مقایسه کن."
+              },
+              "fare": {
+                "en": "The TER, an ETF's yearly cost, is the first thing to compare when picking a fund.",
+                "fa": "TER، یعنی هزینهٔ سالانهٔ ETF، اولین چیزی است که هنگام انتخاب صندوق مقایسه می‌شود."
               },
               "answer": true
             },
@@ -1222,6 +1318,10 @@
                 "en": "What sets the plan, according to Bernstein?",
                 "fa": "به گفتهٔ Bernstein، چه چیزی برنامه را تعیین می‌کند؟"
               },
+              "fare": {
+                "en": "When Bernstein asks whether you will have enough, what does he build the plan on?",
+                "fa": "وقتی Bernstein می‌پرسد آیا کافی خواهی داشت، برنامه را بر چه پایه‌ای می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "Your need, not your hope",
@@ -1271,6 +1371,10 @@
                 "en": "According to Bernstein, an investor who can bear only small losses should hold more stocks.",
                 "fa": "به گفتهٔ Bernstein، سرمایه‌گذاری که فقط زیان‌های کوچک را تحمل می‌کند باید سهام بیشتری داشته باشد."
               },
+              "fare": {
+                "en": "In Bernstein's rule, the less loss you can stand, the smaller the share of bonds you need.",
+                "fa": "در قاعدهٔ Bernstein، هرچه زیان کمتری را تاب بیاوری، به سهم کمتری از اوراق قرضه نیاز داری."
+              },
               "answer": false
             },
             {
@@ -1305,6 +1409,10 @@
               "prompt": {
                 "en": "Why does Bernstein hold bonds in a portfolio?",
                 "fa": "چرا Bernstein در سبد اوراق قرضه نگه می‌دارد؟"
+              },
+              "fare": {
+                "en": "Bernstein prefers short-term, high-quality bonds. What are they in the portfolio for?",
+                "fa": "Bernstein اوراق کوتاه‌مدت و باکیفیت را ترجیح می‌دهد. این اوراق برای چه در سبدند؟"
               },
               "options": [
                 {
@@ -1354,6 +1462,10 @@
               "prompt": {
                 "en": "If you would sell after a one-third fall, your mix is too aggressive for you.",
                 "fa": "اگر پس از افت یک‌سومی بفروشی، ترکیبت برایت بیش از حد تهاجمی است."
+              },
+              "fare": {
+                "en": "A mix is too aggressive for you if a drop of a third in one year would make you sell.",
+                "fa": "ترکیبی برایت بیش از حد تهاجمی است که اگر در یک سال یک‌سوم افت کند، تو را به فروش بکشاند."
               },
               "answer": true
             },
@@ -1409,6 +1521,10 @@
                 "en": "Bernstein says it is fine to change the schedule whenever the news turns bad.",
                 "fa": "Bernstein می‌گوید هر وقت اخبار بد شد، تغییر زمان‌بندی اشکالی ندارد."
               },
+              "fare": {
+                "en": "In Bernstein's view, a schedule set in advance may be dropped as soon as markets look frightening.",
+                "fa": "از نگاه Bernstein، زمان‌بندی‌ای که از پیش تعیین شده را می‌توان به محض ترسناک شدن بازار کنار گذاشت."
+              },
               "answer": false
             },
             {
@@ -1444,14 +1560,18 @@
                 "en": "What does rebalancing force you to do?",
                 "fa": "متوازن‌سازی وادارت می‌کند چه کنی؟"
               },
+              "fare": {
+                "en": "Which action makes rebalancing a buy-low, sell-high rule?",
+                "fa": "متوازن‌سازی با واداشتن تو به چه کاری قاعدهٔ «ارزان بخر، گران بفروش» می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Sell what has risen and buy what has fallen",
                   "fa": "آنچه بالا رفته را بفروشی و آنچه افتاده را بخری"
                 },
                 {
-                  "en": "Buy more of whatever rose most",
-                  "fa": "بیشتر از هر چه بیشتر بالا رفته بخری"
+                  "en": "Buy more of whatever rose most in the past year",
+                  "fa": "بیشتر از هر چه در سال گذشته بیشتر بالا رفته بخری"
                 },
                 {
                   "en": "Move everything to cash each year",
@@ -1492,6 +1612,10 @@
               "prompt": {
                 "en": "What is the book's last message?",
                 "fa": "پیام پایانی کتاب چیست؟"
+              },
+              "fare": {
+                "en": "Bernstein closes the book with a call for discipline. What does it ask of you?",
+                "fa": "Bernstein کتاب را با دعوت به انضباط تمام می‌کند. این دعوت از تو چه می‌خواهد؟"
               },
               "options": [
                 {
@@ -1541,6 +1665,10 @@
               "prompt": {
                 "en": "A fixed rebalancing date in your calendar helps stop you from tinkering.",
                 "fa": "تاریخ ثابت متوازن‌سازی در تقویمت کمک می‌کند جلوی دستکاری مدام را بگیری."
+              },
+              "fare": {
+                "en": "Rebalancing on one set calendar date keeps you from fiddling with the portfolio in between.",
+                "fa": "متوازن‌سازی در یک تاریخ مشخص تقویم، تو را از ور رفتن با سبد در فاصلهٔ آن بازمی‌دارد."
               },
               "answer": true
             },

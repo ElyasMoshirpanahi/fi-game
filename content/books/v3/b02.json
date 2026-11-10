@@ -68,6 +68,10 @@
                 "en": "Who were the original letters written for?",
                 "fa": "نامه‌های اولیه برای چه کسی نوشته شدند؟"
               },
+              "fare": {
+                "en": "The book grew out of letters about money. Who was meant to read them?",
+                "fa": "کتاب از دل نامه‌هایی دربارهٔ پول بیرون آمد. قرار بود چه کسی آن‌ها را بخواند؟"
+              },
               "options": [
                 {
                   "en": "His daughter Jessica",
@@ -109,6 +113,10 @@
                 "en": "Collins’s simple path: spend less than you earn, invest the surplus, and...?",
                 "fa": "مسیر سادهٔ Collins: کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن و...؟"
               },
+              "fare": {
+                "en": "Two parts of Collins’s one-line strategy are living below your income and investing what is left. What is the third?",
+                "fa": "دو بخش از استراتژی یک‌خطی Collins این است که کمتر از درآمدت زندگی کنی و باقی‌مانده را سرمایه‌گذاری کنی. بخش سوم چیست؟"
+              },
               "options": [
                 {
                   "en": "Avoid debt",
@@ -119,8 +127,8 @@
                   "fa": "خانهٔ بزرگ‌تری بخر"
                 },
                 {
-                  "en": "Pick winning stocks",
-                  "fa": "سهم‌های برنده را انتخاب کن"
+                  "en": "Pick hot stocks",
+                  "fa": "سهم‌های داغ را انتخاب کن"
                 }
               ],
               "answer": 0
@@ -158,6 +166,10 @@
                 "en": "Collins says complex investments mainly exist to benefit the buyer.",
                 "fa": "Collins می‌گوید سرمایه‌گذاری‌های پیچیده بیشتر به نفع خریدار وجود دارند."
               },
+              "fare": {
+                "en": "According to Collins, the person who gains most from a complicated investment product is the one who buys it.",
+                "fa": "به گفتهٔ Collins، کسی که از یک محصول سرمایه‌گذاری پیچیده بیشترین سود را می‌برد همان کسی است که آن را می‌خرد."
+              },
               "answer": false
             },
             {
@@ -184,6 +196,10 @@
               "prompt": {
                 "en": "In the parable, the minister’s high position gives him more freedom than the monk.",
                 "fa": "در این تمثیل، مقام بالای وزیر به او آزادی بیشتری از راهب می‌دهد."
+              },
+              "fare": {
+                "en": "The parable’s point is that a high post at court, not simple needs, is what makes a person free.",
+                "fa": "حرف تمثیل این است که آنچه آدم را آزاد می‌کند جایگاه بالا در دربار است، نه نیازهای ساده."
               },
               "answer": false
             },
@@ -212,18 +228,22 @@
                 "en": "In practice, what does the simple path become for you each month?",
                 "fa": "در عمل، مسیر ساده هر ماه برای تو به چه چیزی تبدیل می‌شود؟"
               },
+              "fare": {
+                "en": "Which monthly habit puts the simple path into action after your Dutch paycheck arrives?",
+                "fa": "کدام عادت ماهانه، بعد از رسیدن حقوق هلندی‌ات، مسیر ساده را عملی می‌کند؟"
+              },
               "options": [
                 {
                   "en": "One standing order from salary to your broker",
                   "fa": "یک دستور پرداخت ثابت از حقوق به کارگزارت"
                 },
                 {
-                  "en": "A monthly review of hot stocks",
-                  "fa": "مرور ماهانهٔ سهام داغ"
+                  "en": "A monthly review of the hottest stocks to trade",
+                  "fa": "مرور ماهانهٔ داغ‌ترین سهام برای معامله"
                 },
                 {
-                  "en": "A new credit card for rewards",
-                  "fa": "یک کارت اعتباری جدید برای جایزه"
+                  "en": "A new credit card that pays monthly rewards",
+                  "fa": "یک کارت اعتباری جدید که ماهانه جایزه می‌دهد"
                 }
               ],
               "answer": 0
@@ -272,18 +292,22 @@
                 "en": "How does Collins describe debt?",
                 "fa": "Collins بدهی را چگونه توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "Which label does Collins give to owing money?",
+                "fa": "Collins به بدهکار بودن چه عنوانی می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "A destroyer of wealth-building potential",
                   "fa": "نابودگر توان ثروت‌سازی"
                 },
                 {
-                  "en": "A normal tool for living",
-                  "fa": "ابزاری عادی برای زندگی"
+                  "en": "A normal tool for a comfortable modern life",
+                  "fa": "ابزاری عادی برای یک زندگی راحت امروزی"
                 },
                 {
-                  "en": "A useful tax benefit",
-                  "fa": "یک مزیت مالیاتی مفید"
+                  "en": "A useful tax benefit for most households",
+                  "fa": "یک مزیت مالیاتی مفید برای بیشتر خانواده‌ها"
                 }
               ],
               "answer": 0
@@ -312,6 +336,10 @@
               "prompt": {
                 "en": "Collins says to pay off loans above roughly 5 percent interest before investing.",
                 "fa": "Collins می‌گوید وام‌های با بهرهٔ بالای حدود ۵ درصد را پیش از سرمایه‌گذاری تسویه کن."
+              },
+              "fare": {
+                "en": "By Collins’s rule of thumb, a loan charging well over 5 percent gets paid off first, and investing comes after.",
+                "fa": "طبق قاعدهٔ سرانگشتی Collins، وامی که بهره‌اش خیلی بیشتر از ۵ درصد است اول تسویه می‌شود و سرمایه‌گذاری بعد از آن می‌آید."
               },
               "answer": true
             },
@@ -348,6 +376,10 @@
                 "en": "Which costs of debt does Collins list?",
                 "fa": "Collins کدام هزینه‌های بدهی را فهرست می‌کند؟"
               },
+              "fare": {
+                "en": "What does carrying debt do to your life, according to Collins?",
+                "fa": "به گفتهٔ Collins، بدهی‌داشتن با زندگی‌ات چه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "High stress and narrower options",
@@ -358,8 +390,8 @@
                   "fa": "بازده بلندمدت بیشتر"
                 },
                 {
-                  "en": "More freedom to change jobs",
-                  "fa": "آزادی بیشتر برای تغییر شغل"
+                  "en": "More freedom to change jobs at will",
+                  "fa": "آزادی بیشتر برای تغییر شغل به دلخواه"
                 }
               ],
               "answer": 0
@@ -389,6 +421,10 @@
                 "en": "Collins treats a home as one of the best investments a person can make.",
                 "fa": "Collins خانه را یکی از بهترین سرمایه‌گذاری‌هایی می‌داند که فرد می‌تواند انجام دهد."
               },
+              "fare": {
+                "en": "For Collins, buying a house is mainly a smart way to grow your money.",
+                "fa": "از نظر Collins، خریدن خانه بیشتر راهی هوشمندانه برای رشد پول است."
+              },
               "answer": false
             },
             {
@@ -416,17 +452,21 @@
                 "en": "By Collins’s logic, what fits when a store offers to finance furniture?",
                 "fa": "با منطق Collins، وقتی فروشگاهی پیشنهاد خرید اقساطی مبلمان می‌دهد چه چیزی درست است؟"
               },
+              "fare": {
+                "en": "A shop will let you pay for a new sofa in instalments. Which response matches Collins’s thinking?",
+                "fa": "مغازه‌ای اجازه می‌دهد پول یک مبل نو را قسطی بدهی. کدام واکنش با فکر Collins جور است؟"
+              },
               "options": [
                 {
                   "en": "Pay cash or wait",
                   "fa": "نقدی بخر یا صبر کن"
                 },
                 {
-                  "en": "Take the longest term offered",
+                  "en": "Take the longest term",
                   "fa": "طولانی‌ترین مدت را بگیر"
                 },
                 {
-                  "en": "Finance it and invest the cash",
+                  "en": "Finance it, invest cash",
                   "fa": "اقساطی بخر و پول نقد را سرمایه‌گذاری کن"
                 }
               ],
@@ -476,6 +516,10 @@
                 "en": "F-You Money only matters once you are fully financially independent.",
                 "fa": "F-You Money فقط وقتی مهم است که کاملاً مستقل مالی شده باشی."
               },
+              "fare": {
+                "en": "Collins sees no use for F-You Money until your assets cover all your spending.",
+                "fa": "Collins تا وقتی دارایی‌هایت همهٔ خرجت را پوشش ندهند فایده‌ای برای F-You Money نمی‌بیند."
+              },
               "answer": false
             },
             {
@@ -503,18 +547,22 @@
                 "en": "Even a small amount of F-You Money changes what?",
                 "fa": "حتی مقدار کمی F-You Money چه چیزی را تغییر می‌دهد؟"
               },
+              "fare": {
+                "en": "Your stash is still far from millions. What does it already shift?",
+                "fa": "اندوخته‌ات هنوز با میلیون‌ها فاصله دارد. از همین حالا چه چیزی را عوض می‌کند؟"
+              },
               "options": [
                 {
                   "en": "How you negotiate and which risks you can take",
                   "fa": "نحوهٔ مذاکره و ریسک‌هایی که می‌توانی بپذیری"
                 },
                 {
-                  "en": "Your tax rate",
-                  "fa": "نرخ مالیاتت"
+                  "en": "The tax rate you pay on your salary and savings",
+                  "fa": "نرخ مالیاتی که روی حقوق و پس‌اندازت می‌دهی"
                 },
                 {
-                  "en": "The market’s return",
-                  "fa": "بازده بازار"
+                  "en": "The return the market gives you each year",
+                  "fa": "بازدهی که بازار هر سال به تو می‌دهد"
                 }
               ],
               "answer": 0
@@ -552,6 +600,10 @@
                 "en": "In Collins’s view, a high salary alone protects you from being trapped in a job.",
                 "fa": "از نگاه Collins، حقوق بالا به‌تنهایی تو را از گیرافتادن در یک شغل محافظت می‌کند."
               },
+              "fare": {
+                "en": "Collins thinks someone who earns a lot and spends it all is safe if a layoff comes.",
+                "fa": "Collins فکر می‌کند کسی که زیاد درمی‌آورد و همه‌اش را خرج می‌کند، اگر تعدیل شود در امان است."
+              },
               "answer": false
             },
             {
@@ -579,18 +631,22 @@
                 "en": "What is the ultimate F-You Money?",
                 "fa": "نهایت F-You Money چیست؟"
               },
+              "fare": {
+                "en": "Full financial independence is F-You Money in its final form. What does it consist of?",
+                "fa": "استقلال مالی کامل شکل نهایی F-You Money است. از چه چیزی تشکیل می‌شود؟"
+              },
               "options": [
                 {
                   "en": "Assets that cover your spending for good",
                   "fa": "دارایی‌هایی که برای همیشه خرجت را پوشش دهند"
                 },
                 {
-                  "en": "A large credit limit",
-                  "fa": "سقف اعتباری بالا"
+                  "en": "A large credit limit you can always draw on",
+                  "fa": "سقف اعتباری بالایی که همیشه می‌توانی از آن برداشت کنی"
                 },
                 {
-                  "en": "A permanent job contract",
-                  "fa": "قرارداد کار دائمی"
+                  "en": "A permanent job contract with one employer",
+                  "fa": "قرارداد کار دائمی با یک کارفرما"
                 }
               ],
               "answer": 0
@@ -620,18 +676,22 @@
                 "en": "What should your F-You number in the net-worth log measure?",
                 "fa": "عدد F-You تو در گزارش دارایی خالص چه چیزی را می‌سنجد؟"
               },
+              "fare": {
+                "en": "Each quarter you write one F-You figure in your net-worth log. What does that figure count?",
+                "fa": "هر فصل یک عدد F-You در گزارش دارایی خالصت می‌نویسی. این عدد چه چیزی را می‌شمارد؟"
+              },
               "options": [
                 {
                   "en": "Months of expenses you could live on today",
                   "fa": "چند ماه هزینه را امروز می‌توانی پوشش دهی"
                 },
                 {
-                  "en": "Your monthly salary",
-                  "fa": "حقوق ماهانه‌ات"
+                  "en": "Your monthly salary after tax and deductions",
+                  "fa": "حقوق ماهانه‌ات پس از مالیات و کسورات"
                 },
                 {
-                  "en": "Your best stock’s gain",
-                  "fa": "سود بهترین سهمت"
+                  "en": "Your best stock’s gain over the past quarter",
+                  "fa": "سود بهترین سهمت در فصل گذشته"
                 }
               ],
               "answer": 0
@@ -689,6 +749,10 @@
                 "en": "Collins claims the market rises smoothly every year.",
                 "fa": "Collins ادعا می‌کند بازار هر سال به‌آرامی بالا می‌رود."
               },
+              "fare": {
+                "en": "By Collins’s account, the long climb of the market comes without crashes along the way.",
+                "fa": "به روایت Collins، صعود بلندمدت بازار بدون سقوط در میان راه اتفاق می‌افتد."
+              },
               "answer": false
             },
             {
@@ -715,6 +779,10 @@
               "prompt": {
                 "en": "How does Collins describe crashes?",
                 "fa": "Collins سقوط‌ها را چطور توصیف می‌کند؟"
+              },
+              "fare": {
+                "en": "Where do 1929, 1987 and 2008 fit in Collins’s picture of the market?",
+                "fa": "سال‌های ۱۹۲۹، ۱۹۸۷ و ۲۰۰۸ در تصویر Collins از بازار چه جایی دارند؟"
               },
               "options": [
                 {
@@ -765,6 +833,10 @@
                 "en": "Collins says any single stock will also always go up over time.",
                 "fa": "Collins می‌گوید هر سهم منفرد هم در طول زمان همیشه بالا می‌رود."
               },
+              "fare": {
+                "en": "The promise that the market always recovers covers each individual company too, Collins says.",
+                "fa": "Collins می‌گوید این وعده که بازار همیشه برمی‌گردد شامل تک‌تک شرکت‌ها هم می‌شود."
+              },
               "answer": false
             },
             {
@@ -792,14 +864,18 @@
                 "en": "What is Collins’s rule, given nobody can time the market?",
                 "fa": "قاعدهٔ Collins چیست، با توجه به اینکه هیچ‌کس نمی‌تواند بازار را زمان‌بندی کند؟"
               },
+              "fare": {
+                "en": "You cannot know when a drop will start or end. What does Collins tell you to do about it?",
+                "fa": "نمی‌توانی بدانی افت کی شروع یا تمام می‌شود. Collins می‌گوید در برابرش چه کنی؟"
+              },
               "options": [
                 {
                   "en": "Stay invested and never sell in a panic",
                   "fa": "در بازار بمان و هرگز با وحشت نفروش"
                 },
                 {
-                  "en": "Sell when prices look high",
-                  "fa": "وقتی قیمت‌ها بالا به نظر می‌رسند بفروش"
+                  "en": "Sell whenever prices start to look too high",
+                  "fa": "هر وقت قیمت‌ها زیادی بالا به نظر رسیدند بفروش"
                 },
                 {
                   "en": "Hold cash until the next crash",
@@ -832,6 +908,10 @@
               "prompt": {
                 "en": "A world index ETF lets you own thousands of businesses at once.",
                 "fa": "یک ETF شاخص جهانی به تو اجازه می‌دهد هم‌زمان مالک هزاران کسب‌وکار باشی."
+              },
+              "fare": {
+                "en": "Buying a world index ETF such as VWCE makes you a part-owner of thousands of companies.",
+                "fa": "خرید یک ETF شاخص جهانی مثل VWCE تو را شریک هزاران شرکت می‌کند."
               },
               "answer": true
             }
@@ -879,18 +959,22 @@
                 "en": "What is certain about crashes, per Collins?",
                 "fa": "به گفتهٔ Collins چه چیزی دربارهٔ سقوط‌ها قطعی است؟"
               },
+              "fare": {
+                "en": "Which statement about the next crash would Collins agree with?",
+                "fa": "Collins با کدام جمله دربارهٔ سقوط بعدی موافق است؟"
+              },
               "options": [
                 {
                   "en": "Crashes are certain, but their timing is not",
                   "fa": "سقوط‌ها قطعی‌اند، اما زمانشان نه"
                 },
                 {
-                  "en": "They come every five years exactly",
-                  "fa": "دقیقاً هر پنج سال می‌آیند"
+                  "en": "They arrive every five years, almost to the day",
+                  "fa": "هر پنج سال، تقریباً سر همان روز، می‌آیند"
                 },
                 {
-                  "en": "Experts can predict them",
-                  "fa": "کارشناسان می‌توانند پیش‌بینی‌شان کنند"
+                  "en": "Experts on television can predict them",
+                  "fa": "کارشناسان تلویزیون می‌توانند پیش‌بینی‌شان کنند"
                 }
               ],
               "answer": 0
@@ -919,6 +1003,10 @@
               "prompt": {
                 "en": "Collins says most investors lose money because markets themselves fail.",
                 "fa": "Collins می‌گوید بیشتر سرمایه‌گذاران ضرر می‌کنند چون خود بازارها شکست می‌خورند."
+              },
+              "fare": {
+                "en": "In Collins’s telling, investors’ losses come from the market breaking down, not from their own panic.",
+                "fa": "به روایت Collins، ضرر سرمایه‌گذاران از خراب‌شدن بازار می‌آید، نه از وحشت خودشان."
               },
               "answer": false
             },
@@ -955,18 +1043,22 @@
                 "en": "During the wealth-building years, what makes a crash good news?",
                 "fa": "در سال‌های ساختن ثروت، چه چیزی سقوط را خبر خوبی می‌کند؟"
               },
+              "fare": {
+                "en": "You are still adding money every month and prices fall hard. Why does Collins welcome that?",
+                "fa": "هنوز هر ماه پول اضافه می‌کنی و قیمت‌ها سخت می‌افتند. چرا Collins از این استقبال می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Each euro buys more shares at lower prices",
                   "fa": "هر یورو سهم بیشتری با قیمت پایین‌تر می‌خرد"
                 },
                 {
-                  "en": "You can sell and buy back later",
-                  "fa": "می‌توانی بفروشی و بعد دوباره بخری"
+                  "en": "You can sell now and buy back later for less",
+                  "fa": "می‌توانی حالا بفروشی و بعد ارزان‌تر دوباره بخری"
                 },
                 {
-                  "en": "Fees disappear in a crash",
-                  "fa": "در سقوط کارمزدها حذف می‌شوند"
+                  "en": "Fund fees disappear for as long as a crash lasts",
+                  "fa": "تا وقتی سقوط ادامه دارد کارمزد صندوق‌ها حذف می‌شود"
                 }
               ],
               "answer": 0
@@ -996,6 +1088,10 @@
                 "en": "Collins sold after the 1987 crash and later called it a mistake.",
                 "fa": "Collins پس از سقوط ۱۹۸۷ فروخت و بعدها آن را اشتباه دانست."
               },
+              "fare": {
+                "en": "Collins himself once lost his nerve in a crash, got out, and came to regret it.",
+                "fa": "خود Collins هم یک بار در سقوط جا زد، از بازار بیرون رفت و بعد پشیمان شد."
+              },
               "answer": true
             },
             {
@@ -1023,18 +1119,22 @@
                 "en": "What is your best defence against panic in a crash?",
                 "fa": "بهترین دفاعت در برابر وحشت هنگام سقوط چیست؟"
               },
+              "fare": {
+                "en": "Your ETFs are down 30 percent and the news is dark. What protects you best from a rash move?",
+                "fa": "ETFهایت ۳۰ درصد افت کرده‌اند و اخبار تیره است. چه چیزی بهتر از همه جلوی حرکت عجولانه‌ات را می‌گیرد؟"
+              },
               "options": [
                 {
                   "en": "A decision journal entry written in calm times",
                   "fa": "یادداشتی در دفتر تصمیم که در زمان آرامش نوشته شده"
                 },
                 {
-                  "en": "Checking prices hourly",
-                  "fa": "بررسی ساعتی قیمت‌ها"
+                  "en": "Checking prices every hour while the market falls",
+                  "fa": "بررسی ساعت‌به‌ساعت قیمت‌ها وقتی بازار می‌افتد"
                 },
                 {
-                  "en": "A tip from a friend",
-                  "fa": "توصیهٔ یک دوست"
+                  "en": "A confident tip from a friend who trades stocks",
+                  "fa": "توصیهٔ مطمئن دوستی که سهام معامله می‌کند"
                 }
               ],
               "answer": 0
@@ -1083,6 +1183,10 @@
                 "en": "Why do most active funds fail to beat the index?",
                 "fa": "چرا بیشتر صندوق‌های فعال از شاخص جلو نمی‌زنند؟"
               },
+              "fare": {
+                "en": "What drags most actively managed funds below the index over long periods?",
+                "fa": "چه چیزی بیشتر صندوق‌های با مدیریت فعال را در بلندمدت پایین‌تر از شاخص نگه می‌دارد؟"
+              },
               "options": [
                 {
                   "en": "Fees and trading costs",
@@ -1124,6 +1228,10 @@
                 "en": "VTSAX tries to pick the best US stocks.",
                 "fa": "VTSAX تلاش می‌کند بهترین سهام آمریکا را انتخاب کند."
               },
+              "fare": {
+                "en": "The managers of VTSAX select only the US companies they expect to win.",
+                "fa": "مدیران VTSAX فقط شرکت‌های آمریکایی‌ای را برمی‌گزینند که انتظار دارند برنده شوند."
+              },
               "answer": false
             },
             {
@@ -1159,18 +1267,22 @@
                 "en": "If you cannot buy VTSAX, what does Collins say works?",
                 "fa": "اگر نتوانی VTSAX بخری، Collins می‌گوید چه چیزی کار می‌کند؟"
               },
+              "fare": {
+                "en": "VTSAX is not available to you. Which replacement keeps Collins’s principle?",
+                "fa": "VTSAX در دسترست نیست. کدام جایگزین اصل Collins را حفظ می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Any broad, low-cost index fund",
                   "fa": "هر صندوق شاخصی گسترده و کم‌هزینه"
                 },
                 {
-                  "en": "A handful of tech stocks",
-                  "fa": "چند سهم فناوری"
+                  "en": "A handful of big tech stocks",
+                  "fa": "چند سهم بزرگ فناوری"
                 },
                 {
-                  "en": "A savings account",
-                  "fa": "یک حساب پس‌انداز"
+                  "en": "A high-interest savings account",
+                  "fa": "یک حساب پس‌انداز با سود بالا"
                 }
               ],
               "answer": 0
@@ -1195,10 +1307,14 @@
               "kind": "check",
               "id": "b02c2l3k4",
               "type": "tf",
-              "source": "b02c2l3p10",
+              "source": "b02c2l3p9",
               "prompt": {
                 "en": "Collins says a target retirement fund can be a reasonable one-fund option.",
                 "fa": "Collins می‌گوید صندوق هدف بازنشستگی می‌تواند گزینهٔ تک‌صندوقی معقولی باشد."
+              },
+              "fare": {
+                "en": "For someone who wants a single fund, Collins accepts a target retirement fund as a sound choice.",
+                "fa": "برای کسی که فقط یک صندوق می‌خواهد، Collins صندوق هدف بازنشستگی را انتخابی درست می‌داند."
               },
               "answer": true
             },
@@ -1227,18 +1343,22 @@
                 "en": "In the roadmap, what takes the place of VTSAX?",
                 "fa": "در نقشهٔ راه چه چیزی جای VTSAX را می‌گیرد؟"
               },
+              "fare": {
+                "en": "VTSAX is generally not sold to Dutch residents. What does the roadmap use instead?",
+                "fa": "VTSAX معمولاً به ساکنان هلند فروخته نمی‌شود. نقشهٔ راه به جایش از چه چیزی استفاده می‌کند؟"
+              },
               "options": [
                 {
                   "en": "A broad UCITS ETF such as VWCE or IWDA",
                   "fa": "یک ETF گستردهٔ UCITS مثل VWCE یا IWDA"
                 },
                 {
-                  "en": "A Dutch savings bond",
-                  "fa": "یک اوراق پس‌انداز هلندی"
+                  "en": "A Dutch savings bond held at your own bank",
+                  "fa": "یک اوراق پس‌انداز هلندی نزد بانک خودت"
                 },
                 {
-                  "en": "A single US tech stock",
-                  "fa": "یک سهم فناوری آمریکایی"
+                  "en": "A single US tech stock with strong growth",
+                  "fa": "یک سهم فناوری آمریکایی با رشد قوی"
                 }
               ],
               "answer": 0
@@ -1296,6 +1416,10 @@
                 "en": "What does Collins suggest holding in the wealth accumulation stage?",
                 "fa": "Collins در مرحلهٔ انباشت ثروت نگه‌داشتن چه چیزی را پیشنهاد می‌کند؟"
               },
+              "fare": {
+                "en": "You are working, saving and adding money. Which mix does Collins propose for that stage?",
+                "fa": "کار می‌کنی، پس‌انداز می‌کنی و پول اضافه می‌کنی. Collins برای این مرحله چه ترکیبی پیشنهاد می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "100 percent stocks",
@@ -1337,6 +1461,10 @@
                 "en": "Collins says you should hold all stocks even if a big drop would make you sell.",
                 "fa": "Collins می‌گوید حتی اگر افت بزرگ تو را به فروش بکشاند باید سهام کامل نگه داری."
               },
+              "fare": {
+                "en": "For Collins, an investor who would sell in a 50 percent drop should still stay fully in stocks.",
+                "fa": "از نظر Collins، سرمایه‌گذاری که در افت ۵۰ درصدی می‌فروشد باز هم باید تماماً در سهام بماند."
+              },
               "answer": false
             },
             {
@@ -1372,14 +1500,18 @@
                 "en": "Which fund does Collins add in the wealth preservation stage?",
                 "fa": "Collins در مرحلهٔ حفظ ثروت کدام صندوق را اضافه می‌کند؟"
               },
+              "fare": {
+                "en": "Once you live off your investments, what does Collins bring in to smooth the ride?",
+                "fa": "وقتی از سرمایه‌گذاری‌هایت زندگی می‌کنی، Collins برای هموارتر کردن مسیر چه چیزی وارد می‌کند؟"
+              },
               "options": [
                 {
                   "en": "A bond index fund, VBTLX",
                   "fa": "یک صندوق شاخصی اوراق، VBTLX"
                 },
                 {
-                  "en": "A gold mining fund",
-                  "fa": "یک صندوق معادن طلا"
+                  "en": "A gold mining stock fund",
+                  "fa": "یک صندوق سهام معادن طلا"
                 },
                 {
                   "en": "A leveraged stock fund",
@@ -1413,6 +1545,10 @@
                 "en": "Collins treats cash as a core long-term investment.",
                 "fa": "Collins پول نقد را یک سرمایه‌گذاری بلندمدت اصلی می‌داند."
               },
+              "fare": {
+                "en": "Collins holds cash mainly because he expects it to grow in value over the years.",
+                "fa": "Collins پول نقد را بیشتر به این دلیل نگه می‌دارد که انتظار دارد ارزشش در طول سال‌ها رشد کند."
+              },
               "answer": false
             },
             {
@@ -1439,6 +1575,10 @@
               "prompt": {
                 "en": "Which stage are you in today?",
                 "fa": "امروز در کدام مرحله هستی؟"
+              },
+              "fare": {
+                "en": "You earn, save and add money each month. Which stage does that put you in?",
+                "fa": "هر ماه درآمد داری، پس‌انداز می‌کنی و پول اضافه می‌کنی. این تو را در کدام مرحله قرار می‌دهد؟"
               },
               "options": [
                 {
@@ -1500,18 +1640,22 @@
                 "en": "What is asset allocation?",
                 "fa": "تخصیص دارایی چیست؟"
               },
+              "fare": {
+                "en": "Which decision does the term asset allocation describe?",
+                "fa": "اصطلاح تخصیص دارایی کدام تصمیم را توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "How you split money across stocks, bonds and cash",
                   "fa": "چگونگی تقسیم پول میان سهام، اوراق و نقد"
                 },
                 {
-                  "en": "How often you check prices",
-                  "fa": "هر چند وقت یک بار قیمت‌ها را نگاه می‌کنی"
+                  "en": "How often you check prices on stocks, bonds and cash",
+                  "fa": "هر چند وقت یک بار قیمت سهام، اوراق و نقد را نگاه می‌کنی"
                 },
                 {
-                  "en": "Which broker you use",
-                  "fa": "از کدام کارگزار استفاده می‌کنی"
+                  "en": "Which broker you use to buy stocks, bonds and funds",
+                  "fa": "برای خرید سهام، اوراق و صندوق از کدام کارگزار استفاده می‌کنی"
                 }
               ],
               "answer": 0
@@ -1540,6 +1684,10 @@
               "prompt": {
                 "en": "In Collins’s toolkit, bonds are the inflation hedge and stocks are the deflation hedge.",
                 "fa": "در جعبه‌ابزار Collins، اوراق پوشش تورم است و سهام پوشش کاهش قیمت‌ها (deflation)."
+              },
+              "fare": {
+                "en": "Collins holds stocks to protect against deflation and bonds to protect against inflation.",
+                "fa": "Collins سهام را برای محافظت در برابر deflation (کاهش قیمت‌ها) و اوراق را برای محافظت در برابر تورم نگه می‌دارد."
               },
               "answer": false
             },
@@ -1576,17 +1724,21 @@
                 "en": "How often does Collins suggest rebalancing?",
                 "fa": "Collins پیشنهاد می‌کند هر چند وقت یک بار توازن مجدد کنی؟"
               },
+              "fare": {
+                "en": "Which rebalancing rhythm does Collins suggest so that tinkering stays low?",
+                "fa": "Collins چه ریتمی برای توازن مجدد پیشنهاد می‌کند تا دست‌کاری کم بماند؟"
+              },
               "options": [
                 {
                   "en": "About once a year",
                   "fa": "حدوداً سالی یک بار"
                 },
                 {
-                  "en": "Every week",
-                  "fa": "هر هفته"
+                  "en": "Once every week",
+                  "fa": "هفته‌ای یک بار"
                 },
                 {
-                  "en": "Whenever the news is scary",
+                  "en": "When news is scary",
                   "fa": "هر وقت اخبار ترسناک است"
                 }
               ],
@@ -1617,6 +1769,10 @@
                 "en": "Rebalancing makes you buy low and sell high by rule rather than by feeling.",
                 "fa": "توازن مجدد تو را وادار می‌کند با قاعده، نه احساس، ارزان بخری و گران بفروشی."
               },
+              "fare": {
+                "en": "With rebalancing, a rule and not your mood makes you sell what rose and buy what fell.",
+                "fa": "در توازن مجدد، قاعده و نه حال‌وهوایت باعث می‌شود آنچه بالا رفته را بفروشی و آنچه افتاده را بخری."
+              },
               "answer": true
             },
             {
@@ -1644,18 +1800,22 @@
                 "en": "Satellite bets grow past their 20 percent share. What would rebalancing mean?",
                 "fa": "شرط‌های ماهواره‌ای از سهم ۲۰ درصدی‌شان بزرگ‌تر شده‌اند. توازن مجدد یعنی چه؟"
               },
+              "fare": {
+                "en": "Your satellites now make up more than 20 percent of the portfolio. How would you restore the split?",
+                "fa": "ماهواره‌هایت حالا بیش از ۲۰ درصد پرتفو هستند. چطور تقسیم را به حالت اول برمی‌گردانی؟"
+              },
               "options": [
                 {
                   "en": "Trimming them back into the core",
                   "fa": "برگرداندن مازادشان به هسته"
                 },
                 {
-                  "en": "Moving the core into them",
-                  "fa": "انتقال هسته به آن‌ها"
+                  "en": "Moving more of the core over into them",
+                  "fa": "انتقال بخش بیشتری از هسته به آن‌ها"
                 },
                 {
-                  "en": "Ignoring the plan",
-                  "fa": "نادیده گرفتن برنامه"
+                  "en": "Ignoring the plan altogether",
+                  "fa": "نادیده گرفتن کامل برنامه"
                 }
               ],
               "answer": 0
@@ -1704,6 +1864,10 @@
                 "en": "Which study does the 4 percent rule come from?",
                 "fa": "قاعدهٔ ۴ درصد از کدام مطالعه آمده است؟"
               },
+              "fare": {
+                "en": "Which source tested how much retirees could withdraw from their portfolios?",
+                "fa": "کدام منبع بررسی کرد بازنشسته‌ها چقدر می‌توانند از پرتفوی خود برداشت کنند؟"
+              },
               "options": [
                 {
                   "en": "The Trinity Study",
@@ -1745,6 +1909,10 @@
                 "en": "At 4 percent, a person spending €30,000 a year needs about €750,000.",
                 "fa": "با ۴ درصد، کسی که سالانه ۳۰٬۰۰۰ یورو خرج می‌کند حدود ۷۵۰٬۰۰۰ یورو نیاز دارد."
               },
+              "fare": {
+                "en": "A portfolio of about €750,000 supports €30,000 of yearly spending under the 4 percent rule.",
+                "fa": "طبق قاعدهٔ ۴ درصد، پرتفویی حدود ۷۵۰٬۰۰۰ یورویی خرج سالانهٔ ۳۰٬۰۰۰ یورو را پشتیبانی می‌کند."
+              },
               "answer": true
             },
             {
@@ -1780,18 +1948,22 @@
                 "en": "How does Collins treat the 4 percent figure?",
                 "fa": "Collins با رقم ۴ درصد چگونه برخورد می‌کند؟"
               },
+              "fare": {
+                "en": "After a bad market year Collins would spend less. So how does he regard the 4 percent figure?",
+                "fa": "Collins بعد از یک سال بد بازار کمتر خرج می‌کند. پس به رقم ۴ درصد چطور نگاه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "As a guideline, not a law",
                   "fa": "به‌عنوان راهنما، نه قانون"
                 },
                 {
-                  "en": "As a guarantee",
-                  "fa": "به‌عنوان تضمین"
+                  "en": "As a guarantee of success",
+                  "fa": "به‌عنوان تضمین موفقیت"
                 },
                 {
-                  "en": "As a legal limit",
-                  "fa": "به‌عنوان سقف قانونی"
+                  "en": "As a strict legal limit",
+                  "fa": "به‌عنوان سقف قانونی سخت‌گیرانه"
                 }
               ],
               "answer": 0
@@ -1821,6 +1993,10 @@
                 "en": "Collins says you must spend exactly 4 percent every year no matter what.",
                 "fa": "Collins می‌گوید باید هر سال دقیقاً ۴ درصد خرج کنی، هر اتفاقی بیفتد."
               },
+              "fare": {
+                "en": "For Collins, the 4 percent withdrawal stays fixed whether the market had a good year or a bad one.",
+                "fa": "از نظر Collins، برداشت ۴ درصدی ثابت می‌ماند، چه بازار سال خوبی داشته باشد چه سال بد."
+              },
               "answer": false
             },
             {
@@ -1847,6 +2023,10 @@
               "prompt": {
                 "en": "How much less capital does €100 a month of ownership income mean?",
                 "fa": "۱۰۰ یورو درآمد مالکیت در ماه یعنی چقدر سرمایهٔ کمتر لازم است؟"
+              },
+              "fare": {
+                "en": "Your ownership income reaches €1,200 a year. By how much does your 25-times target shrink?",
+                "fa": "درآمد مالکیتت به ۱٬۲۰۰ یورو در سال می‌رسد. هدف ۲۵ برابری‌ات چقدر کوچک می‌شود؟"
               },
               "options": [
                 {

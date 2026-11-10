@@ -68,6 +68,10 @@
                 "en": "For Ries, a company counts as a startup only if it is small and venture funded.",
                 "fa": "از نظر Ries، شرکتی فقط وقتی استارتاپ است که کوچک باشد و سرمایهٔ خطرپذیر گرفته باشد."
               },
+              "fare": {
+                "en": "Ries's definition of a startup rests on size and funding, not on uncertainty.",
+                "fa": "تعریف Ries از استارتاپ بر اندازه و سرمایه تکیه دارد، نه بر عدم‌قطعیت."
+              },
               "answer": false
             },
             {
@@ -103,18 +107,22 @@
                 "en": "What does Ries count as real progress in a startup?",
                 "fa": "Ries چه چیزی را پیشرفت واقعی در استارتاپ می‌داند؟"
               },
+              "fare": {
+                "en": "By Ries's idea of validated learning, what shows that a team has truly moved forward?",
+                "fa": "طبق ایدهٔ یادگیری اعتبارسنجی‌شدهٔ Ries، چه چیزی نشان می‌دهد تیم واقعاً جلو رفته است؟"
+              },
               "options": [
                 {
                   "en": "Real data from real customers",
                   "fa": "دادهٔ واقعی از مشتری واقعی"
                 },
                 {
-                  "en": "Features shipped on schedule",
-                  "fa": "قابلیت‌هایی که به‌موقع تحویل شده‌اند"
+                  "en": "Features shipped right on schedule",
+                  "fa": "قابلیت‌هایی که درست به‌موقع تحویل شده‌اند"
                 },
                 {
-                  "en": "Hours worked by the team",
-                  "fa": "ساعت‌هایی که تیم کار کرده است"
+                  "en": "Hours worked by the whole team",
+                  "fa": "ساعت‌هایی که کل تیم کار کرده است"
                 }
               ],
               "answer": 0
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "Which hypothesis asks how new customers will discover the product?",
                 "fa": "کدام فرضیه می‌پرسد مشتری‌های تازه چگونه محصول را پیدا می‌کنند؟"
+              },
+              "fare": {
+                "en": "A founder wonders by what route future buyers will come across the product. Which hypothesis is that?",
+                "fa": "بنیان‌گذاری می‌خواهد بداند خریداران آینده از چه راهی به محصول می‌رسند. این کدام فرضیه است؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "Nick Swinmurn built a large shoe warehouse before testing whether people would buy shoes online.",
                 "fa": "Nick Swinmurn پیش از آزمودن اینکه مردم کفش را آنلاین می‌خرند، انبار بزرگی از کفش ساخت."
               },
+              "fare": {
+                "en": "To test online demand for shoes, Nick Swinmurn first stocked his own inventory instead of buying pairs from stores as orders came in.",
+                "fa": "Nick Swinmurn برای سنجیدن تقاضای آنلاین کفش، اول موجودی خودش را انبار کرد، نه اینکه با رسیدن هر سفارش کفش را از فروشگاه بخرد."
+              },
               "answer": false
             },
             {
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "Ries says a startup has succeeded once it delivers the product it planned.",
                 "fa": "Ries می‌گوید استارتاپ وقتی محصول برنامه‌ریزی‌شده‌اش را تحویل داد موفق شده است."
+              },
+              "fare": {
+                "en": "In Ries's view the goal is to deliver the planned product, so a perfectly executed plan cannot fail.",
+                "fa": "به نظر Ries هدف تحویل محصول برنامه‌ریزی‌شده است، پس برنامه‌ای که بی‌نقص اجرا شود شکست نمی‌خورد."
               },
               "answer": false
             }
@@ -257,6 +277,10 @@
               "prompt": {
                 "en": "Put the steps of the feedback loop in order",
                 "fa": "گام‌های حلقهٔ بازخورد را مرتب کن"
+              },
+              "fare": {
+                "en": "Arrange the three stages as the loop actually runs, from first to last",
+                "fa": "سه مرحله را به همان ترتیبی بچین که حلقه واقعاً طی می‌شود، از اول تا آخر"
               },
               "options": [
                 {
@@ -311,6 +335,10 @@
                 "en": "Leap-of-faith assumptions are the safest parts of the plan, on which little depends.",
                 "fa": "فرض‌های جهش ایمان کم‌ریسک‌ترین بخش‌های برنامه‌اند که چیز زیادی به آن‌ها وابسته نیست."
               },
+              "fare": {
+                "en": "Ries calls an assumption a leap of faith when it carries little risk and the rest of the plan does not rely on it.",
+                "fa": "Ries فرضی را جهش ایمان می‌نامد که ریسک کمی دارد و بقیهٔ برنامه به آن تکیه نمی‌کند."
+              },
               "answer": false
             },
             {
@@ -338,18 +366,22 @@
                 "en": "What did Food on the Table do in its concierge MVP?",
                 "fa": "Food on the Table در MVP دربان‌وارش چه کرد؟"
               },
+              "fare": {
+                "en": "Which describes the way Food on the Table started out as a concierge MVP?",
+                "fa": "کدام گزینه شیوهٔ شروع Food on the Table به شکل MVP دربان‌وار را توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Served its first customer personally, by hand",
                   "fa": "به اولین مشتری‌اش شخصاً و با دست خدمت داد"
                 },
                 {
-                  "en": "Ran a national advertising campaign",
-                  "fa": "یک کمپین تبلیغاتی سراسری اجرا کرد"
+                  "en": "Ran a national advertising campaign before launch",
+                  "fa": "پیش از عرضه یک کمپین تبلیغاتی سراسری اجرا کرد"
                 },
                 {
-                  "en": "Built a full recipe app before launch",
-                  "fa": "پیش از عرضه یک اپ کامل دستور غذا ساخت"
+                  "en": "Built a full recipe app before signing anyone up",
+                  "fa": "پیش از جذب هر مشتری یک اپ کامل دستور غذا ساخت"
                 }
               ],
               "answer": 0
@@ -379,6 +411,10 @@
                 "en": "Dropbox's demo video brought tens of thousands of sign-ups to its beta list before the product was ready.",
                 "fa": "ویدئوی دموی Dropbox پیش از آماده شدن محصول ده‌ها هزار ثبت‌نام برای فهرست beta آورد."
               },
+              "fare": {
+                "en": "Before Dropbox had a finished product, a short video lifted its beta waiting list from thousands to tens of thousands.",
+                "fa": "پیش از آنکه Dropbox محصولی آماده داشته باشد، یک ویدئوی کوتاه فهرست انتظار beta را از چند هزار به ده‌ها هزار نفر رساند."
+              },
               "answer": true
             },
             {
@@ -406,18 +442,22 @@
                 "en": "What is the main job of a minimum viable product?",
                 "fa": "کار اصلی کمینه‌محصول پذیرفتنی چیست؟"
               },
+              "fare": {
+                "en": "A team builds the smallest version that takes it once around Build-Measure-Learn. What is that version for?",
+                "fa": "تیمی کوچک‌ترین نسخه‌ای را می‌سازد که یک دور Build-Measure-Learn را کامل کند. این نسخه برای چیست؟"
+              },
               "options": [
                 {
                   "en": "To test hypotheses with the least effort",
                   "fa": "آزمودن فرضیه‌ها با کمترین تلاش"
                 },
                 {
-                  "en": "To impress investors with polish",
-                  "fa": "تحت تأثیر قرار دادن سرمایه‌گذاران با ظاهر صیقلی"
+                  "en": "To impress investors with a polished first look",
+                  "fa": "تحت تأثیر قرار دادن سرمایه‌گذاران با ظاهری صیقلی در نگاه اول"
                 },
                 {
-                  "en": "To include every planned feature",
-                  "fa": "گنجاندن همهٔ قابلیت‌های برنامه‌ریزی‌شده"
+                  "en": "To include every feature planned for launch",
+                  "fa": "گنجاندن همهٔ قابلیت‌های برنامه‌ریزی‌شده برای عرضه"
                 }
               ],
               "answer": 0
@@ -466,6 +506,10 @@
                 "en": "Put the three steps of innovation accounting in order",
                 "fa": "سه گام حسابداری نوآوری را مرتب کن"
               },
+              "fare": {
+                "en": "Arrange innovation accounting from its first step to its last",
+                "fa": "حسابداری نوآوری را از نخستین گام تا آخرین گامش بچین"
+              },
               "options": [
                 {
                   "en": "Pivot or persevere",
@@ -511,17 +555,21 @@
                 "en": "Which of these is a vanity metric in Ries's sense?",
                 "fa": "کدام‌یک از این‌ها به معنای Ries معیار پوچ است؟"
               },
+              "fare": {
+                "en": "Which number can keep rising and feel good without showing cause and effect?",
+                "fa": "کدام عدد می‌تواند مدام بالا برود و حس خوبی بدهد بی‌آنکه علت و معلول را نشان دهد؟"
+              },
               "options": [
                 {
                   "en": "Total sign-ups",
                   "fa": "تعداد کل ثبت‌نام‌ها"
                 },
                 {
-                  "en": "Paying rate of this week's cohort",
-                  "fa": "نرخ پرداخت cohort این هفته"
+                  "en": "A cohort's paying rate",
+                  "fa": "نرخ پرداخت یک cohort"
                 },
                 {
-                  "en": "Result of a split test",
+                  "en": "A split test's result",
                   "fa": "نتیجهٔ یک آزمون split"
                 }
               ],
@@ -551,6 +599,10 @@
               "prompt": {
                 "en": "In Ries's sense, a pivot means throwing everything away and starting over with no lessons kept.",
                 "fa": "به معنای Ries، pivot یعنی همه‌چیز را دور ریختن و از صفر شروع کردن بی‌آنکه درسی نگه داری."
+              },
+              "fare": {
+                "en": "A pivot, as Ries defines it, discards what was learned so far instead of building on it.",
+                "fa": "pivot در تعریف Ries آموخته‌های قبلی را کنار می‌گذارد، نه اینکه بر آن‌ها بنا شود."
               },
               "answer": false
             },
@@ -587,18 +639,22 @@
                 "en": "How does Ries measure a startup's runway?",
                 "fa": "Ries مدت بقای استارتاپ را چگونه می‌سنجد؟"
               },
+              "fare": {
+                "en": "By what does Ries judge how long a startup can still keep going?",
+                "fa": "Ries با چه چیزی می‌سنجد که استارتاپ تا کی می‌تواند دوام بیاورد؟"
+              },
               "options": [
                 {
                   "en": "By the number of pivots it can still make",
                   "fa": "با تعداد pivotهایی که هنوز می‌تواند انجام دهد"
                 },
                 {
-                  "en": "By its total registrations",
-                  "fa": "با تعداد کل ثبت‌نام‌هایش"
+                  "en": "By the total registrations it has gathered",
+                  "fa": "با تعداد کل ثبت‌نام‌هایی که جمع کرده است"
                 },
                 {
-                  "en": "By the size of its office",
-                  "fa": "با اندازهٔ دفترش"
+                  "en": "By the size of the office it rents",
+                  "fa": "با اندازهٔ دفتری که اجاره کرده است"
                 }
               ],
               "answer": 0
@@ -627,6 +683,10 @@
               "prompt": {
                 "en": "IMVU released code only a few times a year, in large batches.",
                 "fa": "IMVU فقط چند بار در سال و در دسته‌های بزرگ کد منتشر می‌کرد."
+              },
+              "fare": {
+                "en": "With continuous deployment, IMVU shipped to production rarely, bundling many changes into each big release.",
+                "fa": "IMVU با استقرار پیوسته به‌ندرت کد را به محیط اصلی می‌فرستاد و تغییرهای زیادی را در هر انتشار بزرگ جمع می‌کرد."
               },
               "answer": false
             }

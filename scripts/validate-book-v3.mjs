@@ -12,6 +12,31 @@ const tokens = (s) => s.toLowerCase().replace(/[’']/g, '').split(/[^a-z0-9€%
 const appearsIn = (needle, hay) => { const h = tokens(hay); return tokens(needle).every((t) => h.some((x) => x.startsWith(t.slice(0, 4)))); };
 const sentences = (s) => (s.match(/[.!?](\s|$)/g) || []).length;
 const isPair = (p) => p && typeof p.en === 'string' && p.en.trim() && typeof p.fa === 'string' && p.fa.trim();
+// Spec 3: options of a tap Check may not give the answer away by length.
+// LENGTH_RATIO: the longest option may be at most this many times the shortest (English characters).
+// LENGTH_SLACK: a difference this small is never a signal (short numeric options such as "€2k" and "€20k").
+export const LENGTH_RATIO = 1.6;
+export const LENGTH_SLACK = 8;
+// The options of one tap Check, judged for length. Returns { spread: boolean, longestIsAnswer: boolean }.
+export function lengthSignal(check) {
+  const len = check.options.map((o) => o.en.trim().length);
+  const max = Math.max(...len), min = Math.min(...len);
+  const others = len.filter((_, i) => i !== check.answer);
+  return { spread: max - min > LENGTH_SLACK && max > min * LENGTH_RATIO, longestIsAnswer: len[check.answer] > Math.max(...others) };
+}
+// Rules for the checks of one Lesson or Station (shared by the book validator and the Basics test).
+export function checkWording(checks, where, errs) {
+  const taps = checks.filter((k) => k.type === 'tap' && Array.isArray(k.options) && k.options.every(isPair) && Number.isInteger(k.answer));
+  for (const k of taps) if (lengthSignal(k).spread) errs.push(`${k.id}: options differ too much in length (longest over ${LENGTH_RATIO}x the shortest); the length must not point at the answer`);
+  const longest = taps.filter((k) => lengthSignal(k).longestIsAnswer).length;
+  const allowed = Math.ceil(taps.length / 3);
+  if (longest > allowed) errs.push(`${where}: the correct option is the longest in ${longest} of ${taps.length} tap checks, at most ${allowed} allowed`);
+  for (const k of checks) {
+    if (!isPair(k.fare)) errs.push(`${k.id}: needs a "fare" prompt {en, fa}: the same question in other words`);
+    else if (isPair(k.prompt) && (k.fare.en.trim() === k.prompt.en.trim() || k.fare.fa.trim() === k.prompt.fa.trim())) errs.push(`${k.id}: the "fare" prompt must differ from the prompt in both languages`);
+  }
+  return errs;
+}
 
 export function validateBook(b, errs) {
   if (!/^b\d\d$/.test(b.id || '')) errs.push('id must look like b01');
@@ -54,6 +79,7 @@ export function validateBook(b, errs) {
       for (const it of items) { if (it.kind === 'card') { run++; if (run > 3) { errs.push(`${lid}: more than 3 points in a row without a check`); break; } } else run = 0; }
       if (!checks.some((k) => k.type === 'tap')) errs.push(`${lid}: needs at least one tap check`);
       if (!checks.some((k) => k.type === 'tf')) errs.push(`${lid}: needs at least one true/false check`);
+      checkWording(checks, lid, errs);
       if (Number.isInteger(l.minutes) && Math.abs(l.minutes - cards.length) > 4) errs.push(`${lid}: minutes should be about one per point`);
       items.forEach((it, idx) => {
         if (!it.id || !it.id.startsWith(lid)) errs.push(`${it.id}: id must start with ${lid}`);

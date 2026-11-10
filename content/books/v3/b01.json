@@ -60,6 +60,10 @@
                 "en": "According to Housel, doing well with money depends mostly on what?",
                 "fa": "به گفتهٔ Housel، موفقیت مالی بیشتر به چه چیزی بستگی دارد؟"
               },
+              "fare": {
+                "en": "Which of these, in Housel's view, best explains who ends up doing well with money?",
+                "fa": "از نگاه Housel، کدام‌یک بهتر توضیح می‌دهد چه کسی در کار پول موفق می‌شود؟"
+              },
               "options": [
                 {
                   "en": "How you behave",
@@ -109,6 +113,10 @@
                 "en": "Ronald Read built his fortune as a Merrill Lynch executive.",
                 "fa": "Ronald Read ثروتش را به‌عنوان مدیر Merrill Lynch ساخت."
               },
+              "fare": {
+                "en": "It was a senior job at Merrill Lynch that left Ronald Read with over $8 million.",
+                "fa": "شغل ارشد در Merrill Lynch بود که بیش از ۸ میلیون دلار برای Ronald Read به جا گذاشت."
+              },
               "answer": false
             },
             {
@@ -136,10 +144,14 @@
                 "en": "What did someone born in 1950 see the stock market do in their teens and twenties?",
                 "fa": "کسی که در ۱۹۵۰ به دنیا آمد، در نوجوانی و بیست‌سالگی چه چیزی از بورس دید؟"
               },
+              "fare": {
+                "en": "Growing up, what did the investor born in 1950 watch stocks do?",
+                "fa": "سرمایه‌گذاری که متولد ۱۹۵۰ بود، در سال‌های جوانی‌اش شاهد چه رفتاری از بازار سهام بود؟"
+              },
               "options": [
                 {
-                  "en": "Go nowhere",
-                  "fa": "هیچ جا نرفت"
+                  "en": "Go nowhere at all",
+                  "fa": "اصلاً هیچ جا نرفت"
                 },
                 {
                   "en": "Rise almost tenfold",
@@ -185,6 +197,10 @@
                 "en": "Housel says the index fund has existed for well over a century.",
                 "fa": "Housel می‌گوید صندوق شاخصی بیش از یک قرن قدمت دارد."
               },
+              "fare": {
+                "en": "By Housel's count, index funds are an old tool with more than a hundred years of history.",
+                "fa": "به حساب Housel، صندوق شاخصی ابزاری قدیمی با بیش از صد سال سابقه است."
+              },
               "answer": false
             },
             {
@@ -212,18 +228,22 @@
                 "en": "What does Housel conclude about people's money decisions?",
                 "fa": "Housel دربارهٔ تصمیم‌های مالی مردم چه نتیجه‌ای می‌گیرد؟"
               },
+              "fare": {
+                "en": "People do odd things with money. What is Housel's verdict on them?",
+                "fa": "مردم با پول کارهای عجیبی می‌کنند. حکم نهایی Housel درباره‌شان چیست؟"
+              },
               "options": [
                 {
-                  "en": "No one is crazy",
-                  "fa": "هیچ‌کس دیوانه نیست"
+                  "en": "That no one is crazy",
+                  "fa": "اینکه هیچ‌کس دیوانه نیست"
                 },
                 {
-                  "en": "Most people are irrational",
-                  "fa": "بیشتر مردم غیرمنطقی‌اند"
+                  "en": "That most people are irrational",
+                  "fa": "اینکه بیشتر مردم غیرمنطقی‌اند"
                 },
                 {
-                  "en": "Only experts decide well",
-                  "fa": "فقط متخصص‌ها درست تصمیم می‌گیرند"
+                  "en": "That only experts decide well",
+                  "fa": "اینکه فقط متخصص‌ها درست تصمیم می‌گیرند"
                 }
               ],
               "answer": 0
@@ -272,18 +292,22 @@
                 "en": "Why does Housel bring up Lakeside School?",
                 "fa": "چرا Housel از مدرسهٔ Lakeside حرف می‌زند؟"
               },
+              "fare": {
+                "en": "What about Lakeside School makes it Housel's example of luck?",
+                "fa": "چه چیزِ مدرسهٔ Lakeside آن را به مثال Housel برای شانس تبدیل می‌کند؟"
+              },
               "options": [
                 {
                   "en": "One of the only high schools with a computer",
                   "fa": "یکی از تنها دبیرستان‌های دارای کامپیوتر"
                 },
                 {
-                  "en": "Gates failed his classes there",
-                  "fa": "Gates آنجا در درس‌هایش رد شد"
+                  "en": "Gates failed most of his classes while he was there",
+                  "fa": "Gates آنجا در بیشتر درس‌هایش رد شد"
                 },
                 {
-                  "en": "It taught him to pick stocks",
-                  "fa": "آنجا به او انتخاب سهام را یاد دادند"
+                  "en": "It taught him how to pick winning stocks",
+                  "fa": "آنجا به او یاد دادند چطور سهام برنده انتخاب کند"
                 }
               ],
               "answer": 0
@@ -321,6 +345,10 @@
                 "en": "Housel says luck and risk are siblings: forces other than effort guide every outcome.",
                 "fa": "Housel می‌گوید شانس و ریسک خواهر و برادرند: نیروهایی غیر از تلاش، هر نتیجه‌ای را هدایت می‌کنند."
               },
+              "fare": {
+                "en": "In Housel's view, individual effort alone does not decide outcomes; luck and risk both come from forces beyond it.",
+                "fa": "از نگاه Housel، تلاش فردی به‌تنهایی نتیجه را تعیین نمی‌کند؛ شانس و ریسک هر دو از نیروهایی بیرون از آن می‌آیند."
+              },
               "answer": true
             },
             {
@@ -347,6 +375,10 @@
               "prompt": {
                 "en": "What does Housel say to focus on instead of specific individuals?",
                 "fa": "Housel می‌گوید به جای افراد خاص روی چه چیزی تمرکز کنیم؟"
+              },
+              "fare": {
+                "en": "Extreme success stories teach little. Where does Housel say the useful lessons are found?",
+                "fa": "داستان‌های موفقیت افراطی چیز زیادی یاد نمی‌دهند. به گفتهٔ Housel درس‌های به‌دردبخور را کجا باید جست؟"
               },
               "options": [
                 {
@@ -397,6 +429,10 @@
                 "en": "Housel says that when things go wrong it is entirely your fault.",
                 "fa": "Housel می‌گوید وقتی کارها بد پیش می‌رود، تماماً تقصیر خودت است."
               },
+              "fare": {
+                "en": "According to Housel, a bad result proves the blame is yours alone.",
+                "fa": "به گفتهٔ Housel، نتیجهٔ بد نشان می‌دهد که همهٔ تقصیر فقط گردن توست."
+              },
               "answer": false
             },
             {
@@ -416,18 +452,22 @@
                 "en": "Applying the chapter, what does your startup equity outcome depend on besides your code?",
                 "fa": "با نگاه این فصل، نتیجهٔ سهام استارتاپ تو جز کدت به چه چیزی بستگی دارد؟"
               },
+              "fare": {
+                "en": "Good code alone does not decide what your startup equity is worth. What else shapes the result, by this chapter's logic?",
+                "fa": "کدِ خوب به‌تنهایی ارزش سهام استارتاپت را تعیین نمی‌کند. با منطق این فصل، چه چیز دیگری نتیجه را شکل می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "The market, timing and the founders",
                   "fa": "بازار، زمان‌بندی و بنیان‌گذاران"
                 },
                 {
-                  "en": "Only your working hours",
-                  "fa": "فقط ساعت‌های کاری‌ات"
+                  "en": "Only the number of hours you work each week",
+                  "fa": "فقط تعداد ساعت‌هایی که هر هفته کار می‌کنی"
                 },
                 {
-                  "en": "Your Dutch tax rate",
-                  "fa": "نرخ مالیات هلندی‌ات"
+                  "en": "The Dutch tax rate on your income that year",
+                  "fa": "نرخ مالیات هلند بر درآمد آن سالت"
                 }
               ],
               "answer": 0
@@ -475,6 +515,10 @@
               "prompt": {
                 "en": "What causes ice ages, in the example Housel uses?",
                 "fa": "در مثال Housel، عصرهای یخبندان از چه چیزی پدید می‌آیند؟"
+              },
+              "fare": {
+                "en": "In Housel's ice age story, what lets a little snow survive and pile up year after year?",
+                "fa": "در داستان عصر یخبندان Housel، چه چیزی می‌گذارد کمی برف باقی بماند و سال به سال انباشته شود؟"
               },
               "options": [
                 {
@@ -525,6 +569,10 @@
                 "en": "Had Buffett invested only from age 30 to 60, Housel calculates he would be worth about $11.9 million.",
                 "fa": "Housel حساب می‌کند اگر Buffett فقط از ۳۰ تا ۶۰ سالگی سرمایه‌گذاری می‌کرد، ثروتش حدود ۱۱٫۹ میلیون دلار می‌بود."
               },
+              "fare": {
+                "en": "With the same 22 percent return but only thirty years of investing, from 30 to 60, Buffett's fortune would be about $11.9 million by Housel's maths.",
+                "fa": "با همان بازده ۲۲ درصد اما فقط سی سال سرمایه‌گذاری، از ۳۰ تا ۶۰ سالگی، ثروت Buffett به حساب Housel حدود ۱۱٫۹ میلیون دلار می‌شد."
+              },
               "answer": true
             },
             {
@@ -552,18 +600,22 @@
                 "en": "Why does compounding confound us, according to Housel?",
                 "fa": "به گفتهٔ Housel، چرا مرکب شدن ما را گیج می‌کند؟"
               },
+              "fare": {
+                "en": "Almost nobody can feel how fast multiplied growth gets big. What reason does Housel give?",
+                "fa": "تقریباً هیچ‌کس حس نمی‌کند رشدِ ضرب‌شونده چقدر سریع بزرگ می‌شود. Housel چه دلیلی برایش می‌آورد؟"
+              },
               "options": [
                 {
                   "en": "Our brains are built for linear thinking",
                   "fa": "مغز ما برای تفکر خطی ساخته شده"
                 },
                 {
-                  "en": "Returns are too small to notice",
-                  "fa": "بازده‌ها کوچک‌تر از آن‌اند که دیده شوند"
+                  "en": "Returns are too small for anyone to notice",
+                  "fa": "بازده‌ها کوچک‌تر از آن‌اند که کسی متوجهشان شود"
                 },
                 {
-                  "en": "Banks hide the numbers",
-                  "fa": "بانک‌ها اعداد را پنهان می‌کنند"
+                  "en": "Banks hide the real numbers from savers",
+                  "fa": "بانک‌ها اعداد واقعی را از پس‌اندازکنندگان پنهان می‌کنند"
                 }
               ],
               "answer": 0
@@ -601,6 +653,10 @@
                 "en": "Housel says good investing is about chasing the highest possible returns.",
                 "fa": "Housel می‌گوید سرمایه‌گذاری خوب یعنی دنبال بالاترین بازده ممکن رفتن."
               },
+              "fare": {
+                "en": "For Housel, the mark of a good investor is hunting for the top return each year rather than holding a pretty good one for a long time.",
+                "fa": "از نظر Housel، نشانهٔ سرمایه‌گذار خوب این است که هر سال دنبال بیشترین بازده باشد، نه اینکه بازدهی نسبتاً خوب را مدت طولانی نگه دارد."
+              },
               "answer": false
             },
             {
@@ -619,6 +675,10 @@
               "prompt": {
                 "en": "What does Housel say the most powerful investing book should be called?",
                 "fa": "Housel می‌گوید قدرتمندترین کتاب سرمایه‌گذاری باید چه نامی داشته باشد؟"
+              },
+              "fare": {
+                "en": "Housel imagines a one-page investing book showing a long-term growth chart. Which title does he give it?",
+                "fa": "Housel کتاب سرمایه‌گذاری یک‌صفحه‌ای را تصور می‌کند که فقط نمودار رشد بلندمدت دارد. چه عنوانی برایش می‌گذارد؟"
               },
               "options": [
                 {
@@ -689,18 +749,22 @@
                 "en": "What did Jesse Livermore do after making about $3 billion in 1929?",
                 "fa": "Jesse Livermore بعد از به‌دست‌آوردن حدود ۳ میلیارد دلار در ۱۹۲۹ چه کرد؟"
               },
+              "fare": {
+                "en": "How did Jesse Livermore's story continue after his huge win in the 1929 crash?",
+                "fa": "داستان Jesse Livermore پس از بُرد بزرگش در سقوط ۱۹۲۹ چطور ادامه یافت؟"
+              },
               "options": [
                 {
                   "en": "Kept making bigger bets and lost everything",
                   "fa": "شرط‌های بزرگ‌تر بست و همه‌چیز را باخت"
                 },
                 {
-                  "en": "Retired to a farm",
-                  "fa": "به مزرعه‌ای رفت و بازنشسته شد"
+                  "en": "Retired to a quiet farm and stopped trading",
+                  "fa": "به مزرعه‌ای آرام رفت و معامله را کنار گذاشت"
                 },
                 {
-                  "en": "Bought index funds",
-                  "fa": "صندوق شاخصی خرید"
+                  "en": "Bought index funds and held them for life",
+                  "fa": "صندوق شاخصی خرید و تا آخر عمر نگهش داشت"
                 }
               ],
               "answer": 0
@@ -738,6 +802,10 @@
                 "en": "Housel says getting wealthy and staying wealthy need the same skill.",
                 "fa": "Housel می‌گوید ثروتمند شدن و ثروتمند ماندن به یک مهارت نیاز دارند."
               },
+              "fare": {
+                "en": "In Housel's view, the risk-taking and optimism that build a fortune are also all it takes to keep it.",
+                "fa": "از نگاه Housel، همان ریسک‌پذیری و خوش‌بینی که ثروت می‌سازد، برای نگه داشتنش هم کافی است."
+              },
               "answer": false
             },
             {
@@ -765,18 +833,22 @@
                 "en": "What does Housel say compounding requires above all?",
                 "fa": "Housel می‌گوید مرکب شدن بیش از هر چیز به چه نیاز دارد؟"
               },
+              "fare": {
+                "en": "Housel's first rule is to be financially unbreakable. What is it protecting, the thing compounding cannot do without?",
+                "fa": "قاعدهٔ اول Housel شکست‌ناپذیری مالی است. این قاعده از چه چیزی محافظت می‌کند که مرکب شدن بدون آن کار نمی‌کند؟"
+              },
               "options": [
                 {
                   "en": "Years and years to grow",
                   "fa": "سال‌ها و سال‌ها فرصت رشد"
                 },
                 {
-                  "en": "A clever strategy",
-                  "fa": "یک استراتژی زیرکانه"
+                  "en": "A clever trading strategy",
+                  "fa": "یک استراتژی معاملاتی زیرکانه"
                 },
                 {
-                  "en": "A high salary",
-                  "fa": "حقوق بالا"
+                  "en": "A high monthly salary",
+                  "fa": "حقوق ماهانهٔ بالا"
                 }
               ],
               "answer": 0
@@ -814,6 +886,10 @@
                 "en": "The barbelled personality is optimistic about the future and paranoid about what could stop you reaching it.",
                 "fa": "شخصیت دوسرسنگین به آینده خوش‌بین است و به هرچه مانع رسیدن به آن شود بدگمان."
               },
+              "fare": {
+                "en": "A barbelled personality holds two attitudes at once: hope for the long run and suspicion of whatever might knock you out before you get there.",
+                "fa": "شخصیت دوسرسنگین دو نگرش را هم‌زمان دارد: امید به بلندمدت و بدگمانی به هر چیزی که شاید پیش از رسیدن، تو را از بازی بیرون کند."
+              },
               "answer": true
             },
             {
@@ -833,18 +909,22 @@
                 "en": "Applying Housel, which skill does your startup equity belong to?",
                 "fa": "با نگاه Housel، سهام استارتاپ تو به کدام مهارت تعلق دارد؟"
               },
+              "fare": {
+                "en": "Housel names two money skills. Under which one would a stake in a young startup fall?",
+                "fa": "Housel از دو مهارت مالی نام می‌برد. سهمی در یک استارتاپ نوپا زیر کدام‌یک قرار می‌گیرد؟"
+              },
               "options": [
                 {
                   "en": "Getting wealthy: risk and optimism",
                   "fa": "ثروتمند شدن: ریسک و خوش‌بینی"
                 },
                 {
-                  "en": "Staying wealthy: survival",
-                  "fa": "ثروتمند ماندن: بقا"
+                  "en": "Staying wealthy: frugality and survival",
+                  "fa": "ثروتمند ماندن: صرفه‌جویی و بقا"
                 },
                 {
-                  "en": "Neither, it is pure luck",
-                  "fa": "هیچ‌کدام، فقط شانس است"
+                  "en": "Neither, it is purely a matter of luck",
+                  "fa": "هیچ‌کدام، فقط و فقط به شانس بستگی دارد"
                 }
               ],
               "answer": 0
@@ -885,6 +965,10 @@
                 "en": "Housel calls control over your time the highest dividend money pays.",
                 "fa": "Housel کنترل بر زمان خودت را بالاترین سود پول می‌داند."
               },
+              "fare": {
+                "en": "For Housel, the best thing money can give you is the freedom to decide how your time is spent.",
+                "fa": "از نظر Housel، بهترین چیزی که پول به تو می‌دهد آزادیِ تصمیم گرفتن دربارهٔ وقت خودت است."
+              },
               "answer": true
             },
             {
@@ -920,18 +1004,22 @@
                 "en": "In the man in the car paradox, what do people think when they see a nice car?",
                 "fa": "در پارادوکس مردِ توی ماشین، مردم با دیدن یک ماشین شیک چه فکر می‌کنند؟"
               },
+              "fare": {
+                "en": "Housel learned something as a valet. What goes through an onlooker's mind as an expensive car drives past?",
+                "fa": "Housel در سال‌های پارکبانی چیزی فهمید. وقتی ماشینی گران‌قیمت رد می‌شود، در ذهن تماشاگر چه می‌گذرد؟"
+              },
               "options": [
                 {
                   "en": "If I had that car, people would think I am cool",
                   "fa": "اگر من آن ماشین را داشتم، مردم فکر می‌کردند باحالم"
                 },
                 {
-                  "en": "The driver must be very smart",
-                  "fa": "راننده باید خیلی باهوش باشد"
+                  "en": "That driver must be very smart and worth admiring",
+                  "fa": "آن راننده باید خیلی باهوش و شایستهٔ تحسین باشد"
                 },
                 {
-                  "en": "That car is overpriced",
-                  "fa": "آن ماشین گران‌تر از ارزشش است"
+                  "en": "That car is overpriced for what you really get",
+                  "fa": "آن ماشین برای چیزی که واقعاً می‌دهد زیادی گران است"
                 }
               ],
               "answer": 0
@@ -961,18 +1049,22 @@
                 "en": "What does Housel say brings more respect than horsepower?",
                 "fa": "Housel می‌گوید چه چیزی احترام بیشتری از اسب‌بخار می‌آورد؟"
               },
+              "fare": {
+                "en": "If your goal is to be admired, what does Housel suggest works better than an impressive engine?",
+                "fa": "اگر هدفت تحسین‌شدن است، به گفتهٔ Housel چه چیزی بهتر از یک موتور پرقدرت جواب می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Humility, kindness and empathy",
                   "fa": "فروتنی، مهربانی و همدلی"
                 },
                 {
-                  "en": "A faster car",
-                  "fa": "ماشینی سریع‌تر"
+                  "en": "A faster and more expensive car",
+                  "fa": "ماشینی سریع‌تر و گران‌تر"
                 },
                 {
-                  "en": "A bigger salary",
-                  "fa": "حقوق بیشتر"
+                  "en": "A bigger salary and job title",
+                  "fa": "حقوق بیشتر و عنوان شغلی بالاتر"
                 }
               ],
               "answer": 0
@@ -1010,6 +1102,10 @@
                 "en": "Housel says wealth is what you see: the car, the house and the watch.",
                 "fa": "Housel می‌گوید ثروت همان چیزی است که می‌بینی: ماشین، خانه و ساعت."
               },
+              "fare": {
+                "en": "By Housel's definition, you can measure someone's wealth by the things they have bought and display.",
+                "fa": "با تعریف Housel، ثروت هرکس را می‌توان از چیزهایی که خریده و به نمایش گذاشته سنجید."
+              },
               "answer": false
             },
             {
@@ -1037,18 +1133,22 @@
                 "en": "How does Housel distinguish rich from wealthy?",
                 "fa": "Housel «پولدار» و «ثروتمند» را چطور از هم جدا می‌کند؟"
               },
+              "fare": {
+                "en": "Housel uses 'rich' and 'wealthy' for two different things. Which line gets both right?",
+                "fa": "Housel «پولدار» و «ثروتمند» را برای دو چیز متفاوت به کار می‌برد. کدام جمله هر دو را درست می‌گوید؟"
+              },
               "options": [
                 {
                   "en": "Rich is current income; wealth is income not spent",
                   "fa": "پولدار یعنی درآمد فعلی؛ ثروت یعنی درآمدِ خرج‌نشده"
                 },
                 {
-                  "en": "Rich means a bigger house",
-                  "fa": "پولدار یعنی خانهٔ بزرگ‌تر"
+                  "en": "Rich means owning a bigger house than your neighbours",
+                  "fa": "پولدار یعنی داشتن خانه‌ای بزرگ‌تر از همسایه‌ها"
                 },
                 {
-                  "en": "Wealth is what you show",
-                  "fa": "ثروت چیزی است که نشان می‌دهی"
+                  "en": "Wealth is whatever you show to the people around you",
+                  "fa": "ثروت هر چیزی است که به اطرافیانت نشان می‌دهی"
                 }
               ],
               "answer": 0
@@ -1097,18 +1197,22 @@
                 "en": "What does Housel say is more within your control?",
                 "fa": "Housel می‌گوید چه چیزی بیشتر در کنترل توست؟"
               },
+              "fare": {
+                "en": "Investment returns are always in doubt. Which lever does Housel say you actually hold in your own hands?",
+                "fa": "بازده سرمایه‌گذاری همیشه محل تردید است. Housel کدام اهرم را واقعاً در دست خودت می‌داند؟"
+              },
               "options": [
                 {
                   "en": "Your savings rate",
                   "fa": "نرخ پس‌اندازت"
                 },
                 {
-                  "en": "Market returns",
-                  "fa": "بازده بازار"
+                  "en": "Stock market returns",
+                  "fa": "بازده بازار سهام"
                 },
                 {
-                  "en": "Interest rates",
-                  "fa": "نرخ بهره"
+                  "en": "Bank interest rates",
+                  "fa": "نرخ بهرهٔ بانکی"
                 }
               ],
               "answer": 0
@@ -1146,6 +1250,10 @@
                 "en": "Housel defines savings as the gap between your ego and your income.",
                 "fa": "Housel پس‌انداز را فاصلهٔ میان غرور و درآمدت تعریف می‌کند."
               },
+              "fare": {
+                "en": "In Housel's terms, the lower your ego sits beneath your income, the more you save.",
+                "fa": "به بیان Housel، هرچه غرورت پایین‌تر از درآمدت بایستد، پس‌اندازت بیشتر می‌شود."
+              },
               "answer": true
             },
             {
@@ -1173,10 +1281,14 @@
                 "en": "Besides specific goals, what does Housel call one of the best reasons to save?",
                 "fa": "به گفتهٔ Housel، جدا از هدف‌های مشخص، یکی از بهترین دلیل‌های پس‌انداز چیست؟"
               },
+              "fare": {
+                "en": "You have no purchase in mind, yet Housel still sees a strong case for putting money aside. Which is it?",
+                "fa": "هیچ خریدی در نظر نداری، اما Housel باز هم دلیل محکمی برای کنار گذاشتن پول می‌بیند. کدام است؟"
+              },
               "options": [
                 {
-                  "en": "The unknown",
-                  "fa": "ناشناخته"
+                  "en": "Saving for the unknown",
+                  "fa": "پس‌انداز برای ناشناخته"
                 },
                 {
                   "en": "Impressing your colleagues",
@@ -1222,6 +1334,10 @@
                 "en": "Housel says flexibility matters less now that technical skills are automated.",
                 "fa": "Housel می‌گوید حالا که مهارت‌های فنی خودکار می‌شوند، انعطاف کمتر اهمیت دارد."
               },
+              "fare": {
+                "en": "According to Housel, automation of technical skills makes the ability to adapt less valuable than before.",
+                "fa": "به گفتهٔ Housel، خودکار شدن مهارت‌های فنی باعث شده توانِ سازگار شدن کم‌ارزش‌تر از قبل باشد."
+              },
               "answer": false
             },
             {
@@ -1241,18 +1357,22 @@
                 "en": "What does Housel call wealth in chapter 10?",
                 "fa": "Housel در فصل ۱۰ ثروت را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "Someone with a modest income can still build wealth. Which description of wealth in chapter 10 explains why?",
+                "fa": "آدمی با درآمد متوسط هم می‌تواند ثروت بسازد. کدام توصیفِ فصل ۱۰ از ثروت دلیلش را نشان می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "The accumulated leftovers after you spend",
                   "fa": "باقی‌ماندهٔ انباشته‌شده بعد از خرج کردن"
                 },
                 {
-                  "en": "Your yearly salary",
-                  "fa": "حقوق سالانه‌ات"
+                  "en": "Your yearly salary before any tax is taken",
+                  "fa": "حقوق سالانه‌ات پیش از کسر مالیات"
                 },
                 {
-                  "en": "The value of your car",
-                  "fa": "ارزش ماشینت"
+                  "en": "The current market value of your car",
+                  "fa": "ارزش فعلی ماشینت در بازار"
                 }
               ],
               "answer": 0
@@ -1310,14 +1430,18 @@
                 "en": "What does Housel say to aim for with money instead of being coldly rational?",
                 "fa": "Housel می‌گوید در پول، به جای سرد و منطقی بودن، هدف چه باشد؟"
               },
+              "fare": {
+                "en": "Which goal does Housel think you are more likely to stick with over the long run?",
+                "fa": "به نظر Housel به کدام هدف احتمال بیشتری دارد در بلندمدت پایبند بمانی؟"
+              },
               "options": [
                 {
                   "en": "To be reasonable",
                   "fa": "معقول بودن"
                 },
                 {
-                  "en": "Being fearless",
-                  "fa": "بی‌باک بودن"
+                  "en": "Being totally fearless",
+                  "fa": "کاملاً بی‌باک بودن"
                 },
                 {
                   "en": "Being perfectly informed",
@@ -1359,6 +1483,10 @@
                 "en": "Harry Markowitz invested his own money purely by the maths of his own theory.",
                 "fa": "Harry Markowitz پول خودش را صرفاً بر اساس ریاضیات نظریهٔ خودش سرمایه‌گذاری کرد."
               },
+              "fare": {
+                "en": "When Harry Markowitz split his savings 50/50, his aim was to optimise the maths rather than to limit future regret.",
+                "fa": "وقتی Harry Markowitz پس‌اندازش را ۵۰/۵۰ تقسیم کرد، هدفش بهینه کردن ریاضیات بود، نه کم کردن پشیمانی آینده."
+              },
               "answer": false
             },
             {
@@ -1386,18 +1514,22 @@
                 "en": "How does Housel describe history in chapter 12?",
                 "fa": "Housel در فصل ۱۲ تاریخ را چطور توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "Housel points out an irony in how investors use the past. What does he say history really is?",
+                "fa": "Housel به طنزی در شیوهٔ استفادهٔ سرمایه‌گذاران از گذشته اشاره می‌کند. به گفتهٔ او تاریخ در واقع چیست؟"
+              },
               "options": [
                 {
                   "en": "The study of change, used as a map of the future",
                   "fa": "مطالعهٔ تغییر، که نقشهٔ آینده شده"
                 },
                 {
-                  "en": "A perfect guide to returns",
-                  "fa": "راهنمای کاملِ بازده‌ها"
+                  "en": "A perfect guide to future investment returns",
+                  "fa": "راهنمای کاملِ بازده‌های آیندهٔ سرمایه‌گذاری"
                 },
                 {
-                  "en": "A list of repeating cycles",
-                  "fa": "فهرستی از چرخه‌های تکرارشونده"
+                  "en": "A list of market cycles that repeat in the same order",
+                  "fa": "فهرستی از چرخه‌های بازار که به همان ترتیب تکرار می‌شوند"
                 }
               ],
               "answer": 0
@@ -1435,6 +1567,10 @@
                 "en": "Housel says the further back you look in history, the more general your takeaways should be.",
                 "fa": "Housel می‌گوید هرچه در تاریخ عقب‌تر نگاه کنی، نتیجه‌گیری‌هایت باید کلی‌تر باشند."
               },
+              "fare": {
+                "en": "For Housel, old history teaches broad things such as greed and fear, not specific trades to copy.",
+                "fa": "از نظر Housel، تاریخِ دور چیزهای کلی مثل طمع و ترس را یاد می‌دهد، نه معامله‌های مشخصی که بشود تقلید کرد."
+              },
               "answer": true
             },
             {
@@ -1454,14 +1590,18 @@
                 "en": "What is the correct lesson to learn from surprises, per Housel?",
                 "fa": "به گفتهٔ Housel، درس درستِ شگفتی‌ها چیست؟"
               },
+              "fare": {
+                "en": "After an event nobody predicted, what does Housel want you to take away from it?",
+                "fa": "بعد از رویدادی که هیچ‌کس پیش‌بینی‌اش نکرده بود، Housel می‌خواهد چه برداشتی از آن داشته باشی؟"
+              },
               "options": [
                 {
                   "en": "That the world is surprising",
                   "fa": "اینکه دنیا شگفت‌انگیز است"
                 },
                 {
-                  "en": "That history repeats",
-                  "fa": "اینکه تاریخ تکرار می‌شود"
+                  "en": "That history always repeats itself",
+                  "fa": "اینکه تاریخ همیشه خودش را تکرار می‌کند"
                 },
                 {
                   "en": "That data predicts crashes",
@@ -1514,18 +1654,22 @@
                 "en": "What rule did the card counter Kevin Lewis describe?",
                 "fa": "Kevin Lewis، شمارندهٔ کارت، چه قاعده‌ای را لازم می‌دانست؟"
               },
+              "fare": {
+                "en": "Even with the odds on his side, a card counter can lose many hands in a row. What did Kevin Lewis say that demands?",
+                "fa": "شمارندهٔ کارت حتی وقتی احتمال به سودش است ممکن است چند دست پشت هم ببازد. به گفتهٔ Kevin Lewis این چه چیزی را لازم می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Keep enough money to withstand bad luck",
                   "fa": "داشتن پول کافی برای تاب آوردن بدشانسی"
                 },
                 {
-                  "en": "Always double after a win",
-                  "fa": "بعد از هر برد، شرط را دو برابر کند"
+                  "en": "Always double your stake after every win",
+                  "fa": "بعد از هر برد، مبلغ شرط را دو برابر کردن"
                 },
                 {
-                  "en": "Quit after one loss",
-                  "fa": "بعد از یک باخت، بازی را رها کند"
+                  "en": "Quit the table for good after one loss",
+                  "fa": "بعد از یک باخت، میز را برای همیشه رها کردن"
                 }
               ],
               "answer": 0
@@ -1563,6 +1707,10 @@
                 "en": "At Stalingrad most tanks in one German reserve unit failed because mice had eaten their wiring.",
                 "fa": "در Stalingrad بیشتر تانک‌های یک واحد ذخیرهٔ آلمان از کار افتادند چون موش‌ها سیم‌هایشان را خورده بودند."
               },
+              "fare": {
+                "en": "Housel's Stalingrad story: of 104 reserve tanks, fewer than 20 still ran, and the cause was mice chewing through the wiring insulation.",
+                "fa": "ماجرای Stalingrad به روایت Housel: از ۱۰۴ تانک ذخیره کمتر از ۲۰ تا کار می‌کرد، و علتش موش‌هایی بود که روکش سیم‌ها را جویده بودند."
+              },
               "answer": true
             },
             {
@@ -1598,18 +1746,22 @@
                 "en": "What does Housel call the biggest single point of failure with money?",
                 "fa": "Housel بزرگ‌ترین نقطهٔ شکست واحد در پول را چه می‌داند؟"
               },
+              "fare": {
+                "en": "Which weak spot in a person's finances does Housel rank as the most dangerous one?",
+                "fa": "Housel کدام نقطهٔ ضعف در وضع مالی یک آدم را خطرناک‌ترین می‌داند؟"
+              },
               "options": [
                 {
                   "en": "Sole reliance on a paycheck",
                   "fa": "تکیهٔ صرف به حقوق ماهانه"
                 },
                 {
-                  "en": "Owning index funds",
-                  "fa": "داشتن صندوق شاخصی"
+                  "en": "Owning broad index funds",
+                  "fa": "داشتن صندوق‌های شاخصی گسترده"
                 },
                 {
-                  "en": "Holding too much cash",
-                  "fa": "نگه داشتن پول نقد زیاد"
+                  "en": "Holding too much cash in the bank",
+                  "fa": "نگه داشتن پول نقد زیاد در بانک"
                 }
               ],
               "answer": 0
@@ -1639,6 +1791,10 @@
                 "en": "Housel's room for error means moving all your cash into the market the day you get a BSN.",
                 "fa": "حاشیهٔ خطای Housel یعنی همان روزی که BSN می‌گیری همهٔ پول نقدت را وارد بازار کنی."
               },
+              "fare": {
+                "en": "Applying room for error, you would put every euro of cash into the market as soon as your broker account opens.",
+                "fa": "با به‌کار بستن حاشیهٔ خطا، باید به محض باز شدن حساب کارگزاری‌ات تک‌تک یوروهای نقدت را وارد بازار کنی."
+              },
               "answer": false
             },
             {
@@ -1658,18 +1814,22 @@
                 "en": "How does Taleb, quoted by Housel, describe a healthy attitude to risk?",
                 "fa": "Taleb، به نقل Housel، نگرش سالم به ریسک را چطور توصیف می‌کند؟"
               },
+              "fare": {
+                "en": "Housel says a bet with 95 percent odds can still be a bad one. Which stance from Taleb lies behind that?",
+                "fa": "Housel می‌گوید شرطی با ۹۵ درصد احتمال برد هم می‌تواند بد باشد. کدام موضع Taleb پشت این حرف است؟"
+              },
               "options": [
                 {
                   "en": "Risk loving and yet completely averse to ruin",
                   "fa": "ریسک‌دوست و در عین حال کاملاً گریزان از نابودی"
                 },
                 {
-                  "en": "Risk averse in all things",
-                  "fa": "در همه‌چیز ریسک‌گریز"
+                  "en": "Risk averse in all things, large and small",
+                  "fa": "در همه‌چیز، بزرگ و کوچک، ریسک‌گریز"
                 },
                 {
-                  "en": "Ruin is acceptable for big upside",
-                  "fa": "نابودی برای سود بزرگ قابل‌قبول است"
+                  "en": "Ruin is acceptable if the upside is big enough",
+                  "fa": "نابودی قابل‌قبول است اگر سودش به‌قدر کافی بزرگ باشد"
                 }
               ],
               "answer": 0
@@ -1718,6 +1878,10 @@
                 "en": "The End of History Illusion says people correctly predict how much they will change.",
                 "fa": "«توهم پایان تاریخ» می‌گوید مردم به‌درستی پیش‌بینی می‌کنند چقدر تغییر خواهند کرد."
               },
+              "fare": {
+                "en": "Daniel Gilbert found that people are good at foreseeing how different their future selves will be.",
+                "fa": "Daniel Gilbert دریافت که مردم خوب می‌توانند پیش‌بینی کنند خودِ آینده‌شان چقدر متفاوت خواهد بود."
+              },
               "answer": false
             },
             {
@@ -1752,6 +1916,10 @@
               "prompt": {
                 "en": "What does Housel advise avoiding in financial planning?",
                 "fa": "Housel توصیه می‌کند در برنامه‌ریزی مالی از چه چیزی دوری کنیم؟"
+              },
+              "fare": {
+                "en": "Because you will change, which kind of money plan does Housel say invites regret?",
+                "fa": "چون تغییر خواهی کرد، Housel کدام نوع برنامهٔ مالی را مایهٔ پشیمانی می‌داند؟"
               },
               "options": [
                 {
@@ -1802,6 +1970,10 @@
                 "en": "How does Housel say to think of market volatility?",
                 "fa": "Housel می‌گوید نوسان بازار را چطور ببینیم؟"
               },
+              "fare": {
+                "en": "A market drop feels like punishment. What does Housel suggest it should be seen as instead?",
+                "fa": "افت بازار مثل تنبیه حس می‌شود. Housel پیشنهاد می‌کند به جایش آن را چه بدانیم؟"
+              },
               "options": [
                 {
                   "en": "As a fee, not a fine",
@@ -1843,6 +2015,10 @@
                 "en": "Housel says bubbles do damage when long-term investors take cues from short-term traders.",
                 "fa": "Housel می‌گوید حباب‌ها وقتی آسیب می‌زنند که سرمایه‌گذاران بلندمدت از معامله‌گران کوتاه‌مدت سرنخ می‌گیرند."
               },
+              "fare": {
+                "en": "In Housel's account, a bubble hurts the long-term investor who copies people trading on a much shorter time horizon.",
+                "fa": "به روایت Housel، حباب به سرمایه‌گذار بلندمدتی آسیب می‌زند که از کسانی با افق زمانی بسیار کوتاه‌تر تقلید می‌کند."
+              },
               "answer": true
             },
             {
@@ -1862,18 +2038,22 @@
                 "en": "According to Housel, what is the price of investment returns?",
                 "fa": "به گفتهٔ Housel، بهای بازده سرمایه‌گذاری چیست؟"
               },
+              "fare": {
+                "en": "Nothing is free. What do investors have to put up with to earn market returns, in Housel's view?",
+                "fa": "هیچ‌چیز رایگان نیست. از نگاه Housel، سرمایه‌گذار برای گرفتن بازده بازار چه چیزی را باید تحمل کند؟"
+              },
               "options": [
                 {
                   "en": "Volatility, fear, doubt, uncertainty and regret",
                   "fa": "نوسان، ترس، شک، نااطمینانی و پشیمانی"
                 },
                 {
-                  "en": "Broker commissions only",
-                  "fa": "فقط کارمزد کارگزار"
+                  "en": "Only the commissions that your broker charges you",
+                  "fa": "فقط کارمزدهایی که کارگزارت از تو می‌گیرد"
                 },
                 {
-                  "en": "Taxes on your gains",
-                  "fa": "مالیات بر سودت"
+                  "en": "The taxes you pay on your investment gains",
+                  "fa": "مالیاتی که بر سود سرمایه‌گذاری‌ات می‌پردازی"
                 }
               ],
               "answer": 0

@@ -68,18 +68,22 @@
                 "en": "In the book, what is money?",
                 "fa": "در کتاب، پول چیست؟"
               },
+              "fare": {
+                "en": "How do the authors describe the thing you receive in return for your working hours?",
+                "fa": "نویسندگان چیزی را که در ازای ساعت‌های کارت می‌گیری چطور توصیف می‌کنند؟"
+              },
               "options": [
                 {
                   "en": "Something you trade your life energy for",
                   "fa": "چیزی که انرژی زندگی‌ات را با آن معاوضه می‌کنی"
                 },
                 {
-                  "en": "A score to maximise",
-                  "fa": "امتیازی که باید بیشینه‌اش کرد"
+                  "en": "A score you try to maximise over a career",
+                  "fa": "امتیازی که در طول دوران کاری باید بیشینه‌اش کرد"
                 },
                 {
-                  "en": "Something that grows by itself",
-                  "fa": "چیزی که خودبه‌خود رشد می‌کند"
+                  "en": "Something that grows by itself over time",
+                  "fa": "چیزی که با گذر زمان خودبه‌خود رشد می‌کند"
                 }
               ],
               "answer": 0
@@ -109,6 +113,10 @@
                 "en": "Seeing money as life energy shifts the question to whether a purchase is worth the hours it costs.",
                 "fa": "دیدن پول به‌عنوان انرژی زندگی، سؤال را به این تغییر می‌دهد که آیا خرید به ساعت‌هایش می‌ارزد."
               },
+              "fare": {
+                "en": "Once money is life energy, \"can I afford it?\" gives way to \"is it worth the hours of life it costs?\"",
+                "fa": "وقتی پول را انرژی زندگی بدانی، به‌جای «از پسش برمی‌آیم؟» می‌پرسی «به ساعت‌هایی از زندگی که می‌گیرد می‌ارزد؟»"
+              },
               "answer": true
             },
             {
@@ -136,14 +144,18 @@
                 "en": "What does the first part of Step 1 ask you to total?",
                 "fa": "بخش اول گام ۱ از تو می‌خواهد چه چیزی را جمع بزنی؟"
               },
+              "fare": {
+                "en": "Making peace with the past opens with one sum. Which amount do you add up?",
+                "fa": "آشتی با گذشته با یک حساب شروع می‌شود. کدام مبلغ را روی هم می‌گذاری؟"
+              },
               "options": [
                 {
-                  "en": "Your monthly rent",
-                  "fa": "اجارهٔ ماهانه‌ات"
+                  "en": "Your monthly rent, added up for one full year",
+                  "fa": "اجارهٔ ماهانه‌ات، جمع‌شده برای یک سال کامل"
                 },
                 {
-                  "en": "Your future pension",
-                  "fa": "حقوق بازنشستگی آینده‌ات"
+                  "en": "The pension you expect to receive in future",
+                  "fa": "حقوق بازنشستگی‌ای که انتظار داری در آینده بگیری"
                 },
                 {
                   "en": "All the money you have earned in your life",
@@ -177,6 +189,10 @@
                 "en": "Step 1 is meant to make you feel guilty about past spending.",
                 "fa": "گام ۱ برای این است که دربارهٔ خرج‌های گذشته احساس گناه کنی."
               },
+              "fare": {
+                "en": "The reason for facing your past numbers in Step 1 is to blame yourself for them.",
+                "fa": "دلیل روبه‌رو شدن با عددهای گذشته در گام ۱ این است که خودت را بابتشان سرزنش کنی."
+              },
               "answer": false
             },
             {
@@ -203,6 +219,10 @@
               "prompt": {
                 "en": "Where do you record your balance sheet each quarter?",
                 "fa": "ترازنامه‌ات را هر فصل کجا ثبت می‌کنی؟"
+              },
+              "fare": {
+                "en": "Every three months your assets and debts are written down again. In which record?",
+                "fa": "هر سه ماه دارایی‌ها و بدهی‌هایت دوباره نوشته می‌شود. در کدام دفتر؟"
               },
               "options": [
                 {
@@ -264,14 +284,18 @@
                 "en": "Compared with what your salary suggests, your real hourly wage is usually:",
                 "fa": "در مقایسه با آنچه حقوقت نشان می‌دهد، دستمزد واقعی ساعتی معمولاً:"
               },
+              "fare": {
+                "en": "Once commuting, work clothes and decompression are counted, how does your real hourly wage compare with the headline figure?",
+                "fa": "وقتی رفت‌وآمد، لباس کار و وقتِ رفع خستگی را حساب کنی، دستمزد واقعی ساعتی‌ات در برابر رقم اعلام‌شده چطور است؟"
+              },
               "options": [
                 {
-                  "en": "About the same",
-                  "fa": "تقریباً همان است"
+                  "en": "About the same amount",
+                  "fa": "تقریباً همان مقدار است"
                 },
                 {
-                  "en": "Far lower",
-                  "fa": "خیلی کمتر است"
+                  "en": "Far lower than suggested",
+                  "fa": "خیلی کمتر از آن است"
                 },
                 {
                   "en": "Higher, thanks to bonuses",
@@ -304,6 +328,10 @@
               "prompt": {
                 "en": "The book treats time spent recovering from work as part of the cost of the job.",
                 "fa": "کتاب زمان صرف‌شده برای بازیابی از کار را بخشی از هزینهٔ شغل می‌داند."
+              },
+              "fare": {
+                "en": "The drink, the takeaway and the couch hours after work count as a job cost in the book.",
+                "fa": "نوشیدنی، غذای بیرون‌بر و ساعت‌های روی مبل بعد از کار، در کتاب هزینهٔ شغل حساب می‌شوند."
               },
               "answer": true
             },
@@ -340,18 +368,22 @@
                 "en": "How is tracking every cent different from budgeting?",
                 "fa": "ثبت هر سِنت چه فرقی با بودجه‌بندی دارد؟"
               },
+              "fare": {
+                "en": "If you track your money rather than budget it, what does that look like in practice?",
+                "fa": "اگر به‌جای بودجه‌بندی فقط پولت را ثبت کنی، در عمل چه می‌کنی؟"
+              },
               "options": [
                 {
                   "en": "You record what happens; no limits set in advance",
                   "fa": "آنچه رخ می‌دهد را ثبت می‌کنی، بی‌آنکه از قبل سقف بگذاری"
                 },
                 {
-                  "en": "You only track large purchases",
-                  "fa": "فقط خریدهای بزرگ را ثبت می‌کنی"
+                  "en": "You only track large purchases, not small ones",
+                  "fa": "فقط خریدهای بزرگ را ثبت می‌کنی، نه خریدهای کوچک را"
                 },
                 {
-                  "en": "You round to the nearest hundred",
-                  "fa": "تا نزدیک‌ترین صدگان گرد می‌کنی"
+                  "en": "You round each amount to the nearest hundred euros",
+                  "fa": "هر مبلغ را تا نزدیک‌ترین صد یورو گرد می‌کنی"
                 }
               ],
               "answer": 0
@@ -381,6 +413,10 @@
                 "en": "Two job offers are best compared by their gross yearly salary.",
                 "fa": "بهترین راه مقایسهٔ دو پیشنهاد شغلی، حقوق ناخالص سالانه است."
               },
+              "fare": {
+                "en": "The headline salary is the right figure for choosing between two job offers.",
+                "fa": "برای انتخاب میان دو پیشنهاد شغلی، رقم حقوق اعلام‌شده معیار درست است."
+              },
               "answer": false
             },
             {
@@ -408,18 +444,22 @@
                 "en": "Before subscribing to a tool, what do you convert its price into?",
                 "fa": "پیش از اشتراک یک ابزار، قیمتش را به چه تبدیل می‌کنی؟"
               },
+              "fare": {
+                "en": "A tool costs €20 a month. Which unit shows what that really takes from you?",
+                "fa": "ابزاری ماهی ۲۰ یورو قیمت دارد. کدام واحد نشان می‌دهد واقعاً چه چیزی از تو می‌گیرد؟"
+              },
               "options": [
                 {
-                  "en": "Dollars",
-                  "fa": "دلار"
+                  "en": "Dollars at the current exchange rate",
+                  "fa": "دلار با نرخ تبدیل روز"
                 },
                 {
                   "en": "Hours at your real hourly wage",
                   "fa": "ساعت با دستمزد واقعی ساعتی‌ات"
                 },
                 {
-                  "en": "Shares of VWCE",
-                  "fa": "سهم VWCE"
+                  "en": "Shares of VWCE at today's price",
+                  "fa": "سهم VWCE به قیمت امروز"
                 }
               ],
               "answer": 1
@@ -468,18 +508,22 @@
                 "en": "How do you convert a category total into life energy?",
                 "fa": "جمع یک دسته را چطور به انرژی زندگی تبدیل می‌کنی؟"
               },
+              "fare": {
+                "en": "Restaurants show up as 14 hours of your life. What sum turned the category total into that figure?",
+                "fa": "رستوران‌ها می‌شود ۱۴ ساعت از زندگی‌ات. با چه محاسبه‌ای جمع آن دسته به این عدد رسید؟"
+              },
               "options": [
                 {
                   "en": "Divide it by your real hourly wage",
                   "fa": "آن را بر دستمزد واقعی ساعتی تقسیم کن"
                 },
                 {
-                  "en": "Multiply it by 25",
-                  "fa": "آن را در ۲۵ ضرب کن"
+                  "en": "Multiply it by 25 to scale it up",
+                  "fa": "آن را در ۲۵ ضرب کن تا بزرگ‌تر شود"
                 },
                 {
-                  "en": "Subtract taxes from it",
-                  "fa": "مالیات را از آن کم کن"
+                  "en": "Subtract the taxes you paid from it",
+                  "fa": "مالیاتی را که پرداخته‌ای از آن کم کن"
                 }
               ],
               "answer": 0
@@ -517,6 +561,10 @@
                 "en": "The third question asks how a spending category would change if you did not have to work.",
                 "fa": "سؤال سوم می‌پرسد اگر مجبور به کار نبودی، یک دستهٔ خرج چه تغییری می‌کرد."
               },
+              "fare": {
+                "en": "Imagining a life in which you need not work for a living is the basis of the third question about each category.",
+                "fa": "تصور زندگی‌ای که در آن برای گذران عمر ناچار به کار نیستی، پایهٔ سؤال سوم دربارهٔ هر دسته است."
+              },
               "answer": true
             },
             {
@@ -544,14 +592,18 @@
                 "en": "What two lines does the wall chart start with?",
                 "fa": "نمودار دیواری با کدام دو خط شروع می‌شود؟"
               },
+              "fare": {
+                "en": "When you first hang the wall chart in Step 5, which pair of figures do you plot each month?",
+                "fa": "وقتی در گام ۵ نمودار دیواری را تازه نصب می‌کنی، هر ماه کدام دو رقم را رسم می‌کنی؟"
+              },
               "options": [
                 {
-                  "en": "Stock prices and interest rates",
-                  "fa": "قیمت سهام و نرخ بهره"
+                  "en": "Stock prices and long-term interest rates each month",
+                  "fa": "قیمت سهام و نرخ بهرهٔ بلندمدت در هر ماه"
                 },
                 {
-                  "en": "Hours worked and hours slept",
-                  "fa": "ساعت کار و ساعت خواب"
+                  "en": "Hours worked and hours slept in each month",
+                  "fa": "ساعت کار و ساعت خواب در هر ماه"
                 },
                 {
                   "en": "Total monthly income and total monthly expenses",
@@ -585,6 +637,10 @@
                 "en": "According to the book, the expense line falls only when you impose strict spending rules.",
                 "fa": "به گفتهٔ کتاب، خط هزینه فقط با قاعده‌های سخت خرج کردن پایین می‌آید."
               },
+              "fare": {
+                "en": "The book says the expense line will not drift down unless you set strict rules for your spending.",
+                "fa": "کتاب می‌گوید تا برای خرج‌هایت قاعدهٔ سخت نگذاری، خط هزینه پایین نمی‌آید."
+              },
               "answer": false
             },
             {
@@ -611,6 +667,10 @@
               "prompt": {
                 "en": "In which currency and when do you start your own wall chart?",
                 "fa": "نمودار دیواری خودت را به چه ارزی و از کی شروع می‌کنی؟"
+              },
+              "fare": {
+                "en": "You are setting up your own wall chart. Which unit and starting point apply?",
+                "fa": "داری نمودار دیواری خودت را راه می‌اندازی. واحد و نقطهٔ شروعش کدام است؟"
               },
               "options": [
                 {
@@ -681,18 +741,22 @@
                 "en": "How does the book define being frugal?",
                 "fa": "کتاب صرفه‌جو بودن را چطور تعریف می‌کند؟"
               },
+              "fare": {
+                "en": "Which behaviour would the book call frugal?",
+                "fa": "کتاب کدام رفتار را صرفه‌جویی می‌نامد؟"
+              },
               "options": [
                 {
-                  "en": "Buying the cheapest thing every time",
-                  "fa": "همیشه ارزان‌ترین چیز را خریدن"
+                  "en": "Buying the cheapest thing every time, whatever its quality",
+                  "fa": "همیشه ارزان‌ترین چیز را خریدن، با هر کیفیتی"
                 },
                 {
                   "en": "Enjoying what you have and getting good value from it",
                   "fa": "لذت بردن از آنچه داری و گرفتن ارزش خوب از آن"
                 },
                 {
-                  "en": "Never spending on pleasure",
-                  "fa": "هرگز برای لذت خرج نکردن"
+                  "en": "Never spending on pleasure, only on what you must have",
+                  "fa": "هرگز برای لذت خرج نکردن، فقط برای چیزهای ناگزیر"
                 }
               ],
               "answer": 1
@@ -721,6 +785,10 @@
               "prompt": {
                 "en": "The book recommends shopping as a pastime to find good deals.",
                 "fa": "کتاب خرید به‌عنوان سرگرمی را برای یافتن تخفیف توصیه می‌کند."
+              },
+              "fare": {
+                "en": "According to the book, browsing shops for fun is a good way to save because it turns up bargains.",
+                "fa": "به گفتهٔ کتاب، گشتن در مغازه‌ها برای تفریح راه خوبی برای پس‌انداز است چون جنس ارزان پیدا می‌شود."
               },
               "answer": false
             },
@@ -757,14 +825,18 @@
                 "en": "What do you gain by buying an item used?",
                 "fa": "با خرید دست‌دوم یک کالا چه به دست می‌آوری؟"
               },
+              "fare": {
+                "en": "Compared with the same item bought new, what does one from a second-hand market give you?",
+                "fa": "کالایی از بازار دست‌دوم، در مقایسه با نوِ همان کالا، چه چیزی به تو می‌دهد؟"
+              },
               "options": [
                 {
-                  "en": "A higher resale price",
-                  "fa": "قیمت فروش مجدد بالاتر"
+                  "en": "A higher resale price when you sell it on",
+                  "fa": "قیمت بالاتر هنگام فروش دوباره‌اش"
                 },
                 {
-                  "en": "A longer warranty",
-                  "fa": "ضمانت طولانی‌تر"
+                  "en": "A longer warranty from the seller",
+                  "fa": "ضمانت طولانی‌تر از طرف فروشنده"
                 },
                 {
                   "en": "The same use for fewer hours of life",
@@ -798,6 +870,10 @@
                 "en": "The tips are tools to bring minus-marked categories closer to enough.",
                 "fa": "این توصیه‌ها ابزارهایی برای نزدیک کردن دسته‌های منفی به «کافی» هستند."
               },
+              "fare": {
+                "en": "When a category keeps earning minus marks, the saving tips help move it toward enough.",
+                "fa": "وقتی دسته‌ای مدام علامت منفی می‌گیرد، توصیه‌های صرفه‌جویی کمک می‌کنند به «کافی» نزدیک شود."
+              },
               "answer": true
             },
             {
@@ -824,6 +900,10 @@
               "prompt": {
                 "en": "Why anticipate needs like a bike before the move?",
                 "fa": "چرا نیازهایی مثل دوچرخه را پیش از جابه‌جایی پیش‌بینی کنی؟"
+              },
+              "fare": {
+                "en": "A winter coat and a bike are sorted out ahead of the move. What is the benefit?",
+                "fa": "پالتوی زمستانی و دوچرخه قبل از جابه‌جایی تهیه می‌شوند. فایده‌اش چیست؟"
               },
               "options": [
                 {
@@ -885,6 +965,10 @@
                 "en": "What third line does Step 8 add to the wall chart?",
                 "fa": "گام ۸ چه خط سومی به نمودار دیواری اضافه می‌کند؟"
               },
+              "fare": {
+                "en": "Savings become capital, and capital produces something you plot from Step 8 on. What is that line?",
+                "fa": "پس‌انداز سرمایه می‌شود و سرمایه چیزی تولید می‌کند که از گام ۸ رسمش می‌کنی. آن خط چیست؟"
+              },
               "options": [
                 {
                   "en": "Monthly investment income",
@@ -926,6 +1010,10 @@
                 "en": "At the crossover point, investment income rises above monthly expenses.",
                 "fa": "در نقطهٔ تقاطع، درآمد سرمایه‌گذاری از هزینه‌های ماهانه بالاتر می‌رود."
               },
+              "fare": {
+                "en": "The month the investment income line crosses above the expense line is called the crossover point.",
+                "fa": "ماهی که خط درآمد سرمایه‌گذاری از خط هزینه بالاتر می‌رود، نقطهٔ تقاطع نام دارد."
+              },
               "answer": true
             },
             {
@@ -953,18 +1041,22 @@
                 "en": "What does extending the lines on the chart show you?",
                 "fa": "ادامه دادن خط‌ها روی نمودار چه چیزی به تو نشان می‌دهد؟"
               },
+              "fare": {
+                "en": "Draw the income and expense lines on past today. What does the chart then reveal?",
+                "fa": "خط درآمد و خط هزینه را از امروز جلوتر بکش. نمودار آن‌وقت چه چیزی را آشکار می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "A guaranteed return",
-                  "fa": "بازده تضمین‌شده"
+                  "en": "A guaranteed return on capital",
+                  "fa": "بازده تضمین‌شده روی سرمایه"
                 },
                 {
                   "en": "Roughly when they will cross",
                   "fa": "تقریباً کی به هم می‌رسند"
                 },
                 {
-                  "en": "A lower tax rate",
-                  "fa": "نرخ مالیات کمتر"
+                  "en": "A lower tax rate in later years",
+                  "fa": "نرخ مالیات کمتر در سال‌های بعد"
                 }
               ],
               "answer": 1
@@ -994,6 +1086,10 @@
                 "en": "According to the book, people reach the crossover point early mainly through high investment returns.",
                 "fa": "به گفتهٔ کتاب، آدم‌ها عمدتاً به خاطر بازده بالای سرمایه‌گذاری زود به نقطهٔ تقاطع می‌رسند."
               },
+              "fare": {
+                "en": "The early finishers in the book got there because their investments paid unusually high returns, not because of their gap.",
+                "fa": "کسانی که در کتاب زود به مقصد رسیدند، به خاطر بازده غیرعادی سرمایه‌گذاری‌شان رسیدند، نه به خاطر فاصلهٔ درآمد و هزینه."
+              },
               "answer": false
             },
             {
@@ -1021,14 +1117,18 @@
                 "en": "What is the first dot on your own third line?",
                 "fa": "اولین نقطه روی خط سوم خودت چیست؟"
               },
+              "fare": {
+                "en": "On your version of the chart, which event puts the very first mark on the ownership-and-investment line?",
+                "fa": "در نمودار خودت، کدام رویداد نخستین علامت را روی خط درآمد مالکیت و سرمایه‌گذاری می‌گذارد؟"
+              },
               "options": [
                 {
-                  "en": "Your first Dutch salary",
-                  "fa": "اولین حقوقت در هلند"
+                  "en": "Your first Dutch salary after you arrive",
+                  "fa": "اولین حقوقت در هلند پس از رسیدن"
                 },
                 {
-                  "en": "Your BSN registration",
-                  "fa": "ثبت BSN"
+                  "en": "Your BSN registration at the town hall",
+                  "fa": "ثبت BSN در شهرداری"
                 },
                 {
                   "en": "The first €100 from a small AI product",
@@ -1081,6 +1181,10 @@
                 "en": "What are the three pillars of Step 9?",
                 "fa": "سه ستون گام ۹ کدام‌اند؟"
               },
+              "fare": {
+                "en": "The book splits your money into three parts, each with its own job. Which set is it?",
+                "fa": "کتاب پولت را به سه بخش تقسیم می‌کند که هر کدام کاری جدا دارد. کدام مجموعه است؟"
+              },
               "options": [
                 {
                   "en": "Capital, cushion and cache",
@@ -1122,6 +1226,10 @@
                 "en": "The cushion is about six months of expenses kept liquid for emergencies.",
                 "fa": "ضربه‌گیر حدود شش ماه هزینه است که برای موارد اضطراری نقد نگه داشته می‌شود."
               },
+              "fare": {
+                "en": "For emergencies, the book keeps roughly half a year of expenses liquid and calls it the cushion.",
+                "fa": "کتاب برای موارد اضطراری حدود نیم سال هزینه را نقد نگه می‌دارد و نامش را ضربه‌گیر می‌گذارد."
+              },
               "answer": true
             },
             {
@@ -1149,18 +1257,22 @@
                 "en": "What did the 1992 edition recommend for capital?",
                 "fa": "نسخهٔ ۱۹۹۲ برای سرمایه چه توصیه می‌کرد؟"
               },
+              "fare": {
+                "en": "Which holding matched the original edition's aim of safe capital and steady, predictable income?",
+                "fa": "کدام دارایی با هدف چاپ اول، یعنی سرمایهٔ امن و درآمد ثابت و قابل پیش‌بینی، جور بود؟"
+              },
               "options": [
                 {
-                  "en": "Day trading tech stocks",
-                  "fa": "معاملهٔ روزانهٔ سهام فناوری"
+                  "en": "Day trading tech stocks for fast, speculative gains",
+                  "fa": "معاملهٔ روزانهٔ سهام فناوری برای سود سریع و سفته‌بازانه"
                 },
                 {
                   "en": "Long-term US Treasury and government agency bonds",
                   "fa": "اوراق بلندمدت خزانه و نهادهای دولتی آمریکا"
                 },
                 {
-                  "en": "Rental property with a mortgage",
-                  "fa": "ملک اجاره‌ای با وام"
+                  "en": "Rental property bought with a large mortgage",
+                  "fa": "ملک اجاره‌ای خریده‌شده با وام سنگین"
                 }
               ],
               "answer": 1
@@ -1189,6 +1301,10 @@
               "prompt": {
                 "en": "Put these steps in the book’s order.",
                 "fa": "این گام‌ها را به ترتیب کتاب بچین."
+              },
+              "fare": {
+                "en": "Arrange these from the earliest step of the program to the latest.",
+                "fa": "این‌ها را از نخستین گام برنامه تا آخرین مرتب کن."
               },
               "options": [
                 {
@@ -1239,6 +1355,10 @@
               "prompt": {
                 "en": "The cushion is meant to be invested together with your capital.",
                 "fa": "ضربه‌گیر قرار است همراه با سرمایه‌ات سرمایه‌گذاری شود."
+              },
+              "fare": {
+                "en": "Your six months of Dutch expenses belong inside the capital you invest, not apart from it.",
+                "fa": "شش ماه هزینهٔ زندگی‌ات در هلند باید داخل سرمایه‌ای باشد که سرمایه‌گذاری می‌کنی، نه جدا از آن."
               },
               "answer": false
             },

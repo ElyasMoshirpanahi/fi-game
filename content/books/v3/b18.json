@@ -68,6 +68,10 @@
                 "en": "Loudcloud went public at the height of the dot-com boom, before the crash.",
                 "fa": "Loudcloud در اوج رونق دات‌کام و پیش از سقوط عمومی شد."
               },
+              "fare": {
+                "en": "By the time Loudcloud listed its shares, the dot-com crash was still ahead of it.",
+                "fa": "وقتی Loudcloud سهامش را در بورس عرضه کرد، سقوط دات‌کام هنوز پیش رو بود."
+              },
               "answer": false
             },
             {
@@ -94,6 +98,10 @@
               "prompt": {
                 "en": "At what price was the Loudcloud IPO set?",
                 "fa": "قیمت IPO شرکت Loudcloud چقدر تعیین شد؟"
+              },
+              "fare": {
+                "en": "Each share in Loudcloud's public offering sold for how much?",
+                "fa": "هر سهم Loudcloud در عرضهٔ عمومی به چه قیمتی فروخته شد؟"
               },
               "options": [
                 {
@@ -136,6 +144,10 @@
                 "en": "Loudcloud sold its software and kept its services business.",
                 "fa": "Loudcloud نرم‌افزارش را فروخت و بخش خدماتش را نگه داشت."
               },
+              "fare": {
+                "en": "After the 2002 deal with EDS, what Loudcloud had left was the services business, not the software.",
+                "fa": "پس از معاملهٔ سال ۲۰۰۲ با EDS، آنچه برای Loudcloud ماند بخش خدمات بود، نه نرم‌افزار."
+              },
               "answer": false
             },
             {
@@ -171,18 +183,22 @@
                 "en": "Who bought Opsware in 2007?",
                 "fa": "چه کسی در سال ۲۰۰۷ شرکت Opsware را خرید؟"
               },
+              "fare": {
+                "en": "Which company paid about $1.6 billion to take over Opsware?",
+                "fa": "کدام شرکت حدود ۱٫۶ میلیارد دلار پرداخت تا Opsware را از آنِ خود کند؟"
+              },
               "options": [
                 {
                   "en": "Hewlett-Packard",
                   "fa": "Hewlett-Packard"
                 },
                 {
-                  "en": "EDS",
-                  "fa": "EDS"
+                  "en": "EDS, its first customer",
+                  "fa": "EDS، اولین مشتری‌اش"
                 },
                 {
-                  "en": "IBM",
-                  "fa": "IBM"
+                  "en": "IBM's software division",
+                  "fa": "بخش نرم‌افزار IBM"
                 }
               ],
               "answer": 0
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "Many of Horowitz's chapters open with rap lyrics.",
                 "fa": "بسیاری از فصل‌های Horowitz با شعرهای رپ آغاز می‌شوند."
+              },
+              "fare": {
+                "en": "Song lyrics, mostly rap, sit at the start of many chapters in the book.",
+                "fa": "در آغاز بسیاری از فصل‌های کتاب متن ترانه آمده که بیشترش رپ است."
               },
               "answer": true
             }
@@ -258,18 +278,22 @@
                 "en": "What does Horowitz call the time you wonder why you started the company?",
                 "fa": "Horowitz زمانی را که می‌پرسی چرا شرکت را راه انداختی چه می‌نامد؟"
               },
+              "fare": {
+                "en": "A founder no longer knows why they began or why they don't quit. Which name fits this low point?",
+                "fa": "بنیان‌گذاری دیگر نمی‌داند چرا شروع کرد و چرا کنار نمی‌کشد. نام این نقطهٔ سقوط چیست؟"
+              },
               "options": [
                 {
                   "en": "The Struggle",
                   "fa": "Struggle"
                 },
                 {
-                  "en": "The pivot",
-                  "fa": "چرخش (pivot)"
+                  "en": "The hard pivot",
+                  "fa": "چرخش سخت (pivot)"
                 },
                 {
-                  "en": "The burnout",
-                  "fa": "فرسودگی"
+                  "en": "The founder burnout",
+                  "fa": "فرسودگی بنیان‌گذار"
                 }
               ],
               "answer": 0
@@ -299,6 +323,10 @@
                 "en": "Horowitz gives a step-by-step recipe that ends the Struggle.",
                 "fa": "Horowitz دستورالعملی گام‌به‌گام می‌دهد که Struggle را تمام می‌کند."
               },
+              "fare": {
+                "en": "A founder who follows the book's formula is sure to get out of the Struggle.",
+                "fa": "بنیان‌گذاری که فرمول کتاب را دنبال کند حتماً از Struggle بیرون می‌آید."
+              },
               "answer": false
             },
             {
@@ -326,18 +354,22 @@
                 "en": "Why does Horowitz say there is always a move?",
                 "fa": "چرا Horowitz می‌گوید همیشه حرکتی وجود دارد؟"
               },
+              "fare": {
+                "en": "\"This is not checkers, it's chess.\" What is behind the claim that a move is never missing?",
+                "fa": "«این شطرنج است، نه چکرز.» پشتوانهٔ این حرف که همیشه راهی برای حرکت هست چیست؟"
+              },
               "options": [
                 {
                   "en": "Technology businesses are complex",
                   "fa": "کسب‌وکارهای فناوری پیچیده‌اند"
                 },
                 {
-                  "en": "Investors always step in to help",
-                  "fa": "سرمایه‌گذاران همیشه به کمک می‌آیند"
+                  "en": "Investors always step in to help out",
+                  "fa": "سرمایه‌گذاران همیشه برای کمک پا پیش می‌گذارند"
                 },
                 {
-                  "en": "Rivals tend to quit early",
-                  "fa": "رقبا معمولاً زود کنار می‌کشند"
+                  "en": "Rivals tend to quit the market early",
+                  "fa": "رقبا معمولاً زود از بازار کنار می‌کشند"
                 }
               ],
               "answer": 0
@@ -375,6 +407,10 @@
                 "en": "Horowitz says the Struggle is where greatness comes from.",
                 "fa": "Horowitz می‌گوید عظمت از دل Struggle بیرون می‌آید."
               },
+              "fare": {
+                "en": "In Horowitz's view, greatness is born in the Struggle.",
+                "fa": "از نگاه Horowitz، Struggle همان جایی است که عظمت در آن زاده می‌شود."
+              },
               "answer": true
             },
             {
@@ -401,6 +437,10 @@
               "prompt": {
                 "en": "The book says only weak founders go through the Struggle.",
                 "fa": "کتاب می‌گوید فقط بنیان‌گذاران ضعیف از Struggle می‌گذرند."
+              },
+              "fare": {
+                "en": "According to the book, great entrepreneurs manage to skip the Struggle.",
+                "fa": "به گفتهٔ کتاب، کارآفرینان بزرگ Struggle را تجربه نمی‌کنند و از کنارش رد می‌شوند."
               },
               "answer": false
             }
@@ -448,6 +488,10 @@
                 "en": "Horowitz chose a clever workaround over building a better product.",
                 "fa": "Horowitz یک راه فرار زیرکانه را به ساختن محصول بهتر ترجیح داد."
               },
+              "fare": {
+                "en": "Facing BladeLogic, Horowitz accepted his team's workarounds and skipped the slow product rebuild.",
+                "fa": "در برابر BladeLogic، Horowitz راه‌های میان‌بُر تیمش را پذیرفت و از بازسازی کند محصول گذشت."
+              },
               "answer": false
             },
             {
@@ -474,6 +518,10 @@
               "prompt": {
                 "en": "When your product is behind, what will save you?",
                 "fa": "وقتی محصولت عقب است، چه چیزی نجاتت می‌دهد؟"
+              },
+              "fare": {
+                "en": "A rival's product beats yours. According to the rule, what is the one thing that rescues you?",
+                "fa": "محصول رقیب از محصول تو جلو زده است. طبق این قاعده تنها چیزی که به دادت می‌رسد چیست؟"
               },
               "options": [
                 {
@@ -524,6 +572,10 @@
                 "en": "In a healthy culture, bad news travels fast.",
                 "fa": "در یک فرهنگ سالم، خبر بد سریع منتقل می‌شود."
               },
+              "fare": {
+                "en": "A healthy company lets bad news reach people quickly.",
+                "fa": "شرکتی با فرهنگ سالم می‌گذارد خبر بد زود به گوش همه برسد."
+              },
               "answer": true
             },
             {
@@ -550,6 +602,10 @@
               "prompt": {
                 "en": "A rival ships a better AI tool. What does lead bullets tell you to do?",
                 "fa": "رقیبی ابزار AI بهتری عرضه می‌کند. ایدهٔ گلولهٔ سربی می‌گوید چه کنی؟"
+              },
+              "fare": {
+                "en": "Your AI tool has fallen behind a competitor's. Which response fits \"no silver bullets\"?",
+                "fa": "ابزار AI تو از ابزار رقیب عقب افتاده است. کدام واکنش با «گلولهٔ نقره‌ای نیست» جور است؟"
               },
               "options": [
                 {
@@ -591,6 +647,10 @@
               "prompt": {
                 "en": "Horowitz says staff and investors will care about good excuses.",
                 "fa": "Horowitz می‌گوید کارکنان و سرمایه‌گذاران به بهانه‌های خوب اهمیت می‌دهند."
+              },
+              "fare": {
+                "en": "Per Nobody Cares, a solid excuse earns you sympathy when things go wrong.",
+                "fa": "طبق Nobody Cares، وقتی اوضاع خراب است یک بهانهٔ محکم دل دیگران را به دست می‌آورد."
               },
               "answer": false
             }
@@ -638,18 +698,22 @@
                 "en": "What are the two ways founders get psychology wrong?",
                 "fa": "بنیان‌گذاران به چه دو شکلی در مدیریت روان خطا می‌کنند؟"
               },
+              "fare": {
+                "en": "Founders mishandle their own psychology in two opposite directions. Which pair is it?",
+                "fa": "بنیان‌گذاران در مدیریت روان خود از دو سوی مخالف به خطا می‌روند. آن دو کدام‌اند؟"
+              },
               "options": [
                 {
                   "en": "Too personally or not personally enough",
                   "fa": "بیش از حد شخصی یا نه به اندازهٔ کافی شخصی"
                 },
                 {
-                  "en": "Too cautious or too reckless",
-                  "fa": "بیش از حد محتاط یا بیش از حد بی‌پروا"
+                  "en": "Being too cautious or being too reckless",
+                  "fa": "بیش از حد محتاط بودن یا بیش از حد بی‌پروا بودن"
                 },
                 {
-                  "en": "Too slow or too fast",
-                  "fa": "بیش از حد کند یا بیش از حد تند"
+                  "en": "Moving too slowly or moving too fast",
+                  "fa": "بیش از حد کند رفتن یا بیش از حد تند رفتن"
                 }
               ],
               "answer": 0
@@ -679,6 +743,10 @@
                 "en": "Writing your worries down is one of Horowitz's tools.",
                 "fa": "نوشتن نگرانی‌ها یکی از ابزارهای Horowitz است."
               },
+              "fare": {
+                "en": "Horowitz suggests getting your worries out of your head and onto paper.",
+                "fa": "Horowitz پیشنهاد می‌کند نگرانی‌هایت را از ذهنت بیرون بکشی و روی کاغذ بیاوری."
+              },
               "answer": true
             },
             {
@@ -706,14 +774,18 @@
                 "en": "In the Cus D'Amato quote, what separates the hero from the coward?",
                 "fa": "در نقل‌قول Cus D'Amato، چه چیزی قهرمان را از ترسو جدا می‌کند؟"
               },
+              "fare": {
+                "en": "According to the boxing trainer Horowitz quotes, what makes one person a hero and another a coward?",
+                "fa": "به گفتهٔ مربی بوکسی که Horowitz از او نقل می‌کند، چه چیزی یکی را قهرمان و دیگری را ترسو می‌کند؟"
+              },
               "options": [
                 {
                   "en": "What they do",
                   "fa": "کاری که انجام می‌دهند"
                 },
                 {
-                  "en": "How much fear they feel",
-                  "fa": "میزان ترسی که حس می‌کنند"
+                  "en": "How afraid they are",
+                  "fa": "اینکه چقدر می‌ترسند"
                 },
                 {
                   "en": "How strong they are",
@@ -755,6 +827,10 @@
                 "en": "Each hard, right decision makes you a bit more courageous.",
                 "fa": "هر تصمیم درست و سخت تو را کمی شجاع‌تر می‌کند."
               },
+              "fare": {
+                "en": "Courage grows a little every time you make a hard decision that is right.",
+                "fa": "هر بار که تصمیمی سخت اما درست می‌گیری، شجاعتت کمی بیشتر می‌شود."
+              },
               "answer": true
             },
             {
@@ -781,6 +857,10 @@
               "prompt": {
                 "en": "A decision journal can help you separate fear from facts.",
                 "fa": "دفترچهٔ تصمیم‌ها می‌تواند به جدا کردن ترس از واقعیت کمک کند."
+              },
+              "fare": {
+                "en": "Writing down why you chose and how you felt helps you tell fear apart from facts.",
+                "fa": "نوشتن دلیل انتخاب و حسی که داشتی کمک می‌کند ترس را از واقعیت تشخیص بدهی."
               },
               "answer": true
             }
@@ -837,6 +917,10 @@
                 "en": "Horowitz advises waiting a few weeks before a layoff to be sure.",
                 "fa": "Horowitz توصیه می‌کند برای اطمینان چند هفته پیش از تعدیل صبر کنی."
               },
+              "fare": {
+                "en": "Once a layoff is decided, Horowitz says taking your time is safe because the news stays quiet.",
+                "fa": "به گفتهٔ Horowitz، وقتی تصمیم تعدیل گرفته شد می‌توانی دست نگه داری، چون خبر جایی درز نمی‌کند."
+              },
               "answer": false
             },
             {
@@ -863,6 +947,10 @@
               "prompt": {
                 "en": "Put Horowitz's layoff steps in order.",
                 "fa": "گام‌های تعدیل نیروی Horowitz را به ترتیب بچین."
+              },
+              "fare": {
+                "en": "Arrange these layoff steps from first to last, as Horowitz lists them.",
+                "fa": "این گام‌های تعدیل نیرو را همان‌طور که Horowitz فهرست کرده، از اول تا آخر مرتب کن."
               },
               "options": [
                 {
@@ -919,6 +1007,10 @@
                 "en": "Where does firing an executive start, per Horowitz?",
                 "fa": "به گفتهٔ Horowitz، اخراج یک مدیر ارشد از کجا شروع می‌شود؟"
               },
+              "fare": {
+                "en": "What comes first when an executive has to go, in Horowitz's process?",
+                "fa": "در فرایند Horowitz، وقتی یک مدیر ارشد باید برود، اول چه چیزی می‌آید؟"
+              },
               "options": [
                 {
                   "en": "A root-cause look at yourself",
@@ -968,6 +1060,10 @@
                 "en": "Horowitz says to soften a demotion into a maybe to protect the friendship.",
                 "fa": "Horowitz می‌گوید برای حفظ دوستی، تنزل رتبه را به یک «شاید» نرم کن."
               },
+              "fare": {
+                "en": "When demoting a loyal friend, Horowitz prefers a gentle \"maybe\" to saying directly that the job outgrew them.",
+                "fa": "هنگام تنزل رتبهٔ یک دوست وفادار، Horowitz یک «شاید» ملایم را به رک گفتنِ اینکه کار از او بزرگ‌تر شده ترجیح می‌دهد."
+              },
               "answer": false
             },
             {
@@ -995,14 +1091,18 @@
                 "en": "Which rules carry over to cutting a contractor or demoting an engineer?",
                 "fa": "کدام قواعد به قطع قرارداد پیمانکار یا تنزل رتبهٔ یک مهندس هم تعمیم می‌یابد؟"
               },
+              "fare": {
+                "en": "As CTO you must let a contractor go. What does the Lesson carry over from Horowitz's firing rules?",
+                "fa": "به‌عنوان CTO باید با یک پیمانکار قطع همکاری کنی. درس چه چیزی را از قواعد اخراج Horowitz به این موقعیت می‌آورد؟"
+              },
               "options": [
                 {
                   "en": "Own the cause, decide, be clear",
                   "fa": "سهمت را بپذیر، تصمیم بگیر، روشن باش"
                 },
                 {
-                  "en": "Delay until things improve",
-                  "fa": "صبر کن تا اوضاع بهتر شود"
+                  "en": "Delay until things clearly improve",
+                  "fa": "صبر کن تا اوضاع آشکارا بهتر شود"
                 },
                 {
                   "en": "Let HR handle it quietly",
@@ -1046,6 +1146,10 @@
               "prompt": {
                 "en": "In what order should you take care of things?",
                 "fa": "به چه ترتیبی باید به امور رسیدگی کنی؟"
+              },
+              "fare": {
+                "en": "The Chapter 5 title ranks three things a company must look after. Which ranking is it?",
+                "fa": "عنوان فصل ۵ سه چیز را که شرکت باید مراقبشان باشد رتبه‌بندی می‌کند. کدام ترتیب درست است؟"
               },
               "options": [
                 {
@@ -1096,6 +1200,10 @@
                 "en": "Horowitz says to write down the strengths you want in an executive.",
                 "fa": "Horowitz می‌گوید نقاط قوتی را که در یک مدیر ارشد می‌خواهی بنویس."
               },
+              "fare": {
+                "en": "Knowing what you want in an executive includes listing the strengths you are looking for.",
+                "fa": "دانستن آنچه از یک مدیر ارشد می‌خواهی، فهرست کردن نقاط قوت مورد نظرت را هم در بر می‌گیرد."
+              },
               "answer": true
             },
             {
@@ -1123,18 +1231,22 @@
                 "en": "What should you hire executives for?",
                 "fa": "مدیران ارشد را بر چه اساسی باید استخدام کنی؟"
               },
+              "fare": {
+                "en": "By which standard does Horowitz pick between executive candidates?",
+                "fa": "Horowitz میان نامزدهای مدیریت ارشد با چه معیاری انتخاب می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Strength, not lack of weakness",
                   "fa": "نقطهٔ قوت، نه نداشتن ضعف"
                 },
                 {
-                  "en": "A flawless track record",
-                  "fa": "سابقه‌ای بی‌نقص"
+                  "en": "A track record with no flaws at all",
+                  "fa": "سابقه‌ای بدون هیچ نقصی"
                 },
                 {
-                  "en": "Fit with every interviewer",
-                  "fa": "سازگاری با همهٔ مصاحبه‌کنندگان"
+                  "en": "A good fit with every interviewer",
+                  "fa": "سازگاری خوب با همهٔ مصاحبه‌کنندگان"
                 }
               ],
               "answer": 0
@@ -1172,6 +1284,10 @@
                 "en": "Big-company executives fit startups easily because work comes to them.",
                 "fa": "مدیران شرکت‌های بزرگ به‌راحتی در استارتاپ جا می‌افتند چون کار سراغشان می‌آید."
               },
+              "fare": {
+                "en": "Because a startup hands work to its executives just as a large firm does, big-company hires adjust smoothly.",
+                "fa": "چون در استارتاپ هم مثل شرکت بزرگ کار خودش سراغ مدیر می‌آید، مدیران شرکت‌های بزرگ بی‌دردسر جا می‌افتند."
+              },
               "answer": false
             },
             {
@@ -1199,6 +1315,10 @@
                 "en": "What should you write down before posting a senior role?",
                 "fa": "پیش از انتشار آگهی یک نقش ارشد چه چیزی را باید بنویسی؟"
               },
+              "fare": {
+                "en": "You are about to hire your first senior engineer. What goes on paper before the role is advertised?",
+                "fa": "می‌خواهی اولین مهندس ارشدت را استخدام کنی. پیش از آگهی کردن نقش، چه چیزی باید روی کاغذ بیاید؟"
+              },
               "options": [
                 {
                   "en": "The strengths you need most",
@@ -1209,8 +1329,8 @@
                   "fa": "فهرستی از بازه‌های حقوق"
                 },
                 {
-                  "en": "The weaknesses to avoid",
-                  "fa": "ضعف‌هایی که باید از آن‌ها پرهیز کرد"
+                  "en": "The weaknesses you want to avoid",
+                  "fa": "ضعف‌هایی که می‌خواهی از آن‌ها پرهیز کنی"
                 }
               ],
               "answer": 0
@@ -1251,6 +1371,10 @@
                 "en": "Who sets the agenda in a one-on-one?",
                 "fa": "در جلسهٔ فردی، چه کسی دستور جلسه را تعیین می‌کند؟"
               },
+              "fare": {
+                "en": "Whose list of topics drives a one-on-one meeting?",
+                "fa": "موضوع‌های جلسهٔ فردی را چه کسی انتخاب می‌کند؟"
+              },
               "options": [
                 {
                   "en": "The employee",
@@ -1261,8 +1385,8 @@
                   "fa": "مدیر"
                 },
                 {
-                  "en": "The HR team",
-                  "fa": "تیم منابع انسانی"
+                  "en": "The HR department",
+                  "fa": "واحد منابع انسانی"
                 }
               ],
               "answer": 0
@@ -1292,6 +1416,10 @@
                 "en": "In a one-on-one, the manager should do most of the talking.",
                 "fa": "در جلسهٔ فردی، مدیر باید بیشتر صحبت کند."
               },
+              "fare": {
+                "en": "A good one-on-one has the employee mostly listening while the manager speaks.",
+                "fa": "در یک جلسهٔ فردی خوب، کارمند بیشتر شنونده است و مدیر حرف می‌زند."
+              },
               "answer": false
             },
             {
@@ -1318,6 +1446,10 @@
               "prompt": {
                 "en": "What does a late partner pay at Andreessen Horowitz?",
                 "fa": "در Andreessen Horowitz، شریکی که دیر برسد چقدر می‌پردازد؟"
+              },
+              "fare": {
+                "en": "A partner at Andreessen Horowitz keeps a founder waiting. What does the lateness cost?",
+                "fa": "شریکی در Andreessen Horowitz بنیان‌گذاری را منتظر می‌گذارد. این تأخیر چه هزینه‌ای برایش دارد؟"
               },
               "options": [
                 {
@@ -1368,6 +1500,10 @@
                 "en": "Management debt is a quick fix now that costs more later.",
                 "fa": "بدهی مدیریتی راه‌حل سریعی است که بعداً گران‌تر تمام می‌شود."
               },
+              "fare": {
+                "en": "Like technical debt, management debt saves effort today and charges more for it later.",
+                "fa": "بدهی مدیریتی هم مثل بدهی فنی امروز کار را آسان می‌کند و بعداً هزینهٔ بیشتری می‌گیرد."
+              },
               "answer": true
             },
             {
@@ -1395,18 +1531,22 @@
                 "en": "What is your job in a one-on-one?",
                 "fa": "کار تو در جلسهٔ فردی چیست؟"
               },
+              "fare": {
+                "en": "As the manager, what are you in a one-on-one to do?",
+                "fa": "به‌عنوان مدیر، برای چه کاری در جلسهٔ فردی نشسته‌ای؟"
+              },
               "options": [
                 {
-                  "en": "Hear the problems before they become resignations",
+                  "en": "Hear problems before they become resignations",
                   "fa": "شنیدن مشکلات پیش از آنکه به استعفا تبدیل شوند"
                 },
                 {
-                  "en": "Review the sprint backlog",
-                  "fa": "مرور backlog اسپرینت"
+                  "en": "Review the entire sprint backlog, item by item",
+                  "fa": "مرور کل backlog اسپرینت، مورد به مورد"
                 },
                 {
-                  "en": "Give a status update",
-                  "fa": "ارائهٔ گزارش وضعیت"
+                  "en": "Give the employee a detailed status update",
+                  "fa": "ارائهٔ گزارش وضعیت مفصل به کارمند"
                 }
               ],
               "answer": 0
@@ -1463,6 +1603,10 @@
                 "en": "A wartime CEO follows protocol strictly in order to win.",
                 "fa": "CEO زمان جنگ برای پیروزی پروتکل را با دقت رعایت می‌کند."
               },
+              "fare": {
+                "en": "Sticking to proper protocol is how a wartime CEO wins.",
+                "fa": "راه پیروزی CEO زمان جنگ پایبند ماندن به پروتکل درست است."
+              },
               "answer": false
             },
             {
@@ -1489,6 +1633,10 @@
               "prompt": {
                 "en": "Who replaced Eric Schmidt as Google's wartime CEO?",
                 "fa": "چه کسی به‌عنوان CEO زمان جنگ جای Eric Schmidt را در Google گرفت؟"
+              },
+              "fare": {
+                "en": "In Horowitz's Google example, who is the wartime CEO?",
+                "fa": "در مثال Horowitz از Google، CEO زمان جنگ کیست؟"
               },
               "options": [
                 {
@@ -1531,18 +1679,22 @@
                 "en": "How does a wartime CEO treat consensus-building?",
                 "fa": "CEO زمان جنگ با اجماع‌سازی چگونه رفتار می‌کند؟"
               },
+              "fare": {
+                "en": "The team wants time for consensus-building. What does a wartime CEO do with that?",
+                "fa": "تیم برای اجماع‌سازی وقت می‌خواهد. CEO زمان جنگ با این خواسته چه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Neither indulges it nor tolerates disagreement",
                   "fa": "نه به آن میدان می‌دهد و نه مخالفت را تحمل می‌کند"
                 },
                 {
-                  "en": "Requires it before every decision",
-                  "fa": "پیش از هر تصمیمی آن را لازم می‌داند"
+                  "en": "Requires it before every decision, large or small",
+                  "fa": "پیش از هر تصمیمی، بزرگ یا کوچک، آن را لازم می‌داند"
                 },
                 {
-                  "en": "Hands it to the board",
-                  "fa": "آن را به هیئت‌مدیره می‌سپارد"
+                  "en": "Hands it over to the board of directors",
+                  "fa": "آن را به هیئت‌مدیرهٔ شرکت واگذار می‌کند"
                 }
               ],
               "answer": 0
@@ -1579,6 +1731,10 @@
               "prompt": {
                 "en": "Which leader does Horowitz use for the right kind of ambition?",
                 "fa": "Horowitz کدام رهبر را نمونهٔ جاه‌طلبی درست می‌آورد؟"
+              },
+              "fare": {
+                "en": "Vision, ambition, achievement: whose name does Horowitz attach to having the right ambition?",
+                "fa": "چشم‌انداز، جاه‌طلبی، تحقق: Horowitz نام چه کسی را کنار جاه‌طلبی درست می‌گذارد؟"
               },
               "options": [
                 {
@@ -1620,6 +1776,10 @@
               "prompt": {
                 "en": "A rival suddenly copying your product can put your startup in wartime.",
                 "fa": "رقیبی که ناگهان از محصولت کپی می‌کند می‌تواند استارتاپت را به زمان جنگ ببرد."
+              },
+              "fare": {
+                "en": "Wartime can start for your startup when a competitor launches a copy of what you built.",
+                "fa": "زمان جنگ برای استارتاپت می‌تواند با عرضهٔ نسخهٔ کپی محصولت از سوی یک رقیب آغاز شود."
               },
               "answer": true
             }

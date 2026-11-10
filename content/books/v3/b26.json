@@ -68,6 +68,10 @@
                 "en": "What does a person with only one or two models do?",
                 "fa": "کسی که فقط یکی دو مدل دارد چه می‌کند؟"
               },
+              "fare": {
+                "en": "With only a hammer in the toolbox, how does someone handle a problem that is not a nail?",
+                "fa": "کسی که در جعبه‌ابزارش فقط چکش دارد، با مسئله‌ای که میخ نیست چه رفتاری می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Tortures reality until it fits",
@@ -109,6 +113,10 @@
                 "en": "Munger says about 80 or 90 important models carry most of the freight.",
                 "fa": "Munger می‌گوید حدود ۸۰ تا ۹۰ مدل مهم بیشتر بار را حمل می‌کنند."
               },
+              "fare": {
+                "en": "According to Munger, you do not need every model, because roughly 80 or 90 of them do the bulk of the work.",
+                "fa": "به گفتهٔ Munger لازم نیست همهٔ مدل‌ها را بدانی، چون حدود ۸۰ تا ۹۰ تا از آن‌ها بخش عمدهٔ کار را انجام می‌دهند."
+              },
               "answer": true
             },
             {
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "What does Munger borrow from pilots?",
                 "fa": "Munger چه چیزی از خلبان‌ها وام می‌گیرد؟"
+              },
+              "fare": {
+                "en": "In Munger's view, which tool keeps a smart person from missing the obvious?",
+                "fa": "از نگاه Munger، کدام ابزار نمی‌گذارد آدم باهوش چیزهای بدیهی را از قلم بیندازد؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "In Munger's racetrack model, the house cut makes it easy for most bettors to win.",
                 "fa": "در مدل میدان اسب‌دوانی Munger، سهم صاحب‌خانه بردن را برای بیشتر شرط‌بندها آسان می‌کند."
               },
+              "fare": {
+                "en": "At Munger's racetrack, the 17 percent taken off the top means most bettors come out ahead.",
+                "fa": "در میدان اسب‌دوانی Munger، آن ۱۷ درصدی که از بالا برداشته می‌شود باعث می‌شود بیشتر شرط‌بندها برنده بیرون بیایند."
+              },
               "answer": false
             },
             {
@@ -212,14 +228,18 @@
                 "en": "Which models do you already bring to the lattice as an engineer?",
                 "fa": "به‌عنوان مهندس، چه مدل‌هایی را از قبل به شبکه می‌آوری؟"
               },
+              "fare": {
+                "en": "Which mental tools from your engineering work sit on the lattice before you add finance or psychology?",
+                "fa": "پیش از افزودن مدل‌های مالی و روان‌شناسی، کدام ابزارهای ذهنیِ کار مهندسی‌ات روی شبکه نشسته‌اند؟"
+              },
               "options": [
                 {
-                  "en": "Racetrack odds and house cuts",
-                  "fa": "شانس‌های اسب‌دوانی و سهم صاحب‌خانه"
+                  "en": "Racetrack odds, house cuts and mispriced bets",
+                  "fa": "شانس‌های اسب‌دوانی، سهم صاحب‌خانه و شرط‌های بدقیمت"
                 },
                 {
-                  "en": "Only the rules of accounting",
-                  "fa": "فقط قواعد حسابداری"
+                  "en": "Nothing but the formal rules of accounting",
+                  "fa": "هیچ‌چیز جز قواعد رسمی حسابداری"
                 },
                 {
                   "en": "Feedback loops, bottlenecks and compounding",
@@ -252,6 +272,10 @@
               "prompt": {
                 "en": "Where did Buffett expect the gains from new looms at Berkshire's textile mill to go?",
                 "fa": "Buffett انتظار داشت سود دستگاه‌های بافندگی نو در کارخانهٔ نساجی Berkshire به کجا برود؟"
+              },
+              "fare": {
+                "en": "Far more productive looms were offered for Berkshire's textile mill. In Buffett's view, who would end up with the benefit?",
+                "fa": "دستگاه‌های بافندگی بسیار پربازده‌تری به کارخانهٔ نساجی Berkshire پیشنهاد شد. از نگاه Buffett، فایده‌اش در نهایت نصیب چه کسی می‌شد؟"
               },
               "options": [
                 {
@@ -313,18 +337,22 @@
                 "en": "What fixed the slow night shift at Federal Express?",
                 "fa": "چه چیزی کندی شیفت شب Federal Express را حل کرد؟"
               },
+              "fare": {
+                "en": "Which change made the Federal Express night crew move the packages on time?",
+                "fa": "کدام تغییر باعث شد شیفت شب Federal Express بسته‌ها را به‌موقع جابه‌جا کند؟"
+              },
               "options": [
                 {
                   "en": "Paying per shift instead of per hour",
                   "fa": "پرداخت به ازای هر شیفت به جای هر ساعت"
                 },
                 {
-                  "en": "More managers watching the floor",
-                  "fa": "مدیران بیشتر برای نظارت بر سالن"
+                  "en": "More managers watching the sorting floor",
+                  "fa": "مدیران بیشتر برای نظارت بر سالن تفکیک"
                 },
                 {
-                  "en": "Longer training for each worker",
-                  "fa": "آموزش طولانی‌تر برای هر کارگر"
+                  "en": "Longer training for each night worker",
+                  "fa": "آموزش طولانی‌تر برای هر کارگر شیفت شب"
                 }
               ],
               "answer": 0
@@ -353,6 +381,10 @@
               "prompt": {
                 "en": "Social proof is weakest when people are puzzled and stressed.",
                 "fa": "تأیید اجتماعی وقتی مردم سردرگم و تحت استرس‌اند ضعیف‌ترین است."
+              },
+              "fare": {
+                "en": "Confusion and stress make people less likely to copy those around them.",
+                "fa": "سردرگمی و استرس باعث می‌شود آدم‌ها کمتر از اطرافیانشان تقلید کنند."
               },
               "answer": false
             },
@@ -389,14 +421,18 @@
                 "en": "In Munger's simulator example, what did some copilots do when the pilot erred?",
                 "fa": "در مثال شبیه‌ساز Munger، وقتی خلبان خطا کرد برخی کمک‌خلبان‌ها چه کردند؟"
               },
+              "fare": {
+                "en": "How did authority-misinfluence show up among copilots in flight simulators?",
+                "fa": "نفوذ نادرست مرجعیت در شبیه‌ساز پرواز چطور در رفتار کمک‌خلبان‌ها دیده شد؟"
+              },
               "options": [
                 {
-                  "en": "Took control of the plane at once",
-                  "fa": "فوراً کنترل هواپیما را گرفتند"
+                  "en": "Took control of the plane from him at once",
+                  "fa": "فوراً کنترل هواپیما را از او گرفتند"
                 },
                 {
-                  "en": "Radioed the tower for orders",
-                  "fa": "از برج مراقبت دستور خواستند"
+                  "en": "Radioed the tower and waited for fresh orders",
+                  "fa": "با برج مراقبت تماس گرفتند و منتظر دستور تازه ماندند"
                 },
                 {
                   "en": "Let the pilot crash rather than overrule him",
@@ -430,6 +466,10 @@
                 "en": "Munger says tendencies acting together can produce extreme results.",
                 "fa": "Munger می‌گوید گرایش‌هایی که با هم عمل می‌کنند می‌توانند نتایج افراطی بسازند."
               },
+              "fare": {
+                "en": "A lollapalooza effect can be far bigger than the simple sum of the tendencies behind it.",
+                "fa": "اثر lollapalooza می‌تواند بسیار بزرگ‌تر از جمع سادهٔ گرایش‌های پشت آن باشد."
+              },
               "answer": true
             },
             {
@@ -457,18 +497,22 @@
                 "en": "What is one way to interrupt a stack of tendencies before you buy?",
                 "fa": "یکی از راه‌های قطع ترکیب گرایش‌ها پیش از خرید چیست؟"
               },
+              "fare": {
+                "en": "A friend bought, a salesman is pushing and you are tired. What can break that chain before money moves?",
+                "fa": "دوستی خریده، فروشنده‌ای فشار می‌آورد و تو خسته‌ای. پیش از آنکه پولی جابه‌جا شود، چه چیزی می‌تواند این زنجیره را بشکند؟"
+              },
               "options": [
                 {
-                  "en": "Asking the seller for advice",
-                  "fa": "مشورت گرفتن از فروشنده"
+                  "en": "Asking the seller for some extra advice",
+                  "fa": "مشورت بیشتر گرفتن از خود فروشنده"
                 },
                 {
                   "en": "A cooling-off rule before any buy",
                   "fa": "یک قاعدهٔ مهلت پیش از هر خرید"
                 },
                 {
-                  "en": "Following what friends bought",
-                  "fa": "دنبال کردن خرید دوستان"
+                  "en": "Following what your friends just bought",
+                  "fa": "دنبال کردن آنچه دوستانت تازه خریده‌اند"
                 }
               ],
               "answer": 1
@@ -497,6 +541,10 @@
               "prompt": {
                 "en": "Munger praised the cash register because it made cheating by staff hard.",
                 "fa": "Munger صندوق ثبت فروش را ستود چون تقلب کارکنان را سخت کرد."
+              },
+              "fare": {
+                "en": "For Munger, the cash register counts as a great moral instrument, since staff could no longer cheat easily.",
+                "fa": "از نظر Munger صندوق ثبت فروش ابزاری بزرگ برای اخلاق است، چون کارکنان دیگر به‌راحتی نمی‌توانستند تقلب کنند."
               },
               "answer": true
             }
@@ -544,6 +592,10 @@
                 "en": "Inversion means asking what would guarantee failure, then avoiding it.",
                 "fa": "وارونه‌سازی یعنی بپرسی چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کنی."
               },
+              "fare": {
+                "en": "To invert a problem, you work out what would be sure to make you fail and steer clear of it.",
+                "fa": "برای وارونه کردن یک مسئله، پیدا می‌کنی چه چیزی حتماً به شکستت می‌کشاند و از همان فاصله می‌گیری."
+              },
               "answer": true
             },
             {
@@ -570,6 +622,10 @@
               "prompt": {
                 "en": "Which is one of Munger's prescriptions for a life of misery?",
                 "fa": "کدام یکی از نسخه‌های Munger برای یک زندگی نکبت‌بار است؟"
+              },
+              "fare": {
+                "en": "In his 1986 Harvard School speech, which habit did Munger say leads to a miserable life?",
+                "fa": "Munger در سخنرانی ۱۹۸۶ خود در Harvard School کدام عادت را راهی به زندگی نکبت‌بار دانست؟"
               },
               "options": [
                 {
@@ -620,14 +676,18 @@
                 "en": "What are Munger's three baskets for ideas?",
                 "fa": "سه سبد Munger برای ایده‌ها کدام‌اند؟"
               },
+              "fare": {
+                "en": "Into which three piles does Munger sort the ideas that reach him?",
+                "fa": "Munger ایده‌هایی را که به دستش می‌رسد در کدام سه دسته جا می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Buy, hold and sell",
                   "fa": "بخر، نگه دار و بفروش"
                 },
                 {
-                  "en": "Cheap, fair and dear",
-                  "fa": "ارزان، منصفانه و گران"
+                  "en": "Cheap, fair and overpriced",
+                  "fa": "ارزان، منصفانه و زیادی گران"
                 },
                 {
                   "en": "In, out and too tough",
@@ -661,6 +721,10 @@
                 "en": "Munger says the big money comes from frequent buying and selling.",
                 "fa": "Munger می‌گوید پول کلان از خرید و فروش مکرر می‌آید."
               },
+              "fare": {
+                "en": "For Munger, waiting earns little; the big money is made by trading often.",
+                "fa": "از نظر Munger انتظار کشیدن سود چندانی ندارد و پول کلان با معاملهٔ پرتعداد به دست می‌آید."
+              },
               "answer": false
             },
             {
@@ -688,18 +752,22 @@
                 "en": "What is inside your circle of competence right now?",
                 "fa": "همین حالا چه چیزی داخل دایرهٔ شایستگی‌ات است؟"
               },
+              "fare": {
+                "en": "Which field does the roadmap count as something you already understand well?",
+                "fa": "نقشهٔ راه کدام حوزه را چیزی می‌داند که از همین حالا خوب می‌فهمی؟"
+              },
               "options": [
                 {
-                  "en": "Picking single stocks",
-                  "fa": "انتخاب تک‌سهم"
+                  "en": "Picking single company stocks",
+                  "fa": "انتخاب سهام تک‌شرکت‌ها"
                 },
                 {
                   "en": "Software and AI products",
                   "fa": "نرم‌افزار و محصولات AI"
                 },
                 {
-                  "en": "Timing the market",
-                  "fa": "زمان‌بندی بازار"
+                  "en": "Timing the stock market's moves",
+                  "fa": "زمان‌بندی حرکت‌های بازار سهام"
                 }
               ],
               "answer": 1
@@ -729,6 +797,10 @@
                 "en": "What does Munger compare each new idea against?",
                 "fa": "Munger هر ایدهٔ تازه را با چه چیزی مقایسه می‌کند؟"
               },
+              "fare": {
+                "en": "Under Munger's opportunity-cost filter, what must a new idea beat?",
+                "fa": "در صافی هزینهٔ فرصت Munger، یک ایدهٔ تازه باید از چه چیزی بهتر باشد؟"
+              },
               "options": [
                 {
                   "en": "The latest tip from a friend",
@@ -739,8 +811,8 @@
                   "fa": "بهترین ایده‌ای که از قبل داری"
                 },
                 {
-                  "en": "The average idea in the market",
-                  "fa": "ایدهٔ میانگین بازار"
+                  "en": "The average idea in the whole market",
+                  "fa": "ایدهٔ میانگین در کل بازار"
                 }
               ],
               "answer": 1
@@ -789,6 +861,10 @@
                 "en": "Why do salespeople offer a small gift or concession first?",
                 "fa": "چرا فروشنده‌ها اول هدیه یا امتیاز کوچکی می‌دهند؟"
               },
+              "fare": {
+                "en": "Under reciprocation tendency, what is a seller's small favour at the start meant to do?",
+                "fa": "در گرایش به معامله به مثل، لطف کوچک فروشنده در آغاز کار قرار است چه اثری بگذارد؟"
+              },
               "options": [
                 {
                   "en": "Because the law requires it",
@@ -830,6 +906,10 @@
                 "en": "Doubt-avoidance makes people put off decisions for as long as possible.",
                 "fa": "گریز از تردید باعث می‌شود آدم‌ها تصمیم را تا جای ممکن عقب بیندازند."
               },
+              "fare": {
+                "en": "Under doubt-avoidance, the brain prefers to stay undecided rather than settle on an answer.",
+                "fa": "در گریز از تردید، مغز ترجیح می‌دهد بلاتکلیف بماند تا اینکه به پاسخی برسد."
+              },
               "answer": false
             },
             {
@@ -865,14 +945,18 @@
                 "en": "What is Munger's remedy for availability-misweighing?",
                 "fa": "درمان Munger برای وزن‌دهی نادرست در دسترس‌ها چیست؟"
               },
+              "fare": {
+                "en": "How does Munger keep vivid or recent events from crowding out everything else?",
+                "fa": "Munger چطور نمی‌گذارد رویدادهای پررنگ یا تازه جای همه‌چیز دیگر را بگیرند؟"
+              },
               "options": [
                 {
-                  "en": "Trusting whatever comes to mind first",
-                  "fa": "اعتماد به هرچه اول به ذهن می‌رسد"
+                  "en": "Trusting whatever comes most easily to mind first",
+                  "fa": "اعتماد به هرچه اول و راحت‌تر به ذهن می‌رسد"
                 },
                 {
-                  "en": "Reading only the most recent news",
-                  "fa": "خواندن فقط تازه‌ترین خبرها"
+                  "en": "Reading only the most recent and vivid news stories",
+                  "fa": "خواندن فقط تازه‌ترین و پررنگ‌ترین خبرها"
                 },
                 {
                   "en": "A checklist, so less vivid factors get counted",
@@ -906,6 +990,10 @@
                 "en": "Munger says skills you do not practise fade.",
                 "fa": "Munger می‌گوید مهارتی که تمرین نکنی از بین می‌رود."
               },
+              "fare": {
+                "en": "Use-it-or-lose-it tendency means an unpractised skill gets weaker over time.",
+                "fa": "گرایش «استفاده کن یا از دستش بده» یعنی مهارتِ بی‌تمرین با گذشت زمان ضعیف می‌شود."
+              },
               "answer": true
             },
             {
@@ -933,18 +1021,22 @@
                 "en": "What does the second track of Munger's two-track analysis ask?",
                 "fa": "مسیر دوم تحلیل دومسیرهٔ Munger چه می‌پرسد؟"
               },
+              "fare": {
+                "en": "After asking which factors really govern the interests involved, what does Munger ask next?",
+                "fa": "Munger پس از پرسیدن اینکه چه عواملی واقعاً بر منافع درگیر حاکم‌اند، سراغ چه پرسشی می‌رود؟"
+              },
               "options": [
                 {
                   "en": "Which subconscious tendencies are pushing me wrong",
                   "fa": "کدام گرایش‌های ناخودآگاه مرا به خطا می‌برند"
                 },
                 {
-                  "en": "What the crowd is buying this week",
-                  "fa": "جمعیت این هفته چه می‌خرد"
+                  "en": "What the crowd around me happens to be buying this week",
+                  "fa": "جمعیت دوروبرم این هفته دارد چه می‌خرد"
                 },
                 {
-                  "en": "How fast I can reach a decision",
-                  "fa": "چقدر سریع می‌توانم تصمیم بگیرم"
+                  "en": "How fast I can reach some decision and end the doubt",
+                  "fa": "چقدر سریع می‌توانم به تصمیمی برسم و تردید را تمام کنم"
                 }
               ],
               "answer": 0
@@ -973,6 +1065,10 @@
               "prompt": {
                 "en": "Munger says that once you know the tendencies, you become immune to them.",
                 "fa": "Munger می‌گوید وقتی گرایش‌ها را بشناسی، در برابرشان مصون می‌شوی."
+              },
+              "fare": {
+                "en": "Munger's own record shows that knowing the tendencies protects a person from all of them.",
+                "fa": "کارنامهٔ خود Munger نشان می‌دهد که شناختن گرایش‌ها آدم را از همهٔ آن‌ها در امان نگه می‌دارد."
               },
               "answer": false
             }

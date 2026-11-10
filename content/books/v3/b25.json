@@ -60,6 +60,10 @@
                 "en": "Taleb borrowed an old, existing word for things that gain from shocks.",
                 "fa": "Taleb برای چیزهایی که از ضربه سود می‌برند یک واژهٔ قدیمی و موجود را به کار برد."
               },
+              "fare": {
+                "en": "A ready-made word for things that grow stronger under shocks already existed, so Taleb had no need to invent one.",
+                "fa": "برای چیزهایی که زیر ضربه قوی‌تر می‌شوند واژه‌ای آماده وجود داشت و Taleb لازم نبود واژهٔ تازه‌ای بسازد."
+              },
               "answer": false
             },
             {
@@ -94,6 +98,10 @@
               "prompt": {
                 "en": "In Taleb's myths, what does the Phoenix stand for?",
                 "fa": "در اسطوره‌های Taleb، Phoenix نماد چیست؟"
+              },
+              "fare": {
+                "en": "A bird is reborn from its own ashes. Where does it sit in the triad?",
+                "fa": "پرنده‌ای که از خاکستر خودش دوباره زاده می‌شود در کدام دستهٔ سه‌گانه جا می‌گیرد؟"
               },
               "options": [
                 {
@@ -135,6 +143,10 @@
               "prompt": {
                 "en": "Which myth stands for the antifragile?",
                 "fa": "کدام اسطوره نماد ضدشکننده است؟"
+              },
+              "fare": {
+                "en": "Harm it and it comes back with more than it lost. Which figure is that?",
+                "fa": "آسیب که می‌بیند، بیشتر از آنچه از دست داده پس می‌گیرد. این کدام چهره است؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "What does removing all stress and randomness do, according to Taleb?",
                 "fa": "به گفتهٔ Taleb، حذف همهٔ استرس و تصادف چه می‌کند؟"
               },
+              "fare": {
+                "en": "A life scrubbed clean of discomfort and chance leaves people, companies and economies in what state, for Taleb?",
+                "fa": "از نظر Taleb، زندگی‌ای که از هر ناراحتی و تصادف پاک شده، آدم‌ها، شرکت‌ها و اقتصادها را در چه حالی می‌گذارد؟"
+              },
               "options": [
                 {
                   "en": "More fragile, not safer",
@@ -225,6 +241,10 @@
               "prompt": {
                 "en": "What does wind do to a fire, in Taleb's image?",
                 "fa": "در تصویر Taleb، باد با آتش چه می‌کند؟"
+              },
+              "fare": {
+                "en": "The same gust that kills a candle reaches a fire. What happens?",
+                "fa": "همان بادی که شمع را می‌کُشد به آتش می‌رسد. چه می‌شود؟"
               },
               "options": [
                 {
@@ -267,6 +287,10 @@
                 "en": "The goal is to arrange your money, career and habits so shocks help more than they hurt.",
                 "fa": "هدف این است که پول، شغل و عادت‌هایت را طوری بچینی که ضربه‌ها بیشتر کمک کنند تا آسیب."
               },
+              "fare": {
+                "en": "The aim is not to dodge every shock but to set up your life so that shocks do you more good than harm.",
+                "fa": "هدف فرار از هر ضربه نیست؛ این است که زندگی‌ات را طوری بچینی که ضربه‌ها بیشتر به نفعت باشند تا به ضررت."
+              },
               "answer": true
             }
           ]
@@ -304,6 +328,10 @@
               "prompt": {
                 "en": "What is hormesis?",
                 "fa": "hormesis چیست؟"
+              },
+              "fare": {
+                "en": "Mithridates' habit with poison leads Taleb to which idea?",
+                "fa": "عادت Mithridates با سم، Taleb را به کدام ایده می‌رساند؟"
               },
               "options": [
                 {
@@ -354,6 +382,10 @@
                 "en": "Taleb says chronic stress with no recovery makes you stronger.",
                 "fa": "Taleb می‌گوید استرس مزمن بدون بهبودی قوی‌ترت می‌کند."
               },
+              "fare": {
+                "en": "In Taleb's account, stress that never lets up and leaves no time to rest still builds you up.",
+                "fa": "به روایت Taleb، فشاری که هیچ‌وقت قطع نمی‌شود و فرصت استراحت نمی‌دهد هم تو را می‌سازد."
+              },
               "answer": false
             },
             {
@@ -380,6 +412,10 @@
               "prompt": {
                 "en": "In the cat and washing machine contrast, what does an organism need to stay healthy?",
                 "fa": "در مقایسهٔ گربه و ماشین لباسشویی، موجود زنده برای سالم ماندن به چه نیاز دارد؟"
+              },
+              "fare": {
+                "en": "A washing machine wears out as it runs. What keeps a cat, unlike the machine, in good shape?",
+                "fa": "ماشین لباسشویی با کار کردن فرسوده می‌شود. چه چیزی گربه را، برخلاف ماشین، سرحال نگه می‌دارد؟"
               },
               "options": [
                 {
@@ -430,6 +466,10 @@
                 "en": "In Taleb's view, each failed restaurant makes the restaurant industry weaker.",
                 "fa": "از دید Taleb، هر رستوران ورشکسته صنعت رستوران را ضعیف‌تر می‌کند."
               },
+              "fare": {
+                "en": "Taleb says that when one restaurant goes under, the restaurant scene as a whole learns nothing and ends up worse off.",
+                "fa": "به گفتهٔ Taleb، وقتی یک رستوران تعطیل می‌شود، کل صنعت رستوران چیزی یاد نمی‌گیرد و حالش بدتر می‌شود."
+              },
               "answer": false
             },
             {
@@ -457,6 +497,10 @@
                 "en": "Trying to ban a book usually makes it spread less.",
                 "fa": "تلاش برای ممنوع کردن یک کتاب معمولاً پخشش را کمتر می‌کند."
               },
+              "fare": {
+                "en": "A book that the authorities forbid tends to reach fewer readers than before.",
+                "fa": "کتابی که ممنوعش می‌کنند معمولاً کمتر از قبل دست‌به‌دست می‌شود."
+              },
               "answer": false
             },
             {
@@ -483,6 +527,10 @@
               "prompt": {
                 "en": "Which half of hormesis does sleep provide?",
                 "fa": "خواب کدام نیمهٔ hormesis را فراهم می‌کند؟"
+              },
+              "fare": {
+                "en": "If you go without sleep, which part of hormesis is missing?",
+                "fa": "اگر خواب نباشد، کدام بخش hormesis کم است؟"
               },
               "options": [
                 {
@@ -544,6 +592,10 @@
                 "en": "For the turkey, a thousand calm days proved it was safe.",
                 "fa": "برای بوقلمون، هزار روز آرام ثابت کرد که در امان است."
               },
+              "fare": {
+                "en": "Because nothing bad happened to the turkey for a thousand days, it had good evidence that nothing bad would.",
+                "fa": "چون هزار روز هیچ بلایی سر بوقلمون نیامد، دلیل خوبی داشت که بعد از آن هم بلایی نخواهد آمد."
+              },
               "answer": false
             },
             {
@@ -579,6 +631,10 @@
                 "en": "Which brother can lose all his income in one phone call?",
                 "fa": "کدام برادر می‌تواند با یک تماس تلفنی همهٔ درآمدش را از دست بدهد؟"
               },
+              "fare": {
+                "en": "One brother's income looks steady yet can drop to zero when HR rings. Who is he?",
+                "fa": "درآمد یکی از دو برادر ثابت به نظر می‌رسد اما با یک زنگ HR می‌تواند صفر شود. او کیست؟"
+              },
               "options": [
                 {
                   "en": "George",
@@ -611,6 +667,10 @@
               "prompt": {
                 "en": "Suppressing every small forest fire makes the forest safer in the long run.",
                 "fa": "سرکوب هر آتش‌سوزی کوچک، جنگل را در بلندمدت امن‌تر می‌کند."
+              },
+              "fare": {
+                "en": "Putting out each little fire in a forest lowers the chance of a catastrophic fire later.",
+                "fa": "خاموش کردن تک‌تک آتش‌های کوچک جنگل، احتمال یک آتش‌سوزی فاجعه‌بار در آینده را کم می‌کند."
               },
               "answer": false
             },
@@ -646,6 +706,10 @@
               "prompt": {
                 "en": "Which systems look calm until a single error spreads everywhere?",
                 "fa": "کدام سیستم‌ها آرام به نظر می‌رسند تا وقتی یک خطای واحد همه‌جا پخش شود؟"
+              },
+              "fare": {
+                "en": "Where does one mistake travel through the whole instead of being absorbed on the spot?",
+                "fa": "کجا یک اشتباه به‌جای اینکه همان‌جا جذب شود، در کل سیستم می‌پیچد؟"
               },
               "options": [
                 {
@@ -688,6 +752,10 @@
                 "en": "In annealing, some randomness helps metal settle into a stronger structure.",
                 "fa": "در بازپخت، کمی تصادف به فلز کمک می‌کند ساختار محکم‌تری پیدا کند."
               },
+              "fare": {
+                "en": "Heating metal and cooling it slowly lets the random movement of its atoms leave it stronger.",
+                "fa": "گرم کردن فلز و آرام سرد کردنش باعث می‌شود حرکت تصادفی اتم‌ها آن را محکم‌تر کند."
+              },
               "answer": true
             },
             {
@@ -714,6 +782,10 @@
               "prompt": {
                 "en": "Owning a small product with paying customers adds George's informative swings to your income.",
                 "fa": "مالکیت محصولی کوچک با مشتریان پرداخت‌کننده، نوسان‌های آموزندهٔ George را به درآمدت اضافه می‌کند."
+              },
+              "fare": {
+                "en": "A small product that customers pay for makes your income move a little, the way George's does, and those moves tell you something.",
+                "fa": "محصول کوچکی که مشتری برایش پول می‌دهد درآمدت را مثل درآمد George کمی بالا و پایین می‌برد و این بالا و پایین‌ها چیزی به تو می‌گویند."
               },
               "answer": true
             }
@@ -753,6 +825,10 @@
                 "en": "What does iatrogenics mean?",
                 "fa": "iatrogenics یعنی چه؟"
               },
+              "fare": {
+                "en": "A treatment that does more damage than the illness is an example of what?",
+                "fa": "درمانی که از خود بیماری بیشتر آسیب می‌زند نمونه‌ای از چیست؟"
+              },
               "options": [
                 {
                   "en": "Harm caused by the healer",
@@ -763,8 +839,8 @@
                   "fa": "درمانی برای هر بیماری"
                 },
                 {
-                  "en": "Harm caused by bad luck",
-                  "fa": "آسیبی که بدشانسی ایجاد می‌کند"
+                  "en": "Harm caused by pure bad luck",
+                  "fa": "آسیبی که بدشانسیِ محض ایجاد می‌کند"
                 }
               ],
               "answer": 0
@@ -802,6 +878,10 @@
                 "en": "Taleb argues against every kind of intervention.",
                 "fa": "Taleb با هر نوع مداخله‌ای مخالفت می‌کند."
               },
+              "fare": {
+                "en": "For Taleb, stepping in is a mistake even in an emergency where the benefits are large and clear.",
+                "fa": "از نظر Taleb، مداخله حتی در وضعیت اضطراری با فایده‌های بزرگ و روشن هم اشتباه است."
+              },
               "answer": false
             },
             {
@@ -829,18 +909,22 @@
                 "en": "If you look at a market daily, what do you mostly see?",
                 "fa": "اگر بازار را روزانه نگاه کنی، بیشتر چه می‌بینی؟"
               },
+              "fare": {
+                "en": "What mostly meets someone who checks prices every day rather than once a year?",
+                "fa": "کسی که به‌جای سالی یک‌بار، هر روز قیمت‌ها را چک می‌کند بیشتر با چه روبه‌رو می‌شود؟"
+              },
               "options": [
                 {
-                  "en": "A clear signal",
-                  "fa": "سیگنالی روشن"
+                  "en": "Clear signal",
+                  "fa": "سیگنال روشن"
                 },
                 {
                   "en": "Noise",
                   "fa": "نویز"
                 },
                 {
-                  "en": "A guaranteed trend",
-                  "fa": "روندی تضمین‌شده"
+                  "en": "A sure trend",
+                  "fa": "روندی قطعی"
                 }
               ],
               "answer": 1
@@ -878,6 +962,10 @@
                 "en": "Fat Tony profits by trusting the forecasters' predictions.",
                 "fa": "Fat Tony با اعتماد به پیش‌بینی‌های پیش‌بینان سود می‌برد."
               },
+              "fare": {
+                "en": "Fat Tony makes his money by following forecasts closely, not by spotting who is fragile.",
+                "fa": "Fat Tony پولش را با دنبال کردن دقیق پیش‌بینی‌ها درمی‌آورد، نه با پیدا کردن شکننده‌ها."
+              },
               "answer": false
             },
             {
@@ -904,6 +992,10 @@
               "prompt": {
                 "en": "What does Taleb advise instead of better prediction?",
                 "fa": "Taleb به جای پیش‌بینی بهتر چه توصیه می‌کند؟"
+              },
+              "fare": {
+                "en": "Forecasts keep turning out wrong. What is Taleb's remedy?",
+                "fa": "پیش‌بینی‌ها مدام غلط از آب درمی‌آیند. چارهٔ Taleb چیست؟"
               },
               "options": [
                 {
@@ -946,6 +1038,10 @@
                 "en": "When is doing nothing likely to be safer than intervening?",
                 "fa": "چه وقت هیچ کاری نکردن احتمالاً از مداخله امن‌تر است؟"
               },
+              "fare": {
+                "en": "In which case may the hidden harm of acting outweigh what you gain from it?",
+                "fa": "در کدام حالت ممکن است آسیب پنهانِ اقدام از آنچه به دست می‌آوری بیشتر باشد؟"
+              },
               "options": [
                 {
                   "en": "If the benefit is small and uncertain",
@@ -956,8 +1052,8 @@
                   "fa": "اگر مشکل اضطراری باشد"
                 },
                 {
-                  "en": "If the benefit is large and clear",
-                  "fa": "اگر فایده بزرگ و روشن باشد"
+                  "en": "If the benefit is both large and clear",
+                  "fa": "اگر فایده هم بزرگ و هم روشن باشد"
                 }
               ],
               "answer": 0
@@ -1007,6 +1103,10 @@
                 "en": "Taleb reads Seneca's Stoicism as a way to keep the upside of fortune while shrinking the downside.",
                 "fa": "Taleb رواقی‌گری Seneca را راهی می‌بیند برای نگه داشتن سود بخت و کوچک کردن زیانش."
               },
+              "fare": {
+                "en": "In Taleb's reading, Seneca trained himself not to fear losing his wealth, yet still kept the good that fortune brought.",
+                "fa": "در خوانش Taleb، Seneca خود را تمرین داد که از باختن ثروتش نترسد و در عین حال خوبیِ بخت را نگه داشت."
+              },
               "answer": true
             },
             {
@@ -1041,6 +1141,10 @@
               "prompt": {
                 "en": "In the 90/10 barbell, what is your worst case capped at?",
                 "fa": "در هالتر ۹۰/۱۰، بدترین حالتت به چه محدود است؟"
+              },
+              "fare": {
+                "en": "You hold 90 percent in the safest assets and 10 percent in high-risk bets. How bad can it get?",
+                "fa": "۹۰ درصد در امن‌ترین دارایی‌ها داری و ۱۰ درصد در شرط‌های پرریسک. اوضاع تا کجا می‌تواند بد شود؟"
               },
               "options": [
                 {
@@ -1083,6 +1187,10 @@
                 "en": "The personal barbell means taking big risks that could wipe you out.",
                 "fa": "هالتر شخصی یعنی ریسک‌های بزرگی بکنی که می‌توانند نابودت کنند."
               },
+              "fare": {
+                "en": "In personal risk, the barbell tells you to be relaxed about ruin and take chances that could end everything.",
+                "fa": "در ریسک شخصی، هالتر می‌گوید دربارهٔ نابودی آسوده باش و شانس‌هایی را امتحان کن که می‌توانند همه‌چیز را تمام کنند."
+              },
               "answer": false
             },
             {
@@ -1118,6 +1226,10 @@
                 "en": "Which is the safe end of Taleb's barbell?",
                 "fa": "سر امن هالتر Taleb کدام است؟"
               },
+              "fare": {
+                "en": "What does Taleb hold on the side of the barbell that must not crash?",
+                "fa": "Taleb در آن سرِ هالتر که نباید سقوط کند چه نگه می‌دارد؟"
+              },
               "options": [
                 {
                   "en": "A stock index fund",
@@ -1128,8 +1240,8 @@
                   "fa": "پول نقدِ کسل‌کننده"
                 },
                 {
-                  "en": "A medium-risk bond fund",
-                  "fa": "صندوق اوراق با ریسک متوسط"
+                  "en": "Medium-risk bonds",
+                  "fa": "اوراق با ریسک متوسط"
                 }
               ],
               "answer": 1
@@ -1159,6 +1271,10 @@
                 "en": "A barbell still caps your worst case even if the safe end can itself crash.",
                 "fa": "حتی اگر سر امن خودش بتواند سقوط کند، هالتر باز هم بدترین حالت را محدود می‌کند."
               },
+              "fare": {
+                "en": "If the supposedly safe 90 percent can crash too, your worst case is still only the risky 10 percent.",
+                "fa": "اگر ۹۰ درصدِ به‌ظاهر امن هم بتواند سقوط کند، بدترین حالتت هنوز فقط همان ۱۰ درصد پرریسک است."
+              },
               "answer": false
             },
             {
@@ -1185,6 +1301,10 @@
               "prompt": {
                 "en": "The barbell aims for a known worst case and an unlimited best case.",
                 "fa": "هالتر به دنبال بدترین حالتی شناخته‌شده و بهترین حالتی بی‌سقف است."
+              },
+              "fare": {
+                "en": "With a barbell you fix how much you can lose and leave open how much you can win.",
+                "fa": "با هالتر مشخص می‌کنی حداکثر چقدر می‌توانی ببازی و سقفی برای بُردت نمی‌گذاری."
               },
               "answer": true
             }
@@ -1232,6 +1352,10 @@
                 "en": "Why did Thales profit, in Taleb's reading?",
                 "fa": "از نگاه Taleb، چرا Thales سود برد؟"
               },
+              "fare": {
+                "en": "Thales paid small deposits and gained a great deal. What explains that result, for Taleb?",
+                "fa": "Thales بیعانهٔ کوچکی داد و سود بزرگی برد. از نظر Taleb چه چیزی این نتیجه را توضیح می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "He predicted the harvest exactly",
@@ -1273,6 +1397,10 @@
                 "en": "An option obliges you to act even when the outcome is bad.",
                 "fa": "اختیار تو را ملزم می‌کند حتی وقتی نتیجه بد است عمل کنی."
               },
+              "fare": {
+                "en": "Holding an option means you must go through with it, whether the outcome turns out good or bad.",
+                "fa": "داشتن اختیار یعنی باید تا آخرش بروی، چه نتیجه خوب از آب دربیاید چه بد."
+              },
               "answer": false
             },
             {
@@ -1300,10 +1428,14 @@
                 "en": "Who keeps options open and changes plans as he learns?",
                 "fa": "چه کسی اختیارهایش را باز نگه می‌دارد و با یادگیری برنامه‌اش را عوض می‌کند؟"
               },
+              "fare": {
+                "en": "A better path appears halfway through the trip. Who takes it?",
+                "fa": "وسط سفر راه بهتری پیدا می‌شود. چه کسی آن را در پیش می‌گیرد؟"
+              },
               "options": [
                 {
-                  "en": "The tourist",
-                  "fa": "توریست"
+                  "en": "The ordinary tourist",
+                  "fa": "توریست معمولی"
                 },
                 {
                   "en": "The central planner",
@@ -1349,6 +1481,10 @@
                 "en": "Joe Siegel needed to know what green lumber really was to trade it well.",
                 "fa": "Joe Siegel برای معاملهٔ خوب باید می‌دانست green lumber واقعاً چیست."
               },
+              "fare": {
+                "en": "Joe Siegel's fortune came from understanding the wood itself, not from knowing the market.",
+                "fa": "ثروت Joe Siegel از شناخت خودِ چوب آمد، نه از شناخت بازار."
+              },
               "answer": false
             },
             {
@@ -1375,6 +1511,10 @@
               "prompt": {
                 "en": "In Taleb's example, what reached suitcases only in modern times?",
                 "fa": "در مثال Taleb، چه چیزی تازه در دوران مدرن به چمدان‌ها رسید؟"
+              },
+              "fare": {
+                "en": "Which invention, thousands of years old, sat unused on luggage until modern times?",
+                "fa": "کدام اختراع چند هزار ساله تا دوران مدرن روی چمدان به کار نرفته بود؟"
               },
               "options": [
                 {
@@ -1417,18 +1557,22 @@
                 "en": "Who should pick the winning product idea?",
                 "fa": "چه کسی باید ایدهٔ برندهٔ محصول را انتخاب کند؟"
               },
+              "fare": {
+                "en": "You run several cheap experiments. Whose verdict decides which one wins?",
+                "fa": "چند آزمایش ارزان اجرا می‌کنی. حرف چه کسی تعیین می‌کند کدام برنده است؟"
+              },
               "options": [
                 {
                   "en": "Your forecast",
                   "fa": "پیش‌بینی تو"
                 },
                 {
-                  "en": "Customers",
+                  "en": "The customers",
                   "fa": "مشتریان"
                 },
                 {
-                  "en": "An investor's spreadsheet",
-                  "fa": "صفحه‌گستردهٔ یک سرمایه‌گذار"
+                  "en": "Investor spreadsheets",
+                  "fa": "صفحه‌گسترده‌های سرمایه‌گذاران"
                 }
               ],
               "answer": 1
@@ -1469,6 +1613,10 @@
                 "en": "Via negativa means improving by adding new fixes.",
                 "fa": "Via negativa یعنی بهتر شدن با افزودن راه‌حل‌های تازه."
               },
+              "fare": {
+                "en": "Someone who follows via negativa gets better mainly by piling on more remedies.",
+                "fa": "کسی که via negativa را دنبال می‌کند عمدتاً با روی هم گذاشتن درمان‌های بیشتر بهتر می‌شود."
+              },
               "answer": false
             },
             {
@@ -1503,6 +1651,10 @@
               "prompt": {
                 "en": "Which hurts more, by Taleb's nonlinearity argument?",
                 "fa": "طبق استدلال غیرخطی بودن Taleb، کدام بیشتر آسیب می‌زند؟"
+              },
+              "fare": {
+                "en": "The total height is 10 metres either way. Which does the most damage?",
+                "fa": "در هر دو حالت مجموع ارتفاع ۱۰ متر است. کدام‌یک بیشترین آسیب را می‌زند؟"
               },
               "options": [
                 {
@@ -1545,6 +1697,10 @@
                 "en": "By the Lindy effect, an old book is likely to vanish sooner than a new one.",
                 "fa": "طبق اثر Lindy، یک کتاب قدیمی احتمالاً زودتر از کتاب تازه از بین می‌رود."
               },
+              "fare": {
+                "en": "The longer a book has stayed in print, the less remaining life the Lindy effect gives it.",
+                "fa": "هرچه کتابی بیشتر در چاپ مانده باشد، اثر Lindy عمر باقی‌ماندهٔ کمتری برایش در نظر می‌گیرد."
+              },
               "answer": false
             },
             {
@@ -1579,6 +1735,10 @@
               "prompt": {
                 "en": "Whom should medicine treat boldly, by Taleb's rule?",
                 "fa": "طبق قاعدهٔ Taleb، پزشکی چه کسانی را باید جسورانه درمان کند؟"
+              },
+              "fare": {
+                "en": "For which patients are the benefits of treatment large enough to outweigh iatrogenics?",
+                "fa": "فایدهٔ درمان برای کدام بیماران آن‌قدر بزرگ است که بر iatrogenics بچربد؟"
               },
               "options": [
                 {
@@ -1621,6 +1781,10 @@
                 "en": "One counterexample can show a claim false.",
                 "fa": "یک مثال نقض می‌تواند نادرستی یک ادعا را نشان دهد."
               },
+              "fare": {
+                "en": "Many examples can never prove a claim true, but a single case against it can sink it.",
+                "fa": "مثال‌های زیاد هرگز درستی ادعایی را ثابت نمی‌کنند، اما یک مورد خلاف می‌تواند آن را رد کند."
+              },
               "answer": true
             },
             {
@@ -1647,6 +1811,10 @@
               "prompt": {
                 "en": "By the Lindy effect, books that have lasted decades are more likely to stay useful.",
                 "fa": "طبق اثر Lindy، کتاب‌هایی که دهه‌ها دوام آورده‌اند احتمال بیشتری دارد که مفید بمانند."
+              },
+              "fare": {
+                "en": "For staying useful, the Lindy effect favours a book that has survived for decades over this year's bestseller.",
+                "fa": "از نظر مفید ماندن، اثر Lindy کتابی را که دهه‌ها دوام آورده بر پرفروش امسال ترجیح می‌دهد."
               },
               "answer": true
             }
@@ -1686,18 +1854,22 @@
                 "en": "What does skin in the game mean?",
                 "fa": "پوست در بازی یعنی چه؟"
               },
+              "fare": {
+                "en": "When someone takes the upside and leaves others the downside, what is missing?",
+                "fa": "وقتی کسی سود را برمی‌دارد و زیان را به دیگران می‌سپارد، چه چیزی غایب است؟"
+              },
               "options": [
                 {
                   "en": "Bearing the consequences of your own decisions",
                   "fa": "پذیرفتن پیامدهای تصمیم‌های خودت"
                 },
                 {
-                  "en": "Giving advice to many people",
-                  "fa": "نصیحت کردن به آدم‌های زیاد"
+                  "en": "Giving confident advice to a great many people",
+                  "fa": "نصیحت کردنِ بااطمینان به آدم‌های بسیار زیاد"
                 },
                 {
-                  "en": "Avoiding all personal risk",
-                  "fa": "دوری از هر ریسک شخصی"
+                  "en": "Avoiding every kind of personal risk yourself",
+                  "fa": "دوری از هر نوع ریسک شخصی برای خودت"
                 }
               ],
               "answer": 0
@@ -1735,6 +1907,10 @@
                 "en": "In Taleb's example, Robert Rubin returned his pay when Citigroup needed a bailout.",
                 "fa": "در مثال Taleb، Robert Rubin وقتی Citigroup به نجات نیاز داشت دستمزدش را پس داد."
               },
+              "fare": {
+                "en": "In Taleb's telling, after Citigroup was bailed out Robert Rubin gave back the money he had earned there.",
+                "fa": "به روایت Taleb، پس از نجات دولتی Citigroup، Robert Rubin پولی را که آنجا درآورده بود پس داد."
+              },
               "answer": false
             },
             {
@@ -1761,6 +1937,10 @@
               "prompt": {
                 "en": "What does Taleb ask advisers to show him?",
                 "fa": "Taleb از مشاوران می‌خواهد چه چیزی را نشانش دهند؟"
+              },
+              "fare": {
+                "en": "Opinions are cheap, Taleb says. What would he rather hear about from an adviser?",
+                "fa": "Taleb می‌گوید نظر دادن ارزان است. ترجیح می‌دهد از مشاور دربارهٔ چه بشنود؟"
               },
               "options": [
                 {
@@ -1811,6 +1991,10 @@
                 "en": "Taleb wants those who gain from volatility to also pay when it turns against them.",
                 "fa": "Taleb می‌خواهد کسانی که از نوسان سود می‌برند، وقتی علیهشان شد تاوانش را هم بدهند."
               },
+              "fare": {
+                "en": "For Taleb, a system is fair only if the people who profit from volatility also bear the cost when it goes against them.",
+                "fa": "از نظر Taleb، سیستمی منصفانه است که سودبرندگان از نوسان، هزینهٔ روزهای بدِ آن را هم خودشان بپردازند."
+              },
               "answer": true
             },
             {
@@ -1837,6 +2021,10 @@
               "prompt": {
                 "en": "When is honest advice hard, in Taleb's view?",
                 "fa": "از نگاه Taleb، توصیهٔ صادقانه چه وقت سخت است؟"
+              },
+              "fare": {
+                "en": "In which situation do ethics tend to bend to fit the profession?",
+                "fa": "در کدام وضعیت اخلاق معمولاً خودش را با حرفه جور می‌کند؟"
               },
               "options": [
                 {
@@ -1879,18 +2067,22 @@
                 "en": "Where is skin in the game written down in a startup?",
                 "fa": "در استارتاپ، پوست در بازی کجا مکتوب می‌شود؟"
               },
+              "fare": {
+                "en": "Where would you look to check that each founder really has something at risk?",
+                "fa": "برای اینکه ببینی هر بنیان‌گذار واقعاً چیزی در خطر دارد، کجا را نگاه می‌کنی؟"
+              },
               "options": [
                 {
-                  "en": "In a press release",
-                  "fa": "در یک بیانیهٔ خبری"
+                  "en": "In a public press release",
+                  "fa": "در یک بیانیهٔ خبری عمومی"
                 },
                 {
                   "en": "A cap table and vesting",
                   "fa": "یک cap table و vesting"
                 },
                 {
-                  "en": "In a pitch deck",
-                  "fa": "در یک pitch deck"
+                  "en": "In an investor pitch deck",
+                  "fa": "در یک pitch deck برای سرمایه‌گذاران"
                 }
               ],
               "answer": 1

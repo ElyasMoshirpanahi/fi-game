@@ -68,18 +68,22 @@
                 "en": "What does Mr. Market do every day?",
                 "fa": "Mr. Market هر روز چه می‌کند؟"
               },
+              "fare": {
+                "en": "In Graham's parable, what does your business partner bring you each day?",
+                "fa": "در تمثیل Graham، شریک تجاری‌ات هر روز با چه چیزی سراغت می‌آید؟"
+              },
               "options": [
                 {
                   "en": "Names a price to buy your share or sell you his",
                   "fa": "قیمتی می‌گوید تا سهم تو را بخرد یا سهم خودش را به تو بفروشد"
                 },
                 {
-                  "en": "Publishes the true value of the business",
-                  "fa": "ارزش واقعی کسب‌وکار را اعلام می‌کند"
+                  "en": "Publishes the true worth of the business for both partners",
+                  "fa": "ارزش واقعی کسب‌وکار را برای هر دو شریک اعلام می‌کند"
                 },
                 {
-                  "en": "Pays you a fixed dividend",
-                  "fa": "سود ثابتی به تو می‌پردازد"
+                  "en": "Pays you a fixed dividend on the share you hold",
+                  "fa": "بابت سهمی که داری سود ثابتی به تو می‌پردازد"
                 }
               ],
               "answer": 0
@@ -108,6 +112,10 @@
               "prompt": {
                 "en": "You must trade with Mr. Market whenever he names a price.",
                 "fa": "هر وقت Mr. Market قیمتی گفت، باید با او معامله کنی."
+              },
+              "fare": {
+                "en": "Each price Mr. Market names is an order the investor has to follow.",
+                "fa": "هر قیمتی که Mr. Market اعلام می‌کند دستوری است که سرمایه‌گذار ناچار است اجرا کند."
               },
               "answer": false
             },
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "Which way of using price swings does Graham recommend to the investor?",
                 "fa": "Graham کدام راه استفاده از نوسان قیمت را به سرمایه‌گذار توصیه می‌کند؟"
+              },
+              "fare": {
+                "en": "Of the two responses to market fluctuations that Graham describes, which one suits the investor?",
+                "fa": "از دو شیوهٔ برخورد با بالا و پایین بازار که Graham شرح می‌دهد، کدام مناسب سرمایه‌گذار است؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "Graham judges a business stake mainly by today's market quote.",
                 "fa": "Graham سهم در یک کسب‌وکار را عمدتاً با قیمت امروز بازار می‌سنجد."
               },
+              "fare": {
+                "en": "For Graham, an excitable partner's offer today tells you more about your stake than its operating results do.",
+                "fa": "از نظر Graham، پیشنهاد امروزِ یک شریک هیجانی بیشتر از نتایج عملیاتی دربارهٔ سهمت به تو می‌گوید."
+              },
               "answer": false
             },
             {
@@ -212,14 +228,18 @@
                 "en": "When should you decide how to act on a big market fall?",
                 "fa": "کی باید تصمیم بگیری با یک ریزش بزرگ بازار چه کنی؟"
               },
+              "fare": {
+                "en": "A rule for a 30 percent fall in VWCE protects you from panic when it is written at which moment?",
+                "fa": "قاعده‌ای برای افت ۳۰ درصدی VWCE وقتی جلوی وحشتت را می‌گیرد که در چه لحظه‌ای نوشته شده باشد؟"
+              },
               "options": [
                 {
                   "en": "Before markets drop, in calm",
                   "fa": "پیش از ریزش بازار، در آرامش"
                 },
                 {
-                  "en": "On the day of the fall, while watching prices",
-                  "fa": "روز ریزش، در حال تماشای قیمت‌ها"
+                  "en": "On the day of the fall, watching prices",
+                  "fa": "روز ریزش، هنگام تماشای قیمت‌ها"
                 },
                 {
                   "en": "After a friend tells you to sell",
@@ -272,18 +292,22 @@
                 "en": "What defines Graham's enterprising investor?",
                 "fa": "سرمایه‌گذار جسور Graham با چه چیزی تعریف می‌شود؟"
               },
+              "fare": {
+                "en": "Which trait marks the active investor in Graham's split?",
+                "fa": "در تقسیم‌بندی Graham، نشانهٔ سرمایه‌گذار فعال کدام است؟"
+              },
               "options": [
                 {
                   "en": "Willing to devote time and care to choosing securities",
                   "fa": "حاضر است وقت و دقت صرف انتخاب اوراق بهادار کند"
                 },
                 {
-                  "en": "Willing to take the biggest risks",
-                  "fa": "حاضر است بیشترین ریسک را بپذیرد"
+                  "en": "Willing to take the biggest risks for the highest return",
+                  "fa": "حاضر است برای بالاترین بازده بیشترین ریسک را بپذیرد"
                 },
                 {
-                  "en": "Trading every day on news",
-                  "fa": "هر روز بر اساس خبرها معامله می‌کند"
+                  "en": "Trading every day on the latest news and market rumours",
+                  "fa": "هر روز بر اساس تازه‌ترین خبرها و شایعه‌های بازار معامله می‌کند"
                 }
               ],
               "answer": 0
@@ -304,6 +328,10 @@
               "prompt": {
                 "en": "Graham says a higher return should come from taking more risk.",
                 "fa": "Graham می‌گوید بازده بالاتر باید از پذیرش ریسک بیشتر بیاید."
+              },
+              "fare": {
+                "en": "For Graham, the amount of risk you accept, not your intelligent effort, sets the return you can aim for.",
+                "fa": "از نظر Graham، بازدهی که می‌توانی هدف بگیری را مقدار ریسکی که می‌پذیری تعیین می‌کند، نه تلاش هوشمندانه‌ات."
               },
               "answer": false
             },
@@ -340,18 +368,22 @@
                 "en": "What is dollar-cost averaging?",
                 "fa": "میانگین‌گیری هزینه چیست؟"
               },
+              "fare": {
+                "en": "Which habit lets one fixed sum buy more shares when prices are low?",
+                "fa": "کدام عادت باعث می‌شود یک مبلغ ثابت در قیمت‌های پایین سهم بیشتری بخرد؟"
+              },
               "options": [
                 {
                   "en": "Investing the same amount each month or quarter",
                   "fa": "سرمایه‌گذاری مبلغی یکسان در هر ماه یا فصل"
                 },
                 {
-                  "en": "Buying only after prices have risen",
-                  "fa": "خرید فقط پس از بالا رفتن قیمت‌ها"
+                  "en": "Buying more shares only after prices have risen for a while",
+                  "fa": "خرید سهم بیشتر فقط پس از آنکه قیمت‌ها مدتی بالا رفته باشند"
                 },
                 {
-                  "en": "Putting everything in at the yearly low",
-                  "fa": "گذاشتن همه‌چیز در کف قیمت سالانه"
+                  "en": "Putting everything in at once at the yearly low",
+                  "fa": "گذاشتن یکجای همه‌چیز در کف قیمت سالانه"
                 }
               ],
               "answer": 0
@@ -380,6 +412,10 @@
               "prompt": {
                 "en": "Only the enterprising investor ever has to face the moody partner.",
                 "fa": "فقط سرمایه‌گذار جسور با آن شریک دمدمی سروکار دارد."
+              },
+              "fare": {
+                "en": "The defensive investor never meets Mr. Market's quotes; they concern the enterprising investor alone.",
+                "fa": "سرمایه‌گذار تدافعی هیچ‌وقت با قیمت‌های Mr. Market روبه‌رو نمی‌شود؛ این قیمت‌ها تنها به سرمایه‌گذار جسور مربوط‌اند."
               },
               "answer": false
             },
@@ -415,6 +451,10 @@
               "prompt": {
                 "en": "Where does enterprising effort belong in your plan?",
                 "fa": "تلاش جسورانه در برنامهٔ تو کجا جا دارد؟"
+              },
+              "fare": {
+                "en": "Which part of your money is the place for active, time-hungry picking?",
+                "fa": "کدام بخش از پولت جای انتخاب فعال و وقت‌گیر است؟"
               },
               "options": [
                 {
@@ -476,6 +516,10 @@
                 "en": "Which three words does Graham use for the secret of sound investing?",
                 "fa": "Graham راز سرمایه‌گذاری درست را در کدام سه کلمه خلاصه می‌کند؟"
               },
+              "fare": {
+                "en": "If Graham had to shrink sound investing into one short motto, which would it be?",
+                "fa": "اگر Graham بخواهد سرمایه‌گذاری درست را در یک شعار کوتاه جا بدهد، آن شعار کدام است؟"
+              },
               "options": [
                 {
                   "en": "Margin of safety",
@@ -486,8 +530,8 @@
                   "fa": "بخر و نگه دار"
                 },
                 {
-                  "en": "Diversify, diversify, diversify",
-                  "fa": "تنوع، تنوع، تنوع"
+                  "en": "Diversify your bets",
+                  "fa": "سبد متنوع بساز"
                 }
               ],
               "answer": 0
@@ -517,6 +561,10 @@
                 "en": "In Graham's stock example, the earnings yield is below the bond rate.",
                 "fa": "در مثال سهام Graham، بازده سود کمتر از نرخ اوراق قرضه است."
               },
+              "fare": {
+                "en": "Graham's stock example has the bond paying a higher rate than the stock earns on its price.",
+                "fa": "در مثال Graham، اوراق قرضه نرخی بالاتر از سودی می‌دهد که سهام نسبت به قیمتش می‌سازد."
+              },
               "answer": false
             },
             {
@@ -544,18 +592,22 @@
                 "en": "Why does Graham bring up roulette?",
                 "fa": "چرا Graham از رولت حرف می‌زند؟"
               },
+              "fare": {
+                "en": "What does the casino comparison teach about margin plus diversification?",
+                "fa": "مقایسه با کازینو دربارهٔ حاشیه به‌علاوهٔ تنوع چه چیزی یاد می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "A small edge over many bets makes profit near certain",
                   "fa": "برتری کوچک در شرط‌های زیاد سود را تقریباً قطعی می‌کند"
                 },
                 {
-                  "en": "To show that investing is pure gambling",
-                  "fa": "تا نشان دهد سرمایه‌گذاری قمار محض است"
+                  "en": "To show that investing is pure gambling with no real edge",
+                  "fa": "تا نشان دهد سرمایه‌گذاری قمار محض و بدون هیچ برتری واقعی است"
                 },
                 {
-                  "en": "To advise betting everything on one number",
-                  "fa": "تا توصیه کند همه‌چیز را روی یک عدد بگذاری"
+                  "en": "To advise betting everything you have on one lucky number",
+                  "fa": "تا توصیه کند هرچه داری را روی یک عدد خوش‌شانس بگذاری"
                 }
               ],
               "answer": 0
@@ -584,6 +636,10 @@
               "prompt": {
                 "en": "Graham calls an operation an investment only if thorough analysis promises safety of principal and an adequate return.",
                 "fa": "Graham عملیاتی را سرمایه‌گذاری می‌نامد که تحلیل کامل، حفظ اصل سرمایه و بازده کافی را وعده دهد."
+              },
+              "fare": {
+                "en": "By Graham's definition, an operation that fails to promise safety of principal and an adequate return on thorough analysis is speculation.",
+                "fa": "طبق تعریف Graham، عملیاتی که با تحلیل کامل حفظ اصل سرمایه و بازده کافی را وعده ندهد سفته‌بازی است."
               },
               "answer": true
             },
@@ -620,14 +676,18 @@
                 "en": "When does a fine startup stake have no margin of safety?",
                 "fa": "یک سهم خوب در استارتاپ کی هیچ حاشیهٔ امنیتی ندارد؟"
               },
+              "fare": {
+                "en": "Even a good startup leaves you no room for error if your stake in it was acquired how?",
+                "fa": "حتی استارتاپ خوب هم جایی برای خطا نمی‌گذارد اگر سهمت در آن چطور به دست آمده باشد؟"
+              },
               "options": [
                 {
                   "en": "Bought too dear",
                   "fa": "وقتی خیلی گران خریده شود"
                 },
                 {
-                  "en": "Bought with a written cap table",
-                  "fa": "وقتی با cap table مکتوب خریده شود"
+                  "en": "Bought with a cap table",
+                  "fa": "وقتی با cap table خریده شود"
                 },
                 {
                   "en": "Held for many years",
@@ -680,18 +740,22 @@
                 "en": "Under the 50-50 formula, what does the defensive investor do after a big stock rally?",
                 "fa": "طبق فرمول ۵۰-۵۰، سرمایه‌گذار تدافعی پس از یک رشد بزرگ سهام چه می‌کند؟"
               },
+              "fare": {
+                "en": "Stocks have climbed to well over half of a defensive portfolio. What does Graham's formula call for?",
+                "fa": "سهام به خیلی بیشتر از نیمی از سبد تدافعی رسیده است. فرمول Graham چه کاری می‌خواهد؟"
+              },
               "options": [
                 {
                   "en": "Sells some stocks to restore the split",
                   "fa": "مقداری سهام می‌فروشد تا تقسیم برگردد"
                 },
                 {
-                  "en": "Buys more stocks to ride the trend",
-                  "fa": "سهام بیشتری می‌خرد تا با روند همراه شود"
+                  "en": "Buys more stocks to ride the rising trend",
+                  "fa": "سهام بیشتری می‌خرد تا با روند صعودی همراه شود"
                 },
                 {
-                  "en": "Sells all stocks and waits",
-                  "fa": "همهٔ سهام را می‌فروشد و صبر می‌کند"
+                  "en": "Sells all stocks and waits for a fall",
+                  "fa": "همهٔ سهام را می‌فروشد و منتظر ریزش می‌ماند"
                 }
               ],
               "answer": 0
@@ -721,6 +785,10 @@
                 "en": "Graham's rough test for a bargain is a value at least 50 percent above the price.",
                 "fa": "آزمون تقریبی Graham برای معاملهٔ ارزان، ارزشی دست‌کم ۵۰ درصد بالاتر از قیمت است."
               },
+              "fare": {
+                "en": "By Graham's rule of thumb, a security priced at 100 needs an appraised value of 150 or more to count as a bargain.",
+                "fa": "طبق قاعدهٔ سرانگشتی Graham، اوراقی با قیمت ۱۰۰ باید ارزش برآوردی ۱۵۰ یا بیشتر داشته باشد تا معاملهٔ ارزان حساب شود."
+              },
               "answer": true
             },
             {
@@ -747,6 +815,10 @@
               "prompt": {
                 "en": "What is the first of Graham's business principles in chapter 20?",
                 "fa": "نخستین اصل کسب‌وکاری Graham در فصل ۲۰ چیست؟"
+              },
+              "fare": {
+                "en": "Which rule opens the list of business principles that closes chapter 20?",
+                "fa": "فهرست اصول کسب‌وکاری پایان فصل ۲۰ با کدام قاعده آغاز می‌شود؟"
               },
               "options": [
                 {
@@ -789,6 +861,10 @@
                 "en": "Graham says you are wrong whenever the crowd disagrees with you.",
                 "fa": "Graham می‌گوید هر وقت جمع با تو مخالف باشد، اشتباه می‌کنی."
               },
+              "fare": {
+                "en": "For Graham, the crowd's disagreement is enough to prove your conclusion mistaken.",
+                "fa": "از نظر Graham، مخالفت جمع برای اثبات غلط بودن نتیجه‌ات کافی است."
+              },
               "answer": false
             },
             {
@@ -824,18 +900,22 @@
                 "en": "What should you write down before accepting a startup stake?",
                 "fa": "پیش از پذیرفتن سهم استارتاپ چه چیزی را باید بنویسی؟"
               },
+              "fare": {
+                "en": "Which note, made before you take startup equity, shows whether there is a margin?",
+                "fa": "کدام یادداشت، پیش از گرفتن سهام استارتاپ، نشان می‌دهد حاشیه‌ای هست یا نه؟"
+              },
               "options": [
                 {
                   "en": "Your estimate of its value next to its price",
                   "fa": "برآوردت از ارزشش در کنار قیمتش"
                 },
                 {
-                  "en": "How excited the founders are",
-                  "fa": "میزان هیجان بنیان‌گذاران"
+                  "en": "How excited the founders are about their product",
+                  "fa": "میزان هیجان بنیان‌گذاران دربارهٔ محصولشان"
                 },
                 {
-                  "en": "How many friends have already joined",
-                  "fa": "تعداد دوستانی که پیش‌تر پیوسته‌اند"
+                  "en": "How many friends have already joined the company",
+                  "fa": "تعداد دوستانی که پیش‌تر به شرکت پیوسته‌اند"
                 }
               ],
               "answer": 0

@@ -68,6 +68,10 @@
                 "en": "Where did many of Lynch's best stock ideas come from?",
                 "fa": "بسیاری از بهترین ایده‌های سهام Lynch از کجا آمد؟"
               },
+              "fare": {
+                "en": "What was the source of the leads behind winners such as Hanes?",
+                "fa": "سرنخ برنده‌هایی مثل Hanes از کجا به دست Lynch رسید؟"
+              },
               "options": [
                 {
                   "en": "From ordinary life, not from Wall Street",
@@ -109,6 +113,10 @@
                 "en": "In Lynch's language, a tenbagger is a stock that has risen tenfold.",
                 "fa": "در زبان Lynch، tenbagger سهمی است که ده برابر شده است."
               },
+              "fare": {
+                "en": "If a stock bought at 10 climbs to 100, Lynch would call it a tenbagger.",
+                "fa": "اگر سهمی که ۱۰ خریده‌ای به ۱۰۰ برسد، Lynch به آن tenbagger می‌گوید."
+              },
               "answer": true
             },
             {
@@ -143,6 +151,10 @@
               "prompt": {
                 "en": "Which question is part of Lynch's mirror test?",
                 "fa": "کدام پرسش بخشی از آزمون آینهٔ Lynch است؟"
+              },
+              "fare": {
+                "en": "Before buying any stock at all, Lynch has you ask yourself which of these?",
+                "fa": "Lynch می‌خواهد پیش از خرید هر سهمی کدام را از خودت بپرسی؟"
               },
               "options": [
                 {
@@ -185,6 +197,10 @@
                 "en": "In the cocktail party theory, guests giving the fund manager stock tips can mean the market is near a top.",
                 "fa": "در نظریهٔ مهمانی کوکتل، توصیهٔ سهام دادن مهمان‌ها به مدیر صندوق می‌تواند یعنی بازار نزدیک سقف است."
               },
+              "fare": {
+                "en": "When the market may be near a top, the cocktail party theory has guests telling the fund manager which stocks to buy.",
+                "fa": "طبق نظریهٔ مهمانی کوکتل، وقتی بازار شاید نزدیک سقف است، مهمان‌ها به مدیر صندوق می‌گویند چه سهمی بخرد."
+              },
               "answer": true
             },
             {
@@ -211,6 +227,10 @@
               "prompt": {
                 "en": "What does investing in what you know really mean?",
                 "fa": "سرمایه‌گذاری روی چیزی که می‌شناسی واقعاً یعنی چه؟"
+              },
+              "fare": {
+                "en": "You love a tool your team pays for. What turns that into investing in what you know?",
+                "fa": "ابزاری را که تیمت برایش پول می‌دهد دوست داری. چه چیزی این را به سرمایه‌گذاری روی چیزی که می‌شناسی تبدیل می‌کند؟"
               },
               "options": [
                 {
@@ -272,18 +292,22 @@
                 "en": "Which are Lynch's six stock categories?",
                 "fa": "شش دستهٔ سهام Lynch کدام‌اند؟"
               },
+              "fare": {
+                "en": "Lynch sorts any company he finds into one of which set of kinds?",
+                "fa": "Lynch هر شرکتی را که پیدا می‌کند در یکی از کدام مجموعهٔ انواع جا می‌دهد؟"
+              },
               "options": [
                 {
                   "en": "Slow growers, stalwarts, fast growers, cyclicals, turnarounds and asset plays",
                   "fa": "رشد کند، استوارها، رشد سریع، چرخه‌ای، بازگشتی و دارایی‌محور"
                 },
                 {
-                  "en": "Tech, finance, energy, health, retail and utilities",
-                  "fa": "فناوری، مالی، انرژی، سلامت، خرده‌فروشی و خدمات عمومی"
+                  "en": "Technology, finance, energy, health care, retail and utility companies",
+                  "fa": "شرکت‌های فناوری، مالی، انرژی، سلامت، خرده‌فروشی و خدمات عمومی"
                 },
                 {
-                  "en": "Penny, blue chip, dividend, growth, value and momentum",
-                  "fa": "پنی، بلوچیپ، سود تقسیمی، رشدی، ارزشی و مومنتوم"
+                  "en": "Penny stocks, blue chips, dividend payers, growth stocks, value stocks and momentum plays",
+                  "fa": "سهام پنی، بلوچیپ، سود تقسیمی، سهام رشدی، سهام ارزشی و مومنتوم"
                 }
               ],
               "answer": 0
@@ -312,6 +336,10 @@
               "prompt": {
                 "en": "Lynch expects stalwarts to make you rich fast.",
                 "fa": "Lynch انتظار دارد استوارها سریع ثروتمندت کنند."
+              },
+              "fare": {
+                "en": "Lynch holds stalwarts because they are the quickest road to wealth.",
+                "fa": "Lynch استوارها را نگه می‌دارد چون سریع‌ترین راه ثروتمند شدن‌اند."
               },
               "answer": false
             },
@@ -347,6 +375,10 @@
               "prompt": {
                 "en": "In which category does Lynch say the tenbaggers are?",
                 "fa": "Lynch می‌گوید tenbaggerها در کدام دسته‌اند؟"
+              },
+              "fare": {
+                "en": "A stock that could rise tenfold is most likely found among which kind?",
+                "fa": "سهمی که می‌تواند ده برابر شود بیشتر در میان کدام نوع پیدا می‌شود؟"
               },
               "options": [
                 {
@@ -389,6 +421,10 @@
                 "en": "Lynch says a company stays in the same category for its whole life.",
                 "fa": "Lynch می‌گوید یک شرکت تمام عمرش در یک دسته می‌ماند."
               },
+              "fare": {
+                "en": "Once a fast grower, always a fast grower: Lynch says a company's category never changes.",
+                "fa": "Lynch می‌گوید دستهٔ یک شرکت هرگز عوض نمی‌شود: رشد سریع همیشه رشد سریع می‌ماند."
+              },
               "answer": false
             },
             {
@@ -415,6 +451,10 @@
               "prompt": {
                 "en": "Why name a stock's category before you buy?",
                 "fa": "چرا پیش از خرید باید دستهٔ سهم را نام ببری؟"
+              },
+              "fare": {
+                "en": "What is the point of labelling a stock with its kind before you own it?",
+                "fa": "فایدهٔ اینکه پیش از خریدن، نوع سهم را مشخص کنی چیست؟"
               },
               "options": [
                 {
@@ -476,18 +516,22 @@
                 "en": "What goes into the two-minute drill?",
                 "fa": "چه چیزی در تمرین دو دقیقه‌ای می‌آید؟"
               },
+              "fare": {
+                "en": "Which story should you be able to tell in two minutes before buying?",
+                "fa": "پیش از خرید باید بتوانی در دو دقیقه چه داستانی را تعریف کنی؟"
+              },
               "options": [
                 {
                   "en": "Why you want the stock, what has to happen for it to succeed and what could go wrong",
                   "fa": "چرا سهم را می‌خواهی، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود"
                 },
                 {
-                  "en": "The stock's price history and chart pattern",
-                  "fa": "تاریخچهٔ قیمت سهم و الگوی نمودارش"
+                  "en": "The stock's price history, its chart pattern and where analysts expect the price to go next",
+                  "fa": "تاریخچهٔ قیمت سهم، الگوی نمودارش و اینکه تحلیلگران انتظار دارند قیمت به کجا برود"
                 },
                 {
-                  "en": "What your colleagues think of the company",
-                  "fa": "نظر همکارانت دربارهٔ شرکت"
+                  "en": "What your colleagues, your friends and the financial press think of the company",
+                  "fa": "نظر همکارانت، دوستانت و رسانه‌های مالی دربارهٔ شرکت"
                 }
               ],
               "answer": 0
@@ -516,6 +560,10 @@
               "prompt": {
                 "en": "Lynch says the company itself is a poor source of facts, so rely on tips instead.",
                 "fa": "Lynch می‌گوید خود شرکت منبع ضعیفی برای واقعیت‌هاست، پس به توصیه‌ها تکیه کن."
+              },
+              "fare": {
+                "en": "For facts, Lynch trusts tips more than the annual report and a call to the company.",
+                "fa": "Lynch برای واقعیت‌ها به توصیه‌ها بیشتر از گزارش سالانه و تماس با شرکت اعتماد دارد."
               },
               "answer": false
             },
@@ -552,14 +600,18 @@
                 "en": "Which PE ratio does Lynch call fair?",
                 "fa": "Lynch کدام نسبت PE را منصفانه می‌داند؟"
               },
+              "fare": {
+                "en": "A company's PE is neither cheap nor expensive, in Lynch's view, when it is what?",
+                "fa": "از نگاه Lynch، PE یک شرکت وقتی نه ارزان است نه گران که چطور باشد؟"
+              },
               "options": [
                 {
                   "en": "About equal to the earnings growth rate",
                   "fa": "تقریباً برابر نرخ رشد سود"
                 },
                 {
-                  "en": "Always below 5, whatever the growth",
-                  "fa": "همیشه زیر ۵، رشد هر چه باشد"
+                  "en": "Always below 5, whatever the growth rate is",
+                  "fa": "همیشه زیر ۵، نرخ رشد هر چه باشد"
                 },
                 {
                   "en": "Double the market's average PE",
@@ -593,6 +645,10 @@
                 "en": "Lynch avoids companies that diworseify into businesses they do not understand.",
                 "fa": "Lynch از شرکت‌هایی که با diworseification وارد کسب‌وکارهای ناآشنا می‌شوند دوری می‌کند."
               },
+              "fare": {
+                "en": "A company expanding into businesses it does not understand is on Lynch's list of stocks to stay away from.",
+                "fa": "شرکتی که وارد کسب‌وکارهایی می‌شود که نمی‌فهمد در فهرست سهامی است که Lynch از آن‌ها دوری می‌کند."
+              },
               "answer": true
             },
             {
@@ -620,18 +676,22 @@
                 "en": "What does Lynch call selling your winners and keeping your losers?",
                 "fa": "Lynch فروختن برنده‌ها و نگه داشتن بازنده‌ها را چه می‌نامد؟"
               },
+              "fare": {
+                "en": "An investor dumps the stocks that rose and holds the ones that fell. Which image does Lynch use for this?",
+                "fa": "سرمایه‌گذاری سهام بالارفته را می‌فروشد و سهام افتاده را نگه می‌دارد. Lynch برای این کار چه تصویری به کار می‌برد؟"
+              },
               "options": [
                 {
                   "en": "Pulling out the flowers and watering the weeds",
                   "fa": "کندن گل‌ها و آب دادن به علف‌های هرز"
                 },
                 {
-                  "en": "Diworseification",
-                  "fa": "diworseification"
+                  "en": "The habit he calls diworseification",
+                  "fa": "عادتی که او diworseification می‌نامد"
                 },
                 {
-                  "en": "The cocktail party theory",
-                  "fa": "نظریهٔ مهمانی کوکتل"
+                  "en": "The cocktail party theory of markets",
+                  "fa": "نظریهٔ مهمانی کوکتل دربارهٔ بازار"
                 }
               ],
               "answer": 0
@@ -680,18 +740,22 @@
                 "en": "How many stocks does Lynch say you should own?",
                 "fa": "Lynch می‌گوید چند سهم باید داشته باشی؟"
               },
+              "fare": {
+                "en": "By Lynch's rule, how long should your list of holdings be?",
+                "fa": "طبق قاعدهٔ Lynch، فهرست سهام تو چند قلم باید باشد؟"
+              },
               "options": [
                 {
                   "en": "As many as there are companies where you have an edge and did the research",
                   "fa": "به تعداد شرکت‌هایی که در آن‌ها مزیت داری و تحقیق کرده‌ای"
                 },
                 {
-                  "en": "Always exactly fifty, to spread the risk",
-                  "fa": "همیشه دقیقاً پنجاه سهم، برای پخش کردن ریسک"
+                  "en": "Always exactly fifty, to spread the risk across every industry and every country",
+                  "fa": "همیشه دقیقاً پنجاه سهم، برای پخش کردن ریسک میان همهٔ صنایع و کشورها"
                 },
                 {
-                  "en": "Only one, so you can watch it closely",
-                  "fa": "فقط یکی، تا بتوانی از نزدیک زیر نظرش بگیری"
+                  "en": "Only one, so you can watch it closely and learn everything about it",
+                  "fa": "فقط یکی، تا بتوانی از نزدیک زیر نظرش بگیری و همه‌چیز را درباره‌اش بدانی"
                 }
               ],
               "answer": 0
@@ -720,6 +784,10 @@
               "prompt": {
                 "en": "Lynch says market collapses and corrections can be good times to buy fine companies.",
                 "fa": "Lynch می‌گوید سقوط‌ها و اصلاح‌های بازار می‌توانند زمان خوبی برای خرید شرکت‌های خوب باشند."
+              },
+              "fare": {
+                "en": "When the market corrects or collapses, Lynch sees fine companies going on sale.",
+                "fa": "وقتی بازار اصلاح می‌کند یا سقوط می‌کند، Lynch شرکت‌های خوب را در حراج می‌بیند."
               },
               "answer": true
             },
@@ -755,6 +823,10 @@
               "prompt": {
                 "en": "What does Lynch say about a stock that costs only three dollars a share?",
                 "fa": "Lynch دربارهٔ سهمی که فقط سه دلار می‌ارزد چه می‌گوید؟"
+              },
+              "fare": {
+                "en": "Someone says: at three dollars a share, what can I lose? What is Lynch's reply?",
+                "fa": "کسی می‌گوید: سهمی سه دلار است، چه چیزی از دست می‌دهم؟ پاسخ Lynch چیست؟"
               },
               "options": [
                 {
@@ -797,6 +869,10 @@
                 "en": "Lynch says fallen stocks eventually always come back.",
                 "fa": "Lynch می‌گوید سهام افتاده بالاخره همیشه برمی‌گردند."
               },
+              "fare": {
+                "en": "According to Lynch, every company whose stock has collapsed recovers if you wait long enough.",
+                "fa": "به گفتهٔ Lynch، هر شرکتی که سهمش سقوط کرده اگر به اندازهٔ کافی صبر کنی احیا می‌شود."
+              },
               "answer": false
             },
             {
@@ -824,14 +900,18 @@
                 "en": "According to Lynch, what tells you whether you own a good company?",
                 "fa": "به گفتهٔ Lynch، چه چیزی نشان می‌دهد شرکت خوبی داری یا نه؟"
               },
+              "fare": {
+                "en": "What does Lynch rely on to judge the quality of a company he holds?",
+                "fa": "Lynch برای سنجیدن کیفیت شرکتی که دارد به چه چیزی تکیه می‌کند؟"
+              },
               "options": [
                 {
                   "en": "The company's results, not the price",
                   "fa": "نتایج شرکت، نه قیمت"
                 },
                 {
-                  "en": "The daily stock quote",
-                  "fa": "قیمت روزانهٔ سهم"
+                  "en": "The stock quote you check every day",
+                  "fa": "قیمت سهم که هر روز نگاهش می‌کنی"
                 },
                 {
                   "en": "How many people talk about it at parties",

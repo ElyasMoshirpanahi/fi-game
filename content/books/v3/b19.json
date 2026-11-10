@@ -68,18 +68,22 @@
                 "en": "What does Thiel mean by going from 1 to n?",
                 "fa": "منظور Thiel از رفتن از ۱ به n چیست؟"
               },
+              "fare": {
+                "en": "A founder clones a proven business in a new city. In Thiel's terms, what kind of move is that?",
+                "fa": "بنیان‌گذاری کسب‌وکاری جاافتاده را در شهری دیگر تکرار می‌کند. به زبان Thiel این چه نوع حرکتی است؟"
+              },
               "options": [
                 {
                   "en": "Copying what works, horizontal progress",
                   "fa": "کپی کردن چیزی که کار می‌کند، پیشرفت افقی"
                 },
                 {
-                  "en": "Inventing a new technology",
-                  "fa": "اختراع یک فناوری نو"
+                  "en": "Inventing a brand-new technology from nothing",
+                  "fa": "اختراع یک فناوری کاملاً نو از هیچ"
                 },
                 {
-                  "en": "Shrinking a company to one product",
-                  "fa": "کوچک کردن شرکت به یک محصول"
+                  "en": "Shrinking a company down to one single product",
+                  "fa": "کوچک کردن شرکت تا فقط یک محصول"
                 }
               ],
               "answer": 0
@@ -109,6 +113,10 @@
                 "en": "Thiel's single word for vertical progress is globalization.",
                 "fa": "کلمهٔ Thiel برای پیشرفت عمودی، جهانی‌سازی است."
               },
+              "fare": {
+                "en": "Thiel calls horizontal progress technology.",
+                "fa": "Thiel پیشرفت افقی را «فناوری» می‌نامد."
+              },
               "answer": false
             },
             {
@@ -136,9 +144,13 @@
                 "en": "What is the business version of the contrarian question?",
                 "fa": "نسخهٔ کسب‌وکاری سؤال خلاف‌جریان چیست؟"
               },
+              "fare": {
+                "en": "Thiel turns his interview question into one a founder can use. Which one is it?",
+                "fa": "Thiel سؤال مصاحبه‌اش را به شکلی درمی‌آورد که به کار بنیان‌گذار بیاید. آن شکل کدام است؟"
+              },
               "options": [
                 {
-                  "en": "Which market is growing fastest?",
+                  "en": "Which market is growing the fastest of them all?",
                   "fa": "کدام بازار سریع‌تر از همه رشد می‌کند؟"
                 },
                 {
@@ -146,8 +158,8 @@
                   "fa": "کدام شرکت ارزشمند را هیچ‌کس نمی‌سازد؟"
                 },
                 {
-                  "en": "Which competitor can we beat on price?",
-                  "fa": "کدام رقیب را می‌توانیم در قیمت شکست دهیم؟"
+                  "en": "Which competitor can we beat on price alone?",
+                  "fa": "کدام رقیب را می‌توانیم فقط در قیمت شکست دهیم؟"
                 }
               ],
               "answer": 1
@@ -176,6 +188,10 @@
               "prompt": {
                 "en": "Thiel agrees that small incremental steps with no fixed plan are the wisest path.",
                 "fa": "Thiel قبول دارد که گام‌های کوچک تدریجی بدون برنامهٔ مشخص عاقلانه‌ترین راه است."
+              },
+              "fare": {
+                "en": "For Thiel, having no plan is safer than having a bad plan, and trivial steps beat bold ones.",
+                "fa": "از نگاه Thiel، بی‌برنامگی از برنامهٔ بد امن‌تر است و گام‌های پیش‌پاافتاده بر جسارت می‌چربد."
               },
               "answer": false
             },
@@ -212,6 +228,10 @@
                 "en": "Applied to your AI product, what does it mean if ten tools already do it?",
                 "fa": "روی محصول AI تو، اگر ده ابزار از قبل همان کار را بکنند یعنی چه؟"
               },
+              "fare": {
+                "en": "Your idea matches what a crowd of existing tools already offers. Which kind of move are you making?",
+                "fa": "ایده‌ات همان چیزی است که انبوهی از ابزارهای موجود عرضه می‌کنند. این چه نوع حرکتی است؟"
+              },
               "options": [
                 {
                   "en": "You are going from 0 to 1",
@@ -222,8 +242,8 @@
                   "fa": "داری از ۱ به n می‌روی"
                 },
                 {
-                  "en": "You have found a secret",
-                  "fa": "یک راز پیدا کرده‌ای"
+                  "en": "You have found a hidden secret",
+                  "fa": "یک راز پنهان پیدا کرده‌ای"
                 }
               ],
               "answer": 1
@@ -272,6 +292,10 @@
                 "en": "Under perfect competition, companies keep large economic profits.",
                 "fa": "در رقابت کامل، شرکت‌ها سود اقتصادی بزرگی نگه می‌دارند."
               },
+              "fare": {
+                "en": "A firm in a perfectly competitive market can expect a healthy economic profit year after year.",
+                "fa": "شرکتی که در بازار رقابت کامل است می‌تواند سال به سال سود اقتصادی خوبی ببرد."
+              },
               "answer": false
             },
             {
@@ -298,6 +322,10 @@
               "prompt": {
                 "en": "Per Thiel, what happened while Microsoft and Google fought each other?",
                 "fa": "به گفتهٔ Thiel، وقتی Microsoft و Google با هم می‌جنگیدند چه شد؟"
+              },
+              "fare": {
+                "en": "Which outcome does Thiel use to show the cost of two giants fixating on each other?",
+                "fa": "Thiel با کدام پیامد نشان می‌دهد خیره شدن دو غول به یکدیگر چه بهایی دارد؟"
               },
               "options": [
                 {
@@ -340,14 +368,18 @@
                 "en": "How much better should proprietary technology be than its closest substitute?",
                 "fa": "فناوری اختصاصی باید چقدر از نزدیک‌ترین جایگزین بهتر باشد؟"
               },
+              "fare": {
+                "en": "What gap over the nearest alternative makes a technology count as proprietary for Thiel?",
+                "fa": "از نگاه Thiel، فناوری با چه فاصله‌ای از نزدیک‌ترین گزینهٔ مشابه، اختصاصی به حساب می‌آید؟"
+              },
               "options": [
                 {
                   "en": "About 2x better",
                   "fa": "حدود ۲ برابر بهتر"
                 },
                 {
-                  "en": "Equal, but cheaper",
-                  "fa": "برابر، اما ارزان‌تر"
+                  "en": "Equal, but much cheaper",
+                  "fa": "برابر، اما بسیار ارزان‌تر"
                 },
                 {
                   "en": "At least 10x better",
@@ -380,6 +412,10 @@
               "prompt": {
                 "en": "Thiel says network-effect businesses should start with very small markets.",
                 "fa": "Thiel می‌گوید کسب‌وکارهای دارای اثر شبکه‌ای باید با بازارهای بسیار کوچک شروع کنند."
+              },
+              "fare": {
+                "en": "Facebook beginning with Harvard students fits Thiel's rule that a network-effect business starts in a tiny market.",
+                "fa": "شروع Facebook با دانشجویان Harvard با این قاعدهٔ Thiel جور است که کسب‌وکار متکی بر اثر شبکه‌ای از بازاری خیلی کوچک آغاز می‌شود."
               },
               "answer": true
             },
@@ -415,6 +451,10 @@
               "prompt": {
                 "en": "What does Thiel advise after you dominate a small market?",
                 "fa": "Thiel بعد از تسلط بر یک بازار کوچک چه توصیه‌ای دارد؟"
+              },
+              "fare": {
+                "en": "Amazon owned books first. Which next step does Thiel draw from that story?",
+                "fa": "Amazon اول بازار کتاب را گرفت. Thiel از این داستان چه گام بعدی‌ای بیرون می‌کشد؟"
               },
               "options": [
                 {
@@ -476,6 +516,10 @@
                 "en": "Thiel says to invest only in companies that could return the whole fund.",
                 "fa": "Thiel می‌گوید فقط در شرکت‌هایی سرمایه‌گذاری کن که بتوانند کل صندوق را برگردانند."
               },
+              "fare": {
+                "en": "By Thiel's rule, a company that could never pay back the entire fund is not worth investing in.",
+                "fa": "طبق قاعدهٔ Thiel، شرکتی که هرگز نتواند کل صندوق را جبران کند ارزش سرمایه‌گذاری ندارد."
+              },
               "answer": true
             },
             {
@@ -503,18 +547,22 @@
                 "en": "Following the power law, how should you size a satellite bet?",
                 "fa": "طبق قانون توان، اندازهٔ هر شرط satellite را چطور بگیری؟"
               },
+              "fare": {
+                "en": "One or two satellite bets may carry the rest, and most may fail. How big may each one be?",
+                "fa": "شاید یکی‌دو شرط satellite بار بقیه را بکشند و بیشترشان ببازند. پس هر شرط چقدر می‌تواند بزرگ باشد؟"
+              },
               "options": [
                 {
-                  "en": "Equal to your yearly expenses",
-                  "fa": "برابر با خرج سالانه‌ات"
+                  "en": "Equal to the whole of your yearly living expenses",
+                  "fa": "برابر با کل خرج سالانهٔ زندگی‌ات"
                 },
                 {
                   "en": "So losing it does not touch your index core",
                   "fa": "آن‌قدر که از دست رفتنش به هستهٔ شاخصی‌ات دست نزند"
                 },
                 {
-                  "en": "The same size as the index core",
-                  "fa": "هم‌اندازهٔ هستهٔ شاخصی"
+                  "en": "Exactly the same size as your whole index core",
+                  "fa": "دقیقاً هم‌اندازهٔ کل هستهٔ شاخصی‌ات"
                 }
               ],
               "answer": 1
@@ -552,18 +600,22 @@
                 "en": "Per Thiel, what are secrets?",
                 "fa": "به گفتهٔ Thiel، رازها چه هستند؟"
               },
+              "fare": {
+                "en": "Between easy conventions and impossible mysteries, how does Thiel describe secrets?",
+                "fa": "میان قراردادهای آسان و معماهای ناممکن، Thiel رازها را چطور توصیف می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Hard but doable",
                   "fa": "سخت اما شدنی"
                 },
                 {
-                  "en": "Things everyone already knows",
-                  "fa": "چیزهایی که همه از قبل می‌دانند"
+                  "en": "Known to everyone",
+                  "fa": "همه از قبل می‌دانند"
                 },
                 {
-                  "en": "Things that are impossible to know",
-                  "fa": "چیزهایی که دانستنشان ناممکن است"
+                  "en": "Impossible to know",
+                  "fa": "دانستنشان ناممکن است"
                 }
               ],
               "answer": 0
@@ -592,6 +644,10 @@
               "prompt": {
                 "en": "Thiel says most cleantech companies crashed because they answered all seven questions well.",
                 "fa": "Thiel می‌گوید بیشتر شرکت‌های cleantech سقوط کردند چون به هر هفت سؤال جواب خوب دادند."
+              },
+              "fare": {
+                "en": "According to Thiel, cleantech companies mostly failed even though none of the seven questions was neglected.",
+                "fa": "به گفتهٔ Thiel، بیشتر شرکت‌های cleantech با اینکه هیچ‌کدام از هفت سؤال را نادیده نگرفتند شکست خوردند."
               },
               "answer": false
             },
@@ -627,6 +683,10 @@
               "prompt": {
                 "en": "Which of the seven questions asks if your position will be defensible 10 and 20 years out?",
                 "fa": "کدام‌یک از هفت سؤال می‌پرسد آیا جایگاهت ۱۰ و ۲۰ سال بعد قابل دفاع است؟"
+              },
+              "fare": {
+                "en": "A founder wonders whether rivals could push her out of her market two decades from now. Which of the seven questions is that?",
+                "fa": "بنیان‌گذاری از خودش می‌پرسد آیا دو دهه بعد هم کسی نمی‌تواند او را از بازارش بیرون کند. این کدام‌یک از هفت سؤال است؟"
               },
               "options": [
                 {
@@ -688,6 +748,10 @@
                 "en": "Thiel's law says a broken foundation can be fixed later with enough effort.",
                 "fa": "قانون Thiel می‌گوید پایهٔ خراب را بعداً با تلاش کافی می‌شود درست کرد."
               },
+              "fare": {
+                "en": "Under Thiel's law, mistakes in a startup's first choices of partners and ownership are easy to repair down the road.",
+                "fa": "طبق قانون Thiel، خطا در انتخاب‌های اولیهٔ استارتاپ مثل شریک و مالکیت را بعدها به‌راحتی می‌شود جبران کرد."
+              },
               "answer": false
             },
             {
@@ -715,13 +779,17 @@
                 "en": "What does Thiel say about startup CEO pay?",
                 "fa": "Thiel دربارهٔ حقوق مدیرعامل استارتاپ چه می‌گوید؟"
               },
+              "fare": {
+                "en": "An early-stage, venture-backed startup is setting its chief executive's salary. Which rule does Thiel give?",
+                "fa": "استارتاپی نوپا با سرمایهٔ خطرپذیر می‌خواهد حقوق مدیرعاملش را تعیین کند. قاعدهٔ Thiel کدام است؟"
+              },
               "options": [
                 {
                   "en": "No more than 150,000 dollars a year",
                   "fa": "نه بیش از ۱۵۰ هزار دلار در سال"
                 },
                 {
-                  "en": "Match the pay of big-company CEOs",
+                  "en": "Match the pay of CEOs at big companies",
                   "fa": "هم‌اندازهٔ حقوق مدیرعامل شرکت‌های بزرگ"
                 },
                 {
@@ -755,6 +823,10 @@
               "prompt": {
                 "en": "According to Thiel, what should draw a recruit to join?",
                 "fa": "به گفتهٔ Thiel، چه چیزی باید نیروی تازه را جذب کند؟"
+              },
+              "fare": {
+                "en": "Your 20th hire could have gone to a bigger company. Which reason for choosing you counts as a good answer?",
+                "fa": "کارمند بیستم می‌توانست به شرکتی بزرگ‌تر برود. کدام دلیل برای انتخاب تو جواب خوبی است؟"
               },
               "options": [
                 {
@@ -797,6 +869,10 @@
                 "en": "Thiel believes a great product will sell itself.",
                 "fa": "Thiel باور دارد محصول عالی خودش را می‌فروشد."
               },
+              "fare": {
+                "en": "For Thiel, a company with an excellent product has no need to worry about sales.",
+                "fa": "از نگاه Thiel، شرکتی که محصول درجه‌یک دارد لازم نیست نگران فروش باشد."
+              },
               "answer": false
             },
             {
@@ -831,6 +907,10 @@
               "prompt": {
                 "en": "What should you write before you finish building your AI product?",
                 "fa": "پیش از تمام شدن ساخت محصول AI چه چیزی را باید بنویسی؟"
+              },
+              "fare": {
+                "en": "Who pays, how they hear about you, and what one customer costs to win: which document holds these answers?",
+                "fa": "چه کسی پول می‌دهد، چطور از تو باخبر می‌شود و جذب هر مشتری چقدر خرج دارد: این جواب‌ها در کدام نوشته می‌آیند؟"
               },
               "options": [
                 {

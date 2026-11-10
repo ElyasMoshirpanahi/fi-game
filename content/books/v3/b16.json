@@ -68,6 +68,10 @@
                 "en": "The book says customer conversations give honest data by default.",
                 "fa": "کتاب می‌گوید گفتگو با مشتری به‌طور پیش‌فرض دادهٔ صادقانه می‌دهد."
               },
+              "fare": {
+                "en": "According to Rob, you can trust what customers tell you unless something goes wrong in the talk.",
+                "fa": "به گفتهٔ Rob، حرف مشتری قابل اعتماد است مگر اینکه در گفتگو اتفاق خاصی بیفتد."
+              },
               "answer": false
             },
             {
@@ -95,14 +99,18 @@
                 "en": "What is rule 1 of the Mom Test?",
                 "fa": "قاعدهٔ ۱ در The Mom Test چیست؟"
               },
+              "fare": {
+                "en": "To get facts rather than kindness, what does the first rule tell you to do?",
+                "fa": "برای گرفتن واقعیت به‌جای مهربانی، قاعدهٔ اول چه کاری از تو می‌خواهد؟"
+              },
               "options": [
                 {
                   "en": "Talk about their life instead of your idea",
                   "fa": "دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت"
                 },
                 {
-                  "en": "Explain your idea clearly before asking",
-                  "fa": "پیش از پرسیدن، ایده‌ات را واضح توضیح بده"
+                  "en": "Explain your idea clearly before asking anything",
+                  "fa": "پیش از هر پرسشی، ایده‌ات را واضح توضیح بده"
                 },
                 {
                   "en": "Ask what they think of your idea",
@@ -144,10 +152,14 @@
                 "en": "Which habit is rule 3?",
                 "fa": "کدام عادت قاعدهٔ ۳ است؟"
               },
+              "fare": {
+                "en": "You notice you are steering the other person. Which rule fixes that?",
+                "fa": "می‌بینی داری طرف مقابل را به سمت دلخواهت هل می‌دهی. کدام قاعده این را درست می‌کند؟"
+              },
               "options": [
                 {
-                  "en": "Prepare a stronger pitch",
-                  "fa": "یک pitch قوی‌تر آماده کن"
+                  "en": "Prepare a stronger pitch first",
+                  "fa": "اول یک pitch قوی‌تر آماده کن"
                 },
                 {
                   "en": "Talk less and listen more",
@@ -193,10 +205,14 @@
                 "en": "When does a question pass the Mom Test?",
                 "fa": "یک سؤال کی از The Mom Test می‌گذرد؟"
               },
+              "fare": {
+                "en": "At what point does a question meet the standard of the Mom Test?",
+                "fa": "چه زمانی می‌توان گفت سؤالی معیار The Mom Test را دارد؟"
+              },
               "options": [
                 {
-                  "en": "When the person agrees with your idea",
-                  "fa": "وقتی طرف با ایده‌ات موافق است"
+                  "en": "When the person fully agrees with your idea",
+                  "fa": "وقتی طرف کاملاً با ایده‌ات موافق است"
                 },
                 {
                   "en": "When you ask it in a formal meeting",
@@ -225,6 +241,10 @@
               "prompt": {
                 "en": "The applied advice is to code the product first and ask people afterwards.",
                 "fa": "توصیهٔ کاربردی این است که اول محصول را کد بزنی و بعد از مردم بپرسی."
+              },
+              "fare": {
+                "en": "For your AI product, the Lesson suggests building for months and only then holding customer talks.",
+                "fa": "برای محصول AI تو، درس پیشنهاد می‌کند ماه‌ها بسازی و تازه بعد سراغ گفتگو با مشتری بروی."
               },
               "answer": false
             }
@@ -272,6 +292,10 @@
                 "en": "The book calls 'Do you think it's a good idea?' a good question.",
                 "fa": "کتاب «فکر می‌کنی ایدهٔ خوبی است؟» را سؤال خوبی می‌داند."
               },
+              "fare": {
+                "en": "Asking people whether your idea is good is a reliable way to find out, according to the book.",
+                "fa": "به گفتهٔ کتاب، پرسیدن از مردم که ایده‌ات خوب است یا نه راه مطمئنی برای فهمیدنش است."
+              },
               "answer": false
             },
             {
@@ -298,6 +322,10 @@
               "prompt": {
                 "en": "How does the book treat answers about the future?",
                 "fa": "کتاب با پاسخ‌های مربوط به آینده چطور برخورد می‌کند؟"
+              },
+              "fare": {
+                "en": "Someone tells you what they will do next year. How does the book see that statement?",
+                "fa": "کسی می‌گوید سال آینده چه خواهد کرد. کتاب این حرف را چطور می‌بیند؟"
               },
               "options": [
                 {
@@ -348,18 +376,22 @@
                 "en": "What does 'Why do you bother?' uncover?",
                 "fa": "سؤال «چرا به خودت زحمت می‌دهی؟» چه چیزی را آشکار می‌کند؟"
               },
+              "fare": {
+                "en": "Asking 'Why do you bother?' takes you past what people think they want, toward what?",
+                "fa": "پرسیدن «چرا به خودت زحمت می‌دهی؟» تو را از آنچه مردم فکر می‌کنند می‌خواهند به کجا می‌رساند؟"
+              },
               "options": [
                 {
-                  "en": "What price they will pay",
-                  "fa": "اینکه چه قیمتی می‌پردازند"
+                  "en": "What they will pay",
+                  "fa": "اینکه چقدر می‌پردازند"
                 },
                 {
                   "en": "Why they want it",
                   "fa": "اینکه چرا آن را می‌خواهند"
                 },
                 {
-                  "en": "Which features to build next",
-                  "fa": "اینکه بعداً کدام ویژگی را بسازی"
+                  "en": "Which features to build",
+                  "fa": "اینکه کدام ویژگی را بسازی"
                 }
               ],
               "answer": 1
@@ -397,6 +429,10 @@
                 "en": "If someone has never looked for a solution, the book expects them to buy yours.",
                 "fa": "اگر کسی هرگز دنبال راه‌حل نگشته، کتاب انتظار دارد راه‌حل تو را بخرد."
               },
+              "fare": {
+                "en": "People who have done nothing about a problem so far are still likely buyers, the book says.",
+                "fa": "کتاب می‌گوید کسانی که تا حالا برای مشکلشان کاری نکرده‌اند باز هم خریدار احتمالی‌اند."
+              },
               "answer": false
             },
             {
@@ -416,14 +452,18 @@
                 "en": "Which of these is a good closing question in the book?",
                 "fa": "کدام‌یک از این‌ها در کتاب سؤال پایانی خوبی است؟"
               },
+              "fare": {
+                "en": "Near the end of a talk, which question does the book list among the good ones?",
+                "fa": "در پایان گفتگو، کتاب کدام سؤال را در فهرست سؤال‌های خوب آورده است؟"
+              },
               "options": [
                 {
-                  "en": "Would you buy it today?",
-                  "fa": "امروز آن را می‌خری؟"
+                  "en": "Would you buy it from me today?",
+                  "fa": "امروز آن را از من می‌خری؟"
                 },
                 {
-                  "en": "Do you like my idea?",
-                  "fa": "ایده‌ام را دوست داری؟"
+                  "en": "Do you like my idea so far?",
+                  "fa": "تا اینجا ایده‌ام را دوست داری؟"
                 },
                 {
                   "en": "Who else should I talk to?",
@@ -467,6 +507,10 @@
               "prompt": {
                 "en": "Which three types of bad data does the book name?",
                 "fa": "کتاب کدام سه نوع دادهٔ بد را نام می‌برد؟"
+              },
+              "fare": {
+                "en": "Which group of things feels like learning but, in the book's words, is bad data?",
+                "fa": "کدام دسته حس یادگیری می‌دهد اما به گفتهٔ کتاب دادهٔ بد است؟"
               },
               "options": [
                 {
@@ -517,6 +561,10 @@
                 "en": "The book calls compliments the fool's gold of customer learning.",
                 "fa": "کتاب تعریف‌ها را طلای تقلبی یادگیری از مشتری می‌نامد."
               },
+              "fare": {
+                "en": "In the book's view, praise from customers looks shiny but is worth nothing.",
+                "fa": "از نگاه کتاب، تعریف مشتری براق به نظر می‌رسد اما هیچ ارزشی ندارد."
+              },
               "answer": true
             },
             {
@@ -543,6 +591,10 @@
               "prompt": {
                 "en": "How do you anchor fluff?",
                 "fa": "حرف توخالی را چطور لنگر می‌اندازی؟"
+              },
+              "fare": {
+                "en": "Someone says 'I usually do that'. What does the book tell you to do next?",
+                "fa": "کسی می‌گوید «معمولاً این کار را می‌کنم». کتاب می‌گوید بعدش چه کنی؟"
               },
               "options": [
                 {
@@ -585,6 +637,10 @@
                 "en": "The book says feature requests should be built as soon as you hear them.",
                 "fa": "کتاب می‌گوید درخواست‌های ویژگی را باید به محض شنیدن ساخت."
               },
+              "fare": {
+                "en": "When a customer asks for a feature, the book's rule is to obey the request.",
+                "fa": "وقتی مشتری ویژگی‌ای می‌خواهد، قاعدهٔ کتاب این است که از درخواستش اطاعت کنی."
+              },
               "answer": false
             },
             {
@@ -620,10 +676,14 @@
                 "en": "In the applied advice, what counts as evidence?",
                 "fa": "در توصیهٔ کاربردی، چه چیزی شاهد به حساب می‌آید؟"
               },
+              "fare": {
+                "en": "Which of these is real proof that people want your AI product?",
+                "fa": "کدام‌یک مدرک واقعی است که مردم محصول AI تو را می‌خواهند؟"
+              },
               "options": [
                 {
-                  "en": "Friends saying they love it",
-                  "fa": "دوستانی که می‌گویند عاشقش هستند"
+                  "en": "Friends saying they really love it",
+                  "fa": "دوستانی که می‌گویند واقعاً عاشقش هستند"
                 },
                 {
                   "en": "Promises to try it later",
@@ -681,6 +741,10 @@
                 "en": "The book says every conversation should include a question that scares you.",
                 "fa": "کتاب می‌گوید هر گفتگو باید سؤالی داشته باشد که تو را بترساند."
               },
+              "fare": {
+                "en": "By the book's rule, a talk in which no question frightens you is missing something.",
+                "fa": "طبق قاعدهٔ کتاب، گفتگویی که هیچ سؤالش تو را نترساند چیزی کم دارد."
+              },
               "answer": true
             },
             {
@@ -707,6 +771,10 @@
               "prompt": {
                 "en": "How does the book want you to treat bad news?",
                 "fa": "کتاب می‌خواهد با خبر بد چطور برخورد کنی؟"
+              },
+              "fare": {
+                "en": "You learn early that your idea is wrong. What response does the book ask for?",
+                "fa": "زود می‌فهمی ایده‌ات اشتباه است. کتاب چه واکنشی از تو می‌خواهد؟"
               },
               "options": [
                 {
@@ -757,18 +825,22 @@
                 "en": "What does 'look before you zoom' advise?",
                 "fa": "«پیش از زوم کردن نگاه کن» چه توصیه‌ای دارد؟"
               },
+              "fare": {
+                "en": "How should you approach a problem you have not yet confirmed as a must-solve one?",
+                "fa": "با مشکلی که هنوز مطمئن نیستی حتماً باید حل شود، چطور باید پیش بروی؟"
+              },
               "options": [
                 {
-                  "en": "Zoom in on features right away",
-                  "fa": "فوراً روی ویژگی‌ها زوم کن"
+                  "en": "Zoom in on features right away, before any signal",
+                  "fa": "فوراً و پیش از هر نشانه‌ای روی ویژگی‌ها زوم کن"
                 },
                 {
                   "en": "Start broad and zoom in after a strong signal",
                   "fa": "از دید کلی شروع کن و بعد از نشانهٔ قوی زوم کن"
                 },
                 {
-                  "en": "Ask only about price",
-                  "fa": "فقط دربارهٔ قیمت بپرس"
+                  "en": "Ask only about price and skip the wider problems",
+                  "fa": "فقط دربارهٔ قیمت بپرس و از مشکلات کلی‌تر بگذر"
                 }
               ],
               "answer": 1
@@ -789,6 +861,10 @@
               "prompt": {
                 "en": "The book says any problem someone agrees with is worth building for.",
                 "fa": "کتاب می‌گوید هر مشکلی که کسی تأییدش کند ارزش ساختن محصول دارد."
+              },
+              "fare": {
+                "en": "Getting someone to agree that a small problem exists proves it is among their top worries.",
+                "fa": "اینکه کسی وجود یک مشکل کوچک را تأیید کند ثابت می‌کند آن مشکل جزو نگرانی‌های اصلی اوست."
               },
               "answer": false
             },
@@ -816,6 +892,10 @@
               "prompt": {
                 "en": "How many big questions does the book say to pre-plan?",
                 "fa": "کتاب می‌گوید چند سؤال بزرگ را از قبل برنامه‌ریزی کنی؟"
+              },
+              "fare": {
+                "en": "For each type of person, the book wants a list of the most important things to learn. How long is that list?",
+                "fa": "کتاب می‌خواهد برای هر نوع آدم فهرستی از مهم‌ترین چیزهایی که باید یاد بگیری داشته باشی. این فهرست چند مورد دارد؟"
               },
               "options": [
                 {
@@ -893,6 +973,10 @@
                 "en": "The book says a meeting with no clear next step can still be a success.",
                 "fa": "کتاب می‌گوید جلسه‌ای بدون قدم بعدی روشن هم می‌تواند موفق باشد."
               },
+              "fare": {
+                "en": "A product meeting was worthwhile, the book says, even if you leave not knowing what happens next.",
+                "fa": "کتاب می‌گوید جلسهٔ محصول ارزشش را داشته، حتی اگر ندانی بعدش چه می‌شود."
+              },
               "answer": false
             },
             {
@@ -912,6 +996,10 @@
                 "en": "What are the three currencies of commitment?",
                 "fa": "سه واحد پول تعهد کدام‌اند؟"
               },
+              "fare": {
+                "en": "People show commitment by giving up something they value. Which three things does the book list?",
+                "fa": "مردم با فدا کردن چیزی ارزشمند تعهد نشان می‌دهند. کتاب کدام سه چیز را فهرست می‌کند؟"
+              },
               "options": [
                 {
                   "en": "Time, reputation risk and cash",
@@ -922,8 +1010,8 @@
                   "fa": "تعریف، لایک و اشتراک‌گذاری"
                 },
                 {
-                  "en": "Emails, calls and slides",
-                  "fa": "ایمیل، تماس و اسلاید"
+                  "en": "Emails, phone calls and slide decks",
+                  "fa": "ایمیل، تماس تلفنی و اسلاید"
                 }
               ],
               "answer": 0
@@ -961,9 +1049,13 @@
                 "en": "Which of these is a cash commitment?",
                 "fa": "کدام‌یک تعهد نقدی است؟"
               },
+              "fare": {
+                "en": "Which of these puts money behind a customer's words?",
+                "fa": "کدام‌یک پول را پشت حرف مشتری می‌گذارد؟"
+              },
               "options": [
                 {
-                  "en": "A compliment on the design",
+                  "en": "A design compliment",
                   "fa": "تعریف از طراحی"
                 },
                 {
@@ -971,8 +1063,8 @@
                   "fa": "یک پیش‌سفارش"
                 },
                 {
-                  "en": "A promise to think about it",
-                  "fa": "قول فکر کردن به آن"
+                  "en": "A promise to think",
+                  "fa": "قول فکر کردن"
                 }
               ],
               "answer": 1
@@ -1010,6 +1102,10 @@
                 "en": "Kind words count for more when the person is giving up more.",
                 "fa": "حرف‌های محبت‌آمیز وقتی طرف بیشتر فدا می‌کند ارزش بیشتری دارند."
               },
+              "fare": {
+                "en": "The less someone gives up, the less seriously you can take their praise.",
+                "fa": "هرچه کسی کمتر فدا کند، تعریفش را کمتر می‌توان جدی گرفت."
+              },
               "answer": true
             },
             {
@@ -1037,10 +1133,14 @@
                 "en": "In the applied example, what tells you more than fifty friends' praise?",
                 "fa": "در مثال کاربردی، چه چیزی بیش از تعریف پنجاه دوست به تو می‌گوید؟"
               },
+              "fare": {
+                "en": "Which signal about your AI product is stronger than a room full of friends saying they'd use it?",
+                "fa": "کدام نشانه دربارهٔ محصول AI تو از یک اتاق پر از دوست که می‌گویند از آن استفاده می‌کنند قوی‌تر است؟"
+              },
               "options": [
                 {
-                  "en": "A hundred likes on a post",
-                  "fa": "صد لایک روی یک پست"
+                  "en": "A hundred likes on a launch post",
+                  "fa": "صد لایک روی پست معرفی محصول"
                 },
                 {
                   "en": "A friend's promise to share it",
@@ -1097,18 +1197,22 @@
                 "en": "Which sign marks an early evangelist?",
                 "fa": "کدام نشانه یک مبلغ اولیه را مشخص می‌کند؟"
               },
+              "fare": {
+                "en": "What is true of a customer who may commit before your product is ready?",
+                "fa": "دربارهٔ مشتری‌ای که ممکن است پیش از آماده شدن محصولت متعهد شود چه چیزی درست است؟"
+              },
               "options": [
                 {
                   "en": "Already cobbled together their own solution",
                   "fa": "از قبل راه‌حل خودش را سرهم کرده"
                 },
                 {
-                  "en": "Has never noticed the problem",
-                  "fa": "هرگز متوجه مشکل نشده"
+                  "en": "Has never noticed the problem in their work",
+                  "fa": "هرگز در کارش متوجه مشکل نشده"
                 },
                 {
-                  "en": "Mostly likes your logo",
-                  "fa": "بیشتر لوگوی تو را دوست دارد"
+                  "en": "Mostly likes your logo and your brand name",
+                  "fa": "بیشتر لوگو و نام برندت را دوست دارد"
                 }
               ],
               "answer": 0
@@ -1138,6 +1242,10 @@
                 "en": "The book says the real goal of early-stage sales is learning.",
                 "fa": "کتاب می‌گوید هدف واقعی فروش در مراحل اولیه یادگیری است."
               },
+              "fare": {
+                "en": "In early-stage sales, the book treats revenue as a side effect rather than the main aim.",
+                "fa": "در فروش مراحل اولیه، کتاب درآمد را اثر جانبی می‌داند، نه هدف اصلی."
+              },
               "answer": true
             },
             {
@@ -1164,6 +1272,10 @@
               "prompt": {
                 "en": "Which is a typical next step to ask for?",
                 "fa": "کدام یک قدم بعدی رایج برای درخواست است؟"
+              },
+              "fare": {
+                "en": "At the end of a meeting, which request would count as a commitment from the book's list?",
+                "fa": "در پایان جلسه، کدام درخواست از فهرست تعهدهای کتاب به حساب می‌آید؟"
               },
               "options": [
                 {
@@ -1197,6 +1309,10 @@
               "prompt": {
                 "en": "If someone refuses every next step, you learn nothing.",
                 "fa": "اگر کسی هر قدم بعدی را رد کند، چیزی یاد نمی‌گیری."
+              },
+              "fare": {
+                "en": "A person who turns down every ask has given you no useful information.",
+                "fa": "کسی که همهٔ درخواست‌هایت را رد می‌کند هیچ اطلاعات مفیدی به تو نداده است."
               },
               "answer": false
             },
@@ -1232,6 +1348,10 @@
               "prompt": {
                 "en": "What does advancement mean?",
                 "fa": "پیشروی یعنی چه؟"
+              },
+              "fare": {
+                "en": "Going from a first talk to a trial, then to a paid pilot, is an example of what?",
+                "fa": "رفتن از اولین گفتگو به آزمایش و بعد به pilot پولی نمونه‌ای از چیست؟"
               },
               "options": [
                 {
@@ -1302,6 +1422,10 @@
                 "en": "The book says cold conversations are the best long-term channel.",
                 "fa": "کتاب می‌گوید گفتگوی سرد بهترین کانال بلندمدت است."
               },
+              "fare": {
+                "en": "The book's aim is for you to keep relying on cold conversations for as long as you can.",
+                "fa": "هدف کتاب این است که تا می‌توانی به گفتگوهای سرد تکیه کنی."
+              },
               "answer": false
             },
             {
@@ -1328,6 +1452,10 @@
               "prompt": {
                 "en": "What does seizing serendipity mean?",
                 "fa": "استفاده از تصادف یعنی چه؟"
+              },
+              "fare": {
+                "en": "You happen to meet a possible customer at a party. What does the book suggest?",
+                "fa": "اتفاقی در یک مهمانی با یک مشتری احتمالی روبه‌رو می‌شوی. کتاب چه پیشنهادی دارد؟"
               },
               "options": [
                 {
@@ -1378,18 +1506,22 @@
                 "en": "Why does organising your own meetup help?",
                 "fa": "چرا برگزاری meetup خودت کمک می‌کند؟"
               },
+              "fare": {
+                "en": "What advantage do you gain by running a meetup about your customers' problem?",
+                "fa": "با برگزاری یک meetup دربارهٔ مشکل مشتری‌هایت چه امتیازی به دست می‌آوری؟"
+              },
               "options": [
                 {
-                  "en": "They always buy on the night",
-                  "fa": "همیشه همان شب خرید می‌کنند"
+                  "en": "Guests at your own event always buy on the same night",
+                  "fa": "مهمان‌های رویداد خودت همیشه همان شب خرید می‌کنند"
                 },
                 {
                   "en": "The organiser is at the centre and seen as credible",
                   "fa": "برگزارکننده در مرکز توجه است و معتبر دیده می‌شود"
                 },
                 {
-                  "en": "They never need follow-up",
-                  "fa": "هرگز به پیگیری نیاز ندارند"
+                  "en": "People you meet there never need any follow-up",
+                  "fa": "کسانی که آنجا می‌بینی هرگز به پیگیری نیاز ندارند"
                 }
               ],
               "answer": 1
@@ -1410,6 +1542,10 @@
               "prompt": {
                 "en": "Teaching about a problem can bring the right people to you.",
                 "fa": "آموزش دادن دربارهٔ یک مشکل می‌تواند آدم‌های درست را سمت تو بیاورد."
+              },
+              "fare": {
+                "en": "Sharing what you know about a problem draws in people who care about it.",
+                "fa": "گفتن دانسته‌هایت دربارهٔ یک مشکل، کسانی را که برایشان مهم است جذب می‌کند."
               },
               "answer": true
             },
@@ -1445,6 +1581,10 @@
               "prompt": {
                 "en": "What still applies however you find people?",
                 "fa": "مردم را هر طور پیدا کنی، چه چیزی همچنان برقرار است؟"
+              },
+              "fare": {
+                "en": "A warm intro lands you an easy meeting. What do you still need to keep the data good?",
+                "fa": "یک معرفی گرم جلسه‌ای راحت برایت جور می‌کند. برای اینکه داده خوب بماند هنوز به چه چیزی نیاز داری؟"
               },
               "options": [
                 {
@@ -1506,6 +1646,10 @@
                 "en": "The book says startups usually fail from having too few options.",
                 "fa": "کتاب می‌گوید استارتاپ‌ها معمولاً به خاطر گزینه‌های کم شکست می‌خورند."
               },
+              "fare": {
+                "en": "In the chapter's saying, startups starve for lack of possible customers.",
+                "fa": "طبق گفتهٔ فصل، استارتاپ‌ها از کمبود مشتری احتمالی گرسنه می‌مانند."
+              },
               "answer": false
             },
             {
@@ -1533,14 +1677,18 @@
                 "en": "What sign shows your segment is too broad?",
                 "fa": "چه نشانه‌ای می‌گوید بخش مشتری‌ات زیادی گسترده است؟"
               },
+              "fare": {
+                "en": "What tells you to keep narrowing down who your customer is?",
+                "fa": "چه چیزی نشان می‌دهد هنوز باید مشتری‌ات را دقیق‌تر مشخص کنی؟"
+              },
               "options": [
                 {
-                  "en": "Everyone gives the same answer",
-                  "fa": "همه یک جواب می‌دهند"
+                  "en": "Everyone you talk to gives exactly the same answer",
+                  "fa": "هر کس که با او حرف می‌زنی دقیقاً یک جواب می‌دهد"
                 },
                 {
-                  "en": "People ask about the price",
-                  "fa": "مردم دربارهٔ قیمت می‌پرسند"
+                  "en": "People keep asking about the price in every talk",
+                  "fa": "مردم در هر گفتگو مدام دربارهٔ قیمت می‌پرسند"
                 },
                 {
                   "en": "You aren't finding consistent problems and goals",
@@ -1582,6 +1730,10 @@
                 "en": "What does a good customer segment look like?",
                 "fa": "یک بخش مشتری خوب چه شکلی است؟"
               },
+              "fare": {
+                "en": "What should customer slicing leave you with?",
+                "fa": "برش مشتری در نهایت باید چه چیزی به دستت بدهد؟"
+              },
               "options": [
                 {
                   "en": "A who-where pair",
@@ -1592,8 +1744,8 @@
                   "fa": "یک عدد بزرگ اندازهٔ بازار"
                 },
                 {
-                  "en": "An age range and a country",
-                  "fa": "یک بازهٔ سنی و یک کشور"
+                  "en": "An age range and country",
+                  "fa": "یک بازهٔ سنی و کشور"
                 }
               ],
               "answer": 0
@@ -1623,6 +1775,10 @@
                 "en": "Overlooking some stakeholders in a complicated business purchase is one way of talking to the wrong people.",
                 "fa": "نادیده گرفتن بعضی ذی‌نفعان در خرید پیچیدهٔ یک کسب‌وکار یکی از شکل‌های حرف زدن با آدم اشتباه است."
               },
+              "fare": {
+                "en": "In a complicated business purchase, missing some of the people involved means you talked to the wrong people.",
+                "fa": "در خرید پیچیدهٔ یک کسب‌وکار، جا انداختن بعضی از افراد دخیل یعنی با آدم‌های اشتباه حرف زده‌ای."
+              },
               "answer": true
             },
             {
@@ -1650,10 +1806,14 @@
                 "en": "Is a narrow first segment permanent?",
                 "fa": "آیا بخش باریک اولیه همیشگی است؟"
               },
+              "fare": {
+                "en": "Do you have to stay with the small group you started with?",
+                "fa": "آیا باید برای همیشه با همان گروه کوچکی که شروع کردی بمانی؟"
+              },
               "options": [
                 {
-                  "en": "Yes, you can never change it",
-                  "fa": "بله، هرگز نمی‌توانی عوضش کنی"
+                  "en": "Yes, once you pick it you can never change it",
+                  "fa": "بله، وقتی انتخابش کردی هرگز نمی‌توانی عوضش کنی"
                 },
                 {
                   "en": "No: win one group, then expand to the next",
@@ -1710,6 +1870,10 @@
                 "en": "The book says you can skip deciding what to learn and just chat.",
                 "fa": "کتاب می‌گوید می‌توانی تعیین هدف یادگیری را کنار بگذاری و فقط گپ بزنی."
               },
+              "fare": {
+                "en": "A conversation is worth having, the book says, even when you have no idea what you want to learn.",
+                "fa": "کتاب می‌گوید گفتگو ارزشش را دارد، حتی وقتی نمی‌دانی می‌خواهی چه یاد بگیری."
+              },
               "answer": false
             },
             {
@@ -1745,14 +1909,18 @@
                 "en": "What should you learn before the talk?",
                 "fa": "پیش از گفتگو چه چیزی را باید یاد بگیری؟"
               },
+              "fare": {
+                "en": "Which homework belongs before the meeting, so the time goes to what only they know?",
+                "fa": "کدام تکلیف مال پیش از جلسه است تا وقت صرف چیزی شود که فقط خودشان می‌دانند؟"
+              },
               "options": [
                 {
-                  "en": "Nothing, so the talk stays fresh",
-                  "fa": "هیچ چیز، تا گفتگو تازه بماند"
+                  "en": "Nothing at all, so the talk stays fresh and open",
+                  "fa": "اصلاً هیچ چیز، تا گفتگو تازه و باز بماند"
                 },
                 {
-                  "en": "Only their exact salary",
-                  "fa": "فقط حقوق دقیقشان"
+                  "en": "Only their exact salary and job title",
+                  "fa": "فقط حقوق دقیق و عنوان شغلی‌شان"
                 },
                 {
                   "en": "Anything you can learn from their website",
@@ -1777,6 +1945,10 @@
               "prompt": {
                 "en": "The book says notes are useless if you never look at them.",
                 "fa": "کتاب می‌گوید یادداشت‌ها اگر هرگز نگاهشان نکنی بی‌فایده‌اند."
+              },
+              "fare": {
+                "en": "Taking notes only pays off, in the book's view, when you review them afterwards.",
+                "fa": "از نگاه کتاب، یادداشت‌برداری فقط وقتی فایده دارد که بعداً مرورشان کنی."
               },
               "answer": true
             },
@@ -1813,18 +1985,22 @@
                 "en": "What happens when one founder does all the talks?",
                 "fa": "وقتی یک بنیان‌گذار همهٔ گفتگوها را انجام می‌دهد چه می‌شود؟"
               },
+              "fare": {
+                "en": "What is the risk if only one person on the team talks to customers?",
+                "fa": "اگر فقط یک نفر از تیم با مشتری‌ها حرف بزند چه خطری دارد؟"
+              },
               "options": [
                 {
                   "en": "The learning gets stuck in one head",
                   "fa": "یادگیری در یک ذهن گیر می‌کند"
                 },
                 {
-                  "en": "The team learns faster",
-                  "fa": "تیم سریع‌تر یاد می‌گیرد"
+                  "en": "The whole team learns much faster",
+                  "fa": "کل تیم خیلی سریع‌تر یاد می‌گیرد"
                 },
                 {
-                  "en": "Customers trust the company more",
-                  "fa": "مشتری‌ها بیشتر به شرکت اعتماد می‌کنند"
+                  "en": "Customers trust the company far more",
+                  "fa": "مشتری‌ها خیلی بیشتر به شرکت اعتماد می‌کنند"
                 }
               ],
               "answer": 0
@@ -1854,6 +2030,10 @@
                 "en": "How long should you keep having conversations?",
                 "fa": "تا کی باید به گفتگو ادامه بدهی؟"
               },
+              "fare": {
+                "en": "Up to what point do you stay on the same question or segment?",
+                "fa": "تا چه زمانی روی همان سؤال یا بخش می‌مانی؟"
+              },
               "options": [
                 {
                   "en": "Until the first friendly yes",
@@ -1864,7 +2044,7 @@
                   "fa": "تا وقتی دیگر چیز تازه‌ای نشنوی"
                 },
                 {
-                  "en": "Until you have ten compliments",
+                  "en": "Until you have collected ten compliments",
                   "fa": "تا وقتی ده تعریف جمع کنی"
                 }
               ],
@@ -1886,6 +2066,10 @@
               "prompt": {
                 "en": "Put the steps of the process in order.",
                 "fa": "مراحل فرایند را به ترتیب بچین."
+              },
+              "fare": {
+                "en": "Arrange one round of the cycle from first step to last.",
+                "fa": "یک دور از چرخه را از قدم اول تا آخر مرتب کن."
               },
               "options": [
                 {

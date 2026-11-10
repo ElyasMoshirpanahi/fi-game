@@ -68,18 +68,22 @@
                 "en": "What is the basic requirement of production?",
                 "fa": "نیاز پایه‌ای تولید چیست؟"
               },
+              "fare": {
+                "en": "A kitchen has done its basic job as a producer when it manages to do what?",
+                "fa": "یک آشپزخانه وقتی کار پایه‌ای‌اش را در مقام تولیدکننده انجام داده که از پسِ چه چیزی برآمده باشد؟"
+              },
               "options": [
                 {
                   "en": "Deliver at the scheduled time, acceptable quality, lowest possible cost",
                   "fa": "تحویل سر زمانِ برنامه، با کیفیت قابل‌قبول و کمترین هزینهٔ ممکن"
                 },
                 {
-                  "en": "Make as many products as the machines allow",
-                  "fa": "ساختن هر تعداد محصولی که ماشین‌ها اجازه می‌دهند"
+                  "en": "Make as many products as the machines allow, whatever the customers ordered",
+                  "fa": "ساختن هر تعداد محصولی که ماشین‌ها اجازه می‌دهند، فارغ از سفارش مشتری‌ها"
                 },
                 {
-                  "en": "Use the best ingredients whatever the price",
-                  "fa": "استفاده از بهترین مواد اولیه به هر قیمتی"
+                  "en": "Use the best ingredients whatever the price, even if delivery runs late",
+                  "fa": "استفاده از بهترین مواد اولیه به هر قیمتی، حتی اگر تحویل دیر شود"
                 }
               ],
               "answer": 0
@@ -109,6 +113,10 @@
                 "en": "In the breakfast factory, the toast is the limiting step.",
                 "fa": "در کارخانهٔ صبحانه، نان تست مرحلهٔ محدودکننده است."
               },
+              "fare": {
+                "en": "The cook should start the toast first, because the toast takes longest to prepare.",
+                "fa": "آشپز باید اول سراغ نان تست برود، چون آماده شدن تست از همه بیشتر طول می‌کشد."
+              },
               "answer": false
             },
             {
@@ -135,6 +143,10 @@
               "prompt": {
                 "en": "Where should a problem be fixed, by Grove's rule?",
                 "fa": "طبق قاعدهٔ Grove، مشکل را کجا باید رفع کرد؟"
+              },
+              "fare": {
+                "en": "A bad egg slips into the kitchen. At which point does Grove want it caught and dealt with?",
+                "fa": "تخم‌مرغ خرابی وارد آشپزخانه شده است. Grove می‌خواهد در چه نقطه‌ای جلویش گرفته شود؟"
               },
               "options": [
                 {
@@ -177,6 +189,10 @@
                 "en": "Grove pairs indicators so that over-reacting to one measure shows up in the other.",
                 "fa": "Grove شاخص‌ها را جفت می‌کند تا واکنش افراطی به یک شاخص در دیگری دیده شود."
               },
+              "fare": {
+                "en": "Tracking inventory levels together with the rate of shortages is how Grove catches the counter-effect of a single measure.",
+                "fa": "دنبال کردن سطح موجودی انبار در کنار نرخ کمبود، روش Grove برای دیدن اثر معکوسِ یک سنجهٔ تنها است."
+              },
               "answer": true
             },
             {
@@ -212,6 +228,10 @@
                 "en": "In the applied roadmap, what do you schedule the rest around?",
                 "fa": "در نقشهٔ راهِ کاربردی، بقیهٔ کارها را حول چه چیزی می‌چینی؟"
               },
+              "fare": {
+                "en": "In the applied roadmap, which thing sets the timing for everything else?",
+                "fa": "در نقشهٔ راهِ کاربردی، چه چیزی زمان‌بندی همهٔ کارهای دیگر را تعیین می‌کند؟"
+              },
               "options": [
                 {
                   "en": "The limiting step",
@@ -222,8 +242,8 @@
                   "fa": "آسان‌ترین کار روز"
                 },
                 {
-                  "en": "Whatever the broker app shows that morning",
-                  "fa": "هر چه اپ کارگزاری آن روز صبح نشان دهد"
+                  "en": "The broker app each morning",
+                  "fa": "آنچه اپ کارگزاری هر صبح نشان می‌دهد"
                 }
               ],
               "answer": 0
@@ -264,18 +284,22 @@
                 "en": "What is a manager's output, in Grove's equation?",
                 "fa": "در معادلهٔ Grove، خروجی مدیر چیست؟"
               },
+              "fare": {
+                "en": "By Grove's equation, which measure tells you how much a manager has produced?",
+                "fa": "با معادلهٔ Grove، کدام سنجه نشان می‌دهد یک مدیر چقدر تولید کرده است؟"
+              },
               "options": [
                 {
                   "en": "The output of their organization plus neighbouring organizations under their influence",
                   "fa": "خروجی سازمانش به‌علاوهٔ سازمان‌های همسایهٔ زیر نفوذش"
                 },
                 {
-                  "en": "The hours they personally work each week",
-                  "fa": "ساعت‌هایی که خودش هر هفته کار می‌کند"
+                  "en": "The hours they personally put in each week, including evenings and weekends",
+                  "fa": "ساعت‌هایی که خودش هر هفته کار می‌کند، با احتساب عصرها و آخر هفته‌ها"
                 },
                 {
-                  "en": "The number of tasks they finish themselves",
-                  "fa": "تعداد کارهایی که خودش تمام می‌کند"
+                  "en": "The number of tasks they personally finish themselves, with no help from anyone on their team",
+                  "fa": "تعداد کارهایی که خودش شخصاً و بدون کمک هیچ‌کس از تیمش تمام می‌کند"
                 }
               ],
               "answer": 0
@@ -313,6 +337,10 @@
                 "en": "Grove says a manager's leverage can never be negative.",
                 "fa": "Grove می‌گوید اهرم مدیر هرگز منفی نمی‌شود."
               },
+              "fare": {
+                "en": "According to Grove, meddling in a subordinate's work or putting off a decision leaves the team's output untouched.",
+                "fa": "به گفتهٔ Grove، دخالت در کار زیردست یا عقب انداختن یک تصمیم هیچ اثری بر خروجی تیم ندارد."
+              },
               "answer": false
             },
             {
@@ -339,6 +367,10 @@
               "prompt": {
                 "en": "What does Grove call meetings?",
                 "fa": "Grove جلسه‌ها را چه می‌نامد؟"
+              },
+              "fare": {
+                "en": "How does Grove describe the place of meetings in a manager's job?",
+                "fa": "Grove جایگاه جلسه را در کار یک مدیر چطور توصیف می‌کند؟"
               },
               "options": [
                 {
@@ -389,6 +421,10 @@
                 "en": "In a one-on-one, the subordinate sets the agenda.",
                 "fa": "در جلسهٔ یک‌به‌یک، زیردست دستور جلسه را تعیین می‌کند."
               },
+              "fare": {
+                "en": "It is not the manager who decides what a one-on-one covers; that is the subordinate's job.",
+                "fa": "اینکه در جلسهٔ یک‌به‌یک دربارهٔ چه صحبت شود را مدیر مشخص نمی‌کند؛ این کارِ زیردست است."
+              },
               "answer": true
             },
             {
@@ -415,6 +451,10 @@
               "prompt": {
                 "en": "Put Grove's decision-making stages in order",
                 "fa": "مراحل تصمیم‌گیری Grove را به ترتیب بچین"
+              },
+              "fare": {
+                "en": "Arrange the three steps of a good decision, from first to last, as Grove describes them",
+                "fa": "سه گامِ یک تصمیم خوب را، آن‌طور که Grove می‌گوید، از اول تا آخر مرتب کن"
               },
               "options": [
                 {
@@ -480,6 +520,10 @@
                 "en": "Which two questions does Grove's MBO ask?",
                 "fa": "MBO از نگاه Grove کدام دو پرسش را می‌پرسد؟"
               },
+              "fare": {
+                "en": "A manager using Grove's MBO sets an objective and key results. Which pair of questions do these answer?",
+                "fa": "مدیری که MBO را به شیوهٔ Grove به کار می‌برد یک هدف و چند نتیجهٔ کلیدی می‌نویسد. این‌ها پاسخ کدام جفت پرسش‌اند؟"
+              },
               "options": [
                 {
                   "en": "Where do I want to go, and how will I pace myself?",
@@ -490,8 +534,8 @@
                   "fa": "بودجه‌ام چقدر است، و چه کسی تأییدش می‌کند؟"
                 },
                 {
-                  "en": "What went wrong last year, and who was to blame?",
-                  "fa": "پارسال چه اشتباهی شد، و مقصر که بود؟"
+                  "en": "What went wrong last year, and who was to blame for it?",
+                  "fa": "پارسال چه اشتباهی شد، و مقصرِ آن که بود؟"
                 }
               ],
               "answer": 0
@@ -521,6 +565,10 @@
                 "en": "Grove says MBO key results need checking only once a year.",
                 "fa": "Grove می‌گوید نتایج کلیدی MBO را فقط سالی یک بار باید بررسی کرد."
               },
+              "fare": {
+                "en": "Under Grove's MBO, someone who plans year by year can wait until the year ends for feedback on key results.",
+                "fa": "در MBO به روایت Grove، کسی که سال‌به‌سال برنامه می‌ریزد می‌تواند برای بازخوردِ نتایج کلیدی تا پایان سال صبر کند."
+              },
               "answer": false
             },
             {
@@ -547,6 +595,10 @@
               "prompt": {
                 "en": "Which management style fits low task-relevant maturity?",
                 "fa": "کدام سبک مدیریت با بلوغ مرتبط با کارِ پایین جور است؟"
+              },
+              "fare": {
+                "en": "A strong engineer takes on a task they have never done before. Which style does Grove recommend for managing them?",
+                "fa": "یک مهندس قوی کاری را برمی‌دارد که تا حالا انجام نداده است. Grove برای مدیریت او کدام سبک را پیشنهاد می‌کند؟"
               },
               "options": [
                 {
@@ -589,6 +641,10 @@
                 "en": "Grove traces poor performance to either lack of capability or lack of motivation.",
                 "fa": "Grove ضعف عملکرد را به کمبود توانایی یا کمبود انگیزه برمی‌گرداند."
               },
+              "fare": {
+                "en": "When someone is not doing their job, Grove sees just two possible causes: they cannot do it, or they lack the drive to.",
+                "fa": "وقتی کسی کارش را انجام نمی‌دهد، Grove تنها دو علت ممکن می‌بیند: یا از پسش برنمی‌آید، یا انگیزه‌اش را ندارد."
+              },
               "answer": true
             },
             {
@@ -624,18 +680,22 @@
                 "en": "In the applied roadmap, what is the one objective?",
                 "fa": "در نقشهٔ راهِ کاربردی، آن یک هدف چیست؟"
               },
+              "fare": {
+                "en": "Which single target does the applied roadmap put at the top, with measurable key results beneath it?",
+                "fa": "نقشهٔ راهِ کاربردی کدام مقصدِ واحد را در رأس می‌گذارد و نتایج کلیدی قابل‌اندازه‌گیری را زیر آن؟"
+              },
               "options": [
                 {
                   "en": "€100 of ownership income from a small AI product",
                   "fa": "۱۰۰ یورو درآمد مالکیتی از یک محصول کوچک AI"
                 },
                 {
-                  "en": "Reading two books every month",
-                  "fa": "خواندن دو کتاب در هر ماه"
+                  "en": "Reading two books every month for a whole year",
+                  "fa": "خواندن دو کتاب در هر ماه به مدت یک سال کامل"
                 },
                 {
-                  "en": "A higher salary in the Netherlands",
-                  "fa": "حقوق بالاتر در هلند"
+                  "en": "A higher salary from an employer in the Netherlands",
+                  "fa": "حقوق بالاتر از یک کارفرما در هلند"
                 }
               ],
               "answer": 0
@@ -684,6 +744,10 @@
                 "en": "What does a functional organisation gain, by Grove's account?",
                 "fa": "از نگاه Grove، سازمان کارکردی چه چیزی به دست می‌آورد؟"
               },
+              "fare": {
+                "en": "A company puts all its engineers in one shared group. What is the benefit, according to Grove?",
+                "fa": "شرکتی همهٔ مهندسانش را در یک گروه مشترک جمع می‌کند. به گفتهٔ Grove فایده‌اش چیست؟"
+              },
               "options": [
                 {
                   "en": "Economies of scale and deep expertise",
@@ -725,6 +789,10 @@
                 "en": "Under dual reporting, a manager reports to two supervisors.",
                 "fa": "در گزارش‌دهی دوگانه، یک مدیر به دو سرپرست گزارش می‌دهد."
               },
+              "fare": {
+                "en": "Intel's plant security staff, answering both to the plant manager and to a corporate security manager, are an example of dual reporting.",
+                "fa": "کارکنان حراست کارخانهٔ Intel که هم به مدیر کارخانه و هم به مدیر حراست مرکزی پاسخ می‌دهند، نمونه‌ای از گزارش‌دهی دوگانه‌اند."
+              },
               "answer": true
             },
             {
@@ -759,6 +827,10 @@
               "prompt": {
                 "en": "What do the letters of Grove's CUA factor stand for?",
                 "fa": "حروف عامل CUA در نگاه Grove نماینده‌ٔ چیست؟"
+              },
+              "fare": {
+                "en": "Grove says the right mode of control depends on a task's CUA factor. Which three qualities does that name?",
+                "fa": "Grove می‌گوید شیوهٔ درستِ کنترل به عامل CUA کار بستگی دارد. این نام به کدام سه ویژگی اشاره می‌کند؟"
               },
               "options": [
                 {
@@ -801,6 +873,10 @@
                 "en": "Grove says cultural values govern best when complexity, uncertainty and ambiguity are low.",
                 "fa": "Grove می‌گوید ارزش‌های فرهنگی وقتی بهتر حاکم‌اند که پیچیدگی، عدم قطعیت و ابهام پایین باشد."
               },
+              "fare": {
+                "en": "By Grove's account, shared cultural values matter least when a task is highly complex, uncertain and ambiguous.",
+                "fa": "به روایت Grove، ارزش‌های فرهنگی مشترک وقتی کمترین اهمیت را دارند که کار بسیار پیچیده، نامطمئن و مبهم باشد."
+              },
               "answer": false
             },
             {
@@ -827,6 +903,10 @@
               "prompt": {
                 "en": "In the applied roadmap, which mode of control are the cap table and vesting?",
                 "fa": "در نقشهٔ راه کاربردی، cap table و vesting کدام شیوهٔ کنترل‌اند؟"
+              },
+              "fare": {
+                "en": "In the applied roadmap, a startup relies on written terms about who owns what and when. Which mode of control is that?",
+                "fa": "در نقشهٔ راه کاربردی، استارتاپ به سندهای مکتوبی تکیه می‌کند که می‌گویند چه کسی، چه وقت، مالک چه چیزی است. این کدام شیوهٔ کنترل است؟"
               },
               "options": [
                 {
