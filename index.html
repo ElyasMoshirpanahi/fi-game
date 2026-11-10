@@ -769,6 +769,31 @@ FI.engine = (() => {
   });
 
   const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+
+  // ---- Shape of saved progress. A saved document or a backup is foreign text: every durable key is
+  // checked before it reaches state, so a damaged or hostile file can neither crash render nor inject markup.
+  const isMap = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
+  const isCount = (v) => typeof v === 'number' && Number.isFinite(v) && v >= 0;
+  const isFlag = (v) => typeof v === 'boolean';
+  const isText = (v) => typeof v === 'string';
+  const mapOf = (ok) => (v) => isMap(v) && Object.values(v).every(ok);
+  const listOf = (ok) => (v) => Array.isArray(v) && v.every(ok);
+  const isPair = (v) => isMap(v) && isText(v.en) && isText(v.fa);
+  const isCheck = (k) => k === null || (isMap(k) && isText(k.id) && ['tap', 'tf', 'order'].includes(k.type) && isPair(k.prompt)
+    && (k.options === null || listOf(isPair)(k.options)) && (isFlag(k.answer) || isCount(k.answer) || listOf(isCount)(k.answer)));
+  const SHAPE = {
+    mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount,
+    awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
+    run: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos)),
+    checklists: mapOf(listOf(isFlag)), journal: mapOf(isText), habits: mapOf(listOf(isFlag)), habitsWeek: isText,
+    shelf: mapOf(isText), sliders: mapOf(isCount),
+    bookmarks: listOf((b) => isMap(b) && isText(b.stationId) && isText(b.cardId) && (b.text === undefined || isPair(b.text))),
+    deck: mapOf((e) => isMap(e) && isText(e.stationId) && isText(e.cardId) && isPair(e.text) && isCheck(e.check) && isCount(e.box) && isCount(e.due) && isFlag(e.missed) && isFlag(e.marked)),
+    reviewed: (v) => v === null || (isMap(v) && isCount(v.day) && isCount(v.n)),
+    lastBackup: (v) => v === null || Number.isInteger(v),
+  };
+  // The durable keys of `data` whose value has the wrong shape.
+  const badKeys = (data) => (isMap(data) ? Object.keys(SHAPE).filter((k) => data[k] !== undefined && !SHAPE[k](data[k])) : []);
   const checksOf = (content, stationId) => content.station(stationId).items.filter((i) => i.kind === 'check');
   const queueReturn = (s, cardId) => { if (!s.returns.includes(cardId)) s.returns.push(cardId); };
 
@@ -806,7 +831,7 @@ FI.engine = (() => {
   // Every bookmark belongs in the Deck, including bookmarks saved before Review existed.
   function backfill(s, content) {
     for (const mark of s.bookmarks) {
-      if (!s.deck[mark.cardId]) s.deck[mark.cardId] = newEntry(s, mark.stationId, mark.cardId, mark.text);
+      if (!s.deck[mark.cardId]) s.deck[mark.cardId] = newEntry(s, mark.stationId, mark.cardId, mark.text || { en: '', fa: '' });
       s.deck[mark.cardId].marked = true;
       refresh(s, content, mark.cardId);
     }
@@ -912,17 +937,16 @@ FI.engine = (() => {
       case 'TOGGLE_MUTE':
         s.muted = !s.muted; return s;
       case 'HYDRATE': {
-        const d = action.value || {};
+        const d = isMap(action.value) ? JSON.parse(JSON.stringify(action.value)) : {};
+        const bad = badKeys(d);
         for (const k of DURABLE) {
-          if (d[k] === undefined || k === 'run') continue;
+          if (d[k] === undefined || k === 'run' || bad.includes(k)) continue;
           if (k === 'sliders' || k === 'checklists') s[k] = { ...s[k], ...d[k] }; else s[k] = d[k];
         }
         if (!MODES.includes(s.mode)) s.mode = 'EN';
-        if (!s.deck || typeof s.deck !== 'object' || Array.isArray(s.deck)) s.deck = {};
-        if (!Array.isArray(s.bookmarks)) s.bookmarks = [];
         migrateLegacy(s, content);
         // Resume at the saved position (owner decision after the Prompt 0 play-test). Returns and Fare are not resumed.
-        if (d.run && !LEGACY_BOOK.test(d.run.stationId) && content.station(d.run.stationId) && content.station(d.run.stationId).items) {
+        if (d.run && !bad.includes('run') && !LEGACY_BOOK.test(d.run.stationId) && content.station(d.run.stationId) && content.station(d.run.stationId).items) {
           const st = content.station(d.run.stationId);
           const pos = Math.max(0, Math.min(st.items.length, d.run.pos | 0));
           leave(s);
@@ -957,6 +981,7 @@ FI.engine = (() => {
         // Replace progress with a parsed backup; the same HYDRATE path applies the same migrations.
         const fresh = initial(); fresh.today = s.today;
         const out = reduce(fresh, { type: 'HYDRATE', value: action.value }, content);
+        out.lastBackup = s.today; // the file just restored is a backup of exactly this progress
         out.events = ['restored'];
         return out;
       }
@@ -1120,14 +1145,21 @@ FI.engine = (() => {
     }
   }
 
-  const backupAge = (s) => (Number.isInteger(s.lastBackup) ? s.today - s.lastBackup : null);
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupAge };
+  // When to remind the player to back up: 'never' once there is progress and no backup, 'old' after BACKUP_STALE_DAYS.
+  const BACKUP_STALE_DAYS = 14;
+  const backupNudge = (s) => (!Number.isInteger(s.lastBackup) ? (s.xp > 0 || s.coins > 0 ? 'never' : null) : s.today - s.lastBackup > BACKUP_STALE_DAYS ? 'old' : null);
+  // What a backup holds once restored (after the same migrations), for the summary shown before replacing.
+  const preview = (data, content) => {
+    const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
+    return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length };
+  };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys };
 })();
 </script>
 
 <script data-module="store">
 // ---------------------------------------------------------------------------
-// store: persistence behind three calls. One key, fi-roadmap-v1 (ADR-0003).
+// store: persistence and the backup file. One key, fi-roadmap-v1 (ADR-0003).
 // Every read and write swallows errors so the game runs with storage disabled.
 // Storage is injected: window.localStorage in the page, fakes in tests.
 // ---------------------------------------------------------------------------
@@ -1171,14 +1203,17 @@ FI.store = (() => {
   // The export date is supplied by the caller; the store never reads the clock.
   const APP = 'fi-roadmap', FORMAT = 1;
   const backup = (state, exported) => JSON.stringify({ app: APP, format: FORMAT, exported, data: { v: VERSION, ...durable(state) } });
+  // Reasons a text is refused: 'not-json', 'not-backup' (another app or no data), 'newer-format', 'damaged' (a value has the wrong shape).
   const parseBackup = (text) => {
     let doc;
     try { doc = JSON.parse(text); } catch (e) { return { ok: false, reason: 'not-json' }; }
-    if (!doc || typeof doc !== 'object' || Array.isArray(doc) || doc.app !== APP || !doc.data || typeof doc.data !== 'object') return { ok: false, reason: 'not-backup' };
-    if (!(doc.format <= FORMAT)) return { ok: false, reason: 'newer-format' };
+    const isMap = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
+    if (!isMap(doc) || doc.app !== APP || !isMap(doc.data) || !Number.isInteger(doc.format) || doc.format < 1) return { ok: false, reason: 'not-backup' };
+    if (doc.format > FORMAT) return { ok: false, reason: 'newer-format' };
     if (doc.data.v !== VERSION) return { ok: false, reason: 'not-backup' };
     const data = pick(doc.data);
-    return { ok: true, data, summary: { exported: doc.exported || '', xp: data.xp || 0, coins: data.coins || 0, lit: Object.keys(data.lit || {}).filter((k) => data.lit[k]).length, deck: Object.keys(data.deck || {}).length } };
+    if (FI.engine.badKeys(data).length) return { ok: false, reason: 'damaged' };
+    return { ok: true, data, exported: /^\d{4}-\d{2}-\d{2}$/.test(doc.exported) ? doc.exported : '' };
   };
 
   const clear = (storage) => { try { storage.removeItem(KEY); return true; } catch (e) { return false; } };
@@ -1257,7 +1292,7 @@ FI.render = (() => {
     const mode = (m, label) => `<button ${A({ type: 'SET_MODE', value: m })} aria-pressed="${s.mode === m}">${label}</button>`;
     return `<header class="top">
       <div class="modes" role="group" aria-label="${t('language', s.mode)}">${mode('EN', t('modeEN', s.mode))}${mode('FA', t('modeFA', s.mode))}${mode('BOTH', t('modeBoth', s.mode))}</div>
-      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${s.xp}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
+      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Number(s.xp) || 0}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
       <span class="xpnum" aria-hidden="true">${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
       <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span>${s.events.includes('coin') && !ui.coinShown ? `<span class="plus" aria-hidden="true">+${num(1, s.mode)}</span>` : ''}</span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
@@ -1326,16 +1361,22 @@ FI.render = (() => {
       <span class="planned">${num(done, s.mode)}/${num(c.lessons.length, s.mode)} ${t('lessons', s.mode)} · ${t('approx', s.mode)}${num(c.minutes, s.mode)} ${t('minutes', s.mode)}</span>
     </li>${list}`;
   }
+  // What the game says about the backup text or file it was given: nothing yet, a refusal, or a summary to confirm.
+  function restoreVerdict(s) {
+    const r = ui.restore;
+    if (!r) return '';
+    if (!r.ok) return `<p class="help warn">${t(r.reason === 'newer-format' ? 'restoreNewer' : 'restoreBad', s.mode)}</p>`;
+    const sum = FI.engine.preview(r.data, FI.content);
+    const label = `${t('restoreSummary', s.mode)}: ${r.exported ? `${t('exportedOn', s.mode)} <bdi>${yr(r.exported, s.mode)}</bdi> · ` : ''}${num(sum.xp, s.mode)} ${t('xp', s.mode)} · ${num(sum.coins, s.mode)} ${t('coins', s.mode)} · ${num(sum.lit, s.mode)} ${t('litCount', s.mode)} · ${num(sum.deck, s.mode)} ${t('deckCount', s.mode)}`;
+    return `<div class="confirm" role="alertdialog" aria-label="${t('restore', s.mode)}"><span>${label}</span><button ${A({ type: 'UI_RESTORE_CLOSE' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESTORE_CONFIRM' })} data-restore-confirm>${t('restoreConfirm', s.mode)}</button></div>`;
+  }
   function backupPanel(s) {
-    const age = FI.engine.backupAge(s);
-    const warn = age === null ? (s.xp > 0 ? t('backupNever', s.mode) : '') : age > 14 ? t('backupOld', s.mode) : '';
+    const nudge = FI.engine.backupNudge(s);
+    const warn = nudge === 'never' ? t('backupNever', s.mode) : nudge === 'old' ? t('backupOld', s.mode) : '';
     const note = ui.restoredNote ? `<p class="help ok" aria-live="polite">${t('restored', s.mode)}</p>` : warn ? `<p class="help warn">${warn}</p>` : '';
     let panel = '';
     if (ui.restoreOpen) {
-      const r = ui.restore;
-      const verdict = !r ? '' : !r.ok ? `<p class="help warn" aria-live="polite">${t(r.reason === 'newer-format' ? 'restoreNewer' : 'restoreBad', s.mode)}</p>`
-        : `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('restoreSummary', s.mode)}: ${t('exportedOn', s.mode)} ${esc(r.summary.exported)} · ${num(r.summary.xp, s.mode)} ${t('xp', s.mode)} · ${num(r.summary.coins, s.mode)} ${t('coins', s.mode)} · ${num(r.summary.lit, s.mode)} ${t('litCount', s.mode)} · ${num(r.summary.deck, s.mode)} ${t('deckCount', s.mode)}</span><button ${A({ type: 'UI_RESTORE_CLOSE' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESTORE_CONFIRM' })}>${t('restoreConfirm', s.mode)}</button></div>`;
-      panel = `<div class="restore"><p class="help">${t('restoreHelp', s.mode)}</p><input type="file" accept="application/json,.json,.txt" data-restore-file aria-label="${t('restore', s.mode)}"><textarea data-restore-text rows="3" placeholder="${t('restorePaste', s.mode)}" aria-label="${t('restorePaste', s.mode)}">${esc(ui.restoreText)}</textarea>${verdict}</div>`;
+      panel = `<div class="restore"><p class="help">${t('restoreHelp', s.mode)}</p><input type="file" accept="application/json,.json,.txt" data-restore-file aria-label="${t('restore', s.mode)}"><textarea data-restore-text rows="3" placeholder="${t('restorePaste', s.mode)}" aria-label="${t('restorePaste', s.mode)}">${esc(ui.restoreText)}</textarea><div class="verdict" aria-live="polite">${restoreVerdict(s)}</div></div>`;
     }
     return `<div class="backup">${note}<div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: ui.restoreOpen ? 'UI_RESTORE_CLOSE' : 'UI_RESTORE_OPEN' })} aria-expanded="${ui.restoreOpen}">${t('restore', s.mode)}</button></div>${panel}</div>`;
   }
@@ -1379,7 +1420,7 @@ FI.render = (() => {
     const target = v.expenses * 25;
     const pct = Math.min(999, Math.round((v.capital / target) * 100));
     const row = (key, label, min, max, step, fmtv) => `<label class="srow"><span>${t(label, s.mode)}</span><output data-out="${key}">${fmtv}</output>
-      <input type="range" data-slider="${key}" min="${min}" max="${max}" step="${step}" value="${v[key]}" aria-label="${t(label, s.mode)}"></label>`;
+      <input type="range" data-slider="${key}" min="${min}" max="${max}" step="${step}" value="${Number(v[key]) || 0}" aria-label="${t(label, s.mode)}"></label>`;
     return `<div class="widget sliders" data-widget="sliders">
       ${row('capital', 'capital', 10000, 1000000, 10000, '€' + num(v.capital, s.mode))}
       ${row('ret', 'realReturn', 3, 8, 0.5, num(v.ret, s.mode) + '%')}
@@ -1651,7 +1692,7 @@ FI.render = (() => {
     if (rkey !== ui.lastReview) { ui.order = []; ui.lastReview = rkey; }
     if (s.screen !== 'path') ui.confirmReset = false;
     // Consume each events array once; UI-only re-renders reuse the same state object.
-    if (s.events !== ui.seenEvents) { ui.seenEvents = s.events; ui.coinShown = false; if (s.events.includes('milestone')) { ui.milestone = true; ui.dolly = true; } } else { ui.coinShown = true; ui.dolly = false; }
+    if (s.events !== ui.seenEvents) { ui.seenEvents = s.events; ui.coinShown = false; ui.restoredNote = s.events.includes('restored'); if (s.events.includes('milestone')) { ui.milestone = true; ui.dolly = true; } } else { ui.coinShown = true; ui.dolly = false; }
     // Camera 2: arriving on the Path right after a Station was lit (fare-passed then Continue).
     ui.pullout = (s.screen === 'path' && ui.lastPhase === 'fare-passed' && ui.lastScreen === 'station' && ui.litJust) ? ui.litJust : null;
     if (s.screen !== 'path') ui.litJust = (s.phase === 'fare-passed' && s.lit[s.stationId]) ? s.stationId : null;
@@ -1663,6 +1704,7 @@ FI.render = (() => {
     const err = ui.error ? `<div class="overlay"><section class="panel result fail"><div class="big">${ICONS.retry}</div><p>${t('loadError', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_ERROR_CLOSE' })} data-focus>${t('dismiss', s.mode)}</button></section></div>` : '';
     root.innerHTML = topBar(s, content) + screen + busy + err + disclaimer(s);
     if (s.screen === 'path' && ui.scrollTo) { const el = root.querySelector(`#${CSS.escape(ui.scrollTo)}`); if (el) el.scrollIntoView({ block: 'start', behavior: 'smooth' }); ui.scrollTo = null; }
+    if (ui.focusRestore) { ui.focusRestore = false; const c = root.querySelector('[data-restore-confirm]'); if (c) c.focus(); }
     const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase || ui.milestone;
     ui.lastCurrent = s.current; ui.lastPhase = s.phase; ui.lastScreen = s.screen;
     // Camera 1: on first load, the Path starts wide and eases in toward the current node.
@@ -1689,6 +1731,8 @@ FI.render = (() => {
       set('capital', '€' + num(v.capital, m)); set('ret', num(v.ret, m) + '%'); set('expenses', '€' + num(v.expenses, m));
       set('income', '€' + num(Math.round(v.capital * v.ret / 100), m)); set('target', '€' + num(v.expenses * 25, m));
       set('pct', num(Math.min(999, Math.round((v.capital / (v.expenses * 25)) * 100)), m) + '%');
+    } else if (action.type === 'UI_RESTORE_TEXT') {
+      const v = root.querySelector('.restore .verdict'); if (v) v.innerHTML = restoreVerdict(s);
     } else if (action.type === 'UI_SEARCH') {
       const g = root.querySelector('.shelfgrid'); if (g) g.innerHTML = shelfGrid(s, content);
     }
@@ -1711,7 +1755,8 @@ FI.render = (() => {
       case 'UI_JUMP_SECTION': ui.openSection = action.value; ui.picker = false; ui.scrollTo = action.value; return 'full';
       case 'UI_RESTORE_OPEN': ui.restoreOpen = true; ui.restore = null; ui.restoreText = ''; ui.restoredNote = false; return 'full';
       case 'UI_RESTORE_CLOSE': ui.restoreOpen = false; ui.restore = null; ui.restoreText = ''; return 'full';
-      case 'UI_RESTORE_TEXT': ui.restoreText = String(action.value || ''); ui.restore = ui.restoreText.trim() ? FI.store.parseBackup(ui.restoreText) : null; return 'full';
+      case 'UI_RESTORE_TEXT': ui.restoreText = String(action.value || ''); ui.restore = ui.restoreText.trim() ? FI.store.parseBackup(ui.restoreText) : null; return 'partial'; // typing must not rebuild the field
+      case 'UI_RESTORE_FILE': ui.restoreText = ''; ui.restore = action.value === null ? { ok: false, reason: 'not-backup' } : FI.store.parseBackup(String(action.value)); ui.focusRestore = true; return 'full';
       case 'UI_OPEN_CIRCLE': ui.openCircle = ui.openCircle === action.value ? null : action.value; return 'full';
       case 'UI_ERROR_CLOSE': ui.error = false; return 'full';
       case 'UI_JUMP': { const sec = FI.content.sectionOf(action.value); if (!sec) return false; ui.openSection = sec.id; ui.picker = false; ui.scrollTo = sec.id; return 'path'; }
@@ -1733,8 +1778,11 @@ FI.render = (() => {
     root.addEventListener('change', (e) => {
       const el = e.target;
       if (!el.matches('[data-restore-file]') || !el.files || !el.files[0]) return;
+      // A backup is a few hundred kilobytes at most; anything far larger is not one. null = unreadable.
+      if (el.files[0].size > 2000000) { dispatch({ type: 'UI_RESTORE_FILE', value: null }); return; }
       const reader = new FileReader();
-      reader.onload = () => dispatch({ type: 'UI_RESTORE_TEXT', value: String(reader.result || '') });
+      reader.onload = () => dispatch({ type: 'UI_RESTORE_FILE', value: String(reader.result || '') });
+      reader.onerror = () => dispatch({ type: 'UI_RESTORE_FILE', value: null });
       reader.readAsText(el.files[0]);
     });
     let journalTimer = null;
@@ -1756,7 +1804,7 @@ FI.render = (() => {
 
   const setLoading = (on) => { ui.loading = !!on; };
   // The parsed backup waiting for confirmation; taking it closes the panel.
-  const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreText = ''; ui.restoreOpen = false; ui.restoredNote = !!(r && r.ok); return r && r.ok ? r.data : null; };
+  const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreText = ''; ui.restoreOpen = false; return r && r.ok ? r.data : null; };
   const setError = (on) => { ui.error = !!on; };
   return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore };
 })();

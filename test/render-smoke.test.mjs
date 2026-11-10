@@ -68,9 +68,14 @@ describe('render smoke', () => {
     FI.render.handleUi({ type: 'UI_RESTORE_TEXT', value: FI.store.backup(s, '2026-11-10') });
     expect(html(s)).toContain('RESTORE_CONFIRM');
     expect(html(s)).toContain('2026-11-10');
-    expect(FI.render.takeRestore()).toEqual(FI.store.durable(s));
+    const data = FI.render.takeRestore();
+    expect(data).toEqual(FI.store.durable(s));
     expect(html(s)).not.toContain('data-restore-text');
-    expect(html(s)).toContain('Progress restored.');
+    expect(html(s)).not.toContain('Progress restored.'); // only the engine's event may claim success
+    const restored = R(s, { type: 'RESTORE', value: data });
+    expect(html(restored)).toContain('Progress restored.');
+    expect(html(R(restored, { type: 'OPEN_BOOKMARKS' }, { type: 'BACK_TO_PATH' }))).not.toContain('Progress restored.');
+    expect(html(R(s, { type: 'SET_MODE', value: 'FA' }))).not.toContain('2026-11-10');
     FI.render.handleUi({ type: 'UI_RESTORE_OPEN' }); FI.render.handleUi({ type: 'UI_RESTORE_CLOSE' });
   });
 

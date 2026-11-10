@@ -142,3 +142,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 ## Spec 2: backup and restore (2026-11-10)
 - Store: `backup`, `parseBackup`. Engine: `RESTORE`, `BACKUP_DONE`, `backupAge`. Path: Back up and Restore buttons, file or paste, summary before replacing.
 - 241 tests green. Headless Chrome: back up, wipe, bad text refused, restore, bookmark and Deck back.
+- Review (Standards + Spec, hostile backups run against the seam): a damaged backup could break the game for good, and a shared backup could inject script. Fixed with shape rules for every durable key; nine more fixes in `docs/review/spec2-backup-code-review.md`. 244 tests green.
