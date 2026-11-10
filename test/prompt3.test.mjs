@@ -155,7 +155,7 @@ describe('Rewards on three horizons', () => {
     expect(s.lit.s6).toBeUndefined();
     for (const id of content.readingOrder) for (const u of content.sectionOf(id).runs) s = passStation(s, u);
     expect(s.lit.s6).toBe(true);
-  });
+  }, 30000); // plays ten whole books through the reducer: about 5 s, over the default limit on a busy machine
 
   it('total XP available is the sum over Path Stations and Book Units', () => {
     const total = content.totalXp();
