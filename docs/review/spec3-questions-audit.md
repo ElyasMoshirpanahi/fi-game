@@ -8,7 +8,7 @@ The questions pass (`docs/questions-brief.md`) gave all 1,065 Checks a second wo
 
 | Problem | Count | Checks |
 | --- | --- | --- |
-| Wording or an option gives the answer away, or a wrong option is a joke | 13 | `b03c2l1k5`, `b06c3l2k4`, `b07c3l3k1`, `b10c1l2k2`, `b11c1l4k5`, `b11c2l1k4`, `b11c2l3k4`, `b11c2l3k6`, `b11c2l5k2`, `b12c2l4k1`, `b13c1l3k3`, `b13c1l3k5`, `b21c1l3k2`, `s2k7` |
+| Wording or an option gives the answer away, or a wrong option is a joke | 14 | `b03c2l1k5`, `b06c3l2k4`, `b07c3l3k1`, `b10c1l2k2`, `b11c1l4k5`, `b11c2l1k4`, `b11c2l3k4`, `b11c2l3k6`, `b11c2l5k2`, `b12c2l4k1`, `b13c1l3k3`, `b13c1l3k5`, `b21c1l3k2`, `s2k7` |
 | Not answerable from the source Card alone | 2 | `b27c1l3k3`, `b27c1l4k1` |
 | Two options read as right | 1 | `b15c3l5k5` |
 | Farsi says something else than the English | 1 | `b10c1l4k1` |
