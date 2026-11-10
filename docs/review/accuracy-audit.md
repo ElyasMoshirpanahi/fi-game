@@ -8,7 +8,7 @@ Each reader fixed in place and reported every changed id with a reason, plus wha
 
 ## Scale
 
-About 2,470 Cards and 1,050 Checks read. Roughly 480 items changed across the 28 books. Heaviest: Venture Deals (about 50), A Random Walk Down Wall Street (about 45), The Simple Path to Wealth (about 40), The Psychology of Money (about 35).
+About 2,470 Cards and 1,050 Checks read. Roughly 500 items changed (about 1,170 changed text lines, en and fa) across the 28 books. Heaviest: Venture Deals (about 50), A Random Walk Down Wall Street (about 45), The Simple Path to Wealth (about 40), The Psychology of Money (about 35).
 
 ## What was wrong, by kind
 
