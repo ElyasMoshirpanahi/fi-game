@@ -62,6 +62,10 @@ describe('Continue', () => {
     const storage = fakeStorage(); FI.store.save(storage, s);
     expect(R(FI.engine.initial(), { type: 'HYDRATE', value: FI.store.load(storage) }).lastSection).toBe(sec.id);
     expect(R(FI.engine.initial(), { type: 'HYDRATE', value: { lastSection: { x: 1 } } }).lastSection).toBeNull();
+    expect(R(FI.engine.initial(), { type: 'HYDRATE', value: { lastSection: 'x'.repeat(41) } }).lastSection).toBeNull();
+    // a save from before Continue existed: resuming inside a Lesson sets it
+    const resumed = R(FI.engine.initial(), { type: 'HYDRATE', value: { run: { stationId: sec.runs[1], pos: 1 } } });
+    expect(resumed.lastSection).toBe(sec.id);
     expect(FI.engine.continueTarget(R(FI.engine.initial(), { type: 'HYDRATE', value: { lastSection: 'sec-gone' } }), FI.content).stationId).toBe('s1');
   });
 
@@ -118,7 +122,25 @@ describe('Search', () => {
     expect(find(word, 500).some((r) => r.cardId === 's1c3')).toBe(true); // a common word: look past the default limit
     expect(find(word.replace(/ی/g, 'ي').replace(/ک/g, 'ك'), 500).some((r) => r.cardId === 's1c3')).toBe(true);
     expect(find('سرمايه').length).toBeGreaterThan(0); // typed with the Arabic ي
-    expect(find('می شود').length).toBe(find('می‌شود').length);
+    expect(find('می شود', 5000).length).toBe(find('می‌شود', 5000).length);
+    expect(find('میشود', 5000).length).toBe(find('می‌شود', 5000).length); // typed with no half-space at all
+  });
+
+  it('forgives how people type: apostrophes, accents, Farsi vowel marks, any digit set', () => {
+    const n = (q) => find(q, 5000).length;
+    expect(n('don’t')).toBe(n("don't"));
+    expect(n("don't")).toBeGreaterThan(0);
+    expect(n('٢٥')).toBe(n('25'));
+    expect(n('۲۵')).toBe(n('25'));
+    expect(n('25')).toBeGreaterThan(0);
+    expect(n('اینده')).toBe(n('آینده'));
+    const marked = FI.content.stations.flatMap((st) => st.items || []).find((i) => i.kind === 'card' && /[\u064B-\u0652]/.test(i.text.fa));
+    if (marked) {
+      const word = marked.text.fa.split(' ').find((w) => /[\u064B-\u0652]/.test(w));
+      expect(find(word.replace(/[\u064B-\u0652]/g, ''), 5000).some((r) => r.cardId === marked.id)).toBe(true);
+    }
+    expect(FI.content.matcher('m')).toBeNull();
+    expect(FI.content.matcher('ca')('Café')).toBe(true);
   });
 
   it('searches Cards only in books that are loaded', () => {
@@ -173,9 +195,40 @@ describe('Continue and search on the Path', () => {
     expect(html(FI.engine.initial())).toContain(action({ type: 'OPEN_AT', value: { stationId: 's1', cardId: 's1c3' } }));
     FI.render.handleUi({ type: 'UI_FIND', value: 'zzzzqqq' });
     expect(html(FI.engine.initial())).toContain('Nothing found');
+    FI.render.setFinding(true);
+    expect(html(FI.engine.initial())).toContain('Reading the books on this device');
+    FI.render.setFinding(false);
     FI.render.handleUi({ type: 'UI_FIND', value: '<img src=x>' });
     expect(html(FI.engine.initial())).not.toContain('<img src=x>');
     FI.render.handleUi({ type: 'UI_FIND', value: '' });
     expect(html(FI.engine.initial())).not.toContain('class="found"');
+  });
+  it('shows a few of each kind and counts the rest, so Cards are not pushed out by Lessons', () => {
+    FI.render.handleUi({ type: 'UI_FIND', value: 'money' });
+    const h = html(FI.engine.initial());
+    const kinds = [...h.matchAll(/class="k">([^<]+)</g)].map((m) => m[1]);
+    expect(kinds.filter((k) => k === 'Card').length).toBeGreaterThan(4);
+    expect(kinds.filter((k) => k === 'Lesson').length).toBeLessThanOrEqual(6);
+    expect(h).toMatch(/\d+ found · \d+ more/);
+    FI.render.handleUi({ type: 'UI_FIND', value: '' });
+  });
+
+  it('a Basics Section in the results is called a Section, not a Book', () => {
+    FI.render.handleUi({ type: 'UI_FIND', value: FI.content.sections[0].name.en });
+    const h = html(FI.engine.initial());
+    expect(h).toContain(action({ type: 'UI_JUMP_SECTION', value: 'basics' }));
+    expect(h.slice(h.indexOf('class="found"'), h.indexOf('basics')).includes('>Book<')).toBe(false);
+    FI.render.handleUi({ type: 'UI_FIND', value: '' });
+  });
+
+  it('finds a Card that is in the Deck even when its book is not loaded', () => {
+    const b06 = book('b06');
+    const lesson = b06.circles[0].lessons[0];
+    const card = lesson.items.find((i) => i.kind === 'card' && !i.frame);
+    const s = FI.engine.initial();
+    s.deck[card.id] = { stationId: lesson.id, cardId: card.id, text: card.text, check: null, box: 0, due: 1, missed: true, marked: false };
+    FI.render.handleUi({ type: 'UI_FIND', value: card.text.en.slice(0, 30) });
+    expect(html(s)).toContain(action({ type: 'OPEN_AT', value: { stationId: lesson.id, cardId: card.id } }));
+    FI.render.handleUi({ type: 'UI_FIND', value: '' });
   });
 });

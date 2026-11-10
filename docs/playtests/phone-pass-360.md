@@ -1,6 +1,6 @@
 # Phone pass at 360 px (spec 7)
 
-Date: 2026-11-11. Headless Brave, viewport 360 by 740, device scale 2. A script walked 21 screens and checked each for three things: no element wider than the viewport and no sideways page scroll; every control at least 44 px in both directions; no control under the fixed picker button, the disclaimer or the Combo counter with the page scrolled to its end. Four screens were then looked at by eye.
+Date: 2026-11-11. Headless Brave, viewport 360 by 740, device scale 2. A script (`scripts/playtest/phone-pass.mjs`) walked 21 screens and checked each for three things: no element wider than the viewport and no sideways page scroll; every control at least 44 px in both directions; no control under the fixed picker button, the disclaimer or the Combo counter with the page scrolled to its end. Four screens were then looked at by eye.
 
 Screens: Path in EN, FA and Both; search results; the Section picker; a book Section with a Circle open; the restore panel with a summary; the reset confirm; a Card; a tap Check; the feedback; the Fare; the Fare passed panel; Tools for Stations 1, 4, 5 and 6; Bookmarks; Notes; a Review Card and its Check.
 
@@ -18,10 +18,11 @@ Screens: Path in EN, FA and Both; search results; the Section picker; a book Sec
 - The picker button keeps its label and arrow on one line.
 - The page ends 112 px above the bottom, clear of the picker and the disclaimer.
 - The habit tracker shows each habit as a label over its week, so the day cells are 44 px tall.
+- After the code review: the Tools sliders are 44 px tall and no longer exempt from the check; the Combo counter shows only while answering, so it no longer floats over Tools; the Path opens at its top, where Continue is.
 
 ## Final run
 
-21 of 21 screens clean, no console errors.
+21 of 21 screens clean, no console errors. Run again after the code review fixes with the same result. A run at 320 by 568 was clean on 20 screens; in Farsi the disclaimer line is 20 px wider than that screen.
 
 ## Known exceptions
 

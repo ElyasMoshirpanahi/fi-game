@@ -64,7 +64,7 @@ _Avoid_: point, gem, star
 The second wording every Check carries (`fare`): the same Check asked in other words, shown only in the Fare. Same answer as the prompt.
 
 **Continue**:
-The one-tap way back in: the first Lesson not yet done in the Section last played, else the first in Path order.
+The one-tap way back in: the first Lesson still to play in the Section last played, else the first in Path order. A Lesson is still to play until it is lit or its Fare is passed.
 _Avoid_: resume (resume is the reload that puts the player back inside a Lesson)
 
 **Notes**:

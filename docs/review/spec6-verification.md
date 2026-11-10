@@ -43,9 +43,9 @@ The open items of the first audit all closed: Monster Beverage's 319,000 percent
 
 ## Editions
 
-Every book file now carries `edition`, shown in the open book Section. Nine books need the owner's eye: eight are dated by first publication but taught from a later text, and one draws partly on a later edition. The `year` field was left unchanged in all of them; that is the owner's call.
+Every book file now carries `edition`, shown in the open book Section. Nine books were dated by first publication but taught from a later text, and a tenth draws partly on a later edition. The owner decided (decision 43) to show the edition year: the `year` field of the nine now holds it; the table shows the year each had before. For the two collections (b12, b22) the year is the latest one the Lessons draw on.
 
-| Book | `year` | Lessons follow | Note |
+| Book | `year` before | Lessons follow (now the year shown) | Note |
 | --- | --- | --- | --- |
 | b04 The Richest Man in Babylon | 1926 | later collected text (as in the 1955 edition) | one Lesson uses a tale with letters dated 1934 and 1936 |
 | b06 A Random Walk Down Wall Street | 1973 | 13th edition, 2023 | two Cards (`b06c1l3p7`, `b06c1l3p13`) come from sections absent from that edition's contents |
