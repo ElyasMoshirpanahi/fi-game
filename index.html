@@ -109,6 +109,9 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .footbtn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; color: var(--text); }
 .footbtn svg { width: 14px; height: 14px; color: var(--gold-strong); }
 .footbtn b { background: var(--gold-soft); color: var(--gold-strong); border-radius: 999px; padding: 0 7px; }
+.backup { margin-top: 18px; } .backup .brow { justify-content: center; gap: 8px; }
+.restore { margin-top: 10px; display: grid; gap: 8px; } .restore textarea, .restore input { width: 100%; font: inherit; color: inherit; background: var(--bg); border: 2px solid var(--line); border-radius: 12px; padding: 10px; }
+.help.warn { color: var(--gold-strong); text-align: center; } .help.ok { color: var(--ok); text-align: center; }
 .footbtn.hot { border-color: var(--accent); } .footbtn.hot b { background: var(--accent); color: #fff; }
 .marks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .mark { border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; background: var(--bg); }
@@ -372,6 +375,7 @@ FI.content = (() => {
       percentDone: 'complete', milestoneTitle: 'Milestone', milestoneBody: 'First \u20ac100 of ownership income. Both checklists are complete.', milestoneDone: 'Keep going',
       circles: 'circles', lessons: 'lessons', points: 'points', minutes: 'min', approx: '~', whyMatters: 'Why this matters', bookNote: 'Distilled from the book. Educational, not advice.', circleComplete: 'Circle complete', loading: 'Loading the book', loadError: 'Could not load this book. Check your connection and try again.', dismiss: 'Close', startLesson: 'Start', replayLesson: 'Replay',
       shelfTitle: 'Shelf', basics: 'Basics', basicsSub: 'The roadmap itself, six stations', section: 'Section', sections: 'Sections', jumpTo: 'Jump to section', goToSection: 'Go to section', sectionComplete: 'Section complete', collapse: 'Collapse', expand: 'Expand',
+      backup: 'Back up progress', restore: 'Restore progress', restoreHelp: 'Choose a backup file, or paste its text below.', restorePaste: 'Paste backup text here', restoreSummary: 'This backup', restoreConfirm: 'Replace my progress with it', restoreBad: 'This is not a usable backup of this game.', restoreNewer: 'This backup was made by a newer version of the game.', restored: 'Progress restored.', backupOld: 'Last backup is more than 14 days old.', backupNever: 'No backup yet. Progress lives only in this browser.', exportedOn: 'made on', litCount: 'lit', deckCount: 'in the deck',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
       shelfInTools: 'All 28 books, filters and reading states are under Tools on the Library node.', hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
@@ -400,6 +404,7 @@ FI.content = (() => {
       percentDone: 'انجام شده', milestoneTitle: 'نقطه عطف', milestoneBody: 'اولین ۱۰۰ یورو درآمد مالکیتی. هر دو چک‌لیست کامل شد.', milestoneDone: 'ادامه بده',
       circles: 'حلقه', lessons: 'درس', points: 'نکته', minutes: 'دقیقه', approx: '~', whyMatters: 'چرا مهم است', bookNote: 'چکیده‌ای از کتاب. آموزشی است، نه توصیه.', circleComplete: 'حلقه کامل شد', loading: 'در حال بارگذاری کتاب', loadError: 'بارگذاری کتاب ممکن نشد. اتصال را بررسی کن و دوباره بزن.', dismiss: 'بستن', startLesson: 'شروع', replayLesson: 'دوباره',
       shelfTitle: 'قفسه', basics: 'پایه‌ها', basicsSub: 'خودِ نقشه راه، شش ایستگاه', section: 'بخش', sections: 'بخش‌ها', jumpTo: 'پرش به بخش', goToSection: 'برو به بخش', sectionComplete: 'بخش کامل شد', collapse: 'جمع کن', expand: 'باز کن',
+      backup: 'پشتیبان‌گیری از پیشرفت', restore: 'بازیابی پیشرفت', restoreHelp: 'یک فایل پشتیبان انتخاب کن، یا متنش را پایین بچسبان.', restorePaste: 'متن پشتیبان را اینجا بچسبان', restoreSummary: 'این پشتیبان', restoreConfirm: 'پیشرفتم را با آن جایگزین کن', restoreBad: 'این پشتیبانِ قابل‌استفاده‌ای از این بازی نیست.', restoreNewer: 'این پشتیبان با نسخهٔ جدیدتری از بازی ساخته شده.', restored: 'پیشرفت بازیابی شد.', backupOld: 'آخرین پشتیبان بیش از ۱۴ روز پیش است.', backupNever: 'هنوز پشتیبانی نیست. پیشرفت فقط در همین مرورگر است.', exportedOn: 'ساخته‌شده در', litCount: 'روشن', deckCount: 'در دسته',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
       shelfInTools: 'هر ۲۸ کتاب، فیلترها و وضعیت خواندن زیر «ابزارها» در ایستگاه کتابخانه است.', hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
@@ -747,7 +752,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -758,7 +763,7 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null,
+    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null,
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
@@ -946,6 +951,15 @@ FI.engine = (() => {
         s.queue = st.items.slice(idx).map((i) => i.id);
         return advance(s, content);
       }
+      case 'BACKUP_DONE':
+        s.lastBackup = s.today; return s;
+      case 'RESTORE': {
+        // Replace progress with a parsed backup; the same HYDRATE path applies the same migrations.
+        const fresh = initial(); fresh.today = s.today;
+        const out = reduce(fresh, { type: 'HYDRATE', value: action.value }, content);
+        out.events = ['restored'];
+        return out;
+      }
       case 'TICK':
         if (Number.isInteger(action.value)) s.today = action.value;
         backfill(s, content);
@@ -1106,7 +1120,8 @@ FI.engine = (() => {
     }
   }
 
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount };
+  const backupAge = (s) => (Number.isInteger(s.lastBackup) ? s.today - s.lastBackup : null);
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupAge };
 })();
 </script>
 
@@ -1152,9 +1167,23 @@ FI.store = (() => {
     } catch (e) { return null; }
   };
 
+  // Backup file (spec 2): the durable slice wrapped with an app tag and a format number.
+  // The export date is supplied by the caller; the store never reads the clock.
+  const APP = 'fi-roadmap', FORMAT = 1;
+  const backup = (state, exported) => JSON.stringify({ app: APP, format: FORMAT, exported, data: { v: VERSION, ...durable(state) } });
+  const parseBackup = (text) => {
+    let doc;
+    try { doc = JSON.parse(text); } catch (e) { return { ok: false, reason: 'not-json' }; }
+    if (!doc || typeof doc !== 'object' || Array.isArray(doc) || doc.app !== APP || !doc.data || typeof doc.data !== 'object') return { ok: false, reason: 'not-backup' };
+    if (!(doc.format <= FORMAT)) return { ok: false, reason: 'newer-format' };
+    if (doc.data.v !== VERSION) return { ok: false, reason: 'not-backup' };
+    const data = pick(doc.data);
+    return { ok: true, data, summary: { exported: doc.exported || '', xp: data.xp || 0, coins: data.coins || 0, lit: Object.keys(data.lit || {}).filter((k) => data.lit[k]).length, deck: Object.keys(data.deck || {}).length } };
+  };
+
   const clear = (storage) => { try { storage.removeItem(KEY); return true; } catch (e) { return false; } };
 
-  return { KEY, durable, save, load, clear };
+  return { KEY, durable, save, load, clear, backup, parseBackup };
 })();
 </script>
 
@@ -1167,7 +1196,7 @@ FI.store = (() => {
 // screen, the shelf with Book Units, per-Station themes and the Milestone.
 // ---------------------------------------------------------------------------
 FI.render = (() => {
-  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null };
+  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null, restoreOpen: false, restore: null, restoredNote: false };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   // One isolate per run, parentheses included, so a wrap never re-orders the pieces (see test/rtl.test.mjs).
@@ -1297,6 +1326,19 @@ FI.render = (() => {
       <span class="planned">${num(done, s.mode)}/${num(c.lessons.length, s.mode)} ${t('lessons', s.mode)} · ${t('approx', s.mode)}${num(c.minutes, s.mode)} ${t('minutes', s.mode)}</span>
     </li>${list}`;
   }
+  function backupPanel(s) {
+    const age = FI.engine.backupAge(s);
+    const warn = age === null ? (s.xp > 0 ? t('backupNever', s.mode) : '') : age > 14 ? t('backupOld', s.mode) : '';
+    const note = ui.restoredNote ? `<p class="help ok" aria-live="polite">${t('restored', s.mode)}</p>` : warn ? `<p class="help warn">${warn}</p>` : '';
+    let panel = '';
+    if (ui.restoreOpen) {
+      const r = ui.restore;
+      const verdict = !r ? '' : !r.ok ? `<p class="help warn" aria-live="polite">${t(r.reason === 'newer-format' ? 'restoreNewer' : 'restoreBad', s.mode)}</p>`
+        : `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('restoreSummary', s.mode)}: ${t('exportedOn', s.mode)} ${esc(r.summary.exported)} · ${num(r.summary.xp, s.mode)} ${t('xp', s.mode)} · ${num(r.summary.coins, s.mode)} ${t('coins', s.mode)} · ${num(r.summary.lit, s.mode)} ${t('litCount', s.mode)} · ${num(r.summary.deck, s.mode)} ${t('deckCount', s.mode)}</span><button ${A({ type: 'UI_RESTORE_CLOSE' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESTORE_CONFIRM' })}>${t('restoreConfirm', s.mode)}</button></div>`;
+      panel = `<div class="restore"><p class="help">${t('restoreHelp', s.mode)}</p><input type="file" accept="application/json,.json,.txt" data-restore-file aria-label="${t('restore', s.mode)}"><textarea data-restore-text rows="3" placeholder="${t('restorePaste', s.mode)}" aria-label="${t('restorePaste', s.mode)}"></textarea>${verdict}</div>`;
+    }
+    return `<div class="backup">${note}<div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: ui.restoreOpen ? 'UI_RESTORE_CLOSE' : 'UI_RESTORE_OPEN' })} aria-expanded="${ui.restoreOpen}">${t('restore', s.mode)}</button></div>${panel}</div>`;
+  }
   function pathScreen(s, content) {
     const secs = content.sections;
     const doneOf = (sec) => sec.runs.filter((u) => s.lit[u]).length;
@@ -1324,6 +1366,7 @@ FI.render = (() => {
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
       <div class="pathbar">${marks}</div>
       <div class="sections">${list}</div>${milestone}
+      ${backupPanel(s)}
       <div class="pathfoot">${reset}</div>
       <button class="picker" ${A({ type: 'UI_PICKER' })} aria-expanded="${!!ui.picker}">${t('jumpTo', s.mode)}${ICONS.chevron}</button>${sheet}
     </main>`;
@@ -1666,6 +1709,9 @@ FI.render = (() => {
       case 'UI_OPEN_SECTION': ui.openSection = ui.openSection === action.value ? '__none__' : action.value; ui.scrollTo = action.value; return 'full';
       case 'UI_PICKER': ui.picker = !ui.picker; return 'full';
       case 'UI_JUMP_SECTION': ui.openSection = action.value; ui.picker = false; ui.scrollTo = action.value; return 'full';
+      case 'UI_RESTORE_OPEN': ui.restoreOpen = true; ui.restore = null; ui.restoredNote = false; return 'full';
+      case 'UI_RESTORE_CLOSE': ui.restoreOpen = false; ui.restore = null; return 'full';
+      case 'UI_RESTORE_TEXT': ui.restore = String(action.value || '').trim() ? FI.store.parseBackup(String(action.value)) : null; return 'full';
       case 'UI_OPEN_CIRCLE': ui.openCircle = ui.openCircle === action.value ? null : action.value; return 'full';
       case 'UI_ERROR_CLOSE': ui.error = false; return 'full';
       case 'UI_JUMP': { const sec = FI.content.sectionOf(action.value); if (!sec) return false; ui.openSection = sec.id; ui.picker = false; ui.scrollTo = sec.id; return 'path'; }
@@ -1684,11 +1730,19 @@ FI.render = (() => {
     root.addEventListener('dragstart', (e) => { const el = e.target.closest('[data-slot]'); if (!el) return; dragFrom = +el.dataset.slot; e.dataTransfer.effectAllowed = 'move'; });
     root.addEventListener('dragover', (e) => { if (dragFrom !== null && e.target.closest('[data-slot]')) e.preventDefault(); });
     root.addEventListener('drop', (e) => { const el = e.target.closest('[data-slot]'); if (dragFrom === null || !el) return; e.preventDefault(); dispatch({ type: 'UI_ORDER_MOVE', value: { from: dragFrom, to: +el.dataset.slot } }); dragFrom = null; });
+    root.addEventListener('change', (e) => {
+      const el = e.target;
+      if (!el.matches('[data-restore-file]') || !el.files || !el.files[0]) return;
+      const reader = new FileReader();
+      reader.onload = () => dispatch({ type: 'UI_RESTORE_TEXT', value: String(reader.result || '') });
+      reader.readAsText(el.files[0]);
+    });
     let journalTimer = null;
     root.addEventListener('input', (e) => {
       const el = e.target;
       if (el.matches('[data-slider]')) dispatch({ type: 'SET_SLIDER', value: { key: el.getAttribute('data-slider'), value: el.value }, silent: true });
       else if (el.matches('[data-search]')) dispatch({ type: 'UI_SEARCH', value: el.value });
+      else if (el.matches('[data-restore-text]')) dispatch({ type: 'UI_RESTORE_TEXT', value: el.value });
       else if (el.matches('[data-journal]')) {
         clearTimeout(journalTimer);
         const text = el.value;
@@ -1701,8 +1755,10 @@ FI.render = (() => {
   }
 
   const setLoading = (on) => { ui.loading = !!on; };
+  // The parsed backup waiting for confirmation; taking it closes the panel.
+  const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreOpen = false; ui.restoredNote = !!(r && r.ok); return r && r.ok ? r.data : null; };
   const setError = (on) => { ui.error = !!on; };
-  return { mount, render, patch, handleUi, faHtml, setLoading, setError };
+  return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore };
 })();
 </script>
 
@@ -1776,6 +1832,16 @@ FI.fx = (() => {
   function dispatch(action) {
     const need = lessonOf(action);
     if (need) { ensureBook(need).then((ok) => { if (ok) dispatch(action); else paint(); }); return; }
+    if (action.type === 'BACKUP') {
+      const d = new Date(); const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      try {
+        const url = URL.createObjectURL(new Blob([store.backup(state, iso)], { type: 'application/json' }));
+        const a = document.createElement('a'); a.href = url; a.download = `fi-roadmap-backup-${iso}.json`; document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      } catch (e) { return; }
+      dispatch({ type: 'BACKUP_DONE' }); return;
+    }
+    if (action.type === 'RESTORE_CONFIRM') { const data = render.takeRestore(); if (data) dispatch({ type: 'RESTORE', value: data }); else paint(); return; }
     const uiResult = render.handleUi(action);
     if (uiResult === 'full') { paint(); return; }
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
