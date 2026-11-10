@@ -138,3 +138,8 @@ Append-only. Step, start time, what was produced, test results, open questions.
 ## Spec 1 review fixes (2026-11-10)
 - Review agent (Standards + Spec) on `main...feat/review`: findings and disposition in `docs/review/spec1-review-code-review.md`.
 - Fixed: Coin farm, wrong Check stored, due Card pushed to tomorrow, orphan bookmark, broken Deck on load, bookmark backfill, missing answer on a wrong Review, cap per day. 13 tests added, 234 green. Headless Chrome run clean.
+
+## Spec 2: backup and restore (2026-11-10)
+- Store: `backup`, `parseBackup`. Engine: `RESTORE`, `BACKUP_DONE`, `backupAge`. Path: Back up and Restore buttons, file or paste, summary before replacing.
+- 241 tests green. Headless Chrome: back up, wipe, bad text refused, restore, bookmark and Deck back.
+- Review (Standards + Spec, hostile backups run against the seam): a damaged backup could break the game for good, and a shared backup could inject script. Fixed with shape rules for every durable key; nine more fixes in `docs/review/spec2-backup-code-review.md`. 244 tests green.

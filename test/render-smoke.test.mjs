@@ -57,6 +57,28 @@ describe('render smoke', () => {
     expect(html(s)).toContain('feedback ok');
   });
 
+  it('Backup: buttons on the Path, the restore panel, a good and a bad backup', () => {
+    let s = R(FI.engine.initial(), { type: 'TICK', value: 100 }, { type: 'OPEN_STATION', value: 's1' }, { type: 'RATE', value: 'knew' }, { type: 'BACK_TO_PATH' });
+    expect(html(s)).toContain('"type":"BACKUP"'.replace(/"/g, '&quot;'));
+    FI.render.handleUi({ type: 'UI_RESTORE_OPEN' });
+    expect(html(s)).toContain('data-restore-text');
+    FI.render.handleUi({ type: 'UI_RESTORE_TEXT', value: 'not a backup <b>' });
+    expect(html(s)).toContain('This is not a usable backup');
+    expect(html(s)).toContain('not a backup &lt;b&gt;');
+    FI.render.handleUi({ type: 'UI_RESTORE_TEXT', value: FI.store.backup(s, '2026-11-10') });
+    expect(html(s)).toContain('RESTORE_CONFIRM');
+    expect(html(s)).toContain('2026-11-10');
+    const data = FI.render.takeRestore();
+    expect(data).toEqual(FI.store.durable(s));
+    expect(html(s)).not.toContain('data-restore-text');
+    expect(html(s)).not.toContain('Progress restored.'); // only the engine's event may claim success
+    const restored = R(s, { type: 'RESTORE', value: data });
+    expect(html(restored)).toContain('Progress restored.');
+    expect(html(R(restored, { type: 'OPEN_BOOKMARKS' }, { type: 'BACK_TO_PATH' }))).not.toContain('Progress restored.');
+    expect(html(R(s, { type: 'SET_MODE', value: 'FA' }))).not.toContain('2026-11-10');
+    FI.render.handleUi({ type: 'UI_RESTORE_OPEN' }); FI.render.handleUi({ type: 'UI_RESTORE_CLOSE' });
+  });
+
   it('Basics Station, Tools, Bookmarks and FA mode render', () => {
     expect(html(R(FI.engine.initial(), { type: 'OPEN_STATION', value: 's1' }))).toContain('panel card');
     expect(html(R(FI.engine.initial(), { type: 'OPEN_TOOLS', value: 's6' }))).toContain('data-widget="shelf"');
