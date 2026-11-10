@@ -6,6 +6,10 @@
     "fa": "Nassim Nicholas Taleb"
   },
   "year": 2012,
+  "edition": {
+    "en": "1st edition, 2012",
+    "fa": "ویراست اول، ۲۰۱۲"
+  },
   "stage": 6,
   "must": true,
   "why": {
@@ -308,8 +312,8 @@
               "id": "b25c1l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Chapters 2 to 4 on overcompensation, hormesis and how systems learn from errors. It matters because your body, skills and startup all grow from doses of stress you can recover from.",
-                "fa": "این درس فصل‌های ۲ تا ۴ را دربارهٔ جبرانِ بیش‌ازحد، hormesis و یادگیری سیستم‌ها از خطا خلاصه می‌کند. مهم است چون بدن، مهارت‌ها و استارتاپت همه از دوزهایی از استرس رشد می‌کنند که بتوانی از آن‌ها بهبود یابی."
+                "en": "This Lesson distils Chapters 2 to 4 on overcompensation, stressors and how systems learn from errors. It matters because your body, skills and startup all grow from doses of stress you can recover from.",
+                "fa": "این درس فصل‌های ۲ تا ۴ را دربارهٔ جبرانِ بیش‌ازحد، عوامل فشار و یادگیری سیستم‌ها از خطا خلاصه می‌کند. مهم است چون بدن، مهارت‌ها و استارتاپت همه از دوزهایی از استرس رشد می‌کنند که بتوانی از آن‌ها بهبود یابی."
               }
             },
             {
@@ -1452,8 +1456,8 @@
               "kind": "card",
               "id": "b25c2l2p8",
               "text": {
-                "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. He later credits the jet engine and much of the Industrial Revolution to tinkerers, not academics.",
-                "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. او بعدتر موتور جت و بخش بزرگی از انقلاب صنعتی را حاصل کار آزمایشگران می‌داند، نه دانشگاهیان."
+                "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. He later credits much of the Industrial Revolution to tinkerers, not academics.",
+                "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. او بعدتر بخش بزرگی از انقلاب صنعتی را حاصل کار آزمایشگران می‌داند، نه دانشگاهیان."
               }
             },
             {
@@ -1894,8 +1898,8 @@
               "kind": "card",
               "id": "b25c2l4p5",
               "text": {
-                "en": "Taleb's example is Robert Rubin, who earned more than $100 million from Citigroup in the decade before 2008. When the bank needed a bailout, he kept the money.",
-                "fa": "مثال Taleb، Robert Rubin است که در دههٔ پیش از ۲۰۰۸ بیش از ۱۰۰ میلیون دلار از Citigroup درآمد داشت. وقتی بانک به نجات دولتی نیاز پیدا کرد، او پول را نگه داشت."
+                "en": "Taleb's example is Robert Rubin, who earned more than $120 million from Citigroup in the decade before 2008. When the bank needed a bailout, he kept the money.",
+                "fa": "مثال Taleb، Robert Rubin است که در دههٔ پیش از ۲۰۰۸ بیش از ۱۲۰ میلیون دلار از Citigroup درآمد داشت. وقتی بانک به نجات دولتی نیاز پیدا کرد، او پول را نگه داشت."
               }
             },
             {

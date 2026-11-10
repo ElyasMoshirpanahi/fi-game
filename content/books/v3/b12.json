@@ -6,6 +6,10 @@
     "fa": "Warren Buffett"
   },
   "year": 1977,
+  "edition": {
+    "en": "Annual letters 1977 to 2022, berkshirehathaway.com",
+    "fa": "نامه‌های سالانهٔ ۱۹۷۷ تا ۲۰۲۲، berkshirehathaway.com"
+  },
   "stage": 3,
   "must": true,
   "why": {

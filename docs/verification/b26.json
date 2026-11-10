@@ -1,0 +1,136 @@
+{
+  "book": "b26",
+  "edition": {
+    "text": "Abridged Stripe Press edition, 2023 (first published 2005)",
+    "source": "https://press.stripe.com/poor-charlies-almanack",
+    "note": "Publisher page: \"Originally published in 2005, this compilation of 11 talks\"; \"This abridged edition features a new foreword by Stripe cofounder and president John Collison\"; \"Edited by Peter D. Kaufman\". The Lessons cite no chapter numbers; the talks they use (1986, 1994, 1996, and the 25-tendency misjudgment talk \"written exclusively for Poor Charlie's Almanack\") are all in the Stripe text. Its editor's note says the 2007 USC Law talk was added in \"the expanded third edition\"; no Lesson uses that talk. The 2023 date of the Stripe edition comes from bookseller and library listings in search results, not from the publisher page. Whether the 2005 first printing already carried the 25-tendency text was not checked against a first-edition copy."
+  },
+  "rows": [
+    {
+      "id": "b26c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils Munger's 1994 USC talk on elementary, worldly wisdom. It matters because a CTO weighing equity, an AI product and ETFs needs more than one engineering lens.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+      "note": "Talk Two heading: \"A Lesson on Elementary, Worldly Wisdom as It Relates to Investment Management and Business. The University of Southern California Marshall School of Business, April 14, 1994\". (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l1p4",
+      "kind": "figure",
+      "claim": "You do not need every model: about 80 or 90 important ones carry roughly 90 percent of the freight. A few of them carry very heavy loads.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+      "note": "\"80 or 90 important models will carry about 90 percent of the freight in making you a worldly-wise person. And, of those, only a mere handful really carry very heavy freight.\" (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l1p10",
+      "kind": "figure",
+      "claim": "At the track the house takes about 17 percent off the top, so most bettors lose. Munger says the stock market works the same way, except that the house take is much lower.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+      "note": "\"And then the track is taking 17 percent off the top.\" and \"The stock market is the same way, except that the house handle is so much lower.\" (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l2p1",
+      "kind": "figure",
+      "claim": "This Lesson distils Munger's talk on the psychology of human misjudgment, a list of about 25 tendencies. It matters because naming a tendency helps you catch a bad judgment before it costs capital.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-eleven",
+      "note": "Editor's introduction: \"his checklist of 25 standard causes of human misjudgment\"; the list ends \"Twenty-five Lollapalooza tendency\". (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l3p1",
+      "kind": "figure",
+      "claim": "This Lesson distils inversion, the circle of competence and patience from Munger's talks and sayings. It matters because avoiding big mistakes keeps your index core compounding toward 25 times expenses.",
+      "verdict": "own",
+      "source": null,
+      "note": "No book claim: the figure is the reader's own roadmap number (app context, docs/content-brief-v3.md), not a statement about the book. Nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b26c1l3p4",
+      "kind": "other",
+      "claim": "In his 1986 Harvard School speech he gave prescriptions for a life of misery. Be unreliable, learn only from your own experience, and stay down after your first reverses.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-one",
+      "note": "Heading \"Harvard School Commencement Speech June 13, 1986\". \"First, be unreliable.\"; \"My second prescription for misery is to learn everything you possibly can from your own experience\"; \"My third prescription to you for misery is to go down and stay down when you get your first, second, or third severe reverse\". (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l3p5",
+      "kind": "figure",
+      "claim": "In a 1996 talk he imagines turning $2 million into a $2 trillion soft-drink business like Coca-Cola. Part of his answer comes from inverting: listing what such a business must avoid.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-four",
+      "note": "Heading \"Practical Thought about Practical Thought? An Informal Talk, July 20, 1996\". \"turning start-up capital of $2 million into $2 trillion\"; the case is Coca-Cola; the pitch lists things \"we must avoid\". (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l3p10",
+      "kind": "figure",
+      "claim": "Munger passes on Buffett's image of a punch card with only 20 punches for a lifetime of investing. You would think hard about each one and load up on the few you had really thought through.",
+      "verdict": "verified",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-two",
+      "note": "\"When Warren lectures at business schools, he says, 'I could improve your ultimate financial welfare by giving you a ticket with only 20 slots in it so that you had 20 punches'\"; \"you'd be forced to load up on what you'd really thought about\". (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l3p11",
+      "kind": "figure",
+      "claim": "Your circle: software and AI products are inside it, picking single stocks is not yet. The roadmap answers with an 80 percent index core and lets the waiting do the work.",
+      "verdict": "own",
+      "source": null,
+      "note": "No book claim: the figure is the reader's own roadmap number (app context, docs/content-brief-v3.md), not a statement about the book. Nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b26c1l3p12",
+      "kind": "figure",
+      "claim": "Before each quarterly net-worth log, invert: what would guarantee losing the €40k, such as trading tired, FOMO or a bet you cannot explain? Write those as rules to avoid.",
+      "verdict": "own",
+      "source": null,
+      "note": "No book claim: the figure is the reader's own roadmap number (app context, docs/content-brief-v3.md), not a statement about the book. Nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b26c1l3p6",
+      "kind": "quote",
+      "claim": "Munger sorts ideas into three baskets: in, out and too tough. An idea he has no special insight into goes in the too-tough basket, and that is fine.",
+      "verdict": "corrected",
+      "source": "https://www.stripe.press/poor-charlies-almanack",
+      "note": "Not listed; noticed while reading. Chapter Three (The Munger Approach to Life, Learning, and Decision-Making) has: \"We have three baskets for investing: yes, no, and too tough to understand.\" Card changed from \"in, out and too tough\" to \"yes, no and too tough to understand\"; the prompt and correct option of Check b26c1l3k3 changed to match. (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b26c1l3p9",
+      "kind": "quote",
+      "claim": "Then sit on your hands. Munger says the big money is not in the buying and selling but in the waiting.",
+      "verdict": "softened",
+      "source": null,
+      "note": "Not listed; noticed while reading. The line \"the big money is not in the buying and selling but in the waiting\" does not appear in the Stripe Press text (searched for \"waiting\"); a web search found only attributions without a dated source (Morningstar, Motley Fool, broker sites). Card now says \"a line widely attributed to Munger\". The unabridged third edition was not available to check.",
+      "basis": "none"
+    },
+    {
+      "id": "b26c1l3p14",
+      "kind": "quote",
+      "claim": "Someone will always get rich faster than you, Munger says, and that is no tragedy. He treats envy of other people's gains as a trap to stay out of.",
+      "verdict": "softened",
+      "source": null,
+      "note": "Not listed; noticed while reading. \"Someone will always get rich faster than you, and that is no tragedy\" is not in the Stripe Press text (searched \"tragedy\", \"rich faster\", \"getting richer\"). Card now says \"widely attributed\" and keeps what the book does state: its introduction lists \"avoidance of envy and resentment\" among his values. The unabridged third edition was not available to check.",
+      "basis": "none"
+    },
+    {
+      "id": "b26c1l4p4",
+      "kind": "figure",
+      "claim": "Envy/jealousy tendency is so strong that two of the Ten Commandments forbid coveting. Munger notes that envy drives much behaviour that people rarely admit to.",
+      "verdict": "corrected",
+      "source": "https://www.stripe.press/poor-charlies-almanack/talk-eleven",
+      "note": "Not listed; noticed while reading. The Card said two of the Ten Commandments forbid coveting. The misjudgment talk says envy \"was forbidden, by phrase after phrase, in the laws of Moses\"; an earlier talk says \"one or two or three of the Ten Commandments\". Card now says the laws of Moses forbade coveting in phrase after phrase. (Publisher's free online edition; text read from the page's script bundle.)",
+      "basis": "author-or-publisher"
+    }
+  ]
+}

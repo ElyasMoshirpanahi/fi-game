@@ -1,0 +1,145 @@
+{
+  "book": "b19",
+  "edition": {
+    "text": "1st edition, 2014",
+    "source": "https://en.wikipedia.org/wiki/Zero_to_One",
+    "note": "Wikipedia lists one edition only (Crown Business, 16 September 2014, 224 pages \"first edition\", ISBN 978-0804139298); the publisher page gives the same date, pages and ISBN and no later edition. The copyright page of the text checked reads \"Copyright (c) 2014 by Peter Thiel ... Crown Business ... Hardcover ISBN: 978-0-8041-3929-8\", and its 14 chapter titles match the chapter numbers the Lessons use. The passages were read in a full-text PDF copy of that edition hosted by a third party (not the publisher)."
+  },
+  "rows": [
+    {
+      "id": "b19c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils the Preface and Chapters 1 and 2: zero to one, the contrarian question and the dot-com lessons. It matters because your AI product builds ownership only if it creates something new.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page of the text: \"Preface: Zero to One / 1 The Challenge of the Future / 2 Party Like It's 1999\". The contrarian question opens Chapter 1; the dot-com lessons are in Chapter 2.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l1p3",
+      "kind": "other",
+      "claim": "Going from 0 to 1 means doing something new, vertical or intensive progress. Going from 1 to n means copying what works, horizontal or extensive progress.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"Horizontal or extensive progress means copying things that work--going from 1 to n ... Vertical or intensive progress means doing new things--going from 0 to 1.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l1p8",
+      "kind": "other",
+      "claim": "Chapter 2, Party Like It's 1999: after the dot-com crash, founders took four lessons. Make incremental advances, stay lean and flexible, improve on the competition, and focus on product over sales.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 2 lists four lessons: \"1. Make incremental advances 2. Stay lean and flexible 3. Improve on the competition 4. Focus on product, not sales\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l1p11",
+      "kind": "quote",
+      "claim": "Before you pick your AI product, write your answer to Thiel's question: what valuable thing is nobody building? If ten tools already do it, you are going from 1 to n.",
+      "verdict": "corrected",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 3 gives the business version as \"what valuable company is nobody building?\". The Card said \"valuable thing\"; changed to \"valuable company\" in en and fa. The \"ten tools\" line is the app's own application, not a book figure.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils Chapters 3 to 5: why monopoly beats competition and the traits that make a monopoly last. It matters because a small AI product earns ownership income only if it escapes copycats.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"3 All Happy Companies Are Different / 4 The Ideology of Competition / 5 Last Mover Advantage\". Monopoly traits are in Chapter 5.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l2p2",
+      "kind": "figure",
+      "claim": "Under perfect competition, the economists' ideal, no company makes an economic profit. In 2012 US airlines earned about 37 cents per passenger trip, while Google kept a 21 percent margin.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 3: \"in 2012, when the average airfare each way was $178, the airlines made only 37 cents per passenger trip ... Google brought in $50 billion in 2012 ... but it kept 21% of those revenues as profits\"; \"Under perfect competition, in the long run no company makes an economic profit.\" Both open audit figures (37 cents, 21 percent) confirmed.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l2p6",
+      "kind": "figure",
+      "claim": "Chapter 5, Last Mover Advantage: a business is worth its future cash flows. For a tech company, most of that value comes at least 10 to 15 years in the future.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"the value of a business today is the sum of all the money it will make in the future\"; \"Most of a tech company's value will come at least 10 to 15 years in the future.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l2p7",
+      "kind": "figure",
+      "claim": "Trait one, proprietary technology: it should be at least 10x better than its closest substitute. Google search and Amazon offering far more books are his examples.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"proprietary technology must be at least 10 times better than its closest substitute in some important dimension\"; \"Google's search algorithms, for example, return results better than anyone else's\"; Amazon \"offered at least 10 times as many books as any other bookstore\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l2p12",
+      "kind": "figure",
+      "claim": "For your AI product, pick one job and one kind of user, and aim to be 10x better than their current workaround. Scale only after you own that niche.",
+      "verdict": "own",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The 10x figure is the book's (Ch. 5: \"at least 10 times better than its closest substitute\"; \"once you're 10x better, you escape competition\"). The rest is the app's own application.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Chapters 7, 8 and 13: the power law, secrets and the seven questions. It matters because your satellite bets and your startup choice follow the same few-big-wins math.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"7 Follow the Money / 8 Secrets / 13 Seeing Green\". The power law is Chapter 7; the seven questions are in Chapter 13.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l3p5",
+      "kind": "figure",
+      "claim": "Apply the power law to your 20 percent satellite: one or two bets may return more than all the others. Size each bet so losing it does not touch your index core.",
+      "verdict": "own",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 7: venture returns \"follow a power law: a small handful of companies radically outperform all others\". The 20 percent satellite is the app's own portfolio frame, not a figure from the book, and the Card does not attribute it to Thiel.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l3p12",
+      "kind": "quote",
+      "claim": "Durability: will your market position be defensible 10 and 20 years into the future? The secret: have you found a unique opportunity that others do not see?",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 13: \"6. The Durability Question: Will your market position be defensible 10 and 20 years into the future? 7. The Secret Question: Have you identified a unique opportunity that others don't see?\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l4p1",
+      "kind": "other",
+      "claim": "This Lesson distils Chapters 9 to 11: foundations, the PayPal mafia and distribution. It matters because your AI product fails if early choices on partners or selling go wrong.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"9 Foundations / 10 The Mechanics of Mafia / 11 If You Build It, Will They Come?\". \"PayPal Mafia\" appears in Chapter 10.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l4p5",
+      "kind": "figure",
+      "claim": "Everyone involved should be fully committed, ideally full time. Thiel says the CEO of an early-stage, venture-backed startup should never get more than 150,000 dollars a year in salary.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 9: \"As a general rule, everyone you involve with your company should be involved full-time\"; \"In no case should a CEO of an early-stage, venture-backed startup receive more than $150,000 per year in salary.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b19c1l4p7",
+      "kind": "figure",
+      "claim": "You should be able to explain why your 20th employee would join you instead of a bigger company. Good answers are about your mission and your team, not perks like free laundry pickup.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Zero%20to%20One%20Peter%20Thiel%20with%20Blake%20Masters",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 10: \"Why should the 20th employee join your company?\"; good answers are \"answers about your mission and answers about your team\"; \"Anybody who would be more powerfully swayed by free laundry pickup or pet day care would be a bad addition to your team.\"",
+      "basis": "unlinked-copy"
+    }
+  ]
+}

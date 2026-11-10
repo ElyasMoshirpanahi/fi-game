@@ -1,0 +1,172 @@
+{
+  "book": "b23",
+  "edition": {
+    "text": "1st edition, 2018",
+    "source": "https://www.penguinrandomhouse.com/books/543993/atomic-habits-by-james-clear/",
+    "note": "Publisher page: Avery, published October 16, 2018, 320 pages, ISBN 9780735211292. Wikipedia (https://en.wikipedia.org/wiki/Atomic_Habits) mentions only a 2023 reissue with a new cover and no revised text. The Lessons use the 20-chapter numbering of this text; no Lesson rests on later-edition material."
+  },
+  "rows": [
+    {
+      "id": "b23c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 1: tiny gains compound, and systems beat goals. It matters because reaching 25 times expenses is a goal; the monthly routine that gets you there is the system.",
+      "verdict": "own",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "Author's page states: \"This article is an excerpt from Chapter 1 of my New York Times bestselling book Atomic Habits\"; it covers systems versus goals. The 25 times expenses example is the app's own framing, not a figure from the book. Card unchanged.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p4",
+      "kind": "quote",
+      "claim": "Problem 1: winners and losers have the same goals. Every Olympian wants a gold medal, so the goal cannot be what separates them.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "Chapter 1 excerpt: Problem #1, winners and losers have the same goals; \"Every Olympian wants to win a gold medal.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p5",
+      "kind": "quote",
+      "claim": "Problem 2: achieving a goal is only a momentary change. Clean a messy room once and it gets messy again unless you fix the habits that made it messy.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "Chapter 1 excerpt: Problem #2, achieving a goal is only a momentary change; \"Imagine you have a messy room and you set a goal to clean it.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p6",
+      "kind": "quote",
+      "claim": "Problem 3: goals restrict your happiness. The 'once I reach my goal, then I'll be happy' mindset delays joy and sets up a choice of success or disappointment.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "Chapter 1 excerpt: Problem #3, goals restrict your happiness; \"Once I reach my goal, then I'll be happy.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p7",
+      "kind": "quote",
+      "claim": "Problem 4: goals are at odds with long-term progress. A runner who trains for one race may stop training after the finish line; a system keeps you playing.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "Chapter 1 excerpt: Problem #4, goals are at odds with long-term progress; \"Many runners work hard for months, but as soon as they cross the finish line, they stop training.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p10",
+      "kind": "figure",
+      "claim": "Getting 1 percent better every day for a year makes you about 37 times better. Getting 1 percent worse every day takes you down nearly to zero.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/atomic-habits-summary",
+      "note": "Author's summary page: 1 percent better daily for a year gives about 37 times better; \"if you get 1 percent worse each day for one year, you'll decline nearly down to zero.\" Also https://jamesclear.com/continuous-improvement: \"you'll end up thirty-seven times better by the time you're done.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c1l1p11",
+      "kind": "other",
+      "claim": "Applied: the goal is capital of 25 times annual expenses. The system is the automatic monthly transfer, the reading hour and the quarterly net-worth log.",
+      "verdict": "own",
+      "source": "https://jamesclear.com/goals-systems",
+      "note": "The goal versus system distinction is the chapter 1 excerpt's. The 25 times annual expenses goal and the transfer, reading hour and net-worth log are the app's own application, not figures from the book. Card unchanged.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c2l1p2",
+      "kind": "figure",
+      "claim": "In a British study, 91 percent of people who wrote down when and where they would exercise did it at least weekly. In the other groups, only 35 to 38 percent did.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/implementation-intentions",
+      "note": "Author's page: study of 248 people in Great Britain; 35 to 38 percent of the first two groups exercised at least once per week, 91 percent of the group that wrote down day, time and place.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c2l1p4",
+      "kind": "quote",
+      "claim": "Example: 'I will meditate for one minute at 7 in the morning in my kitchen.' With a clear plan you do not wait for inspiration; you follow the plan.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/implementation-intentions",
+      "note": "Author's page shows: \"I will meditate for one minute at 7 a.m. in my kitchen.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c2l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 6 and 7, motivation is overrated and the secret to self-control. It matters because the room you work in shapes your habits more than willpower does.",
+      "verdict": "verified",
+      "source": "https://evansamek.substack.com/p/atomic-habits-by-james-clear",
+      "note": "Secondary: a full chapter list gives 6 \"Motivation is Overrated; Environment Often Matters More\" and 7 \"The Secret to Self Control\". The author's endnotes page (https://jamesclear.com/atomic-habits/endnotes) places the Anne Thorndike note in chapter 6 and the Vietnam heroin notes in chapter 7.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b23c2l2p2",
+      "kind": "figure",
+      "claim": "At Massachusetts General Hospital, Dr Anne Thorndike put bottled water near the cafeteria registers and in more places. Soda sales dropped 11.4 percent and water sales rose 25.8 percent.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/choice-architecture",
+      "note": "Author's page: Anne Thorndike, Massachusetts General Hospital; water added to the refrigerators next to the cash registers and baskets of bottled water placed next to the food stations; over three months soda sales \"dropped by 11.4 percent\" and bottled water sales \"increased by 25.8 percent\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c2l2p7",
+      "kind": "figure",
+      "claim": "During the Vietnam War, about one in five US soldiers became addicted to heroin. Back home, away from the cues of war, only about 5 percent relapsed within a year.",
+      "verdict": "corrected",
+      "source": "https://jamesclear.com/heroin-habits",
+      "note": "Author's page: \"over 15 percent\" were found to be addicts, then \"as many as 20 percent were addicted\"; \"only 5 percent of them became re-addicted within a year\". The Card said \"about one in five ... became addicted\"; changed to \"as many as one in five ... were addicted\" in English and Farsi. The 5 percent sentence and Check b23c2l2k3 are unchanged.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c2l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 8 to 10, the second law and its inversion. It matters because a habit you look forward to survives tired evenings far better than one you dread.",
+      "verdict": "verified",
+      "source": "https://evansamek.substack.com/p/atomic-habits-by-james-clear",
+      "note": "Secondary: chapter list gives 8 \"How to Make a Habit Irresistible\", 9 \"The Role of Family and Friends in Shaping Your Habits\", 10 \"How to Find and Fix the Causes of Your Bad Habits\". These are the three chapters between the first-law chapters (to 7) and the third-law chapters (from 11).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b23c3l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 11 and 12, walk slowly but never backward and the law of least effort. It matters because the habit you keep is usually the one with the least friction.",
+      "verdict": "verified",
+      "source": "https://www.hivedigital.com/blog/atomizing-atomic-habits-the-third-law-of-behavior-change",
+      "note": "Secondary, two independent pages agree: chapter 11 \"Walk Slowly, but Never Backward\" and chapter 12 \"The Law of Least Effort\" (also in the list at https://evansamek.substack.com/p/atomic-habits-by-james-clear).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b23c3l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 13 and 14, how to stop procrastinating and how to make good habits inevitable. It matters because the hardest part of any habit is starting it.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/how-to-stop-procrastinating",
+      "note": "Author's page says the Two-Minute Rule article is drawn from chapter thirteen. Secondary pages (https://www.hivedigital.com/blog/atomizing-atomic-habits-the-third-law-of-behavior-change) give 13 \"How to Stop Procrastinating by Using the Two-Minute Rule\" and 14 \"How to Make Good Habits Inevitable and Bad Habits Impossible\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c3l2p6",
+      "kind": "figure",
+      "claim": "Clear tells of a reader who lost over 100 pounds; at first he went to the gym each day but never let himself stay more than five minutes. He was building the habit of showing up.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/how-to-stop-procrastinating",
+      "note": "Author's page: \"One of my readers used this strategy to lose over one hundred pounds.\" \"In the beginning, he went to the gym each day, but he told himself he wasn't allowed to stay for more than five minutes.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b23c3l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 15 to 17, the fourth law and how to keep habits going. It matters because investing pays off over decades, so you need rewards you can feel today.",
+      "verdict": "verified",
+      "source": "https://evansamek.substack.com/p/atomic-habits-by-james-clear",
+      "note": "Secondary: chapter list gives 15 \"The Cardinal Rule of Behavior Change\", 16 \"How to Stick with Good Habits Every Day\", 17 \"How an Accountability Partner Can Change Everything\". The author's endnotes page files the Luby soap notes under chapter 15.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b23c3l3p3",
+      "kind": "figure",
+      "claim": "In Karachi, public health worker Stephen Luby handed out a premium soap that lathered well and smelled nice. Handwashing became satisfying, and diarrhea among children fell by 52 percent.",
+      "verdict": "verified",
+      "source": "https://jamesclear.com/atomic-habits/endnotes",
+      "note": "Author's endnotes for chapter 15 list the passages \"In Pakistan, Safeguard was a premium soap\" and \"The rate of diarrhea fell by 52 percent\", citing Luby et al., Lancet 2005. A secondary page quoting the chapter (https://zahidqayoom.blogspot.com/2025/05/atomic-habits-chapter-15.html) shows \"a public health worker named Stephen Luby\", \"The soap lathered easily and smelled great\" and the improvement in the health of the children. The figure is the book's; summaries of the trial itself report 53 percent.",
+      "basis": "author-or-publisher"
+    }
+  ]
+}

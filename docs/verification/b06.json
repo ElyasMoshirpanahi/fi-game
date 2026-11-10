@@ -1,0 +1,469 @@
+{
+  "book": "b06",
+  "edition": {
+    "text": "13th edition, 2023",
+    "source": "https://wwnorton.co.uk/books/9781324051138-a-random-walk-down-wall-street-b861db9e-37ad-4aa9-ae33-cbfab86f2f37",
+    "note": "W. W. Norton lists the \"Thirteenth\" (fiftieth-anniversary) edition, 2023, which adds cryptocurrencies, NFTs and meme stocks. The Lessons cite chapters 1 to 15 with behavioural finance as chapter 10, the fitness manual as 12 and the three giant steps as 15, and mention Bitcoin and GameStop; that matches the 13th-edition contents pages (publisher's excerpt of the Spanish translation: https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf). The 12th edition (2019) has the same chapter numbers (Wikiquote headings) but no meme stocks. Two Cards (b06c1l3p7 biotech, b06c1l3p13 concept stocks) draw on sections of earlier editions that are not in the 13th-edition contents. The English text of the 13th edition could not be opened; claims were checked against Malkiel's own papers and articles, excerpts of earlier editions, and secondary sources as noted in each row. The book's year field is 1973 (first edition), while most Lessons rest on material added in later editions."
+  },
+  "rows": [
+    {
+      "id": "b06c1l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 2, The Madness of Crowds: the tulip craze, the South Sea Bubble and the 1929 crash. It matters because the same crowd behaviour will appear in your own investing life.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 2 \"La locura de las multitudes\" (The Madness of Crowds) with sections on the tulip-bulb craze, the South Sea Bubble and Wall Street in 1929. English chapter title confirmed on Wikiquote's chapter headings.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l2p2",
+      "kind": "figure",
+      "claim": "In 1630s Holland, tulip bulbs with striking striped petals became objects of speculation. The stripes came from a mosaic virus, and the Dutch prized these infected bulbs highly.",
+      "verdict": "verified",
+      "source": "https://www.goodreads.com/notes/62351852-a-random-walk-down-wall-street/4290668-rajiv-mot",
+      "note": "Reader's Kindle highlight of the book: \"Many of these flowers succumbed to a nonfatal virus known as mosaic ... contrasting colored stripes or 'flames.' The Dutch valued highly these infected bulbs\". Malkiel's own paper \"Bubbles in Asset Prices\" (Princeton CEPS WP 200) says the same without the word mosaic and dates the peak to early 1637.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l2p3",
+      "kind": "figure",
+      "claim": "As prices soared, people bartered belongings such as land, jewels and furniture for bulbs. Malkiel reports bulb prices rose twentyfold in January 1637 alone.",
+      "verdict": "softened",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Second reader: the barter detail was still stated on the strength of one summary site; it is now removed. Twentyfold confirmed in Malkiel's own paper: \"a twenty-fold increase in tulip-bulb prices during January of 1637\". The barter list (land, jewels and furniture) was found only in one summary (https://www.shortform.com/blog/tulip-craze/: \"bartering valuables like jewelry and land\"), so \"furniture\" was dropped and the Card now says \"valuables such as land and jewels\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l2p4",
+      "kind": "figure",
+      "claim": "In February 1637 prices fell by even more than they had risen in January. In the end most bulbs were almost worthless, selling for no more than a common onion.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: \"followed by an even larger decline in prices in February\"; \"Most bulbs became almost worthless, selling for no more than the price of a common onion.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l2p5",
+      "kind": "other",
+      "claim": "In 1720 Britain, the South Sea Company, granted a monopoly on trade to the South Seas, sold the public a dream of riches. Its shares soared though its trade barely existed.",
+      "verdict": "corrected",
+      "source": "https://en.wikipedia.org/wiki/South_Sea_Company",
+      "note": "Malkiel's paper (https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf) confirms the monopoly \"over all trade to the South Seas\" and that the stock \"soared almost ten-fold\"; its chart runs 1717-1722 with the 1720 peak. \"Its trade barely existed\" overstated it: the company did trade but, per Wikipedia, \"never realised any significant profit from its monopoly\". Now \"the trade itself earned little\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l2p6",
+      "kind": "quote",
+      "claim": "Copycat 'bubble companies' followed, one raising money for an undertaking of great advantage, but nobody to know what it is. Parliament passed the Bubble Act in 1720 to curb them.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: \"a company for carrying on the undertaking of great advantage, but nobody to know what it is.\" Bubble Act: Wikipedia infobox gives year 1720, royal assent 11 June 1720 (https://en.wikipedia.org/wiki/Bubble_Act).",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l2p8",
+      "kind": "other",
+      "claim": "The 1920s brought the next mania, on Wall Street. Speculators bought shares on margin, with money borrowed from brokers, so rising prices fed more borrowing.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper on 1928-29: \"margin customers, who had purchased stocks with borrowed money\"; falling prices \"led to more margin calls and finally to a self-sustaining selling wave\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l2p10",
+      "kind": "figure",
+      "claim": "After the 1929 crash the market kept falling for years, and by 1932 it had lost most of its value. Borrowed money turned the fall into ruin for many.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: the Dow \"fell 66 percent from December 1929 to its low in the summer of 1932 (although the decline was over 80 percent from the September 1929 level)\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l2p14",
+      "kind": "other",
+      "claim": "Each mania ran on borrowed or leveraged bets: options in Holland, margin loans in 1929. Leverage made every crash far more painful.",
+      "verdict": "verified",
+      "source": "https://en.wikiquote.org/wiki/Burton_Malkiel",
+      "note": "Wikiquote (12th ed., ch. 2): \"The instruments that enabled tulip speculators to get the most action for their money were 'call options'\". Margin in 1929: Malkiel's paper, as for b06c1l2p8.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 3, the speculative bubbles from the 1960s to the 1990s. It matters because each one wore a new costume, and spotting the costume helps you avoid paying for the next one.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 3 \"Las burbujas especulativas desde los años sesenta hasta los noventa\" (Speculative Bubbles from the Sixties into the Nineties).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p2",
+      "kind": "other",
+      "claim": "In the early 1960s, new issues with names ending in 'tronics' soared, whatever the business. The tronics boom showed that a fashionable name could sell almost any stock.",
+      "verdict": "verified",
+      "source": "https://www.bylo.org/malkiel2k.html",
+      "note": "Malkiel in the New York Times, 2 Jan 2000 (copy at bylo.org): \"the tronics boom came down to earth in 1962, and many of the stocks quickly lost 90 percent of their value.\" A chapter overview (https://www.traderplanet.com/?p=146934) adds that companies \"would add a 'tronics' suffix to their names in order to boost their stock prices\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p3",
+      "kind": "figure",
+      "claim": "In the late 1960s came the conglomerates, which bought unrelated firms to show rising earnings per share. They claimed synergy, where two plus two equals five.",
+      "verdict": "softened",
+      "source": "https://www.goodreads.com/notes/24161240-a-random-walk-down-wall-street/40702162-kathleen",
+      "note": "Reader's Kindle highlight: \"Synergism is the quality of having 2 plus 2 equal 5 ... This magical, surefire new creation was called a conglomerate.\" The date \"late 1960s\" was not confirmed (one overview says \"mid-1960s\"; the 13th-edition contents place the section under the Soaring Sixties), so the Card now says \"In the 1960s\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p5",
+      "kind": "quote",
+      "claim": "In the early 1970s, institutions crowded into the Nifty Fifty, big growth firms such as Xerox, IBM and Polaroid. They were called one-decision stocks: buy them and never sell.",
+      "verdict": "verified",
+      "source": "https://www.aaii.com/journal/article/valuing-growth-stocks-revisiting-the-nifty-fifty",
+      "note": "Jeremy Siegel, AAII Journal: \"premier growth stocks, such as Xerox, IBM, Polaroid and Coca-Cola, that became institutional darlings in the early 1970s ... often called one-decision stocks: buy and never sell.\" Malkiel, NYT 2 Jan 2000: \"They were called 'one decision' stocks\". Secondary for the names; the 13th-edition contents list a \"Nifty Fifty\" section.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p6",
+      "kind": "figure",
+      "claim": "Polaroid sold at about 90 times earnings at its peak. In the 1973 to 1974 bear market, many Nifty Fifty shares lost most of their value.",
+      "verdict": "corrected",
+      "source": "https://www.aaii.com/journal/article/valuing-growth-stocks-revisiting-the-nifty-fifty",
+      "note": "Second reader: the Card said \"about 90\" and \"lost most of their value\"; it now follows the source (\"over 90 times\", most shares fell sharply). Siegel (AAII): \"Polaroid was selling at over 90 times earnings\"; \"the 1973-74 bear market slashed the value of most of the 'Nifty Fifty'\". MoneyWeek independently: \"Polaroid peaked on around 90\". Secondary sources; Malkiel's own table was not opened.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p7",
+      "kind": "other",
+      "claim": "The 1980s brought a new-issue craze and a biotech boom, with firms that had no earnings trading on stories of future cures. Again prices ran far ahead of any firm foundation.",
+      "verdict": "verified",
+      "source": "https://www.bylo.org/malkiel2k.html",
+      "note": "Malkiel, NYT 2 Jan 2000: \"The biotechnology boom of the early 1980's was an almost perfect replica of the microelectronics boom of the 1960's.\" A Kindle highlight of the book describes valuing \"each biotech company\" on its product pipeline. Note: the 13th-edition contents list only \"The Return of New Issues\" and \"ZZZZ Best\" under the Roaring Eighties; the separate biotech section belongs to earlier editions.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p8",
+      "kind": "figure",
+      "claim": "One of the biggest bubbles of the era was in Japan. By the late 1980s, the land under the Imperial Palace in Tokyo was said to be worth as much as all the land in California.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: \"Just selling the Imperial Palace and its grounds at their appraised value would have raised enough cash to buy all of California.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l3p9",
+      "kind": "figure",
+      "claim": "Japanese shares traded at about 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
+      "verdict": "corrected",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: \"Japanese stocks sold at more than 60 times earnings\"; Nikkei from almost 40,000 at the end of 1989 to 14,309 by mid-August 1992, \"a drop of about 63 percent\". \"about 60 times\" changed to \"more than 60 times\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l3p11",
+      "kind": "figure",
+      "claim": "When colleagues say 'this time is different' about a hot sector, write the price-earnings ratio next to the story. A great company can still be a poor buy at 90 times earnings.",
+      "verdict": "verified",
+      "source": "https://www.aaii.com/journal/article/valuing-growth-stocks-revisiting-the-nifty-fifty",
+      "note": "Reader-scenario Card; the 90 times earnings echoes Polaroid's multiple (Siegel, AAII: \"over 90 times earnings\").",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l3p13",
+      "kind": "other",
+      "claim": "In the late 1960s, concept stocks such as National Student Marketing sold on a simple story. Its price soared, then collapsed when the market turned.",
+      "verdict": "softened",
+      "source": "https://www.traderplanet.com/?p=146934",
+      "note": "Looked for National Student Marketing in Malkiel's papers, excerpts and reader highlights; no opened source showed it, and the 13th-edition contents have no concept-stocks section (it belongs to earlier editions). One chapter overview confirms the idea: \"In the late 1960s ... a boom in concept stocks ... companies with little to no revenue, but with compelling stories ... the bear market of 1969-1971 destroyed the prices\". The company name was removed.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l4p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 4, the internet bubble of the late 1990s and the manias that followed. It matters because you work in tech, where the next story will sound most convincing to you.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 4 \"Las burbujas explosivas de las primeras décadas del siglo XXI\" with sections on the Internet bubble, the US housing bubble, meme-stock mini-bubbles and the cryptocurrency bubble.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l4p2",
+      "kind": "other",
+      "claim": "In the late 1990s, any company tied to the internet could raise money and soar. Simply adding '.com' to a company's name could lift its share price sharply.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: \"companies that changed their names to include some Web orientation (such as .com or .net) doubled in price overnight.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l4p4",
+      "kind": "figure",
+      "claim": "From its March 2000 peak, the Nasdaq index fell almost 80 percent by 2002. Many dot-com darlings went to zero.",
+      "verdict": "verified",
+      "source": "https://en.wikipedia.org/wiki/Nasdaq_Composite",
+      "note": "Wikipedia: the Nasdaq Composite peaked on March 10, 2000, \"falling 78% from its highest value by October 2002\". Secondary; Malkiel's own sentence was not opened.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c1l4p8",
+      "kind": "other",
+      "claim": "A housing bubble followed in the 2000s, fed by easy mortgages to borrowers who could not repay. When house prices fell, the 2008 financial crisis spread around the world.",
+      "verdict": "verified",
+      "source": "https://www.princeton.edu/~ceps/workingpapers/200malkiel.pdf",
+      "note": "Malkiel's paper: the originate-and-distribute system \"led to a deterioration in lending standards\" with sub-prime loans; the collapse weakened \"major financial institutions around the world\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c1l4p12",
+      "kind": "figure",
+      "claim": "Keep speculative bets, if any, inside a small satellite slice. A bubble can then pop without touching the 80 percent index core you rely on.",
+      "verdict": "own",
+      "source": null,
+      "note": "Reader-roadmap Card: the 80 percent index core is the app's own plan, not a claim about the book.",
+      "basis": "none"
+    },
+    {
+      "id": "b06c2l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 5 and 6, on technical analysis and the random-walk evidence. It matters because trading apps push charts at you, and Malkiel tested whether charts actually work.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 5 \"Análisis técnico y análisis fundamental\", chapter 6 \"El análisis técnico y la teoría del paseo aleatorio\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c2l1p2",
+      "kind": "quote",
+      "claim": "Technical analysis studies charts of past prices and volume to forecast future moves. Chartists believe the market is only 10 percent logical and 90 percent psychological.",
+      "verdict": "verified",
+      "source": "https://personal.lse.ac.uk/ROBERT49/teaching/ph232/pdf/Malkiel-Ch5.pdf",
+      "note": "Chapter 5 as hosted for an LSE course (9th-edition text): \"Most chartists believe that the market is only 10 percent logical and 90 percent psychological.\"",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c2l1p7",
+      "kind": "figure",
+      "claim": "Mechanical filter rules, such as buying after a share rises 5 percent from a low, were tested too. Once trading costs were counted, they did not consistently beat buy and hold.",
+      "verdict": "softened",
+      "source": "https://datagolf.com/static/blogs/fl_bias/fama_1970.pdf",
+      "note": "The 13th-edition contents list \"The filter system\" in chapter 6, but the passage with \"5 percent\" was not opened, so the Card now says \"a set percentage\". The finding is confirmed in Fama (1970): once \"even the minimum trading costs\" are counted, the filters' \"advantage over buy-and-hold disappears\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c2l3p4",
+      "kind": "quote",
+      "claim": "Malkiel tells the joke of a finance professor and a student who see a $100 bill on the street. The professor walks on: if it were real, someone would already have picked it up.",
+      "verdict": "verified",
+      "source": "https://swh.princeton.edu/~ceps/workingpapers/91malkiel.pdf",
+      "note": "Malkiel's paper \"The Efficient Market Hypothesis and Its Critics\": \"a finance professor and a student who come across a $100 bill lying on the ground ... 'Don't bother--if it were really a $100 bill, it wouldn't be there.'\" Same wording in the 9th-edition chapter hosted by LSE. The Card paraphrases without quotation marks.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c2l3p8",
+      "kind": "figure",
+      "claim": "Robert Shiller argued that prices swing far more than dividends justify. Critics also cite the 1987 crash, when shares fell more than 20 percent in a single day.",
+      "verdict": "verified",
+      "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "note": "Federal Reserve History: on 19 October 1987 the Dow \"dropped 22.6 percent in a single trading session\". Shiller: the 9th-edition chapter hosted by LSE (https://personal.lse.ac.uk/ROBERT49/teaching/ph232/pdf/Malkiel-Ch11.pdf) says he concluded stock prices show far \"too much variability\" to be explained by an efficient-market theory.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c2l3p11",
+      "kind": "figure",
+      "claim": "For your €40k, the hypothesis does not need to be perfectly true. It only needs to be true enough that a low-cost index fund beats your own attempts after fees.",
+      "verdict": "own",
+      "source": null,
+      "note": "Reader-scenario Card: the €40k is the reader's own figure, not a book claim.",
+      "basis": "none"
+    },
+    {
+      "id": "b06c2l3p12",
+      "kind": "other",
+      "claim": "If a strategy looks like free money, treat it like the $100 bill on the street. Check twice, and assume the crowd has seen it already.",
+      "verdict": "verified",
+      "source": "https://swh.princeton.edu/~ceps/workingpapers/91malkiel.pdf",
+      "note": "Reader-scenario framing built on the $100 bill story, confirmed as for b06c2l3p4.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b06c3l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 8 and 9, on modern portfolio theory and how risk is rewarded. It matters because diversification is how your €40k can lower risk without giving up expected return.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 8 (modern portfolio theory) and chapter 9 \"La recompensa por aumentar el riesgo\" (Reaping Reward by Increasing Risk). The €40k is the reader's figure.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l1p6",
+      "kind": "figure",
+      "claim": "The risk left after diversifying is market risk, measured by beta. A beta of 1 means a share tends to move with the market; above 1, it swings more than the market.",
+      "verdict": "verified",
+      "source": "https://en.wikipedia.org/wiki/Beta_(finance)",
+      "note": "Wikipedia: the market-weighted average beta \"is 1. If an asset has a beta above 1, it indicates that its return moves more than 1-to-1 with the return of the market-portfolio\". Malkiel's paper defines beta as \"the extent to which the return of the stock is correlated with the return for the market as a whole\"; chapter 9 opens with \"Beta and systematic risk\" (13th-edition contents).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 12 and 13, Malkiel's fitness manual and his way to estimate future returns. It matters because these basics come before any choice of fund.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 12, the fitness manual for random walkers; chapter 13, the primer on understanding and projecting returns from stocks and bonds.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p2",
+      "kind": "other",
+      "claim": "Exercise 1 is to save regularly and start early. Exercise 2 is a cash reserve and insurance; Malkiel favours cheap term life insurance over policies mixed with investing.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 1: Reúna las provisiones necesarias\"; \"Ejercicio 2: ... Protéjase a sí mismo con recursos en efectivo y seguros\". Term insurance: a reader's Kindle highlight (https://notes.elie.net/zdata/kindle/Malkiel-A+Random+Walk+Down+Wall+Street) reads \"My advice is to buy renewable term insurance\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p3",
+      "kind": "other",
+      "claim": "Exercise 3: keep your cash competitive, in money-market funds or similar accounts, not in a bank account paying almost nothing.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 3: Sea competitivo; haga que el rendimiento de sus reservas de capital en efectivo se mantenga al ritmo de la inflación\", with money-market funds listed first.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p4",
+      "kind": "other",
+      "claim": "Exercise 4: dodge the tax collector legally, using tax-advantaged retirement accounts. Every euro not lost to tax keeps compounding for you.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 4: Aprenda a esquivar a Hacienda\" (learn how to dodge the tax collector), covering IRAs, Roth IRAs and pension plans. Wikiquote: \"This exercise shows how you can legally stiff the tax collector.\"",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p5",
+      "kind": "other",
+      "claim": "Exercise 5: make sure the shoe fits. Match your investments to your goals, your stage of life and how much risk lets you sleep at night.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 5: Compruebe que el zapato le quede bien. Conozca los objetivos de su inversión\". Wikiquote: \"The amount of risk you can tolerate is partly determined by your sleeping point.\"",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p6",
+      "kind": "other",
+      "claim": "Exercise 6: begin your walk at home. Malkiel sees owning a house as a sound investment for most people, and real estate adds diversification.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 6: Comience el paseo desde su casa; el alquiler lleva a unos músculos de inversión fláccidos\" (begin your walk at your own home; renting leads to flabby investment muscles).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p7",
+      "kind": "other",
+      "claim": "Exercises 7 and 8: consider bonds for steady income, and treat gold and collectibles with caution. Exercise 9: compare fees, because costs come straight out of returns.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): Exercise 7 on bonds, Exercise 8 \"Vaya de puntillas sobre los campos de oro, objetos coleccionables y otras inversiones\", Exercise 9 \"los costes de las comisiones no son aleatorios; unos son más baratos que otros\". The 13th edition also has a second Exercise 7 on bond substitutes.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p8",
+      "kind": "other",
+      "claim": "Exercise 10: diversify. Spread your money across many holdings and asset classes instead of relying on any single one.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): \"Ejercicio 10: Evite simas y escollos. Diversifique los pasos de su inversión\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l2p12",
+      "kind": "figure",
+      "claim": "Then sort the rest by time: money needed within a few years stays safe, and long-term money works toward 25 times your annual expenses.",
+      "verdict": "verified",
+      "source": "https://notes.elie.net/zdata/kindle/Malkiel-A+Random+Walk+Down+Wall+Street",
+      "note": "Reader-roadmap Card. 25 times annual expenses is the inverse of the 4 percent rule the book uses; Kindle highlight: \"Under the 4 percent rule, you would need $450,000 of savings\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 14, the life-cycle guide to investing. It matters because your mix of shares and bonds should change as you move from your 30s toward financial independence.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 14 \"Una guía de inversión siguiendo el ciclo vital\" (A Life-Cycle Guide to Investing).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l3p3",
+      "kind": "figure",
+      "claim": "Second, the real risk of shares depends on how long you hold them. Over one year returns swing wildly; over 25 years the range narrows sharply.",
+      "verdict": "verified",
+      "source": "https://en.wikiquote.org/wiki/Burton_Malkiel",
+      "note": "Wikiquote (12th ed., ch. 14), principle 2: \"The risk of investing in common stocks and bonds depends on the length of time the investments are held. The longer an investor's holding period, the lower the likely variation in the asset's return.\" A reader's chapter notes (https://myinvestingnotes.blogspot.com/2016/08/a-random-walk-down-wall-street-part_46.html) cite \"twenty or twenty-five-year holding periods\". Secondary for the 25-year span.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l3p8",
+      "kind": "other",
+      "claim": "His life-cycle portfolios start heavy in shares in the 20s and shift steadily toward bonds by the late 60s. Target-date funds make this shift automatically.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 14 sections \"Guía de inversión según el ciclo vital\" and \"Fondos de ciclo vital (con fecha límite)\" (target-date funds). A blog (https://www.mymoneyblog.com/model-portfolio-5-a-random-walk-down-wall-street.html) reports the book's mid-twenties portfolio at about 75% stocks, falling to 40% in late retirement (older edition).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l3p9",
+      "kind": "figure",
+      "claim": "In retirement, Malkiel suggests spending about 4 percent of your portfolio a year so it can last. Spending much more risks running out.",
+      "verdict": "verified",
+      "source": "https://notes.elie.net/zdata/kindle/Malkiel-A+Random+Walk+Down+Wall+Street",
+      "note": "Reader's Kindle highlight of the book: \"Under the 4 percent rule, you would need $450,000 of savings\". A second reader's notes (https://calvinrosser.com/notes/random-walk-down-wall-street-burton-malkiel/) record the same rule: \"spend no more than 4% of your investments annually\". Two independent secondary sources.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l3p11",
+      "kind": "other",
+      "claim": "In your 30s with a steady tech salary, Malkiel's guide points to a share-heavy mix. Write your own target split in your journal and rebalance to it once a year.",
+      "verdict": "verified",
+      "source": "https://www.mymoneyblog.com/model-portfolio-5-a-random-walk-down-wall-street.html",
+      "note": "Reader-scenario Card. Share-heavy mix for younger investors: the blog reports the book's allocation as about 75% stocks in the mid-twenties and 65% at age 40 (older edition).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l4p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 15, Malkiel's three giant steps down Wall Street, and his case for index funds. It matters because this is the core of your roadmap: 80 percent in broad index ETFs.",
+      "verdict": "verified",
+      "source": "https://www.alianzaeditorial.es/primer_capitulo/un-paseo-aleatorio-por-wall-street.pdf",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 15 \"Tres pasos de gigante por Wall Street\", opening with the index-fund step. The 80 percent is the reader's roadmap.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l4p2",
+      "kind": "figure",
+      "claim": "In the 1973 first edition, Malkiel called for a fund that simply bought the whole market, though none existed for the public. Vanguard launched the first retail index fund in 1976.",
+      "verdict": "verified",
+      "source": "https://www.m-vg.de/mediafiles/Leseprobe/9783959726818.pdf",
+      "note": "Malkiel's foreword to the 50th-anniversary edition (publisher's excerpt of the German translation): the first edition advised buying and holding a broad index fund, and three years after the book first appeared Jack Bogle of Vanguard launched the first index fund open to the public. Vanguard's history page (https://corporate.vanguard.com/content/corporatesite/us/en/corp/who-we-are/sets-us-apart/our-history.html) dates the First Index Investment Trust to 1976.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l4p3",
+      "kind": "other",
+      "claim": "Step one, the no-brainer step: buy a broad index fund that owns the whole market. Malkiel prefers a total-market fund to one tracking only the S&P 500.",
+      "verdict": "verified",
+      "source": "https://www.wealthmanagement.com/etfs/random-walk-s-malkiel-says-case-index-funds-stronger-ever",
+      "note": "Contents pages of the 13th edition (publisher's excerpt of the Spanish translation, Alianza, \"Decimotercera edición\"): chapter 15 \"El paso del que no piensa: Invertir en fondos índice\" (the no-brainer step) and \"Una definición más amplia de indexación\". Malkiel in a WealthManagement interview: \"you don't buy an S&P 500 Index fund. You really want something broader, a total stock market fund.\"",
+      "basis": "secondary"
+    },
+    {
+      "id": "b06c3l4p10",
+      "kind": "figure",
+      "claim": "On your roadmap, costs compound like returns. A 1 percent yearly fee takes about a fifth of the final sum over 25 years, money that would have kept growing for you.",
+      "verdict": "own",
+      "source": null,
+      "note": "Reader-roadmap arithmetic, not a book claim: 0.99^25 = 0.78, so a 1 percent yearly fee leaves about 22 percent less after 25 years, \"about a fifth\".",
+      "basis": "none"
+    }
+  ]
+}

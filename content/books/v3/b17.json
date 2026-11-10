@@ -6,6 +6,10 @@
     "fa": "Eric Jorgenson"
   },
   "year": 2020,
+  "edition": {
+    "en": "1st edition, 2020",
+    "fa": "ویراست اول، ۲۰۲۰"
+  },
   "stage": 5,
   "must": true,
   "why": {

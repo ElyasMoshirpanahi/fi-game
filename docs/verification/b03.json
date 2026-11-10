@@ -1,0 +1,244 @@
+{
+  "book": "b03",
+  "edition": {
+    "text": "1st edition, 1992",
+    "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+    "note": "The author's site republishes chapters 6 and 9 of the original 1992 edition (\"From the original 1992 hardback\"). The Lessons match that text: Step 9 is titled \"Managing Your Finances\", the investment is long-term U.S. treasury and agency bonds, and the age-40 figure is 329,601 hours. Publishers Weekly (https://www.publishersweekly.com/9780670843312) lists the Viking hardback, reviewed 31 August 1992. No Lesson rests on material found only in the 2008 or 2018 revisions."
+  },
+  "rows": [
+    {
+      "id": "b03c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 1 and 2: Step 1 of the nine steps and the idea of life energy. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
+      "verdict": "softened",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Step 1 \"Making Peace with the Past\" and the nine steps are confirmed in the 1992 step summary; chapter 6 of 1992 refers to the life-energy \"arithmetic we did in Chapter 2\". No opened source shows the 1992 contents page placing Step 1 in chapter 1 (the Internet Archive scan is lending-only and no table of contents was found), so \"chapters 1 and 2\" became \"the opening chapters of the book\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l1p4",
+      "kind": "figure",
+      "claim": "The book counts the hours: at 40 you can expect roughly 330,000 hours of life left, and about half go to sleep and body maintenance. The rest is all the life energy you have to spend.",
+      "verdict": "corrected",
+      "source": "https://vickirobin.com/chapter-6-from-1992-ymoyl-edition/",
+      "note": "1992 chapter 6: \"if you are 40 years old, actuarial tables indicate that you have just 329,601 hours of life energy in your bank\"; the author's summary page (https://vickirobin.com/your-money-or-your-life-summary/) tabulates age 40 = 37.6 years = 329,601 hours. Figure confirmed and now stated exactly. The clause \"about half go to sleep and body maintenance\" was not found in any source that could be opened (searched the author's site and the web for \"body maintenance\" and \"half of your time\"), so it was removed.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l1p6",
+      "kind": "other",
+      "claim": "Step 1 is making peace with the past. Its first part asks how much money you have earned in your whole life, adding up every paycheck since your first job.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 1: Making Peace with the Past. A: How much have you earned in your life? Find out your total lifetime earnings ... from the first penny you ever earned to your most recent paycheck.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l1p10",
+      "kind": "figure",
+      "claim": "Applied: your €40k is your starting balance sheet. Write down assets in euros and any debts, and log it again each quarter in your net-worth log.",
+      "verdict": "own",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Book part confirmed: Step 1 B, \"creating a personal balance sheet of assets and liabilities-everything you own and everything you owe\". The €40k and the quarterly log are the reader's own roadmap, not a claim about the book.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils Step 2, being in the present. It matters because the real price of anything you buy in the Netherlands is hours of your life, not euros.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 2: Being in the Present-Tracking Your Life Energy\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l2p2",
+      "kind": "other",
+      "claim": "Step 2 has two parts. First, how much life energy you trade for money: your real hourly wage; second, how much life energy you spend: tracking every cent.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"A: How much are you trading your life energy for? ... compute your real hourly wage.\" \"B: Keep track of every cent that comes into or goes out of your life.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Steps 3, 4 and 5 of the program. It matters because these turn a pile of receipts into a monthly signal you can steer by.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Steps 3 (The Monthly Tabulation), 4 (Three Questions That Will Transform Your Life) and 5 (Making Life Energy Visible) appear in that order in the 1992 summary.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p2",
+      "kind": "other",
+      "claim": "Step 3 asks where it is all going. At the end of each month you make a monthly tabulation of every cent of income and expenses, grouped into your categories.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 3: Where Is It All Going? (The Monthly Tabulation). Every month create a table of all income and all expenses within categories generated by your own unique spending pattern.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p3",
+      "kind": "figure",
+      "claim": "Then you convert each category total into hours of life energy by dividing it by your real hourly wage. Restaurants become, say, 14 hours of your life.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Convert 'dollars' spent in each category to 'hours of life energy,' using your real hourly wage as computed in Step 2.\" The 14 hours is the Card's own illustration (\"say\"), not a book figure.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p5",
+      "kind": "quote",
+      "claim": "Step 4 asks three questions of each category. Did I receive fulfillment in proportion to the life energy spent, and is this spending aligned with my values and life purpose?",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"1. Did I receive fulfillment, satisfaction and value in proportion to life energy spent? 2. Is this expenditure of life energy in alignment with my values and life purpose? 3. How might this expenditure change if I didn't have to work for a living?\" The Card gives the first two as a close paraphrase without quotation marks.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p8",
+      "kind": "other",
+      "claim": "Step 5 makes life energy visible with a wall chart. Each month you plot total monthly income and total monthly expenses as two lines on one large graph.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 5: Making Life Energy Visible. Create a large Wall Chart plotting the total monthly income and total monthly expenses ... Use different-colored lines for monthly expenses and monthly income.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c1l3p12",
+      "kind": "figure",
+      "claim": "Applied: draw your own wall chart in euros and start it in your first Dutch month. The first €100 of ownership income will later be the first dot on a third line.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Book part confirmed: Step 8 posts monthly investment income \"as a separate line on your Wall Chart\". The €100 of ownership income is the reader's roadmap, not a book figure.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils Steps 6 and 7, minimising spending and maximising income. It matters because every euro you stop spending lowers both your monthly costs and the capital you need for freedom.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 6: Valuing Your Life Energy-Minimizing Spending\"; \"Step 7: Valuing Your Life Energy-Maximizing Income\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l1p2",
+      "kind": "other",
+      "claim": "Step 6 is valuing your life energy by minimising spending. The aim is not to deprive yourself but to get full value for every hour of life you spend.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-6-from-1992-ymoyl-edition/",
+      "note": "1992 chapter 6: \"Step 6: Valuing Your Life Energy-Minimizing Spending\"; \"Frugality is enjoying the virtue of getting good value for every minute of your life energy\"; \"isn't about deprivation; it's about loving yourself and your life\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l1p13",
+      "kind": "other",
+      "claim": "Step 7 is valuing your life energy by maximising income. If you trade life energy for money, trade it with purpose and for good pay.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 7: Valuing Your Life Energy-Maximizing Income ... Money is simply something you trade your life energy for. Trade it with purpose and integrity for increased earnings.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l1p11",
+      "kind": "figure",
+      "claim": "Applied: furnish your first Dutch flat from Marktplaats and the kringloop shop. Used furniture keeps more of your €40k working toward ownership.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-6-from-1992-ymoyl-edition/",
+      "note": "Book part confirmed: 1992 chapter 6 lists \"Buy used\" and says \"Reexamine your attitudes about buying used items.\" Marktplaats, kringloop and the €40k are the reader's roadmap.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p1",
+      "kind": "figure",
+      "claim": "This Lesson distils Step 8, capital and the crossover point. It matters because it turns your target of 25 times expenses into a line you can watch climb each month.",
+      "verdict": "own",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Step 8: Capital and the Crossover Point\" confirmed. The 25 times expenses target is the reader's roadmap figure and is not attributed to the book.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p2",
+      "kind": "other",
+      "claim": "Step 8 adds a third line to the wall chart: monthly investment income. Savings from the gap become capital, and capital produces income.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Step 8: \"post the monthly independence income as a separate line on your Wall Chart\"; the text calls it the \"monthly investment income line\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p4",
+      "kind": "figure",
+      "claim": "The formula: capital times the current long-term interest rate, divided by 12, gives your monthly investment income. You plot it each month.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Step 8 equation: capital x current long-term interest rate, over 12 months, = monthly investment income; \"Each month apply the following equation to your total accumulated capital\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p6",
+      "kind": "other",
+      "claim": "Because the expense line has fallen through Steps 4 to 6, the crossover point arrives far sooner than if spending had stayed high.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Step 5: \"You will see your expense line go down\"; Step 6 lowers expenses; Step 8: \"your total monthly expense line will have established a smaller zigzag pattern at a much lower level than when you started\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p10",
+      "kind": "figure",
+      "claim": "Applied: your 25 times expenses target is the same idea at a 4 percent withdrawal rate. Annual expenses times 25, times 4 percent, equals annual expenses.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "The arithmetic is exact (25 x 4 percent = 100 percent) and is presented as the reader's target, not the book's. The book's own crossover rule uses the current long-term interest rate (thirty-year treasury bonds), which the Card does not contradict.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l2p11",
+      "kind": "figure",
+      "claim": "Applied: plot ownership income plus investment income as your third line. The first €100 from a small AI product is the first dot on it.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Book part confirmed: a third Wall Chart line for monthly investment income (Step 8). The €100 and the AI product are the reader's roadmap.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Step 9, managing your finances, and the nine steps as one program. It matters because capital must keep paying you safely once you stop working.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"(From the original 1992 hardback.) Step 9: Managing Your Finances\"; \"a safe, steady and sufficient income for the rest of your life\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l3p2",
+      "kind": "other",
+      "claim": "Step 9 is managing your finances. You invest capital for steady income, so that investment income reliably covers expenses for the rest of your life.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Invest your capital in such a way as to provide an absolutely safe income, sufficient to meet your basic needs for the rest of your life.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l3p6",
+      "kind": "other",
+      "claim": "The 1992 edition recommended long-term US Treasury and government agency bonds. The aim was safe capital and steady, predictable income, not speculation.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "\"Only one category of investment vehicle fits the criteria perfectly: long-term U.S. treasury and U.S. government agency bonds\"; \"You are not using your hard-earned capital to speculate ... You simply want it to provide you with a safe, steady income you can count on.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b03c2l3p10",
+      "kind": "figure",
+      "claim": "Applied: the book wrote for 1990s US bonds; your roadmap's core is 80 percent index ETFs such as VWCE or IWDA. What carries over is the principle: keep costs low and understand what you hold.",
+      "verdict": "verified",
+      "source": "https://vickirobin.com/chapter-9-from-the-1992-edition/",
+      "note": "Book part confirmed: the 1992 text recommends U.S. treasury and agency bonds; \"Cut out the high expenses, fees and commissions of middlemen\"; \"become knowledgeable and sophisticated\". The 80 percent index ETF core (VWCE, IWDA) is the reader's roadmap, not the book.",
+      "basis": "author-or-publisher"
+    }
+  ]
+}

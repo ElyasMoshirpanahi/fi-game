@@ -1,0 +1,154 @@
+{
+  "book": "b08",
+  "edition": {
+    "text": "1st edition, 2002",
+    "source": "https://openlibrary.org/search?q=The%20Four%20Pillars%20of%20Investing%20William%20Bernstein",
+    "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Internet Archive record of the McGraw-Hill print: date 2002, ISBN 0071385290. The Lessons follow its 15-chapter layout (No Guts, No Glory through A Final Word), confirmed by the chapter headings in a reader's notes on that ISBN (sive.rs) and a chapter summary (bookey.app), and by chapter 1 on the author's site. A 2nd edition appeared in 2023 (McGraw-Hill product page); no Lesson relies on it. The scanned text itself is lending-only and was not read."
+  },
+  "rows": [
+    {
+      "id": "b08c1l1p9",
+      "kind": "figure",
+      "claim": "Bernstein reminds readers that US stocks lost most of their value from 1929 to 1932.",
+      "verdict": "verified",
+      "source": "https://www.efficientfrontier.com/t4poi/Ch1.htm",
+      "note": "Chapter 1 on the author's site: \"from the market peak in September 1929 to the bottom in July 1932, the market lost an astonishing 83% of its value.\"",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l2p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapter 2, Measuring the Beast; your 25-times-expenses target rests on a sane return estimate.",
+      "verdict": "own",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Secondary: reader's notes on ISBN 0071385290 head the section \"CH 2 : Measuring the Beast\"; the Bookey chapter summary lists \"Chapter 2 | Measuring the Beast\" too. The 25-times target is the roadmap's figure, not a claim about the book.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l2p2",
+      "kind": "figure",
+      "claim": "Using US data since 1926, Bernstein shows stocks earned about 10 percent a year and long bonds about 5 percent. Treasury bills earned little more than inflation.",
+      "verdict": "corrected",
+      "source": "https://www.efficientfrontier.com/t4poi/Ch1.htm",
+      "note": "Chapter 1: \"returns of U.S. stocks, long-term Treasury bonds, and Treasury bills since 1900 ... stocks (9.89% annualized), bonds (4.85%), bills (3.86%)\", inflation 3.6%. The figures hold but the series starts in 1900, not 1926 (1926 is the start of the small/large and value/growth tables), and it sits in chapter 1. Card now says \"Chapter 1's US data since 1900\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l2p7",
+      "kind": "other",
+      "claim": "Writing in 2002, after the late-1990s boom, Bernstein expected future stock returns well below the historic figure.",
+      "verdict": "verified",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Secondary, notes on chapter 2: the Gordon equation gives \"Dividend growth is 5% and yield is 1.55% = 6.55%. Nowhere near the 10% returns of the past.\" Publication year 2002 per the Internet Archive record.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l2p11",
+      "kind": "other",
+      "claim": "For your plan, estimate future returns from yield plus growth, not from the last ten years. A modest number keeps your 25-times target honest.",
+      "verdict": "verified",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Applied Card. Secondary: \"Discount Rate (market return) = Dividend Yield + Dividend Growth\". The 25-times target is the roadmap's figure.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 3 and 4: why you cannot beat the market and how to build a portfolio from whole asset classes; your core is 80 percent index ETFs.",
+      "verdict": "verified",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Secondary: \"CH. 3 : The Market is Smarter Than You Are\", \"CH. 4 : The Perfect Portfolio\"; Bookey lists the same titles. The 80 percent core is the roadmap's figure.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l4p2",
+      "kind": "other",
+      "claim": "Bernstein walks through the great manias: the South Sea Bubble, the British railway mania of the 1840s, the 1920s boom and the 1990s tech bubble.",
+      "verdict": "verified",
+      "source": "https://www.bookey.app/book/the-four-pillars-of-investing",
+      "note": "Secondary (chapter summary of \"Chapter 5 | Tops: A History of Manias\"): sections on the diving company bubble, the South Sea Bubble, canal mania, railway stocks in the 1840s, the 1920s boom and 1929 crash, the go-go era, the dot-com bubble. The National Post review of 2 November 2002 (https://bylo.org/fp02nov02jc.html) also reports the late-1990s bubble in Part 2. The passage itself was not seen.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b08c1l4p7",
+      "kind": "figure",
+      "claim": "In 1979 Business Week ran a cover called The Death of Equities, close to a great time to buy.",
+      "verdict": "verified",
+      "source": "https://humbledollar.com/2023/07/courage-required/",
+      "note": "Author's own text (excerpt of the 2nd edition): \"In August 1979, BusinessWeek ran a cover story with the headline 'The Death of Equities'\"; stocks then \"were cheap, cheap, cheap\". Bookey lists a section \"The Death of Equities\" in chapter 6 of the 15-chapter (1st edition) layout.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b08c1l4p10",
+      "kind": "figure",
+      "claim": "Bernstein describes US stocks lagging inflation from the mid-1960s to the early 1980s.",
+      "verdict": "corrected",
+      "source": "https://www.efficientfrontier.com/t4poi/Ch1.htm",
+      "note": "Chapter 1: \"during the 17 years from 1966 to 1982, stock returns just barely kept up with inflation\". Stocks did not lag inflation; the Card now says they barely kept up with it from 1966 to 1982.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l4p11",
+      "kind": "other",
+      "claim": "Knowing the South Sea Bubble and 2000 helps you hold your index core in the next crash.",
+      "verdict": "verified",
+      "source": "https://www.bookey.app/book/the-four-pillars-of-investing",
+      "note": "Applied Card. Secondary: the chapter 5 summary covers the South Sea Bubble and the dot-com bubble; the introduction on the author's site (https://www.efficientfrontier.com/t4poi/intro.htm) says a study of previous manias and crashes gives a fighting chance of recognising them.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b08c1l4p13",
+      "kind": "other",
+      "claim": "In every mania, people claim a new era has made the old valuation rules useless. Bernstein shows that claim was made in the 1920s and the 1990s, and failed both times.",
+      "verdict": "softened",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Looked for a passage tying a \"new era\" claim to the 1920s and the 1990s; none found in the sources that could be opened. The Card now says only what the notes on chapter 5 show: \"speculative markets in which the old rules seem to go out the window\" and John Templeton's warning about \"This time, it's different\", given as a paraphrase without quotation marks.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c2l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils how Bernstein assembles the pillars: estimating what you need and choosing your mix; it turns theory into your actual €40k plan.",
+      "verdict": "own",
+      "source": "https://www.bookey.app/book/the-four-pillars-of-investing",
+      "note": "Secondary: \"Chapter 12 | Will You Have Enough?\" and \"Chapter 13 | Defining Your Mix\"; the same titles in the reader's notes. The €40k is the roadmap's figure, not a claim about the book.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b08c2l3p3",
+      "kind": "figure",
+      "claim": "He warns that a retiree can safely spend only a few percent of the portfolio each year. That logic sits behind targets such as 25 times annual expenses.",
+      "verdict": "verified",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Two independent secondary sources. Reader's notes, chapter 12: \"Plan on spending, at maximum, the expected real return of your portfolio. (ie: 3%-4% of its value)\". Bookey: an income of 40,000 dollars a year at a 4% real return needs a 1 million dollar nest egg (25 times); withdraw around 3% to 4% annually.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c2l3p11",
+      "kind": "other",
+      "claim": "In your plan, the 80 percent index core and 20 percent satellite are an allocation decision. Write your stock-and-bond split down before you invest your €40k.",
+      "verdict": "verified",
+      "source": "https://sive.rs/book/FourPillarsOfInvesting",
+      "note": "Applied Card: the figures are the roadmap's, not the book's. The book side, asset allocation as the main decision, is in the notes on chapter 4: \"asset allocation should be the major focus of your investment strategy\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l2k1",
+      "kind": "figure",
+      "claim": "Check prompt and fare: what US long bonds earned a year \"since 1926\" / \"from 1926 on\".",
+      "verdict": "corrected",
+      "source": "https://www.efficientfrontier.com/t4poi/Ch1.htm",
+      "note": "Follows b08c1l2p2: start year changed to 1900 in prompt and fare, both languages. Options and answer unchanged.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b08c1l4k4",
+      "kind": "figure",
+      "claim": "Check fare: \"as when US stocks lagged inflation from the mid-1960s\".",
+      "verdict": "corrected",
+      "source": "https://www.efficientfrontier.com/t4poi/Ch1.htm",
+      "note": "Follows b08c1l4p10: the fare now says stocks barely kept up with inflation from 1966 to 1982, both languages. Prompt and answer unchanged.",
+      "basis": "author-or-publisher"
+    }
+  ]
+}

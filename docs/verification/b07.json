@@ -1,0 +1,253 @@
+{
+  "book": "b07",
+  "edition": {
+    "text": "1st edition, 2007",
+    "source": "https://openlibrary.org/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle",
+    "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The Lessons cite chapter 5 The Grand Illusion and chapters 8 and 9 Selecting Long-Term Winners and Yesterday's Winners, Tomorrow's Losers. That is the numbering of the 2007 first edition (a reader's copy of its contents; the Library of Congress pre-publication contents at https://catdir.loc.gov/catdir/toc/ecip075/2006037552.html agree on chapters 4, 5 and 8). The publisher's 2017 excerpt (https://content.e-bookshelf.de/media/reading/L-10287742-c514ceb0de.pdf) shows the 10th Anniversary Edition has these as chapters 7, 10 and 11, with 11 renamed \"Reversion to the Mean\". Exception: Lesson b07c3l3 draws on the asset allocation chapters added in 2017, and says so."
+  },
+  "rows": [
+    {
+      "id": "b07c1l1p3",
+      "kind": "other",
+      "claim": "Bogle borrows the parable from Warren Buffett's 2005 letter to Berkshire Hathaway shareholders, in a section titled How to Minimize Investment Returns.",
+      "verdict": "verified",
+      "source": "https://www.berkshirehathaway.com/letters/2005ltr.pdf",
+      "note": "Buffett's 2005 shareholder letter has a section headed \"How to Minimize Investment Returns\" that tells the Gotrocks and Helpers story; Bogle's 2017 introduction also credits \"Warren Buffett's Helpers\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b07c1l1p12",
+      "kind": "figure",
+      "claim": "When a bank, adviser or app offers to manage your €40k for a yearly percentage, ask which layer of Helper it is and what slice it takes.",
+      "verdict": "own",
+      "source": null,
+      "note": "App roadmap figure (the €40k example), not a claim about the book; nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c1l2p4",
+      "kind": "figure",
+      "claim": "Bogle founded Vanguard in 1974 and soon after created the first index mutual fund for individual investors. Wall Street mocked it as Bogle's Folly.",
+      "verdict": "verified",
+      "source": "https://content.e-bookshelf.de/media/reading/L-10287742-c514ceb0de.pdf",
+      "note": "Bogle's own introduction: \"creator both of Vanguard in 1974 and of the world's first index mutual fund in 1975\". Wikipedia (https://en.wikipedia.org/wiki/John_C._Bogle) gives the nickname \"Bogle's Folly\"; its Vanguard Group article credits him with the first index fund available to individual investors and dates Vanguard's start to 1 May 1975.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b07c1l2p6",
+      "kind": "other",
+      "claim": "That fund, tracking the S&P 500, later grew into one of the largest funds in the world. Indexing went from a joke to a core holding for millions.",
+      "verdict": "verified",
+      "source": "https://en.wikipedia.org/wiki/The_Vanguard_Group",
+      "note": "First Index Investment Trust (1976), tied to the S&P 500, is now the Vanguard 500 Index Fund; the article says the S&P 500 index fund \"became among the largest funds in the world\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c1l2p8",
+      "kind": "figure",
+      "claim": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by about two points a year, roughly the funds' costs.",
+      "verdict": "corrected",
+      "source": "https://capitalinvestment101.blogspot.com/2015/10/the-numbers-back-it-up-dont-time-market.html",
+      "note": "Second reader: the cited page gives no fund return and the second source gives 12.3 against 10 percent, a gap of 2.3. The Card and its Check now say \"more than two points\", which both figures support. Earlier note: Sources quoting the book give the S&P 500 at 12.5 percent a year for 1980 to 2005 and the average equity fund at 10 percent (second source: https://blueoceanportfolios.blogspot.com/2008/02/huge-gap-between-fund-returns-and.html), a gap of 2.5 points, matching the 2.5 points of cost in Bogle's 8 versus 5.5 percent example. Card and its Check prompt changed from \"about two points\" to \"about two and a half points\". Secondary sources; the book page itself could not be opened.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c1l2p11",
+      "kind": "figure",
+      "claim": "Your roadmap applies the haystack idea: a core of about 80 percent in broad global index ETFs, with VWCE and IWDA named as examples.",
+      "verdict": "own",
+      "source": null,
+      "note": "App roadmap figure (80 percent core, VWCE and IWDA as examples), not a claim about the book; nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c1l3p6",
+      "kind": "figure",
+      "claim": "The costs include expense ratios, sales loads, advisory fees and the hidden cost of portfolio turnover. For active funds they often reach 2 percent a year or more.",
+      "verdict": "verified",
+      "source": "https://acquirersmultiple.com/2016/07/the-magic-of-compounding-returns-the-tyranny-of-compounding-costs-john-bogle",
+      "note": "Book excerpt compares market growth of $10,000 to $469,000 over 50 years (8 percent) with a fund growing at 5.5 percent after costs, that is 2.5 points a year; a chapter 4 quotation in a reader's notes (https://docs.google.com/document/d/17VwwCkdywG0xQ2mpK5UtfTOfMyX1VOUSJSXCHP101Ho/export?format=txt) speaks of \"fund expenses of 2%\". \"Often 2 percent or more\" holds. Secondary sources.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c1l3p10",
+      "kind": "figure",
+      "claim": "Do the subtraction: if the market returns 6 percent and costs are 2 percent, you keep 4, so a third of the return is gone.",
+      "verdict": "own",
+      "source": null,
+      "note": "Arithmetic illustration: 6 minus 2 leaves 4, and 2 of 6 is one third. Not presented as a figure from the book.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c2l2p1",
+      "kind": "quote",
+      "claim": "This Lesson distils Bogle's theme of the tyranny of compounding costs. It matters because your 25-times-expenses target arrives years sooner when fees stay small.",
+      "verdict": "own",
+      "source": "https://acquirersmultiple.com/2016/07/the-magic-of-compounding-returns-the-tyranny-of-compounding-costs-john-bogle",
+      "note": "Excerpt: \"the miracle of compounding returns is overwhelmed by the tyranny of compounding costs\". The 25-times-expenses target is the app's own figure.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c2l2p3",
+      "kind": "figure",
+      "claim": "A cost of 2 percent sounds small against one year's return. Compounded over 40 or 50 years, it consumes a large share of the final wealth.",
+      "verdict": "verified",
+      "source": "https://acquirersmultiple.com/2016/07/the-magic-of-compounding-returns-the-tyranny-of-compounding-costs-john-bogle",
+      "note": "Excerpt: about 2 percent of capital gone after year one, 21 percent by year 10, 50 percent by year 30, \"nearly 70 percent\" over 50 years.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c2l2p4",
+      "kind": "figure",
+      "claim": "To illustrate Bogle's point with round numbers: €10,000 growing at 8 percent for 50 years becomes about €469,000. At 5.5 percent, after 2.5 points of costs, it becomes about €145,000.",
+      "verdict": "verified",
+      "source": "https://acquirersmultiple.com/2016/07/the-magic-of-compounding-returns-the-tyranny-of-compounding-costs-john-bogle",
+      "note": "Excerpt: $10,000 over 50 years \"grows to $469,000\" in the market and \"just $145,400\" at a 5.5 percent rate. 10,000 x 1.08^50 = 469,016, so the gross rate is 8 percent. The Card gives the same numbers in euros as an illustration.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c2l2p9",
+      "kind": "figure",
+      "claim": "Lower future returns make costs bite harder. If stocks earn 7 percent, a 2 percent cost takes over a quarter of the return.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader's notes quote Bogle's guess of future stock returns at \"an annual rate of 7 percent\". 2 of 7 is 28.6 percent, over a quarter. Secondary source for the 7 percent; the rest is arithmetic.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b07c2l2p12",
+      "kind": "figure",
+      "claim": "On €40k, the gap between a 0.2 percent ETF and a 1.5 percent fund is about €520 in the first year alone, before compounding widens it.",
+      "verdict": "own",
+      "source": null,
+      "note": "Arithmetic on the app's own example: 40,000 x (1.5 - 0.2) percent = 520.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c2l3p5",
+      "kind": "figure",
+      "claim": "But an advisory fee of around 1 percent a year is one more layer of Helper. It must be earned back before you are ahead.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader's notes quote the passage Bogle cites in the advice chapter: \"It is simply not worth paying anybody more than 1 percent to manage your money.\" Secondary source.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b07c2l3p10",
+      "kind": "other",
+      "claim": "Bogle invokes the 14th-century friar William of Occam: when there are several solutions to a problem, choose the simplest one.",
+      "verdict": "verified",
+      "source": "https://pistonrod.blogspot.com/2010/04",
+      "note": "A 2010 reader quotes page 25 of the first edition: \"When there are multiple solutions to a problem, choose the simplest one.\" Chapter 3 is subtitled \"Rely on Occam's Razor to Win by Keeping It Simple\". William of Ockham as a 14th-century friar is general history. Note: the passage sits in chapter 3, not in the simplicity chapter this Lesson is framed on.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c2l3p12",
+      "kind": "figure",
+      "claim": "If a Dutch bank offers you a managed portfolio, add up its yearly fee and fund costs. Then compare that number with one broad ETF at around 0.2 percent.",
+      "verdict": "own",
+      "source": null,
+      "note": "App guidance with a round ETF cost of about 0.2 percent; not a claim about the book.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c3l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils chapters 8 and 9, Selecting Long-Term Winners and Yesterday's Winners, Tomorrow's Losers. It matters because broker apps rank funds by recent return.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. First-edition contents: Chapter Eight \"Selecting Long-Term Winners\", Chapter Nine \"Yesterday's Winners, Tomorrow's Losers\". In the 2017 edition these are chapters 10 and 11, and 11 is renamed \"Reversion to the Mean\" (https://content.e-bookshelf.de/media/reading/L-10287742-c514ceb0de.pdf). The Library of Congress pre-publication contents confirm chapter 8 (https://catdir.loc.gov/catdir/toc/ecip075/2006037552.html).",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b07c3l1p2",
+      "kind": "figure",
+      "claim": "Bogle tracked the 355 equity funds that existed in 1970. By 2005 most had gone out of business, usually merged away after poor results.",
+      "verdict": "corrected",
+      "source": "https://kirklindstrom.blogspot.com/2007/10/john-bogle-on-managed-and-index-funds.html",
+      "note": "A 2007 post citing chapter 8: 355 equity funds in 1970, a \"36 year track record\", 223 \"gone out of business, mostly from poor performance\". A second source gives 223 gone \"by 2006\" (https://economistwritingeveryday.com/tag/vanguard/). The Card said \"By 2005\" and \"usually merged away\"; it now says \"some 36 years later most of them, 223\" and \"mainly after poor results\". Its Check and fare were reworded to match.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l1p3",
+      "kind": "figure",
+      "claim": "Of the survivors, only a handful beat the S&P 500 by a meaningful margin over 35 years. The odds of picking one in advance were tiny.",
+      "verdict": "corrected",
+      "source": "https://kirklindstrom.blogspot.com/2007/10/john-bogle-on-managed-and-index-funds.html",
+      "note": "Same source: 15 funds beat the market by more than 1 point a year and 9 by more than 2; the second source names three sustained winners. \"Only a handful\" holds. \"Over 35 years\" changed to \"over those 36 years\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l1p5",
+      "kind": "other",
+      "claim": "The hottest funds of the late-1990s technology boom were among the worst losers in the bust that followed. Investors who chased them bought near the top.",
+      "verdict": "verified",
+      "source": "https://boglecenter.net/wp-content/uploads/Finplanassoc-4-02.pdf",
+      "note": "Bogle's 2002 speech: investors poured $240 billion into technology and tech-oriented growth funds \"at their peak levels\"; afterwards the most popular growth funds fell \"by an average of 63% from high to low\". This is Bogle's own text, not the book page.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l2p4",
+      "kind": "figure",
+      "claim": "Over 1980 to 2005, he found the average fund investor earned more than two points a year less than the average fund, which itself lagged the market.",
+      "verdict": "verified",
+      "source": "https://capitalinvestment101.blogspot.com/2015/10/the-numbers-back-it-up-dont-time-market.html",
+      "note": "Quoting the chapter The Grand Illusion: 1980 to 2005, market 12.5 percent a year, \"the average fund investor earned a mere 7.3 percent\". The average fund earned 10 percent (https://blueoceanportfolios.blogspot.com/2008/02/huge-gap-between-fund-returns-and.html), so the investor trailed the fund by 2.7 points. Secondary sources.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l2p6",
+      "kind": "other",
+      "claim": "The late-1990s technology boom is his example: billions poured into hot growth funds near the peak, then fled after the crash.",
+      "verdict": "softened",
+      "source": "https://boglecenter.net/wp-content/uploads/Finplanassoc-4-02.pdf",
+      "note": "Bogle's 2002 speech confirms the inflow near the peak ($240 billion into technology and growth funds) but says that after the fall investors \"virtually ceased their equity fund purchases\"; no source showed money fleeing. \"then fled after the crash\" became \"then the buying all but stopped after the crash\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l3p1",
+      "kind": "other",
+      "claim": "This Lesson distils Bogle's advice on asset allocation, expanded in the 2017 edition, and his closing advice. It matters because the split between stocks and bonds drives most of your risk.",
+      "verdict": "verified",
+      "source": "https://content.e-bookshelf.de/media/reading/L-10287742-c514ceb0de.pdf",
+      "note": "The 2017 contents add Chapter Eighteen \"Asset Allocation I: Stocks and Bonds\" and Chapter Nineteen \"Asset Allocation II\"; the first edition ends with chapter 18 \"What Should I Do Now?\". The Card already says the material was expanded in the 2017 edition. Part of this Lesson therefore rests on the later edition.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b07c3l3p3",
+      "kind": "figure",
+      "claim": "His rough guideline: hold a bond share about equal to your age. A 30-year-old might hold about 30 percent bonds, a 60-year-old about 60.",
+      "verdict": "verified",
+      "source": "https://pistonrod.blogspot.com/2010/04",
+      "note": "A 2010 reader's notes on the first edition: bond positions equal to your age, \"20 percent at 20 and 70 percent at seventy\". In a 2014 interview Bogle calls it \"my rule of thumb\" (https://www.fool.com/retirement/general/2014/03/14/is-84-year-old-jack-bogle-84-in-bonds.aspx). Secondary sources; they show the rule is in the 2007 edition, not only the 2017 one.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l3p11",
+      "kind": "figure",
+      "claim": "This matches your roadmap: an 80 percent index core you rarely touch, with any ownership bets kept in the small satellite.",
+      "verdict": "own",
+      "source": null,
+      "note": "App roadmap figure (80 percent index core), not a claim about the book; nothing to source.",
+      "basis": "none"
+    },
+    {
+      "id": "b07c1l2k3",
+      "kind": "figure",
+      "claim": "Why did the index beat the average equity fund by about two points a year?",
+      "verdict": "corrected",
+      "source": "https://capitalinvestment101.blogspot.com/2015/10/the-numbers-back-it-up-dont-time-market.html",
+      "note": "Check prompt changed with its source Card b07c1l2p8: \"about two and a half points a year\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b07c3l1k1",
+      "kind": "figure",
+      "claim": "Most of the 355 funds from 1970 had gone out of business by 2005.",
+      "verdict": "corrected",
+      "source": "https://kirklindstrom.blogspot.com/2007/10/john-bogle-on-managed-and-index-funds.html",
+      "note": "Check prompt and fare changed with their source Card b07c3l1p2: \"some 36 years later\" in place of \"by 2005\".",
+      "basis": "secondary"
+    }
+  ]
+}

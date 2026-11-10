@@ -6,6 +6,10 @@
     "fa": "Eric Ries"
   },
   "year": 2011,
+  "edition": {
+    "en": "1st edition, 2011",
+    "fa": "ویراست اول، ۲۰۱۱"
+  },
   "stage": 5,
   "must": false,
   "why": {
@@ -663,8 +667,8 @@
               "kind": "card",
               "id": "b20c1l3p12",
               "text": {
-                "en": "IMVU used continuous deployment, releasing code to production as often as fifty times a day. Each small change was tested automatically, so a bad change could be found and reversed quickly.",
-                "fa": "IMVU از استقرار پیوسته استفاده می‌کرد و تا پنجاه بار در روز کد را به محیط اصلی می‌فرستاد. هر تغییر کوچک خودکار آزموده می‌شد، پس تغییر بد سریع پیدا و برگردانده می‌شد."
+                "en": "IMVU used continuous deployment, making about fifty changes to its product on average every day. Each small change was tested automatically, so a bad change could be found and reversed quickly.",
+                "fa": "IMVU از استقرار پیوسته استفاده می‌کرد و به‌طور میانگین روزی حدود پنجاه تغییر در محصولش می‌داد. هر تغییر کوچک خودکار آزموده می‌شد، پس تغییر بد سریع پیدا و برگردانده می‌شد."
               }
             },
             {

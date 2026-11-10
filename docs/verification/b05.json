@@ -1,0 +1,271 @@
+{
+  "book": "b05",
+  "edition": {
+    "text": "1st edition, 2011",
+    "source": "https://archive.org/details/thinkingfastslow0000kahn",
+    "note": "Internet Archive catalogue record of the scanned book: New York, Farrar, Straus and Giroux, 2011, with the contents in five parts (Two Systems; Heuristics and Biases; Overconfidence; Choices; Two Selves) that the five Lessons follow. The full text used for the rows (an Internet Archive upload, OCR text) carries the same imprint and \"Copyright © 2011 by Daniel Kahneman\". No revised edition was found; the 2013 paperback reuses this text. The publisher page (us.macmillan.com) returned 403 and was not read."
+  },
+  "rows": [
+    {
+      "id": "b05c1l1p2",
+      "kind": "quote",
+      "claim": "System 1 operates automatically and quickly, with little or no effort and no sense of control. It reads anger on a face, answers 2 + 2 and drives a car on an empty road.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"System 1 operates automatically and quickly, with little or no effort and no sense of voluntary control\"; examples include \"Answer to 2+2=?\" and \"Drive a car on an empty road\"; the angry woman photo: \"you knew she is angry\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p3",
+      "kind": "quote",
+      "claim": "System 2 gives attention to effortful mental work, such as computing 17 × 24. It is the conscious self that makes choices, but it is lazy and often accepts what System 1 offers.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"System 2 allocates attention to the effortful mental activities that demand it\"; \"17 x 24\"; \"the conscious, reasoning self that has beliefs, makes choices\"; ch. 3 is titled \"The Lazy Controller\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p4",
+      "kind": "figure",
+      "claim": "A bat and a ball cost $1.10 together, and the bat costs $1 more than the ball. The quick answer, 10 cents, is wrong: the ball costs 5 cents.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 3: \"A bat and ball cost $1.10. The bat costs one dollar more than the ball.\" Intuitive answer \"10¢\"; the correct answer is 5 cents.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p5",
+      "kind": "figure",
+      "claim": "More than half the students at Harvard, MIT and Princeton gave the intuitive 10 cent answer. The lesson: System 2 often endorses an answer it never checked.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 3: \"More than 50% of students at Harvard, MIT, and Princeton gave the intuitive—incorrect—answer\"; \"her System 2 endorsed an intuitive answer that it could have rejected\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p6",
+      "kind": "quote",
+      "claim": "WYSIATI, what you see is all there is: System 1 builds the best story it can from the information at hand and ignores what is missing. Confidence comes from a coherent story, not complete data.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 7: \"WYSIATI, which stands for what you see is all there is\"; \"The measure of success for System 1 is the coherence of the story it manages to create.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p7",
+      "kind": "quote",
+      "claim": "Substitution: faced with a hard question, System 1 quietly answers an easier one. \"How happy are you with your life these days?\" becomes \"What is my mood right now?\"",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 9 table: target question \"How happy are you with your life these days?\", heuristic question \"What is my mood right now?\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p11",
+      "kind": "other",
+      "claim": "Applied: System 1 will answer \"should I join this startup?\" with how the founder makes you feel. Make System 2 check what is missing: the written cap table, the vesting and the runway.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card: the quoted question is the Card's own example and is not attributed to the author. The ideas it applies (substitution, ch. 9; WYSIATI, ch. 7) are confirmed in the source. No book figure in the Card.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p12",
+      "kind": "other",
+      "claim": "Applied: before a big money choice, write in your decision journal what you know, what you expect and how sure you are. Writing it down makes lazy System 2 do its job.",
+      "verdict": "own",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card: the decision journal is the roadmap's own tool, not attributed to the book. The idea it applies (a lazy System 2 that endorses unchecked answers, ch. 3) is confirmed in the source. No book figure in the Card.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l1p14",
+      "kind": "figure",
+      "claim": "System 2 tires. Israeli parole judges approved about 65 percent of requests right after a meal, and the rate fell to about zero just before the next meal.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 3, eight parole judges in Israel: \"The proportion spikes after each meal, when about 65% of requests are granted... the approval rate drops steadily, to about zero just before the meal.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l2p2",
+      "kind": "figure",
+      "claim": "A wheel of fortune rigged to stop at 10 or 65 was spun before people estimated the share of African nations in the UN. Those who saw 10 guessed 25 percent; those who saw 65 guessed 45 percent.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: wheel \"would stop only at 10 or 65\"; \"The average estimates of those who saw 10 and 65 were 25% and 45%, respectively.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l2p3",
+      "kind": "other",
+      "claim": "Anchoring works through two mechanisms. System 2 starts at the anchor and adjusts too little, while System 1 is primed by it, so evidence that fits the anchor comes to mind.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: \"Two different mechanisms produce anchoring effects—one for each system... a deliberate process of adjustment, an operation of System 2... a priming effect, an automatic manifestation of System 1.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l2p4",
+      "kind": "figure",
+      "claim": "Experienced German judges rolled loaded dice showing 3 or 9 before sentencing a shoplifter. Those who rolled 9 gave an average of 8 months; those who rolled 3 gave an average of 5 months.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: German judges \"with an average of more than fifteen years of experience\"; dice loaded to show \"either a 3 or a 9\"; \"those who had rolled a 9 said they would sentence her to 8 months; those who rolled a 3... 5 months\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l2p10",
+      "kind": "figure",
+      "claim": "Norbert Schwarz asked people to list 6 or 12 times they acted assertively. Those who struggled to list 12 rated themselves less assertive: ease of recall beat the number recalled.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 12, Norbert Schwarz: \"list six instances\" / \"twelve instances\"; \"people who had just listed twelve instances rated themselves as less assertive than people who had listed only six.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p4",
+      "kind": "figure",
+      "claim": "At a wealth firm, Kahneman checked 8 years of results for 25 advisers. The average correlation between their yearly rankings was 0.01: the firm was rewarding luck as if it were skill.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 20: \"some twenty-five anonymous wealth advisers, for each of eight consecutive years\"; \"the average of the 28 correlations was .01\"; \"the firm was rewarding luck as if it were skill.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p5",
+      "kind": "figure",
+      "claim": "Philip Tetlock collected more than 80,000 predictions from 284 political and economic experts. They did worse than dart-throwing monkeys, and more knowledge often bred more overconfidence.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 20: \"Tetlock interviewed 284 people\"; \"more than 80,000 predictions\"; \"poorer predictions than dart-throwing monkeys\"; \"those with the most knowledge are often less reliable... unrealistically overconfident.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p7",
+      "kind": "figure",
+      "claim": "Asked for a base rate, the curriculum expert Seymour Fox admitted that 40 percent of similar teams never finished, and the rest took 7 to 10 years. The team kept going anyway.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 23: Seymour Fox, \"our curriculum expert\": \"About 40%\"; \"I cannot think of any group that finished in less than seven years... nor any that took more than ten\"; the team \"carried on as if nothing had happened\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p9",
+      "kind": "figure",
+      "claim": "The Scottish Parliament building was estimated in 1997 at up to £40 million and finished at £431 million. Large projects running late and over budget is the rule, not the exception.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 23: \"In July 1997, the proposed new Scottish Parliament building in Edinburgh was estimated to cost up to £40 million... finally completed in 2004 at an ultimate cost of roughly £431 million.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p10",
+      "kind": "figure",
+      "claim": "Optimism drives founders: only about 35 percent of small businesses in the United States survive five years, yet 81 percent of founders put their own odds of success at 7 in 10 or higher.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 24: \"The chances that a small business will survive for five years in the United States are about 35%\"; \"Fully 81% of the entrepreneurs put their personal odds of success at 7 out of 10 or higher\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p12",
+      "kind": "other",
+      "claim": "Applied: before forecasting your AI product's first €100 a month, find how long similar small products took to get there. Start from that base rate, then run a premortem on your plan.",
+      "verdict": "own",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Applied Card: the €100 a month figure is the roadmap's own goal, not a book claim. The methods it applies (reference class forecasting, ch. 23; Gary Klein's premortem, ch. 24) are confirmed in the source.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l3p13",
+      "kind": "figure",
+      "claim": "Paul Meehl's work showed simple formulas beat expert judgment. In about 60 percent of some 200 studies the algorithm was more accurate, and the rest were a draw.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 21, on Paul Meehl: studies \"increased to roughly two hundred\"; \"About 60% of the studies have shown significantly better accuracy for the algorithms. The other comparisons scored a draw\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l4p2",
+      "kind": "figure",
+      "claim": "Bernoulli assumed people value their total wealth. Kahneman's counterexample: Jack and Jill each have 5 million today, but yesterday Jack had 1 million and Jill had 9, so they are not equally happy.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 25: \"Today Jack and Jill each have a wealth of 5 million. Yesterday, Jack had 1 million and Jill had 9 million. Are they equally happy?\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l4p4",
+      "kind": "figure",
+      "claim": "Most people refuse a coin toss that loses $100 on tails and wins $150 on heads. Losses weigh roughly 1.5 to 2.5 times as much as gains of the same size.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 26, Problem 5: \"If the coin shows tails, you lose $100. If the coin shows heads, you win $150... you probably dislike it—most people do\"; loss aversion ratio \"usually in the range of 1.5 to 2.5\".",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l4p9",
+      "kind": "figure",
+      "claim": "Framing: in the Asian disease problem, most people choose a plan where 200 of 600 people will be saved for sure. Told the same plan means 400 will die, most switch to a gamble.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 34: disease \"expected to kill 600 people\"; \"If program A is adopted, 200 people will be saved\"; second frame \"400 people will die\"; \"In the second frame, however, a large majority of people choose the gamble.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l4p10",
+      "kind": "figure",
+      "claim": "Physicians fall for it too: surgery with a 90 percent one-month survival rate wins more support than surgery with 10 percent mortality. Same facts, different frame, different choice.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 34: \"The one-month survival rate is 90%. There is 10% mortality in the first month.\" Surgery was chosen by 84% of physicians in the survival frame; 50% favoured radiation in the mortality frame.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l4p13",
+      "kind": "figure",
+      "claim": "We overweight small chances and certainty: going from 0 to 5 percent or from 95 to 100 percent feels bigger than 60 to 65 percent. This sells both lottery tickets and overpriced insurance.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 29: \"A. From 0 to 5%... C. From 60% to 65% D. From 95% to 100%\"; 0 to 5% and 95% to 100% \"are more impressive\"; lottery tickets bought at \"much more than expected value\"; people \"pay far more than expected value to eliminate\" small risks.",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l5p2",
+      "kind": "quote",
+      "claim": "The experiencing self answers \"Does it hurt now?\" while the remembering self answers \"How was it, on the whole?\" The remembering self is the one that keeps score and makes choices.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 35: \"The experiencing self is the one that answers the question: 'Does it hurt now?' The remembering self is the one that answers the question: 'How was it, on the whole?'\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l5p3",
+      "kind": "figure",
+      "claim": "In a colonoscopy study, patient A's procedure lasted 8 minutes and patient B's 24 minutes, with far more total pain. B remembered it as less bad, because his ended gently while A's ended at a peak.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 35: procedure \"lasted 8 minutes for patient A and 24 minutes for patient B\"; last rating 7 for A and 1 for B; \"patient A retained a much worse memory of the episode than patient B.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l5p5",
+      "kind": "figure",
+      "claim": "In the cold-hand test, people held a hand in 14°C water for 60 seconds, and in another trial for 90 seconds with the last 30 slightly warmer. Most chose to repeat the longer trial.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 35: \"60 seconds of immersion in water at 14° Celsius\"; \"The long episode lasted 90 seconds\", water about 1° warmer in the last 30 seconds; \"Fully 80% of the participants who reported that their pain diminished... opted to repeat it.\"",
+      "basis": "unlinked-copy"
+    },
+    {
+      "id": "b05c1l5p9",
+      "kind": "figure",
+      "claim": "In US data, above a household income of about $75,000 in high-cost areas, more money did not raise experienced well-being. Life satisfaction, the remembering self's verdict, kept rising.",
+      "verdict": "verified",
+      "source": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman",
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 37, Gallup-Healthways survey of Americans: \"The satiation level beyond which experienced well-being no longer increases was a household income of about $75,000 in high-cost areas\"; \"Higher income brings with it higher satisfaction, well beyond the point\".",
+      "basis": "unlinked-copy"
+    }
+  ]
+}

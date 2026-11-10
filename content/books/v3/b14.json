@@ -6,6 +6,10 @@
     "fa": "Peter Lynch with John Rothchild"
   },
   "year": 1989,
+  "edition": {
+    "en": "1989 text; chapter numbers as in the 2000 Millennium Edition",
+    "fa": "متن ۱۹۸۹؛ شمارهٔ فصل‌ها مطابق ویراست هزاره، ۲۰۰۰"
+  },
   "stage": 3,
   "must": false,
   "why": {
@@ -439,8 +443,8 @@
               "kind": "card",
               "id": "b14c1l2p12",
               "text": {
-                "en": "Your 80 percent index core, such as VWCE, already holds all six kinds. If you add a satellite stock, write its category in your decision journal with what you expect it to do.",
-                "fa": "هستهٔ ۸۰ درصدی شاخصی تو، مثل VWCE، از قبل هر شش نوع را دارد. اگر یک سهم ماهواره‌ای اضافه کردی، دسته‌اش و انتظاری را که از آن داری در دفتر تصمیمت بنویس."
+                "en": "Your 80 percent index core, such as VWCE, already spreads across thousands of large and mid-sized companies. If you add a satellite stock, write its category in your decision journal with what you expect it to do.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی تو، مثل VWCE، از قبل میان هزاران شرکت بزرگ و متوسط پخش شده است. اگر یک سهم ماهواره‌ای اضافه کردی، دسته‌اش و انتظاری را که از آن داری در دفتر تصمیمت بنویس."
               }
             },
             {

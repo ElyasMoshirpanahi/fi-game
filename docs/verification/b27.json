@@ -1,0 +1,28 @@
+{
+  "book": "b27",
+  "edition": {
+    "text": "2nd Vintage edition, 1995",
+    "source": "https://openlibrary.org/books/OL3161621M?v=13",
+    "note": "Open Library lists Random House 1983 (xiii, 235 p.), \"1st Vintage Books ed.\" 1985 and \"2nd Vintage Books ed.\" 1995. Penguin Random House page (https://www.penguinrandomhouse.com/books/72467/high-output-management-by-andrew-s-grove/) gives Vintage, Aug 29, 1995, 272 pages, ISBN 9780679762881. Google Books front matter of that volume (id 3j8si29hddwC) reads \"1983, 1995 by Andrew S. Grove\", says the book was first published \"in somewhat different form\" by Random House, and thanks Fortune for permission to reprint; other Google Books snippets date the Fortune article \"Why Training Is the Boss's Job\" to January 23, 1984. So the closing chapter on training (basis of Card b27c1l3p10) postdates the 1983 first edition; the Lessons follow the Vintage text. A library record of the 2015 Vintage printing (https://search.centrecountylibrary.org/Record/456153/TOC) shows the four parts and 16 chapters the Lessons track; the 2015 printing adds only a foreword by Ben Horowitz, which no Lesson uses. The 1983 table of contents itself was not seen."
+  },
+  "rows": [
+    {
+      "id": "b27c1l1p1",
+      "kind": "figure",
+      "claim": "This Lesson distils Grove's opening chapters: the breakfast factory, the limiting step and indicators. It matters because your roadmap, from a first AI product to 25 times expenses, is a production line too.",
+      "verdict": "own",
+      "source": "https://search.centrecountylibrary.org/Record/456153/TOC",
+      "note": "Contents note shows \"Part I. The breakfast factory. The basics of production : delivering a breakfast ... ; Managing the breakfast factory\". Kirkus 1983 review (https://www.kirkusreviews.com/book-reviews/a/andrew-s-grove-2/high-output-management/) has \"a three-minute egg, toast, and coffee\"; reading notes quoting the book (https://www.nateliason.com/notes/high-output-management-andy-grove) have \"which we'll call the limiting step\" and \"you will need a set of good indicators, or measurements\". The figure \"25 times expenses\" is the app's own roadmap target, not attributed to Grove; nothing to check in the book. No change.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b27c1l3p12",
+      "kind": "figure",
+      "claim": "Applied: write your roadmap with one objective, €100 of ownership income from a small AI product, and measurable key results. Rate your own TRM per task and ask your mentor for matching help.",
+      "verdict": "own",
+      "source": "https://www.nateliason.com/notes/high-output-management-andy-grove",
+      "note": "Card is marked Applied; the €100 figure is the app's own roadmap target, not attributed to Grove. The Grove concepts it leans on are confirmed in notes quoting the book: \"Where do I want to go?\", \"How will I pace myself to see if I am getting there?\", \"milestones or key results\", \"the task-relevant maturity (TRM) of the subordinates\"; \"Task-relevant maturity\" is also a chapter title in the library contents note (https://search.centrecountylibrary.org/Record/456153/TOC). Secondary source. No change.",
+      "basis": "secondary"
+    }
+  ]
+}

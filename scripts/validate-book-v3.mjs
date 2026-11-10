@@ -68,6 +68,7 @@ export function validateBook(b, errs) {
   if (!Number.isInteger(b.year)) errs.push('year must be an integer');
   if (![1, 2, 3, 5, 6].includes(b.stage)) errs.push('stage must be 1, 2, 3, 5 or 6');
   if (typeof b.must !== 'boolean') errs.push('must must be boolean');
+  if (!isPair(b.edition)) errs.push('edition must be {en, fa}: the edition the Lessons follow (spec 6)');
   if (!TIER_CIRCLES[b.tier]) errs.push('tier must be high, mid or low');
   const cx = COMPLEXITY[b.complexity];
   if (!cx) errs.push('complexity must be 1 to 5');

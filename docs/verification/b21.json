@@ -1,0 +1,46 @@
+{
+  "book": "b21",
+  "edition": {
+    "text": "1st edition, 2017",
+    "source": "https://openlibrary.org/isbn/9780062560704.json",
+    "note": "Open Library record for ISBN 9780062560704: Harper Business, 2017, edition_name \"First edition.\" Apple Books lists release July 18, 2017 (https://books.apple.com/se/book/angel/id1166101041). No revised edition found; the author's 2023 \"Angel Investor\" is listed as a separate book. Chapter numbers were not checked against a table of contents."
+  },
+  "rows": [
+    {
+      "id": "b21c1l1p5",
+      "kind": "figure",
+      "claim": "Because you cannot know in advance which company will be the outlier, Calacanis says to spread small checks across at least 30 startups.",
+      "verdict": "corrected",
+      "source": "https://manassaloi.com/booksummaries/2016/04/26/angel-jason-calacanis.html",
+      "note": "Secondary source: reader notes that reproduce book passages show \"you are going to need to invest in fifty startups (diversification!) in Silicon Valley (location!) over three years\" and \"$1.5 million to work in these fifty deals\". Two more secondary pages agree on 50 over three years (https://jdlasica.com/?p=9357, https://www.maxmednik.com/blog/notes-on-angel-by-jason-calacanis). \"At least 30\" was not found; the only 30 is \"first 30 angel investments\" on product/market fit. Card changed to fifty startups over three years; \"small checks\" dropped (book average is $30,000 per deal). Passage not seen in the book itself.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b21c1l1p10",
+      "kind": "figure",
+      "claim": "Applied: with about €40k, the 30-startup spread does not fit, so in your roadmap angel bets could at most live in the 20 percent satellite.",
+      "verdict": "corrected",
+      "source": "https://manassaloi.com/booksummaries/2016/04/26/angel-jason-calacanis.html",
+      "note": "The \"30-startup spread\" repeated the unconfirmed figure from p5; now \"fifty-startup spread\", per the same passage. The €40k and the 20 percent satellite are the reader's own roadmap figures, not book claims.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b21c1l1p11",
+      "kind": "other",
+      "claim": "Your 80 percent index core is built on the opposite logic: own the whole market and accept its average, instead of hunting the outlier.",
+      "verdict": "own",
+      "source": "https://manassaloi.com/booksummaries/2016/04/26/angel-jason-calacanis.html",
+      "note": "The Card attributes no figure or quote to the book: the 80 percent index core is the reader's own roadmap. The contrast it draws (hunting the outlier) matches the book as noted: fifty deals \"in order to have a chance at an outsize return\". Card unchanged.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b21c1l1k3",
+      "kind": "figure",
+      "claim": "Check on p5: \"Across how many startups does Calacanis say to spread checks?\" Correct option \"At least 30 startups\".",
+      "verdict": "corrected",
+      "source": "https://manassaloi.com/booksummaries/2016/04/26/angel-jason-calacanis.html",
+      "note": "Prompt, fare and options changed to match the corrected p5: correct option now \"Fifty startups over three years\"; second option reworded to keep option lengths close.",
+      "basis": "secondary"
+    }
+  ]
+}

@@ -6,6 +6,10 @@
     "fa": "Daniel Kahneman"
   },
   "year": 2011,
+  "edition": {
+    "en": "1st edition, 2011",
+    "fa": "ویراست اول، ۲۰۱۱"
+  },
   "stage": 1,
   "must": false,
   "why": {

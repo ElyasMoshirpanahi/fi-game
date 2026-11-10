@@ -165,3 +165,9 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Added `sw.js`, `manifest.webmanifest`, `icon.svg` and three PNG icons rendered from it. The page registers the worker, shows how many books are on the device, downloads the rest on request, and offers Install when the browser does.
 - 322 tests green (routing as a pure function, the files, the panel). Headless Brave against its own local server: all 28 books downloaded, server killed, page reloaded and a book Lesson opened with no connection.
 - Review (Standards + Spec, with scenario runs): a full device turned good responses into errors, and the panel could claim books that would not open. The worker's fetch handling was rewritten around one rule (a cache failure never changes what the network returned); twelve fixes in `docs/review/spec5-offline-code-review.md`. 326 tests green; offline run repeated, and a book not on the device says so.
+
+## Spec 6: verification (2026-11-11)
+- 458 Cards with a figure or a quotation checked against web sources by one reader per book. After the second reader's spot-check: 356 verified, 33 corrected, 20 softened, 61 the roadmap's own figures; every row says how it can be re-checked. Every book names its edition; the validator requires it and the open Section shows it.
+- Links to unauthorised full-text copies were removed from the records (147 rows); those rows keep their verdict and say how they were read.
+- Nine books need the owner's eye on edition and `year` (eight taught from a later text, one drawing partly on a later edition); `year` left unchanged. Record: `docs/review/spec6-verification.md`. 413 tests green.
+- Second reader re-opened 36 sources: 25 plain confirmations, 5 thin, 2 not on the page, 2 Cards that went beyond their source, 2 not openable. Four Cards fixed, labels made consistent, the test tightened. 123 verified rows rest on copies that are not linked and cannot be re-checked from the record.

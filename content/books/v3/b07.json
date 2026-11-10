@@ -6,6 +6,10 @@
     "fa": "John C. Bogle"
   },
   "year": 2007,
+  "edition": {
+    "en": "1st edition, 2007",
+    "fa": "ویراست اول، ۲۰۰۷"
+  },
   "stage": 2,
   "must": true,
   "why": {
@@ -334,8 +338,8 @@
               "kind": "card",
               "id": "b07c1l2p8",
               "text": {
-                "en": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by about two points a year, roughly the funds' costs.",
-                "fa": "Bogle شاخص S&P 500 را در ۲۵ سال با میانگین صندوق‌های سهامی با مدیریت فعال مقایسه می‌کند. شاخص سالانه حدود دو واحد درصد جلو بود، تقریباً به اندازهٔ هزینه‌های آن صندوق‌ها."
+                "en": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by more than two points a year, roughly the funds' costs.",
+                "fa": "Bogle شاخص S&P 500 را در ۲۵ سال با میانگین صندوق‌های سهامی با مدیریت فعال مقایسه می‌کند. شاخص سالانه بیش از دو واحد درصد جلو بود، تقریباً به اندازهٔ هزینه‌های آن صندوق‌ها."
               }
             },
             {
@@ -344,8 +348,8 @@
               "type": "tap",
               "source": "b07c1l2p8",
               "prompt": {
-                "en": "Why did the index beat the average equity fund by about two points a year?",
-                "fa": "چرا شاخص سالانه حدود دو واحد درصد از میانگین صندوق سهامی جلو بود؟"
+                "en": "Why did the index beat the average equity fund by more than two points a year?",
+                "fa": "چرا شاخص سالانه بیش از دو واحد درصد از میانگین صندوق سهامی جلو بود؟"
               },
               "fare": {
                 "en": "The S&P 500's lead over active funds in Bogle's 25-year comparison comes down to what?",
@@ -1227,16 +1231,16 @@
               "kind": "card",
               "id": "b07c3l1p2",
               "text": {
-                "en": "Bogle tracked the 355 equity funds that existed in 1970. By 2005 most had gone out of business, usually merged away after poor results.",
-                "fa": "Bogle سرنوشت ۳۵۵ صندوق سهامی موجود در سال ۱۹۷۰ را دنبال کرد. تا ۲۰۰۵ بیشترشان از میان رفته بودند و معمولاً پس از نتایج ضعیف ادغام شده بودند."
+                "en": "Bogle tracked the 355 equity funds that existed in 1970. Some 36 years later most of them, 223, had gone out of business, mainly after poor results.",
+                "fa": "Bogle سرنوشت ۳۵۵ صندوق سهامی موجود در سال ۱۹۷۰ را دنبال کرد. حدود ۳۶ سال بعد بیشترشان، یعنی ۲۲۳ صندوق، از میان رفته بودند، عمدتاً پس از نتایج ضعیف."
               }
             },
             {
               "kind": "card",
               "id": "b07c3l1p3",
               "text": {
-                "en": "Of the survivors, only a handful beat the S&P 500 by a meaningful margin over 35 years. The odds of picking one in advance were tiny.",
-                "fa": "از بازمانده‌ها، فقط تعداد انگشت‌شماری در ۳۵ سال با فاصلهٔ معنادار از S&P 500 جلو زدند. احتمال اینکه از قبل یکی از آن‌ها را انتخاب کنی بسیار کم بود."
+                "en": "Of the survivors, only a handful beat the S&P 500 by a meaningful margin over those 36 years. The odds of picking one in advance were tiny.",
+                "fa": "از بازمانده‌ها، فقط تعداد انگشت‌شماری در آن ۳۶ سال با فاصلهٔ معنادار از S&P 500 جلو زدند. احتمال اینکه از قبل یکی از آن‌ها را انتخاب کنی بسیار کم بود."
               }
             },
             {
@@ -1245,12 +1249,12 @@
               "type": "tf",
               "source": "b07c3l1p2",
               "prompt": {
-                "en": "Most of the 355 funds from 1970 had gone out of business by 2005.",
-                "fa": "بیشتر آن ۳۵۵ صندوق سال ۱۹۷۰ تا ۲۰۰۵ از میان رفته بودند."
+                "en": "Most of the 355 funds from 1970 had gone out of business some 36 years later.",
+                "fa": "بیشتر آن ۳۵۵ صندوق سال ۱۹۷۰ حدود ۳۶ سال بعد از میان رفته بودند."
               },
               "fare": {
-                "en": "Only a minority of the equity funds that existed in 1970 were still around in 2005.",
-                "fa": "از صندوق‌های سهامی موجود در ۱۹۷۰، فقط اقلیتی تا ۲۰۰۵ باقی مانده بودند."
+                "en": "Only a minority of the equity funds that existed in 1970 were still around some 36 years later.",
+                "fa": "از صندوق‌های سهامی موجود در ۱۹۷۰، فقط اقلیتی حدود ۳۶ سال بعد باقی مانده بودند."
               },
               "answer": true
             },
@@ -1469,8 +1473,8 @@
               "kind": "card",
               "id": "b07c3l2p6",
               "text": {
-                "en": "The late-1990s technology boom is his example: billions poured into hot growth funds near the peak, then fled after the crash.",
-                "fa": "نمونهٔ او رونق فناوری اواخر دههٔ ۱۹۹۰ است: میلیاردها دلار نزدیک قله به صندوق‌های رشد داغ ریخته شد و پس از سقوط فرار کرد."
+                "en": "The late-1990s technology boom is his example: billions poured into hot growth funds near the peak, then the buying all but stopped after the crash.",
+                "fa": "نمونهٔ او رونق فناوری اواخر دههٔ ۱۹۹۰ است: میلیاردها دلار نزدیک قله به صندوق‌های رشد داغ ریخته شد و پس از سقوط، خرید تقریباً متوقف شد."
               }
             },
             {

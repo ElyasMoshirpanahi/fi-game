@@ -6,6 +6,10 @@
     "fa": "Cal Newport"
   },
   "year": 2016,
+  "edition": {
+    "en": "1st edition, 2016",
+    "fa": "ویراست اول، ۲۰۱۶"
+  },
   "stage": 6,
   "must": true,
   "why": {

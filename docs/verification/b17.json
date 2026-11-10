@@ -1,0 +1,55 @@
+{
+  "book": "b17",
+  "edition": {
+    "text": "1st edition, 2020",
+    "source": "https://openlibrary.org/books/OL30319349M",
+    "note": "Open Library record: Magrathea Publishing, Aug 15, 2020, 242 pages, ISBN 9781544514222. A web search of edition listings found only 2020 Magrathea/Scribe formats and a 2021 Harper Business reprint, no revised edition. The Lessons' chapter names (Find and Build Specific Knowledge, Find a Position of Leverage, Learning Happiness as the start of Part II) match the official free online text at https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents."
+  },
+  "rows": [
+    {
+      "id": "b17c1l3p10",
+      "kind": "figure",
+      "claim": "A small AI product that runs while you sleep is code leverage. Nobody has to approve it, and it can earn your first €100.",
+      "verdict": "own",
+      "source": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-a-position-of-leverage",
+      "note": "Book side confirmed: \"Every great software developer, for example, now has an army of robots working for him at nighttime while he or she sleeps\"; new forms of leverage \"are permissionless\". The EUR 100 is the roadmap's own goal (docs/research/roadmap-facts.md row 25), not a figure attributed to the book.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b17c1l3p11",
+      "kind": "figure",
+      "claim": "Your roadmap puts most of your €40k in index ETFs. That capital compounds slowly, while code lets you add leverage without asking anyone.",
+      "verdict": "own",
+      "source": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-a-position-of-leverage",
+      "note": "Book side confirmed: \"For capital leverage, somebody has to give you money to invest\"; code and media leverage \"are permissionless\". EUR 40k and index ETFs are the roadmap's own figures (roadmap-facts rows 1, 6, 7), presented as the roadmap's, not the book's.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b17c2l2p10",
+      "kind": "figure",
+      "claim": "Your roadmap's 80 percent index core is a long-term game. Compounding works over many years, so the roadmap treats that core as something to leave alone, not to trade.",
+      "verdict": "own",
+      "source": "https://www.navalmanack.com/almanack-of-naval-ravikant/play-long-term-games-with-long-term-people",
+      "note": "Book side confirmed: \"All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest\" and \"Sticking with it for decades is really how you make the big returns\". The 80 percent index core is the roadmap's own split (roadmap-facts row 7), stated as the roadmap's.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b17c3l1p1",
+      "kind": "figure",
+      "claim": "This Lesson distils Learning Happiness, the start of Part II. It matters because reaching 25 times your annual expenses takes years, and Naval says you can learn happiness on the way.",
+      "verdict": "verified",
+      "source": "https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents",
+      "note": "Official table of contents: \"Part II: Happiness\" opens with the section \"Learning Happiness\"; its first chapter, Happiness Is Learned, calls happiness \"a highly personal skill that can be learned\" (https://www.navalmanack.com/almanack-of-naval-ravikant/happiness-is-learned). 25 times annual expenses is the roadmap's figure, the 4 percent rule inverted (1/0.04); the 4 percent rate is shown at https://en.wikipedia.org/wiki/Trinity_study.",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b17c3l1p11",
+      "kind": "figure",
+      "claim": "Do not compare your first €100 of income to a founder's exit. Envy would trade your peace for a story you only see from outside.",
+      "verdict": "verified",
+      "source": "https://www.navalmanack.com/almanack-of-naval-ravikant/envy-is-the-enemy-of-happiness",
+      "note": "Book side confirmed: \"I couldn't just choose little aspects of their life ... If you're not willing to do a wholesale, 24/7, 100 percent swap with who that person is, then there is no point in being jealous.\" The EUR 100 is the roadmap's goal, and the Card is the roadmap's application, not a quotation.",
+      "basis": "author-or-publisher"
+    }
+  ]
+}

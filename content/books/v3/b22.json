@@ -6,6 +6,10 @@
     "fa": "Paul Graham"
   },
   "year": 2001,
+  "edition": {
+    "en": "Web essays on paulgraham.com, 2005–2023",
+    "fa": "مقاله‌های وب در paulgraham.com، ۲۰۰۵ تا ۲۰۲۳"
+  },
   "stage": 5,
   "must": false,
   "why": {

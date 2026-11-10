@@ -1,0 +1,100 @@
+{
+  "book": "b18",
+  "edition": {
+    "text": "1st edition, 2014",
+    "source": "https://openlibrary.org/works/OL16818208W/editions.json",
+    "note": "Open Library lists only 2014 printings (HarperBusiness hardcover ISBN 9780062273208, 289 pp.; HarperCollins ebook; Blackstone audio, Mar 04, 2014); no revised or later edition found. Chapter numbers in the Lessons match the nine-chapter 2014 text."
+  },
+  "rows": [
+    {
+      "id": "b18c1l1p1",
+      "kind": "other",
+      "claim": "This Lesson distils Chapters 1 to 3: how Horowitz took Loudcloud from boom to near-death and rebuilt it as Opsware. It matters because any startup you co-found will hit its own crash.",
+      "verdict": "verified",
+      "source": "https://ajahne.github.io/blog/leadership/books/2018/06/29/the-hard-thing-about-hard-things-notes.html",
+      "note": "Secondary (chapter notes): chapters 1 \"From Communist to Venture Capitalist\", 2 \"I will survive\", 3 \"This time with feeling\" come before 4 \"When things fall apart\"; the Loudcloud/Opsware story is told in 1-3. Publisher table of contents could not be fetched (harpercollins.com blocked).",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p2",
+      "kind": "figure",
+      "claim": "In 1999 Ben Horowitz co-founded Loudcloud with Marc Andreessen, Tim Howes and In Sik Rhee. It ran websites and software for customers on its own servers, an early form of cloud computing.",
+      "verdict": "verified",
+      "source": "https://www.fundinguniverse.com/company-histories/opsware-inc-history/",
+      "note": "\"The formation of Loudcloud, Inc. was announced in September 1999\"; cofounders named: Marc Andreessen, Ben Horowitz, Tim Howes, Sik Rhee.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p3",
+      "kind": "figure",
+      "claim": "Loudcloud raised large sums in the dot-com boom, then the 2000 crash wiped out many of its customers. Private money dried up, so Horowitz chose to take the company public in 2001.",
+      "verdict": "verified",
+      "source": "https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/loudcloud-inc",
+      "note": "$68 million venture financing by Feb 2000 plus \"another $120 million\" by mid-2000; \"On March 9, 2001, Loudcloud held its initial public offering\"; \"investment climate for Internet-based companies was not favorable\". Customers hit by the crash and no private investors: secondary summary of the book at https://www.shortform.com/blog/loudcloud/ (\"With no investors offering to invest, Loudcloud had no other option\").",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p4",
+      "kind": "figure",
+      "claim": "The IPO was priced at $6 a share in a collapsing market, and the press mocked it. Still, it raised the cash that kept the company alive.",
+      "verdict": "verified",
+      "source": "https://www.fundinguniverse.com/company-histories/opsware-inc-history/",
+      "note": "\"Loudcloud priced its shares at $6 and offered 25 million shares, raising $150 million\". Press reaction: shortform.com/blog/loudcloud/ \"The press pilloried them\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p6",
+      "kind": "figure",
+      "claim": "In 2002 he sold the Loudcloud services business and its customers to EDS. Loudcloud kept its automation software and renamed itself Opsware.",
+      "verdict": "verified",
+      "source": "https://www.fundinguniverse.com/company-histories/opsware-inc-history/",
+      "note": "June 2002: \"sell its core managed services and hosting business to EDS for $63.5 million in cash\"; \"adopted the name Opsware, Inc. later in the year\". Horowitz's own essay https://a16z.com/the-case-for-the-fat-startup/ agrees: \"Loudcloud sells the managed services business to EDS ... changes its name to Opsware\".",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p8",
+      "kind": "figure",
+      "claim": "Opsware's stock fell as low as 35 cents a share, and the company came close to dying again. Horowitz kept going, one hard decision at a time.",
+      "verdict": "verified",
+      "source": "https://mercury.com/blog/ben-horowitz",
+      "note": "Horowitz in interview: \"everyone who dumped our stock so it dropped to $0.35 a share\". Secondary summary of the book (shortform.com/blog/opsware/): \"fell to a low of $0.35 per share, representing a valuation of $30 million\", after the EDS sale.",
+      "basis": "secondary"
+    },
+    {
+      "id": "b18c1l1p10",
+      "kind": "figure",
+      "claim": "In 2007 Hewlett-Packard bought Opsware for about $1.6 billion. The company the press had written off became a famous software exit.",
+      "verdict": "verified",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001100813/000104746907005777/a2178943z8-k.htm",
+      "note": "SEC filing, agreement dated July 20, 2007: HP to acquire Opsware for \"$14.25 per share, or approximately $1.6 billion\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b18c1l2p11",
+      "kind": "other",
+      "claim": "For you, the Struggle may be a startup that misses its target. Keeping your 25x capital plan separate from the company means one failure cannot take both.",
+      "verdict": "own",
+      "source": null,
+      "note": "No book claim to check: \"25x capital plan\" is the app's own financial-independence target applied to the reader, not a figure attributed to Horowitz. The Card does not present it as the book's. Left unchanged.",
+      "basis": "none"
+    },
+    {
+      "id": "b18c2l3p2",
+      "kind": "figure",
+      "claim": "Horowitz's view of the one-on-one: it is the employee's meeting, not the manager's. The employee sets the agenda and does about 90 percent of the talking.",
+      "verdict": "corrected",
+      "source": "https://a16z.com/one-on-one/",
+      "note": "Second reader: the Card inferred \"the employee does about 90 percent of the talking\"; it now states what the source says. Horowitz: \"it is the employee's meeting rather than the manager's meeting\"; \"the employee should set the agenda\"; \"the manager should do 10% of the talking and 90% of the listening\".",
+      "basis": "author-or-publisher"
+    },
+    {
+      "id": "b18c2l3p6",
+      "kind": "figure",
+      "claim": "Programming your culture: small, unusual rules shape behaviour more than value statements. At Andreessen Horowitz, a partner late to a founder meeting pays $10 a minute.",
+      "verdict": "verified",
+      "source": "https://a16z.com/programming-your-culture/",
+      "note": "Horowitz: \"a ruthlessly enforced $10/minute fine for being late to a meeting with an entrepreneur\".",
+      "basis": "author-or-publisher"
+    }
+  ]
+}
