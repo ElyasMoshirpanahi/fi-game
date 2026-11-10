@@ -28,7 +28,7 @@ A Review stop on the Path. Every Card I missed (rated "didn't know", had its ans
 
 - Glossary gains **Review** (the daily session) and **Deck** (the Cards scheduled for Review). This reverses grilling decisions 10 and 13 (same-session Returns only); recorded as a new owner decision and an ADR.
 - Scheduling is a fixed ladder (Leitner-style): intervals of 1, 3, 7, 16, 35 days. FSRS was considered and rejected for now: it needs per-user parameter fitting and an inlined library, for a deck of a few hundred Cards the ladder is adequate and testable.
-- The engine stays pure: it never reads the clock. Actions that depend on the date carry `today` (an ISO date string) supplied by the app, the same pattern as the habit tracker's week key.
+- The engine stays pure: it never reads the clock. Actions that depend on the date carry `today` (an ISO date string) supplied by the app, the same pattern as the habit tracker's week key. As built: the app sends one `TICK` action with the local day number (an integer) and the engine keeps it as `state.today`, so day arithmetic needs no date parsing in the engine.
 - A Deck entry snapshots what Review needs: the Card text, and the Check sourced from that Card when one exists (prompt, options, answer, type), plus `box` and `due`. Snapshots make Review independent of on-demand book loading, as Bookmarks already do.
 - New engine actions: enqueue on the existing miss paths and on bookmark; `OPEN_REVIEW`, `REVIEW_ANSWER`, `REVIEW_RATE`, `REVIEW_NEXT`. New events: `review-correct`, `review-wrong`, `review-done`.
 - The Deck is a durable field and is part of the stored document.

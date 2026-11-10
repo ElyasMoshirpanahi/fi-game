@@ -60,3 +60,4 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 - Storage key `fi-roadmap-v1`, as the playbook says. Every read and write in try/catch.
 - Google Fonts (Vazirmatn, Inter) is the only allowed external request. No external scripts.
 - Disclaimer "آموزشی است، نه توصیه خرید" / "Educational, not investment advice" is always visible.
+- 40 (spec 1 review, supervisor call inside decisions 38-39): the Review cap of 20 is per day; a Review Coin is paid once per Card and ladder step; bookmarks made before Review existed join the Deck.

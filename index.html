@@ -747,7 +747,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -758,7 +758,7 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false, bookmarks: [], deck: {},
+    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null,
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
@@ -771,26 +771,54 @@ FI.engine = (() => {
   const LADDER = [1, 3, 7, 16, 35];
   const SESSION_CAP = 20;
   const dueIds = (s) => Object.keys(s.deck).filter((id) => s.deck[id].due <= s.today).sort((a, b) => s.deck[a].due - s.deck[b].due || a.localeCompare(b));
-  const dueCount = (s) => dueIds(s).length;
-  function enqueue(s, content, stationId, cardId, why) {
+  // The cap is per day, not per visit: reopening Review never serves more than the day's share.
+  const leftToday = (s) => Math.max(0, SESSION_CAP - (s.reviewed && s.reviewed.day === s.today ? s.reviewed.n : 0));
+  const dueCount = (s) => Math.min(dueIds(s).length, leftToday(s));
+  // Refresh a Deck entry from loaded content, so a corrected text or translation reaches Review.
+  // `checkId` names the Check the player missed; without it the entry keeps its Check, or takes the Card's first.
+  function refresh(s, content, cardId, checkId) {
+    const entry = s.deck[cardId];
+    const st = entry && content.station(entry.stationId);
+    if (!st || !st.items) return;
+    const card = st.items.find((i) => i.id === cardId && i.kind === 'card');
+    if (!card) return;
+    const own = st.items.filter((i) => i.kind === 'check' && i.source === cardId);
+    const want = checkId || (entry.check && entry.check.id);
+    const check = own.find((i) => i.id === want) || own[0];
+    entry.text = card.text;
+    entry.check = check ? { id: check.id, type: check.type, prompt: check.prompt, options: check.options || null, answer: check.answer } : null;
+  }
+  const newEntry = (s, stationId, cardId, text) => ({ stationId, cardId, text, check: null, box: 0, due: s.today + LADDER[0], missed: false, marked: false });
+  function enqueue(s, content, stationId, cardId, reason, checkId) {
     const card = content.item(stationId, cardId);
     if (!card || card.kind !== 'card') return;
-    let e = s.deck[cardId];
-    if (!e) {
-      const st = content.station(stationId);
-      const k = st.items.find((i) => i.kind === 'check' && i.source === cardId);
-      e = s.deck[cardId] = { stationId, cardId, text: card.text, check: k ? { id: k.id, type: k.type, prompt: k.prompt, options: k.options || null, answer: k.answer } : null, box: 0, due: s.today + LADDER[0], missed: false, marked: false };
-    }
-    if (why === 'missed') { e.missed = true; e.box = 0; e.due = s.today + LADDER[0]; } else e.marked = true;
+    if (!s.deck[cardId]) s.deck[cardId] = newEntry(s, stationId, cardId, card.text);
+    refresh(s, content, cardId, checkId);
+    const entry = s.deck[cardId];
+    // A miss restarts the ladder. A Card already due stays due: a miss must not push it out of today's Review.
+    if (reason === 'missed') { entry.missed = true; entry.box = 0; if (entry.due > s.today) entry.due = s.today + LADDER[0]; } else entry.marked = true;
   }
-  function grade(s, cardId, ok) {
-    const e = s.deck[cardId];
-    if (!e) return;
+  // Every bookmark belongs in the Deck, including bookmarks saved before Review existed.
+  function backfill(s, content) {
+    for (const mark of s.bookmarks) {
+      if (!s.deck[mark.cardId]) s.deck[mark.cardId] = newEntry(s, mark.stationId, mark.cardId, mark.text);
+      s.deck[mark.cardId].marked = true;
+      refresh(s, content, mark.cardId);
+    }
+  }
+  // Move a reviewed Card on the ladder: up one step when right, back to the first step when wrong.
+  function settle(s, cardId, ok) {
+    const entry = s.deck[cardId];
+    if (!entry) return;
+    s.reviewed = { day: s.today, n: (s.reviewed && s.reviewed.day === s.today ? s.reviewed.n : 0) + 1 };
     if (ok) {
-      s.coins += 1; s.events.push('coin', 'correct', 'review-correct');
-      e.box += 1;
-      if (e.box >= LADDER.length) { delete s.deck[cardId]; s.review.retired = true; } else { e.due = s.today + LADDER[e.box]; s.review.nextIn = LADDER[e.box]; }
-    } else { e.box = 0; e.due = s.today + LADDER[0]; s.events.push('wrong', 'review-wrong'); }
+      // One Coin per Card and ladder step, ever: leaving and rejoining the Deck cannot farm Coins.
+      const paid = `review:${cardId}:${entry.box}`;
+      if (!s.awarded[paid]) { s.awarded[paid] = true; s.coins += 1; s.events.push('coin'); }
+      s.events.push('correct');
+      entry.box += 1;
+      if (entry.box >= LADDER.length) { delete s.deck[cardId]; s.review.retired = true; } else { entry.due = s.today + LADDER[entry.box]; s.review.nextIn = LADDER[entry.box]; }
+    } else { entry.box = 0; entry.due = s.today + LADDER[0]; s.events.push('wrong'); }
     s.review.phase = 'result'; s.review.ok = ok;
   }
   const indexIn = (content, stationId, id) => content.station(stationId).items.findIndex((i) => i.id === id);
@@ -885,6 +913,8 @@ FI.engine = (() => {
           if (k === 'sliders' || k === 'checklists') s[k] = { ...s[k], ...d[k] }; else s[k] = d[k];
         }
         if (!MODES.includes(s.mode)) s.mode = 'EN';
+        if (!s.deck || typeof s.deck !== 'object' || Array.isArray(s.deck)) s.deck = {};
+        if (!Array.isArray(s.bookmarks)) s.bookmarks = [];
         migrateLegacy(s, content);
         // Resume at the saved position (owner decision after the Prompt 0 play-test). Returns and Fare are not resumed.
         if (d.run && !LEGACY_BOOK.test(d.run.stationId) && content.station(d.run.stationId) && content.station(d.run.stationId).items) {
@@ -918,35 +948,38 @@ FI.engine = (() => {
       }
       case 'TICK':
         if (Number.isInteger(action.value)) s.today = action.value;
+        backfill(s, content);
         return s;
       case 'OPEN_REVIEW': {
         leave(s);
-        const queue = dueIds(s).slice(0, SESSION_CAP);
+        for (const id of Object.keys(s.deck)) refresh(s, content, id);
+        const ids = dueIds(s).slice(0, leftToday(s));
         s.screen = 'review';
-        s.review = { queue, index: 0, phase: queue.length ? 'card' : 'done', ok: null, retired: false, nextIn: 0 };
+        s.review = { ids, index: 0, phase: ids.length ? 'card' : 'done', ok: null, retired: false, nextIn: 0, capped: !ids.length && dueIds(s).length > 0 };
         return s;
       }
       case 'REVIEW_NEXT': {
         if (s.screen !== 'review') return s;
         const r = s.review;
-        if (r.phase === 'card' && s.deck[r.queue[r.index]] && s.deck[r.queue[r.index]].check) { r.phase = 'check'; return s; }
+        if (r.phase === 'card' && s.deck[r.ids[r.index]] && s.deck[r.ids[r.index]].check) { r.phase = 'check'; return s; }
         if (r.phase === 'result') {
           r.index += 1; r.ok = null; r.retired = false; r.nextIn = 0;
-          if (r.index >= r.queue.length) { r.phase = 'done'; s.events.push('review-done'); } else r.phase = 'card';
+          r.phase = r.index >= r.ids.length ? 'done' : 'card';
         }
         return s;
       }
       case 'REVIEW_ANSWER': {
         if (s.screen !== 'review' || s.review.phase !== 'check') return s;
-        const id = s.review.queue[s.review.index];
-        grade(s, id, same(action.value, s.deck[id].check.answer));
+        const id = s.review.ids[s.review.index];
+        if (!s.deck[id] || !s.deck[id].check) return s;
+        settle(s, id, same(action.value, s.deck[id].check.answer));
         return s;
       }
       case 'REVIEW_RATE': {
         if (s.screen !== 'review' || s.review.phase !== 'card') return s;
-        const id = s.review.queue[s.review.index];
-        if (s.deck[id].check) return s;
-        grade(s, id, action.value === 'knew');
+        const id = s.review.ids[s.review.index];
+        if (!s.deck[id] || s.deck[id].check) return s;
+        settle(s, id, action.value === 'knew');
         return s;
       }
       case 'OPEN_BOOKMARKS':
@@ -955,9 +988,10 @@ FI.engine = (() => {
         return s;
       case 'TOGGLE_BOOKMARK': {
         const { stationId, cardId } = action.value || {};
-        const it = content.item(stationId, cardId);
-        if (!it || it.kind !== 'card') return s;
         const at = s.bookmarks.findIndex((b) => b.stationId === stationId && b.cardId === cardId);
+        // A bookmark whose Card no longer exists (re-cut content) can still be removed.
+        const it = content.item(stationId, cardId);
+        if (at < 0 && (!it || it.kind !== 'card')) return s;
         if (at >= 0) {
           s.bookmarks.splice(at, 1); s.events.push('unbookmark');
           const e = s.deck[cardId];
@@ -998,12 +1032,12 @@ FI.engine = (() => {
           } else {
             s.misses += 1; s.events.push('wrong');
             if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
-            else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed'); s.events.push('revealed'); }
+            else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); s.events.push('revealed'); }
           }
           return s;
         }
         // Fare: no Hints, one attempt per question, result after the last one.
-        if (!ok) { s.fare.missed.push(k.id); enqueue(s, content, s.stationId, k.source, 'missed'); }
+        if (!ok) { s.fare.missed.push(k.id); enqueue(s, content, s.stationId, k.source, 'missed', k.id); }
         s.events.push(ok ? 'correct' : 'wrong');
         s.fare.index += 1;
         if (s.fare.index < s.fare.questions.length) { s.current = s.fare.questions[s.fare.index]; return s; }
@@ -1419,16 +1453,17 @@ FI.render = (() => {
   // ---- Review (spec 1) -------------------------------------------------------
   function reviewScreen(s, content) {
     const r = s.review;
-    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.queue.length ? ` · ${num(Math.min(r.index + 1, r.queue.length), s.mode)}/${num(r.queue.length, s.mode)}` : ''}</h2></div>`;
+    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
     if (r.phase === 'done') {
-      const msg = r.queue.length ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
+      const msg = r.ids.length || r.capped ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
       return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p><button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
     }
-    const e = s.deck[r.queue[r.index]];
+    const e = s.deck[r.ids[r.index]];
     const k = e && e.check;
+    const answer = !k ? '' : k.type === 'tf' ? t(k.answer ? 'trueLabel' : 'falseLabel', s.mode) : k.type === 'order' ? k.answer.map((i) => pair(k.options[i], one(s.mode))).join(' · ') : pair(k.options[k.answer], s.mode);
     if (r.phase === 'result') {
       const note = !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
-      return `<main class="station tools" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span><small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
+      return `<main class="station tools" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
     }
     const card = `<section class="panel card"><p class="kicker">${t('review', s.mode)}</p><p class="ctext">${pair(e.text, s.mode)}</p>`;
     if (r.phase === 'card') {

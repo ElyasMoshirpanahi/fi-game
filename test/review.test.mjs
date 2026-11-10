@@ -114,7 +114,7 @@ describe('Review session', () => {
     const cards = content.stations.filter((st) => st.items).flatMap((st) => st.items.filter((i) => i.kind === 'card').map((i) => ({ stationId: st.id, cardId: i.id }))).slice(0, 25);
     for (const c of cards) s = R(s, { type: 'TOGGLE_BOOKMARK', value: c });
     s = R(s, { type: 'TICK', value: DAY + 1 }, { type: 'OPEN_REVIEW' });
-    expect(s.review.queue).toHaveLength(20);
+    expect(s.review.ids).toHaveLength(20);
     expect(R(start(), { type: 'OPEN_REVIEW' }).review.phase).toBe('done');
   });
 

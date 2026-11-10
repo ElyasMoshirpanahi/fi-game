@@ -57,7 +57,7 @@ The recap of up to three questions that closes a Unit, drawn only from that Unit
 _Avoid_: final, boss, exam, recap quiz
 
 **Coin**:
-The short-term reward. One Coin per correct Check answer. Coins never decrease.
+The short-term reward. One Coin per correct Check answer, and one per Card for each step it climbs in Review. A Coin is paid once: repeating the same Check or the same Review step pays nothing. Coins never decrease.
 _Avoid_: point, gem, star
 
 **Ring**:
@@ -96,7 +96,7 @@ The Cards scheduled for Review: every Card the player missed (rated "didn't know
 _Avoid_: queue, pile, flashcards
 
 **Review**:
-The daily session over the Deck's due Cards, at most 20. A right answer moves a Card up a ladder of 1, 3, 7, 16 and 35 days; a wrong one brings it back tomorrow; after the last step it leaves the Deck. Not the same as a Return, which happens inside one Lesson.
+The daily session over the Deck's due Cards, at most 20 a day. A right answer moves a Card up a ladder of 1, 3, 7, 16 and 35 days; a wrong one brings it back tomorrow; after the last step it leaves the Deck. Not the same as a Return, which happens inside one Lesson.
 _Avoid_: revision, practice, spaced repetition (the mechanism, not the name)
 
 **Bookmark**:
