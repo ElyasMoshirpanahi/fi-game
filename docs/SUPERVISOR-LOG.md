@@ -115,3 +115,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Play-test: docs/playtests/sections.md. Four bugs found and fixed (year grouping, Shelf unreachable, Shelf jump value, Tools pill styled as a node).
 - Tests: 537 green. index.html 394 KB (cap 400).
 - /code-review on feat/sections: docs/review/sections-code-review.md (Standards 6 hard, 7 judgement; Spec 2 missing, 5 unasked, 0 wrong). All fixed in the follow-up commit; balanced split gives every Unit 1 and 2 at least two Checks, asserted by test. Tests: 537 green. index.html 393 KB.
+- 2026-11-10, owner asked for the bookmark capability again: it had shipped (PR #2) but its button sat at the foot of the now 29-section Path. Moved the Shelf and Bookmarks buttons to a bar under the title. Verified: mark a Card, count on the Path bar, list, Open lands on the Card. Note: the hourly desktop sorter moved the repo to Desktop\FILES\Projects\Extra\fi-game.
