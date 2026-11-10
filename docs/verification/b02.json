@@ -12,7 +12,8 @@
       "claim": "This Lesson distils the introduction: where the book came from and its one-line strategy. It matters because your €40k and a Dutch salary need a plan simple enough to follow for decades.",
       "verdict": "own",
       "source": null,
-      "note": "The €40k is the reader's own figure (app context), not a book claim; the Card makes no other specific claim."
+      "note": "The €40k is the reader's own figure (app context), not a book claim; the Card makes no other specific claim.",
+      "basis": "none"
     },
     {
       "id": "b02c1l2p4",
@@ -20,7 +21,8 @@
       "claim": "His rule of thumb: pay off any loan above roughly 5 percent interest before investing. Below about 3 percent, investing may win; in between, choose what lets you sleep.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/?p=5766",
-      "note": "Author's own text, post titled Debt: The Unacceptable Burden (the chapter of the same name): \"Less than 3%, pay it off slowly\"; \"3-5%, whatever feels most comfortable\"; \"More than 5%, pay it off ASAP\"."
+      "note": "Author's own text, post titled Debt: The Unacceptable Burden (the chapter of the same name): \"Less than 3%, pay it off slowly\"; \"3-5%, whatever feels most comfortable\"; \"More than 5%, pay it off ASAP\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c1l2p5",
@@ -28,7 +30,8 @@
       "claim": "Paying off a 7 percent loan is a guaranteed 7 percent return. No index fund can promise that.",
       "verdict": "own",
       "source": null,
-      "note": "Not attributed to Collins; the 7 percent is an illustrative number and the statement is arithmetic (interest no longer paid equals the loan rate). No source needed; none claimed."
+      "note": "Not attributed to Collins; the 7 percent is an illustrative number and the statement is arithmetic (interest no longer paid equals the loan rate). No source needed; none claimed.",
+      "basis": "none"
     },
     {
       "id": "b02c1l2p6",
@@ -36,7 +39,8 @@
       "claim": "Collins counts credit card balances among the debts weighing people down. At rates far above 5 percent, his rule puts paying them off ahead of investing.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/?p=5766",
-      "note": "Same post: rule \"More than 5%, pay it off ASAP\"; Collins describes a card issuer planning to charge him \"18% interest\", so card rates sit far above 5 percent."
+      "note": "Same post: rule \"More than 5%, pay it off ASAP\"; Collins describes a card issuer planning to charge him \"18% interest\", so card rates sit far above 5 percent.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c1l2p12",
@@ -44,7 +48,8 @@
       "claim": "Keeping your €40k free of debt means every euro of it can work for you. A loan payment would quietly take your ownership income first.",
       "verdict": "own",
       "source": null,
-      "note": "No book claim: the figure is the reader's own roadmap number (app context), not a statement about the book. Nothing to source."
+      "note": "No book claim: the figure is the reader's own roadmap number (app context), not a statement about the book. Nothing to source.",
+      "basis": "none"
     },
     {
       "id": "b02c1l3p10",
@@ -52,7 +57,8 @@
       "claim": "For a CTO, F-You Money is runway: freedom to leave a bad role or to build your own product. Count how many months your €40k covers before calling any of it a bet.",
       "verdict": "own",
       "source": null,
-      "note": "No book claim: the figure is the reader's own roadmap number (app context), not a statement about the book. Nothing to source."
+      "note": "No book claim: the figure is the reader's own roadmap number (app context), not a statement about the book. Nothing to source.",
+      "basis": "none"
     },
     {
       "id": "b02c2l1p3",
@@ -60,7 +66,8 @@
       "claim": "Collins’s claim: over the long run the market always goes up, through every crash. Over the 20th century the Dow rose from under 100 to over 11,000.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/04/19/stocks-part-ii-the-market-always-goes-up/",
-      "note": "Post: \"Because the market always, and I mean always, goes up.\" Author's reply in the comments (2015-05-13): \"The Dow Jones Industrial Average started the last century at 68 and ended at 11,497.\" Matches \"under 100 to over 11,000\"."
+      "note": "Post: \"Because the market always, and I mean always, goes up.\" Author's reply in the comments (2015-05-13): \"The Dow Jones Industrial Average started the last century at 68 and ended at 11,497.\" Matches \"under 100 to over 11,000\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c2l1p5",
@@ -68,7 +75,8 @@
       "claim": "Collins is clear that the ride is rough. Crashes such as 1929, 1987 and 2008 are part of the trip, not exceptions.",
       "verdict": "softened",
       "source": "https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/",
-      "note": "Source confirms \"The Crash of 1987\", \"that little dust-up in 2008\" and \"Market crashes are to be expected. They are part of the process.\" 1929 was not found in any Collins text opened (the Big Ugly Event post returned 404), so 1929 was removed from the Card and from the fare of Check b02c2l1k2, en and fa."
+      "note": "Source confirms \"The Crash of 1987\", \"that little dust-up in 2008\" and \"Market crashes are to be expected. They are part of the process.\" 1929 was not found in any Collins text opened (the Big Ugly Event post returned 404), so 1929 was removed from the Card and from the fare of Check b02c2l1k2, en and fa.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c2l1p7",
@@ -76,7 +84,8 @@
       "claim": "A broad index is self-cleansing: failing companies shrink and drop out, while winners can grow without limit. A stock can lose only 100 percent but can gain far more.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/04/19/stocks-part-ii-the-market-always-goes-up/",
-      "note": "\"The Market is self cleansing.\"; \"It can lose 100% of its value.\"; \"But so is 200, 300, 1000, 10000% or more.\"; \"There is no upside limit.\""
+      "note": "\"The Market is self cleansing.\"; \"It can lose 100% of its value.\"; \"But so is 200, 300, 1000, 10000% or more.\"; \"There is no upside limit.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c2l2p9",
@@ -84,7 +93,8 @@
       "claim": "Collins admits his own mistake: after the 1987 crash he lost his nerve and sold. The market recovered without him, and he bought back in at higher prices.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/04/19/stocks-part-ii-the-market-always-goes-up/",
-      "note": "Black Monday 1987: \"I held tight for three or four months.\"; \"Finally, I lost my nerve and sold.\"; \"It took a year or so for me to regain my nerve and get back in.\"; \"By then it had passed its pre-Black Monday high.\""
+      "note": "Black Monday 1987: \"I held tight for three or four months.\"; \"Finally, I lost my nerve and sold.\"; \"It took a year or so for me to regain my nerve and get back in.\"; \"By then it had passed its pre-Black Monday high.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c2l2p11",
@@ -92,7 +102,8 @@
       "claim": "Your test will come: a day when your index ETFs are down 30 percent and the news is dark. Write down now, in calm times, what your plan says to do.",
       "verdict": "own",
       "source": null,
-      "note": "No book claim: the 30 percent drop is a hypothetical scenario for the reader, not a figure attributed to Collins."
+      "note": "No book claim: the 30 percent drop is a hypothetical scenario for the reader, not a figure attributed to Collins.",
+      "basis": "none"
     },
     {
       "id": "b02c2l3p5",
@@ -100,15 +111,17 @@
       "claim": "VTSAX is very cheap, with an expense ratio of about 0.05 percent when the book was written. Low cost means more of the market’s return stays with you.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2016/09/15/stocks-part-xxx-jlcollinsnh-vs-vanguard/",
-      "note": "Author's post of 2016-09-15, three months after the book came out: \"15% — VTSAX — Stocks — .05% ER\". The book page itself was not opened; the Card's \"about 0.05 percent when the book was written\" matches. Later sources give 0.04 percent, so the dated wording is kept."
+      "note": "Author's post of 2016-09-15, three months after the book came out: \"15% — VTSAX — Stocks — .05% ER\". The book page itself was not opened; the Card's \"about 0.05 percent when the book was written\" matches. Later sources give 0.04 percent, so the dated wording is kept.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c2l3p12",
       "kind": "figure",
       "claim": "The roadmap puts 80 percent of your portfolio in index ETFs, the core. In Collins’s own plan the index fund is not just the core but the whole stock portfolio.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://jlcollinsnh.com/2012/05/12/stocks-part-vi-portfolio-ideas-to-build-and-keep-your-wealth/",
-      "note": "80 percent is the roadmap's own split (app context). Collins's part: the Wealth Building Portfolio is one fund, \"Here's the basket: VTSAX\", 100 percent stocks."
+      "note": "80 percent is the roadmap's own split (app context). Collins's part: the Wealth Building Portfolio is one fund, \"Here's the basket: VTSAX\", 100 percent stocks.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l1p3",
@@ -116,7 +129,8 @@
       "claim": "In the wealth accumulation stage you are working, saving and adding money. Collins suggests holding 100 percent stocks, in VTSAX.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
-      "note": "\"For this stage I favor 100% stocks and VTSAX is the fund I prefer.\""
+      "note": "\"For this stage I favor 100% stocks and VTSAX is the fund I prefer.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l1p5",
@@ -124,7 +138,8 @@
       "claim": "That only works if you can hold through a 50 percent drop without selling. If you cannot, add some bonds even while building.",
       "verdict": "softened",
       "source": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
-      "note": "No Collins text opened ties the 100 percent stock choice to holding through a 50 percent drop (looked in Stock Series parts I, II, V, VI, XXIII, XXXII; XXXII only says 2007-9 \"lost ~50%\"). Confirmed: \"you need to be mentally tough enough not to panic when they plunge\" and \"bonds smooth the ride\". \"a 50 percent drop\" became \"a steep drop\" in the Card and in the fare of Check b02c3l1k2, en and fa."
+      "note": "No Collins text opened ties the 100 percent stock choice to holding through a 50 percent drop (looked in Stock Series parts I, II, V, VI, XXIII, XXXII; XXXII only says 2007-9 \"lost ~50%\"). Confirmed: \"you need to be mentally tough enough not to panic when they plunge\" and \"bonds smooth the ride\". \"a 50 percent drop\" became \"a steep drop\" in the Card and in the fare of Check b02c3l1k2, en and fa.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l2p10",
@@ -132,23 +147,26 @@
       "claim": "In the building stage with 100 percent stocks, there is little to rebalance. New monthly money simply goes into the same fund.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
-      "note": "\"For the wealth acquisition stage, an allocation of 100% stocks using VTSAX is the soul of simplicity.\" Rebalancing is discussed only for mixed allocations."
+      "note": "\"For the wealth acquisition stage, an allocation of 100% stocks using VTSAX is the soul of simplicity.\" Rebalancing is discussed only for mixed allocations.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l2p11",
       "kind": "figure",
       "claim": "The roadmap’s core-satellite split is an allocation too: 80 percent index ETFs, 20 percent satellite bets. Review it once a year, as Collins suggests.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
-      "note": "80/20 is the roadmap's own split (app context). Collins: \"about once a year you will want to rebalance your funds to maintain your chosen allocation.\""
+      "note": "80/20 is the roadmap's own split (app context). Collins: \"about once a year you will want to rebalance your funds to maintain your chosen allocation.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l2p12",
       "kind": "figure",
       "claim": "If satellite bets grow past their 20 percent share, rebalancing would mean trimming them back into the core. That is Collins’s idea applied to the roadmap.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
-      "note": "20 percent is the roadmap's own share (app context). Rebalancing back to the chosen allocation is Collins's idea, same passage as b02c3l2p11."
+      "note": "20 percent is the roadmap's own share (app context). Rebalancing back to the chosen allocation is Collins's idea, same passage as b02c3l2p11.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p1",
@@ -156,7 +174,8 @@
       "claim": "This Lesson distils the chapter on withdrawal rates and how much you can spend. It matters because it is where your target of 25 times annual expenses comes from.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "The post Withdrawal rates: how much can I spend anyway? (the chapter of the same name) presents the 4 percent rule; 25 times is its arithmetic inverse (1/0.04), the roadmap's target. The post states the same idea monthly as the \"Rule of 300\"."
+      "note": "The post Withdrawal rates: how much can I spend anyway? (the chapter of the same name) presents the 4 percent rule; 25 times is its arithmetic inverse (1/0.04), the roadmap's target. The post states the same idea monthly as the \"Rule of 300\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p2",
@@ -164,7 +183,8 @@
       "claim": "Collins draws on the Trinity Study, published by three professors at Trinity University in 1998. It tested how much retirees could withdraw from stock and bond portfolios.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"Back in 1998 three professors from Trinity University sat down and ran a bunch of numbers.\""
+      "note": "\"Back in 1998 three professors from Trinity University sat down and ran a bunch of numbers.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p3",
@@ -172,7 +192,8 @@
       "claim": "The study found that withdrawing 4 percent in the first year, then adjusting for inflation, survived most 30-year periods in history. That became the 4 percent rule.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"Turns out, 96% of the time, at the end of 30 years such a portfolio remained intact.\"; tested \"both with adjusting withdrawals for inflation and with not adjusting withdrawals\"; \"it failed in only two of the 55 starting years measured: 1965 & 1966.\""
+      "note": "\"Turns out, 96% of the time, at the end of 30 years such a portfolio remained intact.\"; tested \"both with adjusting withdrawals for inflation and with not adjusting withdrawals\"; \"it failed in only two of the 55 starting years measured: 1965 & 1966.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p4",
@@ -180,7 +201,8 @@
       "claim": "Flip the rule and you get the target: if 4 percent covers a year, you need 25 times your annual spending. €30,000 a year needs about €750,000.",
       "verdict": "own",
       "source": null,
-      "note": "Arithmetic: 1 / 0.04 = 25; 25 x €30,000 = €750,000. The euro example is the app's own."
+      "note": "Arithmetic: 1 / 0.04 = 25; 25 x €30,000 = €750,000. The euro example is the app's own.",
+      "basis": "none"
     },
     {
       "id": "b02c3l3p5",
@@ -188,7 +210,8 @@
       "claim": "Collins notes that in many tested periods the portfolio ended with more money than it started. A 4 percent pace often leaves a growing pile.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"many times the remaining money in the portfolio had grown to spectacular levels\""
+      "note": "\"many times the remaining money in the portfolio had grown to spectacular levels\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p6",
@@ -196,7 +219,8 @@
       "claim": "Collins treats 4 percent as a guideline, not a law. He urges flexibility: spend less after a bad market year and more after strong ones.",
       "verdict": "softened",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "Confirmed: \"4% is only a guide. Sensible flexibility is what provides security.\" and \"if the market takes a huge dive, cut back on your percent and spending until it recovers.\" Not confirmed: spending more after strong years. That half was removed; the Card now says to cut back when the market takes a big dive, until it recovers (en and fa). Checks b02c3l3k3 and b02c3l3k4 still hold."
+      "note": "Confirmed: \"4% is only a guide. Sensible flexibility is what provides security.\" and \"if the market takes a huge dive, cut back on your percent and spending until it recovers.\" Not confirmed: spending more after strong years. That half was removed; the Card now says to cut back when the market takes a big dive, until it recovers (en and fa). Checks b02c3l3k3 and b02c3l3k4 still hold.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p8",
@@ -204,7 +228,8 @@
       "claim": "The study assumed a mix of stocks and bonds. Portfolios heavier in stocks tended to do better over 30 years than bond-heavy ones.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"Stocks are critical to a portfolio’s survival rate.\"; the study tested stock and bond mixes, for example \"a 50% stock/50% bond mix\"."
+      "note": "\"Stocks are critical to a portfolio’s survival rate.\"; the study tested stock and bond mixes, for example \"a 50% stock/50% bond mix\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p9",
@@ -212,7 +237,8 @@
       "claim": "Collins notes that withdrawing 3 percent or less is about as close to a sure bet as it gets. Go much above 4 percent and the risk of running dry climbs.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"3% or less is a near sure bet as anything in this life can be.\"; \"If you absolutely, positively want a sure thing, and your yearly inflation raises, keep it under 4%.\"; \"Stray much further out than 7% and your future might include dining on dog food.\""
+      "note": "\"3% or less is a near sure bet as anything in this life can be.\"; \"If you absolutely, positively want a sure thing, and your yearly inflation raises, keep it under 4%.\"; \"Stray much further out than 7% and your future might include dining on dog food.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p10",
@@ -220,7 +246,8 @@
       "claim": "Collins’s point is freedom, not a spreadsheet. Once 4 percent of your assets covers your spending, work becomes optional.",
       "verdict": "verified",
       "source": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
-      "note": "\"4% is only a guide.\"; Collins speaks of the point where \"I hit FI and hung up the daily job\". \"Work becomes optional\" is the Lesson's own summary of financial independence, not a quotation, and carries no quotation marks."
+      "note": "\"4% is only a guide.\"; Collins speaks of the point where \"I hit FI and hung up the daily job\". \"Work becomes optional\" is the Lesson's own summary of financial independence, not a quotation, and carries no quotation marks.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b02c3l3p11",
@@ -228,7 +255,8 @@
       "claim": "Your roadmap target of 25 times annual expenses is the 4 percent rule in reverse. Lower spending shrinks the target and brings the date closer.",
       "verdict": "own",
       "source": null,
-      "note": "Arithmetic and app context: 25 times is 1 / 0.04; the target belongs to the roadmap."
+      "note": "Arithmetic and app context: 25 times is 1 / 0.04; the target belongs to the roadmap.",
+      "basis": "none"
     },
     {
       "id": "b02c3l3p12",
@@ -236,7 +264,8 @@
       "claim": "Ownership income counts too: each €100 a month of it means €30,000 less capital needed. That is 25 times €1,200 a year.",
       "verdict": "own",
       "source": null,
-      "note": "Arithmetic: €100 x 12 = €1,200; x 25 = €30,000. Ownership income is the app's term, not the book's."
+      "note": "Arithmetic: €100 x 12 = €1,200; x 25 = €30,000. Ownership income is the app's term, not the book's.",
+      "basis": "none"
     }
   ]
 }

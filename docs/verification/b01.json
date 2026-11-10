@@ -10,9 +10,10 @@
       "id": "b01c1l1p1",
       "kind": "other",
       "claim": "This Lesson distils the Introduction and chapter 1, No One's Crazy: money is a behaviour skill, not a maths skill. For an engineer moving to the Netherlands with about €40k, habits matter more than any spreadsheet.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"Introduction: The Greatest Show On Earth\", \"1. No One's Crazy\". The 40k euro figure is the reader's scenario, not a book claim."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"Introduction: The Greatest Show On Earth\", \"1. No One's Crazy\". The 40k euro figure is the reader's scenario, not a book claim.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p3",
@@ -20,7 +21,8 @@
       "claim": "Ronald Read fixed cars and swept floors in Vermont, saved what he could and bought blue-chip stocks. He died at 92 in 2014 with over $8 million, most of it left to a local hospital and library.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"Read fixed cars at a gas station for 25 years and swept floors at JCPenney for 17 years\"; \"Read died in 2014, age 92\"; \"more than $8 million\"; \"$2 million to his stepkids and more than $6 million to his local hospital and library\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"Read fixed cars at a gas station for 25 years and swept floors at JCPenney for 17 years\"; \"Read died in 2014, age 92\"; \"more than $8 million\"; \"$2 million to his stepkids and more than $6 million to his local hospital and library\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p4",
@@ -28,7 +30,8 @@
       "claim": "Richard Fuscone was a Harvard-educated Merrill Lynch executive who retired in his forties. Heavy borrowing and an 18,000 square foot house left him bankrupt after the 2008 financial crisis.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"A Harvard-educated Merrill Lynch executive with an MBA ... retired in his 40s\"; \"borrowed heavily to expand an 18,000-square foot home in Greenwich\"; \"Then the 2008 financial crisis hit ... High debt and illiquid assets left him bankrupt.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"A Harvard-educated Merrill Lynch executive with an MBA ... retired in his 40s\"; \"borrowed heavily to expand an 18,000-square foot home in Greenwich\"; \"Then the 2008 financial crisis hit ... High debt and illiquid assets left him bankrupt.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p6",
@@ -36,7 +39,8 @@
       "claim": "Housel runs the numbers: someone born in 1970 saw stocks rise almost tenfold, after inflation, in their teens and twenties. Someone born in 1950 saw the market go nowhere in those same years.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"If you were born in 1970, the S&P 500 increased almost 10-fold, adjusted for inflation, during your teens and 20s ... born in 1950, the market went literally nowhere\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"If you were born in 1970, the S&P 500 increased almost 10-fold, adjusted for inflation, during your teens and 20s ... born in 1950, the market went literally nowhere\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p7",
@@ -44,7 +48,8 @@
       "claim": "Born in the 1960s, you watched inflation triple prices in your young adult years; born in 1990, you barely saw it. Each person's view of money is shaped by the world they happened to grow up in.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"born in 1960s America, inflation during your teens and 20s ... sent prices up more than threefold ... born in 1990, inflation has been so low for your whole life that it's probably never crossed your mind.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"born in 1960s America, inflation during your teens and 20s ... sent prices up more than threefold ... born in 1990, inflation has been so low for your whole life that it's probably never crossed your mind.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p8",
@@ -52,7 +57,8 @@
       "claim": "The lowest-income US households spend about $412 a year on lottery tickets, four times the top earners, yet 40 percent of Americans cannot cover a $400 emergency. To Housel that is not crazy; it is paying for a dream.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"lowest-income households in the U.S. on average spend $412 a year on lotto tickets, four times the amount of those in the highest income groups. Forty percent of Americans cannot come up with $400 in an emergency\"; \"We are paying for a dream\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"lowest-income households in the U.S. on average spend $412 a year on lotto tickets, four times the amount of those in the highest income groups. Forty percent of Americans cannot come up with $400 in an emergency\"; \"We are paying for a dream\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l1p9",
@@ -60,7 +66,8 @@
       "claim": "Modern money is new. The 401(k) retirement account dates from 1978, the Roth IRA from 1998, and the index fund is less than 50 years old, so we are all beginners at this game.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"The 401(k) ... did not exist until 1978. The Roth IRA was not born until 1998\"; \"index funds, which are less than 50 years old\"; \"We're all just newbies.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 1: \"The 401(k) ... did not exist until 1978. The Roth IRA was not born until 1998\"; \"index funds, which are less than 50 years old\"; \"We're all just newbies.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l2p2",
@@ -68,7 +75,8 @@
       "claim": "Bill Gates attended Lakeside School, in 1968 one of the only high schools in the world with a computer, leased with rummage-sale money at a teacher's urging. Gates said: no Lakeside, no Microsoft.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 2: \"one of the only high schools in the world that had a computer\"; \"In 1968 Dougall petitioned the Lakeside School Mothers' Club to use the proceeds from its annual rummage sale\"; Gates: \"If there had been no Lakeside, there would have been no Microsoft\". The Card paraphrases without quotation marks."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 2: \"one of the only high schools in the world that had a computer\"; \"In 1968 Dougall petitioned the Lakeside School Mothers' Club to use the proceeds from its annual rummage sale\"; Gates: \"If there had been no Lakeside, there would have been no Microsoft\". The Card paraphrases without quotation marks.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p1",
@@ -76,7 +84,8 @@
       "claim": "This Lesson distils chapter 4, Confounding Compounding: why time beats brilliance. For an engineer with €40k and decades of earning ahead, this is the chapter that makes boring index investing exciting.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading in the text: \"4. Confounding Compounding\". The 40k euro figure is the reader's scenario."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading in the text: \"4. Confounding Compounding\". The 40k euro figure is the reader's scenario.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p3",
@@ -84,7 +93,8 @@
       "claim": "Warren Buffett built most of his fortune after age 65. His skill is investing, but his secret is time: compounding needs decades, not clever moves.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4 subtitle: \"$81.5 billion of Warren Buffett's $84.5 billion net worth came after his 65th birthday\"; \"His skill is investing, but his secret is time.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4 subtitle: \"$81.5 billion of Warren Buffett's $84.5 billion net worth came after his 65th birthday\"; \"His skill is investing, but his secret is time.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p4",
@@ -92,7 +102,8 @@
       "claim": "At the time of writing Buffett was worth $84.5 billion. About $81.5 billion of it came after his mid-sixties, and he began investing at age 10, so the real engine was 75 years in the market.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"$81.5 billion of Warren Buffett's $84.5 billion net worth came after his 65th birthday\"; \"Buffett began serious investing when he was 10 years old\"; \"a phenomenal investor for three quarters of a century\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"$81.5 billion of Warren Buffett's $84.5 billion net worth came after his 65th birthday\"; \"Buffett began serious investing when he was 10 years old\"; \"a phenomenal investor for three quarters of a century\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p5",
@@ -100,7 +111,8 @@
       "claim": "Had Buffett started at 30 with $25,000 and retired at 60 with the same 22 percent annual return, he would be worth about $11.9 million, 99.9 percent less than his actual fortune.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"by age 30 his net worth was, say, $25,000 ... (22% annually), but quit investing and retired at age 60 ... Not $84.5 billion. $11.9 million. 99.9% less than his actual net worth.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"by age 30 his net worth was, say, $25,000 ... (22% annually), but quit investing and retired at age 60 ... Not $84.5 billion. $11.9 million. 99.9% less than his actual net worth.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p6",
@@ -108,7 +120,8 @@
       "claim": "Jim Simons of Renaissance Technologies compounded at 66 percent a year since 1988, triple Buffett's rate, yet is worth 75 percent less. He found his stride at 50 and had fewer years to compound.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"compounded money at 66% annually since 1988 ... Buffett has compounded at roughly 22% annually, a third as much ... 75% less rich than Buffett ... did not find his investment stride until he was 50 years old.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"compounded money at 66% annually since 1988 ... Buffett has compounded at roughly 22% annually, a third as much ... 75% less rich than Buffett ... did not find his investment stride until he was 50 years old.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p7",
@@ -116,7 +129,8 @@
       "claim": "Our brains are built for linear thinking. Adding nine 8s gives 72, easy; multiplying nine 8s together gives 134,217,728, and almost nobody can feel that number.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"8+8+8+8+8+8+8+8+8 ... (it's 72) ... 8x8x8x8x8x8x8x8x8 ... (it's 134,217,728)\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"8+8+8+8+8+8+8+8+8 ... (it's 72) ... 8x8x8x8x8x8x8x8x8 ... (it's 134,217,728)\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p8",
@@ -124,15 +138,17 @@
       "claim": "Hard drives: IBM's 1950s drive held 3.5 megabytes, an early-1990s PC a few hundred, and by 2019 a single drive held 100 terabytes. Progress compounds so far past intuition that even experts miss it.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"IBM made a 3.5 megabyte hard drive in the 1950s\"; a PC of the early 1990s \"held 200-500 megabytes\"; \"2019-100 terabyte hard drives\". The 100 terabytes figure is the book's own wording; it was not checked against hardware history."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 4: \"IBM made a 3.5 megabyte hard drive in the 1950s\"; a PC of the early 1990s \"held 200-500 megabytes\"; \"2019-100 terabyte hard drives\". The 100 terabytes figure is the book's own wording; it was not checked against hardware history.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p11",
       "kind": "other",
       "claim": "For you: €40k in a global index ETF at a modest real return, left alone for decades, depends far less on the return than on how many of those years you actually stay invested through every scare.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; 40k euro is not a book claim. Its idea matches ch. 4: good investing is \"earning pretty good returns that you can stick with\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; 40k euro is not a book claim. Its idea matches ch. 4: good investing is \"earning pretty good returns that you can stick with\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c1l3p12",
@@ -140,7 +156,8 @@
       "claim": "That is why the move to the Netherlands matters: a stable base lets you start the clock early and keep it running. Starting now at a pretty good return beats starting brilliantly at 40.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card with no book figure; \"pretty good returns\" is the ch. 4 wording."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card with no book figure; \"pretty good returns\" is the ch. 4 wording.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l1p2",
@@ -148,7 +165,8 @@
       "claim": "Jesse Livermore shorted the market before the crash of October 1929 and made the equivalent of $3 billion in one day. Emboldened, he kept making bigger bets, lost everything, and took his own life in 1940.",
       "verdict": "softened",
       "source": null,
-      "note": "Ch. 5: \"In one day Jesse Livermore made the equivalent of more than $3 billion\"; \"Livermore eventually took his own life\". The book gives no year, so \"in 1940\" was removed (en and fa). No outside source was opened for the year."
+      "note": "Ch. 5: \"In one day Jesse Livermore made the equivalent of more than $3 billion\"; \"Livermore eventually took his own life\". The book gives no year, so \"in 1940\" was removed (en and fa). No outside source was opened for the year.",
+      "basis": "none"
     },
     {
       "id": "b01c2l1p3",
@@ -156,7 +174,8 @@
       "claim": "Abraham Germansky was a multimillionaire real estate developer who bet heavily on the surging 1920s stock market. After the 1929 crash he went missing; he was last seen tearing up ticker tape near the stock exchange.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"Abraham Germansky was a multimillionaire real estate developer\"; the quoted New York Times report: seen \"on Wall Street near the stock exchange ... tearing a strip of ticker tape into bits\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"Abraham Germansky was a multimillionaire real estate developer\"; the quoted New York Times report: seen \"on Wall Street near the stock exchange ... tearing a strip of ticker tape into bits\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l1p5",
@@ -164,7 +183,8 @@
       "claim": "Buffett's record is not only great investments but what he avoided: no heavy debt, no panic selling through 14 recessions, no reliance on one strategy, no burnout. He survived.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"He didn't get carried away with debt. He didn't panic and sell during the 14 recessions he's lived through ... He didn't attach himself to one strategy\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"He didn't get carried away with debt. He didn't panic and sell during the 14 recessions he's lived through ... He didn't attach himself to one strategy\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l1p6",
@@ -172,15 +192,17 @@
       "claim": "Rick Guerin was Buffett and Munger's third partner and just as smart, but in a hurry. Levered with margin loans, he got margin calls in the 1973 to 1974 slump and sold his Berkshire shares to Buffett at under $40 each.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"Rick was just as smart as us, but he was in a hurry ... in the 1973-1974 downturn, Rick was levered with margin loans ... got margin calls. He sold his Berkshire stock to Warren ... at under $40 a piece.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 5: \"Rick was just as smart as us, but he was in a hurry ... in the 1973-1974 downturn, Rick was levered with margin loans ... got margin calls. He sold his Berkshire stock to Warren ... at under $40 a piece.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l1p11",
       "kind": "other",
       "claim": "Startup equity is Housel's getting-wealthy skill: risk and optimism. Your index core is the staying-wealthy skill, so decide before you sign what share of your €40k never goes into one bet.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; 40k euro is not a book claim. The two skills are the ch. 5 title, \"Getting Wealthy vs. Staying Wealthy\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; 40k euro is not a book claim. The two skills are the ch. 5 title, \"Getting Wealthy vs. Staying Wealthy\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l2p1",
@@ -188,7 +210,8 @@
       "claim": "This Lesson distils chapters 7 to 9: Freedom, the Man in the Car Paradox and Wealth Is What You Don't See. It matters because a Dutch salary will tempt you to buy status, while ownership comes from what you don't spend.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Headings in the text: \"7. Freedom\", \"8. Man in the Car Paradox\", \"9. Wealth is What You Don't See\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Headings in the text: \"7. Freedom\", \"8. Man in the Car Paradox\", \"9. Wealth is What You Don't See\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l2p3",
@@ -196,7 +219,8 @@
       "claim": "Angus Campbell's 1981 study found that a strong sense of controlling one's life is a more dependable predictor of wellbeing than any objective condition: income, house size or job.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 7: \"His 1981 book, The Sense of Wellbeing in America\"; \"Having a strong sense of controlling one's life is a more dependable predictor of positive feelings of wellbeing than any of the objective conditions of life we have considered.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 7: \"His 1981 book, The Sense of Wellbeing in America\"; \"Having a strong sense of controlling one's life is a more dependable predictor of positive feelings of wellbeing than any of the objective conditions of life we have considered.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l3p1",
@@ -204,7 +228,8 @@
       "claim": "This Lesson distils chapter 10, Save Money: the lever most under your control. It matters because your savings rate, not your stock picks, decides how fast €40k becomes ownership and independence.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"10. Save Money\". The 40k euro figure is the reader's scenario."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"10. Save Money\". The 40k euro figure is the reader's scenario.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c2l3p2",
@@ -212,7 +237,8 @@
       "claim": "After the 1970s oil crisis, Housel notes, the world grew its energy wealth not by finding more energy but by needing less. Finding oil is uncertain; using energy efficiently is largely in our control.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 10: \"In the 1970s the world looked like it was running out of oil\"; \"The world grew its 'energy wealth' not by increasing the energy it had, but by decreasing the energy it needed.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 10: \"In the 1970s the world looked like it was running out of oil\"; \"The world grew its 'energy wealth' not by increasing the energy it had, but by decreasing the energy it needed.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p1",
@@ -220,7 +246,8 @@
       "claim": "This Lesson distils chapters 11 and 12, Reasonable Over Rational and Surprise! It matters because the index plan you can actually stick with in the Netherlands beats the perfect plan you abandon.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Heading in the text: \"11. Reasonable > Rational\"; contents page: \"12. Surprise!\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Heading in the text: \"11. Reasonable > Rational\"; contents page: \"12. Surprise!\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p2",
@@ -228,7 +255,8 @@
       "claim": "In 1927 Julius Wagner-Jauregg won a Nobel Prize for infecting syphilis patients with malaria: the fever killed the disease. Fever helps the body fight infection, yet we treat it because it feels bad.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: Wagner-Jauregg used malaria \"to trigger fevers strong enough to kill off their syphilis\"; \"He won the Nobel Prize in medicine in 1927.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: Wagner-Jauregg used malaria \"to trigger fevers strong enough to kill off their syphilis\"; \"He won the Nobel Prize in medicine in 1927.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p4",
@@ -236,7 +264,8 @@
       "claim": "Harry Markowitz, who won a Nobel for portfolio theory, split his own savings 50/50 between bonds and equities. He said he wanted to minimise his future regret, not optimise the maths.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: \"My intention was to minimize my future regret. So I split my contributions 50/50 between bonds and equities.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 11: \"My intention was to minimize my future regret. So I split my contributions 50/50 between bonds and equities.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p8",
@@ -244,7 +273,8 @@
       "claim": "The Great Depression, World War II, the dot-com bust, 9/11 and the 2008 housing collapse were all outliers. The biggest events in history are things no past data predicted.",
       "verdict": "corrected",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 12 lists \"The Great Depression. World War II. The dot-com bubble. September 11th. The housing crash of the mid-2000s.\" The Card said \"dot-com bust\" and \"2008 housing collapse\"; it now says \"dot-com bubble\" and \"housing crash of the mid-2000s\" (en and fa)."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 12 lists \"The Great Depression. World War II. The dot-com bubble. September 11th. The housing crash of the mid-2000s.\" The Card said \"dot-com bust\" and \"2008 housing collapse\"; it now says \"dot-com bubble\" and \"housing crash of the mid-2000s\" (en and fa).",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p9",
@@ -252,7 +282,8 @@
       "claim": "Modern finance has almost no history: the 401(k) is from 1978, the Roth IRA from 1998, and index funds and venture capital are barely a generation old. Data from before them describes a different world.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 12: \"The 401(k) is 42 years old. The Roth IRA is younger, created in the 1990s\"; venture capital \"barely existed 25 years ago\". The 1978 and 1998 dates and \"index funds ... less than 50 years old\" are from ch. 1."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 12: \"The 401(k) is 42 years old. The Roth IRA is younger, created in the 1990s\"; venture capital \"barely existed 25 years ago\". The 1978 and 1998 dates and \"index funds ... less than 50 years old\" are from ch. 1.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l1p12",
@@ -260,7 +291,8 @@
       "claim": "For you: a reasonable plan is one you can hold through a 40 percent drop in a new country with a new job. Choose the index core you can keep, not the optimised one you will abandon.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; the 40 percent drop is an illustration, not a book figure. The idea is ch. 11: a strategy you can stick with."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Reader-scenario Card; the 40 percent drop is an illustration, not a book figure. The idea is ch. 11: a strategy you can stick with.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l2p5",
@@ -268,7 +300,8 @@
       "claim": "At Stalingrad in late 1942 a German tank unit in reserve had 104 tanks, but fewer than 20 worked: field mice had eaten the wiring insulation. Housel doubts any tank designer planned for mice.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 13: \"late 1942 ... a German tank unit sat in reserve\"; \"Out of 104 tanks in the unit, fewer than 20 were operable\"; \"field mice had nested inside the vehicles and eaten away insulation covering the electrical systems\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 13: \"late 1942 ... a German tank unit sat in reserve\"; \"Out of 104 tanks in the unit, fewer than 20 were operable\"; \"field mice had nested inside the vehicles and eaten away insulation covering the electrical systems\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l2p6",
@@ -276,7 +309,8 @@
       "claim": "Later in the book Housel says he keeps about 20 percent of his assets outside his house in cash, so he is never forced to sell stocks to cover a big expense. He admits that is hard to defend on paper.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 20: \"something around 20% of our assets outside the value of our house. This is also close to indefensible on paper\"; \"we never want to be forced to sell the stocks we own\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 20: \"something around 20% of our assets outside the value of our house. This is also close to indefensible on paper\"; \"we never want to be forced to sell the stocks we own\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l2p9",
@@ -284,7 +318,8 @@
       "claim": "Nassim Taleb: you can be risk loving and yet completely averse to ruin. Housel adds that even at 95 percent odds of being right, a bet whose downside is ruin is likely not worth the upside.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 13: Taleb: \"You can be risk loving and yet completely averse to ruin\"; \"if something has 95% odds of being right ... if the cost of the downside is ruin, the upside the other 95% of the time likely isn't worth the risk\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 13: Taleb: \"You can be risk loving and yet completely averse to ruin\"; \"if something has 95% odds of being right ... if the cost of the downside is ruin, the upside the other 95% of the time likely isn't worth the risk\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l3p1",
@@ -292,7 +327,8 @@
       "claim": "This Lesson distils chapters 14 to 16: You'll Change, Nothing's Free and You and Me. It matters because the price of index returns is volatility, and the game you play is not the one your trading colleagues play.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"15. Nothing's Free\". Chapters 14 (You'll Change) and 16 (You & Me) sit either side of it in the text; the scan's headings for those two are garbled."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page: \"15. Nothing's Free\". Chapters 14 (You'll Change) and 16 (You & Me) sit either side of it in the text; the scan's headings for those two are garbled.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l3p6",
@@ -300,7 +336,8 @@
       "claim": "Monster Beverage returned 319,000 percent from 1995 to 2018 but traded below its previous high 95 percent of the time. Netflix returned over 35,000 percent while sitting below its previous high on 94 percent of days.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 15: \"Netflix stock returned more than 35,000% from 2002 to 2018, but traded below its previous all-time high on 94% of days. Monster Beverage returned 319,000% from 1995 to 2018 ... but traded below its previous high 95% of the time during that period.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 15: \"Netflix stock returned more than 35,000% from 2002 to 2018, but traded below its previous all-time high on 94% of days. Monster Beverage returned 319,000% from 1995 to 2018 ... but traded below its previous high 95% of the time during that period.\"",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l3p10",
@@ -308,7 +345,8 @@
       "claim": "Chapter 16, You and Me: in 1999 Cisco rose 300 percent to a $600 billion valuation. That price made sense to day traders who planned to sell before the day ended; long-term investors who took their cue from it got hurt.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 16: \"Cisco stock rose 300% in 1999 to $60 per share. At that price the company was valued at $600 billion\"."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 16: \"Cisco stock rose 300% in 1999 to $60 per share. At that price the company was valued at $600 billion\".",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b01c3l3p12",
@@ -316,7 +354,8 @@
       "claim": "Housel wrote his own game down: a passive investor, optimistic that real growth over the next 30 years will accrue to his investments. Write yours, and ignore colleagues playing a different game.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 16: \"I am a passive investor optimistic in the world's ability to generate real economic growth and I'm confident that over the next 30 years that growth will accrue to my investments.\""
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Ch. 16: \"I am a passive investor optimistic in the world's ability to generate real economic growth and I'm confident that over the next 30 years that growth will accrue to my investments.\"",
+      "basis": "unlinked-copy"
     }
   ]
 }

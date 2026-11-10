@@ -12,15 +12,17 @@
       "claim": "Peter Lynch took over Fidelity's Magellan Fund in 1977 and made it one of the best-performing funds of its time. His message: the amateur investor has advantages the professionals lack.",
       "verdict": "verified",
       "source": "https://en.wikipedia.org/wiki/Peter_Lynch",
-      "note": "Secondary. Source shows Lynch became head of the Magellan Fund in 1977 and stepped down in 1990; 29.2% average annual return, called the \"best-performing mutual fund in the world\". The amateur's advantages are in the publisher excerpt (https://download.boekhuis.nl/9780743200400_fragm-docb.pdf): \"the amateur investor has numerous built-in advantages\"."
+      "note": "Secondary. Source shows Lynch became head of the Magellan Fund in 1977 and stepped down in 1990; 29.2% average annual return, called the \"best-performing mutual fund in the world\". The amateur's advantages are in the publisher excerpt (https://download.boekhuis.nl/9780743200400_fragm-docb.pdf): \"the amateur investor has numerous built-in advantages\".",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l1p11",
       "kind": "other",
       "claim": "For you in the Netherlands, the mirror test comes first: an emergency fund and the 80 percent index core before any single stock. Your edge is the AI and developer tools your team really pays for.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://download.boekhuis.nl/9780743200400_fragm-docb.pdf",
-      "note": "Applied Card; 80 percent is the game's own plan (docs/content-brief-v3.md), not a book figure. The excerpt's contents list shows chapter 4, \"Passing the Mirror Test\", in Part I, before the stock-picking chapters. No book figure to confirm."
+      "note": "Applied Card; 80 percent is the game's own plan (docs/content-brief-v3.md), not a book figure. The excerpt's contents list shows chapter 4, \"Passing the Mirror Test\", in Part I, before the stock-picking chapters. No book figure to confirm.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b14c1l2p4",
@@ -28,7 +30,8 @@
       "claim": "Stalwarts are big, solid companies such as Coca-Cola, Procter & Gamble and Bristol-Myers, growing about 10 to 12 percent a year. They will not make you rich fast, but they cushion you in recessions.",
       "verdict": "verified",
       "source": "https://myinvestingnotes.blogspot.com/2013/03/the-peter-lynch-approach-to-investing.html",
-      "note": "Secondary, two independent pages. This one shows \"annual earnings growth rates of around 10% to 12%\" with \"Coca-Cola, Procter & Gamble, and Bristol-Myers\" as examples; https://www.manassaloi.com/booksummaries/2016/03/04/one-up-on-wallstreet-lynch.html quotes the book: \"Stalwarts have 10 to 12 percent annual growth in earnings.\" Protection in hard times: https://myinvestingnotes.blogspot.com/2024/03/stalwarts.html shows \"Offer good protection in hard times\". The book passage itself was not opened (library scans are lending-only)."
+      "note": "Secondary, two independent pages. This one shows \"annual earnings growth rates of around 10% to 12%\" with \"Coca-Cola, Procter & Gamble, and Bristol-Myers\" as examples; https://www.manassaloi.com/booksummaries/2016/03/04/one-up-on-wallstreet-lynch.html quotes the book: \"Stalwarts have 10 to 12 percent annual growth in earnings.\" Protection in hard times: https://myinvestingnotes.blogspot.com/2024/03/stalwarts.html shows \"Offer good protection in hard times\". The book passage itself was not opened (library scans are lending-only).",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l2p5",
@@ -36,7 +39,8 @@
       "claim": "With a stalwart, Lynch is content with a 30 to 50 percent gain. Then he sells and repeats the process with another stalwart that has not yet risen.",
       "verdict": "verified",
       "source": "https://www.manassaloi.com/booksummaries/2016/03/04/one-up-on-wallstreet-lynch.html",
-      "note": "Secondary. Source quotes the book: \"Stalwarts are stocks that I generally buy for a 30 to 50 percent gain, then sell\"; https://myinvestingnotes.blogspot.com/2024/03/stalwarts.html shows \"Take 30-50% returns, and then rotate money into another Stalwart.\""
+      "note": "Secondary. Source quotes the book: \"Stalwarts are stocks that I generally buy for a 30 to 50 percent gain, then sell\"; https://myinvestingnotes.blogspot.com/2024/03/stalwarts.html shows \"Take 30-50% returns, and then rotate money into another Stalwart.\"",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l2p6",
@@ -44,7 +48,8 @@
       "claim": "Fast growers are small, aggressive new companies growing 20 to 25 percent a year. This is where the tenbaggers are, and also the biggest risk if growth stalls or the company overexpands.",
       "verdict": "verified",
       "source": "https://www.valueinvestingworld.com/2015/09/a-fast-growing-company-doesnt.html",
-      "note": "Secondary. Source reproduces the passage from One Up on Wall Street: \"small, aggressive new enterprises that grow at 20 to 25 percent a year\"; https://www.manassaloi.com/booksummaries/2016/03/04/one-up-on-wallstreet-lynch.html quotes the same words. Tenbaggers among them: the excerpt (https://download.boekhuis.nl/9780743200400_fragm-docb.pdf) says of such companies \"This is where you'll find the tenbaggers.\""
+      "note": "Secondary. Source reproduces the passage from One Up on Wall Street: \"small, aggressive new enterprises that grow at 20 to 25 percent a year\"; https://www.manassaloi.com/booksummaries/2016/03/04/one-up-on-wallstreet-lynch.html quotes the same words. Tenbaggers among them: the excerpt (https://download.boekhuis.nl/9780743200400_fragm-docb.pdf) says of such companies \"This is where you'll find the tenbaggers.\"",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l2p8",
@@ -52,7 +57,8 @@
       "claim": "Turnarounds are battered, depressed companies that might recover, like Chrysler in the early 1980s. When they succeed they come back fast, and they move least with the general market.",
       "verdict": "verified",
       "source": "https://bishoprockcap.pages.dev/assets/cdn.prod.website-files.com/5b7c186c36ef662dc0a4b05a/67a193a9d411164585d037f8_94-10-What%20Goes%20Around%20Turns%20Around.pdf",
-      "note": "Lynch's own column \"What Goes Around Turns Around\": \"In the early 1980s, when Chrysler's survival was in doubt, its shares were selling for $2 apiece\"; \"Chrysler turned around relatively quickly\". Battered and depressed: https://en.wikipedia.org/wiki/Turnaround_stock cites the book, 1989, p. 128. Least tied to the market (secondary): https://myinvestingnotes.blogspot.com/2013/03/the-peter-lynch-approach-to-investing.html shows \"these upturns are least related to the general market\"."
+      "note": "Lynch's own column \"What Goes Around Turns Around\": \"In the early 1980s, when Chrysler's survival was in doubt, its shares were selling for $2 apiece\"; \"Chrysler turned around relatively quickly\". Battered and depressed: https://en.wikipedia.org/wiki/Turnaround_stock cites the book, 1989, p. 128. Least tied to the market (secondary): https://myinvestingnotes.blogspot.com/2013/03/the-peter-lynch-approach-to-investing.html shows \"these upturns are least related to the general market\".",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l2p12",
@@ -60,7 +66,8 @@
       "claim": "Your 80 percent index core, such as VWCE, already holds all six kinds. If you add a satellite stock, write its category in your decision journal with what you expect it to do.",
       "verdict": "softened",
       "source": "https://www.nl.vanguard/professional/product/etf/equity/9679/ftse-all-world-ucits-etf-usd-accumulating",
-      "note": "Applied Card. \"Already holds all six kinds\" could not be confirmed: the fund page shows 3,821 stocks (30 Sep 2026) of large and mid-sized companies in developed and emerging markets, while Lynch's fast growers are \"small, aggressive new enterprises\". The Card now says the core spreads across thousands of large and mid-sized companies. 80 percent is the game's own plan. No Check rests on this Card."
+      "note": "Applied Card. \"Already holds all six kinds\" could not be confirmed: the fund page shows 3,821 stocks (30 Sep 2026) of large and mid-sized companies in developed and emerging markets, while Lynch's fast growers are \"small, aggressive new enterprises\". The Card now says the core spreads across thousands of large and mid-sized companies. 80 percent is the game's own plan. No Check rests on this Card.",
+      "basis": "secondary"
     },
     {
       "id": "b14c1l3p1",
@@ -68,7 +75,8 @@
       "claim": "This Lesson distils chapters 8 to 17: the perfect stock, the two-minute drill and the homework before buying. It matters because your edge only pays once you check the facts.",
       "verdict": "verified",
       "source": "https://download.boekhuis.nl/9780743200400_fragm-docb.pdf",
-      "note": "The excerpt's contents list shows 8 The Perfect Stock, What a Deal!; 9 Stocks I'd Avoid; 10 Earnings, Earnings, Earnings; 11 The Two-Minute Drill; 12 Getting the Facts; 13 Some Famous Numbers; 14 Rechecking the Story; 15 The Final Checklist; 16 Designing a Portfolio; 17 The Best Time to Buy and Sell. Chapters 16 and 17 belong to Part III, which Lesson 4 also distils; this Lesson's Cards on selling draw on them."
+      "note": "The excerpt's contents list shows 8 The Perfect Stock, What a Deal!; 9 Stocks I'd Avoid; 10 Earnings, Earnings, Earnings; 11 The Two-Minute Drill; 12 Getting the Facts; 13 Some Famous Numbers; 14 Rechecking the Story; 15 The Final Checklist; 16 Designing a Portfolio; 17 The Best Time to Buy and Sell. Chapters 16 and 17 belong to Part III, which Lesson 4 also distils; this Lesson's Cards on selling draw on them.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b14c1l4p3",
@@ -76,15 +84,17 @@
       "claim": "In one stock you can lose at most 100 percent of what you put in, but a winner can return many times that. So a few big winners can pay for many disappointments.",
       "verdict": "verified",
       "source": "https://download.boekhuis.nl/9780743200400_fragm-docb.pdf",
-      "note": "Lynch's own words in the excerpt: \"the most you can lose is your entire investment, but when you're right, you can make back many times that initial outlay. If you're right just a few times out of ten, you're a winner.\" The passage is in the introduction written for the 2026 reissue; the Card states the idea, not the wording. The matching passage in the 1989 chapters was not opened."
+      "note": "Lynch's own words in the excerpt: \"the most you can lose is your entire investment, but when you're right, you can make back many times that initial outlay. If you're right just a few times out of ten, you're a winner.\" The passage is in the introduction written for the 2026 reissue; the Card states the idea, not the wording. The matching passage in the 1989 chapters was not opened.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b14c1l4p12",
       "kind": "other",
       "claim": "The roadmap's 80 percent index core follows the same long view, with buying kept going through collapses and corrections. For any satellite stock, the roadmap has the price alone never decide.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://download.boekhuis.nl/9780743200400_fragm-docb.pdf",
-      "note": "Applied Card; 80 percent is the game's own plan (docs/content-brief-v3.md), not a book figure. The long view is the book's Part III, \"The Long-term View\", in the excerpt's contents list. No book figure to confirm."
+      "note": "Applied Card; 80 percent is the game's own plan (docs/content-brief-v3.md), not a book figure. The long view is the book's Part III, \"The Long-term View\", in the excerpt's contents list. No book figure to confirm.",
+      "basis": "author-or-publisher"
     }
   ]
 }

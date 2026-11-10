@@ -10,9 +10,10 @@
       "id": "b09c1l1p1",
       "kind": "other",
       "claim": "This Lesson distils the opening chapters: the history of stocks, bonds and bills, and the famous portfolios Faber lines up. It matters because your €40k needs one mix, and this is the menu.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://blog.iese.edu/jestrada/files/2016/03/JOIM-BR-Faber.pdf",
-      "note": "JOIM review (Estrada, 2016): \"Faber starts off with a brief discussion of the long-term performance of stocks, bonds, and bills\", then the benchmark and the named investors' portfolios. The EUR 40k figure is the reader's own, not a book claim."
+      "note": "JOIM review (Estrada, 2016): \"Faber starts off with a brief discussion of the long-term performance of stocks, bonds, and bills\", then the benchmark and the named investors' portfolios. The EUR 40k figure is the reader's own, not a book claim.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l1p4",
@@ -20,7 +21,8 @@
       "claim": "The benchmark is the classic 60/40: 60 percent stocks and 40 percent bonds. Faber also tests a global version that spreads both parts across the world's markets.",
       "verdict": "verified",
       "source": "https://mymoneyblog.com/global-asset-allocation-book-review.html",
-      "note": "Review lists \"Classic 60/40: 60% S&P 500, 40% 10-year US Treasuries\" and a Global 60/40 with stocks and bonds each split 50/50 US/foreign. JOIM review calls 60-40 the benchmark portfolio."
+      "note": "Review lists \"Classic 60/40: 60% S&P 500, 40% 10-year US Treasuries\" and a Global 60/40 with stocks and bonds each split 50/50 US/foreign. JOIM review calls 60-40 the benchmark portfolio.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l1p6",
@@ -28,7 +30,8 @@
       "claim": "Ray Dalio's All Seasons portfolio, made public through Tony Robbins, holds 30 percent stocks, 55 percent medium and long-term bonds, and 15 percent gold and commodities.",
       "verdict": "verified",
       "source": "https://www.irishtimes.com/business/personal-finance/fees-are-more-important-than-asset-allocation-says-mebane-faber-1.2141667",
-      "note": "Irish Times on the book: Dalio portfolio holds 30% stocks, 55% in 10- and 30-year bonds, the rest in gold and commodities. MoneySense (https://www.moneysense.ca/columns/raining-on-the-all-seasons-portfolio/) gives 30/40/15/7.5/7.5 and says it was publicised in Tony Robbins' Money: Master the Game."
+      "note": "Irish Times on the book: Dalio portfolio holds 30% stocks, 55% in 10- and 30-year bonds, the rest in gold and commodities. MoneySense (https://www.moneysense.ca/columns/raining-on-the-all-seasons-portfolio/) gives 30/40/15/7.5/7.5 and says it was publicised in Tony Robbins' Money: Master the Game.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l1p9",
@@ -36,7 +39,8 @@
       "claim": "The Ivy's five parts, 20 percent each, are US stocks, foreign stocks, bonds, real estate trusts (REITs) and commodities.",
       "verdict": "verified",
       "source": "https://portfoliocharts.com/portfolios/ivy-portfolio/",
-      "note": "Secondary: Ivy Portfolio (Faber) is 20% each in US large-cap stocks, developed ex-US stocks, US intermediate Treasuries, US REITs and commodities. The passage in Global Asset Allocation itself was not opened."
+      "note": "Secondary: Ivy Portfolio (Faber) is 20% each in US large-cap stocks, developed ex-US stocks, US intermediate Treasuries, US REITs and commodities. The passage in Global Asset Allocation itself was not opened.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l1p10",
@@ -44,7 +48,8 @@
       "claim": "Faber also tests the mixes of well-known investors, such as Warren Buffett's suggested 90 percent stocks and 10 percent short-term government bonds.",
       "verdict": "verified",
       "source": "https://www.mymoneyblog.com/buffett-simple-advice-after-death.html",
-      "note": "Buffett 2013 letter as quoted: \"Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P 500 index fund.\" Irish Times confirms the book tests Buffett 90/10."
+      "note": "Buffett 2013 letter as quoted: \"Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P 500 index fund.\" Irish Times confirms the book tests Buffett 90/10.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l2p2",
@@ -52,7 +57,8 @@
       "claim": "Faber runs every portfolio on the same data from 1973 to 2013 and reports returns after inflation, so the comparison is fair.",
       "verdict": "verified",
       "source": "https://www.irishtimes.com/business/personal-finance/fees-are-more-important-than-asset-allocation-says-mebane-faber-1.2141667",
-      "note": "Irish Times reports the book's real (after-inflation) annualised returns since 1973; JOIM review and mymoneyblog give the comparison period as 1973-2013. JOIM also mentions asset data from 1970."
+      "note": "Irish Times reports the book's real (after-inflation) annualised returns since 1973; JOIM review and mymoneyblog give the comparison period as 1973-2013. JOIM also mentions asset data from 1970.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l2p7",
@@ -60,15 +66,17 @@
       "claim": "He also warns that 1973 to 2013 included a long fall in interest rates, which gave bonds unusually strong returns that may not repeat.",
       "verdict": "softened",
       "source": "https://blog.iese.edu/jestrada/files/2016/03/JOIM-BR-Faber.pdf",
-      "note": "No opened source shows Faber warning that falling interest rates over 1973-2013 flattered bonds. What is confirmed: the book cites \"very low yields in the bond market\" and expects about 2.2% nominal from bonds over the next ten years. Card and Check b09c1l2k3 (prompt, fare, correct option) reworded to that."
+      "note": "No opened source shows Faber warning that falling interest rates over 1973-2013 flattered bonds. What is confirmed: the book cites \"very low yields in the bond market\" and expects about 2.2% nominal from bonds over the next ten years. Card and Check b09c1l2k3 (prompt, fare, correct option) reworded to that.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l2p11",
       "kind": "other",
       "claim": "For you, a 70/30 versus an 80/20 split is a small choice by Faber's measure. His result says cost and staying with the plan matter more than the exact split.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://blog.iese.edu/jestrada/files/2016/03/JOIM-BR-Faber.pdf",
-      "note": "JOIM quotes the book: \"Fees are far more important than your asset allocation decision!\" and says investors should choose an allocation and stick with it. The 70/30 and 80/20 splits are the reader's own example."
+      "note": "JOIM quotes the book: \"Fees are far more important than your asset allocation decision!\" and says investors should choose an allocation and stick with it. The 70/30 and 80/20 splits are the reader's own example.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l3p7",
@@ -76,15 +84,17 @@
       "claim": "Faber shows that an advisor charging around 1 percent a year, plus fund fees, can turn the best allocation into one of the worst.",
       "verdict": "verified",
       "source": "https://www.financialplanningassociation.org/article/august-2015-10-questions",
-      "note": "Faber interview: mutual funds average 1.25 percent a year and an adviser \"on average, charges 1 percent a year\". mymoneyblog quotes the book: advisory fees transform \"the BEST performing asset allocation into lower than the WORST\"."
+      "note": "Faber interview: mutual funds average 1.25 percent a year and an adviser \"on average, charges 1 percent a year\". mymoneyblog quotes the book: advisory fees transform \"the BEST performing asset allocation into lower than the WORST\".",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l3p11",
       "kind": "other",
       "claim": "When you compare Interactive Brokers and DEGIRO, add up ten years of trading, custody and fund costs, then learn how Box 3 taxes what you hold.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://www.belastingdienst.nl/wps/wcm/connect/en/income-in-box-3/content/calculation-income-box-3",
-      "note": "Application card, no book claim. Belastingdienst confirms Box 3 taxes a notional return on savings and investments. The ten-year horizon is the app's own exercise."
+      "note": "Application card, no book claim. Belastingdienst confirms Box 3 taxes a notional return on savings and investments. The ten-year horizon is the app's own exercise.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l3p12",
@@ -92,7 +102,8 @@
       "claim": "Your 80 percent index core follows Faber's rule: start near the global market, keep costs low and stick with it while the satellites take the risks.",
       "verdict": "softened",
       "source": "https://blog.iese.edu/jestrada/files/2016/03/JOIM-BR-Faber.pdf",
-      "note": "No opened source confirms \"start near the global market\" as Faber's rule. Reworded to what the JOIM review confirms: a global mix, low costs, stick with it. The 80 percent core is the reader's own figure. Unlisted card b09c1l3p3 makes the same starting-point claim and was left as is."
+      "note": "No opened source confirms \"start near the global market\" as Faber's rule. Reworded to what the JOIM review confirms: a global mix, low costs, stick with it. The 80 percent core is the reader's own figure. Unlisted card b09c1l3p3 makes the same starting-point claim and was left as is.",
+      "basis": "secondary"
     },
     {
       "id": "b09c1l3p3",
@@ -100,7 +111,8 @@
       "claim": "Faber treats it as the natural starting point: it needs no forecasts, because its weights are simply what the world's investors already hold.",
       "verdict": "softened",
       "source": null,
-      "note": "Not a listed Card. No source confirmed that Faber calls the global market portfolio \"the natural starting point\"; the attribution was removed and the description of the portfolio kept."
+      "note": "Not a listed Card. No source confirmed that Faber calls the global market portfolio \"the natural starting point\"; the attribution was removed and the description of the portfolio kept.",
+      "basis": "none"
     }
   ]
 }

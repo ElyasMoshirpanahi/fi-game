@@ -12,7 +12,8 @@
       "claim": "A package marked \"handle with care\" is fragile. An antifragile package would be marked \"please mishandle\", because rough treatment would improve it.",
       "verdict": "verified",
       "source": "https://www.penguinrandomhouse.com/books/176227/antifragile-by-nassim-nicholas-taleb/",
-      "note": "Publisher's excerpt (Chapter 1, \"Half of Life Has No Name\"): you would stamp \"fragile,\" \"breakable,\" or \"handle with care\" on the package; \"the exact opposite of a 'fragile' parcel would be a package on which one has written 'please mishandle' or 'please handle carelessly.' Its contents would not just be unbreakable, but would benefit from shocks\"."
+      "note": "Publisher's excerpt (Chapter 1, \"Half of Life Has No Name\"): you would stamp \"fragile,\" \"breakable,\" or \"handle with care\" on the package; \"the exact opposite of a 'fragile' parcel would be a package on which one has written 'please mishandle' or 'please handle carelessly.' Its contents would not just be unbreakable, but would benefit from shocks\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b25c1l2p1",
@@ -20,7 +21,8 @@
       "claim": "This Lesson distils Chapters 2 to 4 on overcompensation, hormesis and how systems learn from errors. It matters because your body, skills and startup all grow from doses of stress you can recover from.",
       "verdict": "softened",
       "source": "https://www.obalkyknih.cz/file/toc/404682/pdf",
-      "note": "Scanned contents page confirms Chapter 2 \"Overcompensation and Overreaction Everywhere\", Chapter 3 with \"Stressors Are Information\", Chapter 4 with \"Thank You, Errors\". No opened source places hormesis in Chapters 2 to 4 (one summary seen only in search results puts its definition in Chapter 1), so \"hormesis\" was replaced by \"stressors\" in the chapter claim, en and fa. The rest of the Lesson still teaches hormesis as a concept of the book."
+      "note": "Scanned contents page confirms Chapter 2 \"Overcompensation and Overreaction Everywhere\", Chapter 3 with \"Stressors Are Information\", Chapter 4 with \"Thank You, Errors\". No opened source places hormesis in Chapters 2 to 4 (one summary seen only in search results puts its definition in Chapter 1), so \"hormesis\" was replaced by \"stressors\" in the chapter claim, en and fa. The rest of the Lesson still teaches hormesis as a concept of the book.",
+      "basis": "secondary"
     },
     {
       "id": "b25c1l3p1",
@@ -28,7 +30,8 @@
       "claim": "This Lesson distils Chapters 5 and 6: the turkey, the two brothers and why suppressing volatility backfires. It matters because a steady salary or a calm market can hide the biggest risk you carry.",
       "verdict": "verified",
       "source": "https://www.obalkyknih.cz/file/toc/404682/pdf",
-      "note": "Contents: Chapter 5 \"The Souk and the Office Building\" with sections \"Two Types of Professions\" and \"The Great Turkey Problem\"; Chapter 6 \"Tell Them I Love (Some) Randomness\" with \"That Time Bomb Called Stability\". That \"Two Types of Professions\" is the two brothers story rests on a secondary summary seen in search results, not on an opened passage."
+      "note": "Contents: Chapter 5 \"The Souk and the Office Building\" with sections \"Two Types of Professions\" and \"The Great Turkey Problem\"; Chapter 6 \"Tell Them I Love (Some) Randomness\" with \"That Time Bomb Called Stability\". That \"Two Types of Professions\" is the two brothers story rests on a secondary summary seen in search results, not on an opened passage.",
+      "basis": "secondary"
     },
     {
       "id": "b25c1l4p1",
@@ -36,7 +39,8 @@
       "claim": "This Lesson distils Chapters 7 to 9 on naive intervention, prediction and Fat Tony's fragilistas. It matters because checking your portfolio daily or reorganising your startup weekly can do more harm than good.",
       "verdict": "verified",
       "source": "https://www.obalkyknih.cz/file/toc/404682/pdf",
-      "note": "Contents: Chapter 7 \"Naive Intervention\", Chapter 8 \"Prediction as a Child of Modernity\", Chapter 9 \"Fat Tony and the Fragilistas\"."
+      "note": "Contents: Chapter 7 \"Naive Intervention\", Chapter 8 \"Prediction as a Child of Modernity\", Chapter 9 \"Fat Tony and the Fragilistas\".",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l1p1",
@@ -44,7 +48,8 @@
       "claim": "This Lesson distils Chapters 10 and 11 on Seneca and the barbell strategy. It matters because how you split €40k between safety and bets decides whether a shock can ruin you.",
       "verdict": "verified",
       "source": "https://www.obalkyknih.cz/file/toc/404682/pdf",
-      "note": "Contents: Chapter 10 \"Seneca's Upside and Downside\"; Chapter 11 \"Never Marry the Rock Star\" with the section \"Seneca's Barbell\". The 40k euro figure is the Lesson's own illustration, not the book's."
+      "note": "Contents: Chapter 10 \"Seneca's Upside and Downside\"; Chapter 11 \"Never Marry the Rock Star\" with the section \"Seneca's Barbell\". The 40k euro figure is the Lesson's own illustration, not the book's.",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l1p4",
@@ -52,7 +57,8 @@
       "claim": "With money, that might be 90 percent in the safest assets and 10 percent in high-risk bets. Your worst case is capped at losing the 10 percent, while the upside stays open.",
       "verdict": "verified",
       "source": "https://www.cxoadvisory.com/?p=22350",
-      "note": "Secondary source (CXO Advisory review of the book): \"An antifragile portfolio is built as a barbell, such as 90% in boring cash and 10% in maximally risky securities, so losses are capped at about 10% while upside exposure is massive.\" The book passage itself was not opened."
+      "note": "Secondary source (CXO Advisory review of the book): \"An antifragile portfolio is built as a barbell, such as 90% in boring cash and 10% in maximally risky securities, so losses are capped at about 10% while upside exposure is massive.\" The book passage itself was not opened.",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l1p14",
@@ -60,7 +66,8 @@
       "claim": "A barbell only works if the safe end is truly safe. If the safe 90 percent can itself crash, losing the risky 10 percent is no longer your worst case.",
       "verdict": "verified",
       "source": "https://www.cxoadvisory.com/?p=22350",
-      "note": "Same 90/10 split as b25c2l1p4, confirmed by the same secondary source. The caveat about the safe end is the Lesson's commentary on that split."
+      "note": "Same 90/10 split as b25c2l1p4, confirmed by the same secondary source. The caveat about the safe end is the Lesson's commentary on that split.",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l2p1",
@@ -68,7 +75,8 @@
       "claim": "This Lesson distils Chapters 12 to 15 on optionality, tinkering and the green lumber fallacy. It matters because building a small AI product is a series of cheap options, not one big forecast.",
       "verdict": "verified",
       "source": "https://www.obalkyknih.cz/file/toc/404682/pdf",
-      "note": "Contents: Book IV \"Optionality, Technology, and the Intelligence of Antifragility\"; Chapter 12 \"Thales' Sweet Grapes\" (section \"Option and Asymmetry\"); Chapter 13 \"Lecturing Birds on How to Fly\"; Chapter 14 with \"The Green Lumber Fallacy\"; Chapter 15 \"History Written by the Losers\" (section on nonteleological tinkering)."
+      "note": "Contents: Book IV \"Optionality, Technology, and the Intelligence of Antifragility\"; Chapter 12 \"Thales' Sweet Grapes\" (section \"Option and Asymmetry\"); Chapter 13 \"Lecturing Birds on How to Fly\"; Chapter 14 with \"The Green Lumber Fallacy\"; Chapter 15 \"History Written by the Losers\" (section on nonteleological tinkering).",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l2p8",
@@ -76,7 +84,8 @@
       "claim": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. He later credits the jet engine and much of the Industrial Revolution to tinkerers, not academics.",
       "verdict": "softened",
       "source": "https://fs.blog/learning-to-love-volatility/",
-      "note": "Chapter 13 title \"Lecturing Birds on How to Fly\" and the Chapter 15 section \"The Industrial Revolution\" are on the contents page (https://www.obalkyknih.cz/file/toc/404682/pdf). Taleb's own Wall Street Journal adaptation of the book, reproduced here, says Britain's \"historic rise during the Industrial Revolution came from tinkerers\". The jet engine example was found only in one blog summary shown in search results, so it was removed from the Card, en and fa."
+      "note": "Chapter 13 title \"Lecturing Birds on How to Fly\" and the Chapter 15 section \"The Industrial Revolution\" are on the contents page (https://www.obalkyknih.cz/file/toc/404682/pdf). Taleb's own Wall Street Journal adaptation of the book, reproduced here, says Britain's \"historic rise during the Industrial Revolution came from tinkerers\". The jet engine example was found only in one blog summary shown in search results, so it was removed from the Card, en and fa.",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l3p5",
@@ -84,7 +93,8 @@
       "claim": "Book V, on the large stone and the thousand pebbles, shows that fragility is nonlinear. A single 10 metre jump hurts far more than ten jumps of 1 metre.",
       "verdict": "verified",
       "source": "https://www.fooledbyrandomness.com/pebbles.pdf",
-      "note": "Author's draft of the chapter on his own site: \"Jumping from a height of thirty feet (ten meters) brings more than ten times the harm of jumping from a height of three feet (one meter)\". Contents page (https://www.obalkyknih.cz/file/toc/404682/pdf) confirms Book V, Chapter 18 \"On the Difference Between a Large Stone and a Thousand Pebbles\", section \"Why Is Fragility Nonlinear?\". The draft numbers the chapter 12; the published book numbers it 18."
+      "note": "Author's draft of the chapter on his own site: \"Jumping from a height of thirty feet (ten meters) brings more than ten times the harm of jumping from a height of three feet (one meter)\". Contents page (https://www.obalkyknih.cz/file/toc/404682/pdf) confirms Book V, Chapter 18 \"On the Difference Between a Large Stone and a Thousand Pebbles\", section \"Why Is Fragility Nonlinear?\". The draft numbers the chapter 12; the published book numbers it 18.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b25c2l3p7",
@@ -92,7 +102,8 @@
       "claim": "The Lindy effect: for nonperishable things like books and ideas, every year they survive adds to their expected remaining life. A book in print for 40 years can expect another 40.",
       "verdict": "verified",
       "source": "https://kottke.org/13/02/taleb-technology-ages-backwards",
-      "note": "Excerpt adapted from the book: a book that has been in print for 40 years can be expected to stay in print for another 40. Contents page confirms the Chapter 20 section \"To Age in Reverse: The Lindy Effect\"."
+      "note": "Excerpt adapted from the book: a book that has been in print for 40 years can be expected to stay in print for another 40. Contents page confirms the Chapter 20 section \"To Age in Reverse: The Lindy Effect\".",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l3p13",
@@ -100,7 +111,8 @@
       "claim": "Taleb's size example: in 2008 Société Générale had to unwind about $70 billion of a rogue trader's positions in days. Selling that much in a rush cost about $6 billion.",
       "verdict": "verified",
       "source": "https://www.fooledbyrandomness.com/pebbles.pdf",
-      "note": "Author's draft of the chapter, section \"Kerviel and MicroKerviel\": \"On January 21, 2008, the Parisian bank Societe Generale rushed to sell in the market close to seventy billion dollars of stocks ... costing the company close to six billion dollars in losses just from their fire sale\"; and \"A fire sale of 70 billion worth of stocks leads to a loss of 6 billion.\" Both figures are Taleb's and the published section is \"Kerviel and Micro-Kerviel\" in Chapter 18. Search results (not opened) report the bank's own announced loss as about 4.9 billion euros. The earlier audit's open item is closed."
+      "note": "Author's draft of the chapter, section \"Kerviel and MicroKerviel\": \"On January 21, 2008, the Parisian bank Societe Generale rushed to sell in the market close to seventy billion dollars of stocks ... costing the company close to six billion dollars in losses just from their fire sale\"; and \"A fire sale of 70 billion worth of stocks leads to a loss of 6 billion.\" Both figures are Taleb's and the published section is \"Kerviel and Micro-Kerviel\" in Chapter 18. Search results (not opened) report the bank's own announced loss as about 4.9 billion euros. The earlier audit's open item is closed.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b25c2l4p3",
@@ -108,7 +120,8 @@
       "claim": "Hammurabi's code, about 3,800 years old, said that if a house collapsed and killed its owner, the builder would be put to death. Builders had every reason to build well.",
       "verdict": "verified",
       "source": "https://moneylife.in/article/what-do-you-have-to-lose/53501.html",
-      "note": "Secondary sources. This review of Taleb's later book gives his wording: \"About 3,800 years ago, Hammurabi's code specified that if a builder builds a house and the house collapses and causes the death of the owner of the house, that builder shall be put to death\". A review of Antifragile (https://jakeseliger.com/tag/the-black-swan/) quotes the same builder clause from this book, and the contents page lists the section \"Hammurabi\" in Chapter 23. The age as worded in Antifragile itself was not opened."
+      "note": "Secondary sources. This review of Taleb's later book gives his wording: \"About 3,800 years ago, Hammurabi's code specified that if a builder builds a house and the house collapses and causes the death of the owner of the house, that builder shall be put to death\". A review of Antifragile (https://jakeseliger.com/tag/the-black-swan/) quotes the same builder clause from this book, and the contents page lists the section \"Hammurabi\" in Chapter 23. The age as worded in Antifragile itself was not opened.",
+      "basis": "secondary"
     },
     {
       "id": "b25c2l4p5",
@@ -116,7 +129,8 @@
       "claim": "Taleb's example is Robert Rubin, who earned more than $100 million from Citigroup in the decade before 2008. When the bank needed a bailout, he kept the money.",
       "verdict": "corrected",
       "source": "https://en.wikipedia.org/wiki/Robert_Rubin",
-      "note": "The article quotes Taleb: Rubin \"collected more than $120 million in compensation from Citibank in the decade preceding the banking crash of 2008\" and, when the bank was rescued by taxpayers, \"didn't write any check\". Taleb repeats \"$120 million\" in a Bloomberg interview (https://nassimtaleb.org/2012/09/nassim-taleb-on-former-treasury-secretary-bob-rubin-bloomberg/). Card changed from \"more than $100 million\" to \"more than $120 million\", en and fa. Contents page lists \"The Robert Rubin Free Option\" in Chapter 23."
+      "note": "The article quotes Taleb: Rubin \"collected more than $120 million in compensation from Citibank in the decade preceding the banking crash of 2008\" and, when the bank was rescued by taxpayers, \"didn't write any check\". Taleb repeats \"$120 million\" in a Bloomberg interview (https://nassimtaleb.org/2012/09/nassim-taleb-on-former-treasury-secretary-bob-rubin-bloomberg/). Card changed from \"more than $100 million\" to \"more than $120 million\", en and fa. Contents page lists \"The Robert Rubin Free Option\" in Chapter 23.",
+      "basis": "secondary"
     }
   ]
 }

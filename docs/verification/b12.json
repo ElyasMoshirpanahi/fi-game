@@ -12,7 +12,8 @@
       "claim": "Buffett's 1977 letter lists what Berkshire wants: a business it understands, with favorable long-term prospects, run by honest and competent people, at a very attractive price.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1977.html",
-      "note": "1977 letter: \"(1) one that we can understand, (2) with favorable long-term prospects, (3) operated by honest and competent people, and (4) available at a very attractive price.\""
+      "note": "1977 letter: \"(1) one that we can understand, (2) with favorable long-term prospects, (3) operated by honest and competent people, and (4) available at a very attractive price.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l1p4",
@@ -20,7 +21,8 @@
       "claim": "In the 1986 letter he defines owner earnings: reported earnings plus depreciation and other non-cash charges, minus the capital spending needed to keep the business competitive.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1986.html",
-      "note": "1986 letter: owner earnings \"represent (a) reported earnings plus (b) depreciation, depletion, amortization, and certain other non-cash charges ... less (c) the average annual amount of capitalized expenditures\" needed to maintain the long-term competitive position."
+      "note": "1986 letter: owner earnings \"represent (a) reported earnings plus (b) depreciation, depletion, amortization, and certain other non-cash charges ... less (c) the average annual amount of capitalized expenditures\" needed to maintain the long-term competitive position.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l1p6",
@@ -28,7 +30,8 @@
       "claim": "In the 2000 letter he says talk of EBITDA makes him shudder, and asks whether management thinks the tooth fairy pays for capital spending.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2000pdf.pdf",
-      "note": "2000 letter: \"References to EBITDA make us shudder -- does management think the tooth fairy pays for capital expenditures?\""
+      "note": "2000 letter: \"References to EBITDA make us shudder -- does management think the tooth fairy pays for capital expenditures?\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l1p8",
@@ -36,7 +39,8 @@
       "claim": "In the 1989 letter Buffett reviews mistakes of his first 25 years, starting with cigar butt investing: buying a poor business cheaply for one last free puff.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1989.html",
-      "note": "1989 letter, section \"Mistakes of the First Twenty-five Years\": \"I call this the 'cigar butt' approach to investing. A cigar butt found on the street that has only one puff left in it ... will make that puff all profit.\""
+      "note": "1989 letter, section \"Mistakes of the First Twenty-five Years\": \"I call this the 'cigar butt' approach to investing. A cigar butt found on the street that has only one puff left in it ... will make that puff all profit.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l1p12",
@@ -44,7 +48,8 @@
       "claim": "In the 1990s letters he adds look-through earnings: Berkshire's share of the retained profits of companies it partly owns counts too, though accounting leaves it out.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1990.html",
-      "note": "1990 letter, section \"Look-Through Earnings\": \"the best way to think about our earnings is in terms of 'look-through' results\", adding Berkshire's share of the operating earnings retained by investees."
+      "note": "1990 letter, section \"Look-Through Earnings\": \"the best way to think about our earnings is in terms of 'look-through' results\", adding Berkshire's share of the operating earnings retained by investees.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p1",
@@ -52,7 +57,8 @@
       "claim": "This Lesson distils the letters on moats, above all the 2007 letter on great, good and gruesome businesses. It matters because a startup you join or build needs something rivals cannot easily copy.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
-      "note": "2007 letter has the section \"Businesses - The Great, the Good and the Gruesome\"."
+      "note": "2007 letter has the section \"Businesses - The Great, the Good and the Gruesome\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p6",
@@ -60,7 +66,8 @@
       "claim": "His model is See's Candies, bought in 1972 for $25 million when it earned less than $5 million pre-tax on $8 million of capital.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
-      "note": "2007 letter: \"We bought See's for $25 million when its sales were $30 million and pre-tax earnings were less than $5 million. The capital then required to conduct the business was $8 million.\" Bought through Blue Chip Stamps in 1972."
+      "note": "2007 letter: \"We bought See's for $25 million when its sales were $30 million and pre-tax earnings were less than $5 million. The capital then required to conduct the business was $8 million.\" Bought through Blue Chip Stamps in 1972.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p7",
@@ -68,7 +75,8 @@
       "claim": "By 2007 See's earned $82 million pre-tax yet needed only $40 million of capital. The surplus went to Berkshire to buy other businesses.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
-      "note": "2007 letter: \"Last year See's sales were $383 million, and pre-tax profits were $82 million. The capital now required to run the business is $40 million.\""
+      "note": "2007 letter: \"Last year See's sales were $383 million, and pre-tax profits were $82 million. The capital now required to run the business is $40 million.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p9",
@@ -76,7 +84,8 @@
       "claim": "A good business, in his 2007 terms, earns fine returns but needs heavy reinvestment to grow, as FlightSafety does.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
-      "note": "2007 letter: \"One example of good, but far from sensational, business economics is our own FlightSafety ... this business requires a significant reinvestment of earnings if it is to grow.\""
+      "note": "2007 letter: \"One example of good, but far from sensational, business economics is our own FlightSafety ... this business requires a significant reinvestment of earnings if it is to grow.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p12",
@@ -84,7 +93,8 @@
       "claim": "Every day, Buffett wrote in 2005, the competitive position of each business grows either weaker or stronger. Delighting customers and cutting needless cost widens the moat.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2005ltr.pdf",
-      "note": "2005 letter: \"Every day, in countless ways, the competitive position of each of our businesses grows either weaker or stronger. If we are delighting customers, eliminating unnecessary costs and improving our products and services, we gain strength.\""
+      "note": "2005 letter: \"Every day, in countless ways, the competitive position of each of our businesses grows either weaker or stronger. If we are delighting customers, eliminating unnecessary costs and improving our products and services, we gain strength.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l2p13",
@@ -92,7 +102,8 @@
       "claim": "The 1991 letter defines a franchise: a product that is needed or desired, has no close substitute and is not price-regulated. It can therefore raise prices.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1991.html",
-      "note": "1991 letter: \"An economic franchise arises from a product or service that: (1) is needed or desired; (2) is thought by its customers to have no close substitute and; (3) is not subject to price regulation.\""
+      "note": "1991 letter: \"An economic franchise arises from a product or service that: (1) is needed or desired; (2) is thought by its customers to have no close substitute and; (3) is not subject to price regulation.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p1",
@@ -100,7 +111,8 @@
       "claim": "This Lesson distils the letters on market prices, from Mr. Market in 1987 to the fear and greed rule of 1986; it matters because the roadmap's index core will swing wildly over the decades it is meant to be held.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1987.html",
-      "note": "Mr. Market is in the 1987 letter; the fear and greed line is in the 1986 letter (https://www.berkshirehathaway.com/letters/1986.html)."
+      "note": "Mr. Market is in the 1987 letter; the fear and greed line is in the 1986 letter (https://www.berkshirehathaway.com/letters/1986.html).",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p2",
@@ -108,7 +120,8 @@
       "claim": "In the 1987 letter Buffett retells Ben Graham's parable of Mr. Market, a partner who appears daily offering to buy your share or sell you his.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1987.html",
-      "note": "1987 letter: \"Mr. Market appears daily and names a price at which he will either buy your interest or sell you his.\" Credited to Ben Graham."
+      "note": "1987 letter: \"Mr. Market appears daily and names a price at which he will either buy your interest or sell you his.\" Credited to Ben Graham.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p6",
@@ -116,7 +129,8 @@
       "claim": "In the 1986 letter he states his rule: be fearful when others are greedy, and greedy only when others are fearful.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1986.html",
-      "note": "1986 letter: \"we simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.\""
+      "note": "1986 letter: \"we simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p8",
@@ -124,7 +138,8 @@
       "claim": "In the 1997 letter he asks: if you will be a net buyer of hamburgers, or of stocks, for years, should you want prices higher or lower?",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1997.html",
-      "note": "1997 letter: \"If you plan to eat hamburgers throughout your life and are not a cattle producer, should you wish for higher or lower prices for beef? ... If you expect to be a net saver during the next five years, should you hope for a higher or lower stock market\"."
+      "note": "1997 letter: \"If you plan to eat hamburgers throughout your life and are not a cattle producer, should you wish for higher or lower prices for beef? ... If you expect to be a net saver during the next five years, should you hope for a higher or lower stock market\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p10",
@@ -132,7 +147,8 @@
       "claim": "In the 2017 letter he lists four times Berkshire's own stock fell 37 to 59 percent. He calls it his strongest argument against borrowed money, which can force you to sell at the wrong time.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
-      "note": "2017 letter: \"four truly major dips\" of (59.1%), (37.1%), (48.9%) and (50.7%). \"This table offers the strongest argument I can muster against ever using borrowed money to own stocks.\""
+      "note": "2017 letter: \"four truly major dips\" of (59.1%), (37.1%), (48.9%) and (50.7%). \"This table offers the strongest argument I can muster against ever using borrowed money to own stocks.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p12",
@@ -140,7 +156,8 @@
       "claim": "Buffett's point applied to an index core: a 40 percent fall in a world index is a market in a panic, not a verdict on the businesses inside it.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1987.html",
-      "note": "The Mr. Market passage of the 1987 letter supports the idea. The 40 percent fall is the Card's own illustration, presented as an application, not a figure from the letters."
+      "note": "The Mr. Market passage of the 1987 letter supports the idea. The 40 percent fall is the Card's own illustration, presented as an application, not a figure from the letters.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l3p13",
@@ -148,15 +165,17 @@
       "claim": "In the 2008 letter, in the middle of the crisis, he wrote that whether socks or stocks, he likes buying quality merchandise when it is marked down.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
-      "note": "2008 letter: \"Whether we're talking about socks or stocks, I like buying quality merchandise when it is marked down.\""
+      "note": "2008 letter: \"Whether we're talking about socks or stocks, I like buying quality merchandise when it is marked down.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p1",
       "kind": "other",
       "claim": "This Lesson distils the 1996 letter on the circle of competence and the letters on holding for the long run. It matters because your edge is software and AI, not every hot sector.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://www.berkshirehathaway.com/letters/1996.html",
-      "note": "The circle of competence passage is in the 1996 letter. The second sentence is the roadmap's own framing."
+      "note": "The circle of competence passage is in the 1996 letter. The second sentence is the roadmap's own framing.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p2",
@@ -164,7 +183,8 @@
       "claim": "You do not have to be an expert on every company, Buffett writes in 1996, only on those inside your circle of competence.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1996.html",
-      "note": "1996 letter: \"You don't have to be an expert on every company, or even many. You only have to be able to evaluate companies within your circle of competence.\""
+      "note": "1996 letter: \"You don't have to be an expert on every company, or even many. You only have to be able to evaluate companies within your circle of competence.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p7",
@@ -172,7 +192,8 @@
       "claim": "In 1988 he wrote that when Berkshire owns parts of outstanding businesses with outstanding managers, its favorite holding period is forever.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1988.html",
-      "note": "1988 letter: \"when we own portions of outstanding businesses with outstanding managements, our favorite holding period is forever.\""
+      "note": "1988 letter: \"when we own portions of outstanding businesses with outstanding managements, our favorite holding period is forever.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p8",
@@ -180,7 +201,8 @@
       "claim": "Through the late-1990s tech boom Berkshire stayed away, Buffett saying he could not judge which tech firms would keep a durable advantage.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/final1999pdf.pdf",
-      "note": "1999 letter: \"we have no insights into which participants in the tech field possess a truly durable competitive advantage.\" It also says \"we don't own stocks of tech companies\"."
+      "note": "1999 letter: \"we have no insights into which participants in the tech field possess a truly durable competitive advantage.\" It also says \"we don't own stocks of tech companies\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p10",
@@ -188,15 +210,17 @@
       "claim": "In the 1990 letter he praises lethargy bordering on sloth as the right investment style. Activity is not a virtue in itself.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1990.html",
-      "note": "1990 letter: \"Lethargy bordering on sloth remains the cornerstone of our investment style\". The second sentence is the Card's gloss."
+      "note": "1990 letter: \"Lethargy bordering on sloth remains the cornerstone of our investment style\". The second sentence is the Card's gloss.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p11",
       "kind": "other",
       "claim": "Your circle is software and AI products. Use it for the 20 percent satellite and for judging which startup to join; the 80 percent index core needs no circle at all.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://www.berkshirehathaway.com/letters/1996.html",
-      "note": "The circle of competence idea is confirmed in the 1996 letter. The 20 and 80 percent split is the roadmap's own plan, not a figure from the letters, and the Card does not attribute it to Buffett."
+      "note": "The circle of competence idea is confirmed in the 1996 letter. The 20 and 80 percent split is the roadmap's own plan, not a figure from the letters, and the Card does not attribute it to Buffett.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p12",
@@ -204,7 +228,8 @@
       "claim": "The 1977 test still frames everything: understand the business first, then judge its prospects, its people and its price.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1977.html",
-      "note": "1977 letter lists the four tests in this order: a business understood, its prospects, its people, its price."
+      "note": "1977 letter lists the four tests in this order: a business understood, its prospects, its people, its price.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c1l4p13",
@@ -212,7 +237,8 @@
       "claim": "In the 1997 letter Buffett cites Ted Williams, who swung only at pitches in his best zone. Unlike Williams, he notes, an investor cannot be called out for letting a pitch go by.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1997.html",
-      "note": "1997 letter: \"Swinging only at balls in his 'best' cell ... would allow him to bat .400\" and \"Unlike Ted, we can't be called out if we resist three pitches that are barely in the strike zone\"."
+      "note": "1997 letter: \"Swinging only at balls in his 'best' cell ... would allow him to bat .400\" and \"Unlike Ted, we can't be called out if we resist three pitches that are barely in the strike zone\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l1p1",
@@ -220,7 +246,8 @@
       "claim": "This Lesson distils the letters on insurance float, the engine under Berkshire since 1967. It matters because it shows how cheap, patient money compounds for decades.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2016ltr.pdf",
-      "note": "2016 letter: property/casualty insurance \"has been the engine that has propelled our growth since 1967\"."
+      "note": "2016 letter: property/casualty insurance \"has been the engine that has propelled our growth since 1967\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l1p2",
@@ -228,7 +255,8 @@
       "claim": "In 1967 Berkshire bought National Indemnity for $8.6 million, its entry into insurance. It became the core of Berkshire's growth.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2016ltr.pdf",
-      "note": "2016 letter: \"1967, the year we acquired National Indemnity and its sister company, National Fire & Marine, for $8.6 million.\" The price covers both sister companies."
+      "note": "2016 letter: \"1967, the year we acquired National Indemnity and its sister company, National Fire & Marine, for $8.6 million.\" The price covers both sister companies.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l1p4",
@@ -236,7 +264,8 @@
       "claim": "Berkshire invests that float for its own benefit while it waits. Float grew from $39 million in 1970 to about $164 billion by the end of 2022.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
-      "note": "2022 letter: \"our insurance float increased during 2022 from $147 billion to $164 billion.\" The 1970 figure of $39 million is in the float table of the 2016 letter (https://www.berkshirehathaway.com/letters/2016ltr.pdf)."
+      "note": "2022 letter: \"our insurance float increased during 2022 from $147 billion to $164 billion.\" The 1970 figure of $39 million is in the float table of the 2016 letter (https://www.berkshirehathaway.com/letters/2016ltr.pdf).",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l1p9",
@@ -244,7 +273,8 @@
       "claim": "GEICO, fully owned since 1996, sells direct to drivers at low cost. That cost edge is its moat.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1996.html",
-      "note": "1996 letter: \"GEICO became a wholly-owned subsidiary of Berkshire on January 2, 1996\"; \"competitive strength flows directly from its position as a low-cost operator\"; \"the protective moat surrounding our economic castle\"."
+      "note": "1996 letter: \"GEICO became a wholly-owned subsidiary of Berkshire on January 2, 1996\"; \"competitive strength flows directly from its position as a low-cost operator\"; \"the protective moat surrounding our economic castle\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l2p6",
@@ -252,7 +282,8 @@
       "claim": "The 1989 letter describes the institutional imperative: companies mindlessly imitate peers, resist change and pour cash into dubious projects and acquisitions.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1989.html",
-      "note": "1989 letter names \"the institutional imperative\": an institution resists change, projects or acquisitions materialize to soak up available funds, and the behavior of peer companies is mindlessly imitated."
+      "note": "1989 letter names \"the institutional imperative\": an institution resists change, projects or acquisitions materialize to soak up available funds, and the behavior of peer companies is mindlessly imitated.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l2p10",
@@ -260,7 +291,8 @@
       "claim": "Berkshire pays no dividend because retained dollars have produced more than a dollar of value. The 2012 letter shows owners wanting cash can sell a few shares instead.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2012ltr.pdf",
-      "note": "2012 letter works through the \"sell-off\" approach as the alternative to a dividend. The dollar test is in the 1984 letter (https://www.berkshirehathaway.com/letters/1984.html): \"creating over one dollar of market value for every dollar retained.\""
+      "note": "2012 letter works through the \"sell-off\" approach as the alternative to a dividend. The dollar test is in the 1984 letter (https://www.berkshirehathaway.com/letters/1984.html): \"creating over one dollar of market value for every dollar retained.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p1",
@@ -268,7 +300,8 @@
       "claim": "This Lesson distils the letters on share repurchases, from the 1980s to 2022. It matters because buybacks can help or hurt the owners of any company you hold, including through index funds.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1984.html",
-      "note": "Repurchases are discussed from the 1984 letter onward and in the 2022 letter (https://www.berkshirehathaway.com/letters/2022ltr.pdf)."
+      "note": "Repurchases are discussed from the 1984 letter onward and in the 2022 letter (https://www.berkshirehathaway.com/letters/2022ltr.pdf).",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p5",
@@ -276,7 +309,8 @@
       "claim": "For years Berkshire set a price ceiling: in 2011 up to 110 percent of book value, raised to 120 percent in 2012.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2012ltr.pdf",
-      "note": "2012 letter: \"We originally said we would not pay more than 110% of book value ... we increased the limit to 120% in December\". The 2011 letter dates the 110% limit to September 2011."
+      "note": "2012 letter: \"We originally said we would not pay more than 110% of book value ... we increased the limit to 120% in December\". The 2011 letter dates the 110% limit to September 2011.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p6",
@@ -284,7 +318,8 @@
       "claim": "In 2018 the board changed the rule: Buffett may repurchase whenever he and Munger believe the price is below intrinsic value, conservatively determined.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/news/jul1718.pdf",
-      "note": "Berkshire news release, 17 July 2018: repurchases can be made any time Buffett and Munger \"believe that the repurchase price is below Berkshire's intrinsic value, conservatively determined.\""
+      "note": "Berkshire news release, 17 July 2018: repurchases can be made any time Buffett and Munger \"believe that the repurchase price is below Berkshire's intrinsic value, conservatively determined.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p7",
@@ -292,7 +327,8 @@
       "claim": "Berkshire then bought back heavily, about $24.7 billion in 2020 alone, while still keeping a large cash reserve.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2020ltr.pdf",
-      "note": "2020 letter: \"repurchasing the equivalent of 80,998 'A' shares, spending $24.7 billion in the process.\""
+      "note": "2020 letter: \"repurchasing the equivalent of 80,998 'A' shares, spending $24.7 billion in the process.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p8",
@@ -300,7 +336,8 @@
       "claim": "In 2022 he wrote that anyone calling all buybacks harmful is either an economic illiterate or a silver-tongued demagogue.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
-      "note": "2022 letter: \"When you are told that all repurchases are harmful to shareholders or to the country ... you are listening to either an economic illiterate or a silver-tongued demagogue\"."
+      "note": "2022 letter: \"When you are told that all repurchases are harmful to shareholders or to the country ... you are listening to either an economic illiterate or a silver-tongued demagogue\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p9",
@@ -308,7 +345,8 @@
       "claim": "His 2022 math: when the share count goes down, each owner's interest in the businesses goes up, provided the price paid is right.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
-      "note": "2022 letter: \"When the share count goes down, your interest in our many businesses goes up. Every small bit helps if repurchases are made at value-accretive prices.\""
+      "note": "2022 letter: \"When the share count goes down, your interest in our many businesses goes up. Every small bit helps if repurchases are made at value-accretive prices.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p10",
@@ -316,7 +354,8 @@
       "claim": "In 2021 he noted Apple's buybacks lifted Berkshire's stake from 5.39 to 5.55 percent without Berkshire buying a share.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2021ltr.pdf",
-      "note": "2021 letter: \"our ownership is a mere 5.55%, up from 5.39% a year earlier ... We spent no Berkshire funds to gain our accretion. Apple's repurchases did the job.\""
+      "note": "2021 letter: \"our ownership is a mere 5.55%, up from 5.39% a year earlier ... We spent no Berkshire funds to gain our accretion. Apple's repurchases did the job.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l3p13",
@@ -324,7 +363,8 @@
       "claim": "The 2018 rule had a safety floor: no repurchases if they would cut Berkshire's cash below $20 billion. Buybacks never come before staying financially strong.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/news/jul1718.pdf",
-      "note": "News release, 17 July 2018: repurchases \"will not be made if they would reduce the value of Berkshire's consolidated cash, cash equivalents and U.S. Treasury Bills holdings below $20 billion\". The release says this existing policy \"will continue\"."
+      "note": "News release, 17 July 2018: repurchases \"will not be made if they would reduce the value of Berkshire's consolidated cash, cash equivalents and U.S. Treasury Bills holdings below $20 billion\". The release says this existing policy \"will continue\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l4p7",
@@ -332,7 +372,8 @@
       "claim": "Mrs. B, Rose Blumkin, built Nebraska Furniture Mart from $500 and kept working there for years after Berkshire bought it in 1983.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1983.html",
-      "note": "1983 letter: Mrs. Blumkin \"had saved $500\" to open the store; Berkshire acquired a majority interest in 1983. The 1988 letter shows her still the boss at 95."
+      "note": "1983 letter: Mrs. Blumkin \"had saved $500\" to open the store; Berkshire acquired a majority interest in 1983. The 1988 letter shows her still the boss at 95.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p1",
@@ -340,7 +381,8 @@
       "claim": "This Lesson distils the letters on index funds, above all the 2016 and 2017 reports on Buffett's ten-year bet. It matters because the roadmap's core-satellite plan leans on index ETFs.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
-      "note": "The bet is reported in detail in the 2016 letter and closed in the 2017 letter (\"'The Bet' is Over\")."
+      "note": "The bet is reported in detail in the 2016 letter and closed in the 2017 letter (\"'The Bet' is Over\").",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p3",
@@ -348,7 +390,8 @@
       "claim": "In 1993 he wrote that a know-nothing investor who buys an index fund steadily over time will outperform most investment professionals.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/1993.html",
-      "note": "1993 letter: \"By periodically investing in an index fund, for example, the know-nothing investor can actually out-perform most investment professionals.\""
+      "note": "1993 letter: \"By periodically investing in an index fund, for example, the know-nothing investor can actually out-perform most investment professionals.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p4",
@@ -356,7 +399,8 @@
       "claim": "In late 2007 he bet $500,000 that an S&P 500 index fund would beat a set of hedge funds over the ten years 2008 to 2017.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
-      "note": "2017 letter: \"a ten-year bet I had made on December 19, 2007\"; each side bought \"$500,000 face amount\" of bonds costing $318,250. 2016 letter: \"wager $500,000\", period 1 January 2008 to 31 December 2017."
+      "note": "2017 letter: \"a ten-year bet I had made on December 19, 2007\"; each side bought \"$500,000 face amount\" of bonds costing $318,250. 2016 letter: \"wager $500,000\", period 1 January 2008 to 31 December 2017.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p5",
@@ -364,7 +408,8 @@
       "claim": "Ted Seides of Protégé Partners took the bet and chose five funds of funds, which together held more than 200 hedge funds.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
-      "note": "2017 letter: \"Those five funds-of-funds in turn owned interests in more than 200 hedge funds.\" The 2016 letter says \"more than 100 hedge funds\"; the Card follows the later, final report."
+      "note": "2017 letter: \"Those five funds-of-funds in turn owned interests in more than 200 hedge funds.\" The 2016 letter says \"more than 100 hedge funds\"; the Card follows the later, final report.",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p6",
@@ -372,7 +417,8 @@
       "claim": "After nine years, the 2016 letter reports, the index fund had compounded about 7.1 percent a year; the five funds of funds averaged only about 2.2 percent.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2016ltr.pdf",
-      "note": "2016 letter: \"The compounded annual increase to date for the index fund is 7.1%\"; the five funds-of-funds \"delivered, through 2016, an average of only 2.2%, compounded annually.\""
+      "note": "2016 letter: \"The compounded annual increase to date for the index fund is 7.1%\"; the five funds-of-funds \"delivered, through 2016, an average of only 2.2%, compounded annually.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p7",
@@ -380,7 +426,8 @@
       "claim": "Put in dollars, after those nine years $1 million in the index fund had gained about $854,000, while the funds of funds had gained about $220,000 on average.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2016ltr.pdf",
-      "note": "2016 letter: \"$1 million invested in those funds would have gained $220,000. The index fund would meanwhile have gained $854,000.\""
+      "note": "2016 letter: \"$1 million invested in those funds would have gained $220,000. The index fund would meanwhile have gained $854,000.\"",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p9",
@@ -388,7 +435,8 @@
       "claim": "His winnings, about $2.2 million, went to Girls Inc. of Omaha.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
-      "note": "2017 letter: \"Girls Inc. of Omaha found itself receiving $2,222,279 last month\"."
+      "note": "2017 letter: \"Girls Inc. of Omaha found itself receiving $2,222,279 last month\".",
+      "basis": "author-or-publisher"
     },
     {
       "id": "b12c2l5p11",
@@ -396,7 +444,8 @@
       "claim": "In the 2013 letter he describes his will's instruction for the cash left in trust for his wife: 10 percent in short-term government bonds and 90 percent in a very low-cost S&P 500 index fund.",
       "verdict": "verified",
       "source": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
-      "note": "2013 letter: \"Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P 500 index fund.\""
+      "note": "2013 letter: \"Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P 500 index fund.\"",
+      "basis": "author-or-publisher"
     }
   ]
 }

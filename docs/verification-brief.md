@@ -53,7 +53,7 @@ Write `docs/verification/<id>.json`:
 }
 ```
 
-One row per listed Card id, in the listed order. `kind` is `figure`, `quote` or `other`. Add rows for anything else you changed. `source` is a full `https://` URL or `null`.
+One row per listed Card id, in the listed order. `kind` is `figure`, `quote` or `other`. Add rows for anything else you changed. `source` is a full `https://` URL or `null`. Each row also carries `basis`: `author-or-publisher`, `secondary`, `unlinked-copy` (read in a copy of the book that is not an authorised source and so is not linked; `source` is then the book's catalogue entry and the note says so) or `none`.
 
 ## Report
 

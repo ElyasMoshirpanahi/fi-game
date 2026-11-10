@@ -12,7 +12,8 @@
       "claim": "This Lesson distils the start of Rule 1: the four ways to fit deep work into your life. It matters because willpower runs out, so you need a system, not good intentions.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Rule #1 \"Work Deeply\" opens with the depth philosophies (monastic, bimodal, rhythmic, journalistic). The text says \"You have a finite amount of willpower that becomes depleted as you use it.\" Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Rule #1 \"Work Deeply\" opens with the depth philosophies (monastic, bimodal, rhythmic, journalistic). The text says \"You have a finite amount of willpower that becomes depleted as you use it.\" Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l1p8",
@@ -20,7 +21,8 @@
       "claim": "Newport's example is Brian Chappell, a busy father and graduate student who wrote his dissertation from 5:30 to 7:30 every morning. The rhythm removed the need to decide.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: Brian Chappell, a doctoral candidate, \"a father with a full-time job\"; he would \"wake up and start working by five thirty every morning\" and \"work until seven thirty\". The text adds that he later moved his wake-up earlier. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: Brian Chappell, a doctoral candidate, \"a father with a full-time job\"; he would \"wake up and start working by five thirty every morning\" and \"work until seven thirty\". The text adds that he later moved his wake-up earlier. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l2p1",
@@ -28,7 +30,8 @@
       "claim": "This Lesson distils the 4DX part of Rule 1 and the advice to be lazy. It matters because knowing what to do is easy; doing it week after week is the hard part.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Rule #1 holds the sections \"Execute Like a Business\" (the 4DX disciplines) and \"Be Lazy\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Rule #1 holds the sections \"Execute Like a Business\" (the 4DX disciplines) and \"Be Lazy\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l2p2",
@@ -36,15 +39,17 @@
       "claim": "Newport borrows The 4 Disciplines of Execution, or 4DX, a business framework by Chris McChesney, Sean Covey and Jim Huling. It turns depth into a measurable routine.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text names \"The 4 Disciplines of Execution ... (abbreviated, 4DX)\"; the notes credit \"McChesney, Chris, Sean Covey, and Jim Huling\". The four disciplines appear in the order the Lesson uses. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text names \"The 4 Disciplines of Execution ... (abbreviated, 4DX)\"; the notes credit \"McChesney, Chris, Sean Covey, and Jim Huling\". The four disciplines appear in the order the Lesson uses. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l2p11",
       "kind": "other",
       "claim": "Apply 4DX to your roadmap: wildly important goal, the first €100 of income from the AI product. Lead measure: deep hours on it, tallied on a card and reviewed every Sunday.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The €100 goal is the reader's own roadmap, not a figure from the book. The method matches the text: wildly important goal, lead measure of deep hours, a scoreboard of tally marks, and \"a weekly review to look over my scoreboard\". The Sunday is the Lesson's own choice of day. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The €100 goal is the reader's own roadmap, not a figure from the book. The method matches the text: wildly important goal, lead measure of deep hours, a scoreboard of tally marks, and \"a weekly review to look over my scoreboard\". The Sunday is the Lesson's own choice of day. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l3p1",
@@ -52,7 +57,8 @@
       "claim": "This Lesson distils the end of Rule 1: the shutdown ritual. It matters because a mind that never stops working cannot rest, and tired minds cannot go deep tomorrow.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The shutdown ritual is described inside \"Be Lazy\", the last section of Rule #1. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. The shutdown ritual is described inside \"Be Lazy\", the last section of Rule #1. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c2l3p6",
@@ -60,7 +66,8 @@
       "claim": "Newport's shutdown ritual: check email for anything urgent, move every open task onto a list or the calendar, review the calendar and plan tomorrow. Then say a set phrase: \"Shutdown complete.\"",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text gives the steps in this order: a final look at the e-mail inbox for anything urgent, transfer new tasks to the task lists, skim the lists and the next few days on the calendar, make a rough plan for the next day, then say \"Shutdown complete\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text gives the steps in this order: a final look at the e-mail inbox for anything urgent, transfer new tasks to the task lists, skim the lists and the next few days on the calendar, make a rough plan for the next day, then say \"Shutdown complete\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l1p1",
@@ -68,7 +75,8 @@
       "claim": "This Lesson distils Rule 2, Embrace Boredom. It matters because focus is a skill you train; a mind that reaches for the phone at every pause cannot go deep on demand.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #2 Embrace Boredom\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #2 Embrace Boredom\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l1p3",
@@ -76,7 +84,8 @@
       "claim": "Clifford Nass at Stanford found that heavy multitaskers were \"suckers for irrelevancy.\" Their brains had trouble filtering out distraction even when they tried to focus.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text calls Clifford Nass \"the late Stanford communications professor\" and quotes him: \"They're suckers for irrelevancy. They just can't keep on task.\" The notes give the source as an NPR interview. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text calls Clifford Nass \"the late Stanford communications professor\" and quotes him: \"They're suckers for irrelevancy. They just can't keep on task.\" The notes give the source as an NPR interview. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l2p1",
@@ -84,7 +93,8 @@
       "claim": "This Lesson distils Rule 3, Quit Social Media, and its craftsman approach to tools. It matters because each app you keep spends the attention you need for ownership.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #3 Quit Social Media\"; it sets out \"the craftsman approach to tool selection\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #3 Quit Social Media\"; it sets out \"the craftsman approach to tool selection\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l2p2",
@@ -92,7 +102,8 @@
       "claim": "Newport opens with Baratunde Thurston, a digital media consultant who went offline for 25 days. It did not take him long to adjust to a disconnected life.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"author and digital media consultant Baratunde Thurston ... decided to disconnect from his online life for twenty-five days\"; \"it didn't take long to adjust to a disconnected life\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"author and digital media consultant Baratunde Thurston ... decided to disconnect from his online life for twenty-five days\"; \"it didn't take long to adjust to a disconnected life\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l2p7",
@@ -100,7 +111,8 @@
       "claim": "The law of the vital few is the 80/20 rule: a few activities produce most of the results. Low-value tools steal time from the high-value activities.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"The Law of the Vital Few: In many settings, 80 percent of a given effect is due to just 20 percent of the possible causes.\" Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"The Law of the Vital Few: In many settings, 80 percent of a given effect is due to just 20 percent of the possible causes.\" Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l2p8",
@@ -108,7 +120,8 @@
       "claim": "Quit social media for 30 days without announcing it. Then ask two questions: would the last 30 days have been notably better with this service, and did people care that you were gone?",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"ban yourself from using them for thirty days\"; \"don't mention online\" that you are signing off; the two questions are whether the thirty days would \"have been notably better\" with the service and \"Did people care that I wasn't using this service?\" Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"ban yourself from using them for thirty days\"; \"don't mention online\" that you are signing off; the two questions are whether the thirty days would \"have been notably better\" with the service and \"Did people care that I wasn't using this service?\" Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l3p1",
@@ -116,7 +129,8 @@
       "claim": "This Lesson distils Rule 4, Drain the Shallows, and its time-blocking method. It matters because shallow work expands to fill any day you do not plan.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #4 Drain the Shallows\"; it holds the section \"Schedule Every Minute of Your Day\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Chapter heading \"Rule #4 Drain the Shallows\"; it holds the section \"Schedule Every Minute of Your Day\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l3p2",
@@ -124,7 +138,8 @@
       "claim": "Newport opens with Jason Fried's 37signals, the company behind Basecamp, which tried a four-day workweek in summer. Staff got as much done because they cut the shallow work.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: in the summer of 2007 37signals (now Basecamp) cut its workweek from five days to four; staff \"seemed to accomplish the same amount of work\"; it now runs \"from May through October\". Jason Fried is quoted that fewer hours help \"squeeze the fat out of the typical workweek\", which Newport reads as shallow work. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: in the summer of 2007 37signals (now Basecamp) cut its workweek from five days to four; staff \"seemed to accomplish the same amount of work\"; it now runs \"from May through October\". Jason Fried is quoted that fewer hours help \"squeeze the fat out of the typical workweek\", which Newport reads as shallow work. Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l3p4",
@@ -132,7 +147,8 @@
       "claim": "Schedule every minute of your day. On paper, divide the workday into blocks of at least 30 minutes and give every block a task.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"Schedule every minute of your day\", on lined paper; \"the minimum length of a block should be thirty minutes\". Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"Schedule every minute of your day\", on lined paper; \"the minimum length of a block should be thirty minutes\". Card unchanged.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b24c3l3p9",
@@ -140,7 +156,8 @@
       "claim": "Ask your boss for a shallow work budget: what share of your time should go to shallow work? Newport says most non-entry-level knowledge workers land at 30 to 50 percent.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"For most people in most non-entry-level knowledge work jobs, the answer to the question will be somewhere in the 30 to 50 percent range\". The question is put to the boss. Card unchanged."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Text: \"For most people in most non-entry-level knowledge work jobs, the answer to the question will be somewhere in the 30 to 50 percent range\". The question is put to the boss. Card unchanged.",
+      "basis": "unlinked-copy"
     }
   ]
 }

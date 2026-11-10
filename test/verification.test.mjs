@@ -13,6 +13,10 @@ const listed = json('docs/verification/listed.json');
 // 'own': the figure is the roadmap's or the game's own (the player's €40k, the 25 times target, plain arithmetic),
 // not a claim about the book, so there is nothing to source.
 const VERDICTS = ['verified', 'corrected', 'softened', 'paraphrase', 'own'];
+const KINDS = ['figure', 'quote', 'other'];
+// How the reader saw the evidence: on the author's or publisher's page, on a secondary page, in a copy of the book that is not
+// linked (not an authorised source), or not at all.
+const BASES = ['author-or-publisher', 'secondary', 'unlinked-copy', 'none'];
 const bookIds = Object.keys(listed);
 
 describe('Edition', () => {
@@ -38,8 +42,9 @@ describe('Edition', () => {
 });
 
 describe('Verification record', () => {
-  it('covers all 28 books', () => {
+  it('covers all 28 books and the 458 Cards listed before the pass', () => {
     expect(bookIds).toHaveLength(28);
+    expect(Object.values(listed).reduce((n, ids) => n + ids.length, 0)).toBe(458);
   });
 
   for (const id of bookIds) {
@@ -58,18 +63,33 @@ describe('Verification record', () => {
         expect(book.edition.fa.trim()).toBeTruthy();
       });
 
-      it('has a row for every listed Card, each about an item that exists', () => {
-        const rows = new Map(record.rows.map((r) => [r.id, r]));
-        for (const cardId of listed[id]) expect(rows.has(cardId), `${cardId} has no row`).toBe(true);
-        for (const r of record.rows) expect(cards.has(r.id), `${r.id} is not in the book`).toBe(true);
+      it('has exactly one row for every listed Card, each about a Card that exists', () => {
+        const ids = record.rows.map((r) => r.id);
+        expect(new Set(ids).size, 'duplicate rows').toBe(ids.length);
+        for (const cardId of listed[id]) expect(ids.includes(cardId), `${cardId} has no row`).toBe(true);
+        for (const r of record.rows) expect(cards.has(r.id), `${r.id} is not a Card of the book`).toBe(true);
+        for (const cardId of listed[id]) expect(cards.has(cardId), `listed ${cardId} is not a Card of the book`).toBe(true);
       });
 
-      it('every row has a verdict; a verified or corrected row cites a source that was opened', () => {
+      it('the record and the book name the same edition', () => {
+        expect(record.edition.text).toBe(book.edition.en);
+      });
+
+      it('every row says what was claimed, what was found and how it can be re-checked', () => {
         for (const r of record.rows) {
           expect(VERDICTS, `${r.id}: ${r.verdict}`).toContain(r.verdict);
-          expect(typeof r.claim === 'string' && r.claim.length > 0, `${r.id}: claim`).toBe(true);
-          if (r.verdict === 'verified' || r.verdict === 'corrected') expect(r.source, `${r.id}: source`).toMatch(/^https:\/\/[^\s]+\.[^\s]+/);
-          else expect(r.source === null || /^https:\/\//.test(r.source), `${r.id}: source`).toBe(true);
+          expect(KINDS, `${r.id}: ${r.kind}`).toContain(r.kind);
+          expect(typeof r.claim === 'string' && r.claim.trim().length > 0, `${r.id}: claim`).toBe(true);
+          expect(typeof r.note === 'string' && r.note.trim().length > 0, `${r.id}: note`).toBe(true);
+          expect(BASES, `${r.id}: basis ${r.basis}`).toContain(r.basis);
+          const linked = typeof r.source === 'string' && /^https:\/\/[^\s]+\.[^\s]+/.test(r.source);
+          const catalogue = linked && /openlibrary\.org\/search/.test(r.source);
+          // The basis must agree with the link: no link, a catalogue entry standing in for a copy that is not linked, or a page that was opened.
+          if (r.basis === 'none') expect(r.source, `${r.id}: source`).toBeNull();
+          else if (r.basis === 'unlinked-copy') { expect(catalogue, `${r.id}: catalogue link`).toBe(true); expect(r.note, `${r.id}: note`).toMatch(/not an authorised source/); }
+          else expect(linked && !catalogue, `${r.id}: a page that was opened`).toBe(true);
+          // A claim is confirmed or corrected only on evidence the reader saw.
+          if (r.verdict === 'verified' || r.verdict === 'corrected') expect(r.basis, `${r.id}: ${r.verdict} with no evidence`).not.toBe('none');
         }
       });
     });

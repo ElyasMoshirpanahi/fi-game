@@ -12,7 +12,8 @@
       "claim": "Part One, Vision, is chapters 1 to 4.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page of the text: \"Part One VISION 1. Start 2. Define 3. Learn 4. Experiment\". The text is a reader-uploaded copy on the Internet Archive, not a publisher page; theleanstartup.com/book confirms the three part names Vision, Steer, Accelerate."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents page of the text: \"Part One VISION 1. Start 2. Define 3. Learn 4. Experiment\". The text is a reader-uploaded copy on the Internet Archive, not a publisher page; theleanstartup.com/book confirms the three part names Vision, Steer, Accelerate.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b20c1l2p1",
@@ -20,7 +21,8 @@
       "claim": "Chapters 5 and 6 are Leap and Test and hold the Build-Measure-Learn loop and the MVP.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"Part Two STEER 5. Leap 6. Test 7. Measure 8. Pivot (or Persevere)\". The loop diagram and \"Minimize TOTAL time through the loop\" open Part Two."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"Part Two STEER 5. Leap 6. Test 7. Measure 8. Pivot (or Persevere)\". The loop diagram and \"Minimize TOTAL time through the loop\" open Part Two.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b20c1l2p7",
@@ -28,7 +30,8 @@
       "claim": "Drew Houston made a short video before the product was ready; the beta waiting list jumped from 5,000 to 75,000 people overnight.",
       "verdict": "verified",
       "source": "https://techcrunch.com/2011/10/19/dropbox-minimal-viable-product/",
-      "note": "Ries's own excerpt of the book on TechCrunch quotes Houston: \"Our beta waiting list went from 5,000 people to 75,000 people literally overnight.\" The video is \"a simple three-minute demonstration of the technology as it is meant to work\". The figure is Houston's account, as the book gives it."
+      "note": "Ries's own excerpt of the book on TechCrunch quotes Houston: \"Our beta waiting list went from 5,000 people to 75,000 people literally overnight.\" The video is \"a simple three-minute demonstration of the technology as it is meant to work\". The figure is Houston's account, as the book gives it.",
+      "basis": "secondary"
     },
     {
       "id": "b20c1l3p1",
@@ -36,7 +39,8 @@
       "claim": "Chapters 7 to 9 are Measure, Pivot (or Persevere) and Batch.",
       "verdict": "verified",
       "source": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"7. Measure 8. Pivot (or Persevere) Part Three ACCELERATE 9. Batch\". Batch opens Part Three, so the Lesson spans two parts; the chapter numbers and titles are right."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Contents: \"7. Measure 8. Pivot (or Persevere) Part Three ACCELERATE 9. Batch\". Batch opens Part Three, so the Lesson spans two parts; the chapter numbers and titles are right.",
+      "basis": "unlinked-copy"
     },
     {
       "id": "b20c1l3p12",
@@ -44,7 +48,8 @@
       "claim": "IMVU released code to production as often as fifty times a day.",
       "verdict": "corrected",
       "source": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
-      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Not listed; open item from the earlier audit. Chapter 9 reads: \"IMVU makes about fifty changes to its product (on average) every single day.\" \"As often as fifty\" made the average a ceiling. Card now says about fifty changes on average every day, in both languages. Ries's blog (https://www.startuplessonslearned.com/2009/06/why-continuous-deployment.html) says \"as often as an average of fifty times a day\". Check b20c1l3k5 needed no change."
+      "note": "Read in a full-text copy of the book that is not an authorised source, so it is not linked; the link is the catalogue entry for the book. Not listed; open item from the earlier audit. Chapter 9 reads: \"IMVU makes about fifty changes to its product (on average) every single day.\" \"As often as fifty\" made the average a ceiling. Card now says about fifty changes on average every day, in both languages. Ries's blog (https://www.startuplessonslearned.com/2009/06/why-continuous-deployment.html) says \"as often as an average of fifty times a day\". Check b20c1l3k5 needed no change.",
+      "basis": "unlinked-copy"
     }
   ]
 }

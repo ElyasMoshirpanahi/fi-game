@@ -338,8 +338,8 @@
               "kind": "card",
               "id": "b07c1l2p8",
               "text": {
-                "en": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by about two and a half points a year, roughly the funds' costs.",
-                "fa": "Bogle شاخص S&P 500 را در ۲۵ سال با میانگین صندوق‌های سهامی با مدیریت فعال مقایسه می‌کند. شاخص سالانه حدود دو و نیم واحد درصد جلو بود، تقریباً به اندازهٔ هزینه‌های آن صندوق‌ها."
+                "en": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by more than two points a year, roughly the funds' costs.",
+                "fa": "Bogle شاخص S&P 500 را در ۲۵ سال با میانگین صندوق‌های سهامی با مدیریت فعال مقایسه می‌کند. شاخص سالانه بیش از دو واحد درصد جلو بود، تقریباً به اندازهٔ هزینه‌های آن صندوق‌ها."
               }
             },
             {
@@ -348,8 +348,8 @@
               "type": "tap",
               "source": "b07c1l2p8",
               "prompt": {
-                "en": "Why did the index beat the average equity fund by about two and a half points a year?",
-                "fa": "چرا شاخص سالانه حدود دو و نیم واحد درصد از میانگین صندوق سهامی جلو بود؟"
+                "en": "Why did the index beat the average equity fund by more than two points a year?",
+                "fa": "چرا شاخص سالانه بیش از دو واحد درصد از میانگین صندوق سهامی جلو بود؟"
               },
               "fare": {
                 "en": "The S&P 500's lead over active funds in Bogle's 25-year comparison comes down to what?",

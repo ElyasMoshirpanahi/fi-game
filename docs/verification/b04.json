@@ -10,9 +10,10 @@
       "id": "b04c1l3p1",
       "kind": "other",
       "claim": "This Lesson distils the Five Laws of Gold and the later tales: the gold lender, the camel trader and the clay tablets. For an index investor they are rules on where €40k may safely go, and where it may not.",
-      "verdict": "verified",
+      "verdict": "own",
       "source": "https://archive.org/download/RichestManInBabylon_650/the_richest_man_in_babylon_djvu.txt",
-      "note": "The table of contents shows \"The Five Laws of Gold\", \"The Gold Lender of Babylon\", \"The Camel Trader of Babylon\" and \"The Clay Tablets From Babylon\". The €40k is the reader's own roadmap sum, not a figure from the book. Card unchanged."
+      "note": "The table of contents shows \"The Five Laws of Gold\", \"The Gold Lender of Babylon\", \"The Camel Trader of Babylon\" and \"The Clay Tablets From Babylon\". The €40k is the reader's own roadmap sum, not a figure from the book. Card unchanged.",
+      "basis": "secondary"
     }
   ]
 }
