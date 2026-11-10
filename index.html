@@ -1196,7 +1196,7 @@ FI.store = (() => {
 // screen, the shelf with Book Units, per-Station themes and the Milestone.
 // ---------------------------------------------------------------------------
 FI.render = (() => {
-  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null, restoreOpen: false, restore: null, restoredNote: false };
+  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null, restoreOpen: false, restore: null, restoreText: '', restoredNote: false };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   // One isolate per run, parentheses included, so a wrap never re-orders the pieces (see test/rtl.test.mjs).
@@ -1335,7 +1335,7 @@ FI.render = (() => {
       const r = ui.restore;
       const verdict = !r ? '' : !r.ok ? `<p class="help warn" aria-live="polite">${t(r.reason === 'newer-format' ? 'restoreNewer' : 'restoreBad', s.mode)}</p>`
         : `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('restoreSummary', s.mode)}: ${t('exportedOn', s.mode)} ${esc(r.summary.exported)} · ${num(r.summary.xp, s.mode)} ${t('xp', s.mode)} · ${num(r.summary.coins, s.mode)} ${t('coins', s.mode)} · ${num(r.summary.lit, s.mode)} ${t('litCount', s.mode)} · ${num(r.summary.deck, s.mode)} ${t('deckCount', s.mode)}</span><button ${A({ type: 'UI_RESTORE_CLOSE' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESTORE_CONFIRM' })}>${t('restoreConfirm', s.mode)}</button></div>`;
-      panel = `<div class="restore"><p class="help">${t('restoreHelp', s.mode)}</p><input type="file" accept="application/json,.json,.txt" data-restore-file aria-label="${t('restore', s.mode)}"><textarea data-restore-text rows="3" placeholder="${t('restorePaste', s.mode)}" aria-label="${t('restorePaste', s.mode)}"></textarea>${verdict}</div>`;
+      panel = `<div class="restore"><p class="help">${t('restoreHelp', s.mode)}</p><input type="file" accept="application/json,.json,.txt" data-restore-file aria-label="${t('restore', s.mode)}"><textarea data-restore-text rows="3" placeholder="${t('restorePaste', s.mode)}" aria-label="${t('restorePaste', s.mode)}">${esc(ui.restoreText)}</textarea>${verdict}</div>`;
     }
     return `<div class="backup">${note}<div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: ui.restoreOpen ? 'UI_RESTORE_CLOSE' : 'UI_RESTORE_OPEN' })} aria-expanded="${ui.restoreOpen}">${t('restore', s.mode)}</button></div>${panel}</div>`;
   }
@@ -1709,9 +1709,9 @@ FI.render = (() => {
       case 'UI_OPEN_SECTION': ui.openSection = ui.openSection === action.value ? '__none__' : action.value; ui.scrollTo = action.value; return 'full';
       case 'UI_PICKER': ui.picker = !ui.picker; return 'full';
       case 'UI_JUMP_SECTION': ui.openSection = action.value; ui.picker = false; ui.scrollTo = action.value; return 'full';
-      case 'UI_RESTORE_OPEN': ui.restoreOpen = true; ui.restore = null; ui.restoredNote = false; return 'full';
-      case 'UI_RESTORE_CLOSE': ui.restoreOpen = false; ui.restore = null; return 'full';
-      case 'UI_RESTORE_TEXT': ui.restore = String(action.value || '').trim() ? FI.store.parseBackup(String(action.value)) : null; return 'full';
+      case 'UI_RESTORE_OPEN': ui.restoreOpen = true; ui.restore = null; ui.restoreText = ''; ui.restoredNote = false; return 'full';
+      case 'UI_RESTORE_CLOSE': ui.restoreOpen = false; ui.restore = null; ui.restoreText = ''; return 'full';
+      case 'UI_RESTORE_TEXT': ui.restoreText = String(action.value || ''); ui.restore = ui.restoreText.trim() ? FI.store.parseBackup(ui.restoreText) : null; return 'full';
       case 'UI_OPEN_CIRCLE': ui.openCircle = ui.openCircle === action.value ? null : action.value; return 'full';
       case 'UI_ERROR_CLOSE': ui.error = false; return 'full';
       case 'UI_JUMP': { const sec = FI.content.sectionOf(action.value); if (!sec) return false; ui.openSection = sec.id; ui.picker = false; ui.scrollTo = sec.id; return 'path'; }
@@ -1756,7 +1756,7 @@ FI.render = (() => {
 
   const setLoading = (on) => { ui.loading = !!on; };
   // The parsed backup waiting for confirmation; taking it closes the panel.
-  const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreOpen = false; ui.restoredNote = !!(r && r.ok); return r && r.ok ? r.data : null; };
+  const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreText = ''; ui.restoreOpen = false; ui.restoredNote = !!(r && r.ok); return r && r.ok ? r.data : null; };
   const setError = (on) => { ui.error = !!on; };
   return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore };
 })();
