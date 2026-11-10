@@ -9,7 +9,7 @@ const fakeStorage = () => { const m = new Map(); return { getItem: (k) => (m.has
 describe('Bookmarks', () => {
   it('TOGGLE_BOOKMARK adds a Card once and removes it on the second call', () => {
     let s = R(engine.initial(), { type: 'TOGGLE_BOOKMARK', value: { stationId: 's1', cardId: 's1c3' } });
-    expect(s.bookmarks).toEqual([{ stationId: 's1', cardId: 's1c3' }]);
+    expect(s.bookmarks).toEqual([{ stationId: 's1', cardId: 's1c3', text: content.item('s1', 's1c3').text }]);
     expect(s.events).toContain('bookmark');
     s = R(s, { type: 'TOGGLE_BOOKMARK', value: { stationId: 's1', cardId: 's1c3' } });
     expect(s.bookmarks).toEqual([]);
@@ -23,14 +23,12 @@ describe('Bookmarks', () => {
     expect(s.bookmarks).toEqual([]);
   });
 
-  it('bookmarks survive a reload and a Book Unit Card can be bookmarked too', () => {
+  it('bookmarks survive a reload', () => {
     const storage = fakeStorage();
-    const book = content.stations.find((b) => b.book);
-    const card = book.items.find((i) => i.kind === 'card');
-    let s = R(engine.initial(), { type: 'TOGGLE_BOOKMARK', value: { stationId: book.id, cardId: card.id } });
+    let s = R(engine.initial(), { type: 'TOGGLE_BOOKMARK', value: { stationId: 's2', cardId: 's2c1' } });
     store.save(storage, s);
     const again = R(engine.initial(), { type: 'HYDRATE', value: store.load(storage) });
-    expect(again.bookmarks).toEqual([{ stationId: book.id, cardId: card.id }]);
+    expect(again.bookmarks).toEqual([{ stationId: 's2', cardId: 's2c1', text: content.item('s2', 's2c1').text }]);
   });
 
   it('OPEN_AT opens the Station at the bookmarked Card and the run continues from there', () => {

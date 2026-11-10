@@ -9,15 +9,23 @@ The home screen: a vertical list of Sections, each a run of Units. Any Unit can 
 _Avoid_: map, journey, course, tree
 
 **Section**:
-A group of Units on the Path with a header, a progress count and a picker entry. Section 1 is Basics (the six Stations); every book is its own Section of three Units. A complete book Section pays the book's Badge and 30 XP.
+A group on the Path with a header, a progress count and a picker entry. Section 1 is Basics (the six Stations); every book is its own Section of one to three Circles, sized by the book's value (decision 31). A complete book Section pays the book's Badge and 50 XP.
 _Avoid_: chapter, level, module, world
 
-**Unit**:
-One stop on the Path: a run of Cards, Checks and a Fare. The six Stations are the Units of Basics; a book Section has Units "Key ideas, part 1", "Key ideas, part 2" and "Put it to work". A Unit Fare pays 20 XP (Basics Stations 50).
-_Avoid_: lesson, node, step
+**Circle**:
+A node on the Path inside a book Section, holding 3 to 5 Lessons. Tapping it lists its Lessons. A Circle lights when all its Lessons are lit and pays 25 XP.
+_Avoid_: unit, node, module
+
+**Lesson**:
+A run of 10 to 15 Points with a Check after every 2 to 3 Points and a Fare at the end, about one minute per Point. The first Point frames what part of the book the Lesson distils. A Lesson Fare pays 10 XP. The six Basics Stations are runs too, but keep their name.
+_Avoid_: unit, level, session
+
+**Point**:
+One learning point: a Card inside a Lesson.
+_Avoid_: fact, slide, tip
 
 **Station**:
-One of the six stops on the Path, each built from one section of the source roadmap: Reality Check, Knowledge Roadmap, What NOT to Learn, Getting Better, Next 6 Months, Library. A Station holds Cards, Checks and one Fare.
+One of the six stops of Basics, each built from one section of the source roadmap: Reality Check, Knowledge Roadmap, What NOT to Learn, Getting Better, Next 6 Months, Library. A Station holds Cards, Checks and one Fare. In the engine, Stations and Lessons share one shape.
 _Avoid_: level, lesson, chapter, module ("section" of the source HTML is written out as "source section")
 
 **Lit Station**:
@@ -77,8 +85,7 @@ The Library Station's index of all 28 books, each with a reading state: To-read,
 _Avoid_: bookshelf, list, grid
 
 **Book Unit**:
-A Unit inside a book Section (decision 23). Units 1 and 2 split the book's essentials; Unit 3 applies them to the player's situation. Passing a Unit's Fare lights it and pays 20 XP; the Badge belongs to the Section.
-_Avoid_: lesson, chapter, book station
+Retired 2026-11-10 (decision 34). Books are Sections of Circles of Lessons.
 
 **Tools**:
 A Station's interactives reachable from the Path without replaying the Station: the sliders, the habit grid, the decision journal, the Checklists, the Shelf.

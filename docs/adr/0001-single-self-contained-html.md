@@ -10,3 +10,4 @@ The game ships as a single `index.html` with inline CSS and JavaScript, no build
 - No external scripts, ever. A test asserts this.
 - Total size stays under 200 KB. Amendment 2026-11-09 (owner decision 19): with 28 Book Units (decision 18) the cap is 400 KB; GitHub Pages gzips, so the wire size stays near 70 KB.
 - Development tooling (vitest, node) exists only in the repo, never in the shipped file.
+- Amendment 2026-11-10 (ADR-0010, owner decision 30): book Lessons live in same-origin JSON files under content/books/v3/ and load on demand. Still no external scripts and no third-party requests. The page opened from disk plays Basics only.
