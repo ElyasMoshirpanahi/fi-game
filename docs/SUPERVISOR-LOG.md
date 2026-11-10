@@ -160,3 +160,7 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - One page of Notes per book: a screen with three prompts, a text area that follows the direction of what is typed, a word count against 300, reached from the open book Section, every Shelf card and the Section-complete panel. Durable, in the backup, shape-checked on load.
 - 300 tests green. Headless Brave: type in two languages, count follows, leave and reload, Shelf shows the mark.
 - Review (Standards + Spec): a crafted backup could run script through a note date; fixed with a strict shape rule and escaping. Eleven more fixes in `docs/review/spec4-notes-code-review.md`. 305 tests green.
+
+## Spec 5: install and offline (2026-11-10)
+- Added `sw.js`, `manifest.webmanifest`, `icon.svg` and three PNG icons rendered from it. The page registers the worker, shows how many books are on the device, downloads the rest on request, and offers Install when the browser does.
+- 322 tests green (routing as a pure function, the files, the panel). Headless Brave against its own local server: all 28 books downloaded, server killed, page reloaded and a book Lesson opened with no connection.

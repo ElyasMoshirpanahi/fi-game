@@ -27,3 +27,7 @@ The tests load the `content`, `engine` and `store` script blocks straight out of
 - `docs/playtests/`: first-person play-test diaries after Prompt 0, 2, 3 and 5.
 - `docs/SUPERVISOR-LOG.md`: the step-by-step build log.
 - `content/financial_independence_roadmap_clean.html`: the frozen source. Never edited; corrections live in the game copy and are recorded in the research file.
+
+## Offline and install
+
+Served over http(s), the game registers a service worker (`sw.js`). The page then opens with no connection, every book opened once stays on the device, and "Download all books" on the Path fetches the rest. Browsers that support it can install the game to the home screen. Opened from disk the page plays the Basics only and registers no worker.
