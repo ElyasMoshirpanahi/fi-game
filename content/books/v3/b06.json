@@ -445,7 +445,7 @@
               "options": [
                 {
                   "en": "They bought only shares paying high dividends",
-                  "fa": "فقط سهام با سود نقدی بالا می‌خریدند"
+                  "fa": "فقط سهامی می‌خریدند که سود نقدی بالا می‌داد"
                 },
                 {
                   "en": "They published honest research reports on every share",
@@ -528,8 +528,8 @@
                   "fa": "اختیار خرید روی پیاز لاله"
                 },
                 {
-                  "en": "Shares in the South Sea Company",
-                  "fa": "سهام شرکت دریای جنوب"
+                  "en": "New South Sea Company shares",
+                  "fa": "سهام تازهٔ شرکت دریای جنوب"
                 }
               ],
               "answer": 1
@@ -1131,7 +1131,7 @@
                 },
                 {
                   "en": "Company earnings and dividends",
-                  "fa": "سود و سود نقدی شرکت"
+                  "fa": "سود شرکت‌ها و سود نقدی سهامشان"
                 },
                 {
                   "en": "Interest rates set by central banks",
@@ -1211,7 +1211,7 @@
                 },
                 {
                   "en": "Costs made no difference to them",
-                  "fa": "هزینه‌ها برایشان فرقی نکرد"
+                  "fa": "هزینه‌ها هیچ فرقی برایشان نداشت"
                 }
               ],
               "answer": 1
@@ -1286,8 +1286,8 @@
               },
               "options": [
                 {
-                  "en": "Strong positive correlations",
-                  "fa": "همبستگی مثبت قوی"
+                  "en": "Very strong positive correlations",
+                  "fa": "همبستگی مثبت و بسیار قوی"
                 },
                 {
                   "en": "Correlations close to zero",
@@ -1968,7 +1968,7 @@
               "options": [
                 {
                   "en": "It feels exactly the same as the equal gain does",
-                  "fa": "دقیقاً همان حسی را دارد که سودِ هم‌اندازه دارد"
+                  "fa": "دقیقاً همان حسِ سودِ هم‌اندازه را دارد"
                 },
                 {
                   "en": "It is forgotten far more quickly than the gain",
@@ -2316,7 +2316,7 @@
               "options": [
                 {
                   "en": "The share pays no dividend at all",
-                  "fa": "سهم هیچ سود نقدی نمی‌دهد"
+                  "fa": "سهم هیچ سود نقدی‌ای پرداخت نمی‌کند"
                 },
                 {
                   "en": "The share never falls in a crash",
@@ -2697,7 +2697,7 @@
               "options": [
                 {
                   "en": "Every single day",
-                  "fa": "هر روز"
+                  "fa": "هر روز، بدون استثنا"
                 },
                 {
                   "en": "Once a year",
@@ -2705,7 +2705,7 @@
                 },
                 {
                   "en": "Never, let it ride",
-                  "fa": "هرگز، بگذار خودش برود"
+                  "fa": "هرگز، بگذار بماند"
                 }
               ],
               "answer": 1

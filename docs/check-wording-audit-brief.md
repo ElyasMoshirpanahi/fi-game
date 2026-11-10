@@ -1,6 +1,6 @@
-# Questions audit brief (spec 3)
+# Check wording audit brief (spec 3)
 
-A second reader checks the wording added by `docs/questions-brief.md`. Read-only: you change no file in the repo.
+A second reader checks the wording added by `docs/check-wording-brief.md`. Read-only: you change no file in the repo.
 
 For every Check in your books, read its source Card (`source`), its `prompt`, its `fare`, its options and its `answer`. Report a Check only when one of these is true:
 
@@ -21,6 +21,6 @@ Write one JSON file (path given in your task), an array:
 [{ "id": "b01c1l1k3", "problem": 1, "why": "one sentence", "fix": { "fare": { "en": "...", "fa": "..." } } }]
 ```
 
-`fix` holds only what must change: `fare`, and/or `options` (the full array, same count and order, the correct one at the same index and still worded in its source Card; the longest English option at most 1.6 times the shortest). Farsi is written as Farsi; names and terms such as ETF stay in Latin letters. An empty array is a valid result.
+`fix` holds only what must change: `fare`, and/or `options` (the full array, same count and order, the correct one at the same index and still worded in its source Card; in each language the longest option at most 1.6 times the shortest, or within 8 characters). Farsi is written as Farsi; names and terms such as ETF stay in Latin letters. An empty array is a valid result.
 
 Then report in under 80 words: Checks read, Checks reported by problem number, and anything you could not judge.

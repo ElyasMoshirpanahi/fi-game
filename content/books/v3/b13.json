@@ -466,8 +466,8 @@
                   "fa": "هستهٔ ۸۰ درصدی شاخصی"
                 },
                 {
-                  "en": "Your emergency savings",
-                  "fa": "پس‌انداز اضطراری‌ات"
+                  "en": "Emergency savings",
+                  "fa": "پس‌انداز اضطراری"
                 }
               ],
               "answer": 0
@@ -830,8 +830,8 @@
                   "fa": "از شتاب بازار پیروی کن"
                 },
                 {
-                  "en": "Let an expert run everything for you",
-                  "fa": "بگذار یک متخصص همه‌چیز را برایت اداره کند"
+                  "en": "Leave it all to an expert",
+                  "fa": "همه را به متخصص بسپار"
                 }
               ],
               "answer": 0
@@ -914,8 +914,8 @@
                   "fa": "میزان هیجان بنیان‌گذاران دربارهٔ محصولشان"
                 },
                 {
-                  "en": "How many friends have already joined the company",
-                  "fa": "تعداد دوستانی که پیش‌تر به شرکت پیوسته‌اند"
+                  "en": "How many friends have joined the company",
+                  "fa": "تعداد دوستانی که به شرکت پیوسته‌اند"
                 }
               ],
               "answer": 0

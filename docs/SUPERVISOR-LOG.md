@@ -149,3 +149,9 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Built: one neon theme, circuit road on a wave with START tag and scanner ring, Combo in the engine, effects layer in fx (sparks, flying Coin and XP, glitch, synth sounds, haptics).
 - A heavy test (ten whole books through the reducer) sat at 4.7 s against the 5 s default and failed under load; it now has an explicit 30 s limit. No test was removed.
 - Review (Standards + Spec): 18 findings fixed, 3 accepted, in `docs/review/spec8-neon-code-review.md`. 265 tests green. Headless runs now use Brave and quit the browser when done (owner request).
+
+## Spec 3: Check wording (2026-11-10)
+- Validator: tap options may not differ too much in length, and the correct option may not hold one length rank too often, in English and in Farsi. Every Check carries a second wording (`fare`) shown in the Fare.
+- Content, two passes by one agent per book: 1,065 Fare wordings; options of 357 tap Checks reworded in the first pass and 260 in the second.
+- Three reads by separate agents: every Check after the first pass (19 fixed), the code review (the length signal had moved to the middle option; Farsi unmeasured), and the 253 book Checks changed in the second pass (10 fixed). Records in `docs/review/spec3-check-wording-audit.md` and `docs/review/spec3-check-wording-code-review.md`.
+- Result over 566 tap Checks: the correct option is the longest, the shortest or neither about a third each in both languages. 284 tests green.

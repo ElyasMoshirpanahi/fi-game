@@ -243,7 +243,7 @@
                 },
                 {
                   "en": "The broker app each morning",
-                  "fa": "آنچه اپ کارگزاری هر صبح نشان می‌دهد"
+                  "fa": "اپ کارگزاری در هر صبح"
                 }
               ],
               "answer": 0
@@ -382,8 +382,8 @@
                   "fa": "اتلاف وقت مهندسی"
                 },
                 {
-                  "en": "A last resort for urgent crises",
-                  "fa": "آخرین چاره برای بحران‌های فوری"
+                  "en": "A last resort for crises",
+                  "fa": "آخرین چاره برای بحران‌ها"
                 }
               ],
               "answer": 0
@@ -694,8 +694,8 @@
                   "fa": "خواندن دو کتاب در هر ماه به مدت یک سال کامل"
                 },
                 {
-                  "en": "A higher salary from an employer in the Netherlands",
-                  "fa": "حقوق بالاتر از یک کارفرما در هلند"
+                  "en": "A higher salary from a Dutch employer",
+                  "fa": "حقوق بالاتر از یک کارفرمای هلندی"
                 }
               ],
               "answer": 0

@@ -269,16 +269,16 @@
               },
               "options": [
                 {
-                  "en": "The single best stock",
-                  "fa": "تنها بهترین سهم"
+                  "en": "The single best stock of the year",
+                  "fa": "تنها بهترین سهمِ سال"
                 },
                 {
                   "en": "Every listed business",
                   "fa": "همهٔ شرکت‌های بورسی"
                 },
                 {
-                  "en": "Last year's top fund",
-                  "fa": "برترین صندوق پارسال"
+                  "en": "Last year's top-ranked fund",
+                  "fa": "برترین صندوقِ سال گذشته"
                 }
               ],
               "answer": 1
@@ -353,12 +353,12 @@
               },
               "options": [
                 {
-                  "en": "Better luck in picking stocks",
-                  "fa": "شانس بهتر در انتخاب سهم"
+                  "en": "Luckier stock picking",
+                  "fa": "شانس بهتر در انتخاب سهام"
                 },
                 {
-                  "en": "Lower taxes on dividends",
-                  "fa": "مالیات کمتر بر سود نقدی"
+                  "en": "Lower dividend taxes",
+                  "fa": "مالیات کمتر بر سودهای نقدی"
                 },
                 {
                   "en": "Roughly the funds' costs",
@@ -699,16 +699,16 @@
               },
               "options": [
                 {
-                  "en": "The management fee",
-                  "fa": "کارمزد مدیریت"
+                  "en": "Annual management fee",
+                  "fa": "کارمزد سالانهٔ مدیریت"
                 },
                 {
                   "en": "Turnover trading costs",
                   "fa": "هزینه‌های معاملاتیِ گردش پرتفوی"
                 },
                 {
-                  "en": "None; it shows everything",
-                  "fa": "هیچ‌کدام؛ همه‌چیز را نشان می‌دهد"
+                  "en": "None: all are shown",
+                  "fa": "هیچ‌کدام؛ همه را نشان می‌دهد"
                 }
               ],
               "answer": 1
@@ -1142,16 +1142,16 @@
               },
               "options": [
                 {
-                  "en": "The owner",
-                  "fa": "مالک"
+                  "en": "The fund buyer",
+                  "fa": "خریدار صندوق"
                 },
                 {
                   "en": "The Helpers",
                   "fa": "کمک‌کارها"
                 },
                 {
-                  "en": "Index investors",
-                  "fa": "سرمایه‌گذاران شاخصی"
+                  "en": "The index investor",
+                  "fa": "سرمایه‌گذار شاخصی"
                 }
               ],
               "answer": 1
@@ -1297,8 +1297,8 @@
                   "fa": "سرمایه‌گذاری مومنتوم"
                 },
                 {
-                  "en": "Compound growth",
-                  "fa": "رشد مرکب"
+                  "en": "Compounding effect",
+                  "fa": "اثر رشد مرکب"
                 },
                 {
                   "en": "Reversion to the mean",
@@ -1351,11 +1351,11 @@
                 },
                 {
                   "en": "Its fees always fall to zero",
-                  "fa": "کارمزدش همیشه صفر می‌شود"
+                  "fa": "کارمزدش همیشه به صفر می‌رسد"
                 },
                 {
-                  "en": "Its returns double",
-                  "fa": "بازده‌اش دو برابر می‌شود"
+                  "en": "Its returns double within a year",
+                  "fa": "بازده‌اش ظرف یک سال دو برابر می‌شود"
                 }
               ],
               "answer": 0
@@ -1652,7 +1652,7 @@
                   "fa": "سهم اوراق برابر سنت"
                 },
                 {
-                  "en": "Buy bonds only after retiring",
+                  "en": "Buy bonds only after you have retired",
                   "fa": "فقط پس از بازنشستگی اوراق بخر"
                 }
               ],

@@ -114,15 +114,15 @@
               "options": [
                 {
                   "en": "Through authenticity",
-                  "fa": "با اصالت"
+                  "fa": "از راه اصالت"
                 },
                 {
-                  "en": "Through lower prices",
-                  "fa": "با قیمت پایین‌تر"
+                  "en": "Through cheaper pricing",
+                  "fa": "با قیمت ارزان‌تر"
                 },
                 {
-                  "en": "Through longer hours",
-                  "fa": "با ساعت‌های کاری بیشتر"
+                  "en": "Through working more hours",
+                  "fa": "با ساعت کار بیشتر"
                 }
               ],
               "answer": 0
@@ -202,11 +202,11 @@
                 },
                 {
                   "en": "Whatever is hot this month",
-                  "fa": "هر چیزی که این ماه داغ است"
+                  "fa": "هرچه این ماه داغ است"
                 },
                 {
-                  "en": "A list of top startup ideas",
-                  "fa": "فهرستی از بهترین ایده‌های استارتاپی"
+                  "en": "A list of startup ideas",
+                  "fa": "فهرست ایده‌های استارتاپی"
                 }
               ],
               "answer": 0
@@ -270,7 +270,7 @@
                 },
                 {
                   "en": "Fame and status without any risk",
-                  "fa": "شهرت و جایگاه بدون هیچ ریسکی"
+                  "fa": "شهرت و جایگاه بی‌ریسک"
                 }
               ],
               "answer": 0
@@ -452,8 +452,8 @@
                   "fa": "محصولاتی بدون هزینهٔ تکثیر حاشیه‌ای"
                 },
                 {
-                  "en": "A prestigious degree from a well-known university",
-                  "fa": "مدرکی معتبر از دانشگاهی سرشناس"
+                  "en": "A prestigious degree from a very well-known university",
+                  "fa": "مدرکی معتبر از یک دانشگاه بسیار سرشناس"
                 },
                 {
                   "en": "A large circle of well-connected friends",
@@ -544,12 +544,12 @@
                   "fa": "اهرم بدون اجازه"
                 },
                 {
-                  "en": "Risky side projects",
+                  "en": "Side projects with high risk",
                   "fa": "پروژه‌های جانبی پرریسک"
                 },
                 {
                   "en": "Tools only big firms can use",
-                  "fa": "ابزارهایی فقط برای شرکت‌های بزرگ"
+                  "fa": "ابزار خاص شرکت‌های بزرگ"
                 }
               ],
               "answer": 0
@@ -653,7 +653,7 @@
                 },
                 {
                   "en": "Never changing your mind once you have decided",
-                  "fa": "هرگز تغییر ندادن نظرت پس از تصمیم گرفتن"
+                  "fa": "عوض نکردن نظر پس از تصمیم"
                 }
               ],
               "answer": 0
@@ -740,12 +740,12 @@
                   "fa": "کجا زندگی کنی، با چه کسی باشی، چه کار کنی"
                 },
                 {
-                  "en": "Which phone, car and school you end up choosing",
-                  "fa": "در نهایت کدام گوشی، ماشین و مدرسه را انتخاب کنی"
+                  "en": "Which phone, car and school you choose",
+                  "fa": "کدام گوشی، ماشین و مدرسه را انتخاب کنی"
                 },
                 {
-                  "en": "Your salary, your title and your degree",
-                  "fa": "حقوقت، عنوانت و مدرکت"
+                  "en": "Your salary, your job title and your degree",
+                  "fa": "میزان حقوقت، عنوان شغلی‌ات و مدرکت"
                 }
               ],
               "answer": 0
@@ -835,12 +835,12 @@
                   "fa": "بهرهٔ مرکب"
                 },
                 {
-                  "en": "Lucky breaks",
+                  "en": "Sudden lucky breaks",
                   "fa": "شانس‌های ناگهانی"
                 },
                 {
-                  "en": "Short-term trades",
-                  "fa": "معامله‌های کوتاه‌مدت"
+                  "en": "Short-term trading",
+                  "fa": "معاملهٔ کوتاه‌مدت"
                 }
               ],
               "answer": 0
@@ -928,7 +928,7 @@
                 },
                 {
                   "en": "They protect you from taking any risk",
-                  "fa": "تو را از هر ریسکی محافظت می‌کنند"
+                  "fa": "تو را از هر نوع ریسکی محافظت می‌کنند"
                 },
                 {
                   "en": "They make the best partners",
@@ -1022,12 +1022,12 @@
                   "fa": "آنچه دوست داری بخوان تا خواندن را دوست داشته باشی"
                 },
                 {
-                  "en": "Finish every book you start, cover to cover",
-                  "fa": "هر کتابی را که شروع کردی از اول تا آخر تمام کن"
+                  "en": "Finish every single book you start",
+                  "fa": "هر کتابی را که شروع کردی تمام کن"
                 },
                 {
                   "en": "Read only from the bestseller lists",
-                  "fa": "فقط از فهرست پرفروش‌ها بخوان"
+                  "fa": "فقط از فهرست کتاب‌های پرفروش بخوان"
                 }
               ],
               "answer": 0
@@ -1118,8 +1118,8 @@
                   "fa": "کتاب‌های کلاسیک و درسی علمی"
                 },
                 {
-                  "en": "Philosophy and mathematics",
-                  "fa": "فلسفه و ریاضیات"
+                  "en": "Books on philosophy and mathematics",
+                  "fa": "کتاب‌های فلسفه و ریاضیات"
                 }
               ],
               "answer": 0
@@ -1222,8 +1222,8 @@
                   "fa": "موتوری که همهٔ شادی‌هایت را پیش می‌برد"
                 },
                 {
-                  "en": "A promise of joy in the future",
-                  "fa": "وعدهٔ شادی در آینده"
+                  "en": "A promise of joy in the near future",
+                  "fa": "وعدهٔ شادی در آیندهٔ نزدیک"
                 }
               ],
               "answer": 0
@@ -1310,12 +1310,12 @@
                   "fa": "باید کاملاً جای او باشی"
                 },
                 {
-                  "en": "Envy always leads to success in the end",
-                  "fa": "حسادت در نهایت همیشه به موفقیت می‌رسد"
+                  "en": "Envy leads you to success in the end",
+                  "fa": "حسادت در نهایت به موفقیت می‌رسد"
                 },
                 {
-                  "en": "Other people are never happy",
-                  "fa": "دیگران هرگز شاد نیستند"
+                  "en": "Other people are never really happy either",
+                  "fa": "دیگران هم هرگز واقعاً شاد نیستند"
                 }
               ],
               "answer": 0
@@ -1410,7 +1410,7 @@
                 },
                 {
                   "en": "Fight, hide or blame others",
-                  "fa": "بجنگ، پنهان شو یا دیگران را مقصر بدان"
+                  "fa": "بجنگ، پنهان شو یا مقصر بتراش"
                 }
               ],
               "answer": 0
@@ -1501,8 +1501,8 @@
                   "fa": "ورزشی تیمی برای همه"
                 },
                 {
-                  "en": "A zero-sum race to the top",
-                  "fa": "مسابقه‌ای با جمع صفر تا قله"
+                  "en": "A zero-sum competition",
+                  "fa": "رقابتی با جمع صفر"
                 }
               ],
               "answer": 0
@@ -1631,12 +1631,12 @@
                   "fa": "روزه‌داری متناوب برای ذهن"
                 },
                 {
-                  "en": "A waste of your best morning hours",
-                  "fa": "هدر دادن بهترین ساعت‌های صبحت"
+                  "en": "A waste of your morning hours",
+                  "fa": "هدر دادن ساعت‌های صبحت"
                 },
                 {
                   "en": "A cure for every illness",
-                  "fa": "درمان هر بیماری"
+                  "fa": "درمان همهٔ بیماری‌ها"
                 }
               ],
               "answer": 0
@@ -1715,12 +1715,12 @@
                   "fa": "قضاوت خسته تصمیم‌های بدتری می‌گیرد"
                 },
                 {
-                  "en": "Sleep is nothing but wasted working time",
-                  "fa": "خواب چیزی جز وقت کاری هدررفته نیست"
+                  "en": "Sleep is just wasted work time",
+                  "fa": "خواب فقط وقت کاری هدررفته است"
                 },
                 {
                   "en": "Leverage removes all mistakes",
-                  "fa": "اهرم همهٔ اشتباه‌ها را از بین می‌برد"
+                  "fa": "اهرم همهٔ خطاها را از بین می‌برد"
                 }
               ],
               "answer": 0

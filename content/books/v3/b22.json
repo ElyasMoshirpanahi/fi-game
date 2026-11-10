@@ -234,11 +234,11 @@
               },
               "options": [
                 {
-                  "en": "Raise venture funding first, then build",
+                  "en": "Raise VC money, then build",
                   "fa": "اول سرمایهٔ خطرپذیر جذب کن، بعد بساز"
                 },
                 {
-                  "en": "Hire a team of five engineers",
+                  "en": "Hire a five-engineer team",
                   "fa": "تیمی پنج‌نفره از مهندس‌ها استخدام کن"
                 },
                 {
@@ -623,16 +623,16 @@
               },
               "options": [
                 {
-                  "en": "Fifteen minutes at most",
-                  "fa": "حداکثر پانزده دقیقه"
+                  "en": "Up to 15 minutes",
+                  "fa": "تا ۱۵ دقیقه"
                 },
                 {
                   "en": "At least half a day",
                   "fa": "دست‌کم نیم روز"
                 },
                 {
-                  "en": "Exactly one hour, no more",
-                  "fa": "دقیقاً یک ساعت، نه بیشتر"
+                  "en": "Just one hour",
+                  "fa": "فقط یک ساعت"
                 }
               ],
               "answer": 1
@@ -726,8 +726,8 @@
                   "fa": "علاقهٔ عمیق به آن"
                 },
                 {
-                  "en": "Your friends approve of it",
-                  "fa": "دوستانت تأییدش می‌کنند"
+                  "en": "Friends approve of it",
+                  "fa": "دوستانت می‌پسندند"
                 }
               ],
               "answer": 1
@@ -878,7 +878,7 @@
               },
               "options": [
                 {
-                  "en": "The one that looks the safest to you",
+                  "en": "The one that looks safest",
                   "fa": "آن که به نظرت امن‌ترین است"
                 },
                 {
@@ -886,8 +886,8 @@
                   "fa": "آن که بیش از همه کنجکاوت می‌کند"
                 },
                 {
-                  "en": "The one a friend suggests you build",
-                  "fa": "آن که دوستی پیشنهاد می‌دهد بسازی"
+                  "en": "The one a friend suggests",
+                  "fa": "آن که دوستی پیشنهاد می‌دهد"
                 }
               ],
               "answer": 1

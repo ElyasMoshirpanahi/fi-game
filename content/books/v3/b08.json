@@ -78,12 +78,12 @@
                   "fa": "تئوری، تاریخ، روانشناسی و کسب‌وکار سرمایه‌گذاری"
                 },
                 {
-                  "en": "Stocks, bonds, gold and real estate as asset classes",
-                  "fa": "سهام، اوراق قرضه، طلا و املاک به‌عنوان طبقات دارایی"
+                  "en": "Stocks, bonds, gold and real estate as assets",
+                  "fa": "سهام، اوراق قرضه، طلا و املاک به‌عنوان دارایی"
                 },
                 {
-                  "en": "Saving, budgeting, insurance and the tax rules of your country",
-                  "fa": "پس‌انداز، بودجه‌بندی، بیمه و قواعد مالیاتی کشورت"
+                  "en": "Saving, budgeting, insurance and local tax rules",
+                  "fa": "پس‌انداز، بودجه‌بندی، بیمه و قواعد مالیات محلی"
                 }
               ],
               "answer": 0
@@ -171,7 +171,7 @@
                 },
                 {
                   "en": "A fee that brokers charge clients for risky trades",
-                  "fa": "کارمزدی که کارگزاران برای معاملات پرریسک از مشتری می‌گیرند"
+                  "fa": "کارمزدی که کارگزاران برای معاملات پرریسک می‌گیرند"
                 },
                 {
                   "en": "Insurance that is paid out when markets crash",
@@ -803,11 +803,11 @@
                 },
                 {
                   "en": "Those who buy what is in the news",
-                  "fa": "کسانی که آنچه در اخبار است می‌خرند"
+                  "fa": "کسانی که آنچه در خبرهاست می‌خرند"
                 },
                 {
-                  "en": "Those who wait until prices feel safe",
-                  "fa": "کسانی که صبر می‌کنند تا قیمت‌ها امن به نظر برسند"
+                  "en": "Those who wait for prices to feel safe",
+                  "fa": "کسانی که منتظر قیمت امن می‌مانند"
                 }
               ],
               "answer": 0
@@ -1014,8 +1014,8 @@
                   "fa": "باعث می‌شود زیان بسیار بیشتر از لذت سودی هم‌اندازه درد داشته باشد"
                 },
                 {
-                  "en": "Makes investors keen to buy more shares after every loss",
-                  "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان مشتاق خرید سهام بیشتر شوند"
+                  "en": "Makes investors keen to buy more after every loss",
+                  "fa": "باعث می‌شود سرمایه‌گذاران پس از هر زیان مشتاق خرید بیشتر شوند"
                 },
                 {
                   "en": "Removes the fear of falling prices from investors",
@@ -1129,8 +1129,8 @@
                   "fa": "فقط از سهمی از سود سرمایه‌گذاری تو"
                 },
                 {
-                  "en": "From government grants paid out to licensed brokers",
-                  "fa": "از کمک‌های دولتی که به کارگزاران دارای مجوز پرداخت می‌شود"
+                  "en": "From government grants paid to licensed brokers",
+                  "fa": "از کمک‌های دولتی به کارگزاران دارای مجوز"
                 }
               ],
               "answer": 0
@@ -1222,7 +1222,7 @@
                 },
                 {
                   "en": "As expert advice to follow",
-                  "fa": "توصیهٔ کارشناسی که باید دنبالش کرد"
+                  "fa": "توصیهٔ کارشناسی قابل پیروی"
                 }
               ],
               "answer": 0
@@ -1570,8 +1570,8 @@
                   "fa": "آنچه بالا رفته را بفروشی و آنچه افتاده را بخری"
                 },
                 {
-                  "en": "Buy more of whatever rose most in the past year",
-                  "fa": "بیشتر از هر چه در سال گذشته بیشتر بالا رفته بخری"
+                  "en": "Buy more of whatever rose most last year",
+                  "fa": "بیشتر از هر چه پارسال بیشتر بالا رفته بخری"
                 },
                 {
                   "en": "Move everything to cash each year",

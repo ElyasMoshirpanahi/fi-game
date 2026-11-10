@@ -911,8 +911,8 @@
                   "fa": "اگر آرام و دست‌دوم بخری، ساعت کمتری می‌گیرند"
                 },
                 {
-                  "en": "Bikes cost more in the Netherlands",
-                  "fa": "دوچرخه در هلند گران‌تر است"
+                  "en": "Bikes are more expensive in the Netherlands",
+                  "fa": "قیمت دوچرخه در هلند بالاتر است"
                 },
                 {
                   "en": "Prices only go down over time",
@@ -1123,12 +1123,12 @@
               },
               "options": [
                 {
-                  "en": "Your first Dutch salary after you arrive",
+                  "en": "Your first Dutch salary on arrival",
                   "fa": "اولین حقوقت در هلند پس از رسیدن"
                 },
                 {
-                  "en": "Your BSN registration at the town hall",
-                  "fa": "ثبت BSN در شهرداری"
+                  "en": "Your BSN registration at town hall",
+                  "fa": "ثبت BSN خودت در شهرداری"
                 },
                 {
                   "en": "The first €100 from a small AI product",

@@ -466,8 +466,8 @@
                   "fa": "به بازارهای مرتبط گسترش بده"
                 },
                 {
-                  "en": "Sell the company quickly",
-                  "fa": "شرکت را سریع بفروش"
+                  "en": "Sell the company right away",
+                  "fa": "شرکت را در اولین فرصت بفروش"
                 }
               ],
               "answer": 1
@@ -789,8 +789,8 @@
                   "fa": "نه بیش از ۱۵۰ هزار دلار در سال"
                 },
                 {
-                  "en": "Match the pay of CEOs at big companies",
-                  "fa": "هم‌اندازهٔ حقوق مدیرعامل شرکت‌های بزرگ"
+                  "en": "Same as CEOs at big companies",
+                  "fa": "مثل مدیرعامل شرکت‌های بزرگ"
                 },
                 {
                   "en": "Pay in cash only, never in shares",
@@ -831,7 +831,7 @@
               "options": [
                 {
                   "en": "Perks like free laundry pickup",
-                  "fa": "مزایایی مثل خشک‌شویی رایگان"
+                  "fa": "مزایا مثل خشک‌شویی رایگان"
                 },
                 {
                   "en": "Your mission and your team",
@@ -915,7 +915,7 @@
               "options": [
                 {
                   "en": "A ten-year revenue forecast",
-                  "fa": "پیش‌بینی ده‌سالهٔ درآمد"
+                  "fa": "پیش‌بینی درآمد ده‌ساله"
                 },
                 {
                   "en": "Your distribution plan",

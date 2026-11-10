@@ -151,7 +151,7 @@
                 },
                 {
                   "en": "Only the one you love most",
-                  "fa": "فقط همانی که بیشتر از همه دوستش داری"
+                  "fa": "فقط محبوب‌ترین استارتاپت"
                 }
               ],
               "answer": 0
@@ -606,12 +606,12 @@
                   "fa": "چرا سرمایه‌گذاری کردی، چه باید درست پیش برود، چه می‌تواند شرکت را نابود کند"
                 },
                 {
-                  "en": "The founder's home address, written out with the full postal code",
-                  "fa": "نشانی خانهٔ بنیان‌گذار، همراه با کد پستی کامل"
+                  "en": "How much you invested, the date of the transfer, the bank you used",
+                  "fa": "چقدر سرمایه گذاشتی، تاریخ انتقال پول، و بانکی که استفاده کردی"
                 },
                 {
-                  "en": "Only the share price on the day you invested, and nothing more than that",
-                  "fa": "فقط قیمت سهم در روزی که سرمایه‌گذاری کردی، و نه چیزی بیشتر"
+                  "en": "Only the share price on the day you invested and the size of the round",
+                  "fa": "فقط قیمت سهم در روزی که سرمایه‌گذاری کردی و اندازهٔ دور سرمایه"
                 }
               ],
               "answer": 0

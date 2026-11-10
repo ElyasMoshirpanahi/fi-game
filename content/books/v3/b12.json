@@ -74,8 +74,8 @@
                   "fa": "سهمی که در یک سال گذشته سریع بالا رفت"
                 },
                 {
-                  "en": "A company with celebrity backers",
-                  "fa": "شرکتی با حامیان مشهور"
+                  "en": "A company backed by well-known celebrities",
+                  "fa": "شرکتی که چهره‌های مشهور حامی‌اش هستند"
                 }
               ],
               "answer": 0
@@ -150,7 +150,7 @@
               },
               "options": [
                 {
-                  "en": "It ignores the marketing costs a business must pay",
+                  "en": "It ignores marketing costs a business must pay",
                   "fa": "هزینه‌های بازاریابی‌ای را که کسب‌وکار باید بپردازد نادیده می‌گیرد"
                 },
                 {
@@ -322,7 +322,7 @@
                 },
                 {
                   "en": "A rising share price",
-                  "fa": "قیمت سهمی که بالا می‌رود"
+                  "fa": "قیمت سهم رو به بالا"
                 }
               ],
               "answer": 0
@@ -519,7 +519,7 @@
               "options": [
                 {
                   "en": "It must cut prices to keep customers",
-                  "fa": "برای نگه‌داشتن مشتری باید قیمت را پایین بیاورد"
+                  "fa": "باید برای حفظ مشتری ارزان کند"
                 },
                 {
                   "en": "It has no close substitute",
@@ -613,8 +613,8 @@
                   "fa": "قیمت‌ها برای خدمت به تو هستند، نه راهنمایی تو"
                 },
                 {
-                  "en": "Sell your shares whenever the quoted price falls",
-                  "fa": "هر بار قیمت اعلام‌شده افتاد سهمت را بفروشی"
+                  "en": "Sell your shares if the quoted price falls",
+                  "fa": "اگر قیمت اعلام‌شده افتاد سهمت را بفروشی"
                 }
               ],
               "answer": 1
@@ -666,8 +666,8 @@
                   "fa": "وقتی دیگران طمع دارند تو هم طمع کن"
                 },
                 {
-                  "en": "Stay out whenever others are fearful",
-                  "fa": "هر وقت دیگران می‌ترسند کنار بکش"
+                  "en": "Stay out when others are fearful",
+                  "fa": "وقتی دیگران می‌ترسند کنار بکش"
                 }
               ],
               "answer": 0
@@ -838,7 +838,7 @@
                 },
                 {
                   "en": "Keeping it secret from rivals",
-                  "fa": "پنهان نگه داشتنش از رقبا"
+                  "fa": "پنهان کردنش از رقبا"
                 }
               ],
               "answer": 1
@@ -981,8 +981,8 @@
               },
               "options": [
                 {
-                  "en": "Only the 80 percent index core you plan to hold for decades",
-                  "fa": "فقط هستهٔ شاخصی ۸۰ درصدی که قرار است دهه‌ها نگهش داری"
+                  "en": "Only the 80 percent index core you hold for decades",
+                  "fa": "فقط هستهٔ شاخصی ۸۰ درصدی که دهه‌ها نگهش می‌داری"
                 },
                 {
                   "en": "Choosing which Dutch bank account to keep your savings in",
@@ -1026,7 +1026,7 @@
               },
               "options": [
                 {
-                  "en": "Every pitch that comes along is worth taking a full swing at",
+                  "en": "Every pitch that comes along is worth a full swing",
                   "fa": "هر توپی که می‌آید ارزش یک ضربهٔ کامل را دارد"
                 },
                 {
@@ -1346,8 +1346,8 @@
                   "fa": "مدیران از راه بازاریابی یا مهندسی به بالا می‌رسند"
                 },
                 {
-                  "en": "Boards forbid them from investing any spare cash at all",
-                  "fa": "هیئت‌مدیره سرمایه‌گذاری هر نقد اضافه‌ای را برایشان ممنوع می‌کند"
+                  "en": "Boards forbid them from investing any spare cash",
+                  "fa": "هیئت‌مدیره سرمایه‌گذاری نقد اضافه را برایشان ممنوع می‌کند"
                 }
               ],
               "answer": 1
@@ -1426,11 +1426,11 @@
                   "fa": "پرداخت بهای Dexter Shoe با سهام Berkshire"
                 },
                 {
-                  "en": "Buying the whole of See's Candies back in 1972",
+                  "en": "Buying the whole of See's Candies in 1972",
                   "fa": "خرید کل See's Candies در سال ۱۹۷۲"
                 },
                 {
-                  "en": "Taking full ownership of GEICO back in 1996",
+                  "en": "Taking full ownership of GEICO in 1996",
                   "fa": "به دست گرفتن مالکیت کامل GEICO در سال ۱۹۹۶"
                 }
               ],
@@ -1502,7 +1502,7 @@
                   "fa": "قانون شرکت هلدینگ را از پرداخت آن منع می‌کند"
                 },
                 {
-                  "en": "Buffett thinks Berkshire's owners never have any need for cash",
+                  "en": "Buffett thinks Berkshire's owners never need cash",
                   "fa": "Buffett فکر می‌کند مالکان Berkshire هیچ‌وقت نقد لازم ندارند"
                 },
                 {
@@ -1607,8 +1607,8 @@
                   "fa": "هر وقت قیمت سهم بالا می‌رود"
                 },
                 {
-                  "en": "Whenever its earnings per share look rather low",
-                  "fa": "هر وقت سود هر سهمش نسبتاً پایین به نظر می‌رسد"
+                  "en": "Whenever its earnings per share look low",
+                  "fa": "هر وقت سود هر سهمش پایین به نظر می‌رسد"
                 }
               ],
               "answer": 0
@@ -1687,7 +1687,7 @@
                   "fa": "فقط تا ۱۱۰ درصد ارزش دفتری هر سهم بخر"
                 },
                 {
-                  "en": "Never repurchase any shares, whatever the price may be",
+                  "en": "Never repurchase any shares, whatever the price",
                   "fa": "هرگز، با هر قیمتی، هیچ سهمی بازخرید نکن"
                 },
                 {
@@ -1931,7 +1931,7 @@
               "options": [
                 {
                   "en": "Managers clear every hire with Omaha",
-                  "fa": "مدیران هر استخدام را با Omaha هماهنگ می‌کنند"
+                  "fa": "هر استخدام با تأیید Omaha انجام می‌شود"
                 },
                 {
                   "en": "Almost to the point of abdication",
@@ -2006,11 +2006,11 @@
               },
               "options": [
                 {
-                  "en": "They give managers too little pay for the work they do",
+                  "en": "They give managers too little pay for their work",
                   "fa": "برای کاری که مدیران می‌کنند پرداختی خیلی کم می‌دهند"
                 },
                 {
-                  "en": "They are banned by law in most American states today",
+                  "en": "They are banned by law in most US states today",
                   "fa": "امروز در بیشتر ایالت‌های آمریکا قانوناً ممنوع‌اند"
                 },
                 {
@@ -2112,7 +2112,7 @@
                 },
                 {
                   "en": "A hedge fund an adviser chose",
-                  "fa": "صندوق پوشش ریسکی که مشاور انتخاب کرده"
+                  "fa": "صندوق پوشش ریسکی به انتخاب مشاور"
                 },
                 {
                   "en": "A few stocks traded weekly",

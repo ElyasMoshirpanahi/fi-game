@@ -117,12 +117,12 @@
                   "fa": "دادهٔ واقعی از مشتری واقعی"
                 },
                 {
-                  "en": "Features shipped right on schedule",
-                  "fa": "قابلیت‌هایی که درست به‌موقع تحویل شده‌اند"
+                  "en": "Features shipped on time",
+                  "fa": "قابلیت‌های تحویل‌شده سر وقت"
                 },
                 {
-                  "en": "Hours worked by the whole team",
-                  "fa": "ساعت‌هایی که کل تیم کار کرده است"
+                  "en": "Hours the team worked",
+                  "fa": "ساعت‌های کاری کل تیم"
                 }
               ],
               "answer": 0
@@ -376,12 +376,12 @@
                   "fa": "به اولین مشتری‌اش شخصاً و با دست خدمت داد"
                 },
                 {
-                  "en": "Ran a national advertising campaign before launch",
-                  "fa": "پیش از عرضه یک کمپین تبلیغاتی سراسری اجرا کرد"
+                  "en": "Ran a national ad campaign before launch",
+                  "fa": "پیش از عرضه کمپین تبلیغاتی سراسری اجرا کرد"
                 },
                 {
-                  "en": "Built a full recipe app before signing anyone up",
-                  "fa": "پیش از جذب هر مشتری یک اپ کامل دستور غذا ساخت"
+                  "en": "Built a full recipe app before any sign-ups",
+                  "fa": "پیش از جذب مشتری اپ کامل دستور غذا ساخت"
                 }
               ],
               "answer": 0
@@ -452,12 +452,12 @@
                   "fa": "آزمودن فرضیه‌ها با کمترین تلاش"
                 },
                 {
-                  "en": "To impress investors with a polished first look",
-                  "fa": "تحت تأثیر قرار دادن سرمایه‌گذاران با ظاهری صیقلی در نگاه اول"
+                  "en": "To impress investors with a polished look",
+                  "fa": "جلب نظر سرمایه‌گذاران با ظاهری صیقلی"
                 },
                 {
-                  "en": "To include every feature planned for launch",
-                  "fa": "گنجاندن همهٔ قابلیت‌های برنامه‌ریزی‌شده برای عرضه"
+                  "en": "To include every planned launch feature",
+                  "fa": "گنجاندن همهٔ قابلیت‌های عرضه"
                 }
               ],
               "answer": 0

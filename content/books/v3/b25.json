@@ -256,8 +256,8 @@
                   "fa": "آتش را خاموش می‌کند"
                 },
                 {
-                  "en": "It has no effect at all",
-                  "fa": "هیچ اثری ندارد"
+                  "en": "No effect on fire",
+                  "fa": "هیچ اثری بر آتش ندارد"
                 }
               ],
               "answer": 0
@@ -645,8 +645,8 @@
                   "fa": "John"
                 },
                 {
-                  "en": "Both equally",
-                  "fa": "هر دو به یک اندازه"
+                  "en": "Both of them",
+                  "fa": "هر دوشان"
                 }
               ],
               "answer": 1
@@ -836,7 +836,7 @@
                 },
                 {
                   "en": "A cure for every illness",
-                  "fa": "درمانی برای هر بیماری"
+                  "fa": "درمانی برای همهٔ بیماری‌ها"
                 },
                 {
                   "en": "Harm caused by pure bad luck",
@@ -1157,7 +1157,7 @@
                 },
                 {
                   "en": "Losing nothing at all",
-                  "fa": "هیچ ضرری نکردن"
+                  "fa": "از دست ندادن هیچ چیز"
                 }
               ],
               "answer": 0
@@ -1568,11 +1568,11 @@
                 },
                 {
                   "en": "The customers",
-                  "fa": "مشتریان"
+                  "fa": "خود مشتریان"
                 },
                 {
                   "en": "Investor spreadsheets",
-                  "fa": "صفحه‌گسترده‌های سرمایه‌گذاران"
+                  "fa": "جدول سرمایه‌گذاران"
                 }
               ],
               "answer": 1

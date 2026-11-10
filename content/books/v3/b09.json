@@ -110,7 +110,7 @@
                 },
                 {
                   "en": "US stocks, foreign stocks, REITs and commodities",
-                  "fa": "سهام آمریکا، سهام خارجی، REIT و کالا"
+                  "fa": "سهام آمریکا و خارجی، REIT و کالا"
                 },
                 {
                   "en": "Bonds, bills, crypto and real estate",
@@ -189,8 +189,8 @@
                   "fa": "سهام، طلا، نقد، بیت‌کوین و آثار هنری نفیس"
                 },
                 {
-                  "en": "Only US stocks, split into five different company sizes",
-                  "fa": "فقط سهام آمریکا، تقسیم‌شده به پنج اندازهٔ متفاوت شرکت"
+                  "en": "Only US stocks, split into five company sizes",
+                  "fa": "فقط سهام آمریکا، تقسیم‌شده به پنج اندازهٔ شرکت"
                 }
               ],
               "answer": 0
@@ -364,12 +364,12 @@
                   "fa": "افت طولانی نرخ بهره بازده غیرعادی قوی به اوراق قرضه داد"
                 },
                 {
-                  "en": "Bonds lost money in every single year of the forty-year test period",
-                  "fa": "اوراق قرضه در تک‌تک سال‌های دورهٔ چهل‌سالهٔ آزمایش زیان دادند"
+                  "en": "Bonds lost money in every year of the forty-year test",
+                  "fa": "اوراق قرضه در همهٔ سال‌های دورهٔ چهل‌ساله زیان دادند"
                 },
                 {
-                  "en": "Bonds were left out of every portfolio that he chose to compare",
-                  "fa": "اوراق قرضه از همهٔ سبدهایی که او برای مقایسه برگزید کنار گذاشته شدند"
+                  "en": "Bonds were left out of every portfolio he compared",
+                  "fa": "اوراق قرضه از همهٔ سبدهای مقایسه‌شده کنار گذاشته شدند"
                 }
               ],
               "answer": 0
@@ -516,8 +516,8 @@
                   "fa": "سهم‌های مساوی از پنج طبقهٔ داراییِ برتر پارسال"
                 },
                 {
-                  "en": "Only the stocks of the largest country by market value",
-                  "fa": "فقط سهام بزرگ‌ترین کشور از نظر ارزش بازار"
+                  "en": "Only the stocks of the single largest country by market value",
+                  "fa": "فقط سهام یک کشور، بزرگ‌ترین از نظر ارزش بازار"
                 }
               ],
               "answer": 0
@@ -677,7 +677,7 @@
                 },
                 {
                   "en": "Last year's return of each broker's app",
-                  "fa": "بازده پارسال اپ هر کارگزار"
+                  "fa": "بازده پارسال اپلیکیشن هر کارگزار"
                 }
               ],
               "answer": 0

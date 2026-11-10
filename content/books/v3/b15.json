@@ -163,10 +163,10 @@
                 },
                 {
                   "en": "The newest angel",
-                  "fa": "تازه‌ترین سرمایه‌گذار فرشته"
+                  "fa": "تازه‌ترین angel"
                 },
                 {
-                  "en": "The company's auditor",
+                  "en": "The auditor",
                   "fa": "حسابرس شرکت"
                 }
               ],
@@ -234,7 +234,7 @@
               },
               "options": [
                 {
-                  "en": "Hiding your numbers until the very last meeting",
+                  "en": "Hiding your numbers until the last meeting",
                   "fa": "پنهان‌کردن اعدادت تا آخرین جلسه"
                 },
                 {
@@ -378,8 +378,8 @@
                   "fa": "اینکه محرک‌های کسب‌وکارت را می‌فهمی"
                 },
                 {
-                  "en": "The exact revenue you will reach in year five",
-                  "fa": "درآمد دقیقی که در سال پنجم به آن می‌رسی"
+                  "en": "The exact revenue you reach in year five",
+                  "fa": "درآمد دقیقت در سال پنجم"
                 },
                 {
                   "en": "The lowest price you are willing to accept",
@@ -427,8 +427,8 @@
               },
               "options": [
                 {
-                  "en": "A longer and far more detailed presentation deck",
-                  "fa": "یک presentation deck طولانی‌تر و بسیار مفصل‌تر"
+                  "en": "A longer, more detailed presentation deck",
+                  "fa": "یک presentation deck طولانی‌تر و مفصل‌تر"
                 },
                 {
                   "en": "A warm introduction from someone the VC trusts",
@@ -503,12 +503,12 @@
               },
               "options": [
                 {
-                  "en": "A single friendly investor",
-                  "fa": "یک سرمایه‌گذار دوستانهٔ تنها"
+                  "en": "One friendly investor",
+                  "fa": "یک سرمایه‌گذار همراه"
                 },
                 {
-                  "en": "A very high asking price",
-                  "fa": "قیمت درخواستی خیلی بالا"
+                  "en": "A high asking price",
+                  "fa": "قیمت درخواستی بالا"
                 },
                 {
                   "en": "Competing interest",
@@ -598,12 +598,12 @@
               },
               "options": [
                 {
-                  "en": "Valuation and legal fees",
-                  "fa": "ارزش‌گذاری و هزینه‌های حقوقی"
+                  "en": "Valuation and fees",
+                  "fa": "ارزش‌گذاری و هزینه‌ها"
                 },
                 {
-                  "en": "Board size and founder salary",
-                  "fa": "اندازهٔ هیئت‌مدیره و حقوق بنیان‌گذار"
+                  "en": "Board size and pay",
+                  "fa": "اندازهٔ هیئت و حقوق"
                 },
                 {
                   "en": "Economics and control",
@@ -762,7 +762,7 @@
                   "fa": "مذاکرهٔ مستقیم روی قیمت"
                 },
                 {
-                  "en": "Asking for a larger option pool",
+                  "en": "Seeking a bigger option pool",
                   "fa": "درخواست option pool بزرگ‌تر"
                 },
                 {
@@ -959,8 +959,8 @@
                   "fa": "فقط ترجیحش و نه بیشتر"
                 },
                 {
-                  "en": "Nothing until common holders are paid in full",
-                  "fa": "هیچ، تا وقتی دارندگان سهام عادی کامل پولشان را بگیرند"
+                  "en": "Nothing until common is paid",
+                  "fa": "هیچ، تا پرداخت سهام عادی"
                 }
               ],
               "answer": 0
@@ -1027,8 +1027,8 @@
               },
               "options": [
                 {
-                  "en": "In large exits",
-                  "fa": "در خروج‌های بزرگ"
+                  "en": "In very large exits",
+                  "fa": "در خروج‌های خیلی بزرگ"
                 },
                 {
                   "en": "In public offerings",
@@ -1153,12 +1153,12 @@
               },
               "options": [
                 {
-                  "en": "Venture debt borrowed from a commercial bank",
-                  "fa": "وام venture گرفته‌شده از یک بانک تجاری"
+                  "en": "Venture debt from a commercial bank",
+                  "fa": "وام venture از یک بانک تجاری"
                 },
                 {
-                  "en": "A public share offering on a stock exchange",
-                  "fa": "عرضهٔ عمومی سهام در بورس"
+                  "en": "A public share offering on an exchange",
+                  "fa": "عرضهٔ عمومی سهام در یک بازار بورس"
                 },
                 {
                   "en": "Convertible debt instead of priced equity",
@@ -1210,11 +1210,11 @@
                   "fa": "کنترل هیئت‌مدیره و رأی"
                 },
                 {
-                  "en": "The length of the pitch deck",
-                  "fa": "طول pitch deck"
+                  "en": "How long the pitch deck is",
+                  "fa": "اینکه pitch deck چقدر طولانی است"
                 },
                 {
-                  "en": "The wording of the elevator pitch",
+                  "en": "How the elevator pitch is worded",
                   "fa": "جمله‌بندی elevator pitch"
                 }
               ],
@@ -1290,7 +1290,7 @@
                   "fa": "می‌تواند خریداران دیگر را فراری دهد"
                 },
                 {
-                  "en": "It cancels the founders' vesting",
+                  "en": "It cancels founder vesting",
                   "fa": "vesting بنیان‌گذاران را لغو می‌کند"
                 }
               ],
@@ -1474,12 +1474,12 @@
                   "fa": "فروش و اخراج فرد"
                 },
                 {
-                  "en": "A new funding round and a promotion",
-                  "fa": "یک دور سرمایه‌گذاری جدید و یک ترفیع"
+                  "en": "A new round and a promotion",
+                  "fa": "یک دور جدید و یک ترفیع"
                 },
                 {
                   "en": "A board vote and an audit",
-                  "fa": "رأی هیئت‌مدیره و یک حسابرسی"
+                  "fa": "رأی هیئت‌مدیره و حسابرسی"
                 }
               ],
               "answer": 0
@@ -1815,8 +1815,8 @@
               },
               "options": [
                 {
-                  "en": "The round's lead investor",
-                  "fa": "سرمایه‌گذار پیشروی دور"
+                  "en": "The lead investor",
+                  "fa": "سرمایه‌گذار پیشرو"
                 },
                 {
                   "en": "Founders and employees",
@@ -1824,7 +1824,7 @@
                 },
                 {
                   "en": "The company's bank",
-                  "fa": "بانک شرکت"
+                  "fa": "بانک طرف حساب شرکت"
                 }
               ],
               "answer": 1
@@ -1998,8 +1998,8 @@
                   "fa": "خرید سهام بیشتر به قیمت فروش"
                 },
                 {
-                  "en": "Step down from the board",
-                  "fa": "کناره‌گیری از هیئت‌مدیره"
+                  "en": "Step down from the board at once",
+                  "fa": "کناره‌گیری فوری از هیئت‌مدیره"
                 },
                 {
                   "en": "Vote for an approved sale",
@@ -2214,8 +2214,8 @@
                   "fa": "قیمت پیشنهادی خیلی پایین است"
                 },
                 {
-                  "en": "The board is too big",
-                  "fa": "هیئت‌مدیره خیلی بزرگ است"
+                  "en": "The board has grown too large",
+                  "fa": "هیئت‌مدیره زیادی بزرگ شده"
                 },
                 {
                   "en": "The VC is not yet committed",
@@ -2298,12 +2298,12 @@
                   "fa": "جست‌وجوی سرمایه‌گذاران دیگر"
                 },
                 {
-                  "en": "Hiring any new employees",
-                  "fa": "استخدام هر کارمند جدیدی"
+                  "en": "Hiring new employees",
+                  "fa": "استخدام کارمند جدید"
                 },
                 {
-                  "en": "Paying salaries",
-                  "fa": "پرداخت حقوق"
+                  "en": "Paying staff salaries",
+                  "fa": "پرداخت حقوق کارکنان"
                 }
               ],
               "answer": 0
@@ -2465,8 +2465,8 @@
               },
               "options": [
                 {
-                  "en": "Company employees only",
-                  "fa": "فقط کارکنان شرکت"
+                  "en": "The company's own staff only",
+                  "fa": "فقط کارکنان خود شرکت"
                 },
                 {
                   "en": "Accredited investors",
@@ -2474,7 +2474,7 @@
                 },
                 {
                   "en": "Banks and pension funds only",
-                  "fa": "فقط بانک‌ها و صندوق‌های بازنشستگی"
+                  "fa": "فقط بانک و صندوق بازنشستگی"
                 }
               ],
               "answer": 1
@@ -2526,7 +2526,7 @@
                   "fa": "می‌شود در دور بعد ثبتش کرد"
                 },
                 {
-                  "en": "It only affects the investors",
+                  "en": "It only matters to the investors",
                   "fa": "فقط به سرمایه‌گذاران مربوط است"
                 }
               ],
@@ -2648,7 +2648,7 @@
                 },
                 {
                   "en": "Use free online forms only",
-                  "fa": "فقط از فرم‌های رایگان آنلاین استفاده کن"
+                  "fa": "فقط فرم رایگان آنلاین پر کن"
                 }
               ],
               "answer": 0
@@ -2743,7 +2743,7 @@
               },
               "options": [
                 {
-                  "en": "A minimum interest rate that the note must pay",
+                  "en": "A minimum interest rate the note must pay",
                   "fa": "حداقل نرخ بهره‌ای که note باید بپردازد"
                 },
                 {
@@ -2986,7 +2986,7 @@
                 },
                 {
                   "en": "Portfolio founders",
-                  "fa": "بنیان‌گذاران شرکت‌های پرتفوی"
+                  "fa": "بنیان‌گذاران پرتفوی"
                 },
                 {
                   "en": "Limited partners",
@@ -3065,7 +3065,7 @@
               },
               "options": [
                 {
-                  "en": "The management fee charged each year",
+                  "en": "The management fee charged yearly",
                   "fa": "management fee که هر سال گرفته می‌شود"
                 },
                 {
@@ -3073,7 +3073,7 @@
                   "fa": "پولی که برای دورهای بعدی کنار گذاشته شده"
                 },
                 {
-                  "en": "Carry already paid out to the partners",
+                  "en": "Carry already paid to the partners",
                   "fa": "carry که پیش‌تر به شرکا پرداخت شده"
                 }
               ],
@@ -3325,7 +3325,7 @@
                 },
                 {
                   "en": "A zero-sum auction",
-                  "fa": "یک مزایدهٔ حاصل‌جمع صفر"
+                  "fa": "یک حراج حاصل‌جمع صفر"
                 },
                 {
                   "en": "A repeated game",

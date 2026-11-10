@@ -74,8 +74,8 @@
               },
               "options": [
                 {
-                  "en": "Quick replies that keep everyone informed",
-                  "fa": "پاسخ‌های سریعی که همه را در جریان نگه می‌دارد"
+                  "en": "Quick replies that inform everyone",
+                  "fa": "پاسخ‌های سریع برای خبردار کردن همه"
                 },
                 {
                   "en": "New value, and it improves your skill",
@@ -644,8 +644,8 @@
               },
               "options": [
                 {
-                  "en": "It lowers their workload for the same pay",
-                  "fa": "بار کارشان را با همان حقوق کم می‌کند"
+                  "en": "It cuts their work for equal pay",
+                  "fa": "کارشان را با همان حقوق کم می‌کند"
                 },
                 {
                   "en": "It removes the need to learn",
@@ -824,12 +824,12 @@
               },
               "options": [
                 {
-                  "en": "The monastic philosophy",
-                  "fa": "فلسفهٔ رهبانی"
+                  "en": "The monastic philosophy of depth",
+                  "fa": "فلسفهٔ رهبانی عمق"
                 },
                 {
-                  "en": "The bimodal philosophy",
-                  "fa": "فلسفهٔ دووجهی"
+                  "en": "The bimodal philosophy of depth",
+                  "fa": "فلسفهٔ دووجهی عمق"
                 },
                 {
                   "en": "The journalistic philosophy",
@@ -900,8 +900,8 @@
                   "fa": "آن را انتخاب کن که با زندگی‌ات جور است"
                 },
                 {
-                  "en": "Always choose the monastic one",
-                  "fa": "همیشه رهبانی را انتخاب کن"
+                  "en": "Always choose the monastic one, whatever your job",
+                  "fa": "همیشه رهبانی را انتخاب کن، در هر شغلی"
                 }
               ],
               "answer": 1
@@ -1018,8 +1018,8 @@
                   "fa": "زمان سپری‌شده در حالت عمق"
                 },
                 {
-                  "en": "Emails answered before lunch each day",
-                  "fa": "ایمیل‌های پاسخ‌داده‌شده پیش از ناهار هر روز"
+                  "en": "Emails answered before each lunch",
+                  "fa": "ایمیل‌های جواب‌داده پیش از هر ناهار"
                 }
               ],
               "answer": 1
@@ -1095,7 +1095,7 @@
                 },
                 {
                   "en": "Checking social media",
-                  "fa": "نگاه کردن به شبکه‌های اجتماعی"
+                  "fa": "سر زدن به شبکه‌های اجتماعی"
                 }
               ],
               "answer": 0
@@ -1185,12 +1185,12 @@
                   "fa": "انرژی لازم برای کار عمیق را شارژ می‌کند"
                 },
                 {
-                  "en": "It lets you answer the next day's email faster",
-                  "fa": "به تو اجازه می‌دهد ایمیل روز بعد را سریع‌تر جواب بدهی"
+                  "en": "It lets you answer tomorrow's email faster",
+                  "fa": "می‌گذارد ایمیل فردا را سریع‌تر جواب بدهی"
                 },
                 {
-                  "en": "It makes the next morning's meetings shorter",
-                  "fa": "جلسه‌های صبح روز بعد را کوتاه‌تر می‌کند"
+                  "en": "It makes tomorrow's meetings shorter",
+                  "fa": "جلسه‌های فردا را کوتاه‌تر می‌کند"
                 }
               ],
               "answer": 0
@@ -1562,16 +1562,16 @@
               },
               "options": [
                 {
-                  "en": "Catch up on news",
-                  "fa": "به‌روز شدن با اخبار"
+                  "en": "Read the news",
+                  "fa": "خواندن اخبار"
                 },
                 {
                   "en": "Practise boredom",
                   "fa": "تمرین کسالت"
                 },
                 {
-                  "en": "Clear your inbox",
-                  "fa": "خالی کردن صندوق ایمیل"
+                  "en": "Check your mail",
+                  "fa": "چک کردن ایمیل"
                 }
               ],
               "answer": 1
@@ -1661,8 +1661,8 @@
                   "fa": "وقتی اثر مثبتش بر عوامل اصلی از اثر منفی‌اش بیشتر باشد"
                 },
                 {
-                  "en": "When it offers any benefit at all, however small that benefit is",
-                  "fa": "وقتی هر سودی داشته باشد، هرقدر هم که آن سود کوچک باشد"
+                  "en": "When it offers any benefit at all, however small it is",
+                  "fa": "وقتی هر سودی داشته باشد، هرقدر هم کوچک باشد"
                 },
                 {
                   "en": "When most of your friends and colleagues already use it",
@@ -1734,7 +1734,7 @@
               "options": [
                 {
                   "en": "7 days, with a public goodbye post",
-                  "fa": "۷ روز، با یک پست خداحافظی عمومی"
+                  "fa": "۷ روز، با پست خداحافظی عمومی"
                 },
                 {
                   "en": "30 days, without announcing it",
@@ -1829,7 +1829,7 @@
               "options": [
                 {
                   "en": "Deep product work",
-                  "fa": "کار عمیق روی محصول"
+                  "fa": "کار عمیق محصول"
                 },
                 {
                   "en": "Customer support",
@@ -1988,8 +1988,8 @@
                   "fa": "معماری و کد"
                 },
                 {
-                  "en": "Daily social media updates",
-                  "fa": "به‌روزرسانی روزانهٔ شبکه‌های اجتماعی"
+                  "en": "Social media posts",
+                  "fa": "پست شبکهٔ اجتماعی"
                 }
               ],
               "answer": 1

@@ -109,8 +109,8 @@
                   "fa": "دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت"
                 },
                 {
-                  "en": "Explain your idea clearly before asking anything",
-                  "fa": "پیش از هر پرسشی، ایده‌ات را واضح توضیح بده"
+                  "en": "Explain your idea clearly first",
+                  "fa": "اول ایده‌ات را واضح توضیح بده"
                 },
                 {
                   "en": "Ask what they think of your idea",
@@ -166,8 +166,8 @@
                   "fa": "کمتر بگو و بیشتر بشنو"
                 },
                 {
-                  "en": "Run a formal survey",
-                  "fa": "یک نظرسنجی رسمی اجرا کن"
+                  "en": "Run a formal customer survey",
+                  "fa": "یک نظرسنجی رسمی از مشتری بگیر"
                 }
               ],
               "answer": 1
@@ -211,8 +211,8 @@
               },
               "options": [
                 {
-                  "en": "When the person fully agrees with your idea",
-                  "fa": "وقتی طرف کاملاً با ایده‌ات موافق است"
+                  "en": "When the person agrees with your idea",
+                  "fa": "وقتی طرف با ایده‌ات موافق است"
                 },
                 {
                   "en": "When you ask it in a formal meeting",
@@ -333,12 +333,12 @@
                   "fa": "به‌عنوان دروغی بیش از حد خوش‌بینانه"
                 },
                 {
-                  "en": "As the most reliable data",
-                  "fa": "به‌عنوان قابل‌اعتمادترین داده"
+                  "en": "As very reliable data",
+                  "fa": "به‌عنوان داده‌ای بسیار قابل‌اعتماد"
                 },
                 {
-                  "en": "As a firm commitment",
-                  "fa": "به‌عنوان یک تعهد قطعی"
+                  "en": "As a binding commitment",
+                  "fa": "به‌عنوان یک تعهد الزام‌آور"
                 }
               ],
               "answer": 0
@@ -519,7 +519,7 @@
                 },
                 {
                   "en": "Prices, dates and names",
-                  "fa": "قیمت، تاریخ و نام"
+                  "fa": "قیمت‌ها، تاریخ‌ها و نام‌ها"
                 },
                 {
                   "en": "Complaints, refunds and churn",
@@ -606,8 +606,8 @@
                   "fa": "یک مثال مشخص از گذشته بخواه"
                 },
                 {
-                  "en": "Repeat your pitch more slowly",
-                  "fa": "pitch خود را آهسته‌تر تکرار کن"
+                  "en": "Repeat your pitch again more slowly",
+                  "fa": "pitch خود را دوباره و آهسته‌تر تکرار کن"
                 }
               ],
               "answer": 1
@@ -682,8 +682,8 @@
               },
               "options": [
                 {
-                  "en": "Friends saying they really love it",
-                  "fa": "دوستانی که می‌گویند واقعاً عاشقش هستند"
+                  "en": "Friends saying they love it",
+                  "fa": "دوستانی که می‌گویند عاشقش هستند"
                 },
                 {
                   "en": "Promises to try it later",
@@ -1139,8 +1139,8 @@
               },
               "options": [
                 {
-                  "en": "A hundred likes on a launch post",
-                  "fa": "صد لایک روی پست معرفی محصول"
+                  "en": "A hundred likes on your post",
+                  "fa": "صد لایک روی پست خودت"
                 },
                 {
                   "en": "A friend's promise to share it",
@@ -1355,7 +1355,7 @@
               },
               "options": [
                 {
-                  "en": "Adding every feature they ask for",
+                  "en": "Adding each feature they want",
                   "fa": "افزودن هر ویژگی که می‌خواهند"
                 },
                 {
@@ -1463,8 +1463,8 @@
                   "fa": "همان‌جا دربارهٔ کارشان بپرس"
                 },
                 {
-                  "en": "Book a formal meeting for next month",
-                  "fa": "برای ماه بعد جلسهٔ رسمی بگذار"
+                  "en": "Book a meeting for next month",
+                  "fa": "برای ماه بعد یک جلسه تنظیم کن"
                 },
                 {
                   "en": "Send them your pitch deck",
@@ -1820,8 +1820,8 @@
                   "fa": "نه: یک گروه را ببر، سپس به گروه بعدی گسترش بده"
                 },
                 {
-                  "en": "No, start with everyone instead",
-                  "fa": "نه، به‌جایش با همه شروع کن"
+                  "en": "No, it is better to start with everyone",
+                  "fa": "نه، بهتر است از اول با همه شروع کنی"
                 }
               ],
               "answer": 1
@@ -1999,8 +1999,8 @@
                   "fa": "کل تیم خیلی سریع‌تر یاد می‌گیرد"
                 },
                 {
-                  "en": "Customers trust the company far more",
-                  "fa": "مشتری‌ها خیلی بیشتر به شرکت اعتماد می‌کنند"
+                  "en": "Customers trust the company more",
+                  "fa": "مشتری‌ها بیشتر به شرکت اعتماد می‌کنند"
                 }
               ],
               "answer": 0
@@ -2036,8 +2036,8 @@
               },
               "options": [
                 {
-                  "en": "Until the first friendly yes",
-                  "fa": "تا اولین «بله»ی دوستانه"
+                  "en": "Until you hear the first friendly yes",
+                  "fa": "تا وقتی اولین «بله»ی دوستانه را بشنوی"
                 },
                 {
                   "en": "Until you stop hearing new stuff",
@@ -2045,7 +2045,7 @@
                 },
                 {
                   "en": "Until you have collected ten compliments",
-                  "fa": "تا وقتی ده تعریف جمع کنی"
+                  "fa": "تا وقتی ده تعریف و تمجید جمع کرده باشی"
                 }
               ],
               "answer": 1

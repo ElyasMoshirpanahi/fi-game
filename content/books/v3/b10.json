@@ -74,16 +74,16 @@
               },
               "options": [
                 {
-                  "en": "Memorizing tax law",
-                  "fa": "حفظ کردن قانون مالیات"
+                  "en": "Memorizing tax rates",
+                  "fa": "حفظ نرخ مالیات"
                 },
                 {
                   "en": "Understanding the art",
                   "fa": "فهم هنر"
                 },
                 {
-                  "en": "Predicting stock prices",
-                  "fa": "پیش‌بینی قیمت سهام"
+                  "en": "Predicting the market",
+                  "fa": "پیش‌بینی بازار"
                 }
               ],
               "answer": 1
@@ -166,8 +166,8 @@
                   "fa": "مالی‌ها معمولاً دربارهٔ نتایج دروغ می‌گویند"
                 },
                 {
-                  "en": "Computers make small arithmetic errors in the totals",
-                  "fa": "کامپیوترها در جمع‌ها اشتباه‌های حسابی کوچک می‌کنند"
+                  "en": "Computers make small errors in the totals",
+                  "fa": "کامپیوترها در جمع‌ها خطاهای کوچک می‌کنند"
                 }
               ],
               "answer": 0
@@ -354,8 +354,8 @@
                   "fa": "هزینه‌ها با درآمدی که به تولیدش کمک می‌کنند در همان دوره"
                 },
                 {
-                  "en": "Assets to liabilities on the balance sheet",
-                  "fa": "دارایی‌ها با بدهی‌ها در ترازنامه"
+                  "en": "Assets to liabilities on the same balance sheet date",
+                  "fa": "دارایی‌ها با بدهی‌ها در همان تاریخ ترازنامه"
                 }
               ],
               "answer": 1
@@ -636,12 +636,12 @@
                   "fa": "بهای تمام‌شدهٔ کالای فروش‌رفته"
                 },
                 {
-                  "en": "Operating expenses",
-                  "fa": "هزینه‌های عملیاتی"
+                  "en": "General operating expenses",
+                  "fa": "هزینه‌های عمومی عملیاتی"
                 },
                 {
-                  "en": "Retained earnings",
-                  "fa": "سود انباشته"
+                  "en": "Retained earnings to date",
+                  "fa": "سود انباشته تا امروز"
                 }
               ],
               "answer": 0
@@ -797,8 +797,8 @@
               },
               "options": [
                 {
-                  "en": "Gross margin on each sale",
-                  "fa": "حاشیهٔ ناخالص روی هر فروش"
+                  "en": "The gross profit",
+                  "fa": "سود ناخالص"
                 },
                 {
                   "en": "Retained earnings",
@@ -1084,8 +1084,8 @@
               },
               "options": [
                 {
-                  "en": "Revenue equals operating costs plus net profit",
-                  "fa": "درآمد برابر است با هزینه‌های عملیاتی به‌علاوهٔ سود خالص"
+                  "en": "Revenue equals costs plus net profit",
+                  "fa": "درآمد برابر است با هزینه‌ها به‌علاوهٔ سود خالص"
                 },
                 {
                   "en": "Cash equals profit plus retained earnings",
@@ -1221,16 +1221,16 @@
               },
               "options": [
                 {
-                  "en": "Your income",
-                  "fa": "درآمد تو"
+                  "en": "Your yearly income",
+                  "fa": "درآمد سالانهٔ تو"
                 },
                 {
                   "en": "Your equity",
                   "fa": "equity تو، یعنی ارزش خالص"
                 },
                 {
-                  "en": "Your cash flow",
-                  "fa": "جریان نقدی تو"
+                  "en": "Your free cash flow",
+                  "fa": "جریان نقدی آزاد تو"
                 }
               ],
               "answer": 1
@@ -1320,8 +1320,8 @@
                   "fa": "حساب‌های پرداختنی"
                 },
                 {
-                  "en": "Goodwill",
-                  "fa": "سرقفلی"
+                  "en": "Brand goodwill",
+                  "fa": "سرقفلی برند"
                 },
                 {
                   "en": "Inventory",
@@ -2087,8 +2087,8 @@
                   "fa": "سود خالص تقسیم بر حقوق صاحبان سهام"
                 },
                 {
-                  "en": "Revenue divided by assets",
-                  "fa": "درآمد تقسیم بر دارایی‌ها"
+                  "en": "Sales revenue divided by total assets",
+                  "fa": "درآمد فروش تقسیم بر کل دارایی‌ها"
                 }
               ],
               "answer": 0
@@ -2128,8 +2128,8 @@
                   "fa": "بازده دارایی‌ها"
                 },
                 {
-                  "en": "Gross margin",
-                  "fa": "حاشیهٔ ناخالص"
+                  "en": "Gross profit margin",
+                  "fa": "حاشیهٔ سود ناخالص"
                 },
                 {
                   "en": "Return on equity",
@@ -2208,16 +2208,16 @@
               },
               "options": [
                 {
-                  "en": "How quickly a company's customers pay their invoices",
-                  "fa": "مشتریان شرکت چقدر سریع صورت‌حساب‌هایشان را می‌پردازند"
+                  "en": "How quickly a company's customers pay",
+                  "fa": "مشتریان شرکت چقدر سریع پرداخت می‌کنند"
                 },
                 {
                   "en": "How easily a company can pay the interest on its debt",
                   "fa": "شرکت چقدر راحت می‌تواند بهرهٔ بدهی‌اش را بپردازد"
                 },
                 {
-                  "en": "How much unsold stock a company holds in its warehouse",
-                  "fa": "شرکت چه مقدار کالای فروش‌نرفته در انبار دارد"
+                  "en": "How much unsold stock a company holds",
+                  "fa": "شرکت چه مقدار کالای فروش‌نرفته دارد"
                 }
               ],
               "answer": 1
@@ -2395,8 +2395,8 @@
                   "fa": "کالا چه مدت در قفسه می‌ماند"
                 },
                 {
-                  "en": "How long the company takes to pay suppliers",
-                  "fa": "پرداخت شرکت به تأمین‌کنندگان چه مدت طول می‌کشد"
+                  "en": "How long suppliers wait to be paid",
+                  "fa": "تأمین‌کنندگان چه مدت منتظر پول می‌مانند"
                 }
               ],
               "answer": 0
@@ -2715,7 +2715,7 @@
               "options": [
                 {
                   "en": "The return on a company's shares",
-                  "fa": "بازده سهام یک شرکت"
+                  "fa": "بازدهی که سهام یک شرکت می‌دهد"
                 },
                 {
                   "en": "The discount rate at which NPV equals zero",
@@ -3000,8 +3000,8 @@
                   "fa": "حقوق و پاداش تک‌تک افراد"
                 },
                 {
-                  "en": "The share prices of rivals",
-                  "fa": "قیمت سهام رقبا"
+                  "en": "The share prices of rival firms",
+                  "fa": "قیمت سهام شرکت‌های رقیب"
                 }
               ],
               "answer": 0

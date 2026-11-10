@@ -78,8 +78,8 @@
                   "fa": "فرایندهایی که به نتایج می‌رسند"
                 },
                 {
-                  "en": "The results you most want to achieve",
-                  "fa": "نتایجی که بیش از همه می‌خواهی به دست آوری"
+                  "en": "The results you want to achieve",
+                  "fa": "نتایجی که می‌خواهی بگیری"
                 },
                 {
                   "en": "A firm deadline set for each goal",
@@ -230,12 +230,12 @@
                   "fa": "انتقال خودکار ماهانه"
                 },
                 {
-                  "en": "Capital of 25 times annual expenses",
-                  "fa": "سرمایه‌ای برابر ۲۵ برابر هزینهٔ سالانه"
+                  "en": "25 times annual expenses",
+                  "fa": "۲۵ برابر خرج سالانه"
                 },
                 {
                   "en": "Retiring by the age of 45",
-                  "fa": "بازنشستگی تا سن ۴۵ سالگی"
+                  "fa": "بازنشستگی تا ۴۵"
                 }
               ],
               "answer": 0
@@ -603,8 +603,8 @@
                   "fa": "پاسخ و پاداش"
                 },
                 {
-                  "en": "Craving and response",
-                  "fa": "میل و پاسخ"
+                  "en": "Craving, then response",
+                  "fa": "میل و سپس پاسخ"
                 }
               ],
               "answer": 0
@@ -748,8 +748,8 @@
                   "fa": "وضوح"
                 },
                 {
-                  "en": "Talent",
-                  "fa": "استعداد"
+                  "en": "Ability",
+                  "fa": "توانایی"
                 },
                 {
                   "en": "Money",
@@ -900,12 +900,12 @@
                   "fa": "بعد از ریختن قهوهٔ صبح، ده صفحه می‌خوانم"
                 },
                 {
-                  "en": "I will read many more books this year than I did last year",
-                  "fa": "امسال خیلی بیشتر از پارسال کتاب می‌خوانم"
+                  "en": "I will read more books this year than last year",
+                  "fa": "امسال بیشتر از پارسال کتاب می‌خوانم"
                 },
                 {
                   "en": "I will read whenever I happen to feel free enough",
-                  "fa": "هر وقت به اندازهٔ کافی وقت آزاد داشتم می‌خوانم"
+                  "fa": "هر وقت وقت آزاد کافی داشتم می‌خوانم"
                 }
               ],
               "answer": 0
@@ -999,7 +999,7 @@
                   "fa": "عادت‌ها فقط در روشنایی کامل روز شکل می‌گیرند"
                 },
                 {
-                  "en": "Cues work only when written down",
+                  "en": "Cues work only when they are written down",
                   "fa": "نشانه‌ها فقط وقتی نوشته شوند کار می‌کنند"
                 }
               ],
@@ -1040,8 +1040,8 @@
                   "fa": "حدود ۵ درصد ظرف یک سال دوباره مصرف کردند"
                 },
                 {
-                  "en": "Almost all of them relapsed within weeks",
-                  "fa": "تقریباً همه ظرف چند هفته دوباره مصرف کردند"
+                  "en": "Most of them relapsed within weeks",
+                  "fa": "بیشترشان ظرف چند هفته دوباره مصرف کردند"
                 },
                 {
                   "en": "Half relapsed within a month",
@@ -1116,8 +1116,8 @@
                   "fa": "اپ کارگزار را از گوشی‌ات پاک کن"
                 },
                 {
-                  "en": "Add more price alerts to your phone",
-                  "fa": "هشدارهای قیمت بیشتری روی گوشی‌ات بگذار"
+                  "en": "Add many more price alerts to your phone",
+                  "fa": "هشدارهای قیمت خیلی بیشتری روی گوشی‌ات بگذار"
                 },
                 {
                   "en": "Keep the broker app on the home screen",
@@ -1215,8 +1215,8 @@
                   "fa": "فقط بعد از اینکه کار را تمام کرده‌ای"
                 },
                 {
-                  "en": "Only while you are asleep",
-                  "fa": "فقط وقتی در خوابی"
+                  "en": "Only while you are sound asleep",
+                  "fa": "فقط وقتی که در خواب عمیق هستی"
                 }
               ],
               "answer": 0
@@ -1256,8 +1256,8 @@
                   "fa": "نزدیکان، اکثریت و قدرتمندان"
                 },
                 {
-                  "en": "The young, the wealthy and the famous",
-                  "fa": "جوان‌ها، ثروتمندان و مشهورها"
+                  "en": "The young, the rich and the famous",
+                  "fa": "جوان‌ها، پولدارها و مشهورها"
                 },
                 {
                   "en": "Teachers, bosses and rivals",
@@ -1332,12 +1332,12 @@
                   "fa": "پیوستن به سرمایه‌گذارانی که صندوق شاخصی می‌خرند و نگه می‌دارند"
                 },
                 {
-                  "en": "Follow day-trading channels and copy their trades",
-                  "fa": "دنبال کردن کانال‌های معاملهٔ روزانه و تقلید معامله‌هایشان"
+                  "en": "Follow day-trading channels and copy them",
+                  "fa": "دنبال کردن کانال‌های معاملهٔ روزانه و تقلید از آن‌ها"
                 },
                 {
-                  "en": "Read only the daily price headlines",
-                  "fa": "فقط خواندن تیتر روزانهٔ قیمت‌ها"
+                  "en": "Read just the daily price news headlines",
+                  "fa": "فقط خواندن تیترهای خبری روزانه دربارهٔ قیمت‌ها"
                 }
               ],
               "answer": 0
@@ -1409,8 +1409,8 @@
                   "fa": "گروه کیفیت"
                 },
                 {
-                  "en": "Neither, they were equal",
-                  "fa": "هیچ‌کدام، برابر بودند"
+                  "en": "Neither, it was a tie",
+                  "fa": "هیچ‌کدام، مساوی"
                 }
               ],
               "answer": 0
@@ -1622,11 +1622,11 @@
                 },
                 {
                   "en": "Read a chapter",
-                  "fa": "یک فصل بخوان"
+                  "fa": "یک فصل را بخوان"
                 },
                 {
-                  "en": "Read for two hours",
-                  "fa": "دو ساعت بخوان"
+                  "en": "Read 2 hours",
+                  "fa": "۲ ساعت بخوان"
                 }
               ],
               "answer": 0
@@ -1701,8 +1701,8 @@
                   "fa": "قدرت با بیشترین سرعت"
                 },
                 {
-                  "en": "An excuse to quit early",
-                  "fa": "بهانه‌ای برای زود کنار کشیدن"
+                  "en": "An excuse to give up early",
+                  "fa": "بهانهٔ زود کنار کشیدن"
                 }
               ],
               "answer": 0
@@ -1777,8 +1777,8 @@
                   "fa": "خریدن سه کتاب تازه برای بعد"
                 },
                 {
-                  "en": "Reading for the full hour no matter what",
-                  "fa": "هر طور شده یک ساعت کامل خواندن"
+                  "en": "Reading the full hour no matter what",
+                  "fa": "حتماً یک ساعت کامل خواندن"
                 }
               ],
               "answer": 0
@@ -1868,8 +1868,8 @@
                   "fa": "محیطی با بازده تأخیری"
                 },
                 {
-                  "en": "An immediate-return environment",
-                  "fa": "محیطی با بازده فوری"
+                  "en": "A quick-return environment",
+                  "fa": "محیطی با بازده سریع"
                 },
                 {
                   "en": "A reward-free environment",
@@ -1913,8 +1913,8 @@
                   "fa": "یک گیرهٔ کاغذ"
                 },
                 {
-                  "en": "A coin",
-                  "fa": "یک سکه"
+                  "en": "A small coin",
+                  "fa": "یک سکهٔ کوچک"
                 },
                 {
                   "en": "A sticky note",
@@ -1993,7 +1993,7 @@
                   "fa": "یک سال سرمایه‌گذاری را متوقف کن"
                 },
                 {
-                  "en": "Double the next buy with borrowed money",
+                  "en": "Double the next buy with debt",
                   "fa": "خرید بعدی را با پول قرضی دو برابر کن"
                 }
               ],

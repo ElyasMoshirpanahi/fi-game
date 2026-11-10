@@ -71,11 +71,11 @@
                 },
                 {
                   "en": "How smart you are",
-                  "fa": "اینکه چقدر باهوشی"
+                  "fa": "اینکه تو چقدر باهوش هستی"
                 },
                 {
                   "en": "How much you earn",
-                  "fa": "اینکه چقدر درآمد داری"
+                  "fa": "اینکه چقدر پول درمی‌آوری"
                 }
               ],
               "answer": 0
@@ -155,7 +155,7 @@
                 },
                 {
                   "en": "Rise almost tenfold",
-                  "fa": "نزدیک ده برابر شد"
+                  "fa": "تقریباً ده برابر شد"
                 },
                 {
                   "en": "Crash to zero",
@@ -390,8 +390,8 @@
                   "fa": "بنیان‌گذاران مشهور"
                 },
                 {
-                  "en": "Recent news",
-                  "fa": "اخبار اخیر"
+                  "en": "The latest news",
+                  "fa": "تازه‌ترین اخبار"
                 }
               ],
               "answer": 0
@@ -462,12 +462,12 @@
                   "fa": "بازار، زمان‌بندی و بنیان‌گذاران"
                 },
                 {
-                  "en": "Only the number of hours you work each week",
-                  "fa": "فقط تعداد ساعت‌هایی که هر هفته کار می‌کنی"
+                  "en": "Only the hours you work each week",
+                  "fa": "فقط ساعت‌های کار هفتگی‌ات"
                 },
                 {
-                  "en": "The Dutch tax rate on your income that year",
-                  "fa": "نرخ مالیات هلند بر درآمد آن سالت"
+                  "en": "The Dutch tax rate on your income",
+                  "fa": "نرخ مالیات هلند بر درآمدت"
                 }
               ],
               "answer": 0
@@ -526,12 +526,12 @@
                   "fa": "تابستان‌های خنک"
                 },
                 {
-                  "en": "Brutal winters",
-                  "fa": "زمستان‌های سخت"
+                  "en": "Very brutal winters",
+                  "fa": "زمستان‌های بسیار سخت"
                 },
                 {
-                  "en": "Volcanic ash",
-                  "fa": "خاکستر آتشفشانی"
+                  "en": "Volcanic ash clouds",
+                  "fa": "ابرهای خاکستر آتشفشانی"
                 }
               ],
               "answer": 0
@@ -611,11 +611,11 @@
                 },
                 {
                   "en": "Returns are too small for anyone to notice",
-                  "fa": "بازده‌ها کوچک‌تر از آن‌اند که کسی متوجهشان شود"
+                  "fa": "بازده‌ها آن‌قدر کم‌اند که کسی نمی‌بیند"
                 },
                 {
-                  "en": "Banks hide the real numbers from savers",
-                  "fa": "بانک‌ها اعداد واقعی را از پس‌اندازکنندگان پنهان می‌کنند"
+                  "en": "Banks hide the real numbers from people",
+                  "fa": "بانک‌ها اعداد واقعی را از مردم پنهان می‌کنند"
                 }
               ],
               "answer": 0
@@ -686,12 +686,12 @@
                   "fa": "ساکت شو و صبر کن"
                 },
                 {
-                  "en": "Buy the dip",
-                  "fa": "در افت بخر"
+                  "en": "Buy every dip",
+                  "fa": "در هر افت بخر"
                 },
                 {
-                  "en": "Trade more often",
-                  "fa": "بیشتر معامله کن"
+                  "en": "Trade far more often",
+                  "fa": "خیلی بیشتر معامله کن"
                 }
               ],
               "answer": 0
@@ -759,12 +759,12 @@
                   "fa": "شرط‌های بزرگ‌تر بست و همه‌چیز را باخت"
                 },
                 {
-                  "en": "Retired to a quiet farm and stopped trading",
-                  "fa": "به مزرعه‌ای آرام رفت و معامله را کنار گذاشت"
+                  "en": "Retired to a quiet farm and quit trading",
+                  "fa": "به مزرعه‌ای آرام رفت و معامله نکرد"
                 },
                 {
                   "en": "Bought index funds and held them for life",
-                  "fa": "صندوق شاخصی خرید و تا آخر عمر نگهش داشت"
+                  "fa": "صندوق شاخصی خرید و عمری نگه داشت"
                 }
               ],
               "answer": 0
@@ -847,8 +847,8 @@
                   "fa": "یک استراتژی معاملاتی زیرکانه"
                 },
                 {
-                  "en": "A high monthly salary",
-                  "fa": "حقوق ماهانهٔ بالا"
+                  "en": "A very high monthly salary",
+                  "fa": "یک حقوق ماهانهٔ خیلی بالا"
                 }
               ],
               "answer": 0
@@ -923,8 +923,8 @@
                   "fa": "ثروتمند ماندن: صرفه‌جویی و بقا"
                 },
                 {
-                  "en": "Neither, it is purely a matter of luck",
-                  "fa": "هیچ‌کدام، فقط و فقط به شانس بستگی دارد"
+                  "en": "Neither, it is purely luck",
+                  "fa": "هیچ‌کدام، فقط شانس است"
                 }
               ],
               "answer": 0
@@ -1014,12 +1014,12 @@
                   "fa": "اگر من آن ماشین را داشتم، مردم فکر می‌کردند باحالم"
                 },
                 {
-                  "en": "That driver must be very smart and worth admiring",
-                  "fa": "آن راننده باید خیلی باهوش و شایستهٔ تحسین باشد"
+                  "en": "That driver must be smart and worth admiring",
+                  "fa": "آن راننده باید باهوش و شایستهٔ تحسین باشد"
                 },
                 {
-                  "en": "That car is overpriced for what you really get",
-                  "fa": "آن ماشین برای چیزی که واقعاً می‌دهد زیادی گران است"
+                  "en": "That car is overpriced for what you get",
+                  "fa": "آن ماشین برای چیزی که می‌دهد زیادی گران است"
                 }
               ],
               "answer": 0
@@ -1059,12 +1059,12 @@
                   "fa": "فروتنی، مهربانی و همدلی"
                 },
                 {
-                  "en": "A faster and more expensive car",
-                  "fa": "ماشینی سریع‌تر و گران‌تر"
+                  "en": "A faster, more expensive car",
+                  "fa": "ماشین سریع‌تر و گران‌تر"
                 },
                 {
                   "en": "A bigger salary and job title",
-                  "fa": "حقوق بیشتر و عنوان شغلی بالاتر"
+                  "fa": "حقوق و سمت بالاتر"
                 }
               ],
               "answer": 0
@@ -1143,12 +1143,12 @@
                   "fa": "پولدار یعنی درآمد فعلی؛ ثروت یعنی درآمدِ خرج‌نشده"
                 },
                 {
-                  "en": "Rich means owning a bigger house than your neighbours",
-                  "fa": "پولدار یعنی داشتن خانه‌ای بزرگ‌تر از همسایه‌ها"
+                  "en": "Rich means a bigger house than your neighbours",
+                  "fa": "پولدار یعنی خانه‌ای بزرگ‌تر از همسایه‌ها"
                 },
                 {
-                  "en": "Wealth is whatever you show to the people around you",
-                  "fa": "ثروت هر چیزی است که به اطرافیانت نشان می‌دهی"
+                  "en": "Wealth is what you show to people around you",
+                  "fa": "ثروت چیزی است که به اطرافیانت نشان می‌دهی"
                 }
               ],
               "answer": 0
@@ -1295,8 +1295,8 @@
                   "fa": "تحت تأثیر قرار دادن همکاران"
                 },
                 {
-                  "en": "Beating the market",
-                  "fa": "شکست دادن بازار"
+                  "en": "Beating the stock market",
+                  "fa": "شکست دادن بازار سهام"
                 }
               ],
               "answer": 0
@@ -1368,7 +1368,7 @@
                 },
                 {
                   "en": "Your yearly salary before any tax is taken",
-                  "fa": "حقوق سالانه‌ات پیش از کسر مالیات"
+                  "fa": "حقوق سالانه‌ات پیش از کسر هر گونه مالیات"
                 },
                 {
                   "en": "The current market value of your car",
@@ -1525,11 +1525,11 @@
                 },
                 {
                   "en": "A perfect guide to future investment returns",
-                  "fa": "راهنمای کاملِ بازده‌های آیندهٔ سرمایه‌گذاری"
+                  "fa": "راهنمای کامل بازده سرمایه‌گذاری آینده"
                 },
                 {
-                  "en": "A list of market cycles that repeat in the same order",
-                  "fa": "فهرستی از چرخه‌های بازار که به همان ترتیب تکرار می‌شوند"
+                  "en": "Market cycles that repeat in the same order",
+                  "fa": "چرخه‌های بازار با همان ترتیب تکراری"
                 }
               ],
               "answer": 0
@@ -1601,11 +1601,11 @@
                 },
                 {
                   "en": "That history always repeats itself",
-                  "fa": "اینکه تاریخ همیشه خودش را تکرار می‌کند"
+                  "fa": "اینکه تاریخ همیشه تکرار می‌شود"
                 },
                 {
-                  "en": "That data predicts crashes",
-                  "fa": "اینکه داده‌ها سقوط‌ها را پیش‌بینی می‌کنند"
+                  "en": "That data can predict crashes",
+                  "fa": "اینکه داده سقوط را پیش‌بینی می‌کند"
                 }
               ],
               "answer": 0
@@ -1664,12 +1664,12 @@
                   "fa": "داشتن پول کافی برای تاب آوردن بدشانسی"
                 },
                 {
-                  "en": "Always double your stake after every win",
-                  "fa": "بعد از هر برد، مبلغ شرط را دو برابر کردن"
+                  "en": "Always double your stake after a win",
+                  "fa": "بعد از هر برد، شرط را دو برابر کردن"
                 },
                 {
                   "en": "Quit the table for good after one loss",
-                  "fa": "بعد از یک باخت، میز را برای همیشه رها کردن"
+                  "fa": "با یک باخت، ترک همیشگی میز"
                 }
               ],
               "answer": 0
@@ -1757,7 +1757,7 @@
                 },
                 {
                   "en": "Owning broad index funds",
-                  "fa": "داشتن صندوق‌های شاخصی گسترده"
+                  "fa": "داشتن صندوق شاخصی گسترده"
                 },
                 {
                   "en": "Holding too much cash in the bank",
@@ -1828,8 +1828,8 @@
                   "fa": "در همه‌چیز، بزرگ و کوچک، ریسک‌گریز"
                 },
                 {
-                  "en": "Ruin is acceptable if the upside is big enough",
-                  "fa": "نابودی قابل‌قبول است اگر سودش به‌قدر کافی بزرگ باشد"
+                  "en": "Ruin is acceptable if the upside is large",
+                  "fa": "نابودی قابل‌قبول است اگر سودش بزرگ باشد"
                 }
               ],
               "answer": 0
@@ -1927,12 +1927,12 @@
                   "fa": "دو سر افراطی"
                 },
                 {
-                  "en": "Any index funds",
-                  "fa": "هر صندوق شاخصی"
+                  "en": "Index funds of any kind",
+                  "fa": "هر نوع صندوق شاخصی"
                 },
                 {
-                  "en": "All cash savings",
-                  "fa": "هر پس‌انداز نقدی"
+                  "en": "Cash savings of any kind",
+                  "fa": "هر نوع پس‌انداز نقدی"
                 }
               ],
               "answer": 0
@@ -2048,12 +2048,12 @@
                   "fa": "نوسان، ترس، شک، نااطمینانی و پشیمانی"
                 },
                 {
-                  "en": "Only the commissions that your broker charges you",
-                  "fa": "فقط کارمزدهایی که کارگزارت از تو می‌گیرد"
+                  "en": "Only the commissions your broker charges you",
+                  "fa": "فقط کارمزدهایی که کارگزارت می‌گیرد"
                 },
                 {
                   "en": "The taxes you pay on your investment gains",
-                  "fa": "مالیاتی که بر سود سرمایه‌گذاری‌ات می‌پردازی"
+                  "fa": "مالیاتی که بر سود سرمایه‌ات می‌دهی"
                 }
               ],
               "answer": 0

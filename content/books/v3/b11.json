@@ -154,12 +154,12 @@
                   "fa": "ارزش‌گذاری ذاتی و نسبی"
                 },
                 {
-                  "en": "Technical and momentum chart analysis",
-                  "fa": "تحلیل تکنیکال و مومنتوم نمودارها"
+                  "en": "Technical and momentum analysis",
+                  "fa": "تحلیل تکنیکال و مومنتوم"
                 },
                 {
-                  "en": "Book value and replacement cost methods",
-                  "fa": "روش‌های ارزش دفتری و هزینهٔ جایگزینی"
+                  "en": "Book value and replacement cost",
+                  "fa": "ارزش دفتری و هزینهٔ جایگزینی"
                 }
               ],
               "answer": 0
@@ -283,11 +283,11 @@
                   "fa": "دارایی‌ای با جریان‌های نقدی بالا و باثبات"
                 },
                 {
-                  "en": "One whose price rose most last month",
-                  "fa": "دارایی‌ای که قیمتش ماه گذشته بیشترین رشد را داشت"
+                  "en": "One whose price rose last month",
+                  "fa": "دارایی‌ای که قیمتش ماه گذشته بالا رفت"
                 },
                 {
-                  "en": "One with the largest number of shares",
+                  "en": "One with the most shares",
                   "fa": "دارایی‌ای با بیشترین تعداد سهام"
                 }
               ],
@@ -431,12 +431,12 @@
                   "fa": "اینکه یک سهم چقدر همراه بازار حرکت می‌کند"
                 },
                 {
-                  "en": "How profitable the company is each year",
-                  "fa": "اینکه شرکت هر سال چقدر سودآور است"
+                  "en": "How profitable the company is",
+                  "fa": "اینکه شرکت چقدر سودآور است"
                 },
                 {
-                  "en": "How many of its shares change hands each day",
-                  "fa": "اینکه روزانه چند سهم آن دست‌به‌دست می‌شود"
+                  "en": "How many shares trade each day",
+                  "fa": "اینکه روزانه چند سهم معامله می‌شود"
                 }
               ],
               "answer": 0
@@ -808,7 +808,7 @@
                 },
                 {
                   "en": "As a one-off loss to ignore",
-                  "fa": "به‌عنوان زیانی یک‌باره که باید نادیده گرفت"
+                  "fa": "به‌عنوان زیان یک‌بارهٔ قابل چشم‌پوشی"
                 },
                 {
                   "en": "As part of working capital",
@@ -903,11 +903,11 @@
                 },
                 {
                   "en": "The firm's growth over the past five years",
-                  "fa": "رشد شرکت در پنج سال گذشته"
+                  "fa": "رشد پنج سال اخیر شرکت"
                 },
                 {
                   "en": "The target set by management",
-                  "fa": "هدفی که مدیریت تعیین کرده"
+                  "fa": "هدف تعیین‌شدهٔ مدیریت"
                 }
               ],
               "answer": 0
@@ -1219,7 +1219,7 @@
                   "fa": "نسبت انباشت ضرب در بازده حقوق صاحبان سهام"
                 },
                 {
-                  "en": "The number of new branches it opens in each year",
+                  "en": "The number of new branches it opens each year",
                   "fa": "تعداد شعبه‌های تازه‌ای که هر سال باز می‌کند"
                 },
                 {
@@ -1295,11 +1295,11 @@
                   "fa": "ذخیرهٔ زیان وام به قضاوت بستگی دارد"
                 },
                 {
-                  "en": "Banks never pay tax on the profit they report",
-                  "fa": "بانک‌ها هرگز بر سودی که گزارش می‌کنند مالیات نمی‌پردازند"
+                  "en": "Banks never pay tax on reported profit",
+                  "fa": "بانک‌ها هرگز بر سود گزارش‌شده مالیات نمی‌دهند"
                 },
                 {
-                  "en": "Deposits are counted as profit when received",
+                  "en": "Deposits count as profit when received",
                   "fa": "سپرده‌ها هنگام دریافت سود حساب می‌شوند"
                 }
               ],
@@ -1525,7 +1525,7 @@
                 },
                 {
                   "en": "Firm size",
-                  "fa": "اندازهٔ شرکت"
+                  "fa": "بزرگی شرکت"
                 },
                 {
                   "en": "Firm age",
@@ -1608,12 +1608,12 @@
                   "fa": "ارزش سهام به‌علاوهٔ بدهی منهای وجه نقد"
                 },
                 {
-                  "en": "Revenue for the year minus all costs",
-                  "fa": "درآمد سال منهای همهٔ هزینه‌ها"
+                  "en": "Revenue minus all costs",
+                  "fa": "درآمد منهای همهٔ هزینه‌ها"
                 },
                 {
-                  "en": "The book value of all the firm's assets",
-                  "fa": "ارزش دفتری همهٔ دارایی‌های شرکت"
+                  "en": "Book value of the firm's assets",
+                  "fa": "ارزش دفتری دارایی‌های شرکت"
                 }
               ],
               "answer": 0
@@ -1832,12 +1832,12 @@
                   "fa": "شرکت ممکن است رشد کم، ریسک بالا یا بازده ضعیف داشته باشد"
                 },
                 {
-                  "en": "PE ratios are always out of date by the time you see them",
-                  "fa": "نسبت‌های PE تا وقتی به دستت برسند همیشه قدیمی شده‌اند"
+                  "en": "PE ratios are always out of date when you see them",
+                  "fa": "نسبت‌های PE وقتی به دستت برسند همیشه قدیمی‌اند"
                 },
                 {
-                  "en": "Low PEs only occur among banks and other financial firms",
-                  "fa": "PE پایین فقط در بانک‌ها و دیگر شرکت‌های مالی دیده می‌شود"
+                  "en": "Low PEs only occur among banks and financial firms",
+                  "fa": "PE پایین فقط در بانک‌ها و شرکت‌های مالی دیده می‌شود"
                 }
               ],
               "answer": 0
@@ -2136,8 +2136,8 @@
                   "fa": "ارزش pre-money به‌علاوهٔ پول نقد تازهٔ جذب‌شده"
                 },
                 {
-                  "en": "Last year's revenue times ten",
-                  "fa": "درآمد سال گذشته ضرب در ده"
+                  "en": "Last year's total revenue times ten",
+                  "fa": "کل درآمد سال گذشته ضرب در عدد ده"
                 },
                 {
                   "en": "Pre-money value minus the new cash raised",
@@ -2285,11 +2285,11 @@
                 },
                 {
                   "en": "Precision beats simplicity",
-                  "fa": "دقت بر سادگی برتری دارد"
+                  "fa": "دقت از سادگی بهتر است"
                 },
                 {
                   "en": "Risk does not affect value",
-                  "fa": "ریسک بر ارزش اثری ندارد"
+                  "fa": "ریسک بر ارزش اثر ندارد"
                 }
               ],
               "answer": 0

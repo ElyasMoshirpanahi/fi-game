@@ -83,7 +83,7 @@
                 },
                 {
                   "en": "A Vanguard executive",
-                  "fa": "یکی از مدیران Vanguard"
+                  "fa": "مدیری در Vanguard"
                 }
               ],
               "answer": 0
@@ -238,12 +238,12 @@
                   "fa": "یک دستور پرداخت ثابت از حقوق به کارگزارت"
                 },
                 {
-                  "en": "A monthly review of the hottest stocks to trade",
-                  "fa": "مرور ماهانهٔ داغ‌ترین سهام برای معامله"
+                  "en": "A monthly review of hot stocks to trade",
+                  "fa": "مرور ماهانهٔ سهام داغ برای معامله"
                 },
                 {
-                  "en": "A new credit card that pays monthly rewards",
-                  "fa": "یک کارت اعتباری جدید که ماهانه جایزه می‌دهد"
+                  "en": "A new credit card with monthly rewards",
+                  "fa": "یک کارت اعتباری جدید با جایزهٔ ماهانه"
                 }
               ],
               "answer": 0
@@ -303,11 +303,11 @@
                 },
                 {
                   "en": "A normal tool for a comfortable modern life",
-                  "fa": "ابزاری عادی برای یک زندگی راحت امروزی"
+                  "fa": "ابزاری عادی برای زندگی راحت امروز"
                 },
                 {
                   "en": "A useful tax benefit for most households",
-                  "fa": "یک مزیت مالیاتی مفید برای بیشتر خانواده‌ها"
+                  "fa": "مزیتی مالیاتی برای بیشتر خانواده‌ها"
                 }
               ],
               "answer": 0
@@ -390,8 +390,8 @@
                   "fa": "بازده بلندمدت بیشتر"
                 },
                 {
-                  "en": "More freedom to change jobs at will",
-                  "fa": "آزادی بیشتر برای تغییر شغل به دلخواه"
+                  "en": "More freedom to change jobs",
+                  "fa": "آزادی بیشتر برای تغییر شغل"
                 }
               ],
               "answer": 0
@@ -467,7 +467,7 @@
                 },
                 {
                   "en": "Finance it, invest cash",
-                  "fa": "اقساطی بخر و پول نقد را سرمایه‌گذاری کن"
+                  "fa": "قسطی بخر، با پول نقد سهم بخر"
                 }
               ],
               "answer": 0
@@ -557,8 +557,8 @@
                   "fa": "نحوهٔ مذاکره و ریسک‌هایی که می‌توانی بپذیری"
                 },
                 {
-                  "en": "The tax rate you pay on your salary and savings",
-                  "fa": "نرخ مالیاتی که روی حقوق و پس‌اندازت می‌دهی"
+                  "en": "The tax rate you pay on your salary",
+                  "fa": "نرخ مالیاتی که روی حقوقت می‌دهی"
                 },
                 {
                   "en": "The return the market gives you each year",
@@ -642,10 +642,10 @@
                 },
                 {
                   "en": "A large credit limit you can always draw on",
-                  "fa": "سقف اعتباری بالایی که همیشه می‌توانی از آن برداشت کنی"
+                  "fa": "سقف اعتباری بالایی که همیشه می‌توانی خرج کنی"
                 },
                 {
-                  "en": "A permanent job contract with one employer",
+                  "en": "A permanent contract with one employer",
                   "fa": "قرارداد کار دائمی با یک کارفرما"
                 }
               ],
@@ -686,11 +686,11 @@
                   "fa": "چند ماه هزینه را امروز می‌توانی پوشش دهی"
                 },
                 {
-                  "en": "Your monthly salary after tax and deductions",
-                  "fa": "حقوق ماهانه‌ات پس از مالیات و کسورات"
+                  "en": "Your monthly salary after tax",
+                  "fa": "حقوق ماهانه‌ات پس از مالیات"
                 },
                 {
-                  "en": "Your best stock’s gain over the past quarter",
+                  "en": "Your best stock’s gain last quarter",
                   "fa": "سود بهترین سهمت در فصل گذشته"
                 }
               ],
@@ -791,11 +791,11 @@
                 },
                 {
                   "en": "Rare events that will not repeat",
-                  "fa": "رویدادهای نادری که تکرار نمی‌شوند"
+                  "fa": "رویدادهای نادر و تکرارنشدنی"
                 },
                 {
                   "en": "Signals to leave the market",
-                  "fa": "نشانه‌هایی برای خروج از بازار"
+                  "fa": "نشانهٔ خروج از بازار"
                 }
               ],
               "answer": 0
@@ -874,8 +874,8 @@
                   "fa": "در بازار بمان و هرگز با وحشت نفروش"
                 },
                 {
-                  "en": "Sell whenever prices start to look too high",
-                  "fa": "هر وقت قیمت‌ها زیادی بالا به نظر رسیدند بفروش"
+                  "en": "Sell when prices look too high",
+                  "fa": "وقتی قیمت‌ها زیادی بالاست بفروش"
                 },
                 {
                   "en": "Hold cash until the next crash",
@@ -970,11 +970,11 @@
                 },
                 {
                   "en": "They arrive every five years, almost to the day",
-                  "fa": "هر پنج سال، تقریباً سر همان روز، می‌آیند"
+                  "fa": "هر پنج سال، کمابیش سر روز می‌آیند"
                 },
                 {
                   "en": "Experts on television can predict them",
-                  "fa": "کارشناسان تلویزیون می‌توانند پیش‌بینی‌شان کنند"
+                  "fa": "کارشناسان تلویزیون پیش‌بینی‌شان می‌کنند"
                 }
               ],
               "answer": 0
@@ -1130,11 +1130,11 @@
                 },
                 {
                   "en": "Checking prices every hour while the market falls",
-                  "fa": "بررسی ساعت‌به‌ساعت قیمت‌ها وقتی بازار می‌افتد"
+                  "fa": "بررسی ساعت‌به‌ساعت قیمت‌ها در حالی که بازار می‌افتد"
                 },
                 {
                   "en": "A confident tip from a friend who trades stocks",
-                  "fa": "توصیهٔ مطمئن دوستی که سهام معامله می‌کند"
+                  "fa": "توصیهٔ مطمئن یکی از دوستانت که سهام معامله می‌کند"
                 }
               ],
               "answer": 0
@@ -1194,7 +1194,7 @@
                 },
                 {
                   "en": "They hold too few bonds",
-                  "fa": "اوراق خیلی کمی دارند"
+                  "fa": "اوراق قرضهٔ خیلی کمی نگه می‌دارند"
                 },
                 {
                   "en": "Index funds use leverage",
@@ -1277,11 +1277,11 @@
                   "fa": "هر صندوق شاخصی گسترده و کم‌هزینه"
                 },
                 {
-                  "en": "A handful of big tech stocks",
-                  "fa": "چند سهم بزرگ فناوری"
+                  "en": "A few big tech stocks",
+                  "fa": "چند سهم بزرگ حوزهٔ فناوری"
                 },
                 {
-                  "en": "A high-interest savings account",
+                  "en": "A high-yield savings account",
                   "fa": "یک حساب پس‌انداز با سود بالا"
                 }
               ],
@@ -1354,11 +1354,11 @@
                 },
                 {
                   "en": "A Dutch savings bond held at your own bank",
-                  "fa": "یک اوراق پس‌انداز هلندی نزد بانک خودت"
+                  "fa": "اوراق پس‌انداز هلندی که نزد بانک خودت نگه می‌داری"
                 },
                 {
                   "en": "A single US tech stock with strong growth",
-                  "fa": "یک سهم فناوری آمریکایی با رشد قوی"
+                  "fa": "یک سهم فناوری آمریکایی که رشد قوی دارد"
                 }
               ],
               "answer": 0
@@ -1510,7 +1510,7 @@
                   "fa": "یک صندوق شاخصی اوراق، VBTLX"
                 },
                 {
-                  "en": "A gold mining stock fund",
+                  "en": "A gold mine stock fund",
                   "fa": "یک صندوق سهام معادن طلا"
                 },
                 {
@@ -1587,7 +1587,7 @@
                 },
                 {
                   "en": "The preservation stage",
-                  "fa": "مرحلهٔ حفظ"
+                  "fa": "مرحلهٔ حفظ ثروت"
                 },
                 {
                   "en": "The withdrawal stage only",
@@ -1739,7 +1739,7 @@
                 },
                 {
                   "en": "When news is scary",
-                  "fa": "هر وقت اخبار ترسناک است"
+                  "fa": "وقتی اخبار ترسناک است"
                 }
               ],
               "answer": 0
@@ -1810,8 +1810,8 @@
                   "fa": "برگرداندن مازادشان به هسته"
                 },
                 {
-                  "en": "Moving more of the core over into them",
-                  "fa": "انتقال بخش بیشتری از هسته به آن‌ها"
+                  "en": "Adding core money to them",
+                  "fa": "افزودن پول هسته به آن‌ها"
                 },
                 {
                   "en": "Ignoring the plan altogether",
@@ -1879,7 +1879,7 @@
                 },
                 {
                   "en": "The Dutch central bank",
-                  "fa": "بانک مرکزی هلند"
+                  "fa": "بانک مرکزی کشور هلند"
                 }
               ],
               "answer": 0
@@ -1958,12 +1958,12 @@
                   "fa": "به‌عنوان راهنما، نه قانون"
                 },
                 {
-                  "en": "As a guarantee of success",
+                  "en": "As a success guarantee",
                   "fa": "به‌عنوان تضمین موفقیت"
                 },
                 {
                   "en": "As a strict legal limit",
-                  "fa": "به‌عنوان سقف قانونی سخت‌گیرانه"
+                  "fa": "به‌عنوان حد قانونی سخت"
                 }
               ],
               "answer": 0
@@ -2039,7 +2039,7 @@
                 },
                 {
                   "en": "No change at all",
-                  "fa": "هیچ تغییری"
+                  "fa": "هیچ تغییری نمی‌کند"
                 }
               ],
               "answer": 0

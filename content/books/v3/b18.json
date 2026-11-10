@@ -293,7 +293,7 @@
                 },
                 {
                   "en": "The founder burnout",
-                  "fa": "فرسودگی بنیان‌گذار"
+                  "fa": "فرسودگی مؤسس"
                 }
               ],
               "answer": 0
@@ -364,12 +364,12 @@
                   "fa": "کسب‌وکارهای فناوری پیچیده‌اند"
                 },
                 {
-                  "en": "Investors always step in to help out",
-                  "fa": "سرمایه‌گذاران همیشه برای کمک پا پیش می‌گذارند"
+                  "en": "Investors always step in",
+                  "fa": "سرمایه‌گذاران همیشه کمک می‌کنند"
                 },
                 {
-                  "en": "Rivals tend to quit the market early",
-                  "fa": "رقبا معمولاً زود از بازار کنار می‌کشند"
+                  "en": "Rivals tend to quit early",
+                  "fa": "رقبا معمولاً زود کنار می‌کشند"
                 }
               ],
               "answer": 0
@@ -530,11 +530,11 @@
                 },
                 {
                   "en": "A clever partnership deal",
-                  "fa": "یک قرارداد همکاری زیرکانه"
+                  "fa": "یک شراکت زیرکانه"
                 },
                 {
-                  "en": "A new market position",
-                  "fa": "یک جایگاه تازه در بازار"
+                  "en": "A fresh market position",
+                  "fa": "جایگاه تازه در بازار"
                 }
               ],
               "answer": 0
@@ -618,7 +618,7 @@
                 },
                 {
                   "en": "Cut prices until they quit",
-                  "fa": "قیمت را آن‌قدر پایین بیاور تا کنار بکشند"
+                  "fa": "قیمت را بشکن تا کنار بکشند"
                 }
               ],
               "answer": 0
@@ -1017,12 +1017,12 @@
                   "fa": "ریشه‌یابی در خودت"
                 },
                 {
-                  "en": "A warning letter to the executive",
-                  "fa": "یک نامهٔ هشدار به مدیر"
+                  "en": "A written warning to them",
+                  "fa": "هشدار کتبی به او"
                 },
                 {
-                  "en": "A performance improvement plan",
-                  "fa": "یک برنامهٔ بهبود عملکرد"
+                  "en": "An improvement plan for them",
+                  "fa": "برنامهٔ بهبود او"
                 }
               ],
               "answer": 0
@@ -1329,8 +1329,8 @@
                   "fa": "فهرستی از بازه‌های حقوق"
                 },
                 {
-                  "en": "The weaknesses you want to avoid",
-                  "fa": "ضعف‌هایی که می‌خواهی از آن‌ها پرهیز کنی"
+                  "en": "The weaknesses to avoid",
+                  "fa": "ضعف‌هایی که از آن‌ها پرهیز داری"
                 }
               ],
               "answer": 0
@@ -1385,8 +1385,8 @@
                   "fa": "مدیر"
                 },
                 {
-                  "en": "The HR department",
-                  "fa": "واحد منابع انسانی"
+                  "en": "The HR team",
+                  "fa": "منابع انسانی"
                 }
               ],
               "answer": 0
@@ -1462,7 +1462,7 @@
                 },
                 {
                   "en": "Nothing at all",
-                  "fa": "هیچ"
+                  "fa": "مطلقاً هیچ‌چیز"
                 }
               ],
               "answer": 0

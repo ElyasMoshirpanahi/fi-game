@@ -78,12 +78,12 @@
                   "fa": "از زندگی معمولی، نه از Wall Street"
                 },
                 {
-                  "en": "From analyst reports and brokerage research",
-                  "fa": "از گزارش‌های تحلیلگران و تحقیقات کارگزاری‌ها"
+                  "en": "From analyst and brokerage reports",
+                  "fa": "از گزارش‌های تحلیلگران و کارگزاری‌ها"
                 },
                 {
                   "en": "From technical charts of price patterns",
-                  "fa": "از نمودارهای تکنیکال و الگوهای قیمت"
+                  "fa": "از نمودار تکنیکال الگوهای قیمت"
                 }
               ],
               "answer": 0
@@ -462,12 +462,12 @@
                   "fa": "تا بدانی کی بفروشی"
                 },
                 {
-                  "en": "So your broker charges a lower fee",
-                  "fa": "تا کارگزارت کارمزد کمتری بگیرد"
+                  "en": "So your broker charges less",
+                  "fa": "تا کارگزارت کمتر بگیرد"
                 },
                 {
                   "en": "So you can skip the annual report",
-                  "fa": "تا بتوانی گزارش سالانه را نخوانی"
+                  "fa": "تا گزارش سالانه را نخوانی"
                 }
               ],
               "answer": 0
@@ -687,7 +687,7 @@
                 },
                 {
                   "en": "The habit he calls diworseification",
-                  "fa": "عادتی که او diworseification می‌نامد"
+                  "fa": "عادتی به نام diworseification"
                 },
                 {
                   "en": "The cocktail party theory of markets",
@@ -910,12 +910,12 @@
                   "fa": "نتایج شرکت، نه قیمت"
                 },
                 {
-                  "en": "The stock quote you check every day",
-                  "fa": "قیمت سهم که هر روز نگاهش می‌کنی"
+                  "en": "The stock quote you look at every day",
+                  "fa": "قیمت سهم که هر روز می‌بینی"
                 },
                 {
-                  "en": "How many people talk about it at parties",
-                  "fa": "اینکه چند نفر در مهمانی‌ها درباره‌اش حرف می‌زنند"
+                  "en": "How much it is talked about at parties",
+                  "fa": "چقدر در مهمانی‌ها حرفش هست"
                 }
               ],
               "answer": 0

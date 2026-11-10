@@ -235,11 +235,11 @@
               "options": [
                 {
                   "en": "Racetrack odds, house cuts and mispriced bets",
-                  "fa": "شانس‌های اسب‌دوانی، سهم صاحب‌خانه و شرط‌های بدقیمت"
+                  "fa": "شانس اسب‌دوانی، سهم خانه و شرط بدقیمت"
                 },
                 {
                   "en": "Nothing but the formal rules of accounting",
-                  "fa": "هیچ‌چیز جز قواعد رسمی حسابداری"
+                  "fa": "هیچ‌چیز به‌جز قواعد رسمی حسابداری"
                 },
                 {
                   "en": "Feedback loops, bottlenecks and compounding",
@@ -348,11 +348,11 @@
                 },
                 {
                   "en": "More managers watching the sorting floor",
-                  "fa": "مدیران بیشتر برای نظارت بر سالن تفکیک"
+                  "fa": "مدیران بیشتری برای نظارت بر سالن تفکیک"
                 },
                 {
                   "en": "Longer training for each night worker",
-                  "fa": "آموزش طولانی‌تر برای هر کارگر شیفت شب"
+                  "fa": "آموزش طولانی‌تر برای هر کارگر شیفت شبانه"
                 }
               ],
               "answer": 0
@@ -638,7 +638,7 @@
                 },
                 {
                   "en": "Keep every promise you make",
-                  "fa": "به هر قولی که می‌دهی عمل کن"
+                  "fa": "به هر قولی که می‌دهی وفادار بمان"
                 }
               ],
               "answer": 1
@@ -759,7 +759,7 @@
               "options": [
                 {
                   "en": "Picking single company stocks",
-                  "fa": "انتخاب سهام تک‌شرکت‌ها"
+                  "fa": "انتخاب سهام تک‌تک شرکت‌ها"
                 },
                 {
                   "en": "Software and AI products",

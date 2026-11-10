@@ -12,28 +12,51 @@ const tokens = (s) => s.toLowerCase().replace(/[’']/g, '').split(/[^a-z0-9€%
 const appearsIn = (needle, hay) => { const h = tokens(hay); return tokens(needle).every((t) => h.some((x) => x.startsWith(t.slice(0, 4)))); };
 const sentences = (s) => (s.match(/[.!?](\s|$)/g) || []).length;
 const isPair = (p) => p && typeof p.en === 'string' && p.en.trim() && typeof p.fa === 'string' && p.fa.trim();
-// Spec 3: options of a tap Check may not give the answer away by length.
-// LENGTH_RATIO: the longest option may be at most this many times the shortest (English characters).
-// LENGTH_SLACK: a difference this small is never a signal (short numeric options such as "€2k" and "€20k").
+// ---- Spec 3: the length of a tap Check's options must not point at the answer, in either language.
+// LENGTH_RATIO: within one Check the longest option may be at most this many times the shortest.
+// LENGTH_SLACK: a difference of this many characters or fewer is never a signal (short options such as "€2k" and "€20k").
+// RANK_SHARE: across a set of tap Checks (a book, or the Basics Stations) the correct option may be the longest,
+//   the shortest, or neither in at most this share of them. Chance is one third; the cap leaves room for a
+//   small set while stopping any rule of thumb ("never the longest", "pick the middle one") from paying.
+// RANK_MIN_SET: below this many tap Checks a set is too small for shares to mean anything.
 export const LENGTH_RATIO = 1.6;
 export const LENGTH_SLACK = 8;
-// The options of one tap Check, judged for length. Returns { spread: boolean, longestIsAnswer: boolean }.
-export function lengthSignal(check) {
-  const len = check.options.map((o) => o.en.trim().length);
+export const RANK_SHARE = 0.45;
+export const RANK_MIN_SET = 6;
+export const LANGS = ['en', 'fa'];
+const wellFormedTap = (k) => k.type === 'tap' && Array.isArray(k.options) && k.options.length >= 3 && k.options.every(isPair) && Number.isInteger(k.answer) && k.answer >= 0 && k.answer < k.options.length;
+// How the correct option of one tap Check compares in length with the wrong ones, in one language.
+// Returns { spread: the options differ too much, rank: 'longest' | 'shortest' | 'between' (ties count as between) }.
+export function lengthSignal(check, lang = 'en') {
+  const len = check.options.map((o) => o[lang].trim().length);
   const max = Math.max(...len), min = Math.min(...len);
-  const others = len.filter((_, i) => i !== check.answer);
-  return { spread: max - min > LENGTH_SLACK && max > min * LENGTH_RATIO, longestIsAnswer: len[check.answer] > Math.max(...others) };
+  const own = len[check.answer], others = len.filter((_, i) => i !== check.answer);
+  const rank = own > Math.max(...others) ? 'longest' : own < Math.min(...others) ? 'shortest' : 'between';
+  return { spread: max - min > LENGTH_SLACK && max > min * LENGTH_RATIO, rank };
 }
-// Rules for the checks of one Lesson or Station (shared by the book validator and the Basics test).
+// Rule for a set of tap Checks: no length rank may hold the correct option too often.
+export function lengthBalance(checks, where, errs) {
+  const taps = checks.filter(wellFormedTap);
+  if (taps.length < RANK_MIN_SET) return errs;
+  const cap = Math.ceil(taps.length * RANK_SHARE);
+  for (const lang of LANGS) {
+    for (const rank of ['longest', 'shortest', 'between']) {
+      const n = taps.filter((k) => lengthSignal(k, lang).rank === rank).length;
+      if (n > cap) errs.push(`${where}: in ${lang}, the correct option is ${rank === 'between' ? 'neither the longest nor the shortest' : `the ${rank}`} in ${n} of ${taps.length} tap checks, at most ${cap} allowed (aim for about a third each)`);
+    }
+  }
+  return errs;
+}
+// Two wordings count as the same when they differ only in case, spacing or punctuation.
+const bare = (text) => text.toLowerCase().replace(/[\s\p{P}\p{S}]/gu, '');
+// Rules for the Checks of one Lesson or Station: option spread per Check, and a second wording for the Fare.
 export function checkWording(checks, where, errs) {
-  const taps = checks.filter((k) => k.type === 'tap' && Array.isArray(k.options) && k.options.every(isPair) && Number.isInteger(k.answer));
-  for (const k of taps) if (lengthSignal(k).spread) errs.push(`${k.id}: options differ too much in length (longest over ${LENGTH_RATIO}x the shortest); the length must not point at the answer`);
-  const longest = taps.filter((k) => lengthSignal(k).longestIsAnswer).length;
-  const allowed = Math.ceil(taps.length / 3);
-  if (longest > allowed) errs.push(`${where}: the correct option is the longest in ${longest} of ${taps.length} tap checks, at most ${allowed} allowed`);
+  for (const k of checks.filter(wellFormedTap)) for (const lang of LANGS) {
+    if (lengthSignal(k, lang).spread) errs.push(`${k.id}: ${lang} options differ too much in length (longest over ${LENGTH_RATIO}x the shortest and more than ${LENGTH_SLACK} characters apart)`);
+  }
   for (const k of checks) {
-    if (!isPair(k.fare)) errs.push(`${k.id}: needs a "fare" prompt {en, fa}: the same question in other words`);
-    else if (isPair(k.prompt) && (k.fare.en.trim() === k.prompt.en.trim() || k.fare.fa.trim() === k.prompt.fa.trim())) errs.push(`${k.id}: the "fare" prompt must differ from the prompt in both languages`);
+    if (!isPair(k.fare)) errs.push(`${k.id}: needs a "fare" prompt {en, fa}: the same Check in other words`);
+    else if (isPair(k.prompt) && LANGS.some((lang) => bare(k.fare[lang]) === bare(k.prompt[lang]))) errs.push(`${k.id}: the "fare" prompt must differ from the prompt in both languages, by more than case or punctuation`);
   }
   return errs;
 }
@@ -117,6 +140,7 @@ export function validateBook(b, errs) {
       });
     });
   });
+  lengthBalance(circles.flatMap((c) => (c.lessons || []).flatMap((l) => (l.items || []).filter((i) => i.kind === 'check'))), b.id || 'book', errs);
   return errs;
 }
 
