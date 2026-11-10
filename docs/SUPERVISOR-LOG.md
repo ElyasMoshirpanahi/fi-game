@@ -134,3 +134,7 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Added test/advice-lint.test.mjs. Restored b03's verbatim why line after a reader changed it.
 - Owner instruction: questions, blockers, updates and browser recordings go to Telegram while the channel is open.
 - 209 tests green; headless Chrome run clean; recording sent.
+
+## Spec 1 review fixes (2026-11-10)
+- Review agent (Standards + Spec) on `main...feat/review`: findings and disposition in `docs/review/spec1-review-code-review.md`.
+- Fixed: Coin farm, wrong Check stored, due Card pushed to tomorrow, orphan bookmark, broken Deck on load, bookmark backfill, missing answer on a wrong Review, cap per day. 13 tests added, 234 green. Headless Chrome run clean.
