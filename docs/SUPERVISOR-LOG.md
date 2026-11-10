@@ -143,3 +143,8 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Store: `backup`, `parseBackup`. Engine: `RESTORE`, `BACKUP_DONE`, `backupAge`. Path: Back up and Restore buttons, file or paste, summary before replacing.
 - 241 tests green. Headless Chrome: back up, wipe, bad text refused, restore, bookmark and Deck back.
 - Review (Standards + Spec, hostile backups run against the seam): a damaged backup could break the game for good, and a shared backup could inject script. Fixed with shape rules for every durable key; nine more fixes in `docs/review/spec2-backup-code-review.md`. 244 tests green.
+
+## Spec 8: neon overhaul (2026-11-10)
+- Owner asked on Telegram for a cyberpunk redesign with feedback on every move. Taken ahead of specs 3 to 7. Spec in `docs/specs/08-neon-overhaul.md` (issue #16), decision 41, ADR-0011.
+- Built: one neon theme, circuit road on a wave with START tag and scanner ring, Combo in the engine, effects layer in fx (sparks, flying Coin and XP, glitch, synth sounds, haptics).
+- A heavy test (ten whole books through the reducer) sat at 4.7 s against the 5 s default and failed under load; it now has an explicit 30 s limit. No test was removed.
