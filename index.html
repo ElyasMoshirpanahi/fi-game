@@ -244,6 +244,16 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .cell.on { background: var(--accent); border-color: var(--accent); }
 .journal textarea { width: 100%; font: inherit; color: inherit; background: var(--bg); border: 2px solid var(--line); border-radius: 12px; padding: 12px; resize: vertical; min-height: 120px; }
 .journal textarea:focus { outline: none; border-color: var(--accent); }
+.notes textarea { width: 100%; font: inherit; font-size: 16px; line-height: 1.7; color: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: var(--cut); padding: 14px; resize: vertical; min-height: 260px; }
+.notes textarea:focus { border-color: var(--accent); box-shadow: 0 0 18px color-mix(in srgb, var(--accent) 22%, transparent); }
+.noteprompts { margin: 0 0 12px; padding-inline-start: 20px; color: var(--muted); font-size: 14px; }
+.notecount { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin: 8px 0 10px; font-family: var(--hud-font); font-size: 13px; color: var(--muted); }
+.notecount .done { color: var(--gold); }
+.notebar { flex: 0 0 100%; height: 4px; background: var(--well); border-radius: 2px; overflow: hidden; } .notebar b { display: block; height: 100%; background: linear-gradient(90deg, var(--mag), var(--accent)); transition: width .3s; }
+html[dir="rtl"] .notebar b { margin-inline-start: auto; }
+.noted { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; font-size: 12px; color: var(--gold); } .noted svg { width: 14px; height: 14px; }
+.secbar { display: flex; gap: 8px; padding: 10px 14px 0; position: relative; z-index: 2; }
+.footbtn svg, .btn svg { flex: 0 0 auto; }
 .prog.big { height: 14px; margin-bottom: 4px; }
 .clist h3 { font-size: 15px; margin: 14px 0 8px; }
 .citem { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: start; background: var(--card); border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-bottom: 8px; font-weight: 600; }
@@ -275,6 +285,7 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .brow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
 .btn.small { padding: 8px 12px; font-size: 14px; display: inline-flex; gap: 6px; align-items: center; border-bottom-width: 3px; }
 .btn.small svg { width: 16px; height: 16px; }
+.btn.wide svg { width: 18px; height: 18px; vertical-align: -3px; margin-inline-end: 8px; }
 .bookhead { display: flex; gap: 10px; align-items: flex-start; padding: 0 4px 12px; }
 .bookhead b { display: block; font-size: 16px; line-height: 1.3; }
 .bookhead .meta .t-en, .bookhead .meta .t-fa, .lmeta .t-en, .lmeta .t-fa { display: inline; }
@@ -397,6 +408,7 @@ FI.content = (() => {
       circles: 'circles', lessons: 'lessons', points: 'points', minutes: 'min', approx: '~', whyMatters: 'Why this matters', bookNote: 'Distilled from the book. Educational, not advice.', circleComplete: 'Circle complete', loading: 'Loading the book', loadError: 'Could not load this book. Check your connection and try again.', dismiss: 'Close', startLesson: 'Start', replayLesson: 'Replay',
       shelfTitle: 'Shelf', basics: 'Basics', basicsSub: 'The roadmap itself, six stations', section: 'Section', sections: 'Sections', jumpTo: 'Jump to section', goToSection: 'Go to section', sectionComplete: 'Section complete', collapse: 'Collapse', expand: 'Expand',
       backup: 'Back up progress', restore: 'Restore progress', restoreHelp: 'Choose a backup file, or paste its text below.', restorePaste: 'Paste backup text here', restoreSummary: 'This backup', restoreConfirm: 'Replace my progress with it', restoreBad: 'This is not a usable backup of this game.', restoreNewer: 'This backup was made by a newer version of the game.', restored: 'Progress restored.', backupOld: 'Last backup is more than 14 days old.', backupNever: 'No backup yet. Progress lives only in this browser.', exportedOn: 'made on', litCount: 'lit', deckCount: 'in the deck',
+      notes: 'Notes', notesKicker: 'Your page for this book', notesPrompt1: 'What does the book argue?', notesPrompt2: 'What will you do differently?', notesPrompt3: 'What do you disagree with?', notesPlaceholder: 'Write in any language. It saves as you type.', words: 'words', notesPage: 'about one page is', notesPrivate: 'Kept in this browser only. Included in your backup.', notesEdited: 'Last edited', notesInvite: 'Write your page of notes', notesDone: 'One page written',
       go: 'START', combo: 'COMBO',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
@@ -427,6 +439,7 @@ FI.content = (() => {
       circles: 'حلقه', lessons: 'درس', points: 'نکته', minutes: 'دقیقه', approx: '~', whyMatters: 'چرا مهم است', bookNote: 'چکیده‌ای از کتاب. آموزشی است، نه توصیه.', circleComplete: 'حلقه کامل شد', loading: 'در حال بارگذاری کتاب', loadError: 'بارگذاری کتاب ممکن نشد. اتصال را بررسی کن و دوباره بزن.', dismiss: 'بستن', startLesson: 'شروع', replayLesson: 'دوباره',
       shelfTitle: 'قفسه', basics: 'پایه‌ها', basicsSub: 'خودِ نقشه راه، شش ایستگاه', section: 'بخش', sections: 'بخش‌ها', jumpTo: 'پرش به بخش', goToSection: 'برو به بخش', sectionComplete: 'بخش کامل شد', collapse: 'جمع کن', expand: 'باز کن',
       backup: 'پشتیبان‌گیری از پیشرفت', restore: 'بازیابی پیشرفت', restoreHelp: 'یک فایل پشتیبان انتخاب کن، یا متنش را پایین بچسبان.', restorePaste: 'متن پشتیبان را اینجا بچسبان', restoreSummary: 'این پشتیبان', restoreConfirm: 'پیشرفتم را با آن جایگزین کن', restoreBad: 'این پشتیبانِ قابل‌استفاده‌ای از این بازی نیست.', restoreNewer: 'این پشتیبان با نسخهٔ جدیدتری از بازی ساخته شده.', restored: 'پیشرفت بازیابی شد.', backupOld: 'آخرین پشتیبان بیش از ۱۴ روز پیش است.', backupNever: 'هنوز پشتیبانی نیست. پیشرفت فقط در همین مرورگر است.', exportedOn: 'ساخته‌شده در', litCount: 'روشن', deckCount: 'در دسته',
+      notes: 'یادداشت‌ها', notesKicker: 'صفحهٔ تو برای این کتاب', notesPrompt1: 'کتاب چه می‌گوید؟', notesPrompt2: 'چه کاری را متفاوت انجام می‌دهی؟', notesPrompt3: 'با چه چیزی مخالفی؟', notesPlaceholder: 'به هر زبانی بنویس. هم‌زمان با نوشتن ذخیره می‌شود.', words: 'واژه', notesPage: 'حدود یک صفحه یعنی', notesPrivate: 'فقط در همین مرورگر می‌ماند. در پشتیبان تو هم هست.', notesEdited: 'آخرین ویرایش', notesInvite: 'صفحهٔ یادداشتت را بنویس', notesDone: 'یک صفحه نوشته شد',
       go: 'شروع', combo: 'پیاپی',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
@@ -775,7 +788,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -786,13 +799,19 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null,
+    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null, notes: {},
+    notesFor: null, // the book whose Notes page is open
     combo: 0, // right answers in a row; feedback only, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
 
   const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+  // Notes: the player's own page for a book. A page is about NOTE_PAGE_WORDS words (the roadmap asks for one page per book).
+  const NOTE_MAX_CHARS = 20000;
+  const NOTE_PAGE_WORDS = 300;
+  const wordCount = (text) => (String(text).trim() ? String(text).trim().split(/\s+/).length : 0);
+  const isDay = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
   // Combo: right answers in a row, in Lessons and in Review. It pays nothing.
   const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); };
 
@@ -817,6 +836,7 @@ FI.engine = (() => {
     deck: mapOf((e) => isMap(e) && isText(e.stationId) && isText(e.cardId) && isPair(e.text) && isCheck(e.check) && isCount(e.box) && isCount(e.due) && isFlag(e.missed) && isFlag(e.marked)),
     reviewed: (v) => v === null || (isMap(v) && isCount(v.day) && isCount(v.n)),
     lastBackup: (v) => v === null || Number.isInteger(v),
+    notes: mapOf((n) => isMap(n) && isText(n.text) && isText(n.edited)),
   };
   // The durable keys of `data` whose value has the wrong shape.
   const badKeys = (data) => (isMap(data) ? Object.keys(SHAPE).filter((k) => data[k] !== undefined && !SHAPE[k](data[k])) : []);
@@ -931,7 +951,7 @@ FI.engine = (() => {
 
   function leave(s) {
     s.screen = 'path'; s.stationId = null; s.phase = null; s.current = null;
-    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null; s.review = null;
+    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null; s.review = null; s.notesFor = null;
     return s;
   }
 
@@ -1045,6 +1065,19 @@ FI.engine = (() => {
         const id = s.review.ids[s.review.index];
         if (!s.deck[id] || s.deck[id].check) return s;
         settle(s, id, action.value === 'knew', false);
+        return s;
+      }
+      case 'OPEN_NOTES':
+        if (!content.sectionOf(action.value)) return s;
+        leave(s);
+        s.screen = 'notes'; s.notesFor = action.value;
+        return s;
+      case 'SET_NOTE': {
+        // `edited` is the day, supplied by the app. An emptied page is removed.
+        const { bookId, text, edited } = action.value || {};
+        if (!content.sectionOf(bookId) || typeof text !== 'string') return s;
+        if (text.trim()) s.notes[bookId] = { text: text.slice(0, NOTE_MAX_CHARS), edited: isDay(edited) ? edited : '' };
+        else delete s.notes[bookId];
         return s;
       }
       case 'OPEN_BOOKMARKS':
@@ -1179,7 +1212,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS };
 })();
 </script>
 
@@ -1291,6 +1324,7 @@ FI.render = (() => {
   };
 
   const ICONS = {
+    note: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5z"/><path d="M15 3v4h4M8 12h8M8 16h5"/></svg>',
     s1: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 12h3M13 12h3M8 16h3M13 16h3"/></svg>',
     s2: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg>',
     s3: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 8l8 8M16 8l-8 8"/></svg>',
@@ -1464,7 +1498,8 @@ FI.render = (() => {
       const nodes = !open ? '' : sec.kind === 'basics'
         ? `<ol class="nodes">${roadLayer}${sec.runs.map((u, n) => unitStop(s, content, content.station(u), u === nextRun, litBooks, n)).join('')}</ol>`
         : `<ol class="nodes circles">${roadLayer}${sec.circles.map((c, i) => circleStop(s, content, c, i + 1, nextCircle && nextCircle.id === c.id)).join('')}</ol>`;
-      return `<section class="sec ${sec.kind} ${open ? 'open' : 'collapsed'} ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}">${sectionHeader(s, sec, i + 1, open, doneOf(sec))}${nodes}</section>`;
+      const bar = open && sec.kind === 'book' ? `<div class="secbar">${notesButton(s, sec.bookId, 'footbtn')}</div>` : '';
+      return `<section class="sec ${sec.kind} ${open ? 'open' : 'collapsed'} ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}">${sectionHeader(s, sec, i + 1, open, doneOf(sec))}${bar}${nodes}</section>`;
     }).join('');
     const reset = ui.confirmReset
       ? `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('resetConfirm', s.mode)}</span><button ${A({ type: 'UI_RESET_CANCEL' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESET' })}>${t('confirm', s.mode)}</button></div>`
@@ -1544,7 +1579,9 @@ FI.render = (() => {
         <div><b class="t-en" lang="en">${esc(b.title)}</b><span class="meta t-en" lang="en">${esc(b.author.en)} · ${yr(b.year, s.mode)}</span><span class="meta">${b.must ? t('mustRead', s.mode) : t('optionalRead', s.mode)} · ${t('stage', s.mode)} ${num(b.stage, s.mode)}</span></div>
         ${lit ? `<span class="badge">${pair(b.badge, one(s.mode))}</span>` : ''}</div>
       <p class="why">${pair(b.why, s.mode)}</p>
+      ${noteWords(s, b.bookId) ? `<p class="noted">${ICONS.note}<span>${t('notes', s.mode)}: ${num(noteWords(s, b.bookId), s.mode)} ${t('words', s.mode)}</span></p>` : ''}
       <div class="brow"><div class="chips">${states}</div>
+        ${notesButton(s, b.bookId, 'btn small')}
         <button class="btn small ${lit ? '' : 'primary'}" ${A({ type: 'UI_JUMP', value: b.bookId })}>${ICONS.book}${t('goToSection', s.mode)}</button></div>
     </li>`;
   }
@@ -1584,6 +1621,33 @@ FI.render = (() => {
       <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${pair(st.name, s.mode)}</h2></div>
       ${widgets}
     </main>${overlay}`;
+  }
+
+  // ---- Notes (spec 4): one page per book, the player's own -----------------
+  const noteWords = (s, bookId) => (s.notes[bookId] ? FI.engine.wordCount(s.notes[bookId].text) : 0);
+  // The count line under the page; also rewritten by patch() while the player types.
+  function noteCount(words, mode) {
+    const page = FI.engine.NOTE_PAGE_WORDS;
+    const done = words >= page;
+    return `<span class="${done ? 'done' : ''}">${num(words, mode)} ${t('words', mode)}${done ? ` · ${t('notesDone', mode)}` : ''}</span><span>${t('notesPage', mode)} ${num(page, mode)} ${t('words', mode)}</span><i class="notebar"><b style="width:${Math.min(100, Math.round((words / page) * 100))}%"></b></i>`;
+  }
+  const notesButton = (s, bookId, cls) => { const n = noteWords(s, bookId); return `<button class="${cls}" ${A({ type: 'OPEN_NOTES', value: bookId })}>${ICONS.note}<span>${t('notes', s.mode)}</span>${n ? `<b>${num(n, s.mode)}</b>` : ''}</button>`; };
+  function notesScreen(s, content) {
+    const sec = content.sectionOf(s.notesFor);
+    const entry = s.notes[s.notesFor];
+    const prompts = ['notesPrompt1', 'notesPrompt2', 'notesPrompt3'].map((k) => `<li>${t(k, s.mode)}</li>`).join('');
+    const edited = entry && entry.edited ? `<p class="help">${t('notesEdited', s.mode)}: <bdi>${yr(entry.edited, s.mode)}</bdi></p>` : '';
+    return `<main class="station tools notes" data-theme="book">
+      <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('notes', s.mode)}</h2></div>
+      <section class="panel">
+        <div class="bookhead">${cover(sec, 'small')}<div><b class="t-en" lang="en">${esc(sec.title)}</b><span class="meta t-en" lang="en">${esc(sec.author.en)} · ${yr(sec.year, s.mode)}</span></div></div>
+        <p class="kicker">${t('notesKicker', s.mode)}</p>
+        <ul class="noteprompts">${prompts}</ul>
+        <textarea data-note="${esc(s.notesFor)}" dir="auto" rows="12" maxlength="20000" placeholder="${t('notesPlaceholder', s.mode)}" aria-label="${t('notes', s.mode)}: ${esc(sec.title)}">${esc(entry ? entry.text : '')}</textarea>
+        <p class="notecount" aria-live="polite">${noteCount(noteWords(s, s.notesFor), s.mode)}</p>
+        ${edited}<p class="help">${t('notesPrivate', s.mode)}</p>
+      </section>
+    </main>`;
   }
 
   function bookmarksScreen(s, content) {
@@ -1726,7 +1790,8 @@ FI.render = (() => {
         : sec ? `<p class="inl">${pair(st.name, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`
         : `<p class="inl">${t('badge', s.mode)}: ${pair(st.badge, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`;
       const burst = s.events.includes('section') || s.events.includes('circle') || (s.events.includes('lit') && !st.book) ? confetti() : '';
-      return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}<button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button></section>`;
+      const invite = sec && s.events.includes('section') ? `<button class="btn soft wide" ${A({ type: 'OPEN_NOTES', value: sec.bookId })}>${ICONS.note}${t('notesInvite', s.mode)}</button>` : '';
+      return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}<div class="actions"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button>${invite}</div></section>`;
     }
     return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
   }
@@ -1770,7 +1835,7 @@ FI.render = (() => {
     const html = document.documentElement;
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
-    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : s.screen === 'review' ? reviewScreen(s, content) : stationScreen(s, content);
+    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : s.screen === 'notes' ? notesScreen(s, content) : s.screen === 'review' ? reviewScreen(s, content) : stationScreen(s, content);
     const busy = ui.loading ? `<div class="overlay soft"><section class="panel result"><div class="spinner" aria-hidden="true"></div><p>${t('loading', s.mode)}</p></section></div>` : '';
     const err = ui.error ? `<div class="overlay"><section class="panel result fail"><div class="big">${ICONS.retry}</div><p>${t('loadError', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_ERROR_CLOSE' })} data-focus>${t('dismiss', s.mode)}</button></section></div>` : '';
     const fresh = !ui.coinShown; // this events array is being shown for the first time
@@ -1812,6 +1877,8 @@ FI.render = (() => {
       set('capital', '€' + num(v.capital, m)); set('ret', num(v.ret, m) + '%'); set('expenses', '€' + num(v.expenses, m));
       set('income', '€' + num(Math.round(v.capital * v.ret / 100), m)); set('target', '€' + num(v.expenses * 25, m));
       set('pct', num(Math.min(999, Math.round((v.capital / (v.expenses * 25)) * 100)), m) + '%');
+    } else if (action.type === 'SET_NOTE') {
+      const c = root.querySelector('.notecount'); if (c) c.innerHTML = noteCount(noteWords(s, s.notesFor), s.mode);
     } else if (action.type === 'UI_RESTORE_TEXT') {
       const v = root.querySelector('.restore .verdict'); if (v) v.innerHTML = restoreVerdict(s);
     } else if (action.type === 'UI_SEARCH') {
@@ -1849,6 +1916,7 @@ FI.render = (() => {
     root.addEventListener('click', (e) => {
       const b = e.target.closest('[data-action]');
       if (!b || b.disabled) return;
+      saveNote();
       dispatch(JSON.parse(b.getAttribute('data-action')));
     });
     // Drag a placed Order chip onto another to reorder (pointer enhancement over tap-to-place).
@@ -1870,12 +1938,25 @@ FI.render = (() => {
     window.addEventListener('resize', () => drawRoads(root));
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => drawRoads(root));
     if (window.ResizeObserver) new ResizeObserver(() => drawRoads(root)).observe(root);
+    // Notes save 400 ms after the last key. A tap, a loss of focus or a hidden tab saves at once,
+    // so leaving never drops a sentence and no screen is painted from stale Notes.
+    let noteTimer = null, noteField = null;
+    const saveNote = () => {
+      clearTimeout(noteTimer);
+      const el = noteField; noteField = null;
+      if (!el) return;
+      const d = new Date(); const day = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      dispatch({ type: 'SET_NOTE', value: { bookId: el.getAttribute('data-note'), text: el.value, edited: day }, silent: true });
+    };
+    root.addEventListener('focusout', saveNote);
+    document.addEventListener('visibilitychange', () => { if (document.hidden) saveNote(); });
     let journalTimer = null;
     root.addEventListener('input', (e) => {
       const el = e.target;
       if (el.matches('[data-slider]')) dispatch({ type: 'SET_SLIDER', value: { key: el.getAttribute('data-slider'), value: el.value }, silent: true });
       else if (el.matches('[data-search]')) dispatch({ type: 'UI_SEARCH', value: el.value });
       else if (el.matches('[data-restore-text]')) dispatch({ type: 'UI_RESTORE_TEXT', value: el.value });
+      else if (el.matches('[data-note]')) { clearTimeout(noteTimer); noteField = el; noteTimer = setTimeout(saveNote, 400); }
       else if (el.matches('[data-journal]')) {
         clearTimeout(journalTimer);
         const text = el.value;
@@ -2004,7 +2085,7 @@ FI.fx = (() => {
   }
 
   // Every move the player makes answers back: a click, a tick in the hand, a few sparks.
-  const QUIET = ['SET_SLIDER', 'UI_SEARCH', 'UI_RESTORE_TEXT', 'UI_RESTORE_FILE', 'SET_JOURNAL'];
+  const QUIET = ['SET_SLIDER', 'UI_SEARCH', 'UI_RESTORE_TEXT', 'UI_RESTORE_FILE', 'SET_JOURNAL', 'SET_NOTE'];
   function tap(action, state) {
     if (!action || action.silent || QUIET.includes(action.type)) return;
     if (!state.muted) SOUNDS.tap();
