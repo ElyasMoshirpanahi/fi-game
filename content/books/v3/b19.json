@@ -1,0 +1,651 @@
+{
+  "id": "b19",
+  "title": "Zero to One",
+  "author": {
+    "en": "Peter Thiel with Blake Masters",
+    "fa": "Peter Thiel با Blake Masters"
+  },
+  "year": 2014,
+  "stage": 5,
+  "must": false,
+  "why": {
+    "en": "How to build something with no competitor",
+    "fa": "چطور چیزی بسازی که رقیب ندارد"
+  },
+  "badge": {
+    "en": "Competition Is for Losers",
+    "fa": "رقابت برای بازنده‌هاست"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b19c1",
+      "title": {
+        "en": "Build a monopoly from a secret",
+        "fa": "از یک راز، انحصار بساز"
+      },
+      "lessons": [
+        {
+          "id": "b19c1l1",
+          "title": {
+            "en": "Zero to one and the contrarian question",
+            "fa": "صفر به یک و سؤال خلاف‌جریان"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b19c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the Preface and Chapters 1 and 2: zero to one, the contrarian question and the dot-com lessons. It matters because your AI product builds ownership only if it creates something new.",
+                "fa": "این درس پیشگفتار و فصل‌های ۱ و ۲ را خلاصه می‌کند: صفر به یک، سؤال خلاف‌جریان و درس‌های دوران dot-com. مهم است چون محصول AI تو فقط وقتی مالکیت می‌سازد که چیزی نو خلق کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p2",
+              "text": {
+                "en": "Every moment in business happens only once. The next Bill Gates will not build an operating system, and the next Larry Page will not make a search engine.",
+                "fa": "هر لحظه در کسب‌وکار فقط یک بار رخ می‌دهد. Bill Gates بعدی سیستم‌عامل نمی‌سازد و Larry Page بعدی موتور جستجو درست نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p3",
+              "text": {
+                "en": "Going from 0 to 1 means doing something new, vertical or intensive progress. Going from 1 to n means copying what works, horizontal or extensive progress.",
+                "fa": "رفتن از ۰ به ۱ یعنی انجام دادن کاری نو، پیشرفت عمودی یا عمقی. رفتن از ۱ به n یعنی کپی کردن چیزی که کار می‌کند، پیشرفت افقی یا گسترشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l1k1",
+              "type": "tap",
+              "source": "b19c1l1p3",
+              "prompt": {
+                "en": "What does Thiel mean by going from 1 to n?",
+                "fa": "منظور Thiel از رفتن از ۱ به n چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Copying what works, horizontal progress",
+                  "fa": "کپی کردن چیزی که کار می‌کند، پیشرفت افقی"
+                },
+                {
+                  "en": "Inventing a new technology",
+                  "fa": "اختراع یک فناوری نو"
+                },
+                {
+                  "en": "Shrinking a company to one product",
+                  "fa": "کوچک کردن شرکت به یک محصول"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p4",
+              "text": {
+                "en": "Thiel gives each kind of progress a single word. Horizontal progress is globalization, and vertical progress is technology.",
+                "fa": "Thiel برای هر نوع پیشرفت یک کلمه دارد. پیشرفت افقی جهانی‌سازی است و پیشرفت عمودی فناوری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p5",
+              "text": {
+                "en": "In a world of scarce resources, spreading old ways of making wealth across the globe would bring devastation, not riches. Without new technology, globalization alone cannot last.",
+                "fa": "در دنیایی با منابع کمیاب، گسترش روش‌های قدیمی ثروت‌سازی در سراسر جهان به ویرانی می‌رسد نه ثروت. بدون فناوری نو، جهانی‌سازی به‌تنهایی دوام نمی‌آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l1k2",
+              "type": "tf",
+              "source": "b19c1l1p4",
+              "prompt": {
+                "en": "Thiel's single word for vertical progress is globalization.",
+                "fa": "کلمهٔ Thiel برای پیشرفت عمودی، جهانی‌سازی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p6",
+              "text": {
+                "en": "The contrarian question: what important truth do very few people agree with you on? Thiel asks it in job interviews, and it is hard to answer well.",
+                "fa": "سؤال خلاف‌جریان: کدام حقیقت مهم است که آدم‌های بسیار کمی با تو در آن هم‌نظرند؟ Thiel آن را در مصاحبه‌های استخدامی می‌پرسد و جواب خوب دادن به آن سخت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p7",
+              "text": {
+                "en": "A good answer reads: most people believe X, but the truth is the opposite of X. Its business version is: what valuable company is nobody building?",
+                "fa": "جواب خوب این شکل را دارد: بیشتر مردم X را باور دارند، اما حقیقت عکس X است. نسخهٔ کسب‌وکاری‌اش این است: کدام شرکت ارزشمند را هیچ‌کس نمی‌سازد؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l1k3",
+              "type": "tap",
+              "source": "b19c1l1p7",
+              "prompt": {
+                "en": "What is the business version of the contrarian question?",
+                "fa": "نسخهٔ کسب‌وکاری سؤال خلاف‌جریان چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Which market is growing fastest?",
+                  "fa": "کدام بازار سریع‌تر از همه رشد می‌کند؟"
+                },
+                {
+                  "en": "What valuable company is nobody building?",
+                  "fa": "کدام شرکت ارزشمند را هیچ‌کس نمی‌سازد؟"
+                },
+                {
+                  "en": "Which competitor can we beat on price?",
+                  "fa": "کدام رقیب را می‌توانیم در قیمت شکست دهیم؟"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p8",
+              "text": {
+                "en": "Chapter 2, Party Like It's 1999: after the dot-com crash, founders took four lessons. Make incremental advances, stay lean and flexible, improve on the competition, and focus on product over sales.",
+                "fa": "فصل ۲، Party Like It's 1999: بعد از سقوط dot-com، بنیان‌گذاران چهار درس گرفتند. پیشرفت تدریجی کن، چابک و کم‌هزینه بمان، رقبا را بهتر کن و به‌جای فروش روی محصول تمرکز کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p9",
+              "text": {
+                "en": "Thiel argues the opposite principles are probably more correct. It is better to risk boldness than triviality, and a bad plan is better than no plan.",
+                "fa": "Thiel استدلال می‌کند اصول مخالف احتمالاً درست‌ترند. ریسک جسارت بهتر از ریسک پیش‌پاافتادگی است و برنامهٔ بد بهتر از نداشتن برنامه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l1k4",
+              "type": "tf",
+              "source": "b19c1l1p9",
+              "prompt": {
+                "en": "Thiel agrees that small incremental steps with no fixed plan are the wisest path.",
+                "fa": "Thiel قبول دارد که گام‌های کوچک تدریجی بدون برنامهٔ مشخص عاقلانه‌ترین راه است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p10",
+              "text": {
+                "en": "He adds that competitive markets destroy profits and that sales matters just as much as product. Most people wrongly read the crash as proof that every bold plan is a bubble.",
+                "fa": "او اضافه می‌کند که بازارهای رقابتی سود را نابود می‌کنند و فروش درست به اندازهٔ محصول مهم است. بیشتر مردم سقوط را به‌اشتباه دلیلی گرفتند که هر برنامهٔ جسورانه حباب است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p11",
+              "text": {
+                "en": "Before you pick your AI product, write your answer to Thiel's question: what valuable thing is nobody building? If ten tools already do it, you are going from 1 to n.",
+                "fa": "پیش از انتخاب محصول AI خود، جوابت به سؤال Thiel را بنویس: کدام چیز ارزشمند را هیچ‌کس نمی‌سازد؟ اگر ده ابزار از قبل همان کار را می‌کنند، داری از ۱ به n می‌روی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l1p12",
+              "text": {
+                "en": "Keep that answer in your decision journal and test it again each quarter. A contrarian truth you can state clearly is the start of a plan, not a guarantee.",
+                "fa": "آن جواب را در دفتر تصمیم‌هایت نگه دار و هر فصل دوباره محکش بزن. حقیقت خلاف‌جریانی که بتوانی روشن بیانش کنی آغاز یک برنامه است، نه تضمین."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l1k5",
+              "type": "tap",
+              "source": "b19c1l1p11",
+              "prompt": {
+                "en": "Applied to your AI product, what does it mean if ten tools already do it?",
+                "fa": "روی محصول AI تو، اگر ده ابزار از قبل همان کار را بکنند یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "You are going from 0 to 1",
+                  "fa": "داری از ۰ به ۱ می‌روی"
+                },
+                {
+                  "en": "You are going from 1 to n",
+                  "fa": "داری از ۱ به n می‌روی"
+                },
+                {
+                  "en": "You have found a secret",
+                  "fa": "یک راز پیدا کرده‌ای"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b19c1l2",
+          "title": {
+            "en": "Monopoly versus competition",
+            "fa": "انحصار در برابر رقابت"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b19c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 3 to 5: why monopoly beats competition and the traits that make a monopoly last. It matters because a small AI product earns ownership income only if it escapes copycats.",
+                "fa": "این درس فصل‌های ۳ تا ۵ را خلاصه می‌کند: چرا انحصار بر رقابت می‌چربد و چه ویژگی‌هایی انحصار را ماندگار می‌کند. مهم است چون محصول کوچک AI تو فقط وقتی درآمد مالکیتی می‌سازد که از دست مقلدها فرار کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p2",
+              "text": {
+                "en": "Under perfect competition, the economists' ideal, no company makes an economic profit. In 2012 US airlines earned about 37 cents per passenger trip, while Google kept a 21 percent margin.",
+                "fa": "در رقابت کامل، که آرمان اقتصاددان‌هاست، هیچ شرکتی سود اقتصادی نمی‌برد. در ۲۰۱۲ ایرلاین‌های آمریکا برای هر سفر مسافر حدود ۳۷ سنت سود کردند، در حالی که Google حاشیهٔ سود ۲۱ درصدی داشت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p3",
+              "text": {
+                "en": "Monopolists hide by describing their market as a huge union of markets. Firms in competition do the opposite, defining their market as a tiny intersection to look unique.",
+                "fa": "انحصارگرها با توصیف بازارشان به‌شکل اجتماع بزرگی از بازارها پنهان می‌شوند. شرکت‌های درگیر رقابت برعکس عمل می‌کنند و بازارشان را اشتراکی کوچک تعریف می‌کنند تا یکتا به نظر برسند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l2k1",
+              "type": "tf",
+              "source": "b19c1l2p2",
+              "prompt": {
+                "en": "Under perfect competition, companies keep large economic profits.",
+                "fa": "در رقابت کامل، شرکت‌ها سود اقتصادی بزرگی نگه می‌دارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p4",
+              "text": {
+                "en": "Chapter 3, All Happy Companies Are Different: competition drives profits to zero. Every happy company earns a monopoly by solving a unique problem.",
+                "fa": "فصل ۳، All Happy Companies Are Different: رقابت سود را به صفر می‌رساند. هر شرکت خوشبخت با حل یک مسئلهٔ یکتا به انحصار می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p5",
+              "text": {
+                "en": "Chapter 4, The Ideology of Competition: rivalry makes people fixate on each other and copy old opportunities. Microsoft and Google fought so hard that Apple overtook them both.",
+                "fa": "فصل ۴، The Ideology of Competition: رقابت باعث می‌شود آدم‌ها فقط به هم خیره شوند و فرصت‌های قدیمی را کپی کنند. Microsoft و Google آن‌قدر با هم جنگیدند که Apple از هر دو جلو زد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l2k2",
+              "type": "tap",
+              "source": "b19c1l2p5",
+              "prompt": {
+                "en": "Per Thiel, what happened while Microsoft and Google fought each other?",
+                "fa": "به گفتهٔ Thiel، وقتی Microsoft و Google با هم می‌جنگیدند چه شد؟"
+              },
+              "options": [
+                {
+                  "en": "Both doubled their profits",
+                  "fa": "سود هر دو دو برابر شد"
+                },
+                {
+                  "en": "Apple overtook them both",
+                  "fa": "Apple از هر دو جلو زد"
+                },
+                {
+                  "en": "Google bought Microsoft",
+                  "fa": "Google شرکت Microsoft را خرید"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p6",
+              "text": {
+                "en": "Chapter 5, Last Mover Advantage: a business is worth its future cash flows. For a tech company, most of that value lies 10 to 15 years in the future.",
+                "fa": "فصل ۵، Last Mover Advantage: ارزش هر کسب‌وکار برابر جریان نقدی آینده‌اش است. برای یک شرکت فناوری، بیشتر این ارزش ۱۰ تا ۱۵ سال بعد است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p7",
+              "text": {
+                "en": "Trait one, proprietary technology: it should be at least 10x better than its closest substitute. Google search and Amazon offering far more books are his examples.",
+                "fa": "ویژگی اول، فناوری اختصاصی: باید دست‌کم ۱۰ برابر بهتر از نزدیک‌ترین جایگزین باشد. جستجوی Google و تعداد بسیار بیشتر کتاب در Amazon مثال‌های او هستند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l2k3",
+              "type": "tap",
+              "source": "b19c1l2p7",
+              "prompt": {
+                "en": "How much better should proprietary technology be than its closest substitute?",
+                "fa": "فناوری اختصاصی باید چقدر از نزدیک‌ترین جایگزین بهتر باشد؟"
+              },
+              "options": [
+                {
+                  "en": "About 2x better",
+                  "fa": "حدود ۲ برابر بهتر"
+                },
+                {
+                  "en": "Equal, but cheaper",
+                  "fa": "برابر، اما ارزان‌تر"
+                },
+                {
+                  "en": "At least 10x better",
+                  "fa": "دست‌کم ۱۰ برابر بهتر"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p8",
+              "text": {
+                "en": "Trait two, network effects: a product becomes more useful as more people use it. Such businesses must start with very small markets, as Facebook began with Harvard students.",
+                "fa": "ویژگی دوم، اثر شبکه‌ای: محصول با استفادهٔ آدم‌های بیشتر مفیدتر می‌شود. چنین کسب‌وکارهایی باید با بازارهای بسیار کوچک شروع کنند، همان‌طور که Facebook با دانشجویان Harvard شروع کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p9",
+              "text": {
+                "en": "Trait three, economies of scale: a monopoly gets stronger as it gets bigger, because fixed costs spread over more sales. Software enjoys this, since copies cost almost nothing.",
+                "fa": "ویژگی سوم، صرفهٔ مقیاس: انحصار با بزرگ‌تر شدن قوی‌تر می‌شود، چون هزینه‌های ثابت روی فروش بیشتری پخش می‌شود. نرم‌افزار از این بهره می‌برد، چون هر نسخه تقریباً هزینه‌ای ندارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l2k4",
+              "type": "tf",
+              "source": "b19c1l2p8",
+              "prompt": {
+                "en": "Thiel says network-effect businesses should start with very small markets.",
+                "fa": "Thiel می‌گوید کسب‌وکارهای دارای اثر شبکه‌ای باید با بازارهای بسیار کوچک شروع کنند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p10",
+              "text": {
+                "en": "Trait four, branding: a strong brand is a claim to monopoly, but it must rest on substance. Apple's brand works because of the proprietary technology beneath it.",
+                "fa": "ویژگی چهارم، برند: برند قوی ادعای انحصار است، اما باید بر محتوای واقعی تکیه کند. برند Apple کار می‌کند چون فناوری اختصاصی زیرش است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p11",
+              "text": {
+                "en": "Start small and monopolize: dominate a small market, then expand into related markets, as Amazon grew from books. Avoid disruption talk and head-on fights with incumbents.",
+                "fa": "کوچک شروع کن و انحصار بگیر: بر یک بازار کوچک مسلط شو، بعد به بازارهای مرتبط گسترش بده، همان‌طور که Amazon از کتاب رشد کرد. از شعار disruption و جنگ رودررو با بازیگران مستقر دوری کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l2p12",
+              "text": {
+                "en": "For your AI product, pick one job and one kind of user, and aim to be 10x better than their current workaround. Scale only after you own that niche.",
+                "fa": "برای محصول AI خود یک کار و یک نوع کاربر انتخاب کن و هدفت این باشد که ۱۰ برابر بهتر از راه‌حل موقت فعلی‌شان باشی. فقط بعد از تصاحب آن niche مقیاس بده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l2k5",
+              "type": "tap",
+              "source": "b19c1l2p11",
+              "prompt": {
+                "en": "What does Thiel advise after you dominate a small market?",
+                "fa": "Thiel بعد از تسلط بر یک بازار کوچک چه توصیه‌ای دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Cut prices to fight the incumbents",
+                  "fa": "قیمت را بشکن تا با بازیگران مستقر بجنگی"
+                },
+                {
+                  "en": "Expand into related markets",
+                  "fa": "به بازارهای مرتبط گسترش بده"
+                },
+                {
+                  "en": "Sell the company quickly",
+                  "fa": "شرکت را سریع بفروش"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b19c1l3",
+          "title": {
+            "en": "The power law, secrets and the seven questions",
+            "fa": "قانون توان، رازها و هفت سؤال"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b19c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 7, 8 and 13: the power law, secrets and the seven questions. It matters because your satellite bets and your startup choice follow the same few-big-wins math.",
+                "fa": "این درس فصل‌های ۷، ۸ و ۱۳ را خلاصه می‌کند: قانون توان، رازها و هفت سؤال. مهم است چون شرط‌های satellite و انتخاب استارتاپ تو از همان حساب «چند برد بزرگ» پیروی می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p2",
+              "text": {
+                "en": "Chapter 7, Follow the Money: venture returns follow a power law, not a normal distribution. A small handful of companies radically outperform all the others.",
+                "fa": "فصل ۷، Follow the Money: بازده سرمایه‌گذاری خطرپذیر از قانون توان پیروی می‌کند، نه توزیع نرمال. شمار کمی از شرکت‌ها به‌شدت از همهٔ بقیه بهتر عمل می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p3",
+              "text": {
+                "en": "In a successful fund, the single best investment returns as much as or more than all the others combined. So invest only in companies that could return the whole fund.",
+                "fa": "در یک صندوق موفق، بهترین سرمایه‌گذاری به اندازهٔ مجموع بقیه یا بیشتر برمی‌گرداند. پس فقط در شرکت‌هایی سرمایه‌گذاری کن که بتوانند کل صندوق را برگردانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l3k1",
+              "type": "tf",
+              "source": "b19c1l3p3",
+              "prompt": {
+                "en": "Thiel says to invest only in companies that could return the whole fund.",
+                "fa": "Thiel می‌گوید فقط در شرکت‌هایی سرمایه‌گذاری کن که بتوانند کل صندوق را برگردانند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p4",
+              "text": {
+                "en": "The power law applies to your life too. You cannot diversify a career across dozens of equal options; one path will matter most, so go deep on what you do best.",
+                "fa": "قانون توان دربارهٔ زندگی تو هم صدق می‌کند. نمی‌توانی شغلت را میان ده‌ها گزینهٔ برابر پخش کنی؛ یک مسیر بیشترین اهمیت را دارد، پس در کاری که بهتر از همه انجام می‌دهی عمیق شو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p5",
+              "text": {
+                "en": "Apply the power law to your 20 percent satellite: one or two bets may return more than all the others. Size each bet so losing it does not touch your index core.",
+                "fa": "قانون توان را روی ۲۰ درصد satellite خود پیاده کن: یکی‌دو شرط ممکن است بیش از همهٔ بقیه برگردانند. هر شرط را آن‌قدر کوچک بگیر که از دست رفتنش به هستهٔ شاخصی‌ات دست نزند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l3k2",
+              "type": "tap",
+              "source": "b19c1l3p5",
+              "prompt": {
+                "en": "Following the power law, how should you size a satellite bet?",
+                "fa": "طبق قانون توان، اندازهٔ هر شرط satellite را چطور بگیری؟"
+              },
+              "options": [
+                {
+                  "en": "Equal to your yearly expenses",
+                  "fa": "برابر با خرج سالانه‌ات"
+                },
+                {
+                  "en": "So losing it does not touch your index core",
+                  "fa": "آن‌قدر که از دست رفتنش به هستهٔ شاخصی‌ات دست نزند"
+                },
+                {
+                  "en": "The same size as the index core",
+                  "fa": "هم‌اندازهٔ هستهٔ شاخصی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p6",
+              "text": {
+                "en": "Chapter 8, Secrets: every great business is built around a secret hidden from the outside. Secrets are hard but doable, sitting between easy conventions and impossible mysteries.",
+                "fa": "فصل ۸، Secrets: هر کسب‌وکار بزرگ حول رازی ساخته می‌شود که از بیرون پنهان است. رازها سخت اما شدنی‌اند و میان قراردادهای آسان و معماهای ناممکن قرار دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p7",
+              "text": {
+                "en": "Four trends killed belief in secrets: incrementalism, risk aversion, complacency and flatness. If you believe nothing is left to discover, you will never look.",
+                "fa": "چهار روند باور به رازها را کشت: تدریج‌گرایی، ریسک‌گریزی، آسوده‌خاطری و تخت شدن جهان. اگر باور داشته باشی چیزی برای کشف نمانده، هرگز دنبالش نمی‌گردی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p8",
+              "text": {
+                "en": "There are secrets about nature and secrets about people. Airbnb saw untapped supply and unmet demand where others saw nothing, and Lyft and Uber did the same for car rides.",
+                "fa": "رازهایی دربارهٔ طبیعت هست و رازهایی دربارهٔ آدم‌ها. Airbnb عرضهٔ استفاده‌نشده و تقاضای برآورده‌نشده را دید جایی که دیگران چیزی نمی‌دیدند، و Lyft و Uber همین کار را برای سفر با خودرو کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l3k3",
+              "type": "tap",
+              "source": "b19c1l3p6",
+              "prompt": {
+                "en": "Per Thiel, what are secrets?",
+                "fa": "به گفتهٔ Thiel، رازها چه هستند؟"
+              },
+              "options": [
+                {
+                  "en": "Hard but doable",
+                  "fa": "سخت اما شدنی"
+                },
+                {
+                  "en": "Things everyone already knows",
+                  "fa": "چیزهایی که همه از قبل می‌دانند"
+                },
+                {
+                  "en": "Things that are impossible to know",
+                  "fa": "چیزهایی که دانستنشان ناممکن است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p9",
+              "text": {
+                "en": "Chapter 13, Seeing Green: Thiel lists seven questions every business must answer. The cleantech companies of the 2000s failed because they answered few of them well.",
+                "fa": "فصل ۱۳، Seeing Green: Thiel هفت سؤال را برمی‌شمارد که هر کسب‌وکاری باید جواب دهد. شرکت‌های cleantech دههٔ ۲۰۰۰ شکست خوردند چون به تعداد کمی از آن‌ها جواب خوب دادند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p10",
+              "text": {
+                "en": "Engineering: can you create breakthrough technology instead of incremental improvements? Timing: is now the right time to start your particular business?",
+                "fa": "مهندسی: آیا می‌توانی به‌جای بهبودهای تدریجی فناوری انقلابی بسازی؟ زمان‌بندی: آیا حالا زمان درست برای شروع کسب‌وکار مشخص تو است؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l3k4",
+              "type": "tf",
+              "source": "b19c1l3p9",
+              "prompt": {
+                "en": "Thiel says the cleantech companies failed because they answered all seven questions well.",
+                "fa": "Thiel می‌گوید شرکت‌های cleantech شکست خوردند چون به هر هفت سؤال جواب خوب دادند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p11",
+              "text": {
+                "en": "Monopoly, people and distribution: are you starting with a big share of a small market, do you have the right team, and can you deliver your product, not just make it?",
+                "fa": "انحصار، آدم‌ها و توزیع: آیا با سهم بزرگی از یک بازار کوچک شروع می‌کنی، تیم درستی داری، و می‌توانی محصولت را به دست مشتری برسانی، نه فقط بسازی؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p12",
+              "text": {
+                "en": "Durability: will your market position be defensible 10 and 20 years into the future? The secret: have you found a unique opportunity that others do not see?",
+                "fa": "ماندگاری: آیا جایگاهت در بازار ۱۰ و ۲۰ سال بعد قابل دفاع است؟ راز: آیا فرصت یکتایی پیدا کرده‌ای که دیگران نمی‌بینند؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l3p13",
+              "text": {
+                "en": "Run your AI product idea through all seven questions before you write the MVP. A weak answer to several of them is a warning sign worth taking seriously.",
+                "fa": "پیش از نوشتن MVP، ایدهٔ محصول AI خود را از هر هفت سؤال بگذران. جواب ضعیف به چند تا از آن‌ها نشانهٔ هشداری است که باید جدی گرفت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l3k5",
+              "type": "tap",
+              "source": "b19c1l3p12",
+              "prompt": {
+                "en": "Which of the seven questions asks if your position will be defensible 10 and 20 years out?",
+                "fa": "کدام‌یک از هفت سؤال می‌پرسد آیا جایگاهت ۱۰ و ۲۰ سال بعد قابل دفاع است؟"
+              },
+              "options": [
+                {
+                  "en": "Timing",
+                  "fa": "زمان‌بندی"
+                },
+                {
+                  "en": "Durability",
+                  "fa": "ماندگاری"
+                },
+                {
+                  "en": "People",
+                  "fa": "آدم‌ها"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

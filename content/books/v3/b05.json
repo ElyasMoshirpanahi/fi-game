@@ -1,0 +1,847 @@
+{
+  "id": "b05",
+  "title": "Thinking, Fast and Slow",
+  "author": {
+    "en": "Daniel Kahneman",
+    "fa": "Daniel Kahneman"
+  },
+  "year": 2011,
+  "stage": 1,
+  "must": false,
+  "why": {
+    "en": "The cognitive errors that eat your money",
+    "fa": "خطاهای شناختی که پولت را می‌خورند"
+  },
+  "badge": {
+    "en": "Two systems",
+    "fa": "دو سیستم"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b05c1",
+      "title": {
+        "en": "Two systems and the errors that cost money",
+        "fa": "دو سیستم و خطاهایی که پول را می‌خورند"
+      },
+      "lessons": [
+        {
+          "id": "b05c1l1",
+          "title": {
+            "en": "Two systems: the lazy controller (Part I)",
+            "fa": "دو سیستم: ناظر تنبل (بخش اول)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b05c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part I: the two systems that run your mind. It matters because every money choice you make, from a cap table to selling an ETF, is first answered by the fast one.",
+                "fa": "این درس بخش اول کتاب را خلاصه می‌کند: دو سیستمی که ذهنت را می‌گردانند. مهم است چون هر تصمیم مالی‌ات، از cap table تا فروش یک ETF، اول با سیستم سریع جواب داده می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p2",
+              "text": {
+                "en": "System 1 operates automatically and quickly, with little or no effort and no sense of control. It reads anger on a face, answers 2 + 2 and drives a car on an empty road.",
+                "fa": "سیستم ۱ خودکار و سریع کار می‌کند، با تلاش کم یا بی‌تلاش و بدون حس کنترل. خشم را در چهره می‌خواند، جواب ۲ + ۲ را می‌دهد و در جادهٔ خلوت رانندگی می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p3",
+              "text": {
+                "en": "System 2 gives attention to effortful mental work, such as computing 17 × 24. It is the conscious self that makes choices, but it is lazy and often accepts what System 1 offers.",
+                "fa": "سیستم ۲ به کارهای ذهنی پرزحمت توجه می‌دهد، مثل حساب کردن ۱۷ × ۲۴. خودِ آگاهی است که انتخاب می‌کند، اما تنبل است و اغلب همان چیزی را می‌پذیرد که سیستم ۱ پیشنهاد می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k1",
+              "type": "tap",
+              "source": "b05c1l1p3",
+              "prompt": {
+                "en": "Which system does the effortful work of computing 17 × 24?",
+                "fa": "کار پرزحمت حساب کردن ۱۷ × ۲۴ با کدام سیستم است؟"
+              },
+              "options": [
+                {
+                  "en": "System 2",
+                  "fa": "سیستم ۲"
+                },
+                {
+                  "en": "System 1",
+                  "fa": "سیستم ۱"
+                },
+                {
+                  "en": "Neither; it is a reflex",
+                  "fa": "هیچ‌کدام؛ یک واکنش غیرارادی است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p4",
+              "text": {
+                "en": "A bat and a ball cost $1.10 together, and the bat costs $1 more than the ball. The quick answer, 10 cents, is wrong: the ball costs 5 cents.",
+                "fa": "یک چوب و یک توپ روی هم ۱٫۱۰ دلار می‌ارزند و چوب ۱ دلار از توپ گران‌تر است. جواب سریع، ۱۰ سنت، غلط است: توپ ۵ سنت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p5",
+              "text": {
+                "en": "More than half the students at Harvard, MIT and Princeton gave the intuitive 10 cent answer. The lesson: System 2 often endorses an answer it never checked.",
+                "fa": "بیش از نیمی از دانشجویان Harvard، MIT و Princeton همان جواب شهودی ۱۰ سنت را دادند. درس ماجرا: سیستم ۲ اغلب جوابی را تأیید می‌کند که هرگز بررسی‌اش نکرده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k2",
+              "type": "tf",
+              "source": "b05c1l1p5",
+              "prompt": {
+                "en": "Most students at elite universities caught the error in the bat-and-ball puzzle.",
+                "fa": "بیشتر دانشجویان دانشگاه‌های برتر خطای معمای چوب و توپ را تشخیص دادند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p6",
+              "text": {
+                "en": "WYSIATI, what you see is all there is: System 1 builds the best story it can from the information at hand and ignores what is missing. Confidence comes from a coherent story, not complete data.",
+                "fa": "WYSIATI، یعنی «هرچه می‌بینی همهٔ ماجراست»: سیستم ۱ از اطلاعات موجود بهترین داستان را می‌سازد و آنچه را غایب است نادیده می‌گیرد. اطمینان از داستانِ منسجم می‌آید، نه از دادهٔ کامل."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p7",
+              "text": {
+                "en": "Substitution: faced with a hard question, System 1 quietly answers an easier one. \"How happy are you with your life these days?\" becomes \"What is my mood right now?\"",
+                "fa": "جایگزینی: وقتی با پرسشی سخت روبه‌رو می‌شود، سیستم ۱ بی‌صدا به پرسشی ساده‌تر جواب می‌دهد. «این روزها چقدر از زندگی‌ات راضی هستی؟» تبدیل می‌شود به «الان حالم چطور است؟»"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p8",
+              "text": {
+                "en": "Cognitive ease: a statement that is repeated often or easy to read feels more true. Familiarity is not easily told apart from truth.",
+                "fa": "سهولت شناختی: جمله‌ای که زیاد تکرار شود یا خواندنش آسان باشد، درست‌تر به نظر می‌رسد. آشنا بودن را به‌سادگی نمی‌شود از درست بودن جدا کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k3",
+              "type": "tap",
+              "source": "b05c1l1p6",
+              "prompt": {
+                "en": "What does WYSIATI stand for?",
+                "fa": "WYSIATI مخفف چیست؟"
+              },
+              "options": [
+                {
+                  "en": "What you see is all there is",
+                  "fa": "هرچه می‌بینی همهٔ ماجراست"
+                },
+                {
+                  "en": "Wait until you see all the information",
+                  "fa": "صبر کن تا همهٔ اطلاعات را ببینی"
+                },
+                {
+                  "en": "Whatever you suspect is always true",
+                  "fa": "هرچه گمان می‌کنی همیشه درست است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p9",
+              "text": {
+                "en": "The invisible gorilla: about half the viewers counting basketball passes fail to see a woman in a gorilla suit cross the court. We can be blind to the obvious, and blind to our blindness.",
+                "fa": "گوریل نامرئی: حدود نیمی از کسانی که پاس‌های بسکتبال را می‌شمارند، زنی با لباس گوریل را که از زمین رد می‌شود نمی‌بینند. ما می‌توانیم به چیزهای آشکار کور باشیم، و به کوری خودمان هم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p10",
+              "text": {
+                "en": "In the Müller-Lyer illusion, two equal lines still look unequal after you measure them. Knowing a bias does not switch it off; learn to spot the situation and slow down.",
+                "fa": "در خطای دید Müller-Lyer، دو خط هم‌اندازه حتی پس از اندازه‌گیری هم نابرابر دیده می‌شوند. دانستن یک سوگیری آن را خاموش نمی‌کند؛ یاد بگیر موقعیت را تشخیص بدهی و آهسته کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k4",
+              "type": "tf",
+              "source": "b05c1l1p10",
+              "prompt": {
+                "en": "Once you know the Müller-Lyer lines are equal, they stop looking unequal.",
+                "fa": "وقتی بدانی خطوط Müller-Lyer برابرند، دیگر نابرابر دیده نمی‌شوند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p11",
+              "text": {
+                "en": "Applied: System 1 will answer \"should I join this startup?\" with how the founder makes you feel. Make System 2 check what is missing: the written cap table, the vesting and the runway.",
+                "fa": "کاربرد: سیستم ۱ به پرسش «به این استارتاپ بپیوندم؟» با حسی که بنیان‌گذار به تو می‌دهد جواب می‌دهد. سیستم ۲ را وادار کن غایب‌ها را بررسی کند: cap table مکتوب، vesting و runway."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p12",
+              "text": {
+                "en": "Applied: before a big money choice, write in your decision journal what you know, what you expect and how sure you are. Writing it down makes lazy System 2 do its job.",
+                "fa": "کاربرد: پیش از یک تصمیم مالی بزرگ، در دفترچهٔ تصمیم‌هایت بنویس چه می‌دانی، چه انتظاری داری و چقدر مطمئنی. نوشتن، سیستم ۲ تنبل را وادار می‌کند کارش را بکند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k5",
+              "type": "tap",
+              "source": "b05c1l1p11",
+              "prompt": {
+                "en": "Before joining a startup, what should System 2 check?",
+                "fa": "پیش از پیوستن به یک استارتاپ، سیستم ۲ باید چه چیزی را بررسی کند؟"
+              },
+              "options": [
+                {
+                  "en": "The written cap table, the vesting and the runway",
+                  "fa": "cap table مکتوب، vesting و runway"
+                },
+                {
+                  "en": "How confident the founder sounds",
+                  "fa": "اینکه بنیان‌گذار چقدر مطمئن حرف می‌زند"
+                },
+                {
+                  "en": "Whether the office feels exciting",
+                  "fa": "اینکه دفتر کار هیجان‌انگیز به نظر می‌رسد یا نه"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b05c1l2",
+          "title": {
+            "en": "Anchors and availability (Part II)",
+            "fa": "لنگرها و دسترس‌پذیری (بخش دوم)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b05c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part II on heuristics: anchoring and availability. It matters because the first number on a term sheet and the loudest headline both bend your estimates without asking.",
+                "fa": "این درس بخش دوم کتاب دربارهٔ میان‌برهای ذهنی را خلاصه می‌کند: لنگر انداختن و دسترس‌پذیری. مهم است چون اولین عدد روی term sheet و پرسروصداترین تیتر خبر، هر دو بی‌اجازه برآوردهایت را کج می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p2",
+              "text": {
+                "en": "A wheel of fortune rigged to stop at 10 or 65 was spun before people estimated the share of African nations in the UN. Those who saw 10 guessed 25 percent; those who saw 65 guessed 45 percent.",
+                "fa": "پیش از آنکه افراد سهم کشورهای آفریقایی در سازمان ملل را تخمین بزنند، چرخ شانسی چرخانده شد که دستکاری شده بود تا روی ۱۰ یا ۶۵ بایستد. کسانی که ۱۰ دیدند ۲۵ درصد گفتند و کسانی که ۶۵ دیدند ۴۵ درصد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p3",
+              "text": {
+                "en": "Anchoring works through two mechanisms. System 2 starts at the anchor and adjusts too little, while System 1 is primed by it, so evidence that fits the anchor comes to mind.",
+                "fa": "لنگر انداختن از دو راه کار می‌کند. سیستم ۲ از لنگر شروع می‌کند و کمتر از لازم تعدیل می‌کند، و سیستم ۱ با آن «آماده» می‌شود، پس شواهدی که با لنگر جور است به ذهن می‌آید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k1",
+              "type": "tf",
+              "source": "b05c1l2p2",
+              "prompt": {
+                "en": "In the wheel of fortune study, the random number had no effect on estimates.",
+                "fa": "در آزمایش چرخ شانس، عدد تصادفی هیچ اثری بر تخمین‌ها نداشت."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p4",
+              "text": {
+                "en": "Experienced German judges rolled loaded dice showing 3 or 9 before sentencing a shoplifter. Those who rolled 9 gave an average of 8 months; those who rolled 3 gave an average of 5 months.",
+                "fa": "قاضیان باتجربهٔ آلمانی پیش از تعیین حکم یک دزد فروشگاه، تاس‌های دستکاری‌شده‌ای ریختند که ۳ یا ۹ می‌آمد. آن‌ها که ۹ آوردند به‌طور میانگین ۸ ماه حکم دادند و آن‌ها که ۳ آوردند ۵ ماه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p5",
+              "text": {
+                "en": "Real estate agents shown a higher listing price valued the same house higher, yet insisted the listing price had not influenced them. Experts are anchored too.",
+                "fa": "بنگاه‌دارانی که قیمت پیشنهادی بالاتری دیدند، همان خانه را گران‌تر ارزیابی کردند، اما اصرار داشتند قیمت پیشنهادی رویشان اثری نگذاشته. متخصص‌ها هم لنگر می‌اندازند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k2",
+              "type": "tap",
+              "source": "b05c1l2p4",
+              "prompt": {
+                "en": "What did the German judges who rolled a 9 do?",
+                "fa": "قاضیان آلمانی که ۹ آوردند چه کردند؟"
+              },
+              "options": [
+                {
+                  "en": "Gave an average of 8 months",
+                  "fa": "به‌طور میانگین ۸ ماه حکم دادند"
+                },
+                {
+                  "en": "Gave an average of 5 months",
+                  "fa": "به‌طور میانگین ۵ ماه حکم دادند"
+                },
+                {
+                  "en": "Ignored the dice completely",
+                  "fa": "تاس را کاملاً نادیده گرفتند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p6",
+              "text": {
+                "en": "Against an anchor, deliberately think the opposite and search for arguments against it. If a first offer is outrageous, make a scene and refuse to negotiate from that number.",
+                "fa": "در برابر لنگر، عمداً برعکس فکر کن و دنبال دلیل‌هایی علیه آن بگرد. اگر پیشنهاد اول گزاف است، اعتراض کن و نپذیر که مذاکره از آن عدد ادامه پیدا کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p7",
+              "text": {
+                "en": "Applied: at a term sheet, write your own valuation from the cap table and unit economics before you read theirs. Their first number is an anchor, not a fact.",
+                "fa": "کاربرد: سر term sheet، پیش از خواندن ارزش‌گذاری آن‌ها، ارزش‌گذاری خودت را از روی cap table و unit economics بنویس. عدد اول آن‌ها لنگر است، نه واقعیت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p8",
+              "text": {
+                "en": "Availability: we judge how frequent or likely something is by the ease with which examples come to mind. Vivid, recent and personal events feel more common than they are.",
+                "fa": "دسترس‌پذیری: احتمال یا فراوانی چیزی را با این می‌سنجیم که نمونه‌هایش چقدر راحت به ذهن می‌آیند. رویدادهای پررنگ، تازه و شخصی رایج‌تر از واقعیت به نظر می‌رسند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k3",
+              "type": "tap",
+              "source": "b05c1l2p6",
+              "prompt": {
+                "en": "Which defence against an anchor does Kahneman describe?",
+                "fa": "Kahneman کدام دفاع در برابر لنگر را توصیف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Deliberately think the opposite",
+                  "fa": "عمداً برعکس فکر کردن"
+                },
+                {
+                  "en": "Split the difference with the anchor",
+                  "fa": "وسط لنگر و عدد خودت را گرفتن"
+                },
+                {
+                  "en": "Ask for a second anchor",
+                  "fa": "یک لنگر دوم خواستن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p9",
+              "text": {
+                "en": "Most people judged accidents a likelier cause of death than strokes, though strokes cause almost twice as many deaths as all accidents combined. Coverage, not frequency, shapes what comes to mind.",
+                "fa": "بیشتر مردم مرگ بر اثر حادثه را محتمل‌تر از سکته دانستند، در حالی که سکته تقریباً دو برابرِ همهٔ حوادث روی هم مرگ می‌آورد. پوشش خبری، نه فراوانی، تعیین می‌کند چه به ذهن بیاید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p10",
+              "text": {
+                "en": "Norbert Schwarz asked people to list 6 or 12 times they acted assertively. Those who struggled to list 12 rated themselves less assertive: ease of recall beat the number recalled.",
+                "fa": "Norbert Schwarz از افراد خواست ۶ یا ۱۲ موقعیتی را که قاطعانه رفتار کرده بودند فهرست کنند. آن‌ها که برای نوشتن ۱۲ مورد به زحمت افتادند خود را کمتر قاطع دانستند: آسانی یادآوری بر تعداد غلبه کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k4",
+              "type": "tf",
+              "source": "b05c1l2p9",
+              "prompt": {
+                "en": "Strokes cause almost twice as many deaths as all accidents combined.",
+                "fa": "سکته تقریباً دو برابرِ همهٔ حوادث روی هم باعث مرگ می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p11",
+              "text": {
+                "en": "An availability cascade: a minor risk gets media coverage, fear spreads, and the coverage feeds itself until policy follows. Kuran and Sunstein cite the Love Canal and Alar scares.",
+                "fa": "آبشار دسترس‌پذیری: خطری کوچک پوشش رسانه‌ای می‌گیرد، ترس پخش می‌شود و پوشش خبری خودش را تغذیه می‌کند تا سیاست‌گذاری هم دنبالش برود. Kuran و Sunstein به ماجراهای Love Canal و Alar اشاره می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p12",
+              "text": {
+                "en": "Applied: a crash on the news makes stocks feel dangerous and cash feel safe. Check the long-run numbers in your quarterly net-worth log before a vivid headline moves your index ETF plan.",
+                "fa": "کاربرد: سقوط بازار در اخبار باعث می‌شود سهام خطرناک و پول نقد امن به نظر برسد. پیش از آنکه یک تیتر پررنگ برنامهٔ ETF شاخصی‌ات را تکان دهد، اعداد بلندمدت را در گزارش فصلی دارایی خالصت ببین."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k5",
+              "type": "tap",
+              "source": "b05c1l2p11",
+              "prompt": {
+                "en": "What drives an availability cascade?",
+                "fa": "چه چیزی آبشار دسترس‌پذیری را پیش می‌برد؟"
+              },
+              "options": [
+                {
+                  "en": "Media coverage feeding itself",
+                  "fa": "پوشش رسانه‌ای که خودش را تغذیه می‌کند"
+                },
+                {
+                  "en": "Careful statistical reports",
+                  "fa": "گزارش‌های آماری دقیق"
+                },
+                {
+                  "en": "Expert risk calculations",
+                  "fa": "محاسبه‌های کارشناسانهٔ ریسک"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b05c1l3",
+          "title": {
+            "en": "Overconfidence and the planning fallacy (Part III)",
+            "fa": "اعتمادبه‌نفس کاذب و خطای برنامه‌ریزی (بخش سوم)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b05c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part III on overconfidence: the illusion of validity and the planning fallacy. It matters because your forecasts for a startup or an AI product will feel far surer than they are.",
+                "fa": "این درس بخش سوم کتاب دربارهٔ اعتمادبه‌نفس کاذب را خلاصه می‌کند: توهم اعتبار و خطای برنامه‌ریزی. مهم است چون پیش‌بینی‌هایت برای یک استارتاپ یا محصول AI بسیار مطمئن‌تر از واقعیت به نظر می‌رسند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p2",
+              "text": {
+                "en": "As a young psychologist in the Israeli army, Kahneman rated officer candidates in a leaderless group challenge. His team felt sure of its picks, yet its forecasts were barely better than blind guesses.",
+                "fa": "Kahneman در جوانی، به‌عنوان روان‌شناس ارتش اسرائیل، داوطلبان افسری را در یک آزمون گروهی بدون رهبر ارزیابی می‌کرد. تیمش به انتخاب‌هایش مطمئن بود، اما پیش‌بینی‌هایش به‌زحمت از حدس کورکورانه بهتر بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p3",
+              "text": {
+                "en": "He named this the illusion of validity: confidence that survives clear evidence that the predictions fail. Subjective confidence reflects the coherence of a story, not its accuracy.",
+                "fa": "او این را توهم اعتبار نامید: اطمینانی که حتی پس از شواهد روشنِ شکست پیش‌بینی‌ها باقی می‌ماند. اطمینان ذهنی نشان‌دهندهٔ انسجام داستان است، نه درستی آن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k1",
+              "type": "tap",
+              "source": "b05c1l3p3",
+              "prompt": {
+                "en": "What did Kahneman call confidence that survives evidence of failure?",
+                "fa": "Kahneman اطمینانی را که پس از شواهد شکست باقی می‌ماند چه نامید؟"
+              },
+              "options": [
+                {
+                  "en": "The illusion of validity",
+                  "fa": "توهم اعتبار"
+                },
+                {
+                  "en": "The planning fallacy",
+                  "fa": "خطای برنامه‌ریزی"
+                },
+                {
+                  "en": "Regression to the mean",
+                  "fa": "بازگشت به میانگین"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p4",
+              "text": {
+                "en": "At a wealth firm, Kahneman checked 8 years of results for 25 advisers. The average correlation between their yearly rankings was 0.01: the firm was rewarding luck as if it were skill.",
+                "fa": "Kahneman در یک شرکت مدیریت ثروت نتایج ۸ سالهٔ ۲۵ مشاور را بررسی کرد. میانگین همبستگی رتبه‌های سالانه‌شان ۰٫۰۱ بود: شرکت به شانس طوری پاداش می‌داد که انگار مهارت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p5",
+              "text": {
+                "en": "Philip Tetlock collected more than 80,000 predictions from 284 political and economic experts. They did worse than dart-throwing monkeys, and more knowledge often bred more overconfidence.",
+                "fa": "Philip Tetlock بیش از ۸۰٬۰۰۰ پیش‌بینی از ۲۸۴ کارشناس سیاسی و اقتصادی جمع کرد. نتیجه‌شان از میمون‌هایی که دارت پرتاب می‌کنند بدتر بود و دانش بیشتر اغلب اعتمادبه‌نفس کاذب بیشتری آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k2",
+              "type": "tf",
+              "source": "b05c1l3p4",
+              "prompt": {
+                "en": "The advisers' yearly rankings were strongly consistent from year to year.",
+                "fa": "رتبه‌های سالانهٔ مشاوران از سالی به سال دیگر بسیار ثابت بود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p6",
+              "text": {
+                "en": "The planning fallacy: plans and forecasts that sit close to best-case scenarios and ignore how similar cases turned out. Kahneman's own textbook team guessed about two years; it took eight.",
+                "fa": "خطای برنامه‌ریزی: برنامه‌ها و پیش‌بینی‌هایی که به بهترین سناریو نزدیک‌اند و سرانجام موارد مشابه را نادیده می‌گیرند. تیم نوشتن کتاب درسی خود Kahneman حدود دو سال تخمین زد؛ هشت سال طول کشید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p7",
+              "text": {
+                "en": "Asked for a base rate, the curriculum expert Seymour Fox admitted that 40 percent of similar teams never finished, and the rest took 7 to 10 years. The team kept going anyway.",
+                "fa": "وقتی از Seymour Fox، کارشناس برنامهٔ درسی، نرخ پایه را پرسیدند، اعتراف کرد ۴۰ درصد تیم‌های مشابه هرگز کار را تمام نکردند و بقیه ۷ تا ۱۰ سال وقت گذاشتند. تیم با این حال ادامه داد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p8",
+              "text": {
+                "en": "The cure is the outside view, or reference class forecasting: find similar projects, start from their base rate, then adjust for what is special about yours.",
+                "fa": "درمان، دید بیرونی یا پیش‌بینی بر پایهٔ طبقهٔ مرجع است: پروژه‌های مشابه را پیدا کن، از نرخ پایهٔ آن‌ها شروع کن و بعد برای ویژگی‌های پروژهٔ خودت تعدیل کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k3",
+              "type": "tap",
+              "source": "b05c1l3p7",
+              "prompt": {
+                "en": "What share of similar teams never finished, according to Seymour Fox?",
+                "fa": "به گفتهٔ Seymour Fox چه سهمی از تیم‌های مشابه هرگز کار را تمام نکردند؟"
+              },
+              "options": [
+                {
+                  "en": "40 percent",
+                  "fa": "۴۰ درصد"
+                },
+                {
+                  "en": "10 percent",
+                  "fa": "۱۰ درصد"
+                },
+                {
+                  "en": "Almost none",
+                  "fa": "تقریباً هیچ‌کدام"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p9",
+              "text": {
+                "en": "The Scottish Parliament building was estimated in 1997 at up to £40 million and finished at £431 million. Large projects running late and over budget is the rule, not the exception.",
+                "fa": "ساختمان پارلمان اسکاتلند در ۱۹۹۷ حداکثر ۴۰ میلیون پوند تخمین زده شد و با ۴۳۱ میلیون پوند تمام شد. دیر و گران‌تر تمام شدن پروژه‌های بزرگ قاعده است، نه استثنا."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p10",
+              "text": {
+                "en": "Optimism drives founders: only about 35 percent of small businesses in the United States survive five years, yet founders put their own chances at around 60 percent or more.",
+                "fa": "خوش‌بینی بنیان‌گذاران را پیش می‌برد: فقط حدود ۳۵ درصد کسب‌وکارهای کوچک در ایالات متحده پنج سال دوام می‌آورند، اما بنیان‌گذاران شانس خودشان را حدود ۶۰ درصد یا بیشتر می‌دانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k4",
+              "type": "tf",
+              "source": "b05c1l3p8",
+              "prompt": {
+                "en": "The outside view starts from the base rate of similar projects.",
+                "fa": "دید بیرونی از نرخ پایهٔ پروژه‌های مشابه شروع می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p11",
+              "text": {
+                "en": "Gary Klein's premortem: before committing, imagine it is a year later and the plan was a disaster, then write its history. It makes doubt legitimate and surfaces threats the group ignored.",
+                "fa": "پیش‌مرگ‌نگاری (premortem) از Gary Klein: پیش از تعهد، تصور کن یک سال گذشته و برنامه فاجعه شده، بعد تاریخچه‌اش را بنویس. این کار تردید را مشروع می‌کند و خطرهایی را که گروه نادیده گرفته بیرون می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p12",
+              "text": {
+                "en": "Applied: before forecasting your AI product's first €100 a month, find how long similar small products took to get there. Start from that base rate, then run a premortem on your plan.",
+                "fa": "کاربرد: پیش از پیش‌بینی اولین ۱۰۰ یوروی ماهانهٔ محصول AI خودت، ببین محصولات کوچک مشابه چقدر طول کشید تا به آن برسند. از همان نرخ پایه شروع کن و بعد روی برنامه‌ات premortem اجرا کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k5",
+              "type": "tap",
+              "source": "b05c1l3p11",
+              "prompt": {
+                "en": "In a premortem, what do you imagine?",
+                "fa": "در premortem چه چیزی را تصور می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "A year later, the plan was a disaster",
+                  "fa": "یک سال بعد، برنامه فاجعه شده است"
+                },
+                {
+                  "en": "A year later, the plan beat every target",
+                  "fa": "یک سال بعد، برنامه از همهٔ هدف‌ها جلو زده است"
+                },
+                {
+                  "en": "The competitors gave up early",
+                  "fa": "رقبا زود کنار کشیده‌اند"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b05c1l4",
+          "title": {
+            "en": "Losses, frames and choices (Part IV)",
+            "fa": "زیان‌ها، قاب‌ها و انتخاب‌ها (بخش چهارم)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b05c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part IV on choices: prospect theory, loss aversion and framing. It matters because the urge to sell an index ETF in a crash comes from here, not from the numbers.",
+                "fa": "این درس بخش چهارم کتاب دربارهٔ انتخاب‌ها را خلاصه می‌کند: نظریهٔ چشم‌انداز، زیان‌گریزی و قاب‌بندی. مهم است چون وسوسهٔ فروش ETF شاخصی در زمان سقوط از اینجا می‌آید، نه از اعداد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p2",
+              "text": {
+                "en": "Bernoulli assumed people value their total wealth. Kahneman and Tversky noted that Anthony and Betty, each now holding 5 million, feel very differently if yesterday Anthony had 1 million and Betty had 9.",
+                "fa": "Bernoulli فرض می‌کرد مردم کل ثروتشان را ارزش‌گذاری می‌کنند. Kahneman و Tversky نشان دادند Anthony و Betty که هر دو حالا ۵ میلیون دارند، حس بسیار متفاوتی دارند اگر دیروز Anthony یک میلیون و Betty نه میلیون داشته."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p3",
+              "text": {
+                "en": "Prospect theory rests on three ideas: outcomes are judged against a reference point, sensitivity to changes diminishes, and losses loom larger than gains.",
+                "fa": "نظریهٔ چشم‌انداز بر سه ایده استوار است: نتیجه‌ها نسبت به یک نقطهٔ مرجع سنجیده می‌شوند، حساسیت به تغییرات کم‌کم کاهش می‌یابد و زیان‌ها بزرگ‌تر از سودها به چشم می‌آیند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k1",
+              "type": "tap",
+              "source": "b05c1l4p3",
+              "prompt": {
+                "en": "In prospect theory, outcomes are judged against what?",
+                "fa": "در نظریهٔ چشم‌انداز، نتیجه‌ها نسبت به چه چیزی سنجیده می‌شوند؟"
+              },
+              "options": [
+                {
+                  "en": "A reference point",
+                  "fa": "یک نقطهٔ مرجع"
+                },
+                {
+                  "en": "Total wealth",
+                  "fa": "کل ثروت"
+                },
+                {
+                  "en": "The average outcome of others",
+                  "fa": "میانگین نتیجهٔ دیگران"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p4",
+              "text": {
+                "en": "Most people refuse a coin toss that loses $100 on tails and wins $150 on heads. Losses weigh roughly 1.5 to 2.5 times as much as gains of the same size.",
+                "fa": "بیشتر مردم شیر یا خطی را که با خط ۱۰۰ دلار می‌بازند و با شیر ۱۵۰ دلار می‌برند رد می‌کنند. وزن زیان‌ها تقریباً ۱٫۵ تا ۲٫۵ برابر سودهای هم‌اندازه است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p5",
+              "text": {
+                "en": "The fourfold pattern: people are risk averse when a gain is likely but risk seeking when every option is bad. Facing a sure loss, they take a gamble that may make it worse.",
+                "fa": "الگوی چهارگانه: وقتی سود محتمل است مردم ریسک‌گریزند، اما وقتی همهٔ گزینه‌ها بدند ریسک‌پذیر می‌شوند. در برابر زیان قطعی، قماری می‌کنند که شاید آن را بدتر کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k2",
+              "type": "tf",
+              "source": "b05c1l4p4",
+              "prompt": {
+                "en": "Most people accept a coin toss that loses $100 or wins $150.",
+                "fa": "بیشتر مردم شیر یا خطی با ۱۰۰ دلار باخت یا ۱۵۰ دلار برد را می‌پذیرند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p6",
+              "text": {
+                "en": "The endowment effect: once a mug is yours, you demand about twice as much to sell it as you would pay to buy it. Owning something makes giving it up feel like a loss.",
+                "fa": "اثر مالکیت: وقتی لیوانی مال تو شد، برای فروختنش حدود دو برابر قیمتی را می‌خواهی که حاضر بودی برای خریدنش بپردازی. مالک بودن باعث می‌شود از دست دادن آن مثل زیان حس شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p7",
+              "text": {
+                "en": "Investors tend to sell winners and keep losers to avoid booking a loss. Terry Odean found that the winners they sold went on to do better than the losers they kept.",
+                "fa": "سرمایه‌گذاران معمولاً برنده‌ها را می‌فروشند و بازنده‌ها را نگه می‌دارند تا زیانی ثبت نکنند. Terry Odean دریافت برنده‌هایی که فروختند بعداً از بازنده‌هایی که نگه داشتند بهتر عمل کردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p8",
+              "text": {
+                "en": "The sunk-cost fallacy: we pour more into a failing project because quitting would turn past spending into a booked loss. Past costs should not decide where the next euro goes.",
+                "fa": "خطای هزینهٔ ازدست‌رفته: به پروژهٔ شکست‌خورده بیشتر پول می‌ریزیم چون رها کردنش هزینه‌های گذشته را به زیانی ثبت‌شده تبدیل می‌کند. هزینه‌های گذشته نباید تعیین کنند یوروی بعدی کجا برود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k3",
+              "type": "tap",
+              "source": "b05c1l4p6",
+              "prompt": {
+                "en": "What does the endowment effect make giving something up feel like?",
+                "fa": "اثر مالکیت باعث می‌شود از دست دادن چیزی چه حسی داشته باشد؟"
+              },
+              "options": [
+                {
+                  "en": "A loss",
+                  "fa": "یک زیان"
+                },
+                {
+                  "en": "A fair trade",
+                  "fa": "یک معاملهٔ منصفانه"
+                },
+                {
+                  "en": "A gain",
+                  "fa": "یک سود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p9",
+              "text": {
+                "en": "Framing: in the Asian disease problem, most people choose a plan where 200 of 600 people will be saved for sure. Told the same plan means 400 will die, most switch to a gamble.",
+                "fa": "قاب‌بندی: در مسئلهٔ «بیماری آسیایی»، بیشتر مردم برنامه‌ای را انتخاب می‌کنند که در آن ۲۰۰ نفر از ۶۰۰ نفر قطعاً نجات می‌یابند. وقتی همان برنامه به شکل «۴۰۰ نفر می‌میرند» گفته شود، بیشترشان سراغ قمار می‌روند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p10",
+              "text": {
+                "en": "Physicians fall for it too: surgery with a 90 percent one-month survival rate wins more support than surgery with 10 percent mortality. Same facts, different frame, different choice.",
+                "fa": "پزشکان هم گرفتارش می‌شوند: جراحی با نرخ بقای یک‌ماههٔ ۹۰ درصد بیشتر از جراحی با مرگ‌ومیر ۱۰ درصد حمایت می‌گیرد. همان واقعیت، قاب دیگر، انتخاب دیگر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k4",
+              "type": "tf",
+              "source": "b05c1l4p10",
+              "prompt": {
+                "en": "Physicians were not swayed by survival versus mortality framing.",
+                "fa": "قاب‌بندی بقا در برابر مرگ‌ومیر روی پزشکان اثری نداشت."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p11",
+              "text": {
+                "en": "Broad framing beats narrow framing: see each bet as one of many and adopt a risk policy. Checking your investments less often also cuts the pain of losses that come with every small dip.",
+                "fa": "قاب‌بندی گسترده بهتر از قاب‌بندی محدود است: هر شرط را یکی از شرط‌های بسیار ببین و یک سیاست ریسک داشته باش. کمتر سر زدن به سرمایه‌گذاری‌ها هم درد زیانِ هر افت کوچک را کم می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p12",
+              "text": {
+                "en": "Applied: write a risk policy now, saying that a 30 percent drop in your 80 percent index ETF core is not a sell signal. Review it once a quarter in your net-worth log, not daily.",
+                "fa": "کاربرد: همین حالا یک سیاست ریسک بنویس که بگوید افت ۳۰ درصدی در هستهٔ ۸۰ درصدی ETF شاخصی‌ات سیگنال فروش نیست. آن را فصلی یک بار در گزارش دارایی خالصت مرور کن، نه هر روز."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k5",
+              "type": "tap",
+              "source": "b05c1l4p12",
+              "prompt": {
+                "en": "Under your written risk policy, what is a 30 percent drop in the index ETF core?",
+                "fa": "طبق سیاست ریسک مکتوبت، افت ۳۰ درصدی در هستهٔ ETF شاخصی چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Not a sell signal",
+                  "fa": "سیگنال فروش نیست"
+                },
+                {
+                  "en": "A reason to sell everything",
+                  "fa": "دلیلی برای فروش همه‌چیز"
+                },
+                {
+                  "en": "A cue to switch to single stocks",
+                  "fa": "نشانه‌ای برای رفتن سراغ تک‌سهم‌ها"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

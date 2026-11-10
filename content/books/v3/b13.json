@@ -1,0 +1,643 @@
+{
+  "id": "b13",
+  "title": "The Intelligent Investor (chapters 8 and 20)",
+  "author": {
+    "en": "Benjamin Graham",
+    "fa": "Benjamin Graham"
+  },
+  "year": 1949,
+  "stage": 3,
+  "must": false,
+  "why": {
+    "en": "Mr. Market and the margin of safety",
+    "fa": "Mr. Market و حاشیه امنیت"
+  },
+  "badge": {
+    "en": "Margin of Safety",
+    "fa": "حاشیهٔ امنیت"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b13c1",
+      "title": {
+        "en": "Mr. Market and the margin of safety",
+        "fa": "Mr. Market و حاشیهٔ امنیت"
+      },
+      "lessons": [
+        {
+          "id": "b13c1l1",
+          "title": {
+            "en": "Mr. Market and the investor's mood (ch. 8)",
+            "fa": "Mr. Market و حال‌وهوای سرمایه‌گذار (فصل ۸)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b13c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 8, The Investor and Market Fluctuations, and its parable of a moody business partner. It matters because once your euros sit at a Dutch broker, daily prices will test your nerves.",
+                "fa": "این درس فصل ۸ کتاب، «سرمایه‌گذار و نوسان‌های بازار»، و تمثیل شریک تجاری دمدمی را خلاصه می‌کند. مهم است چون وقتی یوروهایت نزد یک کارگزار هلندی باشد، قیمت‌های روزانه اعصابت را می‌آزمایند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p2",
+              "text": {
+                "en": "Graham warns that the investor's chief problem, and even his worst enemy, is likely to be himself. Market swings hurt mainly through how you react to them.",
+                "fa": "Graham هشدار می‌دهد که مشکل اصلی سرمایه‌گذار، و حتی بدترین دشمنش، احتمالاً خود اوست. نوسان بازار بیشتر از راه واکنش تو به آن آسیب می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p3",
+              "text": {
+                "en": "Imagine a private business partner, Mr. Market, who every day names a price at which he will buy your share or sell you his; some days his price is sensible, but often his fear or excitement makes it silly.",
+                "fa": "تصور کن شریکی خصوصی به نام Mr. Market داری که هر روز قیمتی می‌گوید که با آن یا سهم تو را می‌خرد یا سهم خودش را به تو می‌فروشد؛ بعضی روزها قیمتش منطقی است، اما اغلب ترس یا هیجانش آن را مسخره می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l1k1",
+              "type": "tap",
+              "source": "b13c1l1p3",
+              "prompt": {
+                "en": "What does Mr. Market do every day?",
+                "fa": "Mr. Market هر روز چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Names a price to buy your share or sell you his",
+                  "fa": "قیمتی می‌گوید تا سهم تو را بخرد یا سهم خودش را به تو بفروشد"
+                },
+                {
+                  "en": "Publishes the true value of the business",
+                  "fa": "ارزش واقعی کسب‌وکار را اعلام می‌کند"
+                },
+                {
+                  "en": "Pays you a fixed dividend",
+                  "fa": "سود ثابتی به تو می‌پردازد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p4",
+              "text": {
+                "en": "On buoyant days he names a price far above what the business is worth; on gloomy days he offers to sell at a price far below it. The business itself has not changed.",
+                "fa": "در روزهای سرخوشی قیمتی خیلی بالاتر از ارزش کسب‌وکار می‌گوید؛ در روزهای دلمردگی پیشنهاد می‌دهد به قیمتی خیلی پایین‌تر از آن بفروشد. خود کسب‌وکار تغییری نکرده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p5",
+              "text": {
+                "en": "The investor is free to ignore him or to profit from him: buy when he offers a price well below value, sell when his price is absurdly high. His quotes are an opportunity, never an order.",
+                "fa": "سرمایه‌گذار آزاد است او را نادیده بگیرد یا از او سود ببرد: وقتی قیمتی خیلی پایین‌تر از ارزش می‌دهد بخر، وقتی قیمتش به‌طرز مسخره‌ای بالاست بفروش. قیمت‌های او فرصت‌اند، هرگز دستور نیستند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l1k2",
+              "type": "tf",
+              "source": "b13c1l1p5",
+              "prompt": {
+                "en": "You must trade with Mr. Market whenever he names a price.",
+                "fa": "هر وقت Mr. Market قیمتی گفت، باید با او معامله کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p6",
+              "text": {
+                "en": "The true investor, Graham says, is scarcely ever forced to sell his shares. At all other times he is free to disregard the current price quotation.",
+                "fa": "به گفتهٔ Graham، سرمایه‌گذار واقعی تقریباً هیچ‌وقت مجبور به فروش سهامش نیست. در بقیهٔ اوقات آزاد است قیمت لحظه‌ای بازار را نادیده بگیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p7",
+              "text": {
+                "en": "Graham warns that the investor who lets a market decline stampede him into selling turns his basic advantage into a basic disadvantage.",
+                "fa": "Graham هشدار می‌دهد سرمایه‌گذاری که اجازه می‌دهد افت بازار او را به فروش هول‌زده بکشاند، مزیت اصلی‌اش را به عیب اصلی تبدیل می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p8",
+              "text": {
+                "en": "Graham names two ways to use price swings: timing, forecasting the market's moves, and pricing, buying below fair value and selling above it. The investor should stick to pricing.",
+                "fa": "Graham دو راه برای استفاده از نوسان قیمت نام می‌برد: زمان‌بندی، یعنی پیش‌بینی حرکت بازار، و قیمت‌گذاری، یعنی خرید زیر ارزش منصفانه و فروش بالای آن. سرمایه‌گذار باید به قیمت‌گذاری پایبند بماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l1k3",
+              "type": "tap",
+              "source": "b13c1l1p8",
+              "prompt": {
+                "en": "Which way of using price swings does Graham recommend to the investor?",
+                "fa": "Graham کدام راه استفاده از نوسان قیمت را به سرمایه‌گذار توصیه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Pricing: buying below fair value",
+                  "fa": "قیمت‌گذاری: خرید زیر ارزش منصفانه"
+                },
+                {
+                  "en": "Timing: forecasting the next move",
+                  "fa": "زمان‌بندی: پیش‌بینی حرکت بعدی"
+                },
+                {
+                  "en": "Following the most popular stocks",
+                  "fa": "دنبال کردن محبوب‌ترین سهام"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p9",
+              "text": {
+                "en": "An investor holding sound stocks should expect their prices to fluctuate. Graham says he should neither be concerned by sizable declines nor become excited by sizable advances.",
+                "fa": "سرمایه‌گذاری که سهام سالم دارد باید انتظار نوسان قیمتشان را داشته باشد. Graham می‌گوید نه باید از افت‌های بزرگ نگران شود و نه از رشدهای بزرگ به هیجان بیاید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p10",
+              "text": {
+                "en": "Think like the owner of a private business: you would judge your stake by its operating results, not by what an excitable partner offers for it today.",
+                "fa": "مثل صاحب یک کسب‌وکار خصوصی فکر کن: سهمت را با نتایج عملیاتی آن می‌سنجی، نه با قیمتی که یک شریک هیجانی امروز برایش پیشنهاد می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l1k4",
+              "type": "tf",
+              "source": "b13c1l1p10",
+              "prompt": {
+                "en": "Graham judges a business stake mainly by today's market quote.",
+                "fa": "Graham سهم در یک کسب‌وکار را عمدتاً با قیمت امروز بازار می‌سنجد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p11",
+              "text": {
+                "en": "Applied: with 80 percent in index ETFs such as VWCE, a new quote arrives every second; a steep fall is Mr. Market's mood, not a verdict on the world's companies.",
+                "fa": "کاربرد: با ۸۰ درصد در ETFهای شاخصی مثل VWCE، هر ثانیه قیمت تازه‌ای می‌رسد؛ یک ریزش تند حال‌وهوای Mr. Market است، نه حکمی دربارهٔ شرکت‌های دنیا."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l1p12",
+              "text": {
+                "en": "Before markets drop, write in your decision journal what you will do when VWCE falls 30 percent. A rule set in calm protects you from your own panic.",
+                "fa": "پیش از آنکه بازار بریزد، در دفتر تصمیم‌هایت بنویس وقتی VWCE ۳۰ درصد افت کرد چه می‌کنی. قاعده‌ای که در آرامش گذاشته شود تو را از وحشت خودت محافظت می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l1k5",
+              "type": "tap",
+              "source": "b13c1l1p12",
+              "prompt": {
+                "en": "When should you decide how to act on a big market fall?",
+                "fa": "کی باید تصمیم بگیری با یک ریزش بزرگ بازار چه کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Before markets drop, in calm",
+                  "fa": "پیش از ریزش بازار، در آرامش"
+                },
+                {
+                  "en": "On the day of the fall, while watching prices",
+                  "fa": "روز ریزش، در حال تماشای قیمت‌ها"
+                },
+                {
+                  "en": "After a friend tells you to sell",
+                  "fa": "بعد از اینکه دوستی می‌گوید بفروش"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b13c1l2",
+          "title": {
+            "en": "Defensive or enterprising: pick your role",
+            "fa": "تدافعی یا جسور: نقشت را انتخاب کن"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b13c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Graham's split between the defensive and the enterprising investor, which runs through the whole book. It matters because you should pick your role before you fund a broker account.",
+                "fa": "این درس تقسیم Graham میان سرمایه‌گذار تدافعی و سرمایه‌گذار جسور را خلاصه می‌کند که در سراسر کتاب جریان دارد. مهم است چون باید پیش از پر کردن حساب کارگزاری نقشت را انتخاب کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p2",
+              "text": {
+                "en": "Graham says the defensive, or passive, investor aims first to avoid serious mistakes or losses. His second aim is freedom from effort, annoyance and the need for frequent decisions.",
+                "fa": "Graham می‌گوید هدف اول سرمایه‌گذار تدافعی یا منفعل، پرهیز از اشتباه‌ها یا زیان‌های جدی است. هدف دومش رهایی از زحمت، دردسر و نیاز به تصمیم‌گیری‌های مکرر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p3",
+              "text": {
+                "en": "The enterprising, or aggressive, investor is willing to devote time and care to choosing securities that are both sound and more attractive than average.",
+                "fa": "سرمایه‌گذار جسور یا فعال حاضر است وقت و دقت صرف انتخاب اوراق بهاداری کند که هم سالم باشند و هم از میانگین جذاب‌تر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l2k1",
+              "type": "tap",
+              "source": "b13c1l2p3",
+              "prompt": {
+                "en": "What defines Graham's enterprising investor?",
+                "fa": "سرمایه‌گذار جسور Graham با چه چیزی تعریف می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Willing to devote time and care to choosing securities",
+                  "fa": "حاضر است وقت و دقت صرف انتخاب اوراق بهادار کند"
+                },
+                {
+                  "en": "Willing to take the biggest risks",
+                  "fa": "حاضر است بیشترین ریسک را بپذیرد"
+                },
+                {
+                  "en": "Trading every day on news",
+                  "fa": "هر روز بر اساس خبرها معامله می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p4",
+              "text": {
+                "en": "Graham's key rule: the return you aim for should depend on the intelligent effort you are willing and able to bring, not on how much risk you take.",
+                "fa": "قاعدهٔ کلیدی Graham: بازدهی که دنبالش هستی باید به تلاش هوشمندانه‌ای بستگی داشته باشد که می‌خواهی و می‌توانی به کار ببری، نه به مقدار ریسکی که می‌پذیری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l2k2",
+              "type": "tf",
+              "source": "b13c1l2p4",
+              "prompt": {
+                "en": "Graham says a higher return should come from taking more risk.",
+                "fa": "Graham می‌گوید بازده بالاتر باید از پذیرش ریسک بیشتر بیاید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p5",
+              "text": {
+                "en": "The defensive investor splits money between high-grade bonds and leading common stocks, with never less than 25 or more than 75 percent in stocks. A 50-50 split is the standard.",
+                "fa": "سرمایه‌گذار تدافعی پولش را میان اوراق قرضهٔ درجه‌یک و سهام عادی پیشرو تقسیم می‌کند، با هرگز کمتر از ۲۵ و بیشتر از ۷۵ درصد در سهام. تقسیم ۵۰-۵۰ حالت استاندارد است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p6",
+              "text": {
+                "en": "For the stock part, Graham advises adequate but not excessive diversification: ten to thirty large, prominent, conservatively financed companies.",
+                "fa": "برای بخش سهام، Graham تنوع کافی اما نه بیش از حد را توصیه می‌کند: ده تا سی شرکت بزرگ، سرشناس و با تأمین مالی محافظه‌کارانه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p7",
+              "text": {
+                "en": "He also suggests dollar-cost averaging: investing the same amount of money each month or quarter, so the same sum buys more shares when prices are low.",
+                "fa": "او میانگین‌گیری هزینه را هم پیشنهاد می‌کند: سرمایه‌گذاری مبلغی یکسان در هر ماه یا فصل، تا همان مبلغ وقتی قیمت‌ها پایین است سهم بیشتری بخرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l2k3",
+              "type": "tap",
+              "source": "b13c1l2p7",
+              "prompt": {
+                "en": "What is dollar-cost averaging?",
+                "fa": "میانگین‌گیری هزینه چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Investing the same amount each month or quarter",
+                  "fa": "سرمایه‌گذاری مبلغی یکسان در هر ماه یا فصل"
+                },
+                {
+                  "en": "Buying only after prices have risen",
+                  "fa": "خرید فقط پس از بالا رفتن قیمت‌ها"
+                },
+                {
+                  "en": "Putting everything in at the yearly low",
+                  "fa": "گذاشتن همه‌چیز در کف قیمت سالانه"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p8",
+              "text": {
+                "en": "Graham treats the enterprising path as close to running a business: it needs real knowledge, time and steady judgement. Without them, he says, stay defensive.",
+                "fa": "Graham مسیر جسورانه را نزدیک به اداره کردن یک کسب‌وکار می‌داند: دانش واقعی، وقت و قضاوت پایدار می‌خواهد. به گفتهٔ او، بدون این‌ها تدافعی بمان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p9",
+              "text": {
+                "en": "Both types face the same moody partner. The defensive investor mostly ignores his quotes; the enterprising one uses his extreme moods to buy below value and sell above it.",
+                "fa": "هر دو نوع با همان شریک دمدمی روبه‌رو می‌شوند. سرمایه‌گذار تدافعی بیشتر قیمت‌هایش را نادیده می‌گیرد؛ سرمایه‌گذار جسور از حال‌های افراطی او برای خرید زیر ارزش و فروش بالای آن استفاده می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l2k4",
+              "type": "tf",
+              "source": "b13c1l2p9",
+              "prompt": {
+                "en": "Only the enterprising investor ever has to face the moody partner.",
+                "fa": "فقط سرمایه‌گذار جسور با آن شریک دمدمی سروکار دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p10",
+              "text": {
+                "en": "Graham closes the book noting that a satisfactory result is easier to reach than most people realize, while a superior result is harder than it looks.",
+                "fa": "Graham در پایان کتاب می‌گوید رسیدن به نتیجهٔ رضایت‌بخش از آنچه بیشتر مردم فکر می‌کنند آسان‌تر است، اما رسیدن به نتیجهٔ برتر از آنچه به نظر می‌رسد سخت‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p11",
+              "text": {
+                "en": "Applied: your 80 percent core in index ETFs such as VWCE or IWDA is the defensive path in modern form: broad diversification, little effort and few decisions.",
+                "fa": "کاربرد: هستهٔ ۸۰ درصدی‌ات در ETFهای شاخصی مثل VWCE یا IWDA همان مسیر تدافعی در شکل امروزی است: تنوع گسترده، زحمت کم و تصمیم‌های اندک."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l2p12",
+              "text": {
+                "en": "The 20 percent satellite, your startup equity and AI product, is where enterprising effort belongs, and only as far as you truly bring the time and knowledge.",
+                "fa": "ماهوارهٔ ۲۰ درصدی، یعنی سهام استارتاپ و محصول AI تو، جای تلاش جسورانه است، و فقط تا جایی که واقعاً وقت و دانشش را بگذاری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l2k5",
+              "type": "tap",
+              "source": "b13c1l2p12",
+              "prompt": {
+                "en": "Where does enterprising effort belong in your plan?",
+                "fa": "تلاش جسورانه در برنامهٔ تو کجا جا دارد؟"
+              },
+              "options": [
+                {
+                  "en": "The 20 percent satellite",
+                  "fa": "ماهوارهٔ ۲۰ درصدی"
+                },
+                {
+                  "en": "The 80 percent index core",
+                  "fa": "هستهٔ ۸۰ درصدی شاخصی"
+                },
+                {
+                  "en": "Your emergency savings",
+                  "fa": "پس‌انداز اضطراری‌ات"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b13c1l3",
+          "title": {
+            "en": "Margin of safety, the central concept (ch. 20)",
+            "fa": "حاشیهٔ امنیت، مفهوم محوری (فصل ۲۰)"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b13c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 20, Margin of Safety as the Central Concept of Investment. It matters because every euro you put into ETFs, startup equity or your 25 times target needs room for error.",
+                "fa": "این درس فصل ۲۰، «حاشیهٔ امنیت به‌عنوان مفهوم محوری سرمایه‌گذاری»، را خلاصه می‌کند. مهم است چون هر یورویی که در ETFها، سهام استارتاپ یا هدف ۲۵ برابری‌ات می‌گذاری به جا برای خطا نیاز دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p2",
+              "text": {
+                "en": "Asked to distill sound investing into three words, Graham answers: margin of safety. Pay a price far enough below your estimate of value that errors, bad luck and a changing world cannot destroy you.",
+                "fa": "وقتی از Graham می‌خواهند سرمایه‌گذاری درست را در سه کلمه خلاصه کند، پاسخ می‌دهد: حاشیهٔ امنیت. قیمتی بپرداز آن‌قدر پایین‌تر از برآوردت از ارزش که خطا، بدشانسی و تغییر دنیا نتوانند نابودت کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p3",
+              "text": {
+                "en": "The margin of safety absorbs the effect of miscalculations or worse than average luck. Graham says it makes an accurate estimate of the future unnecessary.",
+                "fa": "حاشیهٔ امنیت اثر محاسبهٔ اشتباه یا بدشانسی بیش از معمول را جذب می‌کند. Graham می‌گوید با آن، برآورد دقیق آینده لازم نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l3k1",
+              "type": "tap",
+              "source": "b13c1l3p2",
+              "prompt": {
+                "en": "Which three words does Graham use for the secret of sound investing?",
+                "fa": "Graham راز سرمایه‌گذاری درست را در کدام سه کلمه خلاصه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Margin of safety",
+                  "fa": "حاشیهٔ امنیت"
+                },
+                {
+                  "en": "Buy and hold",
+                  "fa": "بخر و نگه دار"
+                },
+                {
+                  "en": "Diversify, diversify, diversify",
+                  "fa": "تنوع، تنوع، تنوع"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p4",
+              "text": {
+                "en": "For a sound bond, Graham finds the margin in earning power well above interest charges, so the company can pay its bondholders even through a bad stretch.",
+                "fa": "برای یک اوراق قرضهٔ سالم، Graham حاشیه را در قدرت سودآوری‌ای می‌بیند که خیلی بیشتر از هزینهٔ بهره است، تا شرکت حتی در دورهٔ بد هم بتواند به دارندگان اوراق بپردازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p5",
+              "text": {
+                "en": "For stocks, Graham's example: earnings of 9 percent on the price against a 4 percent bond rate. Over ten years the 5 percent excess can add up to half the price paid.",
+                "fa": "برای سهام، مثال Graham: سود ۹ درصدی نسبت به قیمت در برابر نرخ ۴ درصدی اوراق قرضه. در ده سال، این ۵ درصد اضافه می‌تواند به نیمی از قیمت پرداختی برسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l3k2",
+              "type": "tf",
+              "source": "b13c1l3p5",
+              "prompt": {
+                "en": "In Graham's stock example, the earnings yield is below the bond rate.",
+                "fa": "در مثال سهام Graham، بازده سود کمتر از نرخ اوراق قرضه است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p6",
+              "text": {
+                "en": "The margin of safety depends entirely on the price paid; a fine company bought too dear has none. Diversification is its companion, because a margin protects on average, not on every single pick.",
+                "fa": "حاشیهٔ امنیت کاملاً به قیمت پرداختی بستگی دارد؛ شرکت خوبی که خیلی گران خریده شود هیچ حاشیه‌ای ندارد. تنوع همراه آن است، چون حاشیه به‌طور میانگین محافظت می‌کند، نه در تک‌تک انتخاب‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p7",
+              "text": {
+                "en": "Graham compares this to roulette: the house has a small edge on each bet, and over many bets that edge makes profit near certain. Margin plus diversification works the same way.",
+                "fa": "Graham این را به رولت تشبیه می‌کند: کازینو در هر شرط برتری کوچکی دارد و در شرط‌های زیاد همین برتری سود را تقریباً قطعی می‌کند. حاشیه به‌علاوهٔ تنوع هم همین‌طور کار می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l3k3",
+              "type": "tap",
+              "source": "b13c1l3p7",
+              "prompt": {
+                "en": "Why does Graham bring up roulette?",
+                "fa": "چرا Graham از رولت حرف می‌زند؟"
+              },
+              "options": [
+                {
+                  "en": "A small edge over many bets makes profit near certain",
+                  "fa": "برتری کوچک در شرط‌های زیاد سود را تقریباً قطعی می‌کند"
+                },
+                {
+                  "en": "To show that investing is pure gambling",
+                  "fa": "تا نشان دهد سرمایه‌گذاری قمار محض است"
+                },
+                {
+                  "en": "To advise betting everything on one number",
+                  "fa": "تا توصیه کند همه‌چیز را روی یک عدد بگذاری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p8",
+              "text": {
+                "en": "Graham says the worst losses come from buying low-quality securities in times of good business, when a few strong years make weak companies look safe.",
+                "fa": "Graham می‌گوید بدترین زیان‌ها از خرید اوراق کم‌کیفیت در دوران رونق کسب‌وکار می‌آید، وقتی چند سال خوب شرکت‌های ضعیف را امن نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p9",
+              "text": {
+                "en": "An investment operation is one which, on thorough analysis, promises safety of principal and an adequate return; anything else is speculation. The margin of safety is what separates the two.",
+                "fa": "عملیات سرمایه‌گذاری عملیاتی است که با تحلیل کامل، حفظ اصل سرمایه و بازده کافی را وعده می‌دهد؛ هر چیز دیگری سفته‌بازی است. حاشیهٔ امنیت همان چیزی است که این دو را از هم جدا می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l3k4",
+              "type": "tf",
+              "source": "b13c1l3p9",
+              "prompt": {
+                "en": "Graham calls an operation an investment only if thorough analysis promises safety of principal and an adequate return.",
+                "fa": "Graham عملیاتی را سرمایه‌گذاری می‌نامد که تحلیل کامل، حفظ اصل سرمایه و بازده کافی را وعده دهد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p10",
+              "text": {
+                "en": "\"Investment is most intelligent when it is most businesslike,\" Graham writes. Treat a share as a stake in a business and judge it by what that business earns.",
+                "fa": "Graham می‌نویسد: «سرمایه‌گذاری وقتی هوشمندانه‌ترین است که بیشترین شباهت را به کسب‌وکار داشته باشد.» سهم را جزئی از یک کسب‌وکار ببین و آن را با سودی که آن کسب‌وکار می‌سازد بسنج."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p11",
+              "text": {
+                "en": "Applied: if your estimate of annual expenses in the Netherlands is a guess, pad the 25 times target, because a margin protects you from errors, bad luck and a changing world.",
+                "fa": "کاربرد: اگر برآوردت از هزینهٔ سالانه در هلند یک حدس است، به هدف ۲۵ برابر حاشیه اضافه کن، چون حاشیه از خطا، بدشانسی و تغییر دنیا محافظتت می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l3p12",
+              "text": {
+                "en": "A fine startup bought too dear has no margin of safety, and that includes equity you accept instead of salary. Spread your bets, because a margin protects on average.",
+                "fa": "استارتاپ خوبی که خیلی گران خریده شود هیچ حاشیهٔ امنیتی ندارد، و این شامل سهامی که به‌جای حقوق می‌پذیری هم می‌شود. شرط‌هایت را پخش کن، چون حاشیه به‌طور میانگین محافظت می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l3k5",
+              "type": "tap",
+              "source": "b13c1l3p12",
+              "prompt": {
+                "en": "When does a fine startup stake have no margin of safety?",
+                "fa": "یک سهم خوب در استارتاپ کی هیچ حاشیهٔ امنیتی ندارد؟"
+              },
+              "options": [
+                {
+                  "en": "Bought too dear",
+                  "fa": "وقتی خیلی گران خریده شود"
+                },
+                {
+                  "en": "Bought with a written cap table",
+                  "fa": "وقتی با cap table مکتوب خریده شود"
+                },
+                {
+                  "en": "Held for many years",
+                  "fa": "وقتی سال‌ها نگه داشته شود"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

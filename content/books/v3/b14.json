@@ -1,0 +1,274 @@
+{
+  "id": "b14",
+  "title": "One Up on Wall Street",
+  "author": {"en": "Peter Lynch with John Rothchild", "fa": "Peter Lynch with John Rothchild"},
+  "year": 1989,
+  "stage": 3,
+  "must": false,
+  "why": {"en": "Investing in what you yourself understand", "fa": "سرمایه‌گذاری با چیزهایی که خودت می‌فهمی"},
+  "badge": {"en": "Know What You Own", "fa": "بدان چه داری"},
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b14c1",
+      "title": {"en": "Know what you own, and why", "fa": "بدان چه داری و چرا"},
+      "lessons": [
+        {
+          "id": "b14c1l1",
+          "title": {"en": "Invest in what you know: the amateur's edge", "fa": "روی چیزی سرمایه‌گذاری کن که می‌شناسی: مزیت آماتور"},
+          "minutes": 12,
+          "items": [
+            {"kind": "card", "id": "b14c1l1p1", "frame": true, "text": {
+              "en": "This Lesson distils the prologue and Part 1: why an amateur can beat the professionals. It matters because your work in tech shows you products and companies long before the market prices them.",
+              "fa": "این درس پیش‌گفتار و بخش اول کتاب را خلاصه می‌کند: چرا یک آماتور می‌تواند از حرفه‌ای‌ها جلو بزند. مهم است چون کار تو در فناوری محصولات و شرکت‌ها را خیلی پیش از آنکه بازار قیمتشان را بفهمد نشانت می‌دهد."
+            }},
+            {"kind": "card", "id": "b14c1l1p2", "text": {
+              "en": "Peter Lynch ran Fidelity's Magellan Fund from 1977 to 1990 and made it one of the best-performing funds of its time. His message: the amateur investor has advantages the professionals lack.",
+              "fa": "Peter Lynch از ۱۹۷۷ تا ۱۹۹۰ صندوق Magellan شرکت Fidelity را اداره کرد و آن را به یکی از پربازده‌ترین صندوق‌های زمان خودش تبدیل کرد. پیامش: سرمایه‌گذار آماتور مزیت‌هایی دارد که حرفه‌ای‌ها ندارند."
+            }},
+            {"kind": "card", "id": "b14c1l1p3", "text": {
+              "en": "Many of his best ideas came from ordinary life, not from Wall Street. His wife Carolyn's liking for L'eggs pantyhose, sold in supermarkets, led him to Hanes, one of his big winners.",
+              "fa": "بسیاری از بهترین ایده‌هایش از زندگی معمولی آمد، نه از Wall Street. علاقهٔ همسرش Carolyn به جوراب‌شلواری L'eggs که در سوپرمارکت‌ها فروخته می‌شد او را به Hanes رساند، یکی از برنده‌های بزرگش."
+            }},
+            {"kind": "check", "id": "b14c1l1k1", "type": "tap", "source": "b14c1l1p3",
+              "prompt": {"en": "Where did many of Lynch's best stock ideas come from?", "fa": "بسیاری از بهترین ایده‌های سهام Lynch از کجا آمد؟"},
+              "options": [
+                {"en": "From ordinary life, not from Wall Street", "fa": "از زندگی معمولی، نه از Wall Street"},
+                {"en": "From analyst reports and brokerage research", "fa": "از گزارش‌های تحلیلگران و تحقیقات کارگزاری‌ها"},
+                {"en": "From technical charts of price patterns", "fa": "از نمودارهای تکنیکال و الگوهای قیمت"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l1p4", "text": {
+              "en": "Professionals are boxed in: a fund manager often cannot buy a small, unknown company until big institutions own it and analysts cover it. By then, the amateur who spotted it early may have the big gain.",
+              "fa": "حرفه‌ای‌ها دست‌وپابسته‌اند: مدیر صندوق اغلب نمی‌تواند شرکتی کوچک و ناشناخته بخرد تا وقتی نهادهای بزرگ آن را نداشته باشند و تحلیلگران پوششش ندهند. تا آن موقع، آماتوری که زود دیده‌اش ممکن است سود بزرگ را برده باشد."
+            }},
+            {"kind": "card", "id": "b14c1l1p5", "text": {
+              "en": "Lynch calls a stock that rises tenfold a tenbagger, borrowing from baseball slang. A few tenbaggers can make a lifetime portfolio, even when many other picks disappoint.",
+              "fa": "Lynch به سهمی که ده برابر می‌شود tenbagger می‌گوید، اصطلاحی وام‌گرفته از بیسبال. چند tenbagger می‌تواند سبد یک عمر را بسازد، حتی وقتی بسیاری از انتخاب‌های دیگر ناامیدکننده باشند."
+            }},
+            {"kind": "check", "id": "b14c1l1k2", "type": "tf", "source": "b14c1l1p5",
+              "prompt": {"en": "In Lynch's language, a tenbagger is a stock that has risen tenfold.", "fa": "در زبان Lynch، tenbagger سهمی است که ده برابر شده است."},
+              "answer": true},
+            {"kind": "card", "id": "b14c1l1p6", "text": {
+              "en": "Lynch liked the coffee at Dunkin' Donuts before he bought the stock. You can judge a business you use and visit far better than one you only read about.",
+              "fa": "Lynch قهوهٔ Dunkin' Donuts را دوست داشت پیش از آنکه سهمش را بخرد. کسب‌وکاری را که از آن استفاده می‌کنی و به آن سر می‌زنی خیلی بهتر از کسب‌وکاری می‌سنجی که فقط درباره‌اش خوانده‌ای."
+            }},
+            {"kind": "card", "id": "b14c1l1p7", "text": {
+              "en": "But a good product is only a lead. Lynch insists you never buy on a tip or a hunch alone: the story still has to be checked against the company's numbers.",
+              "fa": "اما محصول خوب فقط یک سرنخ است. Lynch تأکید می‌کند هرگز فقط با یک توصیه یا حس درونی نخر: داستان هنوز باید با اعداد شرکت سنجیده شود."
+            }},
+            {"kind": "card", "id": "b14c1l1p8", "text": {
+              "en": "Before buying stocks at all, take his mirror test. Do I own a house, do I need this money soon, and do I have the patience and calm to sit through falling prices?",
+              "fa": "پیش از اینکه اصلاً سهام بخری، آزمون آینهٔ او را بده: آیا خانه دارم؟ آیا به زودی به این پول نیاز دارم؟ آیا صبر و آرامش لازم برای تحمل افت قیمت‌ها را دارم؟"
+            }},
+            {"kind": "check", "id": "b14c1l1k3", "type": "tap", "source": "b14c1l1p8",
+              "prompt": {"en": "Which question is part of Lynch's mirror test?", "fa": "کدام پرسش بخشی از آزمون آینهٔ Lynch است؟"},
+              "options": [
+                {"en": "Do I need this money soon?", "fa": "آیا به زودی به این پول نیاز دارم؟"},
+                {"en": "Which stock did my friend recommend?", "fa": "دوستم کدام سهم را پیشنهاد کرد؟"},
+                {"en": "Will interest rates fall this year?", "fa": "آیا نرخ بهره امسال پایین می‌آید؟"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l1p9", "text": {
+              "en": "Lynch refuses to predict the market: nobody can reliably forecast interest rates, the economy or the next crash. Pick good companies and hold them through the swings.",
+              "fa": "Lynch از پیش‌بینی بازار سر باز می‌زند: هیچ‌کس نمی‌تواند نرخ بهره، اقتصاد یا سقوط بعدی را با اطمینان پیش‌بینی کند. شرکت‌های خوب انتخاب کن و در نوسان‌ها نگهشان دار."
+            }},
+            {"kind": "card", "id": "b14c1l1p10", "text": {
+              "en": "His cocktail party theory: when guests ignore a fund manager, the market may be near a bottom; when they give him stock tips, it may be near a top. He offers it half in jest.",
+              "fa": "نظریهٔ مهمانی کوکتل او: وقتی مهمان‌ها به مدیر صندوق بی‌اعتنا هستند، بازار شاید نزدیک کف باشد؛ وقتی به او توصیهٔ سهام می‌دهند، شاید نزدیک سقف. او این را نیمه‌شوخی مطرح می‌کند."
+            }},
+            {"kind": "check", "id": "b14c1l1k4", "type": "tf", "source": "b14c1l1p10",
+              "prompt": {"en": "In the cocktail party theory, guests giving the fund manager stock tips can mean the market is near a top.", "fa": "در نظریهٔ مهمانی کوکتل، توصیهٔ سهام دادن مهمان‌ها به مدیر صندوق می‌تواند یعنی بازار نزدیک سقف است."},
+              "answer": true},
+            {"kind": "card", "id": "b14c1l1p11", "text": {
+              "en": "For you in the Netherlands, the mirror test comes first: an emergency fund and the 80 percent index core before any single stock. Your edge is the AI and developer tools your team really pays for.",
+              "fa": "برای تو در هلند، آزمون آینه اول می‌آید: صندوق اضطراری و هستهٔ ۸۰ درصدی شاخصی پیش از هر سهم منفرد. مزیت تو ابزارهای AI و توسعه‌ای است که تیمت واقعاً برایشان پول می‌دهد."
+            }},
+            {"kind": "card", "id": "b14c1l1p12", "text": {
+              "en": "Treat that edge as a lead for a small satellite bet, then do the homework. Investing in what you know means knowing the company, not just liking the product.",
+              "fa": "آن مزیت را سرنخی برای یک شرط ماهواره‌ای کوچک بدان، بعد تحقیق را انجام بده. سرمایه‌گذاری روی چیزی که می‌شناسی یعنی شناختن شرکت، نه فقط دوست داشتن محصول."
+            }},
+            {"kind": "check", "id": "b14c1l1k5", "type": "tap", "source": "b14c1l1p12",
+              "prompt": {"en": "What does investing in what you know really mean?", "fa": "سرمایه‌گذاری روی چیزی که می‌شناسی واقعاً یعنی چه؟"},
+              "options": [
+                {"en": "Knowing the company, not just liking the product", "fa": "شناختن شرکت، نه فقط دوست داشتن محصول"},
+                {"en": "Buying shares in every product you use at work", "fa": "خریدن سهم هر محصولی که سر کار از آن استفاده می‌کنی"},
+                {"en": "Following tips from friends in your industry", "fa": "دنبال کردن توصیه‌های دوستانت در صنعت خودت"}
+              ],
+              "answer": 0}
+          ]
+        },
+        {
+          "id": "b14c1l2",
+          "title": {"en": "The six categories of stocks", "fa": "شش دستهٔ سهام"},
+          "minutes": 12,
+          "items": [
+            {"kind": "card", "id": "b14c1l2p1", "frame": true, "text": {
+              "en": "This Lesson distils chapter 7, where Lynch sorts every stock into six categories. It matters because the category tells you how much to expect and when a satellite bet has done its job.",
+              "fa": "این درس فصل ۷ را خلاصه می‌کند، جایی که Lynch هر سهمی را در شش دسته جا می‌دهد. مهم است چون دسته به تو می‌گوید چقدر انتظار داشته باشی و یک شرط ماهواره‌ای کی کارش را کرده است."
+            }},
+            {"kind": "card", "id": "b14c1l2p2", "text": {
+              "en": "Once you find a company, ask how big it is and which kind it is. Lynch's six kinds: slow growers, stalwarts, fast growers, cyclicals, turnarounds and asset plays.",
+              "fa": "وقتی شرکتی پیدا کردی، بپرس چقدر بزرگ است و از چه نوعی است. شش نوع Lynch: رشد کند، استوارها، رشد سریع، چرخه‌ای، بازگشتی و دارایی‌محور."
+            }},
+            {"kind": "card", "id": "b14c1l2p3", "text": {
+              "en": "Slow growers are large, aging companies growing about as fast as the economy, utilities being typical. You own them mainly for the dividend, so Lynch kept few of them.",
+              "fa": "رشد کندها شرکت‌های بزرگ و پیری‌اند که تقریباً هم‌پای اقتصاد رشد می‌کنند، مثل شرکت‌های خدمات عمومی. آن‌ها را بیشتر برای سود تقسیمی نگه می‌داری، پس Lynch تعداد کمی از آن‌ها داشت."
+            }},
+            {"kind": "check", "id": "b14c1l2k1", "type": "tap", "source": "b14c1l2p2",
+              "prompt": {"en": "Which are Lynch's six stock categories?", "fa": "شش دستهٔ سهام Lynch کدام‌اند؟"},
+              "options": [
+                {"en": "Slow growers, stalwarts, fast growers, cyclicals, turnarounds and asset plays", "fa": "رشد کند، استوارها، رشد سریع، چرخه‌ای، بازگشتی و دارایی‌محور"},
+                {"en": "Tech, finance, energy, health, retail and utilities", "fa": "فناوری، مالی، انرژی، سلامت، خرده‌فروشی و خدمات عمومی"},
+                {"en": "Penny, blue chip, dividend, growth, value and momentum", "fa": "پنی، بلوچیپ، سود تقسیمی، رشدی، ارزشی و مومنتوم"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l2p4", "text": {
+              "en": "Stalwarts are big, solid companies such as Coca-Cola, Procter & Gamble and Bristol-Myers, growing about 10 to 12 percent a year. They will not make you rich fast, but they cushion you in recessions.",
+              "fa": "استوارها شرکت‌های بزرگ و محکمی مثل Coca-Cola، Procter & Gamble و Bristol-Myers هستند که سالانه حدود ۱۰ تا ۱۲ درصد رشد می‌کنند. سریع ثروتمندت نمی‌کنند، اما در رکود از تو محافظت می‌کنند."
+            }},
+            {"kind": "card", "id": "b14c1l2p5", "text": {
+              "en": "With a stalwart, Lynch is content with a 30 to 50 percent gain. Then he sells and repeats the process with another stalwart that has not yet risen.",
+              "fa": "Lynch در یک سهم استوار به سود ۳۰ تا ۵۰ درصدی راضی است. بعد می‌فروشد و همین کار را با استوار دیگری که هنوز بالا نرفته تکرار می‌کند."
+            }},
+            {"kind": "check", "id": "b14c1l2k2", "type": "tf", "source": "b14c1l2p4",
+              "prompt": {"en": "Lynch expects stalwarts to make you rich fast.", "fa": "Lynch انتظار دارد استوارها سریع ثروتمندت کنند."},
+              "answer": false},
+            {"kind": "card", "id": "b14c1l2p6", "text": {
+              "en": "Fast growers are small, aggressive new companies growing 20 to 25 percent a year. This is where the tenbaggers are, and also the biggest risk if growth stalls or the company overexpands.",
+              "fa": "رشد سریع‌ها شرکت‌های کوچک، تهاجمی و تازه‌ای‌اند که سالانه ۲۰ تا ۲۵ درصد رشد می‌کنند. tenbaggerها اینجا هستند، و بزرگ‌ترین ریسک هم اگر رشد متوقف شود یا شرکت بیش از حد گسترش یابد."
+            }},
+            {"kind": "card", "id": "b14c1l2p7", "text": {
+              "en": "Cyclicals such as autos, airlines, steel and chemicals rise and fall with the economy. Timing is everything: they can look cheapest on a low PE just as profits peak.",
+              "fa": "چرخه‌ای‌ها مثل خودروسازی، هواپیمایی، فولاد و مواد شیمیایی با اقتصاد بالا و پایین می‌روند. زمان‌بندی همه‌چیز است: درست وقتی سودشان به اوج می‌رسد، با PE پایین ارزان‌ترین به نظر می‌آیند."
+            }},
+            {"kind": "card", "id": "b14c1l2p8", "text": {
+              "en": "Turnarounds are battered, depressed companies that might recover, like Chrysler in the early 1980s. When they succeed they come back fast, and they move least with the general market.",
+              "fa": "بازگشتی‌ها شرکت‌های ضربه‌خورده و افسرده‌ای‌اند که شاید احیا شوند، مثل Chrysler در اوایل دههٔ ۱۹۸۰. وقتی موفق شوند سریع برمی‌گردند، و کمتر از همه با بازار کلی حرکت می‌کنند."
+            }},
+            {"kind": "check", "id": "b14c1l2k3", "type": "tap", "source": "b14c1l2p6",
+              "prompt": {"en": "In which category does Lynch say the tenbaggers are?", "fa": "Lynch می‌گوید tenbaggerها در کدام دسته‌اند؟"},
+              "options": [
+                {"en": "Fast growers", "fa": "رشد سریع"},
+                {"en": "Slow growers", "fa": "رشد کند"},
+                {"en": "Stalwarts", "fa": "استوارها"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l2p9", "text": {
+              "en": "Asset plays sit on something valuable that Wall Street has overlooked: cash, real estate, timber or oil. Local knowledge, such as land a company owns in your town, is often the edge here.",
+              "fa": "دارایی‌محورها روی چیز باارزشی نشسته‌اند که Wall Street نادیده گرفته: پول نقد، املاک، چوب یا نفت. دانش محلی، مثل زمینی که یک شرکت در شهر تو دارد، اغلب مزیت اینجاست."
+            }},
+            {"kind": "card", "id": "b14c1l2p10", "text": {
+              "en": "Companies do not stay in one category forever. A fast grower can slow into a stalwart, and a fallen stalwart can become a turnaround.",
+              "fa": "شرکت‌ها برای همیشه در یک دسته نمی‌مانند. یک رشد سریع می‌تواند کند شود و استوار شود، و یک استوار سقوط‌کرده می‌تواند بازگشتی شود."
+            }},
+            {"kind": "check", "id": "b14c1l2k4", "type": "tf", "source": "b14c1l2p10",
+              "prompt": {"en": "Lynch says a company stays in the same category for its whole life.", "fa": "Lynch می‌گوید یک شرکت تمام عمرش در یک دسته می‌ماند."},
+              "answer": false},
+            {"kind": "card", "id": "b14c1l2p11", "text": {
+              "en": "Each category needs its own plan: do not expect a tenbagger from a utility or sleep through a cyclical's whole cycle. Name the category before you buy, so you know when to sell.",
+              "fa": "هر دسته برنامهٔ خودش را می‌خواهد: از یک شرکت خدمات عمومی tenbagger انتظار نداشته باش و در تمام چرخهٔ یک سهم چرخه‌ای خواب نمان. پیش از خرید دسته را نام ببر تا بدانی کی بفروشی."
+            }},
+            {"kind": "card", "id": "b14c1l2p12", "text": {
+              "en": "Your 80 percent index core, such as VWCE, already holds all six kinds. If you add a satellite stock, write its category in your decision journal with what you expect it to do.",
+              "fa": "هستهٔ ۸۰ درصدی شاخصی تو، مثل VWCE، از قبل هر شش نوع را دارد. اگر یک سهم ماهواره‌ای اضافه کردی، دسته‌اش و انتظاری را که از آن داری در دفتر تصمیمت بنویس."
+            }},
+            {"kind": "check", "id": "b14c1l2k5", "type": "tap", "source": "b14c1l2p11",
+              "prompt": {"en": "Why name a stock's category before you buy?", "fa": "چرا پیش از خرید باید دستهٔ سهم را نام ببری؟"},
+              "options": [
+                {"en": "So you know when to sell", "fa": "تا بدانی کی بفروشی"},
+                {"en": "So your broker charges a lower fee", "fa": "تا کارگزارت کارمزد کمتری بگیرد"},
+                {"en": "So you can skip the annual report", "fa": "تا بتوانی گزارش سالانه را نخوانی"}
+              ],
+              "answer": 0}
+          ]
+        },
+        {
+          "id": "b14c1l3",
+          "title": {"en": "The two-minute drill and your homework", "fa": "تمرین دو دقیقه‌ای و تحقیق تو"},
+          "minutes": 12,
+          "items": [
+            {"kind": "card", "id": "b14c1l3p1", "frame": true, "text": {
+              "en": "This Lesson distils chapters 8 to 17: the perfect stock, the two-minute drill and the homework before buying. It matters because your edge only pays once you check the facts.",
+              "fa": "این درس فصل‌های ۸ تا ۱۷ را خلاصه می‌کند: سهم بی‌نقص، تمرین دو دقیقه‌ای و تحقیق پیش از خرید. مهم است چون مزیت تو فقط وقتی سود می‌دهد که واقعیت‌ها را بررسی کنی."
+            }},
+            {"kind": "card", "id": "b14c1l3p2", "text": {
+              "en": "Lynch's perfect stock is dull: a boring name, a dull or disagreeable business, a no-growth industry, ignored by institutions and analysts. Bonus if insiders are buying or the company buys back shares.",
+              "fa": "سهم بی‌نقص Lynch کسل‌کننده است: اسم خسته‌کننده، کسب‌وکار کسل‌کننده یا ناخوشایند، صنعتی بدون رشد، نادیده‌گرفته‌شده از سوی نهادها و تحلیلگران. چه بهتر اگر مدیران داخلی بخرند یا شرکت سهامش را بازخرید کند."
+            }},
+            {"kind": "card", "id": "b14c1l3p3", "text": {
+              "en": "Before buying, give the two-minute drill: why you want the stock, what has to happen for it to succeed and what could go wrong. Never invest in an idea you cannot illustrate with a crayon.",
+              "fa": "پیش از خرید، تمرین دو دقیقه‌ای را انجام بده: چرا سهم را می‌خواهی، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود. هرگز روی ایده‌ای سرمایه‌گذاری نکن که نتوانی با مدادشمعی نقاشی‌اش کنی."
+            }},
+            {"kind": "check", "id": "b14c1l3k1", "type": "tap", "source": "b14c1l3p3",
+              "prompt": {"en": "What goes into the two-minute drill?", "fa": "چه چیزی در تمرین دو دقیقه‌ای می‌آید؟"},
+              "options": [
+                {"en": "Why you want the stock, what has to happen for it to succeed and what could go wrong", "fa": "چرا سهم را می‌خواهی، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود"},
+                {"en": "The stock's price history and chart pattern", "fa": "تاریخچهٔ قیمت سهم و الگوی نمودارش"},
+                {"en": "What your colleagues think of the company", "fa": "نظر همکارانت دربارهٔ شرکت"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l3p4", "text": {
+              "en": "The drill changes by category: for a fast grower, where it can keep expanding; for a turnaround, how it will fix its problems; for a cyclical, where we are in the cycle.",
+              "fa": "این تمرین بسته به دسته فرق می‌کند: برای رشد سریع، کجا می‌تواند به گسترش ادامه دهد؛ برای بازگشتی، چطور مشکلاتش را حل می‌کند؛ برای چرخه‌ای، کجای چرخه هستیم."
+            }},
+            {"kind": "card", "id": "b14c1l3p5", "text": {
+              "en": "Get the facts from the source: read the annual report, call the company's investor relations and visit the stores. Lynch called companies constantly and found they were glad to answer.",
+              "fa": "واقعیت‌ها را از منبع بگیر: گزارش سالانه را بخوان، با روابط سرمایه‌گذاران شرکت تماس بگیر و به فروشگاه‌ها سر بزن. Lynch مدام با شرکت‌ها تماس می‌گرفت و می‌دید با کمال میل جواب می‌دهند."
+            }},
+            {"kind": "check", "id": "b14c1l3k2", "type": "tf", "source": "b14c1l3p5",
+              "prompt": {"en": "Lynch says the company itself is a poor source of facts, so rely on tips instead.", "fa": "Lynch می‌گوید خود شرکت منبع ضعیفی برای واقعیت‌هاست، پس به توصیه‌ها تکیه کن."},
+              "answer": false},
+            {"kind": "card", "id": "b14c1l3p6", "text": {
+              "en": "Check a few famous numbers: how much of sales the product you like makes up, the PE ratio, cash, debt, dividends, book value and inventories.",
+              "fa": "چند عدد معروف را بررسی کن: محصولی که دوستش داری چه سهمی از فروش است، نسبت PE، پول نقد، بدهی، سود تقسیمی، ارزش دفتری و موجودی انبار."
+            }},
+            {"kind": "card", "id": "b14c1l3p7", "text": {
+              "en": "Earnings drive prices in the long run, and a fair PE is about equal to the earnings growth rate. A PE of half the growth rate looks cheap; twice it looks expensive.",
+              "fa": "در بلندمدت سود است که قیمت را می‌سازد، و PE منصفانه تقریباً برابر نرخ رشد سود است. PE نصف نرخ رشد ارزان به نظر می‌آید؛ دو برابر آن گران."
+            }},
+            {"kind": "card", "id": "b14c1l3p8", "text": {
+              "en": "The balance sheet matters: a company with more cash than debt can ride out a slump, while heavy bank debt can sink a turnaround.",
+              "fa": "ترازنامه مهم است: شرکتی که پول نقدش از بدهی‌اش بیشتر است می‌تواند از رکود عبور کند، در حالی که بدهی سنگین بانکی می‌تواند یک بازگشتی را غرق کند."
+            }},
+            {"kind": "check", "id": "b14c1l3k3", "type": "tap", "source": "b14c1l3p7",
+              "prompt": {"en": "Which PE ratio does Lynch call fair?", "fa": "Lynch کدام نسبت PE را منصفانه می‌داند؟"},
+              "options": [
+                {"en": "About equal to the earnings growth rate", "fa": "تقریباً برابر نرخ رشد سود"},
+                {"en": "Always below 5, whatever the growth", "fa": "همیشه زیر ۵، رشد هر چه باشد"},
+                {"en": "Double the market's average PE", "fa": "دو برابر PE میانگین بازار"}
+              ],
+              "answer": 0},
+            {"kind": "card", "id": "b14c1l3p9", "text": {
+              "en": "Avoid the hottest stock in the hottest industry, the so-called next IBM, whisper stocks and companies that diworseify into businesses they do not understand.",
+              "fa": "از داغ‌ترین سهم در داغ‌ترین صنعت، از به‌اصطلاح IBM بعدی، از سهام شایعه‌ای و از شرکت‌هایی که با diworseification وارد کسب‌وکارهایی می‌شوند که نمی‌فهمند دوری کن."
+            }},
+            {"kind": "card", "id": "b14c1l3p10", "text": {
+              "en": "Every few months, recheck the story: are earnings still growing, are the stores still busy, has the category changed? Sell when the story ends, not just because the price dips.",
+              "fa": "هر چند ماه یک بار داستان را دوباره بررسی کن: آیا سود هنوز رشد می‌کند، فروشگاه‌ها هنوز شلوغ‌اند، دسته عوض شده؟ وقتی داستان تمام شد بفروش، نه فقط چون قیمت افت کرده."
+            }},
+            {"kind": "check", "id": "b14c1l3k4", "type": "tf", "source": "b14c1l3p9",
+              "prompt": {"en": "Lynch avoids companies that diworseify into businesses they do not understand.", "fa": "Lynch از شرکت‌هایی که با diworseification وارد کسب‌وکارهای ناآشنا می‌شوند دوری می‌کند."},
+              "answer": true},
+            {"kind": "card", "id": "b14c1l3p11", "text": {
+              "en": "Selling your winners and keeping your losers is, in Lynch's words, cutting the flowers and watering the weeds.",
+              "fa": "فروختن برنده‌ها و نگه داشتن بازنده‌ها، به تعبیر Lynch، یعنی چیدن گل‌ها و آب دادن به علف‌های هرز."
+            }},
+            {"kind": "card", "id": "b14c1l3p12", "text": {
+              "en": "Before any satellite buy, write the two-minute drill in your decision journal and reread it each quarter with your net-worth log. Being early to AI hype is not an edge; the homework is.",
+              "fa": "پیش از هر خرید ماهواره‌ای، تمرین دو دقیقه‌ای را در دفتر تصمیمت بنویس و هر فصل همراه گزارش دارایی خالص دوباره بخوانش. زود رسیدن به هیاهوی AI مزیت نیست؛ تحقیق مزیت است."
+            }},
+            {"kind": "check", "id": "b14c1l3k5", "type": "tap", "source": "b14c1l3p11",
+              "prompt": {"en": "What does Lynch call selling your winners and keeping your losers?", "fa": "Lynch فروختن برنده‌ها و نگه داشتن بازنده‌ها را چه می‌نامد؟"},
+              "options": [
+                {"en": "Cutting the flowers and watering the weeds", "fa": "چیدن گل‌ها و آب دادن به علف‌های هرز"},
+                {"en": "Diworseification", "fa": "diworseification"},
+                {"en": "The cocktail party theory", "fa": "نظریهٔ مهمانی کوکتل"}
+              ],
+              "answer": 0}
+          ]
+        }
+      ]
+    }
+  ]
+}

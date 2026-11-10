@@ -1,0 +1,1681 @@
+{
+ "id": "b11",
+ "title": "The Little Book of Valuation",
+ "author": {
+  "en": "Aswath Damodaran",
+  "fa": "Aswath Damodaran"
+ },
+ "year": 2011,
+ "stage": 3,
+ "must": true,
+ "why": {
+  "en": "DCF and valuation without heavy maths",
+  "fa": "DCF و ارزش‌گذاری بدون ریاضی سنگین"
+ },
+ "badge": {
+  "en": "Price Is Not Value",
+  "fa": "قیمت، ارزش نیست"
+ },
+ "tier": "mid",
+ "circles": [
+  {
+   "id": "b11c1",
+   "title": {
+    "en": "Intrinsic value: what the cash flows are worth",
+    "fa": "ارزش ذاتی: جریان‌های نقدی چقدر می‌ارزند"
+   },
+   "lessons": [
+    {
+     "id": "b11c1l1",
+     "title": {
+      "en": "Price, value and three truths",
+      "fa": "قیمت، ارزش و سه حقیقت"
+     },
+     "minutes": 11,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c1l1p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils chapter 1, Value: More Than a Number. It matters because before you sign for startup shares or buy an ETF, you need to tell what you pay from what you get.",
+        "fa": "این درس فصل ۱ کتاب، Value: More Than a Number، را خلاصه می‌کند. مهم است چون پیش از امضای سهام استارتاپ یا خرید یک ETF باید بتوانی آنچه می‌پردازی را از آنچه به دست می‌آوری جدا کنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p2",
+       "text": {
+        "en": "Damodaran starts from one distinction: price is what you pay, value is what the business is worth. The market sets price today; value comes from the cash flows the business can produce.",
+        "fa": "Damodaran از یک تمایز شروع می‌کند: قیمت چیزی است که می‌پردازی، ارزش چیزی است که کسب‌وکار می‌ارزد. بازار امروز قیمت را تعیین می‌کند؛ ارزش از جریان‌های نقدی‌ای می‌آید که کسب‌وکار می‌تواند تولید کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p3",
+       "text": {
+        "en": "He opens with three truths about valuation: all valuations are biased, most valuations are wrong, and simpler is usually better.",
+        "fa": "او با سه حقیقت دربارهٔ ارزش‌گذاری شروع می‌کند: همهٔ ارزش‌گذاری‌ها سوگیری دارند، بیشترشان اشتباه‌اند، و ساده‌تر معمولاً بهتر است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k1",
+       "type": "tap",
+       "source": "b11c1l1p3",
+       "prompt": {
+        "en": "Which is one of Damodaran's three truths about valuation?",
+        "fa": "کدام یکی از سه حقیقت Damodaran دربارهٔ ارزش‌گذاری است؟"
+       },
+       "options": [
+        {
+         "en": "All valuations are biased",
+         "fa": "همهٔ ارزش‌گذاری‌ها سوگیری دارند"
+        },
+        {
+         "en": "A careful model removes all bias",
+         "fa": "یک مدل دقیق همهٔ سوگیری‌ها را حذف می‌کند"
+        },
+        {
+         "en": "More detail always means more accuracy",
+         "fa": "جزئیات بیشتر همیشه یعنی دقت بیشتر"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p4",
+       "text": {
+        "en": "Bias enters before the first number: what you already believe about the company and who is paying for the valuation. Admit it up front and keep it in check.",
+        "fa": "سوگیری پیش از اولین عدد وارد می‌شود: آنچه از قبل دربارهٔ شرکت باور داری و اینکه چه کسی پول ارزش‌گذاری را می‌دهد. از همان ابتدا آن را بپذیر و مهارش کن."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p5",
+       "text": {
+        "en": "Most valuations are wrong because the future is uncertain: estimation error, surprises at the company and shocks in the wider economy. A valuation is a best estimate, not a precise answer.",
+        "fa": "بیشتر ارزش‌گذاری‌ها اشتباه‌اند چون آینده نامطمئن است: خطای برآورد، غافلگیری‌های خود شرکت و شوک‌های اقتصاد کلان. ارزش‌گذاری بهترین برآورد است، نه پاسخی دقیق."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k2",
+       "type": "tf",
+       "source": "b11c1l1p5",
+       "prompt": {
+        "en": "Damodaran says a precise valuation is possible if you gather enough data.",
+        "fa": "Damodaran می‌گوید اگر دادهٔ کافی جمع کنی، ارزش‌گذاری دقیق ممکن است."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p6",
+       "text": {
+        "en": "Simpler is better: every extra input feels rigorous but adds room for error. A model with a few well-chosen inputs usually beats a giant spreadsheet.",
+        "fa": "ساده‌تر بهتر است: هر ورودی اضافه حس دقت می‌دهد اما جای خطا را بیشتر می‌کند. مدلی با چند ورودی خوب‌انتخاب‌شده معمولاً از یک spreadsheet غول‌پیکر بهتر است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p7",
+       "text": {
+        "en": "Damodaran names three ways to value anything: intrinsic valuation from cash flows, relative valuation from the prices of similar assets, and option pricing for contingent payoffs.",
+        "fa": "Damodaran سه راه برای ارزش‌گذاری هر چیزی نام می‌برد: ارزش‌گذاری ذاتی از جریان‌های نقدی، ارزش‌گذاری نسبی از قیمت دارایی‌های مشابه، و option pricing برای بازده‌های مشروط."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k3",
+       "type": "tap",
+       "source": "b11c1l1p7",
+       "prompt": {
+        "en": "Which are Damodaran's three approaches to valuation?",
+        "fa": "سه رویکرد Damodaran به ارزش‌گذاری کدام‌اند؟"
+       },
+       "options": [
+        {
+         "en": "Intrinsic, relative and option pricing",
+         "fa": "ذاتی، نسبی و option pricing"
+        },
+        {
+         "en": "Technical, fundamental and momentum",
+         "fa": "تکنیکال، بنیادی و مومنتوم"
+        },
+        {
+         "en": "Book value, liquidation and replacement cost",
+         "fa": "ارزش دفتری، ارزش تصفیه و هزینهٔ جایگزینی"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p8",
+       "text": {
+        "en": "Intrinsic and relative valuation answer different questions, so both can be right at once. A stock can be cheap against its peers while the whole sector is overvalued on its cash flows.",
+        "fa": "ارزش‌گذاری ذاتی و نسبی به پرسش‌های متفاوتی پاسخ می‌دهند، پس هر دو می‌توانند هم‌زمان درست باشند. یک سهم می‌تواند نسبت به همتایانش ارزان باشد در حالی که کل صنعت بر پایهٔ جریان نقدی‌اش گران است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p9",
+       "text": {
+        "en": "Valuation is not only for analysts. Founders setting a funding price, employees offered options and index investors all lean on someone's estimate of value.",
+        "fa": "ارزش‌گذاری فقط کار تحلیلگران نیست. بنیان‌گذاری که قیمت جذب سرمایه را تعیین می‌کند، کارمندی که option به او پیشنهاد شده و سرمایه‌گذار شاخصی، همه به برآورد کسی از ارزش تکیه می‌کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k4",
+       "type": "tf",
+       "source": "b11c1l1p8",
+       "prompt": {
+        "en": "A stock that is cheap against its peers must also be cheap on its cash flows.",
+        "fa": "سهمی که نسبت به همتایانش ارزان است، حتماً بر پایهٔ جریان نقدی‌اش هم ارزان است."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p10",
+       "text": {
+        "en": "Applied: when a founder offers you shares at a stated valuation, ask whose number it is and why. Then write your own rough estimate before you trust theirs.",
+        "fa": "کاربردی: وقتی بنیان‌گذاری سهام را با یک ارزش‌گذاری اعلام‌شده پیشنهاد می‌کند، بپرس این عدد مال کیست و چرا. سپس پیش از اعتماد به عدد او، برآورد تقریبی خودت را بنویس."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p11",
+       "text": {
+        "en": "Applied: in your decision journal, note your biases before you value anything. Write what you already believe and the answer you hope for.",
+        "fa": "کاربردی: در دفترچهٔ تصمیم‌هایت، پیش از ارزش‌گذاری هر چیزی سوگیری‌هایت را یادداشت کن. بنویس از قبل چه باور داری و به چه پاسخی امید داری."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k5",
+       "type": "tap",
+       "source": "b11c1l1p11",
+       "prompt": {
+        "en": "What should you write in your decision journal before valuing something?",
+        "fa": "پیش از ارزش‌گذاری چیزی، در دفترچهٔ تصمیم‌هایت چه باید بنویسی؟"
+       },
+       "options": [
+        {
+         "en": "Your biases and the answer you hope for",
+         "fa": "سوگیری‌هایت و پاسخی که به آن امید داری"
+        },
+        {
+         "en": "Only the current market price",
+         "fa": "فقط قیمت فعلی بازار"
+        },
+        {
+         "en": "The target price from a broker",
+         "fa": "قیمت هدف یک کارگزار"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b11c1l2",
+     "title": {
+      "en": "Power tools: time and risk",
+      "fa": "ابزارهای قدرتمند: زمان و ریسک"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c1l2p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils chapter 2, Power Tools of the Trade. It matters because every DCF, every ETF return and every startup offer rests on the time value of money and the price of risk.",
+        "fa": "این درس فصل ۲، Power Tools of the Trade، را خلاصه می‌کند. مهم است چون هر DCF، هر بازده ETF و هر پیشنهاد استارتاپی بر ارزش زمانی پول و قیمت ریسک استوار است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p2",
+       "text": {
+        "en": "A euro today is worth more than a euro next year: people prefer spending now, inflation erodes money, and a future payment may never arrive. This is the time value of money.",
+        "fa": "یک یورو امروز بیش از یک یورو سال بعد می‌ارزد: آدم‌ها خرج کردن در حال را ترجیح می‌دهند، تورم پول را می‌خورد، و پرداخت آینده شاید هرگز نرسد. این ارزش زمانی پول است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p3",
+       "text": {
+        "en": "Discounting brings a future cash flow back to today: divide it by one plus the discount rate, once for every year you wait. The higher the rate or the longer the wait, the lower the present value.",
+        "fa": "تنزیل یک جریان نقدی آینده را به امروز برمی‌گرداند: آن را بر یک به‌علاوهٔ نرخ تنزیل تقسیم کن، یک بار برای هر سال انتظار. هرچه نرخ بالاتر یا انتظار طولانی‌تر، ارزش فعلی کمتر."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k1",
+       "type": "tf",
+       "source": "b11c1l2p3",
+       "prompt": {
+        "en": "A higher discount rate raises the present value of a future cash flow.",
+        "fa": "نرخ تنزیل بالاتر ارزش فعلی یک جریان نقدی آینده را بالا می‌برد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p4",
+       "text": {
+        "en": "Damodaran sorts cash flows into simple ones, annuities, growing annuities and perpetuities. A growing perpetuity is worth next year's cash flow divided by the discount rate minus the growth rate.",
+        "fa": "Damodaran جریان‌های نقدی را به ساده، annuity، annuity رو به رشد و perpetuity تقسیم می‌کند. یک perpetuity رو به رشد برابر است با جریان نقدی سال بعد تقسیم بر نرخ تنزیل منهای نرخ رشد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p5",
+       "text": {
+        "en": "That growing perpetuity formula only works when growth stays below the discount rate. It becomes the engine of terminal value later in the book.",
+        "fa": "فرمول perpetuity رو به رشد فقط وقتی کار می‌کند که رشد زیر نرخ تنزیل بماند. همین فرمول بعدتر در کتاب موتور ارزش پایانی (terminal value) می‌شود."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k2",
+       "type": "tap",
+       "source": "b11c1l2p4",
+       "prompt": {
+        "en": "How do you value a growing perpetuity?",
+        "fa": "یک perpetuity رو به رشد را چطور ارزش‌گذاری می‌کنی؟"
+       },
+       "options": [
+        {
+         "en": "Next year's cash flow divided by the discount rate minus the growth rate",
+         "fa": "جریان نقدی سال بعد تقسیم بر نرخ تنزیل منهای نرخ رشد"
+        },
+        {
+         "en": "This year's revenue times the growth rate",
+         "fa": "درآمد امسال ضرب در نرخ رشد"
+        },
+        {
+         "en": "The sum of all past dividends",
+         "fa": "جمع همهٔ سودهای تقسیمی گذشته"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p6",
+       "text": {
+        "en": "Risk enters through the discount rate. Riskier cash flows are discounted at a higher rate, so the same promised euro is worth less today.",
+        "fa": "ریسک از راه نرخ تنزیل وارد می‌شود. جریان‌های نقدی پرریسک‌تر با نرخ بالاتری تنزیل می‌شوند، پس همان یورویی که وعده داده شده امروز کمتر می‌ارزد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p7",
+       "text": {
+        "en": "The cost of equity starts with a risk-free rate, the yield on a default-free government bond in the same currency, then adds a premium for the risk of investing in stocks.",
+        "fa": "هزینهٔ حقوق صاحبان سهام از نرخ بدون ریسک شروع می‌شود، یعنی بازده اوراق دولتی بدون نکول به همان ارز، و سپس صرفی برای ریسک سرمایه‌گذاری در سهام به آن اضافه می‌شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p8",
+       "text": {
+        "en": "Beta measures how much a stock moves with the market, its exposure to risk that diversification cannot remove. Cost of equity is the risk-free rate plus beta times the equity risk premium.",
+        "fa": "Beta می‌سنجد یک سهم چقدر همراه بازار حرکت می‌کند، یعنی در معرض ریسکی است که تنوع‌بخشی حذفش نمی‌کند. هزینهٔ حقوق صاحبان سهام برابر نرخ بدون ریسک به‌علاوهٔ Beta ضرب در صرف ریسک سهام است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k3",
+       "type": "tap",
+       "source": "b11c1l2p8",
+       "prompt": {
+        "en": "What does beta measure?",
+        "fa": "Beta چه چیزی را می‌سنجد؟"
+       },
+       "options": [
+        {
+         "en": "How much a stock moves with the market",
+         "fa": "اینکه یک سهم چقدر همراه بازار حرکت می‌کند"
+        },
+        {
+         "en": "How profitable the company is",
+         "fa": "اینکه شرکت چقدر سودآور است"
+        },
+        {
+         "en": "How many shares trade each day",
+         "fa": "اینکه روزانه چند سهم معامله می‌شود"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p9",
+       "text": {
+        "en": "Lenders price risk too: the cost of debt is the risk-free rate plus a default spread. The cost of capital weights the costs of equity and debt by how much of each the firm uses.",
+        "fa": "وام‌دهندگان هم ریسک را قیمت می‌گذارند: هزینهٔ بدهی برابر نرخ بدون ریسک به‌علاوهٔ اسپرد نکول است. هزینهٔ سرمایه، هزینهٔ سهام و بدهی را به نسبت سهم هرکدام در تأمین مالی شرکت وزن می‌دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p10",
+       "text": {
+        "en": "Damodaran also reviews accounting basics: the balance sheet shows assets and claims on them, the income statement shows profit, and the cash flow statement shows where the cash went.",
+        "fa": "Damodaran مبانی حسابداری را هم مرور می‌کند: ترازنامه دارایی‌ها و ادعاها بر آن‌ها را نشان می‌دهد، صورت سود و زیان سود را، و صورت جریان وجوه نقد اینکه پول نقد کجا رفت."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k4",
+       "type": "tf",
+       "source": "b11c1l2p9",
+       "prompt": {
+        "en": "The cost of capital blends the cost of equity and the cost of debt.",
+        "fa": "هزینهٔ سرمایه ترکیبی از هزینهٔ حقوق صاحبان سهام و هزینهٔ بدهی است."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p11",
+       "text": {
+        "en": "Simple statistics help as well: averages, medians and spread describe a group of companies, and regressions show how one number moves with another.",
+        "fa": "آمار ساده هم کمک می‌کند: میانگین، میانه و پراکندگی گروهی از شرکت‌ها را توصیف می‌کنند، و رگرسیون نشان می‌دهد یک عدد چطور همراه عدد دیگر حرکت می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p12",
+       "text": {
+        "en": "Applied: your €40k in an index ETF and your shares in a startup face the same two tools. The startup's riskier cash flows deserve a much higher discount rate.",
+        "fa": "کاربردی: ۴۰ هزار یوروی تو در یک ETF شاخصی و سهامت در یک استارتاپ با همین دو ابزار سنجیده می‌شوند. جریان‌های نقدی پرریسک‌تر استارتاپ نرخ تنزیل بسیار بالاتری می‌طلبد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k5",
+       "type": "tap",
+       "source": "b11c1l2p12",
+       "prompt": {
+        "en": "Why should startup shares get a higher discount rate than an index ETF?",
+        "fa": "چرا سهام استارتاپ باید نرخ تنزیل بالاتری از یک ETF شاخصی بگیرد؟"
+       },
+       "options": [
+        {
+         "en": "The startup's cash flows are riskier",
+         "fa": "جریان‌های نقدی استارتاپ پرریسک‌ترند"
+        },
+        {
+         "en": "Startups pay higher dividends",
+         "fa": "استارتاپ‌ها سود تقسیمی بیشتری می‌دهند"
+        },
+        {
+         "en": "ETFs are always taxed more heavily",
+         "fa": "ETFها همیشه مالیات سنگین‌تری دارند"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b11c1l3",
+     "title": {
+      "en": "Cash flows and the cost of growth",
+      "fa": "جریان نقدی و هزینهٔ رشد"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c1l3p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils chapter 3, Yes, Virginia, Every Asset Has an Intrinsic Value. It matters because cash flow and growth decide what your equity and your own product are worth.",
+        "fa": "این درس فصل ۳، Yes, Virginia, Every Asset Has an Intrinsic Value، را خلاصه می‌کند. مهم است چون جریان نقدی و رشد تعیین می‌کنند سهام تو و محصول خودت چقدر می‌ارزند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p2",
+       "text": {
+        "en": "Intrinsic value is the present value of the expected cash flows of an asset, discounted at a rate that reflects their risk.",
+        "fa": "ارزش ذاتی، ارزش فعلی جریان‌های نقدی مورد انتظار یک دارایی است که با نرخی متناسب با ریسکشان تنزیل شده‌اند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p3",
+       "text": {
+        "en": "A DCF needs four inputs: cash flows from existing assets, expected growth from new investments, a discount rate for risk, and the point when the firm settles into stable growth.",
+        "fa": "یک DCF چهار ورودی می‌خواهد: جریان نقدی دارایی‌های موجود، رشد مورد انتظار از سرمایه‌گذاری‌های جدید، نرخ تنزیل برای ریسک، و نقطه‌ای که شرکت به رشد پایدار می‌رسد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k1",
+       "type": "tap",
+       "source": "b11c1l3p3",
+       "prompt": {
+        "en": "What are the four inputs of a DCF, according to Damodaran?",
+        "fa": "به گفتهٔ Damodaran، چهار ورودی یک DCF چیست؟"
+       },
+       "options": [
+        {
+         "en": "Cash flows, expected growth, a discount rate and stable growth",
+         "fa": "جریان نقدی، رشد مورد انتظار، نرخ تنزیل و رشد پایدار"
+        },
+        {
+         "en": "Revenue, headcount, market share and brand",
+         "fa": "درآمد، تعداد کارکنان، سهم بازار و برند"
+        },
+        {
+         "en": "Book value, dividends, share price and trading volume",
+         "fa": "ارزش دفتری، سود تقسیمی، قیمت سهم و حجم معاملات"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p4",
+       "text": {
+        "en": "You can value the whole business or only its equity. Free cash flow to the firm is what is left before debt payments; free cash flow to equity is what is left after them.",
+        "fa": "می‌توانی کل کسب‌وکار یا فقط حقوق صاحبان سهام را ارزش‌گذاری کنی. جریان نقدی آزاد شرکت (FCFF) چیزی است که پیش از پرداخت بدهی می‌ماند؛ جریان نقدی آزاد سهام (FCFE) آن است که پس از آن می‌ماند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p5",
+       "text": {
+        "en": "Match cash flows to the rate: discount cash flow to the firm at the cost of capital, and cash flow to equity at the cost of equity. Mixing them gives a wrong value.",
+        "fa": "جریان نقدی را با نرخ جفت کن: جریان نقدی شرکت را با هزینهٔ سرمایه تنزیل کن و جریان نقدی سهام را با هزینهٔ حقوق صاحبان سهام. قاطی کردنشان ارزش اشتباه می‌دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k2",
+       "type": "tf",
+       "source": "b11c1l3p5",
+       "prompt": {
+        "en": "Damodaran says you should discount free cash flow to equity at the cost of capital.",
+        "fa": "Damodaran می‌گوید جریان نقدی آزاد سهام را باید با هزینهٔ سرمایه تنزیل کرد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p6",
+       "text": {
+        "en": "Free cash flow to the firm starts with after-tax operating income, then subtracts net capital expenditure and the increase in working capital.",
+        "fa": "جریان نقدی آزاد شرکت از سود عملیاتی پس از مالیات شروع می‌شود، سپس مخارج سرمایه‌ای خالص و افزایش سرمایهٔ در گردش از آن کم می‌شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p7",
+       "text": {
+        "en": "Reinvestment is the price of growth: a firm that ploughs earnings back into new assets pays out less today in the hope of more tomorrow.",
+        "fa": "سرمایه‌گذاری مجدد بهای رشد است: شرکتی که سودش را دوباره در دارایی‌های جدید می‌گذارد امروز کمتر توزیع می‌کند به امید بیشتر در فردا."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p8",
+       "text": {
+        "en": "Damodaran ties growth to fundamentals: expected growth equals the reinvestment rate times the return on capital. Growth comes from how much a firm reinvests and how well.",
+        "fa": "Damodaran رشد را به بنیادها گره می‌زند: رشد مورد انتظار برابر نرخ سرمایه‌گذاری مجدد ضرب در بازده سرمایه است. رشد از این می‌آید که شرکت چقدر و چقدر خوب دوباره سرمایه‌گذاری می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k3",
+       "type": "tap",
+       "source": "b11c1l3p8",
+       "prompt": {
+        "en": "Where does expected growth come from, in Damodaran's fundamentals view?",
+        "fa": "در نگاه بنیادی Damodaran، رشد مورد انتظار از کجا می‌آید؟"
+       },
+       "options": [
+        {
+         "en": "Reinvestment rate times return on capital",
+         "fa": "نرخ سرمایه‌گذاری مجدد ضرب در بازده سرمایه"
+        },
+        {
+         "en": "Last year's change in the share price",
+         "fa": "تغییر قیمت سهم در سال گذشته"
+        },
+        {
+         "en": "The number of new employees hired",
+         "fa": "تعداد کارمندان تازه استخدام‌شده"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p9",
+       "text": {
+        "en": "Growth is not free. If the return on capital is below the cost of capital, faster growth destroys value instead of creating it.",
+        "fa": "رشد مجانی نیست. اگر بازده سرمایه زیر هزینهٔ سرمایه باشد، رشد سریع‌تر به جای خلق ارزش آن را نابود می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p10",
+       "text": {
+        "en": "Historical growth and analyst forecasts are useful inputs, but they are noisy. The fundamental growth equation keeps your growth story tied to what the firm actually invests.",
+        "fa": "رشد تاریخی و پیش‌بینی تحلیلگران ورودی‌های مفیدی‌اند، اما پرنوسان‌اند. معادلهٔ بنیادی رشد داستان رشد تو را به آنچه شرکت واقعاً سرمایه‌گذاری می‌کند گره می‌زند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k4",
+       "type": "tf",
+       "source": "b11c1l3p9",
+       "prompt": {
+        "en": "According to Damodaran, growth always adds value to a company.",
+        "fa": "به گفتهٔ Damodaran، رشد همیشه به ارزش شرکت اضافه می‌کند."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p11",
+       "text": {
+        "en": "Applied: for your small AI product, the cash flow is what is left after costs, taxes and reinvestment. Revenue alone tells you little about value.",
+        "fa": "کاربردی: برای محصول کوچک AI خودت، جریان نقدی چیزی است که پس از هزینه‌ها، مالیات و سرمایه‌گذاری مجدد می‌ماند. درآمد به‌تنهایی چیز زیادی دربارهٔ ارزش نمی‌گوید."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p12",
+       "text": {
+        "en": "Applied: if your AI product earns a return above your cost of capital, reinvesting in it grows value. If its return falls below that cost, growth destroys value.",
+        "fa": "کاربردی: اگر محصول AI تو بازدهی بالاتر از هزینهٔ سرمایه‌ات دارد، سرمایه‌گذاری مجدد در آن ارزش را بالا می‌برد. اگر بازدهش زیر آن هزینه باشد، رشد ارزش را نابود می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k5",
+       "type": "tap",
+       "source": "b11c1l3p12",
+       "prompt": {
+        "en": "When does reinvesting in your product grow value?",
+        "fa": "سرمایه‌گذاری مجدد در محصولت کی ارزش را بالا می‌برد؟"
+       },
+       "options": [
+        {
+         "en": "If its return is above your cost of capital",
+         "fa": "اگر بازدهش بالاتر از هزینهٔ سرمایه‌ات باشد"
+        },
+        {
+         "en": "Whenever revenue is growing",
+         "fa": "هر وقت درآمد در حال رشد است"
+        },
+        {
+         "en": "Only after it has paid back the first year",
+         "fa": "فقط پس از آنکه هزینهٔ سال اول را برگرداند"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b11c1l4",
+     "title": {
+      "en": "Terminal value and closing the deal",
+      "fa": "ارزش پایانی و جمع‌بندی ارزش‌گذاری"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c1l4p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the end of chapter 3: terminal value and the path from business value to value per share. It matters because terminal value is often most of a DCF, and of a startup's worth.",
+        "fa": "این درس پایان فصل ۳ را خلاصه می‌کند: ارزش پایانی و مسیر از ارزش کسب‌وکار تا ارزش هر سهم. مهم است چون ارزش پایانی اغلب بیشتر یک DCF و بیشتر ارزش یک استارتاپ را می‌سازد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p2",
+       "text": {
+        "en": "You cannot forecast cash flows forever, so a DCF stops after a few years and puts a terminal value on everything beyond. That one number often carries most of the total value.",
+        "fa": "نمی‌توانی جریان نقدی را تا ابد پیش‌بینی کنی، پس DCF پس از چند سال متوقف می‌شود و برای همهٔ سال‌های بعد یک ارزش پایانی می‌گذارد. همین یک عدد اغلب بیشتر ارزش کل را حمل می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p3",
+       "text": {
+        "en": "Damodaran's preferred terminal value assumes the firm grows at a stable rate forever, valued with the growing perpetuity formula.",
+        "fa": "ارزش پایانی مورد نظر Damodaran فرض می‌کند شرکت تا ابد با نرخی پایدار رشد می‌کند و با فرمول perpetuity رو به رشد ارزش‌گذاری می‌شود."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k1",
+       "type": "tf",
+       "source": "b11c1l4p2",
+       "prompt": {
+        "en": "Terminal value is usually a small part of a DCF.",
+        "fa": "ارزش پایانی معمولاً بخش کوچکی از یک DCF است."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p4",
+       "text": {
+        "en": "No firm can grow faster than the economy forever, or it would become the economy. So the stable growth rate should not exceed the risk-free rate, a proxy for the economy's nominal growth.",
+        "fa": "هیچ شرکتی نمی‌تواند تا ابد سریع‌تر از اقتصاد رشد کند، وگرنه خودش اقتصاد می‌شد. پس نرخ رشد پایدار نباید از نرخ بدون ریسک، که جانشین رشد اسمی اقتصاد است، بیشتر شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p5",
+       "text": {
+        "en": "A firm in stable growth must still reinvest to grow. Its reinvestment rate equals the stable growth rate divided by its return on capital.",
+        "fa": "شرکتی که در رشد پایدار است هنوز برای رشد باید سرمایه‌گذاری مجدد کند. نرخ سرمایه‌گذاری مجددش برابر نرخ رشد پایدار تقسیم بر بازده سرمایه است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k2",
+       "type": "tap",
+       "source": "b11c1l4p4",
+       "prompt": {
+        "en": "What caps the stable growth rate in a terminal value?",
+        "fa": "چه چیزی سقف نرخ رشد پایدار در ارزش پایانی است؟"
+       },
+       "options": [
+        {
+         "en": "The growth rate of the economy",
+         "fa": "نرخ رشد اقتصاد"
+        },
+        {
+         "en": "The firm's growth over the past five years",
+         "fa": "رشد شرکت در پنج سال گذشته"
+        },
+        {
+         "en": "The target set by management",
+         "fa": "هدفی که مدیریت تعیین کرده"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p6",
+       "text": {
+        "en": "Stable growth also brings a stable risk profile: as firms mature, their betas drift toward one and their cost of capital toward the market average.",
+        "fa": "رشد پایدار نیمرخ ریسک پایدار هم می‌آورد: وقتی شرکت‌ها بالغ می‌شوند، Beta آن‌ها به سمت یک و هزینهٔ سرمایه‌شان به سمت میانگین بازار می‌رود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p7",
+       "text": {
+        "en": "Discount the forecast cash flows and the terminal value back to today and add them up. That gives the value of the operating assets.",
+        "fa": "جریان‌های نقدی پیش‌بینی‌شده و ارزش پایانی را به امروز تنزیل و جمع کن. این ارزش دارایی‌های عملیاتی را می‌دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p8",
+       "text": {
+        "en": "Closing the deal runs in order: value the operating assets, add cash and holdings in other companies, subtract debt, then divide the equity by the shares outstanding.",
+        "fa": "جمع‌بندی به این ترتیب است: دارایی‌های عملیاتی را ارزش‌گذاری کن، پول نقد و سهام در شرکت‌های دیگر را اضافه کن، بدهی را کم کن، سپس ارزش سهام را بر تعداد سهام منتشرشده تقسیم کن."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k3",
+       "type": "order",
+       "source": "b11c1l4p8",
+       "prompt": {
+        "en": "Put the steps of closing the deal in order",
+        "fa": "مراحل جمع‌بندی ارزش‌گذاری را مرتب کن"
+       },
+       "options": [
+        {
+         "en": "Subtract debt",
+         "fa": "بدهی را کم کن"
+        },
+        {
+         "en": "Value the operating assets",
+         "fa": "دارایی‌های عملیاتی را ارزش‌گذاری کن"
+        },
+        {
+         "en": "Divide the equity by the shares outstanding",
+         "fa": "ارزش سهام را بر تعداد سهام منتشرشده تقسیم کن"
+        },
+        {
+         "en": "Add cash and holdings in other companies",
+         "fa": "پول نقد و سهام در شرکت‌های دیگر را اضافه کن"
+        }
+       ],
+       "answer": [
+        1,
+        3,
+        0,
+        2
+       ]
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p9",
+       "text": {
+        "en": "Employee stock options are a claim on equity too. Value them and subtract them before dividing by the share count, or the value per share is overstated.",
+        "fa": "اختیار خرید سهام کارکنان هم ادعایی بر حقوق صاحبان سهام است. پیش از تقسیم بر تعداد سهام، ارزششان را حساب و کم کن، وگرنه ارزش هر سهم بیش از واقع نشان داده می‌شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p10",
+       "text": {
+        "en": "The result is a best estimate. Change the growth, margin and discount rate inputs to see which ones move the value most, and focus your research there.",
+        "fa": "نتیجه بهترین برآورد است. ورودی‌های رشد، حاشیهٔ سود و نرخ تنزیل را تغییر بده تا ببینی کدام بیشترین اثر را بر ارزش دارند، و تحقیقت را روی همان‌ها متمرکز کن."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k4",
+       "type": "tf",
+       "source": "b11c1l4p9",
+       "prompt": {
+        "en": "Employee stock options should be subtracted before you compute value per share.",
+        "fa": "اختیار خرید سهام کارکنان باید پیش از محاسبهٔ ارزش هر سهم کم شود."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p11",
+       "text": {
+        "en": "Applied: for startup shares, the cap table plays the role of shares outstanding. Options, preferred shares and later rounds all claim a slice before you count your common shares.",
+        "fa": "کاربردی: برای سهام استارتاپ، cap table نقش تعداد سهام منتشرشده را بازی می‌کند. option، سهام ممتاز و دورهای بعدی همه پیش از سهام عادی تو سهمی می‌برند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p12",
+       "text": {
+        "en": "Applied: the same logic sits under VWCE. Its price reflects the market's estimate of cash flows from thousands of firms, and their long-run growth cannot outrun the economy.",
+        "fa": "کاربردی: همین منطق زیر VWCE هم هست. قیمتش برآورد بازار از جریان نقدی هزاران شرکت را نشان می‌دهد، و رشد بلندمدت آن‌ها نمی‌تواند از اقتصاد جلو بزند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k5",
+       "type": "tap",
+       "source": "b11c1l4p11",
+       "prompt": {
+        "en": "What plays the role of shares outstanding when you value startup shares?",
+        "fa": "وقتی سهام استارتاپ را ارزش‌گذاری می‌کنی، چه چیزی نقش تعداد سهام منتشرشده را دارد؟"
+       },
+       "options": [
+        {
+         "en": "The cap table",
+         "fa": "cap table"
+        },
+        {
+         "en": "The price of the last funding round",
+         "fa": "قیمت آخرین دور جذب سرمایه"
+        },
+        {
+         "en": "The founder's salary",
+         "fa": "حقوق بنیان‌گذار"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b11c2",
+   "title": {
+    "en": "Multiples, startups and the story behind the numbers",
+    "fa": "ضرایب، استارتاپ‌ها و داستان پشت اعداد"
+   },
+   "lessons": [
+    {
+     "id": "b11c2l1",
+     "title": {
+      "en": "It's all relative: using multiples",
+      "fa": "همه‌چیز نسبی است: کاربرد ضرایب"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c2l1p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils chapter 4, It's All Relative. It matters because most startup rounds and most stock tips are priced with multiples, not with cash flows.",
+        "fa": "این درس فصل ۴، It's All Relative، را خلاصه می‌کند. مهم است چون بیشتر دورهای جذب سرمایهٔ استارتاپ و بیشتر توصیه‌های سهام با ضرایب قیمت‌گذاری می‌شوند، نه با جریان نقدی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p2",
+       "text": {
+        "en": "Most valuations in practice are relative: an asset is priced by looking at what the market pays for similar assets. Estate agents do it with houses, analysts with stocks.",
+        "fa": "بیشتر ارزش‌گذاری‌ها در عمل نسبی‌اند: یک دارایی با نگاه به اینکه بازار برای دارایی‌های مشابه چقدر می‌پردازد قیمت‌گذاری می‌شود. مشاوران املاک این کار را با خانه می‌کنند، تحلیلگران با سهام."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p3",
+       "text": {
+        "en": "Relative valuation has three steps: find comparable assets priced by the market, standardize their prices into a multiple, then adjust for differences between the firms.",
+        "fa": "ارزش‌گذاری نسبی سه مرحله دارد: دارایی‌های قابل‌مقایسه‌ای که بازار قیمت‌شان را تعیین کرده پیدا کن، قیمتشان را به یک ضریب استاندارد کن، سپس تفاوت‌های میان شرکت‌ها را تعدیل کن."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k1",
+       "type": "order",
+       "source": "b11c2l1p3",
+       "prompt": {
+        "en": "Put the steps of relative valuation in order",
+        "fa": "مراحل ارزش‌گذاری نسبی را مرتب کن"
+       },
+       "options": [
+        {
+         "en": "Adjust for differences between the firms",
+         "fa": "تفاوت‌های میان شرکت‌ها را تعدیل کن"
+        },
+        {
+         "en": "Find comparable assets",
+         "fa": "دارایی‌های قابل‌مقایسه را پیدا کن"
+        },
+        {
+         "en": "Standardize their prices into a multiple",
+         "fa": "قیمتشان را به یک ضریب استاندارد کن"
+        }
+       ],
+       "answer": [
+        1,
+        2,
+        0
+       ]
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p4",
+       "text": {
+        "en": "Prices must be standardized because share counts differ. A multiple scales price by something the firm produces: earnings, book value, revenue or a sector measure such as subscribers.",
+        "fa": "قیمت‌ها باید استاندارد شوند چون تعداد سهام شرکت‌ها فرق دارد. ضریب، قیمت را به چیزی که شرکت تولید می‌کند مقیاس می‌دهد: سود، ارزش دفتری، درآمد یا معیاری خاص صنعت مثل تعداد مشترکان."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p5",
+       "text": {
+        "en": "Earnings multiples include price to earnings, PE, and enterprise value to EBITDA. Book value multiples compare price to book, and revenue multiples compare value to sales.",
+        "fa": "ضرایب سود شامل قیمت به سود (PE) و ارزش شرکت به EBITDA هستند. ضرایب ارزش دفتری قیمت را با ارزش دفتری مقایسه می‌کنند و ضرایب درآمد ارزش را با فروش."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k2",
+       "type": "tap",
+       "source": "b11c2l1p4",
+       "prompt": {
+        "en": "Why are prices turned into multiples?",
+        "fa": "چرا قیمت‌ها به ضریب تبدیل می‌شوند؟"
+       },
+       "options": [
+        {
+         "en": "Because share counts differ",
+         "fa": "چون تعداد سهام شرکت‌ها فرق دارد"
+        },
+        {
+         "en": "Because multiples are always lower than prices",
+         "fa": "چون ضرایب همیشه از قیمت کمترند"
+        },
+        {
+         "en": "Because regulators require it",
+         "fa": "چون نهاد ناظر آن را الزامی کرده"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p6",
+       "text": {
+        "en": "Damodaran gives four tests for using a multiple: define it consistently, describe its distribution, analyze what drives it, and apply it to well-chosen comparables.",
+        "fa": "Damodaran برای کاربرد یک ضریب چهار آزمون می‌دهد: آن را سازگار تعریف کن، توزیعش را توصیف کن، عوامل محرکش را تحلیل کن، و آن را روی شرکت‌های قابل‌مقایسهٔ خوب‌انتخاب‌شده به کار ببر."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p7",
+       "text": {
+        "en": "Define: the numerator and denominator must match. Equity value goes with earnings to equity, like PE; enterprise value goes with operating measures, like EBITDA or sales.",
+        "fa": "تعریف: صورت و مخرج باید با هم جور باشند. ارزش سهام با سود سهام‌داران جفت می‌شود، مثل PE؛ ارزش شرکت با معیارهای عملیاتی، مثل EBITDA یا فروش."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k3",
+       "type": "tf",
+       "source": "b11c2l1p7",
+       "prompt": {
+        "en": "Pairing enterprise value with earnings to equity gives a consistent multiple.",
+        "fa": "جفت کردن ارزش شرکت با سود سهام‌داران یک ضریب سازگار می‌دهد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p8",
+       "text": {
+        "en": "Describe: look at how the multiple is spread across the sector. Averages get pulled up by outliers, so the median is often the better guide.",
+        "fa": "توصیف: ببین ضریب در کل صنعت چطور پخش شده است. داده‌های پرت میانگین را بالا می‌کشند، پس میانه اغلب راهنمای بهتری است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p9",
+       "text": {
+        "en": "Analyze: every multiple hides the same fundamentals as a DCF. PE rises with growth and falls with risk; price to book rises with return on equity; value to sales rises with margins.",
+        "fa": "تحلیل: هر ضریب همان بنیادهای یک DCF را پنهان دارد. PE با رشد بالا و با ریسک پایین می‌رود؛ قیمت به ارزش دفتری با بازده حقوق صاحبان سهام بالا می‌رود؛ ارزش به فروش با حاشیهٔ سود."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k4",
+       "type": "tap",
+       "source": "b11c2l1p9",
+       "prompt": {
+        "en": "Holding risk equal, what tends to raise a firm's PE?",
+        "fa": "با ثابت ماندن ریسک، چه چیزی PE یک شرکت را بالا می‌برد؟"
+       },
+       "options": [
+        {
+         "en": "Growth",
+         "fa": "رشد"
+        },
+        {
+         "en": "A higher share count",
+         "fa": "تعداد سهام بیشتر"
+        },
+        {
+         "en": "A change of auditor",
+         "fa": "تغییر حسابرس"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p10",
+       "text": {
+        "en": "Apply: comparable firms should share cash flow, growth and risk features, not just an industry label. Then control for the differences that remain.",
+        "fa": "کاربرد: شرکت‌های قابل‌مقایسه باید در جریان نقدی، رشد و ریسک شبیه باشند، نه فقط در برچسب صنعت. سپس تفاوت‌های باقی‌مانده را کنترل کن."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p11",
+       "text": {
+        "en": "Applied: a startup priced at 20 times revenue only looks cheap next to peers at 30 times if its growth, margins and risk are similar.",
+        "fa": "کاربردی: استارتاپی که ۲۰ برابر درآمد قیمت خورده، فقط وقتی کنار همتایان ۳۰ برابری ارزان است که رشد، حاشیهٔ سود و ریسکش مشابه باشد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p12",
+       "text": {
+        "en": "Applied: before you accept a revenue multiple in a term sheet, list the comparables used and ask how each differs in growth and risk.",
+        "fa": "کاربردی: پیش از پذیرفتن یک ضریب درآمد در term sheet، شرکت‌های قابل‌مقایسهٔ به‌کاررفته را فهرست کن و بپرس هرکدام در رشد و ریسک چه فرقی دارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k5",
+       "type": "tf",
+       "source": "b11c2l1p10",
+       "prompt": {
+        "en": "Two firms in the same industry are automatically good comparables.",
+        "fa": "دو شرکت در یک صنعت خودبه‌خود شرکت‌های قابل‌مقایسهٔ خوبی‌اند."
+       },
+       "answer": false
+      }
+     ]
+    },
+    {
+     "id": "b11c2l2",
+     "title": {
+      "en": "The traps in multiples",
+      "fa": "دام‌های ضرایب"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c2l2p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the warnings in chapter 4 about misusing multiples. It matters because a cheap-looking multiple can hide a weak business, and a hot sector can make every comparable too dear.",
+        "fa": "این درس هشدارهای فصل ۴ دربارهٔ سوءاستفاده از ضرایب را خلاصه می‌کند. مهم است چون ضریبی که ارزان به نظر می‌رسد می‌تواند کسب‌وکاری ضعیف را پنهان کند، و صنعتی داغ می‌تواند همهٔ مقایسه‌ها را گران کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p2",
+       "text": {
+        "en": "Multiples are easy to use and easy to misuse. Their simplicity hides assumptions about growth, risk and cash flows that a DCF forces you to write down.",
+        "fa": "ضرایب آسان به کار می‌روند و آسان هم سوءاستفاده می‌شوند. سادگی‌شان فرض‌هایی دربارهٔ رشد، ریسک و جریان نقدی را پنهان می‌کند که DCF وادارت می‌کند بنویسی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p3",
+       "text": {
+        "en": "The first trap is the sector itself: relative valuation tells you whether a stock is cheap against its peers, not whether the peers are fairly priced.",
+        "fa": "دام اول خود صنعت است: ارزش‌گذاری نسبی می‌گوید یک سهم نسبت به همتایانش ارزان است یا نه، نه اینکه خود همتایان منصفانه قیمت خورده‌اند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k1",
+       "type": "tf",
+       "source": "b11c2l2p3",
+       "prompt": {
+        "en": "Relative valuation can tell you whether a whole sector is overpriced.",
+        "fa": "ارزش‌گذاری نسبی می‌تواند بگوید کل یک صنعت گران‌قیمت است یا نه."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p4",
+       "text": {
+        "en": "The second trap is inconsistency: comparing a PE built on this year's earnings with one built on next year's, or mixing enterprise value with equity earnings.",
+        "fa": "دام دوم ناسازگاری است: مقایسهٔ PE بر پایهٔ سود امسال با PE بر پایهٔ سود سال بعد، یا قاطی کردن ارزش شرکت با سود سهام‌داران."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p5",
+       "text": {
+        "en": "The third trap is cherry-picking comparables. With enough choice, a biased analyst can find a peer group that justifies almost any price.",
+        "fa": "دام سوم دست‌چین کردن شرکت‌های قابل‌مقایسه است. با انتخاب کافی، یک تحلیلگر سوگیر می‌تواند گروه همتایی پیدا کند که تقریباً هر قیمتی را توجیه کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k2",
+       "type": "tap",
+       "source": "b11c2l2p5",
+       "prompt": {
+        "en": "Why is cherry-picking comparables a trap?",
+        "fa": "چرا دست‌چین کردن شرکت‌های قابل‌مقایسه یک دام است؟"
+       },
+       "options": [
+        {
+         "en": "A biased analyst can justify almost any price",
+         "fa": "یک تحلیلگر سوگیر می‌تواند تقریباً هر قیمتی را توجیه کند"
+        },
+        {
+         "en": "Comparables are always too expensive",
+         "fa": "شرکت‌های قابل‌مقایسه همیشه بیش از حد گران‌اند"
+        },
+        {
+         "en": "Multiples ignore earnings entirely",
+         "fa": "ضرایب سود را کاملاً نادیده می‌گیرند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p6",
+       "text": {
+        "en": "The fourth trap is a multiple that is low for a reason. A firm at a low PE may have low growth, high risk or poor returns, so it is not a bargain at all.",
+        "fa": "دام چهارم ضریبی است که به دلیلی پایین است. شرکتی با PE پایین ممکن است رشد کم، ریسک بالا یا بازده ضعیف داشته باشد، پس اصلاً فرصت خرید نیست."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p7",
+       "text": {
+        "en": "Damodaran's cure is the companion variable: the fundamental that best explains a multiple, such as growth for PE or operating margin for value to sales.",
+        "fa": "درمان Damodaran متغیر همراه (companion variable) است: بنیادی که یک ضریب را بهتر از همه توضیح می‌دهد، مثل رشد برای PE یا حاشیهٔ سود عملیاتی برای ارزش به فروش."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p8",
+       "text": {
+        "en": "Then look for mismatches: a low PE with high growth, or a low price to book with a high return on equity. Those are the candidates worth a closer look.",
+        "fa": "سپس دنبال ناهمخوانی بگرد: PE پایین با رشد بالا، یا قیمت به ارزش دفتری پایین با بازده حقوق صاحبان سهام بالا. این‌ها گزینه‌هایی‌اند که ارزش نگاه دقیق‌تر دارند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k3",
+       "type": "tap",
+       "source": "b11c2l2p8",
+       "prompt": {
+        "en": "Which pairing flags a possible bargain?",
+        "fa": "کدام ترکیب نشانهٔ یک فرصت خرید احتمالی است؟"
+       },
+       "options": [
+        {
+         "en": "A low PE with high growth",
+         "fa": "PE پایین با رشد بالا"
+        },
+        {
+         "en": "A high PE with low growth",
+         "fa": "PE بالا با رشد پایین"
+        },
+        {
+         "en": "A low PE with high risk",
+         "fa": "PE پایین با ریسک بالا"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p9",
+       "text": {
+        "en": "When firms differ on several fundamentals at once, a regression of the multiple against growth, risk and payout across the sector can control for all of them.",
+        "fa": "وقتی شرکت‌ها هم‌زمان در چند بنیاد با هم فرق دارند، رگرسیون ضریب در برابر رشد، ریسک و نسبت تقسیم سود در کل صنعت می‌تواند همهٔ آن‌ها را کنترل کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p10",
+       "text": {
+        "en": "Intrinsic and relative valuation answer different questions. When they disagree, the gap itself is information: either the stock or its whole group may be mispriced.",
+        "fa": "ارزش‌گذاری ذاتی و نسبی به پرسش‌های متفاوتی پاسخ می‌دهند. وقتی با هم نمی‌خوانند، خود این شکاف اطلاعات است: یا سهم یا کل گروهش ممکن است اشتباه قیمت خورده باشد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k4",
+       "type": "tf",
+       "source": "b11c2l2p9",
+       "prompt": {
+        "en": "A regression across a sector can control for several differences between firms at once.",
+        "fa": "رگرسیون در کل یک صنعت می‌تواند چند تفاوت میان شرکت‌ها را هم‌زمان کنترل کند."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p11",
+       "text": {
+        "en": "Applied: if a startup is priced off peers in a hot AI market, both the peers and the startup may be overvalued. A simple DCF shows what the price assumes.",
+        "fa": "کاربردی: اگر استارتاپی بر پایهٔ همتایانش در بازار داغ AI قیمت خورده، هم همتایان و هم خود استارتاپ ممکن است گران باشند. یک DCF ساده نشان می‌دهد این قیمت چه فرضی دارد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p12",
+       "text": {
+        "en": "Applied: in your decision journal, record the multiple, its companion variable and the comparables you used. Review them a year later to see where you were wrong.",
+        "fa": "کاربردی: در دفترچهٔ تصمیم‌هایت ضریب، متغیر همراهش و شرکت‌های قابل‌مقایسه‌ای را که به کار بردی ثبت کن. یک سال بعد مرورشان کن تا ببینی کجا اشتباه کردی."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k5",
+       "type": "tap",
+       "source": "b11c2l2p6",
+       "prompt": {
+        "en": "Why is a low PE not automatically a bargain?",
+        "fa": "چرا PE پایین خودبه‌خود فرصت خرید نیست؟"
+       },
+       "options": [
+        {
+         "en": "The firm may have low growth, high risk or poor returns",
+         "fa": "شرکت ممکن است رشد کم، ریسک بالا یا بازده ضعیف داشته باشد"
+        },
+        {
+         "en": "PE ratios are always out of date",
+         "fa": "نسبت‌های PE همیشه قدیمی‌اند"
+        },
+        {
+         "en": "Low PEs only occur in banks",
+         "fa": "PE پایین فقط در بانک‌ها دیده می‌شود"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b11c2l3",
+     "title": {
+      "en": "Young growth companies and startups",
+      "fa": "شرکت‌های جوان رشدی و استارتاپ‌ها"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c2l3p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils chapter 5 on young growth companies and the life-cycle view of Part 2. It matters because your startup equity and your own AI product are exactly this kind of asset.",
+        "fa": "این درس فصل ۵ دربارهٔ شرکت‌های جوان رشدی و نگاه چرخهٔ عمر بخش ۲ را خلاصه می‌کند. مهم است چون سهام استارتاپی تو و محصول AI خودت دقیقاً همین نوع دارایی‌اند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p2",
+       "text": {
+        "en": "Damodaran's life cycle: young firms are valued mostly on growth assets, mature firms on existing assets, and declining firms on what they can return or salvage.",
+        "fa": "چرخهٔ عمر Damodaran: شرکت‌های جوان بیشتر بر پایهٔ دارایی‌های رشد ارزش‌گذاری می‌شوند، شرکت‌های بالغ بر پایهٔ دارایی‌های موجود، و شرکت‌های رو به افول بر پایهٔ آنچه می‌توانند برگردانند یا نجات دهند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p3",
+       "text": {
+        "en": "Young companies are the hardest to value: little or no revenue, operating losses, a short history, and a reliance on private equity or venture capital to survive.",
+        "fa": "شرکت‌های جوان سخت‌ترین‌ها برای ارزش‌گذاری‌اند: درآمد کم یا صفر، زیان عملیاتی، سابقهٔ کوتاه، و وابستگی به private equity یا venture capital برای بقا."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k1",
+       "type": "tap",
+       "source": "b11c2l3p3",
+       "prompt": {
+        "en": "Why are young companies the hardest to value?",
+        "fa": "چرا ارزش‌گذاری شرکت‌های جوان از همه سخت‌تر است؟"
+       },
+       "options": [
+        {
+         "en": "Little revenue, operating losses and a short history",
+         "fa": "درآمد کم، زیان عملیاتی و سابقهٔ کوتاه"
+        },
+        {
+         "en": "Their accounts are audited too often",
+         "fa": "حساب‌هایشان بیش از حد حسابرسی می‌شود"
+        },
+        {
+         "en": "They pay out large dividends",
+         "fa": "سود تقسیمی زیادی می‌دهند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p4",
+       "text": {
+        "en": "Many young firms do not survive. Damodaran says to estimate the chance of failure explicitly instead of hiding it inside a sky-high discount rate.",
+        "fa": "بسیاری از شرکت‌های جوان دوام نمی‌آورند. Damodaran می‌گوید احتمال شکست را صریحاً برآورد کن، نه اینکه آن را در یک نرخ تنزیل سر به فلک کشیده پنهان کنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p5",
+       "text": {
+        "en": "Venture capitalists often use a shortcut: estimate a value at exit with a multiple, then discount it back at a high target rate that bundles risk and the chance of failure.",
+        "fa": "سرمایه‌گذاران خطرپذیر اغلب از میان‌بُر استفاده می‌کنند: ارزش هنگام خروج را با یک ضریب برآورد می‌کنند، سپس آن را با نرخ هدف بالایی که ریسک و احتمال شکست را یکجا دارد تنزیل می‌کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k2",
+       "type": "tf",
+       "source": "b11c2l3p4",
+       "prompt": {
+        "en": "Damodaran recommends folding the chance of failure into a very high discount rate.",
+        "fa": "Damodaran توصیه می‌کند احتمال شکست را در یک نرخ تنزیل بسیار بالا بگنجانی."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p6",
+       "text": {
+        "en": "For an intrinsic value, start from the top: size the total market, estimate the share the firm can win, then the operating margin it can reach once mature.",
+        "fa": "برای ارزش ذاتی از بالا شروع کن: اندازهٔ کل بازار را تعیین کن، سهمی را که شرکت می‌تواند ببرد برآورد کن، سپس حاشیهٔ سود عملیاتی‌ای را که در بلوغ می‌تواند برسد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p7",
+       "text": {
+        "en": "Next, estimate the reinvestment needed to get there, using the sales generated per euro of capital. Growth without reinvestment is a story without a plan.",
+        "fa": "سپس سرمایه‌گذاری مجدد لازم برای رسیدن به آنجا را با فروش حاصل از هر یورو سرمایه برآورد کن. رشد بدون سرمایه‌گذاری مجدد داستانی بدون برنامه است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p8",
+       "text": {
+        "en": "Discount those cash flows, adjust for the chance the firm fails, and subtract the claims of other equity holders such as options and preferred shares.",
+        "fa": "آن جریان‌های نقدی را تنزیل کن، برای احتمال شکست شرکت تعدیل کن، و ادعای دیگر صاحبان سهام مثل option و سهام ممتاز را کم کن."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k3",
+       "type": "order",
+       "source": "b11c2l3p6",
+       "prompt": {
+        "en": "Put the top-down steps in order",
+        "fa": "مراحل از بالا به پایین را مرتب کن"
+       },
+       "options": [
+        {
+         "en": "Estimate the operating margin it can reach",
+         "fa": "حاشیهٔ سود عملیاتی قابل دستیابی را برآورد کن"
+        },
+        {
+         "en": "Size the total market",
+         "fa": "اندازهٔ کل بازار را تعیین کن"
+        },
+        {
+         "en": "Estimate the share the firm can win",
+         "fa": "سهمی را که شرکت می‌تواند ببرد برآورد کن"
+        }
+       ],
+       "answer": [
+        1,
+        2,
+        0
+       ]
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p9",
+       "text": {
+        "en": "Relative valuation is hard for young firms because current earnings are negative. Analysts price on future revenue or earnings, then discount that forward value back to today.",
+        "fa": "ارزش‌گذاری نسبی برای شرکت‌های جوان سخت است چون سود فعلی منفی است. تحلیلگران بر پایهٔ درآمد یا سود آینده قیمت می‌گذارند، سپس آن ارزش آینده را به امروز تنزیل می‌کنند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p10",
+       "text": {
+        "en": "The value of a young firm rests on a few drivers: revenue growth, target margin, reinvestment and survival. Get those right and the small details matter little.",
+        "fa": "ارزش یک شرکت جوان بر چند محرک استوار است: رشد درآمد، حاشیهٔ سود هدف، سرمایه‌گذاری مجدد و بقا. این‌ها را درست بگیر، جزئیات کوچک اهمیت چندانی ندارند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k4",
+       "type": "tap",
+       "source": "b11c2l3p10",
+       "prompt": {
+        "en": "What drives most of a young firm's value?",
+        "fa": "بیشتر ارزش یک شرکت جوان را چه چیزی تعیین می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "Revenue growth, target margin, reinvestment and survival",
+         "fa": "رشد درآمد، حاشیهٔ سود هدف، سرمایه‌گذاری مجدد و بقا"
+        },
+        {
+         "en": "Office location, headcount and logo",
+         "fa": "محل دفتر، تعداد کارکنان و لوگو"
+        },
+        {
+         "en": "Last year's profit and dividend",
+         "fa": "سود و سود تقسیمی سال گذشته"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p11",
+       "text": {
+        "en": "Applied: before you join a startup for equity, write its revenue growth, target margin, reinvestment and odds of survival on one page.",
+        "fa": "کاربردی: پیش از پیوستن به یک استارتاپ در ازای سهام، رشد درآمد، حاشیهٔ سود هدف، سرمایه‌گذاری مجدد و احتمال بقایش را در یک صفحه بنویس."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p12",
+       "text": {
+        "en": "Applied: an option grant at a €10 million valuation is worth far less to you if the company has a high chance of failing and later rounds dilute your stake.",
+        "fa": "کاربردی: option‌ای که با ارزش‌گذاری ۱۰ میلیون یورویی گرفته‌ای، اگر شرکت احتمال شکست بالایی داشته باشد و دورهای بعدی سهمت را رقیق کنند، برایت خیلی کمتر می‌ارزد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k5",
+       "type": "tf",
+       "source": "b11c2l3p12",
+       "prompt": {
+        "en": "The chance of failure and later dilution lower what your startup equity is worth.",
+        "fa": "احتمال شکست و رقیق‌شدن بعدی ارزش سهام استارتاپی تو را پایین می‌آورند."
+       },
+       "answer": true
+      }
+     ]
+    },
+    {
+     "id": "b11c2l4",
+     "title": {
+      "en": "The story behind the numbers",
+      "fa": "داستان پشت اعداد"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c2l4p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the life-cycle chapters and the book's closing rules for the road. It matters because every number in a valuation is a claim about the business that you must defend.",
+        "fa": "این درس فصل‌های چرخهٔ عمر و قاعده‌های پایانی کتاب را خلاصه می‌کند. مهم است چون هر عدد در یک ارزش‌گذاری ادعایی دربارهٔ کسب‌وکار است و باید بتوانی از آن دفاع کنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p2",
+       "text": {
+        "en": "A valuation is a story told in numbers. High growth, high margins and little reinvestment rarely come together, so check that your inputs tell one consistent story.",
+        "fa": "ارزش‌گذاری داستانی است که با اعداد گفته می‌شود. رشد بالا، حاشیهٔ سود بالا و سرمایه‌گذاری مجدد اندک به‌ندرت با هم جمع می‌شوند، پس بررسی کن ورودی‌هایت یک داستان سازگار بگویند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p3",
+       "text": {
+        "en": "For growth companies, the key questions are how long high growth can last as the firm gets bigger, and how much reinvestment it will cost.",
+        "fa": "برای شرکت‌های رشدی، پرسش‌های کلیدی این‌اند که با بزرگ‌تر شدن شرکت رشد بالا تا کی دوام می‌آورد و چقدر سرمایه‌گذاری مجدد هزینه دارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k1",
+       "type": "tf",
+       "source": "b11c2l4p2",
+       "prompt": {
+        "en": "A valuation with high growth and almost no reinvestment is usually a consistent story.",
+        "fa": "ارزش‌گذاری با رشد بالا و تقریباً بدون سرمایه‌گذاری مجدد معمولاً داستانی سازگار است."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p4",
+       "text": {
+        "en": "Mature companies are valued mostly on existing assets, so the questions shift: could better management, a different debt mix or selling idle assets raise the value?",
+        "fa": "شرکت‌های بالغ بیشتر بر پایهٔ دارایی‌های موجود ارزش‌گذاری می‌شوند، پس پرسش‌ها عوض می‌شوند: آیا مدیریت بهتر، ترکیب بدهی متفاوت یا فروش دارایی‌های بلااستفاده ارزش را بالا می‌برد؟"
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p5",
+       "text": {
+        "en": "Declining companies may shrink rather than grow, and some face distress. Their value rests on the cash existing assets can still return and the chance of default.",
+        "fa": "شرکت‌های رو به افول شاید به جای رشد کوچک شوند و برخی در آستانهٔ ورشکستگی‌اند. ارزششان به نقدی بستگی دارد که دارایی‌های موجود هنوز برمی‌گردانند و به احتمال نکول."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k2",
+       "type": "tap",
+       "source": "b11c2l4p4",
+       "prompt": {
+        "en": "What can raise the value of a mature company?",
+        "fa": "چه چیزی می‌تواند ارزش یک شرکت بالغ را بالا ببرد؟"
+       },
+       "options": [
+        {
+         "en": "Better management, a different debt mix or selling idle assets",
+         "fa": "مدیریت بهتر، ترکیب بدهی متفاوت یا فروش دارایی‌های بلااستفاده"
+        },
+        {
+         "en": "Finding a bigger total market",
+         "fa": "پیدا کردن یک بازار کل بزرگ‌تر"
+        },
+        {
+         "en": "Raising a new venture capital round",
+         "fa": "جذب یک دور تازهٔ venture capital"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p6",
+       "text": {
+        "en": "Some firms bend the usual rules: banks, where debt is raw material; cyclical and commodity firms, whose earnings swing; and firms built on intangibles such as brands or R&D.",
+        "fa": "برخی شرکت‌ها قواعد معمول را خم می‌کنند: بانک‌ها که بدهی برایشان مادهٔ خام است؛ شرکت‌های چرخه‌ای و کالایی که سودشان نوسان دارد؛ و شرکت‌هایی بر پایهٔ دارایی نامشهود مثل برند یا R&D."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p7",
+       "text": {
+        "en": "A rule for the road: less is more. Use the fewest inputs that capture the story, and resist detail that only adds noise.",
+        "fa": "یک قاعدهٔ راه: کمتر بیشتر است. کمترین ورودی‌هایی را به کار ببر که داستان را در بر می‌گیرند، و در برابر جزئیاتی که فقط نویز اضافه می‌کنند مقاومت کن."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p8",
+       "text": {
+        "en": "Other rules: growth is not free, risk affects value, and every valuation is uncertain. Accept that your estimate will be wrong, and keep it simple enough to update.",
+        "fa": "قاعده‌های دیگر: رشد مجانی نیست، ریسک بر ارزش اثر می‌گذارد، و هر ارزش‌گذاری نامطمئن است. بپذیر برآوردت اشتباه خواهد بود، و آن را آن‌قدر ساده نگه دار که بتوانی به‌روزش کنی."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k3",
+       "type": "tap",
+       "source": "b11c2l4p8",
+       "prompt": {
+        "en": "Which is one of Damodaran's rules for the road?",
+        "fa": "کدام یکی از قاعده‌های راه Damodaran است؟"
+       },
+       "options": [
+        {
+         "en": "Growth is not free",
+         "fa": "رشد مجانی نیست"
+        },
+        {
+         "en": "Precision beats simplicity",
+         "fa": "دقت بر سادگی برتری دارد"
+        },
+        {
+         "en": "Risk does not affect value",
+         "fa": "ریسک بر ارزش اثری ندارد"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p9",
+       "text": {
+        "en": "Valuations go stale as new information arrives about the firm, its sector and the economy. Revisit the inputs and let the value change.",
+        "fa": "ارزش‌گذاری‌ها با رسیدن اطلاعات تازه دربارهٔ شرکت، صنعتش و اقتصاد کهنه می‌شوند. ورودی‌ها را دوباره بررسی کن و بگذار ارزش تغییر کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p10",
+       "text": {
+        "en": "Price and value can stay apart for a long time. Acting on a gap takes patience and a reason to believe the price will move toward value.",
+        "fa": "قیمت و ارزش می‌توانند مدت‌ها از هم دور بمانند. عمل بر پایهٔ این شکاف صبر می‌خواهد و دلیلی برای باور به اینکه قیمت به سمت ارزش حرکت خواهد کرد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k4",
+       "type": "tf",
+       "source": "b11c2l4p9",
+       "prompt": {
+        "en": "A valuation stays valid once it is done, even as new information arrives.",
+        "fa": "یک ارزش‌گذاری وقتی انجام شد معتبر می‌ماند، حتی با رسیدن اطلاعات تازه."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p11",
+       "text": {
+        "en": "Applied: your 80 percent VWCE core accepts the market's price. The 20 percent satellite and your startup stake are where your own story and valuation must do the work.",
+        "fa": "کاربردی: هستهٔ ۸۰ درصدی VWCE تو قیمت بازار را می‌پذیرد. ۲۰ درصد satellite و سهم استارتاپی‌ات جایی است که داستان و ارزش‌گذاری خودت باید کار کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p12",
+       "text": {
+        "en": "Applied: each quarter, next to your net-worth log, write one line per holding: the story, the key number behind it, and whether it still holds.",
+        "fa": "کاربردی: هر فصل، کنار گزارش دارایی خالصت، برای هر دارایی یک خط بنویس: داستان، عدد کلیدی پشت آن، و اینکه هنوز برقرار است یا نه."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k5",
+       "type": "tap",
+       "source": "b11c2l4p11",
+       "prompt": {
+        "en": "In a core-satellite plan, where must your own story and valuation do the work?",
+        "fa": "در برنامهٔ core-satellite، داستان و ارزش‌گذاری خودت کجا باید کار کند؟"
+       },
+       "options": [
+        {
+         "en": "The satellite and your startup stake",
+         "fa": "بخش satellite و سهم استارتاپی‌ات"
+        },
+        {
+         "en": "The 80 percent index core",
+         "fa": "هستهٔ ۸۰ درصدی شاخصی"
+        },
+        {
+         "en": "Nowhere, since the market price is always right",
+         "fa": "هیچ‌جا، چون قیمت بازار همیشه درست است"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

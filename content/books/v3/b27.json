@@ -1,0 +1,647 @@
+{
+  "id": "b27",
+  "title": "High Output Management",
+  "author": {
+    "en": "Andrew S. Grove",
+    "fa": "Andrew S. Grove"
+  },
+  "year": 1983,
+  "stage": 6,
+  "must": false,
+  "why": {
+    "en": "From engineer to real manager",
+    "fa": "از مهندس به مدیر واقعی"
+  },
+  "badge": {
+    "en": "Managerial Leverage",
+    "fa": "اهرم مدیریتی"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b27c1",
+      "title": {
+        "en": "The manager as a high-output factory",
+        "fa": "مدیر به‌مثابه کارخانه‌ای پرخروجی"
+      },
+      "lessons": [
+        {
+          "id": "b27c1l1",
+          "title": {
+            "en": "The breakfast factory: limiting steps and indicators",
+            "fa": "کارخانهٔ صبحانه: مرحلهٔ محدودکننده و شاخص‌ها"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b27c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Grove's opening chapters: the breakfast factory, the limiting step and indicators. It matters because your roadmap, from a first AI product to 25 times expenses, is a production line too.",
+                "fa": "این درس فصل‌های آغازین Grove را خلاصه می‌کند: کارخانهٔ صبحانه، مرحلهٔ محدودکننده و شاخص‌ها. مهم است چون نقشهٔ راهت، از اولین محصول AI تا ۲۵ برابر هزینه‌ها، خودش یک خط تولید است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p2",
+              "text": {
+                "en": "Grove, then president of Intel, teaches production with a simple breakfast: a three-minute soft-boiled egg, buttered toast and coffee, served together and hot.",
+                "fa": "Grove که آن زمان رئیس Intel بود، تولید را با یک صبحانهٔ ساده آموزش می‌دهد: تخم‌مرغ نیم‌بند سه‌دقیقه‌ای، نان تست کره‌ای و قهوه، همه با هم و داغ."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p3",
+              "text": {
+                "en": "The basic requirement of production is to deliver a product to a customer at the scheduled time, at acceptable quality, at the lowest possible cost.",
+                "fa": "نیاز پایه‌ای تولید این است که محصول را سر زمانِ برنامه‌ریزی‌شده، با کیفیت قابل‌قبول و با کمترین هزینهٔ ممکن به مشتری تحویل دهی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l1k1",
+              "type": "tap",
+              "source": "b27c1l1p3",
+              "prompt": {
+                "en": "What is the basic requirement of production?",
+                "fa": "نیاز پایه‌ای تولید چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Deliver at the scheduled time, acceptable quality, lowest possible cost",
+                  "fa": "تحویل سر زمانِ برنامه، با کیفیت قابل‌قبول و کمترین هزینهٔ ممکن"
+                },
+                {
+                  "en": "Make as many products as the machines allow",
+                  "fa": "ساختن هر تعداد محصولی که ماشین‌ها اجازه می‌دهند"
+                },
+                {
+                  "en": "Use the best ingredients whatever the price",
+                  "fa": "استفاده از بهترین مواد اولیه به هر قیمتی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p4",
+              "text": {
+                "en": "The egg takes longest to cook, so it is the limiting step. You start the egg first and time the toast and coffee around it, not the other way round.",
+                "fa": "پختن تخم‌مرغ از همه بیشتر طول می‌کشد، پس مرحلهٔ محدودکننده (limiting step) است. اول تخم‌مرغ را می‌گذاری و تست و قهوه را حول آن زمان‌بندی می‌کنی، نه برعکس."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p5",
+              "text": {
+                "en": "Grove sees three kinds of operations in any production: process manufacturing, assembly and test. In the kitchen: cooking, putting the tray together, and checking it before it leaves.",
+                "fa": "Grove در هر تولیدی سه نوع عملیات می‌بیند: ساخت فرایندی، مونتاژ و آزمون. در آشپزخانه یعنی پختن، چیدن سینی و وارسی آن پیش از بیرون رفتن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l1k2",
+              "type": "tf",
+              "source": "b27c1l1p4",
+              "prompt": {
+                "en": "In the breakfast factory, the toast is the limiting step.",
+                "fa": "در کارخانهٔ صبحانه، نان تست مرحلهٔ محدودکننده است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p6",
+              "text": {
+                "en": "Grove's key rule: detect and fix any problem at the lowest-value stage possible. A cracked egg caught at receiving costs one egg; caught on the plate it costs the whole breakfast.",
+                "fa": "قاعدهٔ کلیدی Grove: هر مشکلی را در کم‌ارزش‌ترین مرحلهٔ ممکن پیدا و رفع کن. تخم‌مرغ ترک‌خورده اگر هنگام تحویل گرفتن دیده شود یک تخم‌مرغ هزینه دارد؛ اگر در بشقاب دیده شود، کل صبحانه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p7",
+              "text": {
+                "en": "Inspection comes in two forms. A gate stops the work until it passes, while monitoring samples the work as it flows, which is cheaper once a process is reliable.",
+                "fa": "بازرسی دو شکل دارد. دروازه (gate) کار را تا قبولی متوقف می‌کند، اما پایش (monitoring) از کارِ در جریان نمونه می‌گیرد که وقتی فرایند قابل‌اعتماد شد ارزان‌تر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l1k3",
+              "type": "tap",
+              "source": "b27c1l1p6",
+              "prompt": {
+                "en": "Where should a problem be fixed, by Grove's rule?",
+                "fa": "طبق قاعدهٔ Grove، مشکل را کجا باید رفع کرد؟"
+              },
+              "options": [
+                {
+                  "en": "At the lowest-value stage possible",
+                  "fa": "در کم‌ارزش‌ترین مرحلهٔ ممکن"
+                },
+                {
+                  "en": "At the final test, where it is easiest to see",
+                  "fa": "در آزمون نهایی، جایی که دیدنش آسان‌تر است"
+                },
+                {
+                  "en": "Wherever the manager happens to notice it",
+                  "fa": "هر جا که مدیر اتفاقی متوجهش شود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p8",
+              "text": {
+                "en": "Without indicators, an operation is a black box: you see what goes in and what comes out, nothing in between. Indicators let you look inside and see how the work is going.",
+                "fa": "بدون شاخص، هر عملیات یک جعبهٔ سیاه است: ورودی و خروجی را می‌بینی، نه آنچه میان آن‌هاست. شاخص‌ها اجازه می‌دهند داخلش را ببینی و بفهمی کار چطور پیش می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p9",
+              "text": {
+                "en": "An indicator directs attention to what it measures, so people can over-react to it. Grove pairs indicators to catch the counter-effect, for example inventory levels with the rate of shortages.",
+                "fa": "هر شاخص توجه را به همان چیزی می‌برد که می‌سنجد، پس آدم‌ها ممکن است بیش از حد واکنش نشان دهند. Grove شاخص‌ها را جفت می‌کند تا اثر معکوس دیده شود، مثلاً سطح موجودی انبار همراه با نرخ کمبود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l1k4",
+              "type": "tf",
+              "source": "b27c1l1p9",
+              "prompt": {
+                "en": "Grove pairs indicators so that over-reacting to one measure shows up in the other.",
+                "fa": "Grove شاخص‌ها را جفت می‌کند تا واکنش افراطی به یک شاخص در دیگری دیده شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p10",
+              "text": {
+                "en": "Leading indicators show trouble before the output arrives, so you can still act. Grove's stagger chart lines up successive forecasts for the same months, revealing whether predictions keep slipping.",
+                "fa": "شاخص‌های پیشرو مشکل را پیش از رسیدن خروجی نشان می‌دهند تا هنوز بتوانی کاری کنی. نمودار پلکانی (stagger chart) Grove پیش‌بینی‌های پیاپی برای همان ماه‌ها را کنار هم می‌گذارد تا ببینی پیش‌بینی‌ها مدام عقب می‌افتند یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p11",
+              "text": {
+                "en": "Applied: treat your quarterly net-worth log as an indicator. Pair your savings rate with hours of sleep, so a push on one does not quietly wreck the other.",
+                "fa": "کاربردی: ثبت فصلی دارایی خالص را یک شاخص بدان. نرخ پس‌اندازت را با ساعت‌های خواب جفت کن تا فشار روی یکی، بی‌صدا دیگری را خراب نکند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l1p12",
+              "text": {
+                "en": "Applied: in your roadmap the limiting step is the daily reading hour, so schedule the rest around the limiting step. Catch any slip early, at the cheapest stage.",
+                "fa": "کاربردی: در نقشهٔ راهت مرحلهٔ محدودکننده ساعت مطالعهٔ روزانه است، پس بقیه را حول همان مرحلهٔ محدودکننده بچین. هر لغزشی را زود و در ارزان‌ترین مرحله بگیر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l1k5",
+              "type": "tap",
+              "source": "b27c1l1p12",
+              "prompt": {
+                "en": "In the applied roadmap, what do you schedule the rest around?",
+                "fa": "در نقشهٔ راهِ کاربردی، بقیهٔ کارها را حول چه چیزی می‌چینی؟"
+              },
+              "options": [
+                {
+                  "en": "The limiting step",
+                  "fa": "مرحلهٔ محدودکننده"
+                },
+                {
+                  "en": "The easiest task of the day",
+                  "fa": "آسان‌ترین کار روز"
+                },
+                {
+                  "en": "Whatever the broker app shows that morning",
+                  "fa": "هر چه اپ کارگزاری آن روز صبح نشان دهد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b27c1l2",
+          "title": {
+            "en": "Leverage, one-on-ones and meetings",
+            "fa": "اهرم، جلسه‌های یک‌به‌یک و جلسه‌ها"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b27c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils managerial leverage, meetings and decisions. It matters because as a CTO or founder your hours are few, and Grove shows which of them multiply the whole team's output.",
+                "fa": "این درس اهرم مدیریتی، جلسه‌ها و تصمیم‌گیری را خلاصه می‌کند. مهم است چون به‌عنوان CTO یا بنیان‌گذار ساعت‌هایت کم است و Grove نشان می‌دهد کدام‌شان خروجی کل تیم را چند برابر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p2",
+              "text": {
+                "en": "Grove's core equation: a manager's output is the output of their organization plus the output of the neighbouring organizations under their influence. Your own coding hours are not the measure.",
+                "fa": "معادلهٔ اصلی Grove: خروجی مدیر برابر است با خروجی سازمانش به‌علاوهٔ خروجی سازمان‌های همسایه‌ای که زیر نفوذ او هستند. ساعت‌های کدنویسی خودت معیار نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l2k1",
+              "type": "tap",
+              "source": "b27c1l2p2",
+              "prompt": {
+                "en": "What is a manager's output, in Grove's equation?",
+                "fa": "در معادلهٔ Grove، خروجی مدیر چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The output of their organization plus neighbouring organizations under their influence",
+                  "fa": "خروجی سازمانش به‌علاوهٔ سازمان‌های همسایهٔ زیر نفوذش"
+                },
+                {
+                  "en": "The hours they personally work each week",
+                  "fa": "ساعت‌هایی که خودش هر هفته کار می‌کند"
+                },
+                {
+                  "en": "The number of tasks they finish themselves",
+                  "fa": "تعداد کارهایی که خودش تمام می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p3",
+              "text": {
+                "en": "Leverage is the output generated by one managerial activity. Since your time is fixed, raising your output means choosing high-leverage activities over low-leverage ones.",
+                "fa": "اهرم یعنی خروجی‌ای که یک فعالیت مدیریتی تولید می‌کند. چون وقتت ثابت است، بالا بردن خروجی یعنی انتخاب فعالیت‌های پراهرم به‌جای کم‌اهرم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p4",
+              "text": {
+                "en": "High leverage comes three ways: one act affects many people, one word or action has a long-lasting effect, or one key piece of information shapes a large group's work.",
+                "fa": "اهرم بالا از سه راه می‌آید: یک کار روی آدم‌های زیادی اثر می‌گذارد، یک حرف یا اقدام اثری ماندگار دارد، یا یک اطلاعات کلیدی کار گروهی بزرگ را شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p5",
+              "text": {
+                "en": "Leverage can also be negative. Meddling in a subordinate's work, or putting off a decision, pulls output down for everyone who waits on you.",
+                "fa": "اهرم می‌تواند منفی هم باشد. دخالت در کار زیردست، یا عقب انداختن یک تصمیم، خروجی همهٔ کسانی را که منتظر تو هستند پایین می‌کشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l2k2",
+              "type": "tf",
+              "source": "b27c1l2p5",
+              "prompt": {
+                "en": "Grove says a manager's leverage can never be negative.",
+                "fa": "Grove می‌گوید اهرم مدیر هرگز منفی نمی‌شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p6",
+              "text": {
+                "en": "Delegation without follow-through is abdication. Monitor delegated work, checking more or less often depending on how experienced the person is at that task.",
+                "fa": "واگذاری بدون پیگیری، کناره‌گیری است. کار واگذارشده را پایش کن و بسته به میزان تجربهٔ فرد در آن کار، بیشتر یا کمتر سر بزن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p7",
+              "text": {
+                "en": "Meetings are the medium of managerial work, not a waste of it. Grove splits them into process-oriented meetings, held on a regular schedule, and mission-oriented meetings, called to solve one problem.",
+                "fa": "جلسه رسانهٔ کار مدیریتی است، نه اتلاف آن. Grove جلسه‌ها را به جلسه‌های فرایندمحور با برنامهٔ منظم و جلسه‌های مأموریت‌محور برای حل یک مسئله تقسیم می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l2k3",
+              "type": "tap",
+              "source": "b27c1l2p7",
+              "prompt": {
+                "en": "What does Grove call meetings?",
+                "fa": "Grove جلسه‌ها را چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "The medium of managerial work",
+                  "fa": "رسانهٔ کار مدیریتی"
+                },
+                {
+                  "en": "A waste of engineering time",
+                  "fa": "اتلاف وقت مهندسی"
+                },
+                {
+                  "en": "A last resort for urgent crises",
+                  "fa": "آخرین چاره برای بحران‌های فوری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p8",
+              "text": {
+                "en": "The one-on-one belongs to the subordinate: they set the agenda and bring an outline, and it lasts at least an hour. Its purpose is mutual teaching and exchange of information.",
+                "fa": "جلسهٔ یک‌به‌یک (one-on-one) متعلق به زیردست است: او دستور جلسه را تعیین می‌کند و طرح کلی می‌آورد، و دست‌کم یک ساعت طول می‌کشد. هدفش آموزش متقابل و تبادل اطلاعات است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p9",
+              "text": {
+                "en": "Grove counts the leverage: ninety minutes of one-on-one can improve the quality of a subordinate's work for two weeks, some eighty hours. Hold them more often with less experienced people.",
+                "fa": "Grove اهرمش را حساب می‌کند: نود دقیقه جلسهٔ یک‌به‌یک می‌تواند کیفیت کار زیردست را برای دو هفته، حدود هشتاد ساعت، بهتر کند. با افراد کم‌تجربه‌تر این جلسه را بیشتر بگذار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p10",
+              "text": {
+                "en": "When the subordinate seems finished, Grove's tip is to ask one more question. Lurking problems, not only status updates, belong on the agenda.",
+                "fa": "وقتی به نظر می‌رسد حرف زیردست تمام شده، توصیهٔ Grove این است که یک پرسش دیگر بپرسی. مشکلات پنهان، نه فقط گزارش وضعیت، جایشان در دستور جلسه است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l2k4",
+              "type": "tf",
+              "source": "b27c1l2p8",
+              "prompt": {
+                "en": "In a one-on-one, the subordinate sets the agenda.",
+                "fa": "در جلسهٔ یک‌به‌یک، زیردست دستور جلسه را تعیین می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p11",
+              "text": {
+                "en": "Good decisions run in three stages: free discussion, a clear decision, then full support from everyone, even those who argued against it. Grove warns against the peer-group syndrome, where nobody commits.",
+                "fa": "تصمیم خوب سه مرحله دارد: بحث آزاد، تصمیم روشن، سپس حمایت کامل همه، حتی کسانی که مخالفت کردند. Grove از «سندرم هم‌رده‌ها» (peer-group syndrome) هشدار می‌دهد، جایی که هیچ‌کس تعهد نمی‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l2p12",
+              "text": {
+                "en": "Before deciding, settle six questions: what is decided, by when, who decides, who is consulted, who can approve or veto, and who must be told. Applied: log these in your decision journal.",
+                "fa": "پیش از تصمیم، شش پرسش را روشن کن: چه چیزی تصمیم‌گیری می‌شود، تا کی، چه کسی تصمیم می‌گیرد، با چه کسی مشورت می‌شود، چه کسی تأیید یا وتو می‌کند، و به چه کسی باید خبر داد. کاربردی: این‌ها را در دفتر تصمیمت ثبت کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l2k5",
+              "type": "order",
+              "source": "b27c1l2p11",
+              "prompt": {
+                "en": "Put Grove's decision-making stages in order",
+                "fa": "مراحل تصمیم‌گیری Grove را به ترتیب بچین"
+              },
+              "options": [
+                {
+                  "en": "Full support",
+                  "fa": "حمایت کامل"
+                },
+                {
+                  "en": "Free discussion",
+                  "fa": "بحث آزاد"
+                },
+                {
+                  "en": "Clear decision",
+                  "fa": "تصمیم روشن"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b27c1l3",
+          "title": {
+            "en": "Objectives, task-relevant maturity and performance",
+            "fa": "هدف‌ها، بلوغ مرتبط با کار و عملکرد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b27c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils planning with objectives and key results, task-relevant maturity and Grove's view of performance. It matters because the same tools run a startup team and your own roadmap.",
+                "fa": "این درس برنامه‌ریزی با هدف‌ها و نتایج کلیدی، بلوغ مرتبط با کار و نگاه Grove به عملکرد را خلاصه می‌کند. مهم است چون همین ابزارها هم تیم استارتاپ را می‌گردانند و هم نقشهٔ راه خودت را."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p2",
+              "text": {
+                "en": "Planning has three steps: establish the projected need, find your present status, then decide what actions close the gap. Its output is the set of actions you take today.",
+                "fa": "برنامه‌ریزی سه گام دارد: نیاز پیش‌بینی‌شده را مشخص کن، وضعیت فعلی‌ات را پیدا کن، سپس تصمیم بگیر چه اقداماتی فاصله را پر می‌کند. خروجی آن مجموعهٔ اقداماتی است که امروز انجام می‌دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p3",
+              "text": {
+                "en": "At Intel, Grove ran management by objectives (MBO) with two questions: where do I want to go (the objective), and how will I pace myself to see if I am getting there (the key results).",
+                "fa": "Grove در Intel مدیریت بر مبنای هدف (MBO) را با دو پرسش اجرا می‌کرد: کجا می‌خواهم بروم (هدف)، و چطور سرعتم را تنظیم کنم تا ببینم دارم می‌رسم یا نه (نتایج کلیدی)."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l3k1",
+              "type": "tap",
+              "source": "b27c1l3p3",
+              "prompt": {
+                "en": "Which two questions does Grove's MBO ask?",
+                "fa": "MBO از نگاه Grove کدام دو پرسش را می‌پرسد؟"
+              },
+              "options": [
+                {
+                  "en": "Where do I want to go, and how will I pace myself?",
+                  "fa": "کجا می‌خواهم بروم، و چطور سرعتم را تنظیم کنم؟"
+                },
+                {
+                  "en": "What is my budget, and who approves it?",
+                  "fa": "بودجه‌ام چقدر است، و چه کسی تأییدش می‌کند؟"
+                },
+                {
+                  "en": "What went wrong last year, and who was to blame?",
+                  "fa": "پارسال چه اشتباهی شد، و مقصر که بود؟"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p4",
+              "text": {
+                "en": "Key results must be measurable, so at the end you can say yes or no without argument. Keep objectives few, because the main gift of the system is focus.",
+                "fa": "نتایج کلیدی باید قابل‌اندازه‌گیری باشند تا در پایان بدون بحث بگویی آری یا نه. هدف‌ها را کم نگه دار، چون هدیهٔ اصلی این سیستم تمرکز است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p5",
+              "text": {
+                "en": "Grove's Intel system of objectives and key results was later carried to Google by John Doerr, who had worked at Intel. That is the origin of the OKRs many tech companies use today.",
+                "fa": "سیستم هدف‌ها و نتایج کلیدیِ Grove در Intel بعدها توسط John Doerr، که در Intel کار کرده بود، به Google برده شد. ریشهٔ OKR که امروز بسیاری از شرکت‌های فناوری به کار می‌برند همین است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l3k2",
+              "type": "tf",
+              "source": "b27c1l3p5",
+              "prompt": {
+                "en": "OKRs began at Google, with no link to Intel.",
+                "fa": "OKR در Google آغاز شد و ربطی به Intel ندارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p6",
+              "text": {
+                "en": "Task-relevant maturity (TRM) is how experienced and motivated someone is at one specific task. It is not a fixed trait: a strong engineer has low TRM on a task they have never done.",
+                "fa": "بلوغ مرتبط با کار (TRM) یعنی فرد در یک کار مشخص چقدر باتجربه و باانگیزه است. ویژگی ثابتی نیست: یک مهندس قوی در کاری که هرگز انجام نداده TRM پایینی دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p7",
+              "text": {
+                "en": "At low TRM, the best style is structured: tell the person what, when and how. At medium TRM, shift to two-way communication, support and mutual reasoning.",
+                "fa": "در TRM پایین، بهترین سبک ساختاریافته است: به فرد بگو چه، کی و چطور. در TRM متوسط، به ارتباط دوطرفه، حمایت و استدلال متقابل برو."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l3k3",
+              "type": "tap",
+              "source": "b27c1l3p7",
+              "prompt": {
+                "en": "Which management style fits low task-relevant maturity?",
+                "fa": "کدام سبک مدیریت با بلوغ مرتبط با کارِ پایین جور است؟"
+              },
+              "options": [
+                {
+                  "en": "Structured: tell what, when and how",
+                  "fa": "ساختاریافته: گفتنِ چه، کی و چطور"
+                },
+                {
+                  "en": "Minimal involvement: just monitor results",
+                  "fa": "دخالت حداقلی: فقط پایش نتایج"
+                },
+                {
+                  "en": "Hands-off: let them find their own way",
+                  "fa": "رها کردن: بگذار خودشان راه را پیدا کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p8",
+              "text": {
+                "en": "At high TRM, keep involvement minimal: agree on objectives and monitor results. Grove likens this to raising a child, who moves from close guidance toward independence.",
+                "fa": "در TRM بالا، دخالت را حداقلی نگه دار: روی هدف‌ها توافق کن و نتایج را پایش کن. Grove این را به بزرگ کردن کودک تشبیه می‌کند که از راهنمایی نزدیک به سمت استقلال می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p9",
+              "text": {
+                "en": "When someone is not doing their job, Grove sees only two reasons: they are not capable, or they are not motivated. Find out which before you act.",
+                "fa": "وقتی کسی کارش را انجام نمی‌دهد، Grove فقط دو دلیل می‌بیند: یا توانایی ندارد، یا انگیزه ندارد. پیش از هر اقدامی بفهم کدام است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l3k4",
+              "type": "tf",
+              "source": "b27c1l3p9",
+              "prompt": {
+                "en": "Grove traces poor performance to either lack of capability or lack of motivation.",
+                "fa": "Grove ضعف عملکرد را به کمبود توانایی یا کمبود انگیزه برمی‌گرداند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p10",
+              "text": {
+                "en": "Training is the boss's job, Grove argues, because it is one of the highest-leverage activities a manager can perform. A few hours of teaching lift the work of many people for a long time.",
+                "fa": "Grove می‌گوید آموزش وظیفهٔ رئیس است، چون یکی از پراهرم‌ترین فعالیت‌هایی است که مدیر می‌تواند انجام دهد. چند ساعت آموزش، کار آدم‌های زیادی را برای مدتی طولانی بالا می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p11",
+              "text": {
+                "en": "Grove's sports analogy: the manager is a coach who takes no personal credit, is tough to get the best out of the team, and knows the game from having played it.",
+                "fa": "تشبیه ورزشی Grove: مدیر مربی‌ای است که اعتبار را برای خودش برنمی‌دارد، سخت‌گیر است تا بهترینِ تیم را بیرون بکشد، و بازی را از تجربهٔ بازی کردنش می‌شناسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b27c1l3p12",
+              "text": {
+                "en": "Applied: write your roadmap with one objective, €100 of ownership income from a small AI product, and measurable key results. Rate your own TRM per task and ask your mentor for matching help.",
+                "fa": "کاربردی: نقشهٔ راهت را با یک هدف بنویس، ۱۰۰ یورو درآمد مالکیتی از یک محصول کوچک AI، و نتایج کلیدی قابل‌اندازه‌گیری. TRM خودت را برای هر کار بسنج و از مربی‌ات کمک متناسب با آن بخواه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b27c1l3k5",
+              "type": "tap",
+              "source": "b27c1l3p12",
+              "prompt": {
+                "en": "In the applied roadmap, what is the one objective?",
+                "fa": "در نقشهٔ راهِ کاربردی، آن یک هدف چیست؟"
+              },
+              "options": [
+                {
+                  "en": "€100 of ownership income from a small AI product",
+                  "fa": "۱۰۰ یورو درآمد مالکیتی از یک محصول کوچک AI"
+                },
+                {
+                  "en": "Reading two books every month",
+                  "fa": "خواندن دو کتاب در هر ماه"
+                },
+                {
+                  "en": "A higher salary in the Netherlands",
+                  "fa": "حقوق بالاتر در هلند"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
