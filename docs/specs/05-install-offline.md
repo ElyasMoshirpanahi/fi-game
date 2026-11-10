@@ -24,6 +24,9 @@ The game installs to the home screen and works offline. The first visit caches t
 - The app registers the service worker on load and asks it for the list of cached books; "Download all books" fetches every book URL from the manifest list.
 - Fonts from Google are not cached by the worker; the system font fallback already in the styles covers offline.
 
+- As built: the page cache has a fixed name and the page is fetched network first, so a new version arrives on the next visit with a connection without a version stamp in the build. The book cache is not tied to a page version: a deploy must not throw away books downloaded for a trip; each book is refreshed in the background when opened online. The page reads Cache Storage itself to count the books on the device and writes books into the cache itself, so a book is kept even before the worker controls the page.
+- An Install button shows when the browser offers installation (`beforeinstallprompt`); other browsers install from their own menu.
+
 ## Testing Decisions
 
 - The service worker's routing decision is written as a pure function (request URL and cache state in, strategy out) and tested in node. Registration and install are verified in headless Chrome: load, go offline, reload, open a cached Lesson.
