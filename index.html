@@ -84,6 +84,7 @@ html[dir="rtl"] .xpbar i { margin-inline-start: auto; }
 .node .badge { position: absolute; top: -6px; inset-inline-end: 10px; background: var(--card); color: var(--gold-strong); border: 2px solid var(--gold); border-radius: 999px; padding: 1px 8px; font-size: 11px; font-weight: 800; white-space: nowrap; }
 .node .planned { margin-top: 4px; font-size: 11px; color: var(--muted); }
 .pathfoot { margin-top: 10px; display: flex; justify-content: center; }
+.pathbar { display: flex; gap: 8px; flex-wrap: wrap; margin: -14px 0 14px; }
 .linkish { border: 0; background: transparent; color: var(--muted); text-decoration: underline; font-size: 13px; padding: 6px; }
 .confirm { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center; background: var(--bad-soft); color: var(--bad); border-radius: 12px; padding: 10px 14px; font-size: 14px; }
 .confirm button { border: 1px solid currentColor; background: transparent; border-radius: 999px; padding: 5px 12px; font-weight: 700; color: inherit; }
@@ -105,7 +106,7 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .markbtn { float: inline-end; border: 1px solid var(--line); background: var(--card); width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; color: var(--muted); margin-top: -6px; }
 .markbtn svg { width: 16px; height: 16px; }
 .markbtn.on { color: var(--gold-strong); border-color: var(--gold); background: var(--gold-soft); }
-.footbtn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; color: var(--text); margin-inline-end: 10px; }
+.footbtn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; color: var(--text); }
 .footbtn svg { width: 14px; height: 14px; color: var(--gold-strong); }
 .footbtn b { background: var(--gold-soft); color: var(--gold-strong); border-radius: 999px; padding: 0 7px; }
 .marks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -1106,8 +1107,9 @@ FI.render = (() => {
     const cam = !ui.introDone ? ' intro' : ui.pullout ? ' pullout' : '';
     return `<main class="path${cam}">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
+      <div class="pathbar">${marks}</div>
       <div class="sections">${list}</div>${milestone}
-      <div class="pathfoot">${marks}${reset}</div>
+      <div class="pathfoot">${reset}</div>
       <button class="picker" ${A({ type: 'UI_PICKER' })} aria-expanded="${!!ui.picker}">${t('jumpTo', s.mode)}${ICONS.chevron}</button>${sheet}
     </main>`;
   }
