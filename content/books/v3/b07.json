@@ -17,6 +17,7 @@
     "fa": "کل انبار کاه را بخر"
   },
   "tier": "high",
+  "complexity": 2,
   "circles": [
     {
       "id": "b07c1",
@@ -207,185 +208,6 @@
         {
           "id": "b07c1l2",
           "title": {
-            "en": "Investment return and speculative return",
-            "fa": "بازده سرمایه‌گذاری و بازده سفته‌بازانه"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b07c1l2p1",
-              "frame": true,
-              "text": {
-                "en": "This Lesson distils chapter 2, Rational Exuberance. It matters because knowing where stock returns really come from lets you ignore most market noise.",
-                "fa": "این درس فصل ۲، «شور عقلانی»، را خلاصه می‌کند. مهم است چون وقتی بدانی بازده سهام واقعاً از کجا می‌آید، می‌توانی بیشتر هیاهوی بازار را نادیده بگیری."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p2",
-              "text": {
-                "en": "Bogle splits the stock market's return into two parts. Investment return comes from the businesses; speculative return comes from what people will pay for them.",
-                "fa": "Bogle بازده بازار سهام را به دو بخش تقسیم می‌کند. بازده سرمایه‌گذاری از خود کسب‌وکارها می‌آید؛ بازده سفته‌بازانه از قیمتی که مردم حاضرند برایشان بپردازند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p3",
-              "text": {
-                "en": "Investment return is the dividend yield when you buy plus the later growth in corporate earnings. It is what the companies actually deliver.",
-                "fa": "بازده سرمایه‌گذاری یعنی بازده سود نقدی در لحظهٔ خرید به‌علاوهٔ رشد بعدی سود شرکت‌ها. این همان چیزی است که شرکت‌ها واقعاً تحویل می‌دهند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c1l2k1",
-              "type": "tap",
-              "source": "b07c1l2p3",
-              "prompt": {
-                "en": "What makes up investment return?",
-                "fa": "بازده سرمایه‌گذاری از چه تشکیل می‌شود؟"
-              },
-              "options": [
-                {
-                  "en": "Changes in the price-earnings ratio",
-                  "fa": "تغییر نسبت قیمت به سود"
-                },
-                {
-                  "en": "Dividend yield plus earnings growth",
-                  "fa": "بازده سود نقدی به‌علاوهٔ رشد سود"
-                },
-                {
-                  "en": "The skill of fund managers",
-                  "fa": "مهارت مدیران صندوق"
-                }
-              ],
-              "answer": 1
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p4",
-              "text": {
-                "en": "Speculative return is the change in the price-earnings ratio, the price investors pay for each dollar of earnings. It rises with optimism and falls with fear.",
-                "fa": "بازده سفته‌بازانه یعنی تغییر نسبت قیمت به سود (P/E)، یعنی بهایی که سرمایه‌گذاران برای هر دلار سود می‌پردازند. با خوش‌بینی بالا می‌رود و با ترس پایین می‌آید."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p5",
-              "text": {
-                "en": "Over the long run, Bogle shows, nearly all of the market's return came from dividends and earnings growth. The speculative part tended to cancel out.",
-                "fa": "Bogle نشان می‌دهد که در بلندمدت تقریباً همهٔ بازده بازار از سود نقدی و رشد سود آمده است. بخش سفته‌بازانه معمولاً خودش را خنثی کرده است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p6",
-              "text": {
-                "en": "Over a single decade, though, speculation can dominate. A rising price-earnings ratio can flatter returns for years, and a falling one can erase them.",
-                "fa": "اما در یک دههٔ تنها، سفته‌بازی می‌تواند غالب شود. نسبت P/E رو به افزایش می‌تواند سال‌ها بازده را زیباتر نشان دهد و نسبت رو به کاهش می‌تواند آن را پاک کند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c1l2k2",
-              "type": "tf",
-              "source": "b07c1l2p5",
-              "prompt": {
-                "en": "Over the long run, most stock market return came from changes in the price-earnings ratio.",
-                "fa": "در بلندمدت، بیشتر بازده بازار سهام از تغییر نسبت قیمت به سود آمده است."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p7",
-              "text": {
-                "en": "Bogle calls the stock market a giant distraction from the business of investing. Prices swing daily; earnings and dividends move slowly.",
-                "fa": "Bogle بازار سهام را «حواس‌پرتیِ عظیمی از کارِ سرمایه‌گذاری» می‌نامد. قیمت‌ها هر روز نوسان می‌کنند؛ سود و سود نقدی آهسته حرکت می‌کنند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p8",
-              "text": {
-                "en": "The chapter title answers Alan Greenspan's phrase irrational exuberance: the exuberance worth having is rational, grounded in business results, not in prices.",
-                "fa": "عنوان فصل پاسخی است به عبارت «شور غیرعقلانی» Alan Greenspan: شوری که ارزش داشتن دارد، عقلانی است و بر نتایج کسب‌وکار تکیه دارد، نه بر قیمت‌ها."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p9",
-              "text": {
-                "en": "When valuations are high, future speculative return is more likely to be negative. That is why Bogle warned that future returns could fall short of the past.",
-                "fa": "وقتی ارزش‌گذاری‌ها بالاست، احتمال منفی شدن بازده سفته‌بازانهٔ آینده بیشتر است. به همین دلیل Bogle هشدار داد که بازده آینده ممکن است از گذشته کمتر باشد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c1l2k3",
-              "type": "tap",
-              "source": "b07c1l2p7",
-              "prompt": {
-                "en": "What does Bogle call the stock market?",
-                "fa": "Bogle بازار سهام را چه می‌نامد؟"
-              },
-              "options": [
-                {
-                  "en": "A giant distraction from the business of investing",
-                  "fa": "حواس‌پرتیِ عظیمی از کار سرمایه‌گذاری"
-                },
-                {
-                  "en": "The best guide to what a company is worth",
-                  "fa": "بهترین راهنما برای ارزش یک شرکت"
-                },
-                {
-                  "en": "A reliable way to get rich quickly",
-                  "fa": "راهی مطمئن برای پولدار شدن سریع"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p10",
-              "text": {
-                "en": "As an index investor you own the businesses, so you collect the investment return. You cannot avoid the speculative swings, but you can refuse to bet on them.",
-                "fa": "به‌عنوان سرمایه‌گذار شاخصی، تو صاحب کسب‌وکارها هستی و بازده سرمایه‌گذاری را می‌گیری. از نوسان‌های سفته‌بازانه نمی‌توانی فرار کنی، اما می‌توانی رویشان شرط نبندی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p11",
-              "text": {
-                "en": "This is why Bogle tells investors to cast their lot with business. Owning companies, not trading their prices, is the winner's game.",
-                "fa": "به همین دلیل Bogle می‌گوید سرنوشتت را به کسب‌وکار گره بزن. مالکیت شرکت‌ها، نه معاملهٔ قیمتشان، بازیِ برنده است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c1l2p12",
-              "text": {
-                "en": "When the news says markets fell 10 percent, ask the Bogle question: did the companies' dividends and earnings change, or only the price people pay?",
-                "fa": "وقتی خبرها می‌گویند بازار ۱۰ درصد افت کرد، سؤال Bogle را بپرس: سود نقدی و سود شرکت‌ها تغییر کرد، یا فقط قیمتی که مردم می‌پردازند؟"
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c1l2k4",
-              "type": "tf",
-              "source": "b07c1l2p10",
-              "prompt": {
-                "en": "An index investor can avoid speculative swings entirely.",
-                "fa": "سرمایه‌گذار شاخصی می‌تواند کاملاً از نوسان‌های سفته‌بازانه فرار کند."
-              },
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "b07c1l3",
-          "title": {
             "en": "Buy the haystack",
             "fa": "کل انبار کاه را بخر"
           },
@@ -393,7 +215,7 @@
           "items": [
             {
               "kind": "card",
-              "id": "b07c1l3p1",
+              "id": "b07c1l2p1",
               "frame": true,
               "text": {
                 "en": "This Lesson distils chapter 3, Cast Your Lot with Business, and the birth of the index fund. It matters because one low-cost index fund can be the core of your whole plan.",
@@ -402,7 +224,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p2",
+              "id": "b07c1l2p2",
               "text": {
                 "en": "Bogle's rule: don't look for the needle in the haystack, just buy the haystack. A total market index fund owns every listed business in proportion to its size.",
                 "fa": "قاعدهٔ Bogle: دنبال سوزن در انبار کاه نگرد، کل انبار کاه را بخر. صندوق شاخصی کل بازار، همهٔ شرکت‌های بورسی را به نسبت اندازه‌شان نگه می‌دارد."
@@ -410,7 +232,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p3",
+              "id": "b07c1l2p3",
               "text": {
                 "en": "Owning the whole market guarantees you its return minus a tiny cost. No stock-picking skill is needed, and no single company can sink you.",
                 "fa": "مالکیت کل بازار، بازده آن را منهای هزینه‌ای ناچیز برایت تضمین می‌کند. هیچ مهارت سهم‌چینی لازم نیست و هیچ شرکت تنهایی نمی‌تواند غرقت کند."
@@ -418,9 +240,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l3k1",
+              "id": "b07c1l2k1",
               "type": "tap",
-              "source": "b07c1l3p2",
+              "source": "b07c1l2p2",
               "prompt": {
                 "en": "In Bogle's rule, what is the haystack?",
                 "fa": "در قاعدهٔ Bogle، انبار کاه چیست؟"
@@ -443,7 +265,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p4",
+              "id": "b07c1l2p4",
               "text": {
                 "en": "Bogle founded Vanguard in 1974 and in 1976 launched the first index mutual fund for individual investors. Wall Street mocked it as Bogle's Folly.",
                 "fa": "Bogle در ۱۹۷۴ Vanguard را بنیان گذاشت و در ۱۹۷۶ نخستین صندوق شاخصی برای سرمایه‌گذاران فردی را راه انداخت. Wall Street آن را «حماقت Bogle» نامید و مسخره کرد."
@@ -451,7 +273,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p5",
+              "id": "b07c1l2p5",
               "text": {
                 "en": "Its first offering raised only about $11 million, far below the $150 million its organizers had hoped for.",
                 "fa": "نخستین عرضهٔ آن فقط حدود ۱۱ میلیون دلار جمع کرد، بسیار کمتر از ۱۵۰ میلیون دلاری که برگزارکنندگان امید داشتند."
@@ -459,9 +281,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l3k2",
+              "id": "b07c1l2k2",
               "type": "tf",
-              "source": "b07c1l3p5",
+              "source": "b07c1l2p5",
               "prompt": {
                 "en": "The first index fund raised far more money than its organizers hoped.",
                 "fa": "نخستین صندوق شاخصی خیلی بیشتر از امید برگزارکنندگانش پول جمع کرد."
@@ -470,7 +292,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p6",
+              "id": "b07c1l2p6",
               "text": {
                 "en": "That fund, tracking the S&P 500, later grew into one of the largest funds in the world. Indexing went from a joke to a core holding for millions.",
                 "fa": "همان صندوق که S&P 500 را دنبال می‌کرد، بعدها به یکی از بزرگ‌ترین صندوق‌های دنیا تبدیل شد. شاخص‌گذاری از یک شوخی به داراییِ اصلی میلیون‌ها نفر رسید."
@@ -478,7 +300,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p7",
+              "id": "b07c1l2p7",
               "text": {
                 "en": "Nobel laureate Paul Samuelson ranked the index fund alongside the wheel, the alphabet, printing, and wine and cheese among great inventions.",
                 "fa": "Paul Samuelson، برندهٔ نوبل، صندوق شاخصی را هم‌ردیف چرخ، الفبا، چاپ و شراب و پنیر در میان اختراع‌های بزرگ قرار داد."
@@ -486,7 +308,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p8",
+              "id": "b07c1l2p8",
               "text": {
                 "en": "Bogle compares the S&P 500 with the average actively managed equity fund over 25 years. The index won by about two points a year, roughly the funds' costs.",
                 "fa": "Bogle شاخص S&P 500 را در ۲۵ سال با میانگین صندوق‌های سهامی با مدیریت فعال مقایسه می‌کند. شاخص سالانه حدود دو واحد درصد جلو بود، تقریباً به اندازهٔ هزینه‌های آن صندوق‌ها."
@@ -494,9 +316,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l3k3",
+              "id": "b07c1l2k3",
               "type": "tap",
-              "source": "b07c1l3p8",
+              "source": "b07c1l2p8",
               "prompt": {
                 "en": "Why did the index beat the average equity fund by about two points a year?",
                 "fa": "چرا شاخص سالانه حدود دو واحد درصد از میانگین صندوق سهامی جلو بود؟"
@@ -519,7 +341,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p9",
+              "id": "b07c1l2p9",
               "text": {
                 "en": "Bogle prefers the broadest index, a total market fund rather than a narrow slice. Owning everything removes the risk of picking the wrong sector or style.",
                 "fa": "Bogle گسترده‌ترین شاخص را ترجیح می‌دهد: صندوق کل بازار، نه یک برش باریک. مالکیت همه‌چیز خطر انتخاب صنعت یا سبک اشتباه را حذف می‌کند."
@@ -527,7 +349,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p10",
+              "id": "b07c1l2p10",
               "text": {
                 "en": "Hold it forever is part of the rule. The index fund works because it does almost nothing: little trading, low fees, no forecasts.",
                 "fa": "«برای همیشه نگهش دار» بخشی از قاعده است. صندوق شاخصی کار می‌کند چون تقریباً هیچ کاری نمی‌کند: معاملهٔ کم، کارمزد پایین، بدون پیش‌بینی."
@@ -535,7 +357,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l3p11",
+              "id": "b07c1l2p11",
               "text": {
                 "en": "For you, the haystack can be one broad global index ETF such as VWCE or IWDA as the 80 percent core, held through every headline.",
                 "fa": "برای تو، انبار کاه می‌تواند یک ETF شاخصی جهانی و گسترده مثل VWCE یا IWDA باشد، به‌عنوان هستهٔ ۸۰ درصدی، که در برابر هر تیتر خبری نگهش می‌داری."
@@ -543,9 +365,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l3k4",
+              "id": "b07c1l2k4",
               "type": "tf",
-              "source": "b07c1l3p10",
+              "source": "b07c1l2p10",
               "prompt": {
                 "en": "The index fund works mainly because it trades often to follow the best stocks.",
                 "fa": "صندوق شاخصی عمدتاً به این دلیل کار می‌کند که برای دنبال کردن بهترین سهم‌ها زیاد معامله می‌کند."
@@ -555,7 +377,7 @@
           ]
         },
         {
-          "id": "b07c1l4",
+          "id": "b07c1l3",
           "title": {
             "en": "The relentless rules of humble arithmetic",
             "fa": "قواعد بی‌رحمِ حسابِ ساده"
@@ -564,7 +386,7 @@
           "items": [
             {
               "kind": "card",
-              "id": "b07c1l4p1",
+              "id": "b07c1l3p1",
               "frame": true,
               "text": {
                 "en": "This Lesson distils chapter 4, How Most Investors Turn a Winner's Game into a Loser's Game. It matters because this arithmetic is the reason indexing works.",
@@ -573,7 +395,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p2",
+              "id": "b07c1l3p2",
               "text": {
                 "en": "Owning businesses is a winner's game: over time companies grow and pay out. Trying to beat the market is a zero-sum game before costs.",
                 "fa": "مالکیت کسب‌وکارها بازی برنده است: شرکت‌ها با گذر زمان رشد می‌کنند و سود می‌دهند. تلاش برای شکست دادن بازار، پیش از هزینه‌ها، بازیِ حاصل‌جمع صفر است."
@@ -581,7 +403,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p3",
+              "id": "b07c1l3p3",
               "text": {
                 "en": "Investors as a group own the whole market, so before costs they must earn exactly the market return. For every investor who beats it, another must lag.",
                 "fa": "سرمایه‌گذاران در مجموع صاحب کل بازارند، پس پیش از هزینه‌ها باید دقیقاً بازده بازار را بگیرند. در برابر هر کسی که از بازار جلو می‌زند، کس دیگری باید عقب بماند."
@@ -589,9 +411,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l4k1",
+              "id": "b07c1l3k1",
               "type": "tf",
-              "source": "b07c1l4p3",
+              "source": "b07c1l3p3",
               "prompt": {
                 "en": "Before costs, investors as a group earn exactly the market return.",
                 "fa": "پیش از هزینه‌ها، سرمایه‌گذاران در مجموع دقیقاً بازده بازار را می‌گیرند."
@@ -600,7 +422,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p4",
+              "id": "b07c1l3p4",
               "text": {
                 "en": "After costs, beating the market becomes a loser's game. Gross return minus the costs of financial intermediation equals the net return investors receive.",
                 "fa": "بعد از هزینه‌ها، شکست دادن بازار بازی بازنده می‌شود. بازده ناخالص منهای هزینه‌های واسطه‌گری مالی برابر است با بازده خالصی که به سرمایه‌گذاران می‌رسد."
@@ -608,7 +430,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p5",
+              "id": "b07c1l3p5",
               "text": {
                 "en": "Bogle calls these the relentless rules of humble arithmetic. They need no forecasts and no theory, only subtraction.",
                 "fa": "Bogle این‌ها را «قواعد بی‌رحم حساب ساده» می‌نامد. نه پیش‌بینی لازم دارند و نه نظریه، فقط تفریق."
@@ -616,7 +438,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p6",
+              "id": "b07c1l3p6",
               "text": {
                 "en": "The costs include expense ratios, sales loads, advisory fees and the hidden cost of portfolio turnover. For active funds they often reach 2 percent a year or more.",
                 "fa": "این هزینه‌ها شامل نسبت هزینه، کارمزد فروش، کارمزد مشاوره و هزینهٔ پنهان گردش پرتفوی است. برای صندوق‌های فعال اغلب به ۲ درصد در سال یا بیشتر می‌رسد."
@@ -624,9 +446,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l4k2",
+              "id": "b07c1l3k2",
               "type": "tap",
-              "source": "b07c1l4p4",
+              "source": "b07c1l3p4",
               "prompt": {
                 "en": "What does the investor actually receive?",
                 "fa": "سرمایه‌گذار در واقع چه چیزی دریافت می‌کند؟"
@@ -649,7 +471,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p7",
+              "id": "b07c1l3p7",
               "text": {
                 "en": "Bogle calls this the Cost Matters Hypothesis. Unlike debates about market efficiency, it is simple arithmetic and always holds.",
                 "fa": "Bogle این را «فرضیهٔ اهمیت هزینه» می‌نامد. برخلاف بحث‌های مربوط به کارایی بازار، این یک حساب ساده است و همیشه برقرار است."
@@ -657,7 +479,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p8",
+              "id": "b07c1l3p8",
               "text": {
                 "en": "Some managers may be skilled, but the group as a whole cannot escape the math. Their average return must trail the market by about their average cost.",
                 "fa": "شاید بعضی مدیران ماهر باشند، اما کل گروه نمی‌تواند از این حساب فرار کند. میانگین بازده آن‌ها باید تقریباً به اندازهٔ میانگین هزینه‌شان از بازار عقب بماند."
@@ -665,7 +487,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p9",
+              "id": "b07c1l3p9",
               "text": {
                 "en": "You cannot control the market's return, but you can control what you pay. That is the one lever every investor holds.",
                 "fa": "بازده بازار را نمی‌توانی کنترل کنی، اما آنچه می‌پردازی را می‌توانی. این تنها اهرمی است که هر سرمایه‌گذاری در دست دارد."
@@ -673,9 +495,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l4k3",
+              "id": "b07c1l3k3",
               "type": "tap",
-              "source": "b07c1l4p9",
+              "source": "b07c1l3p9",
               "prompt": {
                 "en": "Which lever does every investor hold?",
                 "fa": "کدام اهرم در دست هر سرمایه‌گذاری است؟"
@@ -698,7 +520,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p10",
+              "id": "b07c1l3p10",
               "text": {
                 "en": "Do the subtraction: if the market returns 6 percent and costs are 2 percent, you keep 4, so a third of the return is gone.",
                 "fa": "تفریق را انجام بده: اگر بازار ۶ درصد بازده بدهد و هزینه‌ها ۲ درصد باشد، ۴ درصد برایت می‌ماند، یعنی یک‌سوم بازده از دست رفته است."
@@ -706,7 +528,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p11",
+              "id": "b07c1l3p11",
               "text": {
                 "en": "Low-cost index funds keep the subtraction small. That is why the humble arithmetic favors them year after year.",
                 "fa": "صندوق‌های شاخصی کم‌هزینه این تفریق را کوچک نگه می‌دارند. به همین دلیل حساب ساده سال‌به‌سال به نفع آن‌هاست."
@@ -714,7 +536,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c1l4p12",
+              "id": "b07c1l3p12",
               "text": {
                 "en": "Before you open a DEGIRO or Interactive Brokers account, write down every cost layer: fund fee, order fee, currency conversion and any yearly fee.",
                 "fa": "پیش از باز کردن حساب در DEGIRO یا Interactive Brokers، همهٔ لایه‌های هزینه را بنویس: کارمزد صندوق، کارمزد سفارش، تبدیل ارز و هر کارمزد سالانه."
@@ -722,9 +544,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c1l4k4",
+              "id": "b07c1l3k4",
               "type": "tf",
-              "source": "b07c1l4p8",
+              "source": "b07c1l3p8",
               "prompt": {
                 "en": "As a group, active managers' average return trails the market by about their average cost.",
                 "fa": "در مجموع، میانگین بازده مدیران فعال تقریباً به اندازهٔ میانگین هزینه‌شان از بازار عقب است."
@@ -1103,8 +925,8 @@
         {
           "id": "b07c2l3",
           "title": {
-            "en": "Taxes and leaner times",
-            "fa": "مالیات و دوران کم‌بازده"
+            "en": "Advice, loads and the majesty of simplicity",
+            "fa": "مشاوره، کارمزد فروش و شکوه سادگی"
           },
           "minutes": 12,
           "items": [
@@ -1113,192 +935,13 @@
               "id": "b07c2l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the chapters Taxes Are Costs, Too and When the Good Times No Longer Roll. It matters because more than fees sits between market return and yours.",
-                "fa": "این درس فصل‌های «مالیات هم هزینه است» و «وقتی روزهای خوش دیگر نمی‌چرخند» را خلاصه می‌کند. مهم است چون میان بازده بازار و بازده تو چیزی بیش از کارمزد فاصله انداخته است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p2",
-              "text": {
-                "en": "Active funds trade a lot, and in a taxable account each realized gain can trigger tax. Bogle counts that tax as another cost of active management.",
-                "fa": "صندوق‌های فعال زیاد معامله می‌کنند و در حساب مشمول مالیات، هر سود تحقق‌یافته می‌تواند مالیات بیاورد. Bogle این مالیات را هزینهٔ دیگری از مدیریت فعال می‌شمارد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p3",
-              "text": {
-                "en": "Index funds trade little, so they realize few gains. More of the return stays invested and compounds, which Bogle calls tax efficiency.",
-                "fa": "صندوق‌های شاخصی کم معامله می‌کنند، پس سود کمی را تحقق می‌بخشند. بخش بیشتری از بازده سرمایه‌گذاری‌شده می‌ماند و مرکب می‌شود؛ Bogle این را کارایی مالیاتی می‌نامد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c2l3k1",
-              "type": "tf",
-              "source": "b07c2l3p3",
-              "prompt": {
-                "en": "Index funds tend to be tax efficient because they trade little.",
-                "fa": "صندوق‌های شاخصی معمولاً از نظر مالیاتی کارآمدند، چون کم معامله می‌کنند."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p4",
-              "text": {
-                "en": "Bogle shows that after costs and taxes, the average active fund's lag behind the index grows wider still.",
-                "fa": "Bogle نشان می‌دهد که پس از هزینه‌ها و مالیات، عقب‌ماندگی میانگین صندوق فعال از شاخص باز هم بیشتر می‌شود."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p5",
-              "text": {
-                "en": "Tax rules differ by country, but the principle travels: every euro paid to the tax collector or the Helpers stops compounding for you.",
-                "fa": "قوانین مالیاتی در هر کشور فرق دارد، اما اصل همه‌جا صادق است: هر یورویی که به مأمور مالیات یا کمک‌کارها پرداخت شود، دیگر برای تو مرکب نمی‌شود."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p6",
-              "text": {
-                "en": "Next, Bogle warns that past decades of high returns may not repeat. When the good times no longer roll, costs eat a bigger share.",
-                "fa": "سپس Bogle هشدار می‌دهد که دهه‌های پربازده گذشته ممکن است تکرار نشوند. وقتی روزهای خوش دیگر نمی‌چرخند، هزینه‌ها سهم بزرگ‌تری می‌خورند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c2l3k2",
-              "type": "tap",
-              "source": "b07c2l3p5",
-              "prompt": {
-                "en": "What principle travels across tax systems?",
-                "fa": "کدام اصل در همهٔ نظام‌های مالیاتی صادق است؟"
-              },
-              "options": [
-                {
-                  "en": "Every euro paid stops compounding for you",
-                  "fa": "هر یورویی که پرداخت شود دیگر برایت مرکب نمی‌شود"
-                },
-                {
-                  "en": "Taxes never matter for index funds",
-                  "fa": "مالیات هرگز برای صندوق شاخصی مهم نیست"
-                },
-                {
-                  "en": "Higher taxes mean higher returns",
-                  "fa": "مالیات بیشتر یعنی بازده بیشتر"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p7",
-              "text": {
-                "en": "He builds his forecast from the same parts as before: today's dividend yield, plausible earnings growth, and a guess at the change in valuations.",
-                "fa": "او پیش‌بینی‌اش را از همان اجزای قبلی می‌سازد: بازده سود نقدی امروز، رشد معقول سود، و حدسی دربارهٔ تغییر ارزش‌گذاری‌ها."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p8",
-              "text": {
-                "en": "Writing in 2007, he expected returns in the coming decade to be lower than in the long bull market of 1982 to 1999.",
-                "fa": "او در سال ۲۰۰۷ انتظار داشت بازده دههٔ آینده کمتر از بازار گاوی طولانی ۱۹۸۲ تا ۱۹۹۹ باشد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p9",
-              "text": {
-                "en": "With lower returns, the same costs take a bigger share. Two points of cost is a fifth of a 10 percent return but a third of a 6 percent one.",
-                "fa": "با بازده کمتر، همان هزینه‌ها سهم بزرگ‌تری می‌برند. دو واحد هزینه، یک‌پنجم بازده ۱۰ درصدی است اما یک‌سوم بازده ۶ درصدی."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c2l3k3",
-              "type": "tap",
-              "source": "b07c2l3p9",
-              "prompt": {
-                "en": "Why do costs matter more when returns fall?",
-                "fa": "چرا وقتی بازده پایین می‌آید، هزینه‌ها مهم‌تر می‌شوند؟"
-              },
-              "options": [
-                {
-                  "en": "Costs fall automatically with returns",
-                  "fa": "هزینه‌ها خودبه‌خود با بازده پایین می‌آیند"
-                },
-                {
-                  "en": "The same costs take a bigger share",
-                  "fa": "همان هزینه‌ها سهم بزرگ‌تری می‌برند"
-                },
-                {
-                  "en": "Low returns cancel out fees",
-                  "fa": "بازده پایین کارمزدها را خنثی می‌کند"
-                }
-              ],
-              "answer": 1
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p10",
-              "text": {
-                "en": "Subtract inflation too: a 6 percent return, minus 2 percent costs and 3 percent inflation, leaves just 1 percent of real growth.",
-                "fa": "تورم را هم کم کن: بازده ۶ درصدی، منهای ۲ درصد هزینه و ۳ درصد تورم، فقط ۱ درصد رشد واقعی باقی می‌گذارد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p11",
-              "text": {
-                "en": "So in lean times the lowest-cost option matters most. The index fund keeps nearly all of whatever the market gives.",
-                "fa": "پس در دوران کم‌بازده، کم‌هزینه‌ترین گزینه از همه مهم‌تر است. صندوق شاخصی تقریباً همهٔ آنچه بازار می‌دهد را نگه می‌دارد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c2l3p12",
-              "text": {
-                "en": "Plan your 25-times-expenses target with modest real returns, not the best decade on record. A cautious plan that arrives beats a bold one that never does.",
-                "fa": "هدف ۲۵ برابر هزینهٔ سالانه را با بازده واقعی محتاطانه برنامه‌ریزی کن، نه با بهترین دههٔ تاریخ. برنامهٔ محتاطی که به مقصد می‌رسد، بهتر از برنامهٔ جسوری است که هرگز نمی‌رسد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c2l3k4",
-              "type": "tf",
-              "source": "b07c2l3p11",
-              "prompt": {
-                "en": "After 2 percent costs and 3 percent inflation, a 6 percent return leaves 4 percent of real growth.",
-                "fa": "پس از ۲ درصد هزینه و ۳ درصد تورم، بازده ۶ درصدی ۴ درصد رشد واقعی باقی می‌گذارد."
-              },
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "b07c2l4",
-          "title": {
-            "en": "Advice, loads and the majesty of simplicity",
-            "fa": "مشاوره، کارمزد فروش و شکوه سادگی"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b07c2l4p1",
-              "frame": true,
-              "text": {
                 "en": "This Lesson distils the chapters on seeking advice and the majesty of simplicity. It matters because the first person offering you help may be the costliest Helper of all.",
                 "fa": "این درس فصل‌های مربوط به مشاوره گرفتن و شکوه سادگی را خلاصه می‌کند. مهم است چون اولین کسی که به تو پیشنهاد کمک می‌دهد، شاید پرهزینه‌ترین کمک‌کار باشد."
               }
             },
             {
               "kind": "card",
-              "id": "b07c2l4p2",
+              "id": "b07c2l3p2",
               "text": {
                 "en": "Bogle looks at how investors who bought funds through brokers fared. On average they did worse than investors who chose low-cost funds themselves.",
                 "fa": "Bogle بررسی می‌کند سرمایه‌گذارانی که از طریق کارگزار صندوق خریدند چه نتیجه‌ای گرفتند. به‌طور میانگین بدتر از کسانی بودند که خودشان صندوق کم‌هزینه انتخاب کردند."
@@ -1306,7 +949,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p3",
+              "id": "b07c2l3p3",
               "text": {
                 "en": "Advisers often steer clients into funds with sales loads and higher fees, and into whatever has recently performed well.",
                 "fa": "مشاوران اغلب مشتری را به سمت صندوق‌هایی با کارمزد فروش و هزینهٔ بیشتر، و به سمت هر چه اخیراً خوب عمل کرده، هدایت می‌کنند."
@@ -1314,9 +957,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c2l4k1",
+              "id": "b07c2l3k1",
               "type": "tf",
-              "source": "b07c2l4p2",
+              "source": "b07c2l3p2",
               "prompt": {
                 "en": "On average, investors using brokers did better than those who picked low-cost funds themselves.",
                 "fa": "به‌طور میانگین، کسانی که از کارگزار استفاده کردند بهتر از کسانی بودند که خودشان صندوق کم‌هزینه انتخاب کردند."
@@ -1325,7 +968,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p4",
+              "id": "b07c2l3p4",
               "text": {
                 "en": "Bogle does not dismiss all advice. A good adviser can help with asset allocation, taxes and, above all, keeping you from acting on emotion.",
                 "fa": "Bogle همهٔ مشاوره‌ها را رد نمی‌کند. یک مشاور خوب می‌تواند در تخصیص دارایی، مالیات و مهم‌تر از همه، بازداشتنت از تصمیم‌های احساسی کمک کند."
@@ -1333,7 +976,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p5",
+              "id": "b07c2l3p5",
               "text": {
                 "en": "But an advisory fee of around 1 percent a year is one more layer of Helper. It must be earned back before you are ahead.",
                 "fa": "اما کارمزد مشاورهٔ حدود ۱ درصد در سال، یک لایهٔ دیگر از کمک‌کارهاست. باید پیش از آنکه جلو بیفتی، جبران شود."
@@ -1341,7 +984,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p6",
+              "id": "b07c2l3p6",
               "text": {
                 "en": "A Bogle-style test for any adviser: what does it cost each year, and does the advice point toward low-cost index funds or away from them?",
                 "fa": "آزمونی به سبک Bogle برای هر مشاور: سالانه چقدر هزینه دارد، و توصیه‌اش به سمت صندوق‌های شاخصی کم‌هزینه است یا دور از آن‌ها؟"
@@ -1349,9 +992,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c2l4k2",
+              "id": "b07c2l3k2",
               "type": "tap",
-              "source": "b07c2l4p4",
+              "source": "b07c2l3p4",
               "prompt": {
                 "en": "Where can a good adviser add value, per Bogle?",
                 "fa": "به گفتهٔ Bogle، یک مشاور خوب کجا می‌تواند ارزش بیافریند؟"
@@ -1374,7 +1017,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p7",
+              "id": "b07c2l3p7",
               "text": {
                 "en": "The chapter on simplicity argues that the simplest strategy is also the best. One broad index fund held for life beats most complex portfolios.",
                 "fa": "فصل سادگی استدلال می‌کند که ساده‌ترین راهبرد بهترین هم هست. یک صندوق شاخصی گسترده که تمام عمر نگهش داری، از بیشتر پرتفوهای پیچیده بهتر عمل می‌کند."
@@ -1382,7 +1025,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p8",
+              "id": "b07c2l3p8",
               "text": {
                 "en": "Complexity serves the Helpers: more products, more trades, more fees. Simplicity serves the owner.",
                 "fa": "پیچیدگی به سود کمک‌کارهاست: محصول بیشتر، معاملهٔ بیشتر، کارمزد بیشتر. سادگی به سود مالک است."
@@ -1390,7 +1033,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p9",
+              "id": "b07c2l3p9",
               "text": {
                 "en": "The index fund is not a bet on any manager or forecast. It is a bet on business itself, made at almost no cost.",
                 "fa": "صندوق شاخصی شرط‌بندی روی هیچ مدیر یا پیش‌بینی‌ای نیست. شرطی است روی خودِ کسب‌وکار، تقریباً بدون هزینه."
@@ -1398,9 +1041,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c2l4k3",
+              "id": "b07c2l3k3",
               "type": "tap",
-              "source": "b07c2l4p8",
+              "source": "b07c2l3p8",
               "prompt": {
                 "en": "Who does complexity serve?",
                 "fa": "پیچیدگی به سود چه کسی است؟"
@@ -1423,7 +1066,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p10",
+              "id": "b07c2l3p10",
               "text": {
                 "en": "Bogle invokes the 14th-century friar William of Occam: when there are several solutions to a problem, choose the simplest one.",
                 "fa": "Bogle به William of Occam، راهب قرن ۱۴، استناد می‌کند: وقتی برای یک مسئله چند راه‌حل هست، ساده‌ترین را انتخاب کن."
@@ -1431,7 +1074,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p11",
+              "id": "b07c2l3p11",
               "text": {
                 "en": "In investing, Occam's razor points to a total market index fund. It owns everything, costs little and needs no forecasting.",
                 "fa": "در سرمایه‌گذاری، تیغ Occam به صندوق شاخصی کل بازار اشاره می‌کند. مالک همه‌چیز است، کم‌هزینه است و به پیش‌بینی نیاز ندارد."
@@ -1439,7 +1082,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c2l4p12",
+              "id": "b07c2l3p12",
               "text": {
                 "en": "If a Dutch bank offers you a managed portfolio, add up its yearly fee and fund costs. Then compare that number with one broad ETF at around 0.2 percent.",
                 "fa": "اگر یک بانک هلندی پرتفوی مدیریت‌شده پیشنهاد داد، کارمزد سالانه و هزینهٔ صندوق‌هایش را جمع بزن. سپس آن عدد را با یک ETF گسترده با هزینهٔ حدود ۰٫۲ درصد مقایسه کن."
@@ -1447,9 +1090,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c2l4k4",
+              "id": "b07c2l3k4",
               "type": "tf",
-              "source": "b07c2l4p10",
+              "source": "b07c2l3p10",
               "prompt": {
                 "en": "Bogle invokes Occam's razor to favor the simplest solution.",
                 "fa": "Bogle با استناد به تیغ Occam ساده‌ترین راه‌حل را ترجیح می‌دهد."
@@ -1828,8 +1471,8 @@
         {
           "id": "b07c3l3",
           "title": {
-            "en": "Bond index funds and the ETF temptation",
-            "fa": "صندوق‌های شاخصی اوراق و وسوسهٔ ETF"
+            "en": "Simple asset allocation and staying the course",
+            "fa": "تخصیص سادهٔ دارایی و ماندن در مسیر"
           },
           "minutes": 12,
           "items": [
@@ -1838,192 +1481,13 @@
               "id": "b07c3l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the chapters on bond funds and exchange-traded funds. It matters because both can serve a simple plan, but the ETF also tempts you to trade.",
-                "fa": "این درس فصل‌های مربوط به صندوق‌های اوراق قرضه و صندوق‌های قابل معامله (ETF) را خلاصه می‌کند. مهم است چون هر دو می‌توانند در خدمت برنامهٔ ساده باشند، اما ETF وسوسهٔ معامله را هم با خود دارد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p2",
-              "text": {
-                "en": "Bond fund returns are tightly bunched, since bonds of similar quality and maturity pay similar yields. Cost differences decide most of the gap between funds.",
-                "fa": "بازده صندوق‌های اوراق قرضه خیلی به هم نزدیک است، چون اوراق با کیفیت و سررسید مشابه بازده مشابه می‌دهند. تفاوت هزینه‌ها بیشتر فاصلهٔ میان صندوق‌ها را تعیین می‌کند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p3",
-              "text": {
-                "en": "Bogle shows that high-cost bond funds hand a large share of their yield to expenses. In bonds, costs matter even more than in stocks.",
-                "fa": "Bogle نشان می‌دهد صندوق‌های اوراق پرهزینه سهم بزرگی از بازده‌شان را به هزینه‌ها می‌دهند. در اوراق قرضه، هزینه‌ها حتی از سهام هم مهم‌ترند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c3l3k1",
-              "type": "tap",
-              "source": "b07c3l3p2",
-              "prompt": {
-                "en": "Why do costs decide most of the gap between bond funds?",
-                "fa": "چرا هزینه‌ها بیشتر فاصلهٔ میان صندوق‌های اوراق را تعیین می‌کنند؟"
-              },
-              "options": [
-                {
-                  "en": "Bonds always beat stocks",
-                  "fa": "اوراق قرضه همیشه از سهام جلو می‌زنند"
-                },
-                {
-                  "en": "Bond fund returns are tightly bunched",
-                  "fa": "بازده صندوق‌های اوراق خیلی به هم نزدیک است"
-                },
-                {
-                  "en": "Bond managers are more skilled",
-                  "fa": "مدیران اوراق ماهرترند"
-                }
-              ],
-              "answer": 1
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p4",
-              "text": {
-                "en": "His answer is a low-cost bond index fund holding a broad mix of high-quality bonds. Money market funds follow the same rule: pick the cheapest.",
-                "fa": "پاسخ او یک صندوق شاخصی اوراق کم‌هزینه است که ترکیبی گسترده از اوراق باکیفیت دارد. صندوق‌های بازار پول هم از همین قاعده پیروی می‌کنند: ارزان‌ترین را انتخاب کن."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p5",
-              "text": {
-                "en": "Bonds give a portfolio steady income and cushion stock market falls. Bogle sees them as part of nearly every investor's mix.",
-                "fa": "اوراق قرضه به پرتفوی درآمد ثابت می‌دهند و افت بازار سهام را نرم می‌کنند. Bogle آن‌ها را بخشی از ترکیب تقریباً هر سرمایه‌گذاری می‌داند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p6",
-              "text": {
-                "en": "The exchange-traded fund began with the SPDR on the S&P 500 in 1993. Its inventor, Nathan Most, first offered the idea to Bogle, who turned it down.",
-                "fa": "ETF با SPDR روی S&P 500 در سال ۱۹۹۳ آغاز شد. مخترعش، Nathan Most، نخست این ایده را به Bogle پیشنهاد داد و او نپذیرفت."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c3l3k2",
-              "type": "tf",
-              "source": "b07c3l3p6",
-              "prompt": {
-                "en": "Bogle turned down the idea that became the first ETF.",
-                "fa": "Bogle ایده‌ای را که به نخستین ETF تبدیل شد رد کرد."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p7",
-              "text": {
-                "en": "A broad-market ETF held for the long term is simply an index fund in another wrapper. Bogle had no quarrel with that use.",
-                "fa": "ETF کل بازار که بلندمدت نگه داشته شود، همان صندوق شاخصی در بسته‌بندی دیگری است. Bogle با این نوع استفاده مشکلی نداشت."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p8",
-              "text": {
-                "en": "His worry was trading. ETFs can be bought and sold all day, and the SPDR's shares changed hands many times a year.",
-                "fa": "نگرانی او معامله بود. ETFها را می‌شود تمام روز خرید و فروخت، و سهام SPDR در هر سال بارها دست‌به‌دست می‌شد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p9",
-              "text": {
-                "en": "Many ETFs also track narrow slices: one sector, one country, leveraged bets. These invite speculation, not ownership of the whole market.",
-                "fa": "بسیاری از ETFها هم برش‌های باریک را دنبال می‌کنند: یک صنعت، یک کشور، شرط‌های اهرمی. این‌ها به سفته‌بازی دعوت می‌کنند، نه به مالکیت کل بازار."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c3l3k3",
-              "type": "tap",
-              "source": "b07c3l3p9",
-              "prompt": {
-                "en": "Which ETFs invite speculation rather than ownership?",
-                "fa": "کدام ETFها به‌جای مالکیت، به سفته‌بازی دعوت می‌کنند؟"
-              },
-              "options": [
-                {
-                  "en": "Broad-market ETFs held for decades",
-                  "fa": "ETFهای کل بازار که دهه‌ها نگه داشته می‌شوند"
-                },
-                {
-                  "en": "Total bond market index ETFs",
-                  "fa": "ETFهای شاخصی کل بازار اوراق"
-                },
-                {
-                  "en": "Narrow slices: one sector, one country",
-                  "fa": "برش‌های باریک: یک صنعت، یک کشور"
-                }
-              ],
-              "answer": 2
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p10",
-              "text": {
-                "en": "Bogle's distinction is between an investor and a trader. The same ETF serves the first and harms the second, depending on what you do with it.",
-                "fa": "تمایز Bogle میان سرمایه‌گذار و معامله‌گر است. همان ETF به اولی خدمت می‌کند و به دومی آسیب می‌زند، بسته به اینکه با آن چه می‌کنی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p11",
-              "text": {
-                "en": "Trading ETFs brings back the costs and timing errors that indexing was meant to remove. The haystack only works if you keep holding it.",
-                "fa": "معاملهٔ ETF همان هزینه‌ها و خطاهای زمان‌بندی را برمی‌گرداند که شاخص‌گذاری قرار بود حذف کند. انبار کاه فقط وقتی کار می‌کند که نگهش داری."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b07c3l3p12",
-              "text": {
-                "en": "VWCE or IWDA plus a broad euro bond index ETF can form your whole core. The rule is to buy on schedule and leave the sell button alone.",
-                "fa": "VWCE یا IWDA به‌علاوهٔ یک ETF شاخصی گستردهٔ اوراق یورویی می‌تواند کل هستهٔ تو را بسازد. قاعده این است: طبق برنامه بخر و به دکمهٔ فروش دست نزن."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b07c3l3k4",
-              "type": "tf",
-              "source": "b07c3l3p11",
-              "prompt": {
-                "en": "Frequent ETF trading brings back the costs and timing errors that indexing removes.",
-                "fa": "معاملهٔ مکرر ETF همان هزینه‌ها و خطاهای زمان‌بندی را برمی‌گرداند که شاخص‌گذاری حذف می‌کند."
-              },
-              "answer": true
-            }
-          ]
-        },
-        {
-          "id": "b07c3l4",
-          "title": {
-            "en": "Simple asset allocation and staying the course",
-            "fa": "تخصیص سادهٔ دارایی و ماندن در مسیر"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b07c3l4p1",
-              "frame": true,
-              "text": {
                 "en": "This Lesson distils Bogle's chapters on asset allocation and his closing advice. It matters because the split between stocks and bonds drives most of your risk.",
                 "fa": "این درس فصل‌های Bogle دربارهٔ تخصیص دارایی و توصیهٔ پایانی‌اش را خلاصه می‌کند. مهم است چون تقسیم میان سهام و اوراق بیشترِ ریسک تو را تعیین می‌کند."
               }
             },
             {
               "kind": "card",
-              "id": "b07c3l4p2",
+              "id": "b07c3l3p2",
               "text": {
                 "en": "Bogle treats the stock-bond mix as the first and most important investment decision. It sets how far your portfolio can fall and how calm you stay.",
                 "fa": "Bogle ترکیب سهام و اوراق را نخستین و مهم‌ترین تصمیم سرمایه‌گذاری می‌داند. همین تعیین می‌کند پرتفوی‌ات تا کجا می‌تواند افت کند و تو چقدر آرام می‌مانی."
@@ -2031,7 +1495,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p3",
+              "id": "b07c3l3p3",
               "text": {
                 "en": "His rough guideline: hold a bond share about equal to your age. A 30-year-old might hold about 30 percent bonds, a 60-year-old about 60.",
                 "fa": "قاعدهٔ سرانگشتی او: سهم اوراق را تقریباً برابر سنت نگه دار. یک فرد ۳۰ ساله شاید حدود ۳۰ درصد اوراق داشته باشد و یک فرد ۶۰ ساله حدود ۶۰ درصد."
@@ -2039,9 +1503,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c3l4k1",
+              "id": "b07c3l3k1",
               "type": "tap",
-              "source": "b07c3l4p3",
+              "source": "b07c3l3p3",
               "prompt": {
                 "en": "What is Bogle's rough bond guideline?",
                 "fa": "قاعدهٔ سرانگشتی Bogle برای اوراق چیست؟"
@@ -2064,7 +1528,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p4",
+              "id": "b07c3l3p4",
               "text": {
                 "en": "He calls it a starting point, not a law. Risk tolerance, other income and how soon you need the money should shift it.",
                 "fa": "او این را نقطهٔ شروع می‌داند، نه قانون. تحمل ریسک، درآمدهای دیگر و اینکه چقدر زود به پول نیاز داری، باید آن را جابه‌جا کنند."
@@ -2072,7 +1536,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p5",
+              "id": "b07c3l3p5",
               "text": {
                 "en": "Young savers still building wealth can hold more stocks; retirees drawing income may want more bonds. Bogle's sample mixes move along that line.",
                 "fa": "پس‌اندازکنندگان جوانی که هنوز ثروت می‌سازند می‌توانند سهام بیشتری نگه دارند؛ بازنشستگانی که از درآمد برداشت می‌کنند شاید اوراق بیشتری بخواهند. ترکیب‌های نمونهٔ Bogle در همین مسیر حرکت می‌کنند."
@@ -2080,7 +1544,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p6",
+              "id": "b07c3l3p6",
               "text": {
                 "en": "Within each part, keep it simple: a total stock market index fund and a total bond market index fund. Two funds can do the whole job.",
                 "fa": "در هر بخش، ساده نگهش دار: یک صندوق شاخصی کل بازار سهام و یک صندوق شاخصی کل بازار اوراق. دو صندوق می‌توانند همهٔ کار را انجام دهند."
@@ -2088,9 +1552,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c3l4k2",
+              "id": "b07c3l3k2",
               "type": "tf",
-              "source": "b07c3l4p6",
+              "source": "b07c3l3p6",
               "prompt": {
                 "en": "Bogle says a sensible plan needs at least ten different funds.",
                 "fa": "Bogle می‌گوید یک برنامهٔ معقول دست‌کم به ده صندوق مختلف نیاز دارد."
@@ -2099,7 +1563,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p7",
+              "id": "b07c3l3p7",
               "text": {
                 "en": "The hardest part is behavior. Bogle's closing rule is stay the course: costs matter, time is your friend, impulse is your enemy.",
                 "fa": "سخت‌ترین بخش رفتار است. قاعدهٔ پایانی Bogle این است که در مسیر بمانی: هزینه‌ها مهم‌اند، زمان دوست توست، تکانه دشمن توست."
@@ -2107,7 +1571,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p8",
+              "id": "b07c3l3p8",
               "text": {
                 "en": "Do not try to time the market or chase the hot fund. Buy the market, hold it, and keep costs low.",
                 "fa": "سعی نکن بازار را زمان‌بندی کنی یا دنبال صندوق داغ بروی. بازار را بخر، نگهش دار و هزینه‌ها را پایین نگه دار."
@@ -2115,7 +1579,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p9",
+              "id": "b07c3l3p9",
               "text": {
                 "en": "Bogle admits an index fund will rarely top the charts in any single year. Its edge is that it beats most investors over a lifetime.",
                 "fa": "Bogle می‌پذیرد که صندوق شاخصی به‌ندرت در یک سال تنها صدرنشین جدول‌ها می‌شود. برتری‌اش این است که در طول یک عمر از بیشتر سرمایه‌گذاران جلو می‌زند."
@@ -2123,9 +1587,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c3l4k3",
+              "id": "b07c3l3k3",
               "type": "tap",
-              "source": "b07c3l4p7",
+              "source": "b07c3l3p7",
               "prompt": {
                 "en": "In Bogle's closing rule, what is your enemy?",
                 "fa": "در قاعدهٔ پایانی Bogle، دشمن تو چیست؟"
@@ -2148,7 +1612,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p10",
+              "id": "b07c3l3p10",
               "text": {
                 "en": "His last word is common sense: owning all of business at low cost, and holding on, is the winning strategy for nearly everyone.",
                 "fa": "آخرین حرف او عقل سلیم است: مالکیت کل کسب‌وکارها با هزینهٔ کم، و نگه داشتنش، راهبرد برندهٔ تقریباً همه است."
@@ -2156,7 +1620,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p11",
+              "id": "b07c3l3p11",
               "text": {
                 "en": "This matches your roadmap: an 80 percent index core you rarely touch, with any ownership bets kept in the small satellite.",
                 "fa": "این با نقشهٔ راه تو جور است: هستهٔ شاخصی ۸۰ درصدی که به‌ندرت دست می‌زنی، و هر شرط مالکیتی در بخش کوچکِ ماهواره‌ای."
@@ -2164,7 +1628,7 @@
             },
             {
               "kind": "card",
-              "id": "b07c3l4p12",
+              "id": "b07c3l3p12",
               "text": {
                 "en": "Write your stock-bond split and fund choices in the decision journal now. When markets swing, reread that page before you touch anything.",
                 "fa": "همین حالا تقسیم سهام و اوراق و صندوق‌های انتخابی‌ات را در دفتر تصمیم بنویس. وقتی بازار نوسان کرد، پیش از هر اقدامی آن صفحه را دوباره بخوان."
@@ -2172,9 +1636,9 @@
             },
             {
               "kind": "check",
-              "id": "b07c3l4k4",
+              "id": "b07c3l3k4",
               "type": "tf",
-              "source": "b07c3l4p9",
+              "source": "b07c3l3p9",
               "prompt": {
                 "en": "Bogle claims an index fund tops the performance charts every year.",
                 "fa": "Bogle ادعا می‌کند صندوق شاخصی هر سال صدرنشین جدول عملکرد است."

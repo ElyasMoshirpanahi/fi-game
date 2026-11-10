@@ -17,6 +17,7 @@
     "fa": "بساز، بسنج، بیاموز"
   },
   "tier": "low",
+  "complexity": 2,
   "circles": [
     {
       "id": "b20c1",
@@ -429,7 +430,7 @@
             "en": "Innovation accounting, pivots and small batches",
             "fa": "حسابداری نوآوری، pivot و دسته‌های کوچک"
           },
-          "minutes": 13,
+          "minutes": 12,
           "items": [
             {
               "kind": "card",
@@ -499,14 +500,6 @@
               "text": {
                 "en": "Cohort analysis tracks each group of new customers separately, and split tests show two versions to different customers at once. Both reveal cause and effect that totals hide.",
                 "fa": "تحلیل cohort هر گروه از مشتری‌های تازه را جداگانه دنبال می‌کند و آزمون split دو نسخه را هم‌زمان به مشتری‌های متفاوت نشان می‌دهد. هر دو علت و معلولی را آشکار می‌کنند که مجموع‌ها پنهان می‌کنند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b20c1l3p6",
-              "text": {
-                "en": "Ries names the three A's of good metrics: actionable, accessible and auditable. Reports should be simple enough for everyone to read and traceable back to real customers.",
-                "fa": "Ries سه ویژگی معیار خوب را نام می‌برد: عمل‌پذیر، در دسترس و قابل حسابرسی. گزارش‌ها باید آن‌قدر ساده باشند که همه بخوانند و تا مشتری واقعی قابل ردیابی باشند."
               }
             },
             {

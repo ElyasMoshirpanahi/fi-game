@@ -1,266 +1,627 @@
 {
   "id": "b09",
   "title": "Global Asset Allocation",
-  "author": {"en": "Meb Faber", "fa": "Meb Faber"},
+  "author": {
+    "en": "Meb Faber",
+    "fa": "Meb Faber"
+  },
   "year": 2015,
   "stage": 2,
   "must": false,
-  "why": {"en": "Compares the world's famous portfolios; very short", "fa": "مقایسه سبدهای معروف دنیا؛ خیلی کوتاه"},
-  "badge": {"en": "Stick With It", "fa": "پای آن بمان"},
+  "why": {
+    "en": "Compares the world's famous portfolios; very short",
+    "fa": "مقایسه سبدهای معروف دنیا؛ خیلی کوتاه"
+  },
+  "badge": {
+    "en": "Stick With It",
+    "fa": "پای آن بمان"
+  },
   "tier": "low",
+  "complexity": 2,
   "circles": [
     {
       "id": "b09c1",
-      "title": {"en": "Any sensible mix, held cheaply, held long", "fa": "هر ترکیب معقول، ارزان نگه‌داشته، بلندمدت نگه‌داشته"},
+      "title": {
+        "en": "Any sensible mix, held cheaply, held long",
+        "fa": "هر ترکیب معقول، ارزان نگه‌داشته، بلندمدت نگه‌داشته"
+      },
       "lessons": [
         {
           "id": "b09c1l1",
-          "title": {"en": "The famous portfolios on one table", "fa": "سبدهای معروف روی یک میز"},
+          "title": {
+            "en": "The famous portfolios on one table",
+            "fa": "سبدهای معروف روی یک میز"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b09c1l1p1", "frame": true, "text": {
-              "en": "This Lesson distils the opening chapters: the history of stocks, bonds and bills, and the famous portfolios Faber lines up. It matters because your €40k needs one mix, and this is the menu.",
-              "fa": "این درس فصل‌های آغازین را خلاصه می‌کند: تاریخ سهام، اوراق قرضه و اسناد خزانه، و سبدهای معروفی که Faber کنار هم می‌چیند. مهم است چون ۴۰ هزار یوروی تو به یک ترکیب نیاز دارد و این منوی انتخاب است."
-            }},
-            {"kind": "card", "id": "b09c1l1p2", "text": {
-              "en": "Over long periods stocks beat bonds and bonds beat bills, but every asset has decade-long stretches of loss. Cash feels safe, yet after inflation it earns almost nothing.",
-              "fa": "در دوره‌های بلند، سهام از اوراق قرضه و اوراق قرضه از اسناد خزانه جلو می‌زند، اما هر دارایی دوره‌های زیان ده‌ساله دارد. نقد امن به نظر می‌رسد، ولی پس از تورم تقریباً هیچ نمی‌سازد."
-            }},
-            {"kind": "card", "id": "b09c1l1p3", "text": {
-              "en": "Faber judges every portfolio by its real return after inflation and by its worst drawdown. A portfolio that falls by half can scare its owner into selling at the bottom.",
-              "fa": "Faber هر سبد را با بازده واقعی پس از تورم و با بدترین افتش می‌سنجد. سبدی که نصف ارزشش را از دست بدهد می‌تواند صاحبش را چنان بترساند که در کف بفروشد."
-            }},
-            {"kind": "check", "id": "b09c1l1k1", "type": "tf", "source": "b09c1l1p2",
-              "prompt": {"en": "Faber shows that cash is the safe choice because it keeps its value after inflation.", "fa": "Faber نشان می‌دهد نقد انتخاب امن است چون ارزشش را پس از تورم حفظ می‌کند."},
-              "answer": false},
-            {"kind": "card", "id": "b09c1l1p4", "text": {
-              "en": "The benchmark is the classic 60/40: 60 percent stocks and 40 percent bonds. Faber also tests a global version that spreads both parts across the world's markets.",
-              "fa": "معیار مقایسه سبد کلاسیک ۶۰/۴۰ است: ۶۰ درصد سهام و ۴۰ درصد اوراق قرضه. Faber نسخهٔ جهانی آن را هم آزمایش می‌کند که هر دو بخش را در بازارهای سراسر دنیا پخش می‌کند."
-            }},
-            {"kind": "card", "id": "b09c1l1p5", "text": {
-              "en": "Harry Browne's Permanent Portfolio splits money into four equal parts: stocks, long-term bonds, gold and cash, one for each economic season of prosperity, inflation, deflation and recession.",
-              "fa": "Permanent Portfolio از Harry Browne پول را به چهار بخش مساوی تقسیم می‌کند: سهام، اوراق قرضهٔ بلندمدت، طلا و نقد؛ هر کدام برای یک فصل اقتصادی: رونق، تورم، تورم منفی و رکود."
-            }},
-            {"kind": "check", "id": "b09c1l1k2", "type": "tap", "source": "b09c1l1p5",
-              "prompt": {"en": "What are the four parts of Harry Browne's Permanent Portfolio?", "fa": "چهار بخش Permanent Portfolio از Harry Browne چیست؟"},
+            {
+              "kind": "card",
+              "id": "b09c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the opening chapters: the history of stocks, bonds and bills, and the famous portfolios Faber lines up. It matters because your €40k needs one mix, and this is the menu.",
+                "fa": "این درس فصل‌های آغازین را خلاصه می‌کند: تاریخ سهام، اوراق قرضه و اسناد خزانه، و سبدهای معروفی که Faber کنار هم می‌چیند. مهم است چون ۴۰ هزار یوروی تو به یک ترکیب نیاز دارد و این منوی انتخاب است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p2",
+              "text": {
+                "en": "Over long periods stocks beat bonds and bonds beat bills, but every asset has decade-long stretches of loss. Cash feels safe, yet after inflation it earns almost nothing.",
+                "fa": "در دوره‌های بلند، سهام از اوراق قرضه و اوراق قرضه از اسناد خزانه جلو می‌زند، اما هر دارایی دوره‌های زیان ده‌ساله دارد. نقد امن به نظر می‌رسد، ولی پس از تورم تقریباً هیچ نمی‌سازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p3",
+              "text": {
+                "en": "Faber judges every portfolio by its real return after inflation and by its worst drawdown. A portfolio that falls by half can scare its owner into selling at the bottom.",
+                "fa": "Faber هر سبد را با بازده واقعی پس از تورم و با بدترین افتش می‌سنجد. سبدی که نصف ارزشش را از دست بدهد می‌تواند صاحبش را چنان بترساند که در کف بفروشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l1k1",
+              "type": "tf",
+              "source": "b09c1l1p2",
+              "prompt": {
+                "en": "Faber shows that cash is the safe choice because it keeps its value after inflation.",
+                "fa": "Faber نشان می‌دهد نقد انتخاب امن است چون ارزشش را پس از تورم حفظ می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p4",
+              "text": {
+                "en": "The benchmark is the classic 60/40: 60 percent stocks and 40 percent bonds. Faber also tests a global version that spreads both parts across the world's markets.",
+                "fa": "معیار مقایسه سبد کلاسیک ۶۰/۴۰ است: ۶۰ درصد سهام و ۴۰ درصد اوراق قرضه. Faber نسخهٔ جهانی آن را هم آزمایش می‌کند که هر دو بخش را در بازارهای سراسر دنیا پخش می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p5",
+              "text": {
+                "en": "Harry Browne's Permanent Portfolio splits money into four equal parts: stocks, long-term bonds, gold and cash, one for each economic season of prosperity, inflation, deflation and recession.",
+                "fa": "Permanent Portfolio از Harry Browne پول را به چهار بخش مساوی تقسیم می‌کند: سهام، اوراق قرضهٔ بلندمدت، طلا و نقد؛ هر کدام برای یک فصل اقتصادی: رونق، تورم، تورم منفی و رکود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l1k2",
+              "type": "tap",
+              "source": "b09c1l1p5",
+              "prompt": {
+                "en": "What are the four parts of Harry Browne's Permanent Portfolio?",
+                "fa": "چهار بخش Permanent Portfolio از Harry Browne چیست؟"
+              },
               "options": [
-                {"en": "Stocks, long-term bonds, gold and cash", "fa": "سهام، اوراق قرضهٔ بلندمدت، طلا و نقد"},
-                {"en": "US stocks, foreign stocks, REITs and commodities", "fa": "سهام آمریکا، سهام خارجی، REIT و کالا"},
-                {"en": "Bonds, bills, crypto and real estate", "fa": "اوراق قرضه، اسناد خزانه، رمزارز و املاک"}
+                {
+                  "en": "Stocks, long-term bonds, gold and cash",
+                  "fa": "سهام، اوراق قرضهٔ بلندمدت، طلا و نقد"
+                },
+                {
+                  "en": "US stocks, foreign stocks, REITs and commodities",
+                  "fa": "سهام آمریکا، سهام خارجی، REIT و کالا"
+                },
+                {
+                  "en": "Bonds, bills, crypto and real estate",
+                  "fa": "اوراق قرضه، اسناد خزانه، رمزارز و املاک"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l1p6", "text": {
-              "en": "Ray Dalio's All Seasons portfolio, made public through Tony Robbins, holds 30 percent stocks, 55 percent medium and long-term bonds, and 15 percent gold and commodities.",
-              "fa": "سبد All Seasons از Ray Dalio که Tony Robbins آن را عمومی کرد، ۳۰ درصد سهام، ۵۵ درصد اوراق قرضهٔ میان‌مدت و بلندمدت و ۱۵ درصد طلا و کالا دارد."
-            }},
-            {"kind": "card", "id": "b09c1l1p7", "text": {
-              "en": "Its idea is risk parity: bonds swing less than stocks, so holding more of them lets each part carry a similar share of the risk.",
-              "fa": "ایدهٔ آن توازن ریسک (risk parity) است: اوراق قرضه کمتر از سهام نوسان دارند، پس با نگه‌داشتن مقدار بیشتری از آن‌ها هر بخش سهم مشابهی از ریسک را می‌کشد."
-            }},
-            {"kind": "check", "id": "b09c1l1k3", "type": "tf", "source": "b09c1l1p6",
-              "prompt": {"en": "Dalio's All Seasons portfolio puts most of its money in stocks.", "fa": "سبد All Seasons از Dalio بیشتر پولش را در سهام می‌گذارد."},
-              "answer": false},
-            {"kind": "card", "id": "b09c1l1p8", "text": {
-              "en": "The endowment model comes from David Swensen at Yale, who spread money across many asset classes. Faber's own Ivy Portfolio copies it with five equal parts.",
-              "fa": "مدل موقوفه‌ای از David Swensen در Yale می‌آید که پول را میان طبقه‌های داراییِ زیادی پخش کرد. Ivy Portfolio خود Faber آن را با پنج بخش مساوی تقلید می‌کند."
-            }},
-            {"kind": "card", "id": "b09c1l1p9", "text": {
-              "en": "The Ivy's five parts, 20 percent each, are US stocks, foreign stocks, bonds, real estate trusts (REITs) and commodities.",
-              "fa": "پنج بخش Ivy، هر کدام ۲۰ درصد، عبارت‌اند از سهام آمریکا، سهام خارجی، اوراق قرضه، صندوق‌های املاک (REIT) و کالا."
-            }},
-            {"kind": "check", "id": "b09c1l1k4", "type": "tap", "source": "b09c1l1p9",
-              "prompt": {"en": "Which five equal parts make up Faber's Ivy Portfolio?", "fa": "Ivy Portfolio از Faber از کدام پنج بخش مساوی تشکیل شده است؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p6",
+              "text": {
+                "en": "Ray Dalio's All Seasons portfolio, made public through Tony Robbins, holds 30 percent stocks, 55 percent medium and long-term bonds, and 15 percent gold and commodities.",
+                "fa": "سبد All Seasons از Ray Dalio که Tony Robbins آن را عمومی کرد، ۳۰ درصد سهام، ۵۵ درصد اوراق قرضهٔ میان‌مدت و بلندمدت و ۱۵ درصد طلا و کالا دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p7",
+              "text": {
+                "en": "Its idea is risk parity: bonds swing less than stocks, so holding more of them lets each part carry a similar share of the risk.",
+                "fa": "ایدهٔ آن توازن ریسک (risk parity) است: اوراق قرضه کمتر از سهام نوسان دارند، پس با نگه‌داشتن مقدار بیشتری از آن‌ها هر بخش سهم مشابهی از ریسک را می‌کشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l1k3",
+              "type": "tf",
+              "source": "b09c1l1p6",
+              "prompt": {
+                "en": "Dalio's All Seasons portfolio puts most of its money in stocks.",
+                "fa": "سبد All Seasons از Dalio بیشتر پولش را در سهام می‌گذارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p8",
+              "text": {
+                "en": "The endowment model comes from David Swensen at Yale, who spread money across many asset classes. Faber's own Ivy Portfolio copies it with five equal parts.",
+                "fa": "مدل موقوفه‌ای از David Swensen در Yale می‌آید که پول را میان طبقه‌های داراییِ زیادی پخش کرد. Ivy Portfolio خود Faber آن را با پنج بخش مساوی تقلید می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p9",
+              "text": {
+                "en": "The Ivy's five parts, 20 percent each, are US stocks, foreign stocks, bonds, real estate trusts (REITs) and commodities.",
+                "fa": "پنج بخش Ivy، هر کدام ۲۰ درصد، عبارت‌اند از سهام آمریکا، سهام خارجی، اوراق قرضه، صندوق‌های املاک (REIT) و کالا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l1k4",
+              "type": "tap",
+              "source": "b09c1l1p9",
+              "prompt": {
+                "en": "Which five equal parts make up Faber's Ivy Portfolio?",
+                "fa": "Ivy Portfolio از Faber از کدام پنج بخش مساوی تشکیل شده است؟"
+              },
               "options": [
-                {"en": "US stocks, foreign stocks, bonds, REITs and commodities", "fa": "سهام آمریکا، سهام خارجی، اوراق قرضه، REIT و کالا"},
-                {"en": "Stocks, gold, cash, bitcoin and art", "fa": "سهام، طلا، نقد، بیت‌کوین و هنر"},
-                {"en": "Only US stocks of five different sizes", "fa": "فقط سهام آمریکا در پنج اندازهٔ متفاوت"}
+                {
+                  "en": "US stocks, foreign stocks, bonds, REITs and commodities",
+                  "fa": "سهام آمریکا، سهام خارجی، اوراق قرضه، REIT و کالا"
+                },
+                {
+                  "en": "Stocks, gold, cash, bitcoin and art",
+                  "fa": "سهام، طلا، نقد، بیت‌کوین و هنر"
+                },
+                {
+                  "en": "Only US stocks of five different sizes",
+                  "fa": "فقط سهام آمریکا در پنج اندازهٔ متفاوت"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l1p10", "text": {
-              "en": "Faber also tests the mixes of well-known investors, such as Warren Buffett's suggested 90 percent stocks and 10 percent short-term government bonds.",
-              "fa": "Faber ترکیب‌های سرمایه‌گذاران مشهور را هم آزمایش می‌کند، مثل پیشنهاد Warren Buffett: ۹۰ درصد سهام و ۱۰ درصد اوراق قرضهٔ کوتاه‌مدت دولتی."
-            }},
-            {"kind": "card", "id": "b09c1l1p11", "text": {
-              "en": "Others include Marc Faber's quarters in stocks, bonds and cash, gold and real estate, plus mixes from Rob Arnott and Mohamed El-Erian.",
-              "fa": "نمونه‌های دیگر شامل یک‌چهارم‌های Marc Faber در سهام، اوراق قرضه و نقد، طلا و املاک، و ترکیب‌های Rob Arnott و Mohamed El-Erian است."
-            }},
-            {"kind": "card", "id": "b09c1l1p12", "text": {
-              "en": "Notice the menu runs from mostly stocks to mostly bonds and gold. The next Lesson shows what happened when Faber ran them all on the same forty years of data.",
-              "fa": "دقت کن منو از سبدهای عمدتاً سهامی تا سبدهای عمدتاً اوراق قرضه و طلا را در بر می‌گیرد. درس بعد نشان می‌دهد وقتی Faber همه را روی همان چهل سال داده اجرا کرد چه شد."
-            }},
-            {"kind": "check", "id": "b09c1l1k5", "type": "tf", "source": "b09c1l1p11",
-              "prompt": {"en": "Faber only tests portfolios made of stocks and bonds.", "fa": "Faber فقط سبدهایی را آزمایش می‌کند که از سهام و اوراق قرضه ساخته شده‌اند."},
-              "answer": false}
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p10",
+              "text": {
+                "en": "Faber also tests the mixes of well-known investors, such as Warren Buffett's suggested 90 percent stocks and 10 percent short-term government bonds.",
+                "fa": "Faber ترکیب‌های سرمایه‌گذاران مشهور را هم آزمایش می‌کند، مثل پیشنهاد Warren Buffett: ۹۰ درصد سهام و ۱۰ درصد اوراق قرضهٔ کوتاه‌مدت دولتی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p11",
+              "text": {
+                "en": "Others include Marc Faber's quarters in stocks, bonds and cash, gold and real estate, plus mixes from Rob Arnott and Mohamed El-Erian.",
+                "fa": "نمونه‌های دیگر شامل یک‌چهارم‌های Marc Faber در سهام، اوراق قرضه و نقد، طلا و املاک، و ترکیب‌های Rob Arnott و Mohamed El-Erian است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l1p12",
+              "text": {
+                "en": "Notice the menu runs from mostly stocks to mostly bonds and gold. The next Lesson shows what happened when Faber ran them all on the same forty years of data.",
+                "fa": "دقت کن منو از سبدهای عمدتاً سهامی تا سبدهای عمدتاً اوراق قرضه و طلا را در بر می‌گیرد. درس بعد نشان می‌دهد وقتی Faber همه را روی همان چهل سال داده اجرا کرد چه شد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l1k5",
+              "type": "tf",
+              "source": "b09c1l1p11",
+              "prompt": {
+                "en": "Faber only tests portfolios made of stocks and bonds.",
+                "fa": "Faber فقط سبدهایی را آزمایش می‌کند که از سهام و اوراق قرضه ساخته شده‌اند."
+              },
+              "answer": false
+            }
           ]
         },
         {
           "id": "b09c1l2",
-          "title": {"en": "Forty years, about one point apart", "fa": "چهل سال، حدود یک واحد فاصله"},
+          "title": {
+            "en": "Forty years, about one point apart",
+            "fa": "چهل سال، حدود یک واحد فاصله"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b09c1l2p1", "frame": true, "text": {
-              "en": "This Lesson distils Faber's comparison of the strategies, the central result of the book. It matters because it frees you from hunting for the perfect portfolio before you invest.",
-              "fa": "این درس مقایسهٔ استراتژی‌ها به دست Faber را خلاصه می‌کند، نتیجهٔ اصلی کتاب. مهم است چون تو را از جست‌وجوی سبد بی‌نقص پیش از سرمایه‌گذاری آزاد می‌کند."
-            }},
-            {"kind": "card", "id": "b09c1l2p2", "text": {
-              "en": "Faber runs every portfolio on the same data from 1973 to 2013, rebalanced once a year, so the comparison is fair.",
-              "fa": "Faber همهٔ سبدها را روی همان داده‌های ۱۹۷۳ تا ۲۰۱۳ و با تعادل‌بخشی سالی یک بار اجرا می‌کند تا مقایسه منصفانه باشد."
-            }},
-            {"kind": "card", "id": "b09c1l2p3", "text": {
-              "en": "The surprise: over four decades all the diversified portfolios landed within about one percentage point of annual return of each other. No allocation was a clear winner.",
-              "fa": "شگفتی اینجاست: در چهار دهه، همهٔ سبدهای متنوع از نظر بازده سالانه در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند. هیچ تخصیصی برندهٔ قاطع نبود."
-            }},
-            {"kind": "check", "id": "b09c1l2k1", "type": "tap", "source": "b09c1l2p3",
-              "prompt": {"en": "What did Faber find when he compared the famous portfolios?", "fa": "Faber وقتی سبدهای معروف را مقایسه کرد به چه نتیجه‌ای رسید؟"},
+            {
+              "kind": "card",
+              "id": "b09c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Faber's comparison of the strategies, the central result of the book. It matters because it frees you from hunting for the perfect portfolio before you invest.",
+                "fa": "این درس مقایسهٔ استراتژی‌ها به دست Faber را خلاصه می‌کند، نتیجهٔ اصلی کتاب. مهم است چون تو را از جست‌وجوی سبد بی‌نقص پیش از سرمایه‌گذاری آزاد می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p2",
+              "text": {
+                "en": "Faber runs every portfolio on the same data from 1973 to 2013, rebalanced once a year, so the comparison is fair.",
+                "fa": "Faber همهٔ سبدها را روی همان داده‌های ۱۹۷۳ تا ۲۰۱۳ و با تعادل‌بخشی سالی یک بار اجرا می‌کند تا مقایسه منصفانه باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p3",
+              "text": {
+                "en": "The surprise: over four decades all the diversified portfolios landed within about one percentage point of annual return of each other. No allocation was a clear winner.",
+                "fa": "شگفتی اینجاست: در چهار دهه، همهٔ سبدهای متنوع از نظر بازده سالانه در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند. هیچ تخصیصی برندهٔ قاطع نبود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l2k1",
+              "type": "tap",
+              "source": "b09c1l2p3",
+              "prompt": {
+                "en": "What did Faber find when he compared the famous portfolios?",
+                "fa": "Faber وقتی سبدهای معروف را مقایسه کرد به چه نتیجه‌ای رسید؟"
+              },
               "options": [
-                {"en": "All landed within about one percentage point of annual return", "fa": "همه در فاصلهٔ حدود یک واحد درصد بازده سالانه از هم قرار گرفتند"},
-                {"en": "The 60/40 portfolio beat every other one by a wide margin", "fa": "سبد ۶۰/۴۰ با فاصلهٔ زیاد از همه جلو زد"},
-                {"en": "Gold-heavy portfolios doubled the return of the rest", "fa": "سبدهای پرطلا بازده بقیه را دو برابر کردند"}
+                {
+                  "en": "All landed within about one percentage point of annual return",
+                  "fa": "همه در فاصلهٔ حدود یک واحد درصد بازده سالانه از هم قرار گرفتند"
+                },
+                {
+                  "en": "The 60/40 portfolio beat every other one by a wide margin",
+                  "fa": "سبد ۶۰/۴۰ با فاصلهٔ زیاد از همه جلو زد"
+                },
+                {
+                  "en": "Gold-heavy portfolios doubled the return of the rest",
+                  "fa": "سبدهای پرطلا بازده بقیه را دو برابر کردند"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l2p4", "text": {
-              "en": "The most different one, the Permanent Portfolio, earned somewhat less but with much smaller swings, thanks to its quarters in cash and gold.",
-              "fa": "متفاوت‌ترین سبد، Permanent Portfolio، کمی کمتر بازده داد اما با نوسان بسیار کمتر، به لطف یک‌چهارم‌هایش در نقد و طلا."
-            }},
-            {"kind": "card", "id": "b09c1l2p5", "text": {
-              "en": "Risk differed more than return: stock-heavy mixes had deeper drawdowns, while mixes heavy in bonds and gold fell less in bad years.",
-              "fa": "ریسک بیش از بازده فرق داشت: ترکیب‌های پرسهام افت‌های عمیق‌تری داشتند، در حالی که ترکیب‌های پر از اوراق قرضه و طلا در سال‌های بد کمتر افت کردند."
-            }},
-            {"kind": "check", "id": "b09c1l2k2", "type": "tf", "source": "b09c1l2p5",
-              "prompt": {"en": "In Faber's tests the portfolios differed more in risk than in return.", "fa": "در آزمایش‌های Faber سبدها بیشتر در ریسک با هم فرق داشتند تا در بازده."},
-              "answer": true},
-            {"kind": "card", "id": "b09c1l2p6", "text": {
-              "en": "Faber's point is that once a portfolio is broadly diversified, the exact weights move the result far less than investors expect.",
-              "fa": "حرف Faber این است که وقتی سبدی به‌طور گسترده متنوع شد، وزن‌های دقیق نتیجه را خیلی کمتر از انتظار سرمایه‌گذاران تغییر می‌دهند."
-            }},
-            {"kind": "card", "id": "b09c1l2p7", "text": {
-              "en": "He also warns that 1973 to 2013 included a long fall in interest rates, which gave bonds unusually strong returns that may not repeat.",
-              "fa": "او هشدار هم می‌دهد که سال‌های ۱۹۷۳ تا ۲۰۱۳ شامل افتی طولانی در نرخ بهره بود که بازده غیرعادی قوی به اوراق قرضه داد و شاید تکرار نشود."
-            }},
-            {"kind": "check", "id": "b09c1l2k3", "type": "tap", "source": "b09c1l2p7",
-              "prompt": {"en": "What does Faber warn about bonds in his test period?", "fa": "Faber دربارهٔ اوراق قرضه در دورهٔ آزمایشش چه هشداری می‌دهد؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p4",
+              "text": {
+                "en": "The most different one, the Permanent Portfolio, earned somewhat less but with much smaller swings, thanks to its quarters in cash and gold.",
+                "fa": "متفاوت‌ترین سبد، Permanent Portfolio، کمی کمتر بازده داد اما با نوسان بسیار کمتر، به لطف یک‌چهارم‌هایش در نقد و طلا."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p5",
+              "text": {
+                "en": "Risk differed more than return: stock-heavy mixes had deeper drawdowns, while mixes heavy in bonds and gold fell less in bad years.",
+                "fa": "ریسک بیش از بازده فرق داشت: ترکیب‌های پرسهام افت‌های عمیق‌تری داشتند، در حالی که ترکیب‌های پر از اوراق قرضه و طلا در سال‌های بد کمتر افت کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l2k2",
+              "type": "tf",
+              "source": "b09c1l2p5",
+              "prompt": {
+                "en": "In Faber's tests the portfolios differed more in risk than in return.",
+                "fa": "در آزمایش‌های Faber سبدها بیشتر در ریسک با هم فرق داشتند تا در بازده."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p6",
+              "text": {
+                "en": "Faber's point is that once a portfolio is broadly diversified, the exact weights move the result far less than investors expect.",
+                "fa": "حرف Faber این است که وقتی سبدی به‌طور گسترده متنوع شد، وزن‌های دقیق نتیجه را خیلی کمتر از انتظار سرمایه‌گذاران تغییر می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p7",
+              "text": {
+                "en": "He also warns that 1973 to 2013 included a long fall in interest rates, which gave bonds unusually strong returns that may not repeat.",
+                "fa": "او هشدار هم می‌دهد که سال‌های ۱۹۷۳ تا ۲۰۱۳ شامل افتی طولانی در نرخ بهره بود که بازده غیرعادی قوی به اوراق قرضه داد و شاید تکرار نشود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l2k3",
+              "type": "tap",
+              "source": "b09c1l2p7",
+              "prompt": {
+                "en": "What does Faber warn about bonds in his test period?",
+                "fa": "Faber دربارهٔ اوراق قرضه در دورهٔ آزمایشش چه هشداری می‌دهد؟"
+              },
               "options": [
-                {"en": "A long fall in interest rates gave bonds unusually strong returns", "fa": "افت طولانی نرخ بهره بازده غیرعادی قوی به اوراق قرضه داد"},
-                {"en": "Bonds lost money in every year of the test", "fa": "اوراق قرضه در همهٔ سال‌های آزمایش زیان دادند"},
-                {"en": "Bonds were left out of every portfolio", "fa": "اوراق قرضه از همهٔ سبدها کنار گذاشته شدند"}
+                {
+                  "en": "A long fall in interest rates gave bonds unusually strong returns",
+                  "fa": "افت طولانی نرخ بهره بازده غیرعادی قوی به اوراق قرضه داد"
+                },
+                {
+                  "en": "Bonds lost money in every year of the test",
+                  "fa": "اوراق قرضه در همهٔ سال‌های آزمایش زیان دادند"
+                },
+                {
+                  "en": "Bonds were left out of every portfolio",
+                  "fa": "اوراق قرضه از همهٔ سبدها کنار گذاشته شدند"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l2p8", "text": {
-              "en": "Every portfolio still had painful years, some long enough to test anyone's patience. No mix avoided bad periods entirely.",
-              "fa": "هر سبدی باز هم سال‌های دردناک داشت، بعضی آن‌قدر طولانی که صبر هر کسی را می‌آزمود. هیچ ترکیبی به‌کلی از دوره‌های بد فرار نکرد."
-            }},
-            {"kind": "card", "id": "b09c1l2p9", "text": {
-              "en": "So the choice between famous portfolios matters less than most investors think. What matters more is cost, taxes and whether you stay with the plan.",
-              "fa": "پس انتخاب میان سبدهای معروف کمتر از آنچه بیشتر سرمایه‌گذاران فکر می‌کنند اهمیت دارد. آنچه مهم‌تر است هزینه، مالیات و ماندن تو با برنامه است."
-            }},
-            {"kind": "check", "id": "b09c1l2k4", "type": "tf", "source": "b09c1l2p9",
-              "prompt": {"en": "Faber's results show that picking the right famous portfolio is the most important decision.", "fa": "نتایج Faber نشان می‌دهد انتخاب سبد معروف درست مهم‌ترین تصمیم است."},
-              "answer": false},
-            {"kind": "card", "id": "b09c1l2p10", "text": {
-              "en": "Switching to whatever did best last year means buying after strong runs and selling after weak ones. That chasing can cost more than the gap between any two allocations.",
-              "fa": "رفتن سراغ هر چیزی که پارسال بهتر بود یعنی خرید بعد از دوره‌های قوی و فروش بعد از دوره‌های ضعیف. این دنبال‌کردن می‌تواند بیش از فاصلهٔ هر دو تخصیصی هزینه داشته باشد."
-            }},
-            {"kind": "card", "id": "b09c1l2p11", "text": {
-              "en": "For you, a 70/30 versus an 80/20 split, or VWCE versus IWDA, sits inside that one-point band. Pick a sensible mix in a week, not a year.",
-              "fa": "برای تو، تقسیم ۷۰/۳۰ در برابر ۸۰/۲۰، یا VWCE در برابر IWDA، درون همان بازهٔ یک واحدی است. یک ترکیب معقول را در یک هفته انتخاب کن، نه یک سال."
-            }},
-            {"kind": "card", "id": "b09c1l2p12", "text": {
-              "en": "Write your chosen mix and Faber's one-point result in your decision journal. When a rival portfolio beats yours for a year, re-read that page first.",
-              "fa": "ترکیب انتخابی‌ات و نتیجهٔ یک واحدی Faber را در دفتر تصمیمت بنویس. وقتی سبد رقیبی یک سال از سبدت جلو زد، اول همان صفحه را دوباره بخوان."
-            }},
-            {"kind": "check", "id": "b09c1l2k5", "type": "tap", "source": "b09c1l2p11",
-              "prompt": {"en": "Where does a choice between a 70/30 and an 80/20 split sit?", "fa": "انتخاب میان تقسیم ۷۰/۳۰ و ۸۰/۲۰ کجا قرار می‌گیرد؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p8",
+              "text": {
+                "en": "Every portfolio still had painful years, some long enough to test anyone's patience. No mix avoided bad periods entirely.",
+                "fa": "هر سبدی باز هم سال‌های دردناک داشت، بعضی آن‌قدر طولانی که صبر هر کسی را می‌آزمود. هیچ ترکیبی به‌کلی از دوره‌های بد فرار نکرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p9",
+              "text": {
+                "en": "So the choice between famous portfolios matters less than most investors think. What matters more is cost, taxes and whether you stay with the plan.",
+                "fa": "پس انتخاب میان سبدهای معروف کمتر از آنچه بیشتر سرمایه‌گذاران فکر می‌کنند اهمیت دارد. آنچه مهم‌تر است هزینه، مالیات و ماندن تو با برنامه است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l2k4",
+              "type": "tf",
+              "source": "b09c1l2p9",
+              "prompt": {
+                "en": "Faber's results show that picking the right famous portfolio is the most important decision.",
+                "fa": "نتایج Faber نشان می‌دهد انتخاب سبد معروف درست مهم‌ترین تصمیم است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p10",
+              "text": {
+                "en": "Switching to whatever did best last year means buying after strong runs and selling after weak ones. That chasing can cost more than the gap between any two allocations.",
+                "fa": "رفتن سراغ هر چیزی که پارسال بهتر بود یعنی خرید بعد از دوره‌های قوی و فروش بعد از دوره‌های ضعیف. این دنبال‌کردن می‌تواند بیش از فاصلهٔ هر دو تخصیصی هزینه داشته باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p11",
+              "text": {
+                "en": "For you, a 70/30 versus an 80/20 split, or VWCE versus IWDA, sits inside that one-point band. Pick a sensible mix in a week, not a year.",
+                "fa": "برای تو، تقسیم ۷۰/۳۰ در برابر ۸۰/۲۰، یا VWCE در برابر IWDA، درون همان بازهٔ یک واحدی است. یک ترکیب معقول را در یک هفته انتخاب کن، نه یک سال."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l2p12",
+              "text": {
+                "en": "Write your chosen mix and Faber's one-point result in your decision journal. When a rival portfolio beats yours for a year, re-read that page first.",
+                "fa": "ترکیب انتخابی‌ات و نتیجهٔ یک واحدی Faber را در دفتر تصمیمت بنویس. وقتی سبد رقیبی یک سال از سبدت جلو زد، اول همان صفحه را دوباره بخوان."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l2k5",
+              "type": "tap",
+              "source": "b09c1l2p11",
+              "prompt": {
+                "en": "Where does a choice between a 70/30 and an 80/20 split sit?",
+                "fa": "انتخاب میان تقسیم ۷۰/۳۰ و ۸۰/۲۰ کجا قرار می‌گیرد؟"
+              },
               "options": [
-                {"en": "Inside the one-point band", "fa": "درون همان بازهٔ یک واحدی"},
-                {"en": "Far beyond the gap between any two strategies", "fa": "خیلی فراتر از فاصلهٔ هر دو استراتژی"},
-                {"en": "It decides most of your future return", "fa": "بیشتر بازده آینده‌ات را تعیین می‌کند"}
+                {
+                  "en": "Inside the one-point band",
+                  "fa": "درون همان بازهٔ یک واحدی"
+                },
+                {
+                  "en": "Far beyond the gap between any two strategies",
+                  "fa": "خیلی فراتر از فاصلهٔ هر دو استراتژی"
+                },
+                {
+                  "en": "It decides most of your future return",
+                  "fa": "بیشتر بازده آینده‌ات را تعیین می‌کند"
+                }
               ],
-              "answer": 0}
+              "answer": 0
+            }
           ]
         },
         {
           "id": "b09c1l3",
-          "title": {"en": "Start global, keep costs low, stay put", "fa": "جهانی شروع کن، هزینه را پایین نگه دار، بمان"},
+          "title": {
+            "en": "Start global, keep costs low, stay put",
+            "fa": "جهانی شروع کن، هزینه را پایین نگه دار، بمان"
+          },
           "minutes": 12,
           "items": [
-            {"kind": "card", "id": "b09c1l3p1", "frame": true, "text": {
-              "en": "This Lesson distils the chapters on the global market portfolio, on fees and taxes, and Faber's summary. It matters because these choices really move your result at a broker.",
-              "fa": "این درس فصل‌های سبد بازار جهانی، کارمزد و مالیات، و جمع‌بندی Faber را خلاصه می‌کند. مهم است چون این انتخاب‌ها واقعاً نتیجهٔ تو را نزد کارگزار تغییر می‌دهند."
-            }},
-            {"kind": "card", "id": "b09c1l3p2", "text": {
-              "en": "The global market portfolio holds every asset in the world in proportion to its market value. It is the one mix that all investors together actually own.",
-              "fa": "سبد بازار جهانی (global market portfolio) هر دارایی دنیا را به نسبت ارزش بازارش نگه می‌دارد. این تنها ترکیبی است که همهٔ سرمایه‌گذاران روی هم واقعاً مالکش هستند."
-            }},
-            {"kind": "card", "id": "b09c1l3p3", "text": {
-              "en": "Faber treats it as the natural starting point: it needs no forecasts and almost no rebalancing, because its weights move with the markets.",
-              "fa": "Faber آن را نقطهٔ شروع طبیعی می‌داند: به هیچ پیش‌بینی و تقریباً هیچ تعادل‌بخشی نیاز ندارد، چون وزن‌هایش همراه بازارها حرکت می‌کنند."
-            }},
-            {"kind": "check", "id": "b09c1l3k1", "type": "tap", "source": "b09c1l3p2",
-              "prompt": {"en": "What does the global market portfolio hold?", "fa": "سبد بازار جهانی چه چیزی نگه می‌دارد؟"},
+            {
+              "kind": "card",
+              "id": "b09c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on the global market portfolio, on fees and taxes, and Faber's summary. It matters because these choices really move your result at a broker.",
+                "fa": "این درس فصل‌های سبد بازار جهانی، کارمزد و مالیات، و جمع‌بندی Faber را خلاصه می‌کند. مهم است چون این انتخاب‌ها واقعاً نتیجهٔ تو را نزد کارگزار تغییر می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p2",
+              "text": {
+                "en": "The global market portfolio holds every asset in the world in proportion to its market value. It is the one mix that all investors together actually own.",
+                "fa": "سبد بازار جهانی (global market portfolio) هر دارایی دنیا را به نسبت ارزش بازارش نگه می‌دارد. این تنها ترکیبی است که همهٔ سرمایه‌گذاران روی هم واقعاً مالکش هستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p3",
+              "text": {
+                "en": "Faber treats it as the natural starting point: it needs no forecasts and almost no rebalancing, because its weights move with the markets.",
+                "fa": "Faber آن را نقطهٔ شروع طبیعی می‌داند: به هیچ پیش‌بینی و تقریباً هیچ تعادل‌بخشی نیاز ندارد، چون وزن‌هایش همراه بازارها حرکت می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l3k1",
+              "type": "tap",
+              "source": "b09c1l3p2",
+              "prompt": {
+                "en": "What does the global market portfolio hold?",
+                "fa": "سبد بازار جهانی چه چیزی نگه می‌دارد؟"
+              },
               "options": [
-                {"en": "Every asset in the world in proportion to its market value", "fa": "هر دارایی دنیا به نسبت ارزش بازارش"},
-                {"en": "Equal parts of the five best assets of last year", "fa": "سهم‌های مساوی از پنج داراییِ برتر پارسال"},
-                {"en": "Only the stocks of the largest country", "fa": "فقط سهام بزرگ‌ترین کشور"}
+                {
+                  "en": "Every asset in the world in proportion to its market value",
+                  "fa": "هر دارایی دنیا به نسبت ارزش بازارش"
+                },
+                {
+                  "en": "Equal parts of the five best assets of last year",
+                  "fa": "سهم‌های مساوی از پنج داراییِ برتر پارسال"
+                },
+                {
+                  "en": "Only the stocks of the largest country",
+                  "fa": "فقط سهام بزرگ‌ترین کشور"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l3p4", "text": {
-              "en": "In Faber's data it was a bit under half stocks, with the rest mostly bonds and a small slice of real assets such as real estate.",
-              "fa": "در داده‌های Faber کمی کمتر از نصف آن سهام بود و باقی عمدتاً اوراق قرضه، با برش کوچکی از دارایی‌های واقعی مثل املاک."
-            }},
-            {"kind": "card", "id": "b09c1l3p5", "text": {
-              "en": "Its returns landed in the same narrow band as the famous portfolios. That is Faber's point: the market's own mix is already a competitive choice.",
-              "fa": "بازده آن در همان بازهٔ باریک سبدهای معروف قرار گرفت. حرف Faber همین است: ترکیب خود بازار از قبل انتخابی رقابتی است."
-            }},
-            {"kind": "check", "id": "b09c1l3k2", "type": "tf", "source": "b09c1l3p5",
-              "prompt": {"en": "Faber found the global market portfolio did far worse than the famous portfolios.", "fa": "Faber دریافت سبد بازار جهانی خیلی بدتر از سبدهای معروف عمل کرد."},
-              "answer": false},
-            {"kind": "card", "id": "b09c1l3p6", "text": {
-              "en": "Fees and taxes can cost more than the gap between the best and worst allocation. A good portfolio held in expensive funds can lose to a mediocre one held in cheap ETFs.",
-              "fa": "کارمزد و مالیات می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد. یک سبد خوب در صندوق‌های گران می‌تواند از یک سبد متوسط در ETFهای ارزان عقب بماند."
-            }},
-            {"kind": "card", "id": "b09c1l3p7", "text": {
-              "en": "Faber shows that an advisor charging around 1 percent a year, plus fund fees, can turn the best allocation into one of the worst.",
-              "fa": "Faber نشان می‌دهد مشاوری که سالانه حدود ۱ درصد می‌گیرد، به‌اضافهٔ کارمزد صندوق‌ها، می‌تواند بهترین تخصیص را به یکی از بدترین‌ها تبدیل کند."
-            }},
-            {"kind": "check", "id": "b09c1l3k3", "type": "tap", "source": "b09c1l3p6",
-              "prompt": {"en": "What can cost more than the gap between the best and worst allocation?", "fa": "چه چیزی می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p4",
+              "text": {
+                "en": "In Faber's data it was a bit under half stocks, with the rest mostly bonds and a small slice of real assets such as real estate.",
+                "fa": "در داده‌های Faber کمی کمتر از نصف آن سهام بود و باقی عمدتاً اوراق قرضه، با برش کوچکی از دارایی‌های واقعی مثل املاک."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p5",
+              "text": {
+                "en": "Its returns landed in the same narrow band as the famous portfolios. That is Faber's point: the market's own mix is already a competitive choice.",
+                "fa": "بازده آن در همان بازهٔ باریک سبدهای معروف قرار گرفت. حرف Faber همین است: ترکیب خود بازار از قبل انتخابی رقابتی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l3k2",
+              "type": "tf",
+              "source": "b09c1l3p5",
+              "prompt": {
+                "en": "Faber found the global market portfolio did far worse than the famous portfolios.",
+                "fa": "Faber دریافت سبد بازار جهانی خیلی بدتر از سبدهای معروف عمل کرد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p6",
+              "text": {
+                "en": "Fees and taxes can cost more than the gap between the best and worst allocation. A good portfolio held in expensive funds can lose to a mediocre one held in cheap ETFs.",
+                "fa": "کارمزد و مالیات می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد. یک سبد خوب در صندوق‌های گران می‌تواند از یک سبد متوسط در ETFهای ارزان عقب بماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p7",
+              "text": {
+                "en": "Faber shows that an advisor charging around 1 percent a year, plus fund fees, can turn the best allocation into one of the worst.",
+                "fa": "Faber نشان می‌دهد مشاوری که سالانه حدود ۱ درصد می‌گیرد، به‌اضافهٔ کارمزد صندوق‌ها، می‌تواند بهترین تخصیص را به یکی از بدترین‌ها تبدیل کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l3k3",
+              "type": "tap",
+              "source": "b09c1l3p6",
+              "prompt": {
+                "en": "What can cost more than the gap between the best and worst allocation?",
+                "fa": "چه چیزی می‌تواند بیش از فاصلهٔ بهترین و بدترین تخصیص هزینه داشته باشد؟"
+              },
               "options": [
-                {"en": "Fees and taxes", "fa": "کارمزد و مالیات"},
-                {"en": "Rebalancing once a year", "fa": "تعادل‌بخشی سالی یک بار"},
-                {"en": "Holding foreign stocks", "fa": "نگه‌داشتن سهام خارجی"}
+                {
+                  "en": "Fees and taxes",
+                  "fa": "کارمزد و مالیات"
+                },
+                {
+                  "en": "Rebalancing once a year",
+                  "fa": "تعادل‌بخشی سالی یک بار"
+                },
+                {
+                  "en": "Holding foreign stocks",
+                  "fa": "نگه‌داشتن سهام خارجی"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b09c1l3p8", "text": {
-              "en": "His fix is plain: build the allocation from low-cost index ETFs, and hold the least tax-efficient assets where taxes hurt least.",
-              "fa": "راه‌حل او ساده است: تخصیص را با ETFهای شاخصی کم‌هزینه بساز و دارایی‌هایی را که از نظر مالیاتی ناکارآمدترند جایی نگه دار که مالیات کمترین آسیب را بزند."
-            }},
-            {"kind": "card", "id": "b09c1l3p9", "text": {
-              "en": "Faber's rule: pick any sensible global, diversified allocation, buy it with low-cost funds and then stick with it. Switching portfolios after a bad year is what ruins results.",
-              "fa": "قاعدهٔ Faber: یک تخصیص معقول، جهانی و متنوع انتخاب کن، با صندوق‌های کم‌هزینه بخر و بعد پای آن بمان. عوض کردن سبد بعد از یک سال بد همان چیزی است که نتیجه را خراب می‌کند."
-            }},
-            {"kind": "check", "id": "b09c1l3k4", "type": "tf", "source": "b09c1l3p9",
-              "prompt": {"en": "Faber's advice is to pick a sensible diversified allocation, buy it cheaply and stick with it.", "fa": "توصیهٔ Faber این است که یک تخصیص معقول و متنوع انتخاب کنی، ارزان بخری و پای آن بمانی."},
-              "answer": true},
-            {"kind": "card", "id": "b09c1l3p10", "text": {
-              "en": "VWCE holds stocks across the world by market value, so it already mirrors the stock part of the global market portfolio in one cheap fund.",
-              "fa": "VWCE سهام سراسر دنیا را به نسبت ارزش بازار نگه می‌دارد، پس همین حالا بخش سهامی سبد بازار جهانی را در یک صندوق ارزان بازتاب می‌دهد."
-            }},
-            {"kind": "card", "id": "b09c1l3p11", "text": {
-              "en": "When you compare Interactive Brokers and DEGIRO, add up ten years of trading, custody and fund costs, then learn how Box 3 taxes what you hold.",
-              "fa": "وقتی Interactive Brokers و DEGIRO را مقایسه می‌کنی، هزینهٔ معامله، نگهداری و صندوق را برای ده سال جمع بزن، بعد یاد بگیر Box 3 چطور از دارایی‌هایت مالیات می‌گیرد."
-            }},
-            {"kind": "card", "id": "b09c1l3p12", "text": {
-              "en": "Your 80 percent index core follows Faber's rule: start near the global market, keep costs low and stick with it while the satellites take the risks.",
-              "fa": "هستهٔ ۸۰ درصدی شاخصی تو از قاعدهٔ Faber پیروی می‌کند: نزدیک بازار جهانی شروع کن، هزینه را پایین نگه دار و پایش بمان، در حالی که اقمار ریسک‌ها را می‌پذیرند."
-            }},
-            {"kind": "check", "id": "b09c1l3k5", "type": "tap", "source": "b09c1l3p11",
-              "prompt": {"en": "When comparing brokers, what should you add up?", "fa": "هنگام مقایسهٔ کارگزارها چه چیزی را باید جمع بزنی؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p8",
+              "text": {
+                "en": "His fix is plain: build the allocation from low-cost index ETFs, and hold the least tax-efficient assets where taxes hurt least.",
+                "fa": "راه‌حل او ساده است: تخصیص را با ETFهای شاخصی کم‌هزینه بساز و دارایی‌هایی را که از نظر مالیاتی ناکارآمدترند جایی نگه دار که مالیات کمترین آسیب را بزند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p9",
+              "text": {
+                "en": "Faber's rule: pick any sensible global, diversified allocation, buy it with low-cost funds and then stick with it. Switching portfolios after a bad year is what ruins results.",
+                "fa": "قاعدهٔ Faber: یک تخصیص معقول، جهانی و متنوع انتخاب کن، با صندوق‌های کم‌هزینه بخر و بعد پای آن بمان. عوض کردن سبد بعد از یک سال بد همان چیزی است که نتیجه را خراب می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l3k4",
+              "type": "tf",
+              "source": "b09c1l3p9",
+              "prompt": {
+                "en": "Faber's advice is to pick a sensible diversified allocation, buy it cheaply and stick with it.",
+                "fa": "توصیهٔ Faber این است که یک تخصیص معقول و متنوع انتخاب کنی، ارزان بخری و پای آن بمانی."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p10",
+              "text": {
+                "en": "VWCE holds stocks across the world by market value, so it already mirrors the stock part of the global market portfolio in one cheap fund.",
+                "fa": "VWCE سهام سراسر دنیا را به نسبت ارزش بازار نگه می‌دارد، پس همین حالا بخش سهامی سبد بازار جهانی را در یک صندوق ارزان بازتاب می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p11",
+              "text": {
+                "en": "When you compare Interactive Brokers and DEGIRO, add up ten years of trading, custody and fund costs, then learn how Box 3 taxes what you hold.",
+                "fa": "وقتی Interactive Brokers و DEGIRO را مقایسه می‌کنی، هزینهٔ معامله، نگهداری و صندوق را برای ده سال جمع بزن، بعد یاد بگیر Box 3 چطور از دارایی‌هایت مالیات می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b09c1l3p12",
+              "text": {
+                "en": "Your 80 percent index core follows Faber's rule: start near the global market, keep costs low and stick with it while the satellites take the risks.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی تو از قاعدهٔ Faber پیروی می‌کند: نزدیک بازار جهانی شروع کن، هزینه را پایین نگه دار و پایش بمان، در حالی که اقمار ریسک‌ها را می‌پذیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b09c1l3k5",
+              "type": "tap",
+              "source": "b09c1l3p11",
+              "prompt": {
+                "en": "When comparing brokers, what should you add up?",
+                "fa": "هنگام مقایسهٔ کارگزارها چه چیزی را باید جمع بزنی؟"
+              },
               "options": [
-                {"en": "Ten years of trading, custody and fund costs", "fa": "ده سال هزینهٔ معامله، نگهداری و صندوق"},
-                {"en": "Only the price of the first trade", "fa": "فقط قیمت اولین معامله"},
-                {"en": "Last year's return of each broker's app", "fa": "بازده پارسال اپ هر کارگزار"}
+                {
+                  "en": "Ten years of trading, custody and fund costs",
+                  "fa": "ده سال هزینهٔ معامله، نگهداری و صندوق"
+                },
+                {
+                  "en": "Only the price of the first trade",
+                  "fa": "فقط قیمت اولین معامله"
+                },
+                {
+                  "en": "Last year's return of each broker's app",
+                  "fa": "بازده پارسال اپ هر کارگزار"
+                }
               ],
-              "answer": 0}
+              "answer": 0
+            }
           ]
         }
       ]

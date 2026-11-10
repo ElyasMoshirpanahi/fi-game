@@ -17,6 +17,7 @@
     "fa": "سود، نقد نیست"
   },
   "tier": "high",
+  "complexity": 4,
   "circles": [
     {
       "id": "b10c1",
@@ -31,7 +32,7 @@
             "en": "Financial intelligence and the art of finance",
             "fa": "هوش مالی و هنر مالی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -212,6 +213,33 @@
                 "fa": "پرسیدن این‌که چه برآوردهایی پشت عدد سود است، نشانهٔ هوش مالی است."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p13",
+              "text": {
+                "en": "The authors stress that financial intelligence does not mean becoming an accountant. It means knowing enough to ask good questions and to understand the answers.",
+                "fa": "نویسندگان تأکید می‌کنند هوش مالی یعنی حسابدار شدن نیست. یعنی آن‌قدر بدانی که پرسش‌های خوب بپرسی و پاسخ‌ها را بفهمی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l1p14",
+              "text": {
+                "en": "They argue that when more people in a company understand finance, decisions improve at every level, not only in the finance department.",
+                "fa": "آن‌ها استدلال می‌کنند وقتی افراد بیشتری در شرکت مالی را بفهمند، تصمیم‌ها در همهٔ سطوح بهتر می‌شود، نه فقط در واحد مالی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l1k6",
+              "type": "tf",
+              "source": "b10c1l1p13",
+              "prompt": {
+                "en": "Financial intelligence means you must become a trained accountant.",
+                "fa": "هوش مالی یعنی باید حسابدار آموزش‌دیده شوی."
+              },
+              "answer": false
             }
           ]
         },
@@ -221,7 +249,7 @@
             "en": "The rules accountants follow",
             "fa": "قواعدی که حسابداران دنبال می‌کنند"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -402,6 +430,33 @@
                 "fa": "پیش از گرفتن سهام، ارزش دارد بپرسی استارتاپ از چه روشی برای درآمد استفاده می‌کند."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p13",
+              "text": {
+                "en": "Accrual accounting, the approach GAAP requires, records revenue when it is earned and costs when they are incurred, not when cash changes hands.",
+                "fa": "حسابداری تعهدی، روشی که GAAP الزامی می‌کند، درآمد را هنگام کسب و هزینه را هنگام وقوع ثبت می‌کند، نه هنگام جابه‌جایی پول نقد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l2p14",
+              "text": {
+                "en": "Cash accounting, used by many very small businesses, simply records money in and out. It is easier, but it hides whether a period was truly profitable.",
+                "fa": "حسابداری نقدی، که بسیاری از کسب‌وکارهای خیلی کوچک به کار می‌برند، فقط ورود و خروج پول را ثبت می‌کند. ساده‌تر است، اما پنهان می‌کند که یک دوره واقعاً سودآور بوده یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l2k6",
+              "type": "tf",
+              "source": "b10c1l2p13",
+              "prompt": {
+                "en": "Under accrual accounting, revenue is recorded only when the customer's cash arrives.",
+                "fa": "در حسابداری تعهدی، درآمد فقط وقتی ثبت می‌شود که پول مشتری برسد."
+              },
+              "answer": false
             }
           ]
         },
@@ -411,7 +466,7 @@
             "en": "Revenue and costs: profit is an estimate",
             "fa": "درآمد و هزینه‌ها: سود یک برآورد است"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -592,6 +647,33 @@
                 "fa": "در منطق تعهدی، اعتبار یک سالِ پیش‌پرداخت‌شده تماماً هزینهٔ ماهی است که پرداخت کردی."
               },
               "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p13",
+              "text": {
+                "en": "Costs that cannot be tied to a single product, such as rent or the finance team, are called overhead, and companies allocate them across products.",
+                "fa": "هزینه‌هایی که به یک محصول خاص گره نمی‌خورند، مثل اجاره یا تیم مالی، سربار نام دارند و شرکت‌ها آن‌ها را میان محصولات تسهیم می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l3p14",
+              "text": {
+                "en": "Allocation formulas are judgment too. Change how overhead is split, and one product line can look profitable while another looks like a loser.",
+                "fa": "فرمول‌های تسهیم هم قضاوت‌اند. نحوهٔ تقسیم سربار را عوض کن تا یک خط محصول سودآور و دیگری زیان‌ده به نظر برسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l3k6",
+              "type": "tf",
+              "source": "b10c1l3p14",
+              "prompt": {
+                "en": "How overhead is allocated can change which product line looks profitable.",
+                "fa": "نحوهٔ تسهیم سربار می‌تواند تغییر دهد کدام خط محصول سودآور به نظر برسد."
+              },
+              "answer": true
             }
           ]
         },
@@ -601,7 +683,7 @@
             "en": "The many forms of profit",
             "fa": "شکل‌های گوناگون سود"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -796,6 +878,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p13",
+              "text": {
+                "en": "A company can show a healthy gross profit and still lose money if operating expenses swallow it, so read each level of profit, not just one.",
+                "fa": "شرکتی می‌تواند سود ناخالص خوبی نشان دهد و باز هم زیان کند، اگر هزینه‌های عملیاتی آن را ببلعند؛ پس هر سطح سود را بخوان، نه فقط یکی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c1l4p14",
+              "text": {
+                "en": "Watching the gap between gross and operating profit over time shows whether overhead stays under control as the company grows.",
+                "fa": "دنبال کردن فاصلهٔ سود ناخالص و سود عملیاتی در طول زمان نشان می‌دهد که آیا با رشد شرکت، سربار تحت کنترل می‌ماند یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c1l4k6",
+              "type": "tf",
+              "source": "b10c1l4p13",
+              "prompt": {
+                "en": "A healthy gross profit guarantees a net profit.",
+                "fa": "سود ناخالص خوب، سود خالص را تضمین می‌کند."
+              },
+              "answer": false
             }
           ]
         }
@@ -814,7 +923,7 @@
             "en": "Balance sheet basics and assets",
             "fa": "مبانی ترازنامه و دارایی‌ها"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1009,6 +1118,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p13",
+              "text": {
+                "en": "Prepaid expenses, such as insurance paid a year ahead, are current assets too: the company has paid for a benefit it has not used yet.",
+                "fa": "هزینه‌های پیش‌پرداخت، مثل بیمه‌ای که یک سال جلوتر پرداخت شده، هم دارایی جاری‌اند: شرکت بهای منفعتی را داده که هنوز از آن استفاده نکرده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l1p14",
+              "text": {
+                "en": "Because so many asset values are estimates, the authors urge readers to ask how receivables, inventory and goodwill were valued before trusting the total.",
+                "fa": "چون ارزش بسیاری از دارایی‌ها برآوردی است، نویسندگان توصیه می‌کنند پیش از اعتماد به جمع کل، بپرسی حساب‌های دریافتنی، موجودی و سرقفلی چگونه ارزش‌گذاری شده‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l1k6",
+              "type": "tf",
+              "source": "b10c2l1p13",
+              "prompt": {
+                "en": "Insurance paid a year ahead can appear on the balance sheet as a current asset.",
+                "fa": "بیمه‌ای که یک سال جلوتر پرداخت شده می‌تواند در ترازنامه دارایی جاری باشد."
+              },
+              "answer": true
             }
           ]
         },
@@ -1018,7 +1154,7 @@
             "en": "Liabilities, equity and why it balances",
             "fa": "بدهی‌ها، حقوق صاحبان سهام و چرا تراز می‌شود"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1199,6 +1335,33 @@
                 "fa": "وام‌دهندگان پیش از مالکان پول می‌گیرند، پس بدهی‌های استارتاپ جلوتر از سهم تو قرار دارند."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p13",
+              "text": {
+                "en": "Deferred revenue is a liability: cash a customer paid for a service not yet delivered. The company still owes the work, so the money is not yet earned.",
+                "fa": "درآمد معوق یک بدهی است: پولی که مشتری برای خدمتی هنوز تحویل‌نشده پرداخته است. شرکت هنوز کار را بدهکار است، پس این پول هنوز کسب نشده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l2p14",
+              "text": {
+                "en": "Owners' equity can turn negative when losses pile up until liabilities exceed assets. That is a serious warning sign for anyone holding shares.",
+                "fa": "حقوق صاحبان سهام وقتی زیان‌ها انباشته شوند و بدهی‌ها از دارایی‌ها بیشتر شوند، می‌تواند منفی شود. این هشداری جدی برای هر سهام‌داری است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l2k6",
+              "type": "tf",
+              "source": "b10c2l2p13",
+              "prompt": {
+                "en": "Cash received for a service not yet delivered is recorded as a liability.",
+                "fa": "پولی که برای خدمتی هنوز تحویل‌نشده دریافت شده، به‌عنوان بدهی ثبت می‌شود."
+              },
+              "answer": true
             }
           ]
         },
@@ -1208,7 +1371,7 @@
             "en": "Profit is not cash",
             "fa": "سود، نقد نیست"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1389,6 +1552,33 @@
                 "fa": "صورت‌حساب سالانه و پیشاپیش، نقد را پیش از کسب درآمد وارد می‌کند."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p13",
+              "text": {
+                "en": "The authors stress that cash, not profit, pays salaries, suppliers and lenders. A company can go a while without profit, but not long without cash.",
+                "fa": "نویسندگان تأکید می‌کنند پول نقد، نه سود، حقوق‌ها، تأمین‌کنندگان و وام‌دهندگان را پرداخت می‌کند. شرکت می‌تواند مدتی بدون سود دوام بیاورد، اما نه مدت زیادی بدون پول نقد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l3p14",
+              "text": {
+                "en": "That is why lenders and investors watch cash closely: a shrinking bank balance can warn of trouble before the income statement shows a loss.",
+                "fa": "برای همین وام‌دهندگان و سرمایه‌گذاران پول نقد را از نزدیک دنبال می‌کنند: موجودی بانکی رو به کاهش می‌تواند پیش از نشان دادن زیان در صورت سود و زیان، از دردسر خبر دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l3k6",
+              "type": "tf",
+              "source": "b10c2l3p13",
+              "prompt": {
+                "en": "As long as a company reports a profit, it can go a long time without cash.",
+                "fa": "تا وقتی شرکت سود گزارش می‌کند، می‌تواند مدت زیادی بدون پول نقد دوام بیاورد."
+              },
+              "answer": false
             }
           ]
         },
@@ -1398,7 +1588,7 @@
             "en": "The cash flow statement",
             "fa": "صورت جریان وجوه نقد"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1579,6 +1769,33 @@
                 "fa": "سود رو به افزایش همراه با جریان نقد عملیاتی رو به کاهش همیشه نشانهٔ سلامت است."
               },
               "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p13",
+              "text": {
+                "en": "A healthy pattern is operating cash flow that funds investment. A company that keeps borrowing to cover operations is living on financing, not on its business.",
+                "fa": "الگوی سالم، جریان نقد عملیاتی است که سرمایه‌گذاری را تأمین کند. شرکتی که مدام برای پوشش عملیات وام می‌گیرد، با تأمین مالی زنده است، نه با کسب‌وکارش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c2l4p14",
+              "text": {
+                "en": "Read the three statements together: the income statement shows performance, the balance sheet shows position, and the cash flow statement shows survival.",
+                "fa": "سه صورت مالی را با هم بخوان: صورت سود و زیان عملکرد را نشان می‌دهد، ترازنامه وضعیت را، و صورت جریان وجوه نقد بقا را."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c2l4k6",
+              "type": "tf",
+              "source": "b10c2l4p13",
+              "prompt": {
+                "en": "A company that keeps borrowing to cover its operations shows a healthy pattern.",
+                "fa": "شرکتی که مدام برای پوشش عملیاتش وام می‌گیرد، الگوی سالمی نشان می‌دهد."
+              },
+              "answer": false
             }
           ]
         }
@@ -1597,7 +1814,7 @@
             "en": "Profitability and leverage ratios",
             "fa": "نسبت‌های سودآوری و اهرمی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1792,6 +2009,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p13",
+              "text": {
+                "en": "Ratios inherit the judgment in the numbers behind them. If profit or assets rest on aggressive estimates, the ratios built from them carry the same bias.",
+                "fa": "نسبت‌ها قضاوتِ نهفته در اعداد پشتشان را به ارث می‌برند. اگر سود یا دارایی‌ها بر برآوردهای تهاجمی تکیه کنند، نسبت‌های ساخته‌شده از آن‌ها همان سوگیری را دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l1p14",
+              "text": {
+                "en": "So ratios are a starting point for questions: why did the margin move, and which estimate or decision drove the change?",
+                "fa": "پس نسبت‌ها نقطهٔ شروع پرسش‌اند: چرا حاشیه تغییر کرد، و کدام برآورد یا تصمیم این تغییر را رقم زد؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l1k6",
+              "type": "tf",
+              "source": "b10c3l1p13",
+              "prompt": {
+                "en": "Ratios are immune to the estimates in the numbers behind them.",
+                "fa": "نسبت‌ها از برآوردهای موجود در اعداد پشتشان مصون‌اند."
+              },
+              "answer": false
             }
           ]
         },
@@ -1801,7 +2045,7 @@
             "en": "Liquidity and efficiency ratios",
             "fa": "نسبت‌های نقدشوندگی و کارایی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1996,6 +2240,33 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p13",
+              "text": {
+                "en": "Ratios are most useful as trends. A DSO creeping up quarter after quarter says more than any single reading of it.",
+                "fa": "نسبت‌ها به‌صورت روند بیشترین فایده را دارند. DSO که فصل به فصل آرام بالا می‌رود، بیش از هر خوانش تکی حرف دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l2p14",
+              "text": {
+                "en": "Compare a company's ratios with its closest rivals in the same industry, not with businesses that work in a completely different way.",
+                "fa": "نسبت‌های یک شرکت را با نزدیک‌ترین رقبایش در همان صنعت مقایسه کن، نه با کسب‌وکارهایی که به شکلی کاملاً متفاوت کار می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l2k6",
+              "type": "tf",
+              "source": "b10c3l2p13",
+              "prompt": {
+                "en": "A DSO trend over several quarters can reveal more than a single reading.",
+                "fa": "روند DSO در چند فصل می‌تواند بیش از یک خوانش تکی چیز نشان دهد."
+              },
+              "answer": true
             }
           ]
         },
@@ -2005,7 +2276,7 @@
             "en": "Return on investment and capital expenditure",
             "fa": "بازده سرمایه‌گذاری و مخارج سرمایه‌ای"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -2215,6 +2486,33 @@
                 "fa": "این درس پیشنهاد می‌کند بازده مورد انتظار محصولت را با آن‌چه همان پول در یک صندوق شاخصی می‌تواند کسب کند مقایسه کنی."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p13",
+              "text": {
+                "en": "The authors favour net present value as the most useful method, because it accounts for the time value of money and shows the size of the gain.",
+                "fa": "نویسندگان ارزش فعلی خالص را مفیدترین روش می‌دانند، چون ارزش زمانی پول را در نظر می‌گیرد و اندازهٔ سود را نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l3p14",
+              "text": {
+                "en": "A higher hurdle rate shrinks the present value of future cash, so fewer projects pass. Riskier projects are often held to a higher rate.",
+                "fa": "نرخ مانع بالاتر ارزش فعلی پول نقد آینده را کوچک‌تر می‌کند، پس پروژه‌های کمتری قبول می‌شوند. پروژه‌های پرریسک‌تر اغلب با نرخ بالاتری سنجیده می‌شوند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l3k7",
+              "type": "tf",
+              "source": "b10c3l3p14",
+              "prompt": {
+                "en": "Raising the hurdle rate lets more projects pass the NPV test.",
+                "fa": "بالا بردن نرخ مانع باعث می‌شود پروژه‌های بیشتری از آزمون NPV بگذرند."
+              },
+              "answer": false
             }
           ]
         },
@@ -2224,7 +2522,7 @@
             "en": "Working capital and the financially intelligent company",
             "fa": "سرمایه در گردش و شرکت باهوش مالی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -2419,6 +2717,33 @@
                 }
               ],
               "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p13",
+              "text": {
+                "en": "Sharing the numbers also builds trust: when staff see the real figures, they are less likely to suspect that management hides profits or bad news.",
+                "fa": "به اشتراک گذاشتن اعداد اعتماد هم می‌سازد: وقتی کارکنان ارقام واقعی را ببینند، کمتر گمان می‌کنند مدیریت سود یا خبر بد را پنهان می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b10c3l4p14",
+              "text": {
+                "en": "The book's closing message is that financial intelligence can be learned. With practice, anyone can read the statements and join the conversation about the business.",
+                "fa": "پیام پایانی کتاب این است که هوش مالی آموختنی است. با تمرین، هر کسی می‌تواند صورت‌های مالی را بخواند و در گفت‌وگو دربارهٔ کسب‌وکار شرکت کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b10c3l4k6",
+              "type": "tf",
+              "source": "b10c3l4p14",
+              "prompt": {
+                "en": "The authors see financial intelligence as a skill only accountants can learn.",
+                "fa": "نویسندگان هوش مالی را مهارتی می‌دانند که فقط حسابداران می‌توانند بیاموزند."
+              },
+              "answer": false
             }
           ]
         }

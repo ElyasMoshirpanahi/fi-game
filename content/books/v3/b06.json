@@ -17,6 +17,7 @@
     "fa": "میمون چشم‌بسته"
   },
   "tier": "high",
+  "complexity": 4,
   "circles": [
     {
       "id": "b06c1",
@@ -31,7 +32,7 @@
             "en": "Firm foundations and castles in the air",
             "fa": "بنیان محکم و قصر در هوا"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -226,6 +227,33 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p13",
+              "text": {
+                "en": "The firm-foundation theory has a weak spot: intrinsic value depends on guesses about growth far into the future. Small changes in those guesses change the value a lot.",
+                "fa": "نظریهٔ بنیان محکم یک نقطهٔ ضعف دارد: ارزش ذاتی به حدس‌هایی دربارهٔ رشد در آیندهٔ دور بستگی دارد. تغییری کوچک در این حدس‌ها ارزش را بسیار تغییر می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l1p14",
+              "text": {
+                "en": "Malkiel's book walks between the two theories: he respects value but never forgets the crowd. The chapters ahead test which ideas actually help ordinary investors.",
+                "fa": "کتاب Malkiel میان این دو نظریه راه می‌رود: به ارزش احترام می‌گذارد اما جمعیت را هم از یاد نمی‌برد. فصل‌های بعدی می‌آزمایند کدام ایده‌ها واقعاً به سرمایه‌گذار عادی کمک می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l1k6",
+              "type": "tf",
+              "source": "b06c1l1p13",
+              "prompt": {
+                "en": "Intrinsic value is easy to pin down because growth far into the future is easy to forecast.",
+                "fa": "ارزش ذاتی را آسان می‌توان تعیین کرد، چون رشد در آیندهٔ دور به‌آسانی پیش‌بینی‌پذیر است."
+              },
+              "answer": false
             }
           ]
         },
@@ -235,7 +263,7 @@
             "en": "Tulips, the South Sea and 1929",
             "fa": "لاله‌ها، دریای جنوب و ۱۹۲۹"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -416,6 +444,47 @@
                 "fa": "در دههٔ ۱۹۲۰ سهام اغلب با margin و فقط با پرداخت نقدی کمی خریده می‌شد."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p13",
+              "text": {
+                "en": "Malkiel notes the tulip craze even spawned call options on bulbs. They let speculators bet on rising prices with little money down.",
+                "fa": "Malkiel یادآوری می‌کند که جنون لاله حتی اختیار خرید (call option) روی پیاز لاله پدید آورد. این اختیارها به سفته‌بازان اجازه می‌داد با پول اندکی روی بالا رفتن قیمت شرط ببندند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l2p14",
+              "text": {
+                "en": "Each mania ran on borrowed or leveraged bets: options in Holland, margin loans in 1929. Leverage made every crash far more painful.",
+                "fa": "هر جنون بر شرط‌های قرضی یا اهرمی سوار بود: اختیار معامله در هلند و وام کارگزاری (margin) در ۱۹۲۹. اهرم هر سقوط را بسیار دردناک‌تر کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l2k6",
+              "type": "tap",
+              "source": "b06c1l2p13",
+              "prompt": {
+                "en": "What let tulip speculators bet with little money down?",
+                "fa": "چه چیزی به سفته‌بازان لاله اجازه می‌داد با پول اندک شرط ببندند؟"
+              },
+              "options": [
+                {
+                  "en": "Government bonds",
+                  "fa": "اوراق قرضهٔ دولتی"
+                },
+                {
+                  "en": "Call options on bulbs",
+                  "fa": "اختیار خرید روی پیاز لاله"
+                },
+                {
+                  "en": "Shares in the South Sea Company",
+                  "fa": "سهام شرکت دریای جنوب"
+                }
+              ],
+              "answer": 1
             }
           ]
         },
@@ -425,7 +494,7 @@
             "en": "Booms from the sixties to Tokyo",
             "fa": "رونق‌ها از دههٔ شصت تا توکیو"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -620,6 +689,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p13",
+              "text": {
+                "en": "In the late 1960s, concept stocks such as National Student Marketing sold on a simple story. Its price soared, then collapsed amid accounting fraud.",
+                "fa": "در اواخر دههٔ ۱۹۶۰، سهام مفهومی (concept stocks) مانند National Student Marketing با یک داستان ساده فروخته شدند. قیمت آن اوج گرفت و سپس در میان تقلب حسابداری فرو ریخت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l3p14",
+              "text": {
+                "en": "Malkiel stresses that most Nifty Fifty firms were fine businesses. The problem was the price investors paid, not the quality of the companies.",
+                "fa": "Malkiel تأکید می‌کند که بیشتر شرکت‌های Nifty Fifty کسب‌وکارهای خوبی بودند. مشکل قیمتی بود که سرمایه‌گذاران پرداختند، نه کیفیت شرکت‌ها."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l3k6",
+              "type": "tf",
+              "source": "b06c1l3p14",
+              "prompt": {
+                "en": "Malkiel says the Nifty Fifty hurt investors because they were poor companies.",
+                "fa": "Malkiel می‌گوید Nifty Fifty به سرمایه‌گذاران ضرر زد چون شرکت‌های بدی بودند."
+              },
+              "answer": false
             }
           ]
         },
@@ -629,7 +725,7 @@
             "en": "The dot-com bubble and its heirs",
             "fa": "حباب دات‌کام و وارثانش"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -833,6 +929,47 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p13",
+              "text": {
+                "en": "The bust also exposed fraud: Enron and WorldCom had hidden debts and inflated profits behind glowing analyst ratings.",
+                "fa": "فروپاشی تقلب را هم آشکار کرد: Enron و WorldCom پشت رتبه‌بندی‌های درخشان تحلیلگران، بدهی پنهان و سود بادکرده داشتند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c1l4p14",
+              "text": {
+                "en": "In the housing bubble, banks packaged loans into securities and sold them on. Lenders who did not keep the loans had little reason to check borrowers.",
+                "fa": "در حباب مسکن، بانک‌ها وام‌ها را در قالب اوراق بهادار بسته‌بندی می‌کردند و می‌فروختند. وام‌دهنده‌ای که وام را نگه نمی‌داشت دلیل چندانی برای بررسی وام‌گیرنده نداشت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c1l4k6",
+              "type": "tap",
+              "source": "b06c1l4p14",
+              "prompt": {
+                "en": "Why did many lenders in the housing bubble have little reason to check borrowers?",
+                "fa": "چرا بسیاری از وام‌دهندگان در حباب مسکن دلیل چندانی برای بررسی وام‌گیرندگان نداشتند؟"
+              },
+              "options": [
+                {
+                  "en": "Governments guaranteed every loan",
+                  "fa": "دولت‌ها همهٔ وام‌ها را تضمین می‌کردند"
+                },
+                {
+                  "en": "House prices had never fallen",
+                  "fa": "قیمت خانه هرگز پایین نیامده بود"
+                },
+                {
+                  "en": "Banks packaged the loans and sold them on",
+                  "fa": "بانک‌ها وام‌ها را بسته‌بندی می‌کردند و می‌فروختند"
+                }
+              ],
+              "answer": 2
             }
           ]
         }
@@ -851,7 +988,7 @@
             "en": "Technical analysis and coin-flip charts",
             "fa": "تحلیل تکنیکال و نمودارهای شیر یا خط"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1046,6 +1183,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p13",
+              "text": {
+                "en": "Malkiel also tested popular chart systems such as the Dow theory and relative-strength rules. None reliably beat buy and hold once costs were paid.",
+                "fa": "Malkiel سامانه‌های نموداری رایج مانند نظریهٔ Dow و قاعده‌های قدرت نسبی (relative strength) را هم آزمود. هیچ‌کدام پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر نبود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l1p14",
+              "text": {
+                "en": "He grants that prices show a little momentum over short periods. It is too weak and unreliable to profit from after trading costs.",
+                "fa": "او می‌پذیرد که قیمت‌ها در دوره‌های کوتاه کمی شتاب (momentum) نشان می‌دهند. این شتاب آن‌قدر ضعیف و ناپایدار است که پس از هزینه‌های معامله سودی از آن نمی‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l1k6",
+              "type": "tf",
+              "source": "b06c2l1p13",
+              "prompt": {
+                "en": "Malkiel found the Dow theory reliably beat buy and hold after costs.",
+                "fa": "Malkiel دریافت که نظریهٔ Dow پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر است."
+              },
+              "answer": false
             }
           ]
         },
@@ -1055,7 +1219,7 @@
             "en": "The limits of fundamental analysis",
             "fa": "محدودیت‌های تحلیل بنیادی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1236,6 +1400,33 @@
                 "fa": "اگر خبر خوب از قبل در قیمت باشد، یک شرکت عالی هنوز می‌تواند خرید بدی باشد."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p13",
+              "text": {
+                "en": "Analysts were also slow to warn. During the internet boom, sell ratings were rare, even on firms headed for ruin.",
+                "fa": "تحلیلگران در هشدار دادن هم کُند بودند. در رونق اینترنت، توصیهٔ فروش نادر بود، حتی برای شرکت‌هایی که به سوی نابودی می‌رفتند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l2p14",
+              "text": {
+                "en": "Malkiel's summary: fundamental analysis is sound in theory, but in practice its forecasts are too unreliable to beat the market.",
+                "fa": "جمع‌بندی Malkiel: تحلیل بنیادی در نظریه درست است، اما در عمل پیش‌بینی‌هایش برای شکست دادن بازار بیش از حد نامطمئن‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l2k6",
+              "type": "tf",
+              "source": "b06c2l2p13",
+              "prompt": {
+                "en": "During the internet boom, analysts rarely issued sell ratings.",
+                "fa": "در رونق اینترنت، تحلیلگران به‌ندرت توصیهٔ فروش می‌دادند."
+              },
+              "answer": true
             }
           ]
         },
@@ -1245,7 +1436,7 @@
             "en": "The efficient market and its critics",
             "fa": "بازار کارا و منتقدانش"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1440,6 +1631,47 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p13",
+              "text": {
+                "en": "Malkiel admits a few managers, such as Warren Buffett, have beaten the market for decades. Such records are rare and hard to spot in advance.",
+                "fa": "Malkiel می‌پذیرد که چند مدیر، مانند Warren Buffett، دهه‌ها از بازار بهتر عمل کرده‌اند. چنین کارنامه‌هایی نادرند و از پیش به‌سختی شناخته می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l3p14",
+              "text": {
+                "en": "With thousands of managers, chance alone produces a few long winning streaks. In a coin-tossing contest, some players also throw many heads in a row.",
+                "fa": "با هزاران مدیر، شانس به‌تنهایی چند رشتهٔ برد طولانی پدید می‌آورد. در مسابقهٔ سکه‌اندازی هم برخی بازیکنان پشت سر هم شیر می‌آورند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l3k6",
+              "type": "tap",
+              "source": "b06c2l3p14",
+              "prompt": {
+                "en": "Why do a few managers show long winning streaks?",
+                "fa": "چرا چند مدیر رشته‌های برد طولانی نشان می‌دهند؟"
+              },
+              "options": [
+                {
+                  "en": "They trade on secret charts",
+                  "fa": "با نمودارهای مخفی معامله می‌کنند"
+                },
+                {
+                  "en": "Chance alone produces a few streaks",
+                  "fa": "شانس به‌تنهایی چند رشتهٔ برد پدید می‌آورد"
+                },
+                {
+                  "en": "The index is easy to beat",
+                  "fa": "شکست دادن شاخص آسان است"
+                }
+              ],
+              "answer": 1
             }
           ]
         },
@@ -1449,7 +1681,7 @@
             "en": "Behavioural finance",
             "fa": "مالی رفتاری"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1644,6 +1876,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p13",
+              "text": {
+                "en": "Studies Malkiel cites found that men traded far more often than women. Their returns suffered more as a result.",
+                "fa": "پژوهش‌هایی که Malkiel نقل می‌کند نشان دادند مردان بسیار بیشتر از زنان معامله می‌کنند. در نتیجه بازده آن‌ها بیشتر آسیب دید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c2l4p14",
+              "text": {
+                "en": "Malkiel also explains the limits of arbitrage: rational traders cannot always correct crowd errors. Betting against a mania can ruin them before it ends.",
+                "fa": "Malkiel محدودیت‌های آربیتراژ را هم توضیح می‌دهد: معامله‌گران عاقل همیشه نمی‌توانند خطای جمعیت را اصلاح کنند. شرط بستن علیه یک جنون می‌تواند پیش از پایانش آن‌ها را ورشکست کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c2l4k6",
+              "type": "tf",
+              "source": "b06c2l4p14",
+              "prompt": {
+                "en": "Rational traders can always correct crowd errors quickly.",
+                "fa": "معامله‌گران عاقل همیشه می‌توانند خطای جمعیت را سریع اصلاح کنند."
+              },
+              "answer": false
             }
           ]
         }
@@ -1662,7 +1921,7 @@
             "en": "Risk, diversification and beta",
             "fa": "ریسک، تنوع‌بخشی و بتا"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1857,6 +2116,33 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p13",
+              "text": {
+                "en": "Bonds and shares often move differently, Malkiel notes. Holding both can smooth a portfolio's ride through bad years for either one.",
+                "fa": "Malkiel یادآوری می‌کند که اوراق قرضه و سهام اغلب متفاوت حرکت می‌کنند. نگه داشتن هر دو می‌تواند مسیر سبد را در سال‌های بد هر کدام هموارتر کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l1p14",
+              "text": {
+                "en": "Diversification has a limit: in a global crash most shares fall together. It reduces company risk but cannot remove market risk.",
+                "fa": "تنوع‌بخشی حدی دارد: در یک سقوط جهانی بیشتر سهام با هم پایین می‌آیند. این کار ریسک تک‌شرکت را کم می‌کند اما ریسک بازار را از بین نمی‌برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l1k6",
+              "type": "tf",
+              "source": "b06c3l1p14",
+              "prompt": {
+                "en": "Diversification can remove all risk, including market risk.",
+                "fa": "تنوع‌بخشی می‌تواند همهٔ ریسک‌ها، از جمله ریسک بازار، را از بین ببرد."
+              },
+              "answer": false
             }
           ]
         },
@@ -1866,7 +2152,7 @@
             "en": "A fitness manual for random walkers",
             "fa": "برنامهٔ تمرینی برای گام‌زنان تصادفی"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -2047,6 +2333,47 @@
                 "fa": "Malkiel می‌گوید وقتی ارزش‌گذاری اولیه بالاست، بازده آیندهٔ بیشتری انتظار داشته باش."
               },
               "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p13",
+              "text": {
+                "en": "Malkiel suggests an emergency fund of about three months of living expenses. Keep more if your job or health makes your income uncertain.",
+                "fa": "Malkiel صندوق اضطراری به اندازهٔ حدود سه ماه هزینهٔ زندگی پیشنهاد می‌کند. اگر شغل یا سلامتت درآمدت را نامطمئن می‌کند، بیشتر نگه دار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l2p14",
+              "text": {
+                "en": "Malkiel also likes inflation-protected bonds, whose payments rise with prices. They guard part of your savings against inflation.",
+                "fa": "Malkiel اوراق قرضهٔ محافظت‌شده در برابر تورم را هم می‌پسندد که پرداخت‌هایشان با قیمت‌ها بالا می‌رود. این اوراق بخشی از پس‌اندازت را در برابر تورم حفظ می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l2k6",
+              "type": "tap",
+              "source": "b06c3l2p14",
+              "prompt": {
+                "en": "What do inflation-protected bonds do?",
+                "fa": "اوراق قرضهٔ محافظت‌شده در برابر تورم چه می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "Pay a fixed amount whatever happens",
+                  "fa": "هر اتفاقی بیفتد مبلغ ثابتی می‌پردازند"
+                },
+                {
+                  "en": "Track the price of gold",
+                  "fa": "قیمت طلا را دنبال می‌کنند"
+                },
+                {
+                  "en": "Payments rise with prices",
+                  "fa": "پرداخت‌هایشان با قیمت‌ها بالا می‌رود"
+                }
+              ],
+              "answer": 2
             }
           ]
         },
@@ -2056,7 +2383,7 @@
             "en": "The life-cycle guide and rebalancing",
             "fa": "راهنمای چرخهٔ زندگی و بازتوازن"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -2251,6 +2578,33 @@
                 }
               ],
               "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p13",
+              "text": {
+                "en": "Malkiel warns that dollar-cost averaging is no cure-all. It cannot protect you in a market that falls for good; it works because markets have risen over the long run.",
+                "fa": "Malkiel هشدار می‌دهد که خرید دوره‌ای با مبلغ ثابت نوشدارو نیست. در بازاری که برای همیشه پایین برود از تو محافظت نمی‌کند؛ کار می‌کند چون بازارها در بلندمدت بالا رفته‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l3p14",
+              "text": {
+                "en": "Where possible, rebalance inside tax-advantaged accounts, where selling triggers no tax bill. Otherwise, steer new savings toward the asset that has fallen behind.",
+                "fa": "تا جایی که می‌شود، در حساب‌های دارای مزیت مالیاتی تعادل‌بخشی کن، جایی که فروش مالیاتی به دنبال ندارد. وگرنه پس‌انداز تازه را به سوی دارایی‌ای ببر که عقب افتاده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l3k6",
+              "type": "tf",
+              "source": "b06c3l3p13",
+              "prompt": {
+                "en": "Malkiel calls dollar-cost averaging a cure-all that protects you in any market.",
+                "fa": "Malkiel خرید دوره‌ای با مبلغ ثابت را نوشدارویی می‌داند که در هر بازاری از تو محافظت می‌کند."
+              },
+              "answer": false
             }
           ]
         },
@@ -2260,7 +2614,7 @@
             "en": "Index funds and three giant steps",
             "fa": "صندوق‌های شاخصی و سه گام بزرگ"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -2455,6 +2809,47 @@
                 }
               ],
               "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p13",
+              "text": {
+                "en": "Malkiel's index advice reaches beyond home: hold broad international index funds too, including emerging markets.",
+                "fa": "توصیهٔ شاخصی Malkiel از مرز کشور فراتر می‌رود: صندوق‌های شاخصی گستردهٔ بین‌المللی، از جمله بازارهای نوظهور، را هم نگه دار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b06c3l4p14",
+              "text": {
+                "en": "He likes ETFs as index vehicles: they trade like shares, charge low fees and are tax-efficient. He warns against narrow or leveraged ETFs.",
+                "fa": "او ETFها را ابزار خوبی برای شاخص‌گذاری می‌داند: مثل سهام معامله می‌شوند، کارمزد کمی دارند و از نظر مالیاتی کارآمدند. او دربارهٔ ETFهای محدود یا اهرمی هشدار می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b06c3l4k6",
+              "type": "tap",
+              "source": "b06c3l4p14",
+              "prompt": {
+                "en": "Which ETFs does Malkiel warn against?",
+                "fa": "Malkiel دربارهٔ کدام ETFها هشدار می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Narrow or leveraged ETFs",
+                  "fa": "ETFهای محدود یا اهرمی"
+                },
+                {
+                  "en": "Broad total-market ETFs",
+                  "fa": "ETFهای گستردهٔ کل بازار"
+                },
+                {
+                  "en": "Low-fee index ETFs",
+                  "fa": "ETFهای شاخصی کم‌هزینه"
+                }
+              ],
+              "answer": 0
             }
           ]
         }

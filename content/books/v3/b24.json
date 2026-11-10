@@ -17,6 +17,7 @@
     "fa": "چهار ساعت عمیق"
   },
   "tier": "high",
+  "complexity": 2,
   "circles": [
     {
       "id": "b24c1",
@@ -598,202 +599,6 @@
               "answer": 2
             }
           ]
-        },
-        {
-          "id": "b24c1l4",
-          "title": {
-            "en": "Deep work is meaningful",
-            "fa": "کار عمیق معنادار است"
-          },
-          "minutes": 11,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b24c1l4p1",
-              "frame": true,
-              "text": {
-                "en": "This Lesson distils chapter 3, why deep work makes life feel meaningful. It matters because depth is not only a money tool; it shapes how your days feel.",
-                "fa": "این درس فصل ۳ را خلاصه می‌کند: چرا کار عمیق زندگی را معنادار می‌کند. مهم است چون عمق فقط ابزار پول نیست؛ حس روزهایت را هم شکل می‌دهد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p2",
-              "text": {
-                "en": "Newport gives three arguments for meaning: neurological, psychological and philosophical. Each points to the same conclusion: a deep life is a good life.",
-                "fa": "Newport سه استدلال برای معنا می‌آورد: عصبی، روان‌شناختی و فلسفی. هر سه به یک نتیجه می‌رسند: زندگی عمیق زندگی خوبی است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p3",
-              "text": {
-                "en": "The neurological argument comes from Winifred Gallagher's book Rapt. Your world is shaped by what you pay attention to, so focusing on deep things makes life feel richer.",
-                "fa": "استدلال عصبی از کتاب Rapt نوشتهٔ Winifred Gallagher می‌آید. دنیای تو با چیزی شکل می‌گیرد که به آن توجه می‌کنی، پس تمرکز بر چیزهای عمیق زندگی را غنی‌تر می‌کند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c1l4k1",
-              "type": "tap",
-              "source": "b24c1l4p3",
-              "prompt": {
-                "en": "What is the neurological argument, from Gallagher's Rapt?",
-                "fa": "استدلال عصبی از کتاب Rapt نوشتهٔ Gallagher چیست؟"
-              },
-              "options": [
-                {
-                  "en": "Your world is shaped by what you pay attention to",
-                  "fa": "دنیای تو با چیزی شکل می‌گیرد که به آن توجه می‌کنی"
-                },
-                {
-                  "en": "Your brain needs constant novelty",
-                  "fa": "مغزت به تازگی دائمی نیاز دارد"
-                },
-                {
-                  "en": "Attention cannot be trained",
-                  "fa": "توجه را نمی‌شود تمرین داد"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p4",
-              "text": {
-                "en": "Gallagher studied this after a cancer diagnosis. She chose to focus on her life rather than the disease, and found that this choice changed her experience.",
-                "fa": "Gallagher پس از تشخیص سرطان به این موضوع پرداخت. او تصمیم گرفت به زندگی‌اش توجه کند نه به بیماری، و دید این انتخاب تجربه‌اش را تغییر داد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p5",
-              "text": {
-                "en": "The psychological argument uses Mihaly Csikszentmihalyi's flow: the best moments come when body or mind is stretched to its limit on something hard and worthwhile.",
-                "fa": "استدلال روان‌شناختی از ایدهٔ جریان (flow) از Mihaly Csikszentmihalyi استفاده می‌کند: بهترین لحظه‌ها وقتی می‌آیند که تن یا ذهن در کاری سخت و ارزشمند تا مرزش کشیده می‌شود."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c1l4k2",
-              "type": "tf",
-              "source": "b24c1l4p5",
-              "prompt": {
-                "en": "Flow research says the best moments usually come during relaxed, passive leisure.",
-                "fa": "پژوهش جریان می‌گوید بهترین لحظه‌ها معمولاً در فراغت آرام و منفعل پیش می‌آیند."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p6",
-              "text": {
-                "en": "Using beeper-based sampling, Csikszentmihalyi found people were often happier at work than in leisure, because work offers clear goals and challenge. Deep work is a flow generator.",
-                "fa": "Csikszentmihalyi با نمونه‌گیری به کمک پیجر دید که آدم‌ها اغلب سر کار شادتر از زمان فراغت‌اند، چون کار هدف روشن و چالش دارد. کار عمیق مولد جریان است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p7",
-              "text": {
-                "en": "The philosophical argument draws on Hubert Dreyfus and Sean Dorrance Kelly's All Things Shining: a craftsman finds meaning by uncovering the value already present in a craft.",
-                "fa": "استدلال فلسفی از کتاب All Things Shining نوشتهٔ Hubert Dreyfus و Sean Dorrance Kelly می‌آید: صنعتگر با آشکار کردن ارزشی که از قبل در صنعت وجود دارد، معنا پیدا می‌کند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c1l4k3",
-              "type": "tap",
-              "source": "b24c1l4p7",
-              "prompt": {
-                "en": "Where does a craftsman find meaning, in Dreyfus and Kelly?",
-                "fa": "در نگاه Dreyfus و Kelly صنعتگر معنا را کجا پیدا می‌کند؟"
-              },
-              "options": [
-                {
-                  "en": "In praise from social media",
-                  "fa": "در تحسین شبکه‌های اجتماعی"
-                },
-                {
-                  "en": "In avoiding hard work",
-                  "fa": "در دوری از کار سخت"
-                },
-                {
-                  "en": "By uncovering the value already present in a craft",
-                  "fa": "با آشکار کردن ارزشی که از قبل در صنعت هست"
-                }
-              ],
-              "answer": 2
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p8",
-              "text": {
-                "en": "Newport's example is Ric Furrer, a blacksmith who forges swords with ancient methods. His deep, patient work gives him a sense of the sacred.",
-                "fa": "مثال Newport، Ric Furrer است، آهنگری که با روش‌های باستانی شمشیر می‌سازد. کار عمیق و صبورانه‌اش به او حس امر مقدس می‌دهد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p9",
-              "text": {
-                "en": "Newport says knowledge work can be craft too: writing clean code or a careful design can hold the same meaning as a wheelwright's or blacksmith's work.",
-                "fa": "Newport می‌گوید کار دانشی هم می‌تواند صنعت باشد: نوشتن کد تمیز یا یک طراحی دقیق می‌تواند همان معنای کار چرخ‌ساز یا آهنگر را داشته باشد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c1l4k4",
-              "type": "tf",
-              "source": "b24c1l4p9",
-              "prompt": {
-                "en": "Newport says only manual crafts, not knowledge work, can be meaningful.",
-                "fa": "Newport می‌گوید فقط صنعت‌های دستی، نه کار دانشی، می‌توانند معنادار باشند."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p10",
-              "text": {
-                "en": "The chapter ends with a plain claim: a deep life is a good life. Depth pays and it also makes days worth living.",
-                "fa": "فصل با ادعایی ساده تمام می‌شود: زندگی عمیق زندگی خوبی است. عمق هم پول می‌دهد و هم روزها را ارزشمند می‌کند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c1l4p11",
-              "text": {
-                "en": "Treat your engineering as craft: one focused hour a day on the hardest part of your product. Measure your day by that hour, not by messages cleared.",
-                "fa": "مهندسی‌ات را صنعت ببین: هر روز یک ساعت متمرکز روی سخت‌ترین بخش محصولت. روزت را با همان ساعت بسنج، نه با تعداد پیام‌های پاک‌شده."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c1l4k5",
-              "type": "tap",
-              "source": "b24c1l4p11",
-              "prompt": {
-                "en": "How should you measure your day, applying this chapter?",
-                "fa": "با به کار بستن این فصل، روزت را با چه بسنجی؟"
-              },
-              "options": [
-                {
-                  "en": "By messages cleared",
-                  "fa": "با پیام‌های پاک‌شده"
-                },
-                {
-                  "en": "By the focused hour on the hardest part of your product",
-                  "fa": "با ساعت متمرکز روی سخت‌ترین بخش محصولت"
-                },
-                {
-                  "en": "By hours spent online",
-                  "fa": "با ساعت‌های آنلاین بودن"
-                }
-              ],
-              "answer": 1
-            }
-          ]
         }
       ]
     },
@@ -1022,8 +827,8 @@
         {
           "id": "b24c2l2",
           "title": {
-            "en": "Rituals, grand gestures and collaboration",
-            "fa": "آیین‌ها، حرکت‌های بزرگ و همکاری"
+            "en": "Execute like a business",
+            "fa": "مثل یک کسب‌وکار اجرا کن"
           },
           "minutes": 11,
           "items": [
@@ -1032,209 +837,13 @@
               "id": "b24c2l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the middle of Rule 1: rituals, grand gestures and when to work with others. It matters because the right setup makes depth start without a fight.",
-                "fa": "این درس میانهٔ قانون ۱ را خلاصه می‌کند: آیین‌ها، حرکت‌های بزرگ و زمان کار با دیگران. مهم است چون چیدمان درست باعث می‌شود عمق بدون جنگ شروع شود."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p2",
-              "text": {
-                "en": "Ritualize: great creative minds think like artists but work like accountants. Build a ritual so you do not spend willpower deciding how to begin.",
-                "fa": "آیینی کن: ذهن‌های بزرگ خلاق مثل هنرمند فکر می‌کنند اما مثل حسابدار کار می‌کنند. یک آیین بساز تا اراده‌ات را صرف تصمیم دربارهٔ شروع نکنی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p3",
-              "text": {
-                "en": "A ritual answers four questions: where you will work and for how long, how you will work once you start, and how you will support your work.",
-                "fa": "یک آیین به چهار پرسش جواب می‌دهد: کجا کار می‌کنی و چه مدت، وقتی شروع کردی چطور کار می‌کنی، و چطور از کارت پشتیبانی می‌کنی."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c2l2k1",
-              "type": "tap",
-              "source": "b24c2l2p3",
-              "prompt": {
-                "en": "Which questions does a deep work ritual answer?",
-                "fa": "آیین کار عمیق به کدام پرسش‌ها جواب می‌دهد؟"
-              },
-              "options": [
-                {
-                  "en": "Where and how long, how you work, and how you support your work",
-                  "fa": "کجا و چه مدت، چطور کار می‌کنی، و چطور از کارت پشتیبانی می‌کنی"
-                },
-                {
-                  "en": "Who to email first and when to reply",
-                  "fa": "اول به چه کسی ایمیل بزنی و کی جواب بدهی"
-                },
-                {
-                  "en": "Which apps to open and which feeds to check",
-                  "fa": "کدام برنامه‌ها را باز کنی و کدام فیدها را ببینی"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p4",
-              "text": {
-                "en": "How you work means rules such as no internet, or a metric like words per twenty minutes. Support means things like coffee, food or a walk that keep your energy up.",
-                "fa": "چطور کار می‌کنی یعنی قانون‌هایی مثل بی‌اینترنتی، یا معیاری مثل تعداد کلمه در هر بیست دقیقه. پشتیبانی یعنی چیزهایی مثل قهوه، غذا یا پیاده‌روی که انرژی‌ات را بالا نگه می‌دارند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p5",
-              "text": {
-                "en": "Make grand gestures: a big change of setting or spending raises the importance of the task. To finish the last Harry Potter book, its author checked into a suite at Edinburgh's Balmoral Hotel.",
-                "fa": "حرکت‌های بزرگ انجام بده: تغییری بزرگ در محیط یا هزینه، اهمیت کار را بالا می‌برد. J.K. Rowling برای تمام کردن آخرین کتاب Harry Potter در سوئیتی در هتل Balmoral ادینبرو اقامت کرد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c2l2k2",
-              "type": "tf",
-              "source": "b24c2l2p5",
-              "prompt": {
-                "en": "A grand gesture works by making the task feel more important.",
-                "fa": "حرکت بزرگ با مهم‌تر جلوه دادن کار اثر می‌کند."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p6",
-              "text": {
-                "en": "Bill Gates took Think Weeks alone in a cabin with papers and books. Peter Shankman flew to Tokyo and back, writing the whole way, to finish a book draft.",
-                "fa": "Bill Gates «هفته‌های فکر» را تنها در یک کلبه با کاغذ و کتاب می‌گذراند. Peter Shankman برای تمام کردن پیش‌نویس یک کتاب تا Tokyo و برگشت پرواز کرد و تمام مسیر را نوشت."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p7",
-              "text": {
-                "en": "Don't work alone, but collaborate smartly: serendipity and teamwork can spark ideas. Newport praises MIT's Building 20 and Bell Labs, where people met in shared spaces.",
-                "fa": "تنها کار نکن، اما هوشمندانه همکاری کن: برخورد اتفاقی و کار تیمی می‌تواند ایده بسازد. Newport از Building 20 در MIT و Bell Labs تعریف می‌کند، جایی که آدم‌ها در فضاهای مشترک به هم برمی‌خوردند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p8",
-              "text": {
-                "en": "He calls the ideal the hub-and-spoke model: shared hubs for chance meetings, plus private offices for deep work. Open offices remove the spokes.",
-                "fa": "او مدل ایده‌آل را «هاب و پره» (hub-and-spoke) می‌نامد: هاب‌های مشترک برای دیدارهای اتفاقی، به‌همراه اتاق‌های شخصی برای کار عمیق. دفترهای باز پره‌ها را حذف می‌کنند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c2l2k3",
-              "type": "tap",
-              "source": "b24c2l2p8",
-              "prompt": {
-                "en": "What does the hub-and-spoke model combine?",
-                "fa": "مدل هاب و پره چه چیزهایی را ترکیب می‌کند؟"
-              },
-              "options": [
-                {
-                  "en": "Open desks and constant chat",
-                  "fa": "میزهای باز و چت دائمی"
-                },
-                {
-                  "en": "Shared hubs for chance meetings plus private offices for deep work",
-                  "fa": "هاب‌های مشترک برای دیدار اتفاقی به‌همراه اتاق شخصی برای کار عمیق"
-                },
-                {
-                  "en": "Remote work and weekly calls",
-                  "fa": "دورکاری و تماس‌های هفتگی"
-                }
-              ],
-              "answer": 1
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p9",
-              "text": {
-                "en": "Newport also describes the whiteboard effect: working side by side with one other person on a hard problem can push you deeper than working alone.",
-                "fa": "Newport «اثر وایت‌برد» را هم توصیف می‌کند: کار کنار یک نفر دیگر روی یک مسئلهٔ سخت می‌تواند تو را عمیق‌تر از کار تنها ببرد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p10",
-              "text": {
-                "en": "Your ritual could be: desk in the spare room, 7:00 to 8:00, phone in the hallway, laptop offline, a tea before you start. Write it down so it is a rule, not a mood.",
-                "fa": "آیین تو می‌تواند این باشد: میز در اتاق اضافه، ۷:۰۰ تا ۸:۰۰، گوشی در راهرو، لپ‌تاپ آفلاین، یک چای پیش از شروع. آن را بنویس تا قانون باشد، نه حال‌وهوا."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c2l2k4",
-              "type": "tf",
-              "source": "b24c2l2p9",
-              "prompt": {
-                "en": "Newport says collaboration always harms deep work.",
-                "fa": "Newport می‌گوید همکاری همیشه به کار عمیق آسیب می‌زند."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b24c2l2p11",
-              "text": {
-                "en": "For a hard design decision on your startup, try the whiteboard effect: two hours with a cofounder at one board, phones away. Then write the decision in your journal.",
-                "fa": "برای یک تصمیم طراحی سخت در استارتاپت، اثر وایت‌برد را امتحان کن: دو ساعت با هم‌بنیان‌گذار پای یک تخته، گوشی‌ها کنار. بعد تصمیم را در دفترچهٔ تصمیم‌هایت بنویس."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c2l2k5",
-              "type": "tap",
-              "source": "b24c2l2p11",
-              "prompt": {
-                "en": "What should you do after the whiteboard session?",
-                "fa": "بعد از جلسهٔ وایت‌برد چه کنی؟"
-              },
-              "options": [
-                {
-                  "en": "Post it on social media",
-                  "fa": "آن را در شبکه‌های اجتماعی بگذاری"
-                },
-                {
-                  "en": "Forget it until next quarter",
-                  "fa": "تا فصل بعد فراموشش کنی"
-                },
-                {
-                  "en": "Write the decision in your journal",
-                  "fa": "تصمیم را در دفترچه‌ات بنویسی"
-                }
-              ],
-              "answer": 2
-            }
-          ]
-        },
-        {
-          "id": "b24c2l3",
-          "title": {
-            "en": "Execute like a business",
-            "fa": "مثل یک کسب‌وکار اجرا کن"
-          },
-          "minutes": 11,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b24c2l3p1",
-              "frame": true,
-              "text": {
                 "en": "This Lesson distils the 4DX part of Rule 1 and the advice to be lazy. It matters because knowing what to do is easy; doing it week after week is the hard part.",
                 "fa": "این درس بخش 4DX از قانون ۱ و توصیه به «تنبل بودن» را خلاصه می‌کند. مهم است چون دانستن کار آسان است؛ انجامش هفته پس از هفته بخش سخت است."
               }
             },
             {
               "kind": "card",
-              "id": "b24c2l3p2",
+              "id": "b24c2l2p2",
               "text": {
                 "en": "Newport borrows The 4 Disciplines of Execution, or 4DX, a business framework by Chris McChesney, Sean Covey and Jim Huling. It turns depth into a measurable routine.",
                 "fa": "Newport چهار اصل اجرا (The 4 Disciplines of Execution یا 4DX) را وام می‌گیرد، چارچوبی کسب‌وکاری از Chris McChesney، Sean Covey و Jim Huling. این روش عمق را به روالی سنجش‌پذیر تبدیل می‌کند."
@@ -1242,7 +851,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p3",
+              "id": "b24c2l2p3",
               "text": {
                 "en": "The four disciplines: focus on the wildly important, act on the lead measures, keep a compelling scoreboard, and create a cadence of accountability.",
                 "fa": "چهار اصل: روی چیزهای بسیار مهم تمرکز کن، بر اساس معیارهای پیشرو عمل کن، یک جدول امتیاز گیرا نگه دار، و ریتمی از پاسخ‌گویی بساز."
@@ -1250,9 +859,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l3k1",
+              "id": "b24c2l2k1",
               "type": "order",
-              "source": "b24c2l3p3",
+              "source": "b24c2l2p3",
               "prompt": {
                 "en": "Put the four disciplines of 4DX in order",
                 "fa": "چهار اصل 4DX را به ترتیب بچین"
@@ -1284,7 +893,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p4",
+              "id": "b24c2l2p4",
               "text": {
                 "en": "Focus on the wildly important: the more you try to do, the less you get done. Pick a small number of ambitious goals for your deep hours.",
                 "fa": "روی چیزهای بسیار مهم تمرکز کن: هرچه بیشتر بخواهی انجام دهی، کمتر انجام می‌دهی. برای ساعت‌های عمیقت تعداد کمی هدف بلندپروازانه انتخاب کن."
@@ -1292,7 +901,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p5",
+              "id": "b24c2l2p5",
               "text": {
                 "en": "Lag measures, such as revenue or papers published, come too late to change behavior. Lead measures drive them; for deep work, the lead measure is time spent in a state of depth.",
                 "fa": "معیارهای پسرو، مثل درآمد یا مقاله‌های منتشرشده، دیرتر از آن می‌آیند که رفتار را تغییر دهند. معیارهای پیشرو آن‌ها را می‌سازند؛ برای کار عمیق، معیار پیشرو زمان سپری‌شده در حالت عمق است."
@@ -1300,9 +909,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l3k2",
+              "id": "b24c2l2k2",
               "type": "tap",
-              "source": "b24c2l3p5",
+              "source": "b24c2l2p5",
               "prompt": {
                 "en": "For deep work, what is the lead measure?",
                 "fa": "برای کار عمیق، معیار پیشرو چیست؟"
@@ -1325,7 +934,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p6",
+              "id": "b24c2l2p6",
               "text": {
                 "en": "Keep a compelling scoreboard: Newport tallies deep hours on a card at his desk and circles the tally on days with a key result. Seeing it builds momentum.",
                 "fa": "جدول امتیاز گیرا نگه دار: Newport ساعت‌های عمیق را روی یک کارت روی میزش خط می‌زند و روزهایی که نتیجهٔ مهمی داشت را دور خط‌ها دایره می‌کشد. دیدنش انگیزه می‌سازد."
@@ -1333,7 +942,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p7",
+              "id": "b24c2l2p7",
               "text": {
                 "en": "Create a cadence of accountability: a weekly review of the scoreboard to celebrate good weeks, learn from bad ones, and plan the next week.",
                 "fa": "ریتمی از پاسخ‌گویی بساز: یک مرور هفتگی جدول امتیاز برای جشن گرفتن هفته‌های خوب، درس گرفتن از هفته‌های بد و برنامه‌ریزی هفتهٔ بعد."
@@ -1341,9 +950,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l3k3",
+              "id": "b24c2l2k3",
               "type": "tf",
-              "source": "b24c2l3p7",
+              "source": "b24c2l2p7",
               "prompt": {
                 "en": "4DX says you should review your scoreboard once a year.",
                 "fa": "4DX می‌گوید جدول امتیازت را سالی یک بار مرور کنی."
@@ -1352,7 +961,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p8",
+              "id": "b24c2l2p8",
               "text": {
                 "en": "Be lazy: downtime aids insight. Ap Dijksterhuis's unconscious thought theory suggests your unconscious mind handles complex decisions well while you rest.",
                 "fa": "تنبل باش: استراحت به بینش کمک می‌کند. نظریهٔ فکر ناخودآگاه Ap Dijksterhuis می‌گوید ذهن ناخودآگاهت در حال استراحت تصمیم‌های پیچیده را خوب پردازش می‌کند."
@@ -1360,7 +969,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p9",
+              "id": "b24c2l2p9",
               "text": {
                 "en": "Downtime also recharges attention: attention restoration theory says a walk in nature restores your ability to direct focus. A city street does not work as well.",
                 "fa": "استراحت توجه را هم شارژ می‌کند: نظریهٔ بازیابی توجه (attention restoration theory) می‌گوید پیاده‌روی در طبیعت توانایی هدایت تمرکز را بازمی‌گرداند. خیابان شهری به همان خوبی اثر ندارد."
@@ -1368,9 +977,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l3k4",
+              "id": "b24c2l2k4",
               "type": "tap",
-              "source": "b24c2l3p9",
+              "source": "b24c2l2p9",
               "prompt": {
                 "en": "What does attention restoration theory say restores focus?",
                 "fa": "نظریهٔ بازیابی توجه می‌گوید چه چیزی تمرکز را بازمی‌گرداند؟"
@@ -1393,7 +1002,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p10",
+              "id": "b24c2l2p10",
               "text": {
                 "en": "The work evening downtime replaces is rarely important: Ericsson found that even experts manage about four hours of deliberate practice a day. Past that, quality drops.",
                 "fa": "کاری که استراحت عصر جایش را می‌گیرد به‌ندرت مهم است: Ericsson دید حتی خبره‌ها روزانه حدود چهار ساعت تمرین آگاهانه دارند. بیش از آن، کیفیت افت می‌کند."
@@ -1401,7 +1010,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l3p11",
+              "id": "b24c2l2p11",
               "text": {
                 "en": "Apply 4DX to your roadmap: wildly important goal, €100 a month from the AI product. Lead measure: deep hours on it, tallied on a card and reviewed every Sunday.",
                 "fa": "4DX را روی نقشهٔ راهت پیاده کن: هدف بسیار مهم، ماهی ۱۰۰ یورو از محصول AI. معیار پیشرو: ساعت‌های عمیق روی آن، خط‌خورده روی کارت و مرورشده هر یکشنبه."
@@ -1409,9 +1018,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l3k5",
+              "id": "b24c2l2k5",
               "type": "tf",
-              "source": "b24c2l3p10",
+              "source": "b24c2l2p10",
               "prompt": {
                 "en": "Newport says experts can sustain about ten hours of deliberate practice a day.",
                 "fa": "Newport می‌گوید خبره‌ها می‌توانند روزانه حدود ده ساعت تمرین آگاهانه داشته باشند."
@@ -1421,7 +1030,7 @@
           ]
         },
         {
-          "id": "b24c2l4",
+          "id": "b24c2l3",
           "title": {
             "en": "The shutdown ritual",
             "fa": "آیین خاموشی"
@@ -1430,7 +1039,7 @@
           "items": [
             {
               "kind": "card",
-              "id": "b24c2l4p1",
+              "id": "b24c2l3p1",
               "frame": true,
               "text": {
                 "en": "This Lesson distils the end of Rule 1: the shutdown ritual. It matters because a mind that never stops working cannot rest, and tired minds cannot go deep tomorrow.",
@@ -1439,7 +1048,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p2",
+              "id": "b24c2l3p2",
               "text": {
                 "en": "At the end of the workday, shut down work thinking completely until the next morning. No checking email after dinner, no replaying problems in bed.",
                 "fa": "در پایان روز کاری، فکر کاری را تا صبح بعد کاملاً خاموش کن. نه نگاه به ایمیل بعد از شام، نه مرور دوبارهٔ مسئله‌ها در رختخواب."
@@ -1447,7 +1056,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p3",
+              "id": "b24c2l3p3",
               "text": {
                 "en": "Newport gives three reasons: downtime aids insights, it recharges the energy needed for deep work, and evening work is usually not that important anyway.",
                 "fa": "Newport سه دلیل می‌آورد: استراحت به بینش کمک می‌کند، انرژی لازم برای کار عمیق را شارژ می‌کند، و کار عصر معمولاً آن‌قدرها مهم نیست."
@@ -1455,9 +1064,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l4k1",
+              "id": "b24c2l3k1",
               "type": "tap",
-              "source": "b24c2l4p3",
+              "source": "b24c2l3p3",
               "prompt": {
                 "en": "Which is one of Newport's three reasons to shut down?",
                 "fa": "کدام یکی از سه دلیل Newport برای خاموشی است؟"
@@ -1480,7 +1089,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p4",
+              "id": "b24c2l3p4",
               "text": {
                 "en": "The Zeigarnik effect: unfinished tasks keep pulling at your attention. That is why open loops follow you home and spoil your evening.",
                 "fa": "اثر Zeigarnik: کارهای ناتمام مدام توجهت را به خود می‌کشند. برای همین حلقه‌های باز تا خانه دنبالت می‌آیند و عصرت را خراب می‌کنند."
@@ -1488,7 +1097,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p5",
+              "id": "b24c2l3p5",
               "text": {
                 "en": "Roy Baumeister and Masicampo found the fix: you do not need to finish a task, only make a plan for it. A written plan quiets the Zeigarnik pull.",
                 "fa": "Roy Baumeister و E. J. Masicampo راه‌حل را یافتند: لازم نیست کار را تمام کنی، فقط برایش برنامه بریز. یک برنامهٔ نوشته‌شده کشش Zeigarnik را آرام می‌کند."
@@ -1496,9 +1105,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l4k2",
+              "id": "b24c2l3k2",
               "type": "tf",
-              "source": "b24c2l4p5",
+              "source": "b24c2l3p5",
               "prompt": {
                 "en": "To quiet the Zeigarnik effect you must finish every task before you stop.",
                 "fa": "برای آرام کردن اثر Zeigarnik باید هر کاری را پیش از توقف تمام کنی."
@@ -1507,7 +1116,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p6",
+              "id": "b24c2l3p6",
               "text": {
                 "en": "Newport's shutdown ritual: check email for anything urgent, move every open task onto a list or the calendar, review the calendar and plan tomorrow. Then say a set phrase: \"Shutdown complete.\"",
                 "fa": "آیین خاموشی Newport: ایمیل را برای هر چیز فوری چک کن، هر کار باز را به فهرست یا تقویم منتقل کن، تقویم را مرور کن و برای فردا برنامه بریز. بعد یک جملهٔ ثابت بگو: «Shutdown complete»."
@@ -1515,7 +1124,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p7",
+              "id": "b24c2l3p7",
               "text": {
                 "en": "Moving each task to a list or calendar is the Baumeister plan in action. Every open loop gets a place, so your mind can let go.",
                 "fa": "منتقل کردن هر کار به فهرست یا تقویم همان برنامهٔ Baumeister در عمل است. هر حلقهٔ باز جایی پیدا می‌کند، پس ذهنت می‌تواند رها کند."
@@ -1523,9 +1132,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l4k3",
+              "id": "b24c2l3k3",
               "type": "order",
-              "source": "b24c2l4p6",
+              "source": "b24c2l3p6",
               "prompt": {
                 "en": "Put the shutdown ritual in order",
                 "fa": "آیین خاموشی را به ترتیب بچین"
@@ -1552,7 +1161,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p8",
+              "id": "b24c2l3p8",
               "text": {
                 "en": "The phrase sounds silly but works as a cue. When a work worry pops up later, you remind yourself you already said it, so the thought has a home.",
                 "fa": "این جمله شاید خنده‌دار به نظر برسد اما مثل یک نشانه عمل می‌کند. وقتی بعداً نگرانی کاری سر برمی‌آورد، یادت می‌آید که آن را گفته‌ای، پس آن فکر جای مشخصی دارد."
@@ -1560,7 +1169,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p9",
+              "id": "b24c2l3p9",
               "text": {
                 "en": "The ritual must be strict: any loophole lets work creep back into the evening. Newport says it takes him five to fifteen minutes.",
                 "fa": "آیین باید سخت‌گیرانه باشد: هر روزنه‌ای کار را دوباره به عصر برمی‌گرداند. Newport می‌گوید این آیین برایش پنج تا پانزده دقیقه طول می‌کشد."
@@ -1568,9 +1177,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l4k4",
+              "id": "b24c2l3k4",
               "type": "tap",
-              "source": "b24c2l4p9",
+              "source": "b24c2l3p9",
               "prompt": {
                 "en": "How long does Newport say his shutdown takes?",
                 "fa": "Newport می‌گوید خاموشی‌اش چقدر طول می‌کشد؟"
@@ -1593,7 +1202,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p10",
+              "id": "b24c2l3p10",
               "text": {
                 "en": "Add your own steps at shutdown: one line in the decision journal and a glance at tomorrow's deep block. On the last day of a quarter, update the net-worth log too.",
                 "fa": "گام‌های خودت را به خاموشی اضافه کن: یک خط در دفترچهٔ تصمیم و نگاهی به بلوک عمیق فردا. در آخرین روز هر فصل، دفتر ثبت دارایی خالص را هم به‌روز کن."
@@ -1601,7 +1210,7 @@
             },
             {
               "kind": "card",
-              "id": "b24c2l4p11",
+              "id": "b24c2l3p11",
               "text": {
                 "en": "A clean shutdown protects sleep, which your roadmap treats as a core habit. Rested minds produce more deep hours the next day.",
                 "fa": "یک خاموشی تمیز از خواب محافظت می‌کند، که نقشهٔ راهت آن را عادتی اصلی می‌داند. ذهن استراحت‌کرده روز بعد ساعت‌های عمیق بیشتری تولید می‌کند."
@@ -1609,9 +1218,9 @@
             },
             {
               "kind": "check",
-              "id": "b24c2l4k5",
+              "id": "b24c2l3k5",
               "type": "tf",
-              "source": "b24c2l4p11",
+              "source": "b24c2l3p11",
               "prompt": {
                 "en": "A strict shutdown ritual helps protect your sleep.",
                 "fa": "یک آیین خاموشی سخت‌گیرانه به حفظ خوابت کمک می‌کند."
@@ -2200,202 +1809,6 @@
                 }
               ],
               "answer": 1
-            }
-          ]
-        },
-        {
-          "id": "b24c3l4",
-          "title": {
-            "en": "Fixed hours and becoming hard to reach",
-            "fa": "ساعت ثابت و دیردسترس شدن"
-          },
-          "minutes": 11,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b24c3l4p1",
-              "frame": true,
-              "text": {
-                "en": "This Lesson distils the end of Rule 4: fixed-schedule productivity and taming email. It matters because a hard stop forces you to protect deep hours instead of stretching the day.",
-                "fa": "این درس پایان قانون ۴ را خلاصه می‌کند: بهره‌وری با برنامهٔ ثابت و رام کردن ایمیل. مهم است چون یک توقف قطعی وادارت می‌کند از ساعت‌های عمیق محافظت کنی، نه این‌که روز را کش بدهی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p2",
-              "text": {
-                "en": "Finish your work by five thirty: Newport calls this fixed-schedule productivity. He sets a firm end time and works backward to plan the day.",
-                "fa": "کارت را تا پنج و نیم تمام کن: Newport این را بهره‌وری با برنامهٔ ثابت (fixed-schedule productivity) می‌نامد. او یک ساعت پایان قطعی می‌گذارد و از آن به عقب روز را برنامه‌ریزی می‌کند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p3",
-              "text": {
-                "en": "The fixed end forces drastic cuts to shallow work: saying no more often and being careful with commitments. Newport used it while writing papers and books as a young professor.",
-                "fa": "پایان ثابت، کم‌کردن شدید کار سطحی را اجباری می‌کند: بیشتر نه گفتن و دقت در قول‌ها. Newport در دوران استادی جوانی‌اش، هنگام نوشتن مقاله و کتاب از آن استفاده کرد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c3l4k1",
-              "type": "tf",
-              "source": "b24c3l4p3",
-              "prompt": {
-                "en": "Fixed-schedule productivity means working late whenever deep work runs over.",
-                "fa": "بهره‌وری با برنامهٔ ثابت یعنی هر وقت کار عمیق طول کشید، تا دیر وقت کار کنی."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p4",
-              "text": {
-                "en": "Become hard to reach. Make people who send you email do more work, for example with a sender filter that sets clear expectations on what you will answer.",
-                "fa": "دیردسترس شو. کسانی که به تو ایمیل می‌زنند را وادار کن کار بیشتری کنند، مثلاً با یک فیلتر فرستنده که انتظار روشنی می‌گذارد که به چه چیزی پاسخ می‌دهی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p5",
-              "text": {
-                "en": "Newport's own contact page works as such a filter: it says he will only reply to messages that match his interests. Senders adjust and stop expecting a reply to everything.",
-                "fa": "صفحهٔ تماس خود Newport همین فیلتر را دارد: می‌گوید فقط به پیام‌هایی پاسخ می‌دهد که با علایقش جور باشد. فرستنده‌ها خود را تطبیق می‌دهند و دیگر برای همه‌چیز انتظار پاسخ ندارند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c3l4k2",
-              "type": "tap",
-              "source": "b24c3l4p4",
-              "prompt": {
-                "en": "What does a sender filter do?",
-                "fa": "فیلتر فرستنده چه می‌کند؟"
-              },
-              "options": [
-                {
-                  "en": "Sets clear expectations on what you will answer",
-                  "fa": "انتظار روشنی می‌گذارد که به چه چیزی پاسخ می‌دهی"
-                },
-                {
-                  "en": "Replies to every message instantly",
-                  "fa": "به هر پیامی فوراً پاسخ می‌دهد"
-                },
-                {
-                  "en": "Deletes all your email",
-                  "fa": "همهٔ ایمیل‌هایت را پاک می‌کند"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p6",
-              "text": {
-                "en": "Do more work when you send or reply to email. Take the process-centric approach: write a reply that closes the loop, such as proposing exact meeting times.",
-                "fa": "وقتی ایمیل می‌فرستی یا پاسخ می‌دهی کار بیشتری بکن. رویکرد فرایندمحور را بگیر: پاسخی بنویس که حلقه را ببندد، مثلاً زمان‌های دقیق جلسه را پیشنهاد بده."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p7",
-              "text": {
-                "en": "A vague \"Let's grab coffee\" starts many messages; a reply that names a place, two times and a fallback ends the thread in one round.",
-                "fa": "یک «بیا قهوه بخوریم» مبهم پیام‌های زیادی راه می‌اندازد؛ پاسخی که جا، دو زمان و یک گزینهٔ جایگزین را نام ببرد، رشته را در یک دور تمام می‌کند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c3l4k3",
-              "type": "tf",
-              "source": "b24c3l4p6",
-              "prompt": {
-                "en": "The process-centric approach writes replies that close the loop.",
-                "fa": "رویکرد فرایندمحور پاسخ‌هایی می‌نویسد که حلقه را می‌بندند."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p8",
-              "text": {
-                "en": "Don't respond to every email. Newport says skip a message if it is ambiguous, if it does not interest you, or if nothing bad happens when you ignore it.",
-                "fa": "به هر ایمیلی پاسخ نده. Newport می‌گوید از پیامی بگذر اگر مبهم است، برایت جالب نیست، یا نادیده گرفتنش پیامد بدی ندارد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p9",
-              "text": {
-                "en": "This takes getting used to: a few small bad things will happen. Newport accepts that cost in exchange for far more deep hours.",
-                "fa": "عادت کردن به این زمان می‌برد: چند اتفاق بد کوچک پیش می‌آید. Newport این هزینه را در برابر ساعت‌های عمیق خیلی بیشتر می‌پذیرد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c3l4k4",
-              "type": "tap",
-              "source": "b24c3l4p8",
-              "prompt": {
-                "en": "When does Newport say to skip an email?",
-                "fa": "Newport می‌گوید کی از یک ایمیل بگذری؟"
-              },
-              "options": [
-                {
-                  "en": "When it comes from your manager",
-                  "fa": "وقتی از مدیرت آمده"
-                },
-                {
-                  "en": "When it is ambiguous or does not interest you",
-                  "fa": "وقتی مبهم است یا برایت جالب نیست"
-                },
-                {
-                  "en": "When it arrives before noon",
-                  "fa": "وقتی پیش از ظهر می‌رسد"
-                }
-              ],
-              "answer": 1
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p10",
-              "text": {
-                "en": "In the conclusion Newport recalls Bill Gates spending intense weeks writing BASIC for the Altair, the work that started Microsoft. Depth, he argues, is how big things get built.",
-                "fa": "Newport در جمع‌بندی یادآوری می‌کند که Bill Gates هفته‌هایی فشرده را صرف نوشتن BASIC برای Altair کرد، کاری که Microsoft را آغاز کرد. به گفتهٔ او، چیزهای بزرگ با عمق ساخته می‌شوند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b24c3l4p11",
-              "text": {
-                "en": "Set your own hard stop, for example 18:00, then run the shutdown ritual. Protect four deep hours inside it and spend them on the AI product and your reading hour.",
-                "fa": "یک توقف قطعی برای خودت بگذار، مثلاً ساعت ۱۸:۰۰، بعد آیین خاموشی را اجرا کن. چهار ساعت عمیق را درون آن حفظ کن و صرف محصول AI و ساعت مطالعه‌ات کن."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b24c3l4k5",
-              "type": "tap",
-              "source": "b24c3l4p11",
-              "prompt": {
-                "en": "What should you spend your protected deep hours on?",
-                "fa": "ساعت‌های عمیق محافظت‌شده‌ات را صرف چه کنی؟"
-              },
-              "options": [
-                {
-                  "en": "Email and chat",
-                  "fa": "ایمیل و چت"
-                },
-                {
-                  "en": "Checking your broker app",
-                  "fa": "چک کردن اپ بروکر"
-                },
-                {
-                  "en": "The AI product and your reading hour",
-                  "fa": "محصول AI و ساعت مطالعه‌ات"
-                }
-              ],
-              "answer": 2
             }
           ]
         }

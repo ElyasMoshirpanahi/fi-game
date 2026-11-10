@@ -17,6 +17,7 @@
     "fa": "دایرهٔ صلاحیت"
   },
   "tier": "mid",
+  "complexity": 4,
   "circles": [
     {
       "id": "b12c1",
@@ -31,7 +32,7 @@
             "en": "What Berkshire buys: owner earnings",
             "fa": "Berkshire چه می‌خرد: سود مالکانه"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -226,6 +227,25 @@
                 "en": "In the 1990s letters he adds look-through earnings: Berkshire's share of the retained profits of companies it partly owns counts too, though accounting leaves it out.",
                 "fa": "در نامه‌های دههٔ ۱۹۹۰ «سود نگاه‌ازپشت» را اضافه می‌کند: سهم Berkshire از سود انباشتهٔ شرکت‌هایی که بخشی از آن‌ها را دارد هم حساب است، هرچند حسابداری آن را کنار می‌گذارد."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l1p13",
+              "text": {
+                "en": "The owner's manual sets the yardstick: per-share intrinsic value, the discounted value of the cash a business can take out over its remaining life.",
+                "fa": "راهنمای مالکان معیار را تعیین می‌کند: ارزش ذاتی هر سهم، یعنی ارزش تنزیل‌شدهٔ نقدی که یک کسب‌وکار در باقی عمرش می‌تواند بیرون بدهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l1k6",
+              "type": "tf",
+              "source": "b12c1l1p13",
+              "prompt": {
+                "en": "Buffett defines intrinsic value as the discounted cash a business can take out over its remaining life.",
+                "fa": "Buffett ارزش ذاتی را نقد تنزیل‌شده‌ای می‌داند که کسب‌وکار در باقی عمرش می‌تواند بیرون بدهد."
+              },
+              "answer": true
             }
           ]
         },
@@ -235,7 +255,7 @@
             "en": "Moats: castles worth owning",
             "fa": "خندق‌ها: قلعه‌هایی که ارزش داشتن دارند"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -430,6 +450,39 @@
                 "en": "Every day, Buffett wrote in 2005, the competitive position of each business grows either weaker or stronger. Delighting customers and cutting needless cost widens the moat.",
                 "fa": "Buffett در ۲۰۰۵ نوشت هر روز جایگاه رقابتی هر کسب‌وکار یا ضعیف‌تر می‌شود یا قوی‌تر. خشنود کردن مشتری و حذف هزینهٔ بی‌جا خندق را عریض‌تر می‌کند."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l2p13",
+              "text": {
+                "en": "The 1991 letter defines a franchise: a product that is needed or desired, has no close substitute and is not price-regulated. It can therefore raise prices.",
+                "fa": "نامهٔ ۱۹۹۱ فرانچایز را تعریف می‌کند: محصولی که لازم یا مطلوب است، جایگزین نزدیکی ندارد و قیمتش تنظیم دولتی نمی‌شود. پس می‌تواند قیمت را بالا ببرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l2k6",
+              "type": "tap",
+              "source": "b12c1l2p13",
+              "prompt": {
+                "en": "Which is a trait of a franchise in the 1991 letter?",
+                "fa": "کدام ویژگی فرانچایز در نامهٔ ۱۹۹۱ است؟"
+              },
+              "options": [
+                {
+                  "en": "It must cut prices to keep customers",
+                  "fa": "برای نگه‌داشتن مشتری باید قیمت را پایین بیاورد"
+                },
+                {
+                  "en": "It has no close substitute",
+                  "fa": "جایگزین نزدیکی ندارد"
+                },
+                {
+                  "en": "It needs heavy capital every year",
+                  "fa": "هر سال سرمایهٔ سنگین لازم دارد"
+                }
+              ],
+              "answer": 1
             }
           ]
         },
@@ -439,7 +492,7 @@
             "en": "Mr. Market, fear and greed",
             "fa": "Mr. Market، ترس و طمع"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -634,6 +687,25 @@
                 "en": "Buffett's point applied to an index core: a 40 percent fall in a world index is a market in a panic, not a verdict on the businesses inside it.",
                 "fa": "نکتهٔ Buffett دربارهٔ یک هستهٔ شاخصی: افت ۴۰ درصدی یک شاخص جهانی، بازاری در وحشت است، نه حکمی دربارهٔ کسب‌وکارهای درون آن."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l3p13",
+              "text": {
+                "en": "In the 2008 letter, in the middle of the crisis, he wrote that whether socks or stocks, he likes buying quality merchandise when it is marked down.",
+                "fa": "در نامهٔ ۲۰۰۸، وسط بحران، نوشت چه جوراب باشد چه سهام، دوست دارد کالای باکیفیت را وقتی تخفیف خورده بخرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l3k6",
+              "type": "tf",
+              "source": "b12c1l3p13",
+              "prompt": {
+                "en": "In 2008 Buffett said a crash is a reason to stop buying quality businesses.",
+                "fa": "Buffett در ۲۰۰۸ گفت سقوط بازار دلیلی برای توقف خرید کسب‌وکارهای باکیفیت است."
+              },
+              "answer": false
             }
           ]
         },
@@ -643,7 +715,7 @@
             "en": "Circle of competence and patience",
             "fa": "دایرهٔ صلاحیت و صبر"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -838,6 +910,39 @@
                 "en": "The 1977 test still frames everything: understand the business first, then judge its prospects, its people and its price.",
                 "fa": "آزمون ۱۹۷۷ هنوز چارچوب همه چیز است: اول کسب‌وکار را بفهم، بعد چشم‌انداز، آدم‌ها و قیمتش را بسنج."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c1l4p13",
+              "text": {
+                "en": "Buffett and Munger keep a too-hard pile for businesses they cannot judge. Passing on them costs nothing, since there is no penalty for skipping a pitch.",
+                "fa": "Buffett و Munger یک «تودهٔ خیلی سخت» برای کسب‌وکارهایی دارند که نمی‌توانند قضاوتشان کنند. رد کردنشان هزینه‌ای ندارد، چون برای نزدن یک توپ جریمه‌ای نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c1l4k6",
+              "type": "tap",
+              "source": "b12c1l4p13",
+              "prompt": {
+                "en": "What do Buffett and Munger do with a business they cannot judge?",
+                "fa": "Buffett و Munger با کسب‌وکاری که نمی‌توانند قضاوتش کنند چه می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "Buy a small stake to learn",
+                  "fa": "سهم کوچکی می‌خرند تا یاد بگیرند"
+                },
+                {
+                  "en": "Put it in the too-hard pile and pass",
+                  "fa": "آن را در تودهٔ خیلی سخت می‌گذارند و رد می‌کنند"
+                },
+                {
+                  "en": "Ask an expert to pick for them",
+                  "fa": "از یک متخصص می‌خواهند برایشان انتخاب کند"
+                }
+              ],
+              "answer": 1
             }
           ]
         }
@@ -856,7 +961,7 @@
             "en": "Insurance float",
             "fa": "شناوری بیمه"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -1051,6 +1156,25 @@
                 "en": "Float plus disciplined underwriting gave Berkshire cheap money to buy stocks and whole businesses, which is why Buffett calls insurance its core operation.",
                 "fa": "شناوری به‌علاوهٔ بیمه‌گری منضبط به Berkshire پول ارزان داد تا سهام و کل کسب‌وکارها را بخرد، و برای همین Buffett بیمه را عملیات اصلی آن می‌نامد."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l1p13",
+              "text": {
+                "en": "Float is most valuable when claims settle slowly. In liability and reinsurance lines, payments can come years or decades later, so the money stays invested longer.",
+                "fa": "شناوری وقتی خسارت‌ها دیر تسویه شوند بیشترین ارزش را دارد. در بیمهٔ مسئولیت و بیمهٔ اتکایی پرداخت‌ها ممکن است سال‌ها یا دهه‌ها بعد بیاید، پس پول بیشتر سرمایه‌گذاری می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l1k6",
+              "type": "tf",
+              "source": "b12c2l1p13",
+              "prompt": {
+                "en": "Float is worth more when claims are paid out slowly.",
+                "fa": "شناوری وقتی خسارت‌ها آهسته پرداخت شوند ارزش بیشتری دارد."
+              },
+              "answer": true
             }
           ]
         },
@@ -1060,7 +1184,7 @@
             "en": "Capital allocation",
             "fa": "تخصیص سرمایه"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -1255,6 +1379,39 @@
                 "en": "Good allocation is often saying no: Buffett and Munger let cash pile up rather than buy businesses at silly prices.",
                 "fa": "تخصیص خوب اغلب یعنی نه گفتن: Buffett و Munger ترجیح دادند نقد انباشته شود تا اینکه کسب‌وکارها را به قیمت‌های احمقانه بخرند."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l2p13",
+              "text": {
+                "en": "Berkshire's structure lets it move cash between its businesses without tax friction, from slow growers to better uses such as BNSF, the railroad it bought in 2010.",
+                "fa": "ساختار Berkshire اجازه می‌دهد نقد را بدون اصطکاک مالیاتی بین کسب‌وکارهایش جابه‌جا کند، از کم‌رشدها به مصارف بهتر مثل BNSF، راه‌آهنی که در ۲۰۱۰ خرید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l2k6",
+              "type": "tap",
+              "source": "b12c2l2p13",
+              "prompt": {
+                "en": "What advantage does Berkshire's structure give its capital allocation?",
+                "fa": "ساختار Berkshire چه مزیتی به تخصیص سرمایه‌اش می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "It can move cash between businesses without tax friction",
+                  "fa": "می‌تواند نقد را بدون اصطکاک مالیاتی بین کسب‌وکارها جابه‌جا کند"
+                },
+                {
+                  "en": "It must pay out all profits as dividends",
+                  "fa": "باید همهٔ سود را سود سهام بدهد"
+                },
+                {
+                  "en": "Each business keeps its own cash forever",
+                  "fa": "هر کسب‌وکار نقدش را برای همیشه نگه می‌دارد"
+                }
+              ],
+              "answer": 0
             }
           ]
         },
@@ -1264,7 +1421,7 @@
             "en": "Buybacks: only below value",
             "fa": "بازخرید سهام: فقط زیر ارزش"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -1459,6 +1616,25 @@
                 "en": "His test reduces to one question: does this use of cash raise intrinsic value per share for owners who stay? If not, skip it.",
                 "fa": "آزمون او به یک پرسش می‌رسد: آیا این مصرف نقد ارزش ذاتی هر سهم را برای مالکانی که می‌مانند بالا می‌برد؟ اگر نه، انجامش نده."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l3p13",
+              "text": {
+                "en": "The 2018 rule had a safety floor: no repurchases if they would cut Berkshire's cash below $20 billion. Buybacks never come before staying financially strong.",
+                "fa": "قاعدهٔ ۲۰۱۸ یک کف ایمنی داشت: اگر بازخرید نقد Berkshire را زیر ۲۰ میلیارد دلار ببرد، انجام نمی‌شود. بازخرید هیچ‌وقت بر قوی ماندن مالی مقدم نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l3k6",
+              "type": "tf",
+              "source": "b12c2l3p13",
+              "prompt": {
+                "en": "Under the 2018 rule, Berkshire could buy back shares even if cash fell below $20 billion.",
+                "fa": "طبق قاعدهٔ ۲۰۱۸، Berkshire حتی اگر نقدش زیر ۲۰ میلیارد دلار می‌رفت می‌توانست سهام بازخرید کند."
+              },
+              "answer": false
             }
           ]
         },
@@ -1468,7 +1644,7 @@
             "en": "Managers as partners",
             "fa": "مدیران به‌عنوان شریک"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -1663,6 +1839,39 @@
                 "en": "Buffett credits culture, not rulebooks, for keeping dozens of Berkshire managers acting like owners.",
                 "fa": "Buffett فرهنگ را، نه دفترچهٔ قوانین را، عامل این می‌داند که ده‌ها مدیر Berkshire مثل مالک رفتار کنند."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l4p13",
+              "text": {
+                "en": "Buffett named Greg Abel to succeed him as CEO. He trusts Berkshire's culture of owner-minded managers to outlast its founder.",
+                "fa": "Buffett، Greg Abel را جانشین خود به‌عنوان مدیرعامل معرفی کرد. او اعتماد دارد فرهنگ مدیران مالک‌منش Berkshire از بنیان‌گذارش بیشتر عمر کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l4k6",
+              "type": "tap",
+              "source": "b12c2l4p13",
+              "prompt": {
+                "en": "What does Buffett rely on to keep Berkshire working after him?",
+                "fa": "Buffett برای ادامهٔ کار Berkshire پس از خودش به چه تکیه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A thick rulebook for every manager",
+                  "fa": "یک کتاب قوانین قطور برای هر مدیر"
+                },
+                {
+                  "en": "Selling the businesses to the highest bidder",
+                  "fa": "فروش کسب‌وکارها به بالاترین پیشنهاد"
+                },
+                {
+                  "en": "A successor and a culture of owner-minded managers",
+                  "fa": "یک جانشین و فرهنگ مدیران مالک‌منش"
+                }
+              ],
+              "answer": 2
             }
           ]
         },
@@ -1672,7 +1881,7 @@
             "en": "Index funds and the Protégé bet",
             "fa": "صندوق‌های شاخصی و شرط با Protégé"
           },
-          "minutes": 12,
+          "minutes": 13,
           "items": [
             {
               "kind": "card",
@@ -1867,6 +2076,25 @@
                 "en": "Your core follows the same idea: a cheap world index ETF such as VWCE, bought steadily through IBKR or DEGIRO and held for decades.",
                 "fa": "هستهٔ تو همین ایده را دنبال می‌کند: یک ETF شاخص جهانی ارزان مثل VWCE، که به‌طور منظم از طریق IBKR یا DEGIRO خریده و دهه‌ها نگه داشته می‌شود."
               }
+            },
+            {
+              "kind": "card",
+              "id": "b12c2l5p13",
+              "text": {
+                "en": "Buffett warns that index investors can still hurt themselves by jumping in and out. Buying steadily over time beats trying to guess the right moment.",
+                "fa": "Buffett هشدار می‌دهد سرمایه‌گذار شاخصی هم با ورود و خروج مکرر به خودش آسیب می‌زند. خرید منظم در طول زمان از حدس زدن لحظهٔ درست بهتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b12c2l5k6",
+              "type": "tf",
+              "source": "b12c2l5p13",
+              "prompt": {
+                "en": "Buffett says index investors do best by timing when to get in and out.",
+                "fa": "Buffett می‌گوید سرمایه‌گذار شاخصی با زمان‌بندی ورود و خروج بهترین نتیجه را می‌گیرد."
+              },
+              "answer": false
             }
           ]
         }

@@ -17,6 +17,7 @@
     "fa": "رقابت برای بازنده‌هاست"
   },
   "tier": "low",
+  "complexity": 3,
   "circles": [
     {
       "id": "b19c1",
@@ -639,6 +640,210 @@
                 {
                   "en": "People",
                   "fa": "آدم‌ها"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b19c1l4",
+          "title": {
+            "en": "Foundations, the mafia and distribution",
+            "fa": "پایه‌ها، مافیا و توزیع"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b19c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Chapters 9 to 11: foundations, the PayPal mafia and distribution. It matters because your AI product fails if early choices on partners or selling go wrong.",
+                "fa": "این درس فصل‌های ۹ تا ۱۱ را خلاصه می‌کند: پایه‌ها، مافیای PayPal و توزیع. مهم است چون محصول AI تو اگر انتخاب‌های اولیه دربارهٔ شریک یا فروش غلط باشد شکست می‌خورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p2",
+              "text": {
+                "en": "Chapter 9, Foundations: Thiel's law says a startup messed up at its foundation cannot be fixed. Early choices such as partners and ownership are very hard to undo.",
+                "fa": "فصل ۹، Foundations: قانون Thiel می‌گوید استارتاپی که در پایه خراب شده درست‌شدنی نیست. انتخاب‌های اولیه مثل شریک‌ها و مالکیت را خیلی سخت می‌شود برگرداند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p3",
+              "text": {
+                "en": "Choosing a cofounder is like getting married, and founder conflict is as ugly as divorce. Founders should share a prehistory before they start a company together.",
+                "fa": "انتخاب هم‌بنیان‌گذار مثل ازدواج است و دعوای بنیان‌گذاران به زشتی طلاق. بنیان‌گذاران باید پیش از شروع شرکت سابقهٔ مشترکی با هم داشته باشند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l4k1",
+              "type": "tf",
+              "source": "b19c1l4p2",
+              "prompt": {
+                "en": "Thiel's law says a broken foundation can be fixed later with enough effort.",
+                "fa": "قانون Thiel می‌گوید پایهٔ خراب را بعداً با تلاش کافی می‌شود درست کرد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p4",
+              "text": {
+                "en": "When ownership, possession and control sit with different people, misalignment follows. A small board works best: three members is ideal for a private company.",
+                "fa": "وقتی مالکیت، تصدی و کنترل دست آدم‌های مختلف باشد، ناهماهنگی پیش می‌آید. هیئت‌مدیرهٔ کوچک بهترین است: سه عضو برای شرکت خصوصی ایده‌آل است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p5",
+              "text": {
+                "en": "Everyone involved should be fully committed, ideally full time. Thiel says a startup CEO should earn no more than 150,000 dollars a year, so pay stays tied to equity value.",
+                "fa": "همهٔ افراد درگیر باید کاملاً متعهد و ترجیحاً تمام‌وقت باشند. Thiel می‌گوید مدیرعامل استارتاپ نباید بیش از ۱۵۰ هزار دلار در سال بگیرد تا درآمدش به ارزش سهام گره بخورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l4k2",
+              "type": "tap",
+              "source": "b19c1l4p5",
+              "prompt": {
+                "en": "What does Thiel say about startup CEO pay?",
+                "fa": "Thiel دربارهٔ حقوق مدیرعامل استارتاپ چه می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "No more than 150,000 dollars a year",
+                  "fa": "نه بیش از ۱۵۰ هزار دلار در سال"
+                },
+                {
+                  "en": "Match the pay of big-company CEOs",
+                  "fa": "هم‌اندازهٔ حقوق مدیرعامل شرکت‌های بزرگ"
+                },
+                {
+                  "en": "Pay in cash only, never in shares",
+                  "fa": "فقط پول نقد، هرگز سهام"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p6",
+              "text": {
+                "en": "Chapter 10, The Mechanics of Mafia: the early PayPal team was so close that its members later built Tesla, LinkedIn and YouTube. Hire people who will enjoy working together.",
+                "fa": "فصل ۱۰، The Mechanics of Mafia: تیم اولیهٔ PayPal آن‌قدر نزدیک بود که اعضایش بعدها Tesla، LinkedIn و YouTube را ساختند. کسانی را استخدام کن که از کار کردن با هم لذت ببرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p7",
+              "text": {
+                "en": "Every recruit should be able to say why they would join you instead of others. The best answer names your mission and your team, not perks like free food.",
+                "fa": "هر نیروی تازه باید بتواند بگوید چرا به‌جای دیگران به تو می‌پیوندد. بهترین جواب مأموریت و تیم توست، نه مزایایی مثل غذای مجانی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l4k3",
+              "type": "tap",
+              "source": "b19c1l4p7",
+              "prompt": {
+                "en": "According to Thiel, what should draw a recruit to join?",
+                "fa": "به گفتهٔ Thiel، چه چیزی باید نیروی تازه را جذب کند؟"
+              },
+              "options": [
+                {
+                  "en": "Perks like free food",
+                  "fa": "مزایایی مثل غذای مجانی"
+                },
+                {
+                  "en": "Your mission and your team",
+                  "fa": "مأموریت و تیم تو"
+                },
+                {
+                  "en": "The largest possible salary",
+                  "fa": "بالاترین حقوق ممکن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p8",
+              "text": {
+                "en": "Inside the company, give every person one clear responsibility. When people do not compete over the same job, conflict drops.",
+                "fa": "درون شرکت به هر نفر یک مسئولیت روشن بده. وقتی آدم‌ها بر سر یک کار رقابت نکنند، درگیری کم می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p9",
+              "text": {
+                "en": "Chapter 11, If You Build It, Will They Come?: the idea that great products sell themselves is a myth. Poor sales, not bad product, is the most common cause of failure.",
+                "fa": "فصل ۱۱، If You Build It, Will They Come?: این ایده که محصول عالی خودش را می‌فروشد افسانه است. فروش ضعیف، نه محصول بد، شایع‌ترین علت شکست است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l4k4",
+              "type": "tf",
+              "source": "b19c1l4p9",
+              "prompt": {
+                "en": "Thiel believes a great product will sell itself.",
+                "fa": "Thiel باور دارد محصول عالی خودش را می‌فروشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p10",
+              "text": {
+                "en": "Your sales method must fit your deal size: big deals need personal selling, cheap products need marketing or viral growth. Between them lies a dead zone where neither pays.",
+                "fa": "روش فروش باید با اندازهٔ معامله جور باشد: معامله‌های بزرگ فروش شخصی می‌خواهند و محصولات ارزان بازاریابی یا رشد ویروسی. میانشان منطقهٔ مرده‌ای است که هیچ‌کدام صرف نمی‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p11",
+              "text": {
+                "en": "A customer's lifetime value must exceed what it costs to win them. You also sell beyond customers: to investors, recruits and the press.",
+                "fa": "ارزش طول عمر هر مشتری باید از هزینهٔ جذبش بیشتر باشد. تو فراتر از مشتری هم می‌فروشی: به سرمایه‌گذار، نیروی تازه و رسانه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b19c1l4p12",
+              "text": {
+                "en": "For your AI product, write your distribution plan before you finish building it. Name who pays, how they hear about you and what winning one customer costs.",
+                "fa": "برای محصول AI خود، پیش از تمام شدن ساخت، برنامهٔ توزیعت را بنویس. مشخص کن چه کسی پول می‌دهد، چطور از تو باخبر می‌شود و جذب هر مشتری چقدر خرج دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b19c1l4k5",
+              "type": "tap",
+              "source": "b19c1l4p12",
+              "prompt": {
+                "en": "What should you write before you finish building your AI product?",
+                "fa": "پیش از تمام شدن ساخت محصول AI چه چیزی را باید بنویسی؟"
+              },
+              "options": [
+                {
+                  "en": "A ten-year revenue forecast",
+                  "fa": "پیش‌بینی ده‌سالهٔ درآمد"
+                },
+                {
+                  "en": "Your distribution plan",
+                  "fa": "برنامهٔ توزیعت"
+                },
+                {
+                  "en": "A list of rival features",
+                  "fa": "فهرست ویژگی‌های رقبا"
                 }
               ],
               "answer": 1

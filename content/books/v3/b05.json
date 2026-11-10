@@ -17,6 +17,7 @@
     "fa": "دو سیستم"
   },
   "tier": "low",
+  "complexity": 5,
   "circles": [
     {
       "id": "b05c1",
@@ -31,7 +32,7 @@
             "en": "Two systems: the lazy controller (Part I)",
             "fa": "دو سیستم: ناظر تنبل (بخش اول)"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -226,6 +227,33 @@
                 }
               ],
               "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p13",
+              "text": {
+                "en": "The halo effect: Alan is intelligent, industrious, impulsive, critical, stubborn and envious; Ben has the same traits in reverse order. Most people like Alan more, because first impressions colour the rest.",
+                "fa": "اثر هاله: Alan باهوش، سخت‌کوش، تکانشی، منتقد، لجباز و حسود است؛ Ben همین ویژگی‌ها را به ترتیب برعکس دارد. بیشتر مردم Alan را بیشتر دوست دارند، چون برداشت اول بقیه را رنگ می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l1p14",
+              "text": {
+                "en": "System 2 tires. Israeli parole judges approved about 65 percent of requests right after a meal, and the rate fell to about zero just before the next break.",
+                "fa": "سیستم ۲ خسته می‌شود. قاضیان آزادی مشروط در اسرائیل درست پس از غذا حدود ۶۵ درصد درخواست‌ها را می‌پذیرفتند و این نرخ درست پیش از استراحت بعدی تقریباً به صفر می‌رسید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l1k6",
+              "type": "tf",
+              "source": "b05c1l1p13",
+              "prompt": {
+                "en": "Listing the same traits in a different order changes how people judge Alan and Ben.",
+                "fa": "فهرست کردن همان ویژگی‌ها با ترتیبی دیگر، قضاوت مردم دربارهٔ Alan و Ben را تغییر می‌دهد."
+              },
+              "answer": true
             }
           ]
         },
@@ -235,7 +263,7 @@
             "en": "Anchors and availability (Part II)",
             "fa": "لنگرها و دسترس‌پذیری (بخش دوم)"
           },
-          "minutes": 12,
+          "minutes": 15,
           "items": [
             {
               "kind": "card",
@@ -430,6 +458,66 @@
                 }
               ],
               "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p13",
+              "text": {
+                "en": "The law of small numbers: US counties with the lowest kidney cancer rates are mostly rural and sparsely populated, and so are those with the highest. Small samples simply give more extreme results.",
+                "fa": "قانون اعداد کوچک: شهرستان‌های آمریکا با کمترین نرخ سرطان کلیه بیشتر روستایی و کم‌جمعیت‌اند، و آن‌هایی که بیشترین نرخ را دارند هم همین‌طور. نمونه‌های کوچک صرفاً نتیجه‌های افراطی‌تری می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p14",
+              "text": {
+                "en": "Linda, a former philosophy student active against discrimination, seems more likely a feminist bank teller than a bank teller. Most people rank it so, though a subset can never be more probable than the whole.",
+                "fa": "Linda، دانشجوی سابق فلسفه که علیه تبعیض فعال بوده، بیشتر «کارمند بانکِ فمینیست» به نظر می‌رسد تا «کارمند بانک». بیشتر مردم همین‌طور رتبه می‌دهند، هرچند یک زیرمجموعه هرگز نمی‌تواند از کل محتمل‌تر باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k6",
+              "type": "tap",
+              "source": "b05c1l2p13",
+              "prompt": {
+                "en": "Why do sparsely populated counties show both the lowest and highest cancer rates?",
+                "fa": "چرا شهرستان‌های کم‌جمعیت هم کمترین و هم بیشترین نرخ سرطان را نشان می‌دهند؟"
+              },
+              "options": [
+                {
+                  "en": "Small samples give more extreme results",
+                  "fa": "نمونه‌های کوچک نتیجه‌های افراطی‌تری می‌دهند"
+                },
+                {
+                  "en": "Rural life both causes and prevents cancer",
+                  "fa": "زندگی روستایی هم سرطان می‌آورد هم جلویش را می‌گیرد"
+                },
+                {
+                  "en": "The data were collected wrongly",
+                  "fa": "داده‌ها اشتباه جمع شده‌اند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l2p15",
+              "text": {
+                "en": "Regression to the mean: flight instructors saw cadets do worse after praise and better after shouting. Extreme performances are followed by more average ones anyway, so they credited punishment for luck.",
+                "fa": "بازگشت به میانگین: مربیان پرواز دیدند خلبانان دانشجو پس از تشویق بدتر و پس از داد زدن بهتر عمل می‌کنند. پس از عملکردهای افراطی به هر حال عملکردهای معمولی‌تر می‌آید، پس آن‌ها شانس را به حساب تنبیه گذاشتند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l2k7",
+              "type": "tf",
+              "source": "b05c1l2p15",
+              "prompt": {
+                "en": "The cadets improved after being shouted at mainly because shouting works.",
+                "fa": "خلبانان دانشجو پس از داد زدن بهتر شدند، عمدتاً چون داد زدن مؤثر است."
+              },
+              "answer": false
             }
           ]
         },
@@ -439,7 +527,7 @@
             "en": "Overconfidence and the planning fallacy (Part III)",
             "fa": "اعتمادبه‌نفس کاذب و خطای برنامه‌ریزی (بخش سوم)"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -634,6 +722,47 @@
                 }
               ],
               "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p13",
+              "text": {
+                "en": "Paul Meehl's work showed simple formulas beat expert judgment. In about 60 percent of some 200 studies the algorithm was more accurate, and the rest were a draw.",
+                "fa": "پژوهش Paul Meehl نشان داد فرمول‌های ساده از قضاوت کارشناسان بهترند. در حدود ۶۰ درصد از نزدیک به ۲۰۰ مطالعه الگوریتم دقیق‌تر بود و بقیه مساوی شدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l3p14",
+              "text": {
+                "en": "Trust an expert's intuition only in a regular environment, after long practice with quick feedback. Firefighters and chess players qualify; stock pickers and political pundits do not.",
+                "fa": "به شهود یک کارشناس فقط در محیطی منظم و پس از تمرین طولانی با بازخورد سریع اعتماد کن. آتش‌نشان‌ها و شطرنج‌بازها این شرط را دارند؛ سهام‌چین‌ها و مفسران سیاسی نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l3k6",
+              "type": "tap",
+              "source": "b05c1l3p14",
+              "prompt": {
+                "en": "When can an expert's intuition be trusted?",
+                "fa": "کی می‌شود به شهود یک کارشناس اعتماد کرد؟"
+              },
+              "options": [
+                {
+                  "en": "In a regular environment, after long practice with quick feedback",
+                  "fa": "در محیطی منظم، پس از تمرین طولانی با بازخورد سریع"
+                },
+                {
+                  "en": "Whenever the expert feels very confident",
+                  "fa": "هر وقت کارشناس خیلی مطمئن باشد"
+                },
+                {
+                  "en": "Whenever the expert has a famous name",
+                  "fa": "هر وقت کارشناس نام مشهوری داشته باشد"
+                }
+              ],
+              "answer": 0
             }
           ]
         },
@@ -643,7 +772,7 @@
             "en": "Losses, frames and choices (Part IV)",
             "fa": "زیان‌ها، قاب‌ها و انتخاب‌ها (بخش چهارم)"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -838,6 +967,264 @@
                 }
               ],
               "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p13",
+              "text": {
+                "en": "We overweight small chances and certainty: going from 0 to 5 percent or from 95 to 100 percent feels bigger than 60 to 65 percent. This sells both lottery tickets and overpriced insurance.",
+                "fa": "به احتمال‌های کوچک و به قطعیت وزن زیادی می‌دهیم: رفتن از ۰ به ۵ درصد یا از ۹۵ به ۱۰۰ درصد بزرگ‌تر از ۶۰ به ۶۵ درصد حس می‌شود. همین هم بلیت بخت‌آزمایی می‌فروشد هم بیمهٔ گران."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l4p14",
+              "text": {
+                "en": "Mental accounting: people who lose cash worth a theatre ticket still buy one, but those who lose the ticket itself often refuse to pay again. Money is money, yet we keep it in separate mental accounts.",
+                "fa": "حسابداری ذهنی: کسی که به اندازهٔ قیمت بلیت تئاتر پول نقد گم کرده باز بلیت می‌خرد، اما کسی که خودِ بلیت را گم کرده اغلب حاضر نیست دوباره بپردازد. پول پول است، اما آن را در حساب‌های ذهنی جدا نگه می‌داریم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l4k6",
+              "type": "tf",
+              "source": "b05c1l4p14",
+              "prompt": {
+                "en": "People who lost the ticket itself were more willing to pay again than those who lost the cash.",
+                "fa": "کسانی که خودِ بلیت را گم کرده بودند بیشتر از کسانی که پول نقد گم کرده بودند حاضر بودند دوباره بپردازند."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b05c1l5",
+          "title": {
+            "en": "Two selves: experience versus memory (Part V)",
+            "fa": "دو خود: تجربه در برابر خاطره (بخش پنجم)"
+          },
+          "minutes": 14,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b05c1l5p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part V: the experiencing self and the remembering self. It matters because you spend money on what your memory says was good, not on what you actually lived.",
+                "fa": "این درس بخش پنجم کتاب را خلاصه می‌کند: خودِ تجربه‌گر و خودِ به‌یادآورنده. مهم است چون پولت را صرف چیزی می‌کنی که حافظه‌ات می‌گوید خوب بوده، نه آنچه واقعاً زندگی کرده‌ای."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p2",
+              "text": {
+                "en": "The experiencing self answers \"Does it hurt now?\" while the remembering self answers \"How was it, on the whole?\" The remembering self is the one that keeps score and makes choices.",
+                "fa": "خودِ تجربه‌گر به «الان درد دارد؟» جواب می‌دهد و خودِ به‌یادآورنده به «روی هم رفته چطور بود؟». خودِ به‌یادآورنده همان است که حساب نگه می‌دارد و انتخاب می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p3",
+              "text": {
+                "en": "In a colonoscopy study, patient A's procedure lasted 8 minutes and patient B's 24 minutes, with far more total pain. B remembered it as less bad, because his ended gently while A's ended at a peak.",
+                "fa": "در پژوهشی دربارهٔ کولونوسکوپی، عمل بیمار A هشت دقیقه و عمل بیمار B بیست‌وچهار دقیقه با درد کلی بسیار بیشتر طول کشید. B آن را کمتر بد به یاد آورد، چون عملش آرام تمام شد و عمل A در اوج درد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k1",
+              "type": "tap",
+              "source": "b05c1l5p2",
+              "prompt": {
+                "en": "Which self keeps score and makes choices?",
+                "fa": "کدام خود حساب نگه می‌دارد و انتخاب می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The experiencing self",
+                  "fa": "خودِ تجربه‌گر"
+                },
+                {
+                  "en": "The remembering self",
+                  "fa": "خودِ به‌یادآورنده"
+                },
+                {
+                  "en": "Neither; choices are random",
+                  "fa": "هیچ‌کدام؛ انتخاب‌ها تصادفی‌اند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p4",
+              "text": {
+                "en": "Two rules shape memory. The peak-end rule says we judge an episode by the average of its worst moment and its end, and duration neglect means how long it lasted barely counts.",
+                "fa": "دو قاعده حافظه را شکل می‌دهند. طبق قاعدهٔ اوج و پایان، هر رویداد را با میانگین بدترین لحظه و پایانش می‌سنجیم، و نادیده گرفتن مدت یعنی اینکه چقدر طول کشید تقریباً به حساب نمی‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p5",
+              "text": {
+                "en": "In the cold-hand test, people held a hand in 14°C water for 60 seconds, and in another trial for 90 seconds with the last 30 slightly warmer. About 80 percent chose to repeat the longer trial.",
+                "fa": "در آزمایش دست در آب سرد، افراد یک بار ۶۰ ثانیه دستشان را در آب ۱۴ درجه نگه داشتند و بار دیگر ۹۰ ثانیه که ۳۰ ثانیهٔ آخرش کمی گرم‌تر بود. حدود ۸۰ درصد تکرار آزمایش طولانی‌تر را انتخاب کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k2",
+              "type": "tf",
+              "source": "b05c1l5p5",
+              "prompt": {
+                "en": "Most people chose to repeat the longer cold-hand trial, though it held more total pain.",
+                "fa": "بیشتر مردم تکرار آزمایش طولانی‌ترِ آب سرد را انتخاب کردند، هرچند درد کلی بیشتری داشت."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p6",
+              "text": {
+                "en": "Kahneman calls this the tyranny of the remembering self: we choose between memories of experiences, not between experiences. A great holiday with a bad last day is remembered as a bad holiday.",
+                "fa": "Kahneman این را استبداد خودِ به‌یادآورنده می‌نامد: ما بین خاطره‌های تجربه‌ها انتخاب می‌کنیم، نه بین خودِ تجربه‌ها. تعطیلات عالی با یک روز آخر بد، تعطیلات بدی به یاد می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p7",
+              "text": {
+                "en": "A test he proposes: would you still take this holiday if every photo were destroyed and you got an amnesia drug at the end? The answer shows how much you are buying memories.",
+                "fa": "آزمونی که پیشنهاد می‌کند: اگر همهٔ عکس‌ها از بین برود و در پایان داروی فراموشی بخوری، باز هم این سفر را می‌روی؟ جوابت نشان می‌دهد چقدر داری خاطره می‌خری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p8",
+              "text": {
+                "en": "To measure the experiencing self, the Day Reconstruction Method has people relive yesterday episode by episode. The U-index is the share of time spent in an unpleasant state.",
+                "fa": "برای سنجیدن خودِ تجربه‌گر، روش بازسازی روز از افراد می‌خواهد دیروز را رویداد به رویداد دوباره مرور کنند. شاخص U سهمی از زمان است که در حالتی ناخوشایند گذشته."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k3",
+              "type": "tap",
+              "source": "b05c1l5p8",
+              "prompt": {
+                "en": "What does the U-index measure?",
+                "fa": "شاخص U چه چیزی را می‌سنجد؟"
+              },
+              "options": [
+                {
+                  "en": "Overall life satisfaction",
+                  "fa": "رضایت کلی از زندگی"
+                },
+                {
+                  "en": "Yearly household income",
+                  "fa": "درآمد سالانهٔ خانوار"
+                },
+                {
+                  "en": "The share of time spent in an unpleasant state",
+                  "fa": "سهمی از زمان که در حالتی ناخوشایند گذشته"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p9",
+              "text": {
+                "en": "In US data, above a household income of about $75,000 in high-cost areas, more money did not raise experienced well-being. Life satisfaction, the remembering self's verdict, kept rising.",
+                "fa": "در داده‌های آمریکا، بالاتر از درآمد خانوار حدود ۷۵٬۰۰۰ دلار در مناطق گران، پول بیشتر بهزیستیِ تجربه‌شده را بالا نبرد. رضایت از زندگی، یعنی داوری خودِ به‌یادآورنده، همچنان بالا رفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p10",
+              "text": {
+                "en": "The focusing illusion: nothing in life is as important as you think it is when you are thinking about it. Students in California and the Midwest rated their lives about equally, despite the weather.",
+                "fa": "توهم تمرکز: هیچ چیز در زندگی به اندازه‌ای که هنگام فکر کردن به آن گمان می‌کنی مهم نیست. دانشجویان California و Midwest با وجود تفاوت آب‌وهوا رضایت تقریباً یکسانی از زندگی گزارش کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k4",
+              "type": "tf",
+              "source": "b05c1l5p9",
+              "prompt": {
+                "en": "Above about $75,000 a year, more income kept raising experienced well-being in the US data.",
+                "fa": "در داده‌های آمریکا، بالاتر از حدود ۷۵٬۰۰۰ دلار در سال، درآمد بیشتر همچنان بهزیستیِ تجربه‌شده را بالا برد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p11",
+              "text": {
+                "en": "We adapt: a new car or a bigger flat soon stops drawing attention, so it adds little to how each day feels. Activities that keep demanding attention, like time with friends, do not fade the same way.",
+                "fa": "ما عادت می‌کنیم: ماشین نو یا خانهٔ بزرگ‌تر خیلی زود دیگر توجه را جلب نمی‌کند، پس به حس هر روزمان چیز زیادی اضافه نمی‌کند. فعالیت‌هایی که مدام توجه می‌طلبند، مثل وقت گذراندن با دوستان، این‌طور کم‌رنگ نمی‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p12",
+              "text": {
+                "en": "Kahneman's practical conclusion: the easiest way to raise experienced well-being is to control how you use your time. Commuting and chores score low, while time with other people scores high.",
+                "fa": "نتیجهٔ عملی Kahneman: آسان‌ترین راه بالا بردن بهزیستیِ تجربه‌شده، کنترل نحوهٔ گذراندن وقت است. رفت‌وآمد و کارهای خانه امتیاز پایین دارند و وقت با دیگران امتیاز بالا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k5",
+              "type": "tap",
+              "source": "b05c1l5p12",
+              "prompt": {
+                "en": "What is the easiest way to raise experienced well-being, according to Kahneman?",
+                "fa": "به گفتهٔ Kahneman آسان‌ترین راه بالا بردن بهزیستیِ تجربه‌شده چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Control how you use your time",
+                  "fa": "کنترل نحوهٔ گذراندن وقت"
+                },
+                {
+                  "en": "Buy a bigger flat",
+                  "fa": "خریدن خانهٔ بزرگ‌تر"
+                },
+                {
+                  "en": "Take longer holidays",
+                  "fa": "رفتن به تعطیلات طولانی‌تر"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p13",
+              "text": {
+                "en": "Applied: before an upgrade bought on a focusing illusion, ask how much of your day it will still change a year later. Money that buys time back, such as a shorter commute, often counts for more.",
+                "fa": "کاربرد: پیش از ارتقایی که از توهم تمرکز می‌آید، بپرس یک سال بعد چقدر از روزت را هنوز تغییر می‌دهد. پولی که وقت را پس می‌خرد، مثل رفت‌وآمد کوتاه‌تر، اغلب بیشتر به حساب می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b05c1l5p14",
+              "text": {
+                "en": "Applied: when judging a past investment or job, your memory leans on its peak and its end. Check the full record in your quarterly net-worth log before that memory steers the next decision.",
+                "fa": "کاربرد: وقتی دربارهٔ یک سرمایه‌گذاری یا شغل گذشته قضاوت می‌کنی، حافظه‌ات به اوج و پایانش تکیه می‌کند. پیش از آنکه این خاطره تصمیم بعدی را هدایت کند، کل سابقه را در گزارش فصلی دارایی خالصت ببین."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b05c1l5k6",
+              "type": "tf",
+              "source": "b05c1l5p14",
+              "prompt": {
+                "en": "Your memory of a past investment weighs every month of it equally.",
+                "fa": "خاطره‌ات از یک سرمایه‌گذاری گذشته به همهٔ ماه‌هایش وزن برابر می‌دهد."
+              },
+              "answer": false
             }
           ]
         }

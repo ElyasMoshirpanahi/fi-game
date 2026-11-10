@@ -17,6 +17,7 @@
     "fa": "حاشیهٔ امنیت"
   },
   "tier": "low",
+  "complexity": 3,
   "circles": [
     {
       "id": "b13c1",
@@ -631,6 +632,210 @@
                 {
                   "en": "Held for many years",
                   "fa": "وقتی سال‌ها نگه داشته شود"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b13c1l4",
+          "title": {
+            "en": "Margin of safety in practice: rules for both roles",
+            "fa": "حاشیهٔ امنیت در عمل: قاعده‌هایی برای هر دو نقش"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b13c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson turns chapters 8 and 20 into practice: formula rules for the defensive investor, bargains for the enterprising one, and Graham's business principles. Ideas protect you only once they become rules.",
+                "fa": "این درس فصل‌های ۸ و ۲۰ را به عمل تبدیل می‌کند: قاعده‌های فرمولی برای سرمایه‌گذار تدافعی، خرید ارزان برای سرمایه‌گذار جسور، و اصول کسب‌وکاری Graham. ایده‌ها فقط وقتی محافظتت می‌کنند که به قاعده تبدیل شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p2",
+              "text": {
+                "en": "Chapter 8 gives the defensive investor a simple formula: when rising prices push stocks above the 50-50 split, sell some to restore it; when falling prices push them below, buy some.",
+                "fa": "فصل ۸ یک فرمول ساده به سرمایه‌گذار تدافعی می‌دهد: وقتی رشد قیمت‌ها سهم سهام را از تقسیم ۵۰-۵۰ بالاتر می‌برد، کمی بفروش تا تعادل برگردد؛ وقتی افت قیمت‌ها آن را پایین‌تر می‌برد، کمی بخر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p3",
+              "text": {
+                "en": "Graham notes that such mechanical formula plans, once popular, sold out too early in the long rise after 1949. Any approach that becomes widely followed tends to lose its edge.",
+                "fa": "Graham یادآوری می‌کند که این طرح‌های فرمولی مکانیکی، که زمانی محبوب بودند، در رشد طولانی پس از ۱۹۴۹ خیلی زود از بازار خارج شدند. هر روشی که پیروان زیادی پیدا کند معمولاً برتری‌اش را از دست می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l4k1",
+              "type": "tap",
+              "source": "b13c1l4p2",
+              "prompt": {
+                "en": "Under the 50-50 formula, what does the defensive investor do after a big stock rally?",
+                "fa": "طبق فرمول ۵۰-۵۰، سرمایه‌گذار تدافعی پس از یک رشد بزرگ سهام چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Sells some stocks to restore the split",
+                  "fa": "مقداری سهام می‌فروشد تا تقسیم برگردد"
+                },
+                {
+                  "en": "Buys more stocks to ride the trend",
+                  "fa": "سهام بیشتری می‌خرد تا با روند همراه شود"
+                },
+                {
+                  "en": "Sells all stocks and waits",
+                  "fa": "همهٔ سهام را می‌فروشد و صبر می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p4",
+              "text": {
+                "en": "Growth-stock buyers also claim a margin, but it rests on forecasts of future earnings. Graham warns that paying a high price for those hopes can leave no margin at all.",
+                "fa": "خریداران سهام رشدی هم مدعی حاشیه‌اند، اما این حاشیه بر پیش‌بینی سود آینده تکیه دارد. Graham هشدار می‌دهد پرداخت قیمت بالا برای این امیدها ممکن است هیچ حاشیه‌ای باقی نگذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p5",
+              "text": {
+                "en": "For the enterprising investor, Graham's bargain is a security whose appraised value is well above its price, by his rule of thumb at least 50 percent more.",
+                "fa": "برای سرمایه‌گذار جسور، معاملهٔ ارزان از نظر Graham اوراقی است که ارزش برآوردی‌اش خیلی بالاتر از قیمتش باشد، طبق قاعدهٔ سرانگشتی او دست‌کم ۵۰ درصد بیشتر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l4k2",
+              "type": "tf",
+              "source": "b13c1l4p5",
+              "prompt": {
+                "en": "Graham's rough test for a bargain is a value at least 50 percent above the price.",
+                "fa": "آزمون تقریبی Graham برای معاملهٔ ارزان، ارزشی دست‌کم ۵۰ درصد بالاتر از قیمت است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p6",
+              "text": {
+                "en": "In a bargain purchase the margin of safety is the discount of price from appraised value. That gap absorbs errors in the appraisal itself.",
+                "fa": "در خرید ارزان، حاشیهٔ امنیت همان فاصلهٔ قیمت تا ارزش برآوردی است. این فاصله خطاهای خود برآورد را جذب می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p7",
+              "text": {
+                "en": "Chapter 20 ends with business principles. The first: know what you are doing, and do not try to make business profits from securities unless you know their value as well as a business owner would.",
+                "fa": "فصل ۲۰ با اصول کسب‌وکاری تمام می‌شود. اولی: بدان چه می‌کنی، و سعی نکن از اوراق بهادار سود کسب‌وکاری بگیری مگر اینکه ارزششان را به اندازهٔ یک صاحب کسب‌وکار بشناسی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l4k3",
+              "type": "tap",
+              "source": "b13c1l4p7",
+              "prompt": {
+                "en": "What is the first of Graham's business principles in chapter 20?",
+                "fa": "نخستین اصل کسب‌وکاری Graham در فصل ۲۰ چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Know what you are doing",
+                  "fa": "بدان چه می‌کنی"
+                },
+                {
+                  "en": "Follow the market's momentum",
+                  "fa": "از شتاب بازار پیروی کن"
+                },
+                {
+                  "en": "Let an expert run everything for you",
+                  "fa": "بگذار یک متخصص همه‌چیز را برایت اداره کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p8",
+              "text": {
+                "en": "Do not let anyone else run your business unless you can supervise them or have strong reasons to trust them. Do not enter an operation with little to gain and much to lose.",
+                "fa": "اجازه نده کس دیگری کسب‌وکارت را اداره کند مگر اینکه بتوانی بر او نظارت کنی یا دلایل محکمی برای اعتماد داشته باشی. وارد کاری نشو که سود کمی دارد و ضرر زیادی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p9",
+              "text": {
+                "en": "Have the courage of your knowledge: if your conclusion rests on facts and sound judgement, act on it. Graham says you are neither right nor wrong because the crowd disagrees with you.",
+                "fa": "شجاعت دانشت را داشته باش: اگر نتیجه‌ات بر واقعیت‌ها و قضاوت درست تکیه دارد، به آن عمل کن. Graham می‌گوید مخالفت جمع تو را نه درست می‌کند و نه غلط."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l4k4",
+              "type": "tf",
+              "source": "b13c1l4p9",
+              "prompt": {
+                "en": "Graham says you are wrong whenever the crowd disagrees with you.",
+                "fa": "Graham می‌گوید هر وقت جمع با تو مخالف باشد، اشتباه می‌کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p10",
+              "text": {
+                "en": "The defensive investor need not hunt bargains. Graham says a diversified list of leading stocks bought at reasonable, not inflated, prices already carries an adequate margin.",
+                "fa": "سرمایه‌گذار تدافعی لازم نیست دنبال معاملهٔ ارزان بگردد. Graham می‌گوید فهرستی متنوع از سهام پیشرو که با قیمت معقول، نه بادکرده، خریده شود خودش حاشیهٔ کافی دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p11",
+              "text": {
+                "en": "Applied: a written target split, restored once a year or through where new contributions go, is Graham's formula rule in modern form. It sells a little high and buys a little low without forecasts.",
+                "fa": "کاربرد: یک تقسیم هدف مکتوب که سالی یک بار یا با جهت دادن به واریزهای تازه بازگردانده شود، همان قاعدهٔ فرمولی Graham در شکل امروزی است. بدون پیش‌بینی، کمی گران می‌فروشد و کمی ارزان می‌خرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b13c1l4p12",
+              "text": {
+                "en": "Before accepting a startup stake, write down your estimate of its value next to its price. If the gap is thin, or there is little to gain and much to lose, Graham would pass.",
+                "fa": "پیش از پذیرفتن سهم در یک استارتاپ، برآوردت از ارزشش را کنار قیمتش بنویس. اگر فاصله کم است، یا سود کم و ضرر زیاد است، Graham از آن می‌گذشت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b13c1l4k5",
+              "type": "tap",
+              "source": "b13c1l4p12",
+              "prompt": {
+                "en": "What would Graham check before you accept a startup stake?",
+                "fa": "Graham پیش از پذیرفتن سهم استارتاپ چه چیزی را بررسی می‌کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Your estimate of its value next to its price",
+                  "fa": "برآوردت از ارزشش در کنار قیمتش"
+                },
+                {
+                  "en": "How excited the founders are",
+                  "fa": "میزان هیجان بنیان‌گذاران"
+                },
+                {
+                  "en": "How many friends have already joined",
+                  "fa": "تعداد دوستانی که پیش‌تر پیوسته‌اند"
                 }
               ],
               "answer": 0

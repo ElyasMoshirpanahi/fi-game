@@ -17,6 +17,7 @@
     "fa": "در بازی بمان"
   },
   "tier": "high",
+  "complexity": 2,
   "circles": [
     {
       "id": "b01c1",
@@ -436,8 +437,8 @@
         {
           "id": "b01c1l3",
           "title": {
-            "en": "Never Enough",
-            "fa": "هیچ‌وقت کافی نیست"
+            "en": "Confounding Compounding",
+            "fa": "مرکب شدنِ گیج‌کننده"
           },
           "minutes": 12,
           "items": [
@@ -446,217 +447,13 @@
               "id": "b01c1l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 3, Never Enough: why people with everything still risk it all. It matters because a Dutch salary and startup upside will keep moving your goalposts unless you fix your own number.",
-                "fa": "این درس فصل ۳، «هیچ‌وقت کافی نیست»، را خلاصه می‌کند: چرا کسانی که همه‌چیز دارند باز هم همه‌چیز را به خطر می‌اندازند. مهم است چون حقوق هلندی و سود احتمالی استارتاپ، تیرک دروازه‌ات را جلو می‌برند، مگر اینکه عدد خودت را تعیین کنی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p2",
-              "text": {
-                "en": "Rajat Gupta rose from an orphaned teenager in Kolkata to CEO of McKinsey, worth about $100 million. He wanted to be a billionaire, passed inside information from Goldman Sachs's board, and went to prison.",
-                "fa": "Rajat Gupta از نوجوانی یتیم در Kolkata به مدیرعاملی McKinsey رسید، با ثروتی حدود ۱۰۰ میلیون دلار. می‌خواست میلیاردر شود، اطلاعات محرمانهٔ هیئت‌مدیرهٔ Goldman Sachs را درز داد و به زندان رفت."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p3",
-              "text": {
-                "en": "Bernie Madoff ran a legitimate market-making business that earned $25 to $50 million a year. He already had enough by any measure, yet he ran a Ponzi scheme on top of it.",
-                "fa": "Bernie Madoff یک کسب‌وکار قانونی بازارگردانی داشت که سالانه ۲۵ تا ۵۰ میلیون دلار درآمد داشت. به هر معیاری به اندازهٔ کافی داشت، اما روی آن یک کلاهبرداری Ponzi هم راه انداخت."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c1l3k1",
-              "type": "tap",
-              "source": "b01c1l3p2",
-              "prompt": {
-                "en": "What did Rajat Gupta already have before his insider trading?",
-                "fa": "Rajat Gupta پیش از معاملات مبتنی بر اطلاعات محرمانه چه داشت؟"
-              },
-              "options": [
-                {
-                  "en": "About $100 million",
-                  "fa": "حدود ۱۰۰ میلیون دلار"
-                },
-                {
-                  "en": "Nothing but debts",
-                  "fa": "هیچ‌چیز جز قرض"
-                },
-                {
-                  "en": "A small pension",
-                  "fa": "یک حقوق بازنشستگی کوچک"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p4",
-              "text": {
-                "en": "Housel: the hardest financial skill is getting the goalpost to stop moving. If expectations rise with results, there is no logic in striving for more, because you feel the same after the extra effort.",
-                "fa": "Housel: سخت‌ترین مهارت مالی این است که تیرک دروازه را از حرکت بازداری. اگر انتظارها با نتایج بالا بروند، تلاش برای بیشتر منطقی ندارد، چون بعد از آن همه زحمت همان حس قبلی را داری."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p5",
-              "text": {
-                "en": "Social comparison is the problem. A rookie baseball player on $500,000 envies Mike Trout, who envies hedge fund managers, who envy Buffett; the ceiling is so high that virtually no one will ever hit it.",
-                "fa": "مشکل، مقایسهٔ اجتماعی است. بازیکن تازه‌کار بیسبال با ۵۰۰ هزار دلار به Mike Trout حسادت می‌کند، او به مدیران صندوق‌های پوشش ریسک، و آن‌ها به Buffett؛ سقف آن‌قدر بالاست که عملاً هیچ‌کس به آن نمی‌رسد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p6",
-              "text": {
-                "en": "The only way to win that battle is not to fight it: accept that you might have enough, even if it is less than those around you. Enough is not too little.",
-                "fa": "تنها راه بردن این نبرد، نجنگیدن است: بپذیر که ممکن است به اندازهٔ کافی داشته باشی، حتی اگر کمتر از آدم‌های دور و برت باشد. «کافی» یعنی «کم» نیست."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c1l3k2",
-              "type": "tf",
-              "source": "b01c1l3p4",
-              "prompt": {
-                "en": "Housel calls getting the goalpost to stop moving the hardest financial skill.",
-                "fa": "Housel بازداشتن تیرک دروازه از حرکت را سخت‌ترین مهارت مالی می‌داند."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p7",
-              "text": {
-                "en": "Enough is realising that an insatiable appetite for more will push you to the point of regret. Housel points at the Guptas and Madoffs who kept risking what they already had.",
-                "fa": "«کافی» یعنی بفهمی که اشتهای سیری‌ناپذیر برای بیشتر، تو را به نقطهٔ پشیمانی می‌رساند. Housel به Guptaها و Madoffهایی اشاره می‌کند که آنچه داشتند را مدام به خطر می‌انداختند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p8",
-              "text": {
-                "en": "Many things are never worth risking, no matter the potential gain: reputation, freedom and independence, family and friends, being loved by those you want to love you, and happiness.",
-                "fa": "چیزهای زیادی هستند که هرگز ارزش به‌خطر‌انداختن ندارند، هر چقدر هم سود احتمالی بزرگ باشد: اعتبار، آزادی و استقلال، خانواده و دوستان، دوست‌داشته‌شدن از سوی کسانی که می‌خواهی، و شادی."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c1l3k3",
-              "type": "tap",
-              "source": "b01c1l3p8",
-              "prompt": {
-                "en": "Which does Housel list as never worth risking?",
-                "fa": "Housel کدام را در فهرست چیزهایی می‌آورد که هرگز ارزش به‌خطرانداختن ندارند؟"
-              },
-              "options": [
-                {
-                  "en": "Reputation, freedom and independence",
-                  "fa": "اعتبار، آزادی و استقلال"
-                },
-                {
-                  "en": "A higher market return",
-                  "fa": "بازده بالاتر بازار"
-                },
-                {
-                  "en": "Your current job title",
-                  "fa": "عنوان شغلی فعلی‌ات"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p9",
-              "text": {
-                "en": "Buffett on the Long-Term Capital Management collapse: to make money they didn't have and didn't need, they risked what they did have and did need. And that is foolish.",
-                "fa": "Buffett دربارهٔ سقوط Long-Term Capital Management: برای به‌دست‌آوردن پولی که نداشتند و لازم نداشتند، چیزی را به خطر انداختند که داشتند و لازم داشتند. و این حماقت است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p10",
-              "text": {
-                "en": "Housel's 'enough' is a number you choose yourself. Write yours down: the roadmap's version is 25 times annual expenses, and what it buys is control over your time.",
-                "fa": "«کافیِ» Housel عددی است که خودت انتخاب می‌کنی. عددت را بنویس: نسخهٔ نقشهٔ راه ۲۵ برابر هزینهٔ سالانه است، و چیزی که می‌خرد کنترل بر زمان خودت است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p11",
-              "text": {
-                "en": "For you: the goalposts move fastest right after a pay rise and a new country. Decide now what share of each raise is spent and what share goes to ownership, before the new lifestyle decides for you.",
-                "fa": "برای تو: تیرک دروازه درست بعد از افزایش حقوق و کشور جدید سریع‌تر از همیشه جلو می‌رود. از همین حالا تعیین کن چه سهمی از هر افزایش خرج می‌شود و چه سهمی به مالکیت می‌رود، پیش از آنکه سبک زندگی جدید برایت تصمیم بگیرد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c1l3k4",
-              "type": "tf",
-              "source": "b01c1l3p9",
-              "prompt": {
-                "en": "Buffett praised Long-Term Capital Management for risking what they had to gain what they did not need.",
-                "fa": "Buffett از Long-Term Capital Management تعریف کرد که داشته‌هایشان را برای چیزی که لازم نداشتند به خطر انداختند."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b01c1l3p12",
-              "text": {
-                "en": "There is no reason to risk what you have and need for what you don't have and don't need. That one sentence is the whole chapter.",
-                "fa": "هیچ دلیلی ندارد چیزی را که داری و لازم داری، برای چیزی که نداری و لازم نداری به خطر بیندازی. همین یک جمله، تمام این فصل است."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c1l3k5",
-              "type": "tap",
-              "source": "b01c1l3p10",
-              "prompt": {
-                "en": "What is Housel's 'enough'?",
-                "fa": "«کافیِ» Housel چیست؟"
-              },
-              "options": [
-                {
-                  "en": "A number you choose yourself",
-                  "fa": "عددی که خودت انتخاب می‌کنی"
-                },
-                {
-                  "en": "The average market return",
-                  "fa": "میانگین بازده بازار"
-                },
-                {
-                  "en": "Whatever your colleagues have",
-                  "fa": "هرچه همکارانت دارند"
-                }
-              ],
-              "answer": 0
-            }
-          ]
-        },
-        {
-          "id": "b01c1l4",
-          "title": {
-            "en": "Confounding Compounding",
-            "fa": "مرکب شدنِ گیج‌کننده"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b01c1l4p1",
-              "frame": true,
-              "text": {
                 "en": "This Lesson distils chapter 4, Confounding Compounding: why time beats brilliance. For an engineer with €40k and decades of earning ahead, this is the chapter that makes boring index investing exciting.",
                 "fa": "این درس فصل ۴، «مرکب شدنِ گیج‌کننده»، را خلاصه می‌کند: چرا زمان بر نبوغ پیروز می‌شود. برای مهندسی با ۴۰ هزار یورو و دهه‌ها درآمد پیش رو، این همان فصلی است که سرمایه‌گذاری شاخصیِ کسالت‌بار را هیجان‌انگیز می‌کند."
               }
             },
             {
               "kind": "card",
-              "id": "b01c1l4p2",
+              "id": "b01c1l3p2",
               "text": {
                 "en": "Ice ages are not caused by brutal winters but by cool summers: a little snow that survives the summer reflects more sun, so more snow survives the next year. A small start grows into continents of ice.",
                 "fa": "عصرهای یخبندان را زمستان‌های سخت نمی‌سازند، بلکه تابستان‌های خنک: برفِ کمی که از تابستان جان به در می‌برد، نور بیشتری بازمی‌تاباند و سال بعد برف بیشتری می‌ماند. شروعی کوچک به قاره‌هایی از یخ بدل می‌شود."
@@ -664,7 +461,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p3",
+              "id": "b01c1l3p3",
               "text": {
                 "en": "Warren Buffett built most of his fortune after age 65. His skill is investing, but his secret is time: compounding needs decades, not clever moves.",
                 "fa": "Warren Buffett بیشتر ثروتش را بعد از ۶۵ سالگی ساخت. مهارتش سرمایه‌گذاری است، اما رازش زمان است: مرکب شدن به دهه‌ها نیاز دارد، نه حرکت‌های زیرکانه."
@@ -672,9 +469,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c1l4k1",
+              "id": "b01c1l3k1",
               "type": "tap",
-              "source": "b01c1l4p2",
+              "source": "b01c1l3p2",
               "prompt": {
                 "en": "What causes ice ages, in the example Housel uses?",
                 "fa": "در مثال Housel، عصرهای یخبندان از چه چیزی پدید می‌آیند؟"
@@ -697,7 +494,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p4",
+              "id": "b01c1l3p4",
               "text": {
                 "en": "At the time of writing Buffett was worth $84.5 billion. About $81.5 billion of it came after his mid-sixties, and he began investing at age 10, so the real engine was 75 years in the market.",
                 "fa": "در زمان نوشتن کتاب، ثروت Buffett ۸۴٫۵ میلیارد دلار بود. حدود ۸۱٫۵ میلیارد آن بعد از میانهٔ شصت‌سالگی‌اش به دست آمد، و او از ۱۰ سالگی سرمایه‌گذاری را شروع کرد؛ پس موتور واقعی، ۷۵ سال حضور در بازار بود."
@@ -705,7 +502,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p5",
+              "id": "b01c1l3p5",
               "text": {
                 "en": "Had Buffett started at 30 with $25,000 and retired at 60 with the same 22 percent annual return, he would be worth about $11.9 million, 99.9 percent less than his actual fortune.",
                 "fa": "اگر Buffett در ۳۰ سالگی با ۲۵ هزار دلار شروع می‌کرد و در ۶۰ سالگی با همان بازده ۲۲ درصد سالانه بازنشسته می‌شد، ثروتش حدود ۱۱٫۹ میلیون دلار می‌بود، ۹۹٫۹ درصد کمتر از ثروت واقعی‌اش."
@@ -713,7 +510,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p6",
+              "id": "b01c1l3p6",
               "text": {
                 "en": "Jim Simons of Renaissance Technologies compounded at 66 percent a year since 1988, triple Buffett's rate, yet is worth 75 percent less. He found his stride at 50 and had fewer years to compound.",
                 "fa": "Jim Simons از Renaissance Technologies از ۱۹۸۸ سالانه ۶۶ درصد بازده مرکب داشت، سه برابر Buffett، اما ثروتش ۷۵ درصد کمتر است. او در ۵۰ سالگی به اوج رسید و سال‌های کمتری برای مرکب شدن داشت."
@@ -721,9 +518,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c1l4k2",
+              "id": "b01c1l3k2",
               "type": "tf",
-              "source": "b01c1l4p5",
+              "source": "b01c1l3p5",
               "prompt": {
                 "en": "Had Buffett invested only from age 30 to 60, Housel calculates he would be worth about $11.9 million.",
                 "fa": "Housel حساب می‌کند اگر Buffett فقط از ۳۰ تا ۶۰ سالگی سرمایه‌گذاری می‌کرد، ثروتش حدود ۱۱٫۹ میلیون دلار می‌بود."
@@ -732,7 +529,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p7",
+              "id": "b01c1l3p7",
               "text": {
                 "en": "Our brains are built for linear thinking. Adding 8 nine times gives 72, easy; multiplying 8 by itself nine times gives 134,217,728, and almost nobody can feel that number.",
                 "fa": "مغز ما برای تفکر خطی ساخته شده. نه بار جمع کردن ۸ می‌شود ۷۲، آسان؛ نه بار ضرب کردن ۸ در خودش می‌شود ۱۳۴٬۲۱۷٬۷۲۸، و تقریباً هیچ‌کس نمی‌تواند این عدد را حس کند."
@@ -740,7 +537,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p8",
+              "id": "b01c1l3p8",
               "text": {
                 "en": "Hard drives: the 1950s IBM drive held 3.5 megabytes, by the 1990s a few hundred, and today terabytes for a few hundred dollars. Progress compounds so far past intuition that even experts miss it.",
                 "fa": "هارد دیسک‌ها: درایو IBM در دههٔ ۱۹۵۰ ۳٫۵ مگابایت جا داشت، در دههٔ ۱۹۹۰ چند صد مگابایت، و امروز چند ترابایت با چند صد دلار. پیشرفت آن‌قدر فراتر از شهود مرکب می‌شود که حتی کارشناسان هم آن را از دست می‌دهند."
@@ -748,9 +545,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c1l4k3",
+              "id": "b01c1l3k3",
               "type": "tap",
-              "source": "b01c1l4p7",
+              "source": "b01c1l3p7",
               "prompt": {
                 "en": "Why does compounding confound us, according to Housel?",
                 "fa": "به گفتهٔ Housel، چرا مرکب شدن ما را گیج می‌کند؟"
@@ -773,7 +570,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p9",
+              "id": "b01c1l3p9",
               "text": {
                 "en": "The danger is that confounding compounding leads us to chase the highest returns, when good investing is about earning pretty good returns that you can stick with for the longest period of time.",
                 "fa": "خطر این است که مرکب شدنِ گیج‌کننده ما را به دنبال بالاترین بازده‌ها می‌کشاند، در حالی که سرمایه‌گذاری خوب یعنی بازده‌های نسبتاً خوبی که بتوانی طولانی‌ترین زمان ممکن پایشان بمانی."
@@ -781,7 +578,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p10",
+              "id": "b01c1l3p10",
               "text": {
                 "en": "Housel's summary is three words: shut up and wait. Compounding has no need of brilliance, just time and the discipline not to interrupt it.",
                 "fa": "خلاصهٔ Housel سه کلمه است: ساکت شو و صبر کن. مرکب شدن به نبوغ نیازی ندارد، فقط زمان می‌خواهد و انضباطِ قطع نکردنش."
@@ -789,7 +586,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p11",
+              "id": "b01c1l3p11",
               "text": {
                 "en": "For you: €40k in a global index ETF at a modest real return, left alone for decades, depends far less on the return than on how many of those years you actually stay invested through every scare.",
                 "fa": "برای تو: ۴۰ هزار یورو در یک ETF شاخصی جهانی با بازده واقعیِ متوسط، که دهه‌ها دست‌نخورده بماند، بسیار کمتر به نرخ بازده بستگی دارد و بسیار بیشتر به اینکه در چند سال از آن سال‌ها واقعاً، با هر ترسی، سرمایه‌گذار بمانی."
@@ -797,9 +594,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c1l4k4",
+              "id": "b01c1l3k4",
               "type": "tf",
-              "source": "b01c1l4p9",
+              "source": "b01c1l3p9",
               "prompt": {
                 "en": "Housel says good investing is about chasing the highest possible returns.",
                 "fa": "Housel می‌گوید سرمایه‌گذاری خوب یعنی دنبال بالاترین بازده ممکن رفتن."
@@ -808,7 +605,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c1l4p12",
+              "id": "b01c1l3p12",
               "text": {
                 "en": "That is why the move to the Netherlands matters: a stable base lets you start the clock early and keep it running. Starting now at a pretty good return beats starting brilliantly at 40.",
                 "fa": "برای همین نقل مکان به هلند مهم است: پایگاهی باثبات می‌گذارد ساعت را زود به کار بیندازی و روشن نگهش داری. شروعِ حالا با بازده نسبتاً خوب، از شروعِ نابغه‌وار در ۴۰ سالگی بهتر است."
@@ -816,9 +613,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c1l4k5",
+              "id": "b01c1l3k5",
               "type": "tap",
-              "source": "b01c1l4p10",
+              "source": "b01c1l3p10",
               "prompt": {
                 "en": "What is Housel's three-word summary of compounding?",
                 "fa": "خلاصهٔ سه‌کلمه‌ای Housel از مرکب شدن چیست؟"
@@ -1057,8 +854,8 @@
         {
           "id": "b01c2l2",
           "title": {
-            "en": "Tails, You Win",
-            "fa": "دنباله‌ها برنده می‌شوند"
+            "en": "Freedom, the Man in the Car, and Hidden Wealth",
+            "fa": "آزادی، مردِ توی ماشین و ثروت پنهان"
           },
           "minutes": 12,
           "items": [
@@ -1067,217 +864,13 @@
               "id": "b01c2l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 6, Tails, You Win: a handful of events and holdings drive most results. It matters because it explains why your index core works and why one startup can fail without failing you.",
-                "fa": "این درس فصل ۶، «دنباله‌ها برنده می‌شوند»، را خلاصه می‌کند: مشتی رویداد و دارایی، بیشتر نتایج را رقم می‌زنند. مهم است چون توضیح می‌دهد چرا هستهٔ شاخصی‌ات کار می‌کند و چرا یک استارتاپ می‌تواند شکست بخورد بی‌آنکه تو شکست بخوری."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p2",
-              "text": {
-                "en": "Heinz Berggruen fled Nazi Germany in 1936 and became an art dealer. In 2000 he sold his Picasso, Klee and Matisse collection to the German government for over €100 million, a fraction of its worth.",
-                "fa": "Heinz Berggruen در ۱۹۳۶ از آلمان نازی گریخت و دلال هنری شد. در سال ۲۰۰۰ مجموعهٔ Picasso، Klee و Matisse خود را بیش از ۱۰۰ میلیون یورو به دولت آلمان فروخت، کسری از ارزش واقعی‌اش."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p3",
-              "text": {
-                "en": "His secret, Horizon Research found, was not an eye for genius: great collectors buy vast quantities of art, and a small portion turns out to be masterpieces. The few winners pay for everything.",
-                "fa": "رازش، به یافتهٔ Horizon Research، چشمِ نبوغ‌شناس نبود: مجموعه‌داران بزرگ حجم عظیمی از آثار هنری می‌خرند، و بخش کوچکی از آن‌ها شاهکار از آب درمی‌آید. همان چند برنده، هزینهٔ همه را می‌دهند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c2l2k1",
-              "type": "tap",
-              "source": "b01c2l2p3",
-              "prompt": {
-                "en": "How did great art collectors like Berggruen win, according to Housel?",
-                "fa": "به گفتهٔ Housel، مجموعه‌داران بزرگی مثل Berggruen چطور برنده شدند؟"
-              },
-              "options": [
-                {
-                  "en": "Buy vast quantities of art; a small portion are masterpieces",
-                  "fa": "حجم عظیمی اثر می‌خرند؛ بخش کوچکی شاهکارند"
-                },
-                {
-                  "en": "Pick one artist early and hold",
-                  "fa": "یک هنرمند را زود انتخاب می‌کنند و نگه می‌دارند"
-                },
-                {
-                  "en": "Only buy what critics praise",
-                  "fa": "فقط آنچه منتقدان می‌ستایند می‌خرند"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p4",
-              "text": {
-                "en": "Venture capital has the same shape. Of 21,000 financings from 2004 to 2014, 65 percent lost money, 2.5 percent made 10 to 20 times, and 0.5 percent returned 50 times or more and carried the whole industry.",
-                "fa": "سرمایه‌گذاری خطرپذیر همین شکل را دارد. از ۲۱ هزار تأمین مالی در ۲۰۰۴ تا ۲۰۱۴، ۶۵ درصد زیان دادند، ۲٫۵ درصد ۱۰ تا ۲۰ برابر شدند، و ۰٫۵ درصد ۵۰ برابر یا بیشتر برگرداندند و کل صنعت را روی شانه گرفتند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p5",
-              "text": {
-                "en": "In the Russell 3000 since 1980, 40 percent of companies lost at least 70 percent of their value and never recovered, while effectively all of the index's returns came from 7 percent of the companies.",
-                "fa": "در شاخص Russell 3000 از ۱۹۸۰، ۴۰ درصد شرکت‌ها دست‌کم ۷۰ درصد ارزششان را از دست دادند و هرگز برنگشتند، در حالی که عملاً تمام بازده شاخص از ۷ درصد شرکت‌ها آمد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p6",
-              "text": {
-                "en": "Amazon's Fire Phone flopped and Bezos shrugged: if you think that is a big failure, we are working on much bigger failures right now. AWS and Prime are the tails that made the flops irrelevant.",
-                "fa": "Fire Phone آمازون شکست خورد و Bezos شانه بالا انداخت: اگر فکر می‌کنید این شکست بزرگی است، ما همین حالا روی شکست‌های بسیار بزرگ‌تری کار می‌کنیم. AWS و Prime همان دنباله‌هایی‌اند که شکست‌ها را بی‌اهمیت کردند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c2l2k2",
-              "type": "tf",
-              "source": "b01c2l2p5",
-              "prompt": {
-                "en": "Housel reports that Russell 3000 companies delivered the index's returns fairly evenly.",
-                "fa": "Housel می‌گوید شرکت‌های Russell 3000 بازده شاخص را به‌طور نسبتاً یکنواخت تولید کردند."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p7",
-              "text": {
-                "en": "Buffett has owned 400 to 500 stocks in his life and made most of his money on about 10. Munger: remove just a few of Berkshire's top investments and its long-term record is pretty average.",
-                "fa": "Buffett در زندگی‌اش ۴۰۰ تا ۵۰۰ سهم داشته و بیشتر پولش را از حدود ۱۰ تای آن‌ها به دست آورده. Munger: چند سرمایه‌گذاری برتر Berkshire را حذف کن، کارنامهٔ بلندمدتش نسبتاً معمولی می‌شود."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p8",
-              "text": {
-                "en": "Disney made more than 400 cartoons before Snow White in 1938 changed everything. Housel's rule: you can be wrong half the time and still make a fortune, if the wins are big enough.",
-                "fa": "Disney بیش از ۴۰۰ کارتون ساخت تا آنکه Snow White در ۱۹۳۸ همه‌چیز را عوض کرد. قاعدهٔ Housel: می‌توانی نصف مواقع اشتباه کنی و باز هم ثروتی بسازی، اگر بردها به اندازهٔ کافی بزرگ باشند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c2l2k3",
-              "type": "tap",
-              "source": "b01c2l2p7",
-              "prompt": {
-                "en": "On roughly how many stocks did Buffett make most of his money?",
-                "fa": "Buffett بیشتر پولش را تقریباً از چند سهم به دست آورد؟"
-              },
-              "options": [
-                {
-                  "en": "About 10",
-                  "fa": "حدود ۱۰"
-                },
-                {
-                  "en": "About 400",
-                  "fa": "حدود ۴۰۰"
-                },
-                {
-                  "en": "About 3000",
-                  "fa": "حدود ۳۰۰۰"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p9",
-              "text": {
-                "en": "George Soros: it is not whether you are right or wrong that matters, but how much money you make when you are right and how much you lose when you are wrong.",
-                "fa": "George Soros: مهم این نیست که درست می‌گویی یا اشتباه، مهم این است که وقتی درست می‌گویی چقدر پول درمی‌آوری و وقتی اشتباه می‌کنی چقدر از دست می‌دهی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p10",
-              "text": {
-                "en": "Tails rule your behaviour too. Your success as an investor is decided by how you respond to a few punctuated moments of terror, not by the years spent on cruise control.",
-                "fa": "دنباله‌ها بر رفتار تو هم حاکم‌اند. موفقیت تو به‌عنوان سرمایه‌گذار را واکنشت در چند لحظهٔ کوتاه و وحشت‌زده تعیین می‌کند، نه سال‌هایی که روی دور خودکار گذرانده‌ای."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p11",
-              "text": {
-                "en": "Napoleon's definition of a military genius was the man who can do the average thing when all those around him are going crazy. Housel says that is the whole job in a crash.",
-                "fa": "تعریف Napoleon از نابغهٔ نظامی: مردی که وقتی همهٔ اطرافیانش دیوانه شده‌اند، کارِ معمولی را انجام می‌دهد. Housel می‌گوید در یک سقوط بازار، تمام کار همین است."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c2l2k4",
-              "type": "tf",
-              "source": "b01c2l2p10",
-              "prompt": {
-                "en": "Housel says investing success is decided by how you respond to a few moments of terror, not the calm years.",
-                "fa": "Housel می‌گوید موفقیت سرمایه‌گذاری را واکنش به چند لحظهٔ وحشت تعیین می‌کند، نه سال‌های آرام."
-              },
-              "answer": true
-            },
-            {
-              "kind": "card",
-              "id": "b01c2l2p12",
-              "text": {
-                "en": "For you: an index fund buys the 7 percent of winners you could never pick, and one startup stake is a single lottery ticket in the tail. Size the second so that losing it changes nothing.",
-                "fa": "برای تو: صندوق شاخصی همان ۷ درصد برنده‌ای را می‌خرد که هرگز نمی‌توانستی خودت پیدا کنی، و یک سهم استارتاپ یک بلیت بخت‌آزمایی در دنباله است. اندازهٔ دومی را چنان بگیر که باختنش هیچ‌چیز را تغییر ندهد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c2l2k5",
-              "type": "tap",
-              "source": "b01c2l2p11",
-              "prompt": {
-                "en": "What was Napoleon's definition of a military genius, as Housel quotes it?",
-                "fa": "تعریف Napoleon از نابغهٔ نظامی، آن‌طور که Housel نقل می‌کند، چیست؟"
-              },
-              "options": [
-                {
-                  "en": "The man who can do the average thing when all around him are going crazy",
-                  "fa": "مردی که وقتی همه دور و برش دیوانه شده‌اند، کار معمولی را انجام می‌دهد"
-                },
-                {
-                  "en": "The man who attacks first",
-                  "fa": "مردی که اول حمله می‌کند"
-                },
-                {
-                  "en": "The man who never retreats",
-                  "fa": "مردی که هرگز عقب‌نشینی نمی‌کند"
-                }
-              ],
-              "answer": 0
-            }
-          ]
-        },
-        {
-          "id": "b01c2l3",
-          "title": {
-            "en": "Freedom, the Man in the Car, and Hidden Wealth",
-            "fa": "آزادی، مردِ توی ماشین و ثروت پنهان"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b01c2l3p1",
-              "frame": true,
-              "text": {
                 "en": "This Lesson distils chapters 7 to 9: Freedom, the Man in the Car Paradox and Wealth Is What You Don't See. It matters because a Dutch salary will tempt you to buy status, while ownership comes from what you don't spend.",
                 "fa": "این درس فصل‌های ۷ تا ۹ را خلاصه می‌کند: «آزادی»، «پارادوکس مردِ توی ماشین» و «ثروت چیزی است که نمی‌بینی». مهم است چون حقوق هلندی وسوسه‌ات می‌کند جایگاه بخری، در حالی که مالکیت از آنچه خرج نمی‌کنی می‌آید."
               }
             },
             {
               "kind": "card",
-              "id": "b01c2l3p2",
+              "id": "b01c2l2p2",
               "text": {
                 "en": "The highest dividend money pays is control over your time. Doing what you want, when you want, with who you want, for as long as you want.",
                 "fa": "بالاترین سودی که پول می‌دهد، کنترل بر زمان خودت است. انجام دادن کاری که می‌خواهی، هر وقت که می‌خواهی، با هرکس که می‌خواهی، تا هر وقت که می‌خواهی."
@@ -1285,9 +878,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l3k1",
+              "id": "b01c2l2k1",
               "type": "tf",
-              "source": "b01c2l3p2",
+              "source": "b01c2l2p2",
               "prompt": {
                 "en": "Housel calls control over your time the highest dividend money pays.",
                 "fa": "Housel کنترل بر زمان خودت را بالاترین سود پول می‌داند."
@@ -1296,7 +889,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p3",
+              "id": "b01c2l2p3",
               "text": {
                 "en": "Angus Campbell's 1981 study found that a strong sense of controlling one's life is a more dependable predictor of wellbeing than any objective condition: income, house size or job.",
                 "fa": "پژوهش Angus Campbell در ۱۹۸۱ نشان داد حس قویِ کنترل بر زندگی، پیش‌بینی‌کنندهٔ مطمئن‌تری برای بهزیستی است تا هر شرایط عینی‌ای: درآمد، اندازهٔ خانه یا شغل."
@@ -1304,7 +897,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p4",
+              "id": "b01c2l2p4",
               "text": {
                 "en": "Karl Pillemer asked a thousand elderly Americans what they had learned. Not one said work as hard as you can to buy things; they valued friendships, purpose and unstructured time with their children.",
                 "fa": "Karl Pillemer از هزار آمریکایی سالخورده پرسید چه آموخته‌اند. هیچ‌کدام نگفت هرچه می‌توانی سخت کار کن تا چیز بخری؛ آن‌ها دوستی، هدف و وقتِ بی‌برنامه با فرزندانشان را ارزشمند می‌دانستند."
@@ -1312,7 +905,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p5",
+              "id": "b01c2l2p5",
               "text": {
                 "en": "Housel's valet years: when you see someone in a nice car you rarely think the driver is cool. You think, if I had that car, people would think I am cool, and nobody admires the driver.",
                 "fa": "سال‌های پارکبانی Housel: وقتی کسی را در ماشینی شیک می‌بینی، به‌ندرت فکر می‌کنی راننده باحال است. فکر می‌کنی: اگر من آن ماشین را داشتم، مردم فکر می‌کردند من باحالم. هیچ‌کس راننده را تحسین نمی‌کند."
@@ -1320,9 +913,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l3k2",
+              "id": "b01c2l2k2",
               "type": "tap",
-              "source": "b01c2l3p5",
+              "source": "b01c2l2p5",
               "prompt": {
                 "en": "In the man in the car paradox, what do people think when they see a nice car?",
                 "fa": "در پارادوکس مردِ توی ماشین، مردم با دیدن یک ماشین شیک چه فکر می‌کنند؟"
@@ -1345,7 +938,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p6",
+              "id": "b01c2l2p6",
               "text": {
                 "en": "The paradox: people want wealth to signal they should be liked and admired, but others skip admiring you and use your wealth only as a benchmark for their own desire to be liked.",
                 "fa": "پارادوکس: مردم ثروت می‌خواهند تا نشان دهند شایستهٔ دوست‌داشتن و تحسین‌اند، اما دیگران از تحسین تو می‌گذرند و ثروتت را فقط معیاری برای میل خودشان به دوست‌داشته‌شدن می‌کنند."
@@ -1353,7 +946,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p7",
+              "id": "b01c2l2p7",
               "text": {
                 "en": "If respect and admiration are your goal, be careful how you seek them. Humility, kindness and empathy will bring you more respect than horsepower ever will.",
                 "fa": "اگر هدفت احترام و تحسین است، مراقب باش چطور دنبالش می‌روی. فروتنی، مهربانی و همدلی احترام بیشتری برایت می‌آورد تا هر اسب‌بخاری."
@@ -1361,9 +954,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l3k3",
+              "id": "b01c2l2k3",
               "type": "tap",
-              "source": "b01c2l3p7",
+              "source": "b01c2l2p7",
               "prompt": {
                 "en": "What does Housel say brings more respect than horsepower?",
                 "fa": "Housel می‌گوید چه چیزی احترام بیشتری از اسب‌بخار می‌آورد؟"
@@ -1386,7 +979,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p8",
+              "id": "b01c2l2p8",
               "text": {
                 "en": "Wealth is the nice car not bought and the watch not worn. Spending money to show people how much money you have is the fastest way to have less money.",
                 "fa": "ثروت همان ماشین گرانی است که نخریدی و ساعتی که نبستی. خرج کردن پول برای نشان دادن پولت به دیگران، سریع‌ترین راه برای کم‌پول‌تر شدن است."
@@ -1394,7 +987,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p9",
+              "id": "b01c2l2p9",
               "text": {
                 "en": "Rihanna nearly went bankrupt and sued her advisor, who replied: was it really necessary to tell her that if you spend money on things, you will end up with the things and not the money?",
                 "fa": "Rihanna تا مرز ورشکستگی رفت و از مشاور مالی‌اش شکایت کرد، و او پاسخ داد: واقعاً لازم بود به او بگوییم که اگر پول را خرج چیزها کنی، آخرش چیزها را داری و نه پول را؟"
@@ -1402,7 +995,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p10",
+              "id": "b01c2l2p10",
               "text": {
                 "en": "Rich is current income; wealth is income not spent, an option not yet taken. Because wealth is hidden, it is easy to find rich role models and hard to find wealthy ones.",
                 "fa": "«پولدار» یعنی درآمد فعلی؛ «ثروت» یعنی درآمدِ خرج‌نشده، گزینه‌ای که هنوز استفاده نشده. چون ثروت پنهان است، پیدا کردن الگوهای پولدار آسان و پیدا کردن الگوهای ثروتمند سخت است."
@@ -1410,9 +1003,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l3k4",
+              "id": "b01c2l2k4",
               "type": "tf",
-              "source": "b01c2l3p10",
+              "source": "b01c2l2p10",
               "prompt": {
                 "en": "Housel says wealth is what you see: the car, the house and the watch.",
                 "fa": "Housel می‌گوید ثروت همان چیزی است که می‌بینی: ماشین، خانه و ساعت."
@@ -1421,7 +1014,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p11",
+              "id": "b01c2l2p11",
               "text": {
                 "en": "A Dutch salary will tempt you to show it. Wealth is the raise you invest instead of spend, so set the monthly index purchase to run automatically before your lifestyle grows.",
                 "fa": "حقوق هلندی وسوسه‌ات می‌کند که نشانش بدهی. ثروت همان افزایش حقوقی است که به جای خرج کردن سرمایه‌گذاری می‌کنی، پس خرید ماهانهٔ شاخصی را پیش از بزرگ شدن سبک زندگی‌ات خودکار کن."
@@ -1429,7 +1022,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l3p12",
+              "id": "b01c2l2p12",
               "text": {
                 "en": "Bill Mann, quoted by Housel: there is no faster way to feel rich than to spend lots of money on really nice things, but the way to be rich is to spend money you have and not spend money you don't have.",
                 "fa": "Bill Mann، به نقل Housel: هیچ راهی سریع‌تر از خرج کردن پول زیاد برای چیزهای واقعاً شیک، حس پولداری نمی‌دهد؛ اما راهِ پولدار بودن این است که پولی را خرج کنی که داری، و پولی را که نداری خرج نکنی."
@@ -1437,9 +1030,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l3k5",
+              "id": "b01c2l2k5",
               "type": "tap",
-              "source": "b01c2l3p10",
+              "source": "b01c2l2p10",
               "prompt": {
                 "en": "How does Housel distinguish rich from wealthy?",
                 "fa": "Housel «پولدار» و «ثروتمند» را چطور از هم جدا می‌کند؟"
@@ -1463,7 +1056,7 @@
           ]
         },
         {
-          "id": "b01c2l4",
+          "id": "b01c2l3",
           "title": {
             "en": "Save Money",
             "fa": "پول پس‌انداز کن"
@@ -1472,7 +1065,7 @@
           "items": [
             {
               "kind": "card",
-              "id": "b01c2l4p1",
+              "id": "b01c2l3p1",
               "frame": true,
               "text": {
                 "en": "This Lesson distils chapter 10, Save Money: the one lever fully under your control. It matters because your savings rate, not your stock picks, decides how fast €40k becomes ownership and independence.",
@@ -1481,7 +1074,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p2",
+              "id": "b01c2l3p2",
               "text": {
                 "en": "After the 1970s oil crisis, Housel notes, the US gained more from using energy efficiently than from finding new oil. Efficiency was new energy in disguise, and fully within people's control.",
                 "fa": "Housel یادآوری می‌کند که پس از بحران نفتی دههٔ ۱۹۷۰، آمریکا از مصرف بهینهٔ انرژی بیشتر سود برد تا از یافتن نفت جدید. بهینگی همان انرژی تازه در لباس مبدل بود، و کاملاً در کنترل مردم."
@@ -1489,7 +1082,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p3",
+              "id": "b01c2l3p3",
               "text": {
                 "en": "The same with money. Investment returns can make you rich, but they are uncertain and out of your hands; your savings rate is the efficiency gain, and it is entirely yours to decide.",
                 "fa": "پول هم همین‌طور است. بازده سرمایه‌گذاری می‌تواند پولدارت کند، اما نامطمئن و خارج از دست توست؛ نرخ پس‌انداز همان بهینگی است، و تعیینش تماماً با خودت است."
@@ -1497,9 +1090,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l4k1",
+              "id": "b01c2l3k1",
               "type": "tap",
-              "source": "b01c2l4p3",
+              "source": "b01c2l3p3",
               "prompt": {
                 "en": "What does Housel say is entirely within your control?",
                 "fa": "Housel می‌گوید چه چیزی کاملاً در کنترل توست؟"
@@ -1522,7 +1115,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p4",
+              "id": "b01c2l3p4",
               "text": {
                 "en": "Wealth is just the accumulated leftovers after you spend what you take in. You can build wealth without a high income, but you have no chance without a high savings rate.",
                 "fa": "ثروت فقط همان باقی‌ماندهٔ انباشته‌شده بعد از خرج کردن درآمدت است. بدون درآمد بالا می‌توان ثروت ساخت، اما بدون نرخ پس‌انداز بالا هیچ شانسی نیست."
@@ -1530,7 +1123,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p5",
+              "id": "b01c2l3p5",
               "text": {
                 "en": "Past a certain level of income, what you need is just what sits below your ego. Savings can be defined as income minus ego, and the desire for status is a daily tax on wealth.",
                 "fa": "پس از سطحی از درآمد، آنچه لازم داری همان چیزی است که زیر غرورت جا می‌گیرد. پس‌انداز را می‌توان «درآمد منهای غرور» تعریف کرد، و میل به جایگاه، مالیاتی روزانه بر ثروت است."
@@ -1538,7 +1131,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p6",
+              "id": "b01c2l3p6",
               "text": {
                 "en": "People with enduring personal finance success, not necessarily high incomes, tend not to care what others think of them. Wanting less is the cheapest raise you will ever get.",
                 "fa": "کسانی که در امور مالی شخصی موفقیت پایدار دارند، نه لزوماً درآمد بالا، معمولاً اهمیتی نمی‌دهند دیگران درباره‌شان چه فکر می‌کنند. کمتر خواستن، ارزان‌ترین افزایش حقوقی است که خواهی گرفت."
@@ -1546,9 +1139,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l4k2",
+              "id": "b01c2l3k2",
               "type": "tf",
-              "source": "b01c2l4p5",
+              "source": "b01c2l3p5",
               "prompt": {
                 "en": "Housel defines savings as income minus ego.",
                 "fa": "Housel پس‌انداز را «درآمد منهای غرور» تعریف می‌کند."
@@ -1557,7 +1150,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p7",
+              "id": "b01c2l3p7",
               "text": {
                 "en": "You don't need a specific reason to save. Saving only for a car, a house or retirement misses the point; save for the unknown, because surprises are the one thing you can be sure of.",
                 "fa": "برای پس‌انداز به دلیل خاصی نیاز نداری. پس‌انداز فقط برای ماشین، خانه یا بازنشستگی اصل مطلب را از دست می‌دهد؛ برای ناشناخته پس‌انداز کن، چون شگفتی تنها چیزی است که می‌توان از آن مطمئن بود."
@@ -1565,7 +1158,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p8",
+              "id": "b01c2l3p8",
               "text": {
                 "en": "Savings without a spending goal give you options and flexibility, the ability to wait and to pounce. They buy you control over your time, a hidden return that no spreadsheet shows.",
                 "fa": "پس‌اندازِ بدون هدفِ خرج، به تو گزینه و انعطاف می‌دهد: توانِ صبر کردن و توانِ جهیدن. کنترل بر زمانت را می‌خرد، بازدهی پنهان که هیچ spreadsheet نشانش نمی‌دهد."
@@ -1573,9 +1166,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l4k3",
+              "id": "b01c2l3k3",
               "type": "tap",
-              "source": "b01c2l4p7",
+              "source": "b01c2l3p7",
               "prompt": {
                 "en": "What does Housel say you should save for?",
                 "fa": "Housel می‌گوید برای چه چیزی باید پس‌انداز کنی؟"
@@ -1598,7 +1191,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p9",
+              "id": "b01c2l3p9",
               "text": {
                 "en": "In a world where intelligence is hyper-competitive and technical skills get automated, the advantage shifts to soft skills, above all flexibility. Savings are what let you be flexible.",
                 "fa": "در دنیایی که هوش فوق‌رقابتی شده و مهارت‌های فنی خودکار می‌شوند، برتری به مهارت‌های نرم منتقل می‌شود، و بیش از همه به انعطاف. پس‌انداز همان چیزی است که می‌گذارد منعطف باشی."
@@ -1606,7 +1199,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p10",
+              "id": "b01c2l3p10",
               "text": {
                 "en": "Flexibility lets you wait for the right job, take a pay cut to learn, or sit out a bad market. A high savings rate is a career tool as much as an investing one.",
                 "fa": "انعطاف می‌گذارد برای شغل درست صبر کنی، برای یادگیری حقوق کمتری بپذیری، یا در بازار بد کنار بنشینی. نرخ پس‌انداز بالا همان‌قدر ابزار شغلی است که ابزار سرمایه‌گذاری."
@@ -1614,7 +1207,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p11",
+              "id": "b01c2l3p11",
               "text": {
                 "en": "For you: a software salary in the Netherlands plus a fixed lifestyle equals a savings rate you choose, not one the market gives you. That rate, automated into an index ETF, is most of the plan.",
                 "fa": "برای تو: حقوق برنامه‌نویسی در هلند به‌علاوهٔ سبک زندگی ثابت، یعنی نرخ پس‌اندازی که خودت انتخاب می‌کنی، نه بازار. همان نرخ، خودکار شده در یک ETF شاخصی، بخش بزرگ برنامه است."
@@ -1622,9 +1215,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l4k4",
+              "id": "b01c2l3k4",
               "type": "tf",
-              "source": "b01c2l4p9",
+              "source": "b01c2l3p9",
               "prompt": {
                 "en": "Housel says flexibility matters less now that technical skills are automated.",
                 "fa": "Housel می‌گوید حالا که مهارت‌های فنی خودکار می‌شوند، انعطاف کمتر اهمیت دارد."
@@ -1633,7 +1226,7 @@
             },
             {
               "kind": "card",
-              "id": "b01c2l4p12",
+              "id": "b01c2l3p12",
               "text": {
                 "en": "Chapter 10 in one line: you don't need to be a great investor if you save a lot and spend less than your ego wants. Compounding does the rest if you leave it alone.",
                 "fa": "فصل ۱۰ در یک خط: اگر زیاد پس‌انداز کنی و کمتر از آنچه غرورت می‌خواهد خرج کنی، لازم نیست سرمایه‌گذار بزرگی باشی. اگر دست به آن نزنی، مرکب شدن بقیهٔ کار را می‌کند."
@@ -1641,9 +1234,9 @@
             },
             {
               "kind": "check",
-              "id": "b01c2l4k5",
+              "id": "b01c2l3k5",
               "type": "tap",
-              "source": "b01c2l4p4",
+              "source": "b01c2l3p4",
               "prompt": {
                 "en": "What does Housel call wealth in chapter 10?",
                 "fa": "Housel در فصل ۱۰ ثروت را چه می‌نامد؟"
@@ -2281,210 +1874,6 @@
                 {
                   "en": "Taxes in Box 3",
                   "fa": "مالیات Box 3"
-                }
-              ],
-              "answer": 0
-            }
-          ]
-        },
-        {
-          "id": "b01c3l4",
-          "title": {
-            "en": "Pessimism, Stories and the Confessions",
-            "fa": "بدبینی، داستان‌ها و اعتراف‌ها"
-          },
-          "minutes": 12,
-          "items": [
-            {
-              "kind": "card",
-              "id": "b01c3l4p1",
-              "frame": true,
-              "text": {
-                "en": "This Lesson distils chapters 17 to 20: the pull of pessimism, the stories we believe, and Housel's own portfolio. It matters because headlines will test your index plan, and his confession shows how to hold it.",
-                "fa": "این درس فصل‌های ۱۷ تا ۲۰ را خلاصه می‌کند: کشش بدبینی، داستان‌هایی که باور می‌کنیم، و پرتفوی خودِ Housel. مهم است چون تیترهای خبری برنامهٔ شاخصی‌ات را آزمایش می‌کنند، و اعتراف او نشان می‌دهد چطور آن را نگه داری."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p2",
-              "text": {
-                "en": "Stephen Hawking: my expectations were reduced to zero when I was 21; everything since then has been a bonus. Happiness, Housel says, is results minus expectations.",
-                "fa": "Stephen Hawking: انتظارهایم در ۲۱ سالگی به صفر رسید؛ هرچه از آن پس آمد، پاداش بود. Housel می‌گوید شادی یعنی نتایج منهای انتظارها."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p3",
-              "text": {
-                "en": "John Stuart Mill in the 1840s: not the man who hopes when others despair, but the man who despairs when others hope, is admired by a large class of persons as a sage. Pessimism sounds smart.",
-                "fa": "John Stuart Mill در دههٔ ۱۸۴۰: نه مردی که وقتی دیگران ناامیدند امید دارد، بلکه مردی که وقتی دیگران امید دارند ناامید است، از سوی گروه بزرگی خردمند شمرده می‌شود. بدبینی باهوش به نظر می‌رسد."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c3l4k1",
-              "type": "tap",
-              "source": "b01c3l4p3",
-              "prompt": {
-                "en": "Why does pessimism attract us, in Housel's reading of Mill?",
-                "fa": "در خوانش Housel از Mill، چرا بدبینی ما را جذب می‌کند؟"
-              },
-              "options": [
-                {
-                  "en": "It sounds smart",
-                  "fa": "باهوش به نظر می‌رسد"
-                },
-                {
-                  "en": "It is usually right",
-                  "fa": "معمولاً درست است"
-                },
-                {
-                  "en": "It is cheaper",
-                  "fa": "ارزان‌تر است"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p4",
-              "text": {
-                "en": "Kahneman's loss aversion: losses loom larger than gains, and organisms that treat threats as more urgent than opportunities survive better. Money is everywhere, so bad news about it feels personal.",
-                "fa": "زیان‌گریزی Kahneman: زیان‌ها بزرگ‌تر از سودها دیده می‌شوند، و موجوداتی که تهدید را فوری‌تر از فرصت می‌گیرند بهتر زنده می‌مانند. پول همه‌جاست، پس خبر بد درباره‌اش شخصی به نظر می‌رسد."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p5",
-              "text": {
-                "en": "Progress happens too slowly to notice, while setbacks happen too quickly to ignore. There are lots of overnight tragedies, Housel says, but rarely overnight miracles.",
-                "fa": "پیشرفت آن‌قدر آهسته رخ می‌دهد که دیده نمی‌شود، و پسرفت آن‌قدر سریع که نمی‌توان نادیده‌اش گرفت. Housel می‌گوید تراژدی‌های یک‌شبه زیادند، اما معجزهٔ یک‌شبه کم است."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p6",
-              "text": {
-                "en": "Pessimists extrapolate present trends without accounting for how markets adapt. Oil at $140 in 2008 looked permanent, then high prices spurred new drilling that cut them; problems breed their own solutions.",
-                "fa": "بدبین‌ها روندهای امروز را ادامه می‌دهند بی‌آنکه سازگاری بازارها را حساب کنند. نفت ۱۴۰ دلاری در ۲۰۰۸ دائمی به نظر می‌رسید؛ همان قیمت بالا استخراج تازه‌ای را برانگیخت که قیمت را پایین آورد. مشکل‌ها راه‌حل خودشان را می‌زایند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c3l4k2",
-              "type": "tf",
-              "source": "b01c3l4p5",
-              "prompt": {
-                "en": "Housel says setbacks happen slowly while progress happens overnight.",
-                "fa": "Housel می‌گوید پسرفت آهسته رخ می‌دهد و پیشرفت یک‌شبه."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p7",
-              "text": {
-                "en": "Chapter 18: in a Yemeni village, Ali Hajaji followed the elders' remedy and pressed a burning stick to his sick son's chest. When you desperately want something to be true, you will believe almost any story.",
-                "fa": "فصل ۱۸: در روستایی در یمن، Ali Hajaji به درمان بزرگان گوش داد و چوب سوزان را به سینهٔ پسر بیمارش فشرد. وقتی به‌شدت می‌خواهی چیزی درست باشد، تقریباً هر داستانی را باور می‌کنی."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p8",
-              "text": {
-                "en": "Appealing fictions: the more you want something to be true, the more likely you are to believe a story that overestimates the odds of it being true. Madoff's investors wanted to believe.",
-                "fa": "داستان‌های دلخواه: هرچه بیشتر بخواهی چیزی درست باشد، احتمال بیشتری دارد داستانی را باور کنی که احتمال درست بودنش را بیش از حد تخمین می‌زند. سرمایه‌گذاران Madoff می‌خواستند باور کنند."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p9",
-              "text": {
-                "en": "Everyone has an incomplete view of the world, but we form a complete narrative to fill the gaps. Hindsight gives us the illusion that the world is understandable when it was not.",
-                "fa": "همه نگاه ناقصی به دنیا دارند، اما روایتی کامل می‌سازیم تا خلأها را پر کنیم. پس‌نگری این توهم را می‌دهد که دنیا فهمیدنی بوده، وقتی که نبوده."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c3l4k3",
-              "type": "tap",
-              "source": "b01c3l4p8",
-              "prompt": {
-                "en": "What does Housel call an appealing fiction?",
-                "fa": "Housel «داستان دلخواه» را چه می‌داند؟"
-              },
-              "options": [
-                {
-                  "en": "A story that overestimates the odds of something you want to be true",
-                  "fa": "داستانی که احتمال چیزی را که می‌خواهی درست باشد، بیش از حد تخمین می‌زند"
-                },
-                {
-                  "en": "A forecast from a famous bank",
-                  "fa": "پیش‌بینی یک بانک مشهور"
-                },
-                {
-                  "en": "A story that no one believes",
-                  "fa": "داستانی که هیچ‌کس باور نمی‌کند"
-                }
-              ],
-              "answer": 0
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p10",
-              "text": {
-                "en": "Chapter 19 gathers the rules: find humility when things go right and forgiveness when they go wrong; less ego, more wealth; manage money so you can sleep at night; lengthen your horizon; save, just save.",
-                "fa": "فصل ۱۹ قاعده‌ها را جمع می‌کند: وقتی کارها خوب پیش می‌رود فروتن باش و وقتی بد پیش می‌رود بخشنده؛ غرور کمتر، ثروت بیشتر؛ پول را چنان مدیریت کن که شب راحت بخوابی؛ افقت را بلند کن؛ پس‌انداز کن، فقط پس‌انداز کن."
-              }
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p11",
-              "text": {
-                "en": "Chapter 20, Confessions: Housel paid off his mortgage, which he calls his worst financial decision and best money decision, holds about 20 percent in cash, and dollar-cost averages into low-cost index funds.",
-                "fa": "فصل ۲۰، «اعتراف‌ها»: Housel وام خانه‌اش را تسویه کرد، که آن را بدترین تصمیم مالی و بهترین تصمیم پولی‌اش می‌نامد، حدود ۲۰ درصد نقد نگه می‌دارد، و با خرید منظم (dollar-cost averaging) در صندوق‌های شاخصی کم‌هزینه سرمایه‌گذاری می‌کند."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c3l4k4",
-              "type": "tf",
-              "source": "b01c3l4p11",
-              "prompt": {
-                "en": "Housel confesses that his own money goes mostly into individual stock picks.",
-                "fa": "Housel اعتراف می‌کند پول خودش بیشتر به انتخاب سهام تک‌شرکتی می‌رود."
-              },
-              "answer": false
-            },
-            {
-              "kind": "card",
-              "id": "b01c3l4p12",
-              "text": {
-                "en": "His goal is independence, in Charlie Munger's words: I did not intend to get rich, I just wanted to get independent. For you, that is the roadmap's 25 times expenses, built one automatic index purchase at a time.",
-                "fa": "هدف او استقلال است، به زبان Charlie Munger: قصد نداشتم پولدار شوم، فقط می‌خواستم مستقل شوم. برای تو، این همان ۲۵ برابر هزینهٔ نقشهٔ راه است، که با یک خرید خودکار شاخصی در هر بار ساخته می‌شود."
-              }
-            },
-            {
-              "kind": "check",
-              "id": "b01c3l4k5",
-              "type": "tap",
-              "source": "b01c3l4p12",
-              "prompt": {
-                "en": "What does Housel say his financial goal is?",
-                "fa": "Housel هدف مالی‌اش را چه می‌داند؟"
-              },
-              "options": [
-                {
-                  "en": "Independence",
-                  "fa": "استقلال"
-                },
-                {
-                  "en": "Beating the market",
-                  "fa": "شکست دادن بازار"
-                },
-                {
-                  "en": "Becoming a billionaire",
-                  "fa": "میلیاردر شدن"
                 }
               ],
               "answer": 0

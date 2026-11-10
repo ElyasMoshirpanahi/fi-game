@@ -1,271 +1,981 @@
 {
   "id": "b26",
   "title": "Poor Charlie's Almanack",
-  "author": {"en": "Charlie Munger, edited by Peter D. Kaufman", "fa": "Charlie Munger، ویراستهٔ Peter D. Kaufman"},
+  "author": {
+    "en": "Charlie Munger, edited by Peter D. Kaufman",
+    "fa": "Charlie Munger، ویراستهٔ Peter D. Kaufman"
+  },
   "year": 2005,
   "stage": 6,
   "must": false,
-  "why": {"en": "Multidisciplinary mental models", "fa": "مدل‌های ذهنی چندرشته‌ای"},
-  "badge": {"en": "Latticework of Models", "fa": "شبکهٔ مدل‌های ذهنی"},
+  "why": {
+    "en": "Multidisciplinary mental models",
+    "fa": "مدل‌های ذهنی چندرشته‌ای"
+  },
+  "badge": {
+    "en": "Latticework of Models",
+    "fa": "شبکهٔ مدل‌های ذهنی"
+  },
   "tier": "low",
+  "complexity": 4,
   "circles": [
     {
       "id": "b26c1",
-      "title": {"en": "Worldly wisdom: models, misjudgment and patience", "fa": "خرد دنیوی: مدل‌ها، قضاوت نادرست و صبر"},
+      "title": {
+        "en": "Worldly wisdom: models, misjudgment and patience",
+        "fa": "خرد دنیوی: مدل‌ها، قضاوت نادرست و صبر"
+      },
       "lessons": [
         {
           "id": "b26c1l1",
-          "title": {"en": "A latticework of mental models", "fa": "شبکه‌ای از مدل‌های ذهنی"},
-          "minutes": 12,
+          "title": {
+            "en": "A latticework of mental models",
+            "fa": "شبکه‌ای از مدل‌های ذهنی"
+          },
+          "minutes": 14,
           "items": [
-            {"kind": "card", "id": "b26c1l1p1", "frame": true, "text": {
-              "en": "This Lesson distils Munger's 1994 USC talk on elementary, worldly wisdom. It matters because a CTO weighing equity, an AI product and ETFs needs more than one engineering lens.",
-              "fa": "این درس سخنرانی ۱۹۹۴ Munger در USC دربارهٔ خرد دنیوی مقدماتی را خلاصه می‌کند. مهم است چون یک CTO که میان سهام استارتاپ، یک محصول AI و ETF تصمیم می‌گیرد، به بیش از یک عدسی مهندسی نیاز دارد."
-            }},
-            {"kind": "card", "id": "b26c1l1p2", "text": {
-              "en": "Munger says isolated facts you merely remember do not stick or help. You need models in your head, and you array your experience, direct and vicarious, on this latticework of models.",
-              "fa": "Munger می‌گوید واقعیت‌های پراکنده‌ای که فقط حفظ می‌کنی نه می‌مانند و نه کمک می‌کنند. باید مدل‌هایی در ذهن داشته باشی و تجربه‌ات را، چه مستقیم چه از دیگران، روی این شبکهٔ مدل‌ها بچینی."
-            }},
-            {"kind": "card", "id": "b26c1l1p3", "text": {
-              "en": "He warns that to the man with only a hammer, every problem looks like a nail. A person with one or two models will torture reality until it fits them.",
-              "fa": "او هشدار می‌دهد که برای کسی که فقط چکش دارد، هر مسئله‌ای شبیه میخ است. کسی که یکی دو مدل بیشتر ندارد، واقعیت را آن‌قدر شکنجه می‌کند تا در آن مدل‌ها جا شود."
-            }},
-            {"kind": "check", "id": "b26c1l1k1", "type": "tap", "source": "b26c1l1p3",
-              "prompt": {"en": "What does a person with only one or two models do?", "fa": "کسی که فقط یکی دو مدل دارد چه می‌کند؟"},
+            {
+              "kind": "card",
+              "id": "b26c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Munger's 1994 USC talk on elementary, worldly wisdom. It matters because a CTO weighing equity, an AI product and ETFs needs more than one engineering lens.",
+                "fa": "این درس سخنرانی ۱۹۹۴ Munger در USC دربارهٔ خرد دنیوی مقدماتی را خلاصه می‌کند. مهم است چون یک CTO که میان سهام استارتاپ، یک محصول AI و ETF تصمیم می‌گیرد، به بیش از یک عدسی مهندسی نیاز دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p2",
+              "text": {
+                "en": "Munger says isolated facts you merely remember do not stick or help. You need models in your head, and you array your experience, direct and vicarious, on this latticework of models.",
+                "fa": "Munger می‌گوید واقعیت‌های پراکنده‌ای که فقط حفظ می‌کنی نه می‌مانند و نه کمک می‌کنند. باید مدل‌هایی در ذهن داشته باشی و تجربه‌ات را، چه مستقیم چه از دیگران، روی این شبکهٔ مدل‌ها بچینی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p3",
+              "text": {
+                "en": "He warns that to the man with only a hammer, every problem looks like a nail. A person with one or two models will torture reality until it fits them.",
+                "fa": "او هشدار می‌دهد که برای کسی که فقط چکش دارد، هر مسئله‌ای شبیه میخ است. کسی که یکی دو مدل بیشتر ندارد، واقعیت را آن‌قدر شکنجه می‌کند تا در آن مدل‌ها جا شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k1",
+              "type": "tap",
+              "source": "b26c1l1p3",
+              "prompt": {
+                "en": "What does a person with only one or two models do?",
+                "fa": "کسی که فقط یکی دو مدل دارد چه می‌کند؟"
+              },
               "options": [
-                {"en": "Tortures reality until it fits", "fa": "واقعیت را شکنجه می‌کند تا جا شود"},
-                {"en": "Sees every problem with fresh eyes", "fa": "هر مسئله را با چشم تازه می‌بیند"},
-                {"en": "Learns every discipline equally", "fa": "همهٔ رشته‌ها را به یک اندازه یاد می‌گیرد"}
+                {
+                  "en": "Tortures reality until it fits",
+                  "fa": "واقعیت را شکنجه می‌کند تا جا شود"
+                },
+                {
+                  "en": "Sees every problem with fresh eyes",
+                  "fa": "هر مسئله را با چشم تازه می‌بیند"
+                },
+                {
+                  "en": "Learns every discipline equally",
+                  "fa": "همهٔ رشته‌ها را به یک اندازه یاد می‌گیرد"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b26c1l1p4", "text": {
-              "en": "You do not need every model: about 80 or 90 important ones carry roughly 90 percent of the freight. A few of them carry very heavy loads.",
-              "fa": "به همهٔ مدل‌ها نیاز نداری: حدود ۸۰ تا ۹۰ مدل مهم تقریباً ۹۰ درصد بار را حمل می‌کنند. چند تا از آن‌ها بار بسیار سنگینی می‌برند."
-            }},
-            {"kind": "card", "id": "b26c1l1p5", "text": {
-              "en": "Mathematics comes first: compound interest, then the elementary math of permutations and combinations from Fermat and Pascal. Without numbers you are a one-legged man in an ass-kicking contest.",
-              "fa": "ریاضی اول می‌آید: بهرهٔ مرکب، سپس ریاضی مقدماتی جایگشت و ترکیب از Fermat و Pascal. بدون عدد، مثل آدمی یک‌پا در مسابقهٔ لگدپرانی هستی."
-            }},
-            {"kind": "check", "id": "b26c1l1k2", "type": "tf", "source": "b26c1l1p4",
-              "prompt": {"en": "Munger says about 80 or 90 important models carry most of the freight.", "fa": "Munger می‌گوید حدود ۸۰ تا ۹۰ مدل مهم بیشتر بار را حمل می‌کنند."},
-              "answer": true},
-            {"kind": "card", "id": "b26c1l1p6", "text": {
-              "en": "Accounting is the language of practical business, though you must know its limits. Engineering adds backup systems and redundancy, and physics adds breakpoints and critical mass.",
-              "fa": "حسابداری زبان کسب‌وکار عملی است، هرچند باید محدودیت‌هایش را بشناسی. مهندسی سیستم‌های پشتیبان و افزونگی را اضافه می‌کند و فیزیک نقطه‌های شکست و جرم بحرانی را."
-            }},
-            {"kind": "card", "id": "b26c1l1p7", "text": {
-              "en": "Biology adds evolution, and psychology adds the study of how minds misjudge, which Munger found badly taught. He had to build that model largely by himself.",
-              "fa": "زیست‌شناسی تکامل را اضافه می‌کند و روان‌شناسی مطالعهٔ خطای قضاوت ذهن را، که Munger می‌دید بد آموزش داده می‌شود. او ناچار شد آن مدل را عمدتاً خودش بسازد."
-            }},
-            {"kind": "card", "id": "b26c1l1p8", "text": {
-              "en": "He admires the pilot's checklist: a long list of models, run through every time. It stops a smart person from missing the obvious.",
-              "fa": "او چک‌لیست خلبان را تحسین می‌کند: فهرستی بلند از مدل‌ها که هر بار مرور می‌شود. این کار نمی‌گذارد آدم باهوش چیزهای بدیهی را از قلم بیندازد."
-            }},
-            {"kind": "check", "id": "b26c1l1k3", "type": "tap", "source": "b26c1l1p8",
-              "prompt": {"en": "What does Munger borrow from pilots?", "fa": "Munger چه چیزی از خلبان‌ها وام می‌گیرد؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p4",
+              "text": {
+                "en": "You do not need every model: about 80 or 90 important ones carry roughly 90 percent of the freight. A few of them carry very heavy loads.",
+                "fa": "به همهٔ مدل‌ها نیاز نداری: حدود ۸۰ تا ۹۰ مدل مهم تقریباً ۹۰ درصد بار را حمل می‌کنند. چند تا از آن‌ها بار بسیار سنگینی می‌برند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p5",
+              "text": {
+                "en": "Mathematics comes first: compound interest, then the elementary math of permutations and combinations from Fermat and Pascal. Without numbers you are a one-legged man in an ass-kicking contest.",
+                "fa": "ریاضی اول می‌آید: بهرهٔ مرکب، سپس ریاضی مقدماتی جایگشت و ترکیب از Fermat و Pascal. بدون عدد، مثل آدمی یک‌پا در مسابقهٔ لگدپرانی هستی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k2",
+              "type": "tf",
+              "source": "b26c1l1p4",
+              "prompt": {
+                "en": "Munger says about 80 or 90 important models carry most of the freight.",
+                "fa": "Munger می‌گوید حدود ۸۰ تا ۹۰ مدل مهم بیشتر بار را حمل می‌کنند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p6",
+              "text": {
+                "en": "Accounting is the language of practical business, though you must know its limits. Engineering adds backup systems and redundancy, and physics adds breakpoints and critical mass.",
+                "fa": "حسابداری زبان کسب‌وکار عملی است، هرچند باید محدودیت‌هایش را بشناسی. مهندسی سیستم‌های پشتیبان و افزونگی را اضافه می‌کند و فیزیک نقطه‌های شکست و جرم بحرانی را."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p7",
+              "text": {
+                "en": "Biology adds evolution, and psychology adds the study of how minds misjudge, which Munger found badly taught. He had to build that model largely by himself.",
+                "fa": "زیست‌شناسی تکامل را اضافه می‌کند و روان‌شناسی مطالعهٔ خطای قضاوت ذهن را، که Munger می‌دید بد آموزش داده می‌شود. او ناچار شد آن مدل را عمدتاً خودش بسازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p8",
+              "text": {
+                "en": "He admires the pilot's checklist: a long list of models, run through every time. It stops a smart person from missing the obvious.",
+                "fa": "او چک‌لیست خلبان را تحسین می‌کند: فهرستی بلند از مدل‌ها که هر بار مرور می‌شود. این کار نمی‌گذارد آدم باهوش چیزهای بدیهی را از قلم بیندازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k3",
+              "type": "tap",
+              "source": "b26c1l1p8",
+              "prompt": {
+                "en": "What does Munger borrow from pilots?",
+                "fa": "Munger چه چیزی از خلبان‌ها وام می‌گیرد؟"
+              },
               "options": [
-                {"en": "A habit of flying on instinct", "fa": "عادت پرواز با غریزه"},
-                {"en": "A checklist run through every time", "fa": "چک‌لیستی که هر بار مرور می‌شود"},
-                {"en": "Trust in a single gut feeling", "fa": "اعتماد به یک حس درونی"}
+                {
+                  "en": "A habit of flying on instinct",
+                  "fa": "عادت پرواز با غریزه"
+                },
+                {
+                  "en": "A checklist run through every time",
+                  "fa": "چک‌لیستی که هر بار مرور می‌شود"
+                },
+                {
+                  "en": "Trust in a single gut feeling",
+                  "fa": "اعتماد به یک حس درونی"
+                }
               ],
-              "answer": 1},
-            {"kind": "card", "id": "b26c1l1p9", "text": {
-              "en": "Munger compares the stock market to the pari-mutuel system at the racetrack. The odds reflect the crowd's bets, so winning means finding the few bets that are mispriced.",
-              "fa": "Munger بازار سهام را به نظام شرط‌بندی pari-mutuel در میدان اسب‌دوانی تشبیه می‌کند. شانس‌ها بازتاب شرط‌های جمعیت‌اند، پس بردن یعنی یافتن معدود شرط‌هایی که قیمتشان غلط است."
-            }},
-            {"kind": "card", "id": "b26c1l1p10", "text": {
-              "en": "At the track the house takes about 17 percent off the top, so most bettors lose. Trading costs work the same way on investors.",
-              "fa": "در میدان، صاحب‌خانه حدود ۱۷ درصد را از بالا برمی‌دارد، پس بیشتر شرط‌بندها می‌بازند. هزینه‌های معامله هم روی سرمایه‌گذاران همین اثر را دارند."
-            }},
-            {"kind": "check", "id": "b26c1l1k4", "type": "tf", "source": "b26c1l1p10",
-              "prompt": {"en": "In Munger's racetrack model, the house cut makes it easy for most bettors to win.", "fa": "در مدل میدان اسب‌دوانی Munger، سهم صاحب‌خانه بردن را برای بیشتر شرط‌بندها آسان می‌کند."},
-              "answer": false},
-            {"kind": "card", "id": "b26c1l1p11", "text": {
-              "en": "Your engineering models already sit on the lattice: feedback loops, bottlenecks and compounding. Add finance and psychology models beside them, each written in your own words.",
-              "fa": "مدل‌های مهندسی‌ات همین حالا روی شبکه‌اند: حلقهٔ بازخورد، گلوگاه و مرکب شدن. مدل‌های مالی و روان‌شناسی را کنارشان بگذار، هر کدام به زبان خودت."
-            }},
-            {"kind": "card", "id": "b26c1l1p12", "text": {
-              "en": "Treat your hour of reading a day as lattice building: one model at a time, tied to a real decision. Note it in your decision journal so experience has a place to hang.",
-              "fa": "ساعت مطالعهٔ روزانه‌ات را شبکه‌سازی بدان: هر بار یک مدل، گره‌خورده به یک تصمیم واقعی. آن را در دفتر تصمیم بنویس تا تجربه جایی برای آویختن داشته باشد."
-            }},
-            {"kind": "check", "id": "b26c1l1k5", "type": "tap", "source": "b26c1l1p11",
-              "prompt": {"en": "Which models do you already bring to the lattice as an engineer?", "fa": "به‌عنوان مهندس، چه مدل‌هایی را از قبل به شبکه می‌آوری؟"},
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p9",
+              "text": {
+                "en": "Munger compares the stock market to the pari-mutuel system at the racetrack. The odds reflect the crowd's bets, so winning means finding the few bets that are mispriced.",
+                "fa": "Munger بازار سهام را به نظام شرط‌بندی pari-mutuel در میدان اسب‌دوانی تشبیه می‌کند. شانس‌ها بازتاب شرط‌های جمعیت‌اند، پس بردن یعنی یافتن معدود شرط‌هایی که قیمتشان غلط است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p10",
+              "text": {
+                "en": "At the track the house takes about 17 percent off the top, so most bettors lose. Trading costs work the same way on investors.",
+                "fa": "در میدان، صاحب‌خانه حدود ۱۷ درصد را از بالا برمی‌دارد، پس بیشتر شرط‌بندها می‌بازند. هزینه‌های معامله هم روی سرمایه‌گذاران همین اثر را دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k4",
+              "type": "tf",
+              "source": "b26c1l1p10",
+              "prompt": {
+                "en": "In Munger's racetrack model, the house cut makes it easy for most bettors to win.",
+                "fa": "در مدل میدان اسب‌دوانی Munger، سهم صاحب‌خانه بردن را برای بیشتر شرط‌بندها آسان می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p11",
+              "text": {
+                "en": "Your engineering models already sit on the lattice: feedback loops, bottlenecks and compounding. Add finance and psychology models beside them, each written in your own words.",
+                "fa": "مدل‌های مهندسی‌ات همین حالا روی شبکه‌اند: حلقهٔ بازخورد، گلوگاه و مرکب شدن. مدل‌های مالی و روان‌شناسی را کنارشان بگذار، هر کدام به زبان خودت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p12",
+              "text": {
+                "en": "Treat your hour of reading a day as lattice building: one model at a time, tied to a real decision. Note it in your decision journal so experience has a place to hang.",
+                "fa": "ساعت مطالعهٔ روزانه‌ات را شبکه‌سازی بدان: هر بار یک مدل، گره‌خورده به یک تصمیم واقعی. آن را در دفتر تصمیم بنویس تا تجربه جایی برای آویختن داشته باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k5",
+              "type": "tap",
+              "source": "b26c1l1p11",
+              "prompt": {
+                "en": "Which models do you already bring to the lattice as an engineer?",
+                "fa": "به‌عنوان مهندس، چه مدل‌هایی را از قبل به شبکه می‌آوری؟"
+              },
               "options": [
-                {"en": "Racetrack odds and house cuts", "fa": "شانس‌های اسب‌دوانی و سهم صاحب‌خانه"},
-                {"en": "Only the rules of accounting", "fa": "فقط قواعد حسابداری"},
-                {"en": "Feedback loops, bottlenecks and compounding", "fa": "حلقهٔ بازخورد، گلوگاه و مرکب شدن"}
+                {
+                  "en": "Racetrack odds and house cuts",
+                  "fa": "شانس‌های اسب‌دوانی و سهم صاحب‌خانه"
+                },
+                {
+                  "en": "Only the rules of accounting",
+                  "fa": "فقط قواعد حسابداری"
+                },
+                {
+                  "en": "Feedback loops, bottlenecks and compounding",
+                  "fa": "حلقهٔ بازخورد، گلوگاه و مرکب شدن"
+                }
               ],
-              "answer": 2}
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p13",
+              "text": {
+                "en": "Microeconomics adds the advantages of scale: lower costs from experience, wider reach and better information. Munger points to Wal-Mart, which used scale to outgrow Sears.",
+                "fa": "اقتصاد خرد مزیت‌های مقیاس را اضافه می‌کند: هزینهٔ کمتر از تجربه، دسترسی گسترده‌تر و اطلاعات بهتر. Munger به Wal-Mart اشاره می‌کند که با مقیاس از Sears پیشی گرفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l1p14",
+              "text": {
+                "en": "Better technology can help a business yet help its owners little. At Berkshire's textile mill, the gains from new looms went through to customers as lower prices.",
+                "fa": "فناوری بهتر می‌تواند به یک کسب‌وکار کمک کند ولی برای مالکانش سود چندانی نداشته باشد. در کارخانهٔ نساجی Berkshire، سود دستگاه‌های بافندگی نو به شکل قیمت پایین‌تر به مشتریان رسید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l1k6",
+              "type": "tap",
+              "source": "b26c1l1p14",
+              "prompt": {
+                "en": "Where did the gains from new looms at Berkshire's textile mill go?",
+                "fa": "سود دستگاه‌های بافندگی نو در کارخانهٔ نساجی Berkshire به کجا رفت؟"
+              },
+              "options": [
+                {
+                  "en": "To the owners as higher profits",
+                  "fa": "به مالکان، به شکل سود بیشتر"
+                },
+                {
+                  "en": "To customers as lower prices",
+                  "fa": "به مشتریان، به شکل قیمت پایین‌تر"
+                },
+                {
+                  "en": "To the workers as higher wages",
+                  "fa": "به کارگران، به شکل دستمزد بیشتر"
+                }
+              ],
+              "answer": 1
+            }
           ]
         },
         {
           "id": "b26c1l2",
-          "title": {"en": "The psychology of human misjudgment", "fa": "روان‌شناسی قضاوت نادرست انسان"},
-          "minutes": 12,
+          "title": {
+            "en": "The psychology of human misjudgment",
+            "fa": "روان‌شناسی قضاوت نادرست انسان"
+          },
+          "minutes": 14,
           "items": [
-            {"kind": "card", "id": "b26c1l2p1", "frame": true, "text": {
-              "en": "This Lesson distils Munger's talk on the psychology of human misjudgment, a list of about 25 tendencies. It matters because capital is lost to bad judgment far more often than to bad data.",
-              "fa": "این درس سخنرانی Munger دربارهٔ روان‌شناسی قضاوت نادرست انسان را خلاصه می‌کند، فهرستی از حدود ۲۵ گرایش. مهم است چون سرمایه بسیار بیشتر بر اثر قضاوت بد از دست می‌رود تا داده‌های بد."
-            }},
-            {"kind": "card", "id": "b26c1l2p2", "text": {
-              "en": "Munger's first tendency is reward and punishment superresponsiveness. He says never think about something else when you should be thinking about the power of incentives.",
-              "fa": "نخستین گرایش در فهرست Munger واکنش افراطی به پاداش و تنبیه است. او می‌گوید وقتی باید به قدرت انگیزه‌ها فکر کنی، هرگز به چیز دیگری فکر نکن."
-            }},
-            {"kind": "card", "id": "b26c1l2p3", "text": {
-              "en": "At Federal Express the night shift could not move the packages on time. Paying workers per shift instead of per hour let them go home when done, and the problem vanished.",
-              "fa": "در Federal Express شیفت شب نمی‌توانست بسته‌ها را به‌موقع جابه‌جا کند. پرداخت مزد به ازای هر شیفت به جای هر ساعت، به کارگران اجازه داد پس از اتمام کار به خانه بروند و مشکل ناپدید شد."
-            }},
-            {"kind": "check", "id": "b26c1l2k1", "type": "tap", "source": "b26c1l2p3",
-              "prompt": {"en": "What fixed the slow night shift at Federal Express?", "fa": "چه چیزی کندی شیفت شب Federal Express را حل کرد؟"},
+            {
+              "kind": "card",
+              "id": "b26c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Munger's talk on the psychology of human misjudgment, a list of about 25 tendencies. It matters because capital is lost to bad judgment far more often than to bad data.",
+                "fa": "این درس سخنرانی Munger دربارهٔ روان‌شناسی قضاوت نادرست انسان را خلاصه می‌کند، فهرستی از حدود ۲۵ گرایش. مهم است چون سرمایه بسیار بیشتر بر اثر قضاوت بد از دست می‌رود تا داده‌های بد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p2",
+              "text": {
+                "en": "Munger's first tendency is reward and punishment superresponsiveness. He says never think about something else when you should be thinking about the power of incentives.",
+                "fa": "نخستین گرایش در فهرست Munger واکنش افراطی به پاداش و تنبیه است. او می‌گوید وقتی باید به قدرت انگیزه‌ها فکر کنی، هرگز به چیز دیگری فکر نکن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p3",
+              "text": {
+                "en": "At Federal Express the night shift could not move the packages on time. Paying workers per shift instead of per hour let them go home when done, and the problem vanished.",
+                "fa": "در Federal Express شیفت شب نمی‌توانست بسته‌ها را به‌موقع جابه‌جا کند. پرداخت مزد به ازای هر شیفت به جای هر ساعت، به کارگران اجازه داد پس از اتمام کار به خانه بروند و مشکل ناپدید شد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k1",
+              "type": "tap",
+              "source": "b26c1l2p3",
+              "prompt": {
+                "en": "What fixed the slow night shift at Federal Express?",
+                "fa": "چه چیزی کندی شیفت شب Federal Express را حل کرد؟"
+              },
               "options": [
-                {"en": "Paying per shift instead of per hour", "fa": "پرداخت به ازای هر شیفت به جای هر ساعت"},
-                {"en": "More managers watching the floor", "fa": "مدیران بیشتر برای نظارت بر سالن"},
-                {"en": "Longer training for each worker", "fa": "آموزش طولانی‌تر برای هر کارگر"}
+                {
+                  "en": "Paying per shift instead of per hour",
+                  "fa": "پرداخت به ازای هر شیفت به جای هر ساعت"
+                },
+                {
+                  "en": "More managers watching the floor",
+                  "fa": "مدیران بیشتر برای نظارت بر سالن"
+                },
+                {
+                  "en": "Longer training for each worker",
+                  "fa": "آموزش طولانی‌تر برای هر کارگر"
+                }
               ],
-              "answer": 0},
-            {"kind": "card", "id": "b26c1l2p4", "text": {
-              "en": "Incentives bend honest people too: a salesman paid on commission will sincerely believe what he sells is good for you. Munger calls this incentive-caused bias.",
-              "fa": "انگیزه‌ها آدم‌های درستکار را هم خم می‌کنند: فروشنده‌ای که پورسانت می‌گیرد صادقانه باور می‌کند آنچه می‌فروشد به نفع توست. Munger این را سوگیری ناشی از انگیزه می‌نامد."
-            }},
-            {"kind": "card", "id": "b26c1l2p5", "text": {
-              "en": "Social proof is the tendency to think and act as the people around you do. It is triggered most strongly by puzzlement and stress, when you are unsure what to do.",
-              "fa": "تأیید اجتماعی گرایش به فکر کردن و رفتار کردن مثل اطرافیان است. این گرایش بیش از همه با سردرگمی و استرس فعال می‌شود، وقتی نمی‌دانی چه کنی."
-            }},
-            {"kind": "check", "id": "b26c1l2k2", "type": "tf", "source": "b26c1l2p5",
-              "prompt": {"en": "Social proof is weakest when people are puzzled and stressed.", "fa": "تأیید اجتماعی وقتی مردم سردرگم و تحت استرس‌اند ضعیف‌ترین است."},
-              "answer": false},
-            {"kind": "card", "id": "b26c1l2p6", "text": {
-              "en": "Inconsistency-avoidance makes the brain cling to earlier conclusions and commitments. Munger compares it to an egg: once one sperm gets in, a shutoff keeps the next one out.",
-              "fa": "گریز از ناسازگاری باعث می‌شود مغز به نتیجه‌گیری‌ها و تعهدهای قبلی بچسبد. Munger آن را به تخمک تشبیه می‌کند: همین که یک اسپرم وارد شد، سازوکاری راه را بر بعدی می‌بندد."
-            }},
-            {"kind": "card", "id": "b26c1l2p7", "text": {
-              "en": "Deprival-superreaction makes a small loss feel far bigger than an equal gain. It drives people to fight fiercely over things they nearly had or are about to lose.",
-              "fa": "واکنش افراطی به محرومیت باعث می‌شود زیانی کوچک بسیار بزرگ‌تر از سودی هم‌اندازه حس شود. این گرایش آدم‌ها را وادار می‌کند سر چیزی که تقریباً داشتند یا در حال از دست دادنش هستند سخت بجنگند."
-            }},
-            {"kind": "card", "id": "b26c1l2p8", "text": {
-              "en": "Authority-misinfluence leads people to obey a leader against good sense, as in Milgram's shock experiment. In flight simulators, copilots let the pilot crash rather than overrule him.",
-              "fa": "نفوذ نادرست مرجعیت باعث می‌شود آدم‌ها برخلاف عقل سلیم از رهبر اطاعت کنند، مثل آزمایش شوک Milgram. در شبیه‌ساز پرواز، کمک‌خلبان‌ها گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند."
-            }},
-            {"kind": "check", "id": "b26c1l2k3", "type": "tap", "source": "b26c1l2p8",
-              "prompt": {"en": "In Munger's simulator example, what did copilots do when the pilot erred?", "fa": "در مثال شبیه‌ساز Munger، وقتی خلبان خطا کرد کمک‌خلبان‌ها چه کردند؟"},
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p4",
+              "text": {
+                "en": "Incentives bend honest people too: a salesman paid on commission will sincerely believe what he sells is good for you. Munger calls this incentive-caused bias.",
+                "fa": "انگیزه‌ها آدم‌های درستکار را هم خم می‌کنند: فروشنده‌ای که پورسانت می‌گیرد صادقانه باور می‌کند آنچه می‌فروشد به نفع توست. Munger این را سوگیری ناشی از انگیزه می‌نامد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p5",
+              "text": {
+                "en": "Social proof is the tendency to think and act as the people around you do. It is triggered most strongly by puzzlement and stress, when you are unsure what to do.",
+                "fa": "تأیید اجتماعی گرایش به فکر کردن و رفتار کردن مثل اطرافیان است. این گرایش بیش از همه با سردرگمی و استرس فعال می‌شود، وقتی نمی‌دانی چه کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k2",
+              "type": "tf",
+              "source": "b26c1l2p5",
+              "prompt": {
+                "en": "Social proof is weakest when people are puzzled and stressed.",
+                "fa": "تأیید اجتماعی وقتی مردم سردرگم و تحت استرس‌اند ضعیف‌ترین است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p6",
+              "text": {
+                "en": "Inconsistency-avoidance makes the brain cling to earlier conclusions and commitments. Munger compares it to an egg: once one sperm gets in, a shutoff keeps the next one out.",
+                "fa": "گریز از ناسازگاری باعث می‌شود مغز به نتیجه‌گیری‌ها و تعهدهای قبلی بچسبد. Munger آن را به تخمک تشبیه می‌کند: همین که یک اسپرم وارد شد، سازوکاری راه را بر بعدی می‌بندد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p7",
+              "text": {
+                "en": "Deprival-superreaction makes a small loss feel far bigger than an equal gain. It drives people to fight fiercely over things they nearly had or are about to lose.",
+                "fa": "واکنش افراطی به محرومیت باعث می‌شود زیانی کوچک بسیار بزرگ‌تر از سودی هم‌اندازه حس شود. این گرایش آدم‌ها را وادار می‌کند سر چیزی که تقریباً داشتند یا در حال از دست دادنش هستند سخت بجنگند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p8",
+              "text": {
+                "en": "Authority-misinfluence leads people to obey a leader against good sense, as in Milgram's shock experiment. In flight simulators, copilots let the pilot crash rather than overrule him.",
+                "fa": "نفوذ نادرست مرجعیت باعث می‌شود آدم‌ها برخلاف عقل سلیم از رهبر اطاعت کنند، مثل آزمایش شوک Milgram. در شبیه‌ساز پرواز، کمک‌خلبان‌ها گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k3",
+              "type": "tap",
+              "source": "b26c1l2p8",
+              "prompt": {
+                "en": "In Munger's simulator example, what did copilots do when the pilot erred?",
+                "fa": "در مثال شبیه‌ساز Munger، وقتی خلبان خطا کرد کمک‌خلبان‌ها چه کردند؟"
+              },
               "options": [
-                {"en": "Took control of the plane at once", "fa": "فوراً کنترل هواپیما را گرفتند"},
-                {"en": "Radioed the tower for orders", "fa": "از برج مراقبت دستور خواستند"},
-                {"en": "Let the pilot crash rather than overrule him", "fa": "گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند"}
+                {
+                  "en": "Took control of the plane at once",
+                  "fa": "فوراً کنترل هواپیما را گرفتند"
+                },
+                {
+                  "en": "Radioed the tower for orders",
+                  "fa": "از برج مراقبت دستور خواستند"
+                },
+                {
+                  "en": "Let the pilot crash rather than overrule him",
+                  "fa": "گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند"
+                }
               ],
-              "answer": 2},
-            {"kind": "card", "id": "b26c1l2p9", "text": {
-              "en": "The lollapalooza effect is Munger's name for several tendencies acting together toward one outcome. The result is not merely added up but can be extreme.",
-              "fa": "اثر lollapalooza نامی است که Munger بر چند گرایش می‌گذارد که با هم به سوی یک نتیجه عمل می‌کنند. حاصل فقط جمع ساده نیست و می‌تواند افراطی باشد."
-            }},
-            {"kind": "card", "id": "b26c1l2p10", "text": {
-              "en": "Milgram's experiment was a lollapalooza: authority, small steps and consistency all pushed one way. Tupperware parties and open-outcry auctions stack tendencies the same way.",
-              "fa": "آزمایش Milgram یک lollapalooza بود: مرجعیت، گام‌های کوچک و ثبات‌طلبی همه در یک جهت فشار می‌آوردند. مهمانی‌های Tupperware و حراج‌های فریادی هم گرایش‌ها را همین‌طور روی هم می‌چینند."
-            }},
-            {"kind": "check", "id": "b26c1l2k4", "type": "tf", "source": "b26c1l2p9",
-              "prompt": {"en": "Munger says tendencies acting together can produce extreme results.", "fa": "Munger می‌گوید گرایش‌هایی که با هم عمل می‌کنند می‌توانند نتایج افراطی بسازند."},
-              "answer": true},
-            {"kind": "card", "id": "b26c1l2p11", "text": {
-              "en": "Stacked tendencies hit investors too: a friend bought, someone is selling and you are tired. A cooling-off rule before any buy breaks the stack.",
-              "fa": "گرایش‌های روی‌هم‌چیده سرمایه‌گذاران را هم می‌زنند: دوستی خریده، کسی دارد می‌فروشد و تو خسته‌ای. یک قاعدهٔ مهلت پیش از هر خرید، این ترکیب را می‌شکند."
-            }},
-            {"kind": "card", "id": "b26c1l2p12", "text": {
-              "en": "Before a decision, run the tendencies as a checklist in your journal: who gains from this, whom am I copying, what did I already commit to.",
-              "fa": "پیش از هر تصمیم، گرایش‌ها را به شکل چک‌لیست در دفترت مرور کن: چه کسی از این سود می‌برد، از چه کسی تقلید می‌کنم، از قبل به چه چیزی متعهد شده‌ام."
-            }},
-            {"kind": "check", "id": "b26c1l2k5", "type": "tap", "source": "b26c1l2p11",
-              "prompt": {"en": "What breaks a stack of tendencies before you buy?", "fa": "چه چیزی ترکیب گرایش‌ها را پیش از خرید می‌شکند؟"},
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p9",
+              "text": {
+                "en": "The lollapalooza effect is Munger's name for several tendencies acting together toward one outcome. The result is not merely added up but can be extreme.",
+                "fa": "اثر lollapalooza نامی است که Munger بر چند گرایش می‌گذارد که با هم به سوی یک نتیجه عمل می‌کنند. حاصل فقط جمع ساده نیست و می‌تواند افراطی باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p10",
+              "text": {
+                "en": "Milgram's experiment was a lollapalooza: authority, small steps and consistency all pushed one way. Tupperware parties and open-outcry auctions stack tendencies the same way.",
+                "fa": "آزمایش Milgram یک lollapalooza بود: مرجعیت، گام‌های کوچک و ثبات‌طلبی همه در یک جهت فشار می‌آوردند. مهمانی‌های Tupperware و حراج‌های فریادی هم گرایش‌ها را همین‌طور روی هم می‌چینند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k4",
+              "type": "tf",
+              "source": "b26c1l2p9",
+              "prompt": {
+                "en": "Munger says tendencies acting together can produce extreme results.",
+                "fa": "Munger می‌گوید گرایش‌هایی که با هم عمل می‌کنند می‌توانند نتایج افراطی بسازند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p11",
+              "text": {
+                "en": "Stacked tendencies hit investors too: a friend bought, someone is selling and you are tired. A cooling-off rule before any buy breaks the stack.",
+                "fa": "گرایش‌های روی‌هم‌چیده سرمایه‌گذاران را هم می‌زنند: دوستی خریده، کسی دارد می‌فروشد و تو خسته‌ای. یک قاعدهٔ مهلت پیش از هر خرید، این ترکیب را می‌شکند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p12",
+              "text": {
+                "en": "Before a decision, run the tendencies as a checklist in your journal: who gains from this, whom am I copying, what did I already commit to.",
+                "fa": "پیش از هر تصمیم، گرایش‌ها را به شکل چک‌لیست در دفترت مرور کن: چه کسی از این سود می‌برد، از چه کسی تقلید می‌کنم، از قبل به چه چیزی متعهد شده‌ام."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k5",
+              "type": "tap",
+              "source": "b26c1l2p11",
+              "prompt": {
+                "en": "What breaks a stack of tendencies before you buy?",
+                "fa": "چه چیزی ترکیب گرایش‌ها را پیش از خرید می‌شکند؟"
+              },
               "options": [
-                {"en": "Asking the seller for advice", "fa": "مشورت گرفتن از فروشنده"},
-                {"en": "A cooling-off rule before any buy", "fa": "یک قاعدهٔ مهلت پیش از هر خرید"},
-                {"en": "Following what friends bought", "fa": "دنبال کردن خرید دوستان"}
+                {
+                  "en": "Asking the seller for advice",
+                  "fa": "مشورت گرفتن از فروشنده"
+                },
+                {
+                  "en": "A cooling-off rule before any buy",
+                  "fa": "یک قاعدهٔ مهلت پیش از هر خرید"
+                },
+                {
+                  "en": "Following what friends bought",
+                  "fa": "دنبال کردن خرید دوستان"
+                }
               ],
-              "answer": 1}
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p13",
+              "text": {
+                "en": "Munger's antidote to incentive-caused bias: fear professional advice most when it is especially good for the adviser. Learn enough of the adviser's trade to check the advice.",
+                "fa": "پادزهر Munger برای سوگیری ناشی از مشوق: بیشترین ترس را از توصیهٔ حرفه‌ای داشته باش وقتی به نفع خود مشاور است. آن‌قدر از کار مشاور یاد بگیر که بتوانی توصیه را بسنجی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l2p14",
+              "text": {
+                "en": "He calls the cash register a great moral instrument, because it made cheating by staff hard. Good systems are built so that incentives are hard to game.",
+                "fa": "او صندوق ثبت فروش را ابزاری بزرگ برای اخلاق می‌نامد، چون تقلب کارکنان را سخت کرد. سیستم‌های خوب طوری ساخته می‌شوند که سوءاستفاده از مشوق‌ها سخت باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l2k6",
+              "type": "tf",
+              "source": "b26c1l2p14",
+              "prompt": {
+                "en": "Munger praised the cash register because it made cheating by staff hard.",
+                "fa": "Munger صندوق ثبت فروش را ستود چون تقلب کارکنان را سخت کرد."
+              },
+              "answer": true
+            }
           ]
         },
         {
           "id": "b26c1l3",
-          "title": {"en": "Invert, stay in your circle, sit on your hands", "fa": "وارونه کن، در دایره‌ات بمان، دست روی دست بگذار"},
-          "minutes": 12,
+          "title": {
+            "en": "Invert, stay in your circle, sit on your hands",
+            "fa": "وارونه کن، در دایره‌ات بمان، دست روی دست بگذار"
+          },
+          "minutes": 14,
           "items": [
-            {"kind": "card", "id": "b26c1l3p1", "frame": true, "text": {
-              "en": "This Lesson distils inversion, the circle of competence and patience from Munger's talks and sayings. It matters because avoiding big mistakes keeps your index core compounding toward 25 times expenses.",
-              "fa": "این درس وارونه‌سازی، دایرهٔ شایستگی و صبر را از سخنرانی‌ها و گفته‌های Munger خلاصه می‌کند. مهم است چون پرهیز از اشتباه‌های بزرگ، هستهٔ شاخصی‌ات را در مسیر ۲۵ برابر هزینه‌ها در حال رشد مرکب نگه می‌دارد."
-            }},
-            {"kind": "card", "id": "b26c1l3p2", "text": {
-              "en": "Munger borrows from the mathematician Carl Jacobi: invert, always invert. Many hard problems are best solved backward, by asking what you want to avoid.",
-              "fa": "Munger از ریاضی‌دان Carl Jacobi وام می‌گیرد: وارونه کن، همیشه وارونه کن. بسیاری از مسئله‌های سخت بهتر است از آخر حل شوند، با پرسیدن اینکه از چه می‌خواهی دوری کنی."
-            }},
-            {"kind": "card", "id": "b26c1l3p3", "text": {
-              "en": "He jokes that all he wants to know is where he is going to die, so he will never go there. Ask what would guarantee failure, then avoid it.",
-              "fa": "او به شوخی می‌گوید فقط می‌خواهد بداند کجا قرار است بمیرد تا هرگز آنجا نرود. بپرس چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کن."
-            }},
-            {"kind": "check", "id": "b26c1l3k1", "type": "tf", "source": "b26c1l3p3",
-              "prompt": {"en": "Inversion means asking what would guarantee failure, then avoiding it.", "fa": "وارونه‌سازی یعنی بپرسی چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کنی."},
-              "answer": true},
-            {"kind": "card", "id": "b26c1l3p4", "text": {
-              "en": "In his 1986 Harvard School speech he gave prescriptions for a life of misery. Be unreliable, learn only from your own experience, and stay down after your first reverses.",
-              "fa": "او در سخنرانی ۱۹۸۶ خود در Harvard School نسخه‌هایی برای یک زندگی نکبت‌بار داد. بی‌اعتبار باش، فقط از تجربهٔ خودت یاد بگیر، و پس از نخستین شکست‌ها زمین بمان."
-            }},
-            {"kind": "card", "id": "b26c1l3p5", "text": {
-              "en": "In a 1996 talk he imagines turning $2 million into a $2 trillion soft-drink business like Coca-Cola. Part of his answer comes from inverting: listing what such a business must avoid.",
-              "fa": "او در سخنرانی‌ای در ۱۹۹۶ تصور می‌کند ۲ میلیون دلار را به کسب‌وکار نوشابه‌ای ۲ تریلیون دلاری مثل Coca-Cola تبدیل کند. بخشی از پاسخش از وارونه‌سازی می‌آید: فهرست آنچه چنین کسب‌وکاری باید از آن دوری کند."
-            }},
-            {"kind": "check", "id": "b26c1l3k2", "type": "tap", "source": "b26c1l3p4",
-              "prompt": {"en": "Which is one of Munger's prescriptions for a life of misery?", "fa": "کدام یکی از نسخه‌های Munger برای یک زندگی نکبت‌بار است؟"},
+            {
+              "kind": "card",
+              "id": "b26c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils inversion, the circle of competence and patience from Munger's talks and sayings. It matters because avoiding big mistakes keeps your index core compounding toward 25 times expenses.",
+                "fa": "این درس وارونه‌سازی، دایرهٔ شایستگی و صبر را از سخنرانی‌ها و گفته‌های Munger خلاصه می‌کند. مهم است چون پرهیز از اشتباه‌های بزرگ، هستهٔ شاخصی‌ات را در مسیر ۲۵ برابر هزینه‌ها در حال رشد مرکب نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p2",
+              "text": {
+                "en": "Munger borrows from the mathematician Carl Jacobi: invert, always invert. Many hard problems are best solved backward, by asking what you want to avoid.",
+                "fa": "Munger از ریاضی‌دان Carl Jacobi وام می‌گیرد: وارونه کن، همیشه وارونه کن. بسیاری از مسئله‌های سخت بهتر است از آخر حل شوند، با پرسیدن اینکه از چه می‌خواهی دوری کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p3",
+              "text": {
+                "en": "He jokes that all he wants to know is where he is going to die, so he will never go there. Ask what would guarantee failure, then avoid it.",
+                "fa": "او به شوخی می‌گوید فقط می‌خواهد بداند کجا قرار است بمیرد تا هرگز آنجا نرود. بپرس چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k1",
+              "type": "tf",
+              "source": "b26c1l3p3",
+              "prompt": {
+                "en": "Inversion means asking what would guarantee failure, then avoiding it.",
+                "fa": "وارونه‌سازی یعنی بپرسی چه چیزی شکست را تضمین می‌کند، بعد از آن دوری کنی."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p4",
+              "text": {
+                "en": "In his 1986 Harvard School speech he gave prescriptions for a life of misery. Be unreliable, learn only from your own experience, and stay down after your first reverses.",
+                "fa": "او در سخنرانی ۱۹۸۶ خود در Harvard School نسخه‌هایی برای یک زندگی نکبت‌بار داد. بی‌اعتبار باش، فقط از تجربهٔ خودت یاد بگیر، و پس از نخستین شکست‌ها زمین بمان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p5",
+              "text": {
+                "en": "In a 1996 talk he imagines turning $2 million into a $2 trillion soft-drink business like Coca-Cola. Part of his answer comes from inverting: listing what such a business must avoid.",
+                "fa": "او در سخنرانی‌ای در ۱۹۹۶ تصور می‌کند ۲ میلیون دلار را به کسب‌وکار نوشابه‌ای ۲ تریلیون دلاری مثل Coca-Cola تبدیل کند. بخشی از پاسخش از وارونه‌سازی می‌آید: فهرست آنچه چنین کسب‌وکاری باید از آن دوری کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k2",
+              "type": "tap",
+              "source": "b26c1l3p4",
+              "prompt": {
+                "en": "Which is one of Munger's prescriptions for a life of misery?",
+                "fa": "کدام یکی از نسخه‌های Munger برای یک زندگی نکبت‌بار است؟"
+              },
               "options": [
-                {"en": "Read widely about the failures of others", "fa": "دربارهٔ شکست‌های دیگران زیاد بخوان"},
-                {"en": "Learn only from your own experience", "fa": "فقط از تجربهٔ خودت یاد بگیر"},
-                {"en": "Keep every promise you make", "fa": "به هر قولی که می‌دهی عمل کن"}
+                {
+                  "en": "Read widely about the failures of others",
+                  "fa": "دربارهٔ شکست‌های دیگران زیاد بخوان"
+                },
+                {
+                  "en": "Learn only from your own experience",
+                  "fa": "فقط از تجربهٔ خودت یاد بگیر"
+                },
+                {
+                  "en": "Keep every promise you make",
+                  "fa": "به هر قولی که می‌دهی عمل کن"
+                }
               ],
-              "answer": 1},
-            {"kind": "card", "id": "b26c1l3p6", "text": {
-              "en": "Munger sorts ideas into three baskets: in, out and too tough. Most ideas land in the too-tough basket, and that is fine.",
-              "fa": "Munger ایده‌ها را در سه سبد می‌گذارد: داخل، بیرون و زیادی سخت. بیشتر ایده‌ها در سبد زیادی سخت می‌افتند و این اشکالی ندارد."
-            }},
-            {"kind": "card", "id": "b26c1l3p7", "text": {
-              "en": "Stay inside your circle of competence and know exactly where its edge is. Acknowledging what you do not know is the dawning of wisdom, he says.",
-              "fa": "درون دایرهٔ شایستگی‌ات بمان و دقیقاً بدان لبه‌اش کجاست. او می‌گوید پذیرفتن آنچه نمی‌دانی، سپیده‌دم خرد است."
-            }},
-            {"kind": "card", "id": "b26c1l3p8", "text": {
-              "en": "His investing checklist prizes preparation, independence, intellectual humility and analytic rigor. Mimicking the herd invites regression to the mean.",
-              "fa": "چک‌لیست سرمایه‌گذاری او بر آمادگی، استقلال، فروتنی فکری و دقت تحلیلی تأکید دارد. تقلید از گله، بازگشت به میانگین را فرا می‌خواند."
-            }},
-            {"kind": "check", "id": "b26c1l3k3", "type": "tap", "source": "b26c1l3p6",
-              "prompt": {"en": "What are Munger's three baskets for ideas?", "fa": "سه سبد Munger برای ایده‌ها کدام‌اند؟"},
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p6",
+              "text": {
+                "en": "Munger sorts ideas into three baskets: in, out and too tough. Most ideas land in the too-tough basket, and that is fine.",
+                "fa": "Munger ایده‌ها را در سه سبد می‌گذارد: داخل، بیرون و زیادی سخت. بیشتر ایده‌ها در سبد زیادی سخت می‌افتند و این اشکالی ندارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p7",
+              "text": {
+                "en": "Stay inside your circle of competence and know exactly where its edge is. Acknowledging what you do not know is the dawning of wisdom, he says.",
+                "fa": "درون دایرهٔ شایستگی‌ات بمان و دقیقاً بدان لبه‌اش کجاست. او می‌گوید پذیرفتن آنچه نمی‌دانی، سپیده‌دم خرد است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p8",
+              "text": {
+                "en": "His investing checklist prizes preparation, independence, intellectual humility and analytic rigor. Mimicking the herd invites regression to the mean.",
+                "fa": "چک‌لیست سرمایه‌گذاری او بر آمادگی، استقلال، فروتنی فکری و دقت تحلیلی تأکید دارد. تقلید از گله، بازگشت به میانگین را فرا می‌خواند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k3",
+              "type": "tap",
+              "source": "b26c1l3p6",
+              "prompt": {
+                "en": "What are Munger's three baskets for ideas?",
+                "fa": "سه سبد Munger برای ایده‌ها کدام‌اند؟"
+              },
               "options": [
-                {"en": "Buy, hold and sell", "fa": "بخر، نگه دار و بفروش"},
-                {"en": "Cheap, fair and dear", "fa": "ارزان، منصفانه و گران"},
-                {"en": "In, out and too tough", "fa": "داخل، بیرون و زیادی سخت"}
+                {
+                  "en": "Buy, hold and sell",
+                  "fa": "بخر، نگه دار و بفروش"
+                },
+                {
+                  "en": "Cheap, fair and dear",
+                  "fa": "ارزان، منصفانه و گران"
+                },
+                {
+                  "en": "In, out and too tough",
+                  "fa": "داخل، بیرون و زیادی سخت"
+                }
               ],
-              "answer": 2},
-            {"kind": "card", "id": "b26c1l3p9", "text": {
-              "en": "Then sit on your hands. Munger says the big money is not in the buying and selling but in the waiting.",
-              "fa": "بعد دست روی دست بگذار. Munger می‌گوید پول کلان نه در خرید و فروش، بلکه در انتظار کشیدن است."
-            }},
-            {"kind": "card", "id": "b26c1l3p10", "text": {
-              "en": "Imagine a punch card with only 20 punches for a lifetime of investing. You would think hard about each one and load up on the few you had really thought through.",
-              "fa": "کارتی را تصور کن که برای تمام عمر سرمایه‌گذاری فقط ۲۰ سوراخ دارد. دربارهٔ هر کدام سخت فکر می‌کردی و روی همان چند موردی که واقعاً سنجیده بودی سنگین سرمایه می‌گذاشتی."
-            }},
-            {"kind": "check", "id": "b26c1l3k4", "type": "tf", "source": "b26c1l3p9",
-              "prompt": {"en": "Munger says the big money comes from frequent buying and selling.", "fa": "Munger می‌گوید پول کلان از خرید و فروش مکرر می‌آید."},
-              "answer": false},
-            {"kind": "card", "id": "b26c1l3p11", "text": {
-              "en": "Your circle: software and AI products are inside it, picking single stocks is not yet. Keep the 80 percent index core and let the waiting do the work.",
-              "fa": "دایرهٔ تو: نرم‌افزار و محصولات AI داخل آن‌اند، انتخاب تک‌سهم هنوز نه. هستهٔ ۸۰ درصدی شاخصی را نگه دار و بگذار انتظار کار را انجام دهد."
-            }},
-            {"kind": "card", "id": "b26c1l3p12", "text": {
-              "en": "Before each quarterly net-worth log, invert: what would guarantee losing the €40k, such as trading tired, FOMO or a bet you cannot explain? Write those as rules to avoid.",
-              "fa": "پیش از هر ثبت فصلی دارایی خالص، وارونه کن: چه چیزی از دست رفتن ۴۰ هزار یورو را تضمین می‌کند، مثل معاملهٔ خسته، FOMO یا شرطی که نمی‌توانی توضیحش بدهی؟ آن‌ها را به‌عنوان قواعد پرهیز بنویس."
-            }},
-            {"kind": "check", "id": "b26c1l3k5", "type": "tap", "source": "b26c1l3p11",
-              "prompt": {"en": "What is inside your circle of competence right now?", "fa": "همین حالا چه چیزی داخل دایرهٔ شایستگی‌ات است؟"},
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p9",
+              "text": {
+                "en": "Then sit on your hands. Munger says the big money is not in the buying and selling but in the waiting.",
+                "fa": "بعد دست روی دست بگذار. Munger می‌گوید پول کلان نه در خرید و فروش، بلکه در انتظار کشیدن است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p10",
+              "text": {
+                "en": "Imagine a punch card with only 20 punches for a lifetime of investing. You would think hard about each one and load up on the few you had really thought through.",
+                "fa": "کارتی را تصور کن که برای تمام عمر سرمایه‌گذاری فقط ۲۰ سوراخ دارد. دربارهٔ هر کدام سخت فکر می‌کردی و روی همان چند موردی که واقعاً سنجیده بودی سنگین سرمایه می‌گذاشتی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k4",
+              "type": "tf",
+              "source": "b26c1l3p9",
+              "prompt": {
+                "en": "Munger says the big money comes from frequent buying and selling.",
+                "fa": "Munger می‌گوید پول کلان از خرید و فروش مکرر می‌آید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p11",
+              "text": {
+                "en": "Your circle: software and AI products are inside it, picking single stocks is not yet. Keep the 80 percent index core and let the waiting do the work.",
+                "fa": "دایرهٔ تو: نرم‌افزار و محصولات AI داخل آن‌اند، انتخاب تک‌سهم هنوز نه. هستهٔ ۸۰ درصدی شاخصی را نگه دار و بگذار انتظار کار را انجام دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p12",
+              "text": {
+                "en": "Before each quarterly net-worth log, invert: what would guarantee losing the €40k, such as trading tired, FOMO or a bet you cannot explain? Write those as rules to avoid.",
+                "fa": "پیش از هر ثبت فصلی دارایی خالص، وارونه کن: چه چیزی از دست رفتن ۴۰ هزار یورو را تضمین می‌کند، مثل معاملهٔ خسته، FOMO یا شرطی که نمی‌توانی توضیحش بدهی؟ آن‌ها را به‌عنوان قواعد پرهیز بنویس."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k5",
+              "type": "tap",
+              "source": "b26c1l3p11",
+              "prompt": {
+                "en": "What is inside your circle of competence right now?",
+                "fa": "همین حالا چه چیزی داخل دایرهٔ شایستگی‌ات است؟"
+              },
               "options": [
-                {"en": "Picking single stocks", "fa": "انتخاب تک‌سهم"},
-                {"en": "Software and AI products", "fa": "نرم‌افزار و محصولات AI"},
-                {"en": "Timing the market", "fa": "زمان‌بندی بازار"}
+                {
+                  "en": "Picking single stocks",
+                  "fa": "انتخاب تک‌سهم"
+                },
+                {
+                  "en": "Software and AI products",
+                  "fa": "نرم‌افزار و محصولات AI"
+                },
+                {
+                  "en": "Timing the market",
+                  "fa": "زمان‌بندی بازار"
+                }
               ],
-              "answer": 1}
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p13",
+              "text": {
+                "en": "Munger filters every new idea by opportunity cost: is it better than the best idea you already have? Most new ideas fail that simple test.",
+                "fa": "Munger هر ایدهٔ تازه را با هزینهٔ فرصت می‌سنجد: آیا از بهترین ایده‌ای که از قبل داری بهتر است؟ بیشتر ایده‌های تازه در همین آزمون ساده رد می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l3p14",
+              "text": {
+                "en": "Someone will always get rich faster than you, Munger says, and that is no tragedy. Envy of other people's gains is a common reason investors stop waiting.",
+                "fa": "Munger می‌گوید همیشه کسی سریع‌تر از تو ثروتمند می‌شود و این فاجعه نیست. حسادت به سود دیگران دلیلی رایج است که سرمایه‌گذاران از صبر دست می‌کشند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l3k6",
+              "type": "tap",
+              "source": "b26c1l3p13",
+              "prompt": {
+                "en": "What does Munger compare each new idea against?",
+                "fa": "Munger هر ایدهٔ تازه را با چه چیزی مقایسه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The latest tip from a friend",
+                  "fa": "تازه‌ترین توصیهٔ یک دوست"
+                },
+                {
+                  "en": "The best idea you already have",
+                  "fa": "بهترین ایده‌ای که از قبل داری"
+                },
+                {
+                  "en": "The average idea in the market",
+                  "fa": "ایدهٔ میانگین بازار"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b26c1l4",
+          "title": {
+            "en": "More causes of misjudgment, run as a checklist",
+            "fa": "علل بیشتر قضاوت نادرست، به شکل یک چک‌لیست"
+          },
+          "minutes": 14,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b26c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils more tendencies from Munger's misjudgment talk and how he runs them as a checklist. It matters because a tendency you cannot name quietly steers your capital.",
+                "fa": "این درس گرایش‌های بیشتری از سخنرانی Munger دربارهٔ قضاوت نادرست و شیوهٔ اجرای آن‌ها به‌عنوان چک‌لیست را خلاصه می‌کند. مهم است چون گرایشی که نتوانی نامش را ببری بی‌صدا سرمایه‌ات را هدایت می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p2",
+              "text": {
+                "en": "Reciprocation tendency makes people return favours and concessions, even tiny ones. Salespeople give a small gift or concession first so that you feel you owe them.",
+                "fa": "گرایش به معامله به مثل باعث می‌شود آدم‌ها لطف و امتیاز را جبران کنند، حتی اگر کوچک باشد. فروشنده‌ها اول هدیه یا امتیاز کوچکی می‌دهند تا احساس کنی به آن‌ها بدهکاری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p3",
+              "text": {
+                "en": "Liking/loving tendency makes you ignore the faults of people you like and favour what they favour. Disliking/hating tendency does the reverse and distorts facts about those you dislike.",
+                "fa": "گرایش به دوست داشتن باعث می‌شود عیب کسانی را که دوست داری نبینی و آنچه را آن‌ها می‌پسندند بپسندی. گرایش به نفرت برعکس عمل می‌کند و واقعیت‌ها دربارهٔ کسانی را که دوست نداری تحریف می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k1",
+              "type": "tap",
+              "source": "b26c1l4p2",
+              "prompt": {
+                "en": "Why do salespeople offer a small gift or concession first?",
+                "fa": "چرا فروشنده‌ها اول هدیه یا امتیاز کوچکی می‌دهند؟"
+              },
+              "options": [
+                {
+                  "en": "Because the law requires it",
+                  "fa": "چون قانون آن را لازم می‌داند"
+                },
+                {
+                  "en": "So that you feel you owe them",
+                  "fa": "تا احساس کنی به آن‌ها بدهکاری"
+                },
+                {
+                  "en": "To lower their prices for good",
+                  "fa": "تا قیمت‌هایشان را برای همیشه پایین بیاورند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p4",
+              "text": {
+                "en": "Envy/jealousy tendency is so strong that two of the Ten Commandments forbid coveting. Munger notes that envy drives much behaviour that people rarely admit to.",
+                "fa": "گرایش به حسادت آن‌قدر قوی است که دو فرمان از ده فرمان طمع‌ورزی را منع می‌کنند. Munger می‌گوید حسادت پشت بسیاری از رفتارهایی است که آدم‌ها به‌ندرت به آن اعتراف می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p5",
+              "text": {
+                "en": "Doubt-avoidance tendency pushes the brain to end doubt quickly by reaching some decision. Puzzlement and stress make that rush to a quick answer stronger.",
+                "fa": "گرایش به گریز از تردید مغز را وامی‌دارد با رسیدن به هر تصمیمی سریع به تردید پایان دهد. سردرگمی و فشار این شتاب برای پاسخ سریع را بیشتر می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k2",
+              "type": "tf",
+              "source": "b26c1l4p5",
+              "prompt": {
+                "en": "Doubt-avoidance makes people put off decisions for as long as possible.",
+                "fa": "گریز از تردید باعث می‌شود آدم‌ها تصمیم را تا جای ممکن عقب بیندازند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p6",
+              "text": {
+                "en": "Contrast-misreaction tendency judges things against what came just before. A broker shows awful overpriced houses first, so the next one looks like a bargain.",
+                "fa": "گرایش به واکنش نادرست به تضاد چیزها را با آنچه درست پیش از آن آمده می‌سنجد. بنگاه‌دار اول خانه‌های بد و گران را نشان می‌دهد تا خانهٔ بعدی ارزان به نظر برسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p7",
+              "text": {
+                "en": "Availability-misweighing tendency overweights what comes easily to mind, such as vivid or recent events. Munger's remedy is a checklist, so less vivid factors still get counted.",
+                "fa": "گرایش به وزن‌دهی نادرست در دسترس‌ها به آنچه راحت به ذهن می‌آید، مثل رویدادهای پررنگ یا تازه، وزن زیادی می‌دهد. درمان Munger چک‌لیست است تا عوامل کم‌رنگ‌تر هم شمرده شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p8",
+              "text": {
+                "en": "Overoptimism tendency echoes Demosthenes: what a man wishes, that also will he believe. Excessive self-regard makes people rate their own skills, and things they own, too highly.",
+                "fa": "گرایش به خوش‌بینی افراطی سخن Demosthenes را تکرار می‌کند: آدم هرچه آرزو کند، همان را باور می‌کند. خودبزرگ‌بینی افراطی باعث می‌شود مهارت‌ها و دارایی‌های خود را بیش از حد ارزیابی کنیم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k3",
+              "type": "tap",
+              "source": "b26c1l4p7",
+              "prompt": {
+                "en": "What is Munger's remedy for availability-misweighing?",
+                "fa": "درمان Munger برای وزن‌دهی نادرست در دسترس‌ها چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Trusting whatever comes to mind first",
+                  "fa": "اعتماد به هرچه اول به ذهن می‌رسد"
+                },
+                {
+                  "en": "Reading only the most recent news",
+                  "fa": "خواندن فقط تازه‌ترین خبرها"
+                },
+                {
+                  "en": "A checklist, so less vivid factors get counted",
+                  "fa": "یک چک‌لیست تا عوامل کم‌رنگ‌تر هم شمرده شوند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p9",
+              "text": {
+                "en": "Simple, pain-avoiding psychological denial means a reality too painful to bear simply gets denied. Munger's example is a mother who would not accept that her son had died.",
+                "fa": "انکار روانی ساده برای گریز از درد یعنی واقعیتی که تحملش خیلی دردناک است انکار می‌شود. مثال Munger مادری است که نمی‌پذیرفت پسرش مرده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p10",
+              "text": {
+                "en": "Use-it-or-lose-it tendency: skills you do not practise fade. Munger notes that pilots keep rare skills alive by drilling them in flight simulators.",
+                "fa": "گرایش «استفاده کن یا از دستش بده»: مهارتی که تمرین نکنی از بین می‌رود. Munger می‌گوید خلبان‌ها مهارت‌های کم‌کاربرد را با تمرین در شبیه‌ساز پرواز زنده نگه می‌دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k4",
+              "type": "tf",
+              "source": "b26c1l4p10",
+              "prompt": {
+                "en": "Munger says skills you do not practise fade.",
+                "fa": "Munger می‌گوید مهارتی که تمرین نکنی از بین می‌رود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p11",
+              "text": {
+                "en": "Reason-respecting tendency makes people comply more readily when they are given a reason, even a weak one. So when you ask for something, Munger says, tell people why.",
+                "fa": "گرایش به احترام به دلیل باعث می‌شود آدم‌ها وقتی دلیلی بشنوند، حتی دلیلی ضعیف، راحت‌تر همراهی کنند. پس به گفتهٔ Munger، وقتی چیزی می‌خواهی، بگو چرا."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p12",
+              "text": {
+                "en": "Munger's two-step analysis: first, which factors really govern the interests involved? Second, which subconscious tendencies are pushing my brain toward a wrong answer?",
+                "fa": "تحلیل دومرحله‌ای Munger: اول، چه عواملی واقعاً بر منافع درگیر حاکم‌اند؟ دوم، کدام گرایش‌های ناخودآگاه مغزم را به سمت پاسخی نادرست می‌برند؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k5",
+              "type": "tap",
+              "source": "b26c1l4p12",
+              "prompt": {
+                "en": "What does the second step of Munger's two-step analysis ask?",
+                "fa": "مرحلهٔ دوم تحلیل دومرحله‌ای Munger چه می‌پرسد؟"
+              },
+              "options": [
+                {
+                  "en": "Which subconscious tendencies are pushing me wrong",
+                  "fa": "کدام گرایش‌های ناخودآگاه مرا به خطا می‌برند"
+                },
+                {
+                  "en": "What the crowd is buying this week",
+                  "fa": "جمعیت این هفته چه می‌خرد"
+                },
+                {
+                  "en": "How fast I can reach a decision",
+                  "fa": "چقدر سریع می‌توانم تصمیم بگیرم"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p13",
+              "text": {
+                "en": "Turn this Lesson into a page of your decision journal, one question per tendency. The roadmap runs such checks before a cap-table deal or a change to the index core.",
+                "fa": "این درس را به یک صفحه از دفترچهٔ تصمیم‌گیری‌ات تبدیل کن، برای هر گرایش یک پرسش. نقشهٔ راه چنین بررسی‌هایی را پیش از توافق روی cap table یا تغییر هستهٔ شاخصی انجام می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b26c1l4p14",
+              "text": {
+                "en": "Munger admits that knowing the tendencies does not make anyone immune, himself included. The aim is fewer and smaller errors over a lifetime.",
+                "fa": "Munger می‌پذیرد که شناختن این گرایش‌ها هیچ‌کس، از جمله خودش، را مصون نمی‌کند. هدف خطاهای کمتر و کوچک‌تر در طول عمر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b26c1l4k6",
+              "type": "tf",
+              "source": "b26c1l4p14",
+              "prompt": {
+                "en": "Munger says that once you know the tendencies, you become immune to them.",
+                "fa": "Munger می‌گوید وقتی گرایش‌ها را بشناسی، در برابرشان مصون می‌شوی."
+              },
+              "answer": false
+            }
           ]
         }
       ]

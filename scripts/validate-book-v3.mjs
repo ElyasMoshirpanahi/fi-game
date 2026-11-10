@@ -6,6 +6,8 @@
 import fs from 'node:fs';
 
 const TIER_CIRCLES = { high: 3, mid: 2, low: 1 };
+// Complexity sets Lessons per Circle and Points per Lesson (docs/sizing-complexity.md, owner-approved 2026-11-10).
+export const COMPLEXITY = { 1: { lessons: [3, 3], points: [10, 11] }, 2: { lessons: [3, 3], points: [11, 12] }, 3: { lessons: [4, 4], points: [12, 13] }, 4: { lessons: [4, 5], points: [13, 14] }, 5: { lessons: [5, 5], points: [14, 15] } };
 const tokens = (s) => s.toLowerCase().replace(/[’']/g, '').split(/[^a-z0-9€%]+/).filter((t) => t.length >= 4 || /^\d+$/.test(t));
 const appearsIn = (needle, hay) => { const h = tokens(hay); return tokens(needle).every((t) => h.some((x) => x.startsWith(t.slice(0, 4)))); };
 const sentences = (s) => (s.match(/[.!?](\s|$)/g) || []).length;
@@ -19,6 +21,8 @@ export function validateBook(b, errs) {
   if (![1, 2, 3, 5, 6].includes(b.stage)) errs.push('stage must be 1, 2, 3, 5 or 6');
   if (typeof b.must !== 'boolean') errs.push('must must be boolean');
   if (!TIER_CIRCLES[b.tier]) errs.push('tier must be high, mid or low');
+  const cx = COMPLEXITY[b.complexity];
+  if (!cx) errs.push('complexity must be 1 to 5');
   const circles = b.circles || [];
   if (TIER_CIRCLES[b.tier] && circles.length !== TIER_CIRCLES[b.tier]) errs.push(`tier ${b.tier} needs ${TIER_CIRCLES[b.tier]} circles, got ${circles.length}`);
   const ids = new Set();
@@ -30,6 +34,7 @@ export function validateBook(b, errs) {
     if (!isPair(c.title)) errs.push(`${cid}: title must be {en, fa}`);
     const lessons = c.lessons || [];
     if (lessons.length < 3 || lessons.length > 5) errs.push(`${cid}: 3 to 5 lessons, got ${lessons.length}`);
+    if (cx && (lessons.length < cx.lessons[0] || lessons.length > cx.lessons[1])) errs.push(`${cid}: complexity ${b.complexity} needs ${cx.lessons.join(' to ')} lessons, got ${lessons.length}`);
     lessons.forEach((l, li) => {
       const lid = `${cid}l${li + 1}`;
       if (l.id !== lid) errs.push(`${cid} lesson ${li + 1}: id must be ${lid}`);
@@ -39,6 +44,7 @@ export function validateBook(b, errs) {
       const cards = items.filter((i) => i.kind === 'card');
       const checks = items.filter((i) => i.kind === 'check');
       if (cards.length < 10 || cards.length > 15) errs.push(`${lid}: 10 to 15 points, got ${cards.length}`);
+      if (cx && (cards.length < cx.points[0] || cards.length > cx.points[1])) errs.push(`${lid}: complexity ${b.complexity} needs ${cx.points.join(' to ')} points, got ${cards.length}`);
       if (!cards.length || cards[0].frame !== true) errs.push(`${lid}: the first point must carry "frame": true (why this matters)`);
       if (items[0] && items[0].kind !== 'card') errs.push(`${lid}: must start with a card`);
       const minChecks = Math.floor(cards.length / 3), maxChecks = Math.ceil(cards.length / 2);

@@ -17,6 +17,7 @@
     "fa": "سود از بی‌نظمی"
   },
   "tier": "mid",
+  "complexity": 4,
   "circles": [
     {
       "id": "b25c1",
@@ -31,7 +32,7 @@
             "en": "The triad: Damocles, Phoenix and Hydra",
             "fa": "سه‌گانه: Damocles، Phoenix و Hydra"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -202,6 +203,47 @@
             },
             {
               "kind": "card",
+              "id": "b25c1l1p13",
+              "text": {
+                "en": "On Taleb's scale, robust is the midpoint, not the opposite of fragile. The true opposite of fragile is antifragile, which gains where the fragile loses.",
+                "fa": "در مقیاس Taleb، استوار نقطهٔ میانی است، نه نقطهٔ مقابل شکننده. نقطهٔ مقابل واقعی شکننده، ضدشکننده است که همان‌جا سود می‌برد که شکننده ضرر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l1p14",
+              "text": {
+                "en": "Wind extinguishes a candle and energizes a fire. Taleb's advice from the Prologue: be the fire and wish for the wind.",
+                "fa": "باد شمع را خاموش می‌کند و آتش را شعله‌ورتر. توصیهٔ Taleb در پیش‌گفتار: آتش باش و آرزوی باد کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l1k6",
+              "type": "tap",
+              "source": "b25c1l1p14",
+              "prompt": {
+                "en": "What does wind do to a fire, in Taleb's image?",
+                "fa": "در تصویر Taleb، باد با آتش چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "It energizes the fire",
+                  "fa": "آتش را شعله‌ورتر می‌کند"
+                },
+                {
+                  "en": "It puts the fire out",
+                  "fa": "آتش را خاموش می‌کند"
+                },
+                {
+                  "en": "It has no effect at all",
+                  "fa": "هیچ اثری ندارد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
               "id": "b25c1l1p11",
               "text": {
                 "en": "Antifragile things need some volatility to stay strong, the way muscles need load. Deprive them of it and they weaken.",
@@ -235,7 +277,7 @@
             "en": "Hormesis: small stressors make you stronger",
             "fa": "Hormesis: فشارهای کوچک قوی‌ترت می‌کنند"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -392,6 +434,33 @@
             },
             {
               "kind": "card",
+              "id": "b25c1l2p13",
+              "text": {
+                "en": "Information is antifragile too. Try to ban a book or silence a rumour, and it usually spreads further.",
+                "fa": "اطلاعات هم ضدشکننده است. بکوش کتابی را ممنوع کنی یا شایعه‌ای را خاموش کنی، معمولاً بیشتر پخش می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l2p14",
+              "text": {
+                "en": "Taleb sees revolts and obsessions the same way. Crush a riot or forbid a love, and the push back often makes them stronger.",
+                "fa": "Taleb شورش‌ها و دلبستگی‌های وسواسی را هم همین‌طور می‌بیند. شورشی را سرکوب کن یا عشقی را ممنوع کن، فشار معمولاً قوی‌ترشان می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l2k6",
+              "type": "tf",
+              "source": "b25c1l2p13",
+              "prompt": {
+                "en": "Trying to ban a book usually makes it spread less.",
+                "fa": "تلاش برای ممنوع کردن یک کتاب معمولاً پخشش را کمتر می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
               "id": "b25c1l2p11",
               "text": {
                 "en": "Hormesis for you: a hard workout, a tough code review, or shipping a small product that customers can reject. Each is a dose you recover from, so it builds strength.",
@@ -439,7 +508,7 @@
             "en": "The turkey and hidden fragility",
             "fa": "بوقلمون و شکنندگی پنهان"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -596,6 +665,33 @@
             },
             {
               "kind": "card",
+              "id": "b25c1l3p13",
+              "text": {
+                "en": "Metalworkers use annealing: heat metal, then cool it slowly, and random atom movements settle into a stronger structure. Taleb uses it to show that some randomness improves systems.",
+                "fa": "فلزکاران از بازپخت (annealing) استفاده می‌کنند: فلز را گرم و آرام سرد می‌کنند و حرکت تصادفی اتم‌ها ساختار محکم‌تری می‌سازد. Taleb با آن نشان می‌دهد کمی تصادف سیستم‌ها را بهتر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l3p14",
+              "text": {
+                "en": "Taleb argues that propping up a regime for the sake of stability works like fire suppression. Pressure builds unseen, and when the break comes it is sudden and large.",
+                "fa": "Taleb استدلال می‌کند سرپا نگه داشتن یک حکومت به خاطر ثبات مثل سرکوب آتش‌سوزی‌های کوچک است. فشار پنهان جمع می‌شود و وقتی شکست می‌آید، ناگهانی و بزرگ است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l3k6",
+              "type": "tf",
+              "source": "b25c1l3p13",
+              "prompt": {
+                "en": "In annealing, some randomness helps metal settle into a stronger structure.",
+                "fa": "در بازپخت، کمی تصادف به فلز کمک می‌کند ساختار محکم‌تری پیدا کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
               "id": "b25c1l3p11",
               "text": {
                 "en": "Black Swans are rare, high-impact events that the past does not predict. Systems that suppress small variations are the most exposed to them.",
@@ -629,7 +725,7 @@
             "en": "Iatrogenics: the harm of the helper",
             "fa": "Iatrogenics: آسیبِ درمانگر"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -786,6 +882,47 @@
             },
             {
               "kind": "card",
+              "id": "b25c1l4p13",
+              "text": {
+                "en": "Taleb's answer to bad forecasts is not better prediction but less dependence on it. Change your exposure so that a wrong forecast cannot hurt you much.",
+                "fa": "پاسخ Taleb به پیش‌بینی‌های بد، پیش‌بینی بهتر نیست، بلکه وابستگی کمتر به آن است. وضعیتت را طوری تغییر بده که پیش‌بینی غلط نتواند آسیب زیادی بزند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c1l4p14",
+              "text": {
+                "en": "Action is visible and rewarded; wise restraint is invisible. Nobody thanks the doctor for the needless surgery he chose not to do.",
+                "fa": "اقدام دیده می‌شود و پاداش می‌گیرد؛ خودداری عاقلانه دیده نمی‌شود. کسی از پزشک به خاطر جراحی بی‌موردی که انجام نداد تشکر نمی‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c1l4k6",
+              "type": "tap",
+              "source": "b25c1l4p13",
+              "prompt": {
+                "en": "What does Taleb advise instead of better prediction?",
+                "fa": "Taleb به جای پیش‌بینی بهتر چه توصیه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Less dependence on prediction",
+                  "fa": "وابستگی کمتر به پیش‌بینی"
+                },
+                {
+                  "en": "Hiring more forecasters",
+                  "fa": "استخدام پیش‌بین‌های بیشتر"
+                },
+                {
+                  "en": "Checking forecasts every day",
+                  "fa": "بررسی روزانهٔ پیش‌بینی‌ها"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
               "id": "b25c1l4p11",
               "text": {
                 "en": "For an index portfolio, the least harmful habit is often to look rarely. A quarterly net-worth log gives signal; a broker app checked daily mostly gives noise.",
@@ -842,7 +979,7 @@
             "en": "The barbell strategy",
             "fa": "استراتژی هالتر (barbell)"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -999,6 +1136,33 @@
             },
             {
               "kind": "card",
+              "id": "b25c2l1p13",
+              "text": {
+                "en": "Seneca's trick, in Taleb's reading: treat your possessions as already lost. Then a real loss cannot shake you, and whatever you keep feels like a gain.",
+                "fa": "ترفند Seneca در خوانش Taleb: دارایی‌ات را از پیش ازدست‌رفته فرض کن. آن‌وقت ضرر واقعی تکانت نمی‌دهد و هر چه بماند سود به حساب می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l1p14",
+              "text": {
+                "en": "A barbell only works if the safe end is truly safe. If the safe 90 percent can itself crash, losing the risky 10 percent is no longer your worst case.",
+                "fa": "barbell فقط وقتی کار می‌کند که سر امن واقعاً امن باشد. اگر ۹۰ درصد «امن» خودش بتواند سقوط کند، از دست دادن ۱۰ درصد پرریسک دیگر بدترین حالت تو نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l1k6",
+              "type": "tf",
+              "source": "b25c2l1p14",
+              "prompt": {
+                "en": "A barbell still caps your worst case even if the safe end can itself crash.",
+                "fa": "حتی اگر سر امن خودش بتواند سقوط کند، barbell باز هم بدترین حالت را محدود می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
               "id": "b25c2l1p11",
               "text": {
                 "en": "The risky end holds small bets with open payoffs. A side project, an early equity stake with vesting, or a new skill can all fit there.",
@@ -1032,7 +1196,7 @@
             "en": "Optionality and tinkering",
             "fa": "اختیار (optionality) و آزمون و خطا"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1189,6 +1353,47 @@
             },
             {
               "kind": "card",
+              "id": "b25c2l2p13",
+              "text": {
+                "en": "Taleb sums it up: option equals asymmetry plus rationality. Asymmetry gives more upside than downside; rationality means keeping what works and dropping what does not.",
+                "fa": "Taleb خلاصه می‌کند: اختیار برابر است با عدم تقارن به‌علاوهٔ عقلانیت. عدم تقارن سود بالقوهٔ بیشتر از ضرر می‌دهد؛ عقلانیت یعنی نگه داشتن آنچه کار می‌کند و رها کردن بقیه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l2p14",
+              "text": {
+                "en": "The wheel is thousands of years old, yet wheels on suitcases only arrived around 1970. Taleb uses this to show that simple practical ideas can sit unused for ages.",
+                "fa": "چرخ هزاران سال قدمت دارد، اما چرخ روی چمدان تازه حدود ۱۹۷۰ آمد. Taleb با این نشان می‌دهد ایده‌های ساده و کاربردی می‌توانند مدت‌ها بی‌استفاده بمانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l2k6",
+              "type": "tap",
+              "source": "b25c2l2p14",
+              "prompt": {
+                "en": "In Taleb's example, what reached suitcases only around 1970?",
+                "fa": "در مثال Taleb، چه چیزی تازه حدود ۱۹۷۰ به چمدان‌ها رسید؟"
+              },
+              "options": [
+                {
+                  "en": "Wheels",
+                  "fa": "چرخ"
+                },
+                {
+                  "en": "Zippers",
+                  "fa": "زیپ"
+                },
+                {
+                  "en": "Locks",
+                  "fa": "قفل"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
               "id": "b25c2l2p11",
               "text": {
                 "en": "For an AI product, write down the cost of each try in weekends and euros before you start. If the cost is small and the upside open, you hold an option.",
@@ -1236,7 +1441,7 @@
             "en": "Via negativa and the Lindy effect",
             "fa": "Via negativa و اثر Lindy"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1393,6 +1598,33 @@
             },
             {
               "kind": "card",
+              "id": "b25c2l3p13",
+              "text": {
+                "en": "Taleb's size example: in 2008 Société Générale had to unwind about $70 billion of a rogue trader's positions in days. Selling that much in a rush cost about $6 billion.",
+                "fa": "مثال Taleb دربارهٔ اندازه: در ۲۰۰۸ بانک Société Générale مجبور شد حدود ۷۰ میلیارد دلار از موقعیت‌های یک معامله‌گر خودسر را در چند روز ببندد. این فروش شتاب‌زده حدود ۶ میلیارد دلار هزینه داشت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l3p14",
+              "text": {
+                "en": "Via negativa works for knowledge too. One counterexample can show a claim false, while many examples can never prove it true.",
+                "fa": "via negativa برای دانش هم کار می‌کند. یک مثال نقض می‌تواند ادعایی را رد کند، اما مثال‌های زیاد هرگز نمی‌توانند درستی‌اش را ثابت کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l3k6",
+              "type": "tf",
+              "source": "b25c2l3p14",
+              "prompt": {
+                "en": "One counterexample can show a claim false.",
+                "fa": "یک مثال نقض می‌تواند نادرستی یک ادعا را نشان دهد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
               "id": "b25c2l3p11",
               "text": {
                 "en": "Apply via negativa first: cut high-interest debt, delete the trading app and drop meetings that add nothing. Then decide what, if anything, to add.",
@@ -1426,7 +1658,7 @@
             "en": "Skin in the game",
             "fa": "پوست در بازی (skin in the game)"
           },
-          "minutes": 12,
+          "minutes": 14,
           "items": [
             {
               "kind": "card",
@@ -1580,6 +1812,47 @@
                 "fa": "Taleb می‌خواهد کسانی که از نوسان سود می‌برند، وقتی علیهشان شد تاوانش را هم بدهند."
               },
               "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p13",
+              "text": {
+                "en": "Taleb warns that ethics tend to bend to fit a profession. Honest advice is hard when your income depends on what the client decides.",
+                "fa": "Taleb هشدار می‌دهد که اخلاق معمولاً خودش را با حرفه جور می‌کند. وقتی درآمدت به تصمیم مشتری بستگی دارد، توصیهٔ صادقانه سخت است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b25c2l4p14",
+              "text": {
+                "en": "Taleb prefers owner-run businesses and artisans to firms run by hired managers. The owner bears the downside, so he cares about survival, not just this year's numbers.",
+                "fa": "Taleb کسب‌وکارهای مالک‌محور و صنعتگران را به شرکت‌هایی که مدیران استخدامی می‌گردانند ترجیح می‌دهد. مالک ضرر را خودش می‌پردازد، پس به بقا اهمیت می‌دهد، نه فقط به ارقام امسال."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b25c2l4k6",
+              "type": "tap",
+              "source": "b25c2l4p13",
+              "prompt": {
+                "en": "When is honest advice hard, in Taleb's view?",
+                "fa": "از نگاه Taleb، توصیهٔ صادقانه چه وقت سخت است؟"
+              },
+              "options": [
+                {
+                  "en": "When your income depends on the client's decision",
+                  "fa": "وقتی درآمدت به تصمیم مشتری بستگی دارد"
+                },
+                {
+                  "en": "When the adviser has lost money before",
+                  "fa": "وقتی مشاور قبلاً پول از دست داده است"
+                },
+                {
+                  "en": "When the client asks too many questions",
+                  "fa": "وقتی مشتری سؤال زیادی می‌پرسد"
+                }
+              ],
+              "answer": 0
             },
             {
               "kind": "card",

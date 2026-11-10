@@ -17,6 +17,7 @@
   "fa": "قیمت، ارزش نیست"
  },
  "tier": "mid",
+ "complexity": 5,
  "circles": [
   {
    "id": "b11c1",
@@ -31,7 +32,7 @@
       "en": "Price, value and three truths",
       "fa": "قیمت، ارزش و سه حقیقت"
      },
-     "minutes": 11,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -218,6 +219,55 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p12",
+       "text": {
+        "en": "Damodaran notes that valuation matters most to fundamental investors, who expect price to move toward value over time. Chartists and pure traders care far less about it.",
+        "fa": "Damodaran می‌گوید ارزش‌گذاری بیش از همه برای سرمایه‌گذاران بنیادی مهم است که انتظار دارند قیمت به‌مرور به سمت ارزش برود. تحلیلگران نموداری و معامله‌گران صرف کمتر به آن اهمیت می‌دهند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p13",
+       "text": {
+        "en": "Valuation also drives deals: in an acquisition the buyer must value the target and any synergy. Overpaying for hoped-for growth is a common way to destroy value.",
+        "fa": "ارزش‌گذاری معاملات را هم هدایت می‌کند: در یک تملک، خریدار باید شرکت هدف و هر هم‌افزایی را ارزش‌گذاری کند. پرداخت بیش از حد برای رشدِ امیدوارانه راهی رایج برای نابودی ارزش است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l1p14",
+       "text": {
+        "en": "Inside a firm, valuation links decisions to value: an investment, a financing choice or a dividend matters only if it changes cash flows, growth or risk.",
+        "fa": "درون شرکت، ارزش‌گذاری تصمیم‌ها را به ارزش پیوند می‌دهد: یک سرمایه‌گذاری، یک انتخاب تأمین مالی یا یک سود سهام فقط وقتی مهم است که جریان نقدی، رشد یا ریسک را تغییر دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l1k6",
+       "type": "tap",
+       "source": "b11c1l1p14",
+       "prompt": {
+        "en": "When does a corporate decision change a firm's value?",
+        "fa": "یک تصمیم شرکتی چه زمانی ارزش شرکت را تغییر می‌دهد؟"
+       },
+       "options": [
+        {
+         "en": "If it changes cash flows, growth or risk",
+         "fa": "اگر جریان نقدی، رشد یا ریسک را تغییر دهد"
+        },
+        {
+         "en": "Whenever it is announced to the press",
+         "fa": "هر وقت به رسانه‌ها اعلام شود"
+        },
+        {
+         "en": "Only when the share price reacts that day",
+         "fa": "فقط وقتی قیمت سهم همان روز واکنش نشان دهد"
+        }
+       ],
+       "answer": 0
       }
      ]
     },
@@ -227,7 +277,7 @@
       "en": "Power tools: time and risk",
       "fa": "ابزارهای قدرتمند: زمان و ریسک"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -422,6 +472,33 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p13",
+       "text": {
+        "en": "The equity risk premium can be estimated from history, as past stock returns over bonds, or implied from today's stock prices and expected cash flows. Damodaran favours the implied premium.",
+        "fa": "صرف ریسک سهام را می‌توان از تاریخ، یعنی بازده گذشتهٔ سهام نسبت به اوراق، برآورد کرد یا از قیمت‌های امروز سهام و جریان‌های نقدی مورد انتظار استخراج کرد. Damodaran صرف ضمنی را ترجیح می‌دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l2p14",
+       "text": {
+        "en": "Investing in riskier countries adds a country risk premium to the cost of equity, often built from the country's sovereign default spread.",
+        "fa": "سرمایه‌گذاری در کشورهای پرریسک‌تر یک صرف ریسک کشوری به هزینهٔ سرمایهٔ سهام اضافه می‌کند که اغلب از اسپرد نکول دولتی آن کشور ساخته می‌شود."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l2k6",
+       "type": "tf",
+       "source": "b11c1l2p14",
+       "prompt": {
+        "en": "Damodaran adds a country risk premium to the cost of equity for riskier countries.",
+        "fa": "Damodaran برای کشورهای پرریسک‌تر یک صرف ریسک کشوری به هزینهٔ سرمایهٔ سهام اضافه می‌کند."
+       },
+       "answer": true
       }
      ]
     },
@@ -431,7 +508,7 @@
       "en": "Cash flows and the cost of growth",
       "fa": "جریان نقدی و هزینهٔ رشد"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -626,6 +703,47 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p13",
+       "text": {
+        "en": "Accounting earnings need cleaning first: Damodaran treats R&D as a capital expense and lease commitments as debt, so operating income and capital reflect reality.",
+        "fa": "سود حسابداری ابتدا باید پاک‌سازی شود: Damodaran هزینهٔ R&D را هزینهٔ سرمایه‌ای و تعهدات اجاره را بدهی می‌داند تا سود عملیاتی و سرمایه واقعیت را نشان دهند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l3p14",
+       "text": {
+        "en": "Watch the tax rate too: firms report an effective rate, but over time cash flows should move toward the marginal tax rate the firm actually faces.",
+        "fa": "نرخ مالیات را هم زیر نظر بگیر: شرکت‌ها نرخ مؤثر را گزارش می‌کنند، اما در بلندمدت جریان‌های نقدی باید به سمت نرخ مالیات نهایی‌ای بروند که شرکت واقعاً با آن روبه‌روست."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l3k6",
+       "type": "tap",
+       "source": "b11c1l3p13",
+       "prompt": {
+        "en": "How does Damodaran treat R&D spending?",
+        "fa": "Damodaran هزینهٔ R&D را چگونه در نظر می‌گیرد؟"
+       },
+       "options": [
+        {
+         "en": "As a capital expense",
+         "fa": "به‌عنوان هزینهٔ سرمایه‌ای"
+        },
+        {
+         "en": "As a one-off loss to ignore",
+         "fa": "به‌عنوان زیانی یک‌باره که باید نادیده گرفت"
+        },
+        {
+         "en": "As part of working capital",
+         "fa": "به‌عنوان بخشی از سرمایهٔ در گردش"
+        }
+       ],
+       "answer": 0
       }
      ]
     },
@@ -635,7 +753,7 @@
       "en": "Terminal value and closing the deal",
       "fa": "ارزش پایانی و جمع‌بندی ارزش‌گذاری"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -839,6 +957,264 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p13",
+       "text": {
+        "en": "Some analysts set terminal value with an exit multiple, such as eight times EBITDA. Damodaran warns this smuggles a relative valuation into an intrinsic one.",
+        "fa": "برخی تحلیلگران ارزش پایانی را با یک ضریب خروج، مثلاً هشت برابر EBITDA، تعیین می‌کنند. Damodaran هشدار می‌دهد که این کار یک ارزش‌گذاری نسبی را پنهانی وارد ارزش‌گذاری ذاتی می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l4p14",
+       "text": {
+        "en": "Another option is liquidation value, what the assets would fetch if sold. It suits firms expected to close down rather than grow forever.",
+        "fa": "گزینهٔ دیگر ارزش تصفیه است، یعنی مبلغی که دارایی‌ها در صورت فروش به دست می‌آورند. این روش برای شرکت‌هایی مناسب است که انتظار می‌رود تعطیل شوند، نه اینکه تا ابد رشد کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l4k6",
+       "type": "tf",
+       "source": "b11c1l4p13",
+       "prompt": {
+        "en": "Damodaran prefers an exit multiple for terminal value in an intrinsic valuation.",
+        "fa": "Damodaran در ارزش‌گذاری ذاتی، ضریب خروج را برای ارزش پایانی ترجیح می‌دهد."
+       },
+       "answer": false
+      }
+     ]
+    },
+    {
+     "id": "b11c1l5",
+     "title": {
+      "en": "Banks and financial firms",
+      "fa": "بانک‌ها و شرکت‌های مالی"
+     },
+     "minutes": 14,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c1l5p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the book's chapter on banks, insurers and other financial service firms. It matters because your bank, your broker and much of any world index are financial firms.",
+        "fa": "این درس فصل کتاب دربارهٔ بانک‌ها، بیمه‌ها و دیگر شرکت‌های خدمات مالی را خلاصه می‌کند. مهم است چون بانک تو، کارگزار تو و بخش بزرگی از هر شاخص جهانی شرکت مالی‌اند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p2",
+       "text": {
+        "en": "For most firms debt is a source of capital. For a bank it is raw material: deposits and borrowing are what it turns into loans, as a factory turns steel into cars.",
+        "fa": "برای بیشتر شرکت‌ها بدهی منبع سرمایه است. برای بانک ماده خام است: سپرده‌ها و وام‌گیری چیزی‌اند که بانک به وام تبدیل می‌کند، همان‌طور که کارخانه فولاد را به خودرو تبدیل می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p3",
+       "text": {
+        "en": "So Damodaran values financial firms on equity alone. Their cash flows are discounted at the cost of equity, not at a cost of capital that mixes in debt.",
+        "fa": "پس Damodaran شرکت‌های مالی را فقط بر پایهٔ سهام ارزش‌گذاری می‌کند. جریان‌های نقدی آن‌ها با هزینهٔ سرمایهٔ سهام تنزیل می‌شود، نه با هزینهٔ سرمایه‌ای که بدهی را هم در بر دارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k1",
+       "type": "tap",
+       "source": "b11c1l5p3",
+       "prompt": {
+        "en": "What rate discounts a bank's cash flows in Damodaran's approach?",
+        "fa": "در روش Damodaran جریان‌های نقدی بانک با چه نرخی تنزیل می‌شود؟"
+       },
+       "options": [
+        {
+         "en": "The cost of equity",
+         "fa": "هزینهٔ سرمایهٔ سهام"
+        },
+        {
+         "en": "The cost of capital",
+         "fa": "هزینهٔ سرمایه"
+        },
+        {
+         "en": "The interest rate paid on deposits",
+         "fa": "نرخ سودی که به سپرده‌ها پرداخت می‌شود"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p4",
+       "text": {
+        "en": "Free cash flow is hard to measure for a bank, since its capital spending and working capital are not clearly defined. Dividends are often the only cash flow you can see.",
+        "fa": "اندازه‌گیری جریان نقدی آزاد برای بانک دشوار است، چون مخارج سرمایه‌ای و سرمایهٔ در گردش آن به‌روشنی تعریف نشده‌اند. سود سهام اغلب تنها جریان نقدی قابل مشاهده است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p5",
+       "text": {
+        "en": "That makes the dividend discount model a natural fit: value equals expected dividends discounted at the cost of equity, plus a terminal value.",
+        "fa": "به همین دلیل مدل تنزیل سود سهام انتخاب طبیعی است: ارزش برابر سود سهام مورد انتظار تنزیل‌شده با هزینهٔ سرمایهٔ سهام، به‌علاوهٔ یک ارزش پایانی است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k2",
+       "type": "tf",
+       "source": "b11c1l5p4",
+       "prompt": {
+        "en": "For a bank, free cash flow is as easy to measure as for a factory.",
+        "fa": "برای بانک، اندازه‌گیری جریان نقدی آزاد به همان آسانی یک کارخانه است."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p6",
+       "text": {
+        "en": "Regulators require banks to hold equity capital against their risky assets. For a bank, reinvestment means building this regulatory capital so it can grow its loans.",
+        "fa": "ناظران بانک‌ها را ملزم می‌کنند در برابر دارایی‌های پرریسک سرمایهٔ سهامی نگه دارند. برای بانک، سرمایه‌گذاری مجدد یعنی ساختن همین سرمایهٔ نظارتی تا بتواند وام‌هایش را افزایش دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p7",
+       "text": {
+        "en": "Growth still follows fundamentals: expected earnings growth equals the retention ratio times the return on equity. A bank that pays out everything cannot grow without new capital.",
+        "fa": "رشد همچنان از بنیادها پیروی می‌کند: رشد مورد انتظار سود برابر نسبت انباشت ضرب در بازده حقوق صاحبان سهام است. بانکی که همه‌چیز را توزیع کند بدون سرمایهٔ تازه رشد نمی‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p8",
+       "text": {
+        "en": "A bank that holds more capital than regulators require is safer but earns a lower return on equity. Too little capital raises both returns and the risk of failure.",
+        "fa": "بانکی که بیش از الزام ناظر سرمایه نگه دارد امن‌تر است اما بازده حقوق صاحبان سهام کمتری دارد. سرمایهٔ خیلی کم هم بازده و هم ریسک ورشکستگی را بالا می‌برد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k3",
+       "type": "tap",
+       "source": "b11c1l5p7",
+       "prompt": {
+        "en": "What drives expected earnings growth for a bank?",
+        "fa": "چه چیزی رشد مورد انتظار سود بانک را تعیین می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "The retention ratio times the return on equity",
+         "fa": "نسبت انباشت ضرب در بازده حقوق صاحبان سهام"
+        },
+        {
+         "en": "The number of branches it opens",
+         "fa": "تعداد شعبه‌هایی که باز می‌کند"
+        },
+        {
+         "en": "The central bank's interest rate alone",
+         "fa": "فقط نرخ بهرهٔ بانک مرکزی"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p9",
+       "text": {
+        "en": "Price to book is the classic multiple for banks, because their assets are mostly loans and securities carried close to market value.",
+        "fa": "قیمت به ارزش دفتری ضریب کلاسیک بانک‌هاست، چون دارایی‌های آن‌ها عمدتاً وام و اوراق بهاداری است که نزدیک به ارزش بازار ثبت می‌شوند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p10",
+       "text": {
+        "en": "A bank's price to book should rise with its return on equity and fall with its risk. A low ratio with a high, stable return is worth a closer look.",
+        "fa": "قیمت به ارزش دفتری بانک باید با بازده حقوق صاحبان سهام بالا برود و با ریسک پایین بیاید. نسبت پایین همراه با بازده بالا و پایدار ارزش بررسی دقیق‌تر دارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k4",
+       "type": "tf",
+       "source": "b11c1l5p10",
+       "prompt": {
+        "en": "Other things equal, a bank with a higher return on equity should trade at a higher price to book.",
+        "fa": "با ثابت ماندن سایر شرایط، بانکی با بازده حقوق صاحبان سهام بالاتر باید قیمت به ارزش دفتری بالاتری داشته باشد."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p11",
+       "text": {
+        "en": "Damodaran warns that bank earnings can mislead: loan loss provisions are a judgement call, and a bank can flatter profit by setting them too low.",
+        "fa": "Damodaran هشدار می‌دهد که سود بانک می‌تواند گمراه‌کننده باشد: ذخیرهٔ زیان وام به قضاوت بستگی دارد و بانک می‌تواند با کم گرفتن آن سود را بزرگ‌تر نشان دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p12",
+       "text": {
+        "en": "Insurers follow the same logic: premiums come in before claims go out, and the money held in between is invested. Value still rests on equity cash flows and capital.",
+        "fa": "بیمه‌ها هم از همین منطق پیروی می‌کنند: حق بیمه پیش از پرداخت خسارت می‌رسد و پول در این فاصله سرمایه‌گذاری می‌شود. ارزش همچنان به جریان نقدی سهام و سرمایه وابسته است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k5",
+       "type": "tap",
+       "source": "b11c1l5p11",
+       "prompt": {
+        "en": "Why can a bank's reported earnings mislead?",
+        "fa": "چرا سود گزارش‌شدهٔ بانک ممکن است گمراه‌کننده باشد؟"
+       },
+       "options": [
+        {
+         "en": "Loan loss provisions are a judgement call",
+         "fa": "ذخیرهٔ زیان وام به قضاوت بستگی دارد"
+        },
+        {
+         "en": "Banks never pay tax",
+         "fa": "بانک‌ها هرگز مالیات نمی‌پردازند"
+        },
+        {
+         "en": "Deposits are counted as profit",
+         "fa": "سپرده‌ها سود حساب می‌شوند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p13",
+       "text": {
+        "en": "Applied: banks and insurers are a large slice of a world index such as the one VWCE tracks. Their value rests on capital and return on equity, not on EBITDA.",
+        "fa": "کاربردی: بانک‌ها و بیمه‌ها بخش بزرگی از یک شاخص جهانی مانند شاخصی هستند که VWCE دنبال می‌کند. ارزش آن‌ها به سرمایه و بازده حقوق صاحبان سهام وابسته است، نه به EBITDA."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c1l5p14",
+       "text": {
+        "en": "Applied: when you read about a bank, compare its return on equity with its cost of equity. A bank earning less than its cost of equity destroys value as it grows.",
+        "fa": "کاربردی: وقتی دربارهٔ یک بانک می‌خوانی، بازده حقوق صاحبان سهامش را با هزینهٔ سرمایهٔ سهامش مقایسه کن. بانکی که کمتر از هزینهٔ سرمایهٔ سهامش بازده دارد با رشد، ارزش را نابود می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c1l5k6",
+       "type": "tf",
+       "source": "b11c1l5p14",
+       "prompt": {
+        "en": "A bank whose return on equity is below its cost of equity creates value by growing.",
+        "fa": "بانکی که بازده حقوق صاحبان سهامش کمتر از هزینهٔ سرمایهٔ سهامش است با رشد ارزش می‌آفریند."
+       },
+       "answer": false
       }
      ]
     }
@@ -857,7 +1233,7 @@
       "en": "It's all relative: using multiples",
       "fa": "همه‌چیز نسبی است: کاربرد ضرایب"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -1056,6 +1432,47 @@
         "fa": "دو شرکت در یک صنعت خودبه‌خود شرکت‌های قابل‌مقایسهٔ خوبی‌اند."
        },
        "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p13",
+       "text": {
+        "en": "Enterprise value is the market value of equity plus debt minus cash. It values the operating business, so it pairs with operating measures like EBITDA.",
+        "fa": "ارزش بنگاه برابر است با ارزش بازار سهام به‌علاوهٔ بدهی منهای وجه نقد. این عدد کسب‌وکار عملیاتی را ارزش‌گذاری می‌کند، پس با معیارهای عملیاتی مثل EBITDA جفت می‌شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l1p14",
+       "text": {
+        "en": "Sectors favour different multiples: price to book for banks, EV to EBITDA for capital-heavy firms, and revenue multiples for young firms with no profits yet.",
+        "fa": "هر بخش ضریب‌های متفاوتی را ترجیح می‌دهد: قیمت به ارزش دفتری برای بانک‌ها، EV به EBITDA برای شرکت‌های سرمایه‌بر، و ضرایب درآمد برای شرکت‌های جوانی که هنوز سودی ندارند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l1k6",
+       "type": "tap",
+       "source": "b11c2l1p13",
+       "prompt": {
+        "en": "What is enterprise value?",
+        "fa": "ارزش بنگاه چیست؟"
+       },
+       "options": [
+        {
+         "en": "Equity value plus debt minus cash",
+         "fa": "ارزش سهام به‌علاوهٔ بدهی منهای وجه نقد"
+        },
+        {
+         "en": "Revenue minus all costs",
+         "fa": "درآمد منهای همهٔ هزینه‌ها"
+        },
+        {
+         "en": "The book value of all assets",
+         "fa": "ارزش دفتری همهٔ دارایی‌ها"
+        }
+       ],
+       "answer": 0
       }
      ]
     },
@@ -1065,7 +1482,7 @@
       "en": "The traps in multiples",
       "fa": "دام‌های ضرایب"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -1260,6 +1677,33 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p13",
+       "text": {
+        "en": "Comparing a firm with its own history is another trap: a PE above its ten-year average may be justified if interest rates or growth have changed.",
+        "fa": "مقایسهٔ شرکت با تاریخچهٔ خودش دام دیگری است: PE بالاتر از میانگین ده‌ساله ممکن است موجه باشد اگر نرخ بهره یا رشد تغییر کرده باشد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l2p14",
+       "text": {
+        "en": "Instead of a narrow sector, you can compare a firm with the whole market, using a regression across all stocks to control for growth, risk and payout.",
+        "fa": "به‌جای یک بخش محدود، می‌توانی شرکت را با کل بازار مقایسه کنی و با رگرسیونی روی همهٔ سهام، رشد، ریسک و نسبت پرداخت سود را کنترل کنی."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l2k6",
+       "type": "tf",
+       "source": "b11c2l2p13",
+       "prompt": {
+        "en": "A PE above a firm's historical average always means the stock is overpriced.",
+        "fa": "PE بالاتر از میانگین تاریخی شرکت همیشه یعنی سهم گران است."
+       },
+       "answer": false
       }
      ]
     },
@@ -1269,7 +1713,7 @@
       "en": "Young growth companies and startups",
       "fa": "شرکت‌های جوان رشدی و استارتاپ‌ها"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -1468,6 +1912,47 @@
         "fa": "احتمال شکست و رقیق‌شدن بعدی ارزش سهام استارتاپی تو را پایین می‌آورند."
        },
        "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p13",
+       "text": {
+        "en": "A young firm's risk is not fixed: Damodaran starts its cost of capital high, close to that of risky peers, and lowers it as the firm matures.",
+        "fa": "ریسک یک شرکت جوان ثابت نیست: Damodaran هزینهٔ سرمایه‌اش را بالا و نزدیک به همتایان پرریسک شروع می‌کند و با بالغ شدن شرکت آن را پایین می‌آورد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l3p14",
+       "text": {
+        "en": "In a funding round, post-money value is the pre-money value plus the new cash raised. Your stake is your shares divided by all shares after the round.",
+        "fa": "در یک دور جذب سرمایه، ارزش post-money برابر ارزش pre-money به‌علاوهٔ پول نقد تازهٔ جذب‌شده است. سهم تو برابر سهام تو تقسیم بر کل سهام پس از آن دور است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l3k6",
+       "type": "tap",
+       "source": "b11c2l3p14",
+       "prompt": {
+        "en": "How is post-money value calculated?",
+        "fa": "ارزش post-money چگونه محاسبه می‌شود؟"
+       },
+       "options": [
+        {
+         "en": "Pre-money value plus the new cash raised",
+         "fa": "ارزش pre-money به‌علاوهٔ پول نقد تازهٔ جذب‌شده"
+        },
+        {
+         "en": "Last year's revenue times ten",
+         "fa": "درآمد سال گذشته ضرب در ده"
+        },
+        {
+         "en": "The founders' salaries plus office costs",
+         "fa": "حقوق بنیان‌گذاران به‌علاوهٔ هزینهٔ دفتر"
+        }
+       ],
+       "answer": 0
       }
      ]
     },
@@ -1477,7 +1962,7 @@
       "en": "The story behind the numbers",
       "fa": "داستان پشت اعداد"
      },
-     "minutes": 12,
+     "minutes": 14,
      "items": [
       {
        "kind": "card",
@@ -1672,6 +2157,264 @@
         }
        ],
        "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p13",
+       "text": {
+        "en": "For distressed firms, a going-concern DCF can overstate value. Damodaran estimates the chance of distress and what the assets would fetch in a fire sale, then blends the two.",
+        "fa": "برای شرکت‌های درمانده، DCF با فرض تداوم فعالیت ممکن است ارزش را بیش از حد نشان دهد. Damodaran احتمال درماندگی و بهای دارایی‌ها در فروش اضطراری را برآورد و این دو را ترکیب می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l4p14",
+       "text": {
+        "en": "Equity in a deeply troubled firm can still have value, like an option: if the assets recover before the debt comes due, the shareholders keep the upside.",
+        "fa": "سهام یک شرکت به‌شدت گرفتار هنوز هم می‌تواند مثل یک اختیار معامله ارزش داشته باشد: اگر دارایی‌ها پیش از سررسید بدهی بهبود یابند، سود آن به سهامداران می‌رسد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l4k6",
+       "type": "tf",
+       "source": "b11c2l4p14",
+       "prompt": {
+        "en": "Equity in a firm deep in debt is always worthless.",
+        "fa": "سهام شرکتی که غرق بدهی است همیشه بی‌ارزش است."
+       },
+       "answer": false
+      }
+     ]
+    },
+    {
+     "id": "b11c2l5",
+     "title": {
+      "en": "Cyclicals, commodities and intangibles",
+      "fa": "شرکت‌های چرخه‌ای، کالایی و نامشهود"
+     },
+     "minutes": 14,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b11c2l5p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the book's chapters on cyclical, commodity and intangible-asset firms. It matters because their earnings mislead, and AI products like yours live on intangibles.",
+        "fa": "این درس فصل‌های کتاب دربارهٔ شرکت‌های چرخه‌ای، کالایی و متکی بر دارایی نامشهود را خلاصه می‌کند. مهم است چون سود آن‌ها گمراه‌کننده است و محصولات AI مثل محصول تو بر دارایی نامشهود تکیه دارند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p2",
+       "text": {
+        "en": "Cyclical firms, such as carmakers, airlines and steel producers, see earnings swing with the economy. Commodity firms swing with the price of oil, metals or crops.",
+        "fa": "سود شرکت‌های چرخه‌ای مثل خودروسازان، ایرلاین‌ها و فولادسازان با اقتصاد نوسان می‌کند. شرکت‌های کالایی با قیمت نفت، فلزات یا محصولات کشاورزی نوسان می‌کنند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p3",
+       "text": {
+        "en": "Valuing them on this year's earnings is a trap: at a peak the firm looks cheap on PE, at a trough it may show a loss and look worthless.",
+        "fa": "ارزش‌گذاری آن‌ها بر پایهٔ سود امسال یک دام است: در اوج چرخه شرکت با PE ارزان به نظر می‌رسد و در کف ممکن است زیان نشان دهد و بی‌ارزش به نظر بیاید."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k1",
+       "type": "tf",
+       "source": "b11c2l5p3",
+       "prompt": {
+        "en": "A cyclical firm at the peak of its cycle can look cheap on PE.",
+        "fa": "یک شرکت چرخه‌ای در اوج چرخه‌اش می‌تواند با PE ارزان به نظر برسد."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p4",
+       "text": {
+        "en": "Damodaran's fix is to normalize: replace this year's numbers with what the firm would earn in a normal year, such as average margins across a full cycle.",
+        "fa": "راه‌حل Damodaran نرمال‌سازی است: اعداد امسال را با آنچه شرکت در یک سال عادی به دست می‌آورد جایگزین کن، مثلاً میانگین حاشیهٔ سود در یک چرخهٔ کامل."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p5",
+       "text": {
+        "en": "For commodity firms, normalize the commodity price too. Value the firm at a normal oil or metal price, not at today's spike or slump.",
+        "fa": "برای شرکت‌های کالایی، قیمت کالا را هم نرمال کن. شرکت را با قیمت عادی نفت یا فلز ارزش‌گذاری کن، نه با جهش یا رکود امروز."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k2",
+       "type": "tap",
+       "source": "b11c2l5p4",
+       "prompt": {
+        "en": "How does Damodaran handle a cyclical firm's swinging earnings?",
+        "fa": "Damodaran با سود پرنوسان یک شرکت چرخه‌ای چه می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "Use what the firm would earn in a normal year",
+         "fa": "از سودی استفاده می‌کند که شرکت در یک سال عادی به دست می‌آورد"
+        },
+        {
+         "en": "Use its best year of the last decade",
+         "fa": "از بهترین سال دههٔ اخیر استفاده می‌کند"
+        },
+        {
+         "en": "Ignore earnings and value it on headcount",
+         "fa": "سود را نادیده می‌گیرد و بر پایهٔ تعداد کارکنان ارزش‌گذاری می‌کند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p6",
+       "text": {
+        "en": "Reserves in the ground add value too: an oil company holds the option to develop reserves when prices make it pay, and option pricing can capture that.",
+        "fa": "ذخایر زیرزمینی هم ارزش می‌افزایند: یک شرکت نفتی این اختیار را دارد که هر وقت قیمت‌ها صرف کند ذخایر را توسعه دهد و قیمت‌گذاری اختیار معامله می‌تواند این را نشان دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p7",
+       "text": {
+        "en": "A normalized value still carries a macro bet. Valuing a mining company means taking a view on metal prices, so state that view openly.",
+        "fa": "ارزش نرمال‌شده هنوز یک شرط کلان را در خود دارد. ارزش‌گذاری یک شرکت معدنی یعنی داشتن دیدگاهی دربارهٔ قیمت فلزات، پس آن دیدگاه را آشکارا بنویس."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p8",
+       "text": {
+        "en": "Intangible assets, such as brands, patents, software and trained people, now drive many of the most valuable firms. Accounting barely records them as assets.",
+        "fa": "دارایی‌های نامشهود مثل برند، ثبت اختراع، نرم‌افزار و نیروی آموزش‌دیده امروز محرک بسیاری از باارزش‌ترین شرکت‌ها هستند. حسابداری به‌سختی آن‌ها را دارایی ثبت می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k3",
+       "type": "tap",
+       "source": "b11c2l5p8",
+       "prompt": {
+        "en": "Why are intangible-heavy firms hard to read from their accounts?",
+        "fa": "چرا شرکت‌های متکی بر دارایی نامشهود را سخت می‌توان از صورت‌های مالی‌شان شناخت؟"
+       },
+       "options": [
+        {
+         "en": "Accounting barely records intangible assets",
+         "fa": "حسابداری به‌سختی دارایی‌های نامشهود را ثبت می‌کند"
+        },
+        {
+         "en": "They are not allowed to publish accounts",
+         "fa": "اجازهٔ انتشار صورت‌های مالی ندارند"
+        },
+        {
+         "en": "Their revenue is always zero",
+         "fa": "درآمدشان همیشه صفر است"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p9",
+       "text": {
+        "en": "Spending on R&D or on building a brand is booked as an operating expense, so a firm investing heavily in intangibles looks less profitable than it is.",
+        "fa": "هزینهٔ R&D یا ساختن برند به‌عنوان هزینهٔ عملیاتی ثبت می‌شود، پس شرکتی که سنگین روی دارایی نامشهود سرمایه‌گذاری می‌کند کم‌سودتر از واقعیت به نظر می‌رسد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p10",
+       "text": {
+        "en": "Damodaran capitalizes that spending: treat R&D as an asset, amortize it over its useful life, and operating income, reinvestment and return on capital all shift.",
+        "fa": "Damodaran این هزینه را سرمایه‌ای می‌کند: R&D را دارایی بدان و در طول عمر مفیدش مستهلک کن؛ آن‌گاه سود عملیاتی، سرمایه‌گذاری مجدد و بازده سرمایه همه تغییر می‌کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k4",
+       "type": "tf",
+       "source": "b11c2l5p9",
+       "prompt": {
+        "en": "Heavy R&D spending makes a firm look more profitable in its accounts than it really is.",
+        "fa": "هزینهٔ سنگین R&D شرکت را در صورت‌های مالی سودآورتر از واقعیت نشان می‌دهد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p11",
+       "text": {
+        "en": "Employee stock options and restricted shares are a real cost for intangible-heavy firms. Damodaran treats stock-based pay as an expense, not as free money.",
+        "fa": "اختیار خرید سهام کارکنان و سهام محدود هزینه‌ای واقعی برای شرکت‌های متکی بر دارایی نامشهود است. Damodaran پرداخت مبتنی بر سهام را هزینه می‌داند، نه پول مفت."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p12",
+       "text": {
+        "en": "Applied: an AI product's code, data and know-how are intangible assets. The money spent building them is investment, even if the accounts call it an expense.",
+        "fa": "کاربردی: کد، داده و دانش فنی یک محصول AI دارایی نامشهودند. پولی که صرف ساختن آن‌ها می‌شود سرمایه‌گذاری است، حتی اگر صورت‌های مالی آن را هزینه بنامند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k5",
+       "type": "tap",
+       "source": "b11c2l5p11",
+       "prompt": {
+        "en": "How does Damodaran treat stock-based pay?",
+        "fa": "Damodaran پرداخت مبتنی بر سهام را چگونه در نظر می‌گیرد؟"
+       },
+       "options": [
+        {
+         "en": "As an expense",
+         "fa": "به‌عنوان هزینه"
+        },
+        {
+         "en": "As free money for the firm",
+         "fa": "به‌عنوان پول مفت برای شرکت"
+        },
+        {
+         "en": "As a source of revenue",
+         "fa": "به‌عنوان منبع درآمد"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p13",
+       "text": {
+        "en": "Applied: when an AI startup offers options instead of salary, that is stock-based pay. It is a real cost to the company and dilutes every existing shareholder.",
+        "fa": "کاربردی: وقتی یک استارتاپ AI به‌جای حقوق اختیار خرید سهام پیشنهاد می‌دهد، این پرداخت مبتنی بر سهام است. هزینه‌ای واقعی برای شرکت است و سهم همهٔ سهامداران فعلی را رقیق می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b11c2l5p14",
+       "text": {
+        "en": "Applied: before reading anything into a PE in your quarterly log, ask whether the firm is near a cyclical peak or trough, or hides heavy spending on intangibles.",
+        "fa": "کاربردی: پیش از هر برداشتی از یک PE در گزارش فصلی‌ات، بپرس آیا شرکت نزدیک اوج یا کف چرخه است یا هزینهٔ سنگینی روی دارایی نامشهود را پنهان می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b11c2l5k6",
+       "type": "tf",
+       "source": "b11c2l5p13",
+       "prompt": {
+        "en": "Options granted to employees dilute existing shareholders.",
+        "fa": "اختیار خرید سهامی که به کارکنان داده می‌شود سهم سهامداران فعلی را رقیق می‌کند."
+       },
+       "answer": true
       }
      ]
     }
