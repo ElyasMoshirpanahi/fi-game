@@ -159,3 +159,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 ## Spec 4: Notes (2026-11-10)
 - One page of Notes per book: a screen with three prompts, a text area that follows the direction of what is typed, a word count against 300, reached from the open book Section, every Shelf card and the Section-complete panel. Durable, in the backup, shape-checked on load.
 - 300 tests green. Headless Brave: type in two languages, count follows, leave and reload, Shelf shows the mark.
+- Review (Standards + Spec): a crafted backup could run script through a note date; fixed with a strict shape rule and escaping. Eleven more fixes in `docs/review/spec4-notes-code-review.md`. 305 tests green.

@@ -250,7 +250,8 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .notecount { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin: 8px 0 10px; font-family: var(--hud-font); font-size: 13px; color: var(--muted); }
 .notecount .done { color: var(--gold); }
 .notebar { flex: 0 0 100%; height: 4px; background: var(--well); border-radius: 2px; overflow: hidden; } .notebar b { display: block; height: 100%; background: linear-gradient(90deg, var(--mag), var(--accent)); transition: width .3s; }
-html[dir="rtl"] .notebar b { margin-inline-start: auto; }
+html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
+.savewarn { position: sticky; top: 56px; z-index: 9; margin: 0; padding: 8px 14px; background: var(--bad-soft); color: var(--bad); border-bottom: 1px solid var(--bad); font-size: 13px; font-weight: 700; text-align: center; }
 .noted { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; font-size: 12px; color: var(--gold); } .noted svg { width: 14px; height: 14px; }
 .secbar { display: flex; gap: 8px; padding: 10px 14px 0; position: relative; z-index: 2; }
 .footbtn svg, .btn svg { flex: 0 0 auto; }
@@ -408,7 +409,7 @@ FI.content = (() => {
       circles: 'circles', lessons: 'lessons', points: 'points', minutes: 'min', approx: '~', whyMatters: 'Why this matters', bookNote: 'Distilled from the book. Educational, not advice.', circleComplete: 'Circle complete', loading: 'Loading the book', loadError: 'Could not load this book. Check your connection and try again.', dismiss: 'Close', startLesson: 'Start', replayLesson: 'Replay',
       shelfTitle: 'Shelf', basics: 'Basics', basicsSub: 'The roadmap itself, six stations', section: 'Section', sections: 'Sections', jumpTo: 'Jump to section', goToSection: 'Go to section', sectionComplete: 'Section complete', collapse: 'Collapse', expand: 'Expand',
       backup: 'Back up progress', restore: 'Restore progress', restoreHelp: 'Choose a backup file, or paste its text below.', restorePaste: 'Paste backup text here', restoreSummary: 'This backup', restoreConfirm: 'Replace my progress with it', restoreBad: 'This is not a usable backup of this game.', restoreNewer: 'This backup was made by a newer version of the game.', restored: 'Progress restored.', backupOld: 'Last backup is more than 14 days old.', backupNever: 'No backup yet. Progress lives only in this browser.', exportedOn: 'made on', litCount: 'lit', deckCount: 'in the deck',
-      notes: 'Notes', notesKicker: 'Your page for this book', notesPrompt1: 'What does the book argue?', notesPrompt2: 'What will you do differently?', notesPrompt3: 'What do you disagree with?', notesPlaceholder: 'Write in any language. It saves as you type.', words: 'words', notesPage: 'about one page is', notesPrivate: 'Kept in this browser only. Included in your backup.', notesEdited: 'Last edited', notesInvite: 'Write your page of notes', notesDone: 'One page written',
+      notes: 'Notes', notesKicker: 'Your page for this book', notesPrompt1: 'What does the book argue?', notesPrompt2: 'What will you do differently?', notesPrompt3: 'What do you disagree with?', notesPlaceholder: 'Write in any language. It saves as you type.', words: 'words', word: 'word', notesCount: 'notes', saveFailed: 'Not saved: this browser’s storage is full or blocked. Back up your progress now.', notesPage: 'about one page is', notesPrivate: 'Kept in this browser only. Included in your backup.', notesEdited: 'Last edited', notesInvite: 'Write your page of notes', notesDone: 'One page written',
       go: 'START', combo: 'COMBO',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
@@ -439,7 +440,7 @@ FI.content = (() => {
       circles: 'حلقه', lessons: 'درس', points: 'نکته', minutes: 'دقیقه', approx: '~', whyMatters: 'چرا مهم است', bookNote: 'چکیده‌ای از کتاب. آموزشی است، نه توصیه.', circleComplete: 'حلقه کامل شد', loading: 'در حال بارگذاری کتاب', loadError: 'بارگذاری کتاب ممکن نشد. اتصال را بررسی کن و دوباره بزن.', dismiss: 'بستن', startLesson: 'شروع', replayLesson: 'دوباره',
       shelfTitle: 'قفسه', basics: 'پایه‌ها', basicsSub: 'خودِ نقشه راه، شش ایستگاه', section: 'بخش', sections: 'بخش‌ها', jumpTo: 'پرش به بخش', goToSection: 'برو به بخش', sectionComplete: 'بخش کامل شد', collapse: 'جمع کن', expand: 'باز کن',
       backup: 'پشتیبان‌گیری از پیشرفت', restore: 'بازیابی پیشرفت', restoreHelp: 'یک فایل پشتیبان انتخاب کن، یا متنش را پایین بچسبان.', restorePaste: 'متن پشتیبان را اینجا بچسبان', restoreSummary: 'این پشتیبان', restoreConfirm: 'پیشرفتم را با آن جایگزین کن', restoreBad: 'این پشتیبانِ قابل‌استفاده‌ای از این بازی نیست.', restoreNewer: 'این پشتیبان با نسخهٔ جدیدتری از بازی ساخته شده.', restored: 'پیشرفت بازیابی شد.', backupOld: 'آخرین پشتیبان بیش از ۱۴ روز پیش است.', backupNever: 'هنوز پشتیبانی نیست. پیشرفت فقط در همین مرورگر است.', exportedOn: 'ساخته‌شده در', litCount: 'روشن', deckCount: 'در دسته',
-      notes: 'یادداشت‌ها', notesKicker: 'صفحهٔ تو برای این کتاب', notesPrompt1: 'کتاب چه می‌گوید؟', notesPrompt2: 'چه کاری را متفاوت انجام می‌دهی؟', notesPrompt3: 'با چه چیزی مخالفی؟', notesPlaceholder: 'به هر زبانی بنویس. هم‌زمان با نوشتن ذخیره می‌شود.', words: 'واژه', notesPage: 'حدود یک صفحه یعنی', notesPrivate: 'فقط در همین مرورگر می‌ماند. در پشتیبان تو هم هست.', notesEdited: 'آخرین ویرایش', notesInvite: 'صفحهٔ یادداشتت را بنویس', notesDone: 'یک صفحه نوشته شد',
+      notes: 'یادداشت‌ها', notesKicker: 'صفحهٔ تو برای این کتاب', notesPrompt1: 'کتاب چه می‌گوید؟', notesPrompt2: 'چه کاری را متفاوت انجام می‌دهی؟', notesPrompt3: 'با چه چیزی مخالفی؟', notesPlaceholder: 'به هر زبانی بنویس. هم‌زمان با نوشتن ذخیره می‌شود.', words: 'واژه', word: 'واژه', notesCount: 'یادداشت', saveFailed: 'ذخیره نشد: حافظهٔ این مرورگر پر یا مسدود است. همین حالا از پیشرفتت پشتیبان بگیر.', notesPage: 'حدود یک صفحه یعنی', notesPrivate: 'فقط در همین مرورگر می‌ماند. در پشتیبان تو هم هست.', notesEdited: 'آخرین ویرایش', notesInvite: 'صفحهٔ یادداشتت را بنویس', notesDone: 'یک صفحه نوشته شد',
       go: 'شروع', combo: 'پیاپی',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
@@ -810,7 +811,8 @@ FI.engine = (() => {
   // Notes: the player's own page for a book. A page is about NOTE_PAGE_WORDS words (the roadmap asks for one page per book).
   const NOTE_MAX_CHARS = 20000;
   const NOTE_PAGE_WORDS = 300;
-  const wordCount = (text) => (String(text).trim() ? String(text).trim().split(/\s+/).length : 0);
+  // A word holds at least one letter or digit; a dash or a row of dots is not a word.
+  const wordCount = (text) => String(text).split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
   const isDay = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
   // Combo: right answers in a row, in Lessons and in Review. It pays nothing.
   const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); };
@@ -836,7 +838,8 @@ FI.engine = (() => {
     deck: mapOf((e) => isMap(e) && isText(e.stationId) && isText(e.cardId) && isPair(e.text) && isCheck(e.check) && isCount(e.box) && isCount(e.due) && isFlag(e.missed) && isFlag(e.marked)),
     reviewed: (v) => v === null || (isMap(v) && isCount(v.day) && isCount(v.n)),
     lastBackup: (v) => v === null || Number.isInteger(v),
-    notes: mapOf((n) => isMap(n) && isText(n.text) && isText(n.edited)),
+    notes: (v) => isMap(v) && Object.keys(v).every((k) => /^b\d\d$/.test(k) && isMap(v[k]) && Object.keys(v[k]).every((f) => f === 'text' || f === 'edited')
+      && isText(v[k].text) && v[k].text.length <= NOTE_MAX_CHARS && (v[k].edited === '' || isDay(v[k].edited))),
   };
   // The durable keys of `data` whose value has the wrong shape.
   const badKeys = (data) => (isMap(data) ? Object.keys(SHAPE).filter((k) => data[k] !== undefined && !SHAPE[k](data[k])) : []);
@@ -1210,9 +1213,9 @@ FI.engine = (() => {
   // What a backup holds once restored (after the same migrations), for the summary shown before replacing.
   const preview = (data, content) => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
-    return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length };
+    return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS };
 })();
 </script>
 
@@ -1472,7 +1475,7 @@ FI.render = (() => {
     if (!r) return '';
     if (!r.ok) return `<p class="help warn">${t(r.reason === 'newer-format' ? 'restoreNewer' : 'restoreBad', s.mode)}</p>`;
     const sum = FI.engine.preview(r.data, FI.content);
-    const label = `${t('restoreSummary', s.mode)}: ${r.exported ? `${t('exportedOn', s.mode)} <bdi>${yr(r.exported, s.mode)}</bdi> · ` : ''}${num(sum.xp, s.mode)} ${t('xp', s.mode)} · ${num(sum.coins, s.mode)} ${t('coins', s.mode)} · ${num(sum.lit, s.mode)} ${t('litCount', s.mode)} · ${num(sum.deck, s.mode)} ${t('deckCount', s.mode)}`;
+    const label = `${t('restoreSummary', s.mode)}: ${r.exported ? `${t('exportedOn', s.mode)} <bdi>${esc(yr(r.exported, s.mode))}</bdi> · ` : ''}${num(sum.xp, s.mode)} ${t('xp', s.mode)} · ${num(sum.coins, s.mode)} ${t('coins', s.mode)} · ${num(sum.lit, s.mode)} ${t('litCount', s.mode)} · ${num(sum.deck, s.mode)} ${t('deckCount', s.mode)} · ${num(sum.notes, s.mode)} ${t('notesCount', s.mode)}`;
     return `<div class="confirm" role="alertdialog" aria-label="${t('restore', s.mode)}"><span>${label}</span><button ${A({ type: 'UI_RESTORE_CLOSE' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESTORE_CONFIRM' })} data-restore-confirm>${t('restoreConfirm', s.mode)}</button></div>`;
   }
   function backupPanel(s) {
@@ -1573,13 +1576,14 @@ FI.render = (() => {
   function bookCard(s, content, b) {
     const lit = s.lit[b.id];
     const state = s.shelf[b.bookId] || 'toread';
+    const noted = noteWords(s, b.bookId);
     const states = FI.engine.SHELF_STATES.map((k) => `<button class="chip ${state === k ? 'on' : ''}" ${A({ type: 'SET_SHELF', value: { bookId: b.bookId, state: k } })} aria-pressed="${state === k}">${t(k, s.mode)}</button>`).join('');
     return `<li class="book ${lit ? 'lit' : ''}" data-id="${b.bookId}">
       <div class="bhead">${cover(b, 'small')}
         <div><b class="t-en" lang="en">${esc(b.title)}</b><span class="meta t-en" lang="en">${esc(b.author.en)} · ${yr(b.year, s.mode)}</span><span class="meta">${b.must ? t('mustRead', s.mode) : t('optionalRead', s.mode)} · ${t('stage', s.mode)} ${num(b.stage, s.mode)}</span></div>
         ${lit ? `<span class="badge">${pair(b.badge, one(s.mode))}</span>` : ''}</div>
       <p class="why">${pair(b.why, s.mode)}</p>
-      ${noteWords(s, b.bookId) ? `<p class="noted">${ICONS.note}<span>${t('notes', s.mode)}: ${num(noteWords(s, b.bookId), s.mode)} ${t('words', s.mode)}</span></p>` : ''}
+      ${noted ? `<p class="noted">${ICONS.note}<span>${t('notes', s.mode)}: ${num(noted, s.mode)} ${t(noted === 1 ? 'word' : 'words', s.mode)}</span></p>` : ''}
       <div class="brow"><div class="chips">${states}</div>
         ${notesButton(s, b.bookId, 'btn small')}
         <button class="btn small ${lit ? '' : 'primary'}" ${A({ type: 'UI_JUMP', value: b.bookId })}>${ICONS.book}${t('goToSection', s.mode)}</button></div>
@@ -1629,22 +1633,23 @@ FI.render = (() => {
   function noteCount(words, mode) {
     const page = FI.engine.NOTE_PAGE_WORDS;
     const done = words >= page;
-    return `<span class="${done ? 'done' : ''}">${num(words, mode)} ${t('words', mode)}${done ? ` · ${t('notesDone', mode)}` : ''}</span><span>${t('notesPage', mode)} ${num(page, mode)} ${t('words', mode)}</span><i class="notebar"><b style="width:${Math.min(100, Math.round((words / page) * 100))}%"></b></i>`;
+    // Only the "one page written" moment is announced; the running count is not, or every pause would speak.
+    return `<span class="${done ? 'done' : ''}">${num(words, mode)} ${t(words === 1 ? 'word' : 'words', mode)}<span role="status">${done ? ` · ${t('notesDone', mode)}` : ''}</span></span><span>${t('notesPage', mode)} ${num(page, mode)} ${t('words', mode)}</span><i class="notebar"><b style="width:${Math.min(100, Math.floor((words / page) * 100))}%"></b></i>`;
   }
   const notesButton = (s, bookId, cls) => { const n = noteWords(s, bookId); return `<button class="${cls}" ${A({ type: 'OPEN_NOTES', value: bookId })}>${ICONS.note}<span>${t('notes', s.mode)}</span>${n ? `<b>${num(n, s.mode)}</b>` : ''}</button>`; };
   function notesScreen(s, content) {
     const sec = content.sectionOf(s.notesFor);
     const entry = s.notes[s.notesFor];
     const prompts = ['notesPrompt1', 'notesPrompt2', 'notesPrompt3'].map((k) => `<li>${t(k, s.mode)}</li>`).join('');
-    const edited = entry && entry.edited ? `<p class="help">${t('notesEdited', s.mode)}: <bdi>${yr(entry.edited, s.mode)}</bdi></p>` : '';
+    const edited = entry && entry.edited ? `<p class="help">${t('notesEdited', s.mode)}: <bdi>${esc(yr(entry.edited, s.mode))}</bdi></p>` : '';
     return `<main class="station tools notes" data-theme="book">
       <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('notes', s.mode)}</h2></div>
       <section class="panel">
         <div class="bookhead">${cover(sec, 'small')}<div><b class="t-en" lang="en">${esc(sec.title)}</b><span class="meta t-en" lang="en">${esc(sec.author.en)} · ${yr(sec.year, s.mode)}</span></div></div>
         <p class="kicker">${t('notesKicker', s.mode)}</p>
         <ul class="noteprompts">${prompts}</ul>
-        <textarea data-note="${esc(s.notesFor)}" dir="auto" rows="12" maxlength="20000" placeholder="${t('notesPlaceholder', s.mode)}" aria-label="${t('notes', s.mode)}: ${esc(sec.title)}">${esc(entry ? entry.text : '')}</textarea>
-        <p class="notecount" aria-live="polite">${noteCount(noteWords(s, s.notesFor), s.mode)}</p>
+        <textarea data-note="${esc(s.notesFor)}" dir="auto" rows="12" maxlength="${FI.engine.NOTE_MAX_CHARS}" data-focus placeholder="${t('notesPlaceholder', s.mode)}" aria-label="${t('notes', s.mode)}: ${esc(sec.title)}">${esc(entry ? entry.text : '')}</textarea>
+        <p class="notecount">${noteCount(noteWords(s, s.notesFor), s.mode)}</p>
         ${edited}<p class="help">${t('notesPrivate', s.mode)}</p>
       </section>
     </main>`;
@@ -1790,8 +1795,9 @@ FI.render = (() => {
         : sec ? `<p class="inl">${pair(st.name, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`
         : `<p class="inl">${t('badge', s.mode)}: ${pair(st.badge, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`;
       const burst = s.events.includes('section') || s.events.includes('circle') || (s.events.includes('lit') && !st.book) ? confetti() : '';
-      const invite = sec && s.events.includes('section') ? `<button class="btn soft wide" ${A({ type: 'OPEN_NOTES', value: sec.bookId })}>${ICONS.note}${t('notesInvite', s.mode)}</button>` : '';
-      return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}<div class="actions"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button>${invite}</div></section>`;
+      const back = (cls) => `<button class="btn primary${cls}" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button>`;
+      const invite = sec && s.lit[sec.id] ? `<div class="actions">${back(' wide')}<button class="btn soft wide" ${A({ type: 'OPEN_NOTES', value: sec.bookId })}>${ICONS.note}${t('notesInvite', s.mode)}</button></div>` : back('');
+      return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}${invite}</section>`;
     }
     return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
   }
@@ -1840,7 +1846,8 @@ FI.render = (() => {
     const err = ui.error ? `<div class="overlay"><section class="panel result fail"><div class="big">${ICONS.retry}</div><p>${t('loadError', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_ERROR_CLOSE' })} data-focus>${t('dismiss', s.mode)}</button></section></div>` : '';
     const fresh = !ui.coinShown; // this events array is being shown for the first time
     ui.xpGain = fresh && ui.lastXp !== undefined && s.xp > ui.lastXp;
-    root.innerHTML = topBar(s, content) + screen + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
+    const unsaved = `<p class="savewarn" role="alert"${ui.saveFailed ? '' : ' hidden'}>${t('saveFailed', s.mode)}</p>`;
+    root.innerHTML = topBar(s, content) + unsaved + screen + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
     // The bar is rebuilt on every paint, so a gain is replayed from the old width for the fill to be seen.
     const bar = root.querySelector('.xpbar i');
     if (bar && ui.xpGain && ui.lastXpWidth) { const to = bar.style.width; bar.style.width = ui.lastXpWidth; void bar.offsetWidth; bar.style.width = to; }
@@ -1849,6 +1856,7 @@ FI.render = (() => {
     if (s.screen === 'path' && ui.scrollTo) { const el = root.querySelector(`#${CSS.escape(ui.scrollTo)}`); if (el) el.scrollIntoView({ block: 'start', behavior: scrollHow() }); ui.scrollTo = null; }
     if (ui.focusRestore) { ui.focusRestore = false; const c = root.querySelector('[data-restore-confirm]'); if (c) c.focus(); }
     const changed = s.current !== ui.lastCurrent || s.phase !== ui.lastPhase || ui.milestone;
+    const shownBefore = ui.lastScreen;
     if (s.screen === 'path') drawRoads(root);
     const main = root.querySelector('main');
     if (main && (changed || s.screen !== ui.lastScreen)) main.classList.add('enter');
@@ -1863,7 +1871,7 @@ FI.render = (() => {
         setTimeout(() => { try { cur.scrollIntoView({ block: 'center', behavior: scrollHow() }); } catch (e) {} }, 400);
       }
     }
-    if (changed && s.screen !== 'path') {
+    if ((changed || s.screen !== shownBefore) && s.screen !== 'path') {
       const f = root.querySelector('[data-focus]');
       if (f) { f.focus({ preventScroll: true }); f.scrollIntoView({ block: 'nearest' }); }
     }
@@ -1871,6 +1879,7 @@ FI.render = (() => {
 
   // Partial updates that must not rebuild the DOM under the user's fingers.
   function patch(root, s, content, action) {
+    const warn = root.querySelector('.savewarn'); if (warn) warn.hidden = !ui.saveFailed;
     if (action.type === 'SET_SLIDER') {
       const v = s.sliders; const m = s.mode;
       const set = (k, val) => { const el = root.querySelector(`[data-out="${k}"]`); if (el) el.textContent = val; };
@@ -1950,6 +1959,7 @@ FI.render = (() => {
     };
     root.addEventListener('focusout', saveNote);
     document.addEventListener('visibilitychange', () => { if (document.hidden) saveNote(); });
+    window.addEventListener('pagehide', saveNote);
     let journalTimer = null;
     root.addEventListener('input', (e) => {
       const el = e.target;
@@ -1972,7 +1982,8 @@ FI.render = (() => {
   // The parsed backup waiting for confirmation; taking it closes the panel.
   const takeRestore = () => { const r = ui.restore; ui.restore = null; ui.restoreText = ''; ui.restoreOpen = false; return r && r.ok ? r.data : null; };
   const setError = (on) => { ui.error = !!on; };
-  return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore, trace, wave, rewardText };
+  const setSaveFailed = (on) => { ui.saveFailed = !!on; };
+  return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore, trace, wave, rewardText, setSaveFailed };
 })();
 </script>
 
@@ -2164,10 +2175,10 @@ FI.fx = (() => {
     const uiResult = render.handleUi(action);
     if (uiResult === 'full') { paint(); return; }
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
-    if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); store.save(storage, state); paint(); return; }
+    if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp };
     state = engine.reduce(state, action, content);
-    if (action.type === 'RESET') store.clear(storage); else store.save(storage, state);
+    if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));
     if (action.silent) render.patch(root, state, content, action); else paint();
     fx.run(state.events, state, before);
   }
@@ -2179,7 +2190,7 @@ FI.fx = (() => {
     state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: saved }, content);
     state = engine.reduce(state, { type: 'TICK', value: dayNumber() }, content);
     document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber() }); });
-    store.save(storage, state); // writes back a migrated document (ADR-0009, ADR-0010)
+    render.setSaveFailed(!store.save(storage, state)); // writes back a migrated document (ADR-0009, ADR-0010)
     render.mount(root, (action) => { fx.tap(action, state); dispatch(action); });
     paint();
   })();

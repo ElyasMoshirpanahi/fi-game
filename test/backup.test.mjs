@@ -26,7 +26,7 @@ describe('Backup document', () => {
     expect(r.ok).toBe(true);
     expect(r.data).toEqual(store.durable(s));
     expect(r.exported).toBe('2026-11-10');
-    expect(engine.preview(r.data, content)).toEqual({ xp: s.xp, coins: s.coins, lit: 0, deck: 1 });
+    expect(engine.preview(r.data, content)).toEqual({ xp: s.xp, coins: s.coins, lit: 0, deck: 1, notes: 0 });
   });
 
   it('refuses text that is not JSON, not an object, from another app, or a newer format', () => {

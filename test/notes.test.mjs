@@ -59,6 +59,8 @@ describe('Writing Notes', () => {
     expect(FI.engine.wordCount('')).toBe(0);
     expect(FI.engine.wordCount('  one two\nthree  ')).toBe(3);
     expect(FI.engine.wordCount('رفتار مهم‌تر از فرمول است')).toBe(5);
+    expect(FI.engine.wordCount('... --- !!!')).toBe(0);
+    expect(FI.engine.wordCount('- one, two.')).toBe(2);
     expect(FI.engine.NOTE_PAGE_WORDS).toBe(300);
   });
 });
@@ -79,7 +81,9 @@ describe('Notes are as safe as progress', () => {
   });
 
   it('a backup with malformed notes is refused; a saved document drops them', () => {
-    for (const notes of [{ b04: 5 }, { b04: { text: 5, edited: '' } }, [], 'text']) {
+    const tooLong = { b04: { text: 'x'.repeat(20001), edited: '' } };
+    const script = { b04: { text: 'ok', edited: '<img src=x onerror=alert(1)>' } };
+    for (const notes of [{ b04: 5 }, { b04: { text: 5, edited: '' } }, [], 'text', script, tooLong, { zzz: { text: 'a', edited: '' } }, { b04: { text: 'a', edited: '', extra: 1 } }, { b04: { text: 'a', edited: '2026-13-99x' } }]) {
       const doc = JSON.stringify({ app: 'fi-roadmap', format: 1, exported: '2026-11-10', data: { v: 1, notes } });
       expect(FI.store.parseBackup(doc), JSON.stringify(notes)).toEqual({ ok: false, reason: 'damaged' });
       expect(R(FI.engine.initial(), { type: 'HYDRATE', value: { notes } }).notes).toEqual({});
@@ -128,17 +132,17 @@ describe('The Notes screen', () => {
 });
 
 describe('Where Notes are reached from', () => {
-  const open = (s, id) => JSON.stringify({ type: 'OPEN_NOTES', value: id }).replace(/"/g, '&quot;');
+  const open = (id) => JSON.stringify({ type: 'OPEN_NOTES', value: id }).replace(/"/g, '&quot;');
 
   it('the open book Section has a Notes button', () => {
     FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
-    expect(html(FI.engine.initial())).toContain(open(null, 'b04'));
+    expect(html(FI.engine.initial())).toContain(open('b04'));
     FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
   });
 
   it('every Shelf card has a Notes button, and a card with notes says so', () => {
     let s = R(FI.engine.initial(), { type: 'OPEN_TOOLS', value: 's6' });
-    expect(html(s)).toContain(open(null, 'b01'));
+    expect(html(s)).toContain(open('b01'));
     expect(html(s)).not.toContain('class="noted"');
     s = R(FI.engine.initial(), note('b04', 'one two'), { type: 'OPEN_TOOLS', value: 's6' });
     expect(html(s).match(/class="noted"/g)).toHaveLength(1);
@@ -150,7 +154,45 @@ describe('Where Notes are reached from', () => {
     for (const lesson of sec.runs) { s = pass(s, lesson); if (lesson !== sec.runs[sec.runs.length - 1]) s = R(s, { type: 'CONTINUE' }); }
     expect(s.events).toContain('section');
     const h = html(s);
-    expect(h).toContain(open(null, 'b04'));
+    expect(h).toContain(open('b04'));
     expect(h).toContain('Write your page of notes');
+    // it does not depend on the one paint that carries the event: a mode switch keeps it
+    expect(html(R(s, { type: 'SET_MODE', value: 'BOTH' }))).toContain(open('b04'));
+  });
+});
+
+describe('Notes review fixes', () => {
+  it('a date that is not a day never reaches the page as markup', () => {
+    const s = R(FI.engine.initial(), note('b04', 'ok'), { type: 'OPEN_NOTES', value: 'b04' });
+    s.notes.b04.edited = '<img src=x onerror=alert(1)>';
+    expect(html(s)).not.toContain('<img src=x');
+  });
+
+  it('says "1 word", and the bar is full only at a full page', () => {
+    const at = (n) => html(R(FI.engine.initial(), note('b04', Array(n).fill('word').join(' ')), { type: 'OPEN_NOTES', value: 'b04' }));
+    expect(at(1)).toMatch(/1 word</);
+    expect(at(299)).toContain('width:99%');
+    expect(at(299)).not.toContain('One page written');
+    expect(at(300)).toContain('width:100%');
+    expect(at(300)).toContain('One page written');
+  });
+
+  it('the restore summary counts notes', () => {
+    const s = R(FI.engine.initial(), note('b04', 'a'), note('b01', 'b'));
+    expect(FI.engine.preview(FI.store.durable(s), FI.content).notes).toBe(2);
+  });
+
+  it('a failed save is said on the page, and cleared when saving works again', () => {
+    expect(html(FI.engine.initial())).toMatch(/class="savewarn" role="alert" hidden/);
+    FI.render.setSaveFailed(true);
+    expect(html(FI.engine.initial())).toMatch(/class="savewarn" role="alert">Not saved/);
+    FI.render.setSaveFailed(false);
+    expect(html(FI.engine.initial())).toMatch(/class="savewarn" role="alert" hidden/);
+  });
+
+  it('the Basics pass panel keeps its single button; only a finished book gets the Notes invite', () => {
+    const h = html(pass(FI.engine.initial(), 's1'));
+    expect(h).not.toContain('OPEN_NOTES');
+    expect(h).not.toContain('class="actions"');
   });
 });
