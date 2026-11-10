@@ -63,6 +63,10 @@ _Avoid_: point, gem, star
 **Fare wording**:
 The second wording every Check carries (`fare`): the same Check asked in other words, shown only in the Fare. Same answer as the prompt.
 
+**Notes**:
+The player's own page for a book: free text in any language, about 300 words, kept in the browser and in the backup. One page per book.
+_Avoid_: journal (the decision journal is a separate Tool for decisions, not books), summary
+
 **Combo**:
 Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is feedback only: it pays no Coins or XP and is not saved.
 _Avoid_: streak (a streak counts days, and the game has none)

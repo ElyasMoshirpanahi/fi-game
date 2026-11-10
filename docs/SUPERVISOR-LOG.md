@@ -155,3 +155,8 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Content, two passes by one agent per book: 1,065 Fare wordings; options of 357 tap Checks reworded in the first pass and 260 in the second.
 - Three reads by separate agents: every Check after the first pass (19 fixed), the code review (the length signal had moved to the middle option; Farsi unmeasured), and the 253 book Checks changed in the second pass (10 fixed). Records in `docs/review/spec3-check-wording-audit.md` and `docs/review/spec3-check-wording-code-review.md`.
 - Result over 566 tap Checks: the correct option is the longest, the shortest or neither about a third each in both languages. 284 tests green.
+
+## Spec 4: Notes (2026-11-10)
+- One page of Notes per book: a screen with three prompts, a text area that follows the direction of what is typed, a word count against 300, reached from the open book Section, every Shelf card and the Section-complete panel. Durable, in the backup, shape-checked on load.
+- 300 tests green. Headless Brave: type in two languages, count follows, leave and reload, Shelf shows the mark.
+- Review (Standards + Spec): a crafted backup could run script through a note date; fixed with a strict shape rule and escaping. Eleven more fixes in `docs/review/spec4-notes-code-review.md`. 305 tests green.
