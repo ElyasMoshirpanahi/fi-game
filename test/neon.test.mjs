@@ -70,6 +70,27 @@ describe('Combo', () => {
     expect(s.combo).toBe(0);
   });
 
+  it('a Card that is only rated is no part of the Combo: it neither adds, resets, nor counts as wrong', () => {
+    const st = FI.content.station('s1');
+    const bare = st.items.find((i) => i.kind === 'card' && !st.items.some((k) => k.kind === 'check' && k.source === i.id));
+    let s = R(play(FI.engine.initial(), [true, true]), { type: 'BACK_TO_PATH' }, { type: 'TICK', value: 100 }, { type: 'TOGGLE_BOOKMARK', value: { stationId: 's1', cardId: bare.id } }, { type: 'TICK', value: 101 }, { type: 'OPEN_REVIEW' });
+    expect(s.combo).toBe(2);
+    s = R(s, { type: 'REVIEW_RATE', value: 'didnt' });
+    expect(s.combo).toBe(2);
+    expect(s.events).not.toContain('wrong');
+    s = R(s, { type: 'REVIEW_NEXT' }, { type: 'BACK_TO_PATH' }, { type: 'TICK', value: 102 }, { type: 'OPEN_REVIEW' }, { type: 'REVIEW_RATE', value: 'knew' });
+    expect(s.combo).toBe(2);
+    expect(s.events).not.toContain('correct');
+    expect(s.deck[bare.id].box).toBe(1);
+  });
+
+  it('is shown on every Lesson screen while it runs, the Fare included, and not on the Path', () => {
+    let s = play(FI.engine.initial(), [true, true]);
+    s = R(s, { type: 'CONTINUE' });
+    expect(html(s)).toContain('class="combo"');
+    expect(html(R(s, { type: 'BACK_TO_PATH' }))).not.toContain('class="combo"');
+  });
+
   it('shows on the feedback from the second right answer', () => {
     expect(html(play(FI.engine.initial(), [true]))).not.toContain('class="combo"');
     expect(html(play(FI.engine.initial(), [true, true]))).toContain('class="combo"');
@@ -102,7 +123,7 @@ describe('Road on the Path', () => {
     const xs = Array.from({ length: 8 }, (_, i) => FI.render.wave(i, false));
     expect(xs[0]).toBe(0);
     expect(xs[4]).toBe(0);
-    expect(Math.max(...xs)).toBeLessThanOrEqual(90);
+    expect(Math.max(...xs)).toBeLessThanOrEqual(76); // 360 px: room for the current node's glow inside the Section
     expect(Math.min(...xs)).toBe(-Math.max(...xs));
     expect(Array.from({ length: 8 }, (_, i) => FI.render.wave(i, true))).toEqual(xs.map((x) => (x === 0 ? 0 : -x)));
     expect(FI.render.wave(8, false)).toBe(xs[0]);
@@ -135,5 +156,33 @@ describe('Neon theme', () => {
   it('keeps every effect switched off under reduced motion', () => {
     expect(css).toMatch(/@media \(prefers-reduced-motion: reduce\)[\s\S]*animation: none !important/);
     expect(page).toMatch(/prefers-reduced-motion: reduce\)'\)\.matches/);
+  });
+  it('shows focus where a parent clips it or another outline would win', () => {
+    expect(css).toMatch(/\.sechead:focus-visible \{[^}]*outline-offset: -/);
+    expect(css).toMatch(/\.node\.circle\.open > \.ubtn:focus-visible/);
+  });
+
+  it('keeps the jump button and its sheet fixed', () => {
+    expect(css).not.toMatch(/\.path > \* \{/);
+  });
+
+  it('has no selector left for markup that is gone', () => {
+    for (const dead of ['.unum', '.wrongpick', '.coins .plus', '.node.dim', '.node.idle']) expect(css, dead).not.toContain(dead);
+    expect(page).not.toContain("'idle'");
+  });
+});
+
+describe('Rewards in flight', () => {
+  it('are written in the Language Mode, with its digits', () => {
+    expect(FI.render.rewardText('xp', 50, 'EN')).toBe('+50 XP');
+    expect(FI.render.rewardText('xp', 50, 'FA')).toBe('+۵۰ امتیاز');
+    expect(FI.render.rewardText('coin', 1, 'FA')).toBe('+۱ ●');
+  });
+
+  it('no reward text is hard-coded in fx, and haptics follow mute', () => {
+    const fx = page.slice(page.indexOf('FI.fx = '), page.indexOf('data-module="app"'));
+    expect(fx).not.toMatch(/XP|●/);
+    expect(fx).toMatch(/!state\.muted && !still\(\) && navigator\.vibrate/);
+    expect(fx).toMatch(/!has\('restored'\)/);
   });
 });

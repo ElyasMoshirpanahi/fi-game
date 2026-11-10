@@ -148,3 +148,4 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Owner asked on Telegram for a cyberpunk redesign with feedback on every move. Taken ahead of specs 3 to 7. Spec in `docs/specs/08-neon-overhaul.md` (issue #16), decision 41, ADR-0011.
 - Built: one neon theme, circuit road on a wave with START tag and scanner ring, Combo in the engine, effects layer in fx (sparks, flying Coin and XP, glitch, synth sounds, haptics).
 - A heavy test (ten whole books through the reducer) sat at 4.7 s against the 5 s default and failed under load; it now has an explicit 30 s limit. No test was removed.
+- Review (Standards + Spec): 18 findings fixed, 3 accepted, in `docs/review/spec8-neon-code-review.md`. 265 tests green. Headless runs now use Brave and quit the browser when done (owner request).
