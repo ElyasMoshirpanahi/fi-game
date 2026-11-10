@@ -42,6 +42,14 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 | 27 | Migration | A lit Book Unit from v1 counts as Units 1 and 2 lit. Unit 3 starts unlit. Coins, XP, bookmarks, shelf, checklists kept. One-time migration on first load. |
 | 28 | Shelf | Stays under Library Tools as the index: reading states, filters, search; "Open unit" becomes "Go to section" and jumps the Path there. A Shelf button in the Path foot reaches it when Basics is collapsed (play-test fix). |
 | 29 | Sectioned Path look | A's long road with inline section headers, finished sections collapsed, plus B's book banner as the header of the open section, and a bottom 'Jump to section' sheet. Prototype prototypes/ui-sections.html on branch prototype/ui-sections. |
+| 30 | Content location (2026-11-10, Task 2) | Book content moves to per-book JSON files fetched on demand from the same origin (content/books/v3/bNN.json). index.html stays small and script-free of externals; opening from disk no longer loads books. ADR-0001 amended. |
+| 31 | Book value model | A score from the source decides the size: the ten reading-order must-reads are high (3 Circles), the other must-reads mid (2), the optionals low (1). Lessons per Circle 3 to 5, Points per Lesson 10 to 15 (12 typical). Owner may override any book. |
+| 32 | Learning point | A Point is a Card; a Check follows every 2 to 3 Points; every Lesson ends with a Fare. Loop, Hints, Returns and fairness unchanged. |
+| 33 | Migration | Basics progress, coins, checklists, journal, habits, shelf states and Basics bookmarks are kept. Book progress starts fresh: book XP removed, book bookmarks dropped. Existing Cards are reused inside the new Lessons. |
+| 34 | Names | Section (a book) holds Circles (nodes on the Path); a Circle holds 3 to 5 Lessons; a Lesson runs 10 to 15 Points. "Unit" retired for books; Basics keeps Stations. |
+| 35 | Sizing | High: 3 Circles x 4 Lessons; mid: 2 x 4; low: 1 x 3; 12 Points per Lesson typical. About 2,600 Cards and 1,000 Checks, 28 files, one content agent per book. |
+| 36 | Time box | Each Lesson shows its Points and about one minute per Point; the first Point of every Lesson frames what part of the book it distils. |
+| 37 | Rewards | Lesson Fare 10 XP; complete Circle 25 XP; complete Section the book badge plus 50 XP. Basics Stations stay at 50. |
 | 16 | Ordering interaction | Tap-to-place is the baseline and the keyboard path. Pointer drag reorders as a progressive enhancement. |
 
 ## Executor decisions derived from the above (noted, not asked)

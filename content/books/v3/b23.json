@@ -1,0 +1,2414 @@
+{
+  "id": "b23",
+  "title": "Atomic Habits",
+  "author": {
+    "en": "James Clear",
+    "fa": "James Clear"
+  },
+  "year": 2018,
+  "stage": 6,
+  "must": true,
+  "why": {
+    "en": "Systems instead of willpower",
+    "fa": "سیستم به جای اراده"
+  },
+  "badge": {
+    "en": "One Percent Better",
+    "fa": "هر روز ۱ درصد بهتر"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b23c1",
+      "title": {
+        "en": "Tiny gains, big systems",
+        "fa": "دستاوردهای کوچک، سیستم‌های بزرگ"
+      },
+      "lessons": [
+        {
+          "id": "b23c1l1",
+          "title": {
+            "en": "The surprising power of atomic habits",
+            "fa": "قدرت شگفت‌انگیز عادت‌های اتمی"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 1, why tiny changes compound into remarkable results. It matters because your reading hour, your journal and your monthly ETF buy are all small habits that compound.",
+                "fa": "این درس فصل ۱ را خلاصه می‌کند: چرا تغییرهای کوچک به نتایج چشمگیر مرکب می‌شوند. مهم است چون ساعت مطالعه، دفتر تصمیم و خرید ماهانهٔ ETF تو همه عادت‌های کوچکی‌اند که مرکب می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p2",
+              "text": {
+                "en": "In 2003 Dave Brailsford became performance director of British Cycling, a team with almost no record of success. His strategy was the aggregation of marginal gains.",
+                "fa": "در سال ۲۰۰۳ Dave Brailsford مدیر عملکرد British Cycling شد؛ تیمی که تقریباً هیچ سابقهٔ موفقیتی نداشت. راهبرد او «انباشت دستاوردهای حاشیه‌ای» (aggregation of marginal gains) بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p3",
+              "text": {
+                "en": "He hunted a 1 percent gain in everything, from bike seats to the best pillow and how riders washed their hands. Within years British riders were winning the Tour de France and Olympic golds.",
+                "fa": "او در همه چیز دنبال ۱ درصد بهبود بود، از زین دوچرخه تا بهترین بالش و شیوهٔ شستن دست دوچرخه‌سواران. چند سال بعد دوچرخه‌سواران بریتانیایی Tour de France و طلای المپیک را می‌بردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l1k1",
+              "type": "tap",
+              "source": "b23c1l1p3",
+              "prompt": {
+                "en": "What did Brailsford hunt for in everything?",
+                "fa": "Brailsford در همه چیز دنبال چه بود؟"
+              },
+              "options": [
+                {
+                  "en": "A 1 percent gain",
+                  "fa": "۱ درصد بهبود"
+                },
+                {
+                  "en": "A complete redesign of the team",
+                  "fa": "طراحی دوبارهٔ کامل تیم"
+                },
+                {
+                  "en": "A single breakthrough idea",
+                  "fa": "یک ایدهٔ انقلابی واحد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p4",
+              "text": {
+                "en": "Getting 1 percent better every day for a year makes you about 37 times better. Getting 1 percent worse every day takes you down nearly to zero.",
+                "fa": "هر روز ۱ درصد بهتر شدن در طول یک سال تو را حدود ۳۷ برابر بهتر می‌کند. هر روز ۱ درصد بدتر شدن تو را تقریباً به صفر می‌رساند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p5",
+              "text": {
+                "en": "Habits are the compound interest of self-improvement. Their effect is invisible on any single day and enormous over years.",
+                "fa": "عادت‌ها بهرهٔ مرکبِ خودسازی‌اند. اثرشان در هر روزِ تنها دیده نمی‌شود و در طول سال‌ها عظیم است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l1k2",
+              "type": "tf",
+              "source": "b23c1l1p4",
+              "prompt": {
+                "en": "Getting 1 percent better every day for a year makes you about twice as good.",
+                "fa": "هر روز ۱ درصد بهتر شدن در یک سال تو را حدود دو برابر بهتر می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p6",
+              "text": {
+                "en": "Success is the product of daily habits, not once-in-a-lifetime transformations. What matters is your trajectory, not your current results.",
+                "fa": "موفقیت حاصل عادت‌های روزانه است، نه دگرگونی‌های یک‌باره در زندگی. آنچه مهم است مسیر حرکت توست، نه نتایج فعلی‌ات."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p7",
+              "text": {
+                "en": "Time magnifies whatever you feed it. Good habits make time your ally; bad habits make time your enemy.",
+                "fa": "زمان هر چه را به آن بدهی بزرگ‌تر می‌کند. عادت‌های خوب زمان را متحد تو می‌کنند؛ عادت‌های بد آن را دشمنت می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l1k3",
+              "type": "tap",
+              "source": "b23c1l1p7",
+              "prompt": {
+                "en": "What does time do to your habits, according to Clear?",
+                "fa": "به گفتهٔ Clear، زمان با عادت‌هایت چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "It magnifies whatever you feed it",
+                  "fa": "هر چه را به آن بدهی بزرگ‌تر می‌کند"
+                },
+                {
+                  "en": "It slowly erases them",
+                  "fa": "آرام‌آرام پاکشان می‌کند"
+                },
+                {
+                  "en": "It makes bad habits harmless",
+                  "fa": "عادت‌های بد را بی‌خطر می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p8",
+              "text": {
+                "en": "Clear compares progress to an ice cube in a cold room that warms from 25 to 31 degrees with no visible change. At 32 degrees it melts: the earlier degrees made the breakthrough.",
+                "fa": "Clear پیشرفت را به یک تکه یخ در اتاقی سرد تشبیه می‌کند که از ۲۵ تا ۳۱ درجه گرم می‌شود و تغییری دیده نمی‌شود. در ۳۲ درجه یخ آب می‌شود: درجه‌های قبلی این جهش را ساختند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p9",
+              "text": {
+                "en": "This delay is the Plateau of Latent Potential. People quit in the Valley of Disappointment, when results lag behind the effort they expected.",
+                "fa": "این تأخیر «فلات توان نهفته» (Plateau of Latent Potential) است. آدم‌ها در «درهٔ ناامیدی» (Valley of Disappointment) جا می‌زنند، وقتی نتایج از تلاشی که انتظار داشتند عقب می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l1k4",
+              "type": "tf",
+              "source": "b23c1l1p9",
+              "prompt": {
+                "en": "Clear calls the stretch where effort shows no results yet the Valley of Disappointment.",
+                "fa": "Clear دوره‌ای را که تلاش هنوز نتیجه‌ای نشان نمی‌دهد «درهٔ ناامیدی» می‌نامد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p10",
+              "text": {
+                "en": "Like bamboo that builds roots underground for years before shooting up in weeks, habits often show nothing until a threshold is crossed.",
+                "fa": "مثل بامبو که سال‌ها زیر زمین ریشه می‌دواند و بعد در چند هفته قد می‌کشد، عادت‌ها هم اغلب تا عبور از یک آستانه هیچ نشانی نمی‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l1p11",
+              "text": {
+                "en": "Applied: a monthly ETF buy or one hour of reading looks like nothing in month one. Judge it by the trajectory, as Clear says, and keep going through the valley.",
+                "fa": "کاربرد: خرید ماهانهٔ ETF یا یک ساعت مطالعه در ماه اول هیچ به نظر می‌رسد. همان‌طور که Clear می‌گوید آن را با مسیر حرکت بسنج و از دره عبور کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l1k5",
+              "type": "tap",
+              "source": "b23c1l1p11",
+              "prompt": {
+                "en": "How should you judge a small habit in its first month?",
+                "fa": "یک عادت کوچک را در ماه اولش چطور باید سنجید؟"
+              },
+              "options": [
+                {
+                  "en": "By the trajectory",
+                  "fa": "با مسیر حرکت"
+                },
+                {
+                  "en": "By this month's result",
+                  "fa": "با نتیجهٔ همین ماه"
+                },
+                {
+                  "en": "By how hard it feels",
+                  "fa": "با اینکه چقدر سخت به نظر می‌رسد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c1l2",
+          "title": {
+            "en": "Forget goals, focus on systems",
+            "fa": "هدف را فراموش کن، روی سیستم تمرکز کن"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the second half of chapter 1, why systems beat goals. It matters because reaching 25 times expenses is a goal; the monthly routine that gets you there is the system.",
+                "fa": "این درس نیمهٔ دوم فصل ۱ را خلاصه می‌کند: چرا سیستم بر هدف برتری دارد. مهم است چون رسیدن به ۲۵ برابر هزینه‌ها یک هدف است؛ روال ماهانه‌ای که تو را به آن می‌رساند سیستم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p2",
+              "text": {
+                "en": "Goals are about the results you want to achieve. Systems are about the processes that lead to those results.",
+                "fa": "هدف‌ها دربارهٔ نتایجی‌اند که می‌خواهی به دست آوری. سیستم‌ها دربارهٔ فرایندهایی‌اند که به آن نتایج می‌رسند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p3",
+              "text": {
+                "en": "A coach's goal is to win a championship; the system is how he recruits players, manages assistants and runs practice. Clear argues you could ignore the goal and still win by focusing on the system.",
+                "fa": "هدف یک مربی بردن قهرمانی است؛ سیستم شیوهٔ جذب بازیکن، مدیریت دستیاران و برگزاری تمرین است. Clear می‌گوید می‌شود هدف را نادیده گرفت و با تمرکز بر سیستم باز هم برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l2k1",
+              "type": "tap",
+              "source": "b23c1l2p2",
+              "prompt": {
+                "en": "In Clear's terms, what is a system?",
+                "fa": "به زبان Clear، سیستم چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The processes that lead to results",
+                  "fa": "فرایندهایی که به نتایج می‌رسند"
+                },
+                {
+                  "en": "The result you want to achieve",
+                  "fa": "نتیجه‌ای که می‌خواهی به دست آوری"
+                },
+                {
+                  "en": "A deadline for each goal",
+                  "fa": "یک ضرب‌الاجل برای هر هدف"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p4",
+              "text": {
+                "en": "Problem 1: winners and losers have the same goals. Every Olympian wants a gold medal, so the goal cannot be what separates them.",
+                "fa": "مشکل ۱: برنده‌ها و بازنده‌ها هدف یکسانی دارند. هر ورزشکار المپیکی مدال طلا می‌خواهد، پس هدف نمی‌تواند وجه تمایزشان باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p5",
+              "text": {
+                "en": "Problem 2: achieving a goal is only a momentary change. Clean a messy room once and it gets messy again unless you fix the habits that made it messy.",
+                "fa": "مشکل ۲: رسیدن به هدف فقط تغییری لحظه‌ای است. اتاق شلوغ را یک بار تمیز کنی، دوباره شلوغ می‌شود مگر عادت‌هایی را که شلوغش کردند درست کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l2k2",
+              "type": "tf",
+              "source": "b23c1l2p4",
+              "prompt": {
+                "en": "Clear says winners differ from losers mainly because winners set better goals.",
+                "fa": "Clear می‌گوید تفاوت اصلی برنده‌ها با بازنده‌ها این است که هدف‌های بهتری می‌گذارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p6",
+              "text": {
+                "en": "Problem 3: goals restrict your happiness. The 'once I reach my goal, then I'll be happy' mindset delays joy and sets up a choice of success or disappointment.",
+                "fa": "مشکل ۳: هدف‌ها شادی‌ات را محدود می‌کنند. ذهنیت «وقتی به هدفم برسم، آن وقت خوشحال می‌شوم» شادی را عقب می‌اندازد و فقط دو راه می‌گذارد: موفقیت یا ناامیدی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p7",
+              "text": {
+                "en": "Problem 4: goals are at odds with long-term progress. A runner who trains for one race may stop training after the finish line; a system keeps you playing.",
+                "fa": "مشکل ۴: هدف‌ها با پیشرفت بلندمدت در تضادند. دونده‌ای که برای یک مسابقه تمرین می‌کند ممکن است بعد از خط پایان تمرین را کنار بگذارد؛ سیستم تو را در بازی نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l2k3",
+              "type": "tap",
+              "source": "b23c1l2p7",
+              "prompt": {
+                "en": "Why can a goal hurt long-term progress?",
+                "fa": "چرا هدف می‌تواند به پیشرفت بلندمدت آسیب بزند؟"
+              },
+              "options": [
+                {
+                  "en": "You may stop after the finish line",
+                  "fa": "ممکن است بعد از خط پایان دست بکشی"
+                },
+                {
+                  "en": "Goals are too easy to reach",
+                  "fa": "رسیدن به هدف‌ها خیلی آسان است"
+                },
+                {
+                  "en": "Goals make you train too hard",
+                  "fa": "هدف‌ها وادارت می‌کنند زیادی تمرین کنی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p8",
+              "text": {
+                "en": "The purpose of setting goals is to win the game. The purpose of building systems is to continue playing the game.",
+                "fa": "هدف‌گذاری برای بردن بازی است. ساختن سیستم برای ادامه دادن بازی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p9",
+              "text": {
+                "en": "Clear sums it up: you do not rise to the level of your goals. You fall to the level of your systems.",
+                "fa": "جمع‌بندی Clear: تو به سطح هدف‌هایت بالا نمی‌روی. به سطح سیستم‌هایت سقوط می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l2k4",
+              "type": "tf",
+              "source": "b23c1l2p8",
+              "prompt": {
+                "en": "Clear says the purpose of building systems is to keep playing the game.",
+                "fa": "Clear می‌گوید هدفِ ساختن سیستم ادامه دادن بازی است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p10",
+              "text": {
+                "en": "An atomic habit is a small, easy routine that is also a source of great power: one part of a system of compound growth.",
+                "fa": "عادت اتمی روالی کوچک و آسان است که در عین حال منبع قدرتی بزرگ است: بخشی از یک سیستم رشد مرکب."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l2p11",
+              "text": {
+                "en": "Applied: the goal is capital of 25 times annual expenses. The system is the automatic monthly transfer, the reading hour and the quarterly net-worth log.",
+                "fa": "کاربرد: هدف، سرمایه‌ای برابر ۲۵ برابر هزینهٔ سالانه است. سیستم، انتقال خودکار ماهانه، ساعت مطالعه و ثبت فصلی دارایی خالص است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l2k5",
+              "type": "tap",
+              "source": "b23c1l2p11",
+              "prompt": {
+                "en": "Which of these is a system rather than a goal?",
+                "fa": "کدام‌یک سیستم است، نه هدف؟"
+              },
+              "options": [
+                {
+                  "en": "The automatic monthly transfer",
+                  "fa": "انتقال خودکار ماهانه"
+                },
+                {
+                  "en": "Capital of 25 times expenses",
+                  "fa": "سرمایه‌ای برابر ۲۵ برابر هزینه‌ها"
+                },
+                {
+                  "en": "Retiring by 45",
+                  "fa": "بازنشستگی تا ۴۵ سالگی"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c1l3",
+          "title": {
+            "en": "Identity-based habits",
+            "fa": "عادت‌های مبتنی بر هویت"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 2, how habits shape identity and identity shapes habits. It matters because 'I am an owner who invests' sticks better than 'I want to save more'.",
+                "fa": "این درس فصل ۲ را خلاصه می‌کند: چطور عادت‌ها هویت را می‌سازند و هویت عادت‌ها را. مهم است چون «من مالکی هستم که سرمایه‌گذاری می‌کند» بهتر از «می‌خواهم بیشتر پس‌انداز کنم» می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p2",
+              "text": {
+                "en": "Clear describes three layers of change: outcomes, processes and identity. Outcomes are what you get, processes are what you do, and identity is what you believe.",
+                "fa": "Clear سه لایهٔ تغییر را شرح می‌دهد: نتایج، فرایندها و هویت. نتایج چیزی است که به دست می‌آوری، فرایندها کاری است که می‌کنی و هویت چیزی است که باور داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p3",
+              "text": {
+                "en": "Most people start with outcomes and work inward. Identity-based habits start with who you wish to become.",
+                "fa": "بیشتر آدم‌ها از نتایج شروع می‌کنند و به درون می‌روند. عادت‌های مبتنی بر هویت از اینکه می‌خواهی چه کسی بشوی شروع می‌شوند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l3k1",
+              "type": "order",
+              "source": "b23c1l3p2",
+              "prompt": {
+                "en": "Order the three layers of change from the outermost to the core",
+                "fa": "سه لایهٔ تغییر را از بیرونی‌ترین تا هسته مرتب کن"
+              },
+              "options": [
+                {
+                  "en": "Identity",
+                  "fa": "هویت"
+                },
+                {
+                  "en": "Outcomes",
+                  "fa": "نتایج"
+                },
+                {
+                  "en": "Processes",
+                  "fa": "فرایندها"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p4",
+              "text": {
+                "en": "Two people resist a cigarette. One says 'No thanks, I'm trying to quit'; the other says 'No thanks, I'm not a smoker', and only the second has changed identity.",
+                "fa": "دو نفر سیگار تعارفی را رد می‌کنند. یکی می‌گوید «نه ممنون، دارم ترک می‌کنم»؛ دیگری می‌گوید «نه ممنون، من سیگاری نیستم» و فقط دومی هویتش را عوض کرده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p5",
+              "text": {
+                "en": "Behavior that is out of line with your identity will not last. The goal is not to read a book but to become a reader.",
+                "fa": "رفتاری که با هویتت هم‌خوان نباشد دوام نمی‌آورد. هدف خواندن یک کتاب نیست، کتاب‌خوان شدن است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l3k2",
+              "type": "tf",
+              "source": "b23c1l3p5",
+              "prompt": {
+                "en": "Clear says the goal is to read a book, not to become a reader.",
+                "fa": "Clear می‌گوید هدف خواندن یک کتاب است، نه کتاب‌خوان شدن."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p6",
+              "text": {
+                "en": "The word identity comes from Latin roots meaning being and repeatedly. Your identity is literally your repeated beingness.",
+                "fa": "واژهٔ identity از ریشه‌های لاتینی به معنای «بودن» و «بارها» می‌آید. هویت تو به معنای واقعی «بودنِ تکرارشده» توست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p7",
+              "text": {
+                "en": "Every action you take is a vote for the type of person you wish to become. No single vote decides it, but as votes pile up, so does the evidence.",
+                "fa": "هر کاری که می‌کنی یک رأی به آدمی است که می‌خواهی بشوی. هیچ رأی تنهایی تعیین‌کننده نیست، اما با جمع شدن رأی‌ها شواهد هم جمع می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l3k3",
+              "type": "tap",
+              "source": "b23c1l3p7",
+              "prompt": {
+                "en": "What is each action, in Clear's metaphor?",
+                "fa": "در استعارهٔ Clear، هر کار چیست؟"
+              },
+              "options": [
+                {
+                  "en": "A vote for the person you wish to become",
+                  "fa": "یک رأی به آدمی که می‌خواهی بشوی"
+                },
+                {
+                  "en": "A test you can fail",
+                  "fa": "آزمونی که می‌توانی در آن رد شوی"
+                },
+                {
+                  "en": "A debt you must repay",
+                  "fa": "بدهی‌ای که باید پس بدهی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p8",
+              "text": {
+                "en": "You do not need a unanimous vote, only a majority. Some bad votes will come; the aim is to win most of the time.",
+                "fa": "به رأی همگانی نیاز نداری، فقط به اکثریت. چند رأی بد هم خواهد آمد؛ هدف این است که بیشتر وقت‌ها ببری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p9",
+              "text": {
+                "en": "The two-step process: decide the type of person you want to be, then prove it to yourself with small wins.",
+                "fa": "فرایند دومرحله‌ای: تصمیم بگیر چه جور آدمی می‌خواهی باشی، بعد با بردهای کوچک آن را به خودت ثابت کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l3k4",
+              "type": "tf",
+              "source": "b23c1l3p8",
+              "prompt": {
+                "en": "To change identity, Clear says every single vote must go the right way.",
+                "fa": "Clear می‌گوید برای تغییر هویت، تک‌تک رأی‌ها باید درست باشند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p10",
+              "text": {
+                "en": "Entrepreneur Brian Clark quit a lifelong nail-biting habit after he started paying for manicures. He wanted to keep his nails looking good and became someone who takes pride in them.",
+                "fa": "کارآفرینی به نام Brian Clark عادت همیشگی جویدن ناخن را بعد از اینکه برای مانیکور پول داد کنار گذاشت. می‌خواست ناخن‌هایش خوب بمانند و آدمی شد که به آن‌ها افتخار می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l3p11",
+              "text": {
+                "en": "Applied: ask what an owner who invests would do. Writing in the decision journal and buying the index fund each month are votes for that identity.",
+                "fa": "کاربرد: بپرس مالکی که سرمایه‌گذاری می‌کند چه می‌کرد. نوشتن در دفتر تصمیم و خرید صندوق شاخصی هر ماه، رأی‌هایی به آن هویت‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l3k5",
+              "type": "tap",
+              "source": "b23c1l3p11",
+              "prompt": {
+                "en": "Which action is a vote for the identity of an owner who invests?",
+                "fa": "کدام کار رأیی به هویت مالکی است که سرمایه‌گذاری می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Buying the index fund each month",
+                  "fa": "خرید صندوق شاخصی هر ماه"
+                },
+                {
+                  "en": "Checking prices every hour",
+                  "fa": "هر ساعت قیمت‌ها را چک کردن"
+                },
+                {
+                  "en": "Waiting for a hot tip",
+                  "fa": "منتظر یک خبر داغ ماندن"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c1l4",
+          "title": {
+            "en": "The habit loop and the four laws",
+            "fa": "حلقهٔ عادت و چهار قانون"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 3, the four steps every habit runs through and the four laws built on them. It is the map that the rest of the book, and the next two Circles, follow.",
+                "fa": "این درس فصل ۳ را خلاصه می‌کند: چهار مرحله‌ای که هر عادت از آن می‌گذرد و چهار قانونی که بر آن ساخته شده. این نقشه‌ای است که بقیهٔ کتاب و دو حلقهٔ بعدی دنبالش می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p2",
+              "text": {
+                "en": "A habit is a behavior repeated enough times to become automatic. Habits are mental shortcuts learned from experience, which free the mind for other problems.",
+                "fa": "عادت رفتاری است که آن‌قدر تکرار شده که خودکار شده است. عادت‌ها میان‌برهای ذهنی‌اند که از تجربه یاد گرفته‌ایم و ذهن را برای مسائل دیگر آزاد می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p3",
+              "text": {
+                "en": "Psychologist Edward Thorndike put cats in puzzle boxes. At first they escaped by trial and error, but after many repeats they pressed the lever within seconds.",
+                "fa": "روان‌شناسی به نام Edward Thorndike گربه‌ها را در جعبه‌های معما گذاشت. اول با آزمون و خطا فرار می‌کردند، اما پس از تکرارهای زیاد در چند ثانیه اهرم را فشار می‌دادند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l4k1",
+              "type": "tf",
+              "source": "b23c1l4p3",
+              "prompt": {
+                "en": "In Thorndike's puzzle boxes, the cats escaped faster as the trials were repeated.",
+                "fa": "در جعبه‌های معمای Thorndike، گربه‌ها با تکرار سریع‌تر فرار می‌کردند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p4",
+              "text": {
+                "en": "Every habit runs through four steps in the same order: cue, craving, response, reward. Together they form a neurological feedback loop.",
+                "fa": "هر عادت با ترتیبی ثابت از چهار مرحله می‌گذرد: نشانه (cue)، میل (craving)، پاسخ (response)، پاداش (reward). این چهار با هم یک حلقهٔ بازخورد عصبی می‌سازند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p5",
+              "text": {
+                "en": "The cue triggers the brain to start a behavior, and the craving is the motivation behind it. The response is the habit you perform, and the reward is the end goal.",
+                "fa": "نشانه مغز را به شروع رفتار وامی‌دارد و میل، انگیزهٔ پشت آن است. پاسخ همان عادتی است که انجام می‌دهی و پاداش، مقصد نهایی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l4k2",
+              "type": "order",
+              "source": "b23c1l4p4",
+              "prompt": {
+                "en": "Put the four steps of the habit loop in order",
+                "fa": "چهار مرحلهٔ حلقهٔ عادت را به ترتیب بچین"
+              },
+              "options": [
+                {
+                  "en": "Response",
+                  "fa": "پاسخ"
+                },
+                {
+                  "en": "Cue",
+                  "fa": "نشانه"
+                },
+                {
+                  "en": "Reward",
+                  "fa": "پاداش"
+                },
+                {
+                  "en": "Craving",
+                  "fa": "میل"
+                }
+              ],
+              "answer": [
+                1,
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p6",
+              "text": {
+                "en": "Cue and craving form the problem phase; response and reward form the solution phase. The reward satisfies the craving and teaches the brain which actions to remember.",
+                "fa": "نشانه و میل مرحلهٔ مسئله را می‌سازند؛ پاسخ و پاداش مرحلهٔ راه‌حل را. پاداش میل را ارضا می‌کند و به مغز یاد می‌دهد کدام کارها را به خاطر بسپارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p7",
+              "text": {
+                "en": "Example: your phone buzzes (cue), you want to know the message (craving), you grab the phone (response), and you satisfy the urge (reward).",
+                "fa": "مثال: گوشی‌ات می‌لرزد (نشانه)، می‌خواهی پیام را بدانی (میل)، گوشی را برمی‌داری (پاسخ) و کنجکاوی‌ات برطرف می‌شود (پاداش)."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l4k3",
+              "type": "tap",
+              "source": "b23c1l4p6",
+              "prompt": {
+                "en": "Which two steps form the problem phase?",
+                "fa": "کدام دو مرحله مرحلهٔ مسئله را می‌سازند؟"
+              },
+              "options": [
+                {
+                  "en": "Cue and craving",
+                  "fa": "نشانه و میل"
+                },
+                {
+                  "en": "Response and reward",
+                  "fa": "پاسخ و پاداش"
+                },
+                {
+                  "en": "Craving and response",
+                  "fa": "میل و پاسخ"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p8",
+              "text": {
+                "en": "The Four Laws of Behavior Change map onto the loop: make it obvious, make it attractive, make it easy, make it satisfying.",
+                "fa": "چهار قانون تغییر رفتار روی همین حلقه می‌نشینند: آشکارش کن، جذابش کن، آسانش کن، رضایت‌بخشش کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p9",
+              "text": {
+                "en": "To break a bad habit, invert them: make it invisible, make it unattractive, make it difficult, make it unsatisfying.",
+                "fa": "برای ترک عادت بد، وارونه‌شان کن: نامرئی‌اش کن، ناجذابش کن، دشوارش کن، نارضایت‌بخشش کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l4k4",
+              "type": "tap",
+              "source": "b23c1l4p9",
+              "prompt": {
+                "en": "What is the inversion of 'make it easy'?",
+                "fa": "وارونهٔ «آسانش کن» چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Make it difficult",
+                  "fa": "دشوارش کن"
+                },
+                {
+                  "en": "Make it invisible",
+                  "fa": "نامرئی‌اش کن"
+                },
+                {
+                  "en": "Make it rare",
+                  "fa": "کمیابش کن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p10",
+              "text": {
+                "en": "Clear calls the laws levers. If a habit is not sticking, ask which law you are breaking: a hidden cue, a weak craving, a hard action or a missing reward.",
+                "fa": "Clear این قانون‌ها را اهرم می‌نامد. اگر عادتی نمی‌ماند، بپرس کدام قانون را زیر پا گذاشته‌ای: نشانهٔ پنهان، میل ضعیف، کار سخت یا پاداشِ غایب."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c1l4p11",
+              "text": {
+                "en": "Applied: if the quarterly net-worth log keeps slipping, run the four laws. Put it in the calendar, pair it with coffee, use one simple sheet and mark each quarter done.",
+                "fa": "کاربرد: اگر ثبت فصلی دارایی خالص مدام عقب می‌افتد، چهار قانون را اجرا کن. در تقویم بگذارش، با قهوه همراهش کن، یک برگهٔ ساده داشته باش و هر فصل را تیک بزن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c1l4k5",
+              "type": "tf",
+              "source": "b23c1l4p10",
+              "prompt": {
+                "en": "Clear treats the four laws as levers you can check when a habit is not sticking.",
+                "fa": "Clear چهار قانون را اهرم‌هایی می‌داند که وقتی عادتی نمی‌ماند می‌شود بررسی‌شان کرد."
+              },
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b23c2",
+      "title": {
+        "en": "Make it obvious and attractive",
+        "fa": "آشکار و جذابش کن"
+      },
+      "lessons": [
+        {
+          "id": "b23c2l1",
+          "title": {
+            "en": "Notice your habits first",
+            "fa": "اول عادت‌هایت را ببین"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 4, the man who didn't look right. It matters because you cannot change a habit you do not notice, from late-night snacking to checking stock prices.",
+                "fa": "این درس فصل ۴ را خلاصه می‌کند: مردی که حالش خوب به نظر نمی‌رسید. مهم است چون عادتی را که نمی‌بینی نمی‌توانی تغییر دهی، از خوراکی آخر شب تا چک کردن قیمت سهام."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p2",
+              "text": {
+                "en": "A former paramedic looked at her father-in-law at a family gathering and said he did not look right. He was rushed to hospital and found to have a serious heart problem.",
+                "fa": "یک امدادگر سابق در یک دورهمی خانوادگی به پدرشوهرش نگاه کرد و گفت حالش خوب به نظر نمی‌رسد. او را فوراً به بیمارستان بردند و معلوم شد مشکل قلبی جدی دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p3",
+              "text": {
+                "en": "Years of practice had trained her brain to recognize the pattern of heart failure without thinking. That is the power and the danger of habits: they run below awareness.",
+                "fa": "سال‌ها تمرین مغز او را آموزش داده بود که الگوی نارسایی قلبی را بی‌فکر تشخیص دهد. این قدرت و خطر عادت‌هاست: زیر سطح آگاهی کار می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l1k1",
+              "type": "tap",
+              "source": "b23c2l1p3",
+              "prompt": {
+                "en": "Why did the paramedic spot the danger so quickly?",
+                "fa": "چرا آن امدادگر خطر را این‌قدر سریع دید؟"
+              },
+              "options": [
+                {
+                  "en": "Years of practice trained her brain",
+                  "fa": "سال‌ها تمرین مغزش را آموزش داده بود"
+                },
+                {
+                  "en": "She had a medical scanner with her",
+                  "fa": "یک دستگاه پزشکی همراهش بود"
+                },
+                {
+                  "en": "He told her he felt ill",
+                  "fa": "خودش گفت حالش بد است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p4",
+              "text": {
+                "en": "Once a habit is automatic, you stop paying attention to what you are doing. So the first step of any change is awareness.",
+                "fa": "وقتی عادتی خودکار شد، دیگر به کاری که می‌کنی توجه نمی‌کنی. پس اولین گام هر تغییری آگاهی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p5",
+              "text": {
+                "en": "Japanese train operators use Pointing-and-Calling: they point at a signal and say its status aloud. The practice reduces mistakes by up to 85 percent.",
+                "fa": "رانندگان قطار در ژاپن از Pointing-and-Calling استفاده می‌کنند: به علامت اشاره می‌کنند و وضعیتش را بلند می‌گویند. این کار خطاها را تا ۸۵ درصد کم می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l1k2",
+              "type": "tf",
+              "source": "b23c2l1p5",
+              "prompt": {
+                "en": "Pointing-and-Calling makes errors more likely because it distracts the operator.",
+                "fa": "Pointing-and-Calling چون حواس راننده را پرت می‌کند خطا را بیشتر می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p6",
+              "text": {
+                "en": "Pointing-and-Calling works by raising a nonconscious habit to a conscious level. You can do the same by saying an action and its likely result out loud.",
+                "fa": "Pointing-and-Calling با بالا آوردن یک عادت ناخودآگاه به سطح آگاهی کار می‌کند. تو هم می‌توانی همین کار را بکنی: کار و نتیجهٔ احتمالی‌اش را بلند بگو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p7",
+              "text": {
+                "en": "The Habits Scorecard: write down every habit in your day, from waking up to going to bed. Next to each, mark plus for good, minus for bad or equals for neutral.",
+                "fa": "کارنامهٔ عادت‌ها (Habits Scorecard): همهٔ عادت‌های روزت را از بیدار شدن تا خوابیدن بنویس. کنار هر کدام برای خوب مثبت، برای بد منفی و برای خنثی مساوی بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l1k3",
+              "type": "tap",
+              "source": "b23c2l1p7",
+              "prompt": {
+                "en": "What goes on the Habits Scorecard?",
+                "fa": "چه چیزی در کارنامهٔ عادت‌ها نوشته می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Every habit in your day",
+                  "fa": "همهٔ عادت‌های روزت"
+                },
+                {
+                  "en": "Only your bad habits",
+                  "fa": "فقط عادت‌های بدت"
+                },
+                {
+                  "en": "Your goals for the year",
+                  "fa": "هدف‌های سالت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p8",
+              "text": {
+                "en": "Judge each habit by whether it helps you become the person you want to be. Clear says there are no good or bad habits, only effective ones.",
+                "fa": "هر عادت را با این بسنج که آیا کمکت می‌کند آدمی بشوی که می‌خواهی. Clear می‌گوید عادت خوب و بد وجود ندارد، فقط عادت مؤثر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p9",
+              "text": {
+                "en": "The aim of the Scorecard is to observe, not to judge or criticize yourself. Notice the behavior first; change comes later.",
+                "fa": "هدف کارنامه مشاهده است، نه قضاوت یا سرزنش خودت. اول رفتار را ببین؛ تغییر بعداً می‌آید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l1k4",
+              "type": "tf",
+              "source": "b23c2l1p9",
+              "prompt": {
+                "en": "The point of the Scorecard is to punish yourself for every minus.",
+                "fa": "هدف کارنامه تنبیه خودت برای هر منفی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p10",
+              "text": {
+                "en": "Before you can build new habits, you need to get a handle on your current ones. Many of them run on cues you never notice.",
+                "fa": "پیش از ساختن عادت‌های تازه، باید عادت‌های فعلی‌ات را بشناسی. بسیاری از آن‌ها با نشانه‌هایی کار می‌کنند که هرگز متوجهشان نمی‌شوی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l1p11",
+              "text": {
+                "en": "Applied: list one ordinary workday on a Scorecard, including each time you open a broker app or news feed. When you catch it, say aloud 'I'm checking prices again'.",
+                "fa": "کاربرد: یک روز کاری معمولی را در کارنامه بنویس، از جمله هر بار که اپ کارگزار یا خبرخوان را باز می‌کنی. وقتی مچ خودت را گرفتی، بلند بگو «دوباره دارم قیمت‌ها را چک می‌کنم»."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l1k5",
+              "type": "tap",
+              "source": "b23c2l1p11",
+              "prompt": {
+                "en": "What should you say aloud when you catch the habit?",
+                "fa": "وقتی مچ عادت را گرفتی چه باید بلند بگویی؟"
+              },
+              "options": [
+                {
+                  "en": "I'm checking prices again",
+                  "fa": "دوباره دارم قیمت‌ها را چک می‌کنم"
+                },
+                {
+                  "en": "I deserve a quick trade",
+                  "fa": "حق دارم یک معاملهٔ سریع بکنم"
+                },
+                {
+                  "en": "Nothing, just close the app",
+                  "fa": "هیچ، فقط اپ را ببند"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c2l2",
+          "title": {
+            "en": "Implementation intentions and habit stacking",
+            "fa": "نیت اجرایی و انباشت عادت"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 5, the best way to start a new habit. It matters because 'read more' or 'invest regularly' fails without a clear when and where.",
+                "fa": "این درس فصل ۵ را خلاصه می‌کند: بهترین راه شروع یک عادت تازه. مهم است چون «بیشتر بخوان» یا «منظم سرمایه‌گذاری کن» بدون زمان و مکان روشن شکست می‌خورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p2",
+              "text": {
+                "en": "In a British study, 91 percent of people who wrote down when and where they would exercise did it at least weekly. In the other groups, only 35 to 38 percent did.",
+                "fa": "در یک پژوهش بریتانیایی، ۹۱ درصد کسانی که نوشتند کی و کجا ورزش می‌کنند دست‌کم هفته‌ای یک بار ورزش کردند. در گروه‌های دیگر فقط ۳۵ تا ۳۸ درصد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p3",
+              "text": {
+                "en": "That plan is an implementation intention: I will [behavior] at [time] in [location]. Many people who think they lack motivation actually lack clarity.",
+                "fa": "این برنامه یک نیت اجرایی (implementation intention) است: من [رفتار] را در [زمان] در [مکان] انجام می‌دهم. بسیاری که فکر می‌کنند انگیزه ندارند، در واقع وضوح ندارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l2k1",
+              "type": "tap",
+              "source": "b23c2l2p3",
+              "prompt": {
+                "en": "What do many people who think they lack motivation actually lack?",
+                "fa": "بسیاری که فکر می‌کنند انگیزه ندارند در واقع چه ندارند؟"
+              },
+              "options": [
+                {
+                  "en": "Clarity",
+                  "fa": "وضوح"
+                },
+                {
+                  "en": "Talent",
+                  "fa": "استعداد"
+                },
+                {
+                  "en": "Money",
+                  "fa": "پول"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p4",
+              "text": {
+                "en": "Example: 'I will meditate for one minute at 7 in the morning in my kitchen.' With a clear plan you do not wait for inspiration; you follow the plan.",
+                "fa": "مثال: «ساعت ۷ صبح در آشپزخانه یک دقیقه مراقبه می‌کنم.» با برنامهٔ روشن منتظر الهام نمی‌مانی؛ برنامه را اجرا می‌کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p5",
+              "text": {
+                "en": "Clear notes that fresh starts help: people are more likely to begin a habit on a Monday, a birthday or the first day of a month.",
+                "fa": "Clear می‌گوید شروع‌های تازه کمک می‌کنند: آدم‌ها بیشتر احتمال دارد عادتی را در یک دوشنبه، یک تولد یا روز اول ماه شروع کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l2k2",
+              "type": "tf",
+              "source": "b23c2l2p4",
+              "prompt": {
+                "en": "With an implementation intention, you wait until you feel inspired before acting.",
+                "fa": "با نیت اجرایی، پیش از عمل منتظر می‌مانی تا الهام بگیری."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p6",
+              "text": {
+                "en": "The Diderot Effect: after the philosopher Denis Diderot got a fine scarlet robe, his old things looked shabby, so he replaced them and fell into debt. One purchase leads to another.",
+                "fa": "اثر دیدرو (Diderot Effect): وقتی فیلسوف Denis Diderot ردایی ارغوانی و فاخر گرفت، وسایل قدیمی‌اش کهنه به نظر آمدند، پس عوضشان کرد و بدهکار شد. یک خرید به خرید بعدی می‌کشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p7",
+              "text": {
+                "en": "Habits work the same way: one behavior triggers the next. Habit stacking uses this by linking a new habit to one you already do.",
+                "fa": "عادت‌ها هم همین‌طورند: هر رفتار رفتار بعدی را به راه می‌اندازد. انباشت عادت (habit stacking) از همین استفاده می‌کند و عادت تازه را به عادتی که از قبل داری وصل می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l2k3",
+              "type": "tap",
+              "source": "b23c2l2p7",
+              "prompt": {
+                "en": "What does habit stacking link a new habit to?",
+                "fa": "انباشت عادت، عادت تازه را به چه وصل می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "One you already do",
+                  "fa": "عادتی که از قبل داری"
+                },
+                {
+                  "en": "A reward you buy",
+                  "fa": "پاداشی که می‌خری"
+                },
+                {
+                  "en": "A deadline at work",
+                  "fa": "یک ضرب‌الاجل کاری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p8",
+              "text": {
+                "en": "The formula, building on BJ Fogg's Tiny Habits work: after [current habit], I will [new habit]. Example: after I pour my morning coffee, I will meditate for one minute.",
+                "fa": "فرمول، بر پایهٔ کار BJ Fogg در Tiny Habits: بعد از [عادت فعلی]، [عادت تازه] را انجام می‌دهم. مثال: بعد از ریختن قهوهٔ صبح، یک دقیقه مراقبه می‌کنم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p9",
+              "text": {
+                "en": "Stacks can chain: after I sit down to dinner, I will say one thing I'm grateful for. Each habit becomes the cue for the next.",
+                "fa": "انباشت‌ها می‌توانند زنجیر شوند: بعد از نشستن سر شام، یک چیز را که بابتش سپاسگزارم می‌گویم. هر عادت نشانهٔ عادت بعدی می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l2k4",
+              "type": "tf",
+              "source": "b23c2l2p8",
+              "prompt": {
+                "en": "The habit-stacking formula is: after [current habit], I will [new habit].",
+                "fa": "فرمول انباشت عادت این است: بعد از [عادت فعلی]، [عادت تازه] را انجام می‌دهم."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p10",
+              "text": {
+                "en": "The cue must be specific and match the new habit's time and place. 'When I take a break' is vague; 'after I close my laptop for lunch' is clear.",
+                "fa": "نشانه باید دقیق باشد و با زمان و مکان عادت تازه بخواند. «وقتی استراحت می‌کنم» مبهم است؛ «بعد از بستن لپ‌تاپ برای ناهار» روشن است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l2p11",
+              "text": {
+                "en": "Applied: after I pour my morning coffee, I will read ten pages of a finance book. After I close the laptop at night, I will write one line in the decision journal.",
+                "fa": "کاربرد: بعد از ریختن قهوهٔ صبح، ده صفحه از یک کتاب مالی می‌خوانم. بعد از بستن لپ‌تاپ در شب، یک خط در دفتر تصمیم می‌نویسم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l2k5",
+              "type": "tap",
+              "source": "b23c2l2p11",
+              "prompt": {
+                "en": "Which is a well-formed habit stack?",
+                "fa": "کدام یک انباشت عادت درست است؟"
+              },
+              "options": [
+                {
+                  "en": "After I pour my morning coffee, I will read ten pages",
+                  "fa": "بعد از ریختن قهوهٔ صبح، ده صفحه می‌خوانم"
+                },
+                {
+                  "en": "I will read more this year",
+                  "fa": "امسال بیشتر می‌خوانم"
+                },
+                {
+                  "en": "I will read whenever I feel free",
+                  "fa": "هر وقت وقت آزاد داشتم می‌خوانم"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c2l3",
+          "title": {
+            "en": "Design your environment",
+            "fa": "محیطت را طراحی کن"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 6 and 7, motivation is overrated and the secret to self-control. It matters because the room you work in shapes your habits more than willpower does.",
+                "fa": "این درس فصل‌های ۶ و ۷ را خلاصه می‌کند: انگیزه بیش از حد ارزش‌گذاری شده و راز خودکنترلی. مهم است چون اتاقی که در آن کار می‌کنی بیش از اراده عادت‌هایت را شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p2",
+              "text": {
+                "en": "At Massachusetts General Hospital, Dr Anne Thorndike put bottled water near the cafeteria registers and in more places. Soda sales dropped 11.4 percent and water sales rose 25.8 percent.",
+                "fa": "در Massachusetts General Hospital، دکتر Anne Thorndike آب بطری را کنار صندوق‌های کافه‌تریا و جاهای بیشتری گذاشت. فروش نوشابه ۱۱٫۴ درصد کم و فروش آب ۲۵٫۸ درصد زیاد شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p3",
+              "text": {
+                "en": "People often choose products not because of what they are but because of where they are. Environment is the invisible hand that shapes behavior.",
+                "fa": "آدم‌ها اغلب محصولی را نه به خاطر خودش بلکه به خاطر جایش انتخاب می‌کنند. محیط دست نامرئی‌ای است که رفتار را شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l3k1",
+              "type": "tf",
+              "source": "b23c2l3p2",
+              "prompt": {
+                "en": "When water was placed near the registers, soda sales went up.",
+                "fa": "وقتی آب کنار صندوق‌ها گذاشته شد، فروش نوشابه بالا رفت."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p4",
+              "text": {
+                "en": "Vision is the strongest human sense, so visual cues are the biggest drivers of behavior. Clear says to make the cues of good habits obvious in your environment.",
+                "fa": "بینایی قوی‌ترین حس انسان است، پس نشانه‌های دیداری بزرگ‌ترین محرک رفتارند. Clear می‌گوید نشانه‌های عادت‌های خوب را در محیطت آشکار کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p5",
+              "text": {
+                "en": "If you want to practice guitar, put the guitar stand in the middle of the living room. If you want to drink more water, fill a few bottles and place them around the house.",
+                "fa": "اگر می‌خواهی گیتار تمرین کنی، پایهٔ گیتار را وسط پذیرایی بگذار. اگر می‌خواهی بیشتر آب بنوشی، چند بطری پر کن و دور خانه بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l3k2",
+              "type": "tap",
+              "source": "b23c2l3p4",
+              "prompt": {
+                "en": "Why are visual cues the biggest drivers of behavior?",
+                "fa": "چرا نشانه‌های دیداری بزرگ‌ترین محرک رفتارند؟"
+              },
+              "options": [
+                {
+                  "en": "Vision is the strongest human sense",
+                  "fa": "بینایی قوی‌ترین حس انسان است"
+                },
+                {
+                  "en": "Habits form only in daylight",
+                  "fa": "عادت‌ها فقط در روشنایی روز شکل می‌گیرند"
+                },
+                {
+                  "en": "Cues work only when written down",
+                  "fa": "نشانه‌ها فقط وقتی نوشته شوند کار می‌کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p6",
+              "text": {
+                "en": "Habits are easier to build in a new environment, away from old cues. One space, one use: keep a desk only for work and a bed only for sleep.",
+                "fa": "ساختن عادت در محیطی تازه و دور از نشانه‌های قدیمی آسان‌تر است. یک فضا، یک کاربرد: میز فقط برای کار و تخت فقط برای خواب."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p7",
+              "text": {
+                "en": "During the Vietnam War, about one in five US soldiers became addicted to heroin. Back home, away from the cues of war, only about 5 percent relapsed within a year.",
+                "fa": "در جنگ ویتنام، حدود یک نفر از هر پنج سرباز آمریکایی به هروئین معتاد شد. در بازگشت به خانه و دور از نشانه‌های جنگ، فقط حدود ۵ درصد ظرف یک سال دوباره مصرف کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l3k3",
+              "type": "tap",
+              "source": "b23c2l3p7",
+              "prompt": {
+                "en": "What happened when addicted soldiers came home?",
+                "fa": "وقتی سربازان معتاد به خانه برگشتند چه شد؟"
+              },
+              "options": [
+                {
+                  "en": "About 5 percent relapsed within a year",
+                  "fa": "حدود ۵ درصد ظرف یک سال دوباره مصرف کردند"
+                },
+                {
+                  "en": "Almost all of them relapsed",
+                  "fa": "تقریباً همه دوباره مصرف کردند"
+                },
+                {
+                  "en": "Half relapsed within a month",
+                  "fa": "نیمی ظرف یک ماه دوباره مصرف کردند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p8",
+              "text": {
+                "en": "Clear draws the lesson that disciplined people are not better at resisting temptation. They simply spend less time in tempting situations.",
+                "fa": "Clear نتیجه می‌گیرد که آدم‌های منضبط در مقاومت برابر وسوسه بهتر نیستند. فقط زمان کمتری را در موقعیت‌های وسوسه‌انگیز می‌گذرانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p9",
+              "text": {
+                "en": "Inversion of the first law: make it invisible. Remove the cues of a bad habit from your environment instead of fighting them with willpower.",
+                "fa": "وارونهٔ قانون اول: نامرئی‌اش کن. نشانه‌های عادت بد را از محیطت بردار، به جای اینکه با اراده با آن‌ها بجنگی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l3k4",
+              "type": "tf",
+              "source": "b23c2l3p8",
+              "prompt": {
+                "en": "Clear says disciplined people mostly win by resisting temptation more often.",
+                "fa": "Clear می‌گوید آدم‌های منضبط بیشتر با مقاومت بیشتر در برابر وسوسه موفق می‌شوند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p10",
+              "text": {
+                "en": "If you waste time on your phone, leave it in another room for a few hours. Out of sight, it stops cueing you.",
+                "fa": "اگر وقتت را با گوشی هدر می‌دهی، چند ساعت آن را در اتاق دیگری بگذار. وقتی دیده نشود، دیگر نشانه نمی‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l3p11",
+              "text": {
+                "en": "Applied: delete the broker app from your phone and check the portfolio on the laptop once a quarter. Leave the finance book open on your desk instead.",
+                "fa": "کاربرد: اپ کارگزار را از گوشی‌ات پاک کن و سبد را فصلی یک بار روی لپ‌تاپ نگاه کن. به جایش کتاب مالی را باز روی میزت بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l3k5",
+              "type": "tap",
+              "source": "b23c2l3p11",
+              "prompt": {
+                "en": "Which change makes the trading cue invisible?",
+                "fa": "کدام تغییر نشانهٔ معامله را نامرئی می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Delete the broker app from your phone",
+                  "fa": "اپ کارگزار را از گوشی‌ات پاک کن"
+                },
+                {
+                  "en": "Add more price alerts",
+                  "fa": "هشدارهای قیمت بیشتری بگذار"
+                },
+                {
+                  "en": "Keep the app on the home screen",
+                  "fa": "اپ را روی صفحهٔ اصلی نگه دار"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c2l4",
+          "title": {
+            "en": "Make it attractive",
+            "fa": "جذابش کن"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 8 to 10, the second law and its inversion. It matters because a habit you look forward to survives tired evenings far better than one you dread.",
+                "fa": "این درس فصل‌های ۸ تا ۱۰ را خلاصه می‌کند: قانون دوم و وارونه‌اش. مهم است چون عادتی که مشتاقش هستی در شب‌های خسته خیلی بهتر از عادتی که از آن می‌ترسی دوام می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p2",
+              "text": {
+                "en": "Biologist Niko Tinbergen found that herring gull chicks peck at a red spot on the parent's beak. A fake beak with bigger red spots, a supernormal stimulus, drew even harder pecking.",
+                "fa": "زیست‌شناسی به نام Niko Tinbergen دید جوجه‌مرغ‌های دریایی به لکهٔ قرمز روی منقار والد نوک می‌زنند. منقاری مصنوعی با لکه‌های قرمز بزرگ‌تر، یک «محرک فراطبیعی»، نوک زدن شدیدتری می‌گرفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p3",
+              "text": {
+                "en": "Junk food and social media are supernormal stimuli for people: exaggerated versions of what we evolved to want. The more attractive an opportunity is, the more habit-forming it becomes.",
+                "fa": "غذای ناسالم و شبکه‌های اجتماعی برای انسان محرک فراطبیعی‌اند: نسخه‌های اغراق‌شدهٔ چیزهایی که برای خواستنشان تکامل یافته‌ایم. هر فرصتی جذاب‌تر باشد، عادت‌سازتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l4k1",
+              "type": "tf",
+              "source": "b23c2l4p2",
+              "prompt": {
+                "en": "The gull chicks ignored the fake beak with bigger red spots.",
+                "fa": "جوجه‌مرغ‌های دریایی منقار مصنوعی با لکه‌های بزرگ‌تر را نادیده گرفتند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p4",
+              "text": {
+                "en": "Habits are a dopamine-driven feedback loop. Dopamine rises not only when you get a reward but when you anticipate it, so the craving drives the action.",
+                "fa": "عادت‌ها حلقهٔ بازخوردی‌اند که دوپامین می‌گرداندشان. دوپامین نه فقط وقتی پاداش می‌گیری بلکه وقتی انتظارش را داری بالا می‌رود، پس میل است که عمل را پیش می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p5",
+              "text": {
+                "en": "Temptation bundling links an action you want to do with one you need to do. Ronan Byrne hooked his exercise bike to his laptop so Netflix played only while he pedalled.",
+                "fa": "بسته‌بندی وسوسه (temptation bundling) کاری را که دوست داری به کاری که باید بکنی وصل می‌کند. Ronan Byrne دوچرخهٔ ثابتش را به لپ‌تاپ وصل کرد تا Netflix فقط وقتی پدال می‌زد پخش شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l4k2",
+              "type": "tap",
+              "source": "b23c2l4p4",
+              "prompt": {
+                "en": "When does dopamine rise, according to Clear?",
+                "fa": "به گفتهٔ Clear، دوپامین کی بالا می‌رود؟"
+              },
+              "options": [
+                {
+                  "en": "When you anticipate a reward",
+                  "fa": "وقتی انتظار پاداش را داری"
+                },
+                {
+                  "en": "Only after you finish a task",
+                  "fa": "فقط بعد از تمام کردن کار"
+                },
+                {
+                  "en": "Only while you sleep",
+                  "fa": "فقط هنگام خواب"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p6",
+              "text": {
+                "en": "Combine it with stacking: after [current habit], I will [habit I need]. After [habit I need], I will [habit I want].",
+                "fa": "آن را با انباشت عادت ترکیب کن: بعد از [عادت فعلی]، [عادتی که لازم دارم] را انجام می‌دهم. بعد از [عادتی که لازم دارم]، [عادتی که دوست دارم] را انجام می‌دهم."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p7",
+              "text": {
+                "en": "We imitate three groups: the close, the many and the powerful. Laszlo Polgar raised his three daughters in a home built around chess, and all became chess prodigies.",
+                "fa": "ما از سه گروه تقلید می‌کنیم: نزدیکان، اکثریت و قدرتمندان. Laszlo Polgar سه دخترش را در خانه‌ای بزرگ کرد که دور شطرنج می‌چرخید و هر سه نابغهٔ شطرنج شدند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l4k3",
+              "type": "tap",
+              "source": "b23c2l4p7",
+              "prompt": {
+                "en": "Which three groups do we imitate?",
+                "fa": "از کدام سه گروه تقلید می‌کنیم؟"
+              },
+              "options": [
+                {
+                  "en": "The close, the many and the powerful",
+                  "fa": "نزدیکان، اکثریت و قدرتمندان"
+                },
+                {
+                  "en": "The young, the rich and the famous",
+                  "fa": "جوان‌ها، ثروتمندان و مشهورها"
+                },
+                {
+                  "en": "Teachers, bosses and rivals",
+                  "fa": "معلم‌ها، رئیس‌ها و رقیب‌ها"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p8",
+              "text": {
+                "en": "Join a culture where your desired behavior is the normal behavior. Then fitting in and building the habit pull in the same direction.",
+                "fa": "به فرهنگی بپیوند که رفتار دلخواهت در آن رفتار عادی است. آن وقت هم‌رنگ جمع شدن و ساختن عادت در یک جهت می‌کشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p9",
+              "text": {
+                "en": "Cravings are predictions, and you can reframe them. Change 'I have to go to work' to 'I get to', or see saving money as gaining future freedom.",
+                "fa": "میل‌ها پیش‌بینی‌اند و می‌توانی قابشان را عوض کنی. «باید سر کار بروم» را به «می‌توانم سر کار بروم» تبدیل کن، یا پس‌انداز را به‌دست آوردن آزادی آینده ببین."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l4k4",
+              "type": "tf",
+              "source": "b23c2l4p9",
+              "prompt": {
+                "en": "Clear suggests reframing 'I have to' as 'I get to' to make a habit more attractive.",
+                "fa": "Clear پیشنهاد می‌کند «باید» را به «می‌توانم» تبدیل کنی تا عادت جذاب‌تر شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p10",
+              "text": {
+                "en": "Inversion of the second law: make it unattractive. Highlight the benefits of avoiding a bad habit and the costs it carries.",
+                "fa": "وارونهٔ قانون دوم: ناجذابش کن. فایده‌های دوری از عادت بد و هزینه‌هایی را که دارد برجسته کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c2l4p11",
+              "text": {
+                "en": "Applied: join investors who buy index funds and hold, so that is the normal behavior around you. Bundle the reading hour with your favourite coffee.",
+                "fa": "کاربرد: به سرمایه‌گذارانی بپیوند که صندوق شاخصی می‌خرند و نگه می‌دارند تا این رفتار دور و برت عادی باشد. ساعت مطالعه را با قهوهٔ محبوبت بسته‌بندی کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c2l4k5",
+              "type": "tap",
+              "source": "b23c2l4p11",
+              "prompt": {
+                "en": "What makes buying and holding index funds feel normal?",
+                "fa": "چه چیزی خرید و نگهداری صندوق شاخصی را عادی جلوه می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Join investors who buy index funds and hold",
+                  "fa": "پیوستن به سرمایه‌گذارانی که صندوق شاخصی می‌خرند و نگه می‌دارند"
+                },
+                {
+                  "en": "Follow day-trading channels",
+                  "fa": "دنبال کردن کانال‌های معاملهٔ روزانه"
+                },
+                {
+                  "en": "Read only price headlines",
+                  "fa": "فقط خواندن تیتر قیمت‌ها"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b23c3",
+      "title": {
+        "en": "Easy, satisfying and lasting",
+        "fa": "آسان، رضایت‌بخش و ماندگار"
+      },
+      "lessons": [
+        {
+          "id": "b23c3l1",
+          "title": {
+            "en": "Make it easy",
+            "fa": "آسانش کن"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 11 and 12, walk slowly but never backward and the law of least effort. It matters because the habit you keep is usually the one with the least friction.",
+                "fa": "این درس فصل‌های ۱۱ و ۱۲ را خلاصه می‌کند: آهسته برو اما هرگز عقب نرو، و قانون کمترین تلاش. مهم است چون عادتی که می‌ماند معمولاً همانی است که کمترین اصطکاک را دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p2",
+              "text": {
+                "en": "Photography professor Jerry Uelsmann split his class: one group was graded on quantity, the other on the quality of one perfect photo. The best photos came from the quantity group.",
+                "fa": "استاد عکاسی Jerry Uelsmann کلاسش را دو گروه کرد: یکی بر اساس تعداد عکس نمره می‌گرفت، دیگری بر اساس کیفیت یک عکس بی‌نقص. بهترین عکس‌ها از گروه تعداد آمد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p3",
+              "text": {
+                "en": "Planning is motion; doing is action. Motion feels like progress, but only action delivers a result.",
+                "fa": "برنامه‌ریزی جنبش (motion) است؛ انجام دادن عمل (action). جنبش حس پیشرفت می‌دهد، اما فقط عمل نتیجه می‌آورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l1k1",
+              "type": "tap",
+              "source": "b23c3l1p2",
+              "prompt": {
+                "en": "Which group in Uelsmann's class produced the best photos?",
+                "fa": "کدام گروه در کلاس Uelsmann بهترین عکس‌ها را گرفت؟"
+              },
+              "options": [
+                {
+                  "en": "The quantity group",
+                  "fa": "گروه تعداد"
+                },
+                {
+                  "en": "The quality group",
+                  "fa": "گروه کیفیت"
+                },
+                {
+                  "en": "Neither, they were equal",
+                  "fa": "هیچ‌کدام، برابر بودند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p4",
+              "text": {
+                "en": "Habits form through repetition, not time. The question is not how long it takes to build a habit but how many times you do it.",
+                "fa": "عادت با تکرار شکل می‌گیرد، نه با زمان. سؤال این نیست که ساختن عادت چقدر طول می‌کشد، بلکه این است که چند بار انجامش می‌دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p5",
+              "text": {
+                "en": "With enough repetitions a behavior reaches automaticity, the point where you do it without thinking. Clear calls this crossing the habit line.",
+                "fa": "با تکرار کافی، رفتار به خودکاری (automaticity) می‌رسد، جایی که بدون فکر انجامش می‌دهی. Clear این را عبور از خط عادت می‌نامد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l1k2",
+              "type": "tf",
+              "source": "b23c3l1p4",
+              "prompt": {
+                "en": "Clear says habits form after a fixed number of days, such as 21.",
+                "fa": "Clear می‌گوید عادت پس از تعداد ثابتی روز، مثلاً ۲۱ روز، شکل می‌گیرد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p6",
+              "text": {
+                "en": "The Law of Least Effort: when choosing between two similar options, people naturally pick the one that needs the least work. So make good habits as easy as possible.",
+                "fa": "قانون کمترین تلاش: آدم‌ها بین دو گزینهٔ مشابه طبیعتاً آن را برمی‌گزینند که کمترین کار را می‌خواهد. پس عادت‌های خوب را تا جای ممکن آسان کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p7",
+              "text": {
+                "en": "Reduce friction for good habits: a gym on your daily route gets used far more than one that is out of the way. Small barriers add up.",
+                "fa": "اصطکاک عادت‌های خوب را کم کن: باشگاهی که سر راه هر روزت است خیلی بیشتر از باشگاهی دورافتاده استفاده می‌شود. مانع‌های کوچک جمع می‌شوند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l1k3",
+              "type": "tap",
+              "source": "b23c3l1p6",
+              "prompt": {
+                "en": "What do people pick when choosing between two similar options?",
+                "fa": "آدم‌ها بین دو گزینهٔ مشابه کدام را برمی‌گزینند؟"
+              },
+              "options": [
+                {
+                  "en": "The one that needs the least work",
+                  "fa": "آن که کمترین کار را می‌خواهد"
+                },
+                {
+                  "en": "The more impressive one",
+                  "fa": "آن که چشمگیرتر است"
+                },
+                {
+                  "en": "The newest one",
+                  "fa": "تازه‌ترین را"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p8",
+              "text": {
+                "en": "Prime the environment for the next action. Clear calls this resetting the room: lay out your workout clothes, shoes and water bottle the night before.",
+                "fa": "محیط را برای کار بعدی آماده کن. Clear این را «بازچینی اتاق» می‌نامد: لباس ورزش، کفش و بطری آب را از شب قبل آماده بگذار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p9",
+              "text": {
+                "en": "Inversion of the third law: make it difficult. Add steps between you and a bad habit, so friction works for you instead of against you.",
+                "fa": "وارونهٔ قانون سوم: دشوارش کن. بین خودت و عادت بد قدم اضافه بگذار تا اصطکاک به نفع تو کار کند، نه علیه تو."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l1k4",
+              "type": "tf",
+              "source": "b23c3l1p8",
+              "prompt": {
+                "en": "Resetting the room means preparing your space so the next good action is easy.",
+                "fa": "بازچینی اتاق یعنی فضایت را طوری آماده کنی که کار خوب بعدی آسان باشد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p10",
+              "text": {
+                "en": "Japanese manufacturers built lean factories by removing wasted steps and motion. Clear calls this addition by subtraction: remove the friction that saps your energy.",
+                "fa": "تولیدکنندگان ژاپنی با حذف قدم‌ها و حرکت‌های هدررفته کارخانه‌های ناب ساختند. Clear این را «افزودن با کاستن» می‌نامد: اصطکاکی را که انرژی‌ات را می‌گیرد حذف کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l1p11",
+              "text": {
+                "en": "Applied: automate the monthly transfer to the broker so investing takes no effort. Make selling hard: no saved password and no app on the phone.",
+                "fa": "کاربرد: انتقال ماهانه به کارگزار را خودکار کن تا سرمایه‌گذاری تلاشی نخواهد. فروختن را سخت کن: رمز ذخیره‌شده نه، اپ روی گوشی هم نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l1k5",
+              "type": "tap",
+              "source": "b23c3l1p11",
+              "prompt": {
+                "en": "How do you make investing take no effort?",
+                "fa": "چطور سرمایه‌گذاری را بی‌زحمت کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Automate the monthly transfer",
+                  "fa": "انتقال ماهانه را خودکار کن"
+                },
+                {
+                  "en": "Pick stocks each morning",
+                  "fa": "هر صبح سهم انتخاب کن"
+                },
+                {
+                  "en": "Wait for a market dip",
+                  "fa": "منتظر افت بازار بمان"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c3l2",
+          "title": {
+            "en": "The Two-Minute Rule and commitment devices",
+            "fa": "قانون دو دقیقه و ابزار تعهد"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 13 and 14, how to stop procrastinating and how to make good habits inevitable. It matters because the hardest part of any habit is starting it.",
+                "fa": "این درس فصل‌های ۱۳ و ۱۴ را خلاصه می‌کند: چطور اهمال‌کاری را متوقف کنی و عادت خوب را اجتناب‌ناپذیر کنی. مهم است چون سخت‌ترین بخش هر عادت شروع آن است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p2",
+              "text": {
+                "en": "Many habits hinge on decisive moments, small choices that set the path for hours. Changing into gym clothes or ordering takeout shapes the rest of the evening.",
+                "fa": "بسیاری از عادت‌ها به لحظه‌های تعیین‌کننده بسته‌اند، انتخاب‌های کوچکی که مسیر چند ساعت را می‌سازند. پوشیدن لباس ورزش یا سفارش غذای بیرون، بقیهٔ عصر را شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p3",
+              "text": {
+                "en": "The Two-Minute Rule: when you start a new habit, it should take less than two minutes to do. 'Read before bed each night' becomes 'read one page'.",
+                "fa": "قانون دو دقیقه: وقتی عادت تازه‌ای را شروع می‌کنی، انجامش باید کمتر از دو دقیقه طول بکشد. «هر شب پیش از خواب بخوان» می‌شود «یک صفحه بخوان»."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l2k1",
+              "type": "tap",
+              "source": "b23c3l2p3",
+              "prompt": {
+                "en": "Under the Two-Minute Rule, what does 'read before bed each night' become?",
+                "fa": "با قانون دو دقیقه، «هر شب پیش از خواب بخوان» چه می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Read one page",
+                  "fa": "یک صفحه بخوان"
+                },
+                {
+                  "en": "Read a chapter",
+                  "fa": "یک فصل بخوان"
+                },
+                {
+                  "en": "Read for two hours",
+                  "fa": "دو ساعت بخوان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p4",
+              "text": {
+                "en": "The idea is to make the habit easy to start; once you start, it is easier to continue. A new habit should not feel like a challenge.",
+                "fa": "ایده این است که شروع عادت آسان باشد؛ وقتی شروع کردی، ادامه دادن آسان‌تر است. عادت تازه نباید حس چالش بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p5",
+              "text": {
+                "en": "Master the habit of showing up. A habit must be established before it can be improved: standardize before you optimize.",
+                "fa": "عادتِ حاضر شدن را استاد شو. عادت باید پیش از بهبود، تثبیت شود: پیش از بهینه کردن، استاندارد کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l2k2",
+              "type": "tf",
+              "source": "b23c3l2p5",
+              "prompt": {
+                "en": "Clear advises optimizing a habit before you have learned to show up for it.",
+                "fa": "Clear توصیه می‌کند پیش از اینکه حاضر شدن را یاد بگیری، عادت را بهینه کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p6",
+              "text": {
+                "en": "Clear tells of Mitch, who lost over 100 pounds partly by going to the gym and never staying more than five minutes at first. He was building the habit of showing up.",
+                "fa": "Clear از Mitch می‌گوید که بیش از ۱۰۰ پوند وزن کم کرد، تا حدی با اینکه اول به باشگاه می‌رفت و هرگز بیش از پنج دقیقه نمی‌ماند. او داشت عادتِ حاضر شدن را می‌ساخت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p7",
+              "text": {
+                "en": "Habit shaping scales up step by step: once the two-minute version is automatic, add the next small stage. Never let the habit become so big that starting is hard.",
+                "fa": "شکل‌دهی عادت قدم‌به‌قدم بزرگ می‌شود: وقتی نسخهٔ دودقیقه‌ای خودکار شد، مرحلهٔ کوچک بعدی را اضافه کن. هرگز نگذار عادت آن‌قدر بزرگ شود که شروعش سخت باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l2k3",
+              "type": "tap",
+              "source": "b23c3l2p6",
+              "prompt": {
+                "en": "What was Mitch building by leaving the gym after five minutes?",
+                "fa": "Mitch با ترک باشگاه بعد از پنج دقیقه چه می‌ساخت؟"
+              },
+              "options": [
+                {
+                  "en": "The habit of showing up",
+                  "fa": "عادتِ حاضر شدن"
+                },
+                {
+                  "en": "Strength as fast as possible",
+                  "fa": "قدرت با بیشترین سرعت"
+                },
+                {
+                  "en": "An excuse to quit",
+                  "fa": "بهانه‌ای برای کنار کشیدن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p8",
+              "text": {
+                "en": "A commitment device is a choice in the present that controls your actions in the future. Victor Hugo had his clothes locked away so he had to stay home and write.",
+                "fa": "ابزار تعهد (commitment device) انتخابی در حال است که کارهای آینده‌ات را کنترل می‌کند. Victor Hugo لباس‌هایش را زیر قفل گذاشت تا مجبور شود در خانه بماند و بنویسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p9",
+              "text": {
+                "en": "Onetime choices can lock in good habits for years: buy a good mattress, unsubscribe from emails, set up automatic savings. Technology can automate the rest.",
+                "fa": "انتخاب‌های یک‌باره می‌توانند عادت‌های خوب را سال‌ها قفل کنند: یک تشک خوب بخر، اشتراک ایمیل‌ها را لغو کن، پس‌انداز خودکار راه بینداز. فناوری بقیه را خودکار می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l2k4",
+              "type": "tf",
+              "source": "b23c3l2p8",
+              "prompt": {
+                "en": "A commitment device is a present choice that controls your future actions.",
+                "fa": "ابزار تعهد انتخابی در حال است که کارهای آینده‌ات را کنترل می‌کند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p10",
+              "text": {
+                "en": "Clear has his assistant reset his social media passwords each Monday and send them back on Friday. The bad habit becomes impractical during the work week.",
+                "fa": "Clear از دستیارش می‌خواهد هر دوشنبه رمز شبکه‌های اجتماعی‌اش را عوض کند و جمعه رمز تازه را بدهد. عادت بد در طول هفتهٔ کاری عملاً ناممکن می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l2p11",
+              "text": {
+                "en": "Applied: the two-minute version of the reading hour is opening the book and reading one page. A standing order to the broker on payday is a commitment device.",
+                "fa": "کاربرد: نسخهٔ دودقیقه‌ای ساعت مطالعه، باز کردن کتاب و خواندن یک صفحه است. دستور پرداخت دائمی به کارگزار در روز حقوق، یک ابزار تعهد است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l2k5",
+              "type": "tap",
+              "source": "b23c3l2p11",
+              "prompt": {
+                "en": "What is the two-minute version of the reading hour?",
+                "fa": "نسخهٔ دودقیقه‌ای ساعت مطالعه چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Opening the book and reading one page",
+                  "fa": "باز کردن کتاب و خواندن یک صفحه"
+                },
+                {
+                  "en": "Buying three new books",
+                  "fa": "خریدن سه کتاب تازه"
+                },
+                {
+                  "en": "Reading for one hour anyway",
+                  "fa": "به هر حال یک ساعت خواندن"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c3l3",
+          "title": {
+            "en": "Make it satisfying and track it",
+            "fa": "رضایت‌بخشش کن و ردیابی‌اش کن"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 15 to 17, the fourth law and how to keep habits going. It matters because investing pays off over decades, so you need rewards you can feel today.",
+                "fa": "این درس فصل‌های ۱۵ تا ۱۷ را خلاصه می‌کند: قانون چهارم و چطور عادت‌ها را ادامه دهی. مهم است چون سرمایه‌گذاری در طول دهه‌ها جواب می‌دهد، پس به پاداش‌هایی نیاز داری که همین امروز حسشان کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p2",
+              "text": {
+                "en": "The Cardinal Rule of Behavior Change: what is rewarded is repeated, and what is punished is avoided. We repeat behaviors that feel satisfying.",
+                "fa": "قاعدهٔ اصلی تغییر رفتار: آنچه پاداش بگیرد تکرار می‌شود و آنچه تنبیه شود کنار گذاشته می‌شود. رفتارهایی را تکرار می‌کنیم که حس رضایت می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p3",
+              "text": {
+                "en": "In Karachi, health worker Stephen Luby handed out a premium soap that lathered well and smelled nice. Handwashing became satisfying, and diarrhea among children fell by 52 percent.",
+                "fa": "در Karachi، پژوهشگر سلامت Stephen Luby صابونی مرغوب پخش کرد که خوب کف می‌کرد و بوی خوشی داشت. شستن دست رضایت‌بخش شد و اسهال در میان کودکان ۵۲ درصد کم شد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l3k1",
+              "type": "tf",
+              "source": "b23c3l3p3",
+              "prompt": {
+                "en": "In Karachi, a pleasant soap made handwashing satisfying and illness among children fell.",
+                "fa": "در Karachi، یک صابون خوشایند شستن دست را رضایت‌بخش کرد و بیماری کودکان کم شد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p4",
+              "text": {
+                "en": "We live in a delayed-return environment, but our brains evolved for immediate returns. Good habits often pay off later, while bad habits feel good now.",
+                "fa": "ما در محیطی با بازده تأخیری زندگی می‌کنیم، اما مغزمان برای بازده فوری تکامل یافته است. عادت‌های خوب اغلب بعداً جواب می‌دهند و عادت‌های بد همین حالا حس خوبی می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p5",
+              "text": {
+                "en": "So add an immediate reward to good habits. One idea: each time you skip a purchase, move that money to a savings account named for something you want.",
+                "fa": "پس به عادت‌های خوب پاداشی فوری اضافه کن. یک ایده: هر بار از خریدی گذشتی، همان پول را به حساب پس‌اندازی بریز که به نام چیزی است که می‌خواهی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l3k2",
+              "type": "tap",
+              "source": "b23c3l3p4",
+              "prompt": {
+                "en": "What kind of environment do we live in, according to Clear?",
+                "fa": "به گفتهٔ Clear، در چه محیطی زندگی می‌کنیم؟"
+              },
+              "options": [
+                {
+                  "en": "A delayed-return environment",
+                  "fa": "محیطی با بازده تأخیری"
+                },
+                {
+                  "en": "An immediate-return environment",
+                  "fa": "محیطی با بازده فوری"
+                },
+                {
+                  "en": "A reward-free environment",
+                  "fa": "محیطی بدون پاداش"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p6",
+              "text": {
+                "en": "A habit tracker is a simple way to record whether you did a habit, like crossing off days on a calendar. Trent Dyrsmid moved a paper clip from one jar to another for every sales call.",
+                "fa": "ردیاب عادت راهی ساده برای ثبت انجام شدن عادت است، مثل خط زدن روزها در تقویم. Trent Dyrsmid برای هر تماس فروش یک گیره کاغذ را از یک شیشه به شیشهٔ دیگر می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p7",
+              "text": {
+                "en": "Tracking is obvious, attractive and satisfying at once: it cues you to act, shows your progress and feels good to record. Don't break the chain.",
+                "fa": "ردیابی هم‌زمان آشکار، جذاب و رضایت‌بخش است: یادت می‌اندازد، پیشرفتت را نشان می‌دهد و ثبتش لذت دارد. زنجیر را پاره نکن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l3k3",
+              "type": "tap",
+              "source": "b23c3l3p6",
+              "prompt": {
+                "en": "What did Trent Dyrsmid move for every sales call?",
+                "fa": "Trent Dyrsmid برای هر تماس فروش چه چیزی را جابه‌جا می‌کرد؟"
+              },
+              "options": [
+                {
+                  "en": "A paper clip",
+                  "fa": "یک گیرهٔ کاغذ"
+                },
+                {
+                  "en": "A coin",
+                  "fa": "یک سکه"
+                },
+                {
+                  "en": "A sticky note",
+                  "fa": "یک برگهٔ یادداشت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p8",
+              "text": {
+                "en": "Never miss twice. Missing once is an accident; missing twice is the start of a new habit.",
+                "fa": "هرگز دو بار پشت سر هم جا نینداز. یک بار جا انداختن اتفاق است؛ دو بار، شروع یک عادت تازه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p9",
+              "text": {
+                "en": "Beware of measuring the wrong thing. Goodhart's Law: when a measure becomes a target, it ceases to be a good measure.",
+                "fa": "مراقب سنجیدن چیز اشتباه باش. قانون Goodhart: وقتی یک معیار به هدف تبدیل شود، دیگر معیار خوبی نیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l3k4",
+              "type": "tf",
+              "source": "b23c3l3p8",
+              "prompt": {
+                "en": "Clear says missing a habit once is already the start of a new habit.",
+                "fa": "Clear می‌گوید یک بار جا انداختن عادت، خودش شروع یک عادت تازه است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p10",
+              "text": {
+                "en": "Inversion of the fourth law: make it unsatisfying. An accountability partner or a signed habit contract adds an immediate cost to breaking a promise.",
+                "fa": "وارونهٔ قانون چهارم: نارضایت‌بخشش کن. یک شریک پاسخ‌گویی یا قرارداد عادتِ امضاشده، برای زیر پا گذاشتن قول هزینه‌ای فوری می‌گذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l3p11",
+              "text": {
+                "en": "Applied: tick a calendar box after each reading hour and log net worth every quarter. If you skip a monthly buy, never miss twice.",
+                "fa": "کاربرد: بعد از هر ساعت مطالعه یک خانهٔ تقویم را تیک بزن و دارایی خالص را هر فصل ثبت کن. اگر یک خرید ماهانه را جا انداختی، هرگز دو بار پشت سر هم جا نینداز."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l3k5",
+              "type": "tap",
+              "source": "b23c3l3p11",
+              "prompt": {
+                "en": "What should you do if you skip a monthly buy?",
+                "fa": "اگر یک خرید ماهانه را جا انداختی چه باید بکنی؟"
+              },
+              "options": [
+                {
+                  "en": "Never miss twice",
+                  "fa": "هرگز دو بار پشت سر هم جا نینداز"
+                },
+                {
+                  "en": "Stop investing for a year",
+                  "fa": "یک سال سرمایه‌گذاری را متوقف کن"
+                },
+                {
+                  "en": "Double the next buy with borrowed money",
+                  "fa": "خرید بعدی را با پول قرضی دو برابر کن"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b23c3l4",
+          "title": {
+            "en": "The Goldilocks Rule and the downside of habits",
+            "fa": "قانون Goldilocks و روی دیگر عادت‌ها"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b23c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 18 to 20, talent, motivation and the downside of habits. It matters because the real risk after years of investing is not quitting on day one but boredom.",
+                "fa": "این درس فصل‌های ۱۸ تا ۲۰ را خلاصه می‌کند: استعداد، انگیزه و روی دیگر عادت‌ها. مهم است چون خطر واقعی پس از سال‌ها سرمایه‌گذاری، جا زدن در روز اول نیست، بلکه ملال است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p2",
+              "text": {
+                "en": "Genes do not decide your destiny, but they set where your odds are good. Michael Phelps and Hicham El Guerrouj differ by seven inches in height yet wore the same length of trousers.",
+                "fa": "ژن‌ها سرنوشتت را تعیین نمی‌کنند، اما مشخص می‌کنند کجا شانست بیشتر است. Michael Phelps و Hicham El Guerrouj هفت اینچ اختلاف قد داشتند اما شلوارشان هم‌قد بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p3",
+              "text": {
+                "en": "Choose the game where the odds are in your favor. Explore first, then exploit what works; your personality shapes which habits suit you best.",
+                "fa": "بازی‌ای را انتخاب کن که شانس در آن به نفع توست. اول کاوش کن، بعد از آنچه جواب می‌دهد بهره ببر؛ شخصیتت تعیین می‌کند کدام عادت‌ها بیشتر به تو می‌آیند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l4k1",
+              "type": "tap",
+              "source": "b23c3l4p3",
+              "prompt": {
+                "en": "Which game should you choose to play, according to Clear?",
+                "fa": "به گفتهٔ Clear، کدام بازی را باید انتخاب کنی؟"
+              },
+              "options": [
+                {
+                  "en": "One where the odds are in your favor",
+                  "fa": "بازی‌ای که شانس در آن به نفع توست"
+                },
+                {
+                  "en": "The most popular one",
+                  "fa": "محبوب‌ترین بازی"
+                },
+                {
+                  "en": "The hardest one available",
+                  "fa": "سخت‌ترین بازی موجود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p4",
+              "text": {
+                "en": "The Goldilocks Rule: humans feel peak motivation on tasks right on the edge of their current abilities. Not too hard, not too easy, just right.",
+                "fa": "قانون Goldilocks: انسان روی کارهایی که درست در لبهٔ توانایی فعلی‌اش هستند بیشترین انگیزه را دارد. نه خیلی سخت، نه خیلی آسان، درست اندازه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p5",
+              "text": {
+                "en": "Work that is far too easy is boring, and work that is far too hard is discouraging. Staying near that edge helps keep you in a state of flow.",
+                "fa": "کار خیلی آسان کسل‌کننده است و کار خیلی سخت دلسردکننده. ماندن نزدیک آن لبه کمک می‌کند در حالت غرقگی (flow) بمانی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l4k2",
+              "type": "tf",
+              "source": "b23c3l4p4",
+              "prompt": {
+                "en": "The Goldilocks Rule says motivation peaks on tasks far beyond your current abilities.",
+                "fa": "قانون Goldilocks می‌گوید انگیزه روی کارهایی که بسیار فراتر از توانایی فعلی‌ات هستند به اوج می‌رسد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p6",
+              "text": {
+                "en": "The greatest threat to success is not failure but boredom. As habits become routine, they become less interesting and less satisfying.",
+                "fa": "بزرگ‌ترین تهدید موفقیت شکست نیست، ملال است. وقتی عادت‌ها روزمره می‌شوند، کمتر جالب و کمتر رضایت‌بخش می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p7",
+              "text": {
+                "en": "Professionals stick to the schedule; amateurs let life get in the way. Mastery means falling in love with boredom and doing the work anyway.",
+                "fa": "حرفه‌ای‌ها به برنامه پایبندند؛ آماتورها می‌گذارند زندگی مانعشان شود. استادی یعنی عاشق ملال شدن و به هر حال انجام دادن کار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l4k3",
+              "type": "tap",
+              "source": "b23c3l4p6",
+              "prompt": {
+                "en": "What is the greatest threat to success, according to Clear?",
+                "fa": "به گفتهٔ Clear، بزرگ‌ترین تهدید موفقیت چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Boredom",
+                  "fa": "ملال"
+                },
+                {
+                  "en": "Failure",
+                  "fa": "شکست"
+                },
+                {
+                  "en": "Bad luck",
+                  "fa": "بدشانسی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p8",
+              "text": {
+                "en": "The downside of habits: once automatic, you stop paying attention to small errors. Habits plus deliberate practice equal mastery.",
+                "fa": "روی دیگر عادت‌ها: وقتی خودکار شدند، دیگر به خطاهای کوچک توجه نمی‌کنی. عادت به‌علاوهٔ تمرین آگاهانه برابر است با استادی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p9",
+              "text": {
+                "en": "Coach Pat Riley scored his Lakers players on a Career Best Effort measure and asked each to improve by at least 1 percent. Reflection and review keep habits improving.",
+                "fa": "مربی‌ای به نام Pat Riley بازیکنان Lakers را با معیار Career Best Effort می‌سنجید و از هر کدام دست‌کم ۱ درصد بهبود می‌خواست. بازاندیشی و مرور، عادت‌ها را رو به بهبود نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l4k4",
+              "type": "tf",
+              "source": "b23c3l4p8",
+              "prompt": {
+                "en": "Clear says habits alone, without practice and review, are enough for mastery.",
+                "fa": "Clear می‌گوید عادت به‌تنهایی، بدون تمرین و مرور، برای استادی کافی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p10",
+              "text": {
+                "en": "Clear does an annual review and an integrity report to check his habits against his values. He also advises keeping your identity small, so losing one role does not break you.",
+                "fa": "Clear هر سال یک مرور سالانه و یک گزارش صداقت می‌نویسد تا عادت‌هایش را با ارزش‌هایش بسنجد. او همچنین توصیه می‌کند هویتت را کوچک نگه داری تا از دست دادن یک نقش تو را نشکند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b23c3l4p11",
+              "text": {
+                "en": "Applied: once the monthly ETF buy is automatic, review it in your quarterly log. A dull index fund will feel boring, and doing it anyway is the professional move.",
+                "fa": "کاربرد: وقتی خرید ماهانهٔ ETF خودکار شد، آن را در ثبت فصلی‌ات مرور کن. صندوق شاخصی کسل‌کننده به نظر می‌رسد و ادامه دادنش به هر حال، کار حرفه‌ای است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b23c3l4k5",
+              "type": "tap",
+              "source": "b23c3l4p11",
+              "prompt": {
+                "en": "Where should you review the automatic monthly ETF buy?",
+                "fa": "خرید خودکار ماهانهٔ ETF را کجا باید مرور کنی؟"
+              },
+              "options": [
+                {
+                  "en": "In your quarterly log",
+                  "fa": "در ثبت فصلی‌ات"
+                },
+                {
+                  "en": "On a price app every hour",
+                  "fa": "هر ساعت در اپ قیمت"
+                },
+                {
+                  "en": "Nowhere, never look at it",
+                  "fa": "هیچ‌جا، هرگز نگاهش نکن"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

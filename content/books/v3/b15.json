@@ -1,0 +1,2497 @@
+{
+  "id": "b15",
+  "title": "Venture Deals",
+  "author": {
+    "en": "Brad Feld and Jason Mendelson",
+    "fa": "Brad Feld و Jason Mendelson"
+  },
+  "year": 2011,
+  "stage": 5,
+  "must": true,
+  "why": {
+    "en": "Cap table, term sheet, vesting; before you sign anything",
+    "fa": "cap table، term sheet، vesting؛ قبل از امضای هر چیزی"
+  },
+  "badge": {
+    "en": "Economics and Control",
+    "fa": "اقتصاد و کنترل"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b15c1",
+      "title": {
+        "en": "The players and the price",
+        "fa": "بازیگران و قیمت"
+      },
+      "lessons": [
+        {
+          "id": "b15c1l1",
+          "title": {
+            "en": "The players in a venture deal",
+            "fa": "بازیگران یک معاملهٔ venture"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the book's opening chapters on the players in a venture deal. It matters because as a CTO with equity you will sit across from these people, and their roles show who really decides.",
+                "fa": "این درس فصل‌های آغازین کتاب دربارهٔ بازیگران یک معاملهٔ venture را خلاصه می‌کند. مهم است چون تو به‌عنوان CTO صاحب سهم روبه‌روی همین افراد می‌نشینی و نقش‌هایشان نشان می‌دهد چه کسی واقعاً تصمیم می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p2",
+              "text": {
+                "en": "Brad Feld is a venture capitalist who co-founded Foundry Group and Techstars, and Jason Mendelson is a lawyer turned VC. They wrote the book to teach founders the deal from both sides.",
+                "fa": "Brad Feld سرمایه‌گذار خطرپذیر و از بنیان‌گذاران Foundry Group و Techstars است و Jason Mendelson وکیلی است که VC شد. آن‌ها کتاب را نوشتند تا معامله را از هر دو طرف به بنیان‌گذاران یاد بدهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p3",
+              "text": {
+                "en": "The entrepreneur is the central player, and the book says founders should own their deal process. Lawyers and advisers help, but the founder must understand every term personally.",
+                "fa": "کارآفرین بازیگر اصلی است و کتاب می‌گوید بنیان‌گذار باید فرایند معامله را خودش در دست بگیرد. وکیل‌ها و مشاوران کمک می‌کنند، اما بنیان‌گذار باید تک‌تک بندها را خودش بفهمد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l1k1",
+              "type": "tf",
+              "source": "b15c1l1p3",
+              "prompt": {
+                "en": "The book says founders can leave understanding the terms to their lawyers.",
+                "fa": "کتاب می‌گوید بنیان‌گذار می‌تواند فهمیدن بندها را به وکیلش بسپارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p4",
+              "text": {
+                "en": "Inside a VC firm, managing directors or general partners make the final investment decisions. Principals and associates find and screen deals but usually cannot say yes alone.",
+                "fa": "در یک شرکت VC، managing directorها یا general partnerها تصمیم نهایی سرمایه‌گذاری را می‌گیرند. principalها و associateها معامله پیدا و غربال می‌کنند، اما معمولاً به‌تنهایی نمی‌توانند «بله» بگویند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p5",
+              "text": {
+                "en": "Venture partners and entrepreneurs-in-residence are part-time or temporary roles at a firm. The book advises learning your contact's title, since it shows how much power they have.",
+                "fa": "venture partner و entrepreneur-in-residence نقش‌های پاره‌وقت یا موقت در یک شرکت‌اند. کتاب توصیه می‌کند عنوان شغلی طرف مقابلت را بدانی، چون نشان می‌دهد چقدر قدرت دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l1k2",
+              "type": "tap",
+              "source": "b15c1l1p4",
+              "prompt": {
+                "en": "Who usually makes the final investment decision in a VC firm?",
+                "fa": "در یک شرکت VC معمولاً چه کسی تصمیم نهایی سرمایه‌گذاری را می‌گیرد؟"
+              },
+              "options": [
+                {
+                  "en": "Associates who screen deals",
+                  "fa": "associateهایی که معامله‌ها را غربال می‌کنند"
+                },
+                {
+                  "en": "Managing directors or general partners",
+                  "fa": "managing directorها یا general partnerها"
+                },
+                {
+                  "en": "The firm's outside lawyers",
+                  "fa": "وکیل‌های بیرونی شرکت"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p6",
+              "text": {
+                "en": "Angel investors are individuals who invest their own money, usually earlier and in smaller amounts than VCs. Some very active angels, called super angels, invest almost like small funds.",
+                "fa": "سرمایه‌گذاران فرشته افرادی‌اند که پول خودشان را سرمایه‌گذاری می‌کنند، معمولاً زودتر و با مبالغ کمتر از VCها. برخی فرشته‌های بسیار فعال که super angel نام دارند، تقریباً مثل صندوق‌های کوچک سرمایه‌گذاری می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p7",
+              "text": {
+                "en": "Several investors in one round form a syndicate. The lead investor sets the terms, negotiates the term sheet and usually takes a board seat; the others follow.",
+                "fa": "چند سرمایه‌گذار در یک دور، یک syndicate می‌سازند. سرمایه‌گذار پیشرو (lead investor) شرایط را تعیین می‌کند، term sheet را مذاکره می‌کند و معمولاً یک کرسی هیئت‌مدیره می‌گیرد؛ بقیه دنبالش می‌آیند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p8",
+              "text": {
+                "en": "The book urges hiring a lawyer experienced in venture deals, not a family friend who does general work. An inexperienced lawyer costs time, money and goodwill with investors.",
+                "fa": "کتاب تأکید می‌کند وکیلی با تجربهٔ معاملات venture بگیری، نه دوست خانوادگی‌ای که کار حقوقی عمومی می‌کند. وکیل بی‌تجربه وقت، پول و حسن‌نیت سرمایه‌گذاران را هدر می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l1k3",
+              "type": "tap",
+              "source": "b15c1l1p7",
+              "prompt": {
+                "en": "In a syndicate, who usually sets the terms of the round?",
+                "fa": "در یک syndicate معمولاً چه کسی شرایط دور را تعیین می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The lead investor",
+                  "fa": "سرمایه‌گذار پیشرو"
+                },
+                {
+                  "en": "The newest angel",
+                  "fa": "تازه‌ترین سرمایه‌گذار فرشته"
+                },
+                {
+                  "en": "The company's auditor",
+                  "fa": "حسابرس شرکت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p9",
+              "text": {
+                "en": "The book is wary of advisers who charge a fee to introduce you to investors. Good VCs prefer introductions from founders and people they already trust.",
+                "fa": "کتاب به مشاورانی که برای معرفی تو به سرمایه‌گذاران کارمزد می‌گیرند بدبین است. VCهای خوب معرفی از طرف بنیان‌گذاران و افرادی را ترجیح می‌دهند که از قبل به آن‌ها اعتماد دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l1k4",
+              "type": "tf",
+              "source": "b15c1l1p9",
+              "prompt": {
+                "en": "The book encourages paying an adviser a fee for VC introductions.",
+                "fa": "کتاب پرداخت کارمزد به مشاور برای معرفی به VCها را تشویق می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p10",
+              "text": {
+                "en": "Mentors are another group of players. Feld points to programs like Techstars, where experienced founders and investors coach new teams through their first deals.",
+                "fa": "منتورها گروه دیگری از بازیگران‌اند. Feld به برنامه‌هایی مثل Techstars اشاره می‌کند که در آن بنیان‌گذاران و سرمایه‌گذاران باتجربه تیم‌های تازه را در نخستین معامله‌هایشان راهنمایی می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p11",
+              "text": {
+                "en": "For you as a CTO: before joining a funded startup, ask who led the last round and who holds the board seats. That tells you who will shape the future of your equity.",
+                "fa": "برای تو به‌عنوان CTO: پیش از پیوستن به یک استارتاپ سرمایه‌گرفته، بپرس چه کسی دور قبلی را رهبری کرد و کرسی‌های هیئت‌مدیره دست کیست. این نشان می‌دهد آیندهٔ سهمت را چه کسی شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l1p12",
+              "text": {
+                "en": "Each player has their own incentives, and the book's core idea is to understand them. A deal is easier when you know what the person across the table needs.",
+                "fa": "هر بازیگر انگیزه‌های خودش را دارد و ایدهٔ اصلی کتاب فهمیدن آن‌هاست. معامله وقتی آسان‌تر است که بدانی آدم آن طرف میز به چه چیزی نیاز دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l1k5",
+              "type": "tap",
+              "source": "b15c1l1p12",
+              "prompt": {
+                "en": "What does the book say makes a deal easier?",
+                "fa": "به گفتهٔ کتاب چه چیزی معامله را آسان‌تر می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Hiding your numbers until the end",
+                  "fa": "پنهان‌کردن اعدادت تا آخر کار"
+                },
+                {
+                  "en": "Insisting on the highest price",
+                  "fa": "پافشاری بر بالاترین قیمت"
+                },
+                {
+                  "en": "Knowing what the person across the table needs",
+                  "fa": "دانستن نیاز آدم آن طرف میز"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b15c1l2",
+          "title": {
+            "en": "How to raise money",
+            "fa": "چطور پول جذب کنیم"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter on how to raise money: materials, finding a lead VC and closing. It matters because the process you run decides how many options you have at the table.",
+                "fa": "این درس فصل «چطور پول جذب کنیم» را خلاصه می‌کند: مدارک، پیدا کردن VC پیشرو و بستن معامله. مهم است چون فرایندی که اجرا می‌کنی تعیین می‌کند سر میز چند گزینه داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p2",
+              "text": {
+                "en": "First decide how much to raise: enough to reach the next real milestone with some cushion. Raising too little can be as dangerous as raising too much.",
+                "fa": "اول تصمیم بگیر چقدر جذب کنی: آن‌قدر که با کمی حاشیهٔ امن به نقطهٔ عطف واقعی بعدی برسی. جذب پول خیلی کم می‌تواند به اندازهٔ جذب پول خیلی زیاد خطرناک باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p3",
+              "text": {
+                "en": "Typical materials are a short elevator pitch, an executive summary and a presentation deck. The book says a full business plan is rarely read by VCs anymore.",
+                "fa": "مدارک رایج یک elevator pitch کوتاه، یک executive summary و یک presentation deck است. کتاب می‌گوید VCها دیگر به‌ندرت یک business plan کامل را می‌خوانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l2k1",
+              "type": "tf",
+              "source": "b15c1l2p3",
+              "prompt": {
+                "en": "The book says VCs usually read a full business plan in detail.",
+                "fa": "کتاب می‌گوید VCها معمولاً business plan کامل را با جزئیات می‌خوانند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p4",
+              "text": {
+                "en": "A financial model matters less for its numbers than for showing you understand the drivers of your business. VCs know early forecasts are wrong; they test how you think.",
+                "fa": "ارزش مدل مالی کمتر در اعدادش است و بیشتر در اینکه نشان دهد محرک‌های کسب‌وکارت را می‌فهمی. VCها می‌دانند پیش‌بینی‌های اولیه غلط‌اند؛ طرز فکرت را می‌سنجند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p5",
+              "text": {
+                "en": "A working demo or prototype often beats any slide. For a software founder it is the most convincing material you can bring.",
+                "fa": "یک demo یا prototype کارا اغلب از هر اسلایدی بهتر است. برای بنیان‌گذار نرم‌افزاری، قانع‌کننده‌ترین مدرکی است که می‌توانی بیاوری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l2k2",
+              "type": "tap",
+              "source": "b15c1l2p4",
+              "prompt": {
+                "en": "What does a financial model mainly show a VC?",
+                "fa": "مدل مالی عمدتاً چه چیزی را به VC نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "You understand the drivers of your business",
+                  "fa": "اینکه محرک‌های کسب‌وکارت را می‌فهمی"
+                },
+                {
+                  "en": "The exact revenue in year five",
+                  "fa": "درآمد دقیق سال پنجم"
+                },
+                {
+                  "en": "The lowest price you accept",
+                  "fa": "پایین‌ترین قیمتی که می‌پذیری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p6",
+              "text": {
+                "en": "The book says most VCs will not sign a non-disclosure agreement before hearing a pitch. They see many similar ideas, so asking for an NDA marks you as inexperienced.",
+                "fa": "کتاب می‌گوید بیشتر VCها پیش از شنیدن pitch قرارداد عدم افشا (NDA) امضا نمی‌کنند. آن‌ها ایده‌های مشابه زیادی می‌بینند، پس درخواست NDA تو را بی‌تجربه نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p7",
+              "text": {
+                "en": "A warm introduction from someone the VC trusts, such as a founder they backed, works far better than a cold email. Research each firm's focus and past deals first.",
+                "fa": "معرفی گرم از طرف کسی که VC به او اعتماد دارد، مثلاً بنیان‌گذاری که از او حمایت کرده، خیلی بهتر از ایمیل سرد جواب می‌دهد. اول تمرکز و معامله‌های گذشتهٔ هر شرکت را بررسی کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p8",
+              "text": {
+                "en": "The goal of early meetings is to find a lead investor. Once one VC commits to lead and set terms, others become much easier to bring in.",
+                "fa": "هدف جلسه‌های اول پیدا کردن سرمایه‌گذار پیشرو است. وقتی یک VC متعهد شود رهبری کند و شرایط را تعیین کند، آوردن بقیه خیلی آسان‌تر می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l2k3",
+              "type": "tap",
+              "source": "b15c1l2p7",
+              "prompt": {
+                "en": "According to the book, what works far better than a cold email?",
+                "fa": "به گفتهٔ کتاب، چه چیزی خیلی بهتر از ایمیل سرد جواب می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "A longer pitch deck",
+                  "fa": "یک pitch deck طولانی‌تر"
+                },
+                {
+                  "en": "A warm introduction from someone the VC trusts",
+                  "fa": "معرفی گرم از طرف کسی که VC به او اعتماد دارد"
+                },
+                {
+                  "en": "A signed NDA",
+                  "fa": "یک NDA امضاشده"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p9",
+              "text": {
+                "en": "VCs often avoid a clear no and simply go quiet, because a maybe keeps their options open. The book suggests treating long silence as a no and moving on.",
+                "fa": "VCها اغلب از «نه»ی صریح طفره می‌روند و ساکت می‌شوند، چون «شاید» گزینه‌هایشان را باز نگه می‌دارد. کتاب پیشنهاد می‌کند سکوت طولانی را «نه» بدانی و جلو بروی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p10",
+              "text": {
+                "en": "Due diligence follows interest: the VC checks your team, technology, customers, legal documents and cap table. Have these ready and organised to keep momentum.",
+                "fa": "پس از ابراز علاقه، due diligence می‌آید: VC تیم، فناوری، مشتریان، اسناد حقوقی و cap table تو را بررسی می‌کند. این‌ها را آماده و مرتب داشته باش تا شتاب کار حفظ شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l2k4",
+              "type": "tf",
+              "source": "b15c1l2p9",
+              "prompt": {
+                "en": "The book suggests treating a VC's long silence as a likely no.",
+                "fa": "کتاب پیشنهاد می‌کند سکوت طولانی VC را احتمالاً «نه» بدانی."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p11",
+              "text": {
+                "en": "After the term sheet is signed, lawyers draft the final documents and the deal closes when money is wired. Deals can still fall apart in this phase.",
+                "fa": "پس از امضای term sheet، وکیل‌ها اسناد نهایی را می‌نویسند و معامله با واریز پول بسته می‌شود. معامله‌ها در این مرحله هم ممکن است به هم بخورند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l2p12",
+              "text": {
+                "en": "When your own startup raises, run a tight process and talk to several investors in a short window. Competing interest gives you the strongest position at the table.",
+                "fa": "وقتی استارتاپ خودت پول جذب می‌کند، فرایندی فشرده اجرا کن و در بازه‌ای کوتاه با چند سرمایه‌گذار صحبت کن. علاقهٔ رقابتی قوی‌ترین موقعیت را سر میز به تو می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l2k5",
+              "type": "tap",
+              "source": "b15c1l2p12",
+              "prompt": {
+                "en": "What gives you the strongest position when raising?",
+                "fa": "هنگام جذب سرمایه چه چیزی قوی‌ترین موقعیت را به تو می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "A single friendly investor",
+                  "fa": "یک سرمایه‌گذار دوستانهٔ تنها"
+                },
+                {
+                  "en": "A very high asking price",
+                  "fa": "قیمت درخواستی خیلی بالا"
+                },
+                {
+                  "en": "Competing interest",
+                  "fa": "علاقهٔ رقابتی"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b15c1l3",
+          "title": {
+            "en": "The term sheet and the price",
+            "fa": "term sheet و قیمت"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 3's overview of the term sheet and the price part of chapter 4. It matters because the headline valuation on your cap table can hide a smaller real price.",
+                "fa": "این درس مرور کلی term sheet در فصل ۳ و بخش قیمت فصل ۴ را خلاصه می‌کند. مهم است چون ارزش‌گذاری اعلام‌شده در cap table می‌تواند قیمت واقعی کمتری را پنهان کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p2",
+              "text": {
+                "en": "A term sheet is a short document setting out the main terms of an investment before the long legal documents. Most of it is not legally binding, apart from items like confidentiality.",
+                "fa": "term sheet سندی کوتاه است که شرایط اصلی سرمایه‌گذاری را پیش از اسناد حقوقی طولانی مشخص می‌کند. بیشتر آن از نظر حقوقی الزام‌آور نیست، جز مواردی مثل محرمانگی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p3",
+              "text": {
+                "en": "A term sheet is full of clauses, but the book says VCs really care about two things: economics and control. Everything else is mostly detail.",
+                "fa": "term sheet پر از بند است، اما کتاب می‌گوید VCها واقعاً به دو چیز اهمیت می‌دهند: اقتصاد و کنترل. بقیه بیشتر جزئیات است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l3k1",
+              "type": "tap",
+              "source": "b15c1l3p3",
+              "prompt": {
+                "en": "Which two things does the book say really matter in a term sheet?",
+                "fa": "کتاب می‌گوید کدام دو چیز در term sheet واقعاً مهم‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "Valuation and legal fees",
+                  "fa": "ارزش‌گذاری و هزینه‌های حقوقی"
+                },
+                {
+                  "en": "Board size and founder salary",
+                  "fa": "اندازهٔ هیئت‌مدیره و حقوق بنیان‌گذار"
+                },
+                {
+                  "en": "Economics and control",
+                  "fa": "اقتصاد و کنترل"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p4",
+              "text": {
+                "en": "Economics means the return investors get at a liquidity event, such as a sale. Control means the ways investors can approve or veto what the company does.",
+                "fa": "اقتصاد یعنی بازدهی که سرمایه‌گذاران در یک رویداد نقدشوندگی مثل فروش می‌گیرند. کنترل یعنی راه‌هایی که سرمایه‌گذاران با آن کارهای شرکت را تأیید یا وتو می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p5",
+              "text": {
+                "en": "Price is usually stated as a valuation. Pre-money valuation plus the new investment equals the post-money valuation.",
+                "fa": "قیمت معمولاً به شکل ارزش‌گذاری بیان می‌شود. ارزش‌گذاری pre-money به‌علاوهٔ سرمایه‌گذاری جدید برابر است با ارزش‌گذاری post-money."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l3k2",
+              "type": "tf",
+              "source": "b15c1l3p5",
+              "prompt": {
+                "en": "Post-money valuation equals pre-money valuation minus the new investment.",
+                "fa": "ارزش‌گذاری post-money برابر است با pre-money منهای سرمایه‌گذاری جدید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p6",
+              "text": {
+                "en": "Example: an $8 million pre-money and a $2 million investment give a $10 million post-money. The new investor then owns 20 percent of the company.",
+                "fa": "مثال: pre-money هشت میلیون دلاری و سرمایه‌گذاری دو میلیون دلاری، post-money ده میلیون دلاری می‌دهد. سرمایه‌گذار جدید آن‌وقت ۲۰ درصد شرکت را دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p7",
+              "text": {
+                "en": "Always say whether a number is pre-money or post-money. A VC who says ten million could mean either, and the gap is the size of the round.",
+                "fa": "همیشه بگو عدد pre-money است یا post-money. VCای که می‌گوید ده میلیون ممکن است منظورش هر کدام باشد و فاصلهٔ این دو به اندازهٔ کل دور است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p8",
+              "text": {
+                "en": "The option pool shuffle: VCs often require the pool for future hires to be created inside the pre-money valuation. Then the dilution falls on existing holders, not the new investor.",
+                "fa": "option pool shuffle: VCها اغلب می‌خواهند استخر سهام کارکنان آینده داخل ارزش‌گذاری pre-money ساخته شود. آن‌وقت رقیق‌شدن روی دوش سهام‌داران فعلی می‌افتد، نه سرمایه‌گذار جدید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l3k3",
+              "type": "tap",
+              "source": "b15c1l3p6",
+              "prompt": {
+                "en": "With an $8 million pre-money and a $2 million investment, what does the new investor own?",
+                "fa": "با pre-money هشت میلیون و سرمایه‌گذاری دو میلیون دلاری، سرمایه‌گذار جدید چقدر از شرکت را دارد؟"
+              },
+              "options": [
+                {
+                  "en": "10 percent",
+                  "fa": "۱۰ درصد"
+                },
+                {
+                  "en": "20 percent",
+                  "fa": "۲۰ درصد"
+                },
+                {
+                  "en": "25 percent",
+                  "fa": "۲۵ درصد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p9",
+              "text": {
+                "en": "So a $2 million unallocated pool inside an $8 million pre-money leaves an effective pre-money of only $6 million. The headline price stays the same, but founders get less.",
+                "fa": "پس استخر تخصیص‌نیافتهٔ دو میلیون دلاری داخل pre-money هشت میلیونی، pre-money مؤثر را فقط شش میلیون دلار می‌کند. قیمت اعلام‌شده همان می‌ماند، اما بنیان‌گذاران کمتر می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l3k4",
+              "type": "tf",
+              "source": "b15c1l3p8",
+              "prompt": {
+                "en": "In the option pool shuffle, the new pool mainly dilutes the new investor.",
+                "fa": "در option pool shuffle، استخر جدید عمدتاً سهم سرمایه‌گذار جدید را رقیق می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p10",
+              "text": {
+                "en": "A good counter is a hiring plan that shows how many options you really need until the next round. A smaller, justified pool raises your effective price.",
+                "fa": "پاسخ خوب یک برنامهٔ استخدام است که نشان دهد تا دور بعد واقعاً چند option لازم داری. استخر کوچک‌تر و مستدل، قیمت مؤثرت را بالا می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p11",
+              "text": {
+                "en": "Warrants attached to a deal are another hidden part of price. The book sees them as added complexity and suggests negotiating the price directly instead.",
+                "fa": "warrantهایی که به معامله ضمیمه می‌شوند بخش پنهان دیگری از قیمت‌اند. کتاب آن‌ها را پیچیدگی اضافه می‌داند و پیشنهاد می‌کند به‌جایش مستقیم روی قیمت مذاکره کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l3p12",
+              "text": {
+                "en": "When you read a cap table offer, check whether the option pool sits inside the pre-money. If it does, your real share is smaller than the headline percentage suggests.",
+                "fa": "وقتی پیشنهادی همراه cap table می‌خوانی، ببین option pool داخل pre-money است یا نه. اگر هست، سهم واقعی‌ات کمتر از درصد اعلام‌شده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l3k5",
+              "type": "tap",
+              "source": "b15c1l3p11",
+              "prompt": {
+                "en": "What does the book suggest instead of accepting warrants?",
+                "fa": "کتاب به‌جای پذیرفتن warrant چه پیشنهادی می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Negotiating the price directly",
+                  "fa": "مذاکرهٔ مستقیم روی قیمت"
+                },
+                {
+                  "en": "Asking for a larger option pool",
+                  "fa": "درخواست option pool بزرگ‌تر"
+                },
+                {
+                  "en": "Adding a second board seat",
+                  "fa": "افزودن کرسی دوم هیئت‌مدیره"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b15c1l4",
+          "title": {
+            "en": "Liquidation preference",
+            "fa": "liquidation preference"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the liquidation preference part of chapter 4. It matters because in a modest sale this one term can decide whether your equity is worth a lot or nothing.",
+                "fa": "این درس بخش liquidation preference فصل ۴ را خلاصه می‌کند. مهم است چون در یک فروش متوسط همین یک بند می‌تواند تعیین کند سهمت ارزش زیادی دارد یا هیچ."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p2",
+              "text": {
+                "en": "Liquidation preference decides who gets paid first, and how much, when the company is sold or wound down. A sale of the company counts as a liquidation in this sense.",
+                "fa": "liquidation preference تعیین می‌کند هنگام فروش یا انحلال شرکت چه کسی اول و چقدر پول می‌گیرد. فروش شرکت هم در این معنا «انحلال» حساب می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p3",
+              "text": {
+                "en": "The preference has two parts: the actual preference and participation. The actual preference is a multiple of the investment, such as 1x, paid before common holders.",
+                "fa": "این ترجیح دو بخش دارد: خود ترجیح و مشارکت. خود ترجیح مضربی از سرمایه‌گذاری است، مثلاً ۱x، که پیش از دارندگان سهام عادی پرداخت می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l4k1",
+              "type": "tf",
+              "source": "b15c1l4p2",
+              "prompt": {
+                "en": "Liquidation preference applies only when a company shuts down, never when it is sold.",
+                "fa": "liquidation preference فقط هنگام تعطیلی شرکت اعمال می‌شود، نه هنگام فروش آن."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p4",
+              "text": {
+                "en": "A 1x preference on a $5 million investment means investors get their $5 million back first. Multiples above 1x appear in tough markets but are rarer in good ones.",
+                "fa": "ترجیح ۱x روی سرمایه‌گذاری پنج میلیون دلاری یعنی سرمایه‌گذاران اول پنج میلیون دلارشان را پس می‌گیرند. مضرب‌های بالاتر از ۱x در بازارهای سخت دیده می‌شوند، اما در بازارهای خوب نادرترند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p5",
+              "text": {
+                "en": "Non-participating preferred gets either its preference or converts to common, whichever pays more. It cannot take both.",
+                "fa": "سهام ترجیحی غیرمشارکتی یا ترجیحش را می‌گیرد یا به سهام عادی تبدیل می‌شود، هر کدام بیشتر بدهد. نمی‌تواند هر دو را بگیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l4k2",
+              "type": "tap",
+              "source": "b15c1l4p5",
+              "prompt": {
+                "en": "What can non-participating preferred holders take at a sale?",
+                "fa": "دارندگان سهام ترجیحی غیرمشارکتی هنگام فروش چه می‌توانند بگیرند؟"
+              },
+              "options": [
+                {
+                  "en": "Both the preference and a common share",
+                  "fa": "هم ترجیح و هم سهم عادی"
+                },
+                {
+                  "en": "The preference or converting to common, whichever pays more",
+                  "fa": "ترجیح یا تبدیل به سهام عادی، هر کدام بیشتر بدهد"
+                },
+                {
+                  "en": "Only a fixed dividend",
+                  "fa": "فقط یک سود ثابت"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p6",
+              "text": {
+                "en": "Fully participating preferred first takes its preference, then also shares the rest with common as if converted. Founders call this the double dip.",
+                "fa": "سهام ترجیحی کاملاً مشارکتی اول ترجیحش را برمی‌دارد و بعد در باقی‌مانده هم، انگار تبدیل شده، با سهام عادی شریک می‌شود. بنیان‌گذاران به این double dip می‌گویند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p7",
+              "text": {
+                "en": "Capped participation is a middle ground: investors participate until their total return reaches a cap, such as 3x. Above that, converting to common pays them more.",
+                "fa": "مشارکت سقف‌دار حد وسط است: سرمایه‌گذاران تا وقتی بازده کلشان به سقفی مثل ۳x برسد مشارکت می‌کنند. بالاتر از آن، تبدیل به سهام عادی برایشان سودمندتر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p8",
+              "text": {
+                "en": "Example: investors put in $5 million for 50 percent with full participation, and the company sells for $15 million. They take $5 million first, then half of $10 million.",
+                "fa": "مثال: سرمایه‌گذاران پنج میلیون دلار برای ۵۰ درصد با مشارکت کامل می‌گذارند و شرکت پانزده میلیون دلار فروخته می‌شود. آن‌ها اول پنج میلیون و بعد نصف ده میلیون باقی را برمی‌دارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l4k3",
+              "type": "tap",
+              "source": "b15c1l4p6",
+              "prompt": {
+                "en": "What do founders call fully participating preferred?",
+                "fa": "بنیان‌گذاران به سهام ترجیحی کاملاً مشارکتی چه می‌گویند؟"
+              },
+              "options": [
+                {
+                  "en": "The double dip",
+                  "fa": "double dip"
+                },
+                {
+                  "en": "The cliff",
+                  "fa": "cliff"
+                },
+                {
+                  "en": "The ratchet",
+                  "fa": "ratchet"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p9",
+              "text": {
+                "en": "With non-participating preferred in the same sale, investors choose between $5 million back or 50 percent as common, which is $7.5 million. They convert, and founders keep far more.",
+                "fa": "با سهام ترجیحی غیرمشارکتی در همان فروش، سرمایه‌گذاران بین پنج میلیون یا ۵۰ درصد به‌عنوان سهام عادی، یعنی هفت و نیم میلیون، انتخاب می‌کنند. تبدیل می‌کنند و سهم بنیان‌گذاران خیلی بیشتر می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l4k4",
+              "type": "tf",
+              "source": "b15c1l4p9",
+              "prompt": {
+                "en": "In that non-participating example, the investors convert to common.",
+                "fa": "در آن مثال غیرمشارکتی، سرمایه‌گذاران به سهام عادی تبدیل می‌کنند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p10",
+              "text": {
+                "en": "In large exits the preference barely matters, because everyone converts to common. It matters most in modest sales, where it can wipe out common holders.",
+                "fa": "در خروج‌های بزرگ ترجیح تقریباً اهمیتی ندارد، چون همه به سهام عادی تبدیل می‌کنند. بیشترین اهمیتش در فروش‌های متوسط است که می‌تواند سهم دارندگان سهام عادی را صفر کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p11",
+              "text": {
+                "en": "Pay-to-play ties to preference: investors who do not buy their share of a future round lose rights, often by converting to common. It keeps a syndicate committed.",
+                "fa": "pay-to-play به ترجیح گره خورده است: سرمایه‌گذارانی که سهمشان را در دور بعد نخرند حقوقشان را از دست می‌دهند، اغلب با تبدیل به سهام عادی. این syndicate را متعهد نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c1l4p12",
+              "text": {
+                "en": "As a CTO with common stock or options, ask for the total preference stack above you. A $40 million sale means little if $40 million of preferences sit ahead of your shares.",
+                "fa": "به‌عنوان CTO با سهام عادی یا option، کل پشتهٔ ترجیحات بالای سرت را بپرس. فروش چهل میلیون دلاری وقتی چهل میلیون دلار ترجیح جلوی سهم تو باشد، معنای زیادی ندارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c1l4k5",
+              "type": "tap",
+              "source": "b15c1l4p10",
+              "prompt": {
+                "en": "Where does liquidation preference matter most?",
+                "fa": "liquidation preference کجا بیشترین اهمیت را دارد؟"
+              },
+              "options": [
+                {
+                  "en": "In large exits",
+                  "fa": "در خروج‌های بزرگ"
+                },
+                {
+                  "en": "In public offerings",
+                  "fa": "در عرضهٔ عمومی"
+                },
+                {
+                  "en": "In modest sales",
+                  "fa": "در فروش‌های متوسط"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b15c2",
+      "title": {
+        "en": "Economics and control in the fine print",
+        "fa": "اقتصاد و کنترل در جزئیات"
+      },
+      "lessons": [
+        {
+          "id": "b15c2l1",
+          "title": {
+            "en": "Vesting, acceleration and the option pool",
+            "fa": "vesting، acceleration و option pool"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the vesting and employee pool sections of chapter 4. It matters because your CTO equity is only yours as it vests, and the fine print decides what happens in a sale.",
+                "fa": "این درس بخش‌های vesting و استخر سهام کارکنان در فصل ۴ را خلاصه می‌کند. مهم است چون سهم CTO تو فقط به اندازهٔ vest‌شدنش مال توست و جزئیات قرارداد تعیین می‌کند هنگام فروش چه می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p2",
+              "text": {
+                "en": "Vesting means stock or options are earned over time. Shares that have not vested yet go back to the company if the holder leaves.",
+                "fa": "vesting یعنی سهام یا option به‌مرور زمان به دست می‌آید. سهامی که هنوز vest نشده، اگر دارنده‌اش برود، به شرکت برمی‌گردد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p3",
+              "text": {
+                "en": "The standard schedule in the book is four years with a one-year cliff. Nothing vests in the first year, then 25 percent vests at once and the rest monthly.",
+                "fa": "برنامهٔ استاندارد کتاب چهار سال با cliff یک‌ساله است. در سال اول چیزی vest نمی‌شود، بعد ۲۵ درصد یک‌جا و باقی ماهانه vest می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l1k1",
+              "type": "tap",
+              "source": "b15c2l1p3",
+              "prompt": {
+                "en": "What is the standard vesting schedule in the book?",
+                "fa": "برنامهٔ استاندارد vesting در کتاب چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Two years, no cliff",
+                  "fa": "دو سال، بدون cliff"
+                },
+                {
+                  "en": "Four years with a one-year cliff",
+                  "fa": "چهار سال با cliff یک‌ساله"
+                },
+                {
+                  "en": "Six months with monthly payouts",
+                  "fa": "شش ماه با پرداخت ماهانه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p4",
+              "text": {
+                "en": "VCs usually ask founders to vest too, even in a company they started. The book argues this also protects founders from each other when one leaves early.",
+                "fa": "VCها معمولاً از بنیان‌گذاران هم می‌خواهند vest شوند، حتی در شرکتی که خودشان ساخته‌اند. کتاب استدلال می‌کند این کار از بنیان‌گذاران در برابر یکدیگر هم محافظت می‌کند، وقتی یکی زود می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p5",
+              "text": {
+                "en": "Founders sometimes get credit for time already served, so part of their stock is vested at signing. This is a common point to negotiate.",
+                "fa": "گاهی برای زمانی که بنیان‌گذاران تا حالا کار کرده‌اند اعتبار داده می‌شود، پس بخشی از سهامشان هنگام امضا vest شده است. این نکته‌ای رایج برای مذاکره است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l1k2",
+              "type": "tf",
+              "source": "b15c2l1p4",
+              "prompt": {
+                "en": "The book says founder vesting only protects investors.",
+                "fa": "کتاب می‌گوید vesting بنیان‌گذاران فقط از سرمایه‌گذاران محافظت می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p6",
+              "text": {
+                "en": "Acceleration means vesting speeds up on an event, usually a sale of the company. Single-trigger acceleration happens on the sale alone.",
+                "fa": "acceleration یعنی vesting با یک رویداد، معمولاً فروش شرکت، سریع‌تر می‌شود. acceleration تک‌ماشه‌ای (single trigger) فقط با خود فروش رخ می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p7",
+              "text": {
+                "en": "Double-trigger acceleration needs two events: a sale and the person being let go without cause after it. The book finds double trigger more common and more acceptable to buyers.",
+                "fa": "acceleration دوماشه‌ای (double trigger) دو رویداد لازم دارد: فروش و اخراج بی‌دلیل فرد پس از آن. کتاب double trigger را رایج‌تر و برای خریداران پذیرفتنی‌تر می‌داند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p8",
+              "text": {
+                "en": "Buyers dislike full single-trigger acceleration because key people can leave rich right after the deal. It can lower the price or even block a sale.",
+                "fa": "خریداران از acceleration کامل تک‌ماشه‌ای بدشان می‌آید، چون افراد کلیدی می‌توانند درست بعد از معامله پولدار بروند. این می‌تواند قیمت را پایین بیاورد یا حتی جلوی فروش را بگیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l1k3",
+              "type": "tap",
+              "source": "b15c2l1p7",
+              "prompt": {
+                "en": "What two events does double-trigger acceleration need?",
+                "fa": "acceleration دوماشه‌ای به چه دو رویدادی نیاز دارد؟"
+              },
+              "options": [
+                {
+                  "en": "A sale and the person being let go",
+                  "fa": "فروش و اخراج فرد"
+                },
+                {
+                  "en": "A new round and a promotion",
+                  "fa": "یک دور جدید و یک ترفیع"
+                },
+                {
+                  "en": "A board vote and an audit",
+                  "fa": "رأی هیئت‌مدیره و یک حسابرسی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p9",
+              "text": {
+                "en": "The employee option pool is the stock reserved for future hires. Typical pools run about 10 to 20 percent of the company.",
+                "fa": "استخر option کارکنان سهامی است که برای استخدام‌های آینده کنار گذاشته می‌شود. استخرهای رایج حدود ۱۰ تا ۲۰ درصد شرکت‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p10",
+              "text": {
+                "en": "In the US, founders who receive restricted stock often file an 83(b) election within 30 days. It lets them pay tax on today's low value instead of at each vesting date.",
+                "fa": "در آمریکا، بنیان‌گذارانی که سهام محدود می‌گیرند معمولاً ظرف ۳۰ روز 83(b) election ثبت می‌کنند. این کار اجازه می‌دهد مالیات را بر ارزش پایین امروز بدهند، نه در هر تاریخ vesting."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l1k4",
+              "type": "tf",
+              "source": "b15c2l1p9",
+              "prompt": {
+                "en": "Typical option pools run about 10 to 20 percent of the company.",
+                "fa": "استخرهای option رایج حدود ۱۰ تا ۲۰ درصد شرکت‌اند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p11",
+              "text": {
+                "en": "Pool size is a real trade-off: too small and you cannot hire, too large and founders are diluted for nothing. Tie it to a concrete hiring plan.",
+                "fa": "اندازهٔ استخر یک بده‌بستان واقعی است: خیلی کوچک باشد نمی‌توانی استخدام کنی، خیلی بزرگ باشد بنیان‌گذاران بی‌دلیل رقیق می‌شوند. آن را به یک برنامهٔ استخدام مشخص گره بزن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l1p12",
+              "text": {
+                "en": "Before signing a CTO offer, get the vesting start date, cliff and acceleration terms in writing. Dutch tax rules differ from the US 83(b) system, so check them locally.",
+                "fa": "پیش از امضای پیشنهاد CTO، تاریخ شروع vesting، cliff و شرایط acceleration را کتبی بگیر. قوانین مالیاتی هلند با سیستم 83(b) آمریکا فرق دارد، پس آن‌ها را محلی بررسی کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l1k5",
+              "type": "tap",
+              "source": "b15c2l1p10",
+              "prompt": {
+                "en": "Within how many days is an 83(b) election usually filed?",
+                "fa": "83(b) election معمولاً ظرف چند روز ثبت می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "10 days",
+                  "fa": "۱۰ روز"
+                },
+                {
+                  "en": "90 days",
+                  "fa": "۹۰ روز"
+                },
+                {
+                  "en": "30 days",
+                  "fa": "۳۰ روز"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b15c2l2",
+          "title": {
+            "en": "Anti-dilution and down rounds",
+            "fa": "anti-dilution و دورهای نزولی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the anti-dilution section of chapter 4. It matters because if a later round prices lower, these clauses decide whose stake shrinks, often the founders' and yours.",
+                "fa": "این درس بخش anti-dilution فصل ۴ را خلاصه می‌کند. مهم است چون اگر دور بعدی قیمت پایین‌تری داشته باشد، این بندها تعیین می‌کنند سهم چه کسی کوچک شود، اغلب سهم بنیان‌گذاران و تو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p2",
+              "text": {
+                "en": "Anti-dilution protects investors when the company later sells shares at a lower price than they paid. Such a round is called a down round.",
+                "fa": "anti-dilution از سرمایه‌گذاران محافظت می‌کند وقتی شرکت بعدها سهام را به قیمتی پایین‌تر از قیمت خرید آن‌ها بفروشد. چنین دوری را down round می‌نامند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p3",
+              "text": {
+                "en": "The protection works by lowering the price at which investors' preferred converts into common. A lower conversion price means more common shares for the same preferred.",
+                "fa": "این حفاظت با پایین آوردن قیمتی کار می‌کند که سهام ترجیحی سرمایه‌گذاران با آن به سهام عادی تبدیل می‌شود. قیمت تبدیل پایین‌تر یعنی سهام عادی بیشتر برای همان سهام ترجیحی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l2k1",
+              "type": "tf",
+              "source": "b15c2l2p2",
+              "prompt": {
+                "en": "A down round sells shares at a higher price than earlier investors paid.",
+                "fa": "در down round سهام به قیمتی بالاتر از قیمت سرمایه‌گذاران قبلی فروخته می‌شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p4",
+              "text": {
+                "en": "Full ratchet is the harshest form: the old investors' price drops to the new, lower price, no matter how few shares are sold. One tiny cheap round can reprice everything.",
+                "fa": "full ratchet سخت‌گیرانه‌ترین شکل است: قیمت سرمایه‌گذاران قدیمی به قیمت جدید و پایین‌تر می‌رسد، هر قدر هم سهام کمی فروخته شود. یک دور کوچک و ارزان می‌تواند همه‌چیز را دوباره قیمت‌گذاری کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p5",
+              "text": {
+                "en": "Weighted average is the common form: the price adjusts by a formula that weighs how many new shares are sold and at what price. Small down rounds cause small changes.",
+                "fa": "میانگین وزنی (weighted average) شکل رایج است: قیمت با فرمولی تعدیل می‌شود که تعداد و قیمت سهام جدید را وزن می‌دهد. دورهای نزولی کوچک تغییرات کوچکی ایجاد می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l2k2",
+              "type": "tap",
+              "source": "b15c2l2p4",
+              "prompt": {
+                "en": "Which form of anti-dilution is the harshest?",
+                "fa": "کدام شکل anti-dilution سخت‌گیرانه‌ترین است؟"
+              },
+              "options": [
+                {
+                  "en": "Broad-based weighted average",
+                  "fa": "میانگین وزنی broad-based"
+                },
+                {
+                  "en": "Full ratchet",
+                  "fa": "full ratchet"
+                },
+                {
+                  "en": "Narrow-based weighted average",
+                  "fa": "میانگین وزنی narrow-based"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p6",
+              "text": {
+                "en": "Broad-based weighted average counts all outstanding common and options in the formula; narrow-based counts fewer shares. Broad-based is more founder friendly and most common.",
+                "fa": "میانگین وزنی broad-based همهٔ سهام عادی و optionهای موجود را در فرمول می‌شمارد؛ narrow-based سهام کمتری را. broad-based برای بنیان‌گذاران مساعدتر و رایج‌ترین است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p7",
+              "text": {
+                "en": "Carve-outs list share issues that do not trigger anti-dilution, such as grants from the option pool. Founders should push for broad carve-outs.",
+                "fa": "carve-outها انتشار سهامی را فهرست می‌کنند که anti-dilution را فعال نمی‌کند، مثل اعطا از option pool. بنیان‌گذاران باید برای carve-outهای گسترده پافشاری کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p8",
+              "text": {
+                "en": "The book treats anti-dilution as expected in almost every deal, so fighting it entirely rarely works. Focus on the type and the carve-outs instead.",
+                "fa": "کتاب anti-dilution را تقریباً در هر معامله‌ای مورد انتظار می‌داند، پس جنگیدن برای حذف کاملش به‌ندرت جواب می‌دهد. به‌جایش روی نوع آن و carve-outها تمرکز کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l2k3",
+              "type": "tap",
+              "source": "b15c2l2p6",
+              "prompt": {
+                "en": "Which weighted average form is more founder friendly?",
+                "fa": "کدام شکل میانگین وزنی برای بنیان‌گذاران مساعدتر است؟"
+              },
+              "options": [
+                {
+                  "en": "Full ratchet",
+                  "fa": "full ratchet"
+                },
+                {
+                  "en": "Narrow-based",
+                  "fa": "narrow-based"
+                },
+                {
+                  "en": "Broad-based",
+                  "fa": "broad-based"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p9",
+              "text": {
+                "en": "Pay-to-play can soften anti-dilution: investors keep their protection only if they buy their share of the down round. It stops passive investors from gaining at others' cost.",
+                "fa": "pay-to-play می‌تواند anti-dilution را ملایم کند: سرمایه‌گذاران فقط اگر سهمشان را در down round بخرند حفاظتشان را نگه می‌دارند. این جلوی سود بردن سرمایه‌گذاران منفعل به هزینهٔ دیگران را می‌گیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l2k4",
+              "type": "tf",
+              "source": "b15c2l2p8",
+              "prompt": {
+                "en": "The book says founders can usually remove anti-dilution entirely from a term sheet.",
+                "fa": "کتاب می‌گوید بنیان‌گذاران معمولاً می‌توانند anti-dilution را کاملاً از term sheet حذف کنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p10",
+              "text": {
+                "en": "Anti-dilution mostly shifts dilution onto common holders, meaning founders and employees. In a down round, ask how much your stake shrinks after the adjustment.",
+                "fa": "anti-dilution عمدتاً رقیق‌شدن را به دارندگان سهام عادی، یعنی بنیان‌گذاران و کارکنان، منتقل می‌کند. در down round بپرس پس از تعدیل سهمت چقدر کوچک می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p11",
+              "text": {
+                "en": "The math is easier to see in a cap table model. Before any down round, run each anti-dilution formula and compare the results side by side.",
+                "fa": "حساب‌وکتابش در یک مدل cap table راحت‌تر دیده می‌شود. پیش از هر down round، هر فرمول anti-dilution را اجرا کن و نتایج را کنار هم مقایسه کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l2p12",
+              "text": {
+                "en": "As an option holder you sit in common, below anti-dilution protection. A startup with full ratchet terms carries more downside for your equity than one with broad-based terms.",
+                "fa": "به‌عنوان دارندهٔ option تو در ردهٔ سهام عادی و زیر حفاظت anti-dilution هستی. استارتاپی با full ratchet برای سهم تو ریسک نزولی بیشتری دارد تا استارتاپی با شرایط broad-based."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l2k5",
+              "type": "tap",
+              "source": "b15c2l2p10",
+              "prompt": {
+                "en": "Onto whom does anti-dilution mostly shift dilution?",
+                "fa": "anti-dilution رقیق‌شدن را عمدتاً به چه کسانی منتقل می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The lead investor",
+                  "fa": "سرمایه‌گذار پیشرو"
+                },
+                {
+                  "en": "Founders and employees",
+                  "fa": "بنیان‌گذاران و کارکنان"
+                },
+                {
+                  "en": "The company's bank",
+                  "fa": "بانک شرکت"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b15c2l3",
+          "title": {
+            "en": "Control terms: board, vetoes and drag-along",
+            "fa": "بندهای کنترلی: هیئت‌مدیره، وتو و drag-along"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 5 on control terms: the board, protective provisions, drag-along and conversion. It matters because control decides who can sell or steer the company you help build.",
+                "fa": "این درس فصل ۵ دربارهٔ بندهای کنترلی را خلاصه می‌کند: هیئت‌مدیره، protective provisions، drag-along و تبدیل. مهم است چون کنترل تعیین می‌کند چه کسی می‌تواند شرکتی را که تو می‌سازی بفروشد یا هدایت کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p2",
+              "text": {
+                "en": "Control terms give investors power beyond their share of ownership. A VC with 20 percent of the stock can still block major decisions.",
+                "fa": "بندهای کنترلی به سرمایه‌گذاران قدرتی فراتر از سهم مالکیتشان می‌دهند. VCای با ۲۰ درصد سهام هم می‌تواند جلوی تصمیم‌های بزرگ را بگیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p3",
+              "text": {
+                "en": "The board of directors is the main control mechanism. A balanced early board often mixes founders, investors and an independent director both sides accept.",
+                "fa": "هیئت‌مدیره سازوکار اصلی کنترل است. هیئت‌مدیرهٔ متوازن اولیه اغلب ترکیبی از بنیان‌گذاران، سرمایه‌گذاران و یک مدیر مستقل مورد قبول هر دو طرف است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l3k1",
+              "type": "tf",
+              "source": "b15c2l3p2",
+              "prompt": {
+                "en": "Control terms give investors power only in proportion to their ownership.",
+                "fa": "بندهای کنترلی فقط به نسبت مالکیت به سرمایه‌گذاران قدرت می‌دهند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p4",
+              "text": {
+                "en": "The book favours small boards, which decide faster than large ones. Observers can attend meetings without a vote.",
+                "fa": "کتاب هیئت‌مدیره‌های کوچک را ترجیح می‌دهد که سریع‌تر از بزرگ‌ها تصمیم می‌گیرند. ناظران (observer) می‌توانند بدون حق رأی در جلسات حاضر شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p5",
+              "text": {
+                "en": "Protective provisions are veto rights for preferred holders over key actions. Typical ones cover selling the company, changing preferred rights, issuing senior shares and changing board size.",
+                "fa": "protective provisions حق وتوی دارندگان سهام ترجیحی بر اقدامات کلیدی است. موارد رایج شامل فروش شرکت، تغییر حقوق سهام ترجیحی، انتشار سهام ارشد و تغییر اندازهٔ هیئت‌مدیره است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l3k2",
+              "type": "tap",
+              "source": "b15c2l3p5",
+              "prompt": {
+                "en": "What do protective provisions give preferred holders?",
+                "fa": "protective provisions به دارندگان سهام ترجیحی چه می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "A guaranteed dividend",
+                  "fa": "سود تضمین‌شده"
+                },
+                {
+                  "en": "Veto rights over key actions",
+                  "fa": "حق وتو بر اقدامات کلیدی"
+                },
+                {
+                  "en": "Extra common shares",
+                  "fa": "سهام عادی اضافه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p6",
+              "text": {
+                "en": "With several rounds, founders should push for one combined vote of all preferred series. Separate series votes let a small investor block a deal on its own.",
+                "fa": "با چند دور سرمایه‌گذاری، بنیان‌گذاران باید برای یک رأی مشترک همهٔ سری‌های ترجیحی پافشاری کنند. رأی جداگانهٔ هر سری به یک سرمایه‌گذار کوچک اجازه می‌دهد به‌تنهایی معامله را متوقف کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p7",
+              "text": {
+                "en": "Drag-along rights force other shareholders to vote for a sale that a set group, often the preferred majority, approves. They stop small holders from blocking an exit.",
+                "fa": "حق drag-along بقیهٔ سهام‌داران را ملزم می‌کند به فروشی رأی دهند که گروهی مشخص، اغلب اکثریت سهام ترجیحی، تأیید کرده است. این جلوی سهام‌داران کوچک را از متوقف کردن خروج می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p8",
+              "text": {
+                "en": "Founders can negotiate that a drag-along also needs approval of the board or of common holders. This prevents investors from forcing a sale that only pays their preference.",
+                "fa": "بنیان‌گذاران می‌توانند مذاکره کنند که drag-along تأیید هیئت‌مدیره یا دارندگان سهام عادی را هم لازم داشته باشد. این جلوی تحمیل فروشی را می‌گیرد که فقط ترجیح سرمایه‌گذاران را می‌پردازد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l3k3",
+              "type": "tap",
+              "source": "b15c2l3p7",
+              "prompt": {
+                "en": "What do drag-along rights force other shareholders to do?",
+                "fa": "حق drag-along بقیهٔ سهام‌داران را به چه کاری ملزم می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Buy more shares",
+                  "fa": "خرید سهام بیشتر"
+                },
+                {
+                  "en": "Leave the board",
+                  "fa": "ترک هیئت‌مدیره"
+                },
+                {
+                  "en": "Vote for an approved sale",
+                  "fa": "رأی به فروش تأییدشده"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p9",
+              "text": {
+                "en": "Conversion lets preferred holders turn their stock into common at any time, usually one to one. They do this when common pays more, as in a large sale.",
+                "fa": "حق تبدیل به دارندگان سهام ترجیحی اجازه می‌دهد هر زمان سهامشان را، معمولاً یک‌به‌یک، به سهام عادی تبدیل کنند. وقتی سهام عادی بیشتر بدهد، مثل یک فروش بزرگ، این کار را می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l3k4",
+              "type": "tf",
+              "source": "b15c2l3p8",
+              "prompt": {
+                "en": "Founders can negotiate that a drag-along also needs board or common approval.",
+                "fa": "بنیان‌گذاران می‌توانند مذاکره کنند که drag-along تأیید هیئت‌مدیره یا سهام عادی را هم لازم داشته باشد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p10",
+              "text": {
+                "en": "Automatic conversion turns all preferred into common at an IPO above a set price or size. Founders want that threshold low enough that holdouts cannot block a good IPO.",
+                "fa": "تبدیل خودکار همهٔ سهام ترجیحی را در IPOای بالای یک قیمت یا اندازهٔ مشخص به سهام عادی تبدیل می‌کند. بنیان‌گذاران می‌خواهند این آستانه آن‌قدر پایین باشد که مخالفان نتوانند جلوی یک IPO خوب را بگیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p11",
+              "text": {
+                "en": "Control terms outlast the valuation: the price is set once, but the board and vetoes shape every later decision. Read them as carefully as the price.",
+                "fa": "بندهای کنترلی از ارزش‌گذاری ماندگارترند: قیمت یک بار تعیین می‌شود، اما هیئت‌مدیره و حق وتو هر تصمیم بعدی را شکل می‌دهند. آن‌ها را به همان دقت قیمت بخوان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l3p12",
+              "text": {
+                "en": "When a startup offers you equity, ask who sits on the board and what the protective provisions cover. A fair price with a bad board can still cost you the company.",
+                "fa": "وقتی استارتاپی به تو سهم پیشنهاد می‌دهد، بپرس چه کسانی در هیئت‌مدیره‌اند و protective provisions چه چیزهایی را پوشش می‌دهد. قیمت منصفانه با هیئت‌مدیرهٔ بد هم می‌تواند شرکت را از دستت بگیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l3k5",
+              "type": "tap",
+              "source": "b15c2l3p9",
+              "prompt": {
+                "en": "When do preferred holders usually convert to common?",
+                "fa": "دارندگان سهام ترجیحی معمولاً کی به سهام عادی تبدیل می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "When common pays more",
+                  "fa": "وقتی سهام عادی بیشتر بدهد"
+                },
+                {
+                  "en": "When the company is losing money",
+                  "fa": "وقتی شرکت ضرر می‌کند"
+                },
+                {
+                  "en": "When the board changes",
+                  "fa": "وقتی هیئت‌مدیره عوض می‌شود"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b15c2l4",
+          "title": {
+            "en": "The other terms that still bite",
+            "fa": "بندهای دیگری که هنوز نیش دارند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the remaining terms of chapters 4 and 5: dividends, redemption, information rights and more. It matters because a few of these clauses can surprise you years later.",
+                "fa": "این درس بندهای باقی‌ماندهٔ فصل‌های ۴ و ۵ را خلاصه می‌کند: سود سهام، redemption، حق اطلاعات و بیشتر. مهم است چون چند تا از این بندها می‌توانند سال‌ها بعد غافلگیرت کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p2",
+              "text": {
+                "en": "Dividends on preferred stock are usually small and non-cumulative in venture deals. The book says they matter little unless the deal looks more like private equity.",
+                "fa": "سود سهام ترجیحی در معاملات venture معمولاً کم و غیرانباشتی است. کتاب می‌گوید اهمیت کمی دارد، مگر اینکه معامله بیشتر شبیه private equity باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p3",
+              "text": {
+                "en": "Cumulative dividends add up each year and are paid at an exit. On a long-held investment they can quietly grow the investors' return.",
+                "fa": "سود انباشتی هر سال جمع می‌شود و هنگام خروج پرداخت می‌شود. در سرمایه‌گذاری بلندمدت می‌تواند بی‌سروصدا بازده سرمایه‌گذاران را بالا ببرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l4k1",
+              "type": "tf",
+              "source": "b15c2l4p2",
+              "prompt": {
+                "en": "The book says dividends are usually the most important economic term in VC deals.",
+                "fa": "کتاب می‌گوید سود سهام معمولاً مهم‌ترین بند اقتصادی در معاملات VC است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p4",
+              "text": {
+                "en": "Redemption rights let investors force the company to buy back their shares after some years. They are rarely used but give leverage if things go sideways.",
+                "fa": "حق redemption به سرمایه‌گذاران اجازه می‌دهد پس از چند سال شرکت را به بازخرید سهامشان وادار کنند. به‌ندرت استفاده می‌شود، اما اگر اوضاع خراب شود اهرم فشار می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p5",
+              "text": {
+                "en": "Conditions precedent list what must happen before investors fund, such as due diligence and final documents. A long list can signal the VC is not yet committed.",
+                "fa": "conditions precedent فهرست کارهایی است که پیش از پرداخت سرمایه باید انجام شود، مثل due diligence و اسناد نهایی. فهرست طولانی می‌تواند نشانهٔ متعهد نبودن VC باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l4k2",
+              "type": "tap",
+              "source": "b15c2l4p5",
+              "prompt": {
+                "en": "What can a long list of conditions precedent signal?",
+                "fa": "فهرست طولانی conditions precedent نشانهٔ چه می‌تواند باشد؟"
+              },
+              "options": [
+                {
+                  "en": "The price is too low",
+                  "fa": "قیمت خیلی پایین است"
+                },
+                {
+                  "en": "The board is too big",
+                  "fa": "هیئت‌مدیره خیلی بزرگ است"
+                },
+                {
+                  "en": "The VC is not yet committed",
+                  "fa": "VC هنوز متعهد نیست"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p6",
+              "text": {
+                "en": "Information rights give investors access to financial statements, budgets and other reports. They are standard and rarely worth a fight.",
+                "fa": "حق اطلاعات به سرمایه‌گذاران دسترسی به صورت‌های مالی، بودجه و گزارش‌های دیگر می‌دهد. استاندارد است و به‌ندرت ارزش جنگیدن دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p7",
+              "text": {
+                "en": "Registration rights let investors require the company to register their shares for public sale. They matter little in practice, since most exits are sales rather than IPOs.",
+                "fa": "حق ثبت به سرمایه‌گذاران اجازه می‌دهد از شرکت بخواهند سهامشان را برای فروش عمومی ثبت کند. در عمل اهمیت کمی دارد، چون بیشتر خروج‌ها فروش شرکت‌اند نه IPO."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p8",
+              "text": {
+                "en": "A pro rata right lets investors buy their share of future financings. It keeps their ownership from falling as the company raises again.",
+                "fa": "حق pro rata به سرمایه‌گذاران اجازه می‌دهد سهمشان را در دورهای آینده بخرند. این کار جلوی کاهش مالکیتشان را هنگام جذب سرمایهٔ بعدی می‌گیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l4k3",
+              "type": "tf",
+              "source": "b15c2l4p7",
+              "prompt": {
+                "en": "Registration rights are a top issue in most startup exits.",
+                "fa": "حق ثبت در بیشتر خروج‌های استارتاپی موضوعی اصلی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p9",
+              "text": {
+                "en": "Founders usually give the company a right of first refusal on their own share sales and sign a co-sale agreement. So founders cannot easily sell stock privately.",
+                "fa": "بنیان‌گذاران معمولاً به شرکت حق اولویت خرید روی فروش سهام خودشان می‌دهند و قرارداد co-sale امضا می‌کنند. پس نمی‌توانند به‌راحتی سهامشان را خصوصی بفروشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p10",
+              "text": {
+                "en": "The no-shop clause forbids the company from seeking other investors for a set time after signing the term sheet. Keep it short and give it a clear end date.",
+                "fa": "بند no-shop شرکت را برای مدتی مشخص پس از امضای term sheet از جست‌وجوی سرمایه‌گذاران دیگر منع می‌کند. آن را کوتاه نگه دار و تاریخ پایان روشن برایش بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l4k4",
+              "type": "tap",
+              "source": "b15c2l4p10",
+              "prompt": {
+                "en": "What does a no-shop clause forbid after the term sheet is signed?",
+                "fa": "بند no-shop پس از امضای term sheet چه چیزی را منع می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Seeking other investors",
+                  "fa": "جست‌وجوی سرمایه‌گذاران دیگر"
+                },
+                {
+                  "en": "Hiring new staff",
+                  "fa": "استخدام کارکنان جدید"
+                },
+                {
+                  "en": "Paying salaries",
+                  "fa": "پرداخت حقوق"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p11",
+              "text": {
+                "en": "Employees sign a proprietary information and inventions agreement assigning their work to the company. VCs check that every founder and engineer has signed one.",
+                "fa": "کارکنان قرارداد اطلاعات اختصاصی و اختراعات امضا می‌کنند که کارشان را به شرکت واگذار می‌کند. VCها بررسی می‌کنند که همهٔ بنیان‌گذاران و مهندسان آن را امضا کرده باشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c2l4p12",
+              "text": {
+                "en": "For an engineer, the inventions agreement is the clause to read closely. Make sure side projects you build on your own time are listed as excluded before you sign.",
+                "fa": "برای یک مهندس، قرارداد اختراعات همان بندی است که باید با دقت خوانده شود. پیش از امضا مطمئن شو پروژه‌های جانبی‌ای که در وقت خودت می‌سازی به‌عنوان مستثنا فهرست شده‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c2l4k5",
+              "type": "tap",
+              "source": "b15c2l4p8",
+              "prompt": {
+                "en": "What does a pro rata right let investors do?",
+                "fa": "حق pro rata به سرمایه‌گذاران اجازهٔ چه کاری می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Sell shares to anyone",
+                  "fa": "فروش سهام به هر کسی"
+                },
+                {
+                  "en": "Buy their share of future financings",
+                  "fa": "خرید سهمشان در دورهای آینده"
+                },
+                {
+                  "en": "Replace the CEO",
+                  "fa": "جایگزینی مدیرعامل"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b15c3",
+      "title": {
+        "en": "Notes, funds, negotiation and exits",
+        "fa": "convertible note، صندوق‌ها، مذاکره و خروج"
+      },
+      "lessons": [
+        {
+          "id": "b15c3l1",
+          "title": {
+            "en": "Convertible notes and SAFEs",
+            "fa": "convertible note و SAFE"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter on convertible debt, plus the SAFEs covered in later editions. It matters because many first checks for a small AI product arrive as notes or SAFEs.",
+                "fa": "این درس فصل convertible debt و SAFEهایی را که در ویرایش‌های بعدی آمده‌اند خلاصه می‌کند. مهم است چون بسیاری از نخستین سرمایه‌ها برای یک محصول کوچک AI به شکل note یا SAFE می‌رسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p2",
+              "text": {
+                "en": "A convertible note is a loan that converts into equity at the next priced round. Investors skip agreeing a price now and get shares later at that round's price, plus a reward.",
+                "fa": "convertible note وامی است که در دور قیمت‌گذاری‌شدهٔ بعدی به سهام تبدیل می‌شود. سرمایه‌گذاران الان روی قیمت توافق نمی‌کنند و بعداً با قیمت آن دور، به‌علاوهٔ یک پاداش، سهم می‌گیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p3",
+              "text": {
+                "en": "The discount is one reward: noteholders convert at a lower price than new investors, often 10 to 30 percent below. A 20 percent discount is common.",
+                "fa": "تخفیف یکی از پاداش‌هاست: دارندگان note با قیمتی پایین‌تر از سرمایه‌گذاران جدید تبدیل می‌کنند، اغلب ۱۰ تا ۳۰ درصد کمتر. تخفیف ۲۰ درصدی رایج است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l1k1",
+              "type": "tf",
+              "source": "b15c3l1p2",
+              "prompt": {
+                "en": "A convertible note fixes a share price on the day it is signed.",
+                "fa": "convertible note در روز امضا قیمت سهم را ثابت می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p4",
+              "text": {
+                "en": "The valuation cap is a second reward: it sets a maximum valuation at which the note converts. If the next round prices higher, noteholders convert at the cap.",
+                "fa": "سقف ارزش‌گذاری (valuation cap) پاداش دوم است: حداکثر ارزش‌گذاری‌ای را که note با آن تبدیل می‌شود تعیین می‌کند. اگر دور بعد قیمت بالاتری داشته باشد، دارندگان note با همان سقف تبدیل می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p5",
+              "text": {
+                "en": "The book warns that a cap often acts like a ceiling on the next valuation, because new investors anchor on it. So a note does not truly avoid the price discussion.",
+                "fa": "کتاب هشدار می‌دهد که سقف اغلب مثل سقفی برای ارزش‌گذاری بعدی عمل می‌کند، چون سرمایه‌گذاران جدید روی آن لنگر می‌اندازند. پس note واقعاً بحث قیمت را دور نمی‌زند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l1k2",
+              "type": "tap",
+              "source": "b15c3l1p4",
+              "prompt": {
+                "en": "What does a valuation cap set?",
+                "fa": "valuation cap چه چیزی را تعیین می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A minimum interest rate",
+                  "fa": "حداقل نرخ بهره"
+                },
+                {
+                  "en": "A maximum valuation at which the note converts",
+                  "fa": "حداکثر ارزش‌گذاری‌ای که note با آن تبدیل می‌شود"
+                },
+                {
+                  "en": "A deadline for the next round",
+                  "fa": "مهلتی برای دور بعد"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p6",
+              "text": {
+                "en": "Notes also carry an interest rate, which adds to the amount that converts, and a maturity date. At maturity the investor can in theory ask for the money back.",
+                "fa": "noteها نرخ بهره هم دارند که به مبلغ قابل تبدیل اضافه می‌شود و یک تاریخ سررسید. در سررسید، سرمایه‌گذار در تئوری می‌تواند پولش را پس بخواهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p7",
+              "text": {
+                "en": "Notes are faster and cheaper to set up than a priced round, which suits small early amounts. The trade-off is less clarity on ownership until conversion.",
+                "fa": "راه‌اندازی note سریع‌تر و ارزان‌تر از یک دور قیمت‌گذاری‌شده است و به مبالغ کوچک اولیه می‌خورد. بهایش ابهام بیشتر دربارهٔ مالکیت تا زمان تبدیل است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p8",
+              "text": {
+                "en": "Several notes with different caps and discounts can make the next cap table hard to predict. Model the conversion before you sign each one.",
+                "fa": "چند note با سقف‌ها و تخفیف‌های مختلف می‌تواند cap table بعدی را غیرقابل پیش‌بینی کند. پیش از امضای هر کدام، تبدیل را مدل کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l1k3",
+              "type": "tap",
+              "source": "b15c3l1p7",
+              "prompt": {
+                "en": "Why do notes suit small early amounts?",
+                "fa": "چرا note به مبالغ کوچک اولیه می‌خورد؟"
+              },
+              "options": [
+                {
+                  "en": "Faster and cheaper to set up",
+                  "fa": "راه‌اندازی سریع‌تر و ارزان‌تر"
+                },
+                {
+                  "en": "They give investors board control",
+                  "fa": "به سرمایه‌گذاران کنترل هیئت‌مدیره می‌دهد"
+                },
+                {
+                  "en": "They fix the share price early",
+                  "fa": "قیمت سهم را زود ثابت می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p9",
+              "text": {
+                "en": "The SAFE, or simple agreement for future equity, was introduced by Y Combinator in 2013. It works like a note with a cap and discount but is not debt.",
+                "fa": "SAFE یا simple agreement for future equity را Y Combinator در سال ۲۰۱۳ معرفی کرد. مثل note با سقف و تخفیف کار می‌کند، اما بدهی نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p10",
+              "text": {
+                "en": "Because a SAFE is not a loan, it has no interest rate and no maturity date. The investor cannot demand repayment and waits for a priced round or a sale.",
+                "fa": "چون SAFE وام نیست، نرخ بهره و تاریخ سررسید ندارد. سرمایه‌گذار نمی‌تواند بازپرداخت بخواهد و منتظر یک دور قیمت‌گذاری‌شده یا فروش می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l1k4",
+              "type": "tf",
+              "source": "b15c3l1p10",
+              "prompt": {
+                "en": "A SAFE carries an interest rate and a maturity date like a loan.",
+                "fa": "SAFE مثل وام نرخ بهره و تاریخ سررسید دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p11",
+              "text": {
+                "en": "Post-money SAFEs, used since 2018, state the investor's ownership after all SAFEs convert. That makes dilution easier to read, and it lands on the founders.",
+                "fa": "SAFEهای post-money که از ۲۰۱۸ استفاده می‌شوند، مالکیت سرمایه‌گذار را پس از تبدیل همهٔ SAFEها بیان می‌کنند. این رقیق‌شدن را خواناتر می‌کند و بار آن روی بنیان‌گذاران می‌افتد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l1p12",
+              "text": {
+                "en": "If your AI product raises a small angel check, a standard SAFE may be the simplest route. Still write the expected conversion into your cap table so you know your real share.",
+                "fa": "اگر محصول AI تو مبلغ کوچکی از یک فرشته جذب کند، SAFE استاندارد شاید ساده‌ترین راه باشد. باز هم تبدیل مورد انتظار را در cap table بنویس تا سهم واقعی‌ات را بدانی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l1k5",
+              "type": "tap",
+              "source": "b15c3l1p9",
+              "prompt": {
+                "en": "Who introduced the SAFE in 2013?",
+                "fa": "چه کسی SAFE را در سال ۲۰۱۳ معرفی کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Techstars",
+                  "fa": "Techstars"
+                },
+                {
+                  "en": "Foundry Group",
+                  "fa": "Foundry Group"
+                },
+                {
+                  "en": "Y Combinator",
+                  "fa": "Y Combinator"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b15c3l2",
+          "title": {
+            "en": "How venture capital funds work",
+            "fa": "صندوق‌های venture capital چطور کار می‌کنند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter on how venture capital funds work. It matters because a VC's fund structure, not just your startup, shapes how they behave on your board.",
+                "fa": "این درس فصل «صندوق‌های venture capital چطور کار می‌کنند» را خلاصه می‌کند. مهم است چون ساختار صندوق VC، نه فقط استارتاپ تو، رفتار او را در هیئت‌مدیره شکل می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p2",
+              "text": {
+                "en": "A VC firm usually has a management company and raises separate funds over time. Each fund is a limited partnership, run by general partners, with limited partners supplying money.",
+                "fa": "یک شرکت VC معمولاً یک management company دارد و به‌مرور صندوق‌های جداگانه جمع می‌کند. هر صندوق یک limited partnership است که general partnerها اداره‌اش می‌کنند و limited partnerها پولش را تأمین می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p3",
+              "text": {
+                "en": "Limited partners include pension funds, university endowments, foundations, funds of funds and wealthy individuals. VCs answer to them, as entrepreneurs answer to VCs.",
+                "fa": "limited partnerها شامل صندوق‌های بازنشستگی، موقوفات دانشگاهی، بنیادها، fund of funds و افراد ثروتمندند. VCها به آن‌ها جواب پس می‌دهند، همان‌طور که کارآفرینان به VCها."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l2k1",
+              "type": "tap",
+              "source": "b15c3l2p2",
+              "prompt": {
+                "en": "Who supplies the money in a VC fund?",
+                "fa": "پول یک صندوق VC را چه کسانی تأمین می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "General partners",
+                  "fa": "general partnerها"
+                },
+                {
+                  "en": "Portfolio founders",
+                  "fa": "بنیان‌گذاران شرکت‌های پرتفوی"
+                },
+                {
+                  "en": "Limited partners",
+                  "fa": "limited partnerها"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p4",
+              "text": {
+                "en": "The management fee pays salaries and costs, typically about 2 to 2.5 percent of the fund each year. Over a ten-year fund, fees absorb a large share of committed capital.",
+                "fa": "management fee حقوق و هزینه‌ها را می‌پردازد، معمولاً سالانه حدود ۲ تا ۲٫۵ درصد صندوق. در یک صندوق ده‌ساله، کارمزدها سهم بزرگی از سرمایهٔ تعهدشده را می‌بلعند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p5",
+              "text": {
+                "en": "Carried interest, or carry, is the VCs' share of profits, usually 20 percent and sometimes up to 30. LPs normally get their capital back before carry is paid.",
+                "fa": "carried interest یا carry سهم VCها از سود است، معمولاً ۲۰ درصد و گاهی تا ۳۰. LPها معمولاً پیش از پرداخت carry سرمایه‌شان را پس می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l2k2",
+              "type": "tf",
+              "source": "b15c3l2p5",
+              "prompt": {
+                "en": "Carry is usually paid before LPs get their capital back.",
+                "fa": "carry معمولاً پیش از بازگشت سرمایهٔ LPها پرداخت می‌شود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p6",
+              "text": {
+                "en": "A clawback lets LPs recover carry paid too early if later losses mean the VCs took more than their share. It is one reason VCs care about the fund's total result.",
+                "fa": "clawback به LPها اجازه می‌دهد carryای را که زود پرداخت شده پس بگیرند، اگر زیان‌های بعدی نشان دهد VCها بیش از سهمشان برداشته‌اند. این یکی از دلایلی است که VCها به نتیجهٔ کل صندوق اهمیت می‌دهند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p7",
+              "text": {
+                "en": "A fund typically lasts about ten years, with possible extensions. The first years are the investment period for new deals; after that, money goes mainly to existing companies.",
+                "fa": "یک صندوق معمولاً حدود ده سال عمر دارد و ممکن است تمدید شود. سال‌های اول دورهٔ سرمایه‌گذاری در معاملات جدید است؛ پس از آن پول عمدتاً به شرکت‌های موجود می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p8",
+              "text": {
+                "en": "VCs keep reserves, money set aside for follow-on rounds in their companies. A firm low on reserves may not support you in a later round.",
+                "fa": "VCها ذخیره (reserves) نگه می‌دارند، پولی که برای دورهای بعدی شرکت‌هایشان کنار گذاشته شده. شرکتی که ذخیره‌اش کم است شاید در دور بعد از تو حمایت نکند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l2k3",
+              "type": "tap",
+              "source": "b15c3l2p8",
+              "prompt": {
+                "en": "What are reserves in a VC fund?",
+                "fa": "reserves در یک صندوق VC چیست؟"
+              },
+              "options": [
+                {
+                  "en": "The management fee",
+                  "fa": "management fee"
+                },
+                {
+                  "en": "Money set aside for follow-on rounds",
+                  "fa": "پولی که برای دورهای بعدی کنار گذاشته شده"
+                },
+                {
+                  "en": "Carry paid to partners",
+                  "fa": "carry پرداخت‌شده به شرکا"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p9",
+              "text": {
+                "en": "Near the end of a fund's life, VCs may push for exits to return money to LPs. Ask where your investor's fund is in its cycle.",
+                "fa": "نزدیک پایان عمر صندوق، VCها ممکن است برای بازگرداندن پول به LPها به خروج فشار بیاورند. بپرس صندوق سرمایه‌گذارت در کجای چرخه‌اش است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l2k4",
+              "type": "tf",
+              "source": "b15c3l2p9",
+              "prompt": {
+                "en": "Near the end of a fund's life, VCs may push for exits.",
+                "fa": "نزدیک پایان عمر صندوق، VCها ممکن است به خروج فشار بیاورند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p10",
+              "text": {
+                "en": "Cross-fund investing happens when a firm's newer fund invests in a company an older fund already owns. It creates conflicts the book asks founders to watch.",
+                "fa": "cross-fund investing وقتی رخ می‌دهد که صندوق جدیدتر یک شرکت در شرکتی سرمایه‌گذاری کند که صندوق قدیمی‌تر از قبل مالکش است. این تعارض منافعی ایجاد می‌کند که کتاب از بنیان‌گذاران می‌خواهد مراقبش باشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p11",
+              "text": {
+                "en": "VCs on your board owe fiduciary duties to all shareholders, yet they also answer to their own LPs. The book is open that these duties can pull in different directions.",
+                "fa": "VCهای عضو هیئت‌مدیره در برابر همهٔ سهام‌داران وظیفهٔ امانی دارند، اما به LPهای خودشان هم جواب پس می‌دهند. کتاب صریحاً می‌گوید این وظایف می‌توانند در جهت‌های مختلف بکشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l2p12",
+              "text": {
+                "en": "LPs pay roughly 2 and 20 for access to a few top deals. Your own core stays in low-cost index ETFs, with any startup bets kept inside the 20 percent satellite.",
+                "fa": "LPها تقریباً «۲ و ۲۰» می‌پردازند تا به چند معاملهٔ برتر دسترسی پیدا کنند. هستهٔ دارایی خودت در ETFهای شاخصی کم‌هزینه می‌ماند و هر شرط استارتاپی داخل بخش ۲۰ درصدی satellite می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l2k5",
+              "type": "tap",
+              "source": "b15c3l2p11",
+              "prompt": {
+                "en": "To whom do VC board members owe fiduciary duties?",
+                "fa": "VCهای عضو هیئت‌مدیره در برابر چه کسانی وظیفهٔ امانی دارند؟"
+              },
+              "options": [
+                {
+                  "en": "Only the founders",
+                  "fa": "فقط بنیان‌گذاران"
+                },
+                {
+                  "en": "Only their own firm",
+                  "fa": "فقط شرکت خودشان"
+                },
+                {
+                  "en": "All shareholders",
+                  "fa": "همهٔ سهام‌داران"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b15c3l3",
+          "title": {
+            "en": "Negotiation tactics",
+            "fa": "تاکتیک‌های مذاکره"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the book's chapter on negotiation tactics. It matters because how you negotiate your first term sheet or CTO offer sets the tone of a relationship that may last ten years.",
+                "fa": "این درس فصل تاکتیک‌های مذاکرهٔ کتاب را خلاصه می‌کند. مهم است چون شیوهٔ مذاکره‌ات روی نخستین term sheet یا پیشنهاد CTO، لحن رابطه‌ای را تعیین می‌کند که شاید ده سال طول بکشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p2",
+              "text": {
+                "en": "The first rule is to prepare: know the terms, know what matters to you and learn about the people across the table. Talk to founders the VC has backed before.",
+                "fa": "قاعدهٔ اول آمادگی است: بندها را بشناس، بدان چه چیزی برایت مهم است و دربارهٔ آدم‌های آن طرف میز اطلاعات جمع کن. با بنیان‌گذارانی که VC قبلاً از آن‌ها حمایت کرده حرف بزن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p3",
+              "text": {
+                "en": "Know what really matters, then focus there. Founders who fight every clause waste goodwill and can lose on the few terms that count.",
+                "fa": "بدان واقعاً چه چیزی مهم است و روی همان تمرکز کن. بنیان‌گذارانی که سر هر بندی می‌جنگند حسن‌نیت را هدر می‌دهند و ممکن است روی همان چند بند مهم ببازند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l3k1",
+              "type": "tf",
+              "source": "b15c3l3p3",
+              "prompt": {
+                "en": "The book advises fighting hard on every clause in the term sheet.",
+                "fa": "کتاب توصیه می‌کند سر هر بند term sheet سخت بجنگی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p4",
+              "text": {
+                "en": "The best leverage is having more than one option. A founder with two interested lead investors gets far better terms than one with a single offer.",
+                "fa": "بهترین اهرم داشتن بیش از یک گزینه است. بنیان‌گذاری با دو سرمایه‌گذار پیشروی علاقه‌مند شرایط بسیار بهتری از کسی می‌گیرد که فقط یک پیشنهاد دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p5",
+              "text": {
+                "en": "The book borrows from game theory: a VC deal is a repeated game, not a one-off sale. Both sides will work together for years, so burning trust is costly.",
+                "fa": "کتاب از نظریهٔ بازی‌ها وام می‌گیرد: معاملهٔ VC یک بازی تکراری است، نه یک فروش یک‌باره. دو طرف سال‌ها با هم کار می‌کنند، پس سوزاندن اعتماد گران تمام می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l3k2",
+              "type": "tap",
+              "source": "b15c3l3p4",
+              "prompt": {
+                "en": "What does the book call the best leverage in a negotiation?",
+                "fa": "کتاب بهترین اهرم در مذاکره را چه می‌داند؟"
+              },
+              "options": [
+                {
+                  "en": "A tough lawyer",
+                  "fa": "یک وکیل سرسخت"
+                },
+                {
+                  "en": "Having more than one option",
+                  "fa": "داشتن بیش از یک گزینه"
+                },
+                {
+                  "en": "A short deadline",
+                  "fa": "یک مهلت کوتاه"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p6",
+              "text": {
+                "en": "Negotiators differ in style: some push hard, some are friendly but firm, some go silent. The book suggests reading each style while staying calm and consistent yourself.",
+                "fa": "مذاکره‌کنندگان سبک‌های متفاوتی دارند: برخی فشار می‌آورند، برخی دوستانه اما محکم‌اند، برخی ساکت می‌شوند. کتاب پیشنهاد می‌کند هر سبک را بشناسی و خودت آرام و ثابت‌قدم بمانی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p7",
+              "text": {
+                "en": "Never lie in a negotiation; the venture world is small and reputations travel. Bluffing about offers you do not have can end a deal.",
+                "fa": "در مذاکره هرگز دروغ نگو؛ دنیای venture کوچک است و آبرو دهان‌به‌دهان می‌چرخد. بلوف زدن دربارهٔ پیشنهادهایی که نداری می‌تواند معامله را تمام کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p8",
+              "text": {
+                "en": "Collaborative negotiation works better than win-lose in venture deals. Aim for terms both sides can live with when the company struggles.",
+                "fa": "در معاملات venture، مذاکرهٔ همکارانه بهتر از برد-باخت جواب می‌دهد. دنبال شرایطی باش که هر دو طرف وقتی شرکت در سختی است هم بتوانند با آن کنار بیایند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l3k3",
+              "type": "tap",
+              "source": "b15c3l3p5",
+              "prompt": {
+                "en": "How does the book describe a VC deal in game theory terms?",
+                "fa": "کتاب معاملهٔ VC را با زبان نظریهٔ بازی‌ها چطور توصیف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A one-off sale",
+                  "fa": "یک فروش یک‌باره"
+                },
+                {
+                  "en": "A zero-sum auction",
+                  "fa": "یک مزایدهٔ حاصل‌جمع صفر"
+                },
+                {
+                  "en": "A repeated game",
+                  "fa": "یک بازی تکراری"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p9",
+              "text": {
+                "en": "Choose a lawyer who knows venture deals and negotiates firmly but fairly. An overly aggressive lawyer can damage your relationship with investors before it starts.",
+                "fa": "وکیلی انتخاب کن که معاملات venture را بشناسد و محکم اما منصفانه مذاکره کند. وکیل بیش از حد تهاجمی می‌تواند رابطه‌ات با سرمایه‌گذاران را پیش از شروع خراب کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p10",
+              "text": {
+                "en": "Watch how investors negotiate, because they will likely behave the same way on your board. A VC who is unreasonable now will likely be unreasonable in a crisis.",
+                "fa": "ببین سرمایه‌گذاران چطور مذاکره می‌کنند، چون احتمالاً در هیئت‌مدیره هم همان‌طور رفتار می‌کنند. VCای که الان نامعقول است احتمالاً در بحران هم نامعقول خواهد بود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l3k4",
+              "type": "tf",
+              "source": "b15c3l3p10",
+              "prompt": {
+                "en": "How a VC negotiates hints at how they will act on your board.",
+                "fa": "شیوهٔ مذاکرهٔ VC نشانه‌ای از رفتار او در هیئت‌مدیرهٔ توست."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p11",
+              "text": {
+                "en": "Do not let the lawyers own the whole process; key business points should be settled by founders and VCs directly. Lawyers then turn the agreement into documents.",
+                "fa": "نگذار وکیل‌ها کل فرایند را در دست بگیرند؛ نکات کلیدی تجاری را باید بنیان‌گذاران و VCها مستقیم حل کنند. وکیل‌ها بعد توافق را به سند تبدیل می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l3p12",
+              "text": {
+                "en": "Apply this to a CTO equity grant: list your must-haves such as vesting, acceleration and pool size, keep more than one option, and log each decision in your journal.",
+                "fa": "این را روی اعطای سهم CTO پیاده کن: چیزهای ضروری‌ات مثل vesting، acceleration و اندازهٔ استخر را فهرست کن، بیش از یک گزینه داشته باش و هر تصمیم را در دفتر تصمیم‌هایت ثبت کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l3k5",
+              "type": "tap",
+              "source": "b15c3l3p9",
+              "prompt": {
+                "en": "What kind of lawyer does the book recommend?",
+                "fa": "کتاب چه نوع وکیلی را توصیه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A family friend who does general work",
+                  "fa": "دوست خانوادگی‌ای که کار عمومی می‌کند"
+                },
+                {
+                  "en": "One who knows venture deals",
+                  "fa": "کسی که معاملات venture را می‌شناسد"
+                },
+                {
+                  "en": "The cheapest one available",
+                  "fa": "ارزان‌ترین گزینهٔ موجود"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b15c3l4",
+          "title": {
+            "en": "Letters of intent: the other term sheet",
+            "fa": "letter of intent: آن term sheet دیگر"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b15c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter on letters of intent, the term sheet for an acquisition. It matters because a sale is how most startup equity, including yours, finally turns into cash.",
+                "fa": "این درس فصل letter of intent، یعنی term sheet خرید شرکت، را خلاصه می‌کند. مهم است چون فروش شرکت راهی است که بیشتر سهام استارتاپی، از جمله سهم تو، سرانجام به پول نقد تبدیل می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p2",
+              "text": {
+                "en": "When a company is bought, the buyer usually sends a letter of intent, or LOI. Like a term sheet, it sets the main terms before lawyers draft the final purchase agreement.",
+                "fa": "وقتی شرکتی خریده می‌شود، خریدار معمولاً یک letter of intent یا LOI می‌فرستد. مثل term sheet، شرایط اصلی را پیش از نوشتن قرارداد نهایی خرید توسط وکیل‌ها تعیین می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p3",
+              "text": {
+                "en": "Price is the headline, but the structure and terms around it can matter as much. A high price with harsh escrow can be worth less than a lower, cleaner offer.",
+                "fa": "قیمت تیتر اصلی است، اما ساختار و بندهای اطرافش می‌توانند به همان اندازه مهم باشند. قیمت بالا با escrow سخت‌گیرانه ممکن است کمتر از پیشنهادی پایین‌تر و تمیزتر بیرزد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l4k1",
+              "type": "tf",
+              "source": "b15c3l4p3",
+              "prompt": {
+                "en": "Price is the only LOI term that really matters.",
+                "fa": "قیمت تنها بند LOI است که واقعاً اهمیت دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p4",
+              "text": {
+                "en": "In an asset deal the buyer purchases selected assets and leaves the liabilities behind. In a stock deal the buyer buys the company's shares, liabilities included.",
+                "fa": "در asset deal خریدار دارایی‌های منتخب را می‌خرد و بدهی‌ها را جا می‌گذارد. در stock deal خریدار سهام شرکت را با بدهی‌هایش می‌خرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p5",
+              "text": {
+                "en": "Buyers usually prefer asset deals for the lower risk, and sellers usually prefer stock deals. Tax effects also differ, so both sides model them.",
+                "fa": "خریداران معمولاً asset deal را به‌خاطر ریسک کمتر ترجیح می‌دهند و فروشندگان معمولاً stock deal را. اثرات مالیاتی هم فرق دارد، پس هر دو طرف آن را مدل می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l4k2",
+              "type": "tap",
+              "source": "b15c3l4p4",
+              "prompt": {
+                "en": "What does the buyer leave behind in an asset deal?",
+                "fa": "خریدار در asset deal چه چیزی را جا می‌گذارد؟"
+              },
+              "options": [
+                {
+                  "en": "The customers",
+                  "fa": "مشتریان"
+                },
+                {
+                  "en": "The liabilities",
+                  "fa": "بدهی‌ها"
+                },
+                {
+                  "en": "The source code",
+                  "fa": "کد منبع"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p6",
+              "text": {
+                "en": "The form of consideration is how the price is paid: cash, the buyer's stock, or a mix. Stock in a private buyer is riskier than cash or public stock.",
+                "fa": "form of consideration یعنی شیوهٔ پرداخت قیمت: نقد، سهام خریدار، یا ترکیبی از این دو. سهام یک خریدار خصوصی پرریسک‌تر از نقد یا سهام بورسی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p7",
+              "text": {
+                "en": "An escrow, or holdback, keeps part of the price, often 10 to 20 percent, for a year or more. It covers claims if the seller's representations and warranties turn out wrong.",
+                "fa": "escrow یا holdback بخشی از قیمت، اغلب ۱۰ تا ۲۰ درصد، را یک سال یا بیشتر نگه می‌دارد. این مبلغ ادعاهایی را پوشش می‌دهد که اگر اظهارات و تضمین‌های فروشنده نادرست از آب درآید پیش می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p8",
+              "text": {
+                "en": "Indemnification sets how much the seller must repay for such claims, and up to what cap. Founders should negotiate for the escrow to be the main limit of that exposure.",
+                "fa": "indemnification تعیین می‌کند فروشنده برای چنین ادعاهایی چقدر و تا چه سقفی باید بازپرداخت کند. بنیان‌گذاران باید مذاکره کنند که escrow حد اصلی این ریسک باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l4k3",
+              "type": "tap",
+              "source": "b15c3l4p7",
+              "prompt": {
+                "en": "What does an escrow in an acquisition cover?",
+                "fa": "escrow در خرید شرکت چه چیزی را پوشش می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Claims if representations and warranties turn out wrong",
+                  "fa": "ادعاها در صورت نادرستی اظهارات و تضمین‌ها"
+                },
+                {
+                  "en": "The buyer's legal fees",
+                  "fa": "هزینه‌های حقوقی خریدار"
+                },
+                {
+                  "en": "Employee holiday pay",
+                  "fa": "حقوق مرخصی کارکنان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p9",
+              "text": {
+                "en": "Employee matters include how unvested options are treated and what retention packages key staff get. Buyers often set aside new stock to keep the team.",
+                "fa": "موضوعات کارکنان شامل نحوهٔ برخورد با optionهای vest‌نشده و بسته‌های ماندگاری افراد کلیدی است. خریداران اغلب سهام جدیدی کنار می‌گذارند تا تیم را نگه دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p10",
+              "text": {
+                "en": "Conditions to close list what must happen before the deal is done, such as approvals and key employees signing on. Fewer conditions mean more certainty of closing.",
+                "fa": "شرایط بستن معامله فهرست کارهایی است که پیش از نهایی شدن باید انجام شود، مثل تأییدها و امضای کارکنان کلیدی. شرایط کمتر یعنی اطمینان بیشتر از بسته شدن معامله."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l4k4",
+              "type": "tf",
+              "source": "b15c3l4p9",
+              "prompt": {
+                "en": "Employee matters in an LOI include how unvested options are treated.",
+                "fa": "موضوعات کارکنان در LOI شامل نحوهٔ برخورد با optionهای vest‌نشده است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p11",
+              "text": {
+                "en": "Like a term sheet, an LOI usually has a no-shop clause that stops the seller from talking to other buyers. Keep it short, because it removes your leverage.",
+                "fa": "مثل term sheet، یک LOI معمولاً بند no-shop دارد که فروشنده را از صحبت با خریداران دیگر بازمی‌دارد. آن را کوتاه نگه دار، چون اهرم تو را از بین می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b15c3l4p12",
+              "text": {
+                "en": "If your startup is acquired, ask how your unvested options are treated and whether acceleration applies. Your vesting terms and the LOI together decide what you actually receive.",
+                "fa": "اگر استارتاپت خریده شد، بپرس با optionهای vest‌نشده‌ات چه می‌شود و آیا acceleration اعمال می‌شود. شرایط vesting تو و LOI با هم تعیین می‌کنند واقعاً چه دریافت می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b15c3l4k5",
+              "type": "tap",
+              "source": "b15c3l4p11",
+              "prompt": {
+                "en": "What does an LOI's no-shop clause stop?",
+                "fa": "بند no-shop در LOI جلوی چه چیزی را می‌گیرد؟"
+              },
+              "options": [
+                {
+                  "en": "The buyer hiring staff",
+                  "fa": "استخدام کارکنان توسط خریدار"
+                },
+                {
+                  "en": "The seller talking to other buyers",
+                  "fa": "صحبت فروشنده با خریداران دیگر"
+                },
+                {
+                  "en": "Board meetings",
+                  "fa": "جلسات هیئت‌مدیره"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,7 +23,7 @@ describe('Language Mode: every string exists in both fa and en', () => {
   });
 
   it('every Card and Check carries non-empty fa and en text, prompt and options', () => {
-    for (const st of content.stations) {
+    for (const st of content.stations.filter((x) => x.items)) { // book Lessons load on demand; their files are checked by books-v3.test.mjs
       expect(st.name.en, `${st.id} name.en`).toBeTruthy();
       expect(st.name.fa, `${st.id} name.fa`).toBeTruthy();
       for (const item of st.items) {

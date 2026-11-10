@@ -119,3 +119,11 @@ Append-only. Step, start time, what was produced, test results, open questions.
 
 ## Polish pass (owner Task 1, 2026-11-10)
 - Generated inline-SVG book covers (hue from the book id, initials, star for must-reads) on section banners, collapsed headers, the picker sheet, Shelf cards and the Unit header; icons per Unit kind with a corner number; segmented section progress; XP readout in the top bar; feedback icons; accent bar on Cards; a soft glow behind the Path; CSS confetti on a lit Station, a complete Section and the Milestone. Build strips Card provenance strings from the page (kept in the JSON files): 384 KB. Tests: 537 green. Verified in Chrome, dark and light.
+
+## Task 2: Sections of Circles of Lessons (2026-11-10, decisions 30 to 37)
+- /grilling: two rounds, 8 decisions (content location, value model, learning point, migration, names, sizing, time box, rewards). ADR-0010; ADR-0001, 0003, 0008, 0009 amended; glossary Section, Circle, Lesson, Point.
+- /tdd: lessons.test.mjs and books-v3.test.mjs red first; validate-book-v3.mjs and build-manifest.mjs.
+- Content: 28 agents (one per book) following docs/content-brief-v3.md; 206 Lessons, 2,435 Points, 2.2 MB in content/books/v3/, all validated. index.html 191 KB.
+- Play-test: headless Chrome over CDP (extension disconnected); docs/playtests/lessons.md with screenshots; one layout bug fixed.
+- /code-review: docs/review/lessons-code-review.md; fixes include shuffled tap answers (15 books had every answer first), five Cards rewritten for advice or accuracy, a render smoke test after a rename broke the Path.
+- Owner decision after review: ship value-based sizing now; complexity-based re-cut next. 181 tests green.

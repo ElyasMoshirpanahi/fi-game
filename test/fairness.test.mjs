@@ -11,7 +11,7 @@ const appearsIn = (needle, hay) => {
 };
 
 describe('Fairness rule: a failed Check is the player’s own fault', () => {
-  for (const st of content.stations) {
+  for (const st of content.stations.filter((x) => x.items)) { // book Lessons load on demand; their files are checked by books-v3.test.mjs
     const checks = st.items.filter((i) => i.kind === 'check');
     for (const k of checks) {
       it(`${st.id}/${k.id}: its source Card appears earlier in the same Station`, () => {
@@ -43,7 +43,7 @@ describe('Fairness rule: a failed Check is the player’s own fault', () => {
   }
 
   it('every Station has at least fareSize Checks so a Fare can be drawn', () => {
-    for (const st of content.stations) {
+    for (const st of content.stations.filter((x) => x.items)) { // book Lessons load on demand; their files are checked by books-v3.test.mjs
       expect(st.items.filter((i) => i.kind === 'check').length).toBeGreaterThanOrEqual(st.fareSize);
     }
   });

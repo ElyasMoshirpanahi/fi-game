@@ -1,0 +1,2483 @@
+{
+  "id": "b02",
+  "title": "The Simple Path to Wealth",
+  "author": {
+    "en": "JL Collins",
+    "fa": "JL Collins"
+  },
+  "year": 2016,
+  "stage": 1,
+  "must": true,
+  "why": {
+    "en": "The whole index strategy in one simple book",
+    "fa": "کل استراتژی شاخصی در یک کتاب ساده"
+  },
+  "badge": {
+    "en": "F-You Money",
+    "fa": "پول F-You"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b02c1",
+      "title": {
+        "en": "Freedom first: debt and F-You Money",
+        "fa": "اول آزادی: بدهی و F-You Money"
+      },
+      "lessons": [
+        {
+          "id": "b02c1l1",
+          "title": {
+            "en": "The letters and the simple path",
+            "fa": "نامه‌ها و مسیر ساده"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the introduction: where the book came from and its one-line strategy. It matters because your €40k and a Dutch salary need a plan simple enough to follow for decades.",
+                "fa": "این درس مقدمهٔ کتاب را خلاصه می‌کند: کتاب از کجا آمد و استراتژی یک‌خطی‌اش چیست. مهم است چون ۴۰ هزار یورو و حقوق هلندی‌ات به برنامه‌ای نیاز دارند که آن‌قدر ساده باشد که دهه‌ها دنبالش کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p2",
+              "text": {
+                "en": "The book began as letters JL Collins wrote to his daughter Jessica about money and investing. She was not interested in money, but he knew it mattered for her freedom.",
+                "fa": "کتاب از نامه‌هایی شروع شد که JL Collins دربارهٔ پول و سرمایه‌گذاری برای دخترش Jessica نوشت. او به پول علاقه‌ای نداشت، اما پدرش می‌دانست پول برای آزادی‌اش مهم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p3",
+              "text": {
+                "en": "Those letters became the Stock Series on his blog, jlcollinsnh, and readers kept asking for them in one place. The book gathers and expands that series.",
+                "fa": "آن نامه‌ها به «سری سهام» در وبلاگش jlcollinsnh تبدیل شدند و خوانندگان مدام می‌خواستند همه در یک جا باشند. کتاب همان سری را جمع و گسترده کرده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l1k1",
+              "type": "tap",
+              "source": "b02c1l1p2",
+              "prompt": {
+                "en": "Who were the original letters written for?",
+                "fa": "نامه‌های اولیه برای چه کسی نوشته شدند؟"
+              },
+              "options": [
+                {
+                  "en": "His daughter Jessica",
+                  "fa": "دخترش Jessica"
+                },
+                {
+                  "en": "His financial advisor",
+                  "fa": "مشاور مالی‌اش"
+                },
+                {
+                  "en": "A Vanguard executive",
+                  "fa": "یکی از مدیران Vanguard"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p4",
+              "text": {
+                "en": "Collins wanted a path for someone who would rather not think about money. His answer: a strategy so simple it runs almost on its own.",
+                "fa": "Collins مسیری می‌خواست برای کسی که ترجیح می‌دهد به پول فکر نکند. پاسخش: استراتژی‌ای آن‌قدر ساده که تقریباً خودش اجرا شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p5",
+              "text": {
+                "en": "The whole path fits in one line: spend less than you earn, invest the surplus, avoid debt. Do that and, in Collins’s words, you will become wealthy.",
+                "fa": "کل مسیر در یک جمله جا می‌شود: کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن، از بدهی دوری کن. به گفتهٔ Collins اگر این کار را بکنی ثروتمند می‌شوی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l1k2",
+              "type": "tap",
+              "source": "b02c1l1p5",
+              "prompt": {
+                "en": "Collins’s simple path: spend less than you earn, invest the surplus, and...?",
+                "fa": "مسیر سادهٔ Collins: کمتر از درآمدت خرج کن، مازاد را سرمایه‌گذاری کن و...؟"
+              },
+              "options": [
+                {
+                  "en": "Avoid debt",
+                  "fa": "از بدهی دوری کن"
+                },
+                {
+                  "en": "Buy a bigger house",
+                  "fa": "خانهٔ بزرگ‌تری بخر"
+                },
+                {
+                  "en": "Pick winning stocks",
+                  "fa": "سهم‌های برنده را انتخاب کن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p6",
+              "text": {
+                "en": "Collins argues that complex investments exist mainly to profit the people who sell them. Simple is not just easier; it usually works better.",
+                "fa": "Collins می‌گوید سرمایه‌گذاری‌های پیچیده بیشتر برای سود فروشندگانشان وجود دارند. ساده فقط آسان‌تر نیست؛ معمولاً بهتر هم کار می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p7",
+              "text": {
+                "en": "By wealthy he does not mean flashy. He means owning enough that money serves you, rather than you serving money.",
+                "fa": "منظورش از ثروتمند، پرزرق‌وبرق نیست. منظورش داشتن آن‌قدر دارایی است که پول در خدمت تو باشد، نه تو در خدمت پول."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p8",
+              "text": {
+                "en": "Collins says money can buy many things, but nothing more valuable than your freedom. That idea runs through every chapter.",
+                "fa": "Collins می‌گوید پول چیزهای زیادی می‌خرد، اما هیچ‌چیز باارزش‌تر از آزادی‌ات نیست. این ایده در همهٔ فصل‌ها جریان دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l1k3",
+              "type": "tf",
+              "source": "b02c1l1p8",
+              "prompt": {
+                "en": "Collins says complex investments mainly exist to benefit the buyer.",
+                "fa": "Collins می‌گوید سرمایه‌گذاری‌های پیچیده بیشتر به نفع خریدار وجود دارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p9",
+              "text": {
+                "en": "The book opens with a parable about a monk and a minister. The minister mocks the monk’s plain meal, and the monk replies that by serving the king, the minister has lost his freedom.",
+                "fa": "کتاب با تمثیل یک راهب و یک وزیر شروع می‌شود. وزیر غذای سادهٔ راهب را مسخره می‌کند و راهب پاسخ می‌دهد که وزیر با خدمت به پادشاه آزادی‌اش را از دست داده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p10",
+              "text": {
+                "en": "The point of the parable: a high income tied to a master is not freedom. Simple needs plus owned assets are.",
+                "fa": "نکتهٔ تمثیل: درآمد بالایی که به یک ارباب بسته است آزادی نیست. نیازهای ساده به‌اضافهٔ دارایی‌های متعلق به خودت، آزادی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l1k4",
+              "type": "tf",
+              "source": "b02c1l1p10",
+              "prompt": {
+                "en": "In the parable, the minister’s high position gives him more freedom than the monk.",
+                "fa": "در این تمثیل، مقام بالای وزیر به او آزادی بیشتری از راهب می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p11",
+              "text": {
+                "en": "For you, the simple path means one standing order from salary to your broker each month. Decide the amount before the first Dutch paycheck lands.",
+                "fa": "برای تو، مسیر ساده یعنی یک دستور پرداخت ثابت ماهانه از حقوق به کارگزارت. مبلغش را پیش از رسیدن اولین حقوق هلندی تعیین کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l1p12",
+              "text": {
+                "en": "Collins’s path also fits the roadmap: ownership builds wealth, index funds keep it. His book is the keeping half, explained for someone who wants it simple.",
+                "fa": "مسیر Collins با نقشهٔ راه هم جور است: مالکیت ثروت می‌سازد و صندوق‌های شاخصی نگهش می‌دارند. کتاب او نیمهٔ نگه‌داشتن است، برای کسی که سادگی می‌خواهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l1k5",
+              "type": "tap",
+              "source": "b02c1l1p11",
+              "prompt": {
+                "en": "In practice, what does the simple path become for you each month?",
+                "fa": "در عمل، مسیر ساده هر ماه برای تو به چه چیزی تبدیل می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "One standing order from salary to your broker",
+                  "fa": "یک دستور پرداخت ثابت از حقوق به کارگزارت"
+                },
+                {
+                  "en": "A monthly review of hot stocks",
+                  "fa": "مرور ماهانهٔ سهام داغ"
+                },
+                {
+                  "en": "A new credit card for rewards",
+                  "fa": "یک کارت اعتباری جدید برای جایزه"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c1l2",
+          "title": {
+            "en": "Debt: an emergency, not a lifestyle",
+            "fa": "بدهی: وضعیت اضطراری، نه سبک زندگی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter Debt: The Unacceptable Burden. It matters because debt is the one thing that can quietly cancel every euro you invest.",
+                "fa": "این درس فصل «بدهی: باری تحمل‌ناپذیر» را خلاصه می‌کند. مهم است چون بدهی تنها چیزی است که می‌تواند بی‌صدا هر یورویی را که سرمایه‌گذاری می‌کنی خنثی کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p2",
+              "text": {
+                "en": "Collins says debt has become normal in modern life, pushed by marketing and easy credit. He calls it an unacceptable burden, not a normal tool.",
+                "fa": "Collins می‌گوید بدهی در زندگی مدرن عادی شده است، با هل‌دادن تبلیغات و اعتبار آسان. او آن را باری تحمل‌ناپذیر می‌نامد، نه ابزاری عادی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p3",
+              "text": {
+                "en": "If you carry debt, treat it as an emergency. Make paying it off your top financial priority, ahead of investing.",
+                "fa": "اگر بدهی داری، با آن مثل یک وضعیت اضطراری رفتار کن. تسویه‌اش را اولویت اول مالی‌ات قرار بده، جلوتر از سرمایه‌گذاری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l2k1",
+              "type": "tap",
+              "source": "b02c1l2p3",
+              "prompt": {
+                "en": "How should you treat debt you carry, according to Collins?",
+                "fa": "به گفتهٔ Collins با بدهی‌ای که داری چطور رفتار کنی؟"
+              },
+              "options": [
+                {
+                  "en": "As an emergency",
+                  "fa": "مثل یک وضعیت اضطراری"
+                },
+                {
+                  "en": "As a normal tool",
+                  "fa": "مثل یک ابزار عادی"
+                },
+                {
+                  "en": "As a tax benefit",
+                  "fa": "مثل یک مزیت مالیاتی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p4",
+              "text": {
+                "en": "His rule of thumb: pay off any loan above roughly 5 percent interest before investing. Below about 3 percent, investing may win; in between, choose what lets you sleep.",
+                "fa": "قاعدهٔ سرانگشتی‌اش: هر وامی با بهرهٔ بالای حدود ۵ درصد را پیش از سرمایه‌گذاری تسویه کن. زیر حدود ۳ درصد شاید سرمایه‌گذاری برنده شود؛ بین این دو، آنچه آرامت می‌کند را انتخاب کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p5",
+              "text": {
+                "en": "Paying off a 7 percent loan is a guaranteed 7 percent return. No index fund can promise that.",
+                "fa": "تسویهٔ وامی با بهرهٔ ۷ درصد یعنی بازده تضمین‌شدهٔ ۷ درصد. هیچ صندوق شاخصی نمی‌تواند چنین قولی بدهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l2k2",
+              "type": "tf",
+              "source": "b02c1l2p5",
+              "prompt": {
+                "en": "Collins says to pay off loans above roughly 5 percent interest before investing.",
+                "fa": "Collins می‌گوید وام‌های با بهرهٔ بالای حدود ۵ درصد را پیش از سرمایه‌گذاری تسویه کن."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p6",
+              "text": {
+                "en": "Collins is blunt about credit cards: their interest rates are so high that carrying a balance is a financial wound. Pay the full balance every month or stop using them.",
+                "fa": "Collins دربارهٔ کارت اعتباری رک است: بهره‌اش آن‌قدر بالاست که نگه‌داشتن مانده یک زخم مالی است. هر ماه کل مانده را بپرداز یا استفاده‌اش را کنار بگذار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p7",
+              "text": {
+                "en": "Car loans get the same treatment. A car is a depreciating asset, and borrowing for it means paying interest on something losing value.",
+                "fa": "وام خودرو هم همین حکم را دارد. خودرو دارایی‌ای است که ارزشش کم می‌شود، و قرض برای آن یعنی بهره دادن بابت چیزی که ارزشش را از دست می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p8",
+              "text": {
+                "en": "Student loans can feel virtuous, but Collins still wants them gone fast. A debt is a claim on your future income and your freedom.",
+                "fa": "وام دانشجویی شاید کار درستی به نظر برسد، اما Collins باز هم می‌خواهد سریع تسویه شود. بدهی ادعایی بر درآمد آینده و آزادی توست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l2k3",
+              "type": "tap",
+              "source": "b02c1l2p7",
+              "prompt": {
+                "en": "Why is a car loan a poor deal in Collins’s view?",
+                "fa": "از نگاه Collins چرا وام خودرو معاملهٔ بدی است؟"
+              },
+              "options": [
+                {
+                  "en": "You pay interest on a depreciating asset",
+                  "fa": "بابت دارایی‌ای که ارزشش کم می‌شود بهره می‌دهی"
+                },
+                {
+                  "en": "Cars always rise in value",
+                  "fa": "خودرو همیشه گران‌تر می‌شود"
+                },
+                {
+                  "en": "Banks refuse car loans",
+                  "fa": "بانک‌ها وام خودرو نمی‌دهند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p9",
+              "text": {
+                "en": "Collins also says your house is not an investment but an expensive indulgence. It costs taxes, upkeep and interest, so buy one only for the life it gives you.",
+                "fa": "Collins همچنین می‌گوید خانه‌ات سرمایه‌گذاری نیست بلکه یک تجمل پرهزینه است. مالیات، نگهداری و بهره دارد، پس فقط به‌خاطر زندگی‌ای که به تو می‌دهد بخرش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p10",
+              "text": {
+                "en": "The cure for debt is the same as the path to wealth: spend less than you earn. Cut spending hard until the debt is gone.",
+                "fa": "درمان بدهی همان مسیر ثروت است: کمتر از درآمدت خرج کن. خرج را جدی کم کن تا بدهی تمام شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l2k4",
+              "type": "tf",
+              "source": "b02c1l2p10",
+              "prompt": {
+                "en": "Collins treats a home as one of the best investments a person can make.",
+                "fa": "Collins خانه را یکی از بهترین سرمایه‌گذاری‌هایی می‌داند که فرد می‌تواند انجام دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p11",
+              "text": {
+                "en": "Arriving in the Netherlands, you will see offers to finance a car, a phone and furniture. Collins would say: pay cash or wait.",
+                "fa": "وقتی به هلند می‌رسی، پیشنهاد اقساطی برای خودرو، گوشی و مبلمان می‌بینی. Collins می‌گوید: نقدی بخر یا صبر کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l2p12",
+              "text": {
+                "en": "Keeping your €40k free of debt means every euro of it can work for you. A loan payment would quietly take your ownership income first.",
+                "fa": "بدون بدهی نگه‌داشتن ۴۰ هزار یورو یعنی هر یورویش می‌تواند برایت کار کند. قسط وام بی‌صدا اول از درآمد مالکیتت برمی‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l2k5",
+              "type": "tap",
+              "source": "b02c1l2p11",
+              "prompt": {
+                "en": "Collins’s advice when a Dutch store offers to finance furniture?",
+                "fa": "توصیهٔ Collins وقتی فروشگاهی هلندی پیشنهاد خرید اقساطی مبلمان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Pay cash or wait",
+                  "fa": "نقدی بخر یا صبر کن"
+                },
+                {
+                  "en": "Take the longest term offered",
+                  "fa": "طولانی‌ترین مدت را بگیر"
+                },
+                {
+                  "en": "Finance it and invest the cash",
+                  "fa": "اقساطی بخر و پول نقد را سرمایه‌گذاری کن"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c1l3",
+          "title": {
+            "en": "F-You Money",
+            "fa": "F-You Money"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter Why You Need F-You Money. It matters because, as a newcomer with a residence tied to work, savings are what let you say no.",
+                "fa": "این درس فصل «چرا به F-You Money نیاز داری» را خلاصه می‌کند. مهم است چون برای تازه‌واردی که اقامتش به کار گره خورده، پس‌انداز همان چیزی است که اجازهٔ «نه» گفتن می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p2",
+              "text": {
+                "en": "F-You Money is enough savings to walk away from a bad job or a bad boss. For Collins it matters long before full financial independence.",
+                "fa": "F-You Money یعنی پس‌اندازی که بگذارد از یک شغل بد یا رئیس بد دور شوی. برای Collins این پول خیلی پیش از استقلال مالی کامل اهمیت دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p3",
+              "text": {
+                "en": "Collins took the term from the 1974 film The Gambler. A character explains that with enough money you can tell anyone to get lost.",
+                "fa": "Collins این اصطلاح را از فیلم The Gambler محصول ۱۹۷۴ گرفته است. یکی از شخصیت‌ها توضیح می‌دهد که با پول کافی می‌توانی به هر کسی بگویی برو پی کارت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l3k1",
+              "type": "tf",
+              "source": "b02c1l3p3",
+              "prompt": {
+                "en": "F-You Money only matters once you are fully financially independent.",
+                "fa": "F-You Money فقط وقتی مهم است که کاملاً مستقل مالی شده باشی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p4",
+              "text": {
+                "en": "It does not have to be millions. Even a few months of expenses changes how you negotiate, how you handle a toxic boss and which risks you can take.",
+                "fa": "لازم نیست میلیون‌ها باشد. حتی چند ماه هزینهٔ زندگی هم نحوهٔ مذاکره، برخورد با رئیس سمی و ریسک‌هایی که می‌توانی بپذیری را تغییر می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p5",
+              "text": {
+                "en": "Collins writes that having savings let him leave jobs and take time off more than once in his career. Each time, money bought him options instead of panic.",
+                "fa": "Collins می‌نویسد پس‌انداز به او اجازه داد بیش از یک بار در مسیر کاری‌اش شغل را ترک کند و مدتی کار نکند. هر بار پول به جای وحشت، انتخاب برایش خرید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l3k2",
+              "type": "tap",
+              "source": "b02c1l3p4",
+              "prompt": {
+                "en": "Even a small amount of F-You Money changes what?",
+                "fa": "حتی مقدار کمی F-You Money چه چیزی را تغییر می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "How you negotiate and which risks you can take",
+                  "fa": "نحوهٔ مذاکره و ریسک‌هایی که می‌توانی بپذیری"
+                },
+                {
+                  "en": "Your tax rate",
+                  "fa": "نرخ مالیاتت"
+                },
+                {
+                  "en": "The market’s return",
+                  "fa": "بازده بازار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p6",
+              "text": {
+                "en": "Collins warns against the trap of a big salary with big spending. Without savings, a high earner is still one layoff from trouble.",
+                "fa": "Collins از تلهٔ حقوق بالا با خرج بالا هشدار می‌دهد. بدون پس‌انداز، کسی که درآمد بالایی دارد هم با یک اخراج به دردسر می‌افتد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p7",
+              "text": {
+                "en": "He tells a story of a young woman pressured to stay in a job she hated because she had bills and no cushion. Debt and spending had removed her choices.",
+                "fa": "او داستان زن جوانی را می‌گوید که به‌خاطر قبض‌ها و نداشتن پشتوانه مجبور بود در شغلی که از آن متنفر بود بماند. بدهی و خرج، انتخاب‌هایش را گرفته بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p8",
+              "text": {
+                "en": "F-You Money grows naturally from the simple path. Every month you spend less than you earn, the cushion gets thicker.",
+                "fa": "F-You Money به‌طور طبیعی از مسیر ساده رشد می‌کند. هر ماه که کمتر از درآمدت خرج کنی، این پشتوانه ضخیم‌تر می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l3k3",
+              "type": "tf",
+              "source": "b02c1l3p8",
+              "prompt": {
+                "en": "In Collins’s view, a high salary alone protects you from being trapped in a job.",
+                "fa": "از نگاه Collins، حقوق بالا به‌تنهایی تو را از گیرافتادن در یک شغل محافظت می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p9",
+              "text": {
+                "en": "Full financial independence is the ultimate F-You Money: assets that cover your spending for good. The early cushion is the first step toward it.",
+                "fa": "استقلال مالی کامل نهایت F-You Money است: دارایی‌هایی که برای همیشه خرجت را پوشش دهند. پشتوانهٔ اولیه نخستین گام به سوی آن است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p10",
+              "text": {
+                "en": "For a CTO, F-You Money is runway: freedom to leave a bad role or to build your own product. Count how many months your €40k covers before calling any of it a bet.",
+                "fa": "برای یک CTO، F-You Money همان ذخیرهٔ پرواز است: آزادی ترک یک نقش بد یا ساختن محصول خودت. پیش از آنکه بخشی از ۴۰ هزار یورو را شرط‌بندی بدانی، بشمار چند ماه را پوشش می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l3k4",
+              "type": "tap",
+              "source": "b02c1l3p9",
+              "prompt": {
+                "en": "What is the ultimate F-You Money?",
+                "fa": "نهایت F-You Money چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Assets that cover your spending for good",
+                  "fa": "دارایی‌هایی که برای همیشه خرجت را پوشش دهند"
+                },
+                {
+                  "en": "A large credit limit",
+                  "fa": "سقف اعتباری بالا"
+                },
+                {
+                  "en": "A permanent job contract",
+                  "fa": "قرارداد کار دائمی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p11",
+              "text": {
+                "en": "In the Netherlands your first residence permit may be tied to an employer. Savings give you time to find the next role instead of taking the first offer.",
+                "fa": "در هلند ممکن است اولین اجازهٔ اقامتت به کارفرما وابسته باشد. پس‌انداز به تو زمان می‌دهد نقش بعدی را پیدا کنی، نه اینکه اولین پیشنهاد را بپذیری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l3p12",
+              "text": {
+                "en": "Write your F-You number in your quarterly net-worth log: months of expenses you could live on today. Watch it grow each quarter.",
+                "fa": "عدد F-You خودت را در گزارش فصلی دارایی خالص بنویس: چند ماه هزینه را امروز می‌توانی پوشش دهی. ببین هر فصل چطور رشد می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l3k5",
+              "type": "tap",
+              "source": "b02c1l3p12",
+              "prompt": {
+                "en": "What should your F-You number in the net-worth log measure?",
+                "fa": "عدد F-You تو در گزارش دارایی خالص چه چیزی را می‌سنجد؟"
+              },
+              "options": [
+                {
+                  "en": "Months of expenses you could live on today",
+                  "fa": "چند ماه هزینه را امروز می‌توانی پوشش دهی"
+                },
+                {
+                  "en": "Your monthly salary",
+                  "fa": "حقوق ماهانه‌ات"
+                },
+                {
+                  "en": "Your best stock’s gain",
+                  "fa": "سود بهترین سهمت"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c1l4",
+          "title": {
+            "en": "How to think about money",
+            "fa": "چطور به پول فکر کنیم"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on how to think about money and spending. It matters because your savings rate, not your salary, sets how fast you reach 25 times expenses.",
+                "fa": "این درس فصل‌های مربوط به طرز فکر دربارهٔ پول و خرج را خلاصه می‌کند. مهم است چون نرخ پس‌اندازت، نه حقوقت، سرعت رسیدن به ۲۵ برابر هزینه‌ها را تعیین می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p2",
+              "text": {
+                "en": "Collins sees money as a tool and a servant. Each euro you own can be spent once, or invested to work for you and earn more euros.",
+                "fa": "Collins پول را ابزار و خدمتگزار می‌بیند. هر یورویی که داری یک بار خرج می‌شود، یا سرمایه‌گذاری می‌شود تا برایت کار کند و یوروهای بیشتری بیاورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p3",
+              "text": {
+                "en": "He calls the money you invest your soldiers. Every euro spent on stuff is a soldier lost; every euro invested joins the army working for you.",
+                "fa": "او پولی را که سرمایه‌گذاری می‌کنی سربازانت می‌نامد. هر یورویی که خرج چیزی شود سربازی از دست رفته است؛ هر یورویی که سرمایه‌گذاری شود به ارتشی می‌پیوندد که برایت کار می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l4k1",
+              "type": "tap",
+              "source": "b02c1l4p3",
+              "prompt": {
+                "en": "What does Collins call the money you invest?",
+                "fa": "Collins پولی را که سرمایه‌گذاری می‌کنی چه می‌نامد؟"
+              },
+              "options": [
+                {
+                  "en": "Your soldiers",
+                  "fa": "سربازانت"
+                },
+                {
+                  "en": "Your gamble",
+                  "fa": "قمارت"
+                },
+                {
+                  "en": "Your allowance",
+                  "fa": "جیب‌خرجی‌ات"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p4",
+              "text": {
+                "en": "The key number is your savings rate: the share of income you invest. The higher it is, the sooner you reach financial independence.",
+                "fa": "عدد کلیدی نرخ پس‌انداز است: سهمی از درآمد که سرمایه‌گذاری می‌کنی. هرچه بالاتر باشد، زودتر به استقلال مالی می‌رسی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p5",
+              "text": {
+                "en": "Collins points out that saving around 50 percent of income can bring independence in roughly a decade or two. A high savings rate both builds assets and lowers the spending they must cover.",
+                "fa": "Collins اشاره می‌کند که پس‌انداز حدود ۵۰ درصد درآمد می‌تواند در حدود یک یا دو دهه به استقلال برساند. نرخ بالای پس‌انداز هم دارایی می‌سازد و هم خرجی را که دارایی باید پوشش دهد کم می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l4k2",
+              "type": "tf",
+              "source": "b02c1l4p5",
+              "prompt": {
+                "en": "In Collins’s view, salary matters more than savings rate for reaching independence.",
+                "fa": "از نگاه Collins، برای رسیدن به استقلال، حقوق مهم‌تر از نرخ پس‌انداز است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p6",
+              "text": {
+                "en": "A high savings rate works twice. It adds money to invest, and it trains you to live on less, so you need a smaller pile.",
+                "fa": "نرخ پس‌انداز بالا دوبار کار می‌کند. پول بیشتری برای سرمایه‌گذاری می‌آورد و به تو یاد می‌دهد با کمتر زندگی کنی، پس به اندوختهٔ کوچک‌تری نیاز داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p7",
+              "text": {
+                "en": "Collins is not against spending. He asks you to spend on what you truly value and to cut the rest without guilt.",
+                "fa": "Collins مخالف خرج‌کردن نیست. از تو می‌خواهد برای آنچه واقعاً ارزش می‌دهی خرج کنی و بقیه را بدون عذاب وجدان حذف کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p8",
+              "text": {
+                "en": "Lifestyle creep is the enemy: each raise quietly becomes a bigger flat, car or habit. Collins urges you to bank raises instead.",
+                "fa": "افزایش تدریجی سبک زندگی دشمن است: هر افزایش حقوق بی‌صدا به آپارتمان، خودرو یا عادتی بزرگ‌تر تبدیل می‌شود. Collins توصیه می‌کند افزایش حقوق را پس‌انداز کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l4k3",
+              "type": "tap",
+              "source": "b02c1l4p8",
+              "prompt": {
+                "en": "What does Collins urge you to do with raises?",
+                "fa": "Collins توصیه می‌کند با افزایش حقوق چه کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Bank raises instead",
+                  "fa": "آن را پس‌انداز کنی"
+                },
+                {
+                  "en": "Upgrade your flat",
+                  "fa": "آپارتمانت را بزرگ‌تر کنی"
+                },
+                {
+                  "en": "Buy a newer car",
+                  "fa": "خودروی نوتری بخری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p9",
+              "text": {
+                "en": "Collins also urges you to understand money yourself rather than hand it to others. The basics are few, and nobody cares more about your money than you.",
+                "fa": "Collins همچنین می‌خواهد خودت پول را بفهمی، نه اینکه آن را به دیگران بسپاری. اصول پایه کم‌اند و هیچ‌کس بیشتر از خودت به پولت اهمیت نمی‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p10",
+              "text": {
+                "en": "Your Dutch tech salary can support a high savings rate if spending stays near your old life. Set your target rate before you set your rent.",
+                "fa": "حقوق فنی هلندی‌ات می‌تواند نرخ پس‌انداز بالایی را پشتیبانی کند اگر خرجت نزدیک زندگی قبلی بماند. نرخ هدفت را پیش از تعیین اجاره تعیین کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l4k4",
+              "type": "tf",
+              "source": "b02c1l4p10",
+              "prompt": {
+                "en": "Collins asks you to cut all spending, even on things you truly value.",
+                "fa": "Collins از تو می‌خواهد همهٔ خرج‌ها را حذف کنی، حتی برای چیزهایی که واقعاً ارزش می‌دهی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p11",
+              "text": {
+                "en": "Your savings rate decides your timeline to 25 times annual expenses. Track it in your quarterly net-worth log next to your F-You number.",
+                "fa": "نرخ پس‌اندازت زمان رسیدن به ۲۵ برابر هزینهٔ سالانه را تعیین می‌کند. آن را در گزارش فصلی دارایی خالص کنار عدد F-You ثبت کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c1l4p12",
+              "text": {
+                "en": "Every euro of ownership income, starting with the first €100, also raises your effective savings. It is money that works without your hours.",
+                "fa": "هر یورو درآمد مالکیت، از اولین ۱۰۰ یورو، نرخ پس‌انداز واقعی‌ات را هم بالا می‌برد. پولی است که بدون ساعت‌های کاری تو کار می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c1l4k5",
+              "type": "tap",
+              "source": "b02c1l4p11",
+              "prompt": {
+                "en": "Where should you track your savings rate?",
+                "fa": "نرخ پس‌اندازت را کجا ثبت کنی؟"
+              },
+              "options": [
+                {
+                  "en": "In your quarterly net-worth log",
+                  "fa": "در گزارش فصلی دارایی خالص"
+                },
+                {
+                  "en": "Only in your head",
+                  "fa": "فقط در ذهنت"
+                },
+                {
+                  "en": "On your employer’s payslip",
+                  "fa": "روی فیش حقوقی کارفرما"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b02c2",
+      "title": {
+        "en": "The market and the index",
+        "fa": "بازار و شاخص"
+      },
+      "lessons": [
+        {
+          "id": "b02c2l1",
+          "title": {
+            "en": "The market always goes up",
+            "fa": "بازار همیشه بالا می‌رود"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter The Market Always Goes Up. It matters because believing this, and knowing the ride is rough, is what keeps you invested for decades.",
+                "fa": "این درس فصل «بازار همیشه بالا می‌رود» را خلاصه می‌کند. مهم است چون باور به این، و دانستن اینکه مسیر پرتلاطم است، تو را دهه‌ها در بازار نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p2",
+              "text": {
+                "en": "Collins says the stock market is a powerful wealth-building tool. Owning stock means owning a piece of real businesses that work to grow.",
+                "fa": "Collins می‌گوید بازار سهام ابزار قدرتمندی برای ساختن ثروت است. داشتن سهم یعنی مالکیت بخشی از کسب‌وکارهای واقعی که برای رشد کار می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p3",
+              "text": {
+                "en": "Over the long run the market always goes up, through every crash. Over the 20th century the Dow rose from under 100 to over 11,000.",
+                "fa": "در بلندمدت بازار همیشه بالا می‌رود، از دل هر سقوطی. در قرن بیستم شاخص Dow از زیر ۱۰۰ به بیش از ۱۱٬۰۰۰ رسید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l1k1",
+              "type": "tf",
+              "source": "b02c2l1p3",
+              "prompt": {
+                "en": "Collins claims the market rises smoothly every year.",
+                "fa": "Collins ادعا می‌کند بازار هر سال به‌آرامی بالا می‌رود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p4",
+              "text": {
+                "en": "That century held two world wars, the Great Depression, a deadly flu pandemic and many recessions. The market climbed through all of it.",
+                "fa": "آن قرن دو جنگ جهانی، رکود بزرگ، یک همه‌گیری کشندهٔ آنفلوانزا و رکودهای فراوان داشت. بازار از دل همهٔ آن‌ها بالا رفت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p5",
+              "text": {
+                "en": "Collins is clear that the ride is rough. Crashes like 1929, 1973, 1987, 2000 and 2008 are part of the trip, not exceptions.",
+                "fa": "Collins روشن می‌گوید که مسیر پرتلاطم است. سقوط‌هایی مثل ۱۹۲۹، ۱۹۷۳، ۱۹۸۷، ۲۰۰۰ و ۲۰۰۸ بخشی از سفرند، نه استثنا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l1k2",
+              "type": "tap",
+              "source": "b02c2l1p5",
+              "prompt": {
+                "en": "How does Collins describe crashes?",
+                "fa": "Collins سقوط‌ها را چطور توصیف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Part of the trip, not exceptions",
+                  "fa": "بخشی از سفر، نه استثنا"
+                },
+                {
+                  "en": "Rare events that will not repeat",
+                  "fa": "رویدادهای نادری که تکرار نمی‌شوند"
+                },
+                {
+                  "en": "Signals to leave the market",
+                  "fa": "نشانه‌هایی برای خروج از بازار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p6",
+              "text": {
+                "en": "The market rises because companies are run by people working hard to make them profitable and to grow. Owning the whole market lets you ride that effort.",
+                "fa": "چرا بالا می‌رود؟ شرکت‌ها را آدم‌هایی اداره می‌کنند که سخت کار می‌کنند تا سودآور شوند و رشد کنند. مالکیت کل بازار تو را سوار این تلاش می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p7",
+              "text": {
+                "en": "A broad index is self-cleansing: failing companies shrink and drop out, while winners can grow without limit. A stock can lose only 100 percent but can gain far more.",
+                "fa": "یک شاخص گسترده خودپالا است: شرکت‌های شکست‌خورده کوچک می‌شوند و خارج می‌شوند، در حالی که برنده‌ها بی‌حد رشد می‌کنند. یک سهم فقط ۱۰۰ درصد ضرر می‌کند اما می‌تواند خیلی بیشتر سود کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p8",
+              "text": {
+                "en": "Collins says this holds for the broad market, not for any single stock. Individual companies can and do go to zero.",
+                "fa": "Collins می‌گوید این برای کل بازار صادق است، نه برای هر سهم منفرد. شرکت‌های منفرد ممکن است به صفر برسند و می‌رسند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l1k3",
+              "type": "tf",
+              "source": "b02c2l1p8",
+              "prompt": {
+                "en": "Collins says any single stock will also always go up over time.",
+                "fa": "Collins می‌گوید هر سهم منفرد هم در طول زمان همیشه بالا می‌رود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p9",
+              "text": {
+                "en": "Nobody can time the market. Collins’s rule: since you cannot know when a drop comes or ends, stay invested and never sell in a panic.",
+                "fa": "هیچ‌کس نمی‌تواند بازار را زمان‌بندی کند. قاعدهٔ Collins: چون نمی‌دانی افت کی می‌آید یا تمام می‌شود، در بازار بمان و هرگز با وحشت نفروش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p10",
+              "text": {
+                "en": "The cost of the ride is volatility, and that cost is what pays the long-run return. Investors who accept it are paid; those who flee are not.",
+                "fa": "هزینهٔ این سفر نوسان است و همین هزینه بازده بلندمدت را می‌پردازد. سرمایه‌گذارانی که آن را بپذیرند پاداش می‌گیرند؛ آن‌هایی که فرار کنند نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l1k4",
+              "type": "tap",
+              "source": "b02c2l1p9",
+              "prompt": {
+                "en": "What is Collins’s rule, given nobody can time the market?",
+                "fa": "قاعدهٔ Collins چیست، با توجه به اینکه هیچ‌کس نمی‌تواند بازار را زمان‌بندی کند؟"
+              },
+              "options": [
+                {
+                  "en": "Stay invested and never sell in a panic",
+                  "fa": "در بازار بمان و هرگز با وحشت نفروش"
+                },
+                {
+                  "en": "Sell when prices look high",
+                  "fa": "وقتی قیمت‌ها بالا به نظر می‌رسند بفروش"
+                },
+                {
+                  "en": "Hold cash until the next crash",
+                  "fa": "تا سقوط بعدی پول نقد نگه دار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p11",
+              "text": {
+                "en": "A world index ETF such as VWCE applies the same logic to the global market. You own thousands of businesses working to grow.",
+                "fa": "یک ETF شاخص جهانی مثل VWCE همین منطق را روی بازار جهانی اعمال می‌کند. مالک هزاران کسب‌وکاری می‌شوی که برای رشد کار می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l1p12",
+              "text": {
+                "en": "Write in your decision journal: the market always goes up, but the ride is rough. Read it before any trade you feel urged to make.",
+                "fa": "در دفتر تصمیمت بنویس: بازار همیشه بالا می‌رود، اما مسیر پرتلاطم است. پیش از هر معامله‌ای که وسوسه‌اش را داری آن را بخوان."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l1k5",
+              "type": "tf",
+              "source": "b02c2l1p12",
+              "prompt": {
+                "en": "A world index ETF lets you own thousands of businesses at once.",
+                "fa": "یک ETF شاخص جهانی به تو اجازه می‌دهد هم‌زمان مالک هزاران کسب‌وکار باشی."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b02c2l2",
+          "title": {
+            "en": "Why most lose money, and the next crash",
+            "fa": "چرا بیشتر مردم ضرر می‌کنند، و سقوط بعدی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on the coming crash and why most people lose money in the market. It matters because your behaviour in a crash will decide your returns more than your fund choice.",
+                "fa": "این درس فصل‌های مربوط به سقوط پیش‌رو و اینکه چرا بیشتر مردم در بازار ضرر می‌کنند را خلاصه می‌کند. مهم است چون رفتارت در سقوط بیشتر از انتخاب صندوق بازدهت را تعیین می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p2",
+              "text": {
+                "en": "Collins opens with a promise: a major market crash is coming. He also says you can grow rich in spite of it.",
+                "fa": "Collins با یک وعده شروع می‌کند: یک سقوط بزرگ بازار در راه است. او همچنین می‌گوید می‌توانی با وجود آن ثروتمند شوی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p3",
+              "text": {
+                "en": "Crashes are certain, but their timing is not. Nobody, including experts on television, can tell you when the next one starts or ends.",
+                "fa": "سقوط‌ها قطعی‌اند، اما زمانشان نه. هیچ‌کس، حتی کارشناسان تلویزیونی، نمی‌تواند بگوید سقوط بعدی کی شروع یا تمام می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l2k1",
+              "type": "tap",
+              "source": "b02c2l2p3",
+              "prompt": {
+                "en": "What is certain about crashes, per Collins?",
+                "fa": "به گفتهٔ Collins چه چیزی دربارهٔ سقوط‌ها قطعی است؟"
+              },
+              "options": [
+                {
+                  "en": "Crashes are certain, but their timing is not",
+                  "fa": "سقوط‌ها قطعی‌اند، اما زمانشان نه"
+                },
+                {
+                  "en": "They come every five years exactly",
+                  "fa": "دقیقاً هر پنج سال می‌آیند"
+                },
+                {
+                  "en": "Experts can predict them",
+                  "fa": "کارشناسان می‌توانند پیش‌بینی‌شان کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p4",
+              "text": {
+                "en": "Most people lose money in the market not because markets fail but because people panic. They buy when prices soar and sell when prices crash.",
+                "fa": "بیشتر مردم در بازار ضرر می‌کنند نه چون بازار شکست می‌خورد بلکه چون وحشت می‌کنند. وقتی قیمت‌ها اوج می‌گیرند می‌خرند و وقتی سقوط می‌کنند می‌فروشند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p5",
+              "text": {
+                "en": "Collins blames human nature: we are wired to run from danger and chase the crowd. In markets those instincts buy high and sell low.",
+                "fa": "Collins طبیعت انسان را مقصر می‌داند: ما طوری ساخته شده‌ایم که از خطر فرار کنیم و دنبال جمع برویم. در بازار این غرایز گران می‌خرند و ارزان می‌فروشند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l2k2",
+              "type": "tf",
+              "source": "b02c2l2p5",
+              "prompt": {
+                "en": "Collins says most investors lose money because markets themselves fail.",
+                "fa": "Collins می‌گوید بیشتر سرمایه‌گذاران ضرر می‌کنند چون خود بازارها شکست می‌خورند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p6",
+              "text": {
+                "en": "Other mistakes he lists: thinking you can pick winning stocks, chasing hot funds and paying high fees. Each one quietly drains returns.",
+                "fa": "اشتباهات دیگری که فهرست می‌کند: فکر اینکه می‌توانی سهم برنده انتخاب کنی، دنبال صندوق‌های داغ رفتن و پرداخت کارمزد بالا. هر کدام بی‌صدا بازده را می‌کاهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p7",
+              "text": {
+                "en": "His fix is to toughen up and ignore the noise. Financial media sell fear and excitement; your plan should not react to either.",
+                "fa": "راه‌حلش این است که سرسخت شوی و هیاهو را نادیده بگیری. رسانه‌های مالی ترس و هیجان می‌فروشند؛ برنامهٔ تو نباید به هیچ‌کدام واکنش دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p8",
+              "text": {
+                "en": "During the wealth-building years a crash is good news. You keep buying, and each euro buys more shares at lower prices.",
+                "fa": "در سال‌های ساختن ثروت سقوط خبر خوبی است. به خرید ادامه می‌دهی و هر یورو سهم بیشتری با قیمت پایین‌تر می‌خرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l2k3",
+              "type": "tap",
+              "source": "b02c2l2p8",
+              "prompt": {
+                "en": "During the wealth-building years, what makes a crash good news?",
+                "fa": "در سال‌های ساختن ثروت، چه چیزی سقوط را خبر خوبی می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Each euro buys more shares at lower prices",
+                  "fa": "هر یورو سهم بیشتری با قیمت پایین‌تر می‌خرد"
+                },
+                {
+                  "en": "You can sell and buy back later",
+                  "fa": "می‌توانی بفروشی و بعد دوباره بخری"
+                },
+                {
+                  "en": "Fees disappear in a crash",
+                  "fa": "در سقوط کارمزدها حذف می‌شوند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p9",
+              "text": {
+                "en": "In 2008 and 2009 US stocks fell by about half, and many sold near the bottom. Those who held on and kept buying saw the market recover and climb to new highs.",
+                "fa": "در ۲۰۰۸ و ۲۰۰۹ سهام آمریکا حدود نصف ارزششان را از دست دادند و بسیاری نزدیک کف فروختند. کسانی که نگه داشتند و خریدند دیدند بازار برگشت و به اوج‌های تازه رسید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p10",
+              "text": {
+                "en": "Collins reminds you that a drop is a loss only if you sell. Shares you hold through a crash are still yours when the recovery comes.",
+                "fa": "Collins یادآوری می‌کند که افت فقط وقتی ضرر است که بفروشی. سهم‌هایی که در سقوط نگه می‌داری وقتی بازار برمی‌گردد هنوز مال تواند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l2k4",
+              "type": "tf",
+              "source": "b02c2l2p10",
+              "prompt": {
+                "en": "Collins says a market drop is a real loss only if you sell.",
+                "fa": "Collins می‌گوید افت بازار فقط وقتی ضرر واقعی است که بفروشی."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p11",
+              "text": {
+                "en": "Your test will come: a day when your ETF is down 30 percent and the news is dark. Decide now, in writing, that you will keep buying.",
+                "fa": "آزمونت خواهد رسید: روزی که ETF تو ۳۰ درصد پایین است و اخبار تیره‌اند. همین حالا کتبی تصمیم بگیر که به خرید ادامه می‌دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l2p12",
+              "text": {
+                "en": "A decision journal entry written in calm times is your best defence against panic. Reread it the day the crash arrives.",
+                "fa": "یادداشتی در دفتر تصمیم که در زمان آرامش نوشته شود بهترین دفاعت در برابر وحشت است. روز سقوط دوباره بخوانش."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l2k5",
+              "type": "tap",
+              "source": "b02c2l2p12",
+              "prompt": {
+                "en": "What is your best defence against panic in a crash?",
+                "fa": "بهترین دفاعت در برابر وحشت هنگام سقوط چیست؟"
+              },
+              "options": [
+                {
+                  "en": "A decision journal entry written in calm times",
+                  "fa": "یادداشتی در دفتر تصمیم که در زمان آرامش نوشته شده"
+                },
+                {
+                  "en": "Checking prices hourly",
+                  "fa": "بررسی ساعتی قیمت‌ها"
+                },
+                {
+                  "en": "A tip from a friend",
+                  "fa": "توصیهٔ یک دوست"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c2l3",
+          "title": {
+            "en": "Index funds and VTSAX",
+            "fa": "صندوق‌های شاخصی و VTSAX"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on index funds and Keep It Simple: Considerations and Tools. It matters because one broad, cheap fund can do almost all the work of your core portfolio.",
+                "fa": "این درس فصل‌های مربوط به صندوق‌های شاخصی و «ساده نگهش دار: ملاحظات و ابزارها» را خلاصه می‌کند. مهم است چون یک صندوق گسترده و ارزان می‌تواند تقریباً همهٔ کار هستهٔ سبدت را انجام دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p2",
+              "text": {
+                "en": "An index fund simply buys every stock in an index, such as the whole US market. It does not try to pick winners, so it needs no expensive managers.",
+                "fa": "صندوق شاخصی صرفاً همهٔ سهام یک شاخص را می‌خرد، مثلاً کل بازار آمریکا. تلاشی برای انتخاب برنده‌ها نمی‌کند، پس به مدیران گران نیاز ندارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p3",
+              "text": {
+                "en": "Collins notes that most actively managed funds fail to beat the index over long periods. Fees and trading costs are a big reason why.",
+                "fa": "Collins اشاره می‌کند که بیشتر صندوق‌های با مدیریت فعال در دوره‌های طولانی نمی‌توانند از شاخص جلو بزنند. کارمزدها و هزینه‌های معامله دلیل مهمی‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l3k1",
+              "type": "tap",
+              "source": "b02c2l3p3",
+              "prompt": {
+                "en": "Why do most active funds fail to beat the index?",
+                "fa": "چرا بیشتر صندوق‌های فعال از شاخص جلو نمی‌زنند؟"
+              },
+              "options": [
+                {
+                  "en": "Fees and trading costs",
+                  "fa": "کارمزدها و هزینه‌های معامله"
+                },
+                {
+                  "en": "They hold too few bonds",
+                  "fa": "اوراق خیلی کمی دارند"
+                },
+                {
+                  "en": "Index funds use leverage",
+                  "fa": "صندوق‌های شاخصی اهرم استفاده می‌کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p4",
+              "text": {
+                "en": "His whole stock portfolio fits in one fund: VTSAX, Vanguard’s Total Stock Market Index Fund. It owns essentially every publicly traded US company.",
+                "fa": "کل سبد سهام او در یک صندوق جا می‌شود: VTSAX، صندوق شاخصی کل بازار سهام Vanguard. این صندوق عملاً مالک همهٔ شرکت‌های بورسی آمریکاست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p5",
+              "text": {
+                "en": "VTSAX is very cheap, with an expense ratio of about 0.05 percent when the book was written. Low cost means more of the market’s return stays with you.",
+                "fa": "VTSAX بسیار ارزان است و هنگام نوشتن کتاب نسبت هزینه‌اش حدود ۰٫۰۵ درصد بود. هزینهٔ کم یعنی سهم بیشتری از بازده بازار برای تو می‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l3k2",
+              "type": "tf",
+              "source": "b02c2l3p5",
+              "prompt": {
+                "en": "VTSAX tries to pick the best US stocks.",
+                "fa": "VTSAX تلاش می‌کند بهترین سهام آمریکا را انتخاب کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p6",
+              "text": {
+                "en": "Collins argues you need no separate international fund. Large US companies already earn much of their revenue abroad, so VTSAX gives global exposure.",
+                "fa": "Collins استدلال می‌کند که به صندوق بین‌المللی جداگانه نیاز نداری. شرکت‌های بزرگ آمریکایی بخش زیادی از درآمدشان را از خارج می‌گیرند، پس VTSAX دسترسی جهانی می‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p7",
+              "text": {
+                "en": "He keeps the toolkit tiny: a stock index fund, a bond index fund and some cash. Fewer funds mean fewer mistakes and less tinkering.",
+                "fa": "او جعبه‌ابزار را خیلی کوچک نگه می‌دارد: یک صندوق شاخصی سهام، یک صندوق شاخصی اوراق و مقداری پول نقد. صندوق‌های کمتر یعنی اشتباه کمتر و دستکاری کمتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p8",
+              "text": {
+                "en": "In the chapter on what to do if you cannot buy VTSAX, Collins says any broad, low-cost index fund works. The principle matters, not the ticker.",
+                "fa": "در فصل «اگر نتوانی VTSAX بخری چه کنی»، Collins می‌گوید هر صندوق شاخصی گسترده و کم‌هزینه کار می‌کند. اصل مهم است، نه نماد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l3k3",
+              "type": "tap",
+              "source": "b02c2l3p8",
+              "prompt": {
+                "en": "If you cannot buy VTSAX, what does Collins say works?",
+                "fa": "اگر نتوانی VTSAX بخری، Collins می‌گوید چه چیزی کار می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Any broad, low-cost index fund",
+                  "fa": "هر صندوق شاخصی گسترده و کم‌هزینه"
+                },
+                {
+                  "en": "A handful of tech stocks",
+                  "fa": "چند سهم فناوری"
+                },
+                {
+                  "en": "A savings account",
+                  "fa": "یک حساب پس‌انداز"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p9",
+              "text": {
+                "en": "He also likes target retirement funds as a one-fund option. They hold stock and bond index funds and shift toward bonds as the target date nears.",
+                "fa": "او صندوق‌های هدف بازنشستگی را هم به‌عنوان گزینهٔ تک‌صندوقی می‌پسندد. این صندوق‌ها شاخص سهام و اوراق دارند و با نزدیک‌شدن به تاریخ هدف به سمت اوراق می‌روند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p10",
+              "text": {
+                "en": "Collins admits indexing can feel boring, like settling for average. In fact average after low costs beats most professionals.",
+                "fa": "Collins می‌پذیرد که شاخص‌گذاری می‌تواند خسته‌کننده و شبیه کنار آمدن با میانگین به نظر برسد. در واقع میانگین با هزینهٔ کم از بیشتر حرفه‌ای‌ها جلو می‌زند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l3k4",
+              "type": "tf",
+              "source": "b02c2l3p10",
+              "prompt": {
+                "en": "Collins says a target retirement fund can be a reasonable one-fund option.",
+                "fa": "Collins می‌گوید صندوق هدف بازنشستگی می‌تواند گزینهٔ تک‌صندوقی معقولی باشد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p11",
+              "text": {
+                "en": "As a Dutch resident you will likely not buy VTSAX, a US mutual fund. A broad UCITS ETF such as VWCE or IWDA plays the same role through your broker.",
+                "fa": "به‌عنوان مقیم هلند احتمالاً VTSAX را که یک صندوق مشترک آمریکایی است نمی‌خری. یک ETF گستردهٔ UCITS مثل VWCE یا IWDA همان نقش را از طریق کارگزارت بازی می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l3p12",
+              "text": {
+                "en": "The roadmap puts 80 percent of your portfolio in index ETFs, the core. Collins would say the core is the part that matters most.",
+                "fa": "نقشهٔ راه ۸۰ درصد سبدت را در ETFهای شاخصی، یعنی هسته، قرار می‌دهد. Collins می‌گوید هسته مهم‌ترین بخش است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l3k5",
+              "type": "tap",
+              "source": "b02c2l3p11",
+              "prompt": {
+                "en": "What plays the VTSAX role for a Dutch resident?",
+                "fa": "برای یک مقیم هلند چه چیزی نقش VTSAX را بازی می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A broad UCITS ETF such as VWCE or IWDA",
+                  "fa": "یک ETF گستردهٔ UCITS مثل VWCE یا IWDA"
+                },
+                {
+                  "en": "A Dutch savings bond",
+                  "fa": "یک اوراق پس‌انداز هلندی"
+                },
+                {
+                  "en": "A single US tech stock",
+                  "fa": "یک سهم فناوری آمریکایی"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c2l4",
+          "title": {
+            "en": "Vanguard, fees and advisors",
+            "fa": "Vanguard، کارمزدها و مشاوران"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on Vanguard and on why Collins cannot recommend investment advisors. It matters because fees and bad advice are the quiet leaks that sink long-term returns.",
+                "fa": "این درس فصل‌های مربوط به Vanguard و چرایی توصیه‌نکردن مشاوران سرمایه‌گذاری توسط Collins را خلاصه می‌کند. مهم است چون کارمزد و توصیهٔ بد نشتی‌های بی‌صدایی‌اند که بازده بلندمدت را غرق می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p2",
+              "text": {
+                "en": "Jack Bogle founded Vanguard in 1975 and launched the first index fund for individual investors. Critics mocked it as Bogle’s folly.",
+                "fa": "Jack Bogle در سال ۱۹۷۵ Vanguard را بنیان گذاشت و اولین صندوق شاخصی برای سرمایه‌گذاران فردی را راه انداخت. منتقدان آن را «حماقت Bogle» نامیدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p3",
+              "text": {
+                "en": "Vanguard is owned by its funds, which are owned by their investors. With no outside owners to pay, it runs at cost and keeps fees low.",
+                "fa": "Vanguard متعلق به صندوق‌هایش است و صندوق‌ها متعلق به سرمایه‌گذارانشان. چون مالک بیرونی ندارد که سود بخواهد، با قیمت تمام‌شده کار می‌کند و کارمزدها را پایین نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l4k1",
+              "type": "tap",
+              "source": "b02c2l4p3",
+              "prompt": {
+                "en": "Why can Vanguard keep fees low, according to Collins?",
+                "fa": "به گفتهٔ Collins چرا Vanguard می‌تواند کارمزد را پایین نگه دارد؟"
+              },
+              "options": [
+                {
+                  "en": "It is owned by its funds and runs at cost",
+                  "fa": "متعلق به صندوق‌هایش است و با قیمت تمام‌شده کار می‌کند"
+                },
+                {
+                  "en": "It is backed by the government",
+                  "fa": "دولت پشتیبانش است"
+                },
+                {
+                  "en": "It only sells to rich clients",
+                  "fa": "فقط به مشتریان ثروتمند می‌فروشد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p4",
+              "text": {
+                "en": "Collins says that is why he trusts Vanguard: its interests line up with yours. Most financial firms must earn profits from you for their owners.",
+                "fa": "Collins می‌گوید به همین دلیل به Vanguard اعتماد دارد: منافعش با منافع تو هم‌راستاست. بیشتر شرکت‌های مالی باید برای مالکانشان از تو سود بگیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p5",
+              "text": {
+                "en": "Fees compound just like returns, but against you. A 1 percent yearly fee can eat a large share of your wealth over decades.",
+                "fa": "کارمزدها هم مثل بازده مرکب می‌شوند، اما علیه تو. کارمزد سالانهٔ ۱ درصد می‌تواند در طول دهه‌ها بخش بزرگی از ثروتت را بخورد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l4k2",
+              "type": "tf",
+              "source": "b02c2l4p5",
+              "prompt": {
+                "en": "Over decades, a 1 percent yearly fee makes little difference to your wealth.",
+                "fa": "در طول دهه‌ها، کارمزد سالانهٔ ۱ درصد تفاوت کمی در ثروتت ایجاد می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p6",
+              "text": {
+                "en": "Collins cannot recommend investment advisors. Their pay comes from you, through commissions or a yearly fee on your assets, whether or not they add value.",
+                "fa": "Collins نمی‌تواند مشاوران سرمایه‌گذاری را توصیه کند. درآمدشان از توست، از طریق کمیسیون یا کارمزد سالانه روی دارایی‌ات، چه ارزشی اضافه کنند چه نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p7",
+              "text": {
+                "en": "He warns of conflicts of interest: advisors earn more by selling complex, costly products. The products that pay the advisor best are rarely best for you.",
+                "fa": "او از تعارض منافع هشدار می‌دهد: مشاوران با فروش محصولات پیچیده و گران بیشتر درآمد دارند. محصولاتی که بیشترین پول را به مشاور می‌دهند به‌ندرت برای تو بهترین‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p8",
+              "text": {
+                "en": "Collins compares such products to magic beans from the fairy tale. They sound valuable, but they mostly enrich the seller.",
+                "fa": "Collins این محصولات را به لوبیای سحرآمیز افسانه تشبیه می‌کند. باارزش به نظر می‌رسند، اما بیشتر فروشنده را ثروتمند می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l4k3",
+              "type": "tap",
+              "source": "b02c2l4p8",
+              "prompt": {
+                "en": "What does Collins compare complex, costly products to?",
+                "fa": "Collins محصولات پیچیده و گران را به چه چیزی تشبیه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Magic beans",
+                  "fa": "لوبیای سحرآمیز"
+                },
+                {
+                  "en": "Golden eggs",
+                  "fa": "تخم‌مرغ طلایی"
+                },
+                {
+                  "en": "A safe harbour",
+                  "fa": "یک بندر امن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p9",
+              "text": {
+                "en": "Even honest, skilled advisors face the same problem as active funds: few beat the index after their fees. You pay for help that usually lowers returns.",
+                "fa": "حتی مشاوران صادق و ماهر با همان مشکل صندوق‌های فعال روبه‌رو هستند: پس از کارمزدها کمتر کسی از شاخص جلو می‌زند. برای کمکی پول می‌دهی که معمولاً بازده را کم می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p10",
+              "text": {
+                "en": "His advice: learn the few basics yourself and keep it simple. Nobody will care about your money as much as you do.",
+                "fa": "توصیه‌اش: خودت اصول اندک پایه را یاد بگیر و ساده نگهش دار. هیچ‌کس به اندازهٔ خودت به پولت اهمیت نمی‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l4k4",
+              "type": "tf",
+              "source": "b02c2l4p10",
+              "prompt": {
+                "en": "Collins says skilled advisors usually beat the index after their fees.",
+                "fa": "Collins می‌گوید مشاوران ماهر معمولاً پس از کارمزدها از شاخص جلو می‌زنند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p11",
+              "text": {
+                "en": "In Europe, compare the total expense ratio of each ETF and your broker’s costs. VWCE and IWDA charge a small fraction of a typical advisor’s 1 percent.",
+                "fa": "در اروپا نسبت هزینهٔ کل هر ETF و هزینه‌های کارگزارت را مقایسه کن. VWCE و IWDA کسر کوچکی از ۱ درصد معمول یک مشاور را می‌گیرند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c2l4p12",
+              "text": {
+                "en": "A mentor who shares knowledge is different from an advisor who sells products. Keep the mentor; skip anyone paid by what you buy.",
+                "fa": "مربی‌ای که دانش به اشتراک می‌گذارد با مشاوری که محصول می‌فروشد فرق دارد. مربی را نگه دار؛ از هر کسی که از خرید تو پول می‌گیرد بگذر."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c2l4k5",
+              "type": "tap",
+              "source": "b02c2l4p12",
+              "prompt": {
+                "en": "Which helper fits Collins’s view?",
+                "fa": "کدام کمک‌دهنده با دیدگاه Collins جور است؟"
+              },
+              "options": [
+                {
+                  "en": "A mentor who shares knowledge",
+                  "fa": "مربی‌ای که دانش به اشتراک می‌گذارد"
+                },
+                {
+                  "en": "An advisor paid on what you buy",
+                  "fa": "مشاوری که از خرید تو پول می‌گیرد"
+                },
+                {
+                  "en": "A bank selling its own funds",
+                  "fa": "بانکی که صندوق‌های خودش را می‌فروشد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b02c3",
+      "title": {
+        "en": "Building and keeping wealth",
+        "fa": "ساختن و نگه‌داشتن ثروت"
+      },
+      "lessons": [
+        {
+          "id": "b02c3l1",
+          "title": {
+            "en": "Two stages: building and preserving",
+            "fa": "دو مرحله: ساختن و حفظ"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter Portfolio Ideas to Build and Keep Your Wealth. It matters because the right mix depends on your stage, and you are in the building stage.",
+                "fa": "این درس فصل «ایده‌هایی برای سبد سرمایه برای ساختن و نگه‌داشتن ثروت» را خلاصه می‌کند. مهم است چون ترکیب درست به مرحله‌ات بستگی دارد، و تو در مرحلهٔ ساختن هستی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p2",
+              "text": {
+                "en": "Collins splits an investing life into two stages: wealth accumulation and wealth preservation. Each one needs a slightly different portfolio.",
+                "fa": "Collins زندگی سرمایه‌گذاری را به دو مرحله تقسیم می‌کند: انباشت ثروت و حفظ ثروت. هر کدام سبد کمی متفاوتی می‌خواهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p3",
+              "text": {
+                "en": "In the wealth accumulation stage you are working, saving and adding money. Collins suggests holding 100 percent stocks, in VTSAX.",
+                "fa": "در مرحلهٔ انباشت ثروت کار می‌کنی، پس‌انداز می‌کنی و پول اضافه می‌کنی. Collins پیشنهاد می‌کند ۱۰۰ درصد سهام، در VTSAX، نگه داری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l1k1",
+              "type": "tap",
+              "source": "b02c3l1p3",
+              "prompt": {
+                "en": "What does Collins suggest holding in the wealth accumulation stage?",
+                "fa": "Collins در مرحلهٔ انباشت ثروت نگه‌داشتن چه چیزی را پیشنهاد می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "100 percent stocks",
+                  "fa": "۱۰۰ درصد سهام"
+                },
+                {
+                  "en": "Mostly bonds",
+                  "fa": "بیشتر اوراق"
+                },
+                {
+                  "en": "Half cash, half gold",
+                  "fa": "نیمی نقد، نیمی طلا"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p4",
+              "text": {
+                "en": "All stocks works here because new savings keep flowing in. Each crash lets you buy cheaply, and you have years to recover.",
+                "fa": "سهام کامل اینجا کار می‌کند چون پس‌انداز تازه مدام وارد می‌شود. هر سقوط به تو اجازهٔ خرید ارزان می‌دهد و سال‌ها برای بازگشت وقت داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p5",
+              "text": {
+                "en": "That only works if you can hold through a 50 percent drop without selling. If you cannot, add some bonds even while building.",
+                "fa": "این فقط وقتی کار می‌کند که بتوانی افت ۵۰ درصدی را بدون فروش تحمل کنی. اگر نمی‌توانی، حتی در مرحلهٔ ساختن مقداری اوراق اضافه کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l1k2",
+              "type": "tf",
+              "source": "b02c3l1p5",
+              "prompt": {
+                "en": "Collins says you should hold all stocks even if a big drop would make you sell.",
+                "fa": "Collins می‌گوید حتی اگر افت بزرگ تو را به فروش بکشاند باید سهام کامل نگه داری."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p6",
+              "text": {
+                "en": "In the wealth preservation stage you live off your investments and add little new money. Collins then adds a bond index fund, VBTLX, to smooth the ride.",
+                "fa": "در مرحلهٔ حفظ ثروت از سرمایه‌گذاری‌هایت زندگی می‌کنی و پول تازهٔ کمی اضافه می‌کنی. Collins در این مرحله یک صندوق شاخصی اوراق، VBTLX، اضافه می‌کند تا مسیر هموارتر شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p7",
+              "text": {
+                "en": "Bonds pay steady interest and often hold up when stocks fall. They also hedge against deflation, which Collins calls a big ugly event for stocks.",
+                "fa": "اوراق بهرهٔ ثابت می‌دهند و اغلب وقتی سهام می‌ریزد مقاومت می‌کنند. همچنین در برابر کاهش سطح قیمت‌ها (deflation) پوشش می‌دهند که Collins آن را رویدادی بزرگ و زشت برای سهام می‌نامد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p8",
+              "text": {
+                "en": "The cost of bonds is lower long-term growth. You trade some return for a calmer ride when you can no longer add savings after a crash.",
+                "fa": "هزینهٔ اوراق رشد بلندمدت کمتر است. مقداری بازده را با مسیر آرام‌تری معاوضه می‌کنی، وقتی دیگر نمی‌توانی پس از سقوط پس‌انداز اضافه کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l1k3",
+              "type": "tap",
+              "source": "b02c3l1p6",
+              "prompt": {
+                "en": "Which fund does Collins add in the wealth preservation stage?",
+                "fa": "Collins در مرحلهٔ حفظ ثروت کدام صندوق را اضافه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "A bond index fund, VBTLX",
+                  "fa": "یک صندوق شاخصی اوراق، VBTLX"
+                },
+                {
+                  "en": "A gold mining fund",
+                  "fa": "یک صندوق معادن طلا"
+                },
+                {
+                  "en": "A leveraged stock fund",
+                  "fa": "یک صندوق سهام اهرمی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p9",
+              "text": {
+                "en": "Collins notes the line between stages can be blurry. Part-time work or side income can keep you partly in building mode for longer.",
+                "fa": "Collins اشاره می‌کند که مرز بین مراحل می‌تواند مبهم باشد. کار پاره‌وقت یا درآمد جانبی می‌تواند تو را مدت بیشتری تا حدی در حالت ساختن نگه دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p10",
+              "text": {
+                "en": "He keeps cash for spending needs and emergencies, not as an investment. Cash loses value to inflation over time.",
+                "fa": "او پول نقد را برای نیازهای خرج و موارد اضطراری نگه می‌دارد، نه به‌عنوان سرمایه‌گذاری. پول نقد در طول زمان به‌خاطر تورم ارزش از دست می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l1k4",
+              "type": "tf",
+              "source": "b02c3l1p10",
+              "prompt": {
+                "en": "Collins treats cash as a core long-term investment.",
+                "fa": "Collins پول نقد را یک سرمایه‌گذاری بلندمدت اصلی می‌داند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p11",
+              "text": {
+                "en": "You are in the building stage: earning, saving, adding each month. Collins’s logic points to a stock-heavy core of world index ETFs.",
+                "fa": "تو در مرحلهٔ ساختن هستی: کسب درآمد، پس‌انداز و افزودن ماهانه. منطق Collins به هسته‌ای سهام‌محور از ETFهای شاخص جهانی اشاره دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l1p12",
+              "text": {
+                "en": "Your startup equity and AI product are building-stage bets too. Collins’s stages remind you that the index core is what you will preserve later.",
+                "fa": "سهام استارتاپ و محصول AI تو هم شرط‌های مرحلهٔ ساختن‌اند. مراحل Collins یادآوری می‌کنند که هستهٔ شاخصی همان چیزی است که بعدها حفظ می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l1k5",
+              "type": "tap",
+              "source": "b02c3l1p12",
+              "prompt": {
+                "en": "Which stage are you in today?",
+                "fa": "امروز در کدام مرحله هستی؟"
+              },
+              "options": [
+                {
+                  "en": "The building stage",
+                  "fa": "مرحلهٔ ساختن"
+                },
+                {
+                  "en": "The preservation stage",
+                  "fa": "مرحلهٔ حفظ"
+                },
+                {
+                  "en": "The withdrawal stage only",
+                  "fa": "فقط مرحلهٔ برداشت"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c3l2",
+          "title": {
+            "en": "Asset allocation and rebalancing",
+            "fa": "تخصیص دارایی و توازن مجدد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapters on asset allocation and selecting your own. It matters because your mix of stocks, bonds and cash decides both your growth and your sleep.",
+                "fa": "این درس فصل‌های مربوط به تخصیص دارایی و انتخاب تخصیص خودت را خلاصه می‌کند. مهم است چون ترکیب سهام، اوراق و نقدت هم رشدت و هم خوابت را تعیین می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p2",
+              "text": {
+                "en": "Asset allocation is how you split money across stocks, bonds and cash. Collins says it matters more than which specific fund you pick.",
+                "fa": "تخصیص دارایی یعنی چگونه پول را میان سهام، اوراق و نقد تقسیم می‌کنی. Collins می‌گوید این از انتخاب صندوق خاص مهم‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p3",
+              "text": {
+                "en": "To choose, he asks how much volatility you can stomach and how flexible your spending is. He also asks if you can earn more if needed.",
+                "fa": "برای انتخاب، او می‌پرسد چقدر نوسان را تحمل می‌کنی و خرجت چقدر انعطاف دارد. همچنین می‌پرسد آیا در صورت نیاز می‌توانی بیشتر درآمد کسب کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l2k1",
+              "type": "tap",
+              "source": "b02c3l2p2",
+              "prompt": {
+                "en": "What does Collins say matters more than the specific fund?",
+                "fa": "Collins می‌گوید چه چیزی از صندوق خاص مهم‌تر است؟"
+              },
+              "options": [
+                {
+                  "en": "Asset allocation",
+                  "fa": "تخصیص دارایی"
+                },
+                {
+                  "en": "The fund’s logo",
+                  "fa": "لوگوی صندوق"
+                },
+                {
+                  "en": "Daily price moves",
+                  "fa": "حرکت‌های روزانهٔ قیمت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p4",
+              "text": {
+                "en": "Stocks are the engine: highest long-term growth, roughest ride. Bonds are the brakes: lower growth, steadier value.",
+                "fa": "سهام موتور است: بیشترین رشد بلندمدت، پرتلاطم‌ترین مسیر. اوراق ترمز است: رشد کمتر، ارزش پایدارتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p5",
+              "text": {
+                "en": "Cash is for near-term needs. Collins keeps only enough to avoid selling stocks at a bad time.",
+                "fa": "نقد برای نیازهای کوتاه‌مدت است. Collins فقط به اندازه‌ای نگه می‌دارد که مجبور نشود سهام را در زمان بد بفروشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l2k2",
+              "type": "tf",
+              "source": "b02c3l2p5",
+              "prompt": {
+                "en": "In Collins’s picture, bonds are the engine and stocks are the brakes.",
+                "fa": "در تصویر Collins، اوراق موتور است و سهام ترمز."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p6",
+              "text": {
+                "en": "Collins skips many popular extras such as gold, REIT funds and separate international funds. Each adds complexity without enough benefit for his simple path.",
+                "fa": "Collins بسیاری از افزودنی‌های رایج مثل طلا، صندوق‌های REIT و صندوق‌های بین‌المللی جداگانه را کنار می‌گذارد. هر کدام پیچیدگی می‌افزاید بدون سود کافی برای مسیر ساده‌اش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p7",
+              "text": {
+                "en": "Over time your mix drifts as stocks and bonds move apart. Rebalancing means selling some of what rose and buying what fell to restore your target.",
+                "fa": "با گذشت زمان ترکیبت جابه‌جا می‌شود چون سهام و اوراق از هم فاصله می‌گیرند. توازن مجدد یعنی فروش بخشی از آنچه بالا رفته و خرید آنچه پایین آمده تا به هدفت برگردی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p8",
+              "text": {
+                "en": "Collins suggests rebalancing about once a year, not more often. Frequent tinkering adds costs and invites emotional decisions.",
+                "fa": "Collins پیشنهاد می‌کند حدوداً سالی یک بار توازن مجدد کنی، نه بیشتر. دستکاری مکرر هزینه می‌افزاید و تصمیم احساسی را دعوت می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l2k3",
+              "type": "tap",
+              "source": "b02c3l2p8",
+              "prompt": {
+                "en": "How often does Collins suggest rebalancing?",
+                "fa": "Collins پیشنهاد می‌کند هر چند وقت یک بار توازن مجدد کنی؟"
+              },
+              "options": [
+                {
+                  "en": "About once a year",
+                  "fa": "حدوداً سالی یک بار"
+                },
+                {
+                  "en": "Every week",
+                  "fa": "هر هفته"
+                },
+                {
+                  "en": "Whenever the news is scary",
+                  "fa": "هر وقت اخبار ترسناک است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p9",
+              "text": {
+                "en": "Rebalancing forces you to buy low and sell high by rule, not by feeling. It turns discipline into a habit.",
+                "fa": "توازن مجدد تو را وادار می‌کند با قاعده، نه احساس، ارزان بخری و گران بفروشی. انضباط را به عادت تبدیل می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p10",
+              "text": {
+                "en": "In the building stage with 100 percent stocks, there is little to rebalance. New monthly money simply goes into the same fund.",
+                "fa": "در مرحلهٔ ساختن با ۱۰۰ درصد سهام، چیز زیادی برای توازن مجدد نیست. پول ماهانهٔ تازه صرفاً به همان صندوق می‌رود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l2k4",
+              "type": "tf",
+              "source": "b02c3l2p10",
+              "prompt": {
+                "en": "Rebalancing makes you buy low and sell high by rule rather than by feeling.",
+                "fa": "توازن مجدد تو را وادار می‌کند با قاعده، نه احساس، ارزان بخری و گران بفروشی."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p11",
+              "text": {
+                "en": "The roadmap’s core-satellite split is an allocation too: 80 percent index ETFs, 20 percent satellite bets. Review it once a year, as Collins suggests.",
+                "fa": "تقسیم هسته-ماهواره در نقشهٔ راه هم یک تخصیص است: ۸۰ درصد ETF شاخصی، ۲۰ درصد شرط‌های ماهواره‌ای. همان‌طور که Collins پیشنهاد می‌کند سالی یک بار مرورش کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l2p12",
+              "text": {
+                "en": "If a satellite bet grows past its 20 percent share, trim it back into the core. That is rebalancing applied to your own plan.",
+                "fa": "اگر یک شرط ماهواره‌ای از سهم ۲۰ درصدی‌اش بزرگ‌تر شد، آن را به هسته برگردان. این همان توازن مجدد است که روی برنامهٔ خودت اعمال می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l2k5",
+              "type": "tap",
+              "source": "b02c3l2p12",
+              "prompt": {
+                "en": "A satellite bet grows past its 20 percent share. What do you do?",
+                "fa": "یک شرط ماهواره‌ای از سهم ۲۰ درصدی‌اش بزرگ‌تر شده. چه می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Trim it back into the core",
+                  "fa": "آن را به هسته برگردان"
+                },
+                {
+                  "en": "Move the core into it",
+                  "fa": "هسته را به آن منتقل کن"
+                },
+                {
+                  "en": "Ignore the plan",
+                  "fa": "برنامه را نادیده بگیر"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c3l3",
+          "title": {
+            "en": "The 4 percent rule",
+            "fa": "قاعدهٔ ۴ درصد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the chapter on withdrawal rates and how much you can spend. It matters because it is where your target of 25 times annual expenses comes from.",
+                "fa": "این درس فصل نرخ برداشت و اینکه چقدر می‌توانی خرج کنی را خلاصه می‌کند. مهم است چون هدف ۲۵ برابر هزینهٔ سالانهٔ تو از همین‌جا می‌آید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p2",
+              "text": {
+                "en": "Collins draws on the Trinity Study, published by three professors at Trinity University in 1998. It tested how much retirees could withdraw from stock and bond portfolios.",
+                "fa": "Collins به مطالعهٔ Trinity استناد می‌کند که سه استاد دانشگاه Trinity در ۱۹۹۸ منتشر کردند. این مطالعه آزمود که بازنشستگان چقدر می‌توانند از سبد سهام و اوراق برداشت کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p3",
+              "text": {
+                "en": "The study found that withdrawing 4 percent in the first year, then adjusting for inflation, survived most 30-year periods in history. That became the 4 percent rule.",
+                "fa": "مطالعه نشان داد برداشت ۴ درصد در سال اول و سپس تعدیل با تورم، در بیشتر دوره‌های ۳۰ سالهٔ تاریخ دوام آورد. این به قاعدهٔ ۴ درصد تبدیل شد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l3k1",
+              "type": "tap",
+              "source": "b02c3l3p2",
+              "prompt": {
+                "en": "Which study does the 4 percent rule come from?",
+                "fa": "قاعدهٔ ۴ درصد از کدام مطالعه آمده است؟"
+              },
+              "options": [
+                {
+                  "en": "The Trinity Study",
+                  "fa": "مطالعهٔ Trinity"
+                },
+                {
+                  "en": "A Vanguard sales report",
+                  "fa": "گزارش فروش Vanguard"
+                },
+                {
+                  "en": "The Dutch central bank",
+                  "fa": "بانک مرکزی هلند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p4",
+              "text": {
+                "en": "Flip the rule and you get the target: if 4 percent covers a year, you need 25 times your annual spending. €30,000 a year needs about €750,000.",
+                "fa": "قاعده را برعکس کن تا هدف را بگیری: اگر ۴ درصد یک سال را پوشش دهد، به ۲۵ برابر خرج سالانه نیاز داری. ۳۰٬۰۰۰ یورو در سال حدود ۷۵۰٬۰۰۰ یورو می‌خواهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p5",
+              "text": {
+                "en": "Collins notes that in many tested periods the portfolio ended with more money than it started. A 4 percent pace often leaves a growing pile.",
+                "fa": "Collins اشاره می‌کند که در بسیاری از دوره‌های آزموده، سبد با پولی بیشتر از شروع تمام شد. سرعت ۴ درصد اغلب اندوخته‌ای رو به رشد باقی می‌گذارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l3k2",
+              "type": "tf",
+              "source": "b02c3l3p5",
+              "prompt": {
+                "en": "At 4 percent, a person spending €30,000 a year needs about €750,000.",
+                "fa": "با ۴ درصد، کسی که سالانه ۳۰٬۰۰۰ یورو خرج می‌کند حدود ۷۵۰٬۰۰۰ یورو نیاز دارد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p6",
+              "text": {
+                "en": "Collins treats 4 percent as a guideline, not a law. He urges flexibility: spend less after a bad market year and more after strong ones.",
+                "fa": "Collins ۴ درصد را راهنما می‌داند، نه قانون. او انعطاف را توصیه می‌کند: پس از سال بد بازار کمتر خرج کن و پس از سال‌های قوی بیشتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p7",
+              "text": {
+                "en": "If a crash hits early in retirement, he suggests cutting spending or earning some income for a while. Small adjustments greatly improve the odds of success.",
+                "fa": "اگر سقوطی اوایل بازنشستگی رخ دهد، او پیشنهاد می‌کند خرج را کم کنی یا مدتی درآمدی کسب کنی. تعدیل‌های کوچک احتمال موفقیت را بسیار بالا می‌برند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p8",
+              "text": {
+                "en": "The study assumed a mix of stocks and bonds. Portfolios heavier in stocks tended to do better over 30 years than bond-heavy ones.",
+                "fa": "مطالعه ترکیبی از سهام و اوراق را فرض کرده بود. سبدهایی که سهام بیشتری داشتند معمولاً در ۳۰ سال بهتر از سبدهای اوراق‌محور عمل کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l3k3",
+              "type": "tap",
+              "source": "b02c3l3p6",
+              "prompt": {
+                "en": "How does Collins treat the 4 percent figure?",
+                "fa": "Collins با رقم ۴ درصد چگونه برخورد می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "As a guideline, not a law",
+                  "fa": "به‌عنوان راهنما، نه قانون"
+                },
+                {
+                  "en": "As a guarantee",
+                  "fa": "به‌عنوان تضمین"
+                },
+                {
+                  "en": "As a legal limit",
+                  "fa": "به‌عنوان سقف قانونی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p9",
+              "text": {
+                "en": "For an early retirement longer than 30 years, a more cautious rate such as 3 to 3.5 percent adds safety. Flexible spending does the same job.",
+                "fa": "برای بازنشستگی زودهنگام طولانی‌تر از ۳۰ سال، نرخ محتاطانه‌تری مثل ۳ تا ۳٫۵ درصد ایمنی بیشتری می‌دهد. خرج منعطف هم همین کار را می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p10",
+              "text": {
+                "en": "Collins’s point is freedom, not a spreadsheet. Once 4 percent of your assets covers your spending, work becomes optional.",
+                "fa": "نکتهٔ Collins آزادی است، نه یک صفحه‌گسترده. وقتی ۴ درصد دارایی‌ات خرجت را پوشش دهد، کار اختیاری می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l3k4",
+              "type": "tf",
+              "source": "b02c3l3p10",
+              "prompt": {
+                "en": "Collins says you must spend exactly 4 percent every year no matter what.",
+                "fa": "Collins می‌گوید باید هر سال دقیقاً ۴ درصد خرج کنی، هر اتفاقی بیفتد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p11",
+              "text": {
+                "en": "Your roadmap target of 25 times annual expenses is the 4 percent rule in reverse. Lower spending shrinks the target and brings the date closer.",
+                "fa": "هدف ۲۵ برابر هزینهٔ سالانه در نقشهٔ راهت همان قاعدهٔ ۴ درصد برعکس است. خرج کمتر هدف را کوچک‌تر و تاریخ را نزدیک‌تر می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l3p12",
+              "text": {
+                "en": "Ownership income counts too: each €100 a month of it means €30,000 less capital needed. That is 25 times €1,200 a year.",
+                "fa": "درآمد مالکیت هم حساب می‌شود: هر ۱۰۰ یورو در ماه از آن یعنی ۳۰٬۰۰۰ یورو سرمایهٔ کمتر لازم. این ۲۵ برابر ۱٬۲۰۰ یورو در سال است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l3k5",
+              "type": "tap",
+              "source": "b02c3l3p12",
+              "prompt": {
+                "en": "How much less capital does €100 a month of ownership income mean?",
+                "fa": "۱۰۰ یورو درآمد مالکیت در ماه یعنی چقدر سرمایهٔ کمتر لازم است؟"
+              },
+              "options": [
+                {
+                  "en": "€30,000 less capital",
+                  "fa": "۳۰٬۰۰۰ یورو سرمایهٔ کمتر"
+                },
+                {
+                  "en": "€1,200 less capital",
+                  "fa": "۱٬۲۰۰ یورو سرمایهٔ کمتر"
+                },
+                {
+                  "en": "No change at all",
+                  "fa": "هیچ تغییری"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b02c3l4",
+          "title": {
+            "en": "Your simple path in practice",
+            "fa": "مسیر سادهٔ تو در عمل"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b02c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the whole book into a plan you can run from the Netherlands. It matters because Collins’s ideas only pay if you set them up once and then leave them alone.",
+                "fa": "این درس کل کتاب را به برنامه‌ای تبدیل می‌کند که از هلند اجرایش کنی. مهم است چون ایده‌های Collins فقط وقتی جواب می‌دهند که یک بار راه‌اندازی‌شان کنی و بعد رهایشان کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p2",
+              "text": {
+                "en": "Step one is debt: clear anything costly before you invest. Treat it as the emergency Collins says it is.",
+                "fa": "گام اول بدهی است: پیش از سرمایه‌گذاری هر بدهی گرانی را تسویه کن. با آن مثل همان وضعیت اضطراری رفتار کن که Collins می‌گوید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p3",
+              "text": {
+                "en": "Step two is F-You Money: a cash buffer of several months of expenses. It protects your job freedom and keeps you from selling in a crash.",
+                "fa": "گام دوم F-You Money است: ذخیرهٔ نقدی چند ماه هزینه. از آزادی شغلی‌ات محافظت می‌کند و نمی‌گذارد در سقوط بفروشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l4k1",
+              "type": "tf",
+              "source": "b02c3l4p3",
+              "prompt": {
+                "en": "Collins’s order puts investing before clearing costly debt.",
+                "fa": "ترتیب Collins سرمایه‌گذاری را پیش از تسویهٔ بدهی گران قرار می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p4",
+              "text": {
+                "en": "Step three is the broker: after your BSN, open an account with a low-cost broker such as Interactive Brokers or DEGIRO. Check fees before you choose.",
+                "fa": "گام سوم کارگزار است: پس از گرفتن BSN، حسابی نزد یک کارگزار کم‌هزینه مثل Interactive Brokers یا DEGIRO باز کن. پیش از انتخاب کارمزدها را بررسی کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p5",
+              "text": {
+                "en": "Step four is the fund: one broad, low-cost world index ETF as your core. Collins’s rule is that the principle matters, not the ticker.",
+                "fa": "گام چهارم صندوق است: یک ETF شاخص جهانی گسترده و کم‌هزینه به‌عنوان هسته‌ات. قاعدهٔ Collins این است که اصل مهم است، نه نماد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l4k2",
+              "type": "tap",
+              "source": "b02c3l4p4",
+              "prompt": {
+                "en": "What comes right after your BSN in this plan?",
+                "fa": "در این برنامه درست پس از BSN چه می‌آید؟"
+              },
+              "options": [
+                {
+                  "en": "Open an account with a low-cost broker",
+                  "fa": "باز کردن حساب نزد یک کارگزار کم‌هزینه"
+                },
+                {
+                  "en": "Hire an investment advisor",
+                  "fa": "استخدام یک مشاور سرمایه‌گذاری"
+                },
+                {
+                  "en": "Take out a car loan",
+                  "fa": "گرفتن وام خودرو"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p6",
+              "text": {
+                "en": "Step five is automation: a fixed monthly transfer and purchase. Automation removes the temptation to time the market.",
+                "fa": "گام پنجم خودکارسازی است: انتقال و خرید ثابت ماهانه. خودکارسازی وسوسهٔ زمان‌بندی بازار را حذف می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p7",
+              "text": {
+                "en": "Step six is the crash rule, written in your decision journal now: never sell in a panic, keep buying. Reread it when markets fall.",
+                "fa": "گام ششم قاعدهٔ سقوط است که همین حالا در دفتر تصمیمت نوشته می‌شود: هرگز با وحشت نفروش، به خرید ادامه بده. وقتی بازار افت کرد دوباره بخوانش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p8",
+              "text": {
+                "en": "Step seven is review: once a year, check your allocation and costs. Otherwise, as Collins urges, leave it alone and live your life.",
+                "fa": "گام هفتم مرور است: سالی یک بار تخصیص و هزینه‌هایت را بررسی کن. در غیر این صورت، همان‌طور که Collins توصیه می‌کند، رهایش کن و زندگی‌ات را بکن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l4k3",
+              "type": "tap",
+              "source": "b02c3l4p6",
+              "prompt": {
+                "en": "What does automation remove, per this plan?",
+                "fa": "طبق این برنامه، خودکارسازی چه چیزی را حذف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The temptation to time the market",
+                  "fa": "وسوسهٔ زمان‌بندی بازار"
+                },
+                {
+                  "en": "All market risk",
+                  "fa": "همهٔ ریسک بازار"
+                },
+                {
+                  "en": "The need for a broker",
+                  "fa": "نیاز به کارگزار"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p9",
+              "text": {
+                "en": "Collins’s path covers the keeping half of your roadmap. Your startup equity and AI product are the building half, and the index core holds what they earn.",
+                "fa": "مسیر Collins نیمهٔ نگه‌داشتن نقشهٔ راهت را پوشش می‌دهد. سهام استارتاپ و محصول AI نیمهٔ ساختن‌اند و هستهٔ شاخصی آنچه را به دست می‌آورند نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p10",
+              "text": {
+                "en": "Steer clear of advisors who sell products, and of complex offers that sound clever. If you cannot explain it in one line, Collins would skip it.",
+                "fa": "از مشاورانی که محصول می‌فروشند و پیشنهادهای پیچیده‌ای که هوشمندانه به نظر می‌رسند دوری کن. اگر نمی‌توانی آن را در یک جمله توضیح دهی، Collins از آن می‌گذرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l4k4",
+              "type": "tf",
+              "source": "b02c3l4p10",
+              "prompt": {
+                "en": "Collins would favour an offer you cannot explain in one line if it sounds clever.",
+                "fa": "Collins پیشنهادی را که نمی‌توانی در یک جمله توضیح دهی ترجیح می‌دهد اگر هوشمندانه به نظر برسد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p11",
+              "text": {
+                "en": "Track progress in your quarterly net-worth log: F-You months, savings rate and distance to 25 times expenses. Three numbers keep the plan honest.",
+                "fa": "پیشرفت را در گزارش فصلی دارایی خالص ثبت کن: ماه‌های F-You، نرخ پس‌انداز و فاصله تا ۲۵ برابر هزینه‌ها. سه عدد برنامه را صادق نگه می‌دارند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b02c3l4p12",
+              "text": {
+                "en": "Collins wrote for a daughter who did not want to think about money. The goal is the same for you: a plan so simple it frees your attention for building.",
+                "fa": "Collins برای دختری نوشت که نمی‌خواست به پول فکر کند. هدف برای تو هم همین است: برنامه‌ای آن‌قدر ساده که توجهت را برای ساختن آزاد کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b02c3l4k5",
+              "type": "tap",
+              "source": "b02c3l4p12",
+              "prompt": {
+                "en": "What is the goal of a plan this simple, for you?",
+                "fa": "هدف چنین برنامهٔ ساده‌ای برای تو چیست؟"
+              },
+              "options": [
+                {
+                  "en": "It frees your attention for building",
+                  "fa": "توجهت را برای ساختن آزاد می‌کند"
+                },
+                {
+                  "en": "It guarantees beating the market",
+                  "fa": "جلو زدن از بازار را تضمین می‌کند"
+                },
+                {
+                  "en": "It removes the need to save",
+                  "fa": "نیاز به پس‌انداز را از بین می‌برد"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

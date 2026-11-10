@@ -1,0 +1,645 @@
+{
+  "id": "b20",
+  "title": "The Lean Startup",
+  "author": {
+    "en": "Eric Ries",
+    "fa": "Eric Ries"
+  },
+  "year": 2011,
+  "stage": 5,
+  "must": false,
+  "why": {
+    "en": "MVP and fast learning",
+    "fa": "MVP و یادگیری سریع"
+  },
+  "badge": {
+    "en": "Build-Measure-Learn",
+    "fa": "بساز، بسنج، بیاموز"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b20c1",
+      "title": {
+        "en": "Learn fast what customers will pay for",
+        "fa": "زود بیاموز مشتری برای چه پول می‌دهد"
+      },
+      "lessons": [
+        {
+          "id": "b20c1l1",
+          "title": {
+            "en": "Validated learning: a new kind of management",
+            "fa": "یادگیری اعتبارسنجی‌شده: گونه‌ای تازه از مدیریت"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b20c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Part One, Vision (chapters 1 to 4): what a startup is and how it measures progress. It matters because your AI product and any startup equity you hold depend on learning fast, not on shipping code.",
+                "fa": "این درس بخش اول کتاب، Vision (فصل‌های ۱ تا ۴)، را خلاصه می‌کند: استارتاپ چیست و پیشرفتش را چگونه می‌سنجد. مهم است چون محصول AI تو و هر سهمی که در یک استارتاپ داری به یادگیری سریع بستگی دارد، نه به تحویل کد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p2",
+              "text": {
+                "en": "Ries defines a startup as a human institution designed to create a new product or service under conditions of extreme uncertainty. Size, sector and funding do not decide it; uncertainty does.",
+                "fa": "Ries استارتاپ را نهادی انسانی تعریف می‌کند که برای ساختن محصول یا خدمتی نو در شرایط عدم‌قطعیت شدید طراحی شده است. اندازه، صنعت و سرمایه تعیین‌کننده نیستند؛ عدم‌قطعیت تعیین‌کننده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p3",
+              "text": {
+                "en": "His claim is that entrepreneurship is management. The Lean Startup borrows from lean manufacturing at Toyota, applying its ideas of waste and small batches to the work of innovation.",
+                "fa": "ادعای او این است که کارآفرینی نوعی مدیریت است. Lean Startup از تولید ناب در Toyota وام می‌گیرد و ایده‌های اتلاف و دسته‌های کوچک را در کار نوآوری به کار می‌برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l1k1",
+              "type": "tf",
+              "source": "b20c1l1p2",
+              "prompt": {
+                "en": "For Ries, a company counts as a startup only if it is small and venture funded.",
+                "fa": "از نظر Ries، شرکتی فقط وقتی استارتاپ است که کوچک باشد و سرمایهٔ خطرپذیر گرفته باشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p4",
+              "text": {
+                "en": "At IMVU, Ries's team spent six months building an add-on that worked with existing instant messaging networks. Customers refused it; they wanted a separate network with new friends instead.",
+                "fa": "در IMVU، تیم Ries شش ماه صرف ساختن افزونه‌ای کرد که با شبکه‌های پیام‌رسان موجود کار می‌کرد. مشتری‌ها آن را نپذیرفتند؛ آن‌ها شبکه‌ای جدا با دوستان تازه می‌خواستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p5",
+              "text": {
+                "en": "Ries asks whether those six months were wasted. Most of the code was thrown away, but the team had learned something true about customers, and that learning was the real progress.",
+                "fa": "Ries می‌پرسد آیا آن شش ماه هدر رفت. بیشتر کد دور ریخته شد، اما تیم چیزی درست دربارهٔ مشتری‌ها آموخته بود و همین یادگیری پیشرفت واقعی بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p6",
+              "text": {
+                "en": "Validated learning is progress shown by real data from real customers, not by shipping features on schedule. Any effort that does not add to such learning is waste.",
+                "fa": "یادگیری اعتبارسنجی‌شده پیشرفتی است که با دادهٔ واقعی از مشتری واقعی نشان داده شود، نه با تحویل به‌موقع قابلیت‌ها. هر تلاشی که به چنین یادگیری‌ای نیفزاید اتلاف است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l1k2",
+              "type": "tap",
+              "source": "b20c1l1p6",
+              "prompt": {
+                "en": "What does Ries count as real progress in a startup?",
+                "fa": "Ries چه چیزی را پیشرفت واقعی در استارتاپ می‌داند؟"
+              },
+              "options": [
+                {
+                  "en": "Real data from real customers",
+                  "fa": "دادهٔ واقعی از مشتری واقعی"
+                },
+                {
+                  "en": "Features shipped on schedule",
+                  "fa": "قابلیت‌هایی که به‌موقع تحویل شده‌اند"
+                },
+                {
+                  "en": "Hours worked by the team",
+                  "fa": "ساعت‌هایی که تیم کار کرده است"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p7",
+              "text": {
+                "en": "Chapter 4, Experiment, says to treat a strategy as a set of hypotheses to test. The two most important are the value hypothesis and the growth hypothesis.",
+                "fa": "فصل ۴، Experiment، می‌گوید استراتژی را مجموعه‌ای از فرضیه‌ها برای آزمودن ببین. دو فرضیهٔ مهم‌تر، فرضیهٔ ارزش و فرضیهٔ رشد هستند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p8",
+              "text": {
+                "en": "The value hypothesis asks whether the product delivers value to customers once they use it. The growth hypothesis asks how new customers will discover it.",
+                "fa": "فرضیهٔ ارزش می‌پرسد آیا محصول وقتی مشتری از آن استفاده می‌کند برایش ارزش می‌سازد. فرضیهٔ رشد می‌پرسد مشتری‌های تازه چگونه آن را پیدا می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l1k3",
+              "type": "tap",
+              "source": "b20c1l1p8",
+              "prompt": {
+                "en": "Which hypothesis asks how new customers will discover the product?",
+                "fa": "کدام فرضیه می‌پرسد مشتری‌های تازه چگونه محصول را پیدا می‌کنند؟"
+              },
+              "options": [
+                {
+                  "en": "The growth hypothesis",
+                  "fa": "فرضیهٔ رشد"
+                },
+                {
+                  "en": "The value hypothesis",
+                  "fa": "فرضیهٔ ارزش"
+                },
+                {
+                  "en": "The pricing hypothesis",
+                  "fa": "فرضیهٔ قیمت‌گذاری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p9",
+              "text": {
+                "en": "Zappos founder Nick Swinmurn tested whether people would buy shoes online by photographing shoes in local stores. When an order came in, he bought the pair at full price and shipped it.",
+                "fa": "Nick Swinmurn، بنیان‌گذار Zappos، با عکس گرفتن از کفش‌های فروشگاه‌های محلی آزمود که آیا مردم کفش را آنلاین می‌خرند. وقتی سفارشی می‌رسید، جفت کفش را با قیمت کامل می‌خرید و می‌فرستاد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p10",
+              "text": {
+                "en": "That experiment tested real behaviour, not opinions in a survey. It also put him in contact with real customers, payments and returns, which taught him more than asking would.",
+                "fa": "آن آزمایش رفتار واقعی را سنجید، نه نظرهای یک نظرسنجی. همچنین او را با مشتری، پرداخت و مرجوعی واقعی روبه‌رو کرد که بیش از پرسیدن به او آموخت."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l1k4",
+              "type": "tf",
+              "source": "b20c1l1p9",
+              "prompt": {
+                "en": "Nick Swinmurn built a large shoe warehouse before testing whether people would buy shoes online.",
+                "fa": "Nick Swinmurn پیش از آزمودن اینکه مردم کفش را آنلاین می‌خرند، انبار بزرگی از کفش ساخت."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p11",
+              "text": {
+                "en": "Applied: write your AI product idea as two lines, a value hypothesis and a growth hypothesis. Then ask which cheap experiment, like the Zappos photos, could test each one this month.",
+                "fa": "کاربردی: ایدهٔ محصول AI خودت را در دو خط بنویس، یک فرضیهٔ ارزش و یک فرضیهٔ رشد. بعد بپرس کدام آزمایش ارزان، مثل عکس‌های Zappos، می‌تواند هر کدام را همین ماه بیازماید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l1p12",
+              "text": {
+                "en": "Ries warns that a plan built on a detailed forecast can be executed perfectly and still fail. The goal is not to deliver a product but to learn how to build a sustainable business.",
+                "fa": "Ries هشدار می‌دهد برنامه‌ای که بر پیش‌بینی دقیق بنا شده می‌تواند بی‌نقص اجرا شود و باز شکست بخورد. هدف تحویل محصول نیست، بلکه یادگرفتن ساختن کسب‌وکاری پایدار است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l1k5",
+              "type": "tf",
+              "source": "b20c1l1p12",
+              "prompt": {
+                "en": "Ries says a startup has succeeded once it delivers the product it planned.",
+                "fa": "Ries می‌گوید استارتاپ وقتی محصول برنامه‌ریزی‌شده‌اش را تحویل داد موفق شده است."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b20c1l2",
+          "title": {
+            "en": "Build-Measure-Learn and the minimum viable product",
+            "fa": "Build-Measure-Learn و کمینه‌محصول پذیرفتنی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b20c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 5 and 6, Leap and Test: the Build-Measure-Learn loop and the MVP. It matters because your first paid AI product should be a quick experiment, not a year of building alone.",
+                "fa": "این درس فصل‌های ۵ و ۶، Leap و Test، را خلاصه می‌کند: حلقهٔ Build-Measure-Learn و MVP. مهم است چون اولین محصول AI پولی تو باید یک آزمایش سریع باشد، نه یک سال ساختن در تنهایی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p2",
+              "text": {
+                "en": "The Build-Measure-Learn feedback loop turns ideas into products, measures how customers respond, then learns whether to pivot or persevere. The aim is to minimize total time through the loop.",
+                "fa": "حلقهٔ بازخورد Build-Measure-Learn ایده را به محصول تبدیل می‌کند، واکنش مشتری‌ها را می‌سنجد و بعد می‌آموزد که pivot کند یا ادامه دهد. هدف کمینه کردن زمان کل گذر از حلقه است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p3",
+              "text": {
+                "en": "Ries says to plan the loop in reverse: decide what you need to learn, then what you must measure, then the smallest product that will give you that measurement.",
+                "fa": "Ries می‌گوید حلقه را وارونه برنامه‌ریزی کن: اول تصمیم بگیر چه باید بیاموزی، بعد چه باید بسنجی، بعد کوچک‌ترین محصولی که آن سنجش را به تو بدهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l2k1",
+              "type": "order",
+              "source": "b20c1l2p2",
+              "prompt": {
+                "en": "Put the steps of the feedback loop in order",
+                "fa": "گام‌های حلقهٔ بازخورد را مرتب کن"
+              },
+              "options": [
+                {
+                  "en": "Measure",
+                  "fa": "بسنج"
+                },
+                {
+                  "en": "Learn",
+                  "fa": "بیاموز"
+                },
+                {
+                  "en": "Build",
+                  "fa": "بساز"
+                }
+              ],
+              "answer": [
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p4",
+              "text": {
+                "en": "Start with the leap-of-faith assumptions, the parts of the plan most likely to be wrong. Ries ties this to genchi gembutsu, the Toyota rule to go and see for yourself.",
+                "fa": "از فرض‌های جهش ایمان شروع کن، بخش‌هایی از برنامه که بیشترین احتمال اشتباه را دارند. Ries این را به genchi gembutsu پیوند می‌دهد، قاعدهٔ Toyota که می‌گوید خودت برو و ببین."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p5",
+              "text": {
+                "en": "Talking to customers in person sharpens a customer archetype, a picture of who the target customer is. It guides product work and stays open to change.",
+                "fa": "گفت‌وگوی رودررو با مشتری‌ها یک کهن‌الگوی مشتری را دقیق‌تر می‌کند، تصویری از اینکه مشتری هدف کیست. این تصویر راهنمای کار محصول است و همچنان قابل تغییر می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p6",
+              "text": {
+                "en": "A minimum viable product is the version that lets a team start the Build-Measure-Learn loop with the least effort and the least development time. Its job is to test hypotheses.",
+                "fa": "کمینه‌محصول پذیرفتنی (MVP) نسخه‌ای است که به تیم اجازه می‌دهد حلقهٔ Build-Measure-Learn را با کمترین تلاش و کمترین زمان توسعه شروع کند. کارش آزمودن فرضیه‌هاست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l2k2",
+              "type": "tf",
+              "source": "b20c1l2p4",
+              "prompt": {
+                "en": "Leap-of-faith assumptions are the parts of the plan least likely to be wrong.",
+                "fa": "فرض‌های جهش ایمان بخش‌هایی از برنامه‌اند که کمترین احتمال اشتباه را دارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p7",
+              "text": {
+                "en": "Dropbox founder Drew Houston made a short video showing how file sync would work before the product was ready. The beta waiting list jumped from 5,000 to 75,000 people overnight.",
+                "fa": "Drew Houston، بنیان‌گذار Dropbox، پیش از آماده شدن محصول ویدئویی کوتاه ساخت که نشان می‌داد همگام‌سازی فایل چگونه کار می‌کند. فهرست انتظار نسخهٔ beta یک‌شبه از ۵٬۰۰۰ به ۷۵٬۰۰۰ نفر رسید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p8",
+              "text": {
+                "en": "Food on the Table began as a concierge MVP: founder Manuel Rosso served his first customer in Austin personally, planning her meals and shopping lists by hand.",
+                "fa": "Food on the Table با یک MVP دربان‌وار (concierge) شروع شد: بنیان‌گذارش Manuel Rosso به اولین مشتری‌اش در Austin شخصاً خدمت داد و وعده‌ها و فهرست خریدش را با دست برنامه‌ریزی کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l2k3",
+              "type": "tap",
+              "source": "b20c1l2p8",
+              "prompt": {
+                "en": "What did Food on the Table do in its concierge MVP?",
+                "fa": "Food on the Table در MVP دربان‌وارش چه کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Served its first customer personally, by hand",
+                  "fa": "به اولین مشتری‌اش شخصاً و با دست خدمت داد"
+                },
+                {
+                  "en": "Ran a national advertising campaign",
+                  "fa": "یک کمپین تبلیغاتی سراسری اجرا کرد"
+                },
+                {
+                  "en": "Built a full recipe app before launch",
+                  "fa": "پیش از عرضه یک اپ کامل دستور غذا ساخت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p9",
+              "text": {
+                "en": "Aardvark tested its question-answering service as a Wizard of Oz MVP: customers believed software answered them, but people behind the scenes did much of the work.",
+                "fa": "Aardvark سرویس پرسش و پاسخش را به شکل MVP جادوگر شهر اُز (Wizard of Oz) آزمود: مشتری‌ها فکر می‌کردند نرم‌افزار جوابشان را می‌دهد، اما آدم‌هایی پشت صحنه بخش زیادی از کار را می‌کردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p10",
+              "text": {
+                "en": "Ries admits an MVP may embarrass a team that cares about quality. If we do not know who the customer is, he writes, we do not know what quality is.",
+                "fa": "Ries می‌پذیرد که MVP ممکن است تیمی را که به کیفیت اهمیت می‌دهد شرمنده کند. او می‌نویسد اگر ندانیم مشتری کیست، نمی‌دانیم کیفیت چیست."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l2k4",
+              "type": "tf",
+              "source": "b20c1l2p7",
+              "prompt": {
+                "en": "Dropbox's demo video brought tens of thousands of sign-ups to its beta list before the product was ready.",
+                "fa": "ویدئوی دموی Dropbox پیش از آماده شدن محصول ده‌ها هزار ثبت‌نام برای فهرست beta آورد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p11",
+              "text": {
+                "en": "Applied: your first AI product could be a Wizard of Oz MVP, where you handle requests by hand behind a simple form with a price. Paying customers prove value before any model code.",
+                "fa": "کاربردی: اولین محصول AI تو می‌تواند یک MVP جادوگر شهر اُز باشد که درخواست‌ها را پشت یک فرم ساده با قیمت، با دست انجام می‌دهی. مشتری پولی پیش از هر خط کد مدل، ارزش را ثابت می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l2p12",
+              "text": {
+                "en": "Ries lists fears about MVPs, such as patents, competitors stealing the idea and harm to the brand. He answers that most competitors are too busy to notice, and an MVP can launch under a different brand.",
+                "fa": "Ries ترس‌هایی دربارهٔ MVP را برمی‌شمارد، مثل ثبت اختراع، دزدیده شدن ایده توسط رقیب و آسیب به برند. پاسخش این است که بیشتر رقبا سرشان شلوغ‌تر از آن است که متوجه شوند و MVP می‌تواند با برندی دیگر عرضه شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l2k5",
+              "type": "tap",
+              "source": "b20c1l2p6",
+              "prompt": {
+                "en": "What is the main job of a minimum viable product?",
+                "fa": "کار اصلی کمینه‌محصول پذیرفتنی چیست؟"
+              },
+              "options": [
+                {
+                  "en": "To test hypotheses with the least effort",
+                  "fa": "آزمودن فرضیه‌ها با کمترین تلاش"
+                },
+                {
+                  "en": "To impress investors with polish",
+                  "fa": "تحت تأثیر قرار دادن سرمایه‌گذاران با ظاهر صیقلی"
+                },
+                {
+                  "en": "To include every planned feature",
+                  "fa": "گنجاندن همهٔ قابلیت‌های برنامه‌ریزی‌شده"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b20c1l3",
+          "title": {
+            "en": "Innovation accounting, pivots and small batches",
+            "fa": "حسابداری نوآوری، pivot و دسته‌های کوچک"
+          },
+          "minutes": 13,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b20c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapters 7 to 9, Measure, Pivot (or Persevere) and Batch. It matters because without honest metrics you cannot tell whether your product, or a startup you own equity in, really works.",
+                "fa": "این درس فصل‌های ۷ تا ۹، Measure، Pivot (or Persevere) و Batch، را خلاصه می‌کند. مهم است چون بدون معیارهای صادقانه نمی‌توانی بفهمی محصولت، یا استارتاپی که در آن سهم داری، واقعاً کار می‌کند یا نه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p2",
+              "text": {
+                "en": "Innovation accounting has three steps: use an MVP to set a baseline, tune the engine toward the ideal, then decide whether to pivot or persevere.",
+                "fa": "حسابداری نوآوری سه گام دارد: با یک MVP خط پایه را تعیین کن، موتور را به‌سوی وضع آرمانی تنظیم کن، سپس تصمیم بگیر pivot کنی یا ادامه دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p3",
+              "text": {
+                "en": "Vanity metrics, like total sign-ups or gross revenue, go up and make teams feel good but do not show cause and effect. Actionable metrics link specific actions to results.",
+                "fa": "معیارهای پوچ، مثل تعداد کل ثبت‌نام‌ها یا درآمد ناخالص، بالا می‌روند و حال تیم را خوب می‌کنند اما علت و معلول را نشان نمی‌دهند. معیارهای عمل‌پذیر کارهای مشخص را به نتیجه‌ها پیوند می‌دهند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l3k1",
+              "type": "order",
+              "source": "b20c1l3p2",
+              "prompt": {
+                "en": "Put the three steps of innovation accounting in order",
+                "fa": "سه گام حسابداری نوآوری را مرتب کن"
+              },
+              "options": [
+                {
+                  "en": "Pivot or persevere",
+                  "fa": "pivot یا ادامه"
+                },
+                {
+                  "en": "Set a baseline",
+                  "fa": "تعیین خط پایه"
+                },
+                {
+                  "en": "Tune the engine",
+                  "fa": "تنظیم موتور"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p4",
+              "text": {
+                "en": "At IMVU, total registrations and revenue kept rising, while cohort analysis showed new customers were not becoming paying customers at higher rates. The product changes were not working.",
+                "fa": "در IMVU، تعداد کل ثبت‌نام‌ها و درآمد مدام بالا می‌رفت، در حالی که تحلیل cohort نشان می‌داد مشتری‌های تازه با نرخ بالاتری به مشتری پولی تبدیل نمی‌شوند. تغییرات محصول کار نمی‌کرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p5",
+              "text": {
+                "en": "Cohort analysis tracks each group of new customers separately, and split tests show two versions to different customers at once. Both reveal cause and effect that totals hide.",
+                "fa": "تحلیل cohort هر گروه از مشتری‌های تازه را جداگانه دنبال می‌کند و آزمون split دو نسخه را هم‌زمان به مشتری‌های متفاوت نشان می‌دهد. هر دو علت و معلولی را آشکار می‌کنند که مجموع‌ها پنهان می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p6",
+              "text": {
+                "en": "Ries names the three A's of good metrics: actionable, accessible and auditable. Reports should be simple enough for everyone to read and traceable back to real customers.",
+                "fa": "Ries سه ویژگی معیار خوب را نام می‌برد: عمل‌پذیر، در دسترس و قابل حسابرسی. گزارش‌ها باید آن‌قدر ساده باشند که همه بخوانند و تا مشتری واقعی قابل ردیابی باشند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l3k2",
+              "type": "tap",
+              "source": "b20c1l3p3",
+              "prompt": {
+                "en": "Which of these is a vanity metric in Ries's sense?",
+                "fa": "کدام‌یک از این‌ها به معنای Ries معیار پوچ است؟"
+              },
+              "options": [
+                {
+                  "en": "Total sign-ups",
+                  "fa": "تعداد کل ثبت‌نام‌ها"
+                },
+                {
+                  "en": "Paying rate of this week's cohort",
+                  "fa": "نرخ پرداخت cohort این هفته"
+                },
+                {
+                  "en": "Result of a split test",
+                  "fa": "نتیجهٔ یک آزمون split"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p7",
+              "text": {
+                "en": "A pivot is a structured course correction designed to test a new fundamental hypothesis about the product, strategy and engine of growth. It builds on what was already learned.",
+                "fa": "pivot یک تغییر مسیر ساختاریافته است برای آزمودن یک فرضیهٔ بنیادی تازه دربارهٔ محصول، استراتژی و موتور رشد. بر آنچه پیش‌تر آموخته شده بنا می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p8",
+              "text": {
+                "en": "Ries lists types of pivot, such as zoom-in, where one feature becomes the whole product, and customer segment, customer need, platform and channel pivots.",
+                "fa": "Ries گونه‌هایی از pivot را برمی‌شمارد، مثل zoom-in که در آن یک قابلیت کل محصول می‌شود، و pivot بخش مشتری، نیاز مشتری، پلتفرم و کانال."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l3k3",
+              "type": "tf",
+              "source": "b20c1l3p7",
+              "prompt": {
+                "en": "In Ries's sense, a pivot means throwing everything away and starting over with no lessons kept.",
+                "fa": "به معنای Ries، pivot یعنی همه‌چیز را دور ریختن و از صفر شروع کردن بی‌آنکه درسی نگه داری."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p9",
+              "text": {
+                "en": "Ries measures runway as the number of pivots a startup can still make, not just months of cash. He recommends regular pivot or persevere meetings so the choice is made on purpose.",
+                "fa": "Ries مدت بقا (runway) را با تعداد pivotهایی می‌سنجد که استارتاپ هنوز می‌تواند انجام دهد، نه فقط ماه‌های باقی‌ماندهٔ پول. او جلسه‌های منظم pivot یا ادامه را توصیه می‌کند تا انتخاب آگاهانه انجام شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p10",
+              "text": {
+                "en": "The worst fate is not failure but the land of the living dead: a company that grows just enough to survive and never decides to pivot.",
+                "fa": "بدترین سرنوشت شکست نیست، بلکه سرزمین مردگان متحرک است: شرکتی که فقط آن‌قدر رشد می‌کند که زنده بماند و هرگز تصمیم به pivot نمی‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p11",
+              "text": {
+                "en": "Chapter 9 retells a story from Lean Thinking: stuffing newsletters one envelope at a time beats doing each step for the whole pile. Small batches reveal errors early, before a whole batch is wrong.",
+                "fa": "فصل ۹ داستانی از کتاب Lean Thinking را بازگو می‌کند: گذاشتن خبرنامه‌ها در پاکت یکی‌یکی از انجام هر گام برای کل توده سریع‌تر است. دسته‌های کوچک خطا را زود آشکار می‌کنند، پیش از آنکه کل یک دسته خراب شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l3k4",
+              "type": "tap",
+              "source": "b20c1l3p9",
+              "prompt": {
+                "en": "How does Ries measure a startup's runway?",
+                "fa": "Ries مدت بقای استارتاپ را چگونه می‌سنجد؟"
+              },
+              "options": [
+                {
+                  "en": "By the number of pivots it can still make",
+                  "fa": "با تعداد pivotهایی که هنوز می‌تواند انجام دهد"
+                },
+                {
+                  "en": "By its total registrations",
+                  "fa": "با تعداد کل ثبت‌نام‌هایش"
+                },
+                {
+                  "en": "By the size of its office",
+                  "fa": "با اندازهٔ دفترش"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p12",
+              "text": {
+                "en": "IMVU used continuous deployment, releasing code to production as often as fifty times a day. Each small change was tested automatically, so a bad change could be found and reversed quickly.",
+                "fa": "IMVU از استقرار پیوسته استفاده می‌کرد و تا پنجاه بار در روز کد را به محیط اصلی می‌فرستاد. هر تغییر کوچک خودکار آزموده می‌شد، پس تغییر بد سریع پیدا و برگردانده می‌شد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b20c1l3p13",
+              "text": {
+                "en": "Applied: hold a pivot or persevere meeting each quarter alongside your net-worth log, and write the decision in your decision journal. Judge by paying cohorts, not total visitors.",
+                "fa": "کاربردی: هر فصل همراه با ثبت دارایی خالصت یک جلسهٔ pivot یا ادامه برگزار کن و تصمیم را در دفتر تصمیمت بنویس. بر پایهٔ cohortهای پولی قضاوت کن، نه تعداد کل بازدیدکننده‌ها."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b20c1l3k5",
+              "type": "tf",
+              "source": "b20c1l3p12",
+              "prompt": {
+                "en": "IMVU released code only a few times a year, in large batches.",
+                "fa": "IMVU فقط چند بار در سال و در دسته‌های بزرگ کد منتشر می‌کرد."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

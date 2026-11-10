@@ -1,0 +1,2562 @@
+{
+  "id": "b16",
+  "title": "The Mom Test",
+  "author": {
+    "en": "Rob Fitzpatrick",
+    "fa": "Rob Fitzpatrick"
+  },
+  "year": 2013,
+  "stage": 5,
+  "must": true,
+  "why": {
+    "en": "Validating an idea without fooling yourself",
+    "fa": "اعتبارسنجی ایده بدون خودفریبی"
+  },
+  "badge": {
+    "en": "Talk Less, Listen More",
+    "fa": "کمتر بگو، بیشتر بشنو"
+  },
+  "tier": "high",
+  "circles": [
+    {
+      "id": "b16c1",
+      "title": {
+        "en": "Questions even your mom can't lie about",
+        "fa": "سؤال‌هایی که حتی مادرت نمی‌تواند درباره‌شان دروغ بگوید"
+      },
+      "lessons": [
+        {
+          "id": "b16c1l1",
+          "title": {
+            "en": "The three rules of the Mom Test",
+            "fa": "سه قاعدهٔ The Mom Test"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 1, the three rules of the Mom Test. It matters because before you build a small AI product people pay for, you need truths from customers, not polite noise.",
+                "fa": "این درس فصل ۱ یعنی سه قاعدهٔ The Mom Test را خلاصه می‌کند. مهم است چون پیش از ساختن یک محصول کوچک AI که مردم برایش پول بدهند، از مشتری‌ها حقیقت لازم داری، نه تعارف."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p2",
+              "text": {
+                "en": "Everyone says you should talk to customers, yet most of those talks give false positives. The Mom Test is a set of rules for questions even your mom can't lie about.",
+                "fa": "همه می‌گویند باید با مشتری حرف بزنی، اما بیشتر این گفتگوها نشانه‌های مثبت کاذب می‌دهند. The Mom Test مجموعه‌ای از قواعد برای سؤال‌هایی است که حتی مادرت هم نمی‌تواند درباره‌شان دروغ بگوید."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p3",
+              "text": {
+                "en": "Rob's rule of thumb: customer conversations are bad by default, and it's your job to fix them. People will lie to you if they think it's what you want to hear.",
+                "fa": "قاعدهٔ سرانگشتی Rob: گفتگو با مشتری به‌طور پیش‌فرض بد است و درست کردنش کار توست. مردم اگر فکر کنند همان چیزی است که می‌خواهی بشنوی، به تو دروغ می‌گویند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l1k1",
+              "type": "tf",
+              "source": "b16c1l1p3",
+              "prompt": {
+                "en": "The book says customer conversations give honest data by default.",
+                "fa": "کتاب می‌گوید گفتگو با مشتری به‌طور پیش‌فرض دادهٔ صادقانه می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p4",
+              "text": {
+                "en": "Rob's example: you ask your mom whether she would buy your iPad cookbook app. She loves you, so she says yes, and you leave with a compliment instead of a fact.",
+                "fa": "مثال Rob: از مادرت می‌پرسی آیا اپ آشپزی iPad تو را می‌خرد. او دوستت دارد، پس می‌گوید بله، و تو با یک تعریف برمی‌گردی، نه یک واقعیت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p5",
+              "text": {
+                "en": "Rule 1: talk about their life instead of your idea. Your idea invites kindness and opinions; their life gives you facts.",
+                "fa": "قاعدهٔ ۱: دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت. ایدهٔ تو مهربانی و نظر به دنبال دارد؛ زندگی آن‌ها واقعیت به تو می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l1k2",
+              "type": "tap",
+              "source": "b16c1l1p5",
+              "prompt": {
+                "en": "What is rule 1 of the Mom Test?",
+                "fa": "قاعدهٔ ۱ در The Mom Test چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Talk about their life instead of your idea",
+                  "fa": "دربارهٔ زندگی آن‌ها حرف بزن، نه ایدهٔ خودت"
+                },
+                {
+                  "en": "Explain your idea clearly before asking",
+                  "fa": "پیش از پرسیدن، ایده‌ات را واضح توضیح بده"
+                },
+                {
+                  "en": "Ask what they think of your idea",
+                  "fa": "بپرس نظرشان دربارهٔ ایده‌ات چیست"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p6",
+              "text": {
+                "en": "Rule 2: ask about specifics in the past instead of generics or opinions about the future. 'When did this last happen?' beats 'Would you ever use this?'",
+                "fa": "قاعدهٔ ۲: به‌جای کلی‌گویی یا نظر دربارهٔ آینده، از جزئیات گذشته بپرس. «آخرین بار کی پیش آمد؟» بهتر از «آیا هیچ‌وقت از این استفاده می‌کنی؟» است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p7",
+              "text": {
+                "en": "Rule 3: talk less and listen more. While you are talking you are not learning, and the more you say, the more you steer them.",
+                "fa": "قاعدهٔ ۳: کمتر بگو و بیشتر بشنو. وقتی حرف می‌زنی یاد نمی‌گیری، و هرچه بیشتر بگویی، بیشتر آن‌ها را به سمت دلخواهت هل می‌دهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p8",
+              "text": {
+                "en": "Redone, the cookbook talk asks mom what she last cooked, how she found the recipe, and whether she ever looked for a cooking app. Her answers can't flatter you.",
+                "fa": "در نسخهٔ درست، از مادر می‌پرسی آخرین بار چه پخت، دستور را از کجا پیدا کرد و آیا هیچ‌وقت دنبال اپ آشپزی گشته. پاسخ‌هایش نمی‌تواند تعریف از تو باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l1k3",
+              "type": "tap",
+              "source": "b16c1l1p7",
+              "prompt": {
+                "en": "Which habit is rule 3?",
+                "fa": "کدام عادت قاعدهٔ ۳ است؟"
+              },
+              "options": [
+                {
+                  "en": "Prepare a stronger pitch",
+                  "fa": "یک pitch قوی‌تر آماده کن"
+                },
+                {
+                  "en": "Talk less and listen more",
+                  "fa": "کمتر بگو و بیشتر بشنو"
+                },
+                {
+                  "en": "Run a formal survey",
+                  "fa": "یک نظرسنجی رسمی اجرا کن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p9",
+              "text": {
+                "en": "Rob's rule of thumb: people know what their problems are, but they don't know how to solve those problems. Mine them for problems, not solutions.",
+                "fa": "قاعدهٔ سرانگشتی Rob: مردم می‌دانند مشکلشان چیست، اما نمی‌دانند چطور حلش کنند. از آن‌ها مشکل بیرون بکش، نه راه‌حل."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p10",
+              "text": {
+                "en": "Another rule: you aren't allowed to tell them what their problem is, and in return they aren't allowed to tell you what to build.",
+                "fa": "قاعدهٔ دیگر: تو اجازه نداری بگویی مشکلشان چیست، و در عوض آن‌ها هم اجازه ندارند بگویند چه بسازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p11",
+              "text": {
+                "en": "A question passes the Mom Test when even someone who loves you can't lie in the answer, because it asks about facts they lived.",
+                "fa": "یک سؤال وقتی از The Mom Test می‌گذرد که حتی کسی که دوستت دارد نتواند در پاسخش دروغ بگوید، چون دربارهٔ واقعیت‌هایی است که خودش زیسته."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l1k4",
+              "type": "tap",
+              "source": "b16c1l1p11",
+              "prompt": {
+                "en": "When does a question pass the Mom Test?",
+                "fa": "یک سؤال کی از The Mom Test می‌گذرد؟"
+              },
+              "options": [
+                {
+                  "en": "When the person agrees with your idea",
+                  "fa": "وقتی طرف با ایده‌ات موافق است"
+                },
+                {
+                  "en": "When you ask it in a formal meeting",
+                  "fa": "وقتی آن را در یک جلسهٔ رسمی بپرسی"
+                },
+                {
+                  "en": "When even someone who loves you can't lie",
+                  "fa": "وقتی حتی کسی که دوستت دارد نتواند دروغ بگوید"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l1p12",
+              "text": {
+                "en": "Applied to you: before coding your AI product, hold a handful of Mom Test talks about how people handle the problem today. A week of talks can save months of building.",
+                "fa": "برای تو: پیش از کدنویسی محصول AI، چند گفتگو به سبک The Mom Test دربارهٔ اینکه مردم امروز مشکل را چطور حل می‌کنند داشته باش. یک هفته گفتگو می‌تواند ماه‌ها ساخت بی‌فایده را صرفه‌جویی کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l1k5",
+              "type": "tf",
+              "source": "b16c1l1p12",
+              "prompt": {
+                "en": "The applied advice is to code the product first and ask people afterwards.",
+                "fa": "توصیهٔ کاربردی این است که اول محصول را کد بزنی و بعد از مردم بپرسی."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b16c1l2",
+          "title": {
+            "en": "Good questions and bad questions",
+            "fa": "سؤال خوب و سؤال بد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 1's list of good and bad questions. It matters because one wrong question can turn a useful customer talk into a pleasant waste of time.",
+                "fa": "این درس فهرست سؤال‌های خوب و بد فصل ۱ را خلاصه می‌کند. مهم است چون یک سؤال اشتباه می‌تواند گفتگوی مفید با مشتری را به اتلاف وقتی دلپذیر تبدیل کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p2",
+              "text": {
+                "en": "'Do you think it's a good idea?' is a bad question. Only the market can tell you if your idea is good; everything else is just opinion.",
+                "fa": "«فکر می‌کنی ایدهٔ خوبی است؟» سؤال بدی است. فقط بازار می‌تواند بگوید ایده‌ات خوب است یا نه؛ بقیه فقط نظر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p3",
+              "text": {
+                "en": "Rob's rule of thumb: opinions are worthless. You want facts about what people do, not views on what they might like.",
+                "fa": "قاعدهٔ سرانگشتی Rob: نظرها بی‌ارزش‌اند. تو واقعیت دربارهٔ کاری که مردم می‌کنند می‌خواهی، نه دیدگاهشان دربارهٔ چیزی که شاید دوست داشته باشند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l2k1",
+              "type": "tf",
+              "source": "b16c1l2p2",
+              "prompt": {
+                "en": "The book calls 'Do you think it's a good idea?' a good question.",
+                "fa": "کتاب «فکر می‌کنی ایدهٔ خوبی است؟» را سؤال خوبی می‌داند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p4",
+              "text": {
+                "en": "'Would you buy a product which did X?' is bad: you are asking for opinions and hypotheticals from over-optimistic people who want to make you happy.",
+                "fa": "«آیا محصولی را که X را انجام دهد می‌خری؟» بد است: از آدم‌های بیش از حد خوش‌بینی که می‌خواهند خوشحالت کنند، نظر و فرض می‌خواهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p5",
+              "text": {
+                "en": "Rule of thumb: anything involving the future is an over-optimistic lie. People believe they will exercise, save and buy more than they really do.",
+                "fa": "قاعدهٔ سرانگشتی: هر چیزی که به آینده مربوط باشد، دروغی بیش از حد خوش‌بینانه است. مردم فکر می‌کنند بیشتر از واقعیت ورزش می‌کنند، پس‌انداز می‌کنند و خرید می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l2k2",
+              "type": "tap",
+              "source": "b16c1l2p5",
+              "prompt": {
+                "en": "How does the book treat answers about the future?",
+                "fa": "کتاب با پاسخ‌های مربوط به آینده چطور برخورد می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "As an over-optimistic lie",
+                  "fa": "به‌عنوان دروغی بیش از حد خوش‌بینانه"
+                },
+                {
+                  "en": "As the most reliable data",
+                  "fa": "به‌عنوان قابل‌اعتمادترین داده"
+                },
+                {
+                  "en": "As a firm commitment",
+                  "fa": "به‌عنوان یک تعهد قطعی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p6",
+              "text": {
+                "en": "'How much would you pay for X?' is bad for the same reason, and the number makes it look rigorous. Ask about money they already spend instead.",
+                "fa": "«برای X چقدر می‌پردازی؟» به همان دلیل بد است، و عدد آن را دقیق جلوه می‌دهد. به‌جایش دربارهٔ پولی بپرس که همین حالا خرج می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p7",
+              "text": {
+                "en": "'What would your dream product do?' is only sort-of okay. The value lies in asking why they want those features, not in the wishlist itself.",
+                "fa": "«محصول رؤیایی‌ات چه می‌کرد؟» فقط تا حدی قابل قبول است. ارزش در پرسیدن این است که چرا آن ویژگی‌ها را می‌خواهند، نه در خود فهرست آرزوها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p8",
+              "text": {
+                "en": "Good: 'Why do you bother?' It moves you from what they think they want to why they want it.",
+                "fa": "خوب: «چرا اصلاً به خودت زحمت می‌دهی؟» این سؤال تو را از آنچه فکر می‌کنند می‌خواهند به چرایی خواستنش می‌برد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l2k3",
+              "type": "tap",
+              "source": "b16c1l2p8",
+              "prompt": {
+                "en": "What does 'Why do you bother?' uncover?",
+                "fa": "سؤال «چرا به خودت زحمت می‌دهی؟» چه چیزی را آشکار می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "What price they will pay",
+                  "fa": "اینکه چه قیمتی می‌پردازند"
+                },
+                {
+                  "en": "Why they want it",
+                  "fa": "اینکه چرا آن را می‌خواهند"
+                },
+                {
+                  "en": "Which features to build next",
+                  "fa": "اینکه بعداً کدام ویژگی را بسازی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p9",
+              "text": {
+                "en": "Good: 'What are the implications of that?' It separates problems people will pay to solve from problems that are only mildly annoying.",
+                "fa": "خوب: «پیامدهای آن چیست؟» این سؤال مشکلاتی را که مردم برای حلشان پول می‌دهند از مشکلاتی که فقط کمی آزاردهنده‌اند جدا می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p10",
+              "text": {
+                "en": "Good: 'Talk me through the last time that happened.' Hearing the real workflow shows where the problems truly are.",
+                "fa": "خوب: «آخرین باری که پیش آمد را برایم تعریف کن.» شنیدن روند واقعی کار نشان می‌دهد مشکل واقعاً کجاست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p11",
+              "text": {
+                "en": "Good: 'What else have you tried?' and 'How are you dealing with it now?' If they haven't looked for a solution, they won't buy yours.",
+                "fa": "خوب: «چه چیزهای دیگری امتحان کرده‌ای؟» و «الان چطور با آن کنار می‌آیی؟» اگر دنبال راه‌حل نگشته‌اند، راه‌حل تو را هم نمی‌خرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l2k4",
+              "type": "tf",
+              "source": "b16c1l2p11",
+              "prompt": {
+                "en": "If someone has never looked for a solution, the book expects them to buy yours.",
+                "fa": "اگر کسی هرگز دنبال راه‌حل نگشته، کتاب انتظار دارد راه‌حل تو را بخرد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l2p12",
+              "text": {
+                "en": "Also good: 'Where does the money come from?', 'Who else should I talk to?' and 'Is there anything else I should have asked?'",
+                "fa": "این‌ها هم خوب‌اند: «پول از کجا می‌آید؟»، «با چه کس دیگری باید حرف بزنم؟» و «چیز دیگری هست که باید می‌پرسیدم؟»"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l2k5",
+              "type": "tap",
+              "source": "b16c1l2p12",
+              "prompt": {
+                "en": "Which of these is a good closing question in the book?",
+                "fa": "کدام‌یک از این‌ها در کتاب سؤال پایانی خوبی است؟"
+              },
+              "options": [
+                {
+                  "en": "Would you buy it today?",
+                  "fa": "امروز آن را می‌خری؟"
+                },
+                {
+                  "en": "Do you like my idea?",
+                  "fa": "ایده‌ام را دوست داری؟"
+                },
+                {
+                  "en": "Who else should I talk to?",
+                  "fa": "با چه کس دیگری باید حرف بزنم؟"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b16c1l3",
+          "title": {
+            "en": "Avoiding bad data: compliments, fluff and ideas",
+            "fa": "پرهیز از دادهٔ بد: تعریف، حرف توخالی و ایده"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 2, avoiding bad data. It matters because compliments, fluff and ideas feel like progress and can keep you building a product nobody pays for.",
+                "fa": "این درس فصل ۲ یعنی پرهیز از دادهٔ بد را خلاصه می‌کند. مهم است چون تعریف، حرف توخالی و ایده حس پیشرفت می‌دهند و می‌توانند تو را به ساختن محصولی بکشانند که کسی برایش پول نمی‌دهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p2",
+              "text": {
+                "en": "The book names three types of bad data: compliments, fluff and ideas. Each feels like learning, yet none tells you whether people will pay.",
+                "fa": "کتاب سه نوع دادهٔ بد را نام می‌برد: تعریف، حرف توخالی (fluff) و ایده. هر کدام حس یادگیری می‌دهد، اما هیچ‌کدام نمی‌گوید مردم پول می‌دهند یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l3k1",
+              "type": "tap",
+              "source": "b16c1l3p2",
+              "prompt": {
+                "en": "Which three types of bad data does the book name?",
+                "fa": "کتاب کدام سه نوع دادهٔ بد را نام می‌برد؟"
+              },
+              "options": [
+                {
+                  "en": "Compliments, fluff and ideas",
+                  "fa": "تعریف، حرف توخالی و ایده"
+                },
+                {
+                  "en": "Prices, dates and names",
+                  "fa": "قیمت، تاریخ و نام"
+                },
+                {
+                  "en": "Complaints, refunds and churn",
+                  "fa": "شکایت، بازپرداخت و ریزش مشتری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p3",
+              "text": {
+                "en": "Rule of thumb: compliments are the fool's gold of customer learning: shiny, distracting and entirely worthless.",
+                "fa": "قاعدهٔ سرانگشتی: تعریف‌ها طلای تقلبی یادگیری از مشتری‌اند: براق، حواس‌پرت‌کن و کاملاً بی‌ارزش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p4",
+              "text": {
+                "en": "Warning signs include 'That's so cool' and 'I love it'. When you hear them, the talk has drifted from their life to your idea.",
+                "fa": "نشانه‌های هشدار شامل «خیلی باحاله» و «عاشقشم» است. وقتی این‌ها را می‌شنوی، گفتگو از زندگی آن‌ها به ایدهٔ تو منحرف شده."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p5",
+              "text": {
+                "en": "Deflect compliments and get back to facts: 'Thanks, but how do you deal with this today?'",
+                "fa": "تعریف را رد کن و به واقعیت برگرد: «ممنون، ولی امروز با این چطور کنار می‌آیی؟»"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l3k2",
+              "type": "tf",
+              "source": "b16c1l3p3",
+              "prompt": {
+                "en": "The book calls compliments the fool's gold of customer learning.",
+                "fa": "کتاب تعریف‌ها را طلای تقلبی یادگیری از مشتری می‌نامد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p6",
+              "text": {
+                "en": "Fluff comes in three forms: generic claims ('I usually', 'I never'), future-tense promises ('I would', 'I will') and hypothetical maybes ('I might', 'I could').",
+                "fa": "حرف توخالی سه شکل دارد: ادعای کلی («معمولاً»، «هرگز»)، وعدهٔ آینده («می‌خواهم»، «خواهم کرد») و شاید فرضی («شاید»، «می‌توانم»)."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p7",
+              "text": {
+                "en": "To anchor fluff, ask for a specific past example: 'When was the last time that happened?' Then ask what they did about it.",
+                "fa": "برای لنگر انداختن حرف توخالی، یک مثال مشخص از گذشته بخواه: «آخرین بار کی پیش آمد؟» بعد بپرس دربارهٔ آن چه کردند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l3k3",
+              "type": "tap",
+              "source": "b16c1l3p7",
+              "prompt": {
+                "en": "How do you anchor fluff?",
+                "fa": "حرف توخالی را چطور لنگر می‌اندازی؟"
+              },
+              "options": [
+                {
+                  "en": "Ask them to rate the idea out of ten",
+                  "fa": "بخواه به ایده از ده نمره بدهند"
+                },
+                {
+                  "en": "Ask for a specific past example",
+                  "fa": "یک مثال مشخص از گذشته بخواه"
+                },
+                {
+                  "en": "Repeat your pitch more slowly",
+                  "fa": "pitch خود را آهسته‌تر تکرار کن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p8",
+              "text": {
+                "en": "Watch for fluff you invite yourself. Questions that start with 'Do you ever' or 'Would you' pull people into generic and future answers.",
+                "fa": "مراقب حرف توخالی‌ای باش که خودت دعوتش می‌کنی. سؤال‌هایی که با «آیا هیچ‌وقت» یا «آیا حاضری» شروع می‌شوند، مردم را به پاسخ‌های کلی و آینده‌ای می‌کشانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p9",
+              "text": {
+                "en": "Ideas and feature requests are the third type. Rule of thumb: ideas and feature requests should be understood, but not obeyed.",
+                "fa": "ایده‌ها و درخواست ویژگی نوع سوم‌اند. قاعدهٔ سرانگشتی: ایده‌ها و درخواست‌های ویژگی را باید فهمید، نه اطاعت کرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l3k4",
+              "type": "tf",
+              "source": "b16c1l3p9",
+              "prompt": {
+                "en": "The book says feature requests should be built as soon as you hear them.",
+                "fa": "کتاب می‌گوید درخواست‌های ویژگی را باید به محض شنیدن ساخت."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p10",
+              "text": {
+                "en": "Dig beneath a request by asking 'Why do you want that?' and 'What would that let you do?' The motivation matters more than the feature.",
+                "fa": "زیر یک درخواست را بکاو و بپرس «چرا آن را می‌خواهی؟» و «با آن چه کاری می‌توانی بکنی؟» انگیزه از خود ویژگی مهم‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p11",
+              "text": {
+                "en": "Dig into strong emotions too. When someone sounds angry or embarrassed about a problem, ask what happened and why it matters to them.",
+                "fa": "در احساسات قوی هم کندوکاو کن. وقتی کسی دربارهٔ مشکلی عصبانی یا شرمنده به نظر می‌رسد، بپرس چه شد و چرا برایش مهم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l3p12",
+              "text": {
+                "en": "Applied: log every 'I would use that' about your AI product as fluff in your notes. Only past behaviour and money spent count as evidence.",
+                "fa": "کاربردی: هر «از این استفاده می‌کنم» دربارهٔ محصول AI خود را در یادداشت‌هایت حرف توخالی ثبت کن. فقط رفتار گذشته و پول خرج‌شده شاهد به حساب می‌آید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l3k5",
+              "type": "tap",
+              "source": "b16c1l3p12",
+              "prompt": {
+                "en": "In the applied advice, what counts as evidence?",
+                "fa": "در توصیهٔ کاربردی، چه چیزی شاهد به حساب می‌آید؟"
+              },
+              "options": [
+                {
+                  "en": "Friends saying they love it",
+                  "fa": "دوستانی که می‌گویند عاشقش هستند"
+                },
+                {
+                  "en": "Promises to try it later",
+                  "fa": "وعده‌هایی برای امتحان کردنش در آینده"
+                },
+                {
+                  "en": "Past behaviour and money spent",
+                  "fa": "رفتار گذشته و پول خرج‌شده"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b16c1l4",
+          "title": {
+            "en": "Stop pitching and get back on track",
+            "fa": "pitch را کنار بگذار و به مسیر برگرد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the rest of chapter 2: pitching, approval-seeking and how to recover. It matters because engineers love explaining their product, and every minute explaining is a minute not learning.",
+                "fa": "این درس باقی فصل ۲ را خلاصه می‌کند: pitch کردن، تأییدطلبی و راه برگشت. مهم است چون مهندس‌ها عاشق توضیح محصولشان‌اند و هر دقیقه توضیح، یک دقیقه یاد نگرفتن است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p2",
+              "text": {
+                "en": "Rule of thumb: anyone will say your idea is great if you're annoying enough about it. Pushing for approval only produces more compliments.",
+                "fa": "قاعدهٔ سرانگشتی: اگر به اندازهٔ کافی سمج باشی، هر کسی می‌گوید ایده‌ات عالی است. اصرار برای تأیید فقط تعریف بیشتری تولید می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p3",
+              "text": {
+                "en": "Signs of approval-seeking include asking 'What do you think?' or 'Do you think it will work?' Both hand the talk over to their opinion.",
+                "fa": "نشانه‌های تأییدطلبی شامل پرسیدن «نظرت چیست؟» یا «فکر می‌کنی جواب می‌دهد؟» است. هر دو گفتگو را به نظر آن‌ها می‌سپارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k1",
+              "type": "tf",
+              "source": "b16c1l4p2",
+              "prompt": {
+                "en": "Pushing hard for approval gets you more honest feedback.",
+                "fa": "اصرار زیاد برای تأیید، بازخورد صادقانه‌تری به تو می‌دهد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p4",
+              "text": {
+                "en": "The pathos problem: when you expose your ego, for example by saying you quit your job for this, people feel they must protect your feelings and lie.",
+                "fa": "مشکل pathos: وقتی منیت خودت را وسط می‌گذاری، مثلاً می‌گویی برای این کار شغلت را رها کرده‌ای، مردم حس می‌کنند باید از احساساتت محافظت کنند و دروغ می‌گویند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k2",
+              "type": "tap",
+              "source": "b16c1l4p4",
+              "prompt": {
+                "en": "What is the pathos problem?",
+                "fa": "مشکل pathos چیست؟"
+              },
+              "options": [
+                {
+                  "en": "People protect your feelings and lie",
+                  "fa": "مردم از احساساتت محافظت می‌کنند و دروغ می‌گویند"
+                },
+                {
+                  "en": "People ask you too many questions",
+                  "fa": "مردم بیش از حد از تو سؤال می‌پرسند"
+                },
+                {
+                  "en": "People hand you their price list",
+                  "fa": "مردم فهرست قیمتشان را به تو می‌دهند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p5",
+              "text": {
+                "en": "You don't need to hide your idea forever. Just avoid pitching it while you are still learning about their life and problems.",
+                "fa": "لازم نیست ایده‌ات را برای همیشه پنهان کنی. فقط تا وقتی هنوز دربارهٔ زندگی و مشکلات آن‌ها یاد می‌گیری، pitch نکن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p6",
+              "text": {
+                "en": "Pitching makes people talk about your idea instead of their problem. Their politeness then hides the real facts.",
+                "fa": "pitch کردن باعث می‌شود مردم به‌جای مشکل خودشان دربارهٔ ایدهٔ تو حرف بزنند. بعد ادب آن‌ها واقعیت را پنهان می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p7",
+              "text": {
+                "en": "If you slip into a pitch, apologise and steer back: 'Sorry, I got excited. Can we go back to how you deal with this now?'",
+                "fa": "اگر ناخواسته وارد pitch شدی، عذرخواهی کن و برگرد: «ببخشید، هیجان‌زده شدم. می‌شود برگردیم به اینکه الان با این چطور کنار می‌آیی؟»"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k3",
+              "type": "tap",
+              "source": "b16c1l4p7",
+              "prompt": {
+                "en": "What should you do if you slip into pitching?",
+                "fa": "اگر ناخواسته وارد pitch شدی چه کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Finish the pitch so they understand",
+                  "fa": "pitch را تمام کن تا بفهمند"
+                },
+                {
+                  "en": "Apologise and steer back",
+                  "fa": "عذرخواهی کن و برگرد"
+                },
+                {
+                  "en": "End the meeting politely",
+                  "fa": "جلسه را مؤدبانه تمام کن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p8",
+              "text": {
+                "en": "Rule 3 applies here: the more you talk, the less you learn. Silence gives the other person room to tell you what matters.",
+                "fa": "قاعدهٔ ۳ اینجا هم صدق می‌کند: هرچه بیشتر حرف بزنی، کمتر یاد می‌گیری. سکوت به طرف مقابل فضا می‌دهد تا بگوید چه چیزی مهم است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k4",
+              "type": "tf",
+              "source": "b16c1l4p8",
+              "prompt": {
+                "en": "Leaving silence gives the other person room to say what matters.",
+                "fa": "سکوت کردن به طرف مقابل فضا می‌دهد تا بگوید چه چیزی مهم است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p9",
+              "text": {
+                "en": "Rule of thumb: some problems don't actually matter. A person may admit a problem is real yet never spend time or money fixing it.",
+                "fa": "قاعدهٔ سرانگشتی: بعضی مشکلات واقعاً اهمیتی ندارند. ممکن است کسی بپذیرد مشکلی واقعی است، اما هرگز برای حلش وقت یا پول نگذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p10",
+              "text": {
+                "en": "Test how much a problem matters by asking what it costs them and what they have tried. A real problem leaves traces: workarounds, spending, hacks.",
+                "fa": "اهمیت یک مشکل را با پرسیدن هزینه‌اش و کارهایی که امتحان کرده‌اند بسنج. مشکل واقعی ردپا دارد: راه‌حل موقت، خرج کردن، ترفند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k5",
+              "type": "tap",
+              "source": "b16c1l4p10",
+              "prompt": {
+                "en": "What traces does a real problem leave?",
+                "fa": "یک مشکل واقعی چه ردپایی به جا می‌گذارد؟"
+              },
+              "options": [
+                {
+                  "en": "Compliments and smiles",
+                  "fa": "تعریف و لبخند"
+                },
+                {
+                  "en": "Long feature wish lists",
+                  "fa": "فهرست‌های بلند آرزوی ویژگی"
+                },
+                {
+                  "en": "Workarounds, spending, hacks",
+                  "fa": "راه‌حل موقت، خرج کردن، ترفند"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p11",
+              "text": {
+                "en": "Applied: when a friend praises your AI side project at a meetup in Amsterdam, treat it as a cue to ask about their work, not as proof you're on track.",
+                "fa": "کاربردی: وقتی دوستی در یک meetup در آمستردام از پروژهٔ جانبی AI تو تعریف می‌کند، آن را نشانه‌ای برای پرسیدن دربارهٔ کار او بدان، نه اثبات اینکه در مسیر درستی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c1l4p12",
+              "text": {
+                "en": "The point of these rules is not to be clever but to get data you can't fool yourself with. Facts about their life beat praise for your idea.",
+                "fa": "هدف این قواعد زرنگی نیست، بلکه گرفتن داده‌ای است که نتوانی با آن خودت را فریب بدهی. واقعیت‌های زندگی آن‌ها از تعریف ایده‌ات ارزشمندتر است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c1l4k6",
+              "type": "tf",
+              "source": "b16c1l4p12",
+              "prompt": {
+                "en": "The goal of the rules is data you can't fool yourself with.",
+                "fa": "هدف این قواعد داده‌ای است که نتوانی با آن خودت را فریب بدهی."
+              },
+              "answer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b16c2",
+      "title": {
+        "en": "Conversations that move things forward",
+        "fa": "گفتگوهایی که کار را جلو می‌برند"
+      },
+      "lessons": [
+        {
+          "id": "b16c2l1",
+          "title": {
+            "en": "Asking important questions",
+            "fa": "پرسیدن سؤال‌های مهم"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 3, asking important questions. It matters because safe questions protect your feelings while your savings and time quietly go into the wrong product.",
+                "fa": "این درس فصل ۳ یعنی پرسیدن سؤال‌های مهم را خلاصه می‌کند. مهم است چون سؤال‌های بی‌خطر از احساساتت محافظت می‌کنند، در حالی که پس‌انداز و وقتت بی‌صدا صرف محصول اشتباه می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p2",
+              "text": {
+                "en": "Rule of thumb: you should be terrified of at least one of the questions you're asking in every conversation.",
+                "fa": "قاعدهٔ سرانگشتی: در هر گفتگو باید دست‌کم از یکی از سؤال‌هایی که می‌پرسی وحشت داشته باشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l1k1",
+              "type": "tf",
+              "source": "b16c2l1p2",
+              "prompt": {
+                "en": "The book says every conversation should include a question that scares you.",
+                "fa": "کتاب می‌گوید هر گفتگو باید سؤالی داشته باشد که تو را بترساند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p3",
+              "text": {
+                "en": "Scary questions are the ones that could destroy your idea, such as whether anyone will pay. Founders avoid them because the answer might hurt.",
+                "fa": "سؤال‌های ترسناک آن‌هایی‌اند که می‌توانند ایده‌ات را نابود کنند، مثل اینکه آیا کسی پول می‌دهد. بنیان‌گذاران از آن‌ها فرار می‌کنند چون جواب ممکن است دردناک باشد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p4",
+              "text": {
+                "en": "The book asks you to love bad news. Learning early that your idea is wrong is progress, not failure, because it saves you from building it.",
+                "fa": "کتاب از تو می‌خواهد خبر بد را دوست داشته باشی. فهمیدن زودهنگام اینکه ایده‌ات اشتباه است پیشرفت است، نه شکست، چون تو را از ساختنش نجات می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l1k2",
+              "type": "tap",
+              "source": "b16c2l1p4",
+              "prompt": {
+                "en": "How does the book want you to treat bad news?",
+                "fa": "کتاب می‌خواهد با خبر بد چطور برخورد کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Love bad news as progress",
+                  "fa": "خبر بد را به‌عنوان پیشرفت دوست داشته باش"
+                },
+                {
+                  "en": "Ignore it until launch",
+                  "fa": "تا زمان عرضه نادیده‌اش بگیر"
+                },
+                {
+                  "en": "Argue the customer out of it",
+                  "fa": "با مشتری بحث کن تا نظرش عوض شود"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p5",
+              "text": {
+                "en": "Don't dodge the elephant in the room. If a big risk sits in your plan, such as 'will anyone pay?', raise it instead of talking around it.",
+                "fa": "از فیل وسط اتاق فرار نکن. اگر ریسک بزرگی در برنامه‌ات هست، مثل «آیا کسی پول می‌دهد؟»، آن را مطرح کن، نه اینکه دورش بچرخی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p6",
+              "text": {
+                "en": "To find the scary questions, run thought experiments: imagine the company failed and ask why, or imagine it thrived and ask what had to be true.",
+                "fa": "برای پیدا کردن سؤال‌های ترسناک، آزمایش ذهنی کن: تصور کن شرکت شکست خورده و بپرس چرا، یا تصور کن موفق شده و بپرس چه چیزی باید درست می‌بود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p7",
+              "text": {
+                "en": "Look before you zoom: don't assume a problem is a must-solve one. Start broad and zoom in only after you hear a strong signal.",
+                "fa": "پیش از زوم کردن نگاه کن: فرض نکن مشکلی حتماً باید حل شود. از دید کلی شروع کن و فقط بعد از شنیدن یک نشانهٔ قوی زوم کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l1k3",
+              "type": "tap",
+              "source": "b16c2l1p7",
+              "prompt": {
+                "en": "What does 'look before you zoom' advise?",
+                "fa": "«پیش از زوم کردن نگاه کن» چه توصیه‌ای دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Zoom in on features right away",
+                  "fa": "فوراً روی ویژگی‌ها زوم کن"
+                },
+                {
+                  "en": "Start broad and zoom in after a strong signal",
+                  "fa": "از دید کلی شروع کن و بعد از نشانهٔ قوی زوم کن"
+                },
+                {
+                  "en": "Ask only about price",
+                  "fa": "فقط دربارهٔ قیمت بپرس"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p8",
+              "text": {
+                "en": "The premature zoom: a founder asks about one small problem, gets agreement, and never checks whether it ranks among the person's top worries.",
+                "fa": "زوم زودهنگام: بنیان‌گذار دربارهٔ یک مشکل کوچک می‌پرسد، تأیید می‌گیرد و هرگز بررسی نمی‌کند که آیا جزو نگرانی‌های اصلی آن شخص است یا نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l1k4",
+              "type": "tf",
+              "source": "b16c2l1p8",
+              "prompt": {
+                "en": "The book says any problem someone agrees with is worth building for.",
+                "fa": "کتاب می‌گوید هر مشکلی که کسی تأییدش کند ارزش ساختن محصول دارد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p9",
+              "text": {
+                "en": "Ask how seriously they take it: 'What are your biggest problems right now?' If yours isn't near the top, it may not sell.",
+                "fa": "بپرس چقدر جدی‌اش می‌گیرند: «بزرگ‌ترین مشکلاتت همین حالا چیست؟» اگر مشکل تو نزدیک صدر فهرست نیست، شاید فروش نرود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p10",
+              "text": {
+                "en": "Rule of thumb: always have a list of your 3 big questions. Pre-plan the three most important things to learn from each type of person.",
+                "fa": "قاعدهٔ سرانگشتی: همیشه فهرست ۳ سؤال بزرگت را داشته باش. سه چیز مهمی را که باید از هر نوع آدم یاد بگیری از قبل برنامه‌ریزی کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l1k5",
+              "type": "tap",
+              "source": "b16c2l1p10",
+              "prompt": {
+                "en": "How many big questions does the book say to pre-plan?",
+                "fa": "کتاب می‌گوید چند سؤال بزرگ را از قبل برنامه‌ریزی کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Ten",
+                  "fa": "ده"
+                },
+                {
+                  "en": "One",
+                  "fa": "یک"
+                },
+                {
+                  "en": "Three",
+                  "fa": "سه"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p11",
+              "text": {
+                "en": "Your three questions change as you learn. Once one is answered with facts, replace it with the next scariest unknown.",
+                "fa": "سه سؤالت با یادگیری عوض می‌شوند. وقتی یکی با واقعیت پاسخ گرفت، آن را با ترسناک‌ترین ناشناختهٔ بعدی جایگزین کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l1p12",
+              "text": {
+                "en": "Applied: for your AI product, a scary question might be 'Have you ever paid for a tool to fix this?' Ask it early, before you build.",
+                "fa": "کاربردی: برای محصول AI تو، سؤال ترسناک می‌تواند این باشد: «تا حالا برای ابزاری که این را حل کند پول داده‌ای؟» آن را زود، پیش از ساختن بپرس."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b16c2l2",
+          "title": {
+            "en": "Keeping it casual",
+            "fa": "خودمانی نگه داشتن گفتگو"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 4, keeping it casual. It matters because a busy engineer or buyer will give you ten honest minutes over coffee far more readily than a formal hour.",
+                "fa": "این درس فصل ۴ یعنی خودمانی نگه داشتن گفتگو را خلاصه می‌کند. مهم است چون یک مهندس یا خریدار پرمشغله خیلی راحت‌تر ده دقیقهٔ صادقانه سر قهوه به تو می‌دهد تا یک ساعت رسمی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p2",
+              "text": {
+                "en": "Rule of thumb: learning about a customer and their problems works better as a quick and casual chat than a long, formal meeting.",
+                "fa": "قاعدهٔ سرانگشتی: یادگیری دربارهٔ مشتری و مشکلاتش در یک گپ سریع و خودمانی بهتر جواب می‌دهد تا یک جلسهٔ طولانی و رسمی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k1",
+              "type": "tap",
+              "source": "b16c2l2p2",
+              "prompt": {
+                "en": "What format does the book prefer for learning about customers?",
+                "fa": "کتاب برای یادگیری دربارهٔ مشتری کدام قالب را ترجیح می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "A quick and casual chat",
+                  "fa": "یک گپ سریع و خودمانی"
+                },
+                {
+                  "en": "A long, formal meeting",
+                  "fa": "یک جلسهٔ طولانی و رسمی"
+                },
+                {
+                  "en": "An online survey",
+                  "fa": "یک نظرسنجی آنلاین"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p3",
+              "text": {
+                "en": "The book warns about the meeting anti-pattern: pushing every customer talk into a scheduled calendar block. Many early questions take five casual minutes.",
+                "fa": "کتاب دربارهٔ ضدالگوی جلسه هشدار می‌دهد: کشاندن هر گفتگو با مشتری به یک بازهٔ زمان‌بندی‌شده در تقویم. بسیاری از سؤال‌های اولیه پنج دقیقهٔ خودمانی وقت می‌برند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p4",
+              "text": {
+                "en": "Strip the formality and there's no pitch, no interview and no favour being asked. You are just two people talking about their work.",
+                "fa": "تشریفات را کنار بگذار تا نه pitch باشد، نه مصاحبه و نه درخواست لطف. شما فقط دو نفرید که دربارهٔ کار او حرف می‌زنید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k2",
+              "type": "tf",
+              "source": "b16c2l2p3",
+              "prompt": {
+                "en": "The meeting anti-pattern means turning every customer talk into a scheduled meeting.",
+                "fa": "ضدالگوی جلسه یعنی تبدیل هر گفتگو با مشتری به یک جلسهٔ زمان‌بندی‌شده."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p5",
+              "text": {
+                "en": "Rule of thumb: if it feels like they're doing you a favour by talking to you, it's probably too formal.",
+                "fa": "قاعدهٔ سرانگشتی: اگر حس می‌شود با حرف زدن با تو لطفی در حقت می‌کنند، احتمالاً گفتگو زیادی رسمی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p6",
+              "text": {
+                "en": "Casual talks also let you repeat questions often. You can have five quick chats at one event in the time a single formal meeting takes.",
+                "fa": "گفتگوهای خودمانی اجازه می‌دهند سؤال‌ها را بارها تکرار کنی. در زمانی که یک جلسهٔ رسمی می‌گیرد، می‌توانی در یک رویداد پنج گپ کوتاه داشته باشی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k3",
+              "type": "tf",
+              "source": "b16c2l2p5",
+              "prompt": {
+                "en": "The book says it's a good sign when they feel they're doing you a favour.",
+                "fa": "کتاب می‌گوید اگر حس کنند لطفی در حقت می‌کنند، نشانهٔ خوبی است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p7",
+              "text": {
+                "en": "Rule of thumb: give as little information as possible about your idea while still nudging the discussion in a useful direction.",
+                "fa": "قاعدهٔ سرانگشتی: تا جای ممکن اطلاعات کمی دربارهٔ ایده‌ات بده، و در عین حال بحث را به سمتی مفید هدایت کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p8",
+              "text": {
+                "en": "Early on, while you are learning about the problem, the talk can be very short. Later, when you're testing a solution, longer meetings make sense.",
+                "fa": "در ابتدا که دربارهٔ مشکل یاد می‌گیری، گفتگو می‌تواند خیلی کوتاه باشد. بعدها، وقتی راه‌حلی را آزمایش می‌کنی، جلسه‌های طولانی‌تر منطقی‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k4",
+              "type": "tap",
+              "source": "b16c2l2p7",
+              "prompt": {
+                "en": "How much should you tell about your idea in a casual talk?",
+                "fa": "در گفتگوی خودمانی چقدر دربارهٔ ایده‌ات بگویی؟"
+              },
+              "options": [
+                {
+                  "en": "The full roadmap and pricing",
+                  "fa": "کل نقشهٔ راه و قیمت‌گذاری"
+                },
+                {
+                  "en": "As little information as possible",
+                  "fa": "تا جای ممکن اطلاعات کم"
+                },
+                {
+                  "en": "A ten-minute demo first",
+                  "fa": "اول یک دموی ده‌دقیقه‌ای"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p9",
+              "text": {
+                "en": "A casual opener can be as simple as asking how someone handles a task you care about. People love to talk about their own work.",
+                "fa": "یک شروع خودمانی می‌تواند به سادگی این باشد که بپرسی فلانی کاری را که برایت مهم است چطور انجام می‌دهد. مردم عاشق حرف زدن دربارهٔ کار خودشان‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p10",
+              "text": {
+                "en": "Don't read from a script, or the casual tone breaks. Know your three big questions and let the talk flow around them.",
+                "fa": "از روی متن نخوان، وگرنه لحن خودمانی می‌شکند. سه سؤال بزرگت را بدان و بگذار گفتگو حول آن‌ها جریان پیدا کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k5",
+              "type": "tap",
+              "source": "b16c2l2p8",
+              "prompt": {
+                "en": "When do longer, more formal meetings make sense?",
+                "fa": "جلسه‌های طولانی‌تر و رسمی‌تر کی منطقی‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "When you first meet someone",
+                  "fa": "وقتی برای اولین بار کسی را می‌بینی"
+                },
+                {
+                  "en": "Before you know anything yet",
+                  "fa": "پیش از اینکه هنوز چیزی بدانی"
+                },
+                {
+                  "en": "When you're testing a solution",
+                  "fa": "وقتی راه‌حلی را آزمایش می‌کنی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p11",
+              "text": {
+                "en": "Applied: Dutch tech meetups and coworking spaces are good places for these short chats. A coffee and three questions can teach more than a slide deck.",
+                "fa": "کاربردی: meetupهای فناوری و فضاهای کار اشتراکی در هلند جای خوبی برای این گپ‌های کوتاه‌اند. یک قهوه و سه سؤال می‌تواند بیش از یک اسلاید یاد بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l2p12",
+              "text": {
+                "en": "Casual doesn't mean careless: you still write down what you learned right after. The chat is informal; the learning is not.",
+                "fa": "خودمانی یعنی بی‌دقت نه: باز هم بلافاصله آنچه یاد گرفتی را یادداشت می‌کنی. گپ غیررسمی است؛ یادگیری نه."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l2k6",
+              "type": "tf",
+              "source": "b16c2l2p11",
+              "prompt": {
+                "en": "Casual chats mean you can skip taking notes.",
+                "fa": "گپ خودمانی یعنی می‌توانی یادداشت‌برداری را کنار بگذاری."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b16c2l3",
+          "title": {
+            "en": "Commitment and advancement",
+            "fa": "تعهد و پیشروی"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 5, commitment and advancement. It matters because a customer, a co-founder or a startup offer only counts when someone gives something up.",
+                "fa": "این درس فصل ۵ یعنی تعهد و پیشروی را خلاصه می‌کند. مهم است چون یک مشتری، یک هم‌بنیان‌گذار یا یک پیشنهاد استارتاپی فقط وقتی به حساب می‌آید که کسی چیزی را فدا کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p2",
+              "text": {
+                "en": "Rule of thumb: if you don't know what happens next after a product or sales meeting, the meeting was pointless.",
+                "fa": "قاعدهٔ سرانگشتی: اگر نمی‌دانی بعد از یک جلسهٔ محصول یا فروش چه اتفاقی می‌افتد، آن جلسه بی‌فایده بوده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p3",
+              "text": {
+                "en": "Meetings succeed when they end in commitment or advancement. Commitment means they give up something they value; advancement means moving to the next step.",
+                "fa": "جلسه‌ها وقتی موفق‌اند که به تعهد یا پیشروی برسند. تعهد یعنی چیزی ارزشمند را فدا کنند؛ پیشروی یعنی رفتن به قدم بعد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l3k1",
+              "type": "tf",
+              "source": "b16c2l3p2",
+              "prompt": {
+                "en": "The book says a meeting with no clear next step can still be a success.",
+                "fa": "کتاب می‌گوید جلسه‌ای بدون قدم بعدی روشن هم می‌تواند موفق باشد."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p4",
+              "text": {
+                "en": "The book names three currencies of commitment: time, reputation risk and cash.",
+                "fa": "کتاب سه واحد پول تعهد را نام می‌برد: وقت، ریسک اعتبار و پول نقد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l3k2",
+              "type": "tap",
+              "source": "b16c2l3p4",
+              "prompt": {
+                "en": "What are the three currencies of commitment?",
+                "fa": "سه واحد پول تعهد کدام‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "Time, reputation risk and cash",
+                  "fa": "وقت، ریسک اعتبار و پول نقد"
+                },
+                {
+                  "en": "Praise, likes and shares",
+                  "fa": "تعریف، لایک و اشتراک‌گذاری"
+                },
+                {
+                  "en": "Emails, calls and slides",
+                  "fa": "ایمیل، تماس و اسلاید"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p5",
+              "text": {
+                "en": "Time commitments include a clear next meeting with known goals, sitting down to give feedback on wireframes, or using a trial for a real task.",
+                "fa": "تعهد زمانی شامل جلسهٔ بعدی روشن با هدف‌های مشخص، نشستن برای بازخورد روی wireframeها، یا استفاده از نسخهٔ آزمایشی برای یک کار واقعی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p6",
+              "text": {
+                "en": "Reputation commitments include an intro to peers or to their boss, or a public testimonial. They put their own name on the line for you.",
+                "fa": "تعهد اعتباری شامل معرفی به همکاران یا رئیسشان، یا یک توصیه‌نامهٔ عمومی است. آن‌ها نام خودشان را برای تو به خطر می‌اندازند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p7",
+              "text": {
+                "en": "Cash commitments include a letter of intent, a pre-order or a deposit. Money is the clearest proof that the problem matters to them.",
+                "fa": "تعهد نقدی شامل نامهٔ قصد، پیش‌سفارش یا بیعانه است. پول روشن‌ترین دلیل است که مشکل برایشان مهم است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l3k3",
+              "type": "tap",
+              "source": "b16c2l3p7",
+              "prompt": {
+                "en": "Which of these is a cash commitment?",
+                "fa": "کدام‌یک تعهد نقدی است؟"
+              },
+              "options": [
+                {
+                  "en": "A compliment on the design",
+                  "fa": "تعریف از طراحی"
+                },
+                {
+                  "en": "A pre-order",
+                  "fa": "یک پیش‌سفارش"
+                },
+                {
+                  "en": "A promise to think about it",
+                  "fa": "قول فکر کردن به آن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p8",
+              "text": {
+                "en": "Rule of thumb: it's not a real lead until you've given them a concrete chance to reject you. Ask for the commitment; don't wait for it.",
+                "fa": "قاعدهٔ سرانگشتی: تا وقتی فرصت مشخصی برای رد کردنت به آن‌ها نداده‌ای، سرنخ واقعی نیست. تعهد را درخواست کن؛ منتظرش نمان."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p9",
+              "text": {
+                "en": "'Keep me in the loop' is a polite brush-off, not a lead. Without a next step, nothing has actually moved forward.",
+                "fa": "«من را در جریان بگذار» یک ردِ مؤدبانه است، نه سرنخ. بدون قدم بعدی، در واقع هیچ چیز جلو نرفته."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p10",
+              "text": {
+                "en": "Rule of thumb: the more they're giving up, the more seriously you can take their kind words.",
+                "fa": "قاعدهٔ سرانگشتی: هرچه بیشتر فدا کنند، حرف‌های محبت‌آمیزشان را جدی‌تر می‌توانی بگیری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l3k4",
+              "type": "tf",
+              "source": "b16c2l3p10",
+              "prompt": {
+                "en": "Kind words count for more when the person is giving up more.",
+                "fa": "حرف‌های محبت‌آمیز وقتی طرف بیشتر فدا می‌کند ارزش بیشتری دارند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p11",
+              "text": {
+                "en": "Don't fear a clear 'no'. A rejection after a real ask is useful data, while a vague maybe can waste months.",
+                "fa": "از «نه»ی روشن نترس. رد شدن بعد از یک درخواست واقعی دادهٔ مفیدی است، در حالی که یک شاید مبهم می‌تواند ماه‌ها هدر بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l3p12",
+              "text": {
+                "en": "Applied: for your AI product, a €10 pre-order from a stranger tells you more than fifty friends saying they'd use it.",
+                "fa": "کاربردی: برای محصول AI تو، یک پیش‌سفارش €۱۰ از یک غریبه بیش از پنجاه دوستی که می‌گویند از آن استفاده می‌کنند به تو می‌گوید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l3k5",
+              "type": "tap",
+              "source": "b16c2l3p12",
+              "prompt": {
+                "en": "In the applied example, what tells you more than fifty friends' praise?",
+                "fa": "در مثال کاربردی، چه چیزی بیش از تعریف پنجاه دوست به تو می‌گوید؟"
+              },
+              "options": [
+                {
+                  "en": "A hundred likes on a post",
+                  "fa": "صد لایک روی یک پست"
+                },
+                {
+                  "en": "A friend's promise to share it",
+                  "fa": "قول یک دوست برای اشتراک‌گذاری"
+                },
+                {
+                  "en": "A €10 pre-order from a stranger",
+                  "fa": "یک پیش‌سفارش €۱۰ از یک غریبه"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b16c2l4",
+          "title": {
+            "en": "Early evangelists and meetings that advance",
+            "fa": "مبلغان اولیه و جلسه‌هایی که پیش می‌روند"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the end of chapter 5: early evangelists and pushing each meeting forward. It matters because your first €100 of ownership income will come from a few keen buyers, not a crowd.",
+                "fa": "این درس پایان فصل ۵ را خلاصه می‌کند: مبلغان اولیه و جلو بردن هر جلسه. مهم است چون اولین €۱۰۰ درآمد مالکیتی‌ات از چند خریدار مشتاق می‌آید، نه یک جمعیت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p2",
+              "text": {
+                "en": "Rob borrows Steve Blank's idea of early evangelists: customers who want your product so badly they will commit before it is ready.",
+                "fa": "Rob ایدهٔ early evangelists (مبلغان اولیه) را از Steve Blank وام می‌گیرد: مشتریانی که آن‌قدر محصولت را می‌خواهند که پیش از آماده شدنش متعهد می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p3",
+              "text": {
+                "en": "Early evangelists have the problem, know they have it, have the budget to solve it, and have already cobbled together their own makeshift solution.",
+                "fa": "مبلغان اولیه مشکل را دارند، می‌دانند که دارند، بودجهٔ حلش را دارند و از قبل یک راه‌حل سرهم‌بندی‌شدهٔ خودشان را ساخته‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l4k1",
+              "type": "tap",
+              "source": "b16c2l4p3",
+              "prompt": {
+                "en": "Which sign marks an early evangelist?",
+                "fa": "کدام نشانه یک مبلغ اولیه را مشخص می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Already cobbled together their own solution",
+                  "fa": "از قبل راه‌حل خودش را سرهم کرده"
+                },
+                {
+                  "en": "Has never noticed the problem",
+                  "fa": "هرگز متوجه مشکل نشده"
+                },
+                {
+                  "en": "Mostly likes your logo",
+                  "fa": "بیشتر لوگوی تو را دوست دارد"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p4",
+              "text": {
+                "en": "A homemade workaround, like a messy spreadsheet or a pile of scripts, is a strong signal. It proves they care enough to act.",
+                "fa": "یک راه‌حل دست‌ساز، مثل یک spreadsheet شلوغ یا انبوهی اسکریپت، نشانهٔ قوی است. ثابت می‌کند آن‌قدر اهمیت می‌دهند که دست به کار شده‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p5",
+              "text": {
+                "en": "Rule of thumb: in early stage sales, the real goal is learning, and revenue is a side effect.",
+                "fa": "قاعدهٔ سرانگشتی: در فروش مراحل اولیه، هدف واقعی یادگیری است و درآمد یک اثر جانبی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l4k2",
+              "type": "tf",
+              "source": "b16c2l4p5",
+              "prompt": {
+                "en": "The book says the real goal of early-stage sales is learning.",
+                "fa": "کتاب می‌گوید هدف واقعی فروش در مراحل اولیه یادگیری است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p6",
+              "text": {
+                "en": "Before each meeting, know what commitment you will ask for at the end. Without a planned ask, you drift into a friendly chat.",
+                "fa": "پیش از هر جلسه بدان در پایان چه تعهدی درخواست می‌کنی. بدون درخواست برنامه‌ریزی‌شده، به یک گپ دوستانه کشیده می‌شوی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p7",
+              "text": {
+                "en": "Typical next steps to ask for: a follow-up with their decision maker, a trial on their real data, or a deposit to reserve a spot.",
+                "fa": "قدم‌های بعدی رایج برای درخواست: جلسهٔ پیگیری با تصمیم‌گیرنده، آزمایش روی دادهٔ واقعی‌شان، یا بیعانه برای رزرو جا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l4k3",
+              "type": "tap",
+              "source": "b16c2l4p7",
+              "prompt": {
+                "en": "Which is a typical next step to ask for?",
+                "fa": "کدام یک قدم بعدی رایج برای درخواست است؟"
+              },
+              "options": [
+                {
+                  "en": "A like on your post",
+                  "fa": "یک لایک روی پستت"
+                },
+                {
+                  "en": "A trial on their real data",
+                  "fa": "آزمایش روی دادهٔ واقعی‌شان"
+                },
+                {
+                  "en": "A compliment on your slides",
+                  "fa": "تعریف از اسلایدهایت"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p8",
+              "text": {
+                "en": "If they refuse every next step, you learned something real: the problem isn't urgent for them, or you're talking to the wrong person.",
+                "fa": "اگر هر قدم بعدی را رد کنند، چیز واقعی‌ای یاد گرفته‌ای: مشکل برایشان فوری نیست، یا با آدم اشتباهی حرف می‌زنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l4k4",
+              "type": "tf",
+              "source": "b16c2l4p8",
+              "prompt": {
+                "en": "If someone refuses every next step, you learn nothing.",
+                "fa": "اگر کسی هر قدم بعدی را رد کند، چیزی یاد نمی‌گیری."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p9",
+              "text": {
+                "en": "Pre-sales work as commitment because people pay before the product exists. Even a small deposit separates real demand from polite interest.",
+                "fa": "پیش‌فروش به‌عنوان تعهد کار می‌کند چون مردم پیش از وجود محصول پول می‌دهند. حتی یک بیعانهٔ کوچک تقاضای واقعی را از علاقهٔ مؤدبانه جدا می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p10",
+              "text": {
+                "en": "Push for commitment fairly: ask clearly and accept a 'no'. A rejected ask is cheaper than months of hoping.",
+                "fa": "منصفانه برای تعهد فشار بیاور: واضح بخواه و «نه» را بپذیر. یک درخواست ردشده از ماه‌ها امیدواری ارزان‌تر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p11",
+              "text": {
+                "en": "Advancement means moving them down your real funnel, for example from a first talk to a trial, then to a paid pilot.",
+                "fa": "پیشروی یعنی جلو بردن آن‌ها در قیف واقعی‌ات، مثلاً از اولین گفتگو به آزمایش و بعد به یک pilot پولی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c2l4k5",
+              "type": "tap",
+              "source": "b16c2l4p11",
+              "prompt": {
+                "en": "What does advancement mean?",
+                "fa": "پیشروی یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Adding every feature they ask for",
+                  "fa": "افزودن هر ویژگی که می‌خواهند"
+                },
+                {
+                  "en": "Sending a longer pitch deck",
+                  "fa": "فرستادن یک pitch deck طولانی‌تر"
+                },
+                {
+                  "en": "Moving them down your real funnel",
+                  "fa": "جلو بردن آن‌ها در قیف واقعی‌ات"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c2l4p12",
+              "text": {
+                "en": "Applied: aim each talk about your AI product at one concrete ask, such as a small paid pilot. Track how many say yes in your decision journal.",
+                "fa": "کاربردی: هر گفتگو دربارهٔ محصول AI خود را به یک درخواست مشخص، مثل یک pilot پولی کوچک، ختم کن. تعداد «بله»ها را در دفتر تصمیم‌هایت ثبت کن."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b16c3",
+      "title": {
+        "en": "Finding, choosing and running conversations",
+        "fa": "پیدا کردن، انتخاب و اجرای گفتگوها"
+      },
+      "lessons": [
+        {
+          "id": "b16c3l1",
+          "title": {
+            "en": "Finding conversations",
+            "fa": "پیدا کردن گفتگو"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c3l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 6, finding conversations. It matters because as a newcomer to the Netherlands you start without a network, and the book shows how to build one around a problem.",
+                "fa": "این درس فصل ۶ یعنی پیدا کردن گفتگو را خلاصه می‌کند. مهم است چون به‌عنوان تازه‌وارد به هلند بدون شبکه شروع می‌کنی و کتاب نشان می‌دهد چطور حول یک مشکل شبکه بسازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p2",
+              "text": {
+                "en": "Cold conversations are hard but sometimes needed. Rule of thumb: the goal of cold conversations is to stop having them, by turning them into warm intros.",
+                "fa": "گفتگوهای سرد سخت‌اند اما گاهی لازم. قاعدهٔ سرانگشتی: هدف گفتگوی سرد این است که دیگر لازم نباشد، با تبدیلش به معرفی گرم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l1k1",
+              "type": "tf",
+              "source": "b16c3l1p2",
+              "prompt": {
+                "en": "The book says cold conversations are the best long-term channel.",
+                "fa": "کتاب می‌گوید گفتگوی سرد بهترین کانال بلندمدت است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p3",
+              "text": {
+                "en": "Expect most cold messages to go unanswered. A low reply rate is fine if each reply leads to a real talk and an intro to someone else.",
+                "fa": "انتظار داشته باش بیشتر پیام‌های سرد بی‌جواب بمانند. نرخ پاسخ پایین اشکالی ندارد اگر هر پاسخ به یک گفتگوی واقعی و معرفی به فرد دیگری برسد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p4",
+              "text": {
+                "en": "Seize serendipity: when you meet someone who could be a customer, ask about their work on the spot. You don't need a meeting to learn.",
+                "fa": "از تصادف استفاده کن: وقتی کسی را می‌بینی که می‌تواند مشتری باشد، همان‌جا دربارهٔ کارش بپرس. برای یاد گرفتن به جلسه نیاز نداری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l1k2",
+              "type": "tap",
+              "source": "b16c3l1p4",
+              "prompt": {
+                "en": "What does seizing serendipity mean?",
+                "fa": "استفاده از تصادف یعنی چه؟"
+              },
+              "options": [
+                {
+                  "en": "Ask about their work on the spot",
+                  "fa": "همان‌جا دربارهٔ کارشان بپرس"
+                },
+                {
+                  "en": "Book a formal meeting for next month",
+                  "fa": "برای ماه بعد جلسهٔ رسمی بگذار"
+                },
+                {
+                  "en": "Send them your pitch deck",
+                  "fa": "pitch deck خود را برایشان بفرست"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p5",
+              "text": {
+                "en": "Find a good excuse to talk. A project, a blog post or research you are doing gives a natural reason to ask people about their work.",
+                "fa": "بهانهٔ خوبی برای گفتگو پیدا کن. یک پروژه، یک پست وبلاگ یا پژوهشی که انجام می‌دهی دلیلی طبیعی برای پرسیدن از کار مردم است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p6",
+              "text": {
+                "en": "Immerse yourself where customers already gather: industry events, forums and online groups. Going to them beats begging them to come to you.",
+                "fa": "خودت را جایی غرق کن که مشتری‌ها از قبل جمع‌اند: رویدادهای صنعتی، انجمن‌ها و گروه‌های آنلاین. رفتن سراغشان بهتر از التماس برای آمدنشان است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p7",
+              "text": {
+                "en": "The book also flips it: bring customers to you. Organise a meetup on their problem, and the people who show up are pre-qualified.",
+                "fa": "کتاب این را برعکس هم می‌کند: مشتری‌ها را سمت خودت بیاور. یک meetup دربارهٔ مشکلشان برگزار کن؛ کسانی که می‌آیند از قبل غربال شده‌اند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l1k3",
+              "type": "tap",
+              "source": "b16c3l1p7",
+              "prompt": {
+                "en": "Why are people at your own meetup valuable?",
+                "fa": "چرا آدم‌های meetup خودت ارزشمندند؟"
+              },
+              "options": [
+                {
+                  "en": "They always buy on the night",
+                  "fa": "همیشه همان شب خرید می‌کنند"
+                },
+                {
+                  "en": "People who show up are pre-qualified",
+                  "fa": "کسانی که می‌آیند از قبل غربال شده‌اند"
+                },
+                {
+                  "en": "They never need follow-up",
+                  "fa": "هرگز به پیگیری نیاز ندارند"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p8",
+              "text": {
+                "en": "Speaking and teaching work too: share what you know about the problem, and people who care will come and tell you about theirs.",
+                "fa": "سخنرانی و آموزش هم جواب می‌دهد: آنچه دربارهٔ مشکل می‌دانی را به اشتراک بگذار تا کسانی که برایشان مهم است بیایند و از مشکل خودشان بگویند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l1k4",
+              "type": "tf",
+              "source": "b16c3l1p8",
+              "prompt": {
+                "en": "Teaching about a problem can bring the right people to you.",
+                "fa": "آموزش دادن دربارهٔ یک مشکل می‌تواند آدم‌های درست را سمت تو بیاورد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p9",
+              "text": {
+                "en": "Industry blogging builds the same pull. Writing for a niche helps the right people find you, and some will want to talk.",
+                "fa": "وبلاگ‌نویسی صنعتی همان کشش را می‌سازد. نوشتن برای یک حوزهٔ خاص کمک می‌کند آدم‌های درست پیدایت کنند و بعضی بخواهند حرف بزنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p10",
+              "text": {
+                "en": "Bringing people to you is slower to start but compounds. After a while, conversations come to you instead of costing you cold outreach.",
+                "fa": "آوردن مردم سمت خودت دیرتر شروع می‌شود اما انباشته می‌شود. پس از مدتی، گفتگوها به سراغت می‌آیند به‌جای اینکه هزینهٔ تماس سرد بدهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p11",
+              "text": {
+                "en": "However you find people, the Mom Test rules still apply. A warm, easy meeting can produce bad data just as fast as a cold one.",
+                "fa": "مردم را هر طور پیدا کنی، قواعد The Mom Test همچنان برقرارند. یک جلسهٔ گرم و راحت هم می‌تواند به همان سرعت جلسهٔ سرد دادهٔ بد تولید کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l1k5",
+              "type": "tap",
+              "source": "b16c3l1p11",
+              "prompt": {
+                "en": "What still applies however you find people?",
+                "fa": "مردم را هر طور پیدا کنی، چه چیزی همچنان برقرار است؟"
+              },
+              "options": [
+                {
+                  "en": "A formal interview script",
+                  "fa": "یک متن مصاحبهٔ رسمی"
+                },
+                {
+                  "en": "A sales pitch up front",
+                  "fa": "یک pitch فروش از همان اول"
+                },
+                {
+                  "en": "The Mom Test rules",
+                  "fa": "قواعد The Mom Test"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l1p12",
+              "text": {
+                "en": "Applied: join a Dutch AI or SaaS meetup, help where you can, and use each chat to learn one person's real workflow.",
+                "fa": "کاربردی: به یک meetup هوش مصنوعی یا SaaS در هلند بپیوند، هر جا می‌توانی کمک کن و از هر گپ برای یادگیری روند کار واقعی یک نفر استفاده کن."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b16c3l2",
+          "title": {
+            "en": "Warm intros and asking for the meeting",
+            "fa": "معرفی گرم و درخواست جلسه"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c3l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the second half of chapter 6: warm intros and how to ask for a meeting. It matters because a good intro turns a stranger's silence into a friendly coffee.",
+                "fa": "این درس نیمهٔ دوم فصل ۶ را خلاصه می‌کند: معرفی گرم و نحوهٔ درخواست جلسه. مهم است چون یک معرفی خوب سکوت یک غریبه را به یک قهوهٔ دوستانه تبدیل می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p2",
+              "text": {
+                "en": "Warm intros beat cold outreach because someone trusted vouches for you. The book argues you are only a few intros away from most people you need.",
+                "fa": "معرفی گرم از تماس سرد بهتر است چون فردی مورد اعتماد ضامن توست. کتاب می‌گوید تنها چند معرفی با بیشتر آدم‌هایی که لازم داری فاصله داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p3",
+              "text": {
+                "en": "Sources of intros include friends and their contacts, industry advisors, university professors, investors, and cashing in old favours.",
+                "fa": "منابع معرفی شامل دوستان و آشنایانشان، مشاوران صنعتی، استادان دانشگاه، سرمایه‌گذاران و استفاده از لطف‌های قدیمی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l2k1",
+              "type": "tap",
+              "source": "b16c3l2p3",
+              "prompt": {
+                "en": "Which is a source of warm intros in the book?",
+                "fa": "کدام‌یک در کتاب منبع معرفی گرم است؟"
+              },
+              "options": [
+                {
+                  "en": "University professors",
+                  "fa": "استادان دانشگاه"
+                },
+                {
+                  "en": "Paid social media ads",
+                  "fa": "تبلیغات پولی شبکه‌های اجتماعی"
+                },
+                {
+                  "en": "Bought phone lists",
+                  "fa": "فهرست‌های تلفن خریداری‌شده"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p4",
+              "text": {
+                "en": "Professors know industry people and like helping. Investors want their companies to succeed, so they often open doors.",
+                "fa": "استادان آدم‌های صنعت را می‌شناسند و کمک کردن را دوست دارند. سرمایه‌گذاران موفقیت شرکت‌هایشان را می‌خواهند، پس اغلب درها را باز می‌کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p5",
+              "text": {
+                "en": "When asking for a meeting, the book offers a framing format with five parts: vision, framing, weakness, pedestal and ask.",
+                "fa": "برای درخواست جلسه، کتاب یک قالب پنج‌بخشی پیشنهاد می‌کند: vision، framing، weakness، pedestal و ask."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l2k2",
+              "type": "order",
+              "source": "b16c3l2p5",
+              "prompt": {
+                "en": "Put the parts of the meeting request in the book's order.",
+                "fa": "بخش‌های درخواست جلسه را به ترتیب کتاب بچین."
+              },
+              "options": [
+                {
+                  "en": "Pedestal",
+                  "fa": "Pedestal (بالا بردن جایگاه طرف)"
+                },
+                {
+                  "en": "Vision",
+                  "fa": "Vision (چشم‌انداز)"
+                },
+                {
+                  "en": "Ask",
+                  "fa": "Ask (درخواست)"
+                },
+                {
+                  "en": "Weakness",
+                  "fa": "Weakness (نقطه‌ضعف)"
+                },
+                {
+                  "en": "Framing",
+                  "fa": "Framing (چارچوب‌بندی)"
+                }
+              ],
+              "answer": [
+                1,
+                4,
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p6",
+              "text": {
+                "en": "Vision: say you're trying to solve a specific problem. Framing: say what stage you're at and that you have nothing to sell.",
+                "fa": "Vision: بگو در تلاشی یک مشکل مشخص را حل کنی. Framing: بگو در چه مرحله‌ای هستی و چیزی برای فروش نداری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p7",
+              "text": {
+                "en": "Weakness: show you need help with a specific question. Pedestal: show why they in particular can help.",
+                "fa": "Weakness: نشان بده در یک سؤال مشخص به کمک نیاز داری. Pedestal: نشان بده چرا به‌طور خاص او می‌تواند کمک کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l2k3",
+              "type": "tf",
+              "source": "b16c3l2p6",
+              "prompt": {
+                "en": "In the framing format, you say you have nothing to sell.",
+                "fa": "در این قالب، می‌گویی چیزی برای فروش نداری."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p8",
+              "text": {
+                "en": "Ask: end by clearly asking for their help. The book's mnemonic is 'Very Few Wizards Properly Ask'.",
+                "fa": "Ask: در پایان صریحاً کمک بخواه. یادیار کتاب «Very Few Wizards Properly Ask» است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p9",
+              "text": {
+                "en": "Keep the message short, honest and about their expertise. People like helping a founder who respects their time and knowledge.",
+                "fa": "پیام را کوتاه، صادق و دربارهٔ تخصص طرف نگه دار. مردم دوست دارند به بنیان‌گذاری کمک کنند که به وقت و دانششان احترام می‌گذارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p10",
+              "text": {
+                "en": "The advisory flip: instead of begging for time, you're deciding whether they are the right person to help. That shift makes you less needy.",
+                "fa": "چرخش مشاوره‌ای: به‌جای التماس برای وقت، داری تصمیم می‌گیری آیا او آدم مناسبی برای کمک است. این تغییر تو را کمتر نیازمند نشان می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l2k4",
+              "type": "tap",
+              "source": "b16c3l2p10",
+              "prompt": {
+                "en": "What does the advisory flip change?",
+                "fa": "چرخش مشاوره‌ای چه چیزی را تغییر می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "You offer them a big discount",
+                  "fa": "به آن‌ها تخفیف بزرگی می‌دهی"
+                },
+                {
+                  "en": "You're deciding whether they are the right person",
+                  "fa": "تو تصمیم می‌گیری که آیا او آدم مناسب است"
+                },
+                {
+                  "en": "You hand them a contract",
+                  "fa": "یک قرارداد به دستشان می‌دهی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p11",
+              "text": {
+                "en": "Meet in their context when you can, at or near their workplace. Their environment shows you things they won't think to say.",
+                "fa": "هر وقت می‌توانی در محیط خودشان، در محل کار یا نزدیکش، ملاقات کن. محیطشان چیزهایی نشانت می‌دهد که به فکرشان نمی‌رسد بگویند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l2p12",
+              "text": {
+                "en": "Applied: ask a former colleague or your mentor for one intro a week to someone who has the problem your AI product solves.",
+                "fa": "کاربردی: هر هفته از یک همکار سابق یا مربی‌ات یک معرفی بخواه به کسی که مشکلی را دارد که محصول AI تو حل می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l2k5",
+              "type": "tf",
+              "source": "b16c3l2p12",
+              "prompt": {
+                "en": "The applied advice is to send a hundred cold emails a day.",
+                "fa": "توصیهٔ کاربردی ارسال روزانه صد ایمیل سرد است."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b16c3l3",
+          "title": {
+            "en": "Choosing your customers",
+            "fa": "انتخاب مشتری"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c3l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 7, choosing your customers. It matters because an AI product for 'everyone' teaches you nothing, while one for a narrow group can earn its first euros fast.",
+                "fa": "این درس فصل ۷ یعنی انتخاب مشتری را خلاصه می‌کند. مهم است چون محصول AI برای «همه» چیزی یادت نمی‌دهد، اما محصولی برای یک گروه باریک می‌تواند سریع اولین یوروهایش را دربیاورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p2",
+              "text": {
+                "en": "Rule of thumb: startups don't starve, they drown. They suffer from too many options and possible customers, not too few.",
+                "fa": "قاعدهٔ سرانگشتی: استارتاپ‌ها از گرسنگی نمی‌میرند، غرق می‌شوند. مشکلشان گزینه‌ها و مشتریان احتمالی بیش از حد است، نه کم."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l3k1",
+              "type": "tf",
+              "source": "b16c3l3p2",
+              "prompt": {
+                "en": "The book says startups usually fail from having too few options.",
+                "fa": "کتاب می‌گوید استارتاپ‌ها معمولاً به خاطر گزینه‌های کم شکست می‌خورند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p3",
+              "text": {
+                "en": "Rule of thumb: if you aren't finding consistent problems and goals, you don't yet have a specific enough customer segment.",
+                "fa": "قاعدهٔ سرانگشتی: اگر مشکلات و هدف‌های یکسانی پیدا نمی‌کنی، هنوز بخش مشتری به اندازهٔ کافی مشخصی نداری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p4",
+              "text": {
+                "en": "A broad segment mixes people with different needs. Their answers contradict each other, and you can't tell which signal to follow.",
+                "fa": "یک بخش گسترده آدم‌هایی با نیازهای متفاوت را مخلوط می‌کند. پاسخ‌هایشان با هم تناقض دارد و نمی‌دانی دنبال کدام نشانه بروی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l3k2",
+              "type": "tap",
+              "source": "b16c3l3p3",
+              "prompt": {
+                "en": "What sign shows your segment is too broad?",
+                "fa": "چه نشانه‌ای می‌گوید بخش مشتری‌ات زیادی گسترده است؟"
+              },
+              "options": [
+                {
+                  "en": "Everyone gives the same answer",
+                  "fa": "همه یک جواب می‌دهند"
+                },
+                {
+                  "en": "People ask about the price",
+                  "fa": "مردم دربارهٔ قیمت می‌پرسند"
+                },
+                {
+                  "en": "You aren't finding consistent problems and goals",
+                  "fa": "مشکلات و هدف‌های یکسانی پیدا نمی‌کنی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p5",
+              "text": {
+                "en": "Customer slicing: take a broad segment and keep asking which type within it would want this most. Keep slicing until the group is specific.",
+                "fa": "برش مشتری: یک بخش گسترده را بگیر و مدام بپرس کدام نوع درون آن بیشتر از همه این را می‌خواهد. آن‌قدر برش بزن تا گروه مشخص شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p6",
+              "text": {
+                "en": "Useful slicing questions: within this group, which type wants it most? Would they buy it, why do they want it, and what are they doing now?",
+                "fa": "سؤال‌های مفید برای برش: در این گروه، کدام نوع بیشتر از همه می‌خواهدش؟ آیا می‌خرند، چرا می‌خواهند و الان چه می‌کنند؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p7",
+              "text": {
+                "en": "Rule of thumb: good customer segments are a who-where pair. If you don't know where to go to find your customers, keep slicing.",
+                "fa": "قاعدهٔ سرانگشتی: بخش مشتری خوب یک جفت «چه کسی، کجا» است. اگر نمی‌دانی برای پیدا کردن مشتری‌هایت کجا بروی، به برش زدن ادامه بده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l3k3",
+              "type": "tap",
+              "source": "b16c3l3p7",
+              "prompt": {
+                "en": "What does a good customer segment look like?",
+                "fa": "یک بخش مشتری خوب چه شکلی است؟"
+              },
+              "options": [
+                {
+                  "en": "A who-where pair",
+                  "fa": "یک جفت «چه کسی، کجا»"
+                },
+                {
+                  "en": "A big market size number",
+                  "fa": "یک عدد بزرگ اندازهٔ بازار"
+                },
+                {
+                  "en": "An age range and a country",
+                  "fa": "یک بازهٔ سنی و یک کشور"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p8",
+              "text": {
+                "en": "Once you have a who-where pair, the next step is obvious: go there and start talking. A segment you can't reach is not yet a segment.",
+                "fa": "وقتی جفت «چه کسی، کجا» را داری، قدم بعدی روشن است: به آنجا برو و شروع به حرف زدن کن. بخشی که به آن دسترسی نداری هنوز بخش نیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p9",
+              "text": {
+                "en": "The book also warns about talking to the wrong people: a segment that's too broad, several segments where you missed some, or people who can't buy.",
+                "fa": "کتاب دربارهٔ حرف زدن با آدم‌های اشتباه هم هشدار می‌دهد: بخشی زیادی گسترده، چند بخش که بعضی را جا انداخته‌ای، یا کسانی که قدرت خرید ندارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l3k4",
+              "type": "tf",
+              "source": "b16c3l3p9",
+              "prompt": {
+                "en": "Talking only to people with no buying power is one way of talking to the wrong people.",
+                "fa": "حرف زدن فقط با کسانی که قدرت خرید ندارند یکی از شکل‌های حرف زدن با آدم اشتباه است."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p10",
+              "text": {
+                "en": "In a business sale, the user, the buyer and the person who signs can differ. Learn each one's problems, but know who controls the money.",
+                "fa": "در فروش به کسب‌وکار، کاربر، خریدار و امضاکننده ممکن است متفاوت باشند. مشکلات هر کدام را بشناس، اما بدان پول دست کیست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p11",
+              "text": {
+                "en": "A narrow first segment is not forever. Win one group, learn from it, then expand to the next.",
+                "fa": "بخش باریک اولیه برای همیشه نیست. یک گروه را ببر، از آن یاد بگیر، سپس به گروه بعدی گسترش بده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l3k5",
+              "type": "tap",
+              "source": "b16c3l3p11",
+              "prompt": {
+                "en": "Is a narrow first segment permanent?",
+                "fa": "آیا بخش باریک اولیه همیشگی است؟"
+              },
+              "options": [
+                {
+                  "en": "Yes, you can never change it",
+                  "fa": "بله، هرگز نمی‌توانی عوضش کنی"
+                },
+                {
+                  "en": "No: win one group, then expand to the next",
+                  "fa": "نه: یک گروه را ببر، سپس به گروه بعدی گسترش بده"
+                },
+                {
+                  "en": "No, start with everyone instead",
+                  "fa": "نه، به‌جایش با همه شروع کن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l3p12",
+              "text": {
+                "en": "Applied: 'Dutch freelancers' is too broad; 'Amsterdam freelance designers who chase late invoices' is a who-where pair you can find and ask.",
+                "fa": "کاربردی: «فریلنسرهای هلندی» زیادی گسترده است؛ «طراحان فریلنس آمستردام که دنبال فاکتورهای عقب‌افتاده‌اند» یک جفت «چه کسی، کجا» است که می‌توانی پیدا کنی و از آن‌ها بپرسی."
+              }
+            }
+          ]
+        },
+        {
+          "id": "b16c3l4",
+          "title": {
+            "en": "Running the process and taking notes",
+            "fa": "اجرای فرایند و یادداشت‌برداری"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b16c3l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 8, running the process. It matters because talks without preparation and notes fade from memory, like decisions never written in a decision journal.",
+                "fa": "این درس فصل ۸ یعنی اجرای فرایند را خلاصه می‌کند. مهم است چون گفتگوهای بدون آمادگی و یادداشت از حافظه محو می‌شوند، مثل تصمیم‌هایی که هرگز در دفتر تصمیم ثبت نشده‌اند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p2",
+              "text": {
+                "en": "Rule of thumb: if you don't know what you're trying to learn, you shouldn't bother having the conversation.",
+                "fa": "قاعدهٔ سرانگشتی: اگر نمی‌دانی می‌خواهی چه یاد بگیری، زحمت گفتگو را به خودت نده."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k1",
+              "type": "tf",
+              "source": "b16c3l4p2",
+              "prompt": {
+                "en": "The book says you can skip deciding what to learn and just chat.",
+                "fa": "کتاب می‌گوید می‌توانی تعیین هدف یادگیری را کنار بگذاری و فقط گپ بزنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p3",
+              "text": {
+                "en": "Before: prepare. Agree with your team on your three big questions, know what you already believe, and decide which commitment to ask for.",
+                "fa": "پیش از گفتگو: آماده شو. با تیمت روی سه سؤال بزرگ توافق کن، بدان از قبل چه باوری داری و تصمیم بگیر چه تعهدی بخواهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p4",
+              "text": {
+                "en": "Do your homework too: anything you can learn from their website or LinkedIn, learn before the talk, and spend the time on what only they know.",
+                "fa": "تکلیفت را هم انجام بده: هر چیزی که از وب‌سایت یا LinkedIn آن‌ها قابل یادگیری است را پیش از گفتگو یاد بگیر و وقت را صرف چیزی کن که فقط خودشان می‌دانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p5",
+              "text": {
+                "en": "During: follow the Mom Test rules, take good notes, and push for commitment and advancement at the end.",
+                "fa": "در حین گفتگو: قواعد The Mom Test را رعایت کن، یادداشت خوب بردار و در پایان برای تعهد و پیشروی فشار بیاور."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k2",
+              "type": "tap",
+              "source": "b16c3l4p4",
+              "prompt": {
+                "en": "What should you learn before the talk?",
+                "fa": "پیش از گفتگو چه چیزی را باید یاد بگیری؟"
+              },
+              "options": [
+                {
+                  "en": "Nothing, so the talk stays fresh",
+                  "fa": "هیچ چیز، تا گفتگو تازه بماند"
+                },
+                {
+                  "en": "Only their exact salary",
+                  "fa": "فقط حقوق دقیقشان"
+                },
+                {
+                  "en": "Anything you can learn from their website",
+                  "fa": "هر چیزی که از وب‌سایتشان قابل یادگیری است"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p6",
+              "text": {
+                "en": "Rule of thumb: notes are useless if you don't look at them. Review them with your team soon after each talk.",
+                "fa": "قاعدهٔ سرانگشتی: یادداشت‌ها اگر نگاهشان نکنی بی‌فایده‌اند. کمی بعد از هر گفتگو آن‌ها را با تیمت مرور کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k3",
+              "type": "tf",
+              "source": "b16c3l4p6",
+              "prompt": {
+                "en": "The book says notes are useless if you never look at them.",
+                "fa": "کتاب می‌گوید یادداشت‌ها اگر هرگز نگاهشان نکنی بی‌فایده‌اند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p7",
+              "text": {
+                "en": "Rob suggests quick symbols in notes, such as faces for emotions, marks for obstacles and workarounds, a dollar sign for money, and stars for follow-ups.",
+                "fa": "Rob نمادهای سریعی برای یادداشت پیشنهاد می‌کند، مثل صورتک برای احساسات، علامت برای موانع و راه‌حل‌های موقت، علامت دلار برای پول و ستاره برای پیگیری‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p8",
+              "text": {
+                "en": "Write down exact quotes, not your summary. 'I'd pay anything to stop this' and 'it's a bit annoying' can look the same in a lazy summary.",
+                "fa": "نقل‌قول دقیق بنویس، نه خلاصهٔ خودت. «هر پولی می‌دهم تا این تمام شود» و «کمی آزاردهنده است» در یک خلاصهٔ تنبلانه ممکن است یکسان به نظر برسند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p9",
+              "text": {
+                "en": "Customer learning is a team sport. If one founder does all the talks, the learning gets stuck in one head and the team argues from opinions.",
+                "fa": "یادگیری از مشتری یک ورزش تیمی است. اگر یک بنیان‌گذار همهٔ گفتگوها را انجام دهد، یادگیری در یک ذهن گیر می‌کند و تیم بر اساس نظر بحث می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k4",
+              "type": "tap",
+              "source": "b16c3l4p9",
+              "prompt": {
+                "en": "What happens when one founder does all the talks?",
+                "fa": "وقتی یک بنیان‌گذار همهٔ گفتگوها را انجام می‌دهد چه می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "The learning gets stuck in one head",
+                  "fa": "یادگیری در یک ذهن گیر می‌کند"
+                },
+                {
+                  "en": "The team learns faster",
+                  "fa": "تیم سریع‌تر یاد می‌گیرد"
+                },
+                {
+                  "en": "Customers trust the company more",
+                  "fa": "مشتری‌ها بیشتر به شرکت اعتماد می‌کنند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p10",
+              "text": {
+                "en": "After: review the notes with your team, update your beliefs and your three big questions, and plan the next round of talks.",
+                "fa": "بعد از گفتگو: یادداشت‌ها را با تیمت مرور کن، باورها و سه سؤال بزرگت را به‌روز کن و دور بعدی گفتگوها را برنامه‌ریزی کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p11",
+              "text": {
+                "en": "Rule of thumb: keep having conversations until you stop hearing new stuff. Then move on to the next question or segment.",
+                "fa": "قاعدهٔ سرانگشتی: آن‌قدر گفتگو کن تا دیگر چیز تازه‌ای نشنوی. بعد سراغ سؤال یا بخش بعدی برو."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k5",
+              "type": "tap",
+              "source": "b16c3l4p11",
+              "prompt": {
+                "en": "How long should you keep having conversations?",
+                "fa": "تا کی باید به گفتگو ادامه بدهی؟"
+              },
+              "options": [
+                {
+                  "en": "Until the first friendly yes",
+                  "fa": "تا اولین «بله»ی دوستانه"
+                },
+                {
+                  "en": "Until you stop hearing new stuff",
+                  "fa": "تا وقتی دیگر چیز تازه‌ای نشنوی"
+                },
+                {
+                  "en": "Until you have ten compliments",
+                  "fa": "تا وقتی ده تعریف جمع کنی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b16c3l4p12",
+              "text": {
+                "en": "The cycle is prepare, talk, review, then repeat with sharper questions. For you, a short weekly review fits beside your decision journal and quarterly net-worth log.",
+                "fa": "چرخه این است: آماده شو، گفتگو کن، مرور کن، بعد با سؤال‌های دقیق‌تر تکرار کن. برای تو، یک مرور کوتاه هفتگی کنار دفتر تصمیم و ثبت فصلی دارایی خالص جا می‌شود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b16c3l4k6",
+              "type": "order",
+              "source": "b16c3l4p12",
+              "prompt": {
+                "en": "Put the steps of the process in order.",
+                "fa": "مراحل فرایند را به ترتیب بچین."
+              },
+              "options": [
+                {
+                  "en": "Review",
+                  "fa": "مرور کن"
+                },
+                {
+                  "en": "Prepare",
+                  "fa": "آماده شو"
+                },
+                {
+                  "en": "Talk",
+                  "fa": "گفتگو کن"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

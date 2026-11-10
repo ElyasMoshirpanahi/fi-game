@@ -12,11 +12,11 @@ Open `index.html`, or the GitHub Pages site for this repo. One file, no build, n
 
 ```
 npm install
-npm test            # vitest, 347 tests, no browser needed
+npm test            # vitest, no browser needed
 npm run serve       # python -m http.server 8765
 ```
 
-The tests load the `content`, `engine` and `store` script blocks straight out of `index.html` (see `test/load.mjs` and `docs/adr/0008-module-design.md`). Book Units are authored as `content/books/bNN.json`, validated by `scripts/validate-book.mjs` and written into `index.html` by `scripts/build-books.mjs`.
+The tests load the `content`, `engine` and `store` script blocks straight out of `index.html` (see `test/load.mjs` and `docs/adr/0008-module-design.md`). Books are authored as `content/books/v3/bNN.json` (Sections of Circles of Lessons, ADR-0010), validated by `scripts/validate-book-v3.mjs`; `node scripts/build-manifest.mjs` writes their titles and counts into `index.html`. The page fetches a book's file when one of its Lessons opens, so serve the folder over http. The v2 files in `content/books/` are kept as source material.
 
 ## Where things are
 

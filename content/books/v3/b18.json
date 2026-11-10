@@ -1,0 +1,1630 @@
+{
+ "id": "b18",
+ "title": "The Hard Thing About Hard Things",
+ "author": {
+  "en": "Ben Horowitz",
+  "fa": "Ben Horowitz"
+ },
+ "year": 2014,
+ "stage": 5,
+ "must": true,
+ "why": {
+  "en": "The reality of being a CTO or founder",
+  "fa": "واقعیت CTO/بنیان‌گذار بودن"
+ },
+ "badge": {
+  "en": "Lead Bullets",
+  "fa": "گلوله‌های سربی"
+ },
+ "tier": "mid",
+ "circles": [
+  {
+   "id": "b18c1",
+   "title": {
+    "en": "The Struggle: surviving as a founder",
+    "fa": "Struggle: دوام آوردن به‌عنوان بنیان‌گذار"
+   },
+   "lessons": [
+    {
+     "id": "b18c1l1",
+     "title": {
+      "en": "From Loudcloud to Opsware",
+      "fa": "از Loudcloud تا Opsware"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c1l1p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils Chapters 1 to 3: how Horowitz took Loudcloud from boom to near-death and rebuilt it as Opsware. It matters because any startup you co-found will hit its own crash.",
+        "fa": "این درس فصل‌های ۱ تا ۳ را خلاصه می‌کند: اینکه Horowitz چگونه Loudcloud را از اوج رونق تا لب مرگ برد و آن را به شکل Opsware از نو ساخت. مهم است چون هر استارتاپی که هم‌بنیان‌گذارش باشی روزی سقوط خودش را تجربه می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p2",
+       "text": {
+        "en": "In 1999 Ben Horowitz co-founded Loudcloud with Marc Andreessen, Tim Howes and In Sik Rhee. It ran websites and software for customers on its own servers, an early form of cloud computing.",
+        "fa": "Ben Horowitz در سال ۱۹۹۹ شرکت Loudcloud را با Marc Andreessen، Tim Howes و In Sik Rhee بنیان گذاشت. این شرکت وب‌سایت‌ها و نرم‌افزارهای مشتریان را روی سرورهای خودش اجرا می‌کرد؛ شکلی اولیه از cloud computing."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p3",
+       "text": {
+        "en": "Loudcloud raised large sums in the dot-com boom, then the 2000 crash wiped out many of its customers. Private money dried up, so Horowitz chose to take the company public in 2001.",
+        "fa": "Loudcloud در دوران رونق دات‌کام پول زیادی جذب کرد، اما سقوط سال ۲۰۰۰ بسیاری از مشتریانش را از بین برد. سرمایهٔ خصوصی خشکید و Horowitz تصمیم گرفت شرکت را در سال ۲۰۰۱ عمومی کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l1k1",
+       "type": "tf",
+       "source": "b18c1l1p3",
+       "prompt": {
+        "en": "Loudcloud went public at the height of the dot-com boom, before the crash.",
+        "fa": "Loudcloud در اوج رونق دات‌کام و پیش از سقوط عمومی شد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p4",
+       "text": {
+        "en": "The IPO was priced at $6 a share in a collapsing market, and the press mocked it. Still, it raised the cash that kept the company alive.",
+        "fa": "قیمت IPO در بازاری که در حال فروپاشی بود ۶ دلار برای هر سهم تعیین شد و رسانه‌ها آن را مسخره کردند. با این حال، پولی را فراهم کرد که شرکت را زنده نگه داشت."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p5",
+       "text": {
+        "en": "After the IPO, customers kept going bankrupt and Loudcloud laid off staff in several rounds. Horowitz describes this period as one long stretch of the Struggle.",
+        "fa": "پس از IPO مشتریان همچنان ورشکست می‌شدند و Loudcloud در چند مرحله کارکنانش را تعدیل کرد. Horowitz این دوره را یک دورهٔ طولانی از Struggle توصیف می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l1k2",
+       "type": "tap",
+       "source": "b18c1l1p4",
+       "prompt": {
+        "en": "At what price was the Loudcloud IPO set?",
+        "fa": "قیمت IPO شرکت Loudcloud چقدر تعیین شد؟"
+       },
+       "options": [
+        {
+         "en": "$6 a share",
+         "fa": "۶ دلار برای هر سهم"
+        },
+        {
+         "en": "$60 a share",
+         "fa": "۶۰ دلار برای هر سهم"
+        },
+        {
+         "en": "$1 a share",
+         "fa": "۱ دلار برای هر سهم"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p6",
+       "text": {
+        "en": "In 2002 he sold the Loudcloud services business and its customers to EDS. Loudcloud kept its automation software and renamed itself Opsware.",
+        "fa": "در سال ۲۰۰۲ او بخش خدمات Loudcloud و مشتریانش را به EDS فروخت. Loudcloud نرم‌افزار خودکارسازی‌اش را نگه داشت و نامش را به Opsware تغییر داد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p7",
+       "text": {
+        "en": "EDS also signed a large licence deal for that software. That gave the new Opsware a paying anchor customer from its first day.",
+        "fa": "EDS همچنین قرارداد بزرگی برای مجوز همان نرم‌افزار امضا کرد. این کار از روز اول یک مشتری اصلی و پول‌ده به Opsware تازه داد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l1k3",
+       "type": "tf",
+       "source": "b18c1l1p7",
+       "prompt": {
+        "en": "Loudcloud sold its software and kept its services business.",
+        "fa": "Loudcloud نرم‌افزارش را فروخت و بخش خدماتش را نگه داشت."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p8",
+       "text": {
+        "en": "Opsware's stock fell as low as 35 cents a share, and the company came close to dying again. Horowitz kept going, one hard decision at a time.",
+        "fa": "سهم Opsware تا ۳۵ سنت سقوط کرد و شرکت دوباره به مرگ نزدیک شد. Horowitz ادامه داد، هر بار با یک تصمیم سخت."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p9",
+       "text": {
+        "en": "Opsware then fought a long product battle against the rival BladeLogic. It closed the gap by building and buying the features customers wanted.",
+        "fa": "سپس Opsware نبرد طولانی محصول را با رقیبش BladeLogic پیش برد. این شکاف را با ساختن و خریدن قابلیت‌هایی که مشتریان می‌خواستند پر کرد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p10",
+       "text": {
+        "en": "In 2007 Hewlett-Packard bought Opsware for $1.6 billion in cash. The company the press had written off became a famous software exit.",
+        "fa": "در سال ۲۰۰۷ شرکت Hewlett-Packard شرکت Opsware را به مبلغ ۱٫۶ میلیارد دلار نقد خرید. شرکتی که رسانه‌ها کنارش گذاشته بودند به یک خروج نرم‌افزاری مشهور تبدیل شد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l1k4",
+       "type": "tap",
+       "source": "b18c1l1p10",
+       "prompt": {
+        "en": "Who bought Opsware in 2007?",
+        "fa": "چه کسی در سال ۲۰۰۷ شرکت Opsware را خرید؟"
+       },
+       "options": [
+        {
+         "en": "Hewlett-Packard",
+         "fa": "Hewlett-Packard"
+        },
+        {
+         "en": "EDS",
+         "fa": "EDS"
+        },
+        {
+         "en": "IBM",
+         "fa": "IBM"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p11",
+       "text": {
+        "en": "Your startup's path will not be a straight line either. Horowitz's story shows survival comes from one concrete decision after another, made under pressure.",
+        "fa": "مسیر استارتاپ تو هم خط مستقیم نخواهد بود. داستان Horowitz نشان می‌دهد بقا از پشت سر هم گرفتن تصمیم‌های مشخص زیر فشار می‌آید."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l1p12",
+       "text": {
+        "en": "Horowitz opens each chapter with rap lyrics, and his message matches theirs: nobody hands you the win. That is the tone of the whole book.",
+        "fa": "Horowitz هر فصل را با شعری از موسیقی رپ آغاز می‌کند و پیامش با آن‌ها یکی است: هیچ‌کس پیروزی را دو دستی تقدیمت نمی‌کند. این لحن کل کتاب است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l1k5",
+       "type": "tf",
+       "source": "b18c1l1p12",
+       "prompt": {
+        "en": "Horowitz opens his chapters with rap lyrics.",
+        "fa": "Horowitz فصل‌هایش را با شعرهای رپ آغاز می‌کند."
+       },
+       "answer": true
+      }
+     ]
+    },
+    {
+     "id": "b18c1l2",
+     "title": {
+      "en": "The Struggle",
+      "fa": "Struggle"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c1l2p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils The Struggle from Chapter 4, Horowitz's name for the low point every founder meets. It matters because knowing it is normal keeps you from quitting at the darkest hour.",
+        "fa": "این درس بخش Struggle از فصل ۴ را خلاصه می‌کند؛ نامی که Horowitz بر نقطهٔ سقوطی می‌گذارد که هر بنیان‌گذاری به آن می‌رسد. مهم است چون دانستن عادی بودنش نمی‌گذارد در تاریک‌ترین لحظه کنار بکشی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p2",
+       "text": {
+        "en": "The Introduction says the hard thing isn't setting a big, hairy, audacious goal. The hard thing is laying people off when you miss it.",
+        "fa": "مقدمهٔ کتاب می‌گوید سختی کار در تعیین یک هدف بزرگ و جسورانه نیست. سختی در اخراج آدم‌هاست وقتی به آن هدف نمی‌رسی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p3",
+       "text": {
+        "en": "The Struggle is when you wonder why you started the company in the first place. It is when people ask why you don't quit, and you don't know the answer.",
+        "fa": "Struggle یعنی وقتی از خودت می‌پرسی اصلاً چرا این شرکت را راه انداختی. یعنی وقتی دیگران می‌پرسند چرا کنار نمی‌کشی و تو جوابش را نمی‌دانی."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l2k1",
+       "type": "tap",
+       "source": "b18c1l2p3",
+       "prompt": {
+        "en": "What does Horowitz call the time you wonder why you started the company?",
+        "fa": "Horowitz زمانی را که می‌پرسی چرا شرکت را راه انداختی چه می‌نامد؟"
+       },
+       "options": [
+        {
+         "en": "The Struggle",
+         "fa": "Struggle"
+        },
+        {
+         "en": "The pivot",
+         "fa": "چرخش (pivot)"
+        },
+        {
+         "en": "The burnout",
+         "fa": "فرسودگی"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p4",
+       "text": {
+        "en": "It is when your employees think you are lying and you think they may be right. It is when food loses its taste.",
+        "fa": "یعنی وقتی کارمندانت فکر می‌کنند دروغ می‌گویی و تو فکر می‌کنی شاید حق با آن‌ها باشد. یعنی وقتی غذا دیگر مزه ندارد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p5",
+       "text": {
+        "en": "Horowitz says there is no recipe for the Struggle and no formula that gets you out. Yet some things help, and the book lists them.",
+        "fa": "Horowitz می‌گوید هیچ دستورالعمل و فرمولی برای بیرون آمدن از Struggle وجود ندارد. با این حال چیزهایی کمک می‌کنند و کتاب آن‌ها را برمی‌شمرد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l2k2",
+       "type": "tf",
+       "source": "b18c1l2p5",
+       "prompt": {
+        "en": "Horowitz gives a step-by-step recipe that ends the Struggle.",
+        "fa": "Horowitz دستورالعملی گام‌به‌گام می‌دهد که Struggle را تمام می‌کند."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p6",
+       "text": {
+        "en": "Don't put it all on your shoulders: you will feel you must carry every burden alone. Share the problem with your executives so more brains work on it.",
+        "fa": "همه‌چیز را روی دوش خودت نگذار: حس می‌کنی باید هر باری را تنها بکشی. مشکل را با مدیرانت در میان بگذار تا ذهن‌های بیشتری رویش کار کنند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p7",
+       "text": {
+        "en": "This is not checkers, it's chess: technology businesses are complex, so there are usually more moves than you think. Look for them before you give up.",
+        "fa": "این بازی چکرز نیست، شطرنج است: کسب‌وکارهای فناوری پیچیده‌اند، پس معمولاً حرکت‌های بیشتری از آنچه فکر می‌کنی وجود دارد. پیش از تسلیم شدن دنبالشان بگرد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l2k3",
+       "type": "tap",
+       "source": "b18c1l2p7",
+       "prompt": {
+        "en": "Why does Horowitz say there are usually more moves than you think?",
+        "fa": "چرا Horowitz می‌گوید معمولاً حرکت‌های بیشتری از آنچه فکر می‌کنی وجود دارد؟"
+       },
+       "options": [
+        {
+         "en": "Technology businesses are complex",
+         "fa": "کسب‌وکارهای فناوری پیچیده‌اند"
+        },
+        {
+         "en": "Investors always step in to help",
+         "fa": "سرمایه‌گذاران همیشه به کمک می‌آیند"
+        },
+        {
+         "en": "Rivals tend to quit early",
+         "fa": "رقبا معمولاً زود کنار می‌کشند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p8",
+       "text": {
+        "en": "Play long enough and you might get lucky: in tech, a hopeless position can change quickly. If you are still alive, you still have a chance.",
+        "fa": "به اندازهٔ کافی بازی کن، شاید شانس بیاوری: در دنیای فناوری، وضعیتی ناامیدکننده می‌تواند سریع عوض شود. اگر هنوز زنده‌ای، هنوز شانس داری."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p9",
+       "text": {
+        "en": "Don't take it personally: the situation is probably your fault, but grading yourself all day does not help. Focus on the next move.",
+        "fa": "شخصی‌اش نکن: احتمالاً وضعیت تقصیر خودت است، اما تمام روز به خودت نمره دادن کمکی نمی‌کند. روی حرکت بعدی تمرکز کن."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p10",
+       "text": {
+        "en": "Horowitz says the Struggle is where greatness comes from. If you don't want that challenge, you should never have started a company.",
+        "fa": "Horowitz می‌گوید عظمت از دل Struggle بیرون می‌آید. اگر این چالش را نمی‌خواهی، اصلاً نباید شرکتی راه می‌انداختی."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l2k4",
+       "type": "tf",
+       "source": "b18c1l2p10",
+       "prompt": {
+        "en": "Horowitz says the Struggle is where greatness comes from.",
+        "fa": "Horowitz می‌گوید عظمت از دل Struggle بیرون می‌آید."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p11",
+       "text": {
+        "en": "For you, the Struggle may be a startup that misses its target. Keeping your 25x capital plan separate from the company means one failure cannot take both.",
+        "fa": "برای تو، Struggle ممکن است استارتاپی باشد که به هدفش نمی‌رسد. جدا نگه داشتن برنامهٔ سرمایهٔ ۲۵ برابری‌ات از شرکت یعنی یک شکست نمی‌تواند هر دو را با خود ببرد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l2p12",
+       "text": {
+        "en": "The Struggle is not proof you chose wrong; the book says every great entrepreneur went through it. What matters is that you keep making the next decision.",
+        "fa": "Struggle دلیل اشتباه بودن انتخابت نیست؛ کتاب می‌گوید هر کارآفرین بزرگی از آن گذشته است. مهم این است که تصمیم بعدی را بگیری."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l2k5",
+       "type": "tf",
+       "source": "b18c1l2p12",
+       "prompt": {
+        "en": "The book says only weak founders go through the Struggle.",
+        "fa": "کتاب می‌گوید فقط بنیان‌گذاران ضعیف از Struggle می‌گذرند."
+       },
+       "answer": false
+      }
+     ]
+    },
+    {
+     "id": "b18c1l3",
+     "title": {
+      "en": "No silver bullets, only lead bullets",
+      "fa": "گلولهٔ نقره‌ای نیست، فقط گلولهٔ سربی"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c1l3p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the Chapter 4 essays Lead Bullets, CEOs Should Tell It Like It Is and Nobody Cares. It matters because when your product loses, the urge is to hunt for a clever fix.",
+        "fa": "این درس جستارهای Lead Bullets، CEOs Should Tell It Like It Is و Nobody Cares از فصل ۴ را خلاصه می‌کند. مهم است چون وقتی محصولت می‌بازد، وسوسه می‌شوی دنبال یک راه‌حل زیرکانه بگردی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p2",
+       "text": {
+        "en": "At Opsware, the rival BladeLogic built a better product and started winning deals. Horowitz's team proposed clever workarounds instead of fighting head on.",
+        "fa": "در Opsware، رقیبی به نام BladeLogic محصول بهتری ساخت و قراردادها را می‌برد. تیم Horowitz به جای رویارویی مستقیم، راه‌های فرار زیرکانه پیشنهاد می‌داد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p3",
+       "text": {
+        "en": "Horowitz refused: there are no silver bullets for this, only lead bullets. They had to build a better product, the slow and hard way.",
+        "fa": "Horowitz نپذیرفت: برای این مشکل گلولهٔ نقره‌ای وجود ندارد، فقط گلولهٔ سربی. باید محصول بهتری می‌ساختند، از راه کند و سخت."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l3k1",
+       "type": "tf",
+       "source": "b18c1l3p3",
+       "prompt": {
+        "en": "Horowitz chose a clever workaround over building a better product.",
+        "fa": "Horowitz یک راه فرار زیرکانه را به ساختن محصول بهتر ترجیح داد."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p4",
+       "text": {
+        "en": "Over the following months, Opsware's engineers closed the gap and pulled ahead again. The win came from many heavy shots, not one magic one.",
+        "fa": "در ماه‌های بعد، مهندسان Opsware شکاف را پر کردند و دوباره جلو افتادند. پیروزی از شلیک‌های سنگین فراوان آمد، نه از یک شلیک جادویی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p5",
+       "text": {
+        "en": "The rule: when your product is behind, no clever positioning or deal will save you. Only a better product will.",
+        "fa": "قاعده این است: وقتی محصولت عقب است، هیچ جایگاه‌یابی یا معاملهٔ زیرکانه‌ای نجاتت نمی‌دهد. فقط محصول بهتر نجاتت می‌دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l3k2",
+       "type": "tap",
+       "source": "b18c1l3p5",
+       "prompt": {
+        "en": "When your product is behind, what will save you?",
+        "fa": "وقتی محصولت عقب است، چه چیزی نجاتت می‌دهد؟"
+       },
+       "options": [
+        {
+         "en": "Only a better product",
+         "fa": "فقط محصول بهتر"
+        },
+        {
+         "en": "A clever partnership deal",
+         "fa": "یک قرارداد همکاری زیرکانه"
+        },
+        {
+         "en": "A new market position",
+         "fa": "یک جایگاه تازه در بازار"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p6",
+       "text": {
+        "en": "In the same chapter, Horowitz says the CEO should tell it like it is. Spinning bad news to keep morale up destroys trust.",
+        "fa": "در همان فصل، Horowitz می‌گوید CEO باید واقعیت را همان‌طور که هست بگوید. وارونه جلوه دادن خبر بد برای حفظ روحیه، اعتماد را نابود می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p7",
+       "text": {
+        "en": "Telling the truth builds trust and puts more brains on the problem. A company that discusses its problems openly can solve them quickly.",
+        "fa": "گفتن حقیقت اعتماد می‌سازد و ذهن‌های بیشتری را درگیر مشکل می‌کند. شرکتی که مشکلاتش را آشکارا مطرح می‌کند می‌تواند سریع حلشان کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p8",
+       "text": {
+        "en": "He compares a healthy culture to the old RIP routing protocol: bad news travels fast and good news travels slowly. A company that hides bad news fixes nothing.",
+        "fa": "او فرهنگ سالم را به پروتکل مسیریابی قدیمی RIP تشبیه می‌کند: خبر بد سریع می‌رود و خبر خوب آهسته. شرکتی که خبر بد را پنهان کند هیچ چیز را درست نمی‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l3k3",
+       "type": "tf",
+       "source": "b18c1l3p8",
+       "prompt": {
+        "en": "In a healthy culture, bad news travels fast.",
+        "fa": "در یک فرهنگ سالم، خبر بد سریع منتقل می‌شود."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p9",
+       "text": {
+        "en": "Being too positive is a trap: when you spin problems, your best people stop believing you. They can see the problems too.",
+        "fa": "بیش از حد مثبت بودن یک تله است: وقتی مشکلات را وارونه جلوه می‌دهی، بهترین آدم‌هایت دیگر باورت نمی‌کنند. آن‌ها هم مشکلات را می‌بینند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p10",
+       "text": {
+        "en": "If a rival ships a better AI tool than yours, don't look for a silver bullet pivot. Ship a better product, and tell your team the truth about the gap.",
+        "fa": "اگر رقیبی ابزار AI بهتری از تو عرضه کرد، دنبال چرخش گلولهٔ نقره‌ای نگرد. محصول بهتری عرضه کن و حقیقت این شکاف را به تیمت بگو."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l3k4",
+       "type": "tap",
+       "source": "b18c1l3p10",
+       "prompt": {
+        "en": "A rival ships a better AI tool. What does lead bullets tell you to do?",
+        "fa": "رقیبی ابزار AI بهتری عرضه می‌کند. ایدهٔ گلولهٔ سربی می‌گوید چه کنی؟"
+       },
+       "options": [
+        {
+         "en": "Ship a better product",
+         "fa": "محصول بهتری عرضه کن"
+        },
+        {
+         "en": "Pivot to a new market",
+         "fa": "به بازار تازه‌ای بچرخ"
+        },
+        {
+         "en": "Cut prices until they quit",
+         "fa": "قیمت را آن‌قدر پایین بیاور تا کنار بکشند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p11",
+       "text": {
+        "en": "Chapter 4 ends with Nobody Cares: when things go wrong, nobody cares about your excuses. Spend no time on what you could have done and all of it on what you might do.",
+        "fa": "فصل ۴ با Nobody Cares تمام می‌شود: وقتی اوضاع خراب است، هیچ‌کس به بهانه‌هایت اهمیت نمی‌دهد. هیچ وقتی صرف کاری که می‌توانستی بکنی نکن و همهٔ وقتت را صرف کاری کن که می‌توانی بکنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l3p12",
+       "text": {
+        "en": "All three essays share one idea: face reality fully, then work on it. A team that knows the truth can fire lead bullets with you.",
+        "fa": "هر سه جستار یک ایده دارند: واقعیت را کامل بپذیر و بعد رویش کار کن. تیمی که حقیقت را می‌داند می‌تواند همراهت گلولهٔ سربی شلیک کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l3k5",
+       "type": "tf",
+       "source": "b18c1l3p11",
+       "prompt": {
+        "en": "Horowitz says staff and investors will care about good excuses.",
+        "fa": "Horowitz می‌گوید کارکنان و سرمایه‌گذاران به بهانه‌های خوب اهمیت می‌دهند."
+       },
+       "answer": false
+      }
+     ]
+    },
+    {
+     "id": "b18c1l4",
+     "title": {
+      "en": "Managing your own psychology",
+      "fa": "مدیریت روان خودت"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c1l4p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils Chapter 7's essays The Most Difficult CEO Skill and The Fine Line Between Fear and Courage. It matters because as founder or CTO, your judgment is your key tool and stress bends it.",
+        "fa": "این درس جستارهای The Most Difficult CEO Skill و The Fine Line Between Fear and Courage از فصل ۷ را خلاصه می‌کند. مهم است چون به‌عنوان بنیان‌گذار یا CTO، قضاوتت ابزار اصلی توست و فشار آن را کج می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p2",
+       "text": {
+        "en": "Horowitz says the most difficult CEO skill is managing your own psychology. Organizing, planning and measuring are far easier to learn than staying steady.",
+        "fa": "Horowitz می‌گوید سخت‌ترین مهارت CEO مدیریت روان خودش است. سازمان‌دهی، برنامه‌ریزی و اندازه‌گیری خیلی آسان‌تر از آرام ماندن آموخته می‌شوند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p3",
+       "text": {
+        "en": "Founders get psychology wrong in two ways: taking things too personally, or not taking them personally enough.",
+        "fa": "بنیان‌گذاران به دو شکل در مدیریت روان خطا می‌کنند: یا مسائل را بیش از حد شخصی می‌کنند، یا به اندازهٔ کافی شخصی نمی‌کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l4k1",
+       "type": "tap",
+       "source": "b18c1l4p3",
+       "prompt": {
+        "en": "What are the two ways founders get psychology wrong?",
+        "fa": "بنیان‌گذاران به چه دو شکلی در مدیریت روان خطا می‌کنند؟"
+       },
+       "options": [
+        {
+         "en": "Too personally or not personally enough",
+         "fa": "بیش از حد شخصی یا نه به اندازهٔ کافی شخصی"
+        },
+        {
+         "en": "Too cautious or too reckless",
+         "fa": "بیش از حد محتاط یا بیش از حد بی‌پروا"
+        },
+        {
+         "en": "Too slow or too fast",
+         "fa": "بیش از حد کند یا بیش از حد تند"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p4",
+       "text": {
+        "en": "Taking things too personally makes every setback feel like proof you are failing. Not taking them personally enough makes you blame others and miss your own mistakes.",
+        "fa": "بیش از حد شخصی کردن باعث می‌شود هر شکستی مثل مدرک ناکامی‌ات به نظر برسد. به اندازهٔ کافی شخصی نکردن باعث می‌شود دیگران را مقصر بدانی و خطاهای خودت را نبینی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p5",
+       "text": {
+        "en": "His tools: make friends you can talk to, get your worries out of your head and onto paper, and focus on the road, not the wall.",
+        "fa": "ابزارهای او: دوستانی پیدا کن که بتوانی با آن‌ها حرف بزنی، نگرانی‌هایت را از ذهنت بیرون بیاور و روی کاغذ بنویس، و به جاده نگاه کن، نه به دیوار."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l4k2",
+       "type": "tf",
+       "source": "b18c1l4p5",
+       "prompt": {
+        "en": "Writing your worries down is one of Horowitz's tools.",
+        "fa": "نوشتن نگرانی‌ها یکی از ابزارهای Horowitz است."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p6",
+       "text": {
+        "en": "Focus on the road, not the wall: a race-car driver who stares at the wall hits it. Look at the path you want to take, not at what you fear.",
+        "fa": "به جاده نگاه کن، نه به دیوار: راننده‌ای که در مسابقه به دیوار خیره شود به آن می‌کوبد. به مسیری نگاه کن که می‌خواهی بروی، نه به چیزی که از آن می‌ترسی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p7",
+       "text": {
+        "en": "He quotes boxing trainer Cus D'Amato: the hero and the coward feel the same fear. The difference is what they do.",
+        "fa": "او از Cus D'Amato، مربی بوکس، نقل می‌کند: قهرمان و ترسو همان ترس را حس می‌کنند. تفاوت در کاری است که انجام می‌دهند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l4k3",
+       "type": "tap",
+       "source": "b18c1l4p7",
+       "prompt": {
+        "en": "In the Cus D'Amato quote, what separates the hero from the coward?",
+        "fa": "در نقل‌قول Cus D'Amato، چه چیزی قهرمان را از ترسو جدا می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "What they do",
+         "fa": "کاری که انجام می‌دهند"
+        },
+        {
+         "en": "How much fear they feel",
+         "fa": "میزان ترسی که حس می‌کنند"
+        },
+        {
+         "en": "How strong they are",
+         "fa": "میزان قدرتشان"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p8",
+       "text": {
+        "en": "Courage is built like a muscle: each hard, right decision made in fear makes the next one easier. Each easy, wrong one makes you a bit more cowardly.",
+        "fa": "شجاعت مثل عضله ساخته می‌شود: هر تصمیم درست و سختی که با وجود ترس بگیری، تصمیم بعدی را آسان‌تر می‌کند. هر تصمیم آسان و غلط تو را کمی ترسوتر می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p9",
+       "text": {
+        "en": "Many hard CEO calls come down to courage, not intelligence: the right choice is often clear but scary. The easy wrong choice tempts because nobody objects.",
+        "fa": "بسیاری از تصمیم‌های سخت CEO به شجاعت برمی‌گردد، نه هوش: انتخاب درست اغلب روشن اما ترسناک است. انتخاب آسان و غلط وسوسه‌انگیز است چون کسی مخالفت نمی‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p10",
+       "text": {
+        "en": "You will face moments when the data is unclear and your advisers disagree. You must decide anyway, and own the result.",
+        "fa": "با لحظه‌هایی روبه‌رو می‌شوی که داده‌ها روشن نیستند و مشاورانت با هم موافق نیستند. باید در هر حال تصمیم بگیری و مسئولیت نتیجه را بپذیری."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l4k4",
+       "type": "tf",
+       "source": "b18c1l4p8",
+       "prompt": {
+        "en": "Each hard, right decision makes the next one easier.",
+        "fa": "هر تصمیم درست و سخت، تصمیم بعدی را آسان‌تر می‌کند."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p11",
+       "text": {
+        "en": "Your decision journal is a version of getting it onto paper. Writing down why you chose and how you felt helps you separate fear from facts.",
+        "fa": "دفترچهٔ تصمیم‌هایت نسخه‌ای از روی کاغذ آوردن نگرانی‌هاست. نوشتن اینکه چرا انتخاب کردی و چه حسی داشتی کمک می‌کند ترس را از واقعیت جدا کنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c1l4p12",
+       "text": {
+        "en": "Horowitz jokes that in the crisis he slept like a baby: he woke up every two hours and cried. Guard your sleep and keep a mentor close.",
+        "fa": "Horowitz به شوخی می‌گوید در دوران بحران مثل یک نوزاد می‌خوابید: هر دو ساعت بیدار می‌شد و گریه می‌کرد. از خوابت محافظت کن و یک منتور نزدیک خودت نگه دار."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c1l4k5",
+       "type": "tf",
+       "source": "b18c1l4p11",
+       "prompt": {
+        "en": "A decision journal can help you separate fear from facts.",
+        "fa": "دفترچهٔ تصمیم‌ها می‌تواند به جدا کردن ترس از واقعیت کمک کند."
+       },
+       "answer": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b18c2",
+   "title": {
+    "en": "People first: truth, hiring and leading",
+    "fa": "اول آدم‌ها: حقیقت، استخدام و رهبری"
+   },
+   "lessons": [
+    {
+     "id": "b18c2l1",
+     "title": {
+      "en": "Telling the truth and firing well",
+      "fa": "حقیقت را گفتن و درست اخراج کردن"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c2l1p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the Chapter 4 essays on layoffs, firing an executive and demoting a loyal friend. It matters because how you let people go shapes the people who stay.",
+        "fa": "این درس جستارهای فصل ۴ دربارهٔ تعدیل نیرو، اخراج یک مدیر ارشد و تنزل رتبهٔ یک دوست وفادار را خلاصه می‌کند. مهم است چون شیوهٔ کنار گذاشتن آدم‌ها، کسانی را که می‌مانند شکل می‌دهد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p2",
+       "text": {
+        "en": "Horowitz says the way you lay people off decides whether the company keeps its trust. The people who stay watch closely how their friends are treated.",
+        "fa": "Horowitz می‌گوید شیوهٔ تعدیل نیرو تعیین می‌کند شرکت اعتمادش را حفظ کند یا نه. کسانی که می‌مانند با دقت می‌بینند با دوستانشان چه رفتاری می‌شود."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p3",
+       "text": {
+        "en": "Step one is to get your head right: accept that the company failed and the layoff is the result. Step two is don't delay, because news leaks fast.",
+        "fa": "گام اول این است که ذهنت را سر جایش بیاوری: بپذیر که شرکت شکست خورده و تعدیل نتیجهٔ آن است. گام دوم این است که تعلل نکنی، چون خبر سریع درز می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l1k1",
+       "type": "tf",
+       "source": "b18c2l1p3",
+       "prompt": {
+        "en": "Horowitz advises waiting a few weeks before a layoff to be sure.",
+        "fa": "Horowitz توصیه می‌کند برای اطمینان چند هفته پیش از تعدیل صبر کنی."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p4",
+       "text": {
+        "en": "Be clear in your own mind why: the company failed, not the people let go. Then train your managers, because each must lay off their own people.",
+        "fa": "در ذهن خودت روشن باش که چرا: شرکت شکست خورده، نه کسانی که می‌روند. سپس مدیرانت را آموزش بده، چون هر کدام باید خودش آدم‌های خودش را تعدیل کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p5",
+       "text": {
+        "en": "The full order: get your head right, don't delay, be clear about why, train your managers, address the company, be visible.",
+        "fa": "ترتیب کامل: ذهنت را سر جایش بیاور، تعلل نکن، دلیلش را روشن کن، مدیرانت را آموزش بده، با کل شرکت صحبت کن، و در دسترس و دیده‌شده باش."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l1k2",
+       "type": "order",
+       "source": "b18c2l1p5",
+       "prompt": {
+        "en": "Put Horowitz's layoff steps in order.",
+        "fa": "گام‌های تعدیل نیروی Horowitz را به ترتیب بچین."
+       },
+       "options": [
+        {
+         "en": "Train your managers",
+         "fa": "مدیرانت را آموزش بده"
+        },
+        {
+         "en": "Get your head right",
+         "fa": "ذهنت را سر جایش بیاور"
+        },
+        {
+         "en": "Be visible",
+         "fa": "در دسترس و دیده‌شده باش"
+        },
+        {
+         "en": "Don't delay",
+         "fa": "تعلل نکن"
+        },
+        {
+         "en": "Address the company",
+         "fa": "با کل شرکت صحبت کن"
+        }
+       ],
+       "answer": [
+        1,
+        3,
+        0,
+        4,
+        2
+       ]
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p6",
+       "text": {
+        "en": "Address the entire company yourself, then stay visible and present in the days after. People want to see that you care and stand behind the plan.",
+        "fa": "خودت با کل شرکت صحبت کن و در روزهای بعد در دسترس و حاضر بمان. آدم‌ها می‌خواهند ببینند اهمیت می‌دهی و پشت برنامه ایستاده‌ای."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p7",
+       "text": {
+        "en": "Firing an executive starts with a root-cause look at yourself: did you define the job badly or run a weak hiring process? The first step is admitting your part.",
+        "fa": "اخراج یک مدیر ارشد با ریشه‌یابی در خودت شروع می‌شود: آیا نقش را بد تعریف کردی یا فرایند استخدام ضعیفی داشتی؟ گام اول پذیرفتن سهم خودت است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l1k3",
+       "type": "tap",
+       "source": "b18c2l1p7",
+       "prompt": {
+        "en": "Where does firing an executive start, per Horowitz?",
+        "fa": "به گفتهٔ Horowitz، اخراج یک مدیر ارشد از کجا شروع می‌شود؟"
+       },
+       "options": [
+        {
+         "en": "A root-cause look at yourself",
+         "fa": "ریشه‌یابی در خودت"
+        },
+        {
+         "en": "A warning letter to the executive",
+         "fa": "یک نامهٔ هشدار به مدیر"
+        },
+        {
+         "en": "A performance improvement plan",
+         "fa": "یک برنامهٔ بهبود عملکرد"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p8",
+       "text": {
+        "en": "Then inform the board, prepare the conversation and the transition, and tell the executive clearly that the decision is made. A vague talk leaves both sides confused.",
+        "fa": "سپس هیئت‌مدیره را در جریان بگذار، گفت‌وگو و برنامهٔ انتقال را آماده کن و به مدیر روشن بگو که تصمیم گرفته شده است. گفت‌وگوی مبهم هر دو طرف را سردرگم می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p9",
+       "text": {
+        "en": "Demoting a loyal friend who has outgrown the role is harder still. Horowitz's advice is to be direct that the job outgrew them, not to soften it into a maybe.",
+        "fa": "تنزل رتبهٔ دوستی وفادار که نقشش از او بزرگ‌تر شده حتی سخت‌تر است. توصیهٔ Horowitz این است که رک بگویی کار از او بزرگ‌تر شده، نه اینکه آن را به یک «شاید» نرم کنی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p10",
+       "text": {
+        "en": "Handing a layoff to HR or a cheerful memo tells everyone you don't respect them. Doing it yourself is how the people who stay keep trusting you.",
+        "fa": "سپردن تعدیل به منابع انسانی یا یک یادداشت شاد به همه می‌گوید به آن‌ها احترام نمی‌گذاری. انجام دادنش توسط خودت باعث می‌شود کسانی که می‌مانند همچنان به تو اعتماد کنند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l1k4",
+       "type": "tf",
+       "source": "b18c2l1p9",
+       "prompt": {
+        "en": "Horowitz says to soften a demotion into a maybe to protect the friendship.",
+        "fa": "Horowitz می‌گوید برای حفظ دوستی، تنزل رتبه را به یک «شاید» نرم کن."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p11",
+       "text": {
+        "en": "As a CTO you may one day cut a contractor or demote an early engineer you hired. Use the same rules: own the cause, decide, be clear and be present.",
+        "fa": "به‌عنوان CTO ممکن است روزی قرارداد یک پیمانکار را قطع کنی یا رتبهٔ مهندسی را که اوایل استخدام کردی پایین بیاوری. همان قواعد را به کار ببر: سهم خودت را بپذیر، تصمیم بگیر، روشن باش و حاضر باش."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l1p12",
+       "text": {
+        "en": "Telling the truth and firing well are the same skill: respect people enough to give them hard news straight. That respect keeps a culture alive after bad news.",
+        "fa": "حقیقت گفتن و درست اخراج کردن یک مهارت‌اند: آن‌قدر به آدم‌ها احترام بگذار که خبر سخت را رک به آن‌ها بدهی. همین احترام فرهنگ را پس از خبر بد زنده نگه می‌دارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l1k5",
+       "type": "tap",
+       "source": "b18c2l1p11",
+       "prompt": {
+        "en": "Which rules carry over to cutting a contractor or demoting an engineer?",
+        "fa": "کدام قواعد به قطع قرارداد پیمانکار یا تنزل رتبهٔ یک مهندس هم تعمیم می‌یابد؟"
+       },
+       "options": [
+        {
+         "en": "Own the cause, decide, be clear",
+         "fa": "سهمت را بپذیر، تصمیم بگیر، روشن باش"
+        },
+        {
+         "en": "Delay until things improve",
+         "fa": "صبر کن تا اوضاع بهتر شود"
+        },
+        {
+         "en": "Let HR handle it quietly",
+         "fa": "بگذار منابع انسانی بی‌سروصدا انجامش دهد"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b18c2l2",
+     "title": {
+      "en": "Hiring executives",
+      "fa": "استخدام مدیران ارشد"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c2l2p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils Chapter 5, Take Care of the People, the Products, and the Profits, and its essays on hiring. It matters because the people you hire beside you shape your startup more than your code.",
+        "fa": "این درس فصل ۵، Take Care of the People, the Products, and the Profits، و جستارهایش دربارهٔ استخدام را خلاصه می‌کند. مهم است چون آدم‌هایی که کنار خودت استخدام می‌کنی بیش از کدت استارتاپت را شکل می‌دهند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p2",
+       "text": {
+        "en": "The chapter title gives the order: take care of the people, the products and the profits, in that order. A good place to work matters most when things go wrong.",
+        "fa": "عنوان فصل ترتیب را می‌گوید: اول آدم‌ها، بعد محصول‌ها و بعد سود. محیط کار خوب درست زمانی بیشترین اهمیت را دارد که اوضاع خراب می‌شود."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l2k1",
+       "type": "tap",
+       "source": "b18c2l2p2",
+       "prompt": {
+        "en": "In what order should you take care of things?",
+        "fa": "به چه ترتیبی باید به امور رسیدگی کنی؟"
+       },
+       "options": [
+        {
+         "en": "People, products, profits",
+         "fa": "آدم‌ها، محصول‌ها، سود"
+        },
+        {
+         "en": "Profits, products, people",
+         "fa": "سود، محصول‌ها، آدم‌ها"
+        },
+        {
+         "en": "Products, people, profits",
+         "fa": "محصول‌ها، آدم‌ها، سود"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p3",
+       "text": {
+        "en": "In a good place to work, people can focus on their work and trust that doing it well is good for both the company and them.",
+        "fa": "در یک محیط کار خوب، آدم‌ها می‌توانند روی کارشان تمرکز کنند و مطمئن باشند که خوب انجام دادنش هم به نفع شرکت است و هم به نفع خودشان."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p4",
+       "text": {
+        "en": "Hiring an executive is hard when you have never done the job yourself. Horowitz's process: know what you want, run a process that finds it, then make the decision.",
+        "fa": "استخدام یک مدیر ارشد وقتی خودت آن کار را نکرده‌ای سخت است. فرایند Horowitz: بدان چه می‌خواهی، فرایندی اجرا کن که آن را پیدا کند و بعد تصمیم بگیر."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p5",
+       "text": {
+        "en": "Knowing what you want means writing down the strengths the role needs before meeting anyone. You can't outsource that to a recruiter or to the candidates.",
+        "fa": "دانستن آنچه می‌خواهی یعنی پیش از دیدن هر کسی، نقاط قوتی را که نقش لازم دارد بنویسی. این کار را نمی‌توانی به کارمندیاب یا خود نامزدها بسپاری."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l2k2",
+       "type": "tf",
+       "source": "b18c2l2p5",
+       "prompt": {
+        "en": "Horowitz says you can let a recruiter decide what the role needs.",
+        "fa": "Horowitz می‌گوید می‌توانی تعیین نیازهای نقش را به کارمندیاب بسپاری."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p6",
+       "text": {
+        "en": "Hire for strength, not lack of weakness: the candidate with no flaws is often average at everything. You want someone world-class at what matters most.",
+        "fa": "برای نقطهٔ قوت استخدام کن، نه برای نداشتن ضعف: نامزدی که هیچ ایرادی ندارد اغلب در همه‌چیز متوسط است. کسی را می‌خواهی که در مهم‌ترین چیز در سطح جهانی باشد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p7",
+       "text": {
+        "en": "Interview committees drift toward the safe candidate with the fewest weaknesses. That is why Horowitz says the CEO should make the final call, not a consensus.",
+        "fa": "کمیته‌های مصاحبه به سمت نامزد امنی می‌روند که کمترین ضعف را دارد. برای همین Horowitz می‌گوید تصمیم نهایی با CEO است، نه با اجماع."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l2k3",
+       "type": "tap",
+       "source": "b18c2l2p6",
+       "prompt": {
+        "en": "What should you hire executives for?",
+        "fa": "مدیران ارشد را بر چه اساسی باید استخدام کنی؟"
+       },
+       "options": [
+        {
+         "en": "Strength, not lack of weakness",
+         "fa": "نقطهٔ قوت، نه نداشتن ضعف"
+        },
+        {
+         "en": "A flawless track record",
+         "fa": "سابقه‌ای بی‌نقص"
+        },
+        {
+         "en": "Fit with every interviewer",
+         "fa": "سازگاری با همهٔ مصاحبه‌کنندگان"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p8",
+       "text": {
+        "en": "Big-company executives often struggle in startups because the rhythm differs: in a large firm work comes to you, in a startup you must create it.",
+        "fa": "مدیران شرکت‌های بزرگ اغلب در استارتاپ‌ها به مشکل می‌خورند چون ریتم فرق دارد: در شرکت بزرگ کار سراغت می‌آید، در استارتاپ باید خودت کار بسازی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p9",
+       "text": {
+        "en": "Horowitz also covers hiring people from a friend's company. Talk to your friend before you approach their people, or you may lose the friendship.",
+        "fa": "Horowitz به استخدام آدم‌ها از شرکت یک دوست هم می‌پردازد. پیش از سراغ رفتن به آدم‌هایش با خود دوستت صحبت کن، وگرنه ممکن است دوستی را از دست بدهی."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p10",
+       "text": {
+        "en": "He also argues startups must train their people, from product managers to new engineers. Training is among the most valuable things a manager can do.",
+        "fa": "او همچنین می‌گوید استارتاپ‌ها باید آدم‌هایشان را آموزش دهند، از مدیران محصول تا مهندسان تازه‌وارد. آموزش از ارزشمندترین کارهایی است که یک مدیر می‌تواند انجام دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l2k4",
+       "type": "tf",
+       "source": "b18c2l2p8",
+       "prompt": {
+        "en": "Big-company executives fit startups easily because work comes to them.",
+        "fa": "مدیران شرکت‌های بزرگ به‌راحتی در استارتاپ جا می‌افتند چون کار سراغشان می‌آید."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p11",
+       "text": {
+        "en": "When you hire your first senior engineer, write down the strengths you need most before you post the role. Judge every candidate against that list.",
+        "fa": "وقتی اولین مهندس ارشدت را استخدام می‌کنی، پیش از انتشار آگهی نقاط قوتی را که بیش از همه لازم داری بنویس. هر نامزد را با همان فهرست بسنج."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l2p12",
+       "text": {
+        "en": "If you co-found, the same rule applies to choosing a co-founder. Strength in what matters, plus a written cap table and vesting, protects the company and you.",
+        "fa": "اگر هم‌بنیان‌گذار می‌شوی، همین قاعده دربارهٔ انتخاب هم‌بنیان‌گذار هم صدق می‌کند. قوت در آنچه مهم است، همراه با cap table مکتوب و vesting، از شرکت و خودت محافظت می‌کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l2k5",
+       "type": "tap",
+       "source": "b18c2l2p11",
+       "prompt": {
+        "en": "What should you write down before posting a senior role?",
+        "fa": "پیش از انتشار آگهی یک نقش ارشد چه چیزی را باید بنویسی؟"
+       },
+       "options": [
+        {
+         "en": "The strengths you need most",
+         "fa": "نقاط قوتی که بیش از همه لازم داری"
+        },
+        {
+         "en": "A list of salary bands",
+         "fa": "فهرستی از بازه‌های حقوق"
+        },
+        {
+         "en": "The weaknesses to avoid",
+         "fa": "ضعف‌هایی که باید از آن‌ها پرهیز کرد"
+        }
+       ],
+       "answer": 0
+      }
+     ]
+    },
+    {
+     "id": "b18c2l3",
+     "title": {
+      "en": "One-on-ones, culture and management debt",
+      "fa": "جلسه‌های فردی، فرهنگ و بدهی مدیریتی"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c2l3p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils the essays One-on-One, Programming Your Culture and Management Debt. It matters because these small habits decide whether problems reach you while still fixable.",
+        "fa": "این درس جستارهای One-on-One، Programming Your Culture و Management Debt را خلاصه می‌کند. مهم است چون همین عادت‌های کوچک تعیین می‌کنند مشکلات وقتی هنوز قابل حل‌اند به تو برسند یا نه."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p2",
+       "text": {
+        "en": "Horowitz's view of the one-on-one: it is the employee's meeting, not the manager's. The employee sets the agenda and does about 90 percent of the talking.",
+        "fa": "نگاه Horowitz به جلسهٔ فردی: این جلسهٔ کارمند است، نه مدیر. کارمند دستور جلسه را تعیین می‌کند و حدود ۹۰ درصد صحبت را انجام می‌دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l3k1",
+       "type": "tap",
+       "source": "b18c2l3p2",
+       "prompt": {
+        "en": "Who sets the agenda in a one-on-one?",
+        "fa": "در جلسهٔ فردی، چه کسی دستور جلسه را تعیین می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "The employee",
+         "fa": "کارمند"
+        },
+        {
+         "en": "The manager",
+         "fa": "مدیر"
+        },
+        {
+         "en": "The HR team",
+         "fa": "تیم منابع انسانی"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p3",
+       "text": {
+        "en": "The manager's job is to ask questions that bring hidden problems to the surface. Without this meeting, good ideas and bad news often stay hidden.",
+        "fa": "کار مدیر پرسیدن سؤال‌هایی است که مشکلات پنهان را رو کند. بدون این جلسه، ایده‌های خوب و خبرهای بد اغلب پنهان می‌مانند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p4",
+       "text": {
+        "en": "Sample questions: what is the number one problem with our organization and why, what is not fun about working here, and who is really impressing you.",
+        "fa": "نمونه‌سؤال‌ها: مشکل شمارهٔ یک سازمان ما چیست و چرا، چه چیزی در کار کردن اینجا لذت‌بخش نیست، و چه کسی واقعاً تو را تحت تأثیر قرار داده است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l3k2",
+       "type": "tf",
+       "source": "b18c2l3p2",
+       "prompt": {
+        "en": "In a one-on-one, the manager should do most of the talking.",
+        "fa": "در جلسهٔ فردی، مدیر باید بیشتر صحبت کند."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p5",
+       "text": {
+        "en": "More questions: if you were me, what changes would you make, what don't you like about our product, and what is the biggest opportunity we are missing.",
+        "fa": "سؤال‌های دیگر: اگر جای من بودی چه چیزی را تغییر می‌دادی، چه چیزی را در محصول ما دوست نداری، و بزرگ‌ترین فرصتی که از دست می‌دهیم چیست."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p6",
+       "text": {
+        "en": "Programming your culture: small, unusual rules shape behaviour more than value statements. At Andreessen Horowitz, a partner late to a founder meeting pays $10 a minute.",
+        "fa": "برنامه‌ریزی فرهنگ: قواعد کوچک و غیرعادی بیش از بیانیه‌های ارزشی رفتار را شکل می‌دهند. در Andreessen Horowitz، شریکی که به جلسه با بنیان‌گذار دیر برسد دقیقه‌ای ۱۰ دلار جریمه می‌دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l3k3",
+       "type": "tap",
+       "source": "b18c2l3p6",
+       "prompt": {
+        "en": "What does a late partner pay at Andreessen Horowitz?",
+        "fa": "در Andreessen Horowitz، شریکی که دیر برسد چقدر می‌پردازد؟"
+       },
+       "options": [
+        {
+         "en": "$10 a minute",
+         "fa": "دقیقه‌ای ۱۰ دلار"
+        },
+        {
+         "en": "$100 a meeting",
+         "fa": "جلسه‌ای ۱۰۰ دلار"
+        },
+        {
+         "en": "Nothing at all",
+         "fa": "هیچ"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p7",
+       "text": {
+        "en": "The rule makes one value visible: respect the entrepreneur's time. Culture is set by concrete rules like this, not by slogans.",
+        "fa": "این قاعده یک ارزش را دیدنی می‌کند: احترام به وقت کارآفرین. فرهنگ با قواعد مشخصی مثل این ساخته می‌شود، نه با شعار."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p8",
+       "text": {
+        "en": "Management debt is like technical debt: a quick fix now costs more later. Putting two people in one role to avoid choosing is a classic example.",
+        "fa": "بدهی مدیریتی مثل بدهی فنی است: راه‌حل سریع امروز، فردا گران‌تر تمام می‌شود. گذاشتن دو نفر در یک نقش برای فرار از انتخاب، نمونه‌ای کلاسیک است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p9",
+       "text": {
+        "en": "Other forms: overpaying a key employee because she got a higher offer, or skipping a feedback process. Each creates bigger problems later.",
+        "fa": "شکل‌های دیگر: پرداخت بیش از حد به یک کارمند کلیدی چون پیشنهاد بالاتری گرفته، یا کنار گذاشتن فرایند بازخورد. هر کدام بعداً مشکلات بزرگ‌تری می‌سازد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l3k4",
+       "type": "tf",
+       "source": "b18c2l3p8",
+       "prompt": {
+        "en": "Management debt is a quick fix now that costs more later.",
+        "fa": "بدهی مدیریتی راه‌حل سریعی است که بعداً گران‌تر تمام می‌شود."
+       },
+       "answer": true
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p10",
+       "text": {
+        "en": "On feedback, Horowitz notes the praise, criticism, praise sandwich stops working once people see the pattern. Good feedback is sincere, direct and not personal.",
+        "fa": "دربارهٔ بازخورد، Horowitz می‌گوید ساندویچ تعریف، انتقاد، تعریف وقتی آدم‌ها الگو را بشناسند دیگر جواب نمی‌دهد. بازخورد خوب صادقانه، مستقیم و غیرشخصی است."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p11",
+       "text": {
+        "en": "Run your one-on-ones this way: ask, then listen. Your job is to hear the problems before they become resignations.",
+        "fa": "جلسه‌های فردی‌ات را همین‌طور اجرا کن: بپرس و بعد گوش کن. کار تو شنیدن مشکلات است پیش از آنکه به استعفا تبدیل شوند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l3k5",
+       "type": "tap",
+       "source": "b18c2l3p11",
+       "prompt": {
+        "en": "What is your job in a one-on-one?",
+        "fa": "کار تو در جلسهٔ فردی چیست؟"
+       },
+       "options": [
+        {
+         "en": "Hear the problems before they become resignations",
+         "fa": "شنیدن مشکلات پیش از آنکه به استعفا تبدیل شوند"
+        },
+        {
+         "en": "Review the sprint backlog",
+         "fa": "مرور backlog اسپرینت"
+        },
+        {
+         "en": "Give a status update",
+         "fa": "ارائهٔ گزارش وضعیت"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l3p12",
+       "text": {
+        "en": "Treat management debt like code debt in your startup: write down every shortcut you take with people, and pay it back before it compounds.",
+        "fa": "در استارتاپت با بدهی مدیریتی مثل بدهی کد رفتار کن: هر میان‌بُری را که در کار با آدم‌ها می‌زنی بنویس و پیش از آنکه انباشته شود تسویه‌اش کن."
+       }
+      }
+     ]
+    },
+    {
+     "id": "b18c2l4",
+     "title": {
+      "en": "Peacetime CEO, wartime CEO",
+      "fa": "CEO زمان صلح، CEO زمان جنگ"
+     },
+     "minutes": 12,
+     "items": [
+      {
+       "kind": "card",
+       "id": "b18c2l4p1",
+       "frame": true,
+       "text": {
+        "en": "This Lesson distils Chapter 7's Peacetime CEO/Wartime CEO and its essays on leadership. It matters because a startup facing a threat to its life needs a different leader than one growing calmly.",
+        "fa": "این درس جستار Peacetime CEO/Wartime CEO و جستارهای رهبری فصل ۷ را خلاصه می‌کند. مهم است چون استارتاپی که بقایش در خطر است رهبری متفاوت از استارتاپی می‌خواهد که آرام رشد می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p2",
+       "text": {
+        "en": "Peacetime is when a company has a large advantage over rivals in its core market and the market is growing. Wartime is when it fights an imminent, existential threat.",
+        "fa": "زمان صلح یعنی شرکت در بازار اصلی‌اش برتری بزرگی بر رقبا دارد و بازار در حال رشد است. زمان جنگ یعنی شرکت با تهدیدی قریب‌الوقوع و حیاتی می‌جنگد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p3",
+       "text": {
+        "en": "A peacetime CEO knows proper protocol leads to winning; a wartime CEO violates protocol in order to win.",
+        "fa": "CEO زمان صلح می‌داند رعایت پروتکل درست به پیروزی می‌رسد؛ CEO زمان جنگ برای پیروز شدن پروتکل را زیر پا می‌گذارد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l4k1",
+       "type": "tf",
+       "source": "b18c2l4p3",
+       "prompt": {
+        "en": "A wartime CEO follows protocol strictly in order to win.",
+        "fa": "CEO زمان جنگ برای پیروزی پروتکل را با دقت رعایت می‌کند."
+       },
+       "answer": false
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p4",
+       "text": {
+        "en": "His examples: Google moved from Eric Schmidt as peacetime CEO to Larry Page as wartime CEO. Andy Grove led Intel in wartime when it left the memory business.",
+        "fa": "مثال‌های او: Google از Eric Schmidt به‌عنوان CEO زمان صلح به Larry Page به‌عنوان CEO زمان جنگ رسید. Andy Grove در زمان جنگ، وقتی Intel از کسب‌وکار حافظه بیرون آمد، آن را رهبری کرد."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p5",
+       "text": {
+        "en": "The peacetime CEO focuses on the big picture and lets people make detailed decisions. The wartime CEO cares about a speck of dust if it threatens the prime directive.",
+        "fa": "CEO زمان صلح روی تصویر بزرگ تمرکز می‌کند و تصمیم‌های جزئی را به آدم‌ها می‌سپارد. CEO زمان جنگ حتی به ذره‌ای گرد و غبار اهمیت می‌دهد اگر هدف اصلی را تهدید کند."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l4k2",
+       "type": "tap",
+       "source": "b18c2l4p4",
+       "prompt": {
+        "en": "Who replaced Eric Schmidt as Google's wartime CEO?",
+        "fa": "چه کسی به‌عنوان CEO زمان جنگ جای Eric Schmidt را در Google گرفت؟"
+       },
+       "options": [
+        {
+         "en": "Larry Page",
+         "fa": "Larry Page"
+        },
+        {
+         "en": "Sergey Brin",
+         "fa": "Sergey Brin"
+        },
+        {
+         "en": "Sundar Pichai",
+         "fa": "Sundar Pichai"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p6",
+       "text": {
+        "en": "The peacetime CEO strives for broad buy-in; the wartime CEO neither indulges consensus-building nor tolerates disagreement.",
+        "fa": "CEO زمان صلح به دنبال همراهی گسترده است؛ CEO زمان جنگ نه به اجماع‌سازی میدان می‌دهد و نه مخالفت را تحمل می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p7",
+       "text": {
+        "en": "The peacetime CEO sees rivals as ships in a big ocean that may never engage. The wartime CEO thinks the competitor is sneaking into the house to kidnap the children.",
+        "fa": "CEO زمان صلح رقبا را کشتی‌هایی در اقیانوسی بزرگ می‌بیند که شاید هرگز درگیر نشوند. CEO زمان جنگ فکر می‌کند رقیب دزدکی وارد خانه شده تا بچه‌ها را بدزدد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l4k3",
+       "type": "tap",
+       "source": "b18c2l4p6",
+       "prompt": {
+        "en": "How does a wartime CEO treat consensus-building?",
+        "fa": "CEO زمان جنگ با اجماع‌سازی چگونه رفتار می‌کند؟"
+       },
+       "options": [
+        {
+         "en": "Neither indulges it nor tolerates disagreement",
+         "fa": "نه به آن میدان می‌دهد و نه مخالفت را تحمل می‌کند"
+        },
+        {
+         "en": "Requires it before every decision",
+         "fa": "پیش از هر تصمیمی آن را لازم می‌داند"
+        },
+        {
+         "en": "Hands it to the board",
+         "fa": "آن را به هیئت‌مدیره می‌سپارد"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p8",
+       "text": {
+        "en": "After the Loudcloud crash, Opsware needed a wartime CEO, and Horowitz became one. Being good at both modes is rare and hard to learn.",
+        "fa": "پس از سقوط Loudcloud، Opsware به یک CEO زمان جنگ نیاز داشت و Horowitz همان شد. خوب بودن در هر دو حالت نادر است و یادگیری‌اش سخت."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p9",
+       "text": {
+        "en": "He asks which leaders people follow: one who articulates the vision like Steve Jobs, one with the right ambition like Bill Campbell, and one who achieves it like Andy Grove.",
+        "fa": "او می‌پرسد آدم‌ها از کدام رهبران پیروی می‌کنند: کسی که مثل Steve Jobs چشم‌انداز را بیان می‌کند، کسی با جاه‌طلبی درست مثل Bill Campbell، و کسی که مثل Andy Grove آن را محقق می‌کند."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p10",
+       "text": {
+        "en": "Ones and Twos: some CEOs excel at setting direction, others at making the company execute it. The great CEO learns to do both.",
+        "fa": "Ones و Twos: بعضی CEOها در تعیین جهت عالی‌اند و بعضی در وادار کردن شرکت به اجرای آن. CEO بزرگ یاد می‌گیرد هر دو را انجام دهد."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l4k4",
+       "type": "tap",
+       "source": "b18c2l4p9",
+       "prompt": {
+        "en": "Which leader does Horowitz use for the right kind of ambition?",
+        "fa": "Horowitz کدام رهبر را نمونهٔ جاه‌طلبی درست می‌آورد؟"
+       },
+       "options": [
+        {
+         "en": "Bill Campbell",
+         "fa": "Bill Campbell"
+        },
+        {
+         "en": "Andy Grove",
+         "fa": "Andy Grove"
+        },
+        {
+         "en": "Steve Jobs",
+         "fa": "Steve Jobs"
+        }
+       ],
+       "answer": 0
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p11",
+       "text": {
+        "en": "In your startup, a rival launching a copy or cash running short is wartime. Switch modes on purpose: faster calls and one clear prime directive.",
+        "fa": "در استارتاپ تو، رقیبی که نسخهٔ کپی عرضه می‌کند یا پولی که رو به اتمام است یعنی زمان جنگ. آگاهانه حالت را عوض کن: تصمیم‌های سریع‌تر و یک هدف اصلی روشن."
+       }
+      },
+      {
+       "kind": "card",
+       "id": "b18c2l4p12",
+       "text": {
+        "en": "When the threat passes, return to peacetime and hand detailed decisions back to the team. Knowing which mode you are in is the first skill.",
+        "fa": "وقتی تهدید گذشت، به حالت صلح برگرد و تصمیم‌های جزئی را دوباره به تیم بسپار. دانستن اینکه در کدام حالت هستی اولین مهارت است."
+       }
+      },
+      {
+       "kind": "check",
+       "id": "b18c2l4k5",
+       "type": "tf",
+       "source": "b18c2l4p11",
+       "prompt": {
+        "en": "A rival suddenly copying your product can put your startup in wartime.",
+        "fa": "رقیبی که ناگهان از محصولت کپی می‌کند می‌تواند استارتاپت را به زمان جنگ ببرد."
+       },
+       "answer": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+  "id": "b21",
+  "title": "Angel",
+  "author": {
+    "en": "Jason Calacanis",
+    "fa": "Jason Calacanis"
+  },
+  "year": 2017,
+  "stage": 5,
+  "must": false,
+  "why": {
+    "en": "A practical guide to angel investing",
+    "fa": "راهنمای عملی angel investing"
+  },
+  "badge": {
+    "en": "Bet on the Founder",
+    "fa": "روی بنیان‌گذار شرط ببند"
+  },
+  "tier": "low",
+  "circles": [
+    {
+      "id": "b21c1",
+      "title": {
+        "en": "Angel investing as a power-law game",
+        "fa": "سرمایه‌گذاری فرشته به‌عنوان بازی قانون توانی"
+      },
+      "lessons": [
+        {
+          "id": "b21c1l1",
+          "title": {
+            "en": "The power law: why one winner pays for everything",
+            "fa": "قانون توانی: چرا یک برنده هزینهٔ همه را می‌دهد"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b21c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the book's core math: most startups fail and a rare winner returns everything. It matters because it shows why angel bets are a different game from your VWCE core.",
+                "fa": "این درس ریاضی اصلی کتاب را خلاصه می‌کند: بیشتر استارتاپ‌ها شکست می‌خورند و یک برندهٔ نادر همه‌چیز را برمی‌گرداند. مهم است چون نشان می‌دهد چرا شرط‌های فرشته بازی‌ای جدا از هستهٔ VWCE توست."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p2",
+              "text": {
+                "en": "Calacanis made an early, small angel check into Uber that grew into one of the best returns in the industry. That single bet paid for many of his failed ones.",
+                "fa": "Calacanis یک چک کوچک و زودهنگام فرشته در Uber گذاشت که به یکی از بهترین بازده‌های این صنعت تبدیل شد. همان یک شرط هزینهٔ بسیاری از شرط‌های شکست‌خورده‌اش را داد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l1k1",
+              "type": "tf",
+              "source": "b21c1l1p2",
+              "prompt": {
+                "en": "In the book, Calacanis's Uber check was a large, late-stage investment.",
+                "fa": "در کتاب، چک Uber که Calacanis نوشت سرمایه‌گذاری بزرگی در مرحلهٔ دیرهنگام بود."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p3",
+              "text": {
+                "en": "Startup returns follow a power law, not a bell curve: the best outcome in a portfolio can be worth more than all the others combined.",
+                "fa": "بازده استارتاپ‌ها از قانون توانی پیروی می‌کند، نه منحنی زنگوله‌ای: بهترین نتیجهٔ یک پرتفوی می‌تواند از مجموع همهٔ بقیه بیشتر بیرزد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p4",
+              "text": {
+                "en": "Most of the startups an angel backs will fail outright or return little. You write every check assuming it may go to zero.",
+                "fa": "بیشتر استارتاپ‌هایی که یک فرشته پشتشان می‌ایستد کاملاً شکست می‌خورند یا بازده کمی دارند. هر چک را با این فرض می‌نویسی که ممکن است به صفر برسد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l1k2",
+              "type": "tap",
+              "source": "b21c1l1p3",
+              "prompt": {
+                "en": "What shape do startup returns follow, per the book?",
+                "fa": "طبق کتاب، بازده استارتاپ‌ها چه شکلی دارد؟"
+              },
+              "options": [
+                {
+                  "en": "A power law",
+                  "fa": "قانون توانی"
+                },
+                {
+                  "en": "A bell curve",
+                  "fa": "منحنی زنگوله‌ای"
+                },
+                {
+                  "en": "A steady straight line",
+                  "fa": "یک خط صاف و یکنواخت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p5",
+              "text": {
+                "en": "Because you cannot know in advance which company will be the outlier, Calacanis says to spread small checks across at least 30 startups.",
+                "fa": "چون از پیش نمی‌دانی کدام شرکت استثنا خواهد بود، Calacanis می‌گوید چک‌های کوچک را روی دست‌کم ۳۰ استارتاپ پخش کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p6",
+              "text": {
+                "en": "With too few bets you will most likely miss the outlier entirely, and a portfolio of only losers is the normal result.",
+                "fa": "با تعداد شرط‌های خیلی کم، به احتمال زیاد استثنا را کلاً از دست می‌دهی، و پرتفویی که فقط بازنده دارد نتیجهٔ عادی است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l1k3",
+              "type": "tap",
+              "source": "b21c1l1p5",
+              "prompt": {
+                "en": "Across how many startups does Calacanis say to spread checks?",
+                "fa": "Calacanis می‌گوید چک‌ها را روی چند استارتاپ پخش کنی؟"
+              },
+              "options": [
+                {
+                  "en": "At least 30 startups",
+                  "fa": "دست‌کم ۳۰ استارتاپ"
+                },
+                {
+                  "en": "Exactly three",
+                  "fa": "دقیقاً سه"
+                },
+                {
+                  "en": "Only the one you love most",
+                  "fa": "فقط همانی که بیشتر از همه دوستش داری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p7",
+              "text": {
+                "en": "Angel money is illiquid: a winner can take seven to ten years or more to reach an exit, and you usually cannot sell along the way.",
+                "fa": "پول فرشته نقدشونده نیست: یک برنده ممکن است هفت تا ده سال یا بیشتر طول بکشد تا به exit برسد، و معمولاً در این مسیر نمی‌توانی بفروشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p8",
+              "text": {
+                "en": "So the rule is to invest only money you can afford to lose and can leave locked up for a decade.",
+                "fa": "پس قاعده این است که فقط پولی را سرمایه‌گذاری کنی که از دست رفتنش را تاب می‌آوری و می‌توانی یک دهه قفلش بگذاری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p9",
+              "text": {
+                "en": "In the US the book notes most private deals are limited to accredited investors, who must meet income or net worth thresholds.",
+                "fa": "کتاب یادآوری می‌کند که در آمریکا بیشتر معامله‌های خصوصی به accredited investor محدود است، کسی که باید آستانهٔ درآمد یا دارایی خالص را داشته باشد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l1k4",
+              "type": "tf",
+              "source": "b21c1l1p8",
+              "prompt": {
+                "en": "The book says angels should invest money they will need back within a year.",
+                "fa": "کتاب می‌گوید فرشته‌ها باید پولی را بگذارند که ظرف یک سال لازمش دارند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p10",
+              "text": {
+                "en": "Applied: with about €40k, the 30-startup spread does not fit, so in your roadmap angel bets could at most live in the 20 percent satellite.",
+                "fa": "کاربردی: با حدود ۴۰ هزار یورو، پخش ۳۰ استارتاپی جا نمی‌شود، پس در نقشهٔ راهت شرط‌های فرشته حداکثر می‌توانند در ۲۰ درصد satellite بنشینند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p11",
+              "text": {
+                "en": "Your 80 percent index core is built on the opposite logic: own the whole market and accept its average, instead of hunting the outlier.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی تو بر منطق مخالف بنا شده: کل بازار را مالک شو و میانگینش را بپذیر، به‌جای شکار استثنا."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l1p12",
+              "text": {
+                "en": "The power law also matters to you as a founder: investors back you hoping you are their outlier, which is why they ask how big you can get.",
+                "fa": "قانون توانی برای تو به‌عنوان بنیان‌گذار هم مهم است: سرمایه‌گذارها به امید اینکه تو استثنای آن‌ها باشی پشتت می‌ایستند، برای همین می‌پرسند چقدر می‌توانی بزرگ شوی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l1k5",
+              "type": "tap",
+              "source": "b21c1l1p12",
+              "prompt": {
+                "en": "Why do investors ask a founder how big the company can get?",
+                "fa": "چرا سرمایه‌گذارها از بنیان‌گذار می‌پرسند شرکت چقدر می‌تواند بزرگ شود؟"
+              },
+              "options": [
+                {
+                  "en": "They are hoping you are their outlier",
+                  "fa": "امیدوارند تو استثنای آن‌ها باشی"
+                },
+                {
+                  "en": "They want to set your salary",
+                  "fa": "می‌خواهند حقوقت را تعیین کنند"
+                },
+                {
+                  "en": "It is a legal requirement for every round",
+                  "fa": "این یک الزام قانونی برای هر دور است"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b21c1l2",
+          "title": {
+            "en": "Starting small: syndicates and deal flow",
+            "fa": "کوچک شروع کردن: syndicateها و deal flow"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b21c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils the book's path for new angels: syndicates first, then your own deals, and how deal flow is earned. It matters because it shows how to learn a risky game cheaply.",
+                "fa": "این درس مسیر کتاب برای فرشته‌های تازه‌کار را خلاصه می‌کند: اول syndicate، بعد معامله‌های خودت، و اینکه deal flow چطور به دست می‌آید. مهم است چون نشان می‌دهد چطور یک بازی پرریسک را ارزان یاد بگیری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p2",
+              "text": {
+                "en": "Calacanis argues that platforms like AngelList opened angel investing to people outside the old Silicon Valley circle, with much smaller checks.",
+                "fa": "Calacanis استدلال می‌کند که پلتفرم‌هایی مثل AngelList سرمایه‌گذاری فرشته را با چک‌های خیلی کوچک‌تر به روی آدم‌های بیرون از حلقهٔ قدیمی Silicon Valley باز کردند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p3",
+              "text": {
+                "en": "In a syndicate, an experienced lead finds the deal and does the diligence, and backers invest alongside the lead on the same terms.",
+                "fa": "در یک syndicate، یک لید باتجربه معامله را پیدا می‌کند و diligence را انجام می‌دهد، و حامیان با همان شرایط کنار لید سرمایه‌گذاری می‌کنند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l2k1",
+              "type": "tap",
+              "source": "b21c1l2p3",
+              "prompt": {
+                "en": "In a syndicate, who finds the deal and does the diligence?",
+                "fa": "در یک syndicate چه کسی معامله را پیدا می‌کند و diligence را انجام می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "An experienced lead",
+                  "fa": "یک لید باتجربه"
+                },
+                {
+                  "en": "Each backer alone",
+                  "fa": "هر حامی به‌تنهایی"
+                },
+                {
+                  "en": "The startup's lawyer",
+                  "fa": "وکیل استارتاپ"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p4",
+              "text": {
+                "en": "In return the lead takes carry, a share of the profits from the deal, so backers pay it only if the investment works out.",
+                "fa": "در عوض، لید carry می‌گیرد، یعنی سهمی از سود معامله، پس حامیان فقط وقتی آن را می‌پردازند که سرمایه‌گذاری نتیجه بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p5",
+              "text": {
+                "en": "Calacanis's advice: join syndicates and put small checks into about ten deals before you lead anything yourself.",
+                "fa": "توصیهٔ Calacanis: به syndicateها بپیوند و پیش از اینکه خودت چیزی را رهبری کنی، چک‌های کوچک در حدود ده معامله بگذار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l2k2",
+              "type": "tf",
+              "source": "b21c1l2p4",
+              "prompt": {
+                "en": "In a syndicate, carry is a fixed fee backers pay even if the deal fails.",
+                "fa": "در syndicate، carry کارمزد ثابتی است که حامیان حتی اگر معامله شکست بخورد می‌پردازند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p6",
+              "text": {
+                "en": "Watching the leads' memos and how each company develops teaches you what good diligence looks like, at the cost of small checks.",
+                "fa": "دیدن memoهای لیدها و اینکه هر شرکت چطور پیش می‌رود، به قیمت چک‌های کوچک، به تو یاد می‌دهد diligence خوب چه شکلی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p7",
+              "text": {
+                "en": "The path: join syndicates with small checks, then write larger checks as a solo angel, and only later lead your own syndicate.",
+                "fa": "مسیر: با چک‌های کوچک به syndicateها بپیوند، بعد به‌عنوان فرشتهٔ مستقل چک‌های بزرگ‌تر بنویس، و فقط بعدها syndicate خودت را رهبری کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l2k3",
+              "type": "order",
+              "source": "b21c1l2p7",
+              "prompt": {
+                "en": "Order the book's path for a new angel",
+                "fa": "مسیر کتاب برای یک فرشتهٔ تازه‌کار را مرتب کن"
+              },
+              "options": [
+                {
+                  "en": "Lead your own syndicate",
+                  "fa": "syndicate خودت را رهبری کن"
+                },
+                {
+                  "en": "Join syndicates with small checks",
+                  "fa": "با چک‌های کوچک به syndicateها بپیوند"
+                },
+                {
+                  "en": "Write larger checks as a solo angel",
+                  "fa": "به‌عنوان فرشتهٔ مستقل چک‌های بزرگ‌تر بنویس"
+                }
+              ],
+              "answer": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p8",
+              "text": {
+                "en": "Deal flow, the stream of startups you get to see, decides your results: the outlier has to be among the deals you are shown.",
+                "fa": "deal flow، یعنی جریان استارتاپ‌هایی که می‌بینی، نتیجه‌هایت را تعیین می‌کند: استثنا باید در میان معامله‌هایی باشد که به تو نشان داده می‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p9",
+              "text": {
+                "en": "The best deal flow comes from founders who recommend you to other founders. Angels earn it by being useful: introductions, help with hiring and honest feedback.",
+                "fa": "بهترین deal flow از بنیان‌گذارانی می‌آید که تو را به بنیان‌گذاران دیگر معرفی می‌کنند. فرشته‌ها با مفید بودن به آن می‌رسند: معرفی، کمک در استخدام و بازخورد صادقانه."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p10",
+              "text": {
+                "en": "Calacanis built his own deal flow through events and media for founders, such as the LAUNCH conference and the This Week in Startups podcast.",
+                "fa": "Calacanis deal flow خودش را از راه رویدادها و رسانه برای بنیان‌گذاران ساخت، مثل کنفرانس LAUNCH و پادکست This Week in Startups."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l2k4",
+              "type": "tap",
+              "source": "b21c1l2p9",
+              "prompt": {
+                "en": "How, per the book, do angels earn the best deal flow?",
+                "fa": "طبق کتاب، فرشته‌ها چطور بهترین deal flow را به دست می‌آورند؟"
+              },
+              "options": [
+                {
+                  "en": "By being useful to founders",
+                  "fa": "با مفید بودن برای بنیان‌گذاران"
+                },
+                {
+                  "en": "By offering the highest valuation",
+                  "fa": "با پیشنهاد بالاترین valuation"
+                },
+                {
+                  "en": "By keeping their name secret",
+                  "fa": "با پنهان نگه داشتن نامشان"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p11",
+              "text": {
+                "en": "Applied: as an engineer you already have something founders value, technical judgment and hiring help, long before you have spare capital.",
+                "fa": "کاربردی: به‌عنوان مهندس از همین حالا چیزی داری که بنیان‌گذاران برایش ارزش قائل‌اند، قضاوت فنی و کمک در استخدام، خیلی پیش از آنکه سرمایهٔ اضافه داشته باشی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l2p12",
+              "text": {
+                "en": "Reading syndicate memos and talking to founders is a cheap way to learn; it does not require writing a check at all.",
+                "fa": "خواندن memoهای syndicate و حرف زدن با بنیان‌گذاران راه ارزانی برای یادگیری است؛ اصلاً نیازی به نوشتن چک ندارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l2k5",
+              "type": "tf",
+              "source": "b21c1l2p12",
+              "prompt": {
+                "en": "Learning from syndicate memos requires you to invest in every deal.",
+                "fa": "یادگرفتن از memoهای syndicate لازم می‌کند در هر معامله سرمایه‌گذاری کنی."
+              },
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "b21c1l3",
+          "title": {
+            "en": "Founders, deal memos and pro rata",
+            "fa": "بنیان‌گذاران، deal memo و pro rata"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b21c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils how the book judges founders, records each bet and backs winners with pro rata. It matters because the same questions apply to your own startup and decision journal.",
+                "fa": "این درس خلاصه می‌کند کتاب چطور بنیان‌گذاران را می‌سنجد، هر شرط را ثبت می‌کند و با pro rata پشت برنده‌ها می‌ایستد. مهم است چون همین سؤال‌ها برای استارتاپ خودت و دفتر تصمیمت هم کاربرد دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p2",
+              "text": {
+                "en": "Calacanis bets on the founder more than the idea, because early ideas change and only a strong founder can find the version that works.",
+                "fa": "Calacanis بیشتر روی بنیان‌گذار شرط می‌بندد تا ایده، چون ایده‌های اولیه تغییر می‌کنند و فقط یک بنیان‌گذار قوی می‌تواند نسخه‌ای را پیدا کند که کار کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p3",
+              "text": {
+                "en": "His core questions in a founder meeting: what are you working on, why are you doing this, why now, and what is your unfair advantage?",
+                "fa": "سؤال‌های اصلی او در جلسه با بنیان‌گذار: روی چه کار می‌کنی، چرا این کار را می‌کنی، چرا حالا، و مزیت ناعادلانه‌ات چیست؟"
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l3k1",
+              "type": "tf",
+              "source": "b21c1l3p2",
+              "prompt": {
+                "en": "Calacanis says to bet on the idea rather than the founder.",
+                "fa": "Calacanis می‌گوید روی ایده شرط ببند، نه روی بنیان‌گذار."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p4",
+              "text": {
+                "en": "He looks for founders who ship product and keep making progress with little money, rather than founders who mainly talk about plans.",
+                "fa": "او دنبال بنیان‌گذارانی است که محصول را منتشر می‌کنند و با پول کم پیشرفت می‌کنند، نه بنیان‌گذارانی که بیشتر از برنامه‌ها حرف می‌زنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p5",
+              "text": {
+                "en": "Asking many questions is the angel's main tool: vague or defensive answers about customers, competitors or money are warning signs.",
+                "fa": "سؤال زیاد پرسیدن ابزار اصلی فرشته است: جواب‌های مبهم یا تدافعی دربارهٔ مشتری، رقبا یا پول، نشانه‌های هشدارند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l3k2",
+              "type": "tap",
+              "source": "b21c1l3p3",
+              "prompt": {
+                "en": "Which is one of Calacanis's core founder questions?",
+                "fa": "کدام یکی از سؤال‌های اصلی Calacanis از بنیان‌گذار است؟"
+              },
+              "options": [
+                {
+                  "en": "Why now?",
+                  "fa": "چرا حالا؟"
+                },
+                {
+                  "en": "What car do you drive?",
+                  "fa": "چه ماشینی سوار می‌شوی؟"
+                },
+                {
+                  "en": "Which university did your parents attend?",
+                  "fa": "پدر و مادرت به کدام دانشگاه رفتند؟"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p6",
+              "text": {
+                "en": "Before investing, write a deal memo: why you invested, what has to go right, and what could kill the company.",
+                "fa": "پیش از سرمایه‌گذاری یک deal memo بنویس: چرا سرمایه‌گذاری کردی، چه چیزی باید درست پیش برود، و چه چیزی می‌تواند شرکت را نابود کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p7",
+              "text": {
+                "en": "Re-reading old memos against what actually happened shows where your judgment was right or wrong, so you improve instead of guessing.",
+                "fa": "دوباره خواندن memoهای قدیمی در برابر آنچه واقعاً رخ داد نشان می‌دهد قضاوتت کجا درست یا غلط بود، پس به‌جای حدس زدن بهتر می‌شوی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l3k3",
+              "type": "tap",
+              "source": "b21c1l3p6",
+              "prompt": {
+                "en": "What goes into a deal memo, per the book?",
+                "fa": "طبق کتاب، در deal memo چه می‌نویسی؟"
+              },
+              "options": [
+                {
+                  "en": "Why you invested, what has to go right, what could kill the company",
+                  "fa": "چرا سرمایه‌گذاری کردی، چه باید درست پیش برود، چه می‌تواند شرکت را نابود کند"
+                },
+                {
+                  "en": "The founder's home address",
+                  "fa": "نشانی خانهٔ بنیان‌گذار"
+                },
+                {
+                  "en": "Only the share price",
+                  "fa": "فقط قیمت سهم"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p8",
+              "text": {
+                "en": "Early checks often go in as convertible notes or SAFEs, which turn into equity at a later priced round, usually with a valuation cap.",
+                "fa": "چک‌های اولیه اغلب به شکل convertible note یا SAFE وارد می‌شوند که در یک دور قیمت‌گذاری‌شدهٔ بعدی به سهام تبدیل می‌شوند، معمولاً با valuation cap."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p9",
+              "text": {
+                "en": "Ask for pro rata rights so you can keep your ownership share in later rounds. The book says to use them on your winners, not to rescue losers.",
+                "fa": "حق pro rata بخواه تا بتوانی سهم مالکیتت را در دورهای بعدی حفظ کنی. کتاب می‌گوید از آن روی برنده‌هایت استفاده کن، نه برای نجات بازنده‌ها."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p10",
+              "text": {
+                "en": "Insist on regular updates from founders; a company that stops sending updates is a red flag that usually means bad news.",
+                "fa": "روی گزارش‌های منظم از بنیان‌گذاران پافشاری کن؛ شرکتی که فرستادن گزارش را قطع می‌کند زنگ خطری است که معمولاً یعنی خبر بد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l3k4",
+              "type": "tap",
+              "source": "b21c1l3p9",
+              "prompt": {
+                "en": "What do pro rata rights let an angel do?",
+                "fa": "حق pro rata به فرشته چه اجازه‌ای می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "Keep your ownership share in later rounds",
+                  "fa": "سهم مالکیتت را در دورهای بعدی حفظ کنی"
+                },
+                {
+                  "en": "Sell shares on a public exchange at any time",
+                  "fa": "هر وقت بخواهی سهم را در بورس عمومی بفروشی"
+                },
+                {
+                  "en": "Take over as CEO",
+                  "fa": "جای مدیرعامل را بگیری"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p11",
+              "text": {
+                "en": "Applied: the deal memo is the same habit as your decision journal; write why, what must go right and what could go wrong before any bet.",
+                "fa": "کاربردی: deal memo همان عادت دفتر تصمیم توست؛ پیش از هر شرط بنویس چرا، چه باید درست پیش برود و چه ممکن است خراب شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l3p12",
+              "text": {
+                "en": "And when you raise money for your own AI product, expect angels to ask these questions, want pro rata and read your monthly updates.",
+                "fa": "و وقتی برای محصول AI خودت پول جذب می‌کنی، انتظار داشته باش فرشته‌ها همین سؤال‌ها را بپرسند، pro rata بخواهند و گزارش‌های ماهانه‌ات را بخوانند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b21c1l3k5",
+              "type": "tf",
+              "source": "b21c1l3p10",
+              "prompt": {
+                "en": "The book treats a founder who stops sending updates as a good sign of focus.",
+                "fa": "کتاب بنیان‌گذاری را که فرستادن گزارش را قطع می‌کند نشانهٔ خوبِ تمرکز می‌داند."
+              },
+              "answer": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

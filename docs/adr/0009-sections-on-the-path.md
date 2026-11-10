@@ -1,5 +1,5 @@
 ---
-status: accepted
+status: superseded by ADR-0010 for the inside of a book Section (Sections and the Path stay)
 ---
 # The Path is Sections of Units; books join the Path in reading order
 

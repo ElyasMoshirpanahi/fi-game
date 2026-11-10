@@ -18,8 +18,8 @@ status: accepted
 **engine** (deep: the whole loop behind two calls)
 - `FI.engine.initial()` : the full state.
 - `FI.engine.reduce(state, action, content)` : returns a new state. Pure. Content is a parameter, not a global read, so tests can pass a two-Station fixture.
-- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare`, `fare-passed`, `fare-failed`, `lit`, `section`, `milestone`, `bookmark`, `unbookmark`, `reset`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
-- Actions: `SET_MODE`, `OPEN_STATION`, `OPEN_TOOLS`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `TOGGLE_BOOKMARK`, `OPEN_AT`, `OPEN_BOOKMARKS`, `RESET`, `HYDRATE`. Actions named `UI_*` never reach the engine; render consumes them (order chips, filters, confirms, section picker). `handleUi` answers `full` (re-render), `partial` (patch) or `path` (the app then dispatches `BACK_TO_PATH`, used by the Shelf's jump).
+- `state.events` : array of effect names produced by this reduce call only (`coin`, `correct`, `wrong`, `hint`, `revealed`, `return`, `fare`, `fare-passed`, `fare-failed`, `lit`, `circle`, `section`, `milestone`, `bookmark`, `unbookmark`, `reset`). Render and fx read it; nothing else does. This keeps sound and animation out of the reducer while still letting a test assert "a Coin event happens only on a correct answer".
+- Actions: `SET_MODE`, `OPEN_STATION`, `OPEN_TOOLS`, `BACK_TO_PATH`, `FLIP`, `RATE`, `ANSWER`, `CONTINUE`, `TOGGLE_CHECK`, `SET_JOURNAL`, `TOGGLE_HABIT`, `SET_SHELF`, `SET_SLIDER`, `TOGGLE_MUTE`, `TOGGLE_BOOKMARK`, `OPEN_AT`, `OPEN_BOOKMARKS`, `RESET`, `HYDRATE`. Actions named `UI_*` never reach the engine; render consumes them (order chips, filters, confirms, section picker, `UI_OPEN_CIRCLE`, `UI_ERROR_CLOSE`). `handleUi` answers `full` (re-render), `partial` (patch) or `path` (the app then dispatches `BACK_TO_PATH`, used by the Shelf's jump).
 - `FI.engine.DURABLE` is the one list of fields that survive a reload; store reads it and HYDRATE iterates it.
 - Fare question order is a deterministic rotation by attempt, never random, so a test can predict it.
 - Lifted from the logic prototype (`docs/prototypes/logic-engine-verdict.md`), including the two fixes.
@@ -49,3 +49,10 @@ status: accepted
 - **Separate `src/*.js` ES modules concatenated into `index.html` by a script.** Cleaner imports and editor support, but it adds a build step and a second copy of the code, against ADR-0001. If the extraction loader proves brittle, this is the fallback, recorded here so the trade-off is not re-argued.
 - **Engine emits effects by returning `{ state, effects }`.** Rejected for a single return value; `state.events` reset on every reduce gives the same testability with a simpler interface.
 - **Render diffing prev and next state to decide animations.** Rejected; the reducer already knows what happened, so it says so in `events`.
+
+## Amendment 2026-11-10 (ADR-0010)
+
+- content gains a loader seam: `registerBook(json, expectedId)` fills the Lesson stubs of one book (and shuffles tap options deterministically by Check id); `isLoaded(bookId)`, `bookUrl(bookId)`, `circleOf(lessonId)`, and the constants `LESSON_XP`, `CIRCLE_XP`, `SECTION_XP`. This is the one place content is mutable after load.
+- render gains `setLoading(on)` and `setError(on)`, called only by the app around a book fetch.
+- The app owns fetching; the engine and content never fetch.
+- A Section lists its runs (`sec.runs`): Stations for Basics, Lessons for a book.

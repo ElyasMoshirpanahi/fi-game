@@ -1,0 +1,1643 @@
+{
+  "id": "b03",
+  "title": "Your Money or Your Life",
+  "author": {
+    "en": "Vicki Robin and Joe Dominguez",
+    "fa": "Vicki Robin و Joe Dominguez"
+  },
+  "year": 1992,
+  "stage": 1,
+  "must": true,
+  "why": {
+    "en": "The philosophy of financial independence; money equals life energy",
+    "fa": "فلسفه استقلال مالی؛ پول = زمان زندگی"
+  },
+  "badge": {
+    "en": "Money is life energy",
+    "fa": "پول یعنی انرژی زندگی"
+  },
+  "tier": "mid",
+  "circles": [
+    {
+      "id": "b03c1",
+      "title": {
+        "en": "Money is life energy",
+        "fa": "پول یعنی انرژی زندگی"
+      },
+      "lessons": [
+        {
+          "id": "b03c1l1",
+          "title": {
+            "en": "The old road map and the fulfillment curve",
+            "fa": "نقشهٔ راه قدیمی و منحنی رضایت"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c1l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 1, the money trap and the fulfillment curve. It matters because a good Dutch tech salary can still leave you trading your life for more stuff instead of more freedom.",
+                "fa": "این درس فصل ۱ را خلاصه می‌کند: تلهٔ پول و منحنی رضایت. مهم است چون حتی یک حقوق خوب فنی در هلند هم می‌تواند تو را به معاوضهٔ زندگی‌ات با چیزهای بیشتر بکشاند، نه آزادی بیشتر."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p2",
+              "text": {
+                "en": "Joe Dominguez left his Wall Street job in 1969, at 31, and lived on the income from his savings. Vicki Robin joined him, and they taught the program in seminars before writing the book.",
+                "fa": "Joe Dominguez در سال ۱۹۶۹ و در ۳۱ سالگی کارش را در Wall Street رها کرد و با درآمد پس‌اندازش زندگی کرد. Vicki Robin به او پیوست و پیش از نوشتن کتاب، این برنامه را در سمینارها آموزش دادند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p3",
+              "text": {
+                "en": "The book says many people are not making a living but making a dying. They spend most waking hours earning, commuting and recovering, with little left for what they care about.",
+                "fa": "کتاب می‌گوید بسیاری از مردم زندگی نمی‌سازند، بلکه «مرگ می‌سازند». بیشتر ساعت‌های بیداری‌شان صرف کسب درآمد، رفت‌وآمد و خستگی‌درکردن می‌شود و برای چیزهایی که برایشان مهم است چیزی نمی‌ماند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l1k1",
+              "type": "tf",
+              "source": "b03c1l1p3",
+              "prompt": {
+                "en": "The book claims most people are making a living, not a dying.",
+                "fa": "کتاب ادعا می‌کند بیشتر مردم زندگی می‌سازند، نه مرگ."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p4",
+              "text": {
+                "en": "The old road map for money says more is better: earn more, buy more, and happiness follows. The authors show that this map leaves people busy, in debt and unsatisfied.",
+                "fa": "نقشهٔ راه قدیمی پول می‌گوید «بیشتر بهتر است»: بیشتر درآمد کسب کن، بیشتر بخر و شادی می‌آید. نویسندگان نشان می‌دهند این نقشه آدم‌ها را پرمشغله، بدهکار و ناراضی رها می‌کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p5",
+              "text": {
+                "en": "The fulfillment curve plots fulfillment against money spent. It rises through survival, then comforts, then a few luxuries.",
+                "fa": "منحنی رضایت، رضایت را در برابر پول خرج‌شده نشان می‌دهد. از مرحلهٔ بقا بالا می‌رود، بعد آسایش، بعد چند تجمل."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l1k2",
+              "type": "tap",
+              "source": "b03c1l1p5",
+              "prompt": {
+                "en": "Which stages does the fulfillment curve rise through?",
+                "fa": "منحنی رضایت از کدام مرحله‌ها بالا می‌رود؟"
+              },
+              "options": [
+                {
+                  "en": "Survival, comforts, then luxuries",
+                  "fa": "بقا، آسایش، سپس تجمل"
+                },
+                {
+                  "en": "Salary, bonus, then pension",
+                  "fa": "حقوق، پاداش، سپس بازنشستگی"
+                },
+                {
+                  "en": "Debt, savings, then wealth",
+                  "fa": "بدهی، پس‌انداز، سپس ثروت"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p6",
+              "text": {
+                "en": "Past the peak the curve turns down. Extra spending brings clutter, upkeep and worry, so each new purchase adds less fulfillment and then takes some away.",
+                "fa": "بعد از اوج، منحنی پایین می‌آید. خرج اضافه شلوغی، نگهداری و نگرانی می‌آورد؛ پس هر خرید تازه رضایت کمتری می‌دهد و بعد کمی از آن را هم می‌گیرد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p7",
+              "text": {
+                "en": "The peak of the curve is called enough. Enough means having everything you need and a few luxuries you love, with nothing extra to burden you.",
+                "fa": "اوج منحنی «کافی» نام دارد. کافی یعنی هرچه نیاز داری و چند تجملی که دوستشان داری داشته باشی، بدون چیز اضافه‌ای که سنگینی کند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p8",
+              "text": {
+                "en": "Enough is not deprivation. The book calls it a fearless place: you trust there is sufficient, so you stop chasing more.",
+                "fa": "کافی به معنای محرومیت نیست. کتاب آن را جایی بی‌ترس می‌نامد: اطمینان داری که به اندازه هست، پس دیگر دنبال بیشتر نمی‌دوی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l1k3",
+              "type": "tap",
+              "source": "b03c1l1p7",
+              "prompt": {
+                "en": "What is the peak of the fulfillment curve called?",
+                "fa": "اوج منحنی رضایت چه نام دارد؟"
+              },
+              "options": [
+                {
+                  "en": "Retirement",
+                  "fa": "بازنشستگی"
+                },
+                {
+                  "en": "Enough",
+                  "fa": "کافی"
+                },
+                {
+                  "en": "Net worth",
+                  "fa": "دارایی خالص"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p9",
+              "text": {
+                "en": "Finding enough has four parts in the book: be accountable for your money, know what you value, track the flow, and keep a sense of purpose beyond yourself.",
+                "fa": "یافتن «کافی» در کتاب چهار جزء دارد: در برابر پولت پاسخ‌گو باش، بدان چه چیزی برایت ارزش دارد، جریان پول را ثبت کن و هدفی فراتر از خودت داشته باش."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p10",
+              "text": {
+                "en": "The authors define FI three ways: financial integrity, financial intelligence and financial independence. Independence comes last because it grows from the first two.",
+                "fa": "نویسندگان FI را به سه معنا تعریف می‌کنند: یکپارچگی مالی، هوش مالی و استقلال مالی. استقلال آخر می‌آید چون از دو مورد اول رشد می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l1k4",
+              "type": "tf",
+              "source": "b03c1l1p10",
+              "prompt": {
+                "en": "In the book, financial independence comes before financial integrity and intelligence.",
+                "fa": "در کتاب، استقلال مالی پیش از یکپارچگی و هوش مالی می‌آید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p11",
+              "text": {
+                "en": "Applied: your target of 25 times annual expenses only works if annual expenses sit near enough. Each euro spent past the peak raises the target by 25 euros.",
+                "fa": "کاربردی: هدف ۲۵ برابر هزینهٔ سالانه فقط وقتی جواب می‌دهد که هزینه‌ها نزدیک «کافی» باشند. هر یورویی که بعد از اوج خرج شود، هدف را ۲۵ یورو بالا می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l1p12",
+              "text": {
+                "en": "Applied: before buying a second monitor or a new phone, ask where you are on the curve. If you are past enough, the purchase costs freedom and adds little.",
+                "fa": "کاربردی: پیش از خرید مانیتور دوم یا گوشی تازه بپرس کجای منحنی هستی. اگر از «کافی» گذشته‌ای، این خرید آزادی‌ات را می‌گیرد و چیز زیادی اضافه نمی‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l1k5",
+              "type": "tf",
+              "source": "b03c1l1p11",
+              "prompt": {
+                "en": "Spending past enough raises the capital you need for financial independence.",
+                "fa": "خرج کردن بیش از «کافی»، سرمایهٔ لازم برای استقلال مالی را بالا می‌برد."
+              },
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "b03c1l2",
+          "title": {
+            "en": "Money is life energy; making peace with the past",
+            "fa": "پول انرژی زندگی است؛ آشتی با گذشته"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c1l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils chapter 2 and Step 1 of the nine steps. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
+                "fa": "این درس فصل ۲ و گام ۱ از نُه گام را خلاصه می‌کند. مهم است چون بدون دانستن اینکه کار گذشته‌ات واقعاً چه حاصلی داشته، نمی‌توانی جابه‌جایی و سبد سرمایه‌ات را برنامه‌ریزی کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p2",
+              "text": {
+                "en": "Money is something you trade your life energy for. Every purchase costs hours of your one life, so the question is always: was it worth the hours?",
+                "fa": "پول چیزی است که انرژی زندگی‌ات را با آن معاوضه می‌کنی. هر خریدی ساعت‌هایی از تنها زندگی‌ات را می‌بلعد، پس سؤال همیشه این است: ارزش آن ساعت‌ها را داشت؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p3",
+              "text": {
+                "en": "Life energy is the hours you have left to live. It is limited and cannot be recovered, which makes it more precious than money.",
+                "fa": "انرژی زندگی ساعت‌هایی است که برای زیستن باقی داری. محدود است و برنمی‌گردد و همین آن را از پول ارزشمندتر می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l2k1",
+              "type": "tap",
+              "source": "b03c1l2p2",
+              "prompt": {
+                "en": "In the book, what is money?",
+                "fa": "در کتاب، پول چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Something you trade your life energy for",
+                  "fa": "چیزی که انرژی زندگی‌ات را با آن معاوضه می‌کنی"
+                },
+                {
+                  "en": "A score to maximise",
+                  "fa": "امتیازی که باید بیشینه‌اش کرد"
+                },
+                {
+                  "en": "Something that grows by itself",
+                  "fa": "چیزی که خودبه‌خود رشد می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p4",
+              "text": {
+                "en": "The book counts the hours: at 40 you have roughly 330,000 hours left, and about half go to sleep and body care. What remains is what you can trade for money.",
+                "fa": "کتاب ساعت‌ها را می‌شمارد: در ۴۰ سالگی حدود ۳۳۰٬۰۰۰ ساعت باقی داری و تقریباً نیمی از آن صرف خواب و نگهداری بدن می‌شود. باقی‌مانده همان است که می‌توانی با پول معاوضه کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p5",
+              "text": {
+                "en": "Seeing money as life energy changes the question. You no longer ask whether you can afford something, but whether it is worth the hours of life it costs.",
+                "fa": "دیدن پول به‌عنوان انرژی زندگی سؤال را عوض می‌کند. دیگر نمی‌پرسی از پسش برمی‌آیی یا نه، بلکه می‌پرسی آیا به ساعت‌های زندگی‌ای که می‌گیرد می‌ارزد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l2k2",
+              "type": "tf",
+              "source": "b03c1l2p5",
+              "prompt": {
+                "en": "Seeing money as life energy shifts the question to whether a purchase is worth the hours it costs.",
+                "fa": "دیدن پول به‌عنوان انرژی زندگی، سؤال را به این تغییر می‌دهد که آیا خرید به ساعت‌هایش می‌ارزد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p6",
+              "text": {
+                "en": "Step 1 is making peace with the past. Its first part asks how much money you have earned in your whole life, adding up every paycheck since your first job.",
+                "fa": "گام ۱ آشتی با گذشته است. بخش اول آن می‌پرسد در کل عمرت چقدر پول درآورده‌ای و همهٔ دستمزدها را از اولین کار تا امروز جمع می‌زند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p7",
+              "text": {
+                "en": "Many readers are shocked by the total. Large lifetime earnings with little left show that money passed through without being chosen.",
+                "fa": "بسیاری از خوانندگان از این عدد شوکه می‌شوند. درآمد کل بزرگ با باقی‌ماندهٔ کم نشان می‌دهد پول بدون انتخاب از دستشان گذشته است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l2k3",
+              "type": "tap",
+              "source": "b03c1l2p6",
+              "prompt": {
+                "en": "What does the first part of Step 1 ask you to total?",
+                "fa": "بخش اول گام ۱ از تو می‌خواهد چه چیزی را جمع بزنی؟"
+              },
+              "options": [
+                {
+                  "en": "Your monthly rent",
+                  "fa": "اجارهٔ ماهانه‌ات"
+                },
+                {
+                  "en": "Your future pension",
+                  "fa": "حقوق بازنشستگی آینده‌ات"
+                },
+                {
+                  "en": "All the money you have earned in your life",
+                  "fa": "همهٔ پولی که در عمرت درآورده‌ای"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p8",
+              "text": {
+                "en": "The second part asks what you have to show for it. You list every asset and every debt and arrive at your net worth.",
+                "fa": "بخش دوم می‌پرسد چه چیزی از آن برایت مانده است. همهٔ دارایی‌ها و بدهی‌ها را فهرست می‌کنی و به دارایی خالص می‌رسی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p9",
+              "text": {
+                "en": "The point is not guilt but honesty. Making peace with the past means facing the numbers without blame so you can choose differently from now on.",
+                "fa": "هدف احساس گناه نیست، صداقت است. آشتی با گذشته یعنی بی‌سرزنش به عددها نگاه کنی تا از این به بعد جور دیگری انتخاب کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l2k4",
+              "type": "tf",
+              "source": "b03c1l2p9",
+              "prompt": {
+                "en": "Step 1 is meant to make you feel guilty about past spending.",
+                "fa": "گام ۱ برای این است که دربارهٔ خرج‌های گذشته احساس گناه کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p10",
+              "text": {
+                "en": "Applied: your €40k is your starting balance sheet. Write down assets in euros and any debts, and log it again each quarter in your net-worth log.",
+                "fa": "کاربردی: ۴۰ هزار یوروی تو ترازنامهٔ آغازت است. دارایی‌ها به یورو و هر بدهی را بنویس و هر فصل دوباره در دفتر ثبت دارایی خالص وارد کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l2p11",
+              "text": {
+                "en": "Applied: count lifetime earnings from your Iranian jobs too, even at old exchange rates. The gap between earned and kept is the lesson, not the currency.",
+                "fa": "کاربردی: درآمد عمرت از کارهای ایران را هم حساب کن، حتی با نرخ‌های ارز قدیمی. درس در فاصلهٔ میان درآمد و باقی‌مانده است، نه در نوع ارز."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l2k5",
+              "type": "tap",
+              "source": "b03c1l2p10",
+              "prompt": {
+                "en": "Where do you record your balance sheet each quarter?",
+                "fa": "ترازنامه‌ات را هر فصل کجا ثبت می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "In a decision journal only",
+                  "fa": "فقط در دفتر تصمیم‌ها"
+                },
+                {
+                  "en": "In your net-worth log",
+                  "fa": "در دفتر ثبت دارایی خالص"
+                },
+                {
+                  "en": "In your tax return",
+                  "fa": "در اظهارنامهٔ مالیاتی"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b03c1l3",
+          "title": {
+            "en": "The real hourly wage and tracking every cent",
+            "fa": "دستمزد واقعی ساعتی و ثبت هر سِنت"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c1l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Step 2, being in the present. It matters because the real price of anything you buy in the Netherlands is hours of your life, not euros.",
+                "fa": "این درس گام ۲، «بودن در حال»، را خلاصه می‌کند. مهم است چون قیمت واقعی هر چیزی که در هلند می‌خری ساعت‌های زندگی توست، نه یورو."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p2",
+              "text": {
+                "en": "Step 2 has two parts. First, how much life energy you trade for money: your real hourly wage; second, how much life energy you spend: tracking every cent.",
+                "fa": "گام ۲ دو بخش دارد. اول، چقدر انرژی زندگی را با پول معاوضه می‌کنی: دستمزد واقعی ساعتی؛ دوم، چقدر انرژی زندگی خرج می‌کنی: ثبت هر سِنت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p3",
+              "text": {
+                "en": "Your real hourly wage is far lower than your salary suggests. Subtract commuting, work clothes, decompression and job costs, add those hours, and recalculate.",
+                "fa": "دستمزد واقعی ساعتی‌ات خیلی کمتر از آن است که حقوقت نشان می‌دهد. هزینهٔ رفت‌وآمد، لباس کار، خستگی‌درکردن و خرج‌های شغلی را کم کن، ساعت‌هایش را اضافه کن و دوباره حساب کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l3k1",
+              "type": "tap",
+              "source": "b03c1l3p3",
+              "prompt": {
+                "en": "Compared with what your salary suggests, your real hourly wage is usually:",
+                "fa": "در مقایسه با آنچه حقوقت نشان می‌دهد، دستمزد واقعی ساعتی معمولاً:"
+              },
+              "options": [
+                {
+                  "en": "About the same",
+                  "fa": "تقریباً همان است"
+                },
+                {
+                  "en": "Far lower",
+                  "fa": "خیلی کمتر است"
+                },
+                {
+                  "en": "Higher, thanks to bonuses",
+                  "fa": "به لطف پاداش‌ها بیشتر است"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p4",
+              "text": {
+                "en": "The book lists the hidden job costs: commuting, costuming, meals eaten out because of work, decompression, escape vacations and job-related illness.",
+                "fa": "کتاب هزینه‌های پنهان شغل را فهرست می‌کند: رفت‌وآمد، لباس کار، غذای بیرون به خاطر کار، خستگی‌درکردن، تعطیلات فرار و بیماری‌های ناشی از کار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p5",
+              "text": {
+                "en": "Decompression is the time and money spent recovering from work: the drink, the takeaway, the hours on the couch. The book counts it as a job cost.",
+                "fa": "خستگی‌درکردن زمان و پولی است که صرف بازیابی از کار می‌شود: نوشیدنی، غذای بیرون‌بر، ساعت‌های روی کاناپه. کتاب آن را هزینهٔ شغل حساب می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l3k2",
+              "type": "tf",
+              "source": "b03c1l3p5",
+              "prompt": {
+                "en": "The book treats time spent recovering from work as part of the cost of the job.",
+                "fa": "کتاب زمان صرف‌شده برای بازیابی از کار را بخشی از هزینهٔ شغل می‌داند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p6",
+              "text": {
+                "en": "The formula: weekly pay minus weekly job costs, divided by hours worked plus hours spent on job-related activity. The result is what an hour of your life earns.",
+                "fa": "فرمول: درآمد هفتگی منهای هزینه‌های هفتگی شغل، تقسیم بر ساعت‌های کار به‌علاوهٔ ساعت‌های صرف فعالیت‌های مرتبط با کار. نتیجه همان است که یک ساعت از زندگی‌ات درمی‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p7",
+              "text": {
+                "en": "Second part: keep track of every cent that comes into or goes out of your life. No estimates, no rounding, every coffee and every bank fee.",
+                "fa": "بخش دوم: هر سِنتی را که وارد زندگی‌ات می‌شود یا از آن خارج می‌شود ثبت کن. بدون تخمین، بدون گرد کردن، هر قهوه و هر کارمزد بانکی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p8",
+              "text": {
+                "en": "Tracking is not budgeting. You do not set limits in advance; you simply record what happens, and the awareness itself starts to change your choices.",
+                "fa": "ثبت کردن بودجه‌بندی نیست. از قبل سقف نمی‌گذاری؛ فقط آنچه رخ می‌دهد را ثبت می‌کنی و خود این آگاهی انتخاب‌هایت را تغییر می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l3k3",
+              "type": "tap",
+              "source": "b03c1l3p8",
+              "prompt": {
+                "en": "How is tracking every cent different from budgeting?",
+                "fa": "ثبت هر سِنت چه فرقی با بودجه‌بندی دارد؟"
+              },
+              "options": [
+                {
+                  "en": "You record what happens; no limits set in advance",
+                  "fa": "آنچه رخ می‌دهد را ثبت می‌کنی، بی‌آنکه از قبل سقف بگذاری"
+                },
+                {
+                  "en": "You only track large purchases",
+                  "fa": "فقط خریدهای بزرگ را ثبت می‌کنی"
+                },
+                {
+                  "en": "You round to the nearest hundred",
+                  "fa": "تا نزدیک‌ترین صدگان گرد می‌کنی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p9",
+              "text": {
+                "en": "You invent your own spending categories from what you actually buy. They should be detailed enough to reveal patterns, not copied from a standard budget.",
+                "fa": "دسته‌های خرج را خودت از روی خریدهای واقعی‌ات می‌سازی. دسته‌ها باید آن‌قدر جزئی باشند که الگوها را نشان دهند، نه اینکه از یک بودجهٔ استاندارد کپی شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p10",
+              "text": {
+                "en": "Applied: before accepting a Dutch offer, subtract commuting, relocation costs and recovery hours from the salary. Compare offers by real hourly wage, not the headline.",
+                "fa": "کاربردی: پیش از پذیرفتن پیشنهاد کاری در هلند، رفت‌وآمد، هزینهٔ جابه‌جایی و ساعت‌های خستگی‌درکردن را از حقوق کم کن. پیشنهادها را با دستمزد واقعی ساعتی مقایسه کن، نه رقم روی کاغذ."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l3k4",
+              "type": "tf",
+              "source": "b03c1l3p10",
+              "prompt": {
+                "en": "Two job offers are best compared by their gross yearly salary.",
+                "fa": "بهترین راه مقایسهٔ دو پیشنهاد شغلی، حقوق ناخالص سالانه است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p11",
+              "text": {
+                "en": "Applied: a banking app export is a start, but cash, Tikkie payments and card fees slip through. Log every cent for a full month after you arrive.",
+                "fa": "کاربردی: خروجی اپ بانک شروع خوبی است، اما پول نقد، پرداخت‌های Tikkie و کارمزدهای کارت از دست می‌روند. یک ماه کامل بعد از رسیدن، هر سِنت را ثبت کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l3p12",
+              "text": {
+                "en": "Applied: every tool subscription costs hours of your one life. Convert the price into hours at your real hourly wage before you subscribe.",
+                "fa": "کاربردی: هر اشتراک ابزار ساعت‌هایی از تنها زندگی‌ات را می‌گیرد. پیش از اشتراک، قیمت را با دستمزد واقعی ساعتی به ساعت تبدیل کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l3k5",
+              "type": "tap",
+              "source": "b03c1l3p12",
+              "prompt": {
+                "en": "Before subscribing to a tool, what do you convert its price into?",
+                "fa": "پیش از اشتراک یک ابزار، قیمتش را به چه تبدیل می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Dollars",
+                  "fa": "دلار"
+                },
+                {
+                  "en": "Hours at your real hourly wage",
+                  "fa": "ساعت با دستمزد واقعی ساعتی‌ات"
+                },
+                {
+                  "en": "Shares of VWCE",
+                  "fa": "سهم VWCE"
+                }
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "b03c1l4",
+          "title": {
+            "en": "The monthly tabulation, three questions and the wall chart",
+            "fa": "جدول ماهانه، سه سؤال و نمودار دیواری"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c1l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Steps 3, 4 and 5 of the program. It matters because these turn a pile of receipts into a monthly signal you can steer by.",
+                "fa": "این درس گام‌های ۳، ۴ و ۵ برنامه را خلاصه می‌کند. مهم است چون این گام‌ها انبوه رسیدها را به سیگنالی ماهانه تبدیل می‌کنند که با آن مسیر را تنظیم کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p2",
+              "text": {
+                "en": "Step 3 asks where it is all going. At the end of each month you make a monthly tabulation of every cent of income and expenses, grouped into your categories.",
+                "fa": "گام ۳ می‌پرسد پول کجا می‌رود. آخر هر ماه یک جدول ماهانه از همهٔ درآمدها و هزینه‌ها، تا آخرین سِنت، بر اساس دسته‌هایت می‌سازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p3",
+              "text": {
+                "en": "Then you convert each category total into hours of life energy by dividing it by your real hourly wage. Restaurants become, say, 14 hours of your life.",
+                "fa": "بعد جمع هر دسته را با تقسیم بر دستمزد واقعی ساعتی به ساعت‌های انرژی زندگی تبدیل می‌کنی. رستوران‌ها مثلاً می‌شوند ۱۴ ساعت از زندگی‌ات."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l4k1",
+              "type": "tap",
+              "source": "b03c1l4p3",
+              "prompt": {
+                "en": "How do you convert a category total into life energy?",
+                "fa": "جمع یک دسته را چطور به انرژی زندگی تبدیل می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Divide it by your real hourly wage",
+                  "fa": "آن را بر دستمزد واقعی ساعتی تقسیم کن"
+                },
+                {
+                  "en": "Multiply it by 25",
+                  "fa": "آن را در ۲۵ ضرب کن"
+                },
+                {
+                  "en": "Subtract taxes from it",
+                  "fa": "مالیات را از آن کم کن"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p4",
+              "text": {
+                "en": "The tabulation must balance: income minus expenses should match the change in your accounts. Any gap means some money went untracked.",
+                "fa": "جدول باید تراز شود: درآمد منهای هزینه باید با تغییر حساب‌هایت بخواند. هر اختلافی یعنی پولی ثبت نشده است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p5",
+              "text": {
+                "en": "Step 4 asks three questions of each category. Did I receive fulfillment in proportion to the life energy spent, and is this spending aligned with my values and life purpose?",
+                "fa": "گام ۴ از هر دسته سه سؤال می‌پرسد. آیا به اندازهٔ انرژی زندگی‌ای که دادم رضایت گرفتم، و آیا این خرج با ارزش‌ها و هدف زندگی‌ام هم‌خوان است؟"
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p6",
+              "text": {
+                "en": "The third question: how might this spending change if I did not have to work for a living? It separates what you buy for life from what you buy to cope with work.",
+                "fa": "سؤال سوم: اگر مجبور نبودم برای امرار معاش کار کنم، این خرج چه تغییری می‌کرد؟ این سؤال خرج‌های برای زندگی را از خرج‌های برای تحمل کار جدا می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l4k2",
+              "type": "tf",
+              "source": "b03c1l4p6",
+              "prompt": {
+                "en": "The third question asks how a spending category would change if you did not have to work.",
+                "fa": "سؤال سوم می‌پرسد اگر مجبور به کار نبودی، یک دستهٔ خرج چه تغییری می‌کرد."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p7",
+              "text": {
+                "en": "For each question you mark the category with a plus, a minus or a zero. Over months, minus marks show where life energy is leaking.",
+                "fa": "برای هر سؤال کنار دسته علامت مثبت، منفی یا صفر می‌گذاری. در طول ماه‌ها، علامت‌های منفی نشان می‌دهند انرژی زندگی کجا هدر می‌رود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p8",
+              "text": {
+                "en": "Step 5 makes life energy visible with a wall chart. Each month you plot total monthly income and total monthly expenses as two lines on one large graph.",
+                "fa": "گام ۵ انرژی زندگی را با یک نمودار دیواری قابل دیدن می‌کند. هر ماه کل درآمد ماهانه و کل هزینهٔ ماهانه را به شکل دو خط روی یک نمودار بزرگ رسم می‌کنی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l4k3",
+              "type": "tap",
+              "source": "b03c1l4p8",
+              "prompt": {
+                "en": "What two lines does the wall chart start with?",
+                "fa": "نمودار دیواری با کدام دو خط شروع می‌شود؟"
+              },
+              "options": [
+                {
+                  "en": "Stock prices and interest rates",
+                  "fa": "قیمت سهام و نرخ بهره"
+                },
+                {
+                  "en": "Hours worked and hours slept",
+                  "fa": "ساعت کار و ساعت خواب"
+                },
+                {
+                  "en": "Total monthly income and total monthly expenses",
+                  "fa": "کل درآمد ماهانه و کل هزینهٔ ماهانه"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p9",
+              "text": {
+                "en": "The chart hangs where you see it every day. It keeps you motivated, shows the trend at a glance, and lets the people you live with follow your progress.",
+                "fa": "نمودار جایی آویزان می‌شود که هر روز آن را ببینی. انگیزه‌ات را نگه می‌دارد، روند را با یک نگاه نشان می‌دهد و به هم‌خانه‌هایت امکان می‌دهد پیشرفتت را دنبال کنند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p10",
+              "text": {
+                "en": "As the three questions do their work, the expense line usually drifts down without strict rules. The gap between the lines is money freed for savings.",
+                "fa": "وقتی سه سؤال اثرشان را می‌گذارند، خط هزینه معمولاً بدون قاعدهٔ سخت پایین می‌آید. فاصلهٔ میان دو خط پولی است که برای پس‌انداز آزاد شده است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l4k4",
+              "type": "tf",
+              "source": "b03c1l4p10",
+              "prompt": {
+                "en": "According to the book, the expense line falls only when you impose strict spending rules.",
+                "fa": "به گفتهٔ کتاب، خط هزینه فقط با قاعده‌های سخت خرج کردن پایین می‌آید."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p11",
+              "text": {
+                "en": "Applied: run the monthly tabulation on the first weekend of each month, next to your quarterly net-worth log. Thirty minutes is enough once categories are set.",
+                "fa": "کاربردی: جدول ماهانه را در اولین آخر هفتهٔ هر ماه، کنار دفتر فصلی دارایی خالص، انجام بده. وقتی دسته‌ها مشخص شدند، سی دقیقه کافی است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c1l4p12",
+              "text": {
+                "en": "Applied: draw your own wall chart in euros and start it in your first Dutch month. The first €100 of ownership income will later be the first dot on a third line.",
+                "fa": "کاربردی: نمودار دیواری خودت را به یورو بکش و از اولین ماه در هلند شروعش کن. اولین ۱۰۰ یورو درآمد مالکیتی بعدها اولین نقطه روی خط سوم خواهد بود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c1l4k5",
+              "type": "tap",
+              "source": "b03c1l4p12",
+              "prompt": {
+                "en": "In which currency and when do you start your own wall chart?",
+                "fa": "نمودار دیواری خودت را به چه ارزی و از کی شروع می‌کنی؟"
+              },
+              "options": [
+                {
+                  "en": "In euros, in your first Dutch month",
+                  "fa": "به یورو، در اولین ماه در هلند"
+                },
+                {
+                  "en": "In dollars, after five years",
+                  "fa": "به دلار، پس از پنج سال"
+                },
+                {
+                  "en": "In rials, only for past spending",
+                  "fa": "به ریال، فقط برای خرج‌های گذشته"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b03c2",
+      "title": {
+        "en": "From enough to the crossover point",
+        "fa": "از «کافی» تا نقطهٔ تقاطع"
+      },
+      "lessons": [
+        {
+          "id": "b03c2l1",
+          "title": {
+            "en": "Valuing life energy: spending less",
+            "fa": "ارزش‌گذاری انرژی زندگی: کمتر خرج کردن"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c2l1p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Step 6, minimising spending. It matters because every euro you stop spending lowers both your monthly costs and the capital you need for freedom.",
+                "fa": "این درس گام ۶، کم کردن خرج، را خلاصه می‌کند. مهم است چون هر یورویی که خرج نکنی هم هزینهٔ ماهانه و هم سرمایهٔ لازم برای آزادی را پایین می‌آورد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p2",
+              "text": {
+                "en": "Step 6 is valuing your life energy by minimising spending. The aim is not to deprive yourself but to get full value for every hour of life you spend.",
+                "fa": "گام ۶ ارزش‌گذاری انرژی زندگی با کم کردن خرج است. هدف محروم کردن خودت نیست، بلکه گرفتن ارزش کامل برای هر ساعت از زندگی است که خرج می‌کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p3",
+              "text": {
+                "en": "The book redefines frugal. Being frugal means enjoying what you have and getting good value from it, not being cheap or stingy.",
+                "fa": "کتاب صرفه‌جویی را دوباره تعریف می‌کند. صرفه‌جو بودن یعنی از آنچه داری لذت ببری و ارزش خوبی از آن بگیری، نه خسیس یا تنگ‌نظر بودن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l1k1",
+              "type": "tap",
+              "source": "b03c2l1p3",
+              "prompt": {
+                "en": "How does the book define being frugal?",
+                "fa": "کتاب صرفه‌جو بودن را چطور تعریف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Buying the cheapest thing every time",
+                  "fa": "همیشه ارزان‌ترین چیز را خریدن"
+                },
+                {
+                  "en": "Enjoying what you have and getting good value from it",
+                  "fa": "لذت بردن از آنچه داری و گرفتن ارزش خوب از آن"
+                },
+                {
+                  "en": "Never spending on pleasure",
+                  "fa": "هرگز برای لذت خرج نکردن"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p4",
+              "text": {
+                "en": "The first tip: stop trying to impress other people. Much spending is for an audience, and the audience is usually too busy to notice.",
+                "fa": "اولین توصیه: از تلاش برای تحت تأثیر قرار دادن دیگران دست بکش. بخش بزرگی از خرج برای تماشاگران است و تماشاگران معمولاً آن‌قدر مشغول‌اند که متوجه نمی‌شوند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p5",
+              "text": {
+                "en": "The second tip: do not go shopping. Shopping as a pastime creates wants you did not have when you walked in.",
+                "fa": "توصیهٔ دوم: به خرید نرو. خرید به‌عنوان سرگرمی خواسته‌هایی می‌سازد که وقتی وارد شدی نداشتی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l1k2",
+              "type": "tf",
+              "source": "b03c2l1p5",
+              "prompt": {
+                "en": "The book recommends shopping as a pastime to find good deals.",
+                "fa": "کتاب خرید به‌عنوان سرگرمی را برای یافتن تخفیف توصیه می‌کند."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p6",
+              "text": {
+                "en": "Other tips: live within your means, take care of what you have, and wear it out. Using things fully avoids paying again for the same need.",
+                "fa": "توصیه‌های دیگر: در حد توانت زندگی کن، از آنچه داری مراقبت کن و آن را تا آخر استفاده کن. استفادهٔ کامل از چیزها مانع می‌شود برای یک نیاز دوباره پول بدهی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p7",
+              "text": {
+                "en": "More tips: do it yourself, anticipate your needs, and research value, quality and durability. Buying ahead and buying well beats buying in a rush.",
+                "fa": "توصیه‌های بیشتر: خودت انجامش بده، نیازهایت را پیش‌بینی کن و ارزش، کیفیت و دوام را بررسی کن. پیشاپیش و درست خریدن از خرید عجولانه بهتر است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p8",
+              "text": {
+                "en": "Finally: get it for less and buy it used. The same item from a second-hand market gives the same use for fewer hours of life.",
+                "fa": "و در آخر: ارزان‌تر بخر و دست‌دوم بخر. همان کالا از بازار دست‌دوم همان کاربرد را با ساعت‌های کمتری از زندگی می‌دهد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l1k3",
+              "type": "tap",
+              "source": "b03c2l1p8",
+              "prompt": {
+                "en": "What do you gain by buying an item used?",
+                "fa": "با خرید دست‌دوم یک کالا چه به دست می‌آوری؟"
+              },
+              "options": [
+                {
+                  "en": "A higher resale price",
+                  "fa": "قیمت فروش مجدد بالاتر"
+                },
+                {
+                  "en": "A longer warranty",
+                  "fa": "ضمانت طولانی‌تر"
+                },
+                {
+                  "en": "The same use for fewer hours of life",
+                  "fa": "همان کاربرد با ساعت‌های کمتری از زندگی"
+                }
+              ],
+              "answer": 2
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p9",
+              "text": {
+                "en": "The book links frugality to the planet. Using less is good for the earth as well as your wallet, which the authors see as a win for both.",
+                "fa": "کتاب صرفه‌جویی را به زمین پیوند می‌دهد. کمتر مصرف کردن هم برای زمین خوب است و هم برای جیبت و نویسندگان آن را برد برای هر دو می‌دانند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p10",
+              "text": {
+                "en": "These tips come from the three questions, not from a rulebook. When a category earns minus marks, these are the tools for bringing it closer to enough.",
+                "fa": "این توصیه‌ها از سه سؤال می‌آیند، نه از کتابچهٔ قوانین. وقتی دسته‌ای علامت منفی می‌گیرد، این‌ها ابزارهایی برای نزدیک کردنش به «کافی» هستند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l1k4",
+              "type": "tf",
+              "source": "b03c2l1p10",
+              "prompt": {
+                "en": "The tips are tools to bring minus-marked categories closer to enough.",
+                "fa": "این توصیه‌ها ابزارهایی برای نزدیک کردن دسته‌های منفی به «کافی» هستند."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p11",
+              "text": {
+                "en": "Applied: furnish your first Dutch flat from Marktplaats and the kringloop shop. Used furniture keeps more of your €40k working toward ownership.",
+                "fa": "کاربردی: اولین آپارتمانت در هلند را از Marktplaats و فروشگاه kringloop تجهیز کن. مبلمان دست‌دوم سهم بیشتری از ۴۰ هزار یوروی تو را برای مالکیت به کار نگه می‌دارد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l1p12",
+              "text": {
+                "en": "Applied: anticipate needs before the move, such as a winter coat and a bike. Bought calmly and used, they cost far fewer hours than in a rush.",
+                "fa": "کاربردی: نیازها را پیش از جابه‌جایی پیش‌بینی کن، مثل کت زمستانی و دوچرخه. اگر آرام و دست‌دوم بخری، ساعت‌های خیلی کمتری از خرید عجولانه می‌گیرند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l1k5",
+              "type": "tap",
+              "source": "b03c2l1p12",
+              "prompt": {
+                "en": "Why anticipate needs like a bike before the move?",
+                "fa": "چرا نیازهایی مثل دوچرخه را پیش از جابه‌جایی پیش‌بینی کنی؟"
+              },
+              "options": [
+                {
+                  "en": "Bought calmly and used, they cost fewer hours",
+                  "fa": "اگر آرام و دست‌دوم بخری، ساعت کمتری می‌گیرند"
+                },
+                {
+                  "en": "Bikes are banned after arrival",
+                  "fa": "دوچرخه پس از ورود ممنوع است"
+                },
+                {
+                  "en": "Prices only go down over time",
+                  "fa": "قیمت‌ها با گذر زمان فقط پایین می‌آیند"
+                }
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "b03c2l2",
+          "title": {
+            "en": "Valuing life energy: work and income",
+            "fa": "ارزش‌گذاری انرژی زندگی: کار و درآمد"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c2l2p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Step 7, maximising income. It matters because your hours as an engineer are valuable, and the book asks you to sell them on purpose, not by habit.",
+                "fa": "این درس گام ۷، بیشینه کردن درآمد، را خلاصه می‌کند. مهم است چون ساعت‌های تو به‌عنوان مهندس ارزشمندند و کتاب می‌خواهد آن‌ها را آگاهانه بفروشی، نه از روی عادت."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p2",
+              "text": {
+                "en": "Step 7 is valuing your life energy by maximising income. If you trade life energy for money, trade it with purpose and for good pay.",
+                "fa": "گام ۷ ارزش‌گذاری انرژی زندگی با بیشینه کردن درآمد است. اگر انرژی زندگی را با پول معاوضه می‌کنی، با هدف و در ازای دستمزد خوب معاوضه کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p3",
+              "text": {
+                "en": "The book redefines work as any productive activity. Paid employment is just the part of work you do for money.",
+                "fa": "کتاب کار را هر فعالیت مولدی تعریف می‌کند. استخدام با حقوق فقط بخشی از کار است که برای پول انجام می‌دهی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l2k1",
+              "type": "tap",
+              "source": "b03c2l2p3",
+              "prompt": {
+                "en": "How does the book define paid employment?",
+                "fa": "کتاب استخدام با حقوق را چطور تعریف می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "The only real form of work",
+                  "fa": "تنها شکل واقعی کار"
+                },
+                {
+                  "en": "The part of work you do for money",
+                  "fa": "بخشی از کار که برای پول انجام می‌دهی"
+                },
+                {
+                  "en": "Work you do for free",
+                  "fa": "کاری که مجانی انجام می‌دهی"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p4",
+              "text": {
+                "en": "Separating work from wages frees you. Your worth as a person is not your salary, and much valuable work, like caring or volunteering, is unpaid.",
+                "fa": "جدا کردن کار از دستمزد آزادت می‌کند. ارزش تو به‌عنوان انسان حقوقت نیست و بسیاری از کارهای ارزشمند، مثل مراقبت یا داوطلبی، بی‌مزدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p5",
+              "text": {
+                "en": "Once you see paid work as a trade of life energy for money, you can ask for more pay, cut hidden job costs, or pick work you enjoy.",
+                "fa": "وقتی کار با حقوق را معاوضهٔ انرژی زندگی با پول ببینی، می‌توانی حقوق بیشتری بخواهی، هزینه‌های پنهان شغل را کم کنی یا کاری را برگزینی که از آن لذت می‌بری."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l2k2",
+              "type": "tf",
+              "source": "b03c2l2p4",
+              "prompt": {
+                "en": "The book says your worth as a person equals your salary.",
+                "fa": "کتاب می‌گوید ارزش تو به‌عنوان انسان برابر با حقوقت است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p6",
+              "text": {
+                "en": "Steps 6 and 7 work together. Lower spending and higher income both widen the gap on the wall chart, and that gap becomes savings.",
+                "fa": "گام‌های ۶ و ۷ با هم کار می‌کنند. خرج کمتر و درآمد بیشتر هر دو فاصلهٔ روی نمودار دیواری را بازتر می‌کنند و آن فاصله به پس‌انداز تبدیل می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p7",
+              "text": {
+                "en": "The book frames a job as a means, not an identity. With financial independence as the goal, each paycheck buys back future hours.",
+                "fa": "کتاب شغل را وسیله می‌بیند، نه هویت. با هدف استقلال مالی، هر حقوق ساعت‌هایی از آینده را بازمی‌خرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l2k3",
+              "type": "tap",
+              "source": "b03c2l2p7",
+              "prompt": {
+                "en": "With financial independence as the goal, what does each paycheck do?",
+                "fa": "با هدف استقلال مالی، هر حقوق چه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Buys back future hours",
+                  "fa": "ساعت‌هایی از آینده را بازمی‌خرد"
+                },
+                {
+                  "en": "Raises your lifestyle",
+                  "fa": "سطح زندگی‌ات را بالا می‌برد"
+                },
+                {
+                  "en": "Proves your status",
+                  "fa": "جایگاهت را ثابت می‌کند"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p8",
+              "text": {
+                "en": "After financial independence, paid work becomes optional. The authors gave their time to service and donated the income from the book to charity.",
+                "fa": "پس از استقلال مالی، کار با حقوق اختیاری می‌شود. نویسندگان وقتشان را به خدمت دادند و درآمد کتاب را به خیریه بخشیدند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p9",
+              "text": {
+                "en": "The question shifts from what you have to do to what you want to do. Work then flows from purpose rather than need.",
+                "fa": "سؤال از «چه باید بکنم» به «چه می‌خواهم بکنم» تغییر می‌کند. آن‌وقت کار از هدف می‌آید، نه از نیاز."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l2k4",
+              "type": "tf",
+              "source": "b03c2l2p8",
+              "prompt": {
+                "en": "After financial independence, paid work becomes optional.",
+                "fa": "پس از استقلال مالی، کار با حقوق اختیاری می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p10",
+              "text": {
+                "en": "Applied: negotiate your Dutch salary using real hourly wage, and weigh a shorter commute or remote days. Fewer hidden job costs raise income per hour.",
+                "fa": "کاربردی: حقوقت در هلند را با دستمزد واقعی ساعتی مذاکره کن و رفت‌وآمد کوتاه‌تر یا روزهای دورکاری را هم بسنج. هزینه‌های پنهان کمتر، درآمد هر ساعت را بالا می‌برد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l2p11",
+              "text": {
+                "en": "Applied: income from equity and a small AI product people pay for is income not tied to your hours. That is the kind of income Step 8 builds toward.",
+                "fa": "کاربردی: درآمد از سهام شرکت و یک محصول کوچک AI که مردم برایش پول می‌دهند به ساعت‌هایت گره نخورده است. این همان نوع درآمدی است که گام ۸ به سمتش می‌رود."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l2k5",
+              "type": "tap",
+              "source": "b03c2l2p11",
+              "prompt": {
+                "en": "What makes income from equity or a small AI product different?",
+                "fa": "چه چیزی درآمد از سهام یا محصول کوچک AI را متفاوت می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "It is taxed at zero",
+                  "fa": "مالیاتش صفر است"
+                },
+                {
+                  "en": "It is guaranteed",
+                  "fa": "تضمین‌شده است"
+                },
+                {
+                  "en": "It is not tied to your hours",
+                  "fa": "به ساعت‌هایت گره نخورده است"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b03c2l3",
+          "title": {
+            "en": "Capital and the crossover point",
+            "fa": "سرمایه و نقطهٔ تقاطع"
+          },
+          "minutes": 11,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c2l3p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Step 8, capital and the crossover point. It matters because it turns your target of 25 times expenses into a line you can watch climb each month.",
+                "fa": "این درس گام ۸، سرمایه و نقطهٔ تقاطع، را خلاصه می‌کند. مهم است چون هدف ۲۵ برابر هزینه‌ها را به خطی تبدیل می‌کند که می‌توانی هر ماه بالا رفتنش را ببینی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p2",
+              "text": {
+                "en": "Step 8 adds a third line to the wall chart: monthly investment income. Savings from the gap become capital, and capital produces income.",
+                "fa": "گام ۸ خط سومی به نمودار دیواری اضافه می‌کند: درآمد ماهانهٔ سرمایه‌گذاری. پس‌انداز حاصل از فاصله به سرمایه تبدیل می‌شود و سرمایه درآمد می‌سازد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p3",
+              "text": {
+                "en": "Capital is savings you put to work, kept separate from spending money. It is the money that will one day replace your paycheck.",
+                "fa": "سرمایه پس‌اندازی است که به کار گرفته‌ای، جدا از پول خرج. این پولی است که روزی جای حقوقت را می‌گیرد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l3k1",
+              "type": "tap",
+              "source": "b03c2l3p2",
+              "prompt": {
+                "en": "What third line does Step 8 add to the wall chart?",
+                "fa": "گام ۸ چه خط سومی به نمودار دیواری اضافه می‌کند؟"
+              },
+              "options": [
+                {
+                  "en": "Monthly investment income",
+                  "fa": "درآمد ماهانهٔ سرمایه‌گذاری"
+                },
+                {
+                  "en": "Monthly working hours",
+                  "fa": "ساعت‌های کار ماهانه"
+                },
+                {
+                  "en": "Monthly tax paid",
+                  "fa": "مالیات ماهانهٔ پرداختی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p4",
+              "text": {
+                "en": "The formula: capital times the current long-term interest rate, divided by 12, gives your monthly investment income. You plot it each month.",
+                "fa": "فرمول: سرمایه ضرب در نرخ بهرهٔ بلندمدت فعلی، تقسیم بر ۱۲، درآمد ماهانهٔ سرمایه‌گذاری را می‌دهد. هر ماه آن را رسم می‌کنی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p5",
+              "text": {
+                "en": "The crossover point is the month the investment income line crosses above the expense line. From then on, work is optional.",
+                "fa": "نقطهٔ تقاطع ماهی است که خط درآمد سرمایه‌گذاری از خط هزینه بالاتر می‌رود. از آن به بعد، کار اختیاری است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l3k2",
+              "type": "tf",
+              "source": "b03c2l3p5",
+              "prompt": {
+                "en": "At the crossover point, investment income rises above monthly expenses.",
+                "fa": "در نقطهٔ تقاطع، درآمد سرمایه‌گذاری از هزینه‌های ماهانه بالاتر می‌رود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p6",
+              "text": {
+                "en": "Because the expense line has fallen through Steps 4 to 7, the crossover point arrives far sooner than if spending had stayed high.",
+                "fa": "چون خط هزینه در گام‌های ۴ تا ۷ پایین آمده، نقطهٔ تقاطع خیلی زودتر از حالتی می‌رسد که خرج بالا می‌ماند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p7",
+              "text": {
+                "en": "The chart also shows the future: extend the lines and you can see roughly when they will cross, which turns a vague dream into a date.",
+                "fa": "نمودار آینده را هم نشان می‌دهد: خط‌ها را ادامه بده تا تقریباً ببینی کی به هم می‌رسند و این رؤیایی مبهم را به یک تاریخ تبدیل می‌کند."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l3k3",
+              "type": "tap",
+              "source": "b03c2l3p7",
+              "prompt": {
+                "en": "What does extending the lines on the chart show you?",
+                "fa": "ادامه دادن خط‌ها روی نمودار چه چیزی به تو نشان می‌دهد؟"
+              },
+              "options": [
+                {
+                  "en": "A guaranteed return",
+                  "fa": "بازده تضمین‌شده"
+                },
+                {
+                  "en": "Roughly when they will cross",
+                  "fa": "تقریباً کی به هم می‌رسند"
+                },
+                {
+                  "en": "A lower tax rate",
+                  "fa": "نرخ مالیات کمتر"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p8",
+              "text": {
+                "en": "Financial independence here means investment income covers your expenses, not that you are rich. It is defined by enough, not by a big number.",
+                "fa": "استقلال مالی اینجا یعنی درآمد سرمایه‌گذاری هزینه‌هایت را بپوشاند، نه اینکه ثروتمند باشی. با «کافی» تعریف می‌شود، نه با یک عدد بزرگ."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p9",
+              "text": {
+                "en": "Readers who follow the steps often reach the crossover point within a few years on ordinary salaries. The speed comes from the gap, not from high returns.",
+                "fa": "خوانندگانی که گام‌ها را دنبال می‌کنند اغلب با حقوق معمولی در چند سال به نقطهٔ تقاطع می‌رسند. سرعت از فاصلهٔ درآمد و هزینه می‌آید، نه از بازده بالا."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l3k4",
+              "type": "tf",
+              "source": "b03c2l3p9",
+              "prompt": {
+                "en": "The main reason readers reach the crossover point fast is high investment returns.",
+                "fa": "دلیل اصلی رسیدن سریع خوانندگان به نقطهٔ تقاطع، بازده بالای سرمایه‌گذاری است."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p10",
+              "text": {
+                "en": "Applied: your 25 times expenses target is the same idea at a 4 percent withdrawal rate. Annual expenses times 25, times 4 percent, equals annual expenses.",
+                "fa": "کاربردی: هدف ۲۵ برابر هزینه‌های تو همین ایده با نرخ برداشت ۴ درصد است. هزینهٔ سالانه ضرب در ۲۵، ضرب در ۴ درصد، برابر هزینهٔ سالانه است."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l3p11",
+              "text": {
+                "en": "Applied: plot ownership income plus investment income as your third line. The first €100 from a small AI product is the first dot on it.",
+                "fa": "کاربردی: درآمد مالکیتی به‌علاوهٔ درآمد سرمایه‌گذاری را خط سوم خودت قرار بده. اولین ۱۰۰ یورو از یک محصول کوچک AI اولین نقطه روی آن است."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l3k5",
+              "type": "tap",
+              "source": "b03c2l3p11",
+              "prompt": {
+                "en": "What is the first dot on your own third line?",
+                "fa": "اولین نقطه روی خط سوم خودت چیست؟"
+              },
+              "options": [
+                {
+                  "en": "Your first Dutch salary",
+                  "fa": "اولین حقوقت در هلند"
+                },
+                {
+                  "en": "Your BSN registration",
+                  "fa": "ثبت BSN"
+                },
+                {
+                  "en": "The first €100 from a small AI product",
+                  "fa": "اولین ۱۰۰ یورو از یک محصول کوچک AI"
+                }
+              ],
+              "answer": 2
+            }
+          ]
+        },
+        {
+          "id": "b03c2l4",
+          "title": {
+            "en": "Investing for income and the nine steps",
+            "fa": "سرمایه‌گذاری برای درآمد و نُه گام"
+          },
+          "minutes": 12,
+          "items": [
+            {
+              "kind": "card",
+              "id": "b03c2l4p1",
+              "frame": true,
+              "text": {
+                "en": "This Lesson distils Step 9, managing your finances, and the nine steps as one program. It matters because capital must keep paying you safely once you stop working.",
+                "fa": "این درس گام ۹، مدیریت امور مالی، و نُه گام را به‌عنوان یک برنامه خلاصه می‌کند. مهم است چون سرمایه باید پس از دست کشیدن از کار، با امنیت به تو درآمد بدهد."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p2",
+              "text": {
+                "en": "Step 9 is managing your finances. You invest capital for steady income, so that investment income reliably covers expenses for the rest of your life.",
+                "fa": "گام ۹ مدیریت امور مالی است. سرمایه را برای درآمد پایدار سرمایه‌گذاری می‌کنی تا درآمد سرمایه‌گذاری تا آخر عمر با اطمینان هزینه‌ها را بپوشاند."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p3",
+              "text": {
+                "en": "The book divides your money into three pillars: capital, cushion and cache. Each has a different job.",
+                "fa": "کتاب پولت را به سه ستون تقسیم می‌کند: سرمایه، ضربه‌گیر و ذخیره. هرکدام کار متفاوتی دارد."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l4k1",
+              "type": "tap",
+              "source": "b03c2l4p3",
+              "prompt": {
+                "en": "What are the three pillars of Step 9?",
+                "fa": "سه ستون گام ۹ کدام‌اند؟"
+              },
+              "options": [
+                {
+                  "en": "Capital, cushion and cache",
+                  "fa": "سرمایه، ضربه‌گیر و ذخیره"
+                },
+                {
+                  "en": "Stocks, bonds and gold",
+                  "fa": "سهام، اوراق و طلا"
+                },
+                {
+                  "en": "Salary, bonus and pension",
+                  "fa": "حقوق، پاداش و بازنشستگی"
+                }
+              ],
+              "answer": 0
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p4",
+              "text": {
+                "en": "Capital is the core that produces your income. The cushion is about six months of expenses kept liquid for emergencies.",
+                "fa": "سرمایه هسته‌ای است که درآمدت را می‌سازد. ضربه‌گیر حدود شش ماه هزینه است که برای موارد اضطراری نقد نگه داشته می‌شود."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p5",
+              "text": {
+                "en": "The cache is the surplus that builds up beyond your needs after the crossover point. It covers big replacements, or can be given away.",
+                "fa": "ذخیره مازادی است که پس از نقطهٔ تقاطع، فراتر از نیازهایت جمع می‌شود. برای جایگزینی‌های بزرگ است یا می‌توان آن را بخشید."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l4k2",
+              "type": "tf",
+              "source": "b03c2l4p4",
+              "prompt": {
+                "en": "The cushion is about six months of expenses kept liquid for emergencies.",
+                "fa": "ضربه‌گیر حدود شش ماه هزینه است که برای موارد اضطراری نقد نگه داشته می‌شود."
+              },
+              "answer": true
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p6",
+              "text": {
+                "en": "The 1992 edition recommended long-term US Treasury bonds held to maturity. The aim was safe capital and steady, predictable income, not speculation.",
+                "fa": "نسخهٔ ۱۹۹۲ اوراق خزانهٔ بلندمدت آمریکا را که تا سررسید نگه داشته شوند توصیه می‌کرد. هدف سرمایهٔ امن و درآمد پایدار و قابل پیش‌بینی بود، نه سفته‌بازی."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p7",
+              "text": {
+                "en": "The book warns against get-rich-quick schemes and high fees paid to advisers. You should understand every investment you hold.",
+                "fa": "کتاب در برابر طرح‌های یک‌شبه پولدار شدن و کارمزدهای بالای مشاوران هشدار می‌دهد. باید هر سرمایه‌گذاری‌ای را که داری بفهمی."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l4k3",
+              "type": "tap",
+              "source": "b03c2l4p6",
+              "prompt": {
+                "en": "What did the 1992 edition recommend for capital?",
+                "fa": "نسخهٔ ۱۹۹۲ برای سرمایه چه توصیه می‌کرد؟"
+              },
+              "options": [
+                {
+                  "en": "Day trading tech stocks",
+                  "fa": "معاملهٔ روزانهٔ سهام فناوری"
+                },
+                {
+                  "en": "Long-term US Treasury bonds held to maturity",
+                  "fa": "اوراق خزانهٔ بلندمدت آمریکا تا سررسید"
+                },
+                {
+                  "en": "Rental property with a mortgage",
+                  "fa": "ملک اجاره‌ای با وام"
+                }
+              ],
+              "answer": 1
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p8",
+              "text": {
+                "en": "The steps run in order: make peace with the past, be in the present, tabulate monthly, ask the three questions, then make life energy visible.",
+                "fa": "گام‌ها به ترتیب پیش می‌روند: با گذشته آشتی کن، در حال باش، ماهانه جدول بساز، سه سؤال را بپرس، سپس انرژی زندگی را قابل دیدن کن."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p9",
+              "text": {
+                "en": "The last four steps follow: value life energy by minimising spending, then by maximising income, then build capital to the crossover point and manage your finances.",
+                "fa": "چهار گام آخر از پی می‌آیند: ارزش انرژی زندگی را با کم کردن خرج بسنج، سپس با بیشینه کردن درآمد، بعد سرمایه را تا نقطهٔ تقاطع بساز و امور مالی‌ات را مدیریت کن."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l4k4",
+              "type": "order",
+              "source": "b03c2l4p8",
+              "prompt": {
+                "en": "Put these steps in the book’s order.",
+                "fa": "این گام‌ها را به ترتیب کتاب بچین."
+              },
+              "options": [
+                {
+                  "en": "Ask the three questions",
+                  "fa": "سه سؤال را بپرس"
+                },
+                {
+                  "en": "Make peace with the past",
+                  "fa": "با گذشته آشتی کن"
+                },
+                {
+                  "en": "Make life energy visible",
+                  "fa": "انرژی زندگی را قابل دیدن کن"
+                },
+                {
+                  "en": "Tabulate monthly",
+                  "fa": "ماهانه جدول بساز"
+                }
+              ],
+              "answer": [
+                1,
+                3,
+                0,
+                2
+              ]
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p10",
+              "text": {
+                "en": "Applied: the book wrote for 1990s US bonds; your core is 80 percent index ETFs such as VWCE or IWDA. The principle carries over: low cost, understood, built for steady growth.",
+                "fa": "کاربردی: کتاب برای اوراق آمریکا در دههٔ ۱۹۹۰ نوشته شد؛ هستهٔ تو ۸۰ درصد ETF شاخصی مثل VWCE یا IWDA است. اصل همان است: کم‌هزینه، قابل فهم، ساخته‌شده برای رشد پایدار."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p11",
+              "text": {
+                "en": "Applied: keep a cushion of about six months of Dutch expenses in a savings account before you invest at a broker such as Interactive Brokers or DEGIRO.",
+                "fa": "کاربردی: پیش از سرمایه‌گذاری در کارگزاری مثل Interactive Brokers یا DEGIRO، ضربه‌گیری حدود شش ماه هزینهٔ زندگی در هلند در حساب پس‌انداز نگه دار."
+              }
+            },
+            {
+              "kind": "check",
+              "id": "b03c2l4k5",
+              "type": "tf",
+              "source": "b03c2l4p11",
+              "prompt": {
+                "en": "You should invest at the broker before setting aside any cushion.",
+                "fa": "باید پیش از کنار گذاشتن هر ضربه‌گیری در کارگزاری سرمایه‌گذاری کنی."
+              },
+              "answer": false
+            },
+            {
+              "kind": "card",
+              "id": "b03c2l4p12",
+              "text": {
+                "en": "Applied: the program is simple and slow. Track, tabulate, chart and question each month, and the crossover point stops being a dream and becomes a date.",
+                "fa": "کاربردی: این برنامه ساده و آهسته است. هر ماه ثبت کن، جدول بساز، نمودار بکش و سؤال بپرس تا نقطهٔ تقاطع از رؤیا به یک تاریخ تبدیل شود."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
