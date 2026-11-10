@@ -36,7 +36,7 @@ h1, h2, h3, .kicker, .btn, .footbtn, .count, .xpnum, .coins, .secno, .badge, .no
 html[lang="fa"] body { font-family: var(--fa-font); }
 button { font: inherit; color: inherit; cursor: pointer; }
 button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: var(--cut); box-shadow: 0 0 0 5px rgba(252, 238, 10, .18); }
-#app { position: relative; z-index: 1; width: min(480px, 100%); margin: 0 auto; padding-bottom: 90px; }
+#app { position: relative; z-index: 1; width: min(480px, 100%); margin: 0 auto; padding-bottom: 112px; }
 .t-fa { font-family: var(--fa-font); direction: rtl; unicode-bidi: isolate; display: block; }
 .t-en { font-family: var(--en-font); direction: ltr; unicode-bidi: isolate; display: block; }
 .under { color: var(--muted); font-size: .92em; margin-top: 6px; }
@@ -255,9 +255,43 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .notecount .done { color: var(--gold); }
 .notebar { flex: 0 0 100%; height: 4px; background: var(--well); border-radius: 2px; overflow: hidden; } .notebar b { display: block; height: 100%; background: linear-gradient(90deg, var(--mag), var(--accent)); transition: width .3s; }
 html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
+/* ---- Tap targets (spec 7, story 10): every control is at least 44 px in both directions ---- */
+.modes button, .icon, .markbtn, .footbtn, .chip, .linkish, .btn.small, .confirm button, .node .tools, .picker, .citem, .sheet .row { min-height: 44px; }
+.modes button, .icon, .markbtn, .chip { min-width: 44px; }
+.icon, .markbtn { width: 44px; height: 44px; }
+.chip, .linkish, .confirm button, .node .tools, .modes button { display: inline-flex; align-items: center; justify-content: center; }
+.rorder .linkish { justify-content: flex-start; }
+.picker { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+/* On a phone the 44 px controls leave no room for the XP bar in the row: it becomes the lit bottom edge of the top bar. */
+@media (max-width: 430px) {
+  .xpbar { position: absolute; inset: auto 0 -2px 0; height: 3px; transform: none; border: 0; background: transparent; }
+  .xpbar::after { display: none; }
+  .xpnum { margin-inline-start: auto; }
+}
+.confirm button { padding-inline: 16px; }
+/* Habits: each habit is a label over a row of seven day cells, so the cells can be 44 px tall and as wide as a week allows
+   (about 38 px at 360 px: seven 44 px cells do not fit one row; the one exception to the 44 px rule). */
+.habitgrid, .habitgrid tbody { display: block; width: 100%; }
+.habitgrid tr { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-bottom: 8px; }
+.habitgrid tr:first-child th:first-child { display: none; }
+.habitgrid th[scope="row"] { grid-column: 1 / -1; width: auto; padding: 6px 0 2px; font-size: 13px; }
+.habitgrid th, .habitgrid td { padding: 0; text-align: center; }
+.cell { width: 100%; max-width: none; min-height: 44px; aspect-ratio: auto; }
+.continue { display: grid; gap: 2px; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+.continue .ck { font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; opacity: .75; }
+.continue b { font-size: 17px; line-height: 1.3; } .continue small { font-size: 12px; font-weight: 600; opacity: .8; }
+.continue .t-en, .continue .t-fa { display: inline; }
+.alllit { display: flex; align-items: center; gap: 8px; margin: 0 0 14px; padding: 12px 16px; border-radius: var(--cut); background: var(--gold-soft); color: var(--gold); font-family: var(--hud-font); font-weight: 700; } .alllit svg { width: 18px; height: 18px; }
+.find { margin: 0 0 14px; } .find input { width: 100%; min-height: 44px; font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: var(--cut); padding: 10px 12px; }
+.find input:focus { border-color: var(--accent); box-shadow: 0 0 14px color-mix(in srgb, var(--accent) 25%, transparent); }
+.found { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.found .row { display: grid; gap: 2px; width: 100%; min-height: 44px; text-align: start; padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--cut); background: var(--card); color: var(--text); }
+.found .row .k { font-family: var(--hud-font); font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.found .row b { font-size: 14px; line-height: 1.35; } .found .row .snip { font-size: 13px; line-height: 1.45; } .found .row small { font-size: 12px; color: var(--muted); }
+.found .t-en, .found .t-fa { display: inline; }
 .offline { margin-top: 14px; text-align: center; } .offline .notebar { display: block; margin: 0 auto 10px; max-width: 260px; } .offline .brow { justify-content: center; gap: 8px; } .offline .help { margin-bottom: 6px; }
 .footbtn[disabled] { opacity: .5; cursor: not-allowed; }
-.savewarn { position: sticky; top: 56px; z-index: 9; margin: 0; padding: 8px 14px; background: var(--bad-soft); color: var(--bad); border-bottom: 1px solid var(--bad); font-size: 13px; font-weight: 700; text-align: center; }
+.savewarn { position: sticky; top: 64px; z-index: 9; margin: 0; padding: 8px 14px; background: var(--bad-soft); color: var(--bad); border-bottom: 1px solid var(--bad); font-size: 13px; font-weight: 700; text-align: center; }
 .noted { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; font-size: 12px; color: var(--gold); } .noted svg { width: 14px; height: 14px; }
 .secbar { display: flex; gap: 8px; padding: 10px 14px 0; position: relative; z-index: 2; }
 .footbtn svg, .btn svg { flex: 0 0 auto; }
@@ -368,7 +402,7 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .spinner { width: 44px; height: 44px; margin: 0 auto 12px; border-radius: 50%; border: 4px solid var(--line); border-top-color: var(--accent); animation: spin .9s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 /* ---- Neon overhaul (spec 8): Combo and the effects layer ---- */
-.combo { position: fixed; top: 54px; inset-inline: 0; width: fit-content; margin-inline: auto; z-index: 9; padding: 1px 10px; border-radius: var(--cut); background: var(--gold); color: var(--ink); font-size: 12px; font-weight: 700; letter-spacing: .12em; box-shadow: 0 0 14px color-mix(in srgb, var(--gold) 60%, transparent); }
+.combo { position: fixed; top: 70px; inset-inline: 0; width: fit-content; margin-inline: auto; z-index: 9; padding: 1px 10px; border-radius: var(--cut); background: var(--gold); color: var(--ink); font-size: 12px; font-weight: 700; letter-spacing: .12em; box-shadow: 0 0 14px color-mix(in srgb, var(--gold) 60%, transparent); }
 .combo[data-new] { animation: comboin .4s cubic-bezier(.2,1.6,.4,1) both; }
 .xpnum[data-new] { animation: bump .5s cubic-bezier(.2,1.6,.4,1); color: var(--accent); }
 @keyframes comboin { from { transform: scale(.4) rotate(-8deg); opacity: 0; } to { transform: none; opacity: 1; } }
@@ -416,6 +450,7 @@ FI.content = (() => {
       circles: 'circles', lessons: 'lessons', points: 'points', minutes: 'min', approx: '~', whyMatters: 'Why this matters', bookNote: 'Distilled from the book. Educational, not advice.', circleComplete: 'Circle complete', loading: 'Loading the book', loadError: 'Could not load this book. Check your connection and try again.', dismiss: 'Close', startLesson: 'Start', replayLesson: 'Replay',
       shelfTitle: 'Shelf', basics: 'Basics', basicsSub: 'The roadmap itself, six stations', section: 'Section', sections: 'Sections', jumpTo: 'Jump to section', goToSection: 'Go to section', sectionComplete: 'Section complete', collapse: 'Collapse', expand: 'Expand',
       backup: 'Back up progress', restore: 'Restore progress', restoreHelp: 'Choose a backup file, or paste its text below.', restorePaste: 'Paste backup text here', restoreSummary: 'This backup', restoreConfirm: 'Replace my progress with it', restoreBad: 'This is not a usable backup of this game.', restoreNewer: 'This backup was made by a newer version of the game.', restored: 'Progress restored.', backupOld: 'Last backup is more than 14 days old.', backupNever: 'No backup yet. Progress lives only in this browser.', exportedOn: 'made on', litCount: 'lit', deckCount: 'in the deck',
+      continueTo: 'Continue', allLit: 'Everything is lit', find: 'Search Lessons and Cards', nothingFound: 'Nothing found', kindSection: 'Book', kindLesson: 'Lesson', kindCard: 'Card',
       offlineReady: 'Available offline', offlineBooks: 'books', offlineDownload: 'Download all books', offlineDownloading: 'Downloading', offlineFailed: 'could not be downloaded. Check the connection and try again.', offlineAll: 'All books are on this device.', bookOffline: 'This book is not on this device yet. Connect once to open it, or download all books while you are online.', install: 'Install the game', offlineFull: 'could not be stored. This browser’s storage is full or blocked.', installHint: 'To install: open the browser menu and choose “Add to Home Screen” or “Install”.',
       notes: 'Notes', notesKicker: 'Your page for this book', notesPrompt1: 'What does the book argue?', notesPrompt2: 'What will you do differently?', notesPrompt3: 'What do you disagree with?', notesPlaceholder: 'Write in any language. It saves as you type.', words: 'words', word: 'word', notesCount: 'notes', saveFailed: 'Not saved: this browser’s storage is full or blocked. Back up your progress now.', notesPage: 'about one page is', notesPrivate: 'Kept in this browser only. Included in your backup.', notesEdited: 'Last edited', notesInvite: 'Write your page of notes', notesDone: 'One page written',
       go: 'START', combo: 'COMBO',
@@ -448,6 +483,7 @@ FI.content = (() => {
       circles: 'حلقه', lessons: 'درس', points: 'نکته', minutes: 'دقیقه', approx: '~', whyMatters: 'چرا مهم است', bookNote: 'چکیده‌ای از کتاب. آموزشی است، نه توصیه.', circleComplete: 'حلقه کامل شد', loading: 'در حال بارگذاری کتاب', loadError: 'بارگذاری کتاب ممکن نشد. اتصال را بررسی کن و دوباره بزن.', dismiss: 'بستن', startLesson: 'شروع', replayLesson: 'دوباره',
       shelfTitle: 'قفسه', basics: 'پایه‌ها', basicsSub: 'خودِ نقشه راه، شش ایستگاه', section: 'بخش', sections: 'بخش‌ها', jumpTo: 'پرش به بخش', goToSection: 'برو به بخش', sectionComplete: 'بخش کامل شد', collapse: 'جمع کن', expand: 'باز کن',
       backup: 'پشتیبان‌گیری از پیشرفت', restore: 'بازیابی پیشرفت', restoreHelp: 'یک فایل پشتیبان انتخاب کن، یا متنش را پایین بچسبان.', restorePaste: 'متن پشتیبان را اینجا بچسبان', restoreSummary: 'این پشتیبان', restoreConfirm: 'پیشرفتم را با آن جایگزین کن', restoreBad: 'این پشتیبانِ قابل‌استفاده‌ای از این بازی نیست.', restoreNewer: 'این پشتیبان با نسخهٔ جدیدتری از بازی ساخته شده.', restored: 'پیشرفت بازیابی شد.', backupOld: 'آخرین پشتیبان بیش از ۱۴ روز پیش است.', backupNever: 'هنوز پشتیبانی نیست. پیشرفت فقط در همین مرورگر است.', exportedOn: 'ساخته‌شده در', litCount: 'روشن', deckCount: 'در دسته',
+      continueTo: 'ادامه', allLit: 'همه‌چیز روشن است', find: 'جست‌وجوی درس‌ها و کارت‌ها', nothingFound: 'چیزی پیدا نشد', kindSection: 'کتاب', kindLesson: 'درس', kindCard: 'کارت',
       offlineReady: 'در دسترس بدون اینترنت', offlineBooks: 'کتاب', offlineDownload: 'دانلود همهٔ کتاب‌ها', offlineDownloading: 'در حال دانلود', offlineFailed: 'دانلود نشد. اتصال را بررسی کن و دوباره امتحان کن.', offlineAll: 'همهٔ کتاب‌ها روی این دستگاه هستند.', bookOffline: 'این کتاب هنوز روی این دستگاه نیست. یک بار با اینترنت بازش کن، یا وقتی آنلاینی همهٔ کتاب‌ها را دانلود کن.', install: 'نصب بازی', offlineFull: 'ذخیره نشد. حافظهٔ این مرورگر پر یا مسدود است.', installHint: 'برای نصب: منوی مرورگر را باز کن و «افزودن به صفحهٔ اصلی» یا «نصب» را بزن.',
       notes: 'یادداشت‌ها', notesKicker: 'صفحهٔ تو برای این کتاب', notesPrompt1: 'کتاب چه می‌گوید؟', notesPrompt2: 'چه کاری را متفاوت انجام می‌دهی؟', notesPrompt3: 'با چه چیزی مخالفی؟', notesPlaceholder: 'به هر زبانی بنویس. هم‌زمان با نوشتن ذخیره می‌شود.', words: 'واژه', word: 'واژه', notesCount: 'یادداشت', saveFailed: 'ذخیره نشد: حافظهٔ این مرورگر پر یا مسدود است. همین حالا از پیشرفتت پشتیبان بگیر.', notesPage: 'حدود یک صفحه یعنی', notesPrivate: 'فقط در همین مرورگر می‌ماند. در پشتیبان تو هم هست.', notesEdited: 'آخرین ویرایش', notesInvite: 'صفحهٔ یادداشتت را بنویس', notesDone: 'یک صفحه نوشته شد',
       go: 'شروع', combo: 'پیاپی',
@@ -781,7 +817,27 @@ FI.content = (() => {
     return { top: pair.en, under: pair.fa };
   };
 
-  return { ui, stations, allStations, item, station, text, fmt, faDigits, checklists, habits, readingOrder, MILESTONE_XP, SECTION_XP, CIRCLE_XP, LESSON_XP, sections, sectionOf, circleOf, isLoaded, bookUrl, registerBook, totalXp };
+  // ---- Search (spec 7): over every Section and Lesson title, and over the Cards of whatever is loaded.
+  // Plain containment, no ranking. Farsi is folded so either form of ی and ک matches and the half-space reads as a space.
+  const fold = (value) => String(value).toLowerCase().replace(/ي/g, 'ی').replace(/ك/g, 'ک').replace(/[\u200c\s]+/g, ' ').trim();
+  const SEARCH_MIN = 2;
+  function search(query, limit = 20) {
+    const needle = fold(query);
+    if (needle.length < SEARCH_MIN) return [];
+    const has = (...texts) => texts.some((x) => x && fold(x).includes(needle));
+    const found = { section: [], lesson: [], card: [] };
+    for (const sec of sections) {
+      const book = sec.kind === 'book' ? sec.title : null;
+      if (book ? has(sec.title, sec.author.en, sec.author.fa) : has(sec.name.en, sec.name.fa)) found.section.push({ kind: 'section', sectionId: sec.id, book, name: book ? null : sec.name });
+      for (const id of sec.runs) {
+        const st = station(id); const circle = circleOf(id);
+        if (has(st.name.en, st.name.fa, circle && circle.title.en, circle && circle.title.fa)) found.lesson.push({ kind: 'lesson', stationId: id, sectionId: sec.id, name: st.name, book, circle: circle ? circle.title : null });
+        for (const it of st.items || []) if (it.kind === 'card' && has(it.text.en, it.text.fa)) found.card.push({ kind: 'card', stationId: id, cardId: it.id, sectionId: sec.id, name: st.name, book, text: it.text });
+      }
+    }
+    return [...found.section, ...found.lesson, ...found.card].slice(0, limit);
+  }
+  return { search, ui, stations, allStations, item, station, text, fmt, faDigits, checklists, habits, readingOrder, MILESTONE_XP, SECTION_XP, CIRCLE_XP, LESSON_XP, sections, sectionOf, circleOf, isLoaded, bookUrl, registerBook, totalXp };
 })();
 </script>
 
@@ -798,7 +854,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -809,7 +865,7 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null, notes: {},
+    shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null, notes: {}, lastSection: null,
     notesFor: null, // the book whose Notes page is open
     combo: 0, // right answers in a row; feedback only, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
@@ -823,6 +879,17 @@ FI.engine = (() => {
   // A word holds at least one letter or digit; a dash or a row of dots is not a word.
   const wordCount = (text) => String(text).split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
   const isDay = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
+  // Continue (spec 7): the first Lesson not yet done in the Section last played, else the first in Path order, else null.
+  // A Station whose Fare is passed is done even while it waits to light (the Library lights with the Reading Order).
+  const sectionIdOf = (content, stationId) => { const sec = content.sections.find((x) => x.runs.includes(stationId)); return sec ? sec.id : null; };
+  function continueTarget(s, content) {
+    const last = content.sections.find((sec) => sec.id === s.lastSection);
+    for (const sec of [last, ...content.sections]) {
+      const stationId = sec && sec.runs.find((id) => !(s.lit[id] || s.farePassed[id]));
+      if (stationId) return { stationId, sectionId: sec.id };
+    }
+    return null;
+  }
   // Combo: right answers in a row, in Lessons and in Review. It pays nothing.
   const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); };
 
@@ -847,6 +914,7 @@ FI.engine = (() => {
     deck: mapOf((e) => isMap(e) && isText(e.stationId) && isText(e.cardId) && isPair(e.text) && isCheck(e.check) && isCount(e.box) && isCount(e.due) && isFlag(e.missed) && isFlag(e.marked)),
     reviewed: (v) => v === null || (isMap(v) && isCount(v.day) && isCount(v.n)),
     lastBackup: (v) => v === null || Number.isInteger(v),
+    lastSection: (v) => v === null || isText(v),
     notes: (v) => isMap(v) && Object.keys(v).every((k) => /^b\d\d$/.test(k) && isMap(v[k]) && Object.keys(v[k]).every((f) => f === 'text' || f === 'edited')
       && isText(v[k].text) && v[k].text.length <= NOTE_MAX_CHARS && (v[k].edited === '' || isDay(v[k].edited))),
   };
@@ -1018,6 +1086,7 @@ FI.engine = (() => {
         const st = content.station(action.value);
         if (!st || !st.items || !st.items.length) return s;
         leave(s);
+        s.lastSection = sectionIdOf(content, st.id);
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: 0, returning: false };
         s.queue = st.items.map((i) => i.id);
         return advance(s, content);
@@ -1029,6 +1098,7 @@ FI.engine = (() => {
         const idx = st && st.items ? st.items.findIndex((i) => i.id === cardId && i.kind === 'card') : -1;
         if (idx < 0) return s;
         leave(s);
+        s.lastSection = sectionIdOf(content, st.id);
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: idx, returning: false };
         s.queue = st.items.slice(idx).map((i) => i.id);
         return advance(s, content);
@@ -1224,7 +1294,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget };
 })();
 </script>
 
@@ -1302,7 +1372,7 @@ FI.store = (() => {
 // screen, the shelf with Book Units, per-Station themes and the Milestone.
 // ---------------------------------------------------------------------------
 FI.render = (() => {
-  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null, restoreOpen: false, restore: null, restoreText: '', restoredNote: false, offline: { supported: false, ready: 0, downloading: null, failed: 0, unstored: 0, installable: false, standalone: false } };
+  const ui = { order: [], confirmReset: false, lastCurrent: null, lastPhase: null, stage: 'all', must: 'all', search: '', milestone: false, seenEvents: null, introDone: false, pullout: null, lastScreen: null, dolly: false, openSection: null, picker: false, scrollTo: null, openCircle: null, loading: false, error: null, restoreOpen: false, restore: null, restoreText: '', restoredNote: false, find: '', offline: { supported: false, ready: 0, downloading: null, failed: 0, unstored: 0, installable: false, standalone: false } };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   // One isolate per run, parentheses included, so a wrap never re-orders the pieces (see test/rtl.test.mjs).
@@ -1508,6 +1578,27 @@ FI.render = (() => {
     const hint = !o.installable && !o.standalone ? `<p class="help">${t('installHint', s.mode)}</p>` : '';
     return `${line}${bar}${trouble}<div class="brow">${download}${install}</div>${hint}`;
   }
+  // ---- Continue and search on the Path (spec 7)
+  function continueBlock(s, content) {
+    const target = FI.engine.continueTarget(s, content);
+    if (!target) return `<p class="alllit">${ICONS.star}<span>${t('allLit', s.mode)}</span></p>`;
+    const st = content.station(target.stationId);
+    const sec = content.sections.find((x) => x.id === target.sectionId);
+    const where = sec.kind === 'book' ? `<span class="t-en" lang="en">${esc(sec.title)}</span>` : pair(sec.name, one(s.mode));
+    return `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: st.id })}><span class="ck">${t('continueTo', s.mode)}</span><b>${pair(st.name, one(s.mode))}</b><small>${where}</small></button>`;
+  }
+  // The results under the search field; rewritten by patch() while the player types.
+  function foundList(s, content) {
+    if (ui.find.trim().length < 2) return '';
+    const rows = content.search(ui.find, 20);
+    if (!rows.length) return `<p class="help">${t('nothingFound', s.mode)}</p>`;
+    const bookOf = (r) => (r.book ? `<span class="t-en" lang="en">${esc(r.book)}</span>` : pair(content.sections[0].name, one(s.mode)));
+    return `<ul class="found">${rows.map((r) => {
+      if (r.kind === 'section') return `<li><button class="row" ${A({ type: 'UI_JUMP_SECTION', value: r.sectionId })}><span class="k">${t('kindSection', s.mode)}</span><b>${bookOf(r)}</b></button></li>`;
+      if (r.kind === 'lesson') return `<li><button class="row" ${A({ type: 'OPEN_STATION', value: r.stationId })}><span class="k">${t('kindLesson', s.mode)}</span><b>${pair(r.name, one(s.mode))}</b><small>${bookOf(r)}${r.circle ? ` · ${pair(r.circle, one(s.mode))}` : ''}</small></button></li>`;
+      return `<li><button class="row" ${A({ type: 'OPEN_AT', value: { stationId: r.stationId, cardId: r.cardId } })}><span class="k">${t('kindCard', s.mode)}</span><span class="snip">${pair(r.text, one(s.mode))}</span><small>${bookOf(r)} · ${pair(r.name, one(s.mode))}</small></button></li>`;
+    }).join('')}</ul>`;
+  }
   function backupPanel(s) {
     const nudge = FI.engine.backupNudge(s);
     const warn = nudge === 'never' ? t('backupNever', s.mode) : nudge === 'old' ? t('backupOld', s.mode) : '';
@@ -1544,7 +1635,9 @@ FI.render = (() => {
     const cam = !ui.introDone ? ' intro' : ui.pullout ? ' pullout' : '';
     return `<main class="path${cam}">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
+      ${continueBlock(s, content)}
       <div class="pathbar">${marks}</div>
+      <div class="find"><input type="search" data-find placeholder="${t('find', s.mode)}" value="${esc(ui.find)}" aria-label="${t('find', s.mode)}" autocomplete="off"><div class="foundwrap" aria-live="polite">${foundList(s, content)}</div></div>
       <div class="sections">${list}</div>${milestone}
       ${backupPanel(s)}
       <div class="offline">${offlineBody(s, content)}</div>
@@ -1863,7 +1956,7 @@ FI.render = (() => {
     if (s.current !== ui.lastCurrent || (s.phase === 'check' && ui.lastPhase !== 'check')) ui.order = [];
     const rkey = s.review ? `${s.review.index}:${s.review.phase}` : null; // placed Order chips reset per review step
     if (rkey !== ui.lastReview) { ui.order = []; ui.lastReview = rkey; }
-    if (s.screen !== 'path') ui.confirmReset = false;
+    if (s.screen !== 'path') { ui.confirmReset = false; ui.find = ''; }
     // Consume each events array once; UI-only re-renders reuse the same state object.
     if (s.events !== ui.seenEvents) { ui.seenEvents = s.events; ui.coinShown = false; ui.restoredNote = s.events.includes('restored'); if (s.events.includes('milestone')) { ui.milestone = true; ui.dolly = true; } } else { ui.coinShown = true; ui.dolly = false; }
     // Camera 2: arriving on the Path right after a Station was lit (fare-passed then Continue).
@@ -1930,6 +2023,8 @@ FI.render = (() => {
       const c = root.querySelector('.notecount'); if (c) c.innerHTML = noteCount(noteWords(s, s.notesFor), s.mode);
     } else if (action.type === 'UI_RESTORE_TEXT') {
       const v = root.querySelector('.restore .verdict'); if (v) v.innerHTML = restoreVerdict(s);
+    } else if (action.type === 'UI_FIND' || action.type === 'UI_FOUND') {
+      const f = root.querySelector('.foundwrap'); if (f) f.innerHTML = foundList(s, content);
     } else if (action.type === 'UI_SEARCH') {
       const g = root.querySelector('.shelfgrid'); if (g) g.innerHTML = shelfGrid(s, content);
     }
@@ -1946,6 +2041,8 @@ FI.render = (() => {
       case 'UI_STAGE': ui.stage = action.value; return 'full';
       case 'UI_MUST': ui.must = action.value; return 'full';
       case 'UI_SEARCH': ui.search = String(action.value || ''); return 'partial';
+      case 'UI_FIND': ui.find = String(action.value || '').slice(0, 80); return 'partial';
+      case 'UI_FOUND': return 'partial'; // more books were loaded: show the results again
       case 'UI_MILESTONE_CLOSE': ui.milestone = false; return 'full';
       case 'UI_OPEN_SECTION': ui.openSection = ui.openSection === action.value ? '__none__' : action.value; ui.scrollTo = action.value; return 'full';
       case 'UI_PICKER': ui.picker = !ui.picker; return 'full';
@@ -2005,6 +2102,7 @@ FI.render = (() => {
       const el = e.target;
       if (el.matches('[data-slider]')) dispatch({ type: 'SET_SLIDER', value: { key: el.getAttribute('data-slider'), value: el.value }, silent: true });
       else if (el.matches('[data-search]')) dispatch({ type: 'UI_SEARCH', value: el.value });
+      else if (el.matches('[data-find]')) dispatch({ type: 'UI_FIND', value: el.value });
       else if (el.matches('[data-restore-text]')) dispatch({ type: 'UI_RESTORE_TEXT', value: el.value });
       else if (el.matches('[data-note]')) { clearTimeout(noteTimer); noteField = el; noteTimer = setTimeout(saveNote, 400); }
       else if (el.matches('[data-journal]')) {
@@ -2138,7 +2236,7 @@ FI.fx = (() => {
   }
 
   // Every move the player makes answers back: a click, a tick in the hand, a few sparks.
-  const QUIET = ['SET_SLIDER', 'UI_SEARCH', 'UI_RESTORE_TEXT', 'UI_RESTORE_FILE', 'SET_JOURNAL', 'SET_NOTE'];
+  const QUIET = ['SET_SLIDER', 'UI_SEARCH', 'UI_FIND', 'UI_FOUND', 'UI_RESTORE_TEXT', 'UI_RESTORE_FILE', 'SET_JOURNAL', 'SET_NOTE'];
   function tap(action, state) {
     if (!action || action.silent || QUIET.includes(action.type)) return;
     if (!state.muted) SOUNDS.tap();
@@ -2231,6 +2329,21 @@ FI.fx = (() => {
     downloading = false;
     await showOffline({ downloading: null, failed, unstored });
   }
+  let deviceBooksLoaded = false;
+  async function loadDeviceBooks() {
+    if (deviceBooksLoaded || !workerReady) return;
+    deviceBooksLoaded = true;
+    let added = 0;
+    try {
+      const cache = await caches.open(BOOK_CACHE);
+      for (const id of bookIds()) {
+        if (content.isLoaded(id)) continue;
+        const hit = await cache.match(bookPath(id));
+        if (hit) { try { if (content.registerBook(await hit.json(), id)) added++; } catch (e) {} }
+      }
+    } catch (e) {}
+    if (added) render.patch(root, state, content, { type: 'UI_FOUND' });
+  }
   let installPrompt = null;
   window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installPrompt = e; showOffline({ installable: true }); });
   window.addEventListener('appinstalled', () => { installPrompt = null; showOffline({ installable: false }); });
@@ -2257,6 +2370,7 @@ FI.fx = (() => {
   function dispatch(action) {
     const need = lessonOf(action);
     if (need) { ensureBook(need).then((ok) => { if (ok) dispatch(action); else paint(); }); return; }
+    if (action.type === 'UI_FIND') loadDeviceBooks();
     if (action.type === 'DOWNLOAD_BOOKS') { downloadBooks(); return; }
     if (action.type === 'INSTALL') { if (installPrompt) { installPrompt.prompt(); installPrompt = null; showOffline({ installable: false }); } return; } // a prompt can be used once; the hint below the panel stays
     if (action.type === 'BACKUP') {
