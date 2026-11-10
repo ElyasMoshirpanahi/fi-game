@@ -282,8 +282,8 @@
               "kind": "card",
               "id": "b20c1l2p4",
               "text": {
-                "en": "Start with the leap-of-faith assumptions, the parts of the plan most likely to be wrong. Ries ties this to genchi gembutsu, the Toyota rule to go and see for yourself.",
-                "fa": "از فرض‌های جهش ایمان شروع کن، بخش‌هایی از برنامه که بیشترین احتمال اشتباه را دارند. Ries این را به genchi gembutsu پیوند می‌دهد، قاعدهٔ Toyota که می‌گوید خودت برو و ببین."
+                "en": "Start with the leap-of-faith assumptions, the riskiest parts of the plan, on which everything else depends. Ries ties this to genchi gembutsu, the Toyota rule to go and see for yourself.",
+                "fa": "از فرض‌های جهش ایمان شروع کن، پرریسک‌ترین بخش‌های برنامه که همه‌چیز به آن‌ها وابسته است. Ries این را به genchi gembutsu پیوند می‌دهد، قاعدهٔ Toyota که می‌گوید خودت برو و ببین."
               }
             },
             {
@@ -298,8 +298,8 @@
               "kind": "card",
               "id": "b20c1l2p6",
               "text": {
-                "en": "A minimum viable product is the version that lets a team start the Build-Measure-Learn loop with the least effort and the least development time. Its job is to test hypotheses.",
-                "fa": "کمینه‌محصول پذیرفتنی (MVP) نسخه‌ای است که به تیم اجازه می‌دهد حلقهٔ Build-Measure-Learn را با کمترین تلاش و کمترین زمان توسعه شروع کند. کارش آزمودن فرضیه‌هاست."
+                "en": "A minimum viable product is the version that lets a team make a full turn of the Build-Measure-Learn loop with the least effort and the least development time. Its job is to test hypotheses.",
+                "fa": "کمینه‌محصول پذیرفتنی (MVP) نسخه‌ای است که به تیم اجازه می‌دهد یک دور کامل حلقهٔ Build-Measure-Learn را با کمترین تلاش و کمترین زمان توسعه طی کند. کارش آزمودن فرضیه‌هاست."
               }
             },
             {
@@ -308,8 +308,8 @@
               "type": "tf",
               "source": "b20c1l2p4",
               "prompt": {
-                "en": "Leap-of-faith assumptions are the parts of the plan least likely to be wrong.",
-                "fa": "فرض‌های جهش ایمان بخش‌هایی از برنامه‌اند که کمترین احتمال اشتباه را دارند."
+                "en": "Leap-of-faith assumptions are the safest parts of the plan, on which little depends.",
+                "fa": "فرض‌های جهش ایمان کم‌ریسک‌ترین بخش‌های برنامه‌اند که چیز زیادی به آن‌ها وابسته نیست."
               },
               "answer": false
             },
@@ -490,8 +490,8 @@
               "kind": "card",
               "id": "b20c1l3p4",
               "text": {
-                "en": "At IMVU, total registrations and revenue kept rising, while cohort analysis showed new customers were not becoming paying customers at higher rates. The product changes were not working.",
-                "fa": "در IMVU، تعداد کل ثبت‌نام‌ها و درآمد مدام بالا می‌رفت، در حالی که تحلیل cohort نشان می‌داد مشتری‌های تازه با نرخ بالاتری به مشتری پولی تبدیل نمی‌شوند. تغییرات محصول کار نمی‌کرد."
+                "en": "At IMVU, gross totals such as registered users kept rising, while cohort analysis showed new customers were not becoming paying customers at higher rates. The product changes were not working.",
+                "fa": "در IMVU، اعداد کل، مثل تعداد کاربران ثبت‌نام‌شده، مدام بالا می‌رفت، در حالی که تحلیل cohort نشان می‌داد مشتری‌های تازه با نرخ بالاتری به مشتری پولی تبدیل نمی‌شوند. تغییرات محصول کار نمی‌کرد."
               }
             },
             {
@@ -566,8 +566,8 @@
               "kind": "card",
               "id": "b20c1l3p10",
               "text": {
-                "en": "The worst fate is not failure but the land of the living dead: a company that grows just enough to survive and never decides to pivot.",
-                "fa": "بدترین سرنوشت شکست نیست، بلکه سرزمین مردگان متحرک است: شرکتی که فقط آن‌قدر رشد می‌کند که زنده بماند و هرگز تصمیم به pivot نمی‌گیرد."
+                "en": "Ries warns of the land of the living dead: a company that is neither growing enough nor dying, using up people and money while it keeps persevering.",
+                "fa": "Ries دربارهٔ سرزمین مردگان متحرک هشدار می‌دهد: شرکتی که نه به اندازهٔ کافی رشد می‌کند و نه می‌میرد، و در حالی که به ادامه دادن اصرار دارد آدم‌ها و پول را مصرف می‌کند."
               }
             },
             {

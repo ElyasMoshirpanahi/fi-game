@@ -115,16 +115,16 @@
               "kind": "card",
               "id": "b26c1l1p6",
               "text": {
-                "en": "Accounting is the language of practical business, though you must know its limits. Engineering adds backup systems and redundancy, and physics adds breakpoints and critical mass.",
-                "fa": "حسابداری زبان کسب‌وکار عملی است، هرچند باید محدودیت‌هایش را بشناسی. مهندسی سیستم‌های پشتیبان و افزونگی را اضافه می‌کند و فیزیک نقطه‌های شکست و جرم بحرانی را."
+                "en": "Accounting is the language of practical business, though you must know its limits. Engineering adds backup systems and breakpoints, and physics adds critical mass.",
+                "fa": "حسابداری زبان کسب‌وکار عملی است، هرچند باید محدودیت‌هایش را بشناسی. مهندسی سیستم‌های پشتیبان و نقطه‌های شکست را اضافه می‌کند و فیزیک جرم بحرانی را."
               }
             },
             {
               "kind": "card",
               "id": "b26c1l1p7",
               "text": {
-                "en": "Biology adds evolution, and psychology adds the study of how minds misjudge, which Munger found badly taught. He had to build that model largely by himself.",
-                "fa": "زیست‌شناسی تکامل را اضافه می‌کند و روان‌شناسی مطالعهٔ خطای قضاوت ذهن را، که Munger می‌دید بد آموزش داده می‌شود. او ناچار شد آن مدل را عمدتاً خودش بسازد."
+                "en": "Biology and physiology come next, since we are all programmed by our genetic makeup. Psychology adds the study of how minds misjudge, which Munger found badly taught, so he largely taught himself.",
+                "fa": "زیست‌شناسی و فیزیولوژی بعد می‌آیند، چون همهٔ ما با ساختار ژنتیکی‌مان برنامه‌ریزی شده‌ایم. روان‌شناسی مطالعهٔ خطای قضاوت ذهن را اضافه می‌کند که Munger می‌دید بد آموزش داده می‌شود، پس عمدتاً خودش آن را آموخت."
               }
             },
             {
@@ -172,8 +172,8 @@
               "kind": "card",
               "id": "b26c1l1p10",
               "text": {
-                "en": "At the track the house takes about 17 percent off the top, so most bettors lose. Trading costs work the same way on investors.",
-                "fa": "در میدان، صاحب‌خانه حدود ۱۷ درصد را از بالا برمی‌دارد، پس بیشتر شرط‌بندها می‌بازند. هزینه‌های معامله هم روی سرمایه‌گذاران همین اثر را دارند."
+                "en": "At the track the house takes about 17 percent off the top, so most bettors lose. Munger says the stock market works the same way, except that the house take is much lower.",
+                "fa": "در میدان، صاحب‌خانه حدود ۱۷ درصد را از بالا برمی‌دارد، پس بیشتر شرط‌بندها می‌بازند. Munger می‌گوید بازار سهام هم همین‌طور کار می‌کند، با این تفاوت که سهم صاحب‌خانه بسیار کمتر است."
               }
             },
             {
@@ -232,16 +232,16 @@
               "kind": "card",
               "id": "b26c1l1p13",
               "text": {
-                "en": "Microeconomics adds the advantages of scale: lower costs from experience, wider reach and better information. Munger points to Wal-Mart, which used scale to outgrow Sears.",
-                "fa": "اقتصاد خرد مزیت‌های مقیاس را اضافه می‌کند: هزینهٔ کمتر از تجربه، دسترسی گسترده‌تر و اطلاعات بهتر. Munger به Wal-Mart اشاره می‌کند که با مقیاس از Sears پیشی گرفت."
+                "en": "Microeconomics adds the advantages of scale: lower costs from experience, wider reach and better information. Yet Wal-Mart, starting from one store in Arkansas, blew past Sears, whose size had bred bureaucracy.",
+                "fa": "اقتصاد خرد مزیت‌های مقیاس را اضافه می‌کند: هزینهٔ کمتر از تجربه، دسترسی گسترده‌تر و اطلاعات بهتر. با این حال Wal-Mart که از یک فروشگاه در Arkansas شروع کرد از Sears جلو زد، چون بزرگی Sears بوروکراسی به بار آورده بود."
               }
             },
             {
               "kind": "card",
               "id": "b26c1l1p14",
               "text": {
-                "en": "Better technology can help a business yet help its owners little. At Berkshire's textile mill, the gains from new looms went through to customers as lower prices.",
-                "fa": "فناوری بهتر می‌تواند به یک کسب‌وکار کمک کند ولی برای مالکانش سود چندانی نداشته باشد. در کارخانهٔ نساجی Berkshire، سود دستگاه‌های بافندگی نو به شکل قیمت پایین‌تر به مشتریان رسید."
+                "en": "Better technology can help a business yet help its owners little. Offered far more productive looms for Berkshire's textile mill, Buffett saw the gains would go to customers as lower prices.",
+                "fa": "فناوری بهتر می‌تواند به یک کسب‌وکار کمک کند ولی برای مالکانش سود چندانی نداشته باشد. وقتی دستگاه‌های بافندگی بسیار پربازده‌تری به کارخانهٔ نساجی Berkshire پیشنهاد شد، Buffett دید سودش به شکل قیمت پایین‌تر به مشتریان می‌رسد."
               }
             },
             {
@@ -250,8 +250,8 @@
               "type": "tap",
               "source": "b26c1l1p14",
               "prompt": {
-                "en": "Where did the gains from new looms at Berkshire's textile mill go?",
-                "fa": "سود دستگاه‌های بافندگی نو در کارخانهٔ نساجی Berkshire به کجا رفت؟"
+                "en": "Where did Buffett expect the gains from new looms at Berkshire's textile mill to go?",
+                "fa": "Buffett انتظار داشت سود دستگاه‌های بافندگی نو در کارخانهٔ نساجی Berkshire به کجا برود؟"
               },
               "options": [
                 {
@@ -284,16 +284,16 @@
               "id": "b26c1l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Munger's talk on the psychology of human misjudgment, a list of about 25 tendencies. It matters because capital is lost to bad judgment far more often than to bad data.",
-                "fa": "این درس سخنرانی Munger دربارهٔ روان‌شناسی قضاوت نادرست انسان را خلاصه می‌کند، فهرستی از حدود ۲۵ گرایش. مهم است چون سرمایه بسیار بیشتر بر اثر قضاوت بد از دست می‌رود تا داده‌های بد."
+                "en": "This Lesson distils Munger's talk on the psychology of human misjudgment, a list of about 25 tendencies. It matters because naming a tendency helps you catch a bad judgment before it costs capital.",
+                "fa": "این درس سخنرانی Munger دربارهٔ روان‌شناسی قضاوت نادرست انسان را خلاصه می‌کند، فهرستی از حدود ۲۵ گرایش. مهم است چون نام بردن از یک گرایش کمک می‌کند قضاوت بد را پیش از آنکه به سرمایه‌ات آسیب بزند بگیری."
               }
             },
             {
               "kind": "card",
               "id": "b26c1l2p2",
               "text": {
-                "en": "Munger's first tendency is reward and punishment superresponsiveness. He says never think about something else when you should be thinking about the power of incentives.",
-                "fa": "نخستین گرایش در فهرست Munger واکنش افراطی به پاداش و تنبیه است. او می‌گوید وقتی باید به قدرت انگیزه‌ها فکر کنی، هرگز به چیز دیگری فکر نکن."
+                "en": "Munger's first tendency is the Reward and Punishment Superresponse Tendency. He says never think about something else when you should be thinking about the power of incentives.",
+                "fa": "نخستین گرایش در فهرست Munger گرایش به واکنش افراطی به پاداش و تنبیه است. او می‌گوید وقتی باید به قدرت انگیزه‌ها فکر کنی، هرگز به چیز دیگری فکر نکن."
               }
             },
             {
@@ -376,8 +376,8 @@
               "kind": "card",
               "id": "b26c1l2p8",
               "text": {
-                "en": "Authority-misinfluence leads people to obey a leader against good sense, as in Milgram's shock experiment. In flight simulators, copilots let the pilot crash rather than overrule him.",
-                "fa": "نفوذ نادرست مرجعیت باعث می‌شود آدم‌ها برخلاف عقل سلیم از رهبر اطاعت کنند، مثل آزمایش شوک Milgram. در شبیه‌ساز پرواز، کمک‌خلبان‌ها گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند."
+                "en": "Authority-misinfluence leads people to obey a leader against good sense, as in Milgram's shock experiment. In flight simulators, some copilots let the pilot crash rather than overrule him.",
+                "fa": "نفوذ نادرست مرجعیت باعث می‌شود آدم‌ها برخلاف عقل سلیم از رهبر اطاعت کنند، مثل آزمایش شوک Milgram. در شبیه‌ساز پرواز، برخی کمک‌خلبان‌ها گذاشتند خلبان سقوط کند به جای آنکه حرفش را رد کنند."
               }
             },
             {
@@ -386,8 +386,8 @@
               "type": "tap",
               "source": "b26c1l2p8",
               "prompt": {
-                "en": "In Munger's simulator example, what did copilots do when the pilot erred?",
-                "fa": "در مثال شبیه‌ساز Munger، وقتی خلبان خطا کرد کمک‌خلبان‌ها چه کردند؟"
+                "en": "In Munger's simulator example, what did some copilots do when the pilot erred?",
+                "fa": "در مثال شبیه‌ساز Munger، وقتی خلبان خطا کرد برخی کمک‌خلبان‌ها چه کردند؟"
               },
               "options": [
                 {
@@ -436,8 +436,8 @@
               "kind": "card",
               "id": "b26c1l2p11",
               "text": {
-                "en": "Stacked tendencies hit investors too: a friend bought, someone is selling and you are tired. A cooling-off rule before any buy breaks the stack.",
-                "fa": "گرایش‌های روی‌هم‌چیده سرمایه‌گذاران را هم می‌زنند: دوستی خریده، کسی دارد می‌فروشد و تو خسته‌ای. یک قاعدهٔ مهلت پیش از هر خرید، این ترکیب را می‌شکند."
+                "en": "Stacked tendencies hit investors too: a friend bought, a salesman is pushing and you are tired. A cooling-off rule before any buy is one way to interrupt the stack.",
+                "fa": "گرایش‌های روی‌هم‌چیده سرمایه‌گذاران را هم می‌زنند: دوستی خریده، فروشنده‌ای فشار می‌آورد و تو خسته‌ای. یک قاعدهٔ مهلت پیش از هر خرید، یکی از راه‌های قطع این ترکیب است."
               }
             },
             {
@@ -454,8 +454,8 @@
               "type": "tap",
               "source": "b26c1l2p11",
               "prompt": {
-                "en": "What breaks a stack of tendencies before you buy?",
-                "fa": "چه چیزی ترکیب گرایش‌ها را پیش از خرید می‌شکند؟"
+                "en": "What is one way to interrupt a stack of tendencies before you buy?",
+                "fa": "یکی از راه‌های قطع ترکیب گرایش‌ها پیش از خرید چیست؟"
               },
               "options": [
                 {
@@ -478,7 +478,7 @@
               "id": "b26c1l2p13",
               "text": {
                 "en": "Munger's antidote to incentive-caused bias: fear professional advice most when it is especially good for the adviser. Learn enough of the adviser's trade to check the advice.",
-                "fa": "پادزهر Munger برای سوگیری ناشی از مشوق: بیشترین ترس را از توصیهٔ حرفه‌ای داشته باش وقتی به نفع خود مشاور است. آن‌قدر از کار مشاور یاد بگیر که بتوانی توصیه را بسنجی."
+                "fa": "پادزهر Munger برای سوگیری ناشی از انگیزه: از توصیهٔ حرفه‌ای بیش از همه وقتی بترس که به‌ویژه به نفع خود مشاور است. آن‌قدر از کار مشاور یاد بگیر که بتوانی توصیه را بسنجی."
               }
             },
             {
@@ -591,8 +591,8 @@
               "kind": "card",
               "id": "b26c1l3p6",
               "text": {
-                "en": "Munger sorts ideas into three baskets: in, out and too tough. Most ideas land in the too-tough basket, and that is fine.",
-                "fa": "Munger ایده‌ها را در سه سبد می‌گذارد: داخل، بیرون و زیادی سخت. بیشتر ایده‌ها در سبد زیادی سخت می‌افتند و این اشکالی ندارد."
+                "en": "Munger sorts ideas into three baskets: in, out and too tough. An idea he has no special insight into goes in the too-tough basket, and that is fine.",
+                "fa": "Munger ایده‌ها را در سه سبد می‌گذارد: داخل، بیرون و زیادی سخت. ایده‌ای که درباره‌اش بینش ویژه‌ای ندارد به سبد زیادی سخت می‌رود و این اشکالی ندارد."
               }
             },
             {
@@ -648,8 +648,8 @@
               "kind": "card",
               "id": "b26c1l3p10",
               "text": {
-                "en": "Imagine a punch card with only 20 punches for a lifetime of investing. You would think hard about each one and load up on the few you had really thought through.",
-                "fa": "کارتی را تصور کن که برای تمام عمر سرمایه‌گذاری فقط ۲۰ سوراخ دارد. دربارهٔ هر کدام سخت فکر می‌کردی و روی همان چند موردی که واقعاً سنجیده بودی سنگین سرمایه می‌گذاشتی."
+                "en": "Munger passes on Buffett's image of a punch card with only 20 punches for a lifetime of investing. You would think hard about each one and load up on the few you had really thought through.",
+                "fa": "Munger تصویری از Buffett را نقل می‌کند: کارتی که برای تمام عمر سرمایه‌گذاری فقط ۲۰ سوراخ دارد. دربارهٔ هر کدام سخت فکر می‌کردی و روی همان چند موردی که واقعاً سنجیده بودی سنگین سرمایه می‌گذاشتی."
               }
             },
             {
@@ -667,8 +667,8 @@
               "kind": "card",
               "id": "b26c1l3p11",
               "text": {
-                "en": "Your circle: software and AI products are inside it, picking single stocks is not yet. Keep the 80 percent index core and let the waiting do the work.",
-                "fa": "دایرهٔ تو: نرم‌افزار و محصولات AI داخل آن‌اند، انتخاب تک‌سهم هنوز نه. هستهٔ ۸۰ درصدی شاخصی را نگه دار و بگذار انتظار کار را انجام دهد."
+                "en": "Your circle: software and AI products are inside it, picking single stocks is not yet. The roadmap answers with an 80 percent index core and lets the waiting do the work.",
+                "fa": "دایرهٔ تو: نرم‌افزار و محصولات AI داخل آن‌اند، انتخاب تک‌سهم هنوز نه. پاسخ نقشهٔ راه هستهٔ ۸۰ درصدی شاخصی است که می‌گذارد انتظار کار را انجام دهد."
               }
             },
             {
@@ -716,8 +716,8 @@
               "kind": "card",
               "id": "b26c1l3p14",
               "text": {
-                "en": "Someone will always get rich faster than you, Munger says, and that is no tragedy. Envy of other people's gains is a common reason investors stop waiting.",
-                "fa": "Munger می‌گوید همیشه کسی سریع‌تر از تو ثروتمند می‌شود و این فاجعه نیست. حسادت به سود دیگران دلیلی رایج است که سرمایه‌گذاران از صبر دست می‌کشند."
+                "en": "Someone will always get rich faster than you, Munger says, and that is no tragedy. He treats envy of other people's gains as a trap to stay out of.",
+                "fa": "Munger می‌گوید همیشه کسی سریع‌تر از تو ثروتمند می‌شود و این فاجعه نیست. او حسادت به سود دیگران را دامی می‌داند که باید از آن دور ماند."
               }
             },
             {
@@ -920,8 +920,8 @@
               "kind": "card",
               "id": "b26c1l4p12",
               "text": {
-                "en": "Munger's two-step analysis: first, which factors really govern the interests involved? Second, which subconscious tendencies are pushing my brain toward a wrong answer?",
-                "fa": "تحلیل دومرحله‌ای Munger: اول، چه عواملی واقعاً بر منافع درگیر حاکم‌اند؟ دوم، کدام گرایش‌های ناخودآگاه مغزم را به سمت پاسخی نادرست می‌برند؟"
+                "en": "Munger's two-track analysis: first, which factors really govern the interests involved? Second, which subconscious tendencies are pushing my brain toward a wrong answer?",
+                "fa": "تحلیل دومسیرهٔ Munger: اول، چه عواملی واقعاً بر منافع درگیر حاکم‌اند؟ دوم، کدام گرایش‌های ناخودآگاه مغزم را به سمت پاسخی نادرست می‌برند؟"
               }
             },
             {
@@ -930,8 +930,8 @@
               "type": "tap",
               "source": "b26c1l4p12",
               "prompt": {
-                "en": "What does the second step of Munger's two-step analysis ask?",
-                "fa": "مرحلهٔ دوم تحلیل دومرحله‌ای Munger چه می‌پرسد؟"
+                "en": "What does the second track of Munger's two-track analysis ask?",
+                "fa": "مسیر دوم تحلیل دومسیرهٔ Munger چه می‌پرسد؟"
               },
               "options": [
                 {
@@ -961,8 +961,8 @@
               "kind": "card",
               "id": "b26c1l4p14",
               "text": {
-                "en": "Munger admits that knowing the tendencies does not make anyone immune, himself included. The aim is fewer and smaller errors over a lifetime.",
-                "fa": "Munger می‌پذیرد که شناختن این گرایش‌ها هیچ‌کس، از جمله خودش، را مصون نمی‌کند. هدف خطاهای کمتر و کوچک‌تر در طول عمر است."
+                "en": "Munger recounts his own costly mistakes, so knowing the tendencies does not make anyone immune. He still holds that the knowledge helps you prevent trouble.",
+                "fa": "Munger از اشتباه‌های پرهزینهٔ خودش می‌گوید، پس شناختن این گرایش‌ها هیچ‌کس را مصون نمی‌کند. با این حال معتقد است این دانش به پیشگیری از دردسر کمک می‌کند."
               }
             },
             {

@@ -602,8 +602,8 @@
               "kind": "card",
               "id": "b23c1l3p10",
               "text": {
-                "en": "Clear calls the laws levers. If a habit is not sticking, ask which law you are breaking: a hidden cue, a weak craving, a hard action or a missing reward.",
-                "fa": "Clear این قانون‌ها را اهرم می‌نامد. اگر عادتی نمی‌ماند، بپرس کدام قانون را زیر پا گذاشته‌ای: نشانهٔ پنهان، میل ضعیف، کار سخت یا پاداشِ غایب."
+                "en": "Clear calls each law a lever that influences behavior. A habit fails when a stage is weak: a hidden cue, a weak craving, a hard action or a missing reward.",
+                "fa": "Clear هر قانون را اهرمی می‌داند که بر رفتار اثر می‌گذارد. عادت وقتی شکل نمی‌گیرد که یک مرحله ضعیف باشد: نشانهٔ پنهان، میل ضعیف، کار سخت یا پاداشِ غایب."
               }
             },
             {
@@ -620,8 +620,8 @@
               "type": "tf",
               "source": "b23c1l3p10",
               "prompt": {
-                "en": "Clear treats the four laws as levers you can check when a habit is not sticking.",
-                "fa": "Clear چهار قانون را اهرم‌هایی می‌داند که وقتی عادتی نمی‌ماند می‌شود بررسی‌شان کرد."
+                "en": "Clear describes each of the four laws as a lever that influences behavior.",
+                "fa": "Clear هر یک از چهار قانون را اهرمی می‌داند که بر رفتار اثر می‌گذارد."
               },
               "answer": true
             }
@@ -706,8 +706,8 @@
               "kind": "card",
               "id": "b23c2l1p5",
               "text": {
-                "en": "Clear notes that fresh starts help: people are more likely to begin a habit on a Monday, a birthday or the first day of a month.",
-                "fa": "Clear می‌گوید شروع‌های تازه کمک می‌کنند: آدم‌ها بیشتر احتمال دارد عادتی را در یک دوشنبه، یک تولد یا روز اول ماه شروع کنند."
+                "en": "Clear notes that fresh starts help: if you are unsure when to begin, try the first day of the week, month or year, when hope is usually higher.",
+                "fa": "Clear می‌گوید شروع‌های تازه کمک می‌کنند: اگر نمی‌دانی کی شروع کنی، روز اول هفته، ماه یا سال را امتحان کن، چون امید در این وقت‌ها معمولاً بیشتر است."
               }
             },
             {
@@ -725,8 +725,8 @@
               "kind": "card",
               "id": "b23c2l1p6",
               "text": {
-                "en": "The Diderot Effect: after the philosopher Denis Diderot got a fine scarlet robe, his old things looked shabby, so he replaced them and fell into debt. One purchase leads to another.",
-                "fa": "اثر دیدرو (Diderot Effect): وقتی فیلسوف Denis Diderot ردایی ارغوانی و فاخر گرفت، وسایل قدیمی‌اش کهنه به نظر آمدند، پس عوضشان کرد و بدهکار شد. یک خرید به خرید بعدی می‌کشد."
+                "en": "The Diderot Effect: after the philosopher Denis Diderot acquired a fine scarlet robe, his old things looked shabby, so he replaced them one by one. One purchase leads to another.",
+                "fa": "اثر دیدرو (Diderot Effect): وقتی فیلسوف Denis Diderot ردایی سرخ و فاخر به دست آورد، وسایل قدیمی‌اش کهنه به نظر آمدند، پس یکی‌یکی عوضشان کرد. یک خرید به خرید بعدی می‌کشد."
               }
             },
             {
@@ -774,8 +774,8 @@
               "kind": "card",
               "id": "b23c2l1p9",
               "text": {
-                "en": "Stacks can chain: after I sit down to dinner, I will say one thing I'm grateful for. Each habit becomes the cue for the next.",
-                "fa": "انباشت‌ها می‌توانند زنجیر شوند: بعد از نشستن سر شام، یک چیز را که بابتش سپاسگزارم می‌گویم. هر عادت نشانهٔ عادت بعدی می‌شود."
+                "en": "Stacks can chain: after I pour my coffee, I will meditate for sixty seconds; after I meditate, I will write my to-do list. Each habit becomes the cue for the next.",
+                "fa": "انباشت‌ها می‌توانند زنجیر شوند: بعد از ریختن قهوه، شصت ثانیه مراقبه می‌کنم؛ بعد از مراقبه، فهرست کارهای روزم را می‌نویسم. هر عادت نشانهٔ عادت بعدی می‌شود."
               }
             },
             {
@@ -793,8 +793,8 @@
               "kind": "card",
               "id": "b23c2l1p10",
               "text": {
-                "en": "The cue must be specific and match the new habit's time and place. 'When I take a break' is vague; 'after I close my laptop for lunch' is clear.",
-                "fa": "نشانه باید دقیق باشد و با زمان و مکان عادت تازه بخواند. «وقتی استراحت می‌کنم» مبهم است؛ «بعد از بستن لپ‌تاپ برای ناهار» روشن است."
+                "en": "The cue must be highly specific and immediately actionable. 'When I take a break for lunch' is vague; 'when I close my laptop for lunch' is clear.",
+                "fa": "نشانه باید کاملاً دقیق و فوراً قابل اجرا باشد. «وقتی برای ناهار استراحت می‌کنم» مبهم است؛ «وقتی لپ‌تاپم را برای ناهار می‌بندم» روشن است."
               }
             },
             {
@@ -921,8 +921,8 @@
               "kind": "card",
               "id": "b23c2l2p6",
               "text": {
-                "en": "Habits are easier to build in a new environment, away from old cues. One space, one use: keep a desk only for work and a bed only for sleep.",
-                "fa": "ساختن عادت در محیطی تازه و دور از نشانه‌های قدیمی آسان‌تر است. یک فضا، یک کاربرد: میز فقط برای کار و تخت فقط برای خواب."
+                "en": "Habits are easier to change in a new environment, away from old cues. One space, one use: a chair for reading, a desk for writing, a table for eating.",
+                "fa": "تغییر عادت در محیطی تازه و دور از نشانه‌های قدیمی آسان‌تر است. یک فضا، یک کاربرد: صندلی برای خواندن، میز تحریر برای نوشتن و میز غذا برای خوردن."
               }
             },
             {
@@ -989,8 +989,8 @@
               "kind": "card",
               "id": "b23c2l2p10",
               "text": {
-                "en": "If you waste time on your phone, leave it in another room for a few hours. Out of sight, it stops cueing you.",
-                "fa": "اگر وقتت را با گوشی هدر می‌دهی، چند ساعت آن را در اتاق دیگری بگذار. وقتی دیده نشود، دیگر نشانه نمی‌دهد."
+                "en": "If you can't seem to get any work done, leave your phone in another room for a few hours. Out of sight, it stops cueing you.",
+                "fa": "اگر کارت پیش نمی‌رود، گوشی‌ات را چند ساعت در اتاق دیگری بگذار. وقتی دیده نشود، دیگر نشانه نمی‌دهد."
               }
             },
             {
@@ -1049,8 +1049,8 @@
               "kind": "card",
               "id": "b23c2l3p2",
               "text": {
-                "en": "Biologist Niko Tinbergen found that herring gull chicks peck at a red spot on the parent's beak. A fake beak with bigger red spots, a supernormal stimulus, drew even harder pecking.",
-                "fa": "زیست‌شناسی به نام Niko Tinbergen دید جوجه‌مرغ‌های دریایی به لکهٔ قرمز روی منقار والد نوک می‌زنند. منقاری مصنوعی با لکه‌های قرمز بزرگ‌تر، یک «محرک فراطبیعی»، نوک زدن شدیدتری می‌گرفت."
+                "en": "Biologist Niko Tinbergen found that herring gull chicks peck at a red spot on the parent's beak. A fake beak with bigger red spots, a supernormal stimulus, drew even more pecking.",
+                "fa": "زیست‌شناسی به نام Niko Tinbergen دید جوجه‌مرغ‌های دریایی به لکهٔ قرمز روی منقار والد نوک می‌زنند. منقاری مصنوعی با لکه‌های قرمز بزرگ‌تر، یک «محرک فراطبیعی»، نوک زدن بیشتری می‌گرفت."
               }
             },
             {
@@ -1167,7 +1167,7 @@
               "id": "b23c2l3p9",
               "text": {
                 "en": "Cravings are predictions, and you can reframe them. Change 'I have to go to work' to 'I get to', or see saving money as gaining future freedom.",
-                "fa": "میل‌ها پیش‌بینی‌اند و می‌توانی قابشان را عوض کنی. «باید سر کار بروم» را به «می‌توانم سر کار بروم» تبدیل کن، یا پس‌انداز را به‌دست آوردن آزادی آینده ببین."
+                "fa": "میل‌ها پیش‌بینی‌اند و می‌توانی قابشان را عوض کنی. «باید سر کار بروم» را به «فرصت دارم سر کار بروم» تبدیل کن، یا پس‌انداز را به‌دست آوردن آزادی آینده ببین."
               }
             },
             {
@@ -1177,7 +1177,7 @@
               "source": "b23c2l3p9",
               "prompt": {
                 "en": "Clear suggests reframing 'I have to' as 'I get to' to make a habit more attractive.",
-                "fa": "Clear پیشنهاد می‌کند «باید» را به «می‌توانم» تبدیل کنی تا عادت جذاب‌تر شود."
+                "fa": "Clear پیشنهاد می‌کند «باید» را به «فرصت دارم» تبدیل کنی تا عادت جذاب‌تر شود."
               },
               "answer": true
             },
@@ -1330,8 +1330,8 @@
               "kind": "card",
               "id": "b23c3l1p7",
               "text": {
-                "en": "Reduce friction for good habits: a gym on your daily route gets used far more than one that is out of the way. Small barriers add up.",
-                "fa": "اصطکاک عادت‌های خوب را کم کن: باشگاهی که سر راه هر روزت است خیلی بیشتر از باشگاهی دورافتاده استفاده می‌شود. مانع‌های کوچک جمع می‌شوند."
+                "en": "Reduce friction for good habits: you are more likely to go to a gym that is on your way to work than to one that is out of the way. Small barriers add up.",
+                "fa": "اصطکاک عادت‌های خوب را کم کن: احتمال رفتنت به باشگاهی که سر راه کارت است بیشتر از باشگاهی دورافتاده است. مانع‌های کوچک جمع می‌شوند."
               }
             },
             {
@@ -1363,8 +1363,8 @@
               "kind": "card",
               "id": "b23c3l1p8",
               "text": {
-                "en": "Prime the environment for the next action. Clear calls this resetting the room: lay out your workout clothes, shoes and water bottle the night before.",
-                "fa": "محیط را برای کار بعدی آماده کن. Clear این را «بازچینی اتاق» می‌نامد: لباس ورزش، کفش و بطری آب را از شب قبل آماده بگذار."
+                "en": "Prime the environment for the next action, an idea Clear ties to 'resetting the room'. To exercise, set out your workout clothes, shoes and water bottle ahead of time.",
+                "fa": "محیط را برای کار بعدی آماده کن؛ Clear این ایده را به «بازچینی اتاق» پیوند می‌دهد. برای ورزش، لباس ورزش، کفش و بطری آب را از پیش آماده بگذار."
               }
             },
             {
@@ -1518,8 +1518,8 @@
               "kind": "card",
               "id": "b23c3l2p6",
               "text": {
-                "en": "Clear tells of Mitch, who lost over 100 pounds partly by going to the gym and never staying more than five minutes at first. He was building the habit of showing up.",
-                "fa": "Clear از Mitch می‌گوید که بیش از ۱۰۰ پوند وزن کم کرد، تا حدی با اینکه اول به باشگاه می‌رفت و هرگز بیش از پنج دقیقه نمی‌ماند. او داشت عادتِ حاضر شدن را می‌ساخت."
+                "en": "Clear tells of a reader who lost over 100 pounds; at first he went to the gym each day but never let himself stay more than five minutes. He was building the habit of showing up.",
+                "fa": "Clear از خواننده‌ای می‌گوید که بیش از ۱۰۰ پوند وزن کم کرد؛ اوایل هر روز به باشگاه می‌رفت اما به خودش اجازه نمی‌داد بیش از پنج دقیقه بماند. او داشت عادتِ حاضر شدن را می‌ساخت."
               }
             },
             {
@@ -1536,8 +1536,8 @@
               "type": "tap",
               "source": "b23c3l2p6",
               "prompt": {
-                "en": "What was Mitch building by leaving the gym after five minutes?",
-                "fa": "Mitch با ترک باشگاه بعد از پنج دقیقه چه می‌ساخت؟"
+                "en": "What was the reader building by leaving the gym after five minutes?",
+                "fa": "آن خواننده با ترک باشگاه بعد از پنج دقیقه چه می‌ساخت؟"
               },
               "options": [
                 {
@@ -1654,8 +1654,8 @@
               "kind": "card",
               "id": "b23c3l3p3",
               "text": {
-                "en": "In Karachi, health worker Stephen Luby handed out a premium soap that lathered well and smelled nice. Handwashing became satisfying, and diarrhea among children fell by 52 percent.",
-                "fa": "در Karachi، پژوهشگر سلامت Stephen Luby صابونی مرغوب پخش کرد که خوب کف می‌کرد و بوی خوشی داشت. شستن دست رضایت‌بخش شد و اسهال در میان کودکان ۵۲ درصد کم شد."
+                "en": "In Karachi, public health worker Stephen Luby handed out a premium soap that lathered well and smelled nice. Handwashing became satisfying, and diarrhea among children fell by 52 percent.",
+                "fa": "در Karachi، کارشناس سلامت عمومی Stephen Luby صابونی مرغوب پخش کرد که خوب کف می‌کرد و بوی خوشی داشت. شستن دست رضایت‌بخش شد و اسهال در میان کودکان ۵۲ درصد کم شد."
               }
             },
             {

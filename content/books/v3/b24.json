@@ -97,7 +97,7 @@
               "id": "b24c1l1p5",
               "text": {
                 "en": "Email, most meetings, status updates and form-filling are typical shallow work. They are needed, but they rarely move your career or your product forward.",
-                "fa": "ایمیل، بیشتر جلسه‌ها، گزارش وضعیت و پر کردن فرم‌ها نمونه‌های رایج کار سطحی‌اند. لازم‌اند، اما به‌ندرت کار یا محصولت را جلو می‌برند."
+                "fa": "ایمیل، بیشتر جلسه‌ها، گزارش وضعیت و پر کردن فرم‌ها نمونه‌های رایج کار سطحی‌اند. لازم‌اند، اما به‌ندرت مسیر شغلی یا محصولت را جلو می‌برند."
               }
             },
             {
@@ -123,8 +123,8 @@
               "kind": "card",
               "id": "b24c1l1p7",
               "text": {
-                "en": "He argues that network tools such as email, chat and social media have fragmented knowledge workers' attention. Writer Nicholas Carr described the same loss of focus in The Shallows.",
-                "fa": "او می‌گوید ابزارهای شبکه‌ای مثل ایمیل، چت و شبکه‌های اجتماعی توجه کارکنان دانشی را تکه‌تکه کرده‌اند. نویسنده Nicholas Carr همین از دست رفتن تمرکز را در کتاب The Shallows توصیف کرده است."
+                "en": "He argues that network tools such as email, SMS and social media have fragmented knowledge workers' attention. Writer Nicholas Carr described the same loss of focus in The Shallows.",
+                "fa": "او می‌گوید ابزارهای شبکه‌ای مثل ایمیل، پیامک و شبکه‌های اجتماعی توجه کارکنان دانشی را تکه‌تکه کرده‌اند. نویسنده Nicholas Carr همین از دست رفتن تمرکز را در کتاب The Shallows توصیف کرده است."
               }
             },
             {
@@ -138,8 +138,8 @@
               },
               "options": [
                 {
-                  "en": "Network tools such as email, chat and social media",
-                  "fa": "ابزارهای شبکه‌ای مثل ایمیل، چت و شبکه‌های اجتماعی"
+                  "en": "Network tools such as email, SMS and social media",
+                  "fa": "ابزارهای شبکه‌ای مثل ایمیل، پیامک و شبکه‌های اجتماعی"
                 },
                 {
                   "en": "Too many long books",
@@ -191,8 +191,8 @@
               "kind": "card",
               "id": "b24c1l1p11",
               "text": {
-                "en": "Start by counting this week how many hours were truly deep. Most knowledge workers who try this are surprised by how small the number is.",
-                "fa": "از این هفته شروع کن و بشمار چند ساعتت واقعاً عمیق بوده است. بیشتر کارکنان دانشی که این را امتحان می‌کنند از کوچکی این عدد شگفت‌زده می‌شوند."
+                "en": "Start by counting this week how many hours were truly deep. The number is often smaller than it feels, because shallow work fills a day quietly.",
+                "fa": "از این هفته شروع کن و بشمار چند ساعتت واقعاً عمیق بوده است. این عدد اغلب کوچک‌تر از چیزی است که حس می‌کنی، چون کار سطحی بی‌سروصدا روز را پر می‌کند."
               }
             },
             {
@@ -425,16 +425,16 @@
               "kind": "card",
               "id": "b24c1l3p2",
               "text": {
-                "en": "Newport points to three trends: open offices, instant messaging, and the push for workers to keep a social media presence. Each is sold as helping collaboration or serendipity.",
-                "fa": "Newport به سه روند اشاره می‌کند: دفترهای باز، پیام‌رسان فوری و فشار برای حضور در شبکه‌های اجتماعی. هر کدام به اسم کمک به همکاری یا برخورد اتفاقی فروخته می‌شود."
+                "en": "Newport points to three trends: open offices, instant messaging, and the push for workers to keep a social media presence. Businesses embrace them even though they fragment attention.",
+                "fa": "Newport به سه روند اشاره می‌کند: دفترهای باز، پیام‌رسان فوری و فشار برای حضور در شبکه‌های اجتماعی. کسب‌وکارها آن‌ها را می‌پذیرند، با این‌که توجه را تکه‌تکه می‌کنند."
               }
             },
             {
               "kind": "card",
               "id": "b24c1l3p3",
               "text": {
-                "en": "He opens with Jack Dorsey, who said he did much of his work at standing tables in open space, open to interruption. Newport asks whether that style suits most knowledge workers.",
-                "fa": "او با Jack Dorsey شروع می‌کند که گفته بود بیشتر کارش را پشت میزهای ایستاده در فضای باز و در دسترس وقفه‌ها انجام می‌دهد. Newport می‌پرسد آیا این سبک به کار بیشتر کارکنان دانشی می‌آید."
+                "en": "The chapter opens with Facebook's plans for a new headquarters by architect Frank Gehry: one vast open floor plan for thousands of employees. Newport treats it as a sign of the trend.",
+                "fa": "فصل با طرح Facebook برای دفتر مرکزی تازه‌اش به طراحی معمار Frank Gehry شروع می‌شود: یک فضای باز عظیم برای هزاران کارمند. Newport آن را نشانه‌ای از همین روند می‌داند."
               }
             },
             {
@@ -474,8 +474,8 @@
               "kind": "card",
               "id": "b24c1l3p5",
               "text": {
-                "en": "Tom Cochran, a CTO at Atlantic Media, estimated his company spent about one million dollars a year of staff time on email. Such numbers are rarely tracked.",
-                "fa": "Tom Cochran، یک CTO در Atlantic Media، برآورد کرد شرکتش سالانه حدود یک میلیون دلار از وقت کارکنان را صرف ایمیل می‌کند. چنین عددهایی به‌ندرت ردیابی می‌شوند."
+                "en": "Tom Cochran, CTO of Atlantic Media, estimated his company spent well over a million dollars a year paying staff to process email. Such numbers are rarely tracked.",
+                "fa": "Tom Cochran، CTO شرکت Atlantic Media، برآورد کرد شرکتش سالانه بسیار بیش از یک میلیون دلار به کارکنان می‌پردازد تا ایمیل پردازش کنند. چنین عددهایی به‌ندرت ردیابی می‌شوند."
               }
             },
             {
@@ -569,8 +569,8 @@
               "kind": "card",
               "id": "b24c1l3p11",
               "text": {
-                "en": "In a new Dutch job, expect open-plan desks and fast Slack norms. Note what your team rewards, then decide which habits you will quietly not copy.",
-                "fa": "در یک کار تازه در هلند، انتظار میزهای باز و هنجار پاسخ سریع در Slack را داشته باش. ببین تیمت به چه پاداش می‌دهد، بعد تصمیم بگیر کدام عادت‌ها را بی‌سروصدا تکرار نکنی."
+                "en": "A new job may come with open-plan desks and fast Slack norms. Note what your team rewards, then decide which habits you will quietly not copy.",
+                "fa": "یک کار تازه ممکن است با میزهای باز و هنجار پاسخ سریع در Slack همراه باشد. ببین تیمت به چه پاداش می‌دهد، بعد تصمیم بگیر کدام عادت‌ها را بی‌سروصدا تکرار نکنی."
               }
             },
             {
@@ -690,8 +690,8 @@
               "kind": "card",
               "id": "b24c2l1p5",
               "text": {
-                "en": "The bimodal philosophy splits time into clear deep stretches and open stretches. Carl Jung retreated to Bollingen, then returned to his busy practice in Zurich.",
-                "fa": "فلسفهٔ دووجهی (bimodal) زمان را به بازه‌های روشنِ عمیق و بازه‌های باز تقسیم می‌کند. Carl Jung به Bollingen پناه می‌برد و بعد به مطب شلوغش در Zurich برمی‌گشت."
+                "en": "The bimodal philosophy splits time into clear deep stretches, at least a full day each, and open stretches. Carl Jung retreated to Bollingen, then returned to his busy practice in Zurich.",
+                "fa": "فلسفهٔ دووجهی (bimodal) زمان را به بازه‌های روشنِ عمیق، هر کدام دست‌کم یک روز کامل، و بازه‌های باز تقسیم می‌کند. Carl Jung به Bollingen پناه می‌برد و بعد به مطب شلوغش در Zurich برمی‌گشت."
               }
             },
             {
@@ -936,8 +936,8 @@
               "kind": "card",
               "id": "b24c2l2p6",
               "text": {
-                "en": "Keep a compelling scoreboard: Newport tallies deep hours on a card at his desk and circles the tally on days with a key result. Seeing it builds momentum.",
-                "fa": "جدول امتیاز گیرا نگه دار: Newport ساعت‌های عمیق را روی یک کارت روی میزش خط می‌زند و روزهایی که نتیجهٔ مهمی داشت را دور خط‌ها دایره می‌کشد. دیدنش انگیزه می‌سازد."
+                "en": "Keep a compelling scoreboard: Newport tallies deep hours on a card he can see, and circles the mark for an hour in which he reached a key result. Seeing it builds momentum.",
+                "fa": "جدول امتیاز گیرا نگه دار: Newport ساعت‌های عمیق را روی کارتی جلوی چشمش خط می‌زند و دور خطِ ساعتی که در آن به نتیجهٔ مهمی رسید دایره می‌کشد. دیدنش شتاب می‌سازد."
               }
             },
             {
@@ -1004,16 +1004,16 @@
               "kind": "card",
               "id": "b24c2l2p10",
               "text": {
-                "en": "The work evening downtime replaces is rarely important: Ericsson found that even experts manage about four hours of deliberate practice a day. Past that, quality drops.",
-                "fa": "کاری که استراحت عصر جایش را می‌گیرد به‌ندرت مهم است: Ericsson دید حتی خبره‌ها روزانه حدود چهار ساعت تمرین آگاهانه دارند. بیش از آن، کیفیت افت می‌کند."
+                "en": "The work evening downtime replaces is rarely important: Ericsson found that even experts manage about four hours of deliberate practice a day, and rarely more.",
+                "fa": "کاری که استراحت عصر جایش را می‌گیرد به‌ندرت مهم است: Ericsson دید حتی خبره‌ها روزانه حدود چهار ساعت تمرین آگاهانه دارند و به‌ندرت بیشتر."
               }
             },
             {
               "kind": "card",
               "id": "b24c2l2p11",
               "text": {
-                "en": "Apply 4DX to your roadmap: wildly important goal, €100 a month from the AI product. Lead measure: deep hours on it, tallied on a card and reviewed every Sunday.",
-                "fa": "4DX را روی نقشهٔ راهت پیاده کن: هدف بسیار مهم، ماهی ۱۰۰ یورو از محصول AI. معیار پیشرو: ساعت‌های عمیق روی آن، خط‌خورده روی کارت و مرورشده هر یکشنبه."
+                "en": "Apply 4DX to your roadmap: wildly important goal, the first €100 of income from the AI product. Lead measure: deep hours on it, tallied on a card and reviewed every Sunday.",
+                "fa": "4DX را روی نقشهٔ راهت پیاده کن: هدف بسیار مهم، اولین ۱۰۰ یورو درآمد از محصول AI. معیار پیشرو: ساعت‌های عمیق روی آن، خط‌خورده روی کارت و مرورشده هر یکشنبه."
               }
             },
             {
@@ -1171,8 +1171,8 @@
               "kind": "card",
               "id": "b24c2l3p9",
               "text": {
-                "en": "The ritual must be strict: any loophole lets work creep back into the evening. Newport says it takes him five to fifteen minutes.",
-                "fa": "آیین باید سخت‌گیرانه باشد: هر روزنه‌ای کار را دوباره به عصر برمی‌گرداند. Newport می‌گوید این آیین برایش پنج تا پانزده دقیقه طول می‌کشد."
+                "en": "The ritual must be strict: any loophole lets work creep back into the evening. Newport says it adds an extra ten to fifteen minutes to the end of the workday.",
+                "fa": "آیین باید سخت‌گیرانه باشد: هر روزنه‌ای کار را دوباره به عصر برمی‌گرداند. Newport می‌گوید این آیین ده تا پانزده دقیقه به پایان روز کاری اضافه می‌کند."
               }
             },
             {
@@ -1181,8 +1181,8 @@
               "type": "tap",
               "source": "b24c2l3p9",
               "prompt": {
-                "en": "How long does Newport say his shutdown takes?",
-                "fa": "Newport می‌گوید خاموشی‌اش چقدر طول می‌کشد؟"
+                "en": "How much time does Newport say a shutdown ritual adds to the workday?",
+                "fa": "Newport می‌گوید آیین خاموشی چقدر به روز کاری اضافه می‌کند؟"
               },
               "options": [
                 {
@@ -1190,8 +1190,8 @@
                   "fa": "یک ساعت یا بیشتر"
                 },
                 {
-                  "en": "Five to fifteen minutes",
-                  "fa": "پنج تا پانزده دقیقه"
+                  "en": "Ten to fifteen minutes",
+                  "fa": "ده تا پانزده دقیقه"
                 },
                 {
                   "en": "Under ten seconds",
@@ -1259,8 +1259,8 @@
               "kind": "card",
               "id": "b24c3l1p2",
               "text": {
-                "en": "Newport opens with Adam Marlin, who joined a group that studied Jewish texts intensely each day. The hard, focused study felt like training a muscle.",
-                "fa": "Newport با Adam Marlin شروع می‌کند که به گروهی پیوست که هر روز متون یهودی را فشرده مطالعه می‌کردند. این مطالعهٔ سخت و متمرکز مثل تمرین دادن یک عضله بود."
+                "en": "Newport opens with Adam Marlin, a businessman who regularly studies the Talmud in intense morning sessions. Marlin says the daily mental strain has sharpened his thinking at work.",
+                "fa": "Newport با Adam Marlin شروع می‌کند، کاسبی که به‌طور منظم در جلسه‌های فشردهٔ صبحگاهی Talmud می‌خواند. Marlin می‌گوید این فشار ذهنی روزانه فکرش را در کار تیزتر کرده است."
               }
             },
             {
@@ -1327,8 +1327,8 @@
               "kind": "card",
               "id": "b24c3l1p6",
               "text": {
-                "en": "Work like Teddy Roosevelt: at Harvard he studied in short, very intense bursts and had time left for a full social life. Set a hard deadline well under the usual time.",
-                "fa": "مثل Teddy Roosevelt کار کن: او در Harvard در بازه‌های کوتاه و بسیار فشرده درس می‌خواند و برای یک زندگی اجتماعی کامل هم وقت داشت. یک ضرب‌الاجل سخت و بسیار کمتر از زمان معمول بگذار."
+                "en": "Work like Teddy Roosevelt: at Harvard he studied in short, very intense bursts and had time left for many other interests. Set a hard deadline well under the usual time.",
+                "fa": "مثل Teddy Roosevelt کار کن: او در Harvard در بازه‌های کوتاه و بسیار فشرده درس می‌خواند و برای علاقه‌های فراوان دیگرش هم وقت داشت. یک ضرب‌الاجل سخت و بسیار کمتر از زمان معمول بگذار."
               }
             },
             {
@@ -1384,7 +1384,7 @@
               "kind": "card",
               "id": "b24c3l1p10",
               "text": {
-                "en": "Try it this week: block internet use on your laptop to three set times a day, and use your Amsterdam bike rides for productive meditation on one product problem.",
+                "en": "Try it this week: limit internet use on your laptop to three set times a day, and use your bike rides for productive meditation on one product problem.",
                 "fa": "این هفته امتحانش کن: استفاده از اینترنت روی لپ‌تاپ را به سه زمان ثابت در روز محدود کن، و دوچرخه‌سواری‌هایت را برای مراقبهٔ بهره‌ور روی یک مسئلهٔ محصول به کار بگیر."
               }
             },
@@ -1455,8 +1455,8 @@
               "kind": "card",
               "id": "b24c3l2p2",
               "text": {
-                "en": "Newport opens with Baratunde Thurston, who took a 25-day social media break after a year of extreme connection. He found he did not miss most of it.",
-                "fa": "Newport با Baratunde Thurston شروع می‌کند که پس از یک سال اتصال افراطی، ۲۵ روز از شبکه‌های اجتماعی فاصله گرفت. دید که دلش برای بیشتر آن تنگ نشده است."
+                "en": "Newport opens with Baratunde Thurston, a digital media consultant who went offline for 25 days. It did not take him long to adjust to a disconnected life.",
+                "fa": "Newport با Baratunde Thurston شروع می‌کند، مشاور رسانه‌های دیجیتال که ۲۵ روز آفلاین شد. طولی نکشید که به زندگی بدون اتصال عادت کرد."
               }
             },
             {
@@ -1721,8 +1721,8 @@
               "kind": "card",
               "id": "b24c3l3p8",
               "text": {
-                "en": "If the answer is months, the task is deep; if it is weeks or less, it is shallow. Writing a hard algorithm is deep; formatting a slide deck is shallow.",
-                "fa": "اگر پاسخ چند ماه است، کار عمیق است؛ اگر چند هفته یا کمتر است، سطحی است. نوشتن یک الگوریتم سخت عمیق است؛ قالب‌بندی یک اسلاید سطحی است."
+                "en": "A task that would take many months to teach is deep; one that needs little training is shallow. In Newport's examples, editing an academic paper is deep and building a sales slide deck is shallow.",
+                "fa": "کاری که آموزشش ماه‌های زیادی طول می‌کشد عمیق است؛ کاری که آموزش کمی می‌خواهد سطحی است. در مثال‌های Newport، ویرایش یک مقالهٔ علمی عمیق است و ساختن اسلاید فروش سطحی."
               }
             },
             {
@@ -1772,8 +1772,8 @@
               "type": "tf",
               "source": "b24c3l3p9",
               "prompt": {
-                "en": "Newport suggests most knowledge workers spend 30 to 50 percent of time on shallow work.",
-                "fa": "Newport پیشنهاد می‌کند بیشتر کارکنان دانشی ۳۰ تا ۵۰ درصد وقتشان را صرف کار سطحی کنند."
+                "en": "Newport says the shallow work budget of most non-entry-level knowledge workers lands at 30 to 50 percent.",
+                "fa": "Newport می‌گوید بودجهٔ کار سطحیِ بیشتر کارکنان دانشی غیرتازه‌کار به ۳۰ تا ۵۰ درصد می‌رسد."
               },
               "answer": true
             },

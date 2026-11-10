@@ -267,16 +267,16 @@
               "kind": "card",
               "id": "b07c1l2p4",
               "text": {
-                "en": "Bogle founded Vanguard in 1974 and in 1976 launched the first index mutual fund for individual investors. Wall Street mocked it as Bogle's Folly.",
-                "fa": "Bogle در ۱۹۷۴ Vanguard را بنیان گذاشت و در ۱۹۷۶ نخستین صندوق شاخصی برای سرمایه‌گذاران فردی را راه انداخت. Wall Street آن را «حماقت Bogle» نامید و مسخره کرد."
+                "en": "Bogle founded Vanguard in 1974 and soon after created the first index mutual fund for individual investors. Wall Street mocked it as Bogle's Folly.",
+                "fa": "Bogle در ۱۹۷۴ Vanguard را بنیان گذاشت و کمی بعد نخستین صندوق شاخصی برای سرمایه‌گذاران فردی را ساخت. Wall Street آن را «حماقت Bogle» نامید و مسخره کرد."
               }
             },
             {
               "kind": "card",
               "id": "b07c1l2p5",
               "text": {
-                "en": "Its first offering raised only about $11 million, far below the $150 million its organizers had hoped for.",
-                "fa": "نخستین عرضهٔ آن فقط حدود ۱۱ میلیون دلار جمع کرد، بسیار کمتر از ۱۵۰ میلیون دلاری که برگزارکنندگان امید داشتند."
+                "en": "Its first offering raised only a small fraction of the money its organizers had hoped for.",
+                "fa": "نخستین عرضهٔ آن فقط بخش کوچکی از پولی را جمع کرد که برگزارکنندگان امید داشتند."
               }
             },
             {
@@ -359,8 +359,8 @@
               "kind": "card",
               "id": "b07c1l2p11",
               "text": {
-                "en": "For you, the haystack can be one broad global index ETF such as VWCE or IWDA as the 80 percent core, held through every headline.",
-                "fa": "برای تو، انبار کاه می‌تواند یک ETF شاخصی جهانی و گسترده مثل VWCE یا IWDA باشد، به‌عنوان هستهٔ ۸۰ درصدی، که در برابر هر تیتر خبری نگهش می‌داری."
+                "en": "Your roadmap applies the haystack idea: a core of about 80 percent in broad global index ETFs, with VWCE and IWDA named as examples.",
+                "fa": "نقشهٔ راه تو همین ایدهٔ انبار کاه را به کار می‌گیرد: هسته‌ای حدود ۸۰ درصدی از ETFهای شاخصی جهانی و گسترده، که VWCE و IWDA نمونه‌هایش هستند."
               }
             },
             {
@@ -538,8 +538,8 @@
               "kind": "card",
               "id": "b07c1l3p12",
               "text": {
-                "en": "Before you open a DEGIRO or Interactive Brokers account, write down every cost layer: fund fee, order fee, currency conversion and any yearly fee.",
-                "fa": "پیش از باز کردن حساب در DEGIRO یا Interactive Brokers، همهٔ لایه‌های هزینه را بنویس: کارمزد صندوق، کارمزد سفارش، تبدیل ارز و هر کارمزد سالانه."
+                "en": "Before you open a broker account, write down every cost layer: fund fee, order fee, currency conversion and any yearly fee.",
+                "fa": "پیش از باز کردن حساب کارگزاری، همهٔ لایه‌های هزینه را بنویس: کارمزد صندوق، کارمزد سفارش، تبدیل ارز و هر کارمزد سالانه."
               }
             },
             {
@@ -805,16 +805,16 @@
               "kind": "card",
               "id": "b07c2l2p4",
               "text": {
-                "en": "Run the arithmetic: €10,000 growing at 8 percent for 50 years becomes about €469,000. At 5.5 percent, after 2.5 points of costs, it becomes about €145,000.",
-                "fa": "حساب کن: ۱۰٬۰۰۰ یورو با رشد ۸ درصد در ۵۰ سال حدود ۴۶۹٬۰۰۰ یورو می‌شود. با ۵٫۵ درصد، یعنی پس از ۲٫۵ واحد هزینه، حدود ۱۴۵٬۰۰۰ یورو می‌شود."
+                "en": "To illustrate Bogle's point with round numbers: €10,000 growing at 8 percent for 50 years becomes about €469,000. At 5.5 percent, after 2.5 points of costs, it becomes about €145,000.",
+                "fa": "برای روشن شدن حرف Bogle با عددهای سرراست: ۱۰٬۰۰۰ یورو با رشد ۸ درصد در ۵۰ سال حدود ۴۶۹٬۰۰۰ یورو می‌شود. با ۵٫۵ درصد، یعنی پس از ۲٫۵ واحد هزینه، حدود ۱۴۵٬۰۰۰ یورو می‌شود."
               }
             },
             {
               "kind": "card",
               "id": "b07c2l2p5",
               "text": {
-                "en": "In that example costs take about two thirds of the potential wealth, though the investor put up all the capital and took all the risk.",
-                "fa": "در این مثال هزینه‌ها حدود دوسوم ثروت بالقوه را می‌برند، در حالی که سرمایه‌گذار همهٔ سرمایه را گذاشت و همهٔ ریسک را پذیرفت."
+                "en": "In that illustration costs take more than two thirds of the potential wealth, though the investor put up all the capital and took all the risk.",
+                "fa": "در این مثال هزینه‌ها بیش از دوسوم ثروت بالقوه را می‌برند، در حالی که سرمایه‌گذار همهٔ سرمایه را گذاشت و همهٔ ریسک را پذیرفت."
               }
             },
             {
@@ -831,8 +831,8 @@
               "type": "tf",
               "source": "b07c2l2p5",
               "prompt": {
-                "en": "In the example, costs take about two thirds of the potential wealth.",
-                "fa": "در این مثال، هزینه‌ها حدود دوسوم ثروت بالقوه را می‌برند."
+                "en": "In the illustration, costs take more than two thirds of the potential wealth.",
+                "fa": "در این مثال، هزینه‌ها بیش از دوسوم ثروت بالقوه را می‌برند."
               },
               "answer": true
             },
@@ -943,8 +943,8 @@
               "kind": "card",
               "id": "b07c2l3p2",
               "text": {
-                "en": "Bogle looks at how investors who bought funds through brokers fared. On average they did worse than investors who chose low-cost funds themselves.",
-                "fa": "Bogle بررسی می‌کند سرمایه‌گذارانی که از طریق کارگزار صندوق خریدند چه نتیجه‌ای گرفتند. به‌طور میانگین بدتر از کسانی بودند که خودشان صندوق کم‌هزینه انتخاب کردند."
+                "en": "Bogle looks at how investors who bought funds through brokers fared. On average they did worse than investors who bought funds directly, without a broker.",
+                "fa": "Bogle بررسی می‌کند سرمایه‌گذارانی که از طریق کارگزار صندوق خریدند چه نتیجه‌ای گرفتند. به‌طور میانگین بدتر از کسانی بودند که صندوق را مستقیم و بدون کارگزار خریدند."
               }
             },
             {
@@ -961,8 +961,8 @@
               "type": "tf",
               "source": "b07c2l3p2",
               "prompt": {
-                "en": "On average, investors using brokers did better than those who picked low-cost funds themselves.",
-                "fa": "به‌طور میانگین، کسانی که از کارگزار استفاده کردند بهتر از کسانی بودند که خودشان صندوق کم‌هزینه انتخاب کردند."
+                "en": "On average, investors using brokers did better than those who bought funds directly.",
+                "fa": "به‌طور میانگین، کسانی که از کارگزار استفاده کردند بهتر از کسانی بودند که صندوق را مستقیم خریدند."
               },
               "answer": false
             },
@@ -1337,8 +1337,8 @@
               "kind": "card",
               "id": "b07c3l2p4",
               "text": {
-                "en": "Over 1980 to 2005, he found the average fund investor earned several points a year less than the average fund, which itself lagged the market.",
-                "fa": "او دریافت که از ۱۹۸۰ تا ۲۰۰۵، میانگین سرمایه‌گذار صندوق سالانه چند واحد درصد کمتر از میانگین صندوق به دست آورد، که خودش هم از بازار عقب بود."
+                "en": "Over 1980 to 2005, he found the average fund investor earned more than two points a year less than the average fund, which itself lagged the market.",
+                "fa": "او دریافت که از ۱۹۸۰ تا ۲۰۰۵، میانگین سرمایه‌گذار صندوق سالانه بیش از دو واحد درصد کمتر از میانگین صندوق به دست آورد، که خودش هم از بازار عقب بود."
               }
             },
             {
@@ -1481,8 +1481,8 @@
               "id": "b07c3l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Bogle's chapters on asset allocation and his closing advice. It matters because the split between stocks and bonds drives most of your risk.",
-                "fa": "این درس فصل‌های Bogle دربارهٔ تخصیص دارایی و توصیهٔ پایانی‌اش را خلاصه می‌کند. مهم است چون تقسیم میان سهام و اوراق بیشترِ ریسک تو را تعیین می‌کند."
+                "en": "This Lesson distils Bogle's advice on asset allocation, expanded in the 2017 edition, and his closing advice. It matters because the split between stocks and bonds drives most of your risk.",
+                "fa": "این درس توصیهٔ Bogle دربارهٔ تخصیص دارایی، که در ویراست ۲۰۱۷ گسترش یافت، و توصیهٔ پایانی‌اش را خلاصه می‌کند. مهم است چون تقسیم میان سهام و اوراق بیشترِ ریسک تو را تعیین می‌کند."
               }
             },
             {
@@ -1565,8 +1565,8 @@
               "kind": "card",
               "id": "b07c3l3p7",
               "text": {
-                "en": "The hardest part is behavior. Bogle's closing rule is stay the course: costs matter, time is your friend, impulse is your enemy.",
-                "fa": "سخت‌ترین بخش رفتار است. قاعدهٔ پایانی Bogle این است که در مسیر بمانی: هزینه‌ها مهم‌اند، زمان دوست توست، تکانه دشمن توست."
+                "en": "The hardest part is behavior. Bogle's closing advice is to stay the course: keep costs low, give the plan time, and treat impulse as the enemy.",
+                "fa": "سخت‌ترین بخش رفتار است. توصیهٔ پایانی Bogle این است که در مسیر بمانی: هزینه‌ها را پایین نگه دار، به برنامه زمان بده و تکانه را دشمن بدان."
               }
             },
             {
@@ -1591,8 +1591,8 @@
               "type": "tap",
               "source": "b07c3l3p7",
               "prompt": {
-                "en": "In Bogle's closing rule, what is your enemy?",
-                "fa": "در قاعدهٔ پایانی Bogle، دشمن تو چیست؟"
+                "en": "In Bogle's closing advice, what is the enemy?",
+                "fa": "در توصیهٔ پایانی Bogle، دشمن چیست؟"
               },
               "options": [
                 {

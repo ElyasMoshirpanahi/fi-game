@@ -39,8 +39,8 @@
               "id": "b01c1l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 1, No One's Crazy: money is a behaviour skill, not a maths skill. For an engineer moving to the Netherlands with about €40k, habits will matter more than any spreadsheet.",
-                "fa": "این درس فصل ۱، «هیچ‌کس دیوانه نیست»، را خلاصه می‌کند: پول مهارتی رفتاری است، نه ریاضی. برای مهندسی که با حدود ۴۰ هزار یورو به هلند می‌رود، عادت‌ها مهم‌تر از هر spreadsheet خواهند بود."
+                "en": "This Lesson distils the Introduction and chapter 1, No One's Crazy: money is a behaviour skill, not a maths skill. For an engineer moving to the Netherlands with about €40k, habits matter more than any spreadsheet.",
+                "fa": "این درس مقدمه و فصل ۱، «هیچ‌کس دیوانه نیست»، را خلاصه می‌کند: پول مهارتی رفتاری است، نه ریاضی. برای مهندسی که با حدود ۴۰ هزار یورو به هلند می‌رود، عادت‌ها مهم‌تر از هر spreadsheet هستند."
               }
             },
             {
@@ -89,7 +89,7 @@
               "id": "b01c1l1p4",
               "text": {
                 "en": "Richard Fuscone was a Harvard-educated Merrill Lynch executive who retired in his forties. Heavy borrowing and an 18,000 square foot house left him bankrupt after the 2008 financial crisis.",
-                "fa": "Richard Fuscone مدیر تحصیل‌کردهٔ Harvard در Merrill Lynch بود که در چهل‌سالگی بازنشسته شد. قرض‌های سنگین و خانه‌ای ۱۸ هزار فوت مربعی، او را بعد از بحران مالی ۲۰۰۸ ورشکست کرد."
+                "fa": "Richard Fuscone مدیر تحصیل‌کردهٔ Harvard در Merrill Lynch بود که در چهل‌وچند سالگی بازنشسته شد. قرض‌های سنگین و خانه‌ای ۱۸ هزار فوت مربعی، او را بعد از بحران مالی ۲۰۰۸ ورشکست کرد."
               }
             },
             {
@@ -156,8 +156,8 @@
               "kind": "card",
               "id": "b01c1l1p8",
               "text": {
-                "en": "The lowest-income Americans spend about $412 a year on lottery tickets, four times the highest earners, while 40 percent cannot cover a $400 emergency. To Housel that is not crazy; it is buying a dream.",
-                "fa": "کم‌درآمدترین آمریکایی‌ها سالانه حدود ۴۱۲ دلار بلیت بخت‌آزمایی می‌خرند، چهار برابر پردرآمدترین‌ها، در حالی که ۴۰ درصدشان نمی‌توانند ۴۰۰ دلار هزینهٔ اضطراری را بپردازند. برای Housel این دیوانگی نیست؛ خریدن یک رؤیاست."
+                "en": "The lowest-income US households spend about $412 a year on lottery tickets, four times the top earners, yet 40 percent of Americans cannot cover a $400 emergency. To Housel that is not crazy; it is paying for a dream.",
+                "fa": "کم‌درآمدترین خانوارهای آمریکا سالانه حدود ۴۱۲ دلار بلیت بخت‌آزمایی می‌خرند، چهار برابر پردرآمدترین‌ها، در حالی که ۴۰ درصد آمریکایی‌ها نمی‌توانند ۴۰۰ دلار هزینهٔ اضطراری را بپردازند. برای Housel این دیوانگی نیست؛ پول دادن برای یک رؤیاست."
               }
             },
             {
@@ -251,8 +251,8 @@
               "kind": "card",
               "id": "b01c1l2p2",
               "text": {
-                "en": "Bill Gates attended Lakeside School, in 1968 one of the only high schools in the world with a computer, because a teacher spent rummage-sale money on a terminal. Gates said: no Lakeside, no Microsoft.",
-                "fa": "Bill Gates به مدرسهٔ Lakeside می‌رفت که در ۱۹۶۸ یکی از تنها دبیرستان‌های دنیا با کامپیوتر بود، چون معلمی پول یک بازار خیریه را خرج اجارهٔ یک ترمینال کرد. Gates گفت: بدون Lakeside، Microsoft هم نبود."
+                "en": "Bill Gates attended Lakeside School, in 1968 one of the only high schools in the world with a computer, leased with rummage-sale money at a teacher's urging. Gates said: no Lakeside, no Microsoft.",
+                "fa": "Bill Gates به مدرسهٔ Lakeside می‌رفت که در ۱۹۶۸ یکی از تنها دبیرستان‌های دنیا با کامپیوتر بود؛ کامپیوتری که به اصرار یک معلم، با پول یک بازار خیریه اجاره شد. Gates گفت: بدون Lakeside، Microsoft هم نبود."
               }
             },
             {
@@ -300,8 +300,8 @@
               "kind": "card",
               "id": "b01c1l2p5",
               "text": {
-                "en": "Benjamin Graham made most of his fortune on one stock, GEICO, by breaking the diversification rules he taught. Where luck ends and recklessness begins is harder to see than it looks.",
-                "fa": "Benjamin Graham بیشتر ثروتش را از یک سهم، GEICO، به دست آورد، با شکستن همان قواعد تنوعی که خودش درس می‌داد. مرز میان شانس و بی‌پروایی سخت‌تر از آن دیده می‌شود که به نظر می‌رسد."
+                "en": "Benjamin Graham owed most of his investing success to one stock, GEICO, which by his own admission broke nearly every diversification rule he taught. Housel asks where the line between bold and reckless falls.",
+                "fa": "Benjamin Graham بیشتر موفقیت سرمایه‌گذاری‌اش را مدیون یک سهم، GEICO، بود که به اعتراف خودش تقریباً همهٔ قواعد تنوعی را که درس می‌داد می‌شکست. Housel می‌پرسد مرز میان جسارت و بی‌پروایی کجاست."
               }
             },
             {
@@ -531,16 +531,16 @@
               "kind": "card",
               "id": "b01c1l3p7",
               "text": {
-                "en": "Our brains are built for linear thinking. Adding 8 nine times gives 72, easy; multiplying 8 by itself nine times gives 134,217,728, and almost nobody can feel that number.",
-                "fa": "مغز ما برای تفکر خطی ساخته شده. نه بار جمع کردن ۸ می‌شود ۷۲، آسان؛ نه بار ضرب کردن ۸ در خودش می‌شود ۱۳۴٬۲۱۷٬۷۲۸، و تقریباً هیچ‌کس نمی‌تواند این عدد را حس کند."
+                "en": "Our brains are built for linear thinking. Adding nine 8s gives 72, easy; multiplying nine 8s together gives 134,217,728, and almost nobody can feel that number.",
+                "fa": "مغز ما برای تفکر خطی ساخته شده. جمع کردن نُه تا ۸ می‌شود ۷۲، آسان؛ ضرب کردن نُه تا ۸ در هم می‌شود ۱۳۴٬۲۱۷٬۷۲۸، و تقریباً هیچ‌کس نمی‌تواند این عدد را حس کند."
               }
             },
             {
               "kind": "card",
               "id": "b01c1l3p8",
               "text": {
-                "en": "Hard drives: the 1950s IBM drive held 3.5 megabytes, by the 1990s a few hundred, and today terabytes for a few hundred dollars. Progress compounds so far past intuition that even experts miss it.",
-                "fa": "هارد دیسک‌ها: درایو IBM در دههٔ ۱۹۵۰ ۳٫۵ مگابایت جا داشت، در دههٔ ۱۹۹۰ چند صد مگابایت، و امروز چند ترابایت با چند صد دلار. پیشرفت آن‌قدر فراتر از شهود مرکب می‌شود که حتی کارشناسان هم آن را از دست می‌دهند."
+                "en": "Hard drives: IBM's 1950s drive held 3.5 megabytes, an early-1990s PC a few hundred, and by 2019 a single drive held 100 terabytes. Progress compounds so far past intuition that even experts miss it.",
+                "fa": "هارد دیسک‌ها: درایو IBM در دههٔ ۱۹۵۰، ۳٫۵ مگابایت جا داشت، یک PC در اوایل دههٔ ۱۹۹۰ چند صد مگابایت، و تا ۲۰۱۹ یک درایو ۱۰۰ ترابایت. پیشرفت آن‌قدر فراتر از شهود مرکب می‌شود که حتی کارشناسان هم آن را درنمی‌یابند."
               }
             },
             {
@@ -580,8 +580,8 @@
               "kind": "card",
               "id": "b01c1l3p10",
               "text": {
-                "en": "Housel's summary is three words: shut up and wait. Compounding has no need of brilliance, just time and the discipline not to interrupt it.",
-                "fa": "خلاصهٔ Housel سه کلمه است: ساکت شو و صبر کن. مرکب شدن به نبوغ نیازی ندارد، فقط زمان می‌خواهد و انضباطِ قطع نکردنش."
+                "en": "Housel says the most powerful investing book would be called Shut Up And Wait: one page with a long-term chart of economic growth. Compounding needs no brilliance, just time and the discipline not to interrupt it.",
+                "fa": "Housel می‌گوید قدرتمندترین کتاب سرمایه‌گذاری باید «ساکت شو و صبر کن» نام می‌گرفت: یک صفحه با نمودار بلندمدت رشد اقتصادی. مرکب شدن به نبوغ نیازی ندارد، فقط زمان می‌خواهد و انضباطِ قطع نکردنش."
               }
             },
             {
@@ -617,8 +617,8 @@
               "type": "tap",
               "source": "b01c1l3p10",
               "prompt": {
-                "en": "What is Housel's three-word summary of compounding?",
-                "fa": "خلاصهٔ سه‌کلمه‌ای Housel از مرکب شدن چیست؟"
+                "en": "What does Housel say the most powerful investing book should be called?",
+                "fa": "Housel می‌گوید قدرتمندترین کتاب سرمایه‌گذاری باید چه نامی داشته باشد؟"
               },
               "options": [
                 {
@@ -676,8 +676,8 @@
               "kind": "card",
               "id": "b01c2l1p3",
               "text": {
-                "en": "Abraham Germansky was a millionaire real estate developer who bought stocks on margin. The same 1929 crash wiped him out; he was last seen tearing up ticker tape on Wall Street and never found.",
-                "fa": "Abraham Germansky توسعه‌دهندهٔ میلیونر املاک بود که سهام را با اعتبار (margin) می‌خرید. همان سقوط ۱۹۲۹ او را نابود کرد؛ آخرین بار در Wall Street دیده شد که نوار قیمت‌ها را پاره می‌کرد، و دیگر هرگز پیدا نشد."
+                "en": "Abraham Germansky was a multimillionaire real estate developer who bet heavily on the surging 1920s stock market. After the 1929 crash he went missing; he was last seen tearing up ticker tape near the stock exchange.",
+                "fa": "Abraham Germansky توسعه‌دهندهٔ چندمیلیونی املاک بود که روی بازار سهامِ روبه‌رشد دههٔ ۱۹۲۰ شرط سنگینی بست. پس از سقوط ۱۹۲۹ ناپدید شد؛ آخرین بار نزدیک بورس دیده شد که نوار قیمت‌ها را پاره می‌کرد."
               }
             },
             {
@@ -725,8 +725,8 @@
               "kind": "card",
               "id": "b01c2l1p6",
               "text": {
-                "en": "Rick Guerin was Buffett and Munger's third partner and just as smart. Levered with margin loans, he was wiped out in the 1973 to 1974 downturn and sold his Berkshire shares to Buffett at under $40 each.",
-                "fa": "Rick Guerin شریک سوم Buffett و Munger و به همان اندازه باهوش بود. با وام‌های اعتباری اهرم کرده بود، در سقوط ۱۹۷۳ تا ۱۹۷۴ نابود شد و سهام Berkshire خود را زیر ۴۰ دلار به Buffett فروخت."
+                "en": "Rick Guerin was Buffett and Munger's third partner and just as smart, but in a hurry. Levered with margin loans, he got margin calls in the 1973 to 1974 slump and sold his Berkshire shares to Buffett at under $40 each.",
+                "fa": "Rick Guerin شریک سوم Buffett و Munger و به همان اندازه باهوش بود، اما عجله داشت. با وام‌های اعتباری اهرم کرده بود، در افت ۱۹۷۳ تا ۱۹۷۴ با margin call روبه‌رو شد و سهام Berkshire خود را هر سهم زیر ۴۰ دلار به Buffett فروخت."
               }
             },
             {
@@ -1068,24 +1068,24 @@
               "id": "b01c2l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 10, Save Money: the one lever fully under your control. It matters because your savings rate, not your stock picks, decides how fast €40k becomes ownership and independence.",
-                "fa": "این درس فصل ۱۰، «پول پس‌انداز کن»، را خلاصه می‌کند: تنها اهرمی که کاملاً در کنترل توست. مهم است چون نرخ پس‌اندازت، نه انتخاب سهامت، تعیین می‌کند ۴۰ هزار یورو چقدر سریع به مالکیت و استقلال بدل شود."
+                "en": "This Lesson distils chapter 10, Save Money: the lever most under your control. It matters because your savings rate, not your stock picks, decides how fast €40k becomes ownership and independence.",
+                "fa": "این درس فصل ۱۰، «پول پس‌انداز کن»، را خلاصه می‌کند: اهرمی که بیش از همه در کنترل توست. مهم است چون نرخ پس‌اندازت، نه انتخاب سهامت، تعیین می‌کند ۴۰ هزار یورو چقدر سریع به مالکیت و استقلال بدل شود."
               }
             },
             {
               "kind": "card",
               "id": "b01c2l3p2",
               "text": {
-                "en": "After the 1970s oil crisis, Housel notes, the US gained more from using energy efficiently than from finding new oil. Efficiency was new energy in disguise, and fully within people's control.",
-                "fa": "Housel یادآوری می‌کند که پس از بحران نفتی دههٔ ۱۹۷۰، آمریکا از مصرف بهینهٔ انرژی بیشتر سود برد تا از یافتن نفت جدید. بهینگی همان انرژی تازه در لباس مبدل بود، و کاملاً در کنترل مردم."
+                "en": "After the 1970s oil crisis, Housel notes, the world grew its energy wealth not by finding more energy but by needing less. Finding oil is uncertain; using energy efficiently is largely in our control.",
+                "fa": "Housel یادآوری می‌کند که پس از بحران نفتی دههٔ ۱۹۷۰، دنیا «ثروت انرژی» خود را نه با یافتن انرژی بیشتر، بلکه با نیاز کمتر به آن افزایش داد. یافتن نفت نامطمئن است؛ مصرف بهینهٔ انرژی تا حد زیادی در کنترل ماست."
               }
             },
             {
               "kind": "card",
               "id": "b01c2l3p3",
               "text": {
-                "en": "The same with money. Investment returns can make you rich, but they are uncertain and out of your hands; your savings rate is the efficiency gain, and it is entirely yours to decide.",
-                "fa": "پول هم همین‌طور است. بازده سرمایه‌گذاری می‌تواند پولدارت کند، اما نامطمئن و خارج از دست توست؛ نرخ پس‌انداز همان بهینگی است، و تعیینش تماماً با خودت است."
+                "en": "The same with money. Investment returns can make you rich, but whether they will work is always in doubt; your savings rate and frugality are far more within your control.",
+                "fa": "پول هم همین‌طور است. بازده سرمایه‌گذاری می‌تواند پولدارت کند، اما اینکه جواب بدهد همیشه محل تردید است؛ نرخ پس‌انداز و صرفه‌جویی‌ات بسیار بیشتر در کنترل توست."
               }
             },
             {
@@ -1094,8 +1094,8 @@
               "type": "tap",
               "source": "b01c2l3p3",
               "prompt": {
-                "en": "What does Housel say is entirely within your control?",
-                "fa": "Housel می‌گوید چه چیزی کاملاً در کنترل توست؟"
+                "en": "What does Housel say is more within your control?",
+                "fa": "Housel می‌گوید چه چیزی بیشتر در کنترل توست؟"
               },
               "options": [
                 {
@@ -1125,8 +1125,8 @@
               "kind": "card",
               "id": "b01c2l3p5",
               "text": {
-                "en": "Past a certain level of income, what you need is just what sits below your ego. Savings can be defined as income minus ego, and the desire for status is a daily tax on wealth.",
-                "fa": "پس از سطحی از درآمد، آنچه لازم داری همان چیزی است که زیر غرورت جا می‌گیرد. پس‌انداز را می‌توان «درآمد منهای غرور» تعریف کرد، و میل به جایگاه، مالیاتی روزانه بر ثروت است."
+                "en": "Past a certain level of income, what you need is just what sits below your ego. Housel defines savings as the gap between your ego and your income, so raising your humility raises your savings.",
+                "fa": "پس از سطحی از درآمد، آنچه لازم داری همان چیزی است که زیر غرورت جا می‌گیرد. Housel پس‌انداز را فاصلهٔ میان غرور و درآمدت تعریف می‌کند، پس بیشتر شدن فروتنی یعنی بیشتر شدن پس‌انداز."
               }
             },
             {
@@ -1143,8 +1143,8 @@
               "type": "tf",
               "source": "b01c2l3p5",
               "prompt": {
-                "en": "Housel defines savings as income minus ego.",
-                "fa": "Housel پس‌انداز را «درآمد منهای غرور» تعریف می‌کند."
+                "en": "Housel defines savings as the gap between your ego and your income.",
+                "fa": "Housel پس‌انداز را فاصلهٔ میان غرور و درآمدت تعریف می‌کند."
               },
               "answer": true
             },
@@ -1152,8 +1152,8 @@
               "kind": "card",
               "id": "b01c2l3p7",
               "text": {
-                "en": "You don't need a specific reason to save. Saving only for a car, a house or retirement misses the point; save for the unknown, because surprises are the one thing you can be sure of.",
-                "fa": "برای پس‌انداز به دلیل خاصی نیاز نداری. پس‌انداز فقط برای ماشین، خانه یا بازنشستگی اصل مطلب را از دست می‌دهد؛ برای ناشناخته پس‌انداز کن، چون شگفتی تنها چیزی است که می‌توان از آن مطمئن بود."
+                "en": "You don't need a specific reason to save. Saving for a car, a house or retirement is fine, but Housel says saving for the unknown, for things you cannot predict, is one of the best reasons of all.",
+                "fa": "برای پس‌انداز به دلیل خاصی نیاز نداری. پس‌انداز برای ماشین، خانه یا بازنشستگی خوب است، اما Housel می‌گوید پس‌انداز برای ناشناخته، برای چیزهایی که نمی‌توانی پیش‌بینی کنی، یکی از بهترین دلیل‌هاست."
               }
             },
             {
@@ -1170,8 +1170,8 @@
               "type": "tap",
               "source": "b01c2l3p7",
               "prompt": {
-                "en": "What does Housel say you should save for?",
-                "fa": "Housel می‌گوید برای چه چیزی باید پس‌انداز کنی؟"
+                "en": "Besides specific goals, what does Housel call one of the best reasons to save?",
+                "fa": "به گفتهٔ Housel، جدا از هدف‌های مشخص، یکی از بهترین دلیل‌های پس‌انداز چیست؟"
               },
               "options": [
                 {
@@ -1179,12 +1179,12 @@
                   "fa": "ناشناخته"
                 },
                 {
-                  "en": "A specific car",
-                  "fa": "یک ماشین مشخص"
+                  "en": "Impressing your colleagues",
+                  "fa": "تحت تأثیر قرار دادن همکاران"
                 },
                 {
-                  "en": "Only retirement",
-                  "fa": "فقط بازنشستگی"
+                  "en": "Beating the market",
+                  "fa": "شکست دادن بازار"
                 }
               ],
               "answer": 0
@@ -1201,8 +1201,8 @@
               "kind": "card",
               "id": "b01c2l3p10",
               "text": {
-                "en": "Flexibility lets you wait for the right job, take a pay cut to learn, or sit out a bad market. A high savings rate is a career tool as much as an investing one.",
-                "fa": "انعطاف می‌گذارد برای شغل درست صبر کنی، برای یادگیری حقوق کمتری بپذیری، یا در بازار بد کنار بنشینی. نرخ پس‌انداز بالا همان‌قدر ابزار شغلی است که ابزار سرمایه‌گذاری."
+                "en": "Flexibility lets you wait for good opportunities, in your career and in your investments, and learn a new skill when you need to. A high savings rate is a career tool as much as an investing one.",
+                "fa": "انعطاف می‌گذارد برای فرصت‌های خوب، چه در شغل و چه در سرمایه‌گذاری، صبر کنی و هر وقت لازم شد مهارت تازه‌ای یاد بگیری. نرخ پس‌انداز بالا همان‌قدر ابزار شغلی است که ابزار سرمایه‌گذاری."
               }
             },
             {
@@ -1228,8 +1228,8 @@
               "kind": "card",
               "id": "b01c2l3p12",
               "text": {
-                "en": "Chapter 10 in one line: you don't need to be a great investor if you save a lot and spend less than your ego wants. Compounding does the rest if you leave it alone.",
-                "fa": "فصل ۱۰ در یک خط: اگر زیاد پس‌انداز کنی و کمتر از آنچه غرورت می‌خواهد خرج کنی، لازم نیست سرمایه‌گذار بزرگی باشی. اگر دست به آن نزنی، مرکب شدن بقیهٔ کار را می‌کند."
+                "en": "Chapter 10 in one line: building wealth has little to do with your income or investment returns, and lots to do with your savings rate.",
+                "fa": "فصل ۱۰ در یک خط: ثروت‌سازی ربط چندانی به درآمد یا بازده سرمایه‌گذاری‌ات ندارد و بیشتر به نرخ پس‌اندازت بستگی دارد."
               }
             },
             {
@@ -1338,8 +1338,8 @@
               "kind": "card",
               "id": "b01c3l1p5",
               "text": {
-                "en": "Yale researchers showed that young investors should rationally use two-to-one leverage. Housel: no reasonable person would stay the course after being wiped out early, so the rational plan fails in practice.",
-                "fa": "پژوهشگران Yale نشان دادند سرمایه‌گذاران جوان از نظر منطقی باید اهرم دو به یک به کار ببرند. Housel: هیچ آدم معقولی پس از نابود شدن در اوایل راه ادامه نمی‌دهد، پس برنامهٔ منطقی در عمل شکست می‌خورد."
+                "en": "Two Yale researchers argued that young investors should rationally use two-to-one leverage. Housel: no normal person would calmly stay the course after being wiped out early, so the rational plan fails in practice.",
+                "fa": "دو پژوهشگر Yale استدلال کردند که سرمایه‌گذاران جوان از نظر منطقی باید اهرم دو به یک به کار ببرند. Housel: هیچ آدم عادی‌ای پس از نابود شدن در اوایل راه، خونسرد ادامه نمی‌دهد، پس برنامهٔ منطقی در عمل شکست می‌خورد."
               }
             },
             {
@@ -1366,7 +1366,7 @@
               "id": "b01c3l1p7",
               "text": {
                 "en": "Chapter 12 is called Surprise, and Scott Sagan sums it up: things that have never happened before happen all the time. History is the study of change, ironically used as a map of the future.",
-                "fa": "فصل ۱۲، «شگفتی!» Scott Sagan: چیزهایی که هرگز پیش از این رخ نداده‌اند، همیشه رخ می‌دهند. تاریخ مطالعهٔ تغییر است، که به طنز به‌عنوان نقشهٔ آینده به کار می‌رود."
+                "fa": "فصل ۱۲ «شگفتی!» نام دارد و Scott Sagan خلاصه‌اش می‌کند: چیزهایی که هرگز پیش از این رخ نداده‌اند، همیشه رخ می‌دهند. تاریخ مطالعهٔ تغییر است، که به طنز به‌عنوان نقشهٔ آینده به کار می‌رود."
               }
             },
             {
@@ -1383,8 +1383,8 @@
               "type": "tap",
               "source": "b01c3l1p7",
               "prompt": {
-                "en": "How does Housel describe history, following Scott Sagan?",
-                "fa": "Housel به پیروی از Scott Sagan تاریخ را چطور توصیف می‌کند؟"
+                "en": "How does Housel describe history in chapter 12?",
+                "fa": "Housel در فصل ۱۲ تاریخ را چطور توصیف می‌کند؟"
               },
               "options": [
                 {
@@ -1493,8 +1493,8 @@
               "kind": "card",
               "id": "b01c3l2p2",
               "text": {
-                "en": "Blackjack card counters know the odds are in their favour, not that they will win every hand. Kevin Lewis in Bringing Down the House: I have to make sure I never bet more than I can afford to lose.",
-                "fa": "شمارندگان کارت در blackjack می‌دانند احتمال به سودشان است، نه اینکه هر دست را می‌برند. Kevin Lewis در Bringing Down the House: باید مطمئن شوم هرگز بیشتر از آنچه توان باختنش را دارم شرط نبندم."
+                "en": "Blackjack card counters know the odds favour them, not that they will win every hand. Kevin Lewis in Bringing Down the House: you must keep enough money to withstand any swings of bad luck.",
+                "fa": "شمارندگان کارت در blackjack می‌دانند احتمال به سودشان است، نه اینکه هر دست را می‌برند. Kevin Lewis در Bringing Down the House: باید آن‌قدر پول داشته باشی که هر موج بدشانسی را تاب بیاوری."
               }
             },
             {
@@ -1511,13 +1511,13 @@
               "type": "tap",
               "source": "b01c3l2p2",
               "prompt": {
-                "en": "What rule did the card counter Kevin Lewis follow?",
-                "fa": "Kevin Lewis، شمارندهٔ کارت، از چه قاعده‌ای پیروی می‌کرد؟"
+                "en": "What rule did the card counter Kevin Lewis describe?",
+                "fa": "Kevin Lewis، شمارندهٔ کارت، چه قاعده‌ای را لازم می‌دانست؟"
               },
               "options": [
                 {
-                  "en": "Never bet more than he can afford to lose",
-                  "fa": "هرگز بیشتر از توان باختنش شرط نبندد"
+                  "en": "Keep enough money to withstand bad luck",
+                  "fa": "داشتن پول کافی برای تاب آوردن بدشانسی"
                 },
                 {
                   "en": "Always double after a win",
@@ -1542,16 +1542,16 @@
               "kind": "card",
               "id": "b01c3l2p5",
               "text": {
-                "en": "At Stalingrad in 1942 the Germans had 104 tanks in reserve, but only 20 would start: field mice had eaten the wiring insulation. Housel: nobody plans for mice.",
-                "fa": "در Stalingrad در ۱۹۴۲، آلمانی‌ها ۱۰۴ تانک ذخیره داشتند، اما فقط ۲۰ تا روشن می‌شد: موش‌های صحرایی روکش سیم‌ها را خورده بودند. Housel: هیچ‌کس برای موش برنامه‌ریزی نمی‌کند."
+                "en": "At Stalingrad in late 1942 a German tank unit in reserve had 104 tanks, but fewer than 20 worked: field mice had eaten the wiring insulation. Housel doubts any tank designer planned for mice.",
+                "fa": "در Stalingrad در اواخر ۱۹۴۲، یک واحد زرهی ذخیرهٔ آلمان ۱۰۴ تانک داشت، اما کمتر از ۲۰ تا کار می‌کرد: موش‌های صحرایی روکش سیم‌ها را خورده بودند. Housel بعید می‌داند هیچ طراح تانکی برای موش برنامه‌ریزی کرده باشد."
               }
             },
             {
               "kind": "card",
               "id": "b01c3l2p6",
               "text": {
-                "en": "Housel keeps about 20 percent of his assets outside his house in cash, more than advisors recommend, because he never wants to be forced to sell stocks in a downturn. That is survival, not timing.",
-                "fa": "Housel حدود ۲۰ درصد دارایی‌اش غیر از خانه را نقد نگه می‌دارد، بیشتر از آنچه مشاوران توصیه می‌کنند، چون هرگز نمی‌خواهد در یک سقوط مجبور به فروش سهام شود. این بقاست، نه زمان‌بندی بازار."
+                "en": "Later in the book Housel says he keeps about 20 percent of his assets outside his house in cash, so he is never forced to sell stocks to cover a big expense. He admits that is hard to defend on paper.",
+                "fa": "Housel در ادامهٔ کتاب می‌گوید حدود ۲۰ درصد دارایی‌اش غیر از خانه را نقد نگه می‌دارد، تا هرگز برای پوشش یک هزینهٔ بزرگ مجبور به فروش سهام نشود. خودش می‌پذیرد که دفاع از این کار روی کاغذ سخت است."
               }
             },
             {
@@ -1560,8 +1560,8 @@
               "type": "tf",
               "source": "b01c3l2p5",
               "prompt": {
-                "en": "At Stalingrad most German reserve tanks failed because mice had eaten their wiring.",
-                "fa": "در Stalingrad بیشتر تانک‌های ذخیرهٔ آلمان روشن نشدند چون موش‌ها سیم‌هایشان را خورده بودند."
+                "en": "At Stalingrad most tanks in one German reserve unit failed because mice had eaten their wiring.",
+                "fa": "در Stalingrad بیشتر تانک‌های یک واحد ذخیرهٔ آلمان از کار افتادند چون موش‌ها سیم‌هایشان را خورده بودند."
               },
               "answer": true
             },
@@ -1569,8 +1569,8 @@
               "kind": "card",
               "id": "b01c3l2p7",
               "text": {
-                "en": "Housel also plans as if future returns will be a third lower than history suggests. If he is right about returns he is fine; if he is wrong, the error costs him nothing.",
-                "fa": "Housel همچنین چنان برنامه می‌ریزد که انگار بازده‌های آینده یک‌سوم کمتر از آنچه تاریخ می‌گوید خواهد بود. اگر درست بگوید، مشکلی نیست؛ اگر اشتباه کند، این خطا هیچ هزینه‌ای برایش ندارد."
+                "en": "Housel also assumes his future returns will be a third lower than the historic average, so he saves more than he otherwise would. That is his margin of safety, though he notes no margin offers a guarantee.",
+                "fa": "Housel همچنین فرض می‌کند بازده‌های آینده‌اش یک‌سوم کمتر از میانگین تاریخی خواهد بود، پس بیشتر از حالت عادی پس‌انداز می‌کند. این حاشیهٔ امن اوست، هرچند یادآوری می‌کند هیچ حاشیه‌ای تضمین نمی‌دهد."
               }
             },
             {
@@ -1585,8 +1585,8 @@
               "kind": "card",
               "id": "b01c3l2p9",
               "text": {
-                "en": "Nassim Taleb: you can be risk loving and yet completely averse to ruin. Russian roulette at 95 percent odds is a terrible bet, because the downside is not worth any upside.",
-                "fa": "Nassim Taleb: می‌توانی ریسک‌دوست باشی و در عین حال از نابودی کاملاً گریزان. رولت روسی با ۹۵ درصد احتمال برد، شرطی وحشتناک است، چون زیانش هیچ سودی را توجیه نمی‌کند."
+                "en": "Nassim Taleb: you can be risk loving and yet completely averse to ruin. Housel adds that even at 95 percent odds of being right, a bet whose downside is ruin is likely not worth the upside.",
+                "fa": "Nassim Taleb: می‌توانی ریسک‌دوست باشی و در عین حال از نابودی کاملاً گریزان. Housel اضافه می‌کند حتی با ۹۵ درصد احتمالِ درست بودن، شرطی که زیانش نابودی است به احتمال زیاد به سودش نمی‌ارزد."
               }
             },
             {
@@ -1626,8 +1626,8 @@
               "kind": "card",
               "id": "b01c3l2p11",
               "text": {
-                "en": "Leverage pushes routine risks into something capable of producing ruin. Your startup stake is already a concentrated bet; never add borrowed money to it or to your index core.",
-                "fa": "اهرم، ریسک‌های معمولی را به چیزی بدل می‌کند که می‌تواند نابودی بیاورد. سهم استارتاپت از پیش یک شرط متمرکز است؛ هرگز پول قرضی به آن یا به هستهٔ شاخصی‌ات اضافه نکن."
+                "en": "Leverage pushes routine risks into something capable of producing ruin. Your startup stake is already a concentrated bet, so by this chapter's logic borrowed money on top of it would remove your room for error.",
+                "fa": "اهرم، ریسک‌های معمولی را به چیزی بدل می‌کند که می‌تواند نابودی بیاورد. سهم استارتاپت از پیش یک شرط متمرکز است، پس با منطق این فصل، پول قرضی روی آن حاشیهٔ خطایت را از بین می‌برد."
               }
             },
             {
@@ -1705,8 +1705,8 @@
               "kind": "card",
               "id": "b01c3l3p3",
               "text": {
-                "en": "Every five-year-old wants to drive a tractor when they grow up. Few 30-year-olds still do, yet we plan our money as if our current wishes were final.",
-                "fa": "هر بچهٔ پنج‌ساله‌ای می‌خواهد وقتی بزرگ شد تراکتور براند. کم‌تر سی‌ساله‌ای هنوز چنین می‌خواهد، اما ما پولمان را چنان برنامه‌ریزی می‌کنیم که انگار خواسته‌های امروزمان نهایی‌اند."
+                "en": "Every five-year-old boy wants to drive a tractor when he grows up, Housel writes, and then many grow up and want something else. Yet we plan our money as if our current wishes were final.",
+                "fa": "Housel می‌نویسد هر پسربچهٔ پنج‌ساله‌ای می‌خواهد وقتی بزرگ شد تراکتور براند، و بعد خیلی‌ها بزرگ می‌شوند و چیز دیگری می‌خواهند. اما ما پولمان را چنان برنامه‌ریزی می‌کنیم که انگار خواسته‌های امروزمان نهایی‌اند."
               }
             },
             {
@@ -1740,8 +1740,8 @@
               "kind": "card",
               "id": "b01c3l3p6",
               "text": {
-                "en": "Monster Beverage rose 211,000 percent from 1995 to 2018 but lost over half its value five times. Netflix returned 35,000 percent while sitting below its previous high on 94 percent of days.",
-                "fa": "Monster Beverage از ۱۹۹۵ تا ۲۰۱۸، ۲۱۱ هزار درصد رشد کرد اما پنج بار بیش از نصف ارزشش را از دست داد. Netflix ۳۵ هزار درصد بازده داد، در حالی که ۹۴ درصد روزها زیر سقف قبلی‌اش بود."
+                "en": "Monster Beverage returned 319,000 percent from 1995 to 2018 but traded below its previous high 95 percent of the time. Netflix returned over 35,000 percent while sitting below its previous high on 94 percent of days.",
+                "fa": "Monster Beverage از ۱۹۹۵ تا ۲۰۱۸، ۳۱۹ هزار درصد بازده داد اما ۹۵ درصد اوقات زیر سقف قبلی‌اش معامله می‌شد. Netflix بیش از ۳۵ هزار درصد بازده داد، در حالی که ۹۴ درصد روزها زیر سقف قبلی‌اش بود."
               }
             },
             {
@@ -1822,8 +1822,8 @@
               "kind": "card",
               "id": "b01c3l3p10",
               "text": {
-                "en": "Chapter 16, You and Me: in 1999 Cisco rose 300 percent to a $600 billion valuation. Day traders paying any price were playing a game sold by the afternoon; long-term investors who copied them were ruined.",
-                "fa": "فصل ۱۶، «تو و من». در ۱۹۹۹ Cisco ۳۰۰ درصد رشد کرد و به ارزش ۶۰۰ میلیارد دلار رسید. معامله‌گران روزانه که هر قیمتی می‌پرداختند، بازی‌ای می‌کردند که تا عصر فروخته می‌شد؛ سرمایه‌گذاران بلندمدتی که از آن‌ها کپی کردند، نابود شدند."
+                "en": "Chapter 16, You and Me: in 1999 Cisco rose 300 percent to a $600 billion valuation. That price made sense to day traders who planned to sell before the day ended; long-term investors who took their cue from it got hurt.",
+                "fa": "فصل ۱۶، «تو و من»: در ۱۹۹۹ Cisco ۳۰۰ درصد رشد کرد و به ارزش ۶۰۰ میلیارد دلار رسید. آن قیمت برای معامله‌گران روزانه‌ای که می‌خواستند پیش از پایان روز بفروشند معنا داشت؛ سرمایه‌گذاران بلندمدتی که از آن‌ها سرنخ گرفتند، آسیب دیدند."
               }
             },
             {
@@ -1872,8 +1872,8 @@
                   "fa": "فقط کارمزد کارگزار"
                 },
                 {
-                  "en": "Taxes in Box 3",
-                  "fa": "مالیات Box 3"
+                  "en": "Taxes on your gains",
+                  "fa": "مالیات بر سودت"
                 }
               ],
               "answer": 0

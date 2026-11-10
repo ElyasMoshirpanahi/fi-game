@@ -39,8 +39,8 @@
               "id": "b03c1l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 2 and Step 1 of the nine steps. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
-                "fa": "این درس فصل ۲ و گام ۱ از نُه گام را خلاصه می‌کند. مهم است چون بدون دانستن اینکه کار گذشته‌ات واقعاً چه حاصلی داشته، نمی‌توانی جابه‌جایی و سبد سرمایه‌ات را برنامه‌ریزی کنی."
+                "en": "This Lesson distils chapters 1 and 2: Step 1 of the nine steps and the idea of life energy. It matters because you cannot plan a move and a portfolio without knowing what your past work actually produced.",
+                "fa": "این درس فصل‌های ۱ و ۲ را خلاصه می‌کند: گام ۱ از نُه گام و ایدهٔ انرژی زندگی. مهم است چون بدون دانستن اینکه کار گذشته‌ات واقعاً چه حاصلی داشته، نمی‌توانی جابه‌جایی و سبد سرمایه‌ات را برنامه‌ریزی کنی."
               }
             },
             {
@@ -48,15 +48,15 @@
               "id": "b03c1l1p2",
               "text": {
                 "en": "Money is something you trade your life energy for. Every purchase costs hours of your one life, so the question is always: was it worth the hours?",
-                "fa": "پول چیزی است که انرژی زندگی‌ات را با آن معاوضه می‌کنی. هر خریدی ساعت‌هایی از تنها زندگی‌ات را می‌بلعد، پس سؤال همیشه این است: ارزش آن ساعت‌ها را داشت؟"
+                "fa": "پول چیزی است که انرژی زندگی‌ات را با آن معاوضه می‌کنی. هر خریدی ساعت‌هایی از تنها زندگی‌ات را می‌گیرد، پس سؤال همیشه این است: ارزش آن ساعت‌ها را داشت؟"
               }
             },
             {
               "kind": "card",
               "id": "b03c1l1p3",
               "text": {
-                "en": "Life energy is the hours you have left to live. It is limited and cannot be recovered, which makes it more precious than money.",
-                "fa": "انرژی زندگی ساعت‌هایی است که برای زیستن باقی داری. محدود است و برنمی‌گردد و همین آن را از پول ارزشمندتر می‌کند."
+                "en": "Life energy is your allotment of time on earth, the hours of life available to you. It is precious because it is limited and cannot be recovered.",
+                "fa": "انرژی زندگی سهم تو از زمان روی زمین است، ساعت‌هایی از زندگی که در اختیار داری. ارزشمند است چون محدود است و برنمی‌گردد."
               }
             },
             {
@@ -88,8 +88,8 @@
               "kind": "card",
               "id": "b03c1l1p4",
               "text": {
-                "en": "The book counts the hours: at 40 you have roughly 330,000 hours left, and about half go to sleep and body care. What remains is what you can trade for money.",
-                "fa": "کتاب ساعت‌ها را می‌شمارد: در ۴۰ سالگی حدود ۳۳۰٬۰۰۰ ساعت باقی داری و تقریباً نیمی از آن صرف خواب و نگهداری بدن می‌شود. باقی‌مانده همان است که می‌توانی با پول معاوضه کنی."
+                "en": "The book counts the hours: at 40 you can expect roughly 330,000 hours of life left, and about half go to sleep and body maintenance. The rest is all the life energy you have to spend.",
+                "fa": "کتاب ساعت‌ها را می‌شمارد: در ۴۰ سالگی می‌توانی انتظار حدود ۳۳۰٬۰۰۰ ساعت زندگی باقی‌مانده داشته باشی و تقریباً نیمی از آن صرف خواب و نگهداری بدن می‌شود. باقی‌مانده همهٔ انرژی زندگی‌ای است که برای خرج کردن داری."
               }
             },
             {
@@ -284,8 +284,8 @@
               "kind": "card",
               "id": "b03c1l2p4",
               "text": {
-                "en": "The book lists the hidden job costs: commuting, costuming, meals eaten out because of work, decompression, escape vacations and job-related illness.",
-                "fa": "کتاب هزینه‌های پنهان شغل را فهرست می‌کند: رفت‌وآمد، لباس کار، غذای بیرون به خاطر کار، خستگی‌درکردن، تعطیلات فرار و بیماری‌های ناشی از کار."
+                "en": "The book lists the hidden job costs: commuting, costuming, meals, daily decompression, escape entertainment, vacations and job-related illness.",
+                "fa": "کتاب هزینه‌های پنهان شغل را فهرست می‌کند: رفت‌وآمد، لباس کار، غذا، خستگی‌درکردن روزانه، سرگرمی‌های فرار، تعطیلات و بیماری‌های ناشی از کار."
               }
             },
             {
@@ -387,8 +387,8 @@
               "kind": "card",
               "id": "b03c1l2p11",
               "text": {
-                "en": "Applied: a banking app export is a start, but cash, Tikkie payments and card fees slip through. Log every cent for a full month after you arrive.",
-                "fa": "کاربردی: خروجی اپ بانک شروع خوبی است، اما پول نقد، پرداخت‌های Tikkie و کارمزدهای کارت از دست می‌روند. یک ماه کامل بعد از رسیدن، هر سِنت را ثبت کن."
+                "en": "Applied: a banking app export is a start, but cash and small shared payments are easy to miss or mislabel. Log every cent for a full month after you arrive.",
+                "fa": "کاربردی: خروجی اپ بانک شروع خوبی است، اما پول نقد و پرداخت‌های کوچک مشترک به‌آسانی جا می‌مانند یا در دستهٔ اشتباه می‌روند. یک ماه کامل بعد از رسیدن، هر سِنت را ثبت کن."
               }
             },
             {
@@ -591,8 +591,8 @@
               "kind": "card",
               "id": "b03c1l3p11",
               "text": {
-                "en": "Applied: run the monthly tabulation on the first weekend of each month, next to your quarterly net-worth log. Thirty minutes is enough once categories are set.",
-                "fa": "کاربردی: جدول ماهانه را در اولین آخر هفتهٔ هر ماه، کنار دفتر فصلی دارایی خالص، انجام بده. وقتی دسته‌ها مشخص شدند، سی دقیقه کافی است."
+                "en": "Applied: run the monthly tabulation on the first weekend of each month, next to your quarterly net-worth log. It goes quickly once your categories are set.",
+                "fa": "کاربردی: جدول ماهانه را در اولین آخر هفتهٔ هر ماه، کنار دفتر فصلی دارایی خالص، انجام بده. وقتی دسته‌هایت مشخص شدند، سریع پیش می‌رود."
               }
             },
             {
@@ -652,8 +652,8 @@
               "id": "b03c2l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Step 6, minimising spending. It matters because every euro you stop spending lowers both your monthly costs and the capital you need for freedom.",
-                "fa": "این درس گام ۶، کم کردن خرج، را خلاصه می‌کند. مهم است چون هر یورویی که خرج نکنی هم هزینهٔ ماهانه و هم سرمایهٔ لازم برای آزادی را پایین می‌آورد."
+                "en": "This Lesson distils Steps 6 and 7, minimising spending and maximising income. It matters because every euro you stop spending lowers both your monthly costs and the capital you need for freedom.",
+                "fa": "این درس گام‌های ۶ و ۷، کم کردن خرج و بیشینه کردن درآمد، را خلاصه می‌کند. مهم است چون هر یورویی که خرج نکنی هم هزینهٔ ماهانه و هم سرمایهٔ لازم برای آزادی را پایین می‌آورد."
               }
             },
             {
@@ -701,16 +701,16 @@
               "kind": "card",
               "id": "b03c2l1p4",
               "text": {
-                "en": "The first tip: stop trying to impress other people. Much spending is for an audience, and the audience is usually too busy to notice.",
-                "fa": "اولین توصیه: از تلاش برای تحت تأثیر قرار دادن دیگران دست بکش. بخش بزرگی از خرج برای تماشاگران است و تماشاگران معمولاً آن‌قدر مشغول‌اند که متوجه نمی‌شوند."
+                "en": "Before its ten ways to save, the book gives one sure way: stop trying to impress other people. They are probably too busy trying to impress you to notice.",
+                "fa": "کتاب پیش از ده راه پس‌انداز، یک راه مطمئن می‌دهد: از تلاش برای تحت تأثیر قرار دادن دیگران دست بکش. آن‌ها احتمالاً آن‌قدر مشغول تحت تأثیر قرار دادن تو هستند که متوجه نمی‌شوند."
               }
             },
             {
               "kind": "card",
               "id": "b03c2l1p5",
               "text": {
-                "en": "The second tip: do not go shopping. Shopping as a pastime creates wants you did not have when you walked in.",
-                "fa": "توصیهٔ دوم: به خرید نرو. خرید به‌عنوان سرگرمی خواسته‌هایی می‌سازد که وقتی وارد شدی نداشتی."
+                "en": "The first of the ten ways: do not go shopping. Shopping as a pastime creates wants you did not have when you walked in.",
+                "fa": "اولین راه از ده راه: به خرید نرو. خرید به‌عنوان سرگرمی خواسته‌هایی می‌سازد که وقتی وارد شدی نداشتی."
               }
             },
             {
@@ -744,8 +744,8 @@
               "kind": "card",
               "id": "b03c2l1p8",
               "text": {
-                "en": "Finally: get it for less and buy it used. The same item from a second-hand market gives the same use for fewer hours of life.",
-                "fa": "و در آخر: ارزان‌تر بخر و دست‌دوم بخر. همان کالا از بازار دست‌دوم همان کاربرد را با ساعت‌های کمتری از زندگی می‌دهد."
+                "en": "Two more: get it for less and buy it used. The same item from a second-hand market gives the same use for fewer hours of life.",
+                "fa": "دو توصیهٔ دیگر: ارزان‌تر بخر و دست‌دوم بخر. همان کالا از بازار دست‌دوم همان کاربرد را با ساعت‌های کمتری از زندگی می‌دهد."
               }
             },
             {
@@ -785,8 +785,8 @@
               "kind": "card",
               "id": "b03c2l1p10",
               "text": {
-                "en": "These tips come from the three questions, not from a rulebook. When a category earns minus marks, these are the tools for bringing it closer to enough.",
-                "fa": "این توصیه‌ها از سه سؤال می‌آیند، نه از کتابچهٔ قوانین. وقتی دسته‌ای علامت منفی می‌گیرد، این‌ها ابزارهایی برای نزدیک کردنش به «کافی» هستند."
+                "en": "These tips work alongside the three questions, not as a rulebook. When a category earns minus marks, these are tools for bringing it closer to enough.",
+                "fa": "این توصیه‌ها در کنار سه سؤال کار می‌کنند، نه به‌عنوان کتابچهٔ قوانین. وقتی دسته‌ای علامت منفی می‌گیرد، این‌ها ابزارهایی برای نزدیک کردنش به «کافی» هستند."
               }
             },
             {
@@ -932,8 +932,8 @@
               "kind": "card",
               "id": "b03c2l2p6",
               "text": {
-                "en": "Because the expense line has fallen through Steps 4 to 7, the crossover point arrives far sooner than if spending had stayed high.",
-                "fa": "چون خط هزینه در گام‌های ۴ تا ۷ پایین آمده، نقطهٔ تقاطع خیلی زودتر از حالتی می‌رسد که خرج بالا می‌ماند."
+                "en": "Because the expense line has fallen through Steps 4 to 6, the crossover point arrives far sooner than if spending had stayed high.",
+                "fa": "چون خط هزینه در گام‌های ۴ تا ۶ پایین آمده، نقطهٔ تقاطع خیلی زودتر از حالتی می‌رسد که خرج بالا می‌ماند."
               }
             },
             {
@@ -981,8 +981,8 @@
               "kind": "card",
               "id": "b03c2l2p9",
               "text": {
-                "en": "Readers who follow the steps often reach the crossover point within a few years on ordinary salaries. The speed comes from the gap, not from high returns.",
-                "fa": "خوانندگانی که گام‌ها را دنبال می‌کنند اغلب با حقوق معمولی در چند سال به نقطهٔ تقاطع می‌رسند. سرعت از فاصلهٔ درآمد و هزینه می‌آید، نه از بازده بالا."
+                "en": "The book tells of people on ordinary salaries who reached the crossover point well before the usual retirement age. The speed comes from the gap, not from high returns.",
+                "fa": "کتاب از کسانی می‌گوید که با حقوق معمولی، خیلی زودتر از سن معمول بازنشستگی به نقطهٔ تقاطع رسیدند. سرعت از فاصلهٔ درآمد و هزینه می‌آید، نه از بازده بالا."
               }
             },
             {
@@ -991,8 +991,8 @@
               "type": "tf",
               "source": "b03c2l2p9",
               "prompt": {
-                "en": "The main reason readers reach the crossover point fast is high investment returns.",
-                "fa": "دلیل اصلی رسیدن سریع خوانندگان به نقطهٔ تقاطع، بازده بالای سرمایه‌گذاری است."
+                "en": "According to the book, people reach the crossover point early mainly through high investment returns.",
+                "fa": "به گفتهٔ کتاب، آدم‌ها عمدتاً به خاطر بازده بالای سرمایه‌گذاری زود به نقطهٔ تقاطع می‌رسند."
               },
               "answer": false
             },
@@ -1128,8 +1128,8 @@
               "kind": "card",
               "id": "b03c2l3p6",
               "text": {
-                "en": "The 1992 edition recommended long-term US Treasury bonds held to maturity. The aim was safe capital and steady, predictable income, not speculation.",
-                "fa": "نسخهٔ ۱۹۹۲ اوراق خزانهٔ بلندمدت آمریکا را که تا سررسید نگه داشته شوند توصیه می‌کرد. هدف سرمایهٔ امن و درآمد پایدار و قابل پیش‌بینی بود، نه سفته‌بازی."
+                "en": "The 1992 edition recommended long-term US Treasury and government agency bonds. The aim was safe capital and steady, predictable income, not speculation.",
+                "fa": "نسخهٔ ۱۹۹۲ اوراق بلندمدت خزانه و نهادهای دولتی آمریکا را توصیه می‌کرد. هدف سرمایهٔ امن و درآمد پایدار و قابل پیش‌بینی بود، نه سفته‌بازی."
               }
             },
             {
@@ -1155,8 +1155,8 @@
                   "fa": "معاملهٔ روزانهٔ سهام فناوری"
                 },
                 {
-                  "en": "Long-term US Treasury bonds held to maturity",
-                  "fa": "اوراق خزانهٔ بلندمدت آمریکا تا سررسید"
+                  "en": "Long-term US Treasury and government agency bonds",
+                  "fa": "اوراق بلندمدت خزانه و نهادهای دولتی آمریکا"
                 },
                 {
                   "en": "Rental property with a mortgage",
@@ -1219,16 +1219,16 @@
               "kind": "card",
               "id": "b03c2l3p10",
               "text": {
-                "en": "Applied: the book wrote for 1990s US bonds; your core is 80 percent index ETFs such as VWCE or IWDA. The principle carries over: low cost, understood, built for steady growth.",
-                "fa": "کاربردی: کتاب برای اوراق آمریکا در دههٔ ۱۹۹۰ نوشته شد؛ هستهٔ تو ۸۰ درصد ETF شاخصی مثل VWCE یا IWDA است. اصل همان است: کم‌هزینه، قابل فهم، ساخته‌شده برای رشد پایدار."
+                "en": "Applied: the book wrote for 1990s US bonds; your roadmap's core is 80 percent index ETFs such as VWCE or IWDA. What carries over is the principle: keep costs low and understand what you hold.",
+                "fa": "کاربردی: کتاب برای اوراق آمریکا در دههٔ ۱۹۹۰ نوشته شد؛ هستهٔ نقشهٔ راه تو ۸۰ درصد ETF شاخصی مثل VWCE یا IWDA است. آنچه منتقل می‌شود اصل است: هزینه را پایین نگه دار و آنچه داری را بفهم."
               }
             },
             {
               "kind": "card",
               "id": "b03c2l3p11",
               "text": {
-                "en": "Applied: keep a cushion of about six months of Dutch expenses in a savings account before you invest at a broker such as Interactive Brokers or DEGIRO.",
-                "fa": "کاربردی: پیش از سرمایه‌گذاری در کارگزاری مثل Interactive Brokers یا DEGIRO، ضربه‌گیری حدود شش ماه هزینهٔ زندگی در هلند در حساب پس‌انداز نگه دار."
+                "en": "Applied: the book's cushion fits your move too. It is about six months of Dutch expenses kept liquid, separate from the capital you invest.",
+                "fa": "کاربردی: ضربه‌گیرِ کتاب به جابه‌جایی تو هم می‌خورد. حدود شش ماه هزینهٔ زندگی در هلند است که نقد و جدا از سرمایه‌ای که سرمایه‌گذاری می‌کنی نگه داشته می‌شود."
               }
             },
             {
@@ -1237,8 +1237,8 @@
               "type": "tf",
               "source": "b03c2l3p11",
               "prompt": {
-                "en": "You should invest at the broker before setting aside any cushion.",
-                "fa": "باید پیش از کنار گذاشتن هر ضربه‌گیری در کارگزاری سرمایه‌گذاری کنی."
+                "en": "The cushion is meant to be invested together with your capital.",
+                "fa": "ضربه‌گیر قرار است همراه با سرمایه‌ات سرمایه‌گذاری شود."
               },
               "answer": false
             },

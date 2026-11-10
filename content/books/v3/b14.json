@@ -47,8 +47,8 @@
               "kind": "card",
               "id": "b14c1l1p2",
               "text": {
-                "en": "Peter Lynch ran Fidelity's Magellan Fund from 1977 to 1990 and made it one of the best-performing funds of its time. His message: the amateur investor has advantages the professionals lack.",
-                "fa": "Peter Lynch از ۱۹۷۷ تا ۱۹۹۰ صندوق Magellan شرکت Fidelity را اداره کرد و آن را به یکی از پربازده‌ترین صندوق‌های زمان خودش تبدیل کرد. پیامش: سرمایه‌گذار آماتور مزیت‌هایی دارد که حرفه‌ای‌ها ندارند."
+                "en": "Peter Lynch took over Fidelity's Magellan Fund in 1977 and made it one of the best-performing funds of its time. His message: the amateur investor has advantages the professionals lack.",
+                "fa": "Peter Lynch در ۱۹۷۷ مدیریت صندوق Magellan شرکت Fidelity را به دست گرفت و آن را به یکی از پربازده‌ترین صندوق‌های زمان خودش تبدیل کرد. پیامش: سرمایه‌گذار آماتور مزیت‌هایی دارد که حرفه‌ای‌ها ندارند."
               }
             },
             {
@@ -463,8 +463,8 @@
               "kind": "card",
               "id": "b14c1l3p3",
               "text": {
-                "en": "Before buying, give the two-minute drill: why you want the stock, what has to happen for it to succeed and what could go wrong. Never invest in an idea you cannot illustrate with a crayon.",
-                "fa": "پیش از خرید، تمرین دو دقیقه‌ای را انجام بده: چرا سهم را می‌خواهی، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود. هرگز روی ایده‌ای سرمایه‌گذاری نکن که نتوانی با مدادشمعی نقاشی‌اش کنی."
+                "en": "Before buying, give the two-minute drill: why you want the stock, what has to happen for it to succeed and what could go wrong. Tell the story so simply that even a child could understand it.",
+                "fa": "پیش از خرید، تمرین دو دقیقه‌ای را انجام بده: چرا سهم را می‌خواهی، چه باید اتفاق بیفتد تا موفق شود و چه چیزی می‌تواند خراب شود. داستان را آن‌قدر ساده بگو که حتی یک بچه هم بفهمد."
               }
             },
             {
@@ -599,8 +599,8 @@
               "kind": "card",
               "id": "b14c1l3p11",
               "text": {
-                "en": "Selling your winners and keeping your losers is, in Lynch's words, cutting the flowers and watering the weeds.",
-                "fa": "فروختن برنده‌ها و نگه داشتن بازنده‌ها، به تعبیر Lynch، یعنی چیدن گل‌ها و آب دادن به علف‌های هرز."
+                "en": "Selling your winners and keeping your losers is, in Lynch's words, like pulling out the flowers and watering the weeds.",
+                "fa": "فروختن برنده‌ها و نگه داشتن بازنده‌ها، به تعبیر Lynch، مثل کندن گل‌ها و آب دادن به علف‌های هرز است."
               }
             },
             {
@@ -622,8 +622,8 @@
               },
               "options": [
                 {
-                  "en": "Cutting the flowers and watering the weeds",
-                  "fa": "چیدن گل‌ها و آب دادن به علف‌های هرز"
+                  "en": "Pulling out the flowers and watering the weeds",
+                  "fa": "کندن گل‌ها و آب دادن به علف‌های هرز"
                 },
                 {
                   "en": "Diworseification",
@@ -701,15 +701,15 @@
               "id": "b14c1l4p4",
               "text": {
                 "en": "Lynch rotates rather than cashing out: when a stalwart has had its gain or a story fades, he moves the money into a similar company whose story is still intact.",
-                "fa": "Lynch به‌جای نقد کردن، جابه‌جا می‌کند: وقتی یک stalwart سودش را داده یا داستانی کم‌رنگ شده، پول را به شرکت مشابهی می‌برد که داستانش هنوز سالم است."
+                "fa": "Lynch به‌جای نقد کردن، جابه‌جا می‌کند: وقتی یک سهم استوار سودش را داده یا داستانی کم‌رنگ شده، پول را به شرکت مشابهی می‌برد که داستانش هنوز سالم است."
               }
             },
             {
               "kind": "card",
               "id": "b14c1l4p5",
               "text": {
-                "en": "Good times to buy come when others sell: the year-end tax-loss selling in December, and market collapses and corrections. Then fine companies go on sale.",
-                "fa": "زمان‌های خوب خرید وقتی است که دیگران می‌فروشند: فروش برای ثبت زیان مالیاتی در دسامبر و سقوط‌ها و اصلاح‌های بازار. آن موقع شرکت‌های خوب حراج می‌شوند."
+                "en": "Good times to buy come when others sell: the year-end tax selling, and market collapses and corrections. Then fine companies go on sale.",
+                "fa": "زمان‌های خوب خرید وقتی است که دیگران می‌فروشند: فروش مالیاتی پایان سال و سقوط‌ها و اصلاح‌های بازار. آن موقع شرکت‌های خوب حراج می‌شوند."
               }
             },
             {
@@ -735,8 +735,8 @@
               "kind": "card",
               "id": "b14c1l4p7",
               "text": {
-                "en": "He then lists the twelve silliest things people say about stock prices, starting with: it has gone down so much, how much lower can it go? A fallen stock can always fall further, down to zero.",
-                "fa": "سپس دوازده حرف احمقانه دربارهٔ قیمت سهام را می‌شمارد که اولی این است: این‌قدر پایین آمده، دیگر چقدر پایین‌تر می‌رود؟ سهم افتاده همیشه می‌تواند بیشتر بیفتد، تا صفر."
+                "en": "He then lists the twelve silliest things people say about stock prices, starting with: it has gone down so much already, it cannot go much lower. A fallen stock can always fall further, down to zero.",
+                "fa": "سپس دوازده حرف احمقانه دربارهٔ قیمت سهام را می‌شمارد که اولی این است: این‌قدر پایین آمده که دیگر نمی‌تواند خیلی پایین‌تر برود. سهم افتاده همیشه می‌تواند بیشتر بیفتد، تا صفر."
               }
             },
             {

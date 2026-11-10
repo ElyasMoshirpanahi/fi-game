@@ -115,8 +115,8 @@
               "kind": "card",
               "id": "b27c1l1p6",
               "text": {
-                "en": "Grove's key rule: detect and fix any problem at the lowest-value stage possible. A cracked egg caught at receiving costs one egg; caught on the plate it costs the whole breakfast.",
-                "fa": "قاعدهٔ کلیدی Grove: هر مشکلی را در کم‌ارزش‌ترین مرحلهٔ ممکن پیدا و رفع کن. تخم‌مرغ ترک‌خورده اگر هنگام تحویل گرفتن دیده شود یک تخم‌مرغ هزینه دارد؛ اگر در بشقاب دیده شود، کل صبحانه."
+                "en": "Grove's key rule: detect and fix any problem at the lowest-value stage possible. A bad egg caught at receiving costs one egg; caught on the plate it costs the whole breakfast.",
+                "fa": "قاعدهٔ کلیدی Grove: هر مشکلی را در کم‌ارزش‌ترین مرحلهٔ ممکن پیدا و رفع کن. تخم‌مرغ خراب اگر هنگام تحویل گرفتن دیده شود یک تخم‌مرغ هزینه دارد؛ اگر در بشقاب دیده شود، کل صبحانه."
               }
             },
             {
@@ -508,8 +508,8 @@
               "kind": "card",
               "id": "b27c1l3p5",
               "text": {
-                "en": "Grove's Intel system of objectives and key results was later carried to Google by John Doerr, who had worked at Intel. That is the origin of the OKRs many tech companies use today.",
-                "fa": "سیستم هدف‌ها و نتایج کلیدیِ Grove در Intel بعدها توسط John Doerr، که در Intel کار کرده بود، به Google برده شد. ریشهٔ OKR که امروز بسیاری از شرکت‌های فناوری به کار می‌برند همین است."
+                "en": "MBO focuses on the short range, Grove says. If you plan year by year, set objectives and key results at least quarterly, perhaps even monthly, so feedback arrives in time to act.",
+                "fa": "Grove می‌گوید MBO بر بازهٔ کوتاه تمرکز دارد. اگر سال‌به‌سال برنامه می‌ریزی، هدف‌ها و نتایج کلیدی را دست‌کم فصلی و شاید حتی ماهانه تعیین کن تا بازخورد به‌موقع برسد و بتوانی کاری کنی."
               }
             },
             {
@@ -518,8 +518,8 @@
               "type": "tf",
               "source": "b27c1l3p5",
               "prompt": {
-                "en": "OKRs began at Google, with no link to Intel.",
-                "fa": "OKR در Google آغاز شد و ربطی به Intel ندارد."
+                "en": "Grove says MBO key results need checking only once a year.",
+                "fa": "Grove می‌گوید نتایج کلیدی MBO را فقط سالی یک بار باید بررسی کرد."
               },
               "answer": false
             },
@@ -712,8 +712,8 @@
               "kind": "card",
               "id": "b27c1l4p5",
               "text": {
-                "en": "A hybrid needs dual reporting. Grove's example is a division's data-processing manager, who reports to the division head on business needs and to the corporate data-processing manager on technical methods.",
-                "fa": "سازمان ترکیبی به گزارش‌دهی دوگانه نیاز دارد. مثال Grove مدیر پردازش داده در یک بخش است که دربارهٔ نیازهای کسب‌وکار به رئیس بخش و دربارهٔ روش‌های فنی به مدیر پردازش دادهٔ مرکزی گزارش می‌دهد."
+                "en": "A hybrid needs dual reporting. Grove's example is plant security at Intel: the security staff answer to the plant manager day to day, while a corporate security manager sets their professional standards.",
+                "fa": "سازمان ترکیبی به گزارش‌دهی دوگانه نیاز دارد. مثال Grove حراست کارخانه در Intel است: کارکنان حراست در کار روزانه به مدیر کارخانه پاسخ می‌دهند و مدیر حراست مرکزی استانداردهای حرفه‌ای‌شان را تعیین می‌کند."
               }
             },
             {
@@ -731,8 +731,8 @@
               "kind": "card",
               "id": "b27c1l4p6",
               "text": {
-                "en": "The technical supervision often comes from a peer group rather than one boss. The division managers and the corporate manager meet as a group and decide together on shared methods and standards.",
-                "fa": "نظارت فنی اغلب از یک گروه همتا می‌آید نه از یک رئیس. مدیران بخش‌ها و مدیر مرکزی به‌صورت گروهی جلسه می‌گذارند و دربارهٔ روش‌ها و استانداردهای مشترک با هم تصمیم می‌گیرند."
+                "en": "The technical supervision often comes from a peer group rather than one boss. Managers who do the same job in different divisions meet as a group and decide together on shared methods and standards.",
+                "fa": "نظارت فنی اغلب از یک گروه همتا می‌آید نه از یک رئیس. مدیرانی که در بخش‌های مختلف یک کار را انجام می‌دهند به‌صورت گروهی جلسه می‌گذارند و دربارهٔ روش‌ها و استانداردهای مشترک با هم تصمیم می‌گیرند."
               }
             },
             {
@@ -780,8 +780,8 @@
               "kind": "card",
               "id": "b27c1l4p9",
               "text": {
-                "en": "Free-market control works when price alone describes the deal, like buying a pencil. Contractual control fits more complex work: an employee agrees to accept direction and follow rules in exchange for pay.",
-                "fa": "کنترل بازار آزاد وقتی کار می‌کند که قیمت به‌تنهایی معامله را توصیف کند، مثل خرید یک مداد. کنترل قراردادی برای کار پیچیده‌تر مناسب است: کارمند در ازای دستمزد می‌پذیرد که دستور بگیرد و از قواعد پیروی کند."
+                "en": "Free-market control works when price alone describes the deal, like buying tires for your car. Contractual control fits more complex work: an employee agrees to accept direction and follow rules in exchange for pay.",
+                "fa": "کنترل بازار آزاد وقتی کار می‌کند که قیمت به‌تنهایی معامله را توصیف کند، مثل خرید لاستیک برای ماشینت. کنترل قراردادی برای کار پیچیده‌تر مناسب است: کارمند در ازای دستمزد می‌پذیرد که دستور بگیرد و از قواعد پیروی کند."
               }
             },
             {

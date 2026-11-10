@@ -131,8 +131,8 @@
               "kind": "card",
               "id": "b16c1l1p8",
               "text": {
-                "en": "Redone, the cookbook talk asks mom what she last cooked, how she found the recipe, and whether she ever looked for a cooking app. Her answers can't flatter you.",
-                "fa": "در نسخهٔ درست، از مادر می‌پرسی آخرین بار چه پخت، دستور را از کجا پیدا کرد و آیا هیچ‌وقت دنبال اپ آشپزی گشته. پاسخ‌هایش نمی‌تواند تعریف از تو باشد."
+                "en": "Redone, the talk asks mom what she last did on her iPad, how she found the apps she uses, and what cookbook she last bought herself. Her answers can't flatter you.",
+                "fa": "در نسخهٔ درست، از مادر می‌پرسی آخرین بار با iPad چه کرد، اپ‌هایی را که استفاده می‌کند چطور پیدا کرد و آخرین کتاب آشپزی‌ای که برای خودش خرید چه بود. پاسخ‌هایش نمی‌تواند تعریف از تو باشد."
               }
             },
             {
@@ -286,8 +286,8 @@
               "kind": "card",
               "id": "b16c1l2p5",
               "text": {
-                "en": "Rule of thumb: anything involving the future is an over-optimistic lie. People believe they will exercise, save and buy more than they really do.",
-                "fa": "قاعدهٔ سرانگشتی: هر چیزی که به آینده مربوط باشد، دروغی بیش از حد خوش‌بینانه است. مردم فکر می‌کنند بیشتر از واقعیت ورزش می‌کنند، پس‌انداز می‌کنند و خرید می‌کنند."
+                "en": "Rule of thumb: anything involving the future is an over-optimistic lie. The book's fix is to ask how they solve the problem now and what that costs them.",
+                "fa": "قاعدهٔ سرانگشتی: هر چیزی که به آینده مربوط باشد، دروغی بیش از حد خوش‌بینانه است. راه‌حل کتاب این است که بپرسی الان مشکل را چطور حل می‌کنند و چقدر برایشان هزینه دارد."
               }
             },
             {
@@ -496,8 +496,8 @@
               "kind": "card",
               "id": "b16c1l3p4",
               "text": {
-                "en": "Warning signs include 'That's so cool' and 'I love it'. When you hear them, the talk has drifted from their life to your idea.",
-                "fa": "نشانه‌های هشدار شامل «خیلی باحاله» و «عاشقشم» است. وقتی این‌ها را می‌شنوی، گفتگو از زندگی آن‌ها به ایدهٔ تو منحرف شده."
+                "en": "Compliments sound like 'That's really cool' and 'I love it'. When you hear them, the talk has probably drifted from their life to your idea.",
+                "fa": "تعریف‌ها شبیه «خیلی باحاله» و «عاشقشم» هستند. وقتی این‌ها را می‌شنوی، گفتگو احتمالاً از زندگی آن‌ها به ایدهٔ تو منحرف شده."
               }
             },
             {
@@ -524,7 +524,7 @@
               "id": "b16c1l3p6",
               "text": {
                 "en": "Fluff comes in three forms: generic claims ('I usually', 'I never'), future-tense promises ('I would', 'I will') and hypothetical maybes ('I might', 'I could').",
-                "fa": "حرف توخالی سه شکل دارد: ادعای کلی («معمولاً»، «هرگز»)، وعدهٔ آینده («می‌خواهم»، «خواهم کرد») و شاید فرضی («شاید»، «می‌توانم»)."
+                "fa": "حرف توخالی سه شکل دارد: ادعای کلی («معمولاً»، «هرگز»)، وعدهٔ آینده («این کار را می‌کردم»، «خواهم کرد») و شاید فرضی («شاید»، «می‌توانستم»)."
               }
             },
             {
@@ -796,8 +796,8 @@
               "kind": "card",
               "id": "b16c2l1p9",
               "text": {
-                "en": "Ask how seriously they take it: 'What are your biggest problems right now?' If yours isn't near the top, it may not sell.",
-                "fa": "بپرس چقدر جدی‌اش می‌گیرند: «بزرگ‌ترین مشکلاتت همین حالا چیست؟» اگر مشکل تو نزدیک صدر فهرست نیست، شاید فروش نرود."
+                "en": "Ask about their biggest problems and goals right now, without naming yours. If your problem isn't near the top, it may not sell.",
+                "fa": "دربارهٔ بزرگ‌ترین مشکلات و هدف‌های فعلی‌شان بپرس، بدون اینکه مشکل خودت را نام ببری. اگر مشکل تو نزدیک صدر فهرست نیست، شاید فروش نرود."
               }
             },
             {
@@ -932,8 +932,8 @@
               "kind": "card",
               "id": "b16c2l2p5",
               "text": {
-                "en": "Time commitments include a clear next meeting with known goals, sitting down to give feedback on wireframes, or using a trial for a real task.",
-                "fa": "تعهد زمانی شامل جلسهٔ بعدی روشن با هدف‌های مشخص، نشستن برای بازخورد روی wireframeها، یا استفاده از نسخهٔ آزمایشی برای یک کار واقعی است."
+                "en": "Time commitments include a clear next meeting with known goals, sitting down to give feedback on wireframes, or using a trial for a non-trivial period.",
+                "fa": "تعهد زمانی شامل جلسهٔ بعدی روشن با هدف‌های مشخص، نشستن برای بازخورد روی wireframeها، یا استفاده از نسخهٔ آزمایشی برای مدتی قابل توجه است."
               }
             },
             {
@@ -948,8 +948,8 @@
               "kind": "card",
               "id": "b16c2l2p7",
               "text": {
-                "en": "Cash commitments include a letter of intent, a pre-order or a deposit. Money is the clearest proof that the problem matters to them.",
-                "fa": "تعهد نقدی شامل نامهٔ قصد، پیش‌سفارش یا بیعانه است. پول روشن‌ترین دلیل است که مشکل برایشان مهم است."
+                "en": "Cash commitments include a letter of intent, a pre-order or a deposit. Each puts money, or a promise of it, behind their words.",
+                "fa": "تعهد نقدی شامل نامهٔ قصد، پیش‌سفارش یا بیعانه است. هر کدام پول، یا قول آن را، پشت حرفشان می‌گذارد."
               }
             },
             {
@@ -989,8 +989,8 @@
               "kind": "card",
               "id": "b16c2l2p9",
               "text": {
-                "en": "'Keep me in the loop' is a polite brush-off, not a lead. Without a next step, nothing has actually moved forward.",
-                "fa": "«من را در جریان بگذار» یک ردِ مؤدبانه است، نه سرنخ. بدون قدم بعدی، در واقع هیچ چیز جلو نرفته."
+                "en": "The book calls 'let me know when it launches' a compliment plus a stalling tactic, not a lead. Without a next step, nothing has actually moved forward.",
+                "fa": "کتاب «وقتی عرضه شد خبرم کن» را یک تعریف به‌اضافهٔ وقت‌کشی می‌داند، نه سرنخ. بدون قدم بعدی، در واقع هیچ چیز جلو نرفته."
               }
             },
             {
@@ -1152,8 +1152,8 @@
               "kind": "card",
               "id": "b16c2l3p7",
               "text": {
-                "en": "Typical next steps to ask for: a follow-up with their decision maker, a trial on their real data, or a deposit to reserve a spot.",
-                "fa": "قدم‌های بعدی رایج برای درخواست: جلسهٔ پیگیری با تصمیم‌گیرنده، آزمایش روی دادهٔ واقعی‌شان، یا بیعانه برای رزرو جا."
+                "en": "Next steps you can ask for, drawn from the book's list of commitments: an intro to the decision maker, a trial of the product, or a pre-order or deposit.",
+                "fa": "قدم‌های بعدی که می‌توانی درخواست کنی، برگرفته از فهرست تعهدهای کتاب: معرفی به تصمیم‌گیرنده، آزمایش محصول، یا پیش‌سفارش یا بیعانه."
               }
             },
             {
@@ -1171,8 +1171,8 @@
                   "fa": "یک لایک روی پستت"
                 },
                 {
-                  "en": "A trial on their real data",
-                  "fa": "آزمایش روی دادهٔ واقعی‌شان"
+                  "en": "A trial of the product",
+                  "fa": "آزمایش محصول"
                 },
                 {
                   "en": "A compliment on your slides",
@@ -1365,8 +1365,8 @@
               "kind": "card",
               "id": "b16c3l1p7",
               "text": {
-                "en": "The book also flips it: bring customers to you. Organise a meetup on their problem, and the people who show up are pre-qualified.",
-                "fa": "کتاب این را برعکس هم می‌کند: مشتری‌ها را سمت خودت بیاور. یک meetup دربارهٔ مشکلشان برگزار کن؛ کسانی که می‌آیند از قبل غربال شده‌اند."
+                "en": "The book also flips it: bring customers to you. Organise a meetup on their problem, and as the organiser you sit at the centre and are seen as credible.",
+                "fa": "کتاب این را برعکس هم می‌کند: مشتری‌ها را سمت خودت بیاور. یک meetup دربارهٔ مشکلشان برگزار کن؛ به‌عنوان برگزارکننده در مرکز توجه هستی و معتبر دیده می‌شوی."
               }
             },
             {
@@ -1375,8 +1375,8 @@
               "type": "tap",
               "source": "b16c3l1p7",
               "prompt": {
-                "en": "Why are people at your own meetup valuable?",
-                "fa": "چرا آدم‌های meetup خودت ارزشمندند؟"
+                "en": "Why does organising your own meetup help?",
+                "fa": "چرا برگزاری meetup خودت کمک می‌کند؟"
               },
               "options": [
                 {
@@ -1384,8 +1384,8 @@
                   "fa": "همیشه همان شب خرید می‌کنند"
                 },
                 {
-                  "en": "People who show up are pre-qualified",
-                  "fa": "کسانی که می‌آیند از قبل غربال شده‌اند"
+                  "en": "The organiser is at the centre and seen as credible",
+                  "fa": "برگزارکننده در مرکز توجه است و معتبر دیده می‌شود"
                 },
                 {
                   "en": "They never need follow-up",
@@ -1425,8 +1425,8 @@
               "kind": "card",
               "id": "b16c3l1p10",
               "text": {
-                "en": "Bringing people to you is slower to start but compounds. After a while, conversations come to you instead of costing you cold outreach.",
-                "fa": "آوردن مردم سمت خودت دیرتر شروع می‌شود اما انباشته می‌شود. پس از مدتی، گفتگوها به سراغت می‌آیند به‌جای اینکه هزینهٔ تماس سرد بدهی."
+                "en": "Rob's reason: when you chase people you start on the back foot. When they come to you, they take you more seriously and are readier to talk.",
+                "fa": "دلیل Rob: وقتی دنبال مردم می‌دوی، از موضع ضعف شروع می‌کنی. وقتی خودشان سراغت می‌آیند، جدی‌ترت می‌گیرند و برای حرف زدن آماده‌ترند."
               }
             },
             {
@@ -1493,8 +1493,8 @@
               "kind": "card",
               "id": "b16c3l2p2",
               "text": {
-                "en": "Rule of thumb: startups don't starve, they drown. They suffer from too many options and possible customers, not too few.",
-                "fa": "قاعدهٔ سرانگشتی: استارتاپ‌ها از گرسنگی نمی‌میرند، غرق می‌شوند. مشکلشان گزینه‌ها و مشتریان احتمالی بیش از حد است، نه کم."
+                "en": "The chapter opens with a saying: startups don't starve, they drown. They suffer from too many options and possible customers, not too few.",
+                "fa": "فصل با یک گفته شروع می‌شود: استارتاپ‌ها از گرسنگی نمی‌میرند، غرق می‌شوند. مشکلشان گزینه‌ها و مشتریان احتمالی بیش از حد است، نه کم."
               }
             },
             {
@@ -1561,8 +1561,8 @@
               "kind": "card",
               "id": "b16c3l2p6",
               "text": {
-                "en": "Useful slicing questions: within this group, which type wants it most? Would they buy it, why do they want it, and what are they doing now?",
-                "fa": "سؤال‌های مفید برای برش: در این گروه، کدام نوع بیشتر از همه می‌خواهدش؟ آیا می‌خرند، چرا می‌خواهند و الان چه می‌کنند؟"
+                "en": "Useful slicing questions: within this group, which type wants it most, and would everyone in it buy or only some? Why do they want it, and what are they doing now?",
+                "fa": "سؤال‌های مفید برای برش: در این گروه، کدام نوع بیشتر از همه می‌خواهدش و آیا همه می‌خرند یا فقط بعضی؟ چرا می‌خواهند و الان چه می‌کنند؟"
               }
             },
             {
@@ -1610,8 +1610,8 @@
               "kind": "card",
               "id": "b16c3l2p9",
               "text": {
-                "en": "The book also warns about talking to the wrong people: a segment that's too broad, several segments where you missed some, or people who can't buy.",
-                "fa": "کتاب دربارهٔ حرف زدن با آدم‌های اشتباه هم هشدار می‌دهد: بخشی زیادی گسترده، چند بخش که بعضی را جا انداخته‌ای، یا کسانی که قدرت خرید ندارند."
+                "en": "The book also warns about talking to the wrong people: a segment that's too broad, several segments where you missed some, or a complicated business purchase where you overlooked some stakeholders.",
+                "fa": "کتاب دربارهٔ حرف زدن با آدم‌های اشتباه هم هشدار می‌دهد: بخشی زیادی گسترده، چند بخش که بعضی را جا انداخته‌ای، یا خرید پیچیدهٔ یک کسب‌وکار که بعضی از ذی‌نفعانش را نادیده گرفته‌ای."
               }
             },
             {
@@ -1620,8 +1620,8 @@
               "type": "tf",
               "source": "b16c3l2p9",
               "prompt": {
-                "en": "Talking only to people with no buying power is one way of talking to the wrong people.",
-                "fa": "حرف زدن فقط با کسانی که قدرت خرید ندارند یکی از شکل‌های حرف زدن با آدم اشتباه است."
+                "en": "Overlooking some stakeholders in a complicated business purchase is one way of talking to the wrong people.",
+                "fa": "نادیده گرفتن بعضی ذی‌نفعان در خرید پیچیدهٔ یک کسب‌وکار یکی از شکل‌های حرف زدن با آدم اشتباه است."
               },
               "answer": true
             },
@@ -1841,8 +1841,8 @@
               "kind": "card",
               "id": "b16c3l3p11",
               "text": {
-                "en": "Rule of thumb: keep having conversations until you stop hearing new stuff. Then move on to the next question or segment.",
-                "fa": "قاعدهٔ سرانگشتی: آن‌قدر گفتگو کن تا دیگر چیز تازه‌ای نشنوی. بعد سراغ سؤال یا بخش بعدی برو."
+                "en": "A rule of thumb from chapter 6 fits here: keep having conversations until you stop hearing new stuff. Then move on to the next question or segment.",
+                "fa": "یک قاعدهٔ سرانگشتی از فصل ۶ اینجا به کار می‌آید: آن‌قدر گفتگو کن تا دیگر چیز تازه‌ای نشنوی. بعد سراغ سؤال یا بخش بعدی برو."
               }
             },
             {

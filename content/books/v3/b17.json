@@ -219,7 +219,7 @@
               "id": "b17c1l2p2",
               "text": {
                 "en": "Embrace accountability and take business risks under your own name. Society will reward you with responsibility, equity and leverage.",
-                "fa": "پاسخ‌گویی را بپذیر و ریسک‌های کاری را به نام خودت بپذیر. جامعه در عوض به تو مسئولیت، equity و اهرم می‌دهد."
+                "fa": "پاسخ‌گویی را بپذیر و به نام خودت ریسک کاری کن. جامعه در عوض به تو مسئولیت، equity و اهرم می‌دهد."
               }
             },
             {
@@ -259,16 +259,16 @@
               "kind": "card",
               "id": "b17c1l2p4",
               "text": {
-                "en": "Without accountability you don't have incentives, and you can't build credibility. A name people trust is itself a form of leverage.",
-                "fa": "بدون پاسخ‌گویی انگیزه نداری و نمی‌توانی اعتبار بسازی. نامی که مردم به آن اعتماد دارند خودش نوعی اهرم است."
+                "en": "Without accountability you don't have incentives, and you can't build credibility. Credibility is what makes people willing to trust you with leverage.",
+                "fa": "بدون پاسخ‌گویی انگیزه نداری و نمی‌توانی اعتبار بسازی. اعتبار همان چیزی است که باعث می‌شود دیگران اهرم را به تو بسپارند."
               }
             },
             {
               "kind": "card",
               "id": "b17c1l2p5",
               "text": {
-                "en": "Naval notes that failing no longer means being cast out of the tribe. In modern society, failing under your own name is survivable and often forgiven.",
-                "fa": "Naval یادآوری می‌کند که شکست دیگر به معنای رانده شدن از قبیله نیست. در جامعهٔ امروز، شکست به نام خودت قابل‌تحمل است و اغلب بخشیده می‌شود."
+                "en": "Naval notes we are still wired to fear failing in public under our own names. Yet he thinks people forgive failures when you were honest and made a high-integrity effort.",
+                "fa": "Naval یادآوری می‌کند که هنوز در نهادمان است که از شکست علنی به نام خودمان بترسیم. اما به نظر او مردم شکست را می‌بخشند، اگر صادق بوده و با درستکاری تلاش کرده باشی."
               }
             },
             {
@@ -310,8 +310,8 @@
               "kind": "card",
               "id": "b17c1l2p9",
               "text": {
-                "en": "Taking accountability does not mean working alone. It means your name is on the outcome, whether you lead a team or ship a solo product.",
-                "fa": "پاسخ‌گویی به معنای تنها کار کردن نیست. یعنی نام تو پای نتیجه است، چه تیمی را رهبری کنی چه محصولی را تنها عرضه کنی."
+                "en": "Seek wealth, not money or status. Wealth is assets that earn while you sleep, money is how we transfer time and wealth, and status is your place in the social hierarchy.",
+                "fa": "دنبال ثروت باش، نه پول یا جایگاه اجتماعی. ثروت دارایی‌هایی است که وقتی خوابی درآمد می‌سازند، پول وسیلهٔ انتقال زمان و ثروت است و جایگاه، رتبهٔ تو در سلسله‌مراتب اجتماعی."
               }
             },
             {
@@ -343,8 +343,8 @@
               "kind": "card",
               "id": "b17c1l2p10",
               "text": {
-                "en": "When you join a startup, accountability is what earns you equity. Get your share in a written cap table with vesting, so your risk is matched by ownership.",
-                "fa": "وقتی به استارتاپی می‌پیوندی، پاسخ‌گویی است که برایت equity می‌آورد. سهمت را در cap table مکتوب با vesting بگیر تا ریسکت با مالکیت جبران شود."
+                "en": "When you join a startup, accountability is what earns you equity. Your roadmap wants that share in a written cap table with vesting, so risk is matched by ownership.",
+                "fa": "وقتی به استارتاپی می‌پیوندی، پاسخ‌گویی است که برایت equity می‌آورد. نقشهٔ راهت می‌خواهد این سهم در cap table مکتوب با vesting باشد تا ریسک با مالکیت جبران شود."
               }
             },
             {
@@ -466,7 +466,7 @@
               "id": "b17c1l3p7",
               "text": {
                 "en": "An army of robots is freely available; it is just packed in data centers. You can write software that works for you while you sleep.",
-                "fa": "ارتشی از ربات‌ها رایگان در دسترس است؛ فقط در دیتاسنترها جا گرفته. می‌توانی نرم‌افزاری بنویسی که وقتی خوابی برایت کار کند."
+                "fa": "ارتشی از ربات‌ها آزادانه در دسترس است؛ فقط در دیتاسنترها جا گرفته. می‌توانی نرم‌افزاری بنویسی که وقتی خوابی برایت کار کند."
               }
             },
             {
@@ -653,8 +653,8 @@
               "kind": "card",
               "id": "b17c2l1p8",
               "text": {
-                "en": "If you cannot decide, the answer is no. Naval treats hesitation as a sign that the option is not clearly good enough.",
-                "fa": "اگر نمی‌توانی تصمیم بگیری، جواب «نه» است. Naval تردید را نشانهٔ این می‌داند که آن گزینه به اندازهٔ کافی روشن خوب نیست."
+                "en": "If you cannot decide, the answer is no. Naval reasons that modern life is full of options, so you can pass on anything that is not a clear yes.",
+                "fa": "اگر نمی‌توانی تصمیم بگیری، جواب «نه» است. استدلال Naval این است که زندگی امروز پر از گزینه است، پس می‌توانی از هر چیزی که «بلهٔ» روشن نیست بگذری."
               }
             },
             {
@@ -684,8 +684,8 @@
                   "fa": "کدام گوشی، ماشین و مدرسه را انتخاب کنی"
                 },
                 {
-                  "en": "Your salary, your title and your city",
-                  "fa": "حقوقت، عنوانت و شهرت"
+                  "en": "Your salary, your title and your degree",
+                  "fa": "حقوقت، عنوانت و مدرکت"
                 }
               ],
               "answer": 0
@@ -832,8 +832,8 @@
               "kind": "card",
               "id": "b17c2l2p9",
               "text": {
-                "en": "Compounding needs time, so the biggest mistake is quitting early. The gains come late, which is why most people never see them.",
-                "fa": "اثر مرکب زمان می‌خواهد، پس بزرگ‌ترین اشتباه کنار کشیدن زودهنگام است. سودها دیر می‌رسند و برای همین بیشتر مردم هرگز آن‌ها را نمی‌بینند."
+                "en": "Compounding needs time, so patience is part of the method. The big gains come late, which is why many people quit before they see them.",
+                "fa": "اثر مرکب زمان می‌خواهد، پس صبر بخشی از روش است. سودهای بزرگ دیر می‌رسند و برای همین خیلی‌ها پیش از دیدنشان کنار می‌کشند."
               }
             },
             {
@@ -865,8 +865,8 @@
               "kind": "card",
               "id": "b17c2l2p10",
               "text": {
-                "en": "Your 80 percent index core of ETFs such as VWCE or IWDA is a long-term game. It compounds only if you hold through bad years instead of trading.",
-                "fa": "هستهٔ ۸۰ درصدی شاخصی تو، با ETFهایی مثل VWCE یا IWDA، یک بازی بلندمدت است. فقط اگر در سال‌های بد نگهش داری و معامله نکنی، مرکب می‌شود."
+                "en": "Your roadmap's 80 percent index core is a long-term game. Compounding works over many years, so the roadmap treats that core as something to leave alone, not to trade.",
+                "fa": "هستهٔ ۸۰ درصدی شاخصی در نقشهٔ راهت یک بازی بلندمدت است. اثر مرکب در طول سال‌های زیاد کار می‌کند، پس نقشهٔ راه این هسته را چیزی می‌داند که باید به حال خود بماند، نه این‌که معامله شود."
               }
             },
             {
@@ -883,8 +883,8 @@
               "type": "tf",
               "source": "b17c2l2p10",
               "prompt": {
-                "en": "Your index core compounds best if you trade it actively in bad years.",
-                "fa": "هستهٔ شاخصی تو وقتی بهتر مرکب می‌شود که در سال‌های بد فعالانه معامله‌اش کنی."
+                "en": "Your roadmap treats the index core as something to trade actively.",
+                "fa": "نقشهٔ راهت هستهٔ شاخصی را چیزی می‌داند که باید فعالانه معامله شود."
               },
               "answer": false
             }
@@ -1083,8 +1083,8 @@
               "id": "b17c3l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the start of Part II, Learning Happiness. It matters because reaching 25 times your annual expenses takes years, and Naval says you can learn happiness on the way.",
-                "fa": "این درس آغاز بخش دوم، «یاد گرفتن شادی»، را خلاصه می‌کند. مهم است چون رسیدن به ۲۵ برابر هزینه‌های سالانه سال‌ها طول می‌کشد و Naval می‌گوید شادی را می‌شود در مسیر یاد گرفت."
+                "en": "This Lesson distils Learning Happiness, the start of Part II. It matters because reaching 25 times your annual expenses takes years, and Naval says you can learn happiness on the way.",
+                "fa": "این درس «یاد گرفتن شادی»، آغاز بخش دوم، را خلاصه می‌کند. مهم است چون رسیدن به ۲۵ برابر هزینه‌های سالانه سال‌ها طول می‌کشد و Naval می‌گوید شادی را می‌شود در مسیر یاد گرفت."
               }
             },
             {
@@ -1167,8 +1167,8 @@
               "kind": "card",
               "id": "b17c3l1p7",
               "text": {
-                "en": "Envy is the enemy of happiness. You cannot swap only the parts of someone's life you like; you would have to be them entirely.",
-                "fa": "حسادت دشمن شادی است. نمی‌توانی فقط بخش‌هایی از زندگی کسی را که دوست داری بگیری؛ باید کاملاً جای او باشی."
+                "en": "Naval let go of envy when he saw you cannot take only the parts of someone's life you like. You would have to swap places with them entirely.",
+                "fa": "Naval وقتی حسادت را کنار گذاشت که دید نمی‌شود فقط بخش‌هایی از زندگی کسی را که دوست داری برداری. باید کاملاً جایت را با او عوض کنی."
               }
             },
             {
@@ -1193,8 +1193,8 @@
               "type": "tap",
               "source": "b17c3l1p7",
               "prompt": {
-                "en": "Why does envy make no sense, according to Naval?",
-                "fa": "به گفتهٔ Naval، چرا حسادت معنایی ندارد؟"
+                "en": "Why did envy stop making sense to Naval?",
+                "fa": "چرا حسادت دیگر برای Naval معنایی نداشت؟"
               },
               "options": [
                 {
@@ -1311,8 +1311,8 @@
               "kind": "card",
               "id": "b17c3l2p5",
               "text": {
-                "en": "Most unhappiness comes from not accepting the present moment. The mind lives in the past or the future, while life happens now.",
-                "fa": "بیشتر ناشادی از نپذیرفتن لحظهٔ حال می‌آید. ذهن در گذشته یا آینده زندگی می‌کند، در حالی که زندگی در اکنون رخ می‌دهد."
+                "en": "For Naval, happiness is mainly about embracing the present moment and reality as it is. The mind drifts to the past or the future, while life happens now.",
+                "fa": "برای Naval شادی بیشتر یعنی در آغوش گرفتن لحظهٔ حال و واقعیت، همان‌طور که هست. ذهن به گذشته یا آینده می‌رود، در حالی که زندگی در اکنون رخ می‌دهد."
               }
             },
             {
@@ -1405,8 +1405,8 @@
               "type": "tf",
               "source": "b17c3l2p5",
               "prompt": {
-                "en": "Naval says most unhappiness comes from not accepting the present moment.",
-                "fa": "Naval می‌گوید بیشتر ناشادی از نپذیرفتن لحظهٔ حال می‌آید."
+                "en": "Naval ties happiness to embracing the present moment.",
+                "fa": "Naval شادی را به در آغوش گرفتن لحظهٔ حال گره می‌زند."
               },
               "answer": true
             }
@@ -1468,8 +1468,8 @@
               "kind": "card",
               "id": "b17c3l3p5",
               "text": {
-                "en": "Naval says you break a bad habit by noticing it and replacing it, not by willpower alone.",
-                "fa": "Naval می‌گوید عادت بد را با دیدنش و جایگزین کردنش می‌شکنی، نه فقط با اراده."
+                "en": "Naval's way with a bad habit is to replace it with a better one. He accepts that this is slow work that can take years.",
+                "fa": "روش Naval برای عادت بد این است که عادت بهتری جایش بگذارد. او می‌پذیرد که این کار کند است و ممکن است سال‌ها طول بکشد."
               }
             },
             {

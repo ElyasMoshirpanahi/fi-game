@@ -157,7 +157,7 @@
               "id": "b19c1l1p8",
               "text": {
                 "en": "Chapter 2, Party Like It's 1999: after the dot-com crash, founders took four lessons. Make incremental advances, stay lean and flexible, improve on the competition, and focus on product over sales.",
-                "fa": "فصل ۲، Party Like It's 1999: بعد از سقوط dot-com، بنیان‌گذاران چهار درس گرفتند. پیشرفت تدریجی کن، چابک و کم‌هزینه بمان، رقبا را بهتر کن و به‌جای فروش روی محصول تمرکز کن."
+                "fa": "فصل ۲، Party Like It's 1999: بعد از سقوط dot-com، بنیان‌گذاران چهار درس گرفتند. پیشرفت تدریجی کن، چابک و کم‌هزینه بمان، از رقبا بهتر عمل کن و به‌جای فروش روی محصول تمرکز کن."
               }
             },
             {
@@ -319,8 +319,8 @@
               "kind": "card",
               "id": "b19c1l2p6",
               "text": {
-                "en": "Chapter 5, Last Mover Advantage: a business is worth its future cash flows. For a tech company, most of that value lies 10 to 15 years in the future.",
-                "fa": "فصل ۵، Last Mover Advantage: ارزش هر کسب‌وکار برابر جریان نقدی آینده‌اش است. برای یک شرکت فناوری، بیشتر این ارزش ۱۰ تا ۱۵ سال بعد است."
+                "en": "Chapter 5, Last Mover Advantage: a business is worth its future cash flows. For a tech company, most of that value comes at least 10 to 15 years in the future.",
+                "fa": "فصل ۵، Last Mover Advantage: ارزش هر کسب‌وکار برابر جریان نقدی آینده‌اش است. برای یک شرکت فناوری، بیشتر این ارزش دست‌کم ۱۰ تا ۱۵ سال بعد به دست می‌آید."
               }
             },
             {
@@ -572,8 +572,8 @@
               "kind": "card",
               "id": "b19c1l3p9",
               "text": {
-                "en": "Chapter 13, Seeing Green: Thiel lists seven questions every business must answer. The cleantech companies of the 2000s failed because they answered few of them well.",
-                "fa": "فصل ۱۳، Seeing Green: Thiel هفت سؤال را برمی‌شمارد که هر کسب‌وکاری باید جواب دهد. شرکت‌های cleantech دههٔ ۲۰۰۰ شکست خوردند چون به تعداد کمی از آن‌ها جواب خوب دادند."
+                "en": "Chapter 13, Seeing Green: Thiel lists seven questions every business must answer. He says most cleantech companies crashed because they neglected one or more of them.",
+                "fa": "فصل ۱۳، Seeing Green: Thiel هفت سؤال را برمی‌شمارد که هر کسب‌وکاری باید جواب دهد. او می‌گوید بیشتر شرکت‌های cleantech سقوط کردند چون یک یا چند تا از آن‌ها را نادیده گرفتند."
               }
             },
             {
@@ -590,8 +590,8 @@
               "type": "tf",
               "source": "b19c1l3p9",
               "prompt": {
-                "en": "Thiel says the cleantech companies failed because they answered all seven questions well.",
-                "fa": "Thiel می‌گوید شرکت‌های cleantech شکست خوردند چون به هر هفت سؤال جواب خوب دادند."
+                "en": "Thiel says most cleantech companies crashed because they answered all seven questions well.",
+                "fa": "Thiel می‌گوید بیشتر شرکت‌های cleantech سقوط کردند چون به هر هفت سؤال جواب خوب دادند."
               },
               "answer": false
             },
@@ -702,8 +702,8 @@
               "kind": "card",
               "id": "b19c1l4p5",
               "text": {
-                "en": "Everyone involved should be fully committed, ideally full time. Thiel says a startup CEO should earn no more than 150,000 dollars a year, so pay stays tied to equity value.",
-                "fa": "همهٔ افراد درگیر باید کاملاً متعهد و ترجیحاً تمام‌وقت باشند. Thiel می‌گوید مدیرعامل استارتاپ نباید بیش از ۱۵۰ هزار دلار در سال بگیرد تا درآمدش به ارزش سهام گره بخورد."
+                "en": "Everyone involved should be fully committed, ideally full time. Thiel says the CEO of an early-stage, venture-backed startup should never get more than 150,000 dollars a year in salary.",
+                "fa": "همهٔ افراد درگیر باید کاملاً متعهد و ترجیحاً تمام‌وقت باشند. Thiel می‌گوید مدیرعامل استارتاپ نوپایی که سرمایهٔ خطرپذیر گرفته هرگز نباید بیش از ۱۵۰ هزار دلار در سال حقوق بگیرد."
               }
             },
             {
@@ -735,16 +735,16 @@
               "kind": "card",
               "id": "b19c1l4p6",
               "text": {
-                "en": "Chapter 10, The Mechanics of Mafia: the early PayPal team was so close that its members later built Tesla, LinkedIn and YouTube. Hire people who will enjoy working together.",
-                "fa": "فصل ۱۰، The Mechanics of Mafia: تیم اولیهٔ PayPal آن‌قدر نزدیک بود که اعضایش بعدها Tesla، LinkedIn و YouTube را ساختند. کسانی را استخدام کن که از کار کردن با هم لذت ببرند."
+                "en": "Chapter 10, The Mechanics of Mafia: the early PayPal team was tightly knit, and its members later started or co-founded Tesla, LinkedIn and YouTube. Thiel hired people who would enjoy working together.",
+                "fa": "فصل ۱۰، The Mechanics of Mafia: تیم اولیهٔ PayPal بسیار به هم نزدیک بود و اعضایش بعدها Tesla، LinkedIn و YouTube را بنیان گذاشتند یا هم‌بنیان‌گذارشان بودند. Thiel کسانی را استخدام می‌کرد که از کار کردن با هم لذت ببرند."
               }
             },
             {
               "kind": "card",
               "id": "b19c1l4p7",
               "text": {
-                "en": "Every recruit should be able to say why they would join you instead of others. The best answer names your mission and your team, not perks like free food.",
-                "fa": "هر نیروی تازه باید بتواند بگوید چرا به‌جای دیگران به تو می‌پیوندد. بهترین جواب مأموریت و تیم توست، نه مزایایی مثل غذای مجانی."
+                "en": "You should be able to explain why your 20th employee would join you instead of a bigger company. Good answers are about your mission and your team, not perks like free laundry pickup.",
+                "fa": "باید بتوانی توضیح دهی چرا کارمند بیستم به‌جای یک شرکت بزرگ‌تر به تو می‌پیوندد. جواب‌های خوب دربارهٔ مأموریت و تیم تو هستند، نه مزایایی مثل خشک‌شویی رایگان."
               }
             },
             {
@@ -758,8 +758,8 @@
               },
               "options": [
                 {
-                  "en": "Perks like free food",
-                  "fa": "مزایایی مثل غذای مجانی"
+                  "en": "Perks like free laundry pickup",
+                  "fa": "مزایایی مثل خشک‌شویی رایگان"
                 },
                 {
                   "en": "Your mission and your team",

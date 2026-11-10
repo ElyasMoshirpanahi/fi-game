@@ -115,8 +115,8 @@
               "kind": "card",
               "id": "b06c1l1p6",
               "text": {
-                "en": "Intrinsic value rests on discounting: a dividend paid years from now is worth less than cash today. John Burr Williams set out this method in 1938.",
-                "fa": "ارزش ذاتی بر تنزیل استوار است: سود نقدی‌ای که سال‌ها بعد پرداخت شود از پول نقد امروز کم‌ارزش‌تر است. John Burr Williams این روش را در سال ۱۹۳۸ شرح داد."
+                "en": "Intrinsic value rests on discounting: a dividend paid years from now is worth less than cash today. John Burr Williams worked out this method in The Theory of Investment Value.",
+                "fa": "ارزش ذاتی بر تنزیل استوار است: سود نقدی‌ای که سال‌ها بعد پرداخت شود از پول نقد امروز کم‌ارزش‌تر است. John Burr Williams این روش را در کتاب The Theory of Investment Value شرح داد."
               }
             },
             {
@@ -278,16 +278,16 @@
               "kind": "card",
               "id": "b06c1l2p2",
               "text": {
-                "en": "In 1630s Holland, tulip bulbs with striking striped petals became objects of speculation. The prized patterns came from a mosaic virus, which made rare bulbs even rarer.",
-                "fa": "در هلندِ دههٔ ۱۶۳۰، پیاز لاله‌هایی با گلبرگ‌های راه‌راهِ چشمگیر موضوع سفته‌بازی شدند. این طرح‌های گران‌بها از یک ویروس موزاییک می‌آمد که پیازهای کمیاب را کمیاب‌تر می‌کرد."
+                "en": "In 1630s Holland, tulip bulbs with striking striped petals became objects of speculation. The stripes came from a mosaic virus, and the Dutch prized these infected bulbs highly.",
+                "fa": "در هلندِ دههٔ ۱۶۳۰، پیاز لاله‌هایی با گلبرگ‌های راه‌راهِ چشمگیر موضوع سفته‌بازی شدند. این راه‌راه‌ها از یک ویروس موزاییک می‌آمد و هلندی‌ها برای این پیازهای آلوده ارزش بسیاری قائل بودند."
               }
             },
             {
               "kind": "card",
               "id": "b06c1l2p3",
               "text": {
-                "en": "As prices soared, people sold land, homes and jewels to buy bulbs, often trading bulbs they never planted. Malkiel reports bulb prices rose about twentyfold in January 1637 alone.",
-                "fa": "با اوج گرفتن قیمت‌ها، مردم زمین و خانه و جواهر فروختند تا پیاز بخرند و اغلب پیازهایی را معامله می‌کردند که هرگز نکاشتند. به گفتهٔ Malkiel قیمت پیازها فقط در ژانویهٔ ۱۶۳۷ حدود بیست برابر شد."
+                "en": "As prices soared, people bartered belongings such as land, jewels and furniture for bulbs. Malkiel reports bulb prices rose twentyfold in January 1637 alone.",
+                "fa": "با اوج گرفتن قیمت‌ها، مردم دارایی‌هایی مثل زمین، جواهر و اثاث خانه را با پیاز لاله تاخت زدند. به گفتهٔ Malkiel قیمت پیازها فقط در ژانویهٔ ۱۶۳۷ بیست برابر شد."
               }
             },
             {
@@ -296,8 +296,8 @@
               "type": "tf",
               "source": "b06c1l2p3",
               "prompt": {
-                "en": "Tulip bulb prices rose about twentyfold in January 1637 alone.",
-                "fa": "قیمت پیاز لاله فقط در ژانویهٔ ۱۶۳۷ حدود بیست برابر شد."
+                "en": "Tulip bulb prices rose twentyfold in January 1637 alone.",
+                "fa": "قیمت پیاز لاله فقط در ژانویهٔ ۱۶۳۷ بیست برابر شد."
               },
               "answer": true
             },
@@ -305,16 +305,16 @@
               "kind": "card",
               "id": "b06c1l2p4",
               "text": {
-                "en": "In February 1637 the crash came, and prices fell lower than ever before. Some bulbs ended up worth no more than a common onion.",
-                "fa": "در فوریهٔ ۱۶۳۷ سقوط آمد و قیمت‌ها از همیشه پایین‌تر رفتند. برخی پیازها در نهایت بیش از یک پیاز معمولی خوراکی نمی‌ارزیدند."
+                "en": "In February 1637 prices fell by even more than they had risen in January. In the end most bulbs were almost worthless, selling for no more than a common onion.",
+                "fa": "در فوریهٔ ۱۶۳۷ قیمت‌ها حتی بیشتر از آنچه در ژانویه بالا رفته بودند افتادند. در نهایت بیشتر پیازها تقریباً بی‌ارزش شدند و بیش از یک پیاز معمولی خوراکی نمی‌ارزیدند."
               }
             },
             {
               "kind": "card",
               "id": "b06c1l2p5",
               "text": {
-                "en": "In 1720 Britain, the South Sea Company, granted a monopoly on trade with South America, sold the public a dream of riches. Its shares soared though its trade barely existed.",
-                "fa": "در بریتانیای ۱۷۲۰، شرکت دریای جنوب که انحصار تجارت با آمریکای جنوبی را گرفته بود، رؤیای ثروت را به مردم فروخت. سهامش اوج گرفت با اینکه تجارتش تقریباً وجود نداشت."
+                "en": "In 1720 Britain, the South Sea Company, granted a monopoly on trade to the South Seas, sold the public a dream of riches. Its shares soared though its trade barely existed.",
+                "fa": "در بریتانیای ۱۷۲۰، شرکت دریای جنوب که انحصار تجارت با دریاهای جنوب را گرفته بود، رؤیای ثروت را به مردم فروخت. سهامش اوج گرفت با اینکه تجارتش تقریباً وجود نداشت."
               }
             },
             {
@@ -332,8 +332,8 @@
                   "fa": "دولت آن‌ها را در اوج ثابت کرد"
                 },
                 {
-                  "en": "Prices fell lower than ever before",
-                  "fa": "قیمت‌ها از همیشه پایین‌تر رفتند"
+                  "en": "They fell by even more than they had risen",
+                  "fa": "حتی بیشتر از آنچه بالا رفته بودند افتادند"
                 },
                 {
                   "en": "Prices kept rising for a decade",
@@ -354,8 +354,8 @@
               "kind": "card",
               "id": "b06c1l2p7",
               "text": {
-                "en": "Isaac Newton lost about £20,000 in the South Sea Bubble. He said he could calculate the motions of heavenly bodies, but not the madness of the people.",
-                "fa": "Isaac Newton در حباب دریای جنوب حدود ۲۰٬۰۰۰ پوند از دست داد. او گفت می‌تواند حرکت اجرام آسمانی را محاسبه کند، اما جنون مردم را نه."
+                "en": "Isaac Newton was among those who lost badly in the South Sea Bubble. He said he could calculate the motions of heavenly bodies, but not the madness of people.",
+                "fa": "Isaac Newton از کسانی بود که در حباب دریای جنوب ضرر سنگینی کرد. او گفت می‌تواند حرکت اجرام آسمانی را محاسبه کند، اما جنون مردم را نه."
               }
             },
             {
@@ -373,8 +373,8 @@
               "kind": "card",
               "id": "b06c1l2p8",
               "text": {
-                "en": "The 1920s brought the next mania, on Wall Street. Shares were bought on margin, often with only 10 percent down, so rising prices fed more borrowing.",
-                "fa": "دههٔ ۱۹۲۰ جنون بعدی را به Wall Street آورد. سهام با خرید اعتباری (margin) خریده می‌شد، اغلب فقط با ۱۰ درصد پیش‌پرداخت، پس بالا رفتن قیمت‌ها وام بیشتری می‌آورد."
+                "en": "The 1920s brought the next mania, on Wall Street. Speculators bought shares on margin, with money borrowed from brokers, so rising prices fed more borrowing.",
+                "fa": "دههٔ ۱۹۲۰ جنون بعدی را به Wall Street آورد. سفته‌بازان سهام را با خرید اعتباری (margin)، یعنی با پول قرض‌گرفته از کارگزار، می‌خریدند، پس بالا رفتن قیمت‌ها وام بیشتری می‌آورد."
               }
             },
             {
@@ -430,8 +430,8 @@
               "kind": "card",
               "id": "b06c1l2p12",
               "text": {
-                "en": "You cannot know when a mania will end, but you can refuse to borrow to join one. Keeping margin off your broker account means a crash costs you paper gains, not your home.",
-                "fa": "نمی‌توانی بدانی یک جنون کی تمام می‌شود، اما می‌توانی برای پیوستن به آن قرض نگیری. وقتی حساب کارگزاری‌ات margin ندارد، سقوط فقط سودهای کاغذی را می‌برد، نه خانه‌ات را."
+                "en": "You cannot know when a mania will end, but you can refuse to borrow to join one. Without borrowed money, a crash can shrink your holdings but cannot leave you in debt.",
+                "fa": "نمی‌توانی بدانی یک جنون کی تمام می‌شود، اما می‌توانی برای پیوستن به آن قرض نگیری. بدون پول قرضی، سقوط می‌تواند دارایی‌ات را کوچک کند اما نمی‌تواند بدهکارت کند."
               }
             },
             {
@@ -440,8 +440,8 @@
               "type": "tf",
               "source": "b06c1l2p8",
               "prompt": {
-                "en": "In the 1920s, shares were often bought on margin with only a small cash payment.",
-                "fa": "در دههٔ ۱۹۲۰ سهام اغلب با margin و فقط با پرداخت نقدی کمی خریده می‌شد."
+                "en": "In the 1920s, speculators often bought shares on margin, with borrowed money.",
+                "fa": "در دههٔ ۱۹۲۰ سفته‌بازان اغلب سهام را با margin، یعنی با پول قرضی، می‌خریدند."
               },
               "answer": true
             },
@@ -517,8 +517,8 @@
               "kind": "card",
               "id": "b06c1l3p3",
               "text": {
-                "en": "In the late 1960s came the conglomerates, which bought unrelated firms to show smooth earnings growth. They claimed synergy, where two plus two equals five.",
-                "fa": "در اواخر دههٔ ۱۹۶۰ نوبت conglomerateها رسید که شرکت‌های بی‌ربط را می‌خریدند تا رشد سود یکنواختی نشان دهند. آن‌ها مدعی هم‌افزایی بودند، جایی که دو به‌علاوهٔ دو می‌شود پنج."
+                "en": "In the late 1960s came the conglomerates, which bought unrelated firms to show rising earnings per share. They claimed synergy, where two plus two equals five.",
+                "fa": "در اواخر دههٔ ۱۹۶۰ نوبت conglomerateها رسید که شرکت‌های بی‌ربط را می‌خریدند تا سود هر سهمِ رو به رشدی نشان دهند. آن‌ها مدعی هم‌افزایی بودند، جایی که دو به‌علاوهٔ دو می‌شود پنج."
               }
             },
             {
@@ -585,16 +585,16 @@
               "kind": "card",
               "id": "b06c1l3p7",
               "text": {
-                "en": "The 1980s brought a new-issue craze and a biotech boom, with firms that had no revenue trading on stories of future cures. Again prices ran far ahead of any firm foundation.",
-                "fa": "دههٔ ۱۹۸۰ جنون عرضه‌های اولیه و رونق biotech را آورد؛ شرکت‌هایی بدون درآمد با داستان درمان‌های آینده معامله می‌شدند. باز قیمت‌ها بسیار جلوتر از هر بنیان محکمی دویدند."
+                "en": "The 1980s brought a new-issue craze and a biotech boom, with firms that had no earnings trading on stories of future cures. Again prices ran far ahead of any firm foundation.",
+                "fa": "دههٔ ۱۹۸۰ جنون عرضه‌های اولیه و رونق biotech را آورد؛ شرکت‌هایی بدون سود با داستان درمان‌های آینده معامله می‌شدند. باز قیمت‌ها بسیار جلوتر از هر بنیان محکمی دویدند."
               }
             },
             {
               "kind": "card",
               "id": "b06c1l3p8",
               "text": {
-                "en": "The biggest bubble of the era was in Japan. By the late 1980s, the land under the Imperial Palace in Tokyo was said to be worth as much as all the land in California.",
-                "fa": "بزرگ‌ترین حباب آن دوران در ژاپن بود. تا اواخر دههٔ ۱۹۸۰ گفته می‌شد زمین زیر کاخ امپراتوری در توکیو به اندازهٔ کل زمین‌های California می‌ارزد."
+                "en": "One of the biggest bubbles of the era was in Japan. By the late 1980s, the land under the Imperial Palace in Tokyo was said to be worth as much as all the land in California.",
+                "fa": "یکی از بزرگ‌ترین حباب‌های آن دوران در ژاپن بود. تا اواخر دههٔ ۱۹۸۰ گفته می‌شد زمین زیر کاخ امپراتوری در توکیو به اندازهٔ کل زمین‌های California می‌ارزد."
               }
             },
             {
@@ -626,8 +626,8 @@
               "kind": "card",
               "id": "b06c1l3p9",
               "text": {
-                "en": "Japanese shares traded at more than 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
-                "fa": "سهام ژاپن بیش از ۶۰ برابر سودشان معامله می‌شدند و با دلایل محلی توجیه می‌شدند. شاخص Nikkei از اوج ۱۹۸۹ ظرف چند سال بیش از نیمی از ارزشش را از دست داد."
+                "en": "Japanese shares traded at about 60 times earnings, explained away with local reasons. From its 1989 peak, the Nikkei index lost more than half its value within a few years.",
+                "fa": "سهام ژاپن حدود ۶۰ برابر سودشان معامله می‌شدند و با دلایل محلی توجیه می‌شدند. شاخص Nikkei از اوج ۱۹۸۹ ظرف چند سال بیش از نیمی از ارزشش را از دست داد."
               }
             },
             {
@@ -661,8 +661,8 @@
               "kind": "card",
               "id": "b06c1l3p12",
               "text": {
-                "en": "A core holding in a global index ETF such as VWCE or IWDA owns every fashionable sector at market weight. You take part in the next boom without betting everything on it.",
-                "fa": "هستهٔ سبدی که در یک ETF شاخصی جهانی مثل VWCE یا IWDA است، هر بخش مُد روز را به وزن بازار دارد. در رونق بعدی شریکی بی‌آنکه همه‌چیز را روی آن شرط ببندی."
+                "en": "The roadmap's index core is a global ETF such as VWCE or IWDA, which holds every fashionable sector at market weight. It takes part in the next boom without resting everything on it.",
+                "fa": "هستهٔ شاخصی نقشهٔ راه یک ETF جهانی مثل VWCE یا IWDA است که هر بخش مُد روز را به وزن بازار دارد. این هسته در رونق بعدی شریک است بی‌آنکه همه‌چیز را روی آن شرط ببندد."
               }
             },
             {
@@ -694,8 +694,8 @@
               "kind": "card",
               "id": "b06c1l3p13",
               "text": {
-                "en": "In the late 1960s, concept stocks such as National Student Marketing sold on a simple story. Its price soared, then collapsed amid accounting fraud.",
-                "fa": "در اواخر دههٔ ۱۹۶۰، سهام مفهومی (concept stocks) مانند National Student Marketing با یک داستان ساده فروخته شدند. قیمت آن اوج گرفت و سپس در میان تقلب حسابداری فرو ریخت."
+                "en": "In the late 1960s, concept stocks such as National Student Marketing sold on a simple story. Its price soared, then collapsed when the market turned.",
+                "fa": "در اواخر دههٔ ۱۹۶۰، سهام مفهومی (concept stocks) مانند National Student Marketing با یک داستان ساده فروخته شدند. قیمت آن اوج گرفت و سپس با برگشتن بازار فرو ریخت."
               }
             },
             {
@@ -748,8 +748,8 @@
               "kind": "card",
               "id": "b06c1l4p3",
               "text": {
-                "en": "Analysts dropped profits as a yardstick and valued firms on 'eyeballs' and page views. Firms such as Pets.com and eToys sold dreams instead of earnings.",
-                "fa": "تحلیلگران سود را کنار گذاشتند و شرکت‌ها را با «تعداد چشم‌ها» و بازدید صفحه ارزش‌گذاری کردند. شرکت‌هایی مثل Pets.com و eToys به‌جای سود، رؤیا می‌فروختند."
+                "en": "Analysts dropped profits as a yardstick and valued firms on 'eyeballs' and page views. Firms such as Pets.com sold dreams instead of earnings.",
+                "fa": "تحلیلگران سود را کنار گذاشتند و شرکت‌ها را با «تعداد چشم‌ها» و بازدید صفحه ارزش‌گذاری کردند. شرکت‌هایی مثل Pets.com به‌جای سود، رؤیا می‌فروختند."
               }
             },
             {
@@ -808,16 +808,16 @@
               "kind": "card",
               "id": "b06c1l4p6",
               "text": {
-                "en": "Every bubble follows a similar path: a true story about a new technology, crowd euphoria, prices unhinged from value, then collapse.",
-                "fa": "هر حبابی مسیری مشابه دارد: یک داستان واقعی دربارهٔ یک فناوری تازه، سرخوشی جمعی، قیمت‌های جداشده از ارزش و سپس فروپاشی."
+                "en": "The internet bubble followed a familiar path: a true story about a new technology, crowd euphoria, prices unhinged from value, then collapse.",
+                "fa": "حباب اینترنت مسیری آشنا را رفت: یک داستان واقعی دربارهٔ یک فناوری تازه، سرخوشی جمعی، قیمت‌های جداشده از ارزش و سپس فروپاشی."
               }
             },
             {
               "kind": "card",
               "id": "b06c1l4p7",
               "text": {
-                "en": "The internet did change the world, yet most investors in it lost money. A real technology is no guarantee of a good investment at any price.",
-                "fa": "اینترنت واقعاً دنیا را عوض کرد، اما بیشتر سرمایه‌گذارانش پول از دست دادند. یک فناوری واقعی تضمینی برای یک سرمایه‌گذاری خوب به هر قیمتی نیست."
+                "en": "The internet did change the world, yet many who bought its shares near the peak lost heavily. A real technology is no guarantee of a good investment at any price.",
+                "fa": "اینترنت واقعاً دنیا را عوض کرد، اما بسیاری از کسانی که نزدیک اوج سهامش را خریدند ضرر سنگینی کردند. یک فناوری واقعی تضمینی برای یک سرمایه‌گذاری خوب به هر قیمتی نیست."
               }
             },
             {
@@ -826,8 +826,8 @@
               "type": "order",
               "source": "b06c1l4p6",
               "prompt": {
-                "en": "Put the stages of a bubble in order.",
-                "fa": "مراحل یک حباب را به ترتیب بچین."
+                "en": "Put the stages of the internet bubble in order.",
+                "fa": "مراحل حباب اینترنت را به ترتیب بچین."
               },
               "options": [
                 {
@@ -961,8 +961,8 @@
                   "fa": "دولت‌ها همهٔ وام‌ها را تضمین می‌کردند"
                 },
                 {
-                  "en": "House prices had never fallen",
-                  "fa": "قیمت خانه هرگز پایین نیامده بود"
+                  "en": "Every borrower had a perfect credit record",
+                  "fa": "همهٔ وام‌گیرندگان سابقهٔ اعتباری بی‌نقص داشتند"
                 },
                 {
                   "en": "Banks packaged the loans and sold them on",
@@ -1079,8 +1079,8 @@
               "kind": "card",
               "id": "b06c2l1p7",
               "text": {
-                "en": "Mechanical filter rules, such as buying after a 10 percent rise, beat buy and hold only before trading costs. After costs and taxes, they lost.",
-                "fa": "قواعد فیلتر مکانیکی، مثل خرید پس از ۱۰ درصد رشد، فقط پیش از هزینهٔ معاملات از خرید و نگهداری بهتر بودند. پس از هزینه‌ها و مالیات، باختند."
+                "en": "Mechanical filter rules, such as buying after a share rises 5 percent from a low, were tested too. Once trading costs were counted, they did not consistently beat buy and hold.",
+                "fa": "قواعد فیلتر مکانیکی، مثل خرید پس از ۵ درصد رشد سهم از یک کف، هم آزموده شدند. وقتی هزینهٔ معاملات حساب شد، به‌طور پایدار از خرید و نگهداری بهتر نبودند."
               }
             },
             {
@@ -1098,8 +1098,8 @@
                   "fa": "پس از هزینه‌ها از بازار بهتر شدند"
                 },
                 {
-                  "en": "After costs, they lost",
-                  "fa": "پس از هزینه‌ها باختند"
+                  "en": "They did not consistently beat buy and hold",
+                  "fa": "به‌طور پایدار از خرید و نگهداری بهتر نبودند"
                 },
                 {
                   "en": "Costs made no difference to them",
@@ -1188,8 +1188,8 @@
               "kind": "card",
               "id": "b06c2l1p13",
               "text": {
-                "en": "Malkiel also tested popular chart systems such as the Dow theory and relative-strength rules. None reliably beat buy and hold once costs were paid.",
-                "fa": "Malkiel سامانه‌های نموداری رایج مانند نظریهٔ Dow و قاعده‌های قدرت نسبی (relative strength) را هم آزمود. هیچ‌کدام پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر نبود."
+                "en": "Malkiel also reviews tests of popular chart systems such as the Dow theory and relative-strength rules. None reliably beat buy and hold once costs were paid.",
+                "fa": "Malkiel آزمون‌های سامانه‌های نموداری رایج مانند نظریهٔ Dow و قاعده‌های قدرت نسبی (relative strength) را هم مرور می‌کند. هیچ‌کدام پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر نبود."
               }
             },
             {
@@ -1206,8 +1206,8 @@
               "type": "tf",
               "source": "b06c2l1p13",
               "prompt": {
-                "en": "Malkiel found the Dow theory reliably beat buy and hold after costs.",
-                "fa": "Malkiel دریافت که نظریهٔ Dow پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر است."
+                "en": "Malkiel reports that the Dow theory reliably beat buy and hold after costs.",
+                "fa": "Malkiel گزارش می‌کند که نظریهٔ Dow پس از کسر هزینه‌ها به‌طور پایدار از خرید و نگهداری بهتر است."
               },
               "answer": false
             }
@@ -1560,8 +1560,8 @@
               "kind": "card",
               "id": "b06c2l3p8",
               "text": {
-                "en": "Robert Shiller argued that prices swing far more than dividends justify. The 1987 crash, when shares fell more than 20 percent in a day, had no clear news behind it.",
-                "fa": "Robert Shiller استدلال کرد که قیمت‌ها بسیار بیشتر از آنچه سود نقدی توجیه می‌کند نوسان دارند. سقوط ۱۹۸۷، که سهام در یک روز بیش از ۲۰ درصد افتاد، هیچ خبر روشنی پشتش نبود."
+                "en": "Robert Shiller argued that prices swing far more than dividends justify. Critics also cite the 1987 crash, when shares fell more than 20 percent in a single day.",
+                "fa": "Robert Shiller استدلال کرد که قیمت‌ها بسیار بیشتر از آنچه سود نقدی توجیه می‌کند نوسان دارند. منتقدان به سقوط ۱۹۸۷ هم اشاره می‌کنند که سهام در یک روز بیش از ۲۰ درصد افتاد."
               }
             },
             {
@@ -1596,7 +1596,7 @@
               "id": "b06c2l3p11",
               "text": {
                 "en": "For your €40k, the hypothesis does not need to be perfectly true. It only needs to be true enough that a low-cost index fund beats your own attempts after fees.",
-                "fa": "برای ۴۰ هزار یورو تو، لازم نیست این فرضیه کاملاً درست باشد. کافی است آن‌قدر درست باشد که یک صندوق شاخصی کم‌هزینه پس از کارمزدها از تلاش‌های خودت بهتر عمل کند."
+                "fa": "برای ۴۰ هزار یوروی تو، لازم نیست این فرضیه کاملاً درست باشد. کافی است آن‌قدر درست باشد که یک صندوق شاخصی کم‌هزینه پس از کارمزدها از تلاش‌های خودت بهتر عمل کند."
               }
             },
             {
@@ -1772,8 +1772,8 @@
               "kind": "card",
               "id": "b06c2l4p7",
               "text": {
-                "en": "Loss aversion, from Kahneman and Tversky's prospect theory: a loss hurts about twice as much as an equal gain pleases. So investors hold losers too long, hoping to break even.",
-                "fa": "زیان‌گریزی، از نظریهٔ چشم‌انداز Kahneman و Tversky: درد یک زیان حدود دو برابر لذت سودی هم‌اندازه است. برای همین سرمایه‌گذاران بازنده‌ها را بیش از حد نگه می‌دارند به امید سر به سر شدن."
+                "en": "Loss aversion, from Kahneman and Tversky's prospect theory: a loss hurts about two and a half times as much as an equal gain pleases. So investors hold losers too long, hoping to break even.",
+                "fa": "زیان‌گریزی، از نظریهٔ چشم‌انداز Kahneman و Tversky: درد یک زیان حدود دو و نیم برابر لذت سودی هم‌اندازه است. برای همین سرمایه‌گذاران بازنده‌ها را بیش از حد نگه می‌دارند به امید سر به سر شدن."
               }
             },
             {
@@ -1795,8 +1795,8 @@
                   "fa": "زود فراموش می‌شود"
                 },
                 {
-                  "en": "It hurts about twice as much",
-                  "fa": "حدود دو برابر درد دارد"
+                  "en": "It hurts about two and a half times as much",
+                  "fa": "حدود دو و نیم برابر درد دارد"
                 }
               ],
               "answer": 2
@@ -1848,8 +1848,8 @@
               "kind": "card",
               "id": "b06c2l4p12",
               "text": {
-                "en": "Automate monthly purchases of your index ETF so your feelings cannot vote. Sleep and a quarterly net-worth log beat watching prices every day.",
-                "fa": "خرید ماهانهٔ ETF شاخصی‌ات را خودکار کن تا احساساتت حق رأی نداشته باشند. خواب کافی و ثبت فصلی دارایی خالص از تماشای روزانهٔ قیمت‌ها بهتر است."
+                "en": "Automated monthly purchases mean your feelings do not get a vote. On the roadmap, sleep and a quarterly net-worth log beat watching prices every day.",
+                "fa": "خرید ماهانهٔ خودکار یعنی احساساتت حق رأی ندارند. در نقشهٔ راه، خواب کافی و ثبت فصلی دارایی خالص از تماشای روزانهٔ قیمت‌ها بهتر است."
               }
             },
             {
@@ -1929,7 +1929,7 @@
               "frame": true,
               "text": {
                 "en": "This Lesson distils chapters 8 and 9, on modern portfolio theory and how risk is rewarded. It matters because diversification is how your €40k can lower risk without giving up expected return.",
-                "fa": "این درس فصل‌های ۸ و ۹ را خلاصه می‌کند: نظریهٔ مدرن سبد و اینکه ریسک چطور پاداش می‌گیرد. مهم است چون تنوع‌بخشی راهی است که ۴۰ هزار یورو تو ریسک را کم کند بی‌آنکه از بازده مورد انتظار بگذرد."
+                "fa": "این درس فصل‌های ۸ و ۹ را خلاصه می‌کند: نظریهٔ مدرن سبد و اینکه ریسک چطور پاداش می‌گیرد. مهم است چون تنوع‌بخشی راهی است که ۴۰ هزار یوروی تو ریسک را کم کند بی‌آنکه از بازده مورد انتظار بگذرد."
               }
             },
             {
@@ -2159,24 +2159,24 @@
               "id": "b06c3l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapters 13 and 14, Malkiel's fitness manual and his way to estimate future returns. It matters because these basics come before any choice of fund.",
-                "fa": "این درس فصل‌های ۱۳ و ۱۴ را خلاصه می‌کند: برنامهٔ تمرینی Malkiel و روش او برای تخمین بازده آینده. مهم است چون این پایه‌ها پیش از انتخاب هر صندوقی می‌آیند."
+                "en": "This Lesson distils chapters 12 and 13, Malkiel's fitness manual and his way to estimate future returns. It matters because these basics come before any choice of fund.",
+                "fa": "این درس فصل‌های ۱۲ و ۱۳ را خلاصه می‌کند: برنامهٔ تمرینی Malkiel و روش او برای تخمین بازده آینده. مهم است چون این پایه‌ها پیش از انتخاب هر صندوقی می‌آیند."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l2p2",
               "text": {
-                "en": "Exercise one: keep a cash reserve for emergencies and buy the insurance you need. Malkiel favours cheap term life insurance over policies mixed with investing.",
-                "fa": "تمرین اول: یک ذخیرهٔ نقدی برای اضطرار نگه دار و بیمه‌ای را که لازم داری بخر. Malkiel بیمهٔ عمر زمان‌دار ارزان را به بیمه‌نامه‌های آمیخته با سرمایه‌گذاری ترجیح می‌دهد."
+                "en": "Exercise 1 is to save regularly and start early. Exercise 2 is a cash reserve and insurance; Malkiel favours cheap term life insurance over policies mixed with investing.",
+                "fa": "تمرین ۱ پس‌انداز منظم و شروع زودهنگام است. تمرین ۲ ذخیرهٔ نقدی و بیمه است؛ Malkiel بیمهٔ عمر زمان‌دار ارزان را به بیمه‌نامه‌های آمیخته با سرمایه‌گذاری ترجیح می‌دهد."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l2p3",
               "text": {
-                "en": "Exercise two: keep your cash competitive, in money-market funds or similar accounts, not in a bank account paying almost nothing.",
-                "fa": "تمرین دوم: پول نقدت را رقابتی نگه دار، در صندوق‌های بازار پول یا حساب‌های مشابه، نه در حساب بانکی‌ای که تقریباً هیچ سودی نمی‌دهد."
+                "en": "Exercise 3: keep your cash competitive, in money-market funds or similar accounts, not in a bank account paying almost nothing.",
+                "fa": "تمرین ۳: پول نقدت را رقابتی نگه دار، در صندوق‌های بازار پول یا حساب‌های مشابه، نه در حساب بانکی‌ای که تقریباً هیچ سودی نمی‌دهد."
               }
             },
             {
@@ -2185,8 +2185,8 @@
               "type": "tf",
               "source": "b06c3l2p2",
               "prompt": {
-                "en": "Malkiel's first exercise is to keep a cash reserve for emergencies.",
-                "fa": "تمرین اول Malkiel نگه داشتن ذخیرهٔ نقدی برای اضطرار است."
+                "en": "Malkiel's fitness manual includes holding a cash reserve and insurance.",
+                "fa": "برنامهٔ تمرینی Malkiel شامل داشتن ذخیرهٔ نقدی و بیمه است."
               },
               "answer": true
             },
@@ -2194,16 +2194,16 @@
               "kind": "card",
               "id": "b06c3l2p4",
               "text": {
-                "en": "Exercise three: dodge the tax collector legally, using tax-advantaged retirement accounts. Every euro not lost to tax keeps compounding for you.",
-                "fa": "تمرین سوم: به‌طور قانونی از مأمور مالیات طفره برو و از حساب‌های بازنشستگی با مزیت مالیاتی استفاده کن. هر یورویی که به مالیات نرود برایت به رشد مرکب ادامه می‌دهد."
+                "en": "Exercise 4: dodge the tax collector legally, using tax-advantaged retirement accounts. Every euro not lost to tax keeps compounding for you.",
+                "fa": "تمرین ۴: به‌طور قانونی از مأمور مالیات طفره برو و از حساب‌های بازنشستگی با مزیت مالیاتی استفاده کن. هر یورویی که به مالیات نرود برایت به رشد مرکب ادامه می‌دهد."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l2p5",
               "text": {
-                "en": "Exercise four: make sure the shoe fits. Match your investments to your goals, your stage of life and how much risk lets you sleep at night.",
-                "fa": "تمرین چهارم: مطمئن شو کفش اندازهٔ پایت است. سرمایه‌گذاری‌هایت را با هدف‌ها، مرحلهٔ زندگی و میزان ریسکی که اجازه می‌دهد شب راحت بخوابی هماهنگ کن."
+                "en": "Exercise 5: make sure the shoe fits. Match your investments to your goals, your stage of life and how much risk lets you sleep at night.",
+                "fa": "تمرین ۵: مطمئن شو کفش اندازهٔ پایت است. سرمایه‌گذاری‌هایت را با هدف‌ها، مرحلهٔ زندگی و میزان ریسکی که اجازه می‌دهد شب راحت بخوابی هماهنگ کن."
               }
             },
             {
@@ -2235,24 +2235,24 @@
               "kind": "card",
               "id": "b06c3l2p6",
               "text": {
-                "en": "Exercise five: begin your walk at home. Malkiel sees owning a house as a sound investment for most people, and real estate adds diversification.",
-                "fa": "تمرین پنجم: گام‌زدن را از خانه شروع کن. Malkiel داشتن خانه را برای بیشتر مردم سرمایه‌گذاری درستی می‌داند و ملک به تنوع سبد هم کمک می‌کند."
+                "en": "Exercise 6: begin your walk at home. Malkiel sees owning a house as a sound investment for most people, and real estate adds diversification.",
+                "fa": "تمرین ۶: گام‌زدن را از خانه شروع کن. Malkiel داشتن خانه را برای بیشتر مردم سرمایه‌گذاری درستی می‌داند و ملک به تنوع سبد هم کمک می‌کند."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l2p7",
               "text": {
-                "en": "Exercise six: consider bonds for steady income and treat gold and collectibles with caution. Exercise seven: compare fees, because costs come straight out of returns.",
-                "fa": "تمرین ششم: اوراق قرضه را برای درآمد پایدار در نظر بگیر و با طلا و کلکسیون‌ها محتاط باش. تمرین هفتم: کارمزدها را مقایسه کن، چون هزینه‌ها مستقیم از بازده کم می‌شوند."
+                "en": "Exercises 7 and 8: consider bonds for steady income, and treat gold and collectibles with caution. Exercise 9: compare fees, because costs come straight out of returns.",
+                "fa": "تمرین‌های ۷ و ۸: اوراق قرضه را برای درآمد پایدار در نظر بگیر و با طلا و کلکسیون‌ها محتاط باش. تمرین ۹: کارمزدها را مقایسه کن، چون هزینه‌ها مستقیم از بازده کم می‌شوند."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l2p8",
               "text": {
-                "en": "Exercise eight: diversify. Spread money across asset classes and also across time, investing regularly rather than all at once.",
-                "fa": "تمرین هشتم: تنوع بده. پول را میان طبقات دارایی و همچنین در طول زمان پخش کن و به‌جای یک‌جا، منظم سرمایه‌گذاری کن."
+                "en": "Exercise 10: diversify. Spread your money across many holdings and asset classes instead of relying on any single one.",
+                "fa": "تمرین ۱۰: تنوع بده. پولت را میان دارایی‌های بسیار و طبقات دارایی پخش کن و به هیچ‌کدام به‌تنهایی تکیه نکن."
               }
             },
             {
@@ -2270,8 +2270,8 @@
               "kind": "card",
               "id": "b06c3l2p9",
               "text": {
-                "en": "Chapter 14 gives a simple way to estimate long-run stock returns: the starting dividend yield plus the growth rate of earnings and dividends.",
-                "fa": "فصل ۱۴ راهی ساده برای تخمین بازده بلندمدت سهام می‌دهد: بازده سود نقدی اولیه به‌علاوهٔ نرخ رشد سود و سود نقدی."
+                "en": "Chapter 13 gives a simple way to estimate long-run stock returns: the starting dividend yield plus the growth rate of earnings and dividends.",
+                "fa": "فصل ۱۳ راهی ساده برای تخمین بازده بلندمدت سهام می‌دهد: بازده سود نقدی اولیه به‌علاوهٔ نرخ رشد سود و سود نقدی."
               }
             },
             {
@@ -2338,8 +2338,8 @@
               "kind": "card",
               "id": "b06c3l2p13",
               "text": {
-                "en": "Malkiel suggests an emergency fund of about three months of living expenses. Keep more if your job or health makes your income uncertain.",
-                "fa": "Malkiel صندوق اضطراری به اندازهٔ حدود سه ماه هزینهٔ زندگی پیشنهاد می‌کند. اگر شغل یا سلامتت درآمدت را نامطمئن می‌کند، بیشتر نگه دار."
+                "en": "Malkiel says every household needs a cash reserve covering a few months of living expenses. Keep more if your job or health makes your income uncertain.",
+                "fa": "Malkiel می‌گوید هر خانواده به ذخیرهٔ نقدی‌ای برای پوشش چند ماه هزینهٔ زندگی نیاز دارد. اگر شغل یا سلامتت درآمدت را نامطمئن می‌کند، بیشتر نگه دار."
               }
             },
             {
@@ -2390,8 +2390,8 @@
               "id": "b06c3l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 15, the life-cycle guide to investing. It matters because your mix of shares and bonds should change as you move from your 30s toward financial independence.",
-                "fa": "این درس فصل ۱۵، راهنمای چرخهٔ زندگی برای سرمایه‌گذاری، را خلاصه می‌کند. مهم است چون ترکیب سهام و اوراق قرضه‌ات باید از دههٔ ۳۰ زندگی تا استقلال مالی تغییر کند."
+                "en": "This Lesson distils chapter 14, the life-cycle guide to investing. It matters because your mix of shares and bonds should change as you move from your 30s toward financial independence.",
+                "fa": "این درس فصل ۱۴، راهنمای چرخهٔ زندگی برای سرمایه‌گذاری، را خلاصه می‌کند. مهم است چون ترکیب سهام و اوراق قرضه‌ات باید از دههٔ ۳۰ زندگی تا استقلال مالی تغییر کند."
               }
             },
             {
@@ -2584,15 +2584,15 @@
               "id": "b06c3l3p13",
               "text": {
                 "en": "Malkiel warns that dollar-cost averaging is no cure-all. It cannot protect you in a market that falls for good; it works because markets have risen over the long run.",
-                "fa": "Malkiel هشدار می‌دهد که خرید دوره‌ای با مبلغ ثابت نوشدارو نیست. در بازاری که برای همیشه پایین برود از تو محافظت نمی‌کند؛ کار می‌کند چون بازارها در بلندمدت بالا رفته‌اند."
+                "fa": "Malkiel هشدار می‌دهد که میانگین‌گیری هزینه نوشدارو نیست. در بازاری که برای همیشه پایین برود از تو محافظت نمی‌کند؛ کار می‌کند چون بازارها در بلندمدت بالا رفته‌اند."
               }
             },
             {
               "kind": "card",
               "id": "b06c3l3p14",
               "text": {
-                "en": "Where possible, rebalance inside tax-advantaged accounts, where selling triggers no tax bill. Otherwise, steer new savings toward the asset that has fallen behind.",
-                "fa": "تا جایی که می‌شود، در حساب‌های دارای مزیت مالیاتی تعادل‌بخشی کن، جایی که فروش مالیاتی به دنبال ندارد. وگرنه پس‌انداز تازه را به سوی دارایی‌ای ببر که عقب افتاده است."
+                "en": "Malkiel suggests rebalancing inside tax-advantaged retirement accounts, where selling triggers no tax bill. Otherwise, new savings can go toward the asset that has fallen behind.",
+                "fa": "Malkiel پیشنهاد می‌کند بازتوازن در حساب‌های بازنشستگی دارای مزیت مالیاتی انجام شود، جایی که فروش مالیاتی به دنبال ندارد. وگرنه می‌شود پس‌انداز تازه را به سوی دارایی‌ای برد که عقب افتاده است."
               }
             },
             {
@@ -2602,7 +2602,7 @@
               "source": "b06c3l3p13",
               "prompt": {
                 "en": "Malkiel calls dollar-cost averaging a cure-all that protects you in any market.",
-                "fa": "Malkiel خرید دوره‌ای با مبلغ ثابت را نوشدارویی می‌داند که در هر بازاری از تو محافظت می‌کند."
+                "fa": "Malkiel میانگین‌گیری هزینه را نوشدارویی می‌داند که در هر بازاری از تو محافظت می‌کند."
               },
               "answer": false
             }
@@ -2621,8 +2621,8 @@
               "id": "b06c3l4p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils chapter 16, Malkiel's three giant steps down Wall Street, and his case for index funds. It matters because this is the core of your roadmap: 80 percent in broad index ETFs.",
-                "fa": "این درس فصل ۱۶ را خلاصه می‌کند: سه گام بزرگ Malkiel در Wall Street و استدلالش برای صندوق‌های شاخصی. مهم است چون این هستهٔ نقشهٔ راه توست: ۸۰ درصد در ETFهای شاخصی گسترده."
+                "en": "This Lesson distils chapter 15, Malkiel's three giant steps down Wall Street, and his case for index funds. It matters because this is the core of your roadmap: 80 percent in broad index ETFs.",
+                "fa": "این درس فصل ۱۵ را خلاصه می‌کند: سه گام بزرگ Malkiel در Wall Street و استدلالش برای صندوق‌های شاخصی. مهم است چون این هستهٔ نقشهٔ راه توست: ۸۰ درصد در ETFهای شاخصی گسترده."
               }
             },
             {
@@ -2697,8 +2697,8 @@
               "kind": "card",
               "id": "b06c3l4p6",
               "text": {
-                "en": "Step two, the deep-thinker step: pick stocks yourself if you insist, following four rules.",
-                "fa": "گام دوم، گام متفکرانه: اگر اصرار داری خودت سهم انتخاب کنی، چهار قاعده را دنبال کن."
+                "en": "Step two, the do-it-yourself step: pick stocks yourself if you insist, following four rules.",
+                "fa": "گام دوم، گام «خودت انجامش بده»: اگر اصرار داری خودت سهم انتخاب کنی، چهار قاعده را دنبال کن."
               }
             },
             {
@@ -2754,8 +2754,8 @@
               "kind": "card",
               "id": "b06c3l4p10",
               "text": {
-                "en": "Costs compound like returns. A 1 percent yearly fee can take about a fifth of your wealth over 25 years, money that would have kept growing for you.",
-                "fa": "هزینه‌ها هم مثل بازده مرکب می‌شوند. کارمزد سالانهٔ ۱ درصدی می‌تواند در ۲۵ سال حدود یک‌پنجم ثروتت را ببرد، پولی که می‌توانست برایت رشد کند."
+                "en": "On your roadmap, costs compound like returns. A 1 percent yearly fee takes about a fifth of the final sum over 25 years, money that would have kept growing for you.",
+                "fa": "در نقشهٔ راه تو، هزینه‌ها هم مثل بازده مرکب می‌شوند. کارمزد سالانهٔ ۱ درصدی در ۲۵ سال حدود یک‌پنجم مبلغ نهایی را می‌برد، پولی که می‌توانست برایت رشد کند."
               }
             },
             {

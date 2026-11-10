@@ -148,16 +148,16 @@
               "kind": "card",
               "id": "b21c1l1p7",
               "text": {
-                "en": "Angel money is illiquid: a winner can take seven to ten years or more to reach an exit, and you usually cannot sell along the way.",
-                "fa": "پول فرشته نقدشونده نیست: یک برنده ممکن است هفت تا ده سال یا بیشتر طول بکشد تا به exit برسد، و معمولاً در این مسیر نمی‌توانی بفروشی."
+                "en": "Angel money is illiquid: a winner can take seven years or more to reach an exit, and you usually cannot sell along the way.",
+                "fa": "پول فرشته نقدشونده نیست: یک برنده ممکن است هفت سال یا بیشتر طول بکشد تا به exit برسد، و معمولاً در این مسیر نمی‌توانی بفروشی."
               }
             },
             {
               "kind": "card",
               "id": "b21c1l1p8",
               "text": {
-                "en": "So the rule is to invest only money you can afford to lose and can leave locked up for a decade.",
-                "fa": "پس قاعده این است که فقط پولی را سرمایه‌گذاری کنی که از دست رفتنش را تاب می‌آوری و می‌توانی یک دهه قفلش بگذاری."
+                "en": "So the rule is to invest only money you can afford to lose and can leave locked up for many years.",
+                "fa": "پس قاعده این است که فقط پولی را سرمایه‌گذاری کنی که از دست رفتنش را تاب می‌آوری و می‌توانی سال‌ها قفلش بگذاری."
               }
             },
             {
@@ -300,8 +300,8 @@
               "kind": "card",
               "id": "b21c1l2p5",
               "text": {
-                "en": "Calacanis's advice: join syndicates and put small checks into about ten deals before you lead anything yourself.",
-                "fa": "توصیهٔ Calacanis: به syndicateها بپیوند و پیش از اینکه خودت چیزی را رهبری کنی، چک‌های کوچک در حدود ده معامله بگذار."
+                "en": "Calacanis's advice: join syndicates and put small checks into about ten deals before you write bigger checks on your own.",
+                "fa": "توصیهٔ Calacanis: به syndicateها بپیوند و پیش از اینکه خودت مستقل چک‌های بزرگ‌تر بنویسی، چک‌های کوچک در حدود ده معامله بگذار."
               }
             },
             {
@@ -655,16 +655,24 @@
               "id": "b21c1l4p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils what the book says happens after the check: how angels add value and how money finally comes back. It matters because the years between check and exit decide your reputation and your deal flow.",
-                "fa": "این درس آنچه کتاب دربارهٔ بعد از نوشتن چک می‌گوید را خلاصه می‌کند: فرشته‌ها چطور ارزش اضافه می‌کنند و پول سرانجام چطور برمی‌گردد. مهم است چون سال‌های میان چک و خروج، اعتبار و جریان معاملات تو را می‌سازند."
+                "en": "This Lesson distils what the book says an angel brings besides the check, and how money finally comes back. It matters because the years between check and exit decide your reputation and your deal flow.",
+                "fa": "این درس خلاصه می‌کند کتاب می‌گوید فرشته جز چک چه چیزی می‌آورد و پول سرانجام چطور برمی‌گردد. مهم است چون سال‌های میان چک و exit، اعتبار و deal flow تو را می‌سازند."
               }
             },
             {
               "kind": "card",
               "id": "b21c1l4p2",
               "text": {
-                "en": "Calacanis says the best angels are useful to founders: they make introductions to customers, hires and later investors. Small, concrete help counts for more than general advice.",
-                "fa": "Calacanis می‌گوید بهترین فرشته‌ها برای بنیان‌گذاران مفیدند: آن‌ها را به مشتریان، نیروهای استخدامی و سرمایه‌گذاران بعدی معرفی می‌کنند. کمک کوچک و مشخص بیشتر از نصیحت کلی ارزش دارد."
+                "en": "The book lists four things an angel can bring to a startup: money, time, expertise and a network. Calacanis says you need at least two of them.",
+                "fa": "کتاب چهار چیز را فهرست می‌کند که یک فرشته می‌تواند به استارتاپ بیاورد: پول، وقت، تخصص و شبکهٔ ارتباطی. Calacanis می‌گوید دست‌کم به دو تا از آن‌ها نیاز داری."
+              }
+            },
+            {
+              "kind": "card",
+              "id": "b21c1l4p3",
+              "text": {
+                "en": "The book also describes a way in with little money: advise a startup and receive a small equity stake for the work. You learn how founders operate before writing checks.",
+                "fa": "کتاب راهی برای ورود با پول کم هم شرح می‌دهد: به یک استارتاپ مشاوره بده و در ازای این کار سهم کوچکی بگیر. پیش از نوشتن چک یاد می‌گیری بنیان‌گذاران چطور کار می‌کنند."
               }
             },
             {
@@ -673,76 +681,76 @@
               "type": "tap",
               "source": "b21c1l4p2",
               "prompt": {
-                "en": "Which kind of help does the book say counts most?",
-                "fa": "کتاب می‌گوید کدام نوع کمک بیشترین ارزش را دارد؟"
+                "en": "Which four things can an angel bring, per the book?",
+                "fa": "طبق کتاب، فرشته کدام چهار چیز را می‌تواند بیاورد؟"
               },
               "options": [
                 {
-                  "en": "Small, concrete help",
-                  "fa": "کمک کوچک و مشخص مثل معرفی"
+                  "en": "Money, time, expertise and a network",
+                  "fa": "پول، وقت، تخصص و شبکهٔ ارتباطی"
                 },
                 {
-                  "en": "Long lists of general advice",
-                  "fa": "فهرست‌های بلند نصیحت کلی"
+                  "en": "A patent, an office, a logo and a lawyer",
+                  "fa": "یک patent، یک دفتر، یک لوگو و یک وکیل"
                 },
                 {
-                  "en": "Daily check-ins on the founder's schedule",
-                  "fa": "سرکشی روزانه به برنامهٔ بنیان‌گذار"
+                  "en": "Only money; nothing else counts",
+                  "fa": "فقط پول؛ چیز دیگری به حساب نمی‌آید"
                 }
               ],
               "answer": 0
             },
             {
               "kind": "card",
-              "id": "b21c1l4p3",
+              "id": "b21c1l4p4",
               "text": {
-                "en": "He also warns angels not to be a burden: founders are busy, so do not demand meetings or try to run the company. You backed the founder, so let the founder lead.",
-                "fa": "او همچنین هشدار می‌دهد که فرشته نباید سربار باشد: بنیان‌گذاران سرشان شلوغ است، پس جلسه طلب نکن و سعی نکن شرکت را اداره کنی. تو روی بنیان‌گذار شرط بستی، پس بگذار او رهبری کند."
+                "en": "Calacanis says good angels are useful to founders. The help is concrete: introductions to customers, to possible hires and to later investors.",
+                "fa": "Calacanis می‌گوید فرشته‌های خوب برای بنیان‌گذاران مفیدند. این کمک مشخص است: معرفی به مشتریان، به نیروهایی که می‌شود استخدام کرد و به سرمایه‌گذاران بعدی."
               }
             },
             {
               "kind": "card",
-              "id": "b21c1l4p4",
+              "id": "b21c1l4p5",
               "text": {
-                "en": "When a founder asks for help, answer fast; responsiveness is a large part of being a good angel. Founders tell other founders which investors actually show up.",
-                "fa": "وقتی بنیان‌گذار کمک می‌خواهد، سریع جواب بده؛ پاسخ‌گو بودن بخش بزرگی از یک فرشتهٔ خوب بودن است. بنیان‌گذاران به هم می‌گویند کدام سرمایه‌گذار واقعاً حاضر می‌شود."
+                "en": "He also warns angels not to be a burden: founders are busy, so do not demand their time or try to run the company. You backed the founder, so let the founder lead.",
+                "fa": "او همچنین هشدار می‌دهد که فرشته نباید سربار باشد: بنیان‌گذاران سرشان شلوغ است، پس وقتشان را طلب نکن و سعی نکن شرکت را اداره کنی. تو روی بنیان‌گذار شرط بستی، پس بگذار او رهبری کند."
               }
             },
             {
               "kind": "check",
               "id": "b21c1l4k2",
               "type": "tf",
-              "source": "b21c1l4p3",
+              "source": "b21c1l4p5",
               "prompt": {
-                "en": "The book advises angels to take an active role in running the company.",
-                "fa": "کتاب به فرشته‌ها توصیه می‌کند نقش فعالی در ادارهٔ شرکت داشته باشند."
+                "en": "The book advises angels to try to run the company for the founder.",
+                "fa": "کتاب به فرشته‌ها توصیه می‌کند سعی کنند شرکت را به‌جای بنیان‌گذار اداره کنند."
               },
               "answer": false
             },
             {
               "kind": "card",
-              "id": "b21c1l4p5",
+              "id": "b21c1l4p6",
               "text": {
-                "en": "Most angel returns come from an exit: the company is acquired or goes public, and only then do your shares become cash. Until that event your stake is paper value.",
-                "fa": "بیشتر بازده فرشته از خروج می‌آید: شرکت خریداری یا عمومی می‌شود و تنها آن موقع سهم تو به پول نقد تبدیل می‌شود. تا آن رویداد سهم تو ارزش کاغذی است."
+                "en": "Angel returns come from an exit: the company is acquired or goes public, and only then do your shares become cash. Until that event your stake is paper value.",
+                "fa": "بازده فرشته از exit می‌آید: شرکت خریداری یا عمومی می‌شود و تنها آن موقع سهم تو به پول نقد تبدیل می‌شود. تا آن رویداد سهم تو ارزش کاغذی است."
               }
             },
             {
               "kind": "card",
-              "id": "b21c1l4p6",
+              "id": "b21c1l4p7",
               "text": {
                 "en": "Acquisitions are far more common than IPOs, and many are small sales that return little or nothing to early investors. A sale is not automatically a win.",
-                "fa": "خریداری شدن خیلی رایج‌تر از عرضهٔ عمومی است و بسیاری از آن‌ها فروش‌های کوچکی‌اند که به سرمایه‌گذاران اولیه کم یا هیچ برنمی‌گردانند. فروش خودبه‌خود برد نیست."
+                "fa": "خریداری شدن خیلی رایج‌تر از IPO است و بسیاری از آن‌ها فروش‌های کوچکی‌اند که به سرمایه‌گذاران اولیه کم یا هیچ برنمی‌گردانند. فروش خودبه‌خود برد نیست."
               }
             },
             {
               "kind": "check",
               "id": "b21c1l4k3",
               "type": "tap",
-              "source": "b21c1l4p6",
+              "source": "b21c1l4p7",
               "prompt": {
-                "en": "Which exit is far more common, per the book?",
-                "fa": "طبق کتاب، کدام خروج بسیار رایج‌تر است؟"
+                "en": "Which exit does this Lesson call far more common?",
+                "fa": "این درس کدام exit را بسیار رایج‌تر می‌داند؟"
               },
               "options": [
                 {
@@ -751,7 +759,7 @@
                 },
                 {
                   "en": "IPOs",
-                  "fa": "عرضهٔ عمومی"
+                  "fa": "IPO"
                 },
                 {
                   "en": "Dividends",
@@ -762,61 +770,53 @@
             },
             {
               "kind": "card",
-              "id": "b21c1l4p7",
-              "text": {
-                "en": "Investors in later rounds often get a liquidation preference, so they are paid back first in a sale. In a modest exit, early angels can end up near the back of the line.",
-                "fa": "سرمایه‌گذاران دورهای بعدی اغلب اولویت انحلال می‌گیرند، پس در فروش اول پولشان را پس می‌گیرند. در یک خروج متوسط، فرشته‌های اولیه ممکن است ته صف بمانند."
-              }
-            },
-            {
-              "kind": "card",
               "id": "b21c1l4p8",
               "text": {
-                "en": "Some winners also offer secondary sales, where an angel sells part of a stake to a new investor before any exit. The book treats this as a way to lock in some gains and recycle cash into new bets.",
-                "fa": "برخی برنده‌ها فروش ثانویه هم پیشنهاد می‌کنند، که فرشته بخشی از سهمش را پیش از خروج به سرمایه‌گذار جدید می‌فروشد. کتاب این را راهی برای قفل کردن بخشی از سود و بازگرداندن پول به شرط‌های تازه می‌داند."
+                "en": "So the book's earlier rule holds the whole way: treat each check as money that stays locked up, and may be lost, until an exit happens.",
+                "fa": "پس قاعدهٔ قبلی کتاب در تمام مسیر برقرار است: هر چک را پولی بدان که تا وقوع exit قفل می‌ماند و ممکن است از دست برود."
               }
             },
             {
               "kind": "card",
               "id": "b21c1l4p9",
               "text": {
-                "en": "Selling only part of a winner keeps you exposed to more upside while reducing the risk of losing everything. It is a trade-off, not a rule.",
-                "fa": "فروختن فقط بخشی از یک برنده تو را در معرض رشد بیشتر نگه می‌دارد و ریسک از دست دادن همه‌چیز را کم می‌کند. این یک بده‌بستان است، نه قانون."
+                "en": "The waiting years are not idle. Founders recommend angels who were useful to other founders, and that is where the book says the best deal flow comes from.",
+                "fa": "سال‌های انتظار بیکاری نیست. بنیان‌گذاران فرشته‌هایی را که مفید بودند به بنیان‌گذاران دیگر معرفی می‌کنند، و کتاب می‌گوید بهترین deal flow از همین‌جا می‌آید."
               }
             },
             {
               "kind": "check",
               "id": "b21c1l4k4",
               "type": "tf",
-              "source": "b21c1l4p7",
+              "source": "b21c1l4p8",
               "prompt": {
-                "en": "With a liquidation preference, later investors are paid back first in a sale.",
-                "fa": "با اولویت انحلال، سرمایه‌گذاران بعدی در فروش اول پولشان را پس می‌گیرند."
+                "en": "The book treats an angel check as money you can take back out whenever you need it.",
+                "fa": "کتاب چک فرشته را پولی می‌داند که هر وقت لازمش داشتی می‌توانی پس بگیری."
               },
-              "answer": true
+              "answer": false
             },
             {
               "kind": "card",
               "id": "b21c1l4p10",
               "text": {
-                "en": "Applied: as an engineer you can add the useful kind of help the book describes, such as reviewing a technical hire or an architecture plan. That builds your name with founders even before you invest.",
-                "fa": "کاربرد: به‌عنوان مهندس می‌توانی همان کمک مفیدی را که کتاب می‌گوید ارائه دهی، مثل بررسی یک استخدام فنی یا طرح معماری. این پیش از سرمایه‌گذاری هم نامت را نزد بنیان‌گذاران می‌سازد."
+                "en": "Applied: as an engineer you can give the useful kind of help the book describes, such as reviewing a technical hire or an architecture plan. That builds your name with founders even before you invest.",
+                "fa": "کاربردی: به‌عنوان مهندس می‌توانی همان کمک مفیدی را که کتاب می‌گوید ارائه دهی، مثل بررسی یک استخدام فنی یا طرح معماری. این پیش از سرمایه‌گذاری هم نامت را نزد بنیان‌گذاران می‌سازد."
               }
             },
             {
               "kind": "card",
               "id": "b21c1l4p11",
               "text": {
-                "en": "Your index core works differently: you can sell VWCE any trading day, while an angel stake may stay locked until a sale years away. That gap is why the two should not be mixed up in your plan.",
-                "fa": "هستهٔ شاخصی تو فرق دارد: VWCE را هر روز معاملاتی می‌توانی بفروشی، اما سهم فرشته ممکن است تا فروشی سال‌ها بعد قفل بماند. همین فاصله دلیل جدا نگه داشتن این دو در برنامه‌ات است."
+                "en": "Applied: your index core works differently. An ETF such as VWCE trades every market day, while an angel stake may stay locked until a sale years away, so your roadmap keeps the two apart.",
+                "fa": "کاربردی: هستهٔ شاخصی تو جور دیگری کار می‌کند. یک ETF مثل VWCE هر روز معاملاتی خرید و فروش می‌شود، اما سهم فرشته ممکن است تا فروشی سال‌ها بعد قفل بماند، پس نقشهٔ راهت این دو را جدا نگه می‌دارد."
               }
             },
             {
               "kind": "card",
               "id": "b21c1l4p12",
               "text": {
-                "en": "As a founder, the same lessons flip: pick angels who help and stay out of the way, and read the preferences in each term sheet. Those terms decide who gets paid first if you sell.",
-                "fa": "به‌عنوان بنیان‌گذار همین درس‌ها برعکس می‌شوند: فرشته‌هایی را انتخاب کن که کمک می‌کنند و مزاحم نمی‌شوند، و اولویت‌های هر term sheet را بخوان. همین شرایط تعیین می‌کند اگر بفروشی چه کسی اول پول می‌گیرد."
+                "en": "Applied: as a founder the same lessons flip. Pick angels who help and stay out of the way, and read the liquidation preference in each term sheet: it sets who is paid first in a sale.",
+                "fa": "کاربردی: به‌عنوان بنیان‌گذار همین درس‌ها برعکس می‌شوند. فرشته‌هایی را انتخاب کن که کمک می‌کنند و مزاحم نمی‌شوند، و liquidation preference هر term sheet را بخوان: همین تعیین می‌کند در فروش چه کسی اول پول می‌گیرد."
               }
             },
             {
@@ -825,13 +825,13 @@
               "type": "tap",
               "source": "b21c1l4p12",
               "prompt": {
-                "en": "As a founder, what does the book's logic say to read in each term sheet?",
-                "fa": "به‌عنوان بنیان‌گذار، منطق کتاب می‌گوید در هر term sheet چه چیزی را بخوانی؟"
+                "en": "As a founder, what does this Lesson suggest reading in each term sheet?",
+                "fa": "به‌عنوان بنیان‌گذار، این درس پیشنهاد می‌کند در هر term sheet چه چیزی را بخوانی؟"
               },
               "options": [
                 {
-                  "en": "The preferences",
-                  "fa": "اولویت‌ها"
+                  "en": "The liquidation preference",
+                  "fa": "liquidation preference"
                 },
                 {
                   "en": "The office address",

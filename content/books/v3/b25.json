@@ -292,8 +292,8 @@
               "kind": "card",
               "id": "b25c1l2p2",
               "text": {
-                "en": "King Mithridates of Pontus feared being poisoned, so he took small doses of poison to build tolerance. Taleb uses the story to show hormesis: small doses of harm can make you stronger.",
-                "fa": "Mithridates، پادشاه Pontus، از مسموم شدن می‌ترسید، پس دوزهای کوچک سم می‌خورد تا تحمل بسازد. Taleb با این داستان hormesis را نشان می‌دهد: دوزهای کوچک آسیب می‌توانند قوی‌ترت کنند."
+                "en": "King Mithridates of Pontus feared being poisoned, so he took small doses of poison to build tolerance. Taleb starts from this story and moves on to hormesis: a small dose of harm can make you stronger.",
+                "fa": "Mithridates، پادشاه Pontus، از مسموم شدن می‌ترسید، پس دوزهای کوچک سم می‌خورد تا تحمل بسازد. Taleb از این داستان شروع می‌کند و به hormesis می‌رسد: دوز کوچک آسیب می‌تواند قوی‌ترت کند."
               }
             },
             {
@@ -368,8 +368,8 @@
               "kind": "card",
               "id": "b25c1l2p7",
               "text": {
-                "en": "Deprive organic things of stressors and they weaken, the way a muscle wastes inside a plaster cast. Too much comfort is its own kind of harm.",
-                "fa": "موجودات زنده را از فشار محروم کنی، ضعیف می‌شوند، همان‌طور که عضله درون گچ تحلیل می‌رود. راحتی بیش از حد خودش نوعی آسیب است."
+                "en": "Deprive organic things of stressors and they weaken, the way muscles waste after a month in bed. Too much comfort is its own kind of harm.",
+                "fa": "موجودات زنده را از فشار محروم کنی، ضعیف می‌شوند، همان‌طور که عضله پس از یک ماه ماندن در تخت تحلیل می‌رود. راحتی بیش از حد خودش نوعی آسیب است."
               }
             },
             {
@@ -732,8 +732,8 @@
               "id": "b25c1l4p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Chapter 7 on naive intervention and the fragilistas of Book III. It matters because checking your portfolio daily or reorganising your startup weekly can do more harm than good.",
-                "fa": "این درس فصل ۷ دربارهٔ مداخلهٔ ساده‌لوحانه و fragilistaهای بخش سوم را خلاصه می‌کند. مهم است چون چک کردن روزانهٔ سبد سرمایه یا بازسازی هفتگی استارتاپ می‌تواند بیشتر ضرر بزند تا سود."
+                "en": "This Lesson distils Chapters 7 to 9 on naive intervention, prediction and Fat Tony's fragilistas. It matters because checking your portfolio daily or reorganising your startup weekly can do more harm than good.",
+                "fa": "این درس فصل‌های ۷ تا ۹ دربارهٔ مداخلهٔ ساده‌لوحانه، پیش‌بینی و fragilistaهای Fat Tony را خلاصه می‌کند. مهم است چون چک کردن روزانهٔ سبد سرمایه یا بازسازی هفتگی استارتاپ می‌تواند بیشتر ضرر بزند تا سود."
               }
             },
             {
@@ -857,16 +857,16 @@
               "kind": "card",
               "id": "b25c1l4p9",
               "text": {
-                "en": "Book III calls prediction a child of modernity. Forecasters and planners rarely pay for being wrong, so their errors keep fragilizing the systems they run.",
-                "fa": "بخش سوم پیش‌بینی را فرزند مدرنیته می‌نامد. پیش‌بینان و برنامه‌ریزان به‌ندرت تاوان اشتباهشان را می‌دهند، پس خطاهایشان مدام سیستم‌هایی را که اداره می‌کنند شکننده‌تر می‌کند."
+                "en": "Chapter 8 calls prediction a child of modernity. Forecasters and planners rarely pay for being wrong, so their errors keep fragilizing the systems they run.",
+                "fa": "فصل ۸ پیش‌بینی را فرزند مدرنیته می‌نامد. پیش‌بینان و برنامه‌ریزان به‌ندرت تاوان اشتباهشان را می‌دهند، پس خطاهایشان مدام سیستم‌هایی را که اداره می‌کنند شکننده‌تر می‌کند."
               }
             },
             {
               "kind": "card",
               "id": "b25c1l4p10",
               "text": {
-                "en": "Taleb's character Fat Tony, a street-smart trader, ignores forecasts and spots who is fragile instead. He bets against the fragilistas and profits when their systems break.",
-                "fa": "شخصیت Fat Tony در کتاب Taleb، معامله‌گری زیرک و کوچه‌بازاری، پیش‌بینی‌ها را نادیده می‌گیرد و به‌جایش شکننده‌ها را پیدا می‌کند. علیه fragilistaها شرط می‌بندد و وقتی سیستمشان می‌شکند سود می‌برد."
+                "en": "Taleb's character Fat Tony, a street-smart man from Brooklyn, ignores forecasts and spots who is fragile instead. He bets against the fragilistas and profits when their systems break.",
+                "fa": "شخصیت Fat Tony در کتاب Taleb، مردی زیرک و کوچه‌بازاری از Brooklyn، پیش‌بینی‌ها را نادیده می‌گیرد و به‌جایش شکننده‌ها را پیدا می‌کند. علیه fragilistaها شرط می‌بندد و وقتی سیستمشان می‌شکند سود می‌برد."
               }
             },
             {
@@ -926,7 +926,7 @@
               "id": "b25c1l4p11",
               "text": {
                 "en": "For an index portfolio, the least harmful habit is often to look rarely. A quarterly net-worth log gives signal; a broker app checked daily mostly gives noise.",
-                "fa": "برای سبد ETF شاخصی، کم‌ضررترین عادت اغلب کم نگاه کردن است. ثبت فصلی دارایی خالص سیگنال می‌دهد؛ اپ کارگزاری که روزانه چک شود بیشتر نویز می‌دهد."
+                "fa": "برای سبد شاخصی، کم‌ضررترین عادت اغلب کم نگاه کردن است. ثبت فصلی دارایی خالص سیگنال می‌دهد؛ اپ کارگزاری که روزانه چک شود بیشتر نویز می‌دهد."
               }
             },
             {
@@ -1097,8 +1097,8 @@
               "kind": "card",
               "id": "b25c2l1p9",
               "text": {
-                "en": "Taleb's safe end means the safest instruments, like cash or treasury bills. A stock index fund is not that safe: it can fall sharply in a crash.",
-                "fa": "سر امن هالتر Taleb یعنی امن‌ترین ابزارها، مثل پول نقد یا اوراق خزانهٔ کوتاه‌مدت. صندوق شاخص سهام آن‌قدر امن نیست: در سقوط بازار می‌تواند به‌شدت افت کند."
+                "en": "Taleb's safe end means the safest holdings, which he calls boring cash. A stock index fund is not that safe: it can fall sharply in a crash.",
+                "fa": "سر امن هالتر Taleb یعنی امن‌ترین دارایی‌ها، که او آن را پول نقدِ کسل‌کننده می‌نامد. صندوق شاخص سهام آن‌قدر امن نیست: در سقوط بازار می‌تواند به‌شدت افت کند."
               }
             },
             {
@@ -1124,8 +1124,8 @@
                   "fa": "صندوق شاخص سهام"
                 },
                 {
-                  "en": "Cash or treasury bills",
-                  "fa": "پول نقد یا اوراق خزانه"
+                  "en": "Boring cash",
+                  "fa": "پول نقدِ کسل‌کننده"
                 },
                 {
                   "en": "A medium-risk bond fund",
@@ -1147,7 +1147,7 @@
               "id": "b25c2l1p14",
               "text": {
                 "en": "A barbell only works if the safe end is truly safe. If the safe 90 percent can itself crash, losing the risky 10 percent is no longer your worst case.",
-                "fa": "barbell فقط وقتی کار می‌کند که سر امن واقعاً امن باشد. اگر ۹۰ درصد «امن» خودش بتواند سقوط کند، از دست دادن ۱۰ درصد پرریسک دیگر بدترین حالت تو نیست."
+                "fa": "هالتر فقط وقتی کار می‌کند که سر امن واقعاً امن باشد. اگر ۹۰ درصد «امن» خودش بتواند سقوط کند، از دست دادن ۱۰ درصد پرریسک دیگر بدترین حالت تو نیست."
               }
             },
             {
@@ -1157,7 +1157,7 @@
               "source": "b25c2l1p14",
               "prompt": {
                 "en": "A barbell still caps your worst case even if the safe end can itself crash.",
-                "fa": "حتی اگر سر امن خودش بتواند سقوط کند، barbell باز هم بدترین حالت را محدود می‌کند."
+                "fa": "حتی اگر سر امن خودش بتواند سقوط کند، هالتر باز هم بدترین حالت را محدود می‌کند."
               },
               "answer": false
             },
@@ -1203,8 +1203,8 @@
               "id": "b25c2l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils Chapters 12 to 14 on optionality, tinkering and the green lumber fallacy. It matters because building a small AI product is a series of cheap options, not one big forecast.",
-                "fa": "این درس فصل‌های ۱۲ تا ۱۴ دربارهٔ اختیار، آزمون و خطا و مغالطهٔ green lumber را خلاصه می‌کند. مهم است چون ساختن یک محصول کوچک AI مجموعه‌ای از اختیارهای ارزان است، نه یک پیش‌بینی بزرگ."
+                "en": "This Lesson distils Chapters 12 to 15 on optionality, tinkering and the green lumber fallacy. It matters because building a small AI product is a series of cheap options, not one big forecast.",
+                "fa": "این درس فصل‌های ۱۲ تا ۱۵ دربارهٔ اختیار، آزمون و خطا و مغالطهٔ green lumber را خلاصه می‌کند. مهم است چون ساختن یک محصول کوچک AI مجموعه‌ای از اختیارهای ارزان است، نه یک پیش‌بینی بزرگ."
               }
             },
             {
@@ -1320,8 +1320,8 @@
               "kind": "card",
               "id": "b25c2l2p8",
               "text": {
-                "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. Jet engines and much of the Industrial Revolution came from tinkerers, not academics.",
-                "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. موتور جت و بخش بزرگی از انقلاب صنعتی حاصل کار تعمیرکاران و آزمایشگران بود، نه دانشگاهیان."
+                "en": "In \"Lecturing Birds on How to Fly\", Taleb argues that practice often comes before theory. He later credits the jet engine and much of the Industrial Revolution to tinkerers, not academics.",
+                "fa": "Taleb در فصل «درس پرواز دادن به پرندگان» استدلال می‌کند که عمل اغلب پیش از نظریه می‌آید. او بعدتر موتور جت و بخش بزرگی از انقلاب صنعتی را حاصل کار آزمایشگران می‌داند، نه دانشگاهیان."
               }
             },
             {
@@ -1363,8 +1363,8 @@
               "kind": "card",
               "id": "b25c2l2p14",
               "text": {
-                "en": "The wheel is thousands of years old, yet wheels on suitcases only arrived around 1970. Taleb uses this to show that simple practical ideas can sit unused for ages.",
-                "fa": "چرخ هزاران سال قدمت دارد، اما چرخ روی چمدان تازه حدود ۱۹۷۰ آمد. Taleb با این نشان می‌دهد ایده‌های ساده و کاربردی می‌توانند مدت‌ها بی‌استفاده بمانند."
+                "en": "The wheel is thousands of years old, yet wheels on suitcases arrived only in modern times. Taleb uses this to show that simple practical ideas can sit unused for ages.",
+                "fa": "چرخ هزاران سال قدمت دارد، اما چرخ روی چمدان تازه در دوران مدرن آمد. Taleb با این نشان می‌دهد ایده‌های ساده و کاربردی می‌توانند مدت‌ها بی‌استفاده بمانند."
               }
             },
             {
@@ -1373,8 +1373,8 @@
               "type": "tap",
               "source": "b25c2l2p14",
               "prompt": {
-                "en": "In Taleb's example, what reached suitcases only around 1970?",
-                "fa": "در مثال Taleb، چه چیزی تازه حدود ۱۹۷۰ به چمدان‌ها رسید؟"
+                "en": "In Taleb's example, what reached suitcases only in modern times?",
+                "fa": "در مثال Taleb، چه چیزی تازه در دوران مدرن به چمدان‌ها رسید؟"
               },
               "options": [
                 {
@@ -1483,8 +1483,8 @@
               "kind": "card",
               "id": "b25c2l3p4",
               "text": {
-                "en": "In finance, via negativa means avoiding debt, leverage and products you do not understand. Not losing money matters more than finding the next winner.",
-                "fa": "در امور مالی، via negativa یعنی دوری از بدهی، اهرم و محصولاتی که نمی‌فهمی. پول از دست ندادن مهم‌تر از پیدا کردن برندهٔ بعدی است."
+                "en": "Taleb applies via negativa to money too. Debt makes you fragile, and avoiding the big mistake matters more than finding the next winner.",
+                "fa": "Taleb همین via negativa را دربارهٔ پول هم به کار می‌برد. بدهی شکننده‌ات می‌کند و دوری از خطای بزرگ مهم‌تر از پیدا کردن برندهٔ بعدی است."
               }
             },
             {
@@ -1532,8 +1532,8 @@
               "kind": "card",
               "id": "b25c2l3p7",
               "text": {
-                "en": "The Lindy effect: for nonperishable things like books and ideas, every year they survive adds to their expected remaining life. A book in print for 50 years will probably last another 50.",
-                "fa": "اثر Lindy: برای چیزهای فسادناپذیر مثل کتاب و ایده، هر سالی که دوام می‌آورند به عمر باقی‌ماندهٔ مورد انتظارشان اضافه می‌کند. کتابی که ۵۰ سال چاپ شده احتمالاً ۵۰ سال دیگر هم دوام می‌آورد."
+                "en": "The Lindy effect: for nonperishable things like books and ideas, every year they survive adds to their expected remaining life. A book in print for 40 years can expect another 40.",
+                "fa": "اثر Lindy: برای چیزهای فسادناپذیر مثل کتاب و ایده، هر سالی که دوام می‌آورند به عمر باقی‌ماندهٔ مورد انتظارشان اضافه می‌کند. کتابی که ۴۰ سال چاپ شده می‌تواند ۴۰ سال دیگر هم انتظار داشته باشد."
               }
             },
             {

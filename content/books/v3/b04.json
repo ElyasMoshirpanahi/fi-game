@@ -39,8 +39,8 @@
               "id": "b04c1l1p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the opening tales: Bansir, Kobbi and how Arkad grew rich. It matters because a €40k salary in the Netherlands builds ownership only once a fixed share is kept and put to work.",
-                "fa": "این درس داستان‌های آغازین کتاب را خلاصه می‌کند: Bansir، Kobbi و اینکه Arkad چگونه ثروتمند شد. مهم است چون حقوق ۴۰ هزار یورویی در هلند فقط وقتی به مالکیت می‌رسد که سهمی ثابت از آن نگه داشته و به کار گرفته شود."
+                "en": "This Lesson distils the opening tales: Bansir, Kobbi and how Arkad grew rich. It matters because income in the Netherlands builds ownership only once a fixed share is kept and put to work.",
+                "fa": "این درس داستان‌های آغازین کتاب را خلاصه می‌کند: Bansir، Kobbi و اینکه Arkad چگونه ثروتمند شد. مهم است چون درآمد در هلند فقط وقتی به مالکیت می‌رسد که سهمی ثابت از آن نگه داشته و به کار گرفته شود."
               }
             },
             {
@@ -75,15 +75,15 @@
               "id": "b04c1l1p4",
               "text": {
                 "en": "As a young scribe carving clay tablets, Arkad met Algamish the money lender. He copied a law overnight in exchange for one secret: a part of all you earn is yours to keep.",
-                "fa": "Arkad در جوانی کاتب بود و بر لوح‌های گلی می‌نوشت؛ آنجا Algamish رباخوار را دید. یک شب تا صبح قانونی را نسخه‌برداری کرد در ازای یک راز: بخشی از هرچه به دست می‌آوری مال خودت است که نگهش داری."
+                "fa": "Arkad در جوانی کاتب بود و بر لوح‌های گلی می‌نوشت؛ آنجا Algamish وام‌دهنده را دید. یک شب تا صبح قانونی را نسخه‌برداری کرد در ازای یک راز: بخشی از هرچه به دست می‌آوری مال خودت است که نگهش داری."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l1p5",
               "text": {
-                "en": "Algamish's rule: for every ten coins you put in your purse, spend only nine. Arkad found that after a year he had no less to spend than before, yet his purse was heavier.",
-                "fa": "قاعدهٔ Algamish: از هر ده سکه‌ای که در کیسه می‌گذاری، فقط نه سکه خرج کن. Arkad دید پس از یک سال نه چیزی از خرجش کم شده، بلکه کیسه‌اش سنگین‌تر هم شده است."
+                "en": "Algamish's rule: keep not less than a tenth of all you earn, however little that is. Arkad set aside one copper in every ten and found he was no shorter of funds than before.",
+                "fa": "قاعدهٔ Algamish: هرقدر هم درآمدت کم باشد، دست‌کم یک‌دهمش را نگه دار. Arkad از هر ده سکهٔ مسی یکی را کنار گذاشت و دید دستش تنگ‌تر از قبل نشده است."
               }
             },
             {
@@ -164,8 +164,8 @@
               "kind": "card",
               "id": "b04c1l1p10",
               "text": {
-                "en": "His three steps: live upon less than you earn, seek advice only from those competent through their own experience, and make your treasure work for you by sound employment.",
-                "fa": "سه گام او: کمتر از درآمدت زندگی کن، فقط از کسانی مشورت بگیر که با تجربهٔ خودشان شایستگی دارند، و گنجت را با به‌کارگیری درست به کار بینداز."
+                "en": "Algamish named the three lessons Arkad had learned: live upon less than you earn, seek advice from those competent through their own experience, and make gold work for you.",
+                "fa": "Algamish سه درسی را که Arkad آموخته بود برشمرد: با کمتر از درآمدت زندگی کن، از کسانی مشورت بگیر که با تجربهٔ خودشان شایستگی دارند، و طلا را به کار بگیر."
               }
             },
             {
@@ -191,8 +191,8 @@
               "kind": "card",
               "id": "b04c1l1p12",
               "text": {
-                "en": "For you the seed is the first tenth of a Dutch paycheck moved into an index ETF. Clason's stories say the habit, started now, matters more than the size of the first coin.",
-                "fa": "برای تو آن دانه، یک‌دهمِ اولین حقوق هلندی است که به یک ETF شاخصی می‌رود. داستان‌های Clason می‌گویند عادتی که همین حالا شروع شود، مهم‌تر از اندازهٔ اولین سکه است."
+                "en": "Algamish calls the first copper saved the seed of the tree of wealth: the sooner it is planted, the sooner the tree grows. On your roadmap that seed is the first sum set aside for index investing.",
+                "fa": "Algamish اولین سکهٔ پس‌اندازشده را دانهٔ درخت ثروت می‌نامد: هرچه زودتر کاشته شود، درخت زودتر رشد می‌کند. در نقشهٔ راه تو، آن دانه اولین مبلغی است که برای سرمایه‌گذاری شاخصی کنار می‌رود."
               }
             },
             {
@@ -235,24 +235,24 @@
               "id": "b04c1l2p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the Seven Cures for a Lean Purse, Arkad's course for King Sargon's citizens. For an engineer earning €40k abroad it is the whole saving-and-investing routine in seven lines.",
-                "fa": "این درس هفت درمان برای کیسهٔ خالی را خلاصه می‌کند؛ کلاسی که Arkad برای شهروندان شاه Sargon برگزار کرد. برای مهندسی با درآمد ۴۰ هزار یورو در خارج، این کل روال پس‌انداز و سرمایه‌گذاری در هفت خط است."
+                "en": "This Lesson distils the Seven Cures for a Lean Purse, the course Arkad taught at King Sargon's request. For an engineer starting out in the Netherlands it is a whole saving-and-investing routine in seven lines.",
+                "fa": "این درس هفت درمان برای کیسهٔ خالی را خلاصه می‌کند؛ کلاسی که Arkad به خواست شاه Sargon برگزار کرد. برای مهندسی که در هلند تازه شروع می‌کند، این یک روال کامل پس‌انداز و سرمایه‌گذاری در هفت خط است."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l2p2",
               "text": {
-                "en": "King Sargon worries that Babylon's gold has flowed to a few men. He asks Arkad to teach one hundred citizens, over seven days, how he acquired his wealth, so the whole city can learn.",
-                "fa": "شاه Sargon نگران است که طلای Babylon به دست چند نفر رفته. از Arkad می‌خواهد در هفت روز به صد شهروند بیاموزد چگونه ثروتش را به دست آورد، تا کل شهر یاد بگیرد."
+                "en": "King Sargon learns that Babylon's gold has flowed to a few very rich men. Arkad agrees to teach a class of one hundred men, over seven days, how he acquired his wealth, so they can teach others.",
+                "fa": "شاه Sargon باخبر می‌شود که طلای Babylon به دست چند مرد بسیار ثروتمند رفته است. Arkad می‌پذیرد در هفت روز به کلاسی صدنفره بیاموزد چگونه ثروتش را به دست آورد، تا آن‌ها هم به دیگران بیاموزند."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l2p3",
               "text": {
-                "en": "Arkad's first cure: a part of all you earn is yours to keep. Pay yourself first by saving at least one-tenth of everything you earn, before any spending.",
-                "fa": "درمان اول Arkad: بخشی از هرچه به دست می‌آوری مال خودت است که نگهش داری. اول به خودت بپرداز و دست‌کم یک‌دهم هر درآمدی را پیش از هر خرجی پس‌انداز کن."
+                "en": "Arkad's first cure, start thy purse to fattening: for every ten coins you put in your purse, take out only nine to spend. The coin you keep is the start of your wealth.",
+                "fa": "درمان اول Arkad، «کیسه‌ات را پر کردن آغاز کن»: از هر ده سکه‌ای که در کیسه می‌گذاری، فقط نه سکه برای خرج بیرون بیاور. سکه‌ای که نگه می‌داری آغاز ثروت توست."
               }
             },
             {
@@ -266,8 +266,8 @@
               },
               "options": [
                 {
-                  "en": "Keep at least one-tenth of all you earn",
-                  "fa": "دست‌کم یک‌دهم هر درآمدت را نگه دار"
+                  "en": "Keep one coin of every ten",
+                  "fa": "از هر ده سکه یکی را نگه دار"
                 },
                 {
                   "en": "Lend to friends in need",
@@ -284,15 +284,15 @@
               "kind": "card",
               "id": "b04c1l2p4",
               "text": {
-                "en": "Second cure, control thy expenditures: what each of us calls necessary expenses will always grow to equal our income unless we protest. Budget, and spend only on what is truly necessary.",
-                "fa": "درمان دوم، خرج‌هایت را مهار کن: آنچه هرکدام از ما «هزینه‌های ضروری» می‌نامیم همیشه آن‌قدر رشد می‌کند که با درآمدمان برابر شود، مگر اینکه مقاومت کنیم. بودجه بنویس و فقط برای ضروریات واقعی خرج کن."
+                "en": "Second cure, control thy expenditures: what each of us calls necessary expenses will always grow to equal our income unless we protest. Budget so necessities and enjoyments fit within nine-tenths of what you earn.",
+                "fa": "درمان دوم، خرج‌هایت را مهار کن: آنچه هرکدام از ما «هزینه‌های ضروری» می‌نامیم همیشه آن‌قدر رشد می‌کند که با درآمدمان برابر شود، مگر اینکه مقاومت کنیم. بودجه بنویس تا ضروریات و خوشی‌ها در نه‌دهم درآمدت جا شوند."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l2p5",
               "text": {
-                "en": "Third cure, make thy gold multiply: put savings to work so each coin earns more coins. Fourth cure, guard thy treasure from loss: invest only where the principal is safe and recoverable.",
+                "en": "Third cure, make thy gold multiply: put savings to work so each coin earns more coins. Fourth cure, guard thy treasures from loss: invest only where the principal is safe and recoverable.",
                 "fa": "درمان سوم، طلایت را تکثیر کن: پس‌انداز را به کار بینداز تا هر سکه سکه‌های بیشتری بیاورد. درمان چهارم، گنجت را از زیان حفظ کن: فقط جایی سرمایه‌گذاری کن که اصل پول امن و قابل‌بازگشت باشد."
               }
             },
@@ -300,8 +300,8 @@
               "kind": "card",
               "id": "b04c1l2p6",
               "text": {
-                "en": "Fifth cure, make of thy dwelling a profitable investment. Arkad argues that a man who owns his home pays the lender instead of a landlord, and ends with a debt that shrinks each year.",
-                "fa": "درمان پنجم، خانه‌ات را سرمایه‌گذاری سودآور کن. Arkad می‌گوید کسی که خانه‌اش را دارد به‌جای صاحب‌خانه به وام‌دهنده می‌پردازد و بدهی‌اش هر سال کوچک‌تر می‌شود."
+                "en": "Fifth cure, make of thy dwelling a profitable investment. Arkad argues that a man buying his home pays the money lender as regularly as he paid the landlord, and each payment reduces his debt.",
+                "fa": "درمان پنجم، خانه‌ات را سرمایه‌گذاری سودآور کن. Arkad می‌گوید کسی که خانه می‌خرد همان‌قدر منظم که به صاحب‌خانه می‌پرداخت به وام‌دهنده می‌پردازد و هر قسط بدهی‌اش را کم می‌کند."
               }
             },
             {
@@ -327,8 +327,8 @@
               "kind": "card",
               "id": "b04c1l2p8",
               "text": {
-                "en": "Seventh cure, increase thy ability to earn. Arkad says desires must be definite and few, and that the more wisdom and skill we gain, the more we may earn; cultivate your own powers.",
-                "fa": "درمان هفتم، توان درآمدزایی‌ات را افزایش بده. Arkad می‌گوید خواسته‌ها باید مشخص و اندک باشند و هرچه دانش و مهارت بیشتری بیاموزیم، بیشتر می‌توانیم به دست آوریم؛ توانایی‌هایت را پرورش بده."
+                "en": "Seventh cure, increase thy ability to earn. Arkad says desires must be simple and definite, and that the more wisdom and skill we gain, the more we may earn; cultivate your own powers.",
+                "fa": "درمان هفتم، توان درآمدزایی‌ات را افزایش بده. Arkad می‌گوید خواسته‌ها باید ساده و مشخص باشند و هرچه دانش و مهارت بیشتری بیاموزیم، بیشتر می‌توانیم به دست آوریم؛ توانایی‌هایت را پرورش بده."
               }
             },
             {
@@ -368,8 +368,8 @@
               "kind": "card",
               "id": "b04c1l2p10",
               "text": {
-                "en": "Pay yourself first, Dutch edition: the day salary lands, at least one-tenth moves to the broker before rent or anything else. Automate it so Arkad's rule never needs willpower.",
-                "fa": "اول به خودت بپرداز، نسخهٔ هلندی: روزی که حقوق می‌رسد، دست‌کم یک‌دهم پیش از اجاره یا هر چیز دیگر به کارگزار می‌رود. خودکارش کن تا قاعدهٔ Arkad هرگز به اراده نیاز نداشته باشد."
+                "en": "Arkad's first cure applied to a Dutch salary: the day pay lands, one-tenth leaves for the broker before rent or anything else. It is kept first, not saved from what is left over.",
+                "fa": "درمان اول Arkad روی حقوق هلندی: روزی که حقوق می‌رسد، یک‌دهم پیش از اجاره یا هر چیز دیگر به کارگزار می‌رود. اول نگه داشته می‌شود، نه اینکه از باقی‌مانده پس‌انداز شود."
               }
             },
             {
@@ -410,8 +410,8 @@
               "kind": "card",
               "id": "b04c1l2p12",
               "text": {
-                "en": "Increase thy ability to earn: for you that is 2 books a month with a page of notes, and shipping a small AI product. Both raise what one hour of your work is worth.",
-                "fa": "توان درآمدزایی‌ات را افزایش بده: برای تو یعنی ۲ کتاب در ماه با یک صفحه یادداشت، و عرضهٔ یک محصول کوچک AI. هر دو ارزش یک ساعت کار تو را بالا می‌برند."
+                "en": "Increase thy ability to earn: on your roadmap that is the hour of reading a day and a small AI product people pay for. Both follow Arkad's call to study and grow more skilful.",
+                "fa": "توان درآمدزایی‌ات را افزایش بده: در نقشهٔ راه تو یعنی روزی یک ساعت مطالعه و یک محصول کوچک AI که مردم برایش پول بدهند. هر دو با توصیهٔ Arkad به آموختن و ماهرتر شدن جور است."
               }
             },
             {
@@ -429,8 +429,8 @@
                   "fa": "اجاره پرداخت می‌شود، بعد هرچه ماند پس‌انداز"
                 },
                 {
-                  "en": "At least one-tenth moves to the broker first",
-                  "fa": "اول دست‌کم یک‌دهم به کارگزار می‌رود"
+                  "en": "One-tenth leaves for the broker first",
+                  "fa": "اول یک‌دهم به کارگزار می‌رود"
                 },
                 {
                   "en": "The whole salary waits in a current account",
@@ -470,8 +470,8 @@
               "kind": "card",
               "id": "b04c1l3p3",
               "text": {
-                "en": "Nomasir loses the gold fast: he wagers on horse races with strangers and buys into a shop with a partner who vanishes. Only then does he read the tablet and begin to follow its laws.",
-                "fa": "Nomasir طلا را زود از دست می‌دهد: با غریبه‌ها روی مسابقهٔ اسب شرط می‌بندد و با شریکی که بعد غیبش می‌زند در یک دکان سهم می‌خرد. تنها آن وقت لوح را می‌خواند و پیروی از قوانینش را آغاز می‌کند."
+                "en": "Nomasir loses the gold fast: tricksters cheat him on a horse race, then he buys a shop with a partner who proves an unwise buyer and a foolish spender. Only then does he turn to the tablet and follow its laws.",
+                "fa": "Nomasir طلا را زود از دست می‌دهد: شیادان در یک مسابقهٔ اسب فریبش می‌دهند، بعد با شریکی دکان می‌خرد که خریدار ناشی و ولخرجی از آب درمی‌آید. تنها آن وقت سراغ لوح می‌رود و پیروی از قوانینش را آغاز می‌کند."
               }
             },
             {
@@ -489,8 +489,8 @@
               "kind": "card",
               "id": "b04c1l3p4",
               "text": {
-                "en": "The Five Laws of Gold begin the same way: gold comes gladly to the one who saves at least one-tenth. It flees the one who forces it into impossible earnings or follows tricksters.",
-                "fa": "پنج قانون طلا همین‌طور شروع می‌شوند: طلا با میل سراغ کسی می‌آید که دست‌کم یک‌دهم را پس‌انداز کند. و از کسی می‌گریزد که آن را به سودهای ناممکن وادارد یا دنبال شیادان برود."
+                "en": "The Five Laws of Gold open where Algamish did: gold comes gladly, and in growing quantity, to anyone who puts by not less than one-tenth of his earnings to build an estate for his future and his family's.",
+                "fa": "پنج قانون طلا از همان‌جایی شروع می‌شوند که Algamish شروع کرد: طلا با میل و به مقدار روزافزون سراغ کسی می‌آید که دست‌کم یک‌دهم درآمدش را کنار بگذارد تا برای آیندهٔ خود و خانواده‌اش دارایی بسازد."
               }
             },
             {
@@ -530,23 +530,23 @@
               "kind": "card",
               "id": "b04c1l3p6",
               "text": {
-                "en": "Fourth law: gold slips away from one who invests in businesses or purposes he does not know, or which those skilled in its keep do not approve. Fifth law: beware tricksters, schemers and your own inexperience.",
-                "fa": "قانون چهارم: طلا از دست کسی می‌رود که آن را در کار یا هدفی که نمی‌شناسد، یا اهل فن تأییدش نمی‌کنند، سرمایه‌گذاری کند. قانون پنجم: از شیادان، حیله‌گران و بی‌تجربگی خودت بپرهیز."
+                "en": "Fourth law: gold slips away from one who invests in businesses or purposes he does not know, or which those skilled in its keep do not approve. Fifth law: gold flees impossible earnings, tricksters and inexperience.",
+                "fa": "قانون چهارم: طلا از دست کسی می‌رود که آن را در کار یا هدفی که نمی‌شناسد، یا اهل فن تأییدش نمی‌کنند، سرمایه‌گذاری کند. قانون پنجم: طلا از سودهای ناممکن، شیادان و بی‌تجربگی می‌گریزد."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l3p7",
               "text": {
-                "en": "Nomasir returns after ten years with two bags of gold: one to repay what his father gave, a second for the tablet, because the wisdom on it proved worth more than the gold.",
-                "fa": "Nomasir پس از ده سال با دو کیسه طلا برمی‌گردد: یکی برای پس دادن آنچه پدر داده بود، و دومی برای لوح، چون خردِ روی آن از طلا ارزشمندتر از آب درآمد."
+                "en": "Nomasir returns after ten years with three bags of gold: one to replace the bag his father gave, and two bags for the tablet, because its wisdom proved worth more than the gold.",
+                "fa": "Nomasir پس از ده سال با سه کیسه طلا برمی‌گردد: یکی به‌جای کیسه‌ای که پدر داده بود، و دو کیسه برای لوح، چون خردِ روی آن از طلا ارزشمندتر از آب درآمد."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l3p8",
               "text": {
-                "en": "Mathon, the gold lender of Babylon, advises Rodan the spearmaker, who won fifty gold pieces from the king and is pressed to lend them to his sister's husband so he may become a merchant.",
+                "en": "Mathon, the gold lender of Babylon, advises Rodan the spearmaker, who was given fifty gold pieces by the king and is pressed to lend them to his sister's husband so he may become a merchant.",
                 "fa": "Mathon، وام‌دهندهٔ طلای Babylon، به Rodan نیزه‌ساز مشورت می‌دهد؛ او پنجاه سکهٔ طلا از شاه گرفته و زیر فشار است که آن را به شوهر خواهرش قرض دهد تا تاجر شود."
               }
             },
@@ -561,8 +561,8 @@
               },
               "options": [
                 {
-                  "en": "A second bag of gold",
-                  "fa": "یک کیسهٔ دوم طلا"
+                  "en": "Two bags of gold",
+                  "fa": "دو کیسه طلا"
                 },
                 {
                   "en": "A faster horse",
@@ -579,16 +579,16 @@
               "kind": "card",
               "id": "b04c1l3p9",
               "text": {
-                "en": "Mathon opens his token chest, each token the story of a loan. His rule: lend only where security exists, and if you wish to help a friend, do it in a way that does not bring his burdens onto yourself.",
-                "fa": "Mathon صندوق نشانه‌هایش را باز می‌کند؛ هر نشانه داستان یک وام است. قاعده‌اش: فقط جایی قرض بده که ضمانتی باشد، و اگر می‌خواهی به دوستی کمک کنی، چنان کن که بارِ او روی شانهٔ تو نیفتد."
+                "en": "Mathon opens his token chest, each token the story of a loan. His rule: better a little caution than a great regret, and if you help a friend, do it in a way that does not bring his burdens onto yourself.",
+                "fa": "Mathon صندوق نشانه‌هایش را باز می‌کند؛ هر نشانه داستان یک وام است. قاعده‌اش: اندکی احتیاط بهتر از پشیمانی بزرگ است، و اگر به دوستی کمک می‌کنی، چنان کن که بارِ او روی شانهٔ تو نیفتد."
               }
             },
             {
               "kind": "card",
               "id": "b04c1l3p10",
               "text": {
-                "en": "Dabasir the camel trader fled his debts and ended a slave in Syria. His master's wife Sira asked whether he had the soul of a slave or a free man; he escaped the desert and came home to repay every creditor.",
-                "fa": "Dabasir شترفروش از بدهی‌هایش گریخت و در Syria برده شد. Sira، همسر اربابش، از او پرسید روحِ برده دارد یا روحِ آزاده؛ او از بیابان گریخت و به خانه برگشت تا بدهی هر طلبکار را بپردازد."
+                "en": "Dabasir the camel trader fled his debts and ended a slave in Syria. His master's wife Sira asked whether he had the soul of a slave or a free man; he escaped across the desert and came home to repay every creditor.",
+                "fa": "Dabasir شترفروش از بدهی‌هایش گریخت و در Syria برده شد. Sira، همسر اربابش، از او پرسید روحِ برده دارد یا روحِ آزاده؛ او از راه بیابان گریخت و به خانه برگشت تا بدهی هر طلبکار را بپردازد."
               }
             },
             {
@@ -606,8 +606,8 @@
               "kind": "card",
               "id": "b04c1l3p11",
               "text": {
-                "en": "Dabasir's motto, carved into the clay tablets: where the determination is, the way can be found. His plan split income three ways: one-tenth saved, seven-tenths to live on, two-tenths to creditors.",
-                "fa": "شعار Dabasir که بر لوح‌های گلی حک شد: هر جا اراده باشد، راه پیدا می‌شود. برنامه‌اش درآمد را سه قسمت می‌کرد: یک‌دهم پس‌انداز، هفت‌دهم برای زندگی، دو‌دهم برای طلبکاران."
+                "en": "Dabasir's motto: where the determination is, the way can be found. His plan, recorded on the clay tablets, split income three ways: one-tenth saved, seven-tenths to live on, two-tenths to creditors.",
+                "fa": "شعار Dabasir: هر جا اراده باشد، راه پیدا می‌شود. برنامه‌اش که بر لوح‌های گلی ثبت شده، درآمد را سه قسمت می‌کرد: یک‌دهم پس‌انداز، هفت‌دهم برای زندگی، دو‌دهم برای طلبکاران."
               }
             },
             {

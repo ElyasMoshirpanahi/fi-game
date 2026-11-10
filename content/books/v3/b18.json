@@ -82,8 +82,8 @@
               "kind": "card",
               "id": "b18c1l1p5",
               "text": {
-                "en": "After the IPO, customers kept going bankrupt and Loudcloud laid off staff in several rounds. Horowitz describes this period as one long stretch of the Struggle.",
-                "fa": "پس از IPO مشتریان همچنان ورشکست می‌شدند و Loudcloud در چند مرحله کارکنانش را تعدیل کرد. Horowitz این دوره را یک دورهٔ طولانی از Struggle توصیف می‌کند."
+                "en": "After the IPO, customers kept going bankrupt and Loudcloud laid off staff in several rounds. These are the years behind Horowitz's later essay on the Struggle.",
+                "fa": "پس از IPO مشتریان همچنان ورشکست می‌شدند و Loudcloud در چند مرحله کارکنانش را تعدیل کرد. جستار بعدی Horowitz دربارهٔ Struggle از دل همین سال‌ها بیرون آمده است."
               }
             },
             {
@@ -131,7 +131,7 @@
               "kind": "check",
               "id": "b18c1l1k3",
               "type": "tf",
-              "source": "b18c1l1p7",
+              "source": "b18c1l1p6",
               "prompt": {
                 "en": "Loudcloud sold its software and kept its services business.",
                 "fa": "Loudcloud نرم‌افزارش را فروخت و بخش خدماتش را نگه داشت."
@@ -150,16 +150,16 @@
               "kind": "card",
               "id": "b18c1l1p9",
               "text": {
-                "en": "Opsware then fought a long product battle against the rival BladeLogic. It closed the gap by building and buying the features customers wanted.",
-                "fa": "سپس Opsware نبرد طولانی محصول را با رقیبش BladeLogic پیش برد. این شکاف را با ساختن و خریدن قابلیت‌هایی که مشتریان می‌خواستند پر کرد."
+                "en": "Opsware then fought a long product battle against the rival BladeLogic. It closed the gap by building the features it was missing, through a hard product cycle.",
+                "fa": "سپس Opsware نبرد طولانی محصول را با رقیبش BladeLogic پیش برد. این شکاف را با ساختن قابلیت‌هایی که کم داشت، در یک چرخهٔ سخت توسعهٔ محصول، پر کرد."
               }
             },
             {
               "kind": "card",
               "id": "b18c1l1p10",
               "text": {
-                "en": "In 2007 Hewlett-Packard bought Opsware for $1.6 billion in cash. The company the press had written off became a famous software exit.",
-                "fa": "در سال ۲۰۰۷ شرکت Hewlett-Packard شرکت Opsware را به مبلغ ۱٫۶ میلیارد دلار نقد خرید. شرکتی که رسانه‌ها کنارش گذاشته بودند به یک خروج نرم‌افزاری مشهور تبدیل شد."
+                "en": "In 2007 Hewlett-Packard bought Opsware for about $1.6 billion. The company the press had written off became a famous software exit.",
+                "fa": "در سال ۲۰۰۷ شرکت Hewlett-Packard شرکت Opsware را به مبلغ حدود ۱٫۶ میلیارد دلار خرید. شرکتی که رسانه‌ها کنارش گذاشته بودند به یک خروج نرم‌افزاری مشهور تبدیل شد."
               }
             },
             {
@@ -199,8 +199,8 @@
               "kind": "card",
               "id": "b18c1l1p12",
               "text": {
-                "en": "Horowitz opens each chapter with rap lyrics, and his message matches theirs: nobody hands you the win. That is the tone of the whole book.",
-                "fa": "Horowitz هر فصل را با شعری از موسیقی رپ آغاز می‌کند و پیامش با آن‌ها یکی است: هیچ‌کس پیروزی را دو دستی تقدیمت نمی‌کند. این لحن کل کتاب است."
+                "en": "Horowitz opens many chapters and essays with song lyrics, most of them rap. Their blunt tone matches the book: nobody hands you the win.",
+                "fa": "Horowitz بسیاری از فصل‌ها و جستارها را با متن ترانه آغاز می‌کند که بیشترشان رپ هستند. لحن بی‌پردهٔ آن‌ها با کتاب یکی است: هیچ‌کس پیروزی را دو دستی تقدیمت نمی‌کند."
               }
             },
             {
@@ -209,8 +209,8 @@
               "type": "tf",
               "source": "b18c1l1p12",
               "prompt": {
-                "en": "Horowitz opens his chapters with rap lyrics.",
-                "fa": "Horowitz فصل‌هایش را با شعرهای رپ آغاز می‌کند."
+                "en": "Many of Horowitz's chapters open with rap lyrics.",
+                "fa": "بسیاری از فصل‌های Horowitz با شعرهای رپ آغاز می‌شوند."
               },
               "answer": true
             }
@@ -313,8 +313,8 @@
               "kind": "card",
               "id": "b18c1l2p7",
               "text": {
-                "en": "This is not checkers, it's chess: technology businesses are complex, so there are usually more moves than you think. Look for them before you give up.",
-                "fa": "این بازی چکرز نیست، شطرنج است: کسب‌وکارهای فناوری پیچیده‌اند، پس معمولاً حرکت‌های بیشتری از آنچه فکر می‌کنی وجود دارد. پیش از تسلیم شدن دنبالشان بگرد."
+                "en": "This is not checkers, it's chess: technology businesses are extremely complex, so Horowitz says there is always a move. Look for it before you give up.",
+                "fa": "این بازی چکرز نیست، شطرنج است: کسب‌وکارهای فناوری بسیار پیچیده‌اند، پس به گفتهٔ Horowitz همیشه حرکتی وجود دارد. پیش از تسلیم شدن دنبالش بگرد."
               }
             },
             {
@@ -323,8 +323,8 @@
               "type": "tap",
               "source": "b18c1l2p7",
               "prompt": {
-                "en": "Why does Horowitz say there are usually more moves than you think?",
-                "fa": "چرا Horowitz می‌گوید معمولاً حرکت‌های بیشتری از آنچه فکر می‌کنی وجود دارد؟"
+                "en": "Why does Horowitz say there is always a move?",
+                "fa": "چرا Horowitz می‌گوید همیشه حرکتی وجود دارد؟"
               },
               "options": [
                 {
@@ -658,8 +658,8 @@
               "kind": "card",
               "id": "b18c1l4p4",
               "text": {
-                "en": "Taking things too personally makes every setback feel like proof you are failing. Not taking them personally enough makes you blame others and miss your own mistakes.",
-                "fa": "بیش از حد شخصی کردن باعث می‌شود هر شکستی مثل مدرک ناکامی‌ات به نظر برسد. به اندازهٔ کافی شخصی نکردن باعث می‌شود دیگران را مقصر بدانی و خطاهای خودت را نبینی."
+                "en": "Take things too personally and you become frantic, wear out your team or make yourself sick. Not personally enough and you tell yourself the problems are not that bad, so you fix nothing.",
+                "fa": "اگر مسائل را بیش از حد شخصی کنی، سراسیمه می‌شوی، تیمت را فرسوده می‌کنی یا خودت را بیمار می‌کنی. اگر به اندازهٔ کافی شخصی نکنی، به خودت می‌گویی مشکلات آن‌قدرها هم بد نیستند و هیچ چیز را درست نمی‌کنی."
               }
             },
             {
@@ -726,8 +726,8 @@
               "kind": "card",
               "id": "b18c1l4p8",
               "text": {
-                "en": "Courage is built like a muscle: each hard, right decision made in fear makes the next one easier. Each easy, wrong one makes you a bit more cowardly.",
-                "fa": "شجاعت مثل عضله ساخته می‌شود: هر تصمیم درست و سختی که با وجود ترس بگیری، تصمیم بعدی را آسان‌تر می‌کند. هر تصمیم آسان و غلط تو را کمی ترسوتر می‌کند."
+                "en": "Courage can be developed: each hard, right decision makes you a bit more courageous. Each easy, wrong one makes you a bit more cowardly.",
+                "fa": "شجاعت را می‌توان پرورش داد: هر تصمیم درست و سخت تو را کمی شجاع‌تر می‌کند. هر تصمیم آسان و غلط تو را کمی ترسوتر می‌کند."
               }
             },
             {
@@ -752,8 +752,8 @@
               "type": "tf",
               "source": "b18c1l4p8",
               "prompt": {
-                "en": "Each hard, right decision makes the next one easier.",
-                "fa": "هر تصمیم درست و سخت، تصمیم بعدی را آسان‌تر می‌کند."
+                "en": "Each hard, right decision makes you a bit more courageous.",
+                "fa": "هر تصمیم درست و سخت تو را کمی شجاع‌تر می‌کند."
               },
               "answer": true
             },
@@ -824,8 +824,8 @@
               "kind": "card",
               "id": "b18c2l1p3",
               "text": {
-                "en": "Step one is to get your head right: accept that the company failed and the layoff is the result. Step two is don't delay, because news leaks fast.",
-                "fa": "گام اول این است که ذهنت را سر جایش بیاوری: بپذیر که شرکت شکست خورده و تعدیل نتیجهٔ آن است. گام دوم این است که تعلل نکنی، چون خبر سریع درز می‌کند."
+                "en": "Step one is to get your head right: keep your mind on the future even though the past weighs on you. Step two is don't delay, because news leaks fast.",
+                "fa": "گام اول این است که ذهنت را سر جایش بیاوری: با اینکه گذشته بر دوشت سنگینی می‌کند، نگاهت را به آینده نگه دار. گام دوم این است که تعلل نکنی، چون خبر سریع درز می‌کند."
               }
             },
             {
@@ -955,8 +955,8 @@
               "kind": "card",
               "id": "b18c2l1p10",
               "text": {
-                "en": "Handing a layoff to HR or a cheerful memo tells everyone you don't respect them. Doing it yourself is how the people who stay keep trusting you.",
-                "fa": "سپردن تعدیل به منابع انسانی یا یک یادداشت شاد به همه می‌گوید به آن‌ها احترام نمی‌گذاری. انجام دادنش توسط خودت باعث می‌شود کسانی که می‌مانند همچنان به تو اعتماد کنند."
+                "en": "Managers cannot hand the task to HR or to a peer. People will not remember every day they worked for you, but they will remember the day they were laid off.",
+                "fa": "مدیران نمی‌توانند این کار را به منابع انسانی یا همکار دیگری بسپارند. آدم‌ها همهٔ روزهایی را که برایت کار کردند به یاد نمی‌آورند، اما روز تعدیلشان را به یاد خواهند داشت."
               }
             },
             {
@@ -1083,8 +1083,8 @@
               "kind": "card",
               "id": "b18c2l2p5",
               "text": {
-                "en": "Knowing what you want means writing down the strengths the role needs before meeting anyone. You can't outsource that to a recruiter or to the candidates.",
-                "fa": "دانستن آنچه می‌خواهی یعنی پیش از دیدن هر کسی، نقاط قوتی را که نقش لازم دارد بنویسی. این کار را نمی‌توانی به کارمندیاب یا خود نامزدها بسپاری."
+                "en": "Knowing what you want means writing down the strengths you want and the weaknesses you will tolerate. Horowitz says the best way to learn the role is to act in it yourself.",
+                "fa": "دانستن آنچه می‌خواهی یعنی نوشتن نقاط قوتی که می‌خواهی و ضعف‌هایی که حاضری تحمل کنی. Horowitz می‌گوید بهترین راه شناختن نقش این است که خودت مدتی آن را بر عهده بگیری."
               }
             },
             {
@@ -1093,10 +1093,10 @@
               "type": "tf",
               "source": "b18c2l2p5",
               "prompt": {
-                "en": "Horowitz says you can let a recruiter decide what the role needs.",
-                "fa": "Horowitz می‌گوید می‌توانی تعیین نیازهای نقش را به کارمندیاب بسپاری."
+                "en": "Horowitz says to write down the strengths you want in an executive.",
+                "fa": "Horowitz می‌گوید نقاط قوتی را که در یک مدیر ارشد می‌خواهی بنویس."
               },
-              "answer": false
+              "answer": true
             },
             {
               "kind": "card",

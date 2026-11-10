@@ -172,8 +172,8 @@
               "kind": "card",
               "id": "b22c1l1p10",
               "text": {
-                "en": "How to Start a Startup: it is better to make a few people really happy than a lot of people semi-happy. Start with a small group who love what you built.",
-                "fa": "How to Start a Startup: بهتر است چند نفر را واقعاً خوشحال کنی تا خیلی‌ها را نیمه‌خوشحال. با گروهی کوچک شروع کن که چیزی را که ساختی دوست دارند."
+                "en": "How to Start a Startup: the only way to make something customers want is to get a prototype in front of them and refine it based on their reactions. So get a version 1 out as soon as you can.",
+                "fa": "How to Start a Startup: تنها راه ساختن چیزی که مشتری‌ها بخواهند این است که یک prototype جلویشان بگذاری و بر اساس واکنششان بهترش کنی. پس نسخهٔ ۱ را هرچه زودتر بیرون بده."
               }
             },
             {
@@ -182,8 +182,8 @@
               "type": "tf",
               "source": "b22c1l1p10",
               "prompt": {
-                "en": "Graham says it is better to make a few people really happy than many semi-happy.",
-                "fa": "Graham می‌گوید بهتر است چند نفر را واقعاً خوشحال کنی تا خیلی‌ها را نیمه‌خوشحال."
+                "en": "How to Start a Startup says to refine a prototype based on customers' reactions.",
+                "fa": "How to Start a Startup می‌گوید prototype را بر اساس واکنش مشتری‌ها بهتر کن."
               },
               "answer": true
             },
@@ -639,8 +639,8 @@
               "kind": "card",
               "id": "b22c1l4p3",
               "text": {
-                "en": "How to Do Great Work: if you are not sure what to work on, guess. You will often guess wrong, but you find out by working, not by thinking.",
-                "fa": "How to Do Great Work: اگر مطمئن نیستی روی چه کار کنی، حدس بزن. اغلب اشتباه حدس می‌زنی، اما با کار کردن می‌فهمی، نه با فکر کردن."
+                "en": "How to Do Great Work: if you are not sure what to work on, guess, then pick something and get going. You will guess wrong some of the time, but you find out by working.",
+                "fa": "How to Do Great Work: اگر مطمئن نیستی روی چه کار کنی، حدس بزن، بعد چیزی را انتخاب کن و شروع کن. گاهی اشتباه حدس می‌زنی، اما با کار کردن است که می‌فهمی."
               }
             },
             {
@@ -680,8 +680,8 @@
               "kind": "card",
               "id": "b22c1l4p5",
               "text": {
-                "en": "How to Do Great Work: noticing gaps is hard, because what is missing is easy to overlook. Graham says to boldly chase outlier ideas, even when others are not interested.",
-                "fa": "How to Do Great Work: دیدن شکاف‌ها سخت است، چون چیزی که نیست راحت نادیده می‌ماند. Graham می‌گوید ایده‌های غیرعادی را جسورانه دنبال کن، حتی اگر دیگران علاقه‌ای ندارند."
+                "en": "How to Do Great Work: noticing gaps takes skill, because your brain wants to ignore them to keep a simpler model of the world. Graham says to boldly chase outlier ideas, even when others are not interested.",
+                "fa": "How to Do Great Work: دیدن شکاف‌ها مهارت می‌خواهد، چون مغزت می‌خواهد نادیده‌شان بگیرد تا مدل ساده‌تری از جهان داشته باشد. Graham می‌گوید ایده‌های غیرعادی را جسورانه دنبال کن، حتی اگر دیگران علاقه‌ای ندارند."
               }
             },
             {
@@ -740,8 +740,8 @@
               "kind": "card",
               "id": "b22c1l4p8",
               "text": {
-                "en": "How to Do Great Work: great work comes from steady effort over time, because results compound. Learning compounds most of all, so a little each day adds up.",
-                "fa": "How to Do Great Work: کار بزرگ از تلاش پیوسته در طول زمان می‌آید، چون نتیجه‌ها روی هم انباشته می‌شوند. یادگیری بیش از همه انباشته می‌شود، پس کمی هر روز جمع می‌شود."
+                "en": "How to Do Great Work: we underestimate the cumulative effect of steady work. Work that compounds grows exponentially, and learning is one example: the more you know, the easier it is to learn more.",
+                "fa": "How to Do Great Work: ما اثر انباشتهٔ کار پیوسته را دست‌کم می‌گیریم. کاری که مرکب می‌شود نمایی رشد می‌کند و یادگیری یک نمونه است: هرچه بیشتر بدانی، یادگیری بیشتر آسان‌تر می‌شود."
               }
             },
             {

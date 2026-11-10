@@ -65,8 +65,8 @@
               "type": "tf",
               "source": "b09c1l1p2",
               "prompt": {
-                "en": "Faber shows that cash is the safe choice because it keeps its value after inflation.",
-                "fa": "Faber نشان می‌دهد نقد انتخاب امن است چون ارزشش را پس از تورم حفظ می‌کند."
+                "en": "Faber shows that cash earns a strong return after inflation over long periods.",
+                "fa": "Faber نشان می‌دهد نقد در دوره‌های بلند پس از تورم بازده قوی می‌دهد."
               },
               "answer": false
             },
@@ -237,16 +237,16 @@
               "kind": "card",
               "id": "b09c1l2p2",
               "text": {
-                "en": "Faber runs every portfolio on the same data from 1973 to 2013, rebalanced once a year, so the comparison is fair.",
-                "fa": "Faber همهٔ سبدها را روی همان داده‌های ۱۹۷۳ تا ۲۰۱۳ و با تعادل‌بخشی سالی یک بار اجرا می‌کند تا مقایسه منصفانه باشد."
+                "en": "Faber runs every portfolio on the same data from 1973 to 2013 and reports returns after inflation, so the comparison is fair.",
+                "fa": "Faber همهٔ سبدها را روی همان داده‌های ۱۹۷۳ تا ۲۰۱۳ اجرا می‌کند و بازده را پس از تورم گزارش می‌کند تا مقایسه منصفانه باشد."
               }
             },
             {
               "kind": "card",
               "id": "b09c1l2p3",
               "text": {
-                "en": "The surprise: over four decades all the diversified portfolios landed within about one percentage point of annual return of each other. No allocation was a clear winner.",
-                "fa": "شگفتی اینجاست: در چهار دهه، همهٔ سبدهای متنوع از نظر بازده سالانه در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند. هیچ تخصیصی برندهٔ قاطع نبود."
+                "en": "The surprise: over four decades, leaving out the Permanent Portfolio, the portfolios landed within about one percentage point of annual return of each other. No allocation was a clear winner.",
+                "fa": "شگفتی اینجاست: در چهار دهه، به‌جز Permanent Portfolio، سبدها از نظر بازده سالانه در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند. هیچ تخصیصی برندهٔ قاطع نبود."
               }
             },
             {
@@ -260,8 +260,8 @@
               },
               "options": [
                 {
-                  "en": "All landed within about one percentage point of annual return",
-                  "fa": "همه در فاصلهٔ حدود یک واحد درصد بازده سالانه از هم قرار گرفتند"
+                  "en": "Leaving out the Permanent Portfolio, the portfolios landed within about one percentage point",
+                  "fa": "به‌جز Permanent Portfolio، سبدها در فاصلهٔ حدود یک واحد درصد از هم قرار گرفتند"
                 },
                 {
                   "en": "The 60/40 portfolio beat every other one by a wide margin",
@@ -381,8 +381,8 @@
               "kind": "card",
               "id": "b09c1l2p11",
               "text": {
-                "en": "For you, a 70/30 versus an 80/20 split, or VWCE versus IWDA, sits inside that one-point band. Pick a sensible mix in a week, not a year.",
-                "fa": "برای تو، تقسیم ۷۰/۳۰ در برابر ۸۰/۲۰، یا VWCE در برابر IWDA، درون همان بازهٔ یک واحدی است. یک ترکیب معقول را در یک هفته انتخاب کن، نه یک سال."
+                "en": "For you, a 70/30 versus an 80/20 split is a small choice by Faber's measure. His result says cost and staying with the plan matter more than the exact split.",
+                "fa": "برای تو، تقسیم ۷۰/۳۰ در برابر ۸۰/۲۰ با سنجهٔ Faber انتخاب کوچکی است. نتیجهٔ او می‌گوید هزینه و ماندن با برنامه بیش از تقسیم دقیق اهمیت دارد."
               }
             },
             {
@@ -399,21 +399,21 @@
               "type": "tap",
               "source": "b09c1l2p11",
               "prompt": {
-                "en": "Where does a choice between a 70/30 and an 80/20 split sit?",
-                "fa": "انتخاب میان تقسیم ۷۰/۳۰ و ۸۰/۲۰ کجا قرار می‌گیرد؟"
+                "en": "By Faber's measure, what matters more than the exact split?",
+                "fa": "با سنجهٔ Faber، چه چیزی بیش از تقسیم دقیق اهمیت دارد؟"
               },
               "options": [
                 {
-                  "en": "Inside the one-point band",
-                  "fa": "درون همان بازهٔ یک واحدی"
+                  "en": "Cost and staying with the plan",
+                  "fa": "هزینه و ماندن با برنامه"
                 },
                 {
-                  "en": "Far beyond the gap between any two strategies",
-                  "fa": "خیلی فراتر از فاصلهٔ هر دو استراتژی"
+                  "en": "Last year's best-performing portfolio",
+                  "fa": "سبدی که پارسال بهترین عملکرد را داشت"
                 },
                 {
-                  "en": "It decides most of your future return",
-                  "fa": "بیشتر بازده آینده‌ات را تعیین می‌کند"
+                  "en": "The fame of the investor behind the portfolio",
+                  "fa": "شهرت سرمایه‌گذاری که پشت سبد است"
                 }
               ],
               "answer": 0
@@ -449,8 +449,8 @@
               "kind": "card",
               "id": "b09c1l3p3",
               "text": {
-                "en": "Faber treats it as the natural starting point: it needs no forecasts and almost no rebalancing, because its weights move with the markets.",
-                "fa": "Faber آن را نقطهٔ شروع طبیعی می‌داند: به هیچ پیش‌بینی و تقریباً هیچ تعادل‌بخشی نیاز ندارد، چون وزن‌هایش همراه بازارها حرکت می‌کنند."
+                "en": "Faber treats it as the natural starting point: it needs no forecasts, because its weights are simply what the world's investors already hold.",
+                "fa": "Faber آن را نقطهٔ شروع طبیعی می‌داند: به هیچ پیش‌بینی نیاز ندارد، چون وزن‌هایش همان چیزی است که سرمایه‌گذاران دنیا همین حالا نگه داشته‌اند."
               }
             },
             {
@@ -550,8 +550,8 @@
               "kind": "card",
               "id": "b09c1l3p8",
               "text": {
-                "en": "His fix is plain: build the allocation from low-cost index ETFs, and hold the least tax-efficient assets where taxes hurt least.",
-                "fa": "راه‌حل او ساده است: تخصیص را با ETFهای شاخصی کم‌هزینه بساز و دارایی‌هایی را که از نظر مالیاتی ناکارآمدترند جایی نگه دار که مالیات کمترین آسیب را بزند."
+                "en": "His fix is plain: build the allocation from low-cost index funds and ETFs, and pay attention to taxes as well as fees.",
+                "fa": "راه‌حل او ساده است: تخصیص را با صندوق‌های شاخصی و ETFهای کم‌هزینه بساز و در کنار کارمزد به مالیات هم توجه کن."
               }
             },
             {

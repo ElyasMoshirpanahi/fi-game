@@ -240,8 +240,8 @@
               "kind": "card",
               "id": "b05c1l1p14",
               "text": {
-                "en": "System 2 tires. Israeli parole judges approved about 65 percent of requests right after a meal, and the rate fell to about zero just before the next break.",
-                "fa": "سیستم ۲ خسته می‌شود. قاضیان آزادی مشروط در اسرائیل درست پس از غذا حدود ۶۵ درصد درخواست‌ها را می‌پذیرفتند و این نرخ درست پیش از استراحت بعدی تقریباً به صفر می‌رسید."
+                "en": "System 2 tires. Israeli parole judges approved about 65 percent of requests right after a meal, and the rate fell to about zero just before the next meal.",
+                "fa": "سیستم ۲ خسته می‌شود. قاضیان آزادی مشروط در اسرائیل درست پس از غذا حدود ۶۵ درصد درخواست‌ها را می‌پذیرفتند و این نرخ درست پیش از وعدهٔ بعدی تقریباً به صفر می‌رسید."
               }
             },
             {
@@ -471,8 +471,8 @@
               "kind": "card",
               "id": "b05c1l2p14",
               "text": {
-                "en": "Linda, a former philosophy student active against discrimination, seems more likely a feminist bank teller than a bank teller. Most people rank it so, though a subset can never be more probable than the whole.",
-                "fa": "Linda، دانشجوی سابق فلسفه که علیه تبعیض فعال بوده، بیشتر «کارمند بانکِ فمینیست» به نظر می‌رسد تا «کارمند بانک». بیشتر مردم همین‌طور رتبه می‌دهند، هرچند یک زیرمجموعه هرگز نمی‌تواند از کل محتمل‌تر باشد."
+                "en": "Linda, who studied philosophy and cared deeply about discrimination, seems more likely a feminist bank teller than a bank teller. Most people rank it so, though a subset can never be more probable than the whole.",
+                "fa": "Linda، که فلسفه خوانده و دغدغهٔ جدی تبعیض داشته، بیشتر «کارمند بانکِ فمینیست» به نظر می‌رسد تا «کارمند بانک». بیشتر مردم همین‌طور رتبه می‌دهند، هرچند یک زیرمجموعه هرگز نمی‌تواند از کل محتمل‌تر باشد."
               }
             },
             {
@@ -667,8 +667,8 @@
               "kind": "card",
               "id": "b05c1l3p10",
               "text": {
-                "en": "Optimism drives founders: only about 35 percent of small businesses in the United States survive five years, yet founders put their own chances at around 60 percent or more.",
-                "fa": "خوش‌بینی بنیان‌گذاران را پیش می‌برد: فقط حدود ۳۵ درصد کسب‌وکارهای کوچک در ایالات متحده پنج سال دوام می‌آورند، اما بنیان‌گذاران شانس خودشان را حدود ۶۰ درصد یا بیشتر می‌دانند."
+                "en": "Optimism drives founders: only about 35 percent of small businesses in the United States survive five years, yet 81 percent of founders put their own odds of success at 7 in 10 or higher.",
+                "fa": "خوش‌بینی بنیان‌گذاران را پیش می‌برد: فقط حدود ۳۵ درصد کسب‌وکارهای کوچک در ایالات متحده پنج سال دوام می‌آورند، اما ۸۱ درصد بنیان‌گذاران شانس موفقیت خودشان را ۷ از ۱۰ یا بیشتر می‌دانند."
               }
             },
             {
@@ -736,7 +736,7 @@
               "id": "b05c1l3p14",
               "text": {
                 "en": "Trust an expert's intuition only in a regular environment, after long practice with quick feedback. Firefighters and chess players qualify; stock pickers and political pundits do not.",
-                "fa": "به شهود یک کارشناس فقط در محیطی منظم و پس از تمرین طولانی با بازخورد سریع اعتماد کن. آتش‌نشان‌ها و شطرنج‌بازها این شرط را دارند؛ سهام‌چین‌ها و مفسران سیاسی نه."
+                "fa": "به شهود یک کارشناس فقط در محیطی منظم و پس از تمرین طولانی با بازخورد سریع اعتماد کن. آتش‌نشان‌ها و شطرنج‌بازها این شرط را دارند؛ انتخاب‌کنندگان سهام و مفسران سیاسی نه."
               }
             },
             {
@@ -787,8 +787,8 @@
               "kind": "card",
               "id": "b05c1l4p2",
               "text": {
-                "en": "Bernoulli assumed people value their total wealth. Kahneman and Tversky noted that Anthony and Betty, each now holding 5 million, feel very differently if yesterday Anthony had 1 million and Betty had 9.",
-                "fa": "Bernoulli فرض می‌کرد مردم کل ثروتشان را ارزش‌گذاری می‌کنند. Kahneman و Tversky نشان دادند Anthony و Betty که هر دو حالا ۵ میلیون دارند، حس بسیار متفاوتی دارند اگر دیروز Anthony یک میلیون و Betty نه میلیون داشته."
+                "en": "Bernoulli assumed people value their total wealth. Kahneman's counterexample: Jack and Jill each have 5 million today, but yesterday Jack had 1 million and Jill had 9, so they are not equally happy.",
+                "fa": "Bernoulli فرض می‌کرد مردم کل ثروتشان را ارزش‌گذاری می‌کنند. مثال نقض Kahneman: Jack و Jill امروز هر کدام ۵ میلیون دارند، اما دیروز Jack یک میلیون و Jill نه میلیون داشت، پس به یک اندازه خوشحال نیستند."
               }
             },
             {
@@ -863,8 +863,8 @@
               "kind": "card",
               "id": "b05c1l4p7",
               "text": {
-                "en": "Investors tend to sell winners and keep losers to avoid booking a loss. Terry Odean found that the winners they sold went on to do better than the losers they kept.",
-                "fa": "سرمایه‌گذاران معمولاً برنده‌ها را می‌فروشند و بازنده‌ها را نگه می‌دارند تا زیانی ثبت نکنند. Terry Odean دریافت برنده‌هایی که فروختند بعداً از بازنده‌هایی که نگه داشتند بهتر عمل کردند."
+                "en": "Investors tend to sell winners and keep losers to avoid booking a loss. Terry Odean found that the shares individual investors sold went on to do better than the ones they bought.",
+                "fa": "سرمایه‌گذاران معمولاً برنده‌ها را می‌فروشند و بازنده‌ها را نگه می‌دارند تا زیانی ثبت نکنند. Terry Odean دریافت سهامی که سرمایه‌گذاران خرد فروختند بعداً از سهامی که خریدند بهتر عمل کرد."
               }
             },
             {
@@ -939,8 +939,8 @@
               "kind": "card",
               "id": "b05c1l4p12",
               "text": {
-                "en": "Applied: write a risk policy now, saying that a 30 percent drop in your 80 percent index ETF core is not a sell signal. Review it once a quarter in your net-worth log, not daily.",
-                "fa": "کاربرد: همین حالا یک سیاست ریسک بنویس که بگوید افت ۳۰ درصدی در هستهٔ ۸۰ درصدی ETF شاخصی‌ات سیگنال فروش نیست. آن را فصلی یک بار در گزارش دارایی خالصت مرور کن، نه هر روز."
+                "en": "Applied: Kahneman's risk policy is a rule set in advance and applied to every similar case. The roadmap's version is to review the index ETF core once a quarter in your net-worth log, not after each drop.",
+                "fa": "کاربرد: سیاست ریسکِ Kahneman قاعده‌ای است که از پیش تعیین می‌شود و در هر مورد مشابه به کار می‌رود. نسخهٔ نقشهٔ راه این است که هستهٔ ETF شاخصی فصلی یک بار در گزارش دارایی خالصت مرور شود، نه پس از هر افت."
               }
             },
             {
@@ -949,21 +949,21 @@
               "type": "tap",
               "source": "b05c1l4p12",
               "prompt": {
-                "en": "Under your written risk policy, what is a 30 percent drop in the index ETF core?",
-                "fa": "طبق سیاست ریسک مکتوبت، افت ۳۰ درصدی در هستهٔ ETF شاخصی چیست؟"
+                "en": "In the roadmap, how often is the index ETF core reviewed?",
+                "fa": "در نقشهٔ راه، هستهٔ ETF شاخصی هر چند وقت یک بار مرور می‌شود؟"
               },
               "options": [
                 {
-                  "en": "Not a sell signal",
-                  "fa": "سیگنال فروش نیست"
+                  "en": "Once a quarter",
+                  "fa": "فصلی یک بار"
                 },
                 {
-                  "en": "A reason to sell everything",
-                  "fa": "دلیلی برای فروش همه‌چیز"
+                  "en": "After each drop",
+                  "fa": "پس از هر افت"
                 },
                 {
-                  "en": "A cue to switch to single stocks",
-                  "fa": "نشانه‌ای برای رفتن سراغ تک‌سهم‌ها"
+                  "en": "Every day",
+                  "fa": "هر روز"
                 }
               ],
               "answer": 0
@@ -980,8 +980,8 @@
               "kind": "card",
               "id": "b05c1l4p14",
               "text": {
-                "en": "Mental accounting: people who lose cash worth a theatre ticket still buy one, but those who lose the ticket itself often refuse to pay again. Money is money, yet we keep it in separate mental accounts.",
-                "fa": "حسابداری ذهنی: کسی که به اندازهٔ قیمت بلیت تئاتر پول نقد گم کرده باز بلیت می‌خرد، اما کسی که خودِ بلیت را گم کرده اغلب حاضر نیست دوباره بپردازد. پول پول است، اما آن را در حساب‌های ذهنی جدا نگه می‌داریم."
+                "en": "Mental accounting: most people think a woman who loses her theatre tickets will go home, but one who loses the same sum in cash will still buy tickets. Money is money, yet we keep it in separate mental accounts.",
+                "fa": "حسابداری ذهنی: بیشتر مردم فکر می‌کنند زنی که بلیت‌های تئاترش را گم کرده به خانه برمی‌گردد، اما زنی که همان مبلغ را نقد گم کرده باز بلیت می‌خرد. پول پول است، اما آن را در حساب‌های ذهنی جدا نگه می‌داریم."
               }
             },
             {
@@ -990,8 +990,8 @@
               "type": "tf",
               "source": "b05c1l4p14",
               "prompt": {
-                "en": "People who lost the ticket itself were more willing to pay again than those who lost the cash.",
-                "fa": "کسانی که خودِ بلیت را گم کرده بودند بیشتر از کسانی که پول نقد گم کرده بودند حاضر بودند دوباره بپردازند."
+                "en": "Most people think the woman who lost her tickets will buy new ones, while the one who lost cash will go home.",
+                "fa": "بیشتر مردم فکر می‌کنند زنی که بلیت‌هایش را گم کرده بلیت تازه می‌خرد و زنی که پول نقد گم کرده به خانه برمی‌گردد."
               },
               "answer": false
             }
@@ -1067,8 +1067,8 @@
               "kind": "card",
               "id": "b05c1l5p5",
               "text": {
-                "en": "In the cold-hand test, people held a hand in 14°C water for 60 seconds, and in another trial for 90 seconds with the last 30 slightly warmer. About 80 percent chose to repeat the longer trial.",
-                "fa": "در آزمایش دست در آب سرد، افراد یک بار ۶۰ ثانیه دستشان را در آب ۱۴ درجه نگه داشتند و بار دیگر ۹۰ ثانیه که ۳۰ ثانیهٔ آخرش کمی گرم‌تر بود. حدود ۸۰ درصد تکرار آزمایش طولانی‌تر را انتخاب کردند."
+                "en": "In the cold-hand test, people held a hand in 14°C water for 60 seconds, and in another trial for 90 seconds with the last 30 slightly warmer. Most chose to repeat the longer trial.",
+                "fa": "در آزمایش دست در آب سرد، افراد یک بار ۶۰ ثانیه دستشان را در آب ۱۴ درجه نگه داشتند و بار دیگر ۹۰ ثانیه که ۳۰ ثانیهٔ آخرش کمی گرم‌تر بود. بیشترشان تکرار آزمایش طولانی‌تر را انتخاب کردند."
               }
             },
             {
@@ -1086,8 +1086,8 @@
               "kind": "card",
               "id": "b05c1l5p6",
               "text": {
-                "en": "Kahneman calls this the tyranny of the remembering self: we choose between memories of experiences, not between experiences. A great holiday with a bad last day is remembered as a bad holiday.",
-                "fa": "Kahneman این را استبداد خودِ به‌یادآورنده می‌نامد: ما بین خاطره‌های تجربه‌ها انتخاب می‌کنیم، نه بین خودِ تجربه‌ها. تعطیلات عالی با یک روز آخر بد، تعطیلات بدی به یاد می‌ماند."
+                "en": "Kahneman calls this the tyranny of the remembering self. A listener said a scratch near the end of a long symphony recording ruined the whole experience, yet only the memory was ruined, not the music he had enjoyed.",
+                "fa": "Kahneman این را استبداد خودِ به‌یادآورنده می‌نامد. شنونده‌ای گفت خشِ نزدیک پایانِ ضبط یک سمفونی طولانی کل تجربه را خراب کرد، در حالی که فقط خاطره خراب شده بود، نه موسیقی‌ای که از آن لذت برده بود."
               }
             },
             {
@@ -1162,8 +1162,8 @@
               "kind": "card",
               "id": "b05c1l5p11",
               "text": {
-                "en": "We adapt: a new car or a bigger flat soon stops drawing attention, so it adds little to how each day feels. Activities that keep demanding attention, like time with friends, do not fade the same way.",
-                "fa": "ما عادت می‌کنیم: ماشین نو یا خانهٔ بزرگ‌تر خیلی زود دیگر توجه را جلب نمی‌کند، پس به حس هر روزمان چیز زیادی اضافه نمی‌کند. فعالیت‌هایی که مدام توجه می‌طلبند، مثل وقت گذراندن با دوستان، این‌طور کم‌رنگ نمی‌شوند."
+                "en": "We adapt: you soon pay little attention to a comfortable new car as you drive it, so it adds little to how each day feels. A weekly poker or book club keeps demanding attention, so it does not fade the same way.",
+                "fa": "ما عادت می‌کنیم: خیلی زود هنگام رانندگی دیگر به ماشین نو و راحتت توجهی نمی‌کنی، پس به حس هر روزت چیز زیادی اضافه نمی‌کند. یک دورهمی هفتگی پوکر یا کتاب‌خوانی مدام توجه می‌طلبد، پس این‌طور کم‌رنگ نمی‌شود."
               }
             },
             {

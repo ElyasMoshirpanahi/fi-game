@@ -259,7 +259,7 @@
               "kind": "card",
               "id": "b13c1l2p3",
               "text": {
-                "en": "The enterprising, or aggressive, investor is willing to devote time and care to choosing securities that are both sound and more attractive than average.",
+                "en": "The enterprising, or active, investor is willing to devote time and care to choosing securities that are both sound and more attractive than average.",
                 "fa": "سرمایه‌گذار جسور یا فعال حاضر است وقت و دقت صرف انتخاب اوراق بهاداری کند که هم سالم باشند و هم از میانگین جذاب‌تر."
               }
             },
@@ -564,8 +564,8 @@
               "kind": "card",
               "id": "b13c1l3p8",
               "text": {
-                "en": "Graham says the worst losses come from buying low-quality securities in times of good business, when a few strong years make weak companies look safe.",
-                "fa": "Graham می‌گوید بدترین زیان‌ها از خرید اوراق کم‌کیفیت در دوران رونق کسب‌وکار می‌آید، وقتی چند سال خوب شرکت‌های ضعیف را امن نشان می‌دهد."
+                "en": "Graham says the chief losses come from buying low-quality securities in times of good business, when a few strong years make weak companies look safe.",
+                "fa": "Graham می‌گوید عمده‌ترین زیان‌ها از خرید اوراق کم‌کیفیت در دوران رونق کسب‌وکار می‌آید، وقتی چند سال خوب شرکت‌های ضعیف را امن نشان می‌دهد."
               }
             },
             {
@@ -659,8 +659,8 @@
               "kind": "card",
               "id": "b13c1l4p2",
               "text": {
-                "en": "Chapter 8 gives the defensive investor a simple formula: when rising prices push stocks above the 50-50 split, sell some to restore it; when falling prices push them below, buy some.",
-                "fa": "فصل ۸ یک فرمول ساده به سرمایه‌گذار تدافعی می‌دهد: وقتی رشد قیمت‌ها سهم سهام را از تقسیم ۵۰-۵۰ بالاتر می‌برد، کمی بفروش تا تعادل برگردد؛ وقتی افت قیمت‌ها آن را پایین‌تر می‌برد، کمی بخر."
+                "en": "Graham gives the defensive investor a simple formula: when rising prices push stocks above the 50-50 split, sell some to restore it; when falling prices push them below, buy some.",
+                "fa": "Graham یک فرمول ساده به سرمایه‌گذار تدافعی می‌دهد: وقتی رشد قیمت‌ها سهم سهام را از تقسیم ۵۰-۵۰ بالاتر می‌برد، کمی بفروش تا تعادل برگردد؛ وقتی افت قیمت‌ها آن را پایین‌تر می‌برد، کمی بخر."
               }
             },
             {
@@ -811,8 +811,8 @@
               "kind": "card",
               "id": "b13c1l4p12",
               "text": {
-                "en": "Before accepting a startup stake, write down your estimate of its value next to its price. If the gap is thin, or there is little to gain and much to lose, Graham would pass.",
-                "fa": "پیش از پذیرفتن سهم در یک استارتاپ، برآوردت از ارزشش را کنار قیمتش بنویس. اگر فاصله کم است، یا سود کم و ضرر زیاد است، Graham از آن می‌گذشت."
+                "en": "Before accepting a startup stake, write down your estimate of its value next to its price. A thin gap means no margin, and Graham's rule is to keep away from ventures with little to gain and much to lose.",
+                "fa": "پیش از پذیرفتن سهم در یک استارتاپ، برآوردت از ارزشش را کنار قیمتش بنویس. فاصلهٔ کم یعنی حاشیه‌ای در کار نیست، و قاعدهٔ Graham دوری از کارهایی است که سود کم و ضرر زیاد دارند."
               }
             },
             {
@@ -821,8 +821,8 @@
               "type": "tap",
               "source": "b13c1l4p12",
               "prompt": {
-                "en": "What would Graham check before you accept a startup stake?",
-                "fa": "Graham پیش از پذیرفتن سهم استارتاپ چه چیزی را بررسی می‌کرد؟"
+                "en": "What should you write down before accepting a startup stake?",
+                "fa": "پیش از پذیرفتن سهم استارتاپ چه چیزی را باید بنویسی؟"
               },
               "options": [
                 {

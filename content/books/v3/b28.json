@@ -293,7 +293,7 @@
               "id": "b28c1l2p4",
               "text": {
                 "en": "Newport studied bluegrass guitarist Jordan Tice, who practised by constantly stretching past what he could already play. For performers only the output counts: does it sound good?",
-                "fa": "Newport گیتاریست bluegrass، Jordan Tice، را بررسی کرد که با کشیدن مداوم خودش فراتر از آنچه بلد بود تمرین می‌کرد. برای اجراکننده‌ها فقط خروجی مهم است: آیا خوب به گوش می‌رسد؟"
+                "fa": "Newport گیتاریست bluegrass، Jordan Tice، را بررسی کرد که با فشار آوردن مداوم به خودش برای رفتن فراتر از آنچه بلد بود تمرین می‌کرد. برای اجراکننده‌ها فقط خروجی مهم است: آیا خوب به گوش می‌رسد؟"
               }
             },
             {
@@ -328,7 +328,7 @@
               "id": "b28c1l2p7",
               "text": {
                 "en": "Deliberate practice, from Anders Ericsson's research, is effort that stretches you past your comfort zone, with honest feedback. Chess studies found serious solo study, not tournament play, best predicted skill.",
-                "fa": "تمرین عامدانه (deliberate practice)، برگرفته از پژوهش Anders Ericsson، تلاشی است که تو را فراتر از منطقهٔ امنت می‌کشد، همراه با بازخورد صادقانه. پژوهش‌های شطرنج نشان داد مطالعهٔ جدی فردی، نه بازی در مسابقه، بهترین پیش‌بینی‌کنندهٔ مهارت است."
+                "fa": "تمرین عامدانه (deliberate practice)، برگرفته از پژوهش Anders Ericsson، تلاشی است که تو را فراتر از منطقهٔ امنت می‌برد، همراه با بازخورد صادقانه. پژوهش‌های شطرنج نشان داد مطالعهٔ جدی فردی، نه بازی در مسابقه، بهترین پیش‌بینی‌کنندهٔ مهارت است."
               }
             },
             {
@@ -336,7 +336,7 @@
               "id": "b28c1l2p8",
               "text": {
                 "en": "Most knowledge workers plateau because they stop stretching once they are acceptably good. That plateau is your opening, since few people push through the discomfort.",
-                "fa": "بیشتر کارکنان دانشی درجا می‌زنند چون وقتی به حد قابل قبول رسیدند، دیگر خودشان را نمی‌کشند. همین درجا زدن فرصت توست، چون کمتر کسی از این ناراحتی عبور می‌کند."
+                "fa": "بیشتر کارکنان دانشی درجا می‌زنند چون وقتی به حد قابل قبول رسیدند، دیگر به خودشان فشار نمی‌آورند. همین درجا زدن فرصت توست، چون کمتر کسی از این ناراحتی عبور می‌کند."
               }
             },
             {
@@ -351,7 +351,7 @@
               "options": [
                 {
                   "en": "Effort that stretches you past your comfort zone",
-                  "fa": "تلاشی که تو را فراتر از منطقهٔ امنت می‌کشد"
+                  "fa": "تلاشی که تو را فراتر از منطقهٔ امنت می‌برد"
                 },
                 {
                   "en": "Repeating what you already do well",
@@ -377,7 +377,7 @@
               "id": "b28c1l2p10",
               "text": {
                 "en": "Then pick the capital type, define what good looks like, stretch and destroy, and be patient. Capital builds over years, not weeks.",
-                "fa": "بعد نوع سرمایه را انتخاب کن، تعریف کن «خوب» یعنی چه، خودت را بکش و ویران کن (stretch and destroy) و صبور باش. سرمایه طی سال‌ها ساخته می‌شود، نه هفته‌ها."
+                "fa": "بعد نوع سرمایه را انتخاب کن، تعریف کن «خوب» یعنی چه، به خودت فشار بیاور و کارت را بی‌رحمانه نقد کن (stretch and destroy) و صبور باش. سرمایه طی سال‌ها ساخته می‌شود، نه هفته‌ها."
               }
             },
             {
@@ -463,8 +463,8 @@
               "kind": "card",
               "id": "b28c1l3p3",
               "text": {
-                "en": "The first control trap: control acquired without career capital is not sustainable. Quitting to chase freedom with no rare skills to sell usually ends in money trouble.",
-                "fa": "تلهٔ اول کنترل: کنترلی که بدون سرمایهٔ شغلی به دست آید پایدار نیست. ترک شغل برای آزادی، بدون مهارت کمیابی برای فروش، معمولاً به مشکل مالی ختم می‌شود."
+                "en": "The first control trap: control acquired without career capital is not sustainable. Quitting to chase freedom with no rare skills to sell can end in money trouble.",
+                "fa": "تلهٔ اول کنترل: کنترلی که بدون سرمایهٔ شغلی به دست آید پایدار نیست. ترک شغل برای آزادی، بدون مهارت کمیابی برای فروش، می‌تواند به مشکل مالی ختم شود."
               }
             },
             {
@@ -572,8 +572,8 @@
               "kind": "card",
               "id": "b28c1l3p9",
               "text": {
-                "en": "Pardis Sabeti, an Iranian-American geneticist at Harvard, built deep capital before her mission emerged: using new genetic tools to fight ancient diseases in Africa.",
-                "fa": "Pardis Sabeti، ژنتیک‌دان ایرانی‌آمریکایی در Harvard، پیش از آنکه مأموریتش پدیدار شود سرمایه‌ای عمیق ساخت: به کار بردن ابزارهای تازهٔ ژنتیکی برای مبارزه با بیماری‌های کهن در آفریقا."
+                "en": "Pardis Sabeti, an evolutionary biologist at Harvard, built deep capital before her mission emerged: using new genetic tools to fight ancient diseases in Africa.",
+                "fa": "Pardis Sabeti، زیست‌شناس تکاملی در Harvard، پیش از آنکه مأموریتش پدیدار شود سرمایه‌ای عمیق ساخت: به کار بردن ابزارهای تازهٔ ژنتیکی برای مبارزه با بیماری‌های کهن در آفریقا."
               }
             },
             {

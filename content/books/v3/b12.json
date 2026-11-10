@@ -225,7 +225,7 @@
               "id": "b12c1l1p12",
               "text": {
                 "en": "In the 1990s letters he adds look-through earnings: Berkshire's share of the retained profits of companies it partly owns counts too, though accounting leaves it out.",
-                "fa": "در نامه‌های دههٔ ۱۹۹۰ «سود نگاه‌ازپشت» را اضافه می‌کند: سهم Berkshire از سود انباشتهٔ شرکت‌هایی که بخشی از آن‌ها را دارد هم حساب است، هرچند حسابداری آن را کنار می‌گذارد."
+                "fa": "در نامه‌های دههٔ ۱۹۹۰ «سود look-through» را اضافه می‌کند: سهم Berkshire از سود انباشتهٔ شرکت‌هایی که بخشی از آن‌ها را دارد هم حساب است، هرچند حسابداری آن را کنار می‌گذارد."
               }
             },
             {
@@ -311,8 +311,8 @@
               "kind": "card",
               "id": "b12c1l2p4",
               "text": {
-                "en": "He wants a moat that lasts, so he rules out industries where rapid and continuous change is the rule. A moat that must be rebuilt every few years is not durable.",
-                "fa": "او خندقی می‌خواهد که دوام بیاورد، پس صنایعی را که تغییر سریع و مداوم در آن‌ها قاعده است کنار می‌گذارد. خندقی که هر چند سال باید از نو ساخته شود پایدار نیست."
+                "en": "He wants a moat that lasts, so he rules out industries prone to rapid and continuous change. A moat that must be continuously rebuilt, he writes, will eventually be no moat at all.",
+                "fa": "او خندقی می‌خواهد که دوام بیاورد، پس صنایعی را که در معرض تغییر سریع و مداوم‌اند کنار می‌گذارد. می‌نویسد خندقی که باید مدام از نو ساخته شود سرانجام اصلاً خندق نخواهد بود."
               }
             },
             {
@@ -338,16 +338,16 @@
               "kind": "card",
               "id": "b12c1l2p6",
               "text": {
-                "en": "His model is See's Candies, bought in 1972 for $25 million when it earned about $4 million pre-tax on $8 million of capital.",
-                "fa": "الگوی او See's Candies است که در ۱۹۷۲ به ۲۵ میلیون دلار خریده شد، وقتی با ۸ میلیون دلار سرمایه حدود ۴ میلیون دلار سود پیش از مالیات داشت."
+                "en": "His model is See's Candies, bought in 1972 for $25 million when it earned less than $5 million pre-tax on $8 million of capital.",
+                "fa": "الگوی او See's Candies است که در ۱۹۷۲ به ۲۵ میلیون دلار خریده شد، وقتی با ۸ میلیون دلار سرمایه کمتر از ۵ میلیون دلار سود پیش از مالیات داشت."
               }
             },
             {
               "kind": "card",
               "id": "b12c1l2p7",
               "text": {
-                "en": "By 2007 See's earned $82 million pre-tax yet needed only $40 million of capital. The surplus went to Omaha to buy other businesses.",
-                "fa": "تا ۲۰۰۷ See's به ۸۲ میلیون دلار سود پیش از مالیات رسید ولی فقط ۴۰ میلیون دلار سرمایه لازم داشت. مازاد به Omaha رفت تا کسب‌وکارهای دیگر خریده شود."
+                "en": "By 2007 See's earned $82 million pre-tax yet needed only $40 million of capital. The surplus went to Berkshire to buy other businesses.",
+                "fa": "تا ۲۰۰۷ See's به ۸۲ میلیون دلار سود پیش از مالیات رسید ولی فقط ۴۰ میلیون دلار سرمایه لازم داشت. مازاد به Berkshire رفت تا کسب‌وکارهای دیگر خریده شود."
               }
             },
             {
@@ -397,8 +397,8 @@
               "type": "tf",
               "source": "b12c1l2p9",
               "prompt": {
-                "en": "Buffett names airlines as an example of a gruesome business.",
-                "fa": "Buffett خطوط هوایی را نمونه‌ای از کسب‌وکار وحشتناک می‌داند."
+                "en": "In the 2007 letter, FlightSafety is an example of a business that needs heavy reinvestment to grow.",
+                "fa": "در نامهٔ ۲۰۰۷، FlightSafety نمونهٔ کسب‌وکاری است که برای رشد به سرمایه‌گذاری مجدد سنگین نیاز دارد."
               },
               "answer": true
             },
@@ -406,8 +406,8 @@
               "kind": "card",
               "id": "b12c1l2p10",
               "text": {
-                "en": "The gruesome business grows rapidly, needs significant capital to do so, and earns little or nothing. Airlines, he writes, have been a death trap for investors since the Wright Brothers.",
-                "fa": "کسب‌وکار وحشتناک سریع رشد می‌کند، برای آن سرمایهٔ زیادی می‌خواهد و سود کم یا هیچ می‌دهد. می‌نویسد خطوط هوایی از زمان برادران Wright تلهٔ مرگ سرمایه‌گذاران بوده‌اند."
+                "en": "The gruesome business grows rapidly, needs significant capital to do so, and earns little or nothing. Think airlines, he writes: a durable advantage has been elusive since the Wright Brothers.",
+                "fa": "کسب‌وکار وحشتناک سریع رشد می‌کند، برای آن سرمایهٔ زیادی می‌خواهد و سود کم یا هیچ می‌دهد. می‌نویسد به خطوط هوایی فکر کن: از زمان برادران Wright مزیت پایدار در آن دست‌نیافتنی بوده است."
               }
             },
             {
@@ -499,8 +499,8 @@
               "id": "b12c1l3p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the letters on market prices, from Mr. Market in 1987 to the fear and greed rule of 1986; it matters because VWCE will swing wildly while you hold it for decades.",
-                "fa": "این درس نامه‌های مربوط به قیمت بازار را خلاصه می‌کند: Mr. Market در ۱۹۸۷ و قاعدهٔ ترس و طمع در ۱۹۸۶. مهم است چون VWCE در دهه‌هایی که نگهش می‌داری شدیداً نوسان خواهد کرد."
+                "en": "This Lesson distils the letters on market prices, from Mr. Market in 1987 to the fear and greed rule of 1986; it matters because the roadmap's index core will swing wildly over the decades it is meant to be held.",
+                "fa": "این درس نامه‌های مربوط به قیمت بازار را خلاصه می‌کند: Mr. Market در ۱۹۸۷ و قاعدهٔ ترس و طمع در ۱۹۸۶. مهم است چون هستهٔ شاخصی نقشهٔ راه در دهه‌هایی که قرار است نگه داشته شود شدیداً نوسان خواهد کرد."
               }
             },
             {
@@ -643,8 +643,8 @@
               "kind": "card",
               "id": "b12c1l3p10",
               "text": {
-                "en": "In the 2017 letter he notes Berkshire's own stock fell about 50 percent four times. Borrowed money can force you to sell at exactly the wrong time.",
-                "fa": "در نامهٔ ۲۰۱۷ یادآوری می‌کند که سهم خود Berkshire چهار بار حدود ۵۰ درصد افت کرد. پول قرضی می‌تواند مجبورت کند درست در بدترین زمان بفروشی."
+                "en": "In the 2017 letter he lists four times Berkshire's own stock fell 37 to 59 percent. He calls it his strongest argument against borrowed money, which can force you to sell at the wrong time.",
+                "fa": "در نامهٔ ۲۰۱۷ چهار باری را فهرست می‌کند که سهم خود Berkshire بین ۳۷ تا ۵۹ درصد افت کرد. این را قوی‌ترین استدلالش علیه پول قرضی می‌نامد، پولی که می‌تواند مجبورت کند در زمان غلط بفروشی."
               }
             },
             {
@@ -915,8 +915,8 @@
               "kind": "card",
               "id": "b12c1l4p13",
               "text": {
-                "en": "Buffett and Munger keep a too-hard pile for businesses they cannot judge. Passing on them costs nothing, since there is no penalty for skipping a pitch.",
-                "fa": "Buffett و Munger یک «تودهٔ خیلی سخت» برای کسب‌وکارهایی دارند که نمی‌توانند قضاوتشان کنند. رد کردنشان هزینه‌ای ندارد، چون برای نزدن یک توپ جریمه‌ای نیست."
+                "en": "In the 1997 letter Buffett cites Ted Williams, who swung only at pitches in his best zone. Unlike Williams, he notes, an investor cannot be called out for letting a pitch go by.",
+                "fa": "Buffett در نامهٔ ۱۹۹۷ از Ted Williams یاد می‌کند که فقط به توپ‌های بهترین ناحیه‌اش ضربه می‌زد. یادآوری می‌کند که برخلاف Williams، سرمایه‌گذار به خاطر رها کردن یک توپ اخراج نمی‌شود."
               }
             },
             {
@@ -925,21 +925,21 @@
               "type": "tap",
               "source": "b12c1l4p13",
               "prompt": {
-                "en": "What do Buffett and Munger do with a business they cannot judge?",
-                "fa": "Buffett و Munger با کسب‌وکاری که نمی‌توانند قضاوتش کنند چه می‌کنند؟"
+                "en": "Why can an investor afford to wait, per the 1997 letter?",
+                "fa": "طبق نامهٔ ۱۹۹۷ چرا سرمایه‌گذار می‌تواند صبر کند؟"
               },
               "options": [
                 {
-                  "en": "Buy a small stake to learn",
-                  "fa": "سهم کوچکی می‌خرند تا یاد بگیرند"
+                  "en": "Every pitch is worth swinging at",
+                  "fa": "هر توپی ارزش ضربه زدن دارد"
                 },
                 {
-                  "en": "Put it in the too-hard pile and pass",
-                  "fa": "آن را در تودهٔ خیلی سخت می‌گذارند و رد می‌کنند"
+                  "en": "An investor cannot be called out for letting a pitch go by",
+                  "fa": "سرمایه‌گذار به خاطر رها کردن یک توپ اخراج نمی‌شود"
                 },
                 {
-                  "en": "Ask an expert to pick for them",
-                  "fa": "از یک متخصص می‌خواهند برایشان انتخاب کند"
+                  "en": "Prices only ever move upward",
+                  "fa": "قیمت‌ها همیشه فقط بالا می‌روند"
                 }
               ],
               "answer": 1
@@ -1017,8 +1017,8 @@
               "kind": "card",
               "id": "b12c2l1p4",
               "text": {
-                "en": "Berkshire invests that float for its own benefit while it waits. Float grew from $39 million in 1970 to about $169 billion by the 2023 letter.",
-                "fa": "Berkshire در این فاصله آن پول را به نفع خودش سرمایه‌گذاری می‌کند. شناوری از ۳۹ میلیون دلار در ۱۹۷۰ به حدود ۱۶۹ میلیارد دلار در نامهٔ ۲۰۲۳ رسید."
+                "en": "Berkshire invests that float for its own benefit while it waits. Float grew from $39 million in 1970 to about $164 billion by the end of 2022.",
+                "fa": "Berkshire در این فاصله آن پول را به نفع خودش سرمایه‌گذاری می‌کند. شناوری از ۳۹ میلیون دلار در ۱۹۷۰ به حدود ۱۶۴ میلیارد دلار در پایان ۲۰۲۲ رسید."
               }
             },
             {
@@ -1161,8 +1161,8 @@
               "kind": "card",
               "id": "b12c2l1p13",
               "text": {
-                "en": "Float is most valuable when claims settle slowly. In liability and reinsurance lines, payments can come years or decades later, so the money stays invested longer.",
-                "fa": "شناوری وقتی خسارت‌ها دیر تسویه شوند بیشترین ارزش را دارد. در بیمهٔ مسئولیت و بیمهٔ اتکایی پرداخت‌ها ممکن است سال‌ها یا دهه‌ها بعد بیاید، پس پول بیشتر سرمایه‌گذاری می‌ماند."
+                "en": "Float lasts longer when claims settle slowly. In liability and reinsurance lines, payments can come years or decades later, so the money stays invested longer.",
+                "fa": "شناوری وقتی خسارت‌ها دیر تسویه شوند بیشتر می‌ماند. در بیمهٔ مسئولیت و بیمهٔ اتکایی پرداخت‌ها ممکن است سال‌ها یا دهه‌ها بعد بیاید، پس پول بیشتر سرمایه‌گذاری می‌ماند."
               }
             },
             {
@@ -1171,8 +1171,8 @@
               "type": "tf",
               "source": "b12c2l1p13",
               "prompt": {
-                "en": "Float is worth more when claims are paid out slowly.",
-                "fa": "شناوری وقتی خسارت‌ها آهسته پرداخت شوند ارزش بیشتری دارد."
+                "en": "Float stays invested longer when claims are paid out slowly.",
+                "fa": "شناوری وقتی خسارت‌ها آهسته پرداخت شوند مدت بیشتری سرمایه‌گذاری می‌ماند."
               },
               "answer": true
             }
@@ -1260,7 +1260,7 @@
               "id": "b12c2l2p5",
               "text": {
                 "en": "If a business cannot pass that test, the cash belongs with the owners or in a better use elsewhere, not in empire building.",
-                "fa": "اگر کسب‌وکاری از این آزمون رد نشود، جای آن نقد پیش مالکان یا در استفادهٔ بهتری در جای دیگر است، نه در امپراتوری‌سازی."
+                "fa": "اگر کسب‌وکاری از پس این آزمون برنیاید، جای آن نقد پیش مالکان یا در استفادهٔ بهتری در جای دیگر است، نه در امپراتوری‌سازی."
               }
             },
             {
@@ -1384,8 +1384,8 @@
               "kind": "card",
               "id": "b12c2l2p13",
               "text": {
-                "en": "Berkshire's structure lets it move cash between its businesses without tax friction, from slow growers to better uses such as BNSF, the railroad it bought in 2010.",
-                "fa": "ساختار Berkshire اجازه می‌دهد نقد را بدون اصطکاک مالیاتی بین کسب‌وکارهایش جابه‌جا کند، از کم‌رشدها به مصارف بهتر مثل BNSF، راه‌آهنی که در ۲۰۱۰ خرید."
+                "en": "Berkshire's structure lets it move cash between its businesses without tax friction, from those with few chances to reinvest to others with greater promise.",
+                "fa": "ساختار Berkshire اجازه می‌دهد نقد را بدون اصطکاک مالیاتی بین کسب‌وکارهایش جابه‌جا کند، از آن‌هایی که فرصت کمی برای سرمایه‌گذاری مجدد دارند به آن‌هایی که چشم‌انداز بهتری دارند."
               }
             },
             {
@@ -1477,8 +1477,8 @@
               "kind": "card",
               "id": "b12c2l3p4",
               "text": {
-                "en": "He criticizes companies that buy back shares at any price, to signal confidence or offset stock options, while ignoring value.",
-                "fa": "او از شرکت‌هایی انتقاد می‌کند که به هر قیمتی سهم بازمی‌خرند، برای نشان دادن اطمینان یا جبران اختیار سهام، و ارزش را نادیده می‌گیرند."
+                "en": "He criticizes companies that buy back shares at any price, to pump or support the stock price or to offset stock options, while ignoring value.",
+                "fa": "او از شرکت‌هایی انتقاد می‌کند که به هر قیمتی سهم بازمی‌خرند، برای بالا بردن یا نگه داشتن قیمت سهم یا جبران اختیار سهام، و ارزش را نادیده می‌گیرند."
               }
             },
             {
@@ -1888,8 +1888,8 @@
               "id": "b12c2l5p1",
               "frame": true,
               "text": {
-                "en": "This Lesson distils the letters on index funds, above all the 2017 report on Buffett's ten-year bet. It matters because the roadmap's core-satellite plan leans on index ETFs.",
-                "fa": "این درس نامه‌های مربوط به صندوق‌های شاخصی را خلاصه می‌کند، به‌ویژه گزارش ۲۰۱۷ دربارهٔ شرط ده‌سالهٔ Buffett. مهم است چون طرح core-satellite نقشهٔ راه بر ETFهای شاخصی تکیه دارد."
+                "en": "This Lesson distils the letters on index funds, above all the 2016 and 2017 reports on Buffett's ten-year bet. It matters because the roadmap's core-satellite plan leans on index ETFs.",
+                "fa": "این درس نامه‌های مربوط به صندوق‌های شاخصی را خلاصه می‌کند، به‌ویژه گزارش‌های ۲۰۱۶ و ۲۰۱۷ دربارهٔ شرط ده‌سالهٔ Buffett. مهم است چون طرح core-satellite نقشهٔ راه بر ETFهای شاخصی تکیه دارد."
               }
             },
             {
@@ -1964,16 +1964,16 @@
               "kind": "card",
               "id": "b12c2l5p6",
               "text": {
-                "en": "Over the ten years the index fund compounded about 7.1 percent a year; the five funds of funds averaged only about 2.2 percent.",
-                "fa": "در این ده سال صندوق شاخصی سالانه حدود ۷٫۱ درصد رشد مرکب کرد؛ میانگین پنج صندوقِ صندوق‌ها فقط حدود ۲٫۲ درصد بود."
+                "en": "After nine years, the 2016 letter reports, the index fund had compounded about 7.1 percent a year; the five funds of funds averaged only about 2.2 percent.",
+                "fa": "نامهٔ ۲۰۱۶ گزارش می‌دهد که پس از نُه سال صندوق شاخصی سالانه حدود ۷٫۱ درصد رشد مرکب کرده بود؛ میانگین پنج صندوقِ صندوق‌ها فقط حدود ۲٫۲ درصد بود."
               }
             },
             {
               "kind": "card",
               "id": "b12c2l5p7",
               "text": {
-                "en": "Put in dollars, $1 million in the index fund gained about $854,000, while the funds of funds gained about $220,000 on average.",
-                "fa": "به دلار، ۱ میلیون دلار در صندوق شاخصی حدود ۸۵۴ هزار دلار سود کرد، در حالی که صندوقِ صندوق‌ها به‌طور میانگین حدود ۲۲۰ هزار دلار."
+                "en": "Put in dollars, after those nine years $1 million in the index fund had gained about $854,000, while the funds of funds had gained about $220,000 on average.",
+                "fa": "به دلار، پس از آن نُه سال ۱ میلیون دلار در صندوق شاخصی حدود ۸۵۴ هزار دلار سود کرده بود، در حالی که صندوقِ صندوق‌ها به‌طور میانگین حدود ۲۲۰ هزار دلار."
               }
             },
             {
@@ -1982,8 +1982,8 @@
               "type": "tap",
               "source": "b12c2l5p6",
               "prompt": {
-                "en": "How did the index fund compound during the bet?",
-                "fa": "صندوق شاخصی در طول شرط چطور رشد مرکب کرد؟"
+                "en": "How had the index fund compounded after nine years of the bet?",
+                "fa": "صندوق شاخصی پس از نُه سال از شرط چطور رشد مرکب کرده بود؟"
               },
               "options": [
                 {
@@ -2040,8 +2040,8 @@
               "kind": "card",
               "id": "b12c2l5p11",
               "text": {
-                "en": "In the 2013 letter he set his own estate plan: 10 percent in short-term government bonds and 90 percent in a very low-cost S&P 500 index fund.",
-                "fa": "در نامهٔ ۲۰۱۳ برنامهٔ ارثیهٔ خودش را گفت: ۱۰ درصد در اوراق کوتاه‌مدت دولتی و ۹۰ درصد در یک صندوق شاخصی S&P 500 با هزینهٔ بسیار کم."
+                "en": "In the 2013 letter he describes his will's instruction for the cash left in trust for his wife: 10 percent in short-term government bonds and 90 percent in a very low-cost S&P 500 index fund.",
+                "fa": "در نامهٔ ۲۰۱۳ دستور وصیت‌نامه‌اش را برای نقدی که به صورت امانی برای همسرش می‌ماند شرح می‌دهد: ۱۰ درصد در اوراق کوتاه‌مدت دولتی و ۹۰ درصد در یک صندوق شاخصی S&P 500 با هزینهٔ بسیار کم."
               }
             },
             {
@@ -2050,8 +2050,8 @@
               "type": "tap",
               "source": "b12c2l5p11",
               "prompt": {
-                "en": "What split did Buffett's 2013 letter set for his estate?",
-                "fa": "نامهٔ ۲۰۱۳ Buffett چه تقسیمی برای ارثیه‌اش تعیین کرد؟"
+                "en": "What split does the 2013 letter describe for the cash left in trust for Buffett's wife?",
+                "fa": "نامهٔ ۲۰۱۳ چه تقسیمی را برای نقدی که به صورت امانی برای همسر Buffett می‌ماند شرح می‌دهد؟"
               },
               "options": [
                 {
@@ -2073,8 +2073,8 @@
               "kind": "card",
               "id": "b12c2l5p12",
               "text": {
-                "en": "Your core follows the same idea: a cheap world index ETF such as VWCE, bought steadily through IBKR or DEGIRO and held for decades.",
-                "fa": "هستهٔ تو همین ایده را دنبال می‌کند: یک ETF شاخص جهانی ارزان مثل VWCE، که به‌طور منظم از طریق IBKR یا DEGIRO خریده و دهه‌ها نگه داشته می‌شود."
+                "en": "The roadmap's core follows the same idea: low-cost index ETFs, added to steadily and meant to be held for decades.",
+                "fa": "هستهٔ نقشهٔ راه همین ایده را دنبال می‌کند: ETFهای شاخصی کم‌هزینه که به‌طور منظم به آن‌ها اضافه می‌شود و قرار است دهه‌ها نگه داشته شوند."
               }
             },
             {
