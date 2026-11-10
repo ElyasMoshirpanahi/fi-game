@@ -109,6 +109,7 @@ html[dir="rtl"] .prog i { margin-inline-start: auto; }
 .footbtn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; color: var(--text); }
 .footbtn svg { width: 14px; height: 14px; color: var(--gold-strong); }
 .footbtn b { background: var(--gold-soft); color: var(--gold-strong); border-radius: 999px; padding: 0 7px; }
+.footbtn.hot { border-color: var(--accent); } .footbtn.hot b { background: var(--accent); color: #fff; }
 .marks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .mark { border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; background: var(--bg); }
 .mark .kicker { margin-bottom: 6px; }
@@ -371,6 +372,7 @@ FI.content = (() => {
       percentDone: 'complete', milestoneTitle: 'Milestone', milestoneBody: 'First \u20ac100 of ownership income. Both checklists are complete.', milestoneDone: 'Keep going',
       circles: 'circles', lessons: 'lessons', points: 'points', minutes: 'min', approx: '~', whyMatters: 'Why this matters', bookNote: 'Distilled from the book. Educational, not advice.', circleComplete: 'Circle complete', loading: 'Loading the book', loadError: 'Could not load this book. Check your connection and try again.', dismiss: 'Close', startLesson: 'Start', replayLesson: 'Replay',
       shelfTitle: 'Shelf', basics: 'Basics', basicsSub: 'The roadmap itself, six stations', section: 'Section', sections: 'Sections', jumpTo: 'Jump to section', goToSection: 'Go to section', sectionComplete: 'Section complete', collapse: 'Collapse', expand: 'Expand',
+      review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
       shelfInTools: 'All 28 books, filters and reading states are under Tools on the Library node.', hintShort: 'Look again at card', libraryHint: 'Pass the Library fare and light all ten reading-order books.',
       d0: 'Mo', d1: 'Tu', d2: 'We', d3: 'Th', d4: 'Fr', d5: 'Sa', d6: 'Su',
@@ -398,6 +400,7 @@ FI.content = (() => {
       percentDone: 'انجام شده', milestoneTitle: 'نقطه عطف', milestoneBody: 'اولین ۱۰۰ یورو درآمد مالکیتی. هر دو چک‌لیست کامل شد.', milestoneDone: 'ادامه بده',
       circles: 'حلقه', lessons: 'درس', points: 'نکته', minutes: 'دقیقه', approx: '~', whyMatters: 'چرا مهم است', bookNote: 'چکیده‌ای از کتاب. آموزشی است، نه توصیه.', circleComplete: 'حلقه کامل شد', loading: 'در حال بارگذاری کتاب', loadError: 'بارگذاری کتاب ممکن نشد. اتصال را بررسی کن و دوباره بزن.', dismiss: 'بستن', startLesson: 'شروع', replayLesson: 'دوباره',
       shelfTitle: 'قفسه', basics: 'پایه‌ها', basicsSub: 'خودِ نقشه راه، شش ایستگاه', section: 'بخش', sections: 'بخش‌ها', jumpTo: 'پرش به بخش', goToSection: 'برو به بخش', sectionComplete: 'بخش کامل شد', collapse: 'جمع کن', expand: 'باز کن',
+      review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
       shelfInTools: 'هر ۲۸ کتاب، فیلترها و وضعیت خواندن زیر «ابزارها» در ایستگاه کتابخانه است.', hintShort: 'دوباره به کارت نگاه کن:', libraryHint: 'کرایه کتابخانه را بده و هر ده کتابِ ترتیب خواندن را روشن کن.',
       d0: 'دو', d1: 'سه', d2: 'چه', d3: 'پن', d4: 'جم', d5: 'شن', d6: 'یک',
@@ -744,7 +747,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -755,13 +758,41 @@ FI.engine = (() => {
     sliders: { capital: 40000, ret: 5, expenses: 30000 },
     habits: {}, habitsWeek: '', journal: { text: '', reviewDate: '' },
     checklists: { before: [false, false, false], after: [false, false, false] },
-    shelf: {}, milestone: false, bookmarks: [],
+    shelf: {}, milestone: false, bookmarks: [], deck: {},
+    today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
 
   const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
   const checksOf = (content, stationId) => content.station(stationId).items.filter((i) => i.kind === 'check');
   const queueReturn = (s, cardId) => { if (!s.returns.includes(cardId)) s.returns.push(cardId); };
+
+  // ---- Review Deck (spec 1): missed and bookmarked Cards come back on a fixed ladder of days.
+  const LADDER = [1, 3, 7, 16, 35];
+  const SESSION_CAP = 20;
+  const dueIds = (s) => Object.keys(s.deck).filter((id) => s.deck[id].due <= s.today).sort((a, b) => s.deck[a].due - s.deck[b].due || a.localeCompare(b));
+  const dueCount = (s) => dueIds(s).length;
+  function enqueue(s, content, stationId, cardId, why) {
+    const card = content.item(stationId, cardId);
+    if (!card || card.kind !== 'card') return;
+    let e = s.deck[cardId];
+    if (!e) {
+      const st = content.station(stationId);
+      const k = st.items.find((i) => i.kind === 'check' && i.source === cardId);
+      e = s.deck[cardId] = { stationId, cardId, text: card.text, check: k ? { id: k.id, type: k.type, prompt: k.prompt, options: k.options || null, answer: k.answer } : null, box: 0, due: s.today + LADDER[0], missed: false, marked: false };
+    }
+    if (why === 'missed') { e.missed = true; e.box = 0; e.due = s.today + LADDER[0]; } else e.marked = true;
+  }
+  function grade(s, cardId, ok) {
+    const e = s.deck[cardId];
+    if (!e) return;
+    if (ok) {
+      s.coins += 1; s.events.push('coin', 'correct', 'review-correct');
+      e.box += 1;
+      if (e.box >= LADDER.length) { delete s.deck[cardId]; s.review.retired = true; } else { e.due = s.today + LADDER[e.box]; s.review.nextIn = LADDER[e.box]; }
+    } else { e.box = 0; e.due = s.today + LADDER[0]; s.events.push('wrong', 'review-wrong'); }
+    s.review.phase = 'result'; s.review.ok = ok;
+  }
   const indexIn = (content, stationId, id) => content.station(stationId).items.findIndex((i) => i.id === id);
 
   function advance(s, content) {
@@ -816,7 +847,7 @@ FI.engine = (() => {
 
   function leave(s) {
     s.screen = 'path'; s.stationId = null; s.phase = null; s.current = null;
-    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null;
+    s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null; s.review = null;
     return s;
   }
 
@@ -885,6 +916,39 @@ FI.engine = (() => {
         s.queue = st.items.slice(idx).map((i) => i.id);
         return advance(s, content);
       }
+      case 'TICK':
+        if (Number.isInteger(action.value)) s.today = action.value;
+        return s;
+      case 'OPEN_REVIEW': {
+        leave(s);
+        const queue = dueIds(s).slice(0, SESSION_CAP);
+        s.screen = 'review';
+        s.review = { queue, index: 0, phase: queue.length ? 'card' : 'done', ok: null, retired: false, nextIn: 0 };
+        return s;
+      }
+      case 'REVIEW_NEXT': {
+        if (s.screen !== 'review') return s;
+        const r = s.review;
+        if (r.phase === 'card' && s.deck[r.queue[r.index]] && s.deck[r.queue[r.index]].check) { r.phase = 'check'; return s; }
+        if (r.phase === 'result') {
+          r.index += 1; r.ok = null; r.retired = false; r.nextIn = 0;
+          if (r.index >= r.queue.length) { r.phase = 'done'; s.events.push('review-done'); } else r.phase = 'card';
+        }
+        return s;
+      }
+      case 'REVIEW_ANSWER': {
+        if (s.screen !== 'review' || s.review.phase !== 'check') return s;
+        const id = s.review.queue[s.review.index];
+        grade(s, id, same(action.value, s.deck[id].check.answer));
+        return s;
+      }
+      case 'REVIEW_RATE': {
+        if (s.screen !== 'review' || s.review.phase !== 'card') return s;
+        const id = s.review.queue[s.review.index];
+        if (s.deck[id].check) return s;
+        grade(s, id, action.value === 'knew');
+        return s;
+      }
       case 'OPEN_BOOKMARKS':
         leave(s);
         s.screen = 'bookmarks';
@@ -894,8 +958,11 @@ FI.engine = (() => {
         const it = content.item(stationId, cardId);
         if (!it || it.kind !== 'card') return s;
         const at = s.bookmarks.findIndex((b) => b.stationId === stationId && b.cardId === cardId);
-        if (at >= 0) { s.bookmarks.splice(at, 1); s.events.push('unbookmark'); }
-        else { s.bookmarks.push({ stationId, cardId, text: it.text }); s.events.push('bookmark'); }
+        if (at >= 0) {
+          s.bookmarks.splice(at, 1); s.events.push('unbookmark');
+          const e = s.deck[cardId];
+          if (e) { e.marked = false; if (!e.missed) delete s.deck[cardId]; }
+        } else { s.bookmarks.push({ stationId, cardId, text: it.text }); s.events.push('bookmark'); enqueue(s, content, stationId, cardId, 'marked'); }
         return s;
       }
       case 'OPEN_TOOLS': {
@@ -912,7 +979,7 @@ FI.engine = (() => {
         return s;
       case 'RATE':
         if (s.phase !== 'card') return s;
-        if (action.value === 'didnt') queueReturn(s, s.current);
+        if (action.value === 'didnt') { queueReturn(s, s.current); enqueue(s, content, s.stationId, s.current, 'missed'); }
         return advance(s, content);
       case 'ANSWER': {
         if (s.phase !== 'check' && s.phase !== 'fare') return s;
@@ -931,12 +998,12 @@ FI.engine = (() => {
           } else {
             s.misses += 1; s.events.push('wrong');
             if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
-            else { s.phase = 'revealed'; queueReturn(s, k.source); s.events.push('revealed'); }
+            else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed'); s.events.push('revealed'); }
           }
           return s;
         }
         // Fare: no Hints, one attempt per question, result after the last one.
-        if (!ok) s.fare.missed.push(k.id);
+        if (!ok) { s.fare.missed.push(k.id); enqueue(s, content, s.stationId, k.source, 'missed'); }
         s.events.push(ok ? 'correct' : 'wrong');
         s.fare.index += 1;
         if (s.fare.index < s.fare.questions.length) { s.current = s.fare.questions[s.fare.index]; return s; }
@@ -996,7 +1063,7 @@ FI.engine = (() => {
       }
       case 'RESET': {
         const fresh = initial();
-        fresh.mode = s.mode; fresh.muted = s.muted;
+        fresh.mode = s.mode; fresh.muted = s.muted; fresh.today = s.today;
         fresh.events = ['reset'];
         return fresh;
       }
@@ -1005,7 +1072,7 @@ FI.engine = (() => {
     }
   }
 
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount };
 })();
 </script>
 
@@ -1215,7 +1282,8 @@ FI.render = (() => {
       ? `<div class="confirm" role="alertdialog" aria-live="polite"><span>${t('resetConfirm', s.mode)}</span><button ${A({ type: 'UI_RESET_CANCEL' })}>${t('cancel', s.mode)}</button><button ${A({ type: 'RESET' })}>${t('confirm', s.mode)}</button></div>`
       : `<button class="linkish" ${A({ type: 'UI_RESET_ASK' })}>${t('reset', s.mode)}</button>`;
     const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
-    const marks = `<button class="footbtn" ${A({ type: 'OPEN_TOOLS', value: 's6' })}>${ICONS.book}<span>${t('shelfTitle', s.mode)}</span></button><button class="footbtn" ${A({ type: 'OPEN_BOOKMARKS' })}>${ICONS.bookmarkOn}<span>${t('bookmarks', s.mode)}</span><b>${num(s.bookmarks.length, s.mode)}</b></button>`;
+    const due = FI.engine.dueCount(s);
+    const marks = `<button class="footbtn ${due ? 'hot' : ''}" ${A({ type: 'OPEN_REVIEW' })}>${ICONS.retry}<span>${t('review', s.mode)}</span><b>${num(due, s.mode)}</b></button><button class="footbtn" ${A({ type: 'OPEN_TOOLS', value: 's6' })}>${ICONS.book}<span>${t('shelfTitle', s.mode)}</span></button><button class="footbtn" ${A({ type: 'OPEN_BOOKMARKS' })}>${ICONS.bookmarkOn}<span>${t('bookmarks', s.mode)}</span><b>${num(s.bookmarks.length, s.mode)}</b></button>`;
     const sheet = ui.picker ? `<div class="sheet" role="dialog" aria-label="${t('sections', s.mode)}"><h3>${t('sections', s.mode)}</h3>${secs.map((sec, i) => `<button class="row ${sec.id === openId ? 'on' : ''}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, 'tiny') : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(doneOf(sec), s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('')}</div>` : '';
     const cam = !ui.introDone ? ' intro' : ui.pullout ? ' pullout' : '';
     return `<main class="path${cam}">
@@ -1348,6 +1416,38 @@ FI.render = (() => {
     </main>`;
   }
 
+  // ---- Review (spec 1) -------------------------------------------------------
+  function reviewScreen(s, content) {
+    const r = s.review;
+    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.queue.length ? ` · ${num(Math.min(r.index + 1, r.queue.length), s.mode)}/${num(r.queue.length, s.mode)}` : ''}</h2></div>`;
+    if (r.phase === 'done') {
+      const msg = r.queue.length ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
+      return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p><button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
+    }
+    const e = s.deck[r.queue[r.index]];
+    const k = e && e.check;
+    if (r.phase === 'result') {
+      const note = !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
+      return `<main class="station tools" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span><small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
+    }
+    const card = `<section class="panel card"><p class="kicker">${t('review', s.mode)}</p><p class="ctext">${pair(e.text, s.mode)}</p>`;
+    if (r.phase === 'card') {
+      const actions = k ? `<div class="actions"><button class="btn primary wide" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('reviewShow', s.mode)}</button></div>`
+        : `<div class="actions"><button class="btn" ${A({ type: 'REVIEW_RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button></div>`;
+      return `<main class="station tools" data-theme="teal">${head}${card}${actions}</section></main>`;
+    }
+    let body = '';
+    if (k.type === 'tap') body = `<div class="opts">${k.options.map((o, i) => `<button class="btn opt" ${A({ type: 'REVIEW_ANSWER', value: i })}>${pair(o, s.mode)}</button>`).join('')}</div>`;
+    else if (k.type === 'tf') body = `<div class="tf"><button class="btn" ${A({ type: 'REVIEW_ANSWER', value: true })}>${t('trueLabel', s.mode)}</button><button class="btn" ${A({ type: 'REVIEW_ANSWER', value: false })}>${t('falseLabel', s.mode)}</button></div>`;
+    else {
+      const placed = ui.order;
+      const slots = placed.map((i, n) => `<span class="slot"><b>${num(n + 1, s.mode)}</b>${pair(k.options[i], one(s.mode))}</span>`).join('');
+      const remaining = k.options.map((o, i) => placed.includes(i) ? '' : `<button class="btn opt" ${A({ type: 'UI_ORDER_ADD', value: i })}>${pair(o, s.mode)}</button>`).join('');
+      body = `<p class="help">${t('orderHelp', s.mode)}</p><div class="slots" aria-live="polite">${slots}</div><div class="opts">${remaining}</div><div class="actions"><button class="btn ghost" ${A({ type: 'UI_ORDER_CLEAR' })} ${placed.length ? '' : 'disabled'}>${t('clearOrder', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_ANSWER', value: placed })} ${placed.length === k.options.length ? '' : 'disabled'}>${t('check', s.mode)}</button></div>`;
+    }
+    return `<main class="station tools" data-theme="teal">${head}<section class="panel check"><p class="kicker">${t('review', s.mode)}</p><h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}</section></main>`;
+  }
+
   // ---- Station run ---------------------------------------------------------
   function bookHeader(s, st) {
     if (!st.book) return '';
@@ -1469,6 +1569,8 @@ FI.render = (() => {
 
   function render(root, s, content) {
     if (s.current !== ui.lastCurrent || (s.phase === 'check' && ui.lastPhase !== 'check')) ui.order = [];
+    const rkey = s.review ? `${s.review.index}:${s.review.phase}` : null; // placed Order chips reset per review step
+    if (rkey !== ui.lastReview) { ui.order = []; ui.lastReview = rkey; }
     if (s.screen !== 'path') ui.confirmReset = false;
     // Consume each events array once; UI-only re-renders reuse the same state object.
     if (s.events !== ui.seenEvents) { ui.seenEvents = s.events; ui.coinShown = false; if (s.events.includes('milestone')) { ui.milestone = true; ui.dolly = true; } } else { ui.coinShown = true; ui.dolly = false; }
@@ -1478,7 +1580,7 @@ FI.render = (() => {
     const html = document.documentElement;
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
-    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : stationScreen(s, content);
+    const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : s.screen === 'review' ? reviewScreen(s, content) : stationScreen(s, content);
     const busy = ui.loading ? `<div class="overlay soft"><section class="panel result"><div class="spinner" aria-hidden="true"></div><p>${t('loading', s.mode)}</p></section></div>` : '';
     const err = ui.error ? `<div class="overlay"><section class="panel result fail"><div class="big">${ICONS.retry}</div><p>${t('loadError', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_ERROR_CLOSE' })} data-focus>${t('dismiss', s.mode)}</button></section></div>` : '';
     root.innerHTML = topBar(s, content) + screen + busy + err + disclaimer(s);
@@ -1652,7 +1754,10 @@ FI.fx = (() => {
     const saved = store.load(storage);
     const resumeSt = saved && saved.run && content.station(saved.run.stationId);
     if (resumeSt && resumeSt.book) await ensureBook(resumeSt.bookId);
+    const dayNumber = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); };
     state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: saved }, content);
+    state = engine.reduce(state, { type: 'TICK', value: dayNumber() }, content);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber() }); });
     store.save(storage, state); // writes back a migrated document (ADR-0009, ADR-0010)
     render.mount(root, dispatch);
     paint();

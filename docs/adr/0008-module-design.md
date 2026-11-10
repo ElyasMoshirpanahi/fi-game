@@ -56,3 +56,4 @@ status: accepted
 - render gains `setLoading(on)` and `setError(on)`, called only by the app around a book fetch.
 - The app owns fetching; the engine and content never fetch.
 - A Section lists its runs (`sec.runs`): Stations for Basics, Lessons for a book.
+- Amendment (spec 1, Review): actions `TICK` (the app sends the local day number; the engine never reads the clock), `OPEN_REVIEW`, `REVIEW_NEXT`, `REVIEW_ANSWER`, `REVIEW_RATE`; events `review-correct`, `review-wrong`, `review-done`; `FI.engine.dueCount(state)` and `FI.engine.LADDER`. The Deck is durable.

@@ -50,7 +50,7 @@ _Avoid_: score, grade, confidence
 
 **Return**:
 A Card re-entering the queue later in the same session because of a "didn't know" Rating or a missed Fare question. Returns happen before the Fare. Nothing about a Return survives a reload.
-_Avoid_: review, repeat, spaced repetition
+_Avoid_: repeat (Review is the separate daily session)
 
 **Fare**:
 The recap of up to three questions that closes a Unit, drawn only from that Unit's Checks. Passing all of them lights the Unit. Failing any shows the missed Cards again and draws a fresh Fare.
@@ -90,6 +90,14 @@ Retired 2026-11-10 (decision 34). Books are Sections of Circles of Lessons.
 **Tools**:
 A Station's interactives reachable from the Path without replaying the Station: the sliders, the habit grid, the decision journal, the Checklists, the Shelf.
 _Avoid_: widgets (the implementation word), settings
+
+**Deck**:
+The Cards scheduled for Review: every Card the player missed (rated "didn't know", had its answer revealed, or missed in a Fare) and every bookmarked Card. Each entry keeps the Card's text and Check so Review needs no book file.
+_Avoid_: queue, pile, flashcards
+
+**Review**:
+The daily session over the Deck's due Cards, at most 20. A right answer moves a Card up a ladder of 1, 3, 7, 16 and 35 days; a wrong one brings it back tomorrow; after the last step it leaves the Deck. Not the same as a Return, which happens inside one Lesson.
+_Avoid_: revision, practice, spaced repetition (the mechanism, not the name)
 
 **Bookmark**:
 A Card the player marked to come back to. Bookmarks are listed from the Path; opening one starts its Station at that Card. They persist with the rest of progress.

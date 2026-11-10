@@ -50,6 +50,8 @@ Date: 2026-11-09. Source: `/grilling` session, Step 1 of `docs-prompts.md` Part 
 | 35 | Sizing | High: 3 Circles x 4 Lessons; mid: 2 x 4; low: 1 x 3; 12 Points per Lesson typical. About 2,600 Cards and 1,000 Checks, 28 files, one content agent per book. |
 | 36 | Time box | Each Lesson shows its Points and about one minute per Point; the first Point of every Lesson frames what part of the book it distils. |
 | 37 | Rewards | Lesson Fare 10 XP; complete Circle 25 XP; complete Section the book badge plus 50 XP. Basics Stations stay at 50. |
+| 38 | Next steps as specs (2026-11-10) | Seven specs in docs/specs/, published as issues #8 to #14, built in order. Reverses decision 10 and the review and PWA parts of decision 13. |
+| 39 | Review scheduling | Fixed ladder of 1, 3, 7, 16, 35 days (executor choice, reported to the owner on Telegram); FSRS deferred. |
 | 16 | Ordering interaction | Tap-to-place is the baseline and the keyboard path. Pointer drag reorders as a progressive enhancement. |
 
 ## Executor decisions derived from the above (noted, not asked)
