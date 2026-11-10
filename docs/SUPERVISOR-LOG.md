@@ -177,3 +177,6 @@ Append-only. Step, start time, what was produced, test results, open questions.
 - Phone pass at 360 px over 21 screens: no overflow; tap targets raised to 44 px; record in `docs/playtests/phone-pass-360.md`. 460 tests green.
 - Review (Standards + Spec, browser at 360 and 320 px): Continue was scrolled off-screen on load, search missed books downloaded later, Farsi matching was too strict. Fixed with the rest in `docs/review/spec7-ux-code-review.md`. 464 tests green; phone pass 21 of 21 clean.
 - Owner answered decision 42 on Telegram: show the edition year (decision 43). Applied to nine books.
+
+## Follow-up report (2026-11-11)
+- All seven specs and the neon overhaul are merged and live. Summary, what the reviews caught, and what is not done: `docs/FOLLOW-UP-REPORT.md`.
