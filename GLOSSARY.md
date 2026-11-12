@@ -118,6 +118,22 @@ _Avoid_: revision, practice, spaced repetition (the mechanism, not the name)
 A Card the player marked to come back to. Bookmarks are listed from the Path; opening one starts its Station at that Card. They persist with the rest of progress.
 _Avoid_: favourite, saved lesson, pin
 
+**Navigation**:
+The five destinations of the game: Learn (the Path), Review, Shelf, Bookmarks and Profile. A floating bar at the bottom of a phone, a rail of icons on a tablet, a labelled sidebar on a desktop. Hidden on a phone during a Lesson or a Review run.
+_Avoid_: menu, tabs
+
+**Profile**:
+The screen with the player's numbers and Badges, and everything about the device: Language Mode, sound, backup and restore, offline and install, reset. It is not an account.
+_Avoid_: settings page, account
+
+**Lesson pop-up**:
+The small card that opens under a Circle when it is tapped, below desktop width. It names the Circle's next unlit Lesson and has one Start button; a numbered row picks another Lesson.
+_Avoid_: modal, tooltip
+
+**Rail**:
+The column beside the Path at desktop width: the player's numbers, the Review count and the list of Sections.
+_Avoid_: sidebar (that is the Navigation)
+
 **Language Mode**:
 One of FA, EN or Both. FA shows Farsi with Persian digits in a right-to-left page. EN shows English with Latin digits in a left-to-right page. Both shows English on top and Farsi beneath in a left-to-right page. The default is EN.
 _Avoid_: locale, language setting, translation toggle

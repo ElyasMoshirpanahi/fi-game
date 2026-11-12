@@ -12,7 +12,7 @@ const durationOf = (selector) => {
 
 describe('Cinematic moments', () => {
   it('wide-to-close on load, pull-out on Station completion, dolly on the Milestone: each under 800 ms', () => {
-    for (const sel of ['.path.intro .nodes', '.path.pullout .nodes', '.overlay.dolly .panel', '.dolly-bg']) {
+    for (const sel of ['.path.intro .sec:first-child .nodes', '.path.pullout .sec:has(.justlit) .nodes', '.overlay.dolly .panel', '.dolly-bg']) {
       const ms = durationOf(sel);
       expect(ms, sel).not.toBeNull();
       expect(ms, sel).toBeLessThan(800);

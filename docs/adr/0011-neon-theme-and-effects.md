@@ -15,3 +15,7 @@ Status: accepted (2026-11-10, spec 8, issue #16). Owner request: a cyberpunk loo
 - The engine stays pure: Combo is plain state and an event. The road geometry is testable without a browser; the drawing and every effect are checked in a headless browser run.
 - A second theme would mean a second token set; nothing else is theme-aware.
 - The road depends on measurement, so any new thing that moves nodes must cause a layout size change or call the redraw.
+
+## Amendment 2026-11-13 (spec 9, issue #26)
+
+The owner found the type tiring. The display face is now Plus Jakarta Sans (still from Google Fonts), weights stop at 700, and labels are in sentence case with normal spacing. The magenta and cyan split shadow on headings, the `split` animation and the scanline overlay are removed. The glitch on a wrong answer stays with fx.

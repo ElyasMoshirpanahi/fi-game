@@ -1,3 +1,5 @@
+// Superseded on 2026-11-13: this script drives the layout before specs 10 to 13 (folding Sections, Path buttons).
+// Use shell-pass.mjs for the current layout. Kept as the record of the spec 7 pass.
 // Spec 7 phone pass at 360 x 740: on each screen, nothing wider than the viewport, tap targets of 44 px,
 // and no control covered by the fixed picker button or the disclaimer.
 // node scripts/playtest/phone-pass.mjs <outDir> <debugPort> [shots]   (PHONE_W and PHONE_H set another size)

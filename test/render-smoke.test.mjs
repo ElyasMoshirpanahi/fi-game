@@ -22,7 +22,7 @@ beforeAll(() => {
 const html = (s) => { FI.render.render(root, s, FI.content); return root.innerHTML; };
 
 describe('render smoke', () => {
-  it('Path: all Sections, Basics open, picker button', () => {
+  it('Path: all Sections, the Sections button', () => {
     const out = html(FI.engine.initial());
     expect((out.match(/class="sec /g) || []).length).toBe(FI.content.sections.length);
     expect(out).toContain('class="picker"');
@@ -48,7 +48,7 @@ describe('render smoke', () => {
   it('Review: empty Deck, a due Card, its Check and the result all render', () => {
     expect(html(R(FI.engine.initial(), { type: 'OPEN_REVIEW' }))).toContain('class="panel result"');
     let s = R(FI.engine.initial(), { type: 'TICK', value: 100 }, { type: 'TOGGLE_BOOKMARK', value: { stationId: 's1', cardId: 's1c1' } }, { type: 'TICK', value: 101 });
-    expect(html(s)).toContain('footbtn hot');
+    expect(html(s)).toContain('class="navbadge"');
     s = R(s, { type: 'OPEN_REVIEW' });
     expect(html(s)).toContain('class="ctext"');
     s = R(s, { type: 'REVIEW_NEXT' });
@@ -57,8 +57,8 @@ describe('render smoke', () => {
     expect(html(s)).toContain('feedback ok');
   });
 
-  it('Backup: buttons on the Path, the restore panel, a good and a bad backup', () => {
-    let s = R(FI.engine.initial(), { type: 'TICK', value: 100 }, { type: 'OPEN_STATION', value: 's1' }, { type: 'RATE', value: 'knew' }, { type: 'BACK_TO_PATH' });
+  it('Backup: buttons on the Profile, the restore panel, a good and a bad backup', () => {
+    let s = R(FI.engine.initial(), { type: 'TICK', value: 100 }, { type: 'OPEN_STATION', value: 's1' }, { type: 'RATE', value: 'knew' }, { type: 'BACK_TO_PATH' }, { type: 'OPEN_PROFILE' });
     expect(html(s)).toContain('"type":"BACKUP"'.replace(/"/g, '&quot;'));
     FI.render.handleUi({ type: 'UI_RESTORE_OPEN' });
     expect(html(s)).toContain('data-restore-text');

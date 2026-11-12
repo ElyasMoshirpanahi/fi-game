@@ -120,7 +120,7 @@ describe('The files beside the page (ADR-0001 amendment)', () => {
   });
 });
 
-describe('Offline panel on the Path', () => {
+describe('Offline panel on the Profile', () => {
   let FI, R, node;
   beforeAll(() => {
     globalThis.document = { documentElement: { lang: '', dir: '' } };
@@ -133,12 +133,12 @@ describe('Offline panel on the Path', () => {
 
   it('says nothing where the browser cannot work offline', () => {
     FI.render.setOffline({ supported: false });
-    expect(html(FI.engine.initial())).not.toContain('DOWNLOAD_BOOKS');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('DOWNLOAD_BOOKS');
   });
 
   it('shows how many books are on the device and offers to download the rest', () => {
     FI.render.setOffline({ supported: true, ready: 3, downloading: null, failed: 0 });
-    const h = html(FI.engine.initial());
+    const h = html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content));
     expect(h).toMatch(/Available offline: 3\/28 books/);
     expect(h).toMatch(/role="progressbar"[^>]*aria-valuemax="28"[^>]*aria-valuenow="3"/);
     expect(h).toContain('DOWNLOAD_BOOKS');
@@ -146,47 +146,47 @@ describe('Offline panel on the Path', () => {
 
   it('shows progress while downloading and disables the button', () => {
     FI.render.setOffline({ supported: true, ready: 3, downloading: 7 });
-    const h = html(FI.engine.initial());
+    const h = html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content));
     expect(h).toMatch(/Downloading 7\/28/);
     expect(h).toMatch(/DOWNLOAD_BOOKS[^>]*disabled/);
   });
 
   it('says so when every book is on the device, and when some failed', () => {
     FI.render.setOffline({ supported: true, ready: 28, downloading: null, failed: 0 });
-    expect(html(FI.engine.initial())).toContain('All books are on this device.');
-    expect(html(FI.engine.initial())).not.toContain('DOWNLOAD_BOOKS');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toContain('All books are on this device.');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('DOWNLOAD_BOOKS');
     FI.render.setOffline({ supported: true, ready: 26, downloading: null, failed: 2 });
-    expect(html(FI.engine.initial())).toMatch(/2 could not be downloaded/);
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toMatch(/2 could not be downloaded/);
     FI.render.setOffline({ supported: true, ready: 20, downloading: null, failed: 0, unstored: 8 });
-    expect(html(FI.engine.initial())).toMatch(/8 could not be stored/);
-    expect(html(FI.engine.initial())).not.toMatch(/could not be downloaded/);
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toMatch(/8 could not be stored/);
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toMatch(/could not be downloaded/);
     FI.render.setOffline({ unstored: 0 });
   });
 
   it('offers Install only when the browser offered it', () => {
     FI.render.setOffline({ supported: true, ready: 0, failed: 0, installable: false });
-    expect(html(FI.engine.initial())).not.toContain('"INSTALL"'.replace(/"/g, '&quot;'));
-    expect(html(FI.engine.initial())).toContain('To install: open the browser menu'); // Safari and Firefox have no prompt
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('"INSTALL"'.replace(/"/g, '&quot;'));
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toContain('To install: open the browser menu'); // Safari and Firefox have no prompt
     FI.render.setOffline({ installable: true });
-    expect(html(FI.engine.initial())).toContain('INSTALL');
-    expect(html(FI.engine.initial())).not.toContain('To install: open the browser menu');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toContain('INSTALL');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('To install: open the browser menu');
     FI.render.setOffline({ installable: false, standalone: true });
-    expect(html(FI.engine.initial())).not.toContain('To install: open the browser menu'); // already installed
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('To install: open the browser menu'); // already installed
     FI.render.setOffline({ standalone: false });
     FI.render.setOffline({ supported: false, installable: false });
   });
 
   it('a book that cannot load with no connection says it is not on the device', () => {
     FI.render.setError('offline');
-    expect(html(FI.engine.initial())).toContain('This book is not on this device yet.');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).toContain('This book is not on this device yet.');
     FI.render.setError(true);
-    expect(html(FI.engine.initial())).not.toContain('This book is not on this device yet.');
+    expect(html(FI.engine.reduce(FI.engine.initial(), { type: 'OPEN_PROFILE' }, FI.content))).not.toContain('This book is not on this device yet.');
     FI.render.setError(false);
   });
 
   it('is in Farsi with Persian digits in FA mode', () => {
     FI.render.setOffline({ supported: true, ready: 3, downloading: null, failed: 0 });
-    expect(html(R(FI.engine.initial(), { type: 'SET_MODE', value: 'FA' }))).toMatch(/۳\/۲۸/);
+    expect(html(R(FI.engine.initial(), { type: 'SET_MODE', value: 'FA' }, { type: 'OPEN_PROFILE' }))).toMatch(/۳\/۲۸/);
     FI.render.setOffline({ supported: false });
   });
 });
