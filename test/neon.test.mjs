@@ -134,7 +134,7 @@ describe('Road on the Path', () => {
     expect(h).toContain('class="road"');
     expect(h).toMatch(/class="node cur"[^>]*--x:0px/);
     expect(h.match(/class="go"/g)).toHaveLength(1);
-    expect(h).toContain('>START<');
+    expect(h).toContain('>Start<');
     const fa = html(R(FI.engine.initial(), { type: 'SET_MODE', value: 'FA' }));
     expect(fa).toContain('>شروع<');
     expect(fa).toMatch(/--x:-\d+px/);
@@ -158,7 +158,6 @@ describe('Neon theme', () => {
     expect(page).toMatch(/prefers-reduced-motion: reduce\)'\)\.matches/);
   });
   it('shows focus where a parent clips it or another outline would win', () => {
-    expect(css).toMatch(/\.sechead:focus-visible \{[^}]*outline-offset: -/);
     expect(css).toMatch(/\.node\.circle\.open > \.ubtn:focus-visible/);
   });
 

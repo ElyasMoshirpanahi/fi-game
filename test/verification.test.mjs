@@ -31,9 +31,7 @@ describe('Edition', () => {
     globalThis.CSS = { escape: (x) => x };
     const FI = loadModules(['content', 'engine', 'store', 'render']);
     const node = { innerHTML: '', querySelector: () => null };
-    FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
     FI.render.render(node, FI.engine.initial(), FI.content);
-    FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
     const edition = FI.content.sectionOf('b04').edition;
     expect(edition && edition.en).toBeTruthy();
     expect(node.innerHTML).toContain('class="edition"');

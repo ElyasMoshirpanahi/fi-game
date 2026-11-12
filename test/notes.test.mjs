@@ -135,9 +135,7 @@ describe('Where Notes are reached from', () => {
   const open = (id) => JSON.stringify({ type: 'OPEN_NOTES', value: id }).replace(/"/g, '&quot;');
 
   it('the open book Section has a Notes button', () => {
-    FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
     expect(html(FI.engine.initial())).toContain(open('b04'));
-    FI.render.handleUi({ type: 'UI_OPEN_SECTION', value: 'sec-b04' });
   });
 
   it('every Shelf card has a Notes button, and a card with notes says so', () => {
