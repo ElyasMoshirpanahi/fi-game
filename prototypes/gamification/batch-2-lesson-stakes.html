@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE batch 2: stakes inside a Lesson</title><link rel="stylesheet" href="kit.css"></head><body>
+<script src="kit.js"></script>
+<script>
+// PROTOTYPE, throwaway. One playable six-question Lesson under three different rules for a wrong answer.
+const { Q } = Proto;
+// The shared question screen. `locked` is the option the player tapped, shown before Continue.
+const ask = (s, top, extra = '') => { const k = Q[s.order[s.i]]; return `${top}
+  <div class="bar"><i style="width:${(s.i / s.order.length) * 100}%"></i></div>
+  <div class="panel"><h4>${k.q}</h4><div class="stack">${k.o.map((o, n) => `<button class="btn opt ${s.pick === null ? '' : n === k.a ? 'right' : n === s.pick ? 'wrong' : ''}" data-do="answer" data-arg="${n}" ${s.pick === null ? '' : 'disabled'}>${o}</button>`).join('')}</div></div>
+  ${s.pick === null ? '' : `<div class="msg ${s.pick === k.a ? 'ok' : 'bad'} pop">${s.pick === k.a ? 'Correct.' : 'The answer was: ' + k.o[k.a]} ${extra}</div><button class="btn pri" data-do="go">Continue</button>`}`; };
+const fresh = (more) => ({ order: [0, 1, 2, 3, 4, 5], i: 0, pick: null, wrong: 0, done: false, ...more });
+const judge = (s, n) => { s.pick = +n; const ok = s.pick === Q[s.order[s.i]].a; if (!ok) s.wrong++; return ok; };
+
+// ---- A. Hearts: mistakes cost a life; no lives, no Lesson.
+const A = {
+  key: 'A', name: 'Hearts',
+  why: 'Five hearts. A wrong answer costs one. At zero the Lesson stops until you earn a heart back with a Review. Mistakes matter, so you slow down and read.',
+  risk: 'it punishes exactly the people who are learning, and can end a session the player wanted to continue.',
+  src: 'Evidence against: Duolingo dropped Hearts; beginners ran out twice as often (company self-report). The research note does not recommend this one. It is here so you can feel why.',
+  tryIt: ['Answer two wrong on purpose and watch the hearts.', 'Run out (use "Lose a heart" to get there fast).', 'Earn one back with a Review. Fair, or a chore?', 'Did the hearts make you more careful or more tense?'],
+  sim: { 'Lose a heart': 'drain' },
+  init: () => fresh({ hearts: 5, out: false }),
+  actions: {
+    answer(s, n) { if (!judge(s, n)) { s.hearts--; } },
+    go(s) { s.pick = null; if (s.hearts <= 0) { s.out = true; return; } s.i++; if (s.i >= s.order.length) s.done = true; },
+    drain(s) { s.hearts = Math.max(0, s.hearts - 1); if (!s.hearts && s.pick === null) s.out = true; },
+    review(s) { s.hearts = Math.min(5, s.hearts + 1); s.out = false; },
+    again(s) { Object.assign(s, fresh({ hearts: s.hearts, out: false })); },
+  },
+  view: (s) => { const hud = `<div class="hud"><span class="pill red">${'♥'.repeat(s.hearts)}${'♡'.repeat(5 - s.hearts)}</span><span class="sp"></span><span class="muted">${Math.min(s.i + 1, 6)} of 6</span></div>`;
+    if (s.out) return `${hud}<div class="panel center"><div class="big">♡</div><h4>Out of hearts</h4><p class="muted">Review a Card you missed to earn one back, then pick the Lesson up where you left it.</p></div><div class="grow"></div><button class="btn pri" data-do="review">Review a Card · +1 heart</button>`;
+    if (s.done) return `${hud}<div class="panel center pop"><div class="big">★</div><h4>Lesson passed</h4><p class="muted">${s.wrong} wrong · ${s.hearts} hearts left</p></div><div class="grow"></div><button class="btn" data-do="again">Play it again</button>`;
+    return ask(s, hud, s.pick !== null && s.pick !== Q[s.order[s.i]].a ? '−1 heart.' : ''); },
+  show: (s) => ({ Hearts: s.hearts + ' of 5', Question: Math.min(s.i + 1, 6) + ' of 6', 'Wrong so far': s.wrong, Stopped: s.out ? 'yes, no hearts' : 'no' }),
+};
+
+// ---- B. No penalty; a missed question returns; the Combo pays.
+const B = {
+  key: 'B', name: 'Combo that pays',
+  why: 'A wrong answer costs nothing and the question comes back at the end, as the game does today. The Combo now pays: each right answer in a row is worth more Coins, and a clean Lesson adds a bonus.',
+  risk: 'a paying Combo can turn a miss into "I lost my multiplier" and make guessing fast feel better than thinking.',
+  src: 'Evidence: none found for Combo or perfect-Lesson bonuses. Untested either way.',
+  tryIt: ['Answer all six right and watch the Coins per answer climb.', 'Miss the fourth: what did you feel when the Combo reset?', 'Notice the missed question returning at the end.', 'Is the clean bonus worth replaying for?'],
+  init: () => fresh({ combo: 0, coins: 0, last: 0, bonus: 0 }),
+  actions: {
+    answer(s, n) { if (judge(s, n)) { s.combo++; s.last = 1 + Math.floor(s.combo / 2); s.coins += s.last; } else { s.combo = 0; s.last = 0; s.order.push(s.order[s.i]); } },
+    go(s) { s.pick = null; s.i++; if (s.i >= s.order.length) { s.done = true; s.bonus = s.wrong ? 0 : 10; s.coins += s.bonus; } },
+    again(s) { Object.assign(s, fresh({ combo: 0, coins: 0, last: 0, bonus: 0 })); },
+  },
+  view: (s) => { const hud = `<div class="hud"><span class="pill ${s.combo >= 2 ? 'gold' : ''}">Combo ×${s.combo}</span><span class="sp"></span><span class="pill gold">● ${s.coins}</span></div>`;
+    if (s.done) return `${hud}<div class="panel center pop"><div class="big">●</div><h4>${s.wrong ? 'Lesson passed' : 'Clean Lesson'}</h4><p class="muted">${s.coins} Coins${s.bonus ? ' · includes +10 for no misses' : ' · ' + s.wrong + ' came back'}</p></div><div class="grow"></div><button class="btn" data-do="again">Play it again</button>`;
+    return ask(s, hud, s.pick === null ? '' : s.last ? `+${s.last} Coin${s.last > 1 ? 's' : ''}.` : 'It comes back at the end.'); },
+  show: (s) => ({ Combo: s.combo, 'Coins for the next right answer': 1 + Math.floor((s.combo + 1) / 2), Coins: s.coins, 'Questions left': s.order.length - s.i, 'Wrong so far': s.wrong }),
+};
+
+// ---- C. Stars: no penalty during the Lesson; a grade at the end that can be improved.
+const C = {
+  key: 'C', name: 'Stars to improve',
+  why: 'Nothing happens on a wrong answer. The Lesson ends with one to three stars for how many you got right first time, and the node on the Path keeps your best. Replaying to get three is the reward.',
+  risk: 'one and two stars can read as a bad grade, and replaying a Lesson you just saw tests short memory, not learning.',
+  src: 'Evidence: none found. The research note asks whether a first-try mark motivates care or avoidance of hard Lessons.',
+  tryIt: ['Finish with two misses and look at the result.', 'Replay for three stars.', 'Does a two-star node on the Path bother you enough to come back?', 'Compare with hearts: which makes you read the question more carefully?'],
+  init: () => fresh({ best: 0, plays: 0, stars: 0 }),
+  actions: {
+    answer(s, n) { judge(s, n); },
+    go(s) { s.pick = null; s.i++; if (s.i >= s.order.length) { s.done = true; s.plays++; s.stars = s.wrong === 0 ? 3 : s.wrong <= 2 ? 2 : 1; s.best = Math.max(s.best, s.stars); } },
+    again(s) { Object.assign(s, fresh({ best: s.best, plays: s.plays, stars: 0 })); },
+  },
+  view: (s) => { const st = (n) => `<span style="color:var(--gold)">${'★'.repeat(n)}</span><span style="color:var(--line)">${'★'.repeat(3 - n)}</span>`;
+    const hud = `<div class="hud"><span class="pill">Best ${st(s.best)}</span><span class="sp"></span><span class="muted">${Math.min(s.i + 1, 6)} of 6</span></div>`;
+    if (s.done) return `${hud}<div class="panel center pop"><div class="big">${st(s.stars)}</div><h4>${['', 'Passed', 'Good', 'Mastered'][s.stars]}</h4><p class="muted">${6 - s.wrong} of 6 right first time${s.stars < 3 ? ' · three stars needs all six' : ''}</p></div><div class="grow"></div><div class="stack">${s.stars < 3 ? '<button class="btn pri" data-do="again">Try for three stars</button>' : '<button class="btn" data-do="again">Play it again</button>'}</div>`;
+    return ask(s, hud); },
+  show: (s) => ({ Question: Math.min(s.i + 1, 6) + ' of 6', 'Wrong so far': s.wrong, 'Stars this run': s.done ? s.stars : 'not finished', 'Best stars': s.best, 'Times played': s.plays }),
+};
+
+Proto.start({ batch: 'Batch 2 · What should a wrong answer cost?', question: 'Today a miss costs nothing and the Combo pays nothing. Play the same six questions under three rules: lives you can lose, a Combo worth Coins, or a star grade you can improve. Answer wrong on purpose.', variants: [A, B, C] });
+</script></body></html>

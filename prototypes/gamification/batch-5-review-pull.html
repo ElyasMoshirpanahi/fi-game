@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE batch 5: getting the Review done</title><link rel="stylesheet" href="kit.css"></head><body>
+<script src="kit.js"></script>
+<script>
+// PROTOTYPE, throwaway. Added after the research: its two top-ranked items are about Review, not rewards.
+// A game with no server cannot send a reminder, so the pull has to be on the screen when the player opens it.
+const { DAYS } = Proto;
+// Shared model: a Lesson leaves two missed Cards that fall due the next day. A Review clears what is due.
+const base = (more) => ({ day: 0, waiting: [], due: 0, onTime: 0, late: 0, lessons: 0, ...more });
+const model = {
+  lesson(s) { s.lessons++; s.waiting.push({ on: s.day + 1, n: 2 }); },
+  next(s) { if (s.due) s.overdue = true; s.day++; for (const w of s.waiting) if (w.on <= s.day) { s.due += w.n; w.n = 0; } s.waiting = s.waiting.filter((w) => w.n); },
+  review(s) { if (!s.due) return; if (s.overdue) s.late += s.due; else s.onTime += s.due; s.due = 0; s.overdue = false; },
+};
+const facts = (s) => ({ Day: DAYS[s.day % 7] + ' (day ' + (s.day + 1) + ')', 'Cards due now': s.due, 'Cards coming back later': s.waiting.reduce((a, w) => a + w.n, 0), 'Reviewed on the due day': s.onTime, 'Reviewed late': s.late, 'Lessons finished': s.lessons });
+const path = (marks = []) => `<div class="panel"><p class="muted" style="margin:0 0 10px">The Psychology of Money</p><div class="row" style="justify-content:space-around">${[1, 2, 3].map((n, i) => `<span style="position:relative;display:grid;place-items:center;width:58px;height:58px;border-radius:50%;border:3px solid ${i === 0 ? 'var(--gold)' : 'var(--line)'};font-weight:700;font-size:20px">${n}${marks[i] ? `<b style="position:absolute;top:-8px;right:-14px" class="pill red pop">${marks[i]} due</b>` : ''}</span>`).join('')}</div></div>`;
+const tryCommon = ['Finish a Lesson, go to tomorrow, and look at what the screen does about the due Cards.', 'Ignore it for two days: does the pressure grow, and is that fair?'];
+
+// ---- A. Continue points at Review first.
+const A = {
+  key: 'A', name: 'Continue becomes Review',
+  why: 'The big Continue button is the one thing every player taps. When Cards are due it offers the Review first ("Review 4 Cards, about 2 minutes") and the next Lesson second.',
+  risk: 'the player who came for a new Lesson is slowed by one tap every day.',
+  src: 'Evidence: research shortlist item 2. Retrieval practice and spacing are the best-supported learning effects in the note (Roediger and Karpicke; Cepeda et al.).',
+  tryIt: [...tryCommon, 'Tap the smaller button to skip to the Lesson. Does skipping feel allowed?', 'Is "about 2 minutes" the thing that makes you do it?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => base(), actions: { ...model },
+  view: (s) => `<h4 style="font-size:22px;margin:4px 0">FI Roadmap</h4>
+    ${s.due ? `<button class="btn pri" data-do="review" style="text-align:start"><small>First today</small><br>Review ${s.due} Cards<br><small>about ${Math.max(1, Math.round(s.due / 2))} minutes${s.overdue ? ' · waiting since yesterday' : ''}</small></button><button class="btn" data-do="lesson" style="text-align:start"><small>Then</small><br>Next Lesson</button>` : `<button class="btn pri" data-do="lesson" style="text-align:start"><small>Continue</small><br>Next Lesson</button>`}
+    ${path()}<div class="grow"></div><p class="muted center">Nothing else on the screen changes.</p>`,
+  show: facts,
+};
+
+// ---- B. The Path itself shows where Review is due.
+const B = {
+  key: 'B', name: 'Due marks on the Path',
+  why: 'Cards belong to a Circle. A Circle with Cards due wears a small "2 due" mark, and tapping it reviews only that Circle\'s Cards. Review stops being a separate place and becomes part of the road.',
+  risk: 'marks on many Circles turn the Path into a list of chores; the research warns about a "keep it gold" treadmill.',
+  src: 'Evidence: research shortlist item 7. Duolingo reports that cracked or decaying skills drove chores, not learning (company self-report), so this prototype marks what is due and never un-lights anything.',
+  tryIt: [...tryCommon, 'Finish three Lessons, skip two days, look at the Path. Inviting or nagging?', 'Would you rather review per Circle, or all due Cards at once?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => base(), actions: { ...model },
+  view: (s) => `<h4 style="font-size:22px;margin:4px 0">FI Roadmap</h4><button class="btn pri" data-do="lesson" style="text-align:start"><small>Continue</small><br>Next Lesson</button>
+    ${path(s.due ? [Math.ceil(s.due / 2), Math.floor(s.due / 2) || 0, 0] : [])}
+    ${s.due ? `<button class="btn" data-do="review">Tap a marked Circle: review its Cards</button>` : '<p class="muted center">No Circle is marked today.</p>'}<div class="grow"></div>`,
+  show: facts,
+};
+
+// ---- C. The Lesson says when its Cards return; the game opens on them.
+const C = {
+  key: 'C', name: 'A promise, then a welcome',
+  why: 'Two screens that talk to each other. The end of a Lesson names what you missed and the day it returns. On that day the game opens on a short welcome: "2 Cards are back, as promised", before the Path.',
+  risk: 'an opening screen stands between the player and the Path every day something is due.',
+  src: 'Evidence: research shortlist item 1, the top-ranked. Informative feedback raised intrinsic motivation, d = +0.33 (Deci, Koestner and Ryan 1999, abstract only).',
+  tryIt: [...tryCommon, 'Read the end-of-Lesson line. Do you believe it will come back?', 'On the next day, is the welcome a nice touch or a wall?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => base({ scr: 'path' }),
+  actions: {
+    lesson(s) { model.lesson(s); s.scr = 'end'; },
+    ok(s) { s.scr = 'path'; },
+    next(s) { model.next(s); s.scr = s.due ? 'welcome' : 'path'; },
+    review(s) { model.review(s); s.scr = 'path'; },
+  },
+  view: (s) => s.scr === 'end' ? `<div class="grow"></div><div class="center"><div class="big pop" style="color:var(--gold);font-size:34px">Lit</div></div><div class="panel"><h4>Two Cards did not stick</h4><p class="muted" style="margin:0 0 6px">· Luck and risk are siblings<br>· Wealth is what you do not see</p><div class="msg info">They come back ${DAYS[(s.day + 1) % 7]}, then in 3, 7, 16 and 35 days.</div></div><div class="grow"></div><button class="btn pri" data-do="ok">Back to the Path</button>`
+    : s.scr === 'welcome' ? `<div class="grow"></div><div class="panel center pop"><p class="muted">${DAYS[s.day % 7]}</p><h4 style="font-size:22px">${s.due} Cards are back, as promised</h4><p class="muted">About ${Math.max(1, Math.round(s.due / 2))} minutes${s.overdue ? '. Some have waited since yesterday.' : '.'}</p></div><div class="grow"></div><div class="stack"><button class="btn pri" data-do="review">Review them now</button><button class="btn ghost" data-do="ok">Later</button></div>`
+    : `<h4 style="font-size:22px;margin:4px 0">FI Roadmap</h4><button class="btn pri" data-do="lesson" style="text-align:start"><small>Continue</small><br>Next Lesson</button>${path()}${s.due ? `<button class="btn" data-do="review">Review · ${s.due} due</button>` : ''}<div class="grow"></div>`,
+  show: (s) => ({ ...facts(s), 'Screen': s.scr === 'end' ? 'end of Lesson' : s.scr === 'welcome' ? 'welcome back' : 'Path' }),
+};
+
+Proto.start({ batch: 'Batch 5 · What gets the Review done?', question: 'Added after the research, which ranks this first. Review is where the learning sticks, and a game with no server cannot send a reminder. So the pull must be on the screen when you open it. Watch "Reviewed on the due day" against "Reviewed late" in the state panel.', variants: [A, B, C] });
+</script></body></html>

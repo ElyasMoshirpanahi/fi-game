@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE batch 1: daily return</title><link rel="stylesheet" href="kit.css"></head><body>
+<script src="kit.js"></script>
+<script>
+// PROTOTYPE, throwaway. Three structurally different answers to one question, switchable by ?variant=A|B|C.
+const { DAYS, rnd } = Proto;
+const weekRow = (marks, today) => `<div class="days">${DAYS.map((d, i) => `<i class="${marks[i] || ''} ${i === today ? 'now' : ''}">${d}</i>`).join('')}</div>`;
+
+// ---- A. Streak: a chain of days, protected by a freeze bought with Coins.
+const A = {
+  key: 'A', name: 'Streak with a freeze',
+  why: 'One number that grows each day you finish a Lesson. Coins finally buy something: a freeze that saves the chain on a missed day.',
+  risk: 'a broken chain can feel like losing everything, and the chain can become the goal in place of the learning.',
+  src: 'Evidence: Duolingo reports streaks work when they are easy to extend and repairable (company self-report). A broken streak on show lowers engagement, less so if it can be repaired (Silverman and Barasch 2023, abstract only).',
+  tryIt: ['Finish a Lesson, go to tomorrow, repeat three times.', 'Skip a day with no freeze: how does the reset feel?', 'Buy a freeze, then skip a day.', 'Is 20 Coins the right price?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => ({ day: 0, streak: 0, best: 0, done: false, freezes: 0, coins: 30, marks: [], note: '' }),
+  actions: {
+    lesson(s) { s.coins += 3; if (!s.done) { s.done = true; s.streak++; s.best = Math.max(s.best, s.streak); s.marks[s.day % 7] = 'on'; s.note = s.streak === 1 ? 'ok:Streak started.' : `ok:${s.streak} days in a row.`; } else s.note = 'info:Lesson done. The streak already counted today.'; },
+    buy(s) { if (s.coins >= 20) { s.coins -= 20; s.freezes++; s.note = 'info:Freeze bought. It is used on the next missed day.'; } },
+    next(s) {
+      if (!s.done) {
+        if (s.freezes > 0 && s.streak > 0) { s.freezes--; s.marks[s.day % 7] = 'frz'; s.note = 'info:You missed yesterday. A freeze kept your streak.'; }
+        else if (s.streak > 0) { s.note = `bad:Your ${s.streak} day streak ended.`; s.streak = 0; }
+        else s.note = '';
+      } else s.note = '';
+      s.day++; s.done = false; if (s.day % 7 === 0) s.marks = [];
+    },
+  },
+  view: (s) => { const [kind, text] = s.note ? s.note.split(/:(.*)/) : []; return `
+    <div class="hud"><span class="pill gold">🔥 ${s.streak}</span><span class="sp"></span><span class="pill">❄ ${s.freezes}</span><span class="pill gold">● ${s.coins}</span></div>
+    <div class="panel center"><div class="big ${s.done ? 'pop' : ''}" style="color:${s.done ? 'var(--gold)' : 'var(--muted)'}">🔥 ${s.streak}</div><p class="muted">day streak · best ${s.best}</p>${weekRow(s.marks, s.day % 7)}</div>
+    ${text ? `<div class="msg ${kind} pop">${text}</div>` : ''}
+    <div class="grow"></div>
+    <div class="stack"><button class="btn pri" data-do="lesson">Finish a Lesson</button><button class="btn" data-do="buy" ${s.coins < 20 ? 'disabled' : ''}>Buy a streak freeze · 20 Coins</button></div>`; },
+  show: (s) => ({ Day: DAYS[s.day % 7] + ' (day ' + (s.day + 1) + ')', 'Lesson done today': s.done ? 'yes' : 'no', Streak: s.streak, 'Best streak': s.best, Freezes: s.freezes, Coins: s.coins }),
+};
+
+// ---- B. Daily goal: a ring the player sizes, and a week tally. Nothing is lost on a missed day.
+const B = {
+  key: 'B', name: 'Daily goal ring',
+  why: 'The player picks how much a day is (one, two or three Lessons). A ring fills today; the week shows how many days met the goal. A missed day costs nothing.',
+  risk: 'without a chain there is less pull to open the game on a tired day.',
+  src: 'Evidence: Duolingo reports that separating the streak from the daily goal raised day-14 retention by 3.3% (company self-report).',
+  tryIt: ['Pick a goal, finish Lessons until the ring closes.', 'Skip two days: does anything feel lost?', 'Change the goal mid-week.', 'Would "4 of 7 days" bring you back?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => ({ day: 0, goal: 20, xp: 0, total: 0, marks: [], met: 0 }),
+  actions: {
+    goal(s, n) { s.goal = +n; },
+    lesson(s) { const was = s.xp >= s.goal; s.xp += 10; s.total += 10; if (!was && s.xp >= s.goal) { s.marks[s.day % 7] = 'on'; s.met++; } },
+    next(s) { s.day++; s.xp = 0; if (s.day % 7 === 0) { s.marks = []; s.met = 0; } },
+  },
+  view: (s) => { const p = Math.min(1, s.xp / s.goal); const C = 2 * Math.PI * 54; return `
+    <div class="hud"><span class="pill cy">${s.total} XP</span><span class="sp"></span><span class="pill">${s.met} of 7 days</span></div>
+    <div class="panel center"><svg width="150" height="150" viewBox="0 0 130 130"><circle cx="65" cy="65" r="54" fill="none" stroke="#2b3157" stroke-width="12"/><circle cx="65" cy="65" r="54" fill="none" stroke="${p >= 1 ? '#fcee0a' : '#00f0ff'}" stroke-width="12" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C * (1 - p)}" transform="rotate(-90 65 65)" style="transition:stroke-dashoffset .5s"/><text x="65" y="62" text-anchor="middle" fill="#e8f0ff" font-size="24" font-weight="700">${s.xp}</text><text x="65" y="82" text-anchor="middle" fill="#8d95b5" font-size="12">of ${s.goal} XP today</text></svg>
+      ${p >= 1 ? '<div class="msg gold pop">Goal met. Anything more today is extra.</div>' : ''}</div>
+    <div class="panel"><p class="muted" style="margin:0 0 8px">This week</p>${weekRow(s.marks, s.day % 7)}</div>
+    <div class="panel"><p class="muted" style="margin:0 0 8px">My day is</p><div class="row">${[[10, 'Light'], [20, 'Steady'], [30, 'Serious']].map(([n, l]) => `<button class="btn ${s.goal === n ? 'pri' : ''}" data-do="goal" data-arg="${n}">${l}<br><small>${n / 10} Lesson${n > 10 ? 's' : ''}</small></button>`).join('')}</div></div>
+    <div class="grow"></div><button class="btn pri" data-do="lesson">Finish a Lesson · +10 XP</button>`; },
+  show: (s) => ({ Day: DAYS[s.day % 7] + ' (day ' + (s.day + 1) + ')', 'Goal per day': s.goal + ' XP', 'XP today': s.xp, 'Days met this week': s.met, 'XP in total': s.total }),
+};
+
+// ---- C. Daily quests: three small jobs a day, a chest for all three.
+const POOL = [['lessons', 'Finish 2 Lessons', 2], ['combo', 'Get 5 right in a row', 5], ['review', 'Review 3 Cards', 3], ['perfect', 'Pass a Fare with no miss', 1], ['lessons', 'Finish 1 Lesson', 1]];
+const deal = () => [...POOL].sort(() => Math.random() - .5).filter((q, i, a) => a.findIndex((x) => x[0] === q[0]) === i).slice(0, 3).map(([kind, text, need]) => ({ kind, text, need, have: 0 }));
+const C = {
+  key: 'C', name: 'Three quests and a chest',
+  why: 'Each day deals three small jobs that point at different parts of the game (Lessons, Combo, Review). Finishing all three opens a chest with a surprise number of Coins.',
+  risk: 'jobs can pull the player to grind an easy Lesson for a tick; a random chest is the mechanic closest to gambling.',
+  src: 'Evidence: thin. Rewards for showing up lowered intrinsic motivation, d = -0.40 (Deci, Koestner and Ryan 1999, abstract only). No primary evidence was found for chests; the research note advises against random ones.',
+  tryIt: ['Do what the quests ask, open the chest.', 'Go to tomorrow with one quest unfinished.', 'Does a quest ever make you do something you would not have chosen?', 'Does the random amount feel fun or cheap?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => ({ day: 0, quests: deal(), chest: 'shut', won: 0, coins: 30, combo: 0, chests: 0 }),
+  actions: {
+    bump(s, kind) { for (const q of s.quests) if (q.kind === kind) q.have = Math.min(q.need, q.have + 1); if (s.chest === 'shut' && s.quests.every((q) => q.have >= q.need)) s.chest = 'ready'; },
+    lesson(s) { C.actions.bump(s, 'lessons'); for (let i = 0; i < 4; i++) C.actions.right(s); },
+    right(s) { s.combo++; for (const q of s.quests) if (q.kind === 'combo') q.have = Math.min(q.need, Math.max(q.have, s.combo)); C.actions.bump(s, '_'); },
+    miss(s) { s.combo = 0; for (const q of s.quests) if (q.kind === 'combo' && q.have < q.need) q.have = 0; },
+    review(s) { C.actions.bump(s, 'review'); },
+    fare(s) { C.actions.bump(s, 'perfect'); },
+    open(s) { s.won = rnd(8, 30); s.coins += s.won; s.chest = 'open'; s.chests++; },
+    next(s) { s.day++; s.quests = deal(); s.chest = 'shut'; s.won = 0; s.combo = 0; },
+  },
+  view: (s) => `
+    <div class="hud"><span class="pill">Combo ×${s.combo}</span><span class="sp"></span><span class="pill gold">● ${s.coins}</span></div>
+    <div class="panel"><h4>Today's quests</h4><div class="stack">${s.quests.map((q) => `<div><div class="row"><span>${q.have >= q.need ? '✓ ' : ''}${q.text}</span><span class="muted">${q.have}/${q.need}</span></div><div class="bar ${q.have >= q.need ? 'gold' : ''}"><i style="width:${(q.have / q.need) * 100}%"></i></div></div>`).join('')}</div></div>
+    <div class="panel center">${s.chest === 'open' ? `<div class="big pop">🎁</div><div class="msg gold pop">+${s.won} Coins</div>` : s.chest === 'ready' ? `<div class="big pop">🧰</div><button class="btn gold" data-do="open">Open the chest</button>` : `<div class="big" style="opacity:.35">🧰</div><p class="muted">Finish all three to open it</p>`}</div>
+    <div class="grow"></div>
+    <div class="stack"><button class="btn pri" data-do="lesson">Finish a Lesson (4 right answers)</button><div class="row"><button class="btn" data-do="review">Review a Card</button><button class="btn" data-do="fare">Pass a Fare clean</button><button class="btn" data-do="miss">Miss one</button></div></div>`,
+  show: (s) => ({ Day: DAYS[s.day % 7] + ' (day ' + (s.day + 1) + ')', Quests: s.quests.map((q) => `${q.have}/${q.need}`).join(' · '), Chest: s.chest, Combo: s.combo, Coins: s.coins, 'Chests opened': s.chests }),
+};
+
+// ---- D. Weekly rhythm: added after the research. A streak counted in weeks, with slack inside each week.
+const D = {
+  key: 'D', name: 'Weekly rhythm (from the research)',
+  why: 'A streak counted in weeks, not days. Play on any four days of the seven and the week counts. Three days off cost nothing, which fits Review Cards that come back on days 1, 3, 7, 16 and 35 rather than daily.',
+  risk: 'a week is a long time to wait for the number to move; the pull on any single day is weaker.',
+  src: 'Evidence: research shortlist item 3. Streaks work when easy to extend and repairable (Duolingo, company self-report); a weekly count builds the repair in.',
+  tryIt: ['Play four days, skip three, start the next week.', 'Miss the target by one day: how does that feel next to a broken daily streak?', 'Is four days the right bar for you? Three? Five?', 'Compare with A: which would you still be keeping in two months?'],
+  sim: { 'Go to tomorrow': 'next' },
+  init: () => ({ day: 0, done: false, marks: [], played: 0, weeks: 0, best: 0, note: '' }),
+  actions: {
+    lesson(s) { if (!s.done) { s.done = true; s.played++; s.marks[s.day % 7] = 'on'; s.note = s.played === 4 ? 'ok:Week kept. Anything more is extra.' : s.played < 4 ? `info:${4 - s.played} more day${4 - s.played > 1 ? 's' : ''} this week.` : ''; } },
+    next(s) { s.day++; s.done = false; s.note = ''; if (s.day % 7 === 0) { if (s.played >= 4) { s.weeks++; s.best = Math.max(s.best, s.weeks); s.note = `ok:${s.weeks} week${s.weeks > 1 ? 's' : ''} in a row.`; } else { if (s.weeks) s.note = `bad:Last week had ${s.played} of 4 days. The run of ${s.weeks} weeks ended.`; s.weeks = 0; } s.marks = []; s.played = 0; } },
+  },
+  view: (s) => { const [kind, text] = s.note ? s.note.split(/:(.*)/) : []; const left = 7 - (s.day % 7); return `
+    <div class="hud"><span class="pill gold">${s.weeks} week${s.weeks === 1 ? '' : 's'}</span><span class="sp"></span><span class="pill">best ${s.best}</span></div>
+    <div class="panel center"><div class="big" style="color:${s.played >= 4 ? 'var(--gold)' : 'var(--text)'}">${Math.min(s.played, 4)}<span style="font-size:22px;color:var(--muted)"> of 4</span></div><p class="muted">days this week · ${left} day${left > 1 ? 's' : ''} left${s.played < 4 && 4 - s.played > left ? ' · out of reach now' : ''}</p>${weekRow(s.marks, s.day % 7)}</div>
+    ${text ? `<div class="msg ${kind} pop">${text}</div>` : ''}<div class="grow"></div><button class="btn pri" data-do="lesson">Finish a Lesson</button>`; },
+  show: (s) => ({ Day: DAYS[s.day % 7] + ' (day ' + (s.day + 1) + ')', 'Lesson done today': s.done ? 'yes' : 'no', 'Days played this week': s.played + ' of 4 needed', 'Weeks in a row': s.weeks, 'Best run': s.best }),
+};
+
+Proto.start({ batch: 'Batch 1 · What brings me back tomorrow?', question: 'The game has no reason to open it on a given day. Four different pulls: a chain you protect, a goal you size yourself, a small set of jobs, or a weekly rhythm. Use "Go to tomorrow" beside the phone to live a week in a minute.', variants: [A, B, C, D] });
+</script></body></html>

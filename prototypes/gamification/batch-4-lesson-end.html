@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE batch 4: the end of a Lesson</title><link rel="stylesheet" href="kit.css"></head><body>
+<script src="kit.js"></script>
+<script>
+// PROTOTYPE, throwaway. The same finished Lesson, ended three ways.
+const { rnd } = Proto;
+// A finished Lesson to celebrate. "Play another" rolls a new one; the toggle makes it clean or not.
+const run = (clean) => { const wrong = clean ? 0 : rnd(1, 3); return { right: 8 - wrong, total: 8, wrong, secs: rnd(140, 380), combo: clean ? 8 : rnd(2, 5), xp: 20, coins: 8 - wrong, lessonNo: 2, of: 3 }; };
+const time = (t) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+const base = (more) => ({ r: run(true), clean: true, step: 0, ...more });
+const common = {
+  again(s) { const keep = { clean: s.clean }; Object.assign(s, base(), keep, { r: run(s.clean), step: 0, won: null, opened: false }); },
+  flip(s) { s.clean = !s.clean; common.again(s); },
+};
+
+// ---- A. The scoreboard: numbers revealed one by one.
+const A = {
+  key: 'A', name: 'Scoreboard',
+  why: 'The Lesson ends on its numbers: accuracy, time, best Combo, XP and Coins, revealed one tap at a time, with a line that names what was good about this run.',
+  risk: 'time and accuracy on show can turn a reading game into a speed test.',
+  src: 'Evidence: informative feedback raised intrinsic motivation, d = +0.33 (Deci, Koestner and Ryan 1999, abstract only).',
+  tryIt: ['Tap through the reveal.', 'Use "Make it a messy run" and see how three misses are shown.', 'Which number do you care about? Which is noise?', 'Is one tap per number fun, or should it all show at once?'],
+  sim: { 'Play another Lesson': 'again', 'Clean run / messy run': 'flip' },
+  init: () => base(),
+  actions: { ...common, more(s) { s.step = Math.min(4, s.step + 1); } },
+  view: (s) => { const r = s.r; const cells = [['Accuracy', Math.round((r.right / r.total) * 100) + '%'], ['Time', time(r.secs)], ['Best Combo', '×' + r.combo], ['Earned', `+${r.xp} XP · +${r.coins} ●`]];
+    const praise = r.wrong === 0 ? 'No misses. That is a clean Lesson.' : r.combo >= 4 ? `Your best run was ${r.combo} in a row.` : `${r.wrong} Card${r.wrong > 1 ? 's' : ''} will come back in Review.`;
+    return `<div class="center"><h4 style="font-size:22px;margin:10px 0 0">Lesson passed</h4><p class="muted">Getting Wealthy versus Staying Wealthy</p></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">${cells.map(([l, v], i) => `<div class="panel center ${i === s.step - 1 ? 'pop' : ''}" style="opacity:${i < s.step ? 1 : .18}"><p class="muted" style="margin:0">${l}</p><div style="font-size:22px;font-weight:700">${i < s.step ? v : '·'}</div></div>`).join('')}</div>
+      ${s.step >= 4 ? `<div class="msg ${r.wrong ? 'info' : 'gold'} pop">${praise}</div>` : ''}<div class="grow"></div>
+      ${s.step < 4 ? '<button class="btn pri" data-do="more">Next</button>' : '<button class="btn pri" data-do="again">Continue</button>'}`; },
+  show: (s) => ({ 'Right first time': s.r.right + ' of ' + s.r.total, Time: time(s.r.secs), 'Best Combo': s.r.combo, 'Numbers shown': s.step + ' of 4' }),
+};
+
+// ---- B. The chest: one tap, a surprise.
+const B = {
+  key: 'B', name: 'Chest',
+  why: 'Every finished Lesson gives a chest. A clean Lesson gives a gold one. You tap it and get a surprise amount of Coins; sometimes something rarer. The reward is the not knowing.',
+  risk: 'this is a variable reward, the mechanic slot machines use; it can pull attention from the content to the box.',
+  src: 'Evidence: none found for chests. The research note advises against random rewards.',
+  tryIt: ['Open five chests in a row. Still fun at the fifth?', 'Compare a clean run (gold chest) with a messy one.', 'Does the rare drop feel like a prize or a trick?', 'Would you finish a Lesson for the chest alone?'],
+  sim: { 'Play another Lesson': 'again', 'Clean run / messy run': 'flip' },
+  init: () => base({ opened: false, won: null, coins: 0, rare: 0, chests: 0 }),
+  actions: { ...common,
+    again(s) { const keep = { coins: s.coins, rare: s.rare, chests: s.chests, clean: s.clean }; Object.assign(s, base(), keep, { r: run(s.clean), opened: false, won: null }); },
+    flip(s) { s.clean = !s.clean; B.actions.again(s); },
+    open(s) { const gold = s.r.wrong === 0; const n = gold ? rnd(15, 40) : rnd(5, 18); const rare = Math.random() < (gold ? .3 : .08); s.won = { n, rare }; s.coins += n; if (rare) s.rare++; s.opened = true; s.chests++; },
+  },
+  view: (s) => { const gold = s.r.wrong === 0; return `<div class="hud"><span class="sp"></span><span class="pill gold">● ${s.coins}</span><span class="pill cy">◆ ${s.rare}</span></div>
+      <div class="center"><h4 style="font-size:22px;margin:6px 0 0">Lesson passed</h4><p class="muted">${gold ? 'No misses: a gold chest' : s.r.wrong + ' missed: a plain chest'}</p></div><div class="grow"></div>
+      <div class="panel center" style="border-color:${gold ? 'var(--gold)' : 'var(--line)'}">${s.opened ? `<div class="big pop">🎁</div><div class="msg gold pop" style="margin-top:10px">+${s.won.n} Coins</div>${s.won.rare ? '<div class="msg info pop" style="margin-top:8px">◆ A rare shard. Five make a Path colour.</div>' : ''}` : `<button data-do="open" style="all:unset;cursor:pointer;display:block;width:100%"><div class="big" style="font-size:80px;${gold ? 'filter:drop-shadow(0 0 16px #fcee0a)' : ''}">🧰</div><p class="muted">Tap to open</p></button>`}</div>
+      <div class="grow"></div><button class="btn pri" data-do="again" ${s.opened ? '' : 'disabled'}>Continue</button>`; },
+  show: (s) => ({ Chest: s.r.wrong === 0 ? 'gold (15 to 40 Coins, rare 30%)' : 'plain (5 to 18 Coins, rare 8%)', 'This chest': s.opened ? '+' + s.won.n + (s.won.rare ? ' and a shard' : '') : 'not opened', Coins: s.coins, 'Rare shards': s.rare + ' of 5', 'Chests opened': s.chests }),
+};
+
+// ---- C. The quiet one: where you are now, and what comes next.
+const C = {
+  key: 'C', name: 'Quiet and onward',
+  why: 'No numbers and no prize. One line says what you did, the Circle shows your place in it, and the button starts the next Lesson directly. The reward is momentum.',
+  risk: 'with nothing to mark the end, finishing can feel flat and the player may not notice progress.',
+  src: 'Evidence: research shortlist item 1. Naming the missed Cards and the next Review date is the top-ranked thing to test.',
+  tryIt: ['Tap "Next Lesson" three times: does the flow carry you?', 'Compare with the scoreboard: do you miss the numbers?', 'Is the line about Review useful or a nag?', 'After the third Lesson the Circle completes. Enough of a moment?'],
+  sim: { 'Play another Lesson': 'next', 'Clean run / messy run': 'flip' },
+  init: () => base({ at: 1 }),
+  actions: { ...common,
+    flip(s) { s.clean = !s.clean; s.r = run(s.clean); },
+    next(s) { s.at = s.at >= 3 ? 1 : s.at + 1; s.r = run(s.clean); },
+  },
+  view: (s) => { const names = ['Behaviour, luck and time', 'Getting Wealthy versus Staying Wealthy', 'Reasonable, with room for error']; const done = s.at >= 3;
+    return `<div class="grow"></div><div class="center"><div class="big pop" style="color:var(--gold);font-size:34px">${done ? 'Circle complete' : 'Lit'}</div><p style="margin:8px 0 0;font-weight:600">${names[s.at - 1]}</p></div>
+      <div class="panel"><div class="row" style="justify-content:center;gap:0">${[1, 2, 3].map((n) => `<span style="display:grid;place-items:center;width:44px;height:44px;border-radius:50%;font-weight:700;${n <= s.at ? 'background:var(--gold);color:var(--ink)' : n === s.at + 1 ? 'border:2px solid var(--accent);color:var(--accent)' : 'border:2px solid var(--line);color:var(--muted)'}" class="${n === s.at ? 'pop' : ''}">${n <= s.at ? '✓' : n}</span>${n < 3 ? `<span style="width:40px;height:4px;background:${n < s.at ? 'var(--gold)' : 'var(--line)'}"></span>` : ''}`).join('')}</div><p class="muted center" style="margin:10px 0 0">${s.at} of 3 Lessons in this Circle</p></div>
+      ${s.r.wrong ? `<p class="muted center" style="margin:0">${s.r.wrong} Card${s.r.wrong > 1 ? 's' : ''} you missed will be in tomorrow's Review.</p>` : ''}<div class="grow"></div>
+      <div class="stack"><button class="btn pri" data-do="next">${done ? 'Next Circle' : 'Next Lesson: ' + names[s.at]}</button><button class="btn ghost">Back to the Path</button></div>`; },
+  show: (s) => ({ 'Lesson in this Circle': s.at + ' of 3', 'Missed Cards going to Review': s.r.wrong, 'Shown to the player': 'place in the Circle, next Lesson' }),
+};
+
+Proto.start({ batch: 'Batch 4 · How should a Lesson end?', question: 'Today a passed Fare shows a badge icon, one line and a Back button. Three endings for the same Lesson: a scoreboard of your numbers, a chest with a surprise, or a quiet screen that carries you into the next Lesson.', variants: [A, B, C] });
+</script></body></html>

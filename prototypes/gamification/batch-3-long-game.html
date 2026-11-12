@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE batch 3: the long game</title><link rel="stylesheet" href="kit.css"></head><body>
+<script src="kit.js"></script>
+<script>
+// PROTOTYPE, throwaway. Three answers to "what am I building up over weeks, and what are Coins for?"
+const { DAYS, rnd } = Proto;
+
+// ---- A. Levels with titles: XP becomes a ladder of named ranks.
+const RANKS = ['Saver', 'Planner', 'Investor', 'Owner', 'Compounder', 'Allocator', 'Independent'];
+const need = (lvl) => 40 + lvl * 30; // XP to leave this level
+const A = {
+  key: 'A', name: 'Levels with titles',
+  why: 'XP stops being one long bar. It fills a level, the level has a name from the roadmap (Saver, Investor, Owner), and reaching the next one is a moment with its own screen.',
+  risk: 'levels reward time spent, not what you know; late levels take longer and can feel like a treadmill.',
+  src: 'Evidence: XP that can be ground gets gamed (Duolingo, company self-report). Levels reward time, so they inherit that.',
+  tryIt: ['Finish Lessons until you level up twice.', 'Do the titles mean anything to you?', 'Notice each level takes more XP. Motivating or tiring?', 'Would you want the title shown on the Profile?'],
+  init: () => ({ lvl: 0, xp: 0, total: 0, up: false }),
+  actions: {
+    lesson(s) { s.xp += 20; s.total += 20; s.up = false; while (s.xp >= need(s.lvl) && s.lvl < RANKS.length - 1) { s.xp -= need(s.lvl); s.lvl++; s.up = true; } },
+    ok(s) { s.up = false; },
+  },
+  view: (s) => s.up ? `<div class="grow"></div><div class="panel center pop"><p class="muted">Level ${s.lvl + 1}</p><div class="big" style="color:var(--gold);font-size:34px">${RANKS[s.lvl]}</div><p class="muted">You were a ${RANKS[s.lvl - 1]}. ${s.lvl < RANKS.length - 1 ? 'Next: ' + RANKS[s.lvl + 1] + '.' : 'This is the last level.'}</p></div><div class="grow"></div><button class="btn pri" data-do="ok">Keep going</button>`
+    : `<div class="panel"><div class="row"><div><p class="muted" style="margin:0">Level ${s.lvl + 1}</p><h4 style="font-size:24px;margin:0;color:var(--gold)">${RANKS[s.lvl]}</h4></div><span class="pill cy">${s.total} XP</span></div><div class="bar" style="margin:12px 0 6px"><i style="width:${Math.min(100, (s.xp / need(s.lvl)) * 100)}%"></i></div><p class="muted" style="margin:0">${s.xp} of ${need(s.lvl)} XP${s.lvl < RANKS.length - 1 ? ' to ' + RANKS[s.lvl + 1] : ''}</p></div>
+      <div class="panel"><div class="stack">${RANKS.map((r, i) => `<div class="row" style="opacity:${i <= s.lvl ? 1 : .4}"><span>${i < s.lvl ? '✓' : i === s.lvl ? '▸' : '·'} ${r}</span><span class="muted">${i < s.lvl ? 'done' : need(i) + ' XP'}</span></div>`).join('')}</div></div>
+      <div class="grow"></div><button class="btn pri" data-do="lesson">Finish a Lesson · +20 XP</button>`,
+  show: (s) => ({ Level: (s.lvl + 1) + ' · ' + RANKS[s.lvl], 'XP in this level': s.xp + ' of ' + need(s.lvl), 'XP in total': s.total }),
+};
+
+// ---- B. A shop: Coins buy help and looks.
+const SKINS = { neon: ['#00f0ff', 'Neon'], ember: ['#ff7a2b', 'Ember'], moss: ['#2bff9a', 'Moss'], violet: ['#b76bff', 'Violet'] };
+const B = {
+  key: 'B', name: 'A shop for Coins',
+  why: 'Coins have counted up with nothing to spend them on. Here they buy two kinds of thing: help (a hint that removes a wrong option, a second try at a Fare) and looks (a colour for the Path).',
+  risk: 'buying hints with Coins lets the player pay to skip the thinking; prices need tuning or Coins are worthless again.',
+  src: 'Evidence: the research note advises against selling Hints. The one Coin sink it supports is a streak freeze (batch 1, A and D).',
+  tryIt: ['Earn Coins with Lessons, then buy a Path colour and wear it.', 'Buy a hint and use it on the sample question.', 'Which would you spend on first, help or looks?', 'Is anything missing that you would want to buy?'],
+  init: () => ({ coins: 25, hints: 0, retries: 0, owned: ['neon'], skin: 'neon', used: false }),
+  actions: {
+    lesson(s) { s.coins += 6; },
+    hint(s) { if (s.coins >= 8) { s.coins -= 8; s.hints++; } },
+    retry(s) { if (s.coins >= 15) { s.coins -= 15; s.retries++; } },
+    skin(s, k) { if (s.owned.includes(k)) s.skin = k; else if (s.coins >= 40) { s.coins -= 40; s.owned.push(k); s.skin = k; } },
+    use(s) { if (s.hints > 0 && !s.used) { s.hints--; s.used = true; } },
+    newq(s) { s.used = false; },
+  },
+  view: (s) => { const c = SKINS[s.skin][0]; return `
+    <div class="hud"><span class="pill gold">● ${s.coins}</span><span class="sp"></span><span class="pill">Hints ${s.hints}</span><span class="pill">Retries ${s.retries}</span></div>
+    <div class="panel center" style="border-color:${c}"><svg width="200" height="70" viewBox="0 0 200 70"><path d="M20 55 L70 20 L130 50 L180 15" fill="none" stroke="${c}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>${[[20, 55], [70, 20], [130, 50], [180, 15]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="9" fill="#0e0f1c" stroke="${c}" stroke-width="3"/>`).join('')}</svg><p class="muted" style="margin:4px 0 0">Your Path wears: ${SKINS[s.skin][1]}</p></div>
+    <div class="panel"><h4>Help</h4><div class="stack"><div class="row"><span>Hint<br><span class="muted">removes one wrong option</span></span><button class="btn" style="width:auto" data-do="hint" ${s.coins < 8 ? 'disabled' : ''}>8 Coins</button></div><div class="row"><span>Fare retry<br><span class="muted">a second go at a failed Fare</span></span><button class="btn" style="width:auto" data-do="retry" ${s.coins < 15 ? 'disabled' : ''}>15 Coins</button></div></div></div>
+    <div class="panel"><h4>Path colours</h4><div class="row">${Object.entries(SKINS).map(([k, [col, n]]) => `<button class="btn" style="border-color:${col};${s.skin === k ? 'background:' + col + ';color:#05060c' : ''}" data-do="skin" data-arg="${k}" ${!s.owned.includes(k) && s.coins < 40 ? 'disabled' : ''}>${n}<br><small>${s.owned.includes(k) ? (s.skin === k ? 'on' : 'wear') : '40'}</small></button>`).join('')}</div></div>
+    <div class="panel"><p class="muted" style="margin:0 0 8px">Sample Check: what does an index ETF buy?</p><div class="stack">${['One company the manager likes', 'A whole market at low cost', 'Only bonds'].map((o, i) => `<button class="btn opt" ${s.used && i === 2 ? 'disabled style="text-decoration:line-through"' : ''}>${o}</button>`).join('')}</div><div class="row" style="margin-top:8px"><button class="btn" data-do="use" ${s.hints && !s.used ? '' : 'disabled'}>Use a hint</button><button class="btn ghost" data-do="newq">Next question</button></div></div>
+    <button class="btn pri" data-do="lesson">Finish a Lesson · +6 Coins</button>`; },
+  show: (s) => ({ Coins: s.coins, Hints: s.hints, 'Fare retries': s.retries, 'Colours owned': s.owned.map((k) => SKINS[k][1]).join(', '), Wearing: SKINS[s.skin][1] }),
+};
+
+// ---- C. Your past self: this week against last week, and personal bests.
+const C = {
+  key: 'C', name: 'Beat last week\'s you',
+  why: 'A league with one other player: you, seven days ago. A bar shows this week against the same point last week, and a short list keeps your records (longest Combo, most Lessons in a day).',
+  risk: 'a strong week makes the next one feel like a loss; a week off resets the bar so low that beating it means little.',
+  src: 'Evidence: research shortlist item 6. Personal bests are the solo stand-in for a league; leaderboards and fake opponents are advised against.',
+  tryIt: ['Do a few Lessons a day and move through the week.', 'Start a new week and try to stay ahead of the last one.', 'Have a lazy week, then see how easy the next one is.', 'Do the records make you want to break them?'],
+  sim: { 'Go to tomorrow': 'next', 'Jump to next week': 'week' },
+  init: () => ({ day: 0, cur: [0, 0, 0, 0, 0, 0, 0], prev: [20, 30, 0, 40, 20, 10, 30], today: 0, bests: { combo: 7, lessons: 3, week: 150 }, fresh: '' }),
+  actions: {
+    lesson(s) { s.cur[s.day] += 10; s.today++; s.fresh = ''; const c = rnd(3, 11); if (c > s.bests.combo) { s.bests.combo = c; s.fresh = 'combo'; } if (s.today > s.bests.lessons) { s.bests.lessons = s.today; s.fresh = 'lessons'; } const w = s.cur.reduce((a, b) => a + b, 0); if (w > s.bests.week) { s.bests.week = w; s.fresh = 'week'; } },
+    next(s) { s.fresh = ''; s.today = 0; if (s.day === 6) C.actions.week(s); else s.day++; },
+    week(s) { s.prev = s.cur; s.cur = [0, 0, 0, 0, 0, 0, 0]; s.day = 0; s.today = 0; s.fresh = ''; },
+  },
+  view: (s) => { const sum = (a, n) => a.slice(0, n + 1).reduce((x, y) => x + y, 0); const me = sum(s.cur, s.day), old = sum(s.prev, s.day), max = Math.max(me, old, 1), d = me - old; const full = s.prev.reduce((a, b) => a + b, 0);
+    const rec = (k, label, v) => `<div class="row"><span>${label}</span><span class="${s.fresh === k ? 'pill gold pop' : 'pill'}">${v}${s.fresh === k ? ' · new' : ''}</span></div>`;
+    return `<div class="panel"><h4>This week against last week</h4><p class="muted" style="margin:0 0 4px">You, by ${DAYS[s.day]}</p><div class="bar" style="height:16px"><i style="width:${(me / max) * 100}%"></i></div><p style="margin:2px 0 10px;font-weight:700">${me} XP</p>
+      <p class="muted" style="margin:0 0 4px">Last week's you, by ${DAYS[s.day]}</p><div class="bar gold" style="height:16px;opacity:.6"><i style="width:${(old / max) * 100}%"></i></div><p class="muted" style="margin:2px 0 0">${old} XP · finished the week on ${full}</p></div>
+      <div class="msg ${d > 0 ? 'ok' : d < 0 ? 'info' : 'info'}">${d > 0 ? `You are ${d} XP ahead of last week's you.` : d < 0 ? `${-d} XP to catch last week's you. One Lesson is 10.` : 'Level with last week\'s you.'}</div>
+      <div class="panel"><h4>Your records</h4><div class="stack">${rec('combo', 'Longest Combo', '×' + s.bests.combo)}${rec('lessons', 'Most Lessons in a day', s.bests.lessons)}${rec('week', 'Best week', s.bests.week + ' XP')}</div></div>
+      <div class="grow"></div><button class="btn pri" data-do="lesson">Finish a Lesson · +10 XP</button>`; },
+  show: (s) => ({ Day: DAYS[s.day], 'Lessons today': s.today, 'This week': s.cur.reduce((a, b) => a + b, 0) + ' XP', 'Last week': s.prev.reduce((a, b) => a + b, 0) + ' XP', 'Longest Combo': s.bests.combo, 'Most Lessons in a day': s.bests.lessons, 'Best week': s.bests.week + ' XP' }),
+};
+
+Proto.start({ batch: 'Batch 3 · What am I building up over weeks?', question: 'XP is one long bar and Coins buy nothing. Three directions for the long game: a ladder of named levels, a shop that gives Coins a use, or a race against your own last week. The game has no other players, so every option is solo.', variants: [A, B, C] });
+</script></body></html>
