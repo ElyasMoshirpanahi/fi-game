@@ -370,6 +370,45 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .fbico svg { width: 16px; height: 16px; }
 .feedback .msg { flex: 1; }
 .result { position: relative; overflow: hidden; }
+/* ---- spec 14: the end of a Lesson */
+.scoreboard { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 6px 0 14px; text-align: center; }
+.scorecell { display: grid; gap: 2px; padding: 12px 8px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel-2, transparent); animation: rise .35s ease-out both; animation-delay: calc(var(--i) * .22s + .15s); }
+.scorecell span { font-size: 12px; font-weight: 600; color: var(--muted); }
+.scorecell b { font-family: var(--hud-font); font-size: 20px; font-weight: 700; display: grid; }
+.scorecell b small { font-size: 15px; color: var(--gold); }
+.result .praise { margin: 0 0 18px; font-weight: 600; color: var(--text); animation: rise .35s ease-out both; animation-delay: calc(var(--i) * .22s + .15s); }
+.result .praise.gold { color: var(--gold); }
+.chest { width: 132px; height: 132px; margin: 8px auto 14px; display: grid; place-items: center; border-radius: var(--radius); color: var(--muted); background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--line); }
+.chest svg { width: 104px; height: 104px; overflow: visible; }
+.chest.gold { color: var(--gold); background: var(--gold-soft); box-shadow: inset 0 0 0 2px var(--gold), 0 0 34px color-mix(in srgb, var(--gold) 45%, transparent); }
+.chest:not(.open) { animation: chestwait 1.6s ease-in-out infinite; }
+.chest.open { animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
+.result .chestwon { margin: 0 0 8px; font-family: var(--hud-font); font-size: 34px; font-weight: 700; color: var(--gold); animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) .1s both; }
+.result .chestwon.counted { animation: bump .5s cubic-bezier(.2,1.6,.4,1); }
+.result .shardwon { margin: 0 0 18px; color: var(--accent-strong); font-weight: 600; animation: rise .35s ease-out .35s both; }
+@keyframes chestwait { 0%, 100% { transform: none; } 50% { transform: translateY(-4px) rotate(-1.5deg); } }
+@keyframes chestopen { from { transform: scale(.5); opacity: 0; } to { transform: none; opacity: 1; } }
+.onward .litword { color: var(--gold); font-size: 32px; }
+.place { display: flex; justify-content: center; align-items: center; margin: 10px 0 8px; }
+.place i { flex: none; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; font-style: normal; font-family: var(--hud-font); font-weight: 700; font-size: 18px; color: var(--muted); box-shadow: inset 0 0 0 2px var(--line); }
+.place i svg { width: 22px; height: 22px; }
+.place i.on { background: var(--gold); color: var(--ink); box-shadow: 0 0 16px color-mix(in srgb, var(--gold) 45%, transparent); }
+.place i.next { color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.place i.here { animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
+.place span { flex: 0 1 40px; min-width: 6px; height: 4px; background: var(--line); }
+.place span.on { background: var(--gold); }
+.place.many i { width: 36px; height: 36px; font-size: 15px; } .place.many i svg { width: 17px; height: 17px; }
+.result .placeline { margin: 0 0 18px; font-size: 14px; }
+.missed { text-align: start; margin: 0 0 18px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); }
+.missed .kicker { margin: 0 0 6px; }
+.missedlist { margin: 0 0 8px; padding: 0; list-style: none; display: grid; gap: 8px; }
+.missedlist li { max-height: 3.1em; overflow: hidden; font-size: 14px; line-height: 1.5; padding-inline-start: 10px; border-inline-start: 2px solid var(--accent); }
+.missed .help { margin: 0; font-size: 13px; }
+.result .actions.col { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.result .actions.col .continue { margin: 0; }
+.reviewfirst { display: contents; }
+.btn.then.continue { display: grid; gap: 2px; width: 100%; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+.shardcount { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-strong); }
 .confetti { position: absolute; inset: 0; pointer-events: none; }
 .confetti i { position: absolute; left: 50%; top: 38%; width: 8px; height: 12px; border-radius: 2px; background: var(--gold); opacity: 0; animation: burst 1.2s cubic-bezier(.2,.7,.3,1) .15s forwards; }
 .confetti i:nth-child(3n) { background: var(--accent); } .confetti i:nth-child(3n+1) { background: var(--gold-strong); } .confetti i:nth-child(4n) { border-radius: 50%; width: 9px; height: 9px; }
@@ -527,6 +566,13 @@ FI.content = (() => {
       offlineReady: 'Available offline', offlineBooks: 'books', offlineDownload: 'Download all books', offlineDownloading: 'Downloading', offlineFailed: 'could not be downloaded. Check the connection and try again.', offlineAll: 'All books are on this device.', bookOffline: 'This book is not on this device yet. Connect once to open it, or download all books while you are online.', install: 'Install the game', offlineFull: 'could not be stored. This browser’s storage is full or blocked.', installHint: 'To install: open the browser menu and choose “Add to Home Screen” or “Install”.',
       notes: 'Notes', notesKicker: 'Your page for this book', notesPrompt1: 'What does the book argue?', notesPrompt2: 'What will you do differently?', notesPrompt3: 'What do you disagree with?', notesPlaceholder: 'Write in any language. It saves as you type.', words: 'words', word: 'word', notesCount: 'notes', saveFailed: 'Not saved: this browser’s storage is full or blocked. Back up your progress now.', notesPage: 'about one page is', notesPrivate: 'Kept in this browser only. Included in your backup.', notesEdited: 'Last edited', notesInvite: 'Write your page of notes', notesDone: 'One page written',
       go: 'Start', combo: 'Combo',
+      accuracy: 'Accuracy', timeTaken: 'Time', bestCombo: 'Best Combo', earnedLabel: 'Earned',
+      praiseClean: 'No misses. That is a clean Lesson.', praiseCombo: 'Your best run was {n} right in a row.', praiseReview: 'The Cards you missed come back in Review.',
+      chestGold: 'No misses: a gold chest', chestPlain: 'A chest for finishing the Lesson', chestRange: 'It holds {lo} to {hi} Coins', chestShard: 'and one shard', openChest: 'Open the chest',
+      shardWon: 'One shard. Five make a Path colour.', shards: 'shards', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
+      missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.',
+      nextLesson: 'Next Lesson', replayDone: 'Played again. Nothing new to earn here.',
+      reviewFirst: 'First today', reviewCards: 'Review {n} Cards', aboutMin: 'about {n} min', thenLesson: 'Then',
       navLabel: 'Main', learn: 'Learn', profile: 'Profile', progress: 'Your progress', statCoins: 'Coins', statSections: 'Sections lit', statLessons: 'Lessons lit', badges: 'Badges', noBadges: 'No badges yet. Light a Station or finish a book to earn one.', settings: 'Settings', sound: 'Sound', device: 'This device', startReview: 'Start review', closeLabel: 'Close',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
@@ -561,6 +607,13 @@ FI.content = (() => {
       offlineReady: 'در دسترس بدون اینترنت', offlineBooks: 'کتاب', offlineDownload: 'دانلود همهٔ کتاب‌ها', offlineDownloading: 'در حال دانلود', offlineFailed: 'دانلود نشد. اتصال را بررسی کن و دوباره امتحان کن.', offlineAll: 'همهٔ کتاب‌ها روی این دستگاه هستند.', bookOffline: 'این کتاب هنوز روی این دستگاه نیست. یک بار با اینترنت بازش کن، یا وقتی آنلاینی همهٔ کتاب‌ها را دانلود کن.', install: 'نصب بازی', offlineFull: 'ذخیره نشد. حافظهٔ این مرورگر پر یا مسدود است.', installHint: 'برای نصب: منوی مرورگر را باز کن و «افزودن به صفحهٔ اصلی» یا «نصب» را بزن.',
       notes: 'یادداشت‌ها', notesKicker: 'صفحهٔ تو برای این کتاب', notesPrompt1: 'کتاب چه می‌گوید؟', notesPrompt2: 'چه کاری را متفاوت انجام می‌دهی؟', notesPrompt3: 'با چه چیزی مخالفی؟', notesPlaceholder: 'به هر زبانی بنویس. هم‌زمان با نوشتن ذخیره می‌شود.', words: 'واژه', word: 'واژه', notesCount: 'یادداشت', saveFailed: 'ذخیره نشد: حافظهٔ این مرورگر پر یا مسدود است. همین حالا از پیشرفتت پشتیبان بگیر.', notesPage: 'حدود یک صفحه یعنی', notesPrivate: 'فقط در همین مرورگر می‌ماند. در پشتیبان تو هم هست.', notesEdited: 'آخرین ویرایش', notesInvite: 'صفحهٔ یادداشتت را بنویس', notesDone: 'یک صفحه نوشته شد',
       go: 'شروع', combo: 'پیاپی',
+      accuracy: 'دقت', timeTaken: 'زمان', bestCombo: 'بهترین پیاپی', earnedLabel: 'به‌دست‌آمده',
+      praiseClean: 'بدون خطا. یک درس پاکیزه.', praiseCombo: 'بهترین رشته‌ات {n} پاسخ درست پشت سر هم بود.', praiseReview: 'کارت‌های ازدست‌رفته در مرور برمی‌گردند.',
+      chestGold: 'بدون خطا: صندوق طلایی', chestPlain: 'صندوقی برای تمام‌کردن درس', chestRange: '{lo} تا {hi} سکه در آن است', chestShard: 'و یک تکه', openChest: 'صندوق را باز کن',
+      shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
+      missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.',
+      nextLesson: 'درس بعدی', replayDone: 'دوباره بازی شد. اینجا چیز تازه‌ای برای به‌دست‌آوردن نیست.',
+      reviewFirst: 'اول امروز', reviewCards: 'مرور {n} کارت', aboutMin: 'حدود {n} دقیقه', thenLesson: 'سپس',
       navLabel: 'ناوبری', learn: 'یادگیری', profile: 'نمایه', progress: 'پیشرفت تو', statCoins: 'سکه', statSections: 'بخش‌های روشن', statLessons: 'درس‌های روشن', badges: 'نشان‌ها', noBadges: 'هنوز نشانی نیست. یک ایستگاه را روشن کن یا یک کتاب را تمام کن.', settings: 'تنظیمات', sound: 'صدا', device: 'این دستگاه', startReview: 'شروع مرور', closeLabel: 'بستن',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
@@ -945,7 +998,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -958,7 +1011,9 @@ FI.engine = (() => {
     checklists: { before: [false, false, false], after: [false, false, false] },
     shelf: {}, milestone: false, bookmarks: [], deck: {}, reviewed: null, lastBackup: null, notes: {}, lastSection: null,
     notesFor: null, // the book whose Notes page is open
-    combo: 0, // right answers in a row; feedback only, never saved
+    combo: 0, // right answers in a row; never saved. It sets what a first right answer pays (ADR-0012)
+    earned: 0, shards: 0, owed: null, // Coins earned in total (`coins` is what is held); shards from gold chests; a chest won and not yet opened
+    paid: 0, tally: null, end: null, // Coins paid by this reduce; the running count of the Lesson being played; the screens that end it
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
@@ -981,8 +1036,50 @@ FI.engine = (() => {
     }
     return null;
   }
-  // Combo: right answers in a row, in Lessons and in Review. It pays nothing.
-  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); };
+  // Combo: right answers in a row, in Lessons and in Review.
+  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); if (s.tally) { s.tally.run += 1; s.tally.best = Math.max(s.tally.best, s.tally.run); } };
+  const comboDown = (s) => { s.combo = 0; if (s.tally) s.tally.run = 0; };
+  // ---- Spec 14, release 1: the Combo pays, and a passed Lesson ends on a scoreboard, a chest and an onward screen.
+  // The nth right answer in a row pays 1, 1, 2, 2, 3 and so on. A Check still pays once, so a replay pays nothing.
+  // The Combo runs on across Lessons and Review, so the pay stops at COMBO_PAY_MAX.
+  const COMBO_PAY_MAX = 5;
+  const comboPay = (n) => Math.min(COMBO_PAY_MAX, 1 + Math.floor((Math.max(1, n) - 1) / 2));
+  const CLEAN_BONUS = 10;
+  const CHEST = { gold: [15, 40], plain: [5, 18] }; // the range is shown before the chest is opened
+  const pay = (s, n) => { s.coins += n; s.earned += n; s.paid += n; s.events.push('coin'); if (s.tally) s.tally.coins += n; };
+  // Review is offered with an honest estimate: about half a minute a Card.
+  const reviewMinutes = (n) => Math.max(1, Math.round(n / 2));
+  // The count a Lesson keeps while it is played. `at` is a time sent by the app; the engine never reads the clock.
+  const begin = (s, id, at) => { s.tally = { seen: {}, run: 0, best: 0, coins: 0, xp0: s.xp, at: Number.isFinite(at) ? at : null, replay: !!(s.lit[id] || s.farePassed[id]), missed: [] }; };
+  const mark = (s, checkId, ok) => { if (s.tally && (!ok || s.tally.seen[checkId] === undefined)) s.tally.seen[checkId] = ok; };
+  // Pay the chest that is owed. `roll` is a number from 0 up to 1 drawn by the app; without one the chest pays its low end.
+  function openChest(s, roll) {
+    const o = s.owed;
+    if (!o) return 0;
+    const r = Number.isFinite(roll) ? Math.min(0.999999, Math.max(0, roll)) : 0;
+    const won = o.lo + Math.floor(r * (o.hi - o.lo + 1));
+    s.owed = null;
+    pay(s, won);
+    if (o.gold) { s.shards += 1; s.events.push('shard'); }
+    return won;
+  }
+  // Called once the Fare is passed and the Station is lit, so the XP of this Lesson is already counted.
+  function finish(s, at) {
+    const t = s.tally; const id = s.stationId;
+    if (!t || t.replay) { s.end = { step: 'onward', replay: true }; return; }
+    const firsts = Object.values(t.seen);
+    const clean = firsts.length > 0 && firsts.every(Boolean);
+    if (clean && !s.awarded[`clean:${id}`]) { s.awarded[`clean:${id}`] = true; pay(s, CLEAN_BONUS); }
+    let chest = null;
+    if (!s.awarded[`chest:${id}`]) {
+      const [lo, hi] = clean ? CHEST.gold : CHEST.plain;
+      s.awarded[`chest:${id}`] = true; s.owed = { lo, hi, gold: clean };
+      chest = { lo, hi, gold: clean, open: false, won: 0 };
+    }
+    s.end = { step: 'score', replay: false, right: firsts.filter(Boolean).length, total: firsts.length, best: t.best, clean,
+      secs: t.at !== null && Number.isFinite(at) ? Math.max(0, Math.round((at - t.at) / 1000)) : null,
+      xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest };
+  }
 
   // ---- Shape of saved progress. A saved document or a backup is foreign text: every durable key is
   // checked before it reaches state, so a damaged or hostile file can neither crash render nor inject markup.
@@ -996,7 +1093,8 @@ FI.engine = (() => {
   const isCheck = (k) => k === null || (isMap(k) && isText(k.id) && ['tap', 'tf', 'order'].includes(k.type) && isPair(k.prompt)
     && (k.options === null || listOf(isPair)(k.options)) && (isFlag(k.answer) || isCount(k.answer) || listOf(isCount)(k.answer)));
   const SHAPE = {
-    mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount,
+    mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount, earned: isCount, shards: (v) => Number.isInteger(v) && v >= 0,
+    owed: (v) => v === null || (isMap(v) && Number.isInteger(v.lo) && Number.isInteger(v.hi) && v.lo >= 0 && v.hi >= v.lo && v.hi <= 500 && isFlag(v.gold)),
     awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
     run: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos)),
     checklists: mapOf(listOf(isFlag)), journal: mapOf(isText), habits: mapOf(listOf(isFlag)), habitsWeek: isText,
@@ -1041,6 +1139,7 @@ FI.engine = (() => {
     if (!card || card.kind !== 'card') return;
     if (!s.deck[cardId]) s.deck[cardId] = newEntry(s, stationId, cardId, card.text);
     refresh(s, content, cardId, checkId);
+    if (reason === 'missed' && s.tally && !s.tally.missed.includes(cardId)) s.tally.missed.push(cardId);
     const entry = s.deck[cardId];
     // A miss restarts the ladder. A Card already due stays due: a miss must not push it out of today's Review.
     if (reason === 'missed') { entry.missed = true; entry.box = 0; if (entry.due > s.today) entry.due = s.today + LADDER[0]; } else entry.marked = true;
@@ -1061,11 +1160,11 @@ FI.engine = (() => {
     if (ok) {
       // One Coin per Card and ladder step, ever: leaving and rejoining the Deck cannot farm Coins.
       const paid = `review:${cardId}:${entry.box}`;
-      if (!s.awarded[paid]) { s.awarded[paid] = true; s.coins += 1; s.events.push('coin'); }
+      if (!s.awarded[paid]) { s.awarded[paid] = true; pay(s, 1); }
       if (answered) { s.events.push('correct'); comboUp(s); }
       entry.box += 1;
       if (entry.box >= LADDER.length) { delete s.deck[cardId]; s.review.retired = true; } else { entry.due = s.today + LADDER[entry.box]; s.review.nextIn = LADDER[entry.box]; }
-    } else { entry.box = 0; entry.due = s.today + LADDER[0]; if (answered) { s.combo = 0; s.events.push('wrong'); } }
+    } else { entry.box = 0; entry.due = s.today + LADDER[0]; if (answered) { comboDown(s); s.events.push('wrong'); } }
     s.review.phase = 'result'; s.review.ok = ok;
   }
   const indexIn = (content, stationId, id) => content.station(stationId).items.findIndex((i) => i.id === id);
@@ -1121,6 +1220,8 @@ FI.engine = (() => {
   }
 
   function leave(s) {
+    openChest(s); // a chest won and not opened is never lost
+    s.tally = null; s.end = null;
     s.screen = 'path'; s.stationId = null; s.phase = null; s.current = null;
     s.queue = []; s.returns = []; s.fare = null; s.fareAttempt = 0; s.hint = false; s.misses = 0; s.run = null; s.review = null; s.notesFor = null;
     return s;
@@ -1146,7 +1247,7 @@ FI.engine = (() => {
 
   function reduce(prev, action, content) {
     const s = JSON.parse(JSON.stringify(prev));
-    s.events = [];
+    s.events = []; s.paid = 0;
     switch (action.type) {
       case 'SET_MODE':
         if (MODES.includes(action.value)) s.mode = action.value;
@@ -1162,6 +1263,9 @@ FI.engine = (() => {
         }
         if (!MODES.includes(s.mode)) s.mode = 'EN';
         migrateLegacy(s, content);
+        // A save from before Coins could be spent holds one number: it is both what is held and what was earned (ADR-0012).
+        if (d.earned === undefined || bad.includes('earned') || s.earned < s.coins) s.earned = s.coins;
+        openChest(s); s.events = []; s.paid = 0; // a chest won before a reload is paid, quietly
         // Resume at the saved position (owner decision after the Prompt 0 play-test). Returns and Fare are not resumed.
         if (d.run && !bad.includes('run') && !LEGACY_BOOK.test(d.run.stationId) && content.station(d.run.stationId) && content.station(d.run.stationId).items) {
           const st = content.station(d.run.stationId);
@@ -1169,6 +1273,7 @@ FI.engine = (() => {
           leave(s);
           s.lastSection = sectionIdOf(content, st.id); // a save from before Continue existed has none
           s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos, returning: false };
+          begin(s, st.id, action.at);
           s.queue = st.items.slice(pos).map((i) => i.id);
           return advance(s, content);
         }
@@ -1180,6 +1285,7 @@ FI.engine = (() => {
         leave(s);
         s.lastSection = sectionIdOf(content, st.id);
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: 0, returning: false };
+        begin(s, st.id, action.at);
         s.queue = st.items.map((i) => i.id);
         return advance(s, content);
       }
@@ -1192,6 +1298,7 @@ FI.engine = (() => {
         leave(s);
         s.lastSection = sectionIdOf(content, st.id);
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: idx, returning: false };
+        begin(s, st.id, action.at);
         s.queue = st.items.slice(idx).map((i) => i.id);
         return advance(s, content);
       }
@@ -1297,24 +1404,25 @@ FI.engine = (() => {
         const k = content.item(s.stationId, s.current);
         const ok = same(action.value, k.answer);
         if (s.phase === 'check') {
+          mark(s, k.id, ok);
           if (ok) {
-            if (!s.awarded[k.id]) {
-              s.awarded[k.id] = true; s.coins += 1;
-              s.rings[s.stationId] = (s.rings[s.stationId] || 0) + 1;
-              s.events.push('coin');
-            }
             s.phase = 'correct'; s.events.push('correct'); comboUp(s);
+            if (!s.awarded[k.id]) {
+              s.awarded[k.id] = true; pay(s, comboPay(s.combo));
+              s.rings[s.stationId] = (s.rings[s.stationId] || 0) + 1;
+            }
             // A reload after Correct resumes on the next item, not on this Check.
             if (s.run && !s.run.returning) s.run.pos = indexIn(content, s.stationId, k.id) + 1;
           } else {
-            s.misses += 1; s.combo = 0; s.events.push('wrong');
+            s.misses += 1; comboDown(s); s.events.push('wrong');
             if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
             else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); s.events.push('revealed'); }
           }
           return s;
         }
         // Fare: no Hints, one attempt per question, result after the last one.
-        if (ok) comboUp(s); else { s.combo = 0; s.fare.missed.push(k.id); enqueue(s, content, s.stationId, k.source, 'missed', k.id); }
+        mark(s, k.id, ok);
+        if (ok) comboUp(s); else { comboDown(s); s.fare.missed.push(k.id); enqueue(s, content, s.stationId, k.source, 'missed', k.id); }
         s.events.push(ok ? 'correct' : 'wrong');
         s.fare.index += 1;
         if (s.fare.index < s.fare.questions.length) { s.current = s.fare.questions[s.fare.index]; return s; }
@@ -1323,6 +1431,7 @@ FI.engine = (() => {
           s.farePassed[s.stationId] = true;
           light(s, content, s.stationId);
           relight(s, content);
+          finish(s, action.at);
         } else {
           s.phase = 'fare-failed'; s.events.push('fare-failed');
         }
@@ -1336,8 +1445,20 @@ FI.engine = (() => {
           s.fare = null;
           return advance(s, content);
         }
-        if (s.phase === 'fare-passed') return leave(s);
+        if (s.phase === 'fare-passed') {
+          // The end of a Lesson: scoreboard, then the chest, then the onward screen, one tap each.
+          const e = s.end;
+          if (!e || e.step === 'onward') return leave(s);
+          e.step = e.step === 'score' && e.chest ? 'chest' : 'onward';
+        }
         return s;
+      case 'OPEN_CHEST': {
+        const e = s.end;
+        if (s.phase !== 'fare-passed' || !e || e.step !== 'chest' || !e.chest || e.chest.open) return s;
+        e.chest.won = openChest(s, action.value); e.chest.open = true;
+        s.events.push('chest');
+        return s;
+      }
       case 'SET_SLIDER': {
         const { key, value } = action.value || {};
         if (['capital', 'ret', 'expenses'].includes(key) && Number.isFinite(+value)) s.sliders[key] = +value;
@@ -1391,7 +1512,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes };
 })();
 </script>
 
@@ -1521,6 +1642,8 @@ FI.render = (() => {
     bookmarkOn: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
     check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
     chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>',
+    chest: '<svg viewBox="0 0 64 64"><path d="M9 31v-7a13 13 0 0 1 13-13h20a13 13 0 0 1 13 13v7z" fill="currentColor" opacity=".78"/><path d="M17 12.200h5V31h-5zM42 12.200h5V31h-5z" fill="currentColor" opacity=".5"/><path d="M14 22a9 9 0 0 1 9-7h6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".35"/><path d="M9 31h46v20a4 4 0 0 1-4 4H13a4 4 0 0 1-4-4z" fill="currentColor" opacity=".5"/><path d="M9 31h46v5H9z" fill="currentColor" opacity=".9"/><path d="M17 31h5v24h-5zM42 31h5v24h-5z" fill="currentColor" opacity=".45"/><rect x="26.500" y="27" width="11" height="13" rx="2.500" fill="var(--ink)" stroke="currentColor" stroke-width="2.500"/><circle cx="32" cy="32.500" r="1.800" fill="currentColor"/><path d="M32 33v3.500" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/></svg>',
+    chestOpen: '<svg viewBox="0 0 64 64"><g transform="rotate(-32 9 31) translate(0 -3)"><path d="M9 31v-7a13 13 0 0 1 13-13h20a13 13 0 0 1 13 13v7z" fill="currentColor" opacity=".78"/><path d="M17 12.200h5V31h-5zM42 12.200h5V31h-5z" fill="currentColor" opacity=".5"/><path d="M14 22a9 9 0 0 1 9-7h6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".35"/></g><g fill="var(--gold)" stroke="var(--ink)" stroke-width="1.500"><circle cx="20" cy="29" r="6"/><circle cx="44" cy="29" r="6"/><circle cx="32" cy="26" r="7.500"/><circle cx="26" cy="31" r="5"/><circle cx="39" cy="31.500" r="5"/></g><path d="M32 22.500v7M29.500 26h5" stroke="var(--ink)" stroke-width="1.500" stroke-linecap="round"/><path d="M9 31h46v20a4 4 0 0 1-4 4H13a4 4 0 0 1-4-4z" fill="currentColor" opacity=".5"/><path d="M9 31h46v5H9z" fill="currentColor" opacity=".9"/><path d="M17 31h5v24h-5zM42 31h5v24h-5z" fill="currentColor" opacity=".45"/></svg>',
     star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7 7 .6-5.3 4.6L18.5 22 12 18l-6.5 4 1.8-7.8L2 9.6 9 9z"/></svg>',
     book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h13a1 1 0 011 1v16a1 1 0 01-1 1H5z"/><path d="M5 3v18M9 7h6"/></svg>',
     home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11l8-7 8 7v9a1 1 0 01-1 1h-4v-6h-6v6H5a1 1 0 01-1-1z"/></svg>',
@@ -1565,7 +1688,7 @@ FI.render = (() => {
   function stats(s, content) {
     const secs = content.sections; const runs = secs.flatMap((sec) => sec.runs);
     const cell = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
-    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>`;
+    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>${s.shards ? `<p class="shardcount">◆ ${num(s.shards, s.mode)} ${t('shards', s.mode)}</p>` : ''}`;
   }
   // One row per Section: the jump sheet on a phone, the rail list on a desktop.
   const sectionRows = (s, content, onId, coverCls) => content.sections.map((sec, i) => `<button class="row ${sec.id === onId ? 'on' : ''}" data-sec="${esc(sec.id)}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, coverCls) : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(sec.runs.filter((u) => s.lit[u]).length, s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('');
@@ -1729,11 +1852,15 @@ FI.render = (() => {
   // ---- Continue and search on the Path (spec 7)
   function continueBlock(s, content) {
     const target = FI.engine.continueTarget(s, content);
-    if (!target) return `<p class="alllit">${ICONS.star}<span>${t('allLit', s.mode)}</span></p>`;
+    // Spec 14: no reminder can reach a closed game, so a due Review is offered first, with its size and an honest time.
+    const due = FI.engine.dueCount(s);
+    const fill = (key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
+    const review = due ? `<div class="reviewfirst"><button class="btn primary wide continue" ${A({ type: 'OPEN_REVIEW' })}><span class="ck">${t('reviewFirst', s.mode)}</span><b>${fill('reviewCards', { n: due })}</b><small>${fill('aboutMin', { n: FI.engine.reviewMinutes(due) })}</small></button></div>` : '';
+    if (!target) return `${review}<p class="alllit">${ICONS.star}<span>${t('allLit', s.mode)}</span></p>`;
     const st = content.station(target.stationId);
     const sec = content.sections.find((x) => x.id === target.sectionId);
     const where = sec.kind === 'book' ? `<span class="t-en" lang="en">${esc(sec.title)}</span>` : pair(sec.name, one(s.mode));
-    return `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: st.id })}><span class="ck">${t('continueTo', s.mode)}</span><b>${pair(st.name, one(s.mode))}</b><small>${where}</small></button>`;
+    return `${review}<button class="btn ${due ? 'then' : 'primary'} wide continue" ${A({ type: 'OPEN_STATION', value: st.id })}><span class="ck">${t(due ? 'thenLesson' : 'continueTo', s.mode)}</span><b>${pair(st.name, one(s.mode))}</b><small>${where}</small></button>`;
   }
   // The results under the search field; rewritten by patch() while the player types.
   // A few of each kind are shown, with a count of the rest, so Cards are never pushed out by Lessons.
@@ -2071,7 +2198,7 @@ FI.render = (() => {
   }
   function feedback(s, content, k) {
     if (s.phase === 'correct') {
-      const coin = s.events.includes('coin') ? `<small>+${num(1, s.mode)} ${t('coins', s.mode)}</small>` : '';
+      const coin = s.events.includes('coin') ? `<small>+${num(s.paid || 1, s.mode)} ${t('coins', s.mode)}</small>` : '';
       return `<div class="feedback ok" aria-live="polite"><span class="fbico">${ICONS.check}</span><span class="msg"><span>${t('correct', s.mode)}</span>${coin}</span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
     }
     if (s.phase === 'revealed') {
@@ -2094,8 +2221,44 @@ FI.render = (() => {
         : `<p class="inl">${t('badge', s.mode)}: ${pair(st.badge, one(s.mode))} · +${num(st.xp, s.mode)} ${t('xp', s.mode)}</p>`;
       const burst = s.events.includes('section') || s.events.includes('circle') || (s.events.includes('lit') && !st.book) ? confetti() : '';
       const back = (cls) => `<button class="btn primary${cls}" ${A({ type: 'CONTINUE' })} data-focus>${t('back', s.mode)}</button>`;
-      const invite = sec && s.lit[sec.id] ? `<div class="actions">${back(' wide')}<button class="btn soft wide" ${A({ type: 'OPEN_NOTES', value: sec.bookId })}>${ICONS.note}${t('notesInvite', s.mode)}</button></div>` : back('');
-      return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}${invite}</section>`;
+      const notesBtn = sec && s.lit[sec.id] ? `<button class="btn soft wide" ${A({ type: 'OPEN_NOTES', value: sec.bookId })}>${ICONS.note}${t('notesInvite', s.mode)}</button>` : '';
+      // Spec 14: scoreboard, then the chest, then the onward screen. One tap passes each.
+      const e = s.end || { step: 'onward', replay: true };
+      const fill = (key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
+      const go = `<button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button>`;
+      if (e.step === 'score') {
+        const two = (n) => num(Math.floor(n / 10), s.mode) + num(n % 10, s.mode);
+        const cells = [
+          [t('accuracy', s.mode), `${num(e.total ? Math.round((e.right / e.total) * 100) : 100, s.mode)}%`],
+          e.secs === null ? null : [t('timeTaken', s.mode), `${num(Math.floor(e.secs / 60), s.mode)}:${two(e.secs % 60)}`],
+          [t('bestCombo', s.mode), `×${num(e.best, s.mode)}`],
+          [t('earnedLabel', s.mode), `+${num(e.xp, s.mode)} ${t('xp', s.mode)}<small>+${num(e.coins, s.mode)} ●</small>`],
+        ].filter(Boolean);
+        const praise = e.clean ? t('praiseClean', s.mode) : e.best >= 4 ? fill('praiseCombo', { n: e.best }) : t('praiseReview', s.mode);
+        const board = `<div class="scoreboard">${cells.map(([label, v], i) => `<div class="scorecell" style="--i:${i}"><span>${label}</span><b>${v}</b></div>`).join('')}</div>`;
+        return `<section class="panel result">${burst}<div class="big">${ICONS.badge}</div><h2>${t('farePassed', s.mode)}</h2>${note}${board}<p class="praise ${e.clean ? 'gold' : ''}" style="--i:${cells.length}">${praise}</p><div class="actions col">${go}</div></section>`;
+      }
+      if (e.step === 'chest' && e.chest) {
+        const c = e.chest;
+        const range = `${fill('chestRange', { lo: c.lo, hi: c.hi })}${c.gold ? ` ${t('chestShard', s.mode)}` : ''}`;
+        const body = c.open
+          ? `<div class="chest ${c.gold ? 'gold' : 'plain'} open" aria-hidden="true">${ICONS.chestOpen}</div><p class="chestwon" aria-live="polite">+${num(c.won, s.mode)} ●</p>${c.gold ? `<p class="shardwon">◆ ${t('shardWon', s.mode)}</p>` : ''}<div class="actions col">${go}</div>`
+          : `<div class="chest ${c.gold ? 'gold' : 'plain'}" aria-hidden="true">${ICONS.chest}</div><p>${range}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'OPEN_CHEST' })} data-focus>${t('openChest', s.mode)}</button></div>`;
+        return `<section class="panel result"><h2>${t(c.gold ? 'chestGold' : 'chestPlain', s.mode)}</h2>${body}</section>`;
+      }
+      // Onward: where the player stands, what comes back in Review, and the next Lesson one tap away.
+      const group = circle ? circle.lessons : (content.sections.find((x) => x.runs.includes(st.id)) || { runs: [st.id] }).runs;
+      const nextId = group.find((l) => !s.lit[l]);
+      const placeLine = fill(circle ? 'placeCircle' : 'placeSection', { n: group.filter((l) => s.lit[l]).length, m: group.length });
+      const dots = `<div class="place${group.length > 4 ? ' many' : ''}" role="img" aria-label="${placeLine}">${group.map((l, i) => `<i class="${s.lit[l] ? 'on' : l === nextId ? 'next' : ''}${l === st.id ? ' here' : ''}">${s.lit[l] ? ICONS.check : num(i + 1, s.mode)}</i>${i < group.length - 1 ? `<span class="${s.lit[l] && s.lit[group[i + 1]] ? 'on' : ''}"></span>` : ''}`).join('')}</div><p class="placeline">${placeLine}</p>`;
+      const missed = (e.missed || []).filter((id) => s.deck[id]);
+      const missedBlock = missed.length ? `<div class="missed"><p class="kicker">${t('missedTitle', s.mode)}</p><ul class="missedlist">${missed.map((id) => `<li>${pair(s.deck[id].text, one(s.mode))}</li>`).join('')}</ul><p class="help">${t('backTomorrow', s.mode)}</p></div>` : '';
+      const target = FI.engine.continueTarget(s, content);
+      const next = target ? content.station(target.stationId) : null;
+      const nextBtn = next ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: next.id })} data-focus><span class="ck">${t('nextLesson', s.mode)}</span><b>${pair(next.name, one(s.mode))}</b></button>` : '';
+      const leaveBtn = `<button class="btn ${next ? 'soft' : 'primary'} wide" ${A({ type: 'CONTINUE' })}${next ? '' : ' data-focus'}>${t('back', s.mode)}</button>`;
+      const head = e.replay ? `<h2>${t('farePassed', s.mode)}</h2><p>${t('replayDone', s.mode)}</p>` : `<h2 class="litword">${t('lit', s.mode)}</h2><p class="inl">${pair(st.name, one(s.mode))}</p>`;
+      return `<section class="panel result"><div class="onward">${head}${dots}${missedBlock}</div><div class="actions col">${nextBtn}${leaveBtn}${notesBtn}</div></section>`;
     }
     return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
   }
@@ -2402,6 +2565,26 @@ FI.fx = (() => {
     lit: () => { [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) => tone(f, i * 0.08, 0.16, 'triangle', 0.07)); tone(261.63, 0, 0.6, 'sawtooth', 0.02); tone(2093, 0.4, 0.5, 'sine', 0.03); },
     'fare-failed': () => { tone(220, 0, 0.14, 'sawtooth', 0.04); tone(165, 0.14, 0.26, 'sawtooth', 0.04); },
     bookmark: () => { tone(880, 0, 0.06, 'triangle', 0.04); tone(1320, 0.05, 0.1, 'triangle', 0.04); },
+    // A lid thump, then Coins pouring: quick high pings that climb. A shard adds one long bright note.
+    chest: ({ shard, dur, clinks }) => {
+      tone(98, 0, 0.18, 'sawtooth', 0.05); tone(196, 0.02, 0.14, 'triangle', 0.05);
+      const from = 0.2;
+      for (let i = 0; i < clinks; i++) {
+        const p = i / Math.max(1, clinks - 1); // the pitch climbs faster near the top, as a bottle does when it is nearly full
+        const f = 520 * Math.pow(2, 2.1 * p * p + 0.5 * p);
+        tone(f, from + p * dur, 0.07, 'triangle', 0.05); tone(f * 2.01, from + p * dur + 0.012, 0.05, 'sine', 0.022);
+      }
+      const c = ac();
+      if (c) { // the hum of the pour underneath
+        const o = c.createOscillator(); const g = c.createGain(); const t0 = c.currentTime + from;
+        o.type = 'sine'; o.frequency.setValueAtTime(180, t0); o.frequency.exponentialRampToValueAtTime(900, t0 + dur);
+        g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.03, t0 + 0.08); g.gain.setValueAtTime(0.03, t0 + dur * 0.85); g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur + 0.05);
+        o.connect(g).connect(c.destination); o.start(t0); o.stop(t0 + dur + 0.1);
+      }
+      const end = from + dur + 0.06; // full: a bright chord
+      [1046.5, 1318.5, 1568, 2093].forEach((f, i) => tone(f, end + i * 0.05, 0.45, 'triangle', 0.05));
+      if (shard) { tone(2637, end + 0.3, 0.8, 'sine', 0.05); tone(3520, end + 0.4, 0.7, 'sine', 0.03); }
+    },
   };
 
   const still = () => { try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return true; } };
@@ -2491,7 +2674,31 @@ FI.fx = (() => {
     // Gains are shown only when they were earned by this move, not when progress was restored.
     const gained = before && !has('restored') ? state.xp - before.xp : 0;
     if (gained > 0) fly(reward('xp', gained, state.mode), '.xpnum', 'xp');
-    if (has('coin')) fly(reward('coin', 1, state.mode), '.coins');
+    if (has('coin')) fly(reward('coin', state.paid || 1, state.mode), '.coins');
+    if (has('chest')) {
+      // The Coins are counted up on screen while the sound pours: more Coins, a longer pour.
+      const won = state.end && state.end.chest ? state.end.chest.won : state.paid;
+      const dur = Math.min(2.8, Math.max(1.1, 0.5 + won * 0.06));
+      sound('chest', { shard: has('shard'), dur, clinks: Math.min(48, Math.max(6, won)) });
+      buzz([15, 30, 15, 30, 60], state); flashScreen('gold', 0.22);
+      const cx = window.innerWidth / 2, cy = window.innerHeight * 0.36;
+      burst(cx, cy, 50, ['gold', 'white'], 8);
+      const el = document.querySelector('.chestwon');
+      if (el && !still() && won > 0) {
+        const fmt = (n) => FI.content.fmt(n, state.mode === 'FA' ? 'FA' : 'EN');
+        const t0 = performance.now() + 200; el.textContent = `+${fmt(0)} \u25cf`; el.classList.add('counting');
+        const step = (now) => {
+          if (!el.isConnected) return;
+          const p = Math.min(1, Math.max(0, (now - t0) / (dur * 1000)));
+          el.textContent = `+${fmt(Math.round(won * p))} \u25cf`;
+          if (p < 1) { requestAnimationFrame(step); return; }
+          el.classList.remove('counting'); el.classList.add('counted');
+          burst(cx, cy, has('shard') ? 150 : 90, has('shard') ? ['gold', 'accent', 'white'] : ['gold', 'white'], 11);
+        };
+        requestAnimationFrame(step);
+      }
+      return;
+    }
     if (has('lit') || has('milestone')) {
       sound('lit'); buzz([20, 40, 20, 40, 70], state); flashScreen('gold', 0.28);
       const cx = window.innerWidth / 2, cy = window.innerHeight * 0.38;
@@ -2633,6 +2840,8 @@ FI.fx = (() => {
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp };
+    if (action.type === 'OPEN_CHEST') action = { ...action, value: Math.random() };
+    else if (action.type === 'OPEN_STATION' || action.type === 'OPEN_AT' || action.type === 'ANSWER') action = { ...action, at: Date.now() };
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));
     if (action.silent) render.patch(root, state, content, action); else paint();
