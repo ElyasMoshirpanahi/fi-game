@@ -77,9 +77,12 @@ Rules that hold for every release:
 - Price: a freeze costs about what a week of normal play earns. Tuned in the build.
 - Quests: three a day, dealt from learning acts only (finish a Lesson, five right in a row, pass a Fare clean, clear today's Review). The Review quest is dealt only when Cards are due. Unfinished quests vanish at the day change with no penalty. All three done opens the large chest, once.
 - The deal is random; the draw is passed in by the app.
-- The streak shows in the header and on the Profile; quests show on the Path above Continue and in the desktop Rail.
+- The streak shows in the header and on the Profile, with the last seven days. Quests show on the Path below Continue, so Continue stays the first tap, and in the desktop Rail. On a phone the header drops the XP number to make room; the XP bar stays.
+- When the player returns after missed days, the Path says once whether a freeze saved the streak or the streak ended.
 - At a 7-day streak the game shows the backup and install prompt once.
-- A streak-milestone screen joins the Lesson-end sequence after the chest when a milestone day is reached.
+- A streak screen joins the Lesson-end sequence after the chest on the first Lesson of each day, when the streak grows. Days 7, 14, 30, 50, 100, 200 and 365 get their own line. A replayed Lesson counts for the streak.
+- Quest needs: one Lesson, 5 right in a row, a Fare passed at the first try, 8 right answers, one Lesson with no wrong answer, today's Review. The chest pays 30 to 60 Coins. A quest chest earned and not opened is paid at its low end at the day change.
+- Price of a freeze: 250 Coins.
 
 ### Release 3: Hearts
 

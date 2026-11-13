@@ -85,7 +85,19 @@ _Avoid_: journal (the decision journal is a separate Tool for decisions, not boo
 
 **Combo**:
 Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is not saved. It sets what a first right answer to a Check pays in Coins (see Coin).
-_Avoid_: streak (a streak counts days; the day streak arrives with spec 14, release 2)
+_Avoid_: streak (a Streak counts days)
+
+**Streak**:
+Days in a row on which the player passed a Lesson or finished a Review. One of either counts a day, once. A missed day ends it unless a Freeze is held. The best Streak is kept.
+_Avoid_: combo (right answers in a row), chain, run
+
+**Freeze**:
+What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. There is no paid repair after a Streak has ended.
+_Avoid_: shield, repair, life
+
+**Quest**:
+One of three small jobs dealt each day from learning acts only. Unfinished Quests vanish at the day change with no penalty. All three done open the Quest Chest, once.
+_Avoid_: mission, task, challenge
 
 **Ring**:
 The circular progress indicator on a Station, filled by correct answers within that Station.

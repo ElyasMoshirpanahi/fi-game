@@ -147,7 +147,7 @@ describe('The chest', () => {
   });
 
   it('a replayed Lesson gives no chest, no Coins and no shard', () => {
-    let s = R(pass(FI.engine.initial(), 's1'), cont, { type: 'OPEN_CHEST', value: 0 }, cont, cont);
+    let s = R(pass(FI.engine.initial(), 's1'), cont, { type: 'OPEN_CHEST', value: 0 }, cont, cont, cont);
     expect(s.screen).toBe('path');
     const before = { coins: s.coins, shards: s.shards, xp: s.xp };
     s = pass(s, 's1');
@@ -159,11 +159,12 @@ describe('The chest', () => {
 });
 
 describe('The screens at the end of a Lesson', () => {
-  it('go scoreboard, chest, onward, Path with one tap each', () => {
+  it('go scoreboard, chest, streak (first Lesson of the day), onward, Path with one tap each', () => {
     let s = pass(FI.engine.initial(), 's1');
     expect(s.end.step).toBe('score');
     s = R(s, cont); expect(s.end.step).toBe('chest');
     s = R(s, { type: 'OPEN_CHEST', value: 0.3 }); expect(s.end.step).toBe('chest');
+    s = R(s, cont); expect(s.end.step).toBe('streak');
     s = R(s, cont); expect(s.end.step).toBe('onward');
     s = R(s, cont); expect(s.screen).toBe('path');
     expect(s.end).toBeNull();
@@ -195,7 +196,7 @@ describe('The screens at the end of a Lesson', () => {
   });
 
   it('the onward screen names the missed Card, says when it returns and starts the next Lesson', () => {
-    let s = R(pass(FI.engine.initial(), 's1', { miss: 1 }), cont, { type: 'OPEN_CHEST', value: 0 }, cont);
+    let s = R(pass(FI.engine.initial(), 's1', { miss: 1 }), cont, { type: 'OPEN_CHEST', value: 0 }, cont, cont);
     const out = html(s);
     expect(out).toContain('class="onward"');
     expect(out).toContain('class="missedlist"');

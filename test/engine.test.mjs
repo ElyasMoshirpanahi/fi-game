@@ -135,7 +135,7 @@ describe('A Station is Lit only after its Fare passes', () => {
     expect(s.lit.s1).toBe(true);
     expect(s.xp).toBeGreaterThan(0);
     expect(s.events).toContain('lit');
-    s = R(s, cont, cont, cont); // spec 14: scoreboard, chest, onward
+    s = R(s, cont, cont, cont, cont); // spec 14: scoreboard, chest, streak, onward
     expect(s.screen).toBe('path');
   });
 

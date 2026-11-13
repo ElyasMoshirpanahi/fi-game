@@ -408,6 +408,43 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .result .actions.col .continue { margin: 0; }
 .reviewfirst { display: contents; }
 .btn.then.continue { display: grid; gap: 2px; width: 100%; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+/* ---- spec 14, release 2: streak, freeze, quests */
+.streakchip { display: inline-flex; align-items: center; gap: 3px; font-family: var(--hud-font); font-weight: 700; font-size: 14px; color: var(--muted); }
+.streakchip svg { width: 16px; height: 16px; }
+.streakchip.on { color: #ff8a3d; filter: drop-shadow(0 0 6px color-mix(in srgb, #ff8a3d 60%, transparent)); }
+.streakchip.big { font-size: 26px; } .streakchip.big svg { width: 30px; height: 30px; }
+.streakhead { display: flex; align-items: center; gap: 12px; }
+.streakhead div { display: grid; flex: 1; } .streakhead small { color: var(--muted); font-size: 13px; }
+.streakhead .frz { display: inline-flex; align-items: center; gap: 4px; font-family: var(--hud-font); font-weight: 700; color: var(--accent-strong); }
+.streakhead .frz svg { width: 18px; height: 18px; }
+.week { display: flex; justify-content: space-between; gap: 6px; margin: 14px 0 4px; }
+.dayd { flex: 1; max-width: 40px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--line); color: var(--ink); }
+.dayd svg { width: 55%; height: 55%; }
+.dayd.on { background: #ff8a3d; box-shadow: none; }
+.dayd.frz { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); color: var(--accent-strong); }
+.dayd.now:not(.on) { box-shadow: inset 0 0 0 2px var(--text); }
+.result .week { max-width: 320px; margin: 6px auto 16px; }
+.streakpanel .help { margin: 12px 0 10px; font-size: 13px; }
+.streakpanel .btn svg, .questchest svg { width: 20px; height: 20px; margin-inline-end: 8px; vertical-align: -4px; }
+.streakpanel .btn[disabled] { opacity: .45; }
+.streakbig { display: grid; justify-items: center; margin: 4px 0 6px; color: #ff8a3d; filter: drop-shadow(0 0 18px color-mix(in srgb, #ff8a3d 55%, transparent)); animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
+.streakbig svg { width: 96px; height: 96px; } .streakbig b { font-family: var(--hud-font); font-size: 44px; line-height: 1; }
+.streakline { display: flex; justify-content: center; align-items: center; gap: 8px; font-weight: 600; }
+.quests { margin: 0 0 14px; }
+.quest { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; margin: 0 0 10px; font-size: 14px; }
+.quest .qt { display: inline-flex; align-items: center; gap: 6px; } .quest .qt svg { width: 16px; height: 16px; color: var(--gold); flex: none; }
+.quest .qt.done { color: var(--muted); }
+.quest .qn { font-family: var(--hud-font); font-weight: 700; color: var(--muted); }
+.qbar { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.qbar i { display: block; height: 100%; background: var(--gold); border-radius: 3px; transition: width .4s; }
+.quests .help { margin: 0; font-size: 13px; color: var(--muted); }
+.quests .chestwon { margin: 0; text-align: center; font-family: var(--hud-font); font-size: 24px; font-weight: 700; color: var(--gold); }
+.streaknote, .nudge7 { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); font-size: 14px; }
+.streaknote svg { width: 22px; height: 22px; flex: none; } .streaknote span, .nudge7 span { flex: 1; min-width: 180px; }
+.streaknote.frozen { border-color: var(--accent); color: var(--accent-strong); } .streaknote.lost { border-color: #ff8a3d; }
+.nudge7 { border-color: var(--gold); }
+@media (min-width: 1100px) { .quests.inmain { display: none; } }
+@media (max-width: 420px) { .top .xpnum { display: none; } .top .streakchip { margin-inline-start: auto; } }
 .shardcount { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-strong); }
 .confetti { position: absolute; inset: 0; pointer-events: none; }
 .confetti i { position: absolute; left: 50%; top: 38%; width: 8px; height: 12px; border-radius: 2px; background: var(--gold); opacity: 0; animation: burst 1.2s cubic-bezier(.2,.7,.3,1) .15s forwards; }
@@ -569,10 +606,16 @@ FI.content = (() => {
       accuracy: 'Accuracy', timeTaken: 'Time', bestCombo: 'Best Combo', earnedLabel: 'Earned',
       praiseClean: 'No misses. That is a clean Lesson.', praiseCombo: 'Your best run was {n} right in a row.', praiseReview: 'The Cards you missed come back in Review.',
       chestGold: 'No misses: a gold chest', chestPlain: 'A chest for finishing the Lesson', chestRange: 'It holds {lo} to {hi} Coins', chestShard: 'and one shard', openChest: 'Open the chest',
-      shardWon: 'One shard. Five make a Path colour.', shards: 'shards', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
+      shardWon: 'One shard. Five make a Path colour.', shards: 'shards', shardOne: 'shard', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
       missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.',
       nextLesson: 'Next Lesson', replayDone: 'Played again. Nothing new to earn here.',
       reviewFirst: 'First today', reviewCards: 'Review {n} Cards', aboutMin: 'about {n} min', thenLesson: 'Then',
+      streak: 'Streak', streakDays: '{n} day streak', streakBest: 'Best: {n}', streakKeep: 'One Lesson or one Review a day keeps it going.', streakMilestone: '{n} days in a row. That is a habit.', streakNow: 'Streak: {n}.',
+      last7: 'The last 7 days', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
+      noteFrozen: 'A freeze covered the time you were away. Your streak is safe.', noteLost: 'Your {n} day streak ended. A new one starts with your next Lesson.', ok: 'OK', later: 'Later',
+      nudge7: 'Seven days in a row. Your progress lives only in this browser: back it up so a lost phone cannot end it.',
+      questsTitle: 'Today\u2019s quests', quest_lesson: 'Finish a Lesson', quest_combo: 'Get {n} right in a row', quest_fare: 'Pass a Fare at the first try', quest_right: 'Answer {n} questions right', quest_clean: 'Finish a Lesson with no wrong answer', quest_review: 'Finish today\u2019s Review',
+      questChest: 'All three open a chest of {lo} to {hi} Coins', coinsEarned: 'Coins earned in total',
       navLabel: 'Main', learn: 'Learn', profile: 'Profile', progress: 'Your progress', statCoins: 'Coins', statSections: 'Sections lit', statLessons: 'Lessons lit', badges: 'Badges', noBadges: 'No badges yet. Light a Station or finish a book to earn one.', settings: 'Settings', sound: 'Sound', device: 'This device', startReview: 'Start review', closeLabel: 'Close',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
@@ -610,10 +653,16 @@ FI.content = (() => {
       accuracy: 'دقت', timeTaken: 'زمان', bestCombo: 'بهترین پیاپی', earnedLabel: 'به‌دست‌آمده',
       praiseClean: 'بدون خطا. یک درس پاکیزه.', praiseCombo: 'بهترین رشته‌ات {n} پاسخ درست پشت سر هم بود.', praiseReview: 'کارت‌های ازدست‌رفته در مرور برمی‌گردند.',
       chestGold: 'بدون خطا: صندوق طلایی', chestPlain: 'صندوقی برای تمام‌کردن درس', chestRange: '{lo} تا {hi} سکه در آن است', chestShard: 'و یک تکه', openChest: 'صندوق را باز کن',
-      shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
+      shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', shardOne: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
       missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.',
       nextLesson: 'درس بعدی', replayDone: 'دوباره بازی شد. اینجا چیز تازه‌ای برای به‌دست‌آوردن نیست.',
       reviewFirst: 'اول امروز', reviewCards: 'مرور {n} کارت', aboutMin: 'حدود {n} دقیقه', thenLesson: 'سپس',
+      streak: 'زنجیره', streakDays: 'زنجیره {n} روزه', streakBest: 'بهترین: {n}', streakKeep: 'هر روز یک درس یا یک مرور آن را نگه می‌دارد.', streakMilestone: '{n} روز پشت سر هم. این یک عادت است.', streakNow: 'زنجیره: {n}.',
+      last7: '۷ روز گذشته', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
+      noteFrozen: 'یخ، روزهای نبودنت را پوشش داد. زنجیره‌ات سالم است.', noteLost: 'زنجیره {n} روزه‌ات تمام شد. با درس بعدی یکی تازه شروع می‌شود.', ok: 'باشه', later: 'بعداً',
+      nudge7: 'هفت روز پشت سر هم. پیشرفت تو فقط در همین مرورگر است: پشتیبان بگیر تا گم‌شدن گوشی آن را از بین نبرد.',
+      questsTitle: 'مأموریت‌های امروز', quest_lesson: 'یک درس را تمام کن', quest_combo: '{n} پاسخ درست پشت سر هم بده', quest_fare: 'کرایه را در اولین تلاش بپرداز', quest_right: 'به {n} پرسش درست جواب بده', quest_clean: 'یک درس را بدون پاسخ غلط تمام کن', quest_review: 'مرور امروز را تمام کن',
+      questChest: 'هر سه با هم صندوقی با {lo} تا {hi} سکه باز می‌کنند', coinsEarned: 'کل سکه‌های به‌دست‌آمده',
       navLabel: 'ناوبری', learn: 'یادگیری', profile: 'نمایه', progress: 'پیشرفت تو', statCoins: 'سکه', statSections: 'بخش‌های روشن', statLessons: 'درس‌های روشن', badges: 'نشان‌ها', noBadges: 'هنوز نشانی نیست. یک ایستگاه را روشن کن یا یک کتاب را تمام کن.', settings: 'تنظیمات', sound: 'صدا', device: 'این دستگاه', startReview: 'شروع مرور', closeLabel: 'بستن',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
@@ -998,7 +1047,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -1014,6 +1063,10 @@ FI.engine = (() => {
     combo: 0, // right answers in a row; never saved. It sets what a first right answer pays (ADR-0012)
     earned: 0, shards: 0, owed: null, // Coins earned in total (`coins` is what is held); shards from gold chests; a chest won and not yet opened
     paid: 0, tally: null, end: null, // Coins paid by this reduce; the running count of the Lesson being played; the screens that end it
+    // Spec 14, release 2. streak: days in a row with a passed Lesson or a finished Review; `last` is the day last counted.
+    // marks: the days of the last two weeks, 'on' or 'frz' (saved by a freeze). quests: the three dealt for one day.
+    streak: { n: 0, best: 0, last: null }, freezes: 0, marks: {}, quests: null, nudge7: null,
+    streakNote: null, // what happened to the streak while the player was away; shown once, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
@@ -1037,7 +1090,7 @@ FI.engine = (() => {
     return null;
   }
   // Combo: right answers in a row, in Lessons and in Review.
-  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); if (s.tally) { s.tally.run += 1; s.tally.best = Math.max(s.tally.best, s.tally.run); } };
+  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); if (s.tally) { s.tally.run += 1; s.tally.best = Math.max(s.tally.best, s.tally.run); } quest(s, 'right'); quest(s, 'combo'); };
   const comboDown = (s) => { s.combo = 0; if (s.tally) s.tally.run = 0; };
   // ---- Spec 14, release 1: the Combo pays, and a passed Lesson ends on a scoreboard, a chest and an onward screen.
   // The nth right answer in a row pays 1, 1, 2, 2, 3 and so on. A Check still pays once, so a replay pays nothing.
@@ -1047,6 +1100,56 @@ FI.engine = (() => {
   const CLEAN_BONUS = 10;
   const CHEST = { gold: [15, 40], plain: [5, 18] }; // the range is shown before the chest is opened
   const pay = (s, n) => { s.coins += n; s.earned += n; s.paid += n; s.events.push('coin'); if (s.tally) s.tally.coins += n; };
+  // ---- Spec 14, release 2: the day streak, the freeze and the quests of the day.
+  const FREEZE_PRICE = 250; // about a week of normal play
+  const FREEZE_MAX = 2;
+  const STREAK_MILESTONES = [7, 14, 30, 50, 100, 200, 365];
+  const QUEST_CHEST = [30, 60];
+  const QUEST_NEED = { lesson: 1, combo: 5, fare: 1, right: 8, clean: 1, review: 1 };
+  const streakToday = (s) => s.streak.last === s.today;
+  const questsToday = (s) => (s.quests && s.quests.day === s.today ? s.quests : null);
+  // The days missed since the streak last counted: a freeze covers each in turn; with none left the streak ends.
+  function settleStreak(s) {
+    const k = s.streak;
+    if (k.last === null || k.n === 0) return;
+    let gap = s.today - k.last - 1; let used = 0;
+    while (gap > 0) {
+      if (s.freezes <= 0) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; s.events.push('streak-lost'); return; }
+      s.freezes -= 1; k.last += 1; s.marks[k.last] = 'frz'; gap -= 1; used += 1;
+    }
+    if (used) { s.streakNote = { kind: 'frozen', n: used }; s.events.push('freeze-used'); }
+  }
+  // Count today for the streak. True when the streak grew, which happens once a day.
+  function touchDay(s) {
+    settleStreak(s);
+    const k = s.streak;
+    if (k.last === s.today) return false;
+    k.n += 1; k.last = s.today; k.best = Math.max(k.best, k.n);
+    s.marks[s.today] = 'on';
+    for (const d of Object.keys(s.marks)) if (+d <= s.today - 14) delete s.marks[d];
+    s.streakNote = null;
+    if (k.n >= 7 && s.nudge7 === null) s.nudge7 = 'due'; // a streak makes a lost save hurt more: ask for a backup once
+    s.events.push('streak');
+    return true;
+  }
+  // Deal three quests for today. `roll` is a number from 0 up to 1 drawn by the app. Review is always one of them when Cards are due.
+  function dealQuests(s, roll) {
+    const old = s.quests;
+    if (old && old.day === s.today) return;
+    if (old && old.chest === 'ready') pay(s, QUEST_CHEST[0]); // a chest earned and not opened is never lost
+    let seed = Math.floor((Number.isFinite(roll) ? Math.min(0.999999, Math.max(0, roll)) : 0) * 2147483646) + 1;
+    const next = () => { seed = (seed * 48271) % 2147483647; return seed / 2147483647; };
+    const pool = ['lesson', 'combo', 'fare', 'right', 'clean'];
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(next() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    const kinds = dueIds(s).length ? ['review', pool[0], pool[1]] : pool.slice(0, 3);
+    s.quests = { day: s.today, list: kinds.map((kind) => ({ kind, need: QUEST_NEED[kind], have: 0 })), chest: 'shut', won: 0 };
+  }
+  function quest(s, kind) {
+    const q = questsToday(s);
+    if (!q) return;
+    for (const item of q.list) if (item.kind === kind) item.have = Math.min(item.need, kind === 'combo' ? Math.max(item.have, s.combo) : item.have + 1);
+    if (q.chest === 'shut' && q.list.every((item) => item.have >= item.need)) { q.chest = 'ready'; s.events.push('quests-done'); }
+  }
   // Review is offered with an honest estimate: about half a minute a Card.
   const reviewMinutes = (n) => Math.max(1, Math.round(n / 2));
   // The count a Lesson keeps while it is played. `at` is a time sent by the app; the engine never reads the clock.
@@ -1066,9 +1169,13 @@ FI.engine = (() => {
   // Called once the Fare is passed and the Station is lit, so the XP of this Lesson is already counted.
   function finish(s, at) {
     const t = s.tally; const id = s.stationId;
-    if (!t || t.replay) { s.end = { step: 'onward', replay: true }; return; }
-    const firsts = Object.values(t.seen);
+    const streak = touchDay(s) ? { n: s.streak.n, milestone: STREAK_MILESTONES.includes(s.streak.n) } : null;
+    const firsts = t ? Object.values(t.seen) : [];
     const clean = firsts.length > 0 && firsts.every(Boolean);
+    quest(s, 'lesson');
+    if (s.fare && s.fare.attempt === 1) quest(s, 'fare');
+    if (clean) quest(s, 'clean');
+    if (!t || t.replay) { s.end = { step: streak ? 'streak' : 'onward', replay: true, streak }; return; }
     if (clean && !s.awarded[`clean:${id}`]) { s.awarded[`clean:${id}`] = true; pay(s, CLEAN_BONUS); }
     let chest = null;
     if (!s.awarded[`chest:${id}`]) {
@@ -1078,7 +1185,7 @@ FI.engine = (() => {
     }
     s.end = { step: 'score', replay: false, right: firsts.filter(Boolean).length, total: firsts.length, best: t.best, clean,
       secs: t.at !== null && Number.isFinite(at) ? Math.max(0, Math.round((at - t.at) / 1000)) : null,
-      xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest };
+      xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest, streak };
   }
 
   // ---- Shape of saved progress. A saved document or a backup is foreign text: every durable key is
@@ -1094,6 +1201,12 @@ FI.engine = (() => {
     && (k.options === null || listOf(isPair)(k.options)) && (isFlag(k.answer) || isCount(k.answer) || listOf(isCount)(k.answer)));
   const SHAPE = {
     mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount, earned: isCount, shards: (v) => Number.isInteger(v) && v >= 0,
+    streak: (v) => isMap(v) && Number.isInteger(v.n) && v.n >= 0 && Number.isInteger(v.best) && v.best >= v.n && (v.last === null || Number.isInteger(v.last)) && Object.keys(v).length === 3,
+    freezes: (v) => Number.isInteger(v) && v >= 0 && v <= 2,
+    marks: (v) => isMap(v) && Object.keys(v).length <= 40 && Object.keys(v).every((k) => /^\d{1,7}$/.test(k) && (v[k] === 'on' || v[k] === 'frz')),
+    quests: (v) => v === null || (isMap(v) && Number.isInteger(v.day) && ['shut', 'ready', 'open'].includes(v.chest) && isCount(v.won) && v.won <= 500 && Array.isArray(v.list) && v.list.length <= 3
+      && v.list.every((x) => isMap(x) && ['lesson', 'combo', 'fare', 'right', 'clean', 'review'].includes(x.kind) && Number.isInteger(x.need) && x.need > 0 && x.need <= 50 && Number.isInteger(x.have) && x.have >= 0 && x.have <= x.need)),
+    nudge7: (v) => v === null || v === 'due' || v === 'done',
     owed: (v) => v === null || (isMap(v) && Number.isInteger(v.lo) && Number.isInteger(v.hi) && v.lo >= 0 && v.hi >= v.lo && v.hi <= 500 && isFlag(v.gold)),
     awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
     run: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos)),
@@ -1303,7 +1416,7 @@ FI.engine = (() => {
         return advance(s, content);
       }
       case 'BACKUP_DONE':
-        s.lastBackup = s.today; return s;
+        s.lastBackup = s.today; if (s.nudge7 === 'due') s.nudge7 = 'done'; return s;
       case 'RESTORE': {
         // Replace progress with a parsed backup; the same HYDRATE path applies the same migrations.
         const fresh = initial(); fresh.today = s.today;
@@ -1316,6 +1429,8 @@ FI.engine = (() => {
       case 'TICK':
         if (Number.isInteger(action.value)) s.today = action.value;
         backfill(s, content);
+        settleStreak(s);
+        dealQuests(s, action.roll);
         return s;
       case 'OPEN_REVIEW': {
         leave(s);
@@ -1332,6 +1447,7 @@ FI.engine = (() => {
         if (r.phase === 'result') {
           r.index += 1; r.ok = null; r.retired = false; r.nextIn = 0;
           r.phase = r.index >= r.ids.length ? 'done' : 'card';
+          if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); }
         }
         return s;
       }
@@ -1449,9 +1565,27 @@ FI.engine = (() => {
           // The end of a Lesson: scoreboard, then the chest, then the onward screen, one tap each.
           const e = s.end;
           if (!e || e.step === 'onward') return leave(s);
-          e.step = e.step === 'score' && e.chest ? 'chest' : 'onward';
+          e.step = e.step === 'score' && e.chest ? 'chest' : e.step !== 'streak' && e.streak ? 'streak' : 'onward';
         }
         return s;
+      case 'BUY_FREEZE':
+        // Coins held go down; Coins earned never do (ADR-0012).
+        if (s.freezes >= FREEZE_MAX || s.coins < FREEZE_PRICE) return s;
+        s.coins -= FREEZE_PRICE; s.freezes += 1; s.events.push('bought');
+        return s;
+      case 'OPEN_QUEST_CHEST': {
+        const q = questsToday(s);
+        if (!q || q.chest !== 'ready') return s;
+        const r = Number.isFinite(action.value) ? Math.min(0.999999, Math.max(0, action.value)) : 0;
+        q.won = QUEST_CHEST[0] + Math.floor(r * (QUEST_CHEST[1] - QUEST_CHEST[0] + 1)); q.chest = 'open';
+        pay(s, q.won); s.events.push('chest');
+        return s;
+      }
+      case 'DISMISS_NUDGE':
+        if (s.nudge7 === 'due') s.nudge7 = 'done';
+        return s;
+      case 'DISMISS_STREAK_NOTE':
+        s.streakNote = null; return s;
       case 'OPEN_CHEST': {
         const e = s.end;
         if (s.phase !== 'fare-passed' || !e || e.step !== 'chest' || !e.chest || e.chest.open) return s;
@@ -1512,7 +1646,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday };
 })();
 </script>
 
@@ -1631,6 +1765,8 @@ FI.render = (() => {
     s4: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l6-6 4 4 6-8"/><path d="M14 8h6v6"/></svg>',
     s5: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
     s6: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a2 2 0 00-2-2H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a2 2 0 012-2h7z"/></svg>',
+    flame: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.600 2c.500 3.300-1.400 5-3 6.700C8 10.400 6.500 12.100 6.500 15a5.500 5.500 0 0 0 11 0c0-1.700-.600-3.100-1.400-4.300-.400 1.200-1.100 2-2.100 2.400.300-3.800-.300-8.300-1.400-11.100z"/><path d="M12 21a2.600 2.600 0 0 1-2.600-2.600c0-1.500 1.200-2.300 2.600-4.100 1.400 1.800 2.600 2.600 2.600 4.100A2.600 2.600 0 0 1 12 21z" fill="var(--ink)" opacity=".45"/></svg>',
+    snow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M4.200 7.500l15.600 9M19.800 7.500l-15.600 9M9.500 4.500L12 7l2.500-2.500M9.500 19.500L12 17l2.500 2.500"/></svg>',
     coin: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity=".35"/><circle cx="12" cy="12" r="6"/></svg>',
     sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 010 6"/></svg>',
     muted: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l4 6M21 9l-4 6"/></svg>',
@@ -1662,6 +1798,7 @@ FI.render = (() => {
       ${modeGroup(s)}
       <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Number(s.xp) || 0}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
       <span class="xpnum" aria-hidden="true"${ui.xpGain ? ' data-new' : ''}>${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
+      <span class="streakchip ${FI.engine.streakToday(s) ? 'on' : ''}" title="${t('streak', s.mode)}" aria-label="${t('streak', s.mode)}: ${num(s.streak.n, s.mode)}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span>
       <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span></span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
     </header>`;
@@ -1684,11 +1821,36 @@ FI.render = (() => {
       ${item('profile', { type: 'OPEN_PROFILE' }, ICONS.user, t('profile', s.mode), FI.engine.backupNudge(s) === 'never' ? '<i class="navdot"></i>' : '')}
     </nav>`;
   }
+  // ---- Spec 14, release 2: the streak and the quests of the day.
+  const tf = (s, key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
+  const weekDots = (s) => `<div class="week" role="img" aria-label="${t('last7', s.mode)}">${Array.from({ length: 7 }, (_, i) => s.today - 6 + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
+  function questsPanel(s, cls) {
+    const q = FI.engine.questsToday(s);
+    if (!q) return '';
+    const rows = q.list.map((item) => { const done = item.have >= item.need; return `<div class="quest"><span class="qt${done ? ' done' : ''}">${done ? ICONS.check : ''}${tf(s, `quest_${item.kind}`, { n: item.need })}</span><span class="qn">${num(item.have, s.mode)}/${num(item.need, s.mode)}</span><div class="qbar"><i style="width:${Math.round((item.have / item.need) * 100)}%"></i></div></div>`; }).join('');
+    const [lo, hi] = FI.engine.QUEST_CHEST;
+    const chest = q.chest === 'open' ? `<p class="chestwon" aria-live="polite">+${num(q.won, s.mode)} ●</p>`
+      : q.chest === 'ready' ? `<button class="btn primary wide questchest" ${A({ type: 'OPEN_QUEST_CHEST' })}>${ICONS.chest}<span>${t('openChest', s.mode)} · ${num(lo, s.mode)}\u2013${num(hi, s.mode)} ●</span></button>`
+      : `<p class="help">${tf(s, 'questChest', { lo, hi })}</p>`;
+    return `<section class="panel quests ${cls}"><p class="kicker">${t('questsTitle', s.mode)}</p>${rows}${chest}</section>`;
+  }
+  // What happened to the streak while the player was away, and the one request for a backup at seven days.
+  function streakNotes(s) {
+    const n = s.streakNote;
+    const note = n ? `<div class="streaknote ${n.kind}" role="status">${n.kind === 'frozen' ? ICONS.snow : ICONS.flame}<span>${n.kind === 'frozen' ? t('noteFrozen', s.mode) : tf(s, 'noteLost', { n: n.n })}</span><button class="footbtn" ${A({ type: 'DISMISS_STREAK_NOTE' })}>${t('ok', s.mode)}</button></div>` : '';
+    const nudge = s.nudge7 === 'due' ? `<div class="nudge7" role="status"><span>${t('nudge7', s.mode)}</span><div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: 'DISMISS_NUDGE' })}>${t('later', s.mode)}</button></div></div>` : '';
+    return note + nudge;
+  }
+  function streakPanel(s, shop) {
+    const can = s.freezes < FI.engine.FREEZE_MAX && s.coins >= FI.engine.FREEZE_PRICE;
+    const buy = shop ? `<p class="help">${t('freezeHelp', s.mode)}</p><button class="btn wide" ${A({ type: 'BUY_FREEZE' })}${can ? '' : ' disabled'}>${ICONS.snow}<span>${tf(s, 'buyFreeze', { n: FI.engine.FREEZE_PRICE })}</span></button>` : '';
+    return `<div class="streakpanel"><div class="streakhead"><span class="streakchip big ${FI.engine.streakToday(s) ? 'on' : ''}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span><div><b>${tf(s, 'streakDays', { n: s.streak.n })}</b><small>${tf(s, 'streakBest', { n: s.streak.best })}</small></div><span class="frz" title="${t('freezes', s.mode)}" aria-label="${t('freezes', s.mode)}: ${num(s.freezes, s.mode)}/${num(FI.engine.FREEZE_MAX, s.mode)}">${ICONS.snow}${num(s.freezes, s.mode)}/${num(FI.engine.FREEZE_MAX, s.mode)}</span></div>${weekDots(s)}${buy}</div>`;
+  }
   // The player's numbers: on the Profile, and in the desktop rail beside the Path (spec 10).
   function stats(s, content) {
     const secs = content.sections; const runs = secs.flatMap((sec) => sec.runs);
     const cell = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
-    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>${s.shards ? `<p class="shardcount">◆ ${num(s.shards, s.mode)} ${t('shards', s.mode)}</p>` : ''}`;
+    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>${s.shards ? `<p class="shardcount">◆ ${num(s.shards, s.mode)} ${t(s.shards === 1 ? 'shardOne' : 'shards', s.mode)}</p>` : ''}${s.earned > s.coins ? `<p class="shardcount earnedline">${t('coinsEarned', s.mode)}: ${num(s.earned, s.mode)}</p>` : ''}`;
   }
   // One row per Section: the jump sheet on a phone, the rail list on a desktop.
   const sectionRows = (s, content, onId, coverCls) => content.sections.map((sec, i) => `<button class="row ${sec.id === onId ? 'on' : ''}" data-sec="${esc(sec.id)}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, coverCls) : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(sec.runs.filter((u) => s.lit[u]).length, s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('');
@@ -1696,6 +1858,8 @@ FI.render = (() => {
     const due = FI.engine.dueCount(s);
     return `<aside class="rail" aria-label="${t('progress', s.mode)}">
       <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
+      <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, false)}</section>
+      ${questsPanel(s, 'inrail')}
       <section class="panel"><p class="kicker">${t('review', s.mode)}</p><p class="railnum"><b>${num(due, s.mode)}</b> ${t('reviewDue', s.mode)}</p><button class="btn ${due ? 'primary' : ''} wide" ${A({ type: 'OPEN_REVIEW' })}>${t('startReview', s.mode)}</button></section>
       <section class="panel railsecs"><p class="kicker">${t('sections', s.mode)}</p>${sectionRows(s, content, onId, 'tiny r')}</section>
     </aside>`;
@@ -1919,6 +2083,7 @@ FI.render = (() => {
     return `<main class="path${cam}">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
       ${continueBlock(s, content)}
+      ${streakNotes(s)}${questsPanel(s, 'inmain')}
       <div class="find"><div class="findrow"><input type="search" data-find placeholder="${t('find', s.mode)}" value="${esc(ui.find)}" aria-label="${t('find', s.mode)}" autocomplete="off" maxlength="80"><button class="picker" ${A({ type: 'UI_PICKER' })} aria-expanded="${!!ui.picker}" aria-label="${t('jumpTo', s.mode)}">${t('sections', s.mode)}${ICONS.chevron}</button></div><div class="foundwrap">${foundList(s, content)}</div></div>
       <div class="sections">${list}</div>${milestone}
       ${sheet}
@@ -1937,6 +2102,7 @@ FI.render = (() => {
     return `<main class="station tools profile" data-theme="teal">
       <div class="shead"><h2 class="ttitle">${t('profile', s.mode)}</h2></div>
       <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
+      <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, true)}</section>
       <section class="panel"><p class="kicker">${t('badges', s.mode)} · ${num(earned.length, s.mode)}</p>${badges}</section>
       <section class="panel"><p class="kicker">${t('settings', s.mode)}</p>
         <div class="setrow"><span>${t('language', s.mode)}</span>${modeGroup(s)}</div>
@@ -2105,7 +2271,7 @@ FI.render = (() => {
     const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
     if (r.phase === 'done') {
       const msg = r.ids.length || r.capped ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
-      return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p><button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
+      return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p>${r.ids.length && FI.engine.streakToday(s) ? `<p class="streakline"><span class="streakchip on">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span> ${tf(s, 'streakDays', { n: s.streak.n })}</p>` : ''}<button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
     }
     const e = s.deck[r.ids[r.index]];
     const k = e && e.check;
@@ -2245,6 +2411,10 @@ FI.render = (() => {
           ? `<div class="chest ${c.gold ? 'gold' : 'plain'} open" aria-hidden="true">${ICONS.chestOpen}</div><p class="chestwon" aria-live="polite">+${num(c.won, s.mode)} ●</p>${c.gold ? `<p class="shardwon">◆ ${t('shardWon', s.mode)}</p>` : ''}<div class="actions col">${go}</div>`
           : `<div class="chest ${c.gold ? 'gold' : 'plain'}" aria-hidden="true">${ICONS.chest}</div><p>${range}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'OPEN_CHEST' })} data-focus>${t('openChest', s.mode)}</button></div>`;
         return `<section class="panel result"><h2>${t(c.gold ? 'chestGold' : 'chestPlain', s.mode)}</h2>${body}</section>`;
+      }
+      if (e.step === 'streak' && e.streak) {
+        const line = e.streak.milestone ? fill('streakMilestone', { n: e.streak.n }) : t('streakKeep', s.mode);
+        return `<section class="panel result"><div class="streakbig">${ICONS.flame}<b>${num(e.streak.n, s.mode)}</b></div><h2>${fill('streakDays', { n: e.streak.n })}</h2>${weekDots(s)}<p class="praise ${e.streak.milestone ? 'gold' : ''}" style="--i:1">${line}</p><div class="actions col">${go}</div></section>`;
       }
       // Onward: where the player stands, what comes back in Review, and the next Lesson one tap away.
       const group = circle ? circle.lessons : (content.sections.find((x) => x.runs.includes(st.id)) || { runs: [st.id] }).runs;
@@ -2706,6 +2876,7 @@ FI.fx = (() => {
       if (has('circle') || has('section') || has('milestone')) setTimeout(() => burst(cx, cy, 120, ['mag', 'gold', 'accent'], 14), 260);
       return;
     }
+    if (has('bought')) { sound('bookmark'); burst(at.x, at.y, 24, ['accent', 'white'], 5); return; }
     if (has('fare-failed')) { sound('fare-failed'); glitch(); buzz([40, 60, 40], state); return; }
     if (has('correct')) {
       sound('correct', state.combo); buzz(14, state); flashScreen('ok', 0.1);
@@ -2840,7 +3011,7 @@ FI.fx = (() => {
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp };
-    if (action.type === 'OPEN_CHEST') action = { ...action, value: Math.random() };
+    if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST') action = { ...action, value: Math.random() };
     else if (action.type === 'OPEN_STATION' || action.type === 'OPEN_AT' || action.type === 'ANSWER') action = { ...action, at: Date.now() };
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));
@@ -2853,8 +3024,8 @@ FI.fx = (() => {
     if (resumeSt && resumeSt.book) await ensureBook(resumeSt.bookId);
     const dayNumber = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); };
     state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: saved }, content);
-    state = engine.reduce(state, { type: 'TICK', value: dayNumber() }, content);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber() }); });
+    state = engine.reduce(state, { type: 'TICK', value: dayNumber(), roll: Math.random() }, content);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber(), roll: Math.random() }); });
     render.setSaveFailed(!store.save(storage, state)); // writes back a migrated document (ADR-0009, ADR-0010)
     render.mount(root, (action) => { fx.tap(action, state); dispatch(action); });
     paint();

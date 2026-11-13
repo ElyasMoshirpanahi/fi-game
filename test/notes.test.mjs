@@ -152,7 +152,7 @@ describe('Where Notes are reached from', () => {
     for (const lesson of sec.runs) { s = pass(s, lesson); if (lesson !== sec.runs[sec.runs.length - 1]) s = R(s, { type: 'CONTINUE' }); }
     expect(s.events).toContain('section');
     // Spec 14: the invite is on the last screen of the Lesson end, after the scoreboard and the chest.
-    s = R(s, { type: 'CONTINUE' }, { type: 'OPEN_CHEST', value: 0 }, { type: 'CONTINUE' });
+    s = R(s, { type: 'CONTINUE' }, { type: 'OPEN_CHEST', value: 0 }, { type: 'CONTINUE' }); if (s.end.step === 'streak') s = R(s, { type: 'CONTINUE' });
     expect(s.end.step).toBe('onward');
     const h = html(s);
     expect(h).toContain(open('b04'));
@@ -194,7 +194,7 @@ describe('Notes review fixes', () => {
   it('the Basics pass panel keeps its single button; only a finished book gets the Notes invite', () => {
     let s = pass(FI.engine.initial(), 's1');
     expect(html(s)).not.toContain('OPEN_NOTES');
-    s = R(s, { type: 'CONTINUE' }, { type: 'OPEN_CHEST', value: 0 }, { type: 'CONTINUE' });
+    s = R(s, { type: 'CONTINUE' }, { type: 'OPEN_CHEST', value: 0 }, { type: 'CONTINUE' }); if (s.end.step === 'streak') s = R(s, { type: 'CONTINUE' });
     expect(html(s)).not.toContain('OPEN_NOTES');
   });
 });
