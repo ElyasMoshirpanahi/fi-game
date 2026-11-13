@@ -2844,7 +2844,7 @@ FI.fx = (() => {
     // Gains are shown only when they were earned by this move, not when progress was restored.
     const gained = before && !has('restored') ? state.xp - before.xp : 0;
     if (gained > 0) fly(reward('xp', gained, state.mode), '.xpnum', 'xp');
-    if (has('coin')) fly(reward('coin', state.paid || 1, state.mode), '.coins');
+    if (has('coin') && !has('chest')) fly(reward('coin', state.paid || 1, state.mode), '.coins'); // a chest counts its own Coins up
     if (has('chest')) {
       // The Coins are counted up on screen while the sound pours: more Coins, a longer pour.
       const won = state.end && state.end.chest ? state.end.chest.won : state.paid;
