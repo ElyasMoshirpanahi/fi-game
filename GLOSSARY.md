@@ -57,14 +57,26 @@ The recap of up to three questions that closes a Unit, drawn only from that Unit
 _Avoid_: final, boss, exam, recap quiz
 
 **Coin**:
-The short-term reward. One Coin per correct Check answer, and one per Card for each step it climbs in Review. A Coin is paid once: repeating the same Check or the same Review step pays nothing. Coins never decrease.
+The short-term reward. A correct Check answer pays Coins by the Combo (1, 1, 2, 2, 3 and so on, up to 5), a Lesson with no wrong answer pays 10 more, a Chest pays a random amount inside a shown range, and each step a Card climbs in Review pays one. A Coin is paid once: repeating the same Check, Lesson or Review step pays nothing. The game keeps two numbers: Coins held, which spending will lower, and Coins earned, which never decreases (ADR-0012).
 _Avoid_: point, gem, star
+
+**Chest**:
+A reward opened by the player. The Lesson Chest comes once, after a Lesson's Fare is first passed: gold if no Check was answered wrong, plain otherwise. Its range of Coins is shown before it is opened. A Chest won and not opened is paid at its low end when the player leaves.
+_Avoid_: loot box, prize, gift
+
+**Shard**:
+What a gold Chest always gives and a plain Chest never does. Five Shards make a Path colour.
+_Avoid_: gem, crystal, token
+
+**Lesson end**:
+The screens after a Fare is first passed, one tap each: the scoreboard (accuracy, time, best Combo, earned), the Chest, then the onward screen (place in the Circle, the missed Cards and the day they return, the next Lesson). A replayed Lesson shows the onward screen only.
+_Avoid_: results, summary page, victory screen
 
 **Fare wording**:
 The second wording every Check carries (`fare`): the same Check asked in other words, shown only in the Fare. Same answer as the prompt.
 
 **Continue**:
-The one-tap way back in: the first Lesson still to play in the Section last played, else the first in Path order. A Lesson is still to play until it is lit or its Fare is passed.
+The one-tap way back in: the first Lesson still to play in the Section last played, else the first in Path order. A Lesson is still to play until it is lit or its Fare is passed. When Review Cards are due, the Review is offered first, with its Card count and a time estimate, and the Lesson second.
 _Avoid_: resume (resume is the reload that puts the player back inside a Lesson)
 
 **Notes**:
@@ -72,8 +84,8 @@ The player's own page for a book: free text in any language, about 300 words, ke
 _Avoid_: journal (the decision journal is a separate Tool for decisions, not books), summary
 
 **Combo**:
-Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is feedback only: it pays no Coins or XP and is not saved.
-_Avoid_: streak (a streak counts days, and the game has none)
+Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is not saved. It sets what a first right answer to a Check pays in Coins (see Coin).
+_Avoid_: streak (a streak counts days; the day streak arrives with spec 14, release 2)
 
 **Ring**:
 The circular progress indicator on a Station, filled by correct answers within that Station.

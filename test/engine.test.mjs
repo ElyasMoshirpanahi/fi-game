@@ -62,10 +62,12 @@ describe('Coins increment only on a correct answer', () => {
   it('a Check answered correctly twice (after a Return or a replay) pays only once', () => {
     let s = walkToFare(engine.initial(), 's1');
     const checks = content.station('s1').items.filter((i) => i.kind === 'check').length;
-    expect(s.coins).toBe(checks);
+    // Spec 14: the Combo pays 1, 1, 2, 2, 3 and so on for right answers in a row.
+    const ladder = Array.from({ length: checks }, (_, i) => engine.comboPay(i + 1)).reduce((x, y) => x + y, 0);
+    expect(s.coins).toBe(ladder);
     s = R(s, { type: 'BACK_TO_PATH' });
     s = walkToFare(s, 's1');
-    expect(s.coins).toBe(checks);
+    expect(s.coins).toBe(ladder);
   });
 
   it('Coins never decrease', () => {
@@ -133,7 +135,7 @@ describe('A Station is Lit only after its Fare passes', () => {
     expect(s.lit.s1).toBe(true);
     expect(s.xp).toBeGreaterThan(0);
     expect(s.events).toContain('lit');
-    s = R(s, cont);
+    s = R(s, cont, cont, cont); // spec 14: scoreboard, chest, onward
     expect(s.screen).toBe('path');
   });
 
