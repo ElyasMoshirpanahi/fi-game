@@ -408,6 +408,45 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .result .actions.col .continue { margin: 0; }
 .reviewfirst { display: contents; }
 .btn.then.continue { display: grid; gap: 2px; width: 100%; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+/* ---- spec 16: on a phone the forward button is fixed at the bottom of a Lesson and of Review */
+@media (max-width: 699px) {
+  .station.run { padding-bottom: 150px; }
+  .station.run .actions, .station.run .feedback:has(.btn) {
+    position: fixed; z-index: 9; left: 0; right: 0; bottom: var(--disc-h, 34px); margin: 0; padding: 10px 14px 12px; border-radius: 0;
+    background: var(--floor); border: 0; border-top: 1px solid var(--line); box-shadow: 0 -10px 24px rgba(0, 0, 0, .45); animation: none;
+  }
+  .station.run .actions .btn, .station.run .feedback .btn { min-height: 54px; font-size: 17px; }
+  .station.run .feedback:has(.btn) { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px 10px; }
+  .station.run .feedback:has(.btn) .btn { grid-column: 1 / -1; width: 100%; }
+  .station.run .feedback.ok:has(.btn) { border-top: 2px solid var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--floor)); }
+  .station.run .feedback.bad:has(.btn) { border-top: 2px solid var(--bad); background: color-mix(in srgb, var(--bad) 14%, var(--floor)); }
+  .station.run .opts .btn, .station.run .tf .btn { min-height: 52px; }
+  /* A transform or a filter on the panel would trap the fixed block inside it, so the panel does not animate on a phone. */
+  .station.run .panel { animation: none; transform: none; filter: none; transition: none; }
+  /* Both languages: a smaller type, so most Cards fit the screen without a scroll. */
+  .station.run .ctext:has(.t-en):has(.t-fa) { font-size: 16px; line-height: 1.5; }
+  .station.run .ctext:has(.t-en):has(.t-fa) .t-fa { font-size: 16.5px; margin-top: 8px; }
+  .station.run .prompt:has(.t-en):has(.t-fa) { font-size: 16.5px; line-height: 1.4; margin-bottom: 12px; }
+  .station.run .opts .btn:has(.t-en):has(.t-fa) { font-size: 14.5px; padding-block: 9px; }
+  .station.run .result { padding: 22px 16px; }
+  .station.run .result .big { width: 92px; height: 92px; margin-bottom: 10px; } .station.run .result .big svg { width: 44px; height: 44px; }
+  .combo { top: 70px; }
+  /* The wrong-answer glitch shakes the panel, not the whole screen, so the fixed block stays put. */
+  body.glitch main.station.run { animation: none; }
+  body.glitch main.station.run .panel { animation: glitch .3s steps(2, end); }
+}
+/* ---- spec 15: one button on a Card, and the Recap stop */
+.actions.one { grid-template-columns: auto 1fr; }
+.recapstop { margin: 18px 14px 20px; }
+.recapbtn { display: flex; align-items: center; gap: 14px; width: 100%; padding: 16px; text-align: start; border-radius: var(--radius); border: 2px dashed var(--line); background: transparent; color: var(--muted); font: inherit; }
+.recapstop.open .recapbtn { border: 2px solid var(--gold); background: var(--gold-soft); color: var(--text); cursor: pointer; box-shadow: 0 0 26px color-mix(in srgb, var(--gold) 30%, transparent); animation: chestwait 1.8s ease-in-out infinite; }
+.recapstop.done .recapbtn { border: 2px solid color-mix(in srgb, var(--gold) 55%, transparent); color: var(--text); cursor: pointer; }
+.recapbtn .rico { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; box-shadow: inset 0 0 0 2px currentColor; }
+.recapstop.open .rico, .recapstop.done .rico { color: var(--gold); } .recapstop.done .rico { background: var(--gold); color: var(--ink); box-shadow: none; }
+.recapbtn .rico svg { width: 26px; height: 26px; }
+.recapbtn .rt { display: grid; gap: 1px; } .recapbtn .rt small { font-size: 12px; font-weight: 700; color: var(--gold); } .recapstop.closed .rt small { color: var(--muted); }
+.recapbtn .rt b { font-family: var(--hud-font); font-size: 18px; } .recapbtn .rt span { font-size: 13px; color: var(--muted); }
+.result .recapscore { margin: 6px 0 12px; font-family: var(--hud-font); font-size: 30px; font-weight: 700; color: var(--text); }
 /* ---- spec 14, release 2: streak, freeze, quests */
 .streakchip { display: inline-flex; align-items: center; gap: 3px; font-family: var(--hud-font); font-weight: 700; font-size: 14px; color: var(--muted); }
 .streakchip svg { width: 16px; height: 16px; }
@@ -610,6 +649,8 @@ FI.content = (() => {
       missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.',
       nextLesson: 'Next Lesson', replayDone: 'Played again. Nothing new to earn here.',
       reviewFirst: 'First today', reviewCards: 'Review {n} Cards', aboutMin: 'about {n} min', thenLesson: 'Then',
+      recap: 'Recap', recapGo: 'Recap this Section', recapSub: 'Questions from the whole Section, your misses first', recapLocked: 'Pass every Lesson here to open the Recap', recapAgain: 'Recap done. Take it again any time.',
+      recapDone: 'Recap done', recapScore: '{n} of {m} right', recapBack: 'This Card goes to your Review.', recapPaid: '+{n} Coins for closing the Section', recapKicker: 'The last step',
       streak: 'Streak', streakDays: '{n} day streak', streakBest: 'Best: {n}', streakKeep: 'One Lesson or one Review a day keeps it going.', streakMilestone: '{n} days in a row. That is a habit.', streakNow: 'Streak: {n}.',
       last7: 'The last 7 days', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
       noteFrozen: 'A freeze covered the time you were away. Your streak is safe.', noteLost: 'Your {n} day streak ended. A new one starts with your next Lesson.', ok: 'OK', later: 'Later',
@@ -657,6 +698,8 @@ FI.content = (() => {
       missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.',
       nextLesson: 'درس بعدی', replayDone: 'دوباره بازی شد. اینجا چیز تازه‌ای برای به‌دست‌آوردن نیست.',
       reviewFirst: 'اول امروز', reviewCards: 'مرور {n} کارت', aboutMin: 'حدود {n} دقیقه', thenLesson: 'سپس',
+      recap: 'جمع‌بندی', recapGo: 'جمع‌بندی این بخش', recapSub: 'پرسش‌هایی از کل بخش، اول آنهایی که اشتباه کردی', recapLocked: 'برای بازشدن جمع‌بندی، همه درس‌های اینجا را بگذران', recapAgain: 'جمع‌بندی انجام شد. هر وقت خواستی دوباره انجامش بده.',
+      recapDone: 'جمع‌بندی انجام شد', recapScore: '{n} از {m} درست', recapBack: 'این کارت به مرور تو می‌رود.', recapPaid: '+{n} سکه برای بستن بخش', recapKicker: 'گام آخر',
       streak: 'زنجیره', streakDays: 'زنجیره {n} روزه', streakBest: 'بهترین: {n}', streakKeep: 'هر روز یک درس یا یک مرور آن را نگه می‌دارد.', streakMilestone: '{n} روز پشت سر هم. این یک عادت است.', streakNow: 'زنجیره: {n}.',
       last7: '۷ روز گذشته', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
       noteFrozen: 'یخ، روزهای نبودنت را پوشش داد. زنجیره‌ات سالم است.', noteLost: 'زنجیره {n} روزه‌ات تمام شد. با درس بعدی یکی تازه شروع می‌شود.', ok: 'باشه', later: 'بعداً',
@@ -1047,7 +1090,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7', 'recaps'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -1066,6 +1109,7 @@ FI.engine = (() => {
     // Spec 14, release 2. streak: days in a row with a passed Lesson or a finished Review; `last` is the day last counted.
     // marks: the days of the last two weeks, 'on' or 'frz' (saved by a freeze). quests: the three dealt for one day.
     streak: { n: 0, best: 0, last: null }, freezes: 0, marks: {}, quests: null, nudge7: null,
+    recaps: {}, // spec 15: the Sections whose Recap was finished
     streakNote: null, // what happened to the streak while the player was away; shown once, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
@@ -1207,6 +1251,7 @@ FI.engine = (() => {
     quests: (v) => v === null || (isMap(v) && Number.isInteger(v.day) && ['shut', 'ready', 'open'].includes(v.chest) && isCount(v.won) && v.won <= 500 && Array.isArray(v.list) && v.list.length <= 3
       && v.list.every((x) => isMap(x) && ['lesson', 'combo', 'fare', 'right', 'clean', 'review'].includes(x.kind) && Number.isInteger(x.need) && x.need > 0 && x.need <= 50 && Number.isInteger(x.have) && x.have >= 0 && x.have <= x.need)),
     nudge7: (v) => v === null || v === 'due' || v === 'done',
+    recaps: (v) => mapOf(isFlag)(v) && Object.keys(v).length <= 200 && Object.keys(v).every((k) => k.length <= 40),
     owed: (v) => v === null || (isMap(v) && Number.isInteger(v.lo) && Number.isInteger(v.hi) && v.lo >= 0 && v.hi >= v.lo && v.hi <= 500 && isFlag(v.gold)),
     awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
     run: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos)),
@@ -1280,6 +1325,26 @@ FI.engine = (() => {
     } else { entry.box = 0; entry.due = s.today + LADDER[0]; if (answered) { comboDown(s); s.events.push('wrong'); } }
     s.review.phase = 'result'; s.review.ok = ok;
   }
+  // ---- Recap (spec 15): the last step of a Section. A session built from the loaded Section, never from saved content:
+  // the Checks of the Cards missed there first, then one Check from each Lesson not yet covered.
+  const RECAP_MAX = 12;
+  const RECAP_PAY = 20;
+  const recapOpen = (s, content, sec) => !!sec && sec.runs.length > 0 && sec.runs.every((id) => s.lit[id] || s.farePassed[id]);
+  function recapEntries(s, content, sec) {
+    const lessons = sec.runs.map((id) => content.station(id)).filter((st) => st && st.items);
+    const asEntry = (st, k) => { const card = st.items.find((i) => i.id === k.source && i.kind === 'card'); return card ? { stationId: st.id, cardId: card.id, text: card.text, check: { id: k.id, type: k.type, prompt: k.prompt, options: k.options || null, answer: k.answer } } : null; };
+    const missed = []; const fill = [];
+    for (const st of lessons) {
+      const checks = st.items.filter((i) => i.kind === 'check');
+      const mine = checks.filter((k) => s.deck[k.source] && s.deck[k.source].missed).map((k) => asEntry(st, k)).filter(Boolean);
+      const seen = new Set(); // one question a Card
+      for (const e of mine) if (!seen.has(e.cardId)) { seen.add(e.cardId); missed.push(e); }
+      if (!mine.length && checks.length) { const e = asEntry(st, checks[0]); if (e) fill.push(e); }
+    }
+    return [...missed, ...fill].slice(0, RECAP_MAX);
+  }
+  // The Card a Review or Recap step is about: a Recap carries its own, Review reads the Deck.
+  const entryOf = (s, id) => (s.review && s.review.pool ? s.review.pool[id] : s.deck[id]);
   const indexIn = (content, stationId, id) => content.station(stationId).items.findIndex((i) => i.id === id);
 
   function advance(s, content) {
@@ -1440,22 +1505,46 @@ FI.engine = (() => {
         s.review = { ids, index: 0, phase: ids.length ? 'card' : 'done', ok: null, retired: false, nextIn: 0, capped: !ids.length && dueIds(s).length > 0 };
         return s;
       }
+      case 'OPEN_RECAP': {
+        const sec = content.sections.find((x) => x.id === action.value);
+        if (!recapOpen(s, content, sec)) return s;
+        const entries = recapEntries(s, content, sec);
+        if (!entries.length) return s;
+        leave(s);
+        const pool = {}; entries.forEach((e, i) => { pool[`r${i}`] = e; });
+        s.screen = 'review'; s.lastSection = sec.id;
+        s.review = { ids: Object.keys(pool), index: 0, phase: 'check', ok: null, retired: false, nextIn: 0, capped: false, recap: sec.id, pool, right: 0, paid: 0 };
+        return s;
+      }
       case 'REVIEW_NEXT': {
         if (s.screen !== 'review') return s;
         const r = s.review;
-        if (r.phase === 'card' && s.deck[r.ids[r.index]] && s.deck[r.ids[r.index]].check) { r.phase = 'check'; return s; }
+        if (r.phase === 'card' && entryOf(s, r.ids[r.index]) && entryOf(s, r.ids[r.index]).check) { r.phase = 'check'; return s; }
         if (r.phase === 'result') {
           r.index += 1; r.ok = null; r.retired = false; r.nextIn = 0;
-          r.phase = r.index >= r.ids.length ? 'done' : 'card';
-          if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); }
+          r.phase = r.index >= r.ids.length ? 'done' : r.recap ? 'check' : 'card';
+          if (r.phase === 'done' && r.recap) {
+            // The first finished Recap of a Section pays once. Every finished Recap counts the day, as a Lesson does.
+            if (!s.awarded[`recap:${r.recap}`]) { s.awarded[`recap:${r.recap}`] = true; pay(s, RECAP_PAY); r.paid = RECAP_PAY; }
+            s.recaps[r.recap] = true; s.events.push('recap-done');
+            quest(s, 'lesson'); r.streak = touchDay(s);
+          } else if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); }
         }
         return s;
       }
       case 'REVIEW_ANSWER': {
         if (s.screen !== 'review' || s.review.phase !== 'check') return s;
         const id = s.review.ids[s.review.index];
-        if (!s.deck[id] || !s.deck[id].check) return s;
-        settle(s, id, same(action.value, s.deck[id].check.answer), true);
+        const e = entryOf(s, id);
+        if (!e || !e.check) return s;
+        const ok = same(action.value, e.check.answer);
+        if (s.review.recap) {
+          // A Recap moves no Card on the ladder. A miss puts the Card in the Deck, the same safety net as a Lesson.
+          if (ok) { s.review.right += 1; s.events.push('correct'); comboUp(s); } else { comboDown(s); s.events.push('wrong'); enqueue(s, content, e.stationId, e.cardId, 'missed', e.check.id); }
+          s.review.phase = 'result'; s.review.ok = ok;
+          return s;
+        }
+        settle(s, id, ok, true);
         return s;
       }
       case 'REVIEW_RATE': {
@@ -1531,7 +1620,8 @@ FI.engine = (() => {
             if (s.run && !s.run.returning) s.run.pos = indexIn(content, s.stationId, k.id) + 1;
           } else {
             s.misses += 1; comboDown(s); s.events.push('wrong');
-            if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
+            // Spec 15: the first wrong answer is the sign the Card was not understood. It Returns in this Lesson and enters the Deck.
+            if (s.misses === 1) { s.hint = true; s.events.push('hint'); queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); }
             else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); s.events.push('revealed'); }
           }
           return s;
@@ -1554,7 +1644,7 @@ FI.engine = (() => {
         return s;
       }
       case 'CONTINUE':
-        if (s.phase === 'correct' || s.phase === 'revealed' || s.phase === 'widget') return advance(s, content);
+        if (s.phase === 'card' || s.phase === 'correct' || s.phase === 'revealed' || s.phase === 'widget') return advance(s, content); // spec 15: a Card has one button
         if (s.phase === 'fare-failed') {
           s.returns = [];
           for (const id of s.fare.missed) queueReturn(s, content.item(s.stationId, id).source);
@@ -1646,7 +1736,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, recapOpen, RECAP_MAX, RECAP_PAY, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday };
 })();
 </script>
 
@@ -2075,7 +2165,7 @@ FI.render = (() => {
         : `<ol class="nodes circles">${roadLayer}${sec.circles.map((c, n) => { const go = c.lessons.includes(goId); return circleStop(s, content, c, n + 1, go || (!!nextCircle && nextCircle.id === c.id), go); }).join('')}</ol>`;
       const bar = sec.kind === 'book' ? `<div class="secbar">${notesButton(s, sec.bookId, 'footbtn')}</div>` : '';
       const label = sec.kind === 'book' ? sec.title : sec.name[lang(s)];
-      return `<section class="sec ${sec.kind} open ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}" aria-label="${esc(label)}">${sectionHeader(s, sec, i + 1, sec.runs.filter((u) => s.lit[u]).length)}${bar}${nodes}</section>`;
+      return `<section class="sec ${sec.kind} open ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}" aria-label="${esc(label)}">${sectionHeader(s, sec, i + 1, sec.runs.filter((u) => s.lit[u]).length)}${bar}${nodes}${recapStop(s, content, sec)}</section>`;
     }).join('');
     const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
     const sheet = ui.picker ? `<div class="sheet" role="dialog" aria-label="${t('sections', s.mode)}"><div class="sheethead"><h3>${t('sections', s.mode)}</h3><button class="icon" ${A({ type: 'UI_PICKER' })} aria-label="${t('closeLabel', s.mode)}">${ICONS.close}</button></div>${sectionRows(s, content, onId, 'tiny')}</div>` : '';
@@ -2268,23 +2358,29 @@ FI.render = (() => {
   // ---- Review (spec 1) -------------------------------------------------------
   function reviewScreen(s, content) {
     const r = s.review;
-    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
+    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t(r.recap ? 'recap' : 'review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
+    const streakLine = r.ids.length && FI.engine.streakToday(s) ? `<p class="streakline"><span class="streakchip on">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span> ${tf(s, 'streakDays', { n: s.streak.n })}</p>` : '';
+    if (r.phase === 'done' && r.recap) {
+      const sec = content.sections.find((x) => x.id === r.recap);
+      const name = !sec ? '' : sec.kind === 'book' ? `<span class="t-en" lang="en">${esc(sec.title)}</span>` : pair(sec.name, one(s.mode));
+      return `<main class="station tools run" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('recapDone', s.mode)}</h2><p class="inl">${name}</p><p class="recapscore">${tf(s, 'recapScore', { n: r.right, m: r.ids.length })}</p>${r.paid ? `<p class="praise gold" style="--i:1">${tf(s, 'recapPaid', { n: r.paid })}</p>` : ''}${streakLine}<div class="actions col"><button class="btn primary wide" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></div></section></main>`;
+    }
     if (r.phase === 'done') {
       const msg = r.ids.length || r.capped ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
-      return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p>${r.ids.length && FI.engine.streakToday(s) ? `<p class="streakline"><span class="streakchip on">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span> ${tf(s, 'streakDays', { n: s.streak.n })}</p>` : ''}<button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
+      return `<main class="station tools run" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p>${streakLine}<div class="actions col"><button class="btn primary wide" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></div></section></main>`;
     }
-    const e = s.deck[r.ids[r.index]];
+    const e = r.pool ? r.pool[r.ids[r.index]] : s.deck[r.ids[r.index]];
     const k = e && e.check;
     const answer = !k ? '' : k.type === 'tf' ? t(k.answer ? 'trueLabel' : 'falseLabel', s.mode) : k.type === 'order' ? k.answer.map((i) => pair(k.options[i], one(s.mode))).join(' · ') : pair(k.options[k.answer], s.mode);
     if (r.phase === 'result') {
-      const note = !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
-      return `<main class="station tools" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
+      const note = r.recap ? (r.ok ? '' : t('recapBack', s.mode)) : !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
+      return `<main class="station tools run" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
     }
     const card = `<section class="panel card"><p class="kicker">${t('review', s.mode)}</p><p class="ctext">${pair(e.text, s.mode)}</p>`;
     if (r.phase === 'card') {
       const actions = k ? `<div class="actions"><button class="btn primary wide" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('reviewShow', s.mode)}</button></div>`
         : `<div class="actions"><button class="btn" ${A({ type: 'REVIEW_RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button></div>`;
-      return `<main class="station tools" data-theme="teal">${head}${card}${actions}</section></main>`;
+      return `<main class="station tools run" data-theme="teal">${head}${card}${actions}</section></main>`;
     }
     let body = '';
     if (k.type === 'tap') body = `<div class="opts">${k.options.map((o, i) => `<button class="btn opt" ${A({ type: 'REVIEW_ANSWER', value: i })}>${pair(o, s.mode)}</button>`).join('')}</div>`;
@@ -2295,7 +2391,15 @@ FI.render = (() => {
       const remaining = k.options.map((o, i) => placed.includes(i) ? '' : `<button class="btn opt" ${A({ type: 'UI_ORDER_ADD', value: i })}>${pair(o, s.mode)}</button>`).join('');
       body = `<p class="help">${t('orderHelp', s.mode)}</p><div class="slots" aria-live="polite">${slots}</div><div class="opts">${remaining}</div><div class="actions"><button class="btn ghost" ${A({ type: 'UI_ORDER_CLEAR' })} ${placed.length ? '' : 'disabled'}>${t('clearOrder', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_ANSWER', value: placed })} ${placed.length === k.options.length ? '' : 'disabled'}>${t('check', s.mode)}</button></div>`;
     }
-    return `<main class="station tools" data-theme="teal">${head}<section class="panel check"><p class="kicker">${t('review', s.mode)}</p><h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}</section></main>`;
+    return `<main class="station tools run" data-theme="teal">${head}<section class="panel check"><p class="kicker">${t(r.recap ? 'recap' : 'review', s.mode)}</p><h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}</section></main>`;
+  }
+  // The Recap stop: the last thing in every Section on the Path (spec 15). Closed until every Lesson there has a passed Fare.
+  function recapStop(s, content, sec) {
+    const open = FI.engine.recapOpen(s, content, sec); const done = !!s.recaps[sec.id];
+    const state = !open ? 'closed' : done ? 'done' : 'open';
+    const sub = !open ? t('recapLocked', s.mode) : done ? t('recapAgain', s.mode) : t('recapSub', s.mode);
+    const inner = `<span class="rico">${done ? ICONS.check : ICONS.badge}</span><span class="rt"><small>${t('recapKicker', s.mode)}</small><b>${t('recapGo', s.mode)}</b><span>${sub}</span></span>`;
+    return open ? `<div class="recapstop ${state}"><button class="recapbtn" ${A({ type: 'OPEN_RECAP', value: sec.id })}>${inner}</button></div>` : `<div class="recapstop ${state}"><span class="recapbtn" aria-disabled="true">${inner}</span></div>`;
   }
 
   // ---- Station run ---------------------------------------------------------
@@ -2318,9 +2422,8 @@ FI.render = (() => {
     return `<section class="panel card${item.callout ? ' callout' : ''}">
       <p class="kicker">${st.book ? (item.frame ? t('whyMatters', s.mode) : pair(st.name, one(s.mode))) : pair(st.name, one(s.mode))}${chip}${mark}</p>
       <p class="ctext">${body}</p>${add}
-      <div class="actions">${flip}
-        <button class="btn" ${A({ type: 'RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button>
-        <button class="btn primary" ${A({ type: 'RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button>
+      <div class="actions one">${flip.replace('btn soft wide', 'btn soft')}
+        <button class="btn primary${flip ? '' : ' wide'}" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button>
       </div>
     </section>`;
   }
@@ -2425,12 +2528,16 @@ FI.render = (() => {
       const missedBlock = missed.length ? `<div class="missed"><p class="kicker">${t('missedTitle', s.mode)}</p><ul class="missedlist">${missed.map((id) => `<li>${pair(s.deck[id].text, one(s.mode))}</li>`).join('')}</ul><p class="help">${t('backTomorrow', s.mode)}</p></div>` : '';
       const target = FI.engine.continueTarget(s, content);
       const next = target ? content.station(target.stationId) : null;
-      const nextBtn = next ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: next.id })} data-focus><span class="ck">${t('nextLesson', s.mode)}</span><b>${pair(next.name, one(s.mode))}</b></button>` : '';
-      const leaveBtn = `<button class="btn ${next ? 'soft' : 'primary'} wide" ${A({ type: 'CONTINUE' })}${next ? '' : ' data-focus'}>${t('back', s.mode)}</button>`;
+      // Spec 15: the Lesson that opens the Recap leads into it.
+      const mySec = content.sections.find((x) => x.runs.includes(st.id));
+      const toRecap = !!mySec && FI.engine.recapOpen(s, content, mySec) && !s.recaps[mySec.id];
+      const nextBtn = toRecap ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_RECAP', value: mySec.id })} data-focus><span class="ck">${t('recapKicker', s.mode)}</span><b>${t('recapGo', s.mode)}</b></button>`
+        : next ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: next.id })} data-focus><span class="ck">${t('nextLesson', s.mode)}</span><b>${pair(next.name, one(s.mode))}</b></button>` : '';
+      const leaveBtn = `<button class="btn ${nextBtn ? 'soft' : 'primary'} wide" ${A({ type: 'CONTINUE' })}${nextBtn ? '' : ' data-focus'}>${t('back', s.mode)}</button>`;
       const head = e.replay ? `<h2>${t('farePassed', s.mode)}</h2><p>${t('replayDone', s.mode)}</p>` : `<h2 class="litword">${t('lit', s.mode)}</h2><p class="inl">${pair(st.name, one(s.mode))}</p>`;
       return `<section class="panel result"><div class="onward">${head}${dots}${missedBlock}</div><div class="actions col">${nextBtn}${leaveBtn}${notesBtn}</div></section>`;
     }
-    return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
+    return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div></section>`;
   }
   function stationScreen(s, content) {
     const st = content.station(s.stationId);
@@ -2443,7 +2550,7 @@ FI.render = (() => {
     else if (s.phase === 'widget') inner = widgetPanel(s, content, item, st);
     else if (s.phase === 'fare-passed' || s.phase === 'fare-failed') inner = resultPanel(s, content, st);
     else inner = checkPanel(s, content, item, st) + feedback(s, content, item);
-    return `<main class="station" data-theme="${st.theme}">
+    return `<main class="station run" data-theme="${st.theme}">
       <div class="shead">
         <button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button>
         <div class="prog" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
@@ -2480,6 +2587,8 @@ FI.render = (() => {
     ui.xpGain = fresh && ui.lastXp !== undefined && s.xp > ui.lastXp;
     const unsaved = `<p class="savewarn" role="alert"${ui.saveFailed ? '' : ' hidden'}>${t('saveFailed', s.mode)}</p>`;
     root.innerHTML = topBar(s, content) + unsaved + navBar(s) + screen + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
+    const discEl = root.querySelector('.disc'); // spec 16: the forward block on a phone rests on the Disclaimer
+    if (discEl && discEl.offsetHeight && document.documentElement.style) document.documentElement.style.setProperty('--disc-h', `${discEl.offsetHeight}px`);
     // The bar is rebuilt on every paint, so a gain is replayed from the old width for the fill to be seen.
     const bar = root.querySelector('.xpbar i');
     if (bar && ui.xpGain && ui.lastXpWidth) { const to = bar.style.width; bar.style.width = ui.lastXpWidth; void bar.offsetWidth; bar.style.width = to; }
@@ -2988,6 +3097,7 @@ FI.fx = (() => {
   const lessonOf = (action) => {
     const id = action.type === 'OPEN_STATION' ? action.value : action.type === 'OPEN_AT' ? (action.value || {}).stationId : null;
     const st = id && content.station(id);
+    if (action.type === 'OPEN_RECAP') { const sec = content.sections.find((x) => x.id === action.value); return sec && sec.bookId && !content.isLoaded(sec.bookId) ? sec.bookId : null; }
     return st && st.book && !content.isLoaded(st.bookId) ? st.bookId : null;
   };
   function dispatch(action) {
