@@ -190,7 +190,7 @@ describe('The screens at the end of a Lesson', () => {
     expect(out).toContain('"type":"OPEN_CHEST"'.replace(/"/g, '&quot;'));
     s = R(s, { type: 'OPEN_CHEST', value: 0 });
     out = html(s);
-    expect(out).toContain(`+${lo}`);
+    expect(out).toContain(`+<span class="cn">${lo}</span>`);
     expect(out).toContain('class="shardwon"');
     expect(out).toContain(q(cont));
   });
