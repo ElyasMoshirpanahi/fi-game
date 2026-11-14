@@ -65,7 +65,7 @@ The short-term reward. A correct Check answer pays Coins by the Combo (1, 1, 2, 
 _Avoid_: point, gem, star
 
 **Chest**:
-A reward opened by the player. The Lesson Chest comes once, after a Lesson's Fare is first passed: gold if no Check was answered wrong, plain otherwise. Its range of Coins is shown before it is opened. A Chest won and not opened is paid at its low end when the player leaves.
+A reward opened by the player. The Lesson Chest comes once, after a Lesson's Fare is first passed: gold if no Check was answered wrong, plain otherwise. Its range of Coins is shown before it is opened. A Chest won and not opened is paid at its low end when the player leaves. A finished Circle has a Chest of its own on the Path, opened once; the day's Quests have another.
 _Avoid_: loot box, prize, gift
 
 **Shard**:
@@ -94,6 +94,18 @@ _Avoid_: streak (a Streak counts days)
 **Streak**:
 Days in a row on which the player passed a Lesson (a replayed one counts), finished a Review or finished a Recap. One of these counts a day, once. A missed day ends it unless the Freezes held cover every missed day. The best Streak is kept. The week of dots starts on the first day of the Streak.
 _Avoid_: combo (right answers in a row), chain, run
+
+**Level**:
+One of seven titles, from Saver to Independent, that the player's XP has reached. Derived from XP and never stored. A Lesson that crosses into a new Level shows one level-up screen.
+_Avoid_: rank, tier, grade
+
+**Record**:
+One of the player's own bests: longest Combo, most Lessons in a day, best week by XP, most Review Cards in a week. A Record only goes up.
+_Avoid_: high score, achievement, leaderboard
+
+**Path colour**:
+A colour for the Path, made from five Shards. Four exist beside the starting Neon. Shards are the only way to get one.
+_Avoid_: theme, skin
 
 **Heart**:
 What a wrong answer costs in a new Lesson or its Fare. Five at most. The first three Lessons cost none; Review and a replayed Lesson never cost one. At zero a Lesson in progress pauses and keeps its place, and new Lessons are locked. Hearts return one every four hours and all five at the day change; a finished Review, a replayed old Lesson and Coins each give one back.
