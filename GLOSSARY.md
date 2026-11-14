@@ -92,11 +92,11 @@ Right answers in a row, counted across Lessons and Review. A wrong answer ends i
 _Avoid_: streak (a Streak counts days)
 
 **Streak**:
-Days in a row on which the player passed a Lesson or finished a Review. One of either counts a day, once. A missed day ends it unless a Freeze is held. The best Streak is kept.
+Days in a row on which the player passed a Lesson (a replayed one counts), finished a Review or finished a Recap. One of these counts a day, once. A missed day ends it unless the Freezes held cover every missed day. The best Streak is kept. The week of dots starts on the first day of the Streak.
 _Avoid_: combo (right answers in a row), chain, run
 
 **Freeze**:
-What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. There is no paid repair after a Streak has ended.
+What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. Freezes are spent only when they cover every missed day: if they cannot, the Streak ends and the Freezes stay. There is no paid repair after a Streak has ended.
 _Avoid_: shield, repair, life
 
 **Quest**:

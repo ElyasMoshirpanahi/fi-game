@@ -17,3 +17,10 @@ Status: accepted (2026-11-13, spec 14, issue #31). Owner verdict on the gamifica
 - The Combo is still not durable, but what it paid is.
 - Hour-based heart refill needs a time from the app, not only a day number. The engine compares what it is sent and never reads the clock.
 - If hearts or chests feel wrong on the real game, each is its own reducer slice and can be removed without touching the others.
+
+## Amendment, 2026-11-14
+
+- A finished Recap and a replayed Lesson also count a day for the Streak.
+- Freezes are spent only when the Freezes held cover every missed day. Otherwise the Streak ends and the Freezes stay.
+- A restored backup is judged against today at once, so a Freeze cannot be bought to repair a Streak that had already ended.
+- A Lesson entered part-way (a reload, a bookmark) is never judged clean: its earlier answers are not known.

@@ -17,7 +17,7 @@
   color-scheme: dark;
   --bg: #06060c; --card: #0e0f1c; --text: #e8f0ff; --muted: #8d95b5; --border: #232845; --line: #2b3157;
   --accent: #00f0ff; --accent-strong: #8af7ff; --accent-soft: #06262e;
-  --gold: #fcee0a; --gold-soft: #2a2806; --gold-strong: #fff566;
+  --streak: #ff8a3d; --gold: #fcee0a; --gold-soft: #2a2806; --gold-strong: #fff566;
   --ok: #2bff9a; --ok-soft: #062b1c; --bad: #ff3b6b; --bad-soft: #360a18;
   --mag: #ff2bd6; --ink: #05060c; /* ink: text on a bright fill */
   --plate: #191c36; --plate-deep: #0a0b17; --well: #11142a; --floor: #0a0a12; --trace: #2a3270; --trace-core: #6470d0;
@@ -453,7 +453,7 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 /* ---- spec 14, release 2: streak, freeze, quests */
 .streakchip { display: inline-flex; align-items: center; gap: 3px; font-family: var(--hud-font); font-weight: 700; font-size: 14px; color: var(--muted); }
 .streakchip svg { width: 16px; height: 16px; }
-.streakchip.on { color: #ff8a3d; filter: drop-shadow(0 0 6px color-mix(in srgb, #ff8a3d 60%, transparent)); }
+.streakchip.on { color: var(--streak); filter: drop-shadow(0 0 6px color-mix(in srgb, var(--streak) 60%, transparent)); }
 .streakchip.big { font-size: 26px; } .streakchip.big svg { width: 30px; height: 30px; }
 .streakhead { display: flex; align-items: center; gap: 12px; }
 .streakhead div { display: grid; flex: 1; } .streakhead small { color: var(--muted); font-size: 13px; }
@@ -462,14 +462,14 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .week { display: flex; justify-content: space-between; gap: 6px; margin: 14px 0 4px; }
 .dayd { flex: 1; max-width: 40px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--line); color: var(--ink); }
 .dayd svg { width: 55%; height: 55%; }
-.dayd.on { background: #ff8a3d; box-shadow: none; }
+.dayd.on { background: var(--streak); box-shadow: none; }
 .dayd.frz { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); color: var(--accent-strong); }
 .dayd.now:not(.on) { box-shadow: inset 0 0 0 2px var(--text); }
 .result .week { max-width: 320px; margin: 6px auto 16px; }
 .streakpanel .help { margin: 12px 0 10px; font-size: 13px; }
 .streakpanel .btn svg, .questchest svg { width: 20px; height: 20px; margin-inline-end: 8px; vertical-align: -4px; }
 .streakpanel .btn[disabled] { opacity: .45; }
-.streakbig { display: grid; justify-items: center; margin: 4px 0 6px; color: #ff8a3d; filter: drop-shadow(0 0 18px color-mix(in srgb, #ff8a3d 55%, transparent)); animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
+.streakbig { display: grid; justify-items: center; margin: 4px 0 6px; color: var(--streak); filter: drop-shadow(0 0 18px color-mix(in srgb, var(--streak) 55%, transparent)); animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
 .streakbig svg { width: 96px; height: 96px; } .streakbig b { font-family: var(--hud-font); font-size: 44px; line-height: 1; }
 .streakline { display: flex; justify-content: center; align-items: center; gap: 8px; font-weight: 600; }
 .quests { margin: 0 0 14px; }
@@ -483,10 +483,10 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .quests .chestwon { margin: 0; text-align: center; font-family: var(--hud-font); font-size: 24px; font-weight: 700; color: var(--gold); }
 .streaknote, .nudge7 { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); font-size: 14px; }
 .streaknote svg { width: 22px; height: 22px; flex: none; } .streaknote span, .nudge7 span { flex: 1; min-width: 180px; }
-.streaknote.frozen { border-color: var(--accent); color: var(--accent-strong); } .streaknote.lost { border-color: #ff8a3d; }
+.streaknote.frozen { border-color: var(--accent); color: var(--accent-strong); } .streaknote.lost { border-color: var(--streak); }
 .nudge7 { border-color: var(--gold); }
 @media (min-width: 1100px) { .quests.inmain { display: none; } }
-@media (max-width: 420px) { .top .xpnum { display: none; } .top .streakchip { margin-inline-start: auto; } }
+@media (max-width: 699px) { .top .xpnum { display: none; } .top .streakchip { margin-inline-start: auto; } }
 .shardcount { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-strong); }
 .confetti { position: absolute; inset: 0; pointer-events: none; }
 .confetti i { position: absolute; left: 50%; top: 38%; width: 8px; height: 12px; border-radius: 2px; background: var(--gold); opacity: 0; animation: burst 1.2s cubic-bezier(.2,.7,.3,1) .15s forwards; }
@@ -660,7 +660,7 @@ FI.content = (() => {
       recap: 'Recap', recapGo: 'Recap this Section', recapSub: 'Questions from the whole Section, your misses first', recapLocked: 'Pass every Lesson here to open the Recap', recapAgain: 'Recap done. Take it again any time.',
       recapDone: 'Recap done', recapScore: '{n} of {m} right', recapBack: 'This Card goes to your Review.', recapPaid: '+{n} Coins for closing the Section', recapKicker: 'The last step',
       streak: 'Streak', streakDays: '{n} day streak', streakBest: 'Best: {n}', streakKeep: 'One Lesson or one Review a day keeps it going.', streakMilestone: '{n} days in a row. That is a habit.', streakNow: 'Streak: {n}.',
-      last7: 'The last 7 days', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
+      last7: 'The last 7 days', weekLabel: 'This week of your streak: {n} of 7 days done', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
       noteFrozen: 'A freeze covered the time you were away. Your streak is safe.', noteLost: 'Your {n} day streak ended. A new one starts with your next Lesson.', ok: 'OK', later: 'Later',
       nudge7: 'Seven days in a row. Your progress lives only in this browser: back it up so a lost phone cannot end it.',
       questsTitle: 'Today\u2019s quests', quest_lesson: 'Finish a Lesson', quest_combo: 'Get {n} right in a row', quest_fare: 'Pass a Fare at the first try', quest_right: 'Answer {n} questions right', quest_clean: 'Finish a Lesson with no wrong answer', quest_review: 'Finish today\u2019s Review',
@@ -709,7 +709,7 @@ FI.content = (() => {
       recap: 'جمع‌بندی', recapGo: 'جمع‌بندی این بخش', recapSub: 'پرسش‌هایی از کل بخش، اول آنهایی که اشتباه کردی', recapLocked: 'برای بازشدن جمع‌بندی، همه درس‌های اینجا را بگذران', recapAgain: 'جمع‌بندی انجام شد. هر وقت خواستی دوباره انجامش بده.',
       recapDone: 'جمع‌بندی انجام شد', recapScore: '{n} از {m} درست', recapBack: 'این کارت به مرور تو می‌رود.', recapPaid: '+{n} سکه برای بستن بخش', recapKicker: 'گام آخر',
       streak: 'زنجیره', streakDays: 'زنجیره {n} روزه', streakBest: 'بهترین: {n}', streakKeep: 'هر روز یک درس یا یک مرور آن را نگه می‌دارد.', streakMilestone: '{n} روز پشت سر هم. این یک عادت است.', streakNow: 'زنجیره: {n}.',
-      last7: '۷ روز گذشته', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
+      last7: '۷ روز گذشته', weekLabel: 'این هفته از زنجیره‌ات: {n} روز از ۷ روز', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
       noteFrozen: 'یخ، روزهای نبودنت را پوشش داد. زنجیره‌ات سالم است.', noteLost: 'زنجیره {n} روزه‌ات تمام شد. با درس بعدی یکی تازه شروع می‌شود.', ok: 'باشه', later: 'بعداً',
       nudge7: 'هفت روز پشت سر هم. پیشرفت تو فقط در همین مرورگر است: پشتیبان بگیر تا گم‌شدن گوشی آن را از بین نبرد.',
       questsTitle: 'مأموریت‌های امروز', quest_lesson: 'یک درس را تمام کن', quest_combo: '{n} پاسخ درست پشت سر هم بده', quest_fare: 'کرایه را در اولین تلاش بپرداز', quest_right: 'به {n} پرسش درست جواب بده', quest_clean: 'یک درس را بدون پاسخ غلط تمام کن', quest_review: 'مرور امروز را تمام کن',
@@ -1157,6 +1157,9 @@ FI.engine = (() => {
   const STREAK_MILESTONES = [7, 14, 30, 50, 100, 200, 365];
   const QUEST_CHEST = [30, 60];
   const QUEST_NEED = { lesson: 1, combo: 5, fare: 1, right: 8, clean: 1, review: 1 };
+  // The XP that the lit Stations, Lessons, Circles and Sections account for.
+  const xpOf = (s, content) => content.allStations().reduce((a, st) => a + (s.lit[st.id] ? st.xp : 0), 0)
+    + content.sections.reduce((a, sec) => a + (sec.circles ? sec.circles.reduce((b, c) => b + (s.lit[c.id] ? c.xp : 0), 0) + (s.lit[sec.id] ? sec.xp : 0) : 0), 0);
   const streakToday = (s) => s.streak.last === s.today;
   const questsToday = (s) => (s.quests && s.quests.day === s.today ? s.quests : null);
   // The days missed since the streak last counted: a freeze covers each in turn; with none left the streak ends.
@@ -1164,10 +1167,9 @@ FI.engine = (() => {
     const k = s.streak;
     if (k.last === null || k.n === 0) return;
     let gap = s.today - k.last - 1; let used = 0;
-    while (gap > 0) {
-      if (s.freezes <= 0) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; delete k.from; s.events.push('streak-lost'); return; }
-      s.freezes -= 1; k.last += 1; s.marks[k.last] = 'frz'; gap -= 1; used += 1;
-    }
+    // Freezes that cannot cover the whole gap are not spent: the Streak ends and the player keeps them.
+    if (gap > s.freezes) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; delete k.from; s.events.push('streak-lost'); return; }
+    while (gap > 0) { s.freezes -= 1; k.last += 1; s.marks[k.last] = 'frz'; gap -= 1; used += 1; }
     if (used) { s.streakNote = { kind: 'frozen', n: used }; s.events.push('freeze-used'); }
   }
   // Count today for the streak. True when the streak grew, which happens once a day.
@@ -1206,7 +1208,8 @@ FI.engine = (() => {
   // Review is offered with an honest estimate: about half a minute a Card.
   const reviewMinutes = (n) => Math.max(1, Math.round(n / 2));
   // The count a Lesson keeps while it is played. `at` is a time sent by the app; the engine never reads the clock.
-  const begin = (s, id, at) => { s.tally = { seen: {}, run: 0, best: 0, coins: 0, xp0: s.xp, at: Number.isFinite(at) ? at : null, replay: !!(s.lit[id] || s.farePassed[id]), missed: [] }; };
+  // partial: the Lesson was entered part-way (a reload, a bookmark). Its earlier answers are not known, so it is never judged clean.
+  const begin = (s, id, at, partial) => { s.tally = { seen: {}, run: 0, best: 0, coins: 0, xp0: s.xp, at: Number.isFinite(at) && !partial ? at : null, replay: !!(s.lit[id] || s.farePassed[id]), missed: [], partial: !!partial }; };
   const mark = (s, checkId, ok) => { if (s.tally && (!ok || s.tally.seen[checkId] === undefined)) s.tally.seen[checkId] = ok; };
   // Pay the chest that is owed. `roll` is a number from 0 up to 1 drawn by the app; without one the chest pays its low end.
   function openChest(s, roll) {
@@ -1224,7 +1227,7 @@ FI.engine = (() => {
     const t = s.tally; const id = s.stationId;
     const streak = touchDay(s) ? { n: s.streak.n, milestone: STREAK_MILESTONES.includes(s.streak.n) } : null;
     const firsts = t ? Object.values(t.seen) : [];
-    const clean = firsts.length > 0 && firsts.every(Boolean);
+    const clean = !t.partial && firsts.length > 0 && firsts.every(Boolean);
     quest(s, 'lesson');
     if (s.fare && s.fare.attempt === 1) quest(s, 'fare');
     if (clean) quest(s, 'clean');
@@ -1453,6 +1456,7 @@ FI.engine = (() => {
         // A save from before Coins could be spent holds one number: it is both what is held and what was earned (ADR-0012).
         if (d.earned === undefined || bad.includes('earned') || s.earned < s.coins) s.earned = s.coins;
         openChest(s); s.events = []; s.paid = 0; // a chest won before a reload is paid, quietly
+        if (s.milestone && s.xp === xpOf(s, content) + 100) s.xp -= 100; // the Milestone is a badge only now
         // Resume at the saved position (owner decision after the Prompt 0 play-test). Returns and Fare are not resumed.
         if (d.run && !bad.includes('run') && !LEGACY_BOOK.test(d.run.stationId) && content.station(d.run.stationId) && content.station(d.run.stationId).items) {
           const st = content.station(d.run.stationId);
@@ -1460,7 +1464,7 @@ FI.engine = (() => {
           leave(s);
           s.lastSection = sectionIdOf(content, st.id); // a save from before Continue existed has none
           s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos, returning: false };
-          begin(s, st.id, action.at);
+          begin(s, st.id, action.at, pos > 0);
           s.queue = st.items.slice(pos).map((i) => i.id);
           return advance(s, content);
         }
@@ -1485,7 +1489,7 @@ FI.engine = (() => {
         leave(s);
         s.lastSection = sectionIdOf(content, st.id);
         s.screen = 'station'; s.stationId = st.id; s.run = { stationId: st.id, pos: idx, returning: false };
-        begin(s, st.id, action.at);
+        begin(s, st.id, action.at, idx > 0);
         s.queue = st.items.slice(idx).map((i) => i.id);
         return advance(s, content);
       }
@@ -1497,6 +1501,7 @@ FI.engine = (() => {
         const out = reduce(fresh, { type: 'HYDRATE', value: action.value }, content);
         out.lastBackup = s.today; // the file just restored is a backup of exactly this progress
         out.events = ['restored'];
+        settleStreak(out); dealQuests(out, action.roll); // a backup from an earlier day: its Streak is judged against today, with no time to buy a Freeze first
         if (s.screen === 'profile' && out.screen === 'path') out.screen = 'profile'; // the player restored from the Profile and reads the result there
         return out;
       }
@@ -1730,6 +1735,7 @@ FI.engine = (() => {
         const fresh = initial();
         fresh.mode = s.mode; fresh.muted = s.muted; fresh.today = s.today;
         fresh.events = ['reset'];
+        dealQuests(fresh, action.roll);
         return fresh;
       }
       default:
@@ -1895,9 +1901,9 @@ FI.render = (() => {
     const pct = Math.min(100, Math.round((s.xp / totalXp) * 100));
     return `<header class="top">
       ${modeGroup(s)}
-      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Number(s.xp) || 0}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
+      <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Math.min(Number(s.xp) || 0, totalXp)}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
       <span class="xpnum" aria-hidden="true"${ui.xpGain ? ' data-new' : ''}>${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
-      <span class="streakchip ${FI.engine.streakToday(s) ? 'on' : ''}" title="${t('streak', s.mode)}" aria-label="${t('streak', s.mode)}: ${num(s.streak.n, s.mode)}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span>
+      <span class="streakchip ${FI.engine.streakToday(s) ? 'on' : ''}" role="img" title="${t('streak', s.mode)}" aria-label="${t('streak', s.mode)}: ${num(s.streak.n, s.mode)}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span>
       <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span></span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
     </header>`;
@@ -1906,7 +1912,7 @@ FI.render = (() => {
   // ---- Navigation (spec 12): one landmark on every screen. CSS makes it a floating bottom bar on a phone,
   // a rail of icons on a tablet and a labelled sidebar on a desktop; render never reads the viewport.
   const inRun = (s) => s.screen === 'station' || s.screen === 'notes' || (s.screen === 'review' && !!s.review && s.review.phase !== 'done');
-  const navCurrent = (s) => (s.screen === 'review' ? 'review' : s.screen === 'bookmarks' ? 'bookmarks' : s.screen === 'profile' ? 'profile' : s.screen === 'tools' && s.stationId === 's6' ? 'shelf' : 'learn');
+  const navCurrent = (s) => (s.screen === 'review' ? (s.review && s.review.recap ? 'learn' : 'review') : s.screen === 'bookmarks' ? 'bookmarks' : s.screen === 'profile' ? 'profile' : s.screen === 'tools' && s.stationId === 's6' ? 'shelf' : 'learn');
   function navBar(s) {
     const cur = navCurrent(s);
     const due = FI.engine.dueCount(s);
@@ -1924,7 +1930,7 @@ FI.render = (() => {
   const tf = (s, key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
   // The week of dots starts on the first day of the streak and fills from the start side; after seven days a new row starts.
   const weekStart = (s) => { const k = s.streak; if (!k.n || k.last === null) return s.today; const from = Math.min(s.today, Number.isInteger(k.from) ? k.from : k.last - k.n + 1); return from + 7 * Math.floor((s.today - from) / 7); };
-  const weekDots = (s) => `<div class="week" role="img" aria-label="${t('last7', s.mode)}">${Array.from({ length: 7 }, (_, i) => weekStart(s) + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
+  const weekDots = (s) => `<div class="week" role="img" aria-label="${tf(s, 'weekLabel', { n: Array.from({ length: 7 }, (_, i) => weekStart(s) + i).filter((d) => s.marks[d]).length })}">${Array.from({ length: 7 }, (_, i) => weekStart(s) + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
   function questsPanel(s, cls) {
     const q = FI.engine.questsToday(s);
     if (!q) return '';
@@ -2196,6 +2202,7 @@ FI.render = (() => {
     const earned = [
       ...content.sections[0].runs.map((u) => content.station(u)).filter((st) => st.badge && s.lit[st.id]).map((st) => st.badge),
       ...content.sections.filter((sec) => sec.kind === 'book' && s.lit[sec.id]).map((sec) => sec.badge),
+      ...(s.milestone ? [{ en: t('milestoneTitle', 'EN'), fa: t('milestoneTitle', 'FA') }] : []), // a badge only: it pays no XP
     ];
     const badges = earned.length ? `<div class="bchips">${earned.map((b) => `<span class="bchip">${ICONS.badge}${pair(b, one(s.mode))}</span>`).join('')}</div>` : `<p class="help">${t('noBadges', s.mode)}</p>`;
     const reset = ui.confirmReset
@@ -2726,7 +2733,7 @@ FI.render = (() => {
       case 'UI_FOUND': return 'partial'; // more books were loaded: show the results again
       case 'UI_MILESTONE_CLOSE': ui.milestone = false; return 'full';
       case 'UI_PICKER': ui.picker = !ui.picker; return 'full';
-      case 'UI_JUMP_SECTION': ui.picker = false; ui.scrollTo = action.value; return 'full'; // every Section is open: a jump only scrolls
+      case 'UI_JUMP_SECTION': ui.picker = false; ui.scrollTo = action.value; return 'path'; // every Section is open: a jump goes to the Path (from the Shelf, Bookmarks or the Profile too) and scrolls
       case 'UI_RESTORE_OPEN': ui.restoreOpen = true; ui.restore = null; ui.restoreText = ''; ui.restoredNote = false; return 'full';
       case 'UI_RESTORE_CLOSE': ui.restoreOpen = false; ui.restore = null; ui.restoreText = ''; return 'full';
       case 'UI_RESTORE_TEXT': ui.restoreText = String(action.value || ''); ui.restore = ui.restoreText.trim() ? FI.store.parseBackup(ui.restoreText) : null; return 'partial'; // typing must not rebuild the field
@@ -2858,6 +2865,7 @@ FI.fx = (() => {
     wrong: () => { tone(110, 0, 0.2, 'sawtooth', 0.045); tone(104, 0.02, 0.22, 'square', 0.02); },
     lit: () => { [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) => tone(f, i * 0.08, 0.16, 'triangle', 0.07)); tone(261.63, 0, 0.6, 'sawtooth', 0.02); tone(2093, 0.4, 0.5, 'sine', 0.03); },
     'fare-failed': () => { tone(220, 0, 0.14, 'sawtooth', 0.04); tone(165, 0.14, 0.26, 'sawtooth', 0.04); },
+    coin: () => { [1568, 2093, 2637].forEach((f, i) => tone(f, i * 0.07, 0.09, 'triangle', 0.035)); },
     bookmark: () => { tone(880, 0, 0.06, 'triangle', 0.04); tone(1320, 0.05, 0.1, 'triangle', 0.04); },
     // A lid thump, then Coins pouring: quick high pings that climb. A shard adds one long bright note.
     chest: ({ shard, dur, clinks }) => {
@@ -2937,7 +2945,7 @@ FI.fx = (() => {
   function fly(text, target, cls, icon) {
     if (still() || !document.body.animate) return;
     const to = document.querySelector(target); if (!to || !to.getBoundingClientRect) return;
-    const r = to.getBoundingClientRect();
+    const r = to.getBoundingClientRect(); if (!r.width && !r.height) return; // hidden on a small phone
     const el = document.createElement('span'); el.className = `fly ${cls || ''}`; el.textContent = text; if (icon) el.insertAdjacentHTML('beforeend', ` ${icon}`); el.setAttribute('aria-hidden', 'true');
     el.style.left = `${at.x}px`; el.style.top = `${at.y}px`;
     document.body.appendChild(el);
@@ -2987,10 +2995,10 @@ FI.fx = (() => {
     const headerCount = (ms, delay) => {
       const chip = document.querySelector('.coins'); const n = chip && chip.querySelector('.n');
       if (!n || coinGain <= 0) return;
-      chip.classList.add('counting');
-      countUp(n, before.coins, state.coins, ms, delay, () => { chip.classList.remove('counting', 'bump'); void chip.offsetWidth; chip.classList.add('bump'); });
+      chip.classList.add('counting'); chip.setAttribute('aria-live', 'off'); n.setAttribute('aria-hidden', 'true');
+      countUp(n, before.coins, state.coins, ms, delay, () => { chip.setAttribute('aria-live', 'polite'); n.removeAttribute('aria-hidden'); n.textContent = fmt(state.coins); chip.classList.remove('counting', 'bump'); void chip.offsetWidth; chip.classList.add('bump'); });
     };
-    if (has('coin') && !has('chest')) { fly(reward('coin', state.paid || 1, state.mode), '.coins', '', FI.render.coinIcon); headerCount(Math.min(900, 220 + coinGain * 60), 520); }
+    if (has('coin') && !has('chest')) { fly(reward('coin', state.paid || 1, state.mode), '.coins', '', FI.render.coinIcon); headerCount(Math.min(900, 220 + coinGain * 60), 520); if (!has('correct') && !has('lit')) sound('coin'); }
     if (has('chest')) {
       // The Coins are counted up on screen while the sound pours: more Coins, a longer pour.
       const won = coinGain > 0 ? coinGain : state.end && state.end.chest ? state.end.chest.won : state.paid;
@@ -3134,7 +3142,10 @@ FI.fx = (() => {
     if (action.type === 'OPEN_RECAP') { const sec = content.sections.find((x) => x.id === action.value); return sec && sec.bookId && !content.isLoaded(sec.bookId) ? sec.bookId : null; }
     return st && st.book && !content.isLoaded(st.bookId) ? st.bookId : null;
   };
+  const dayNumber = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); };
   function dispatch(action) {
+    // A page left open past midnight: move to the new day first, so today's Lesson counts for today.
+    if (state && action.type !== 'TICK' && Number.isInteger(state.today) && dayNumber() !== state.today) state = engine.reduce(state, { type: 'TICK', value: dayNumber(), roll: Math.random() }, content);
     const need = lessonOf(action);
     if (need) { ensureBook(need).then((ok) => { if (ok) dispatch(action); else paint(); }); return; }
     if (action.type === 'UI_FIND') loadDeviceBooks();
@@ -3156,6 +3167,7 @@ FI.fx = (() => {
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp, coins: state.coins };
     if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST') action = { ...action, value: Math.random() };
+    else if (action.type === 'RESET' || action.type === 'RESTORE') action = { ...action, roll: Math.random() }; // the Quests are dealt again
     else if (action.type === 'OPEN_STATION' || action.type === 'OPEN_AT' || action.type === 'ANSWER') action = { ...action, at: Date.now() };
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));
@@ -3166,7 +3178,6 @@ FI.fx = (() => {
     const saved = store.load(storage);
     const resumeSt = saved && saved.run && content.station(saved.run.stationId);
     if (resumeSt && resumeSt.book) await ensureBook(resumeSt.bookId);
-    const dayNumber = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); };
     state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: saved }, content);
     state = engine.reduce(state, { type: 'TICK', value: dayNumber(), roll: Math.random() }, content);
     document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber(), roll: Math.random() }); });
