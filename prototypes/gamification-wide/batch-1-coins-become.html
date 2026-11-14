@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batch 1: What do my Coins become?</title>
+<!-- THROWAWAY PROTOTYPE for issue #36. Nothing here is saved, nothing here is the real game.
+     One question: after a short Lesson, what should the Coins turn into on the first screen?
+     Five variants, A to E. Play a Lesson in each, press "Next day" a few times, then pick by feel. -->
+<style>
+:root { --bg: #06060c; --card: #0e0f1c; --line: #2b3157; --text: #e8f0ff; --muted: #8d95b5; --accent: #00f0ff; --gold: #ffc928; --ok: #2ee6a6; --bad: #ff4d6d; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 system-ui, sans-serif; }
+#wrap { max-width: 480px; margin: 0 auto; padding: 0 14px 120px; }
+header { position: sticky; top: 0; z-index: 5; background: #06060cf2; padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+header h1 { margin: 0 0 8px; font-size: 15px; color: var(--muted); font-weight: 600; }
+.tabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.tabs button { min-height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--muted); font-weight: 700; font-size: 15px; }
+.tabs button[aria-pressed="true"] { background: var(--accent); color: #001417; border-color: var(--accent); }
+.name { margin: 14px 0 2px; font-size: 22px; font-weight: 800; }
+.pitch { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.hud { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; font-weight: 700; }
+.chip { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); font-size: 14px; }
+.chip.gold { color: var(--gold); border-color: #ffc92866; }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 12px; }
+.panel h2 { margin: 0 0 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.btn { display: block; width: 100%; min-height: 54px; border-radius: 14px; border: 0; font-size: 17px; font-weight: 800; background: var(--accent); color: #001417; box-shadow: 0 4px 0 #008f99; }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #008f99; }
+.btn.alt { background: #1a1d36; color: var(--text); box-shadow: 0 4px 0 #0c0d1c; border: 1px solid var(--line); }
+.btn[disabled] { opacity: .45; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; background: #06060cf5; border-top: 1px solid var(--line); padding: 10px 14px 14px; }
+.bar .in { max-width: 452px; margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr; gap: 8px; }
+.q { font-size: 18px; font-weight: 700; margin: 0 0 12px; }
+.fly { position: fixed; z-index: 20; pointer-events: none; color: var(--gold); font-weight: 800; font-size: 18px; transition: transform .7s cubic-bezier(.5,0,.2,1), opacity .7s; }
+.small { font-size: 13px; color: var(--muted); }
+.big { font-size: 34px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.pop { animation: pop .45s cubic-bezier(.2,1.6,.4,1); }
+@keyframes pop { 0% { transform: scale(.4); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+/* A machine */
+.gauge { height: 18px; border-radius: 10px; background: #14172e; border: 1px solid var(--line); position: relative; overflow: hidden; }
+.gauge i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--ok)); transition: width .6s; }
+.gauge b { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--gold); }
+.part { display: grid; grid-template-columns: 40px 1fr auto; gap: 10px; align-items: center; padding: 10px 0; border-top: 1px solid #1c2040; }
+.part:first-of-type { border-top: 0; } .part .e { font-size: 28px; } .part button { min-height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--gold); background: #2a2206; color: var(--gold); font-weight: 800; }
+.part button[disabled] { opacity: .4; border-color: var(--line); color: var(--muted); background: transparent; }
+/* B snowball */
+.ballbox { height: 190px; display: grid; place-items: center; }
+.ball { border-radius: 50%; background: radial-gradient(circle at 32% 28%, #fff, #bfeaff 45%, #5fb8e6); box-shadow: 0 0 40px #5fb8e688; transition: width .7s cubic-bezier(.2,1.4,.4,1), height .7s cubic-bezier(.2,1.4,.4,1); }
+/* C town */
+.road { display: flex; flex-wrap: wrap; gap: 4px; align-items: flex-end; min-height: 120px; padding: 10px 6px 0; border-bottom: 6px solid #2b3157; }
+.road span { font-size: 34px; line-height: 1; } .road span.new { animation: pop .5s cubic-bezier(.2,1.6,.4,1); }
+/* D companion */
+.pet { height: 170px; display: grid; place-items: center; } .pet span { transition: font-size .6s cubic-bezier(.2,1.4,.4,1); line-height: 1; }
+.say { background: #14172e; border: 1px solid var(--line); border-radius: 14px; padding: 10px 12px; font-size: 15px; position: relative; }
+/* E book */
+.slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.slot { aspect-ratio: 3 / 4; border-radius: 10px; border: 1px dashed var(--line); display: grid; place-items: center; text-align: center; font-size: 11px; color: var(--muted); padding: 4px; }
+.slot.on { border: 1px solid var(--gold); background: #2a2206; color: var(--gold); font-weight: 700; } .slot .e { display: block; font-size: 26px; }
+.scene { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; font-size: 30px; text-align: center; margin-top: 10px; }
+.scene span { filter: grayscale(1) brightness(.35); transition: filter .8s; } .scene span.on { filter: none; }
+.verdict { border-color: var(--gold); } .verdict p { margin: 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <h1>Batch 1 · What do my Coins become?</h1>
+    <div class="tabs" id="tabs"></div>
+  </header>
+  <div id="view"></div>
+  <div class="panel verdict"><p><b>How to judge:</b> in each tab play one Lesson, then press Next day three times. Which first screen makes you want to come back? Reply on Telegram with the letter (or two), and what you would take from the others.</p></div>
+</div>
+<div class="bar"><div class="in"><button class="btn" id="play">Play a Lesson</button><button class="btn alt" id="next">Next day</button></div></div>
+<script>
+// ---------- shared: a three-question Lesson, Coins, days. All in memory.
+const QUESTIONS = [
+  ['Compounding pays interest on interest.', true], ['An index fund holds one single company.', false], ['Spending less than you earn creates capital.', true],
+  ['A higher savings rate shortens the road to independence.', true], ['Inflation makes cash worth more each year.', false], ['Owning assets can pay you while you sleep.', true],
+  ['Fees of 2% a year hardly matter over 30 years.', false], ['Diversifying lowers the risk of one bad pick.', true], ['Debt at 20% interest beats investing at 7%.', false],
+];
+const VARIANTS = {
+  A: { name: 'The Money Machine', pitch: 'Coins buy parts. Each part pays Coins every day. The gauge shows income against your daily cost.' },
+  B: { name: 'The Snowball', pitch: 'A fifth of every payout rolls into one ball. The ball grows by itself, every day. No shop.' },
+  C: { name: 'The Town', pitch: 'Every Lesson you finish puts one building beside the road.' },
+  D: { name: 'The Companion', pitch: 'One creature grows when you Review. It has one line for you each visit.' },
+  E: { name: 'The Collection Book', pitch: 'Each Lesson adds a concept to the book. A full page brings part of a picture back to colour.' },
+};
+const fresh = () => ({ coins: 0, lessons: 0, day: 1, q: null, // q: the running Lesson
+  parts: { fund: 0, flat: 0, firm: 0 }, ball: 0, town: [], pet: 0, visits: 0, book: [] });
+const S = { A: fresh(), B: fresh(), C: fresh(), D: fresh(), E: fresh() };
+let cur = 'A';
+const $ = (id) => document.getElementById(id);
+const st = () => S[cur];
+const beep = (f, d = 0.08, t = 'triangle', v = 0.05) => { try { beep.c = beep.c || new (window.AudioContext || window.webkitAudioContext)(); const c = beep.c, o = c.createOscillator(), g = c.createGain(); o.type = t; o.frequency.value = f; g.gain.value = v; g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + d); o.connect(g).connect(c.destination); o.start(); o.stop(c.currentTime + d); } catch (e) {} };
+const countUp = (el, from, to, ms = 700) => { const t0 = performance.now(); const step = (now) => { const p = Math.min(1, (now - t0) / ms); el.textContent = Math.round(from + (to - from) * p); if (p < 1) requestAnimationFrame(step); }; requestAnimationFrame(step); };
+
+// ---------- the five first screens
+const PARTS = { fund: ['📈', 'Index fund', 30, 3], flat: ['🏠', 'Rented flat', 90, 10], firm: ['🏭', 'Small business', 220, 26] };
+const COST = 40; // the daily cost the machine must cover
+const income = (s) => Object.keys(PARTS).reduce((a, k) => a + s.parts[k] * PARTS[k][3], 0);
+const BUILD = ['🏠', '🌳', '🏦', '🏡', '🏪', '🌲', '🏫', '🏭', '⛲', '🏛️', '🏢', '🎡'];
+const PET = [['🥚', 'An egg. Review a few Cards and see.'], ['🐣', 'Hello! I just got here.'], ['🐥', 'You came back. I kept your place.'], ['🦉', 'Ask me: what is compounding? You know this one.'], ['🦉', 'Three Cards are ready today. Two minutes.'], ['🦅', 'Look how far we have come.']];
+const CONCEPTS = [['🌱', 'Compounding'], ['🧺', 'Index fund'], ['💧', 'Savings rate'], ['🔥', 'Inflation'], ['🛡️', 'Emergency fund'], ['⚖️', 'Diversify'], ['✂️', 'Low fees'], ['⏳', 'Time in market'], ['🏗️', 'Own assets']];
+const SCENE = ['🌄', '🌳', '🏡', '🌳', '🌻', '🛤️', '🌻', '🚲'];
+
+const SCREEN = {
+  A(s) {
+    const inc = income(s); const pct = Math.min(100, Math.round((inc / COST) * 100));
+    return `<div class="panel"><h2>Your machine</h2><div class="big"><span id="inc">${inc}</span> <span class="small">Coins a day</span></div>
+      <p class="small">Daily cost: ${COST} Coins. ${inc >= COST ? '<b style="color:var(--ok)">The machine pays for your day. That is independence.</b>' : `${COST - inc} more a day and it pays for itself.`}</p>
+      <div class="gauge"><i style="width:${pct}%"></i></div></div>
+      <div class="panel"><h2>Parts</h2>${Object.keys(PARTS).map((k) => { const [e, n, price, pay] = PARTS[k]; return `<div class="part"><span class="e">${e}</span><div><b>${n}</b> <span class="small">× ${s.parts[k]}</span><div class="small">pays ${pay} a day</div></div><button data-buy="${k}" ${s.coins >= price ? '' : 'disabled'}>${price} 🪙</button></div>`; }).join('')}</div>`;
+  },
+  B(s) {
+    const size = Math.min(180, 36 + Math.sqrt(s.ball) * 9); const in30 = Math.round(s.ball * Math.pow(1.05, 30));
+    return `<div class="panel"><h2>Your snowball</h2><div class="ballbox"><div class="ball" style="width:${size}px;height:${size}px"></div></div>
+      <div class="big"><span id="ball">${Math.round(s.ball)}</span> <span class="small">Coins in the ball</span></div>
+      <p class="small">It grows 5% every day, by itself. A fifth of each Lesson's Coins rolls in.<br>If you add nothing more: <b style="color:var(--text)">${in30}</b> in 30 days.</p></div>`;
+  },
+  C(s) {
+    return `<div class="panel"><h2>Your town</h2><div class="road">${s.town.length ? s.town.map((b, i) => `<span class="${i === s.town.length - 1 && s.justBuilt ? 'new' : ''}">${b}</span>`).join('') : '<span class="small">An empty road. Finish a Lesson to build.</span>'}</div>
+      <p class="small" style="margin:10px 0 0">${s.town.length} of ${BUILD.length} buildings. Each one is a Lesson you finished.</p></div>`;
+  },
+  D(s) {
+    const lv = Math.min(PET.length - 1, Math.floor(s.pet / 3)); const [face, line] = PET[lv];
+    return `<div class="panel"><h2>Your companion</h2><div class="pet"><span style="font-size:${64 + lv * 18}px">${face}</span></div><div class="say">${line}</div>
+      <p class="small" style="margin:10px 0 0">Review steps: ${s.pet}. It grows every 3.</p><button class="btn alt" data-review style="margin-top:10px">Review 3 Cards</button></div>`;
+  },
+  E(s) {
+    const full = s.book.length >= 6; const lit = Math.floor(s.book.length / 6 * 4) + (s.book.length > 6 ? Math.min(4, s.book.length - 6) : 0);
+    return `<div class="panel"><h2>Your book · page 1</h2><div class="slots">${CONCEPTS.slice(0, 6).map((c, i) => `<div class="slot ${i < s.book.length ? 'on' : ''}">${i < s.book.length ? `<span><span class="e">${c[0]}</span>${c[1]}</span>` : '?'}</div>`).join('')}</div>
+      <p class="small" style="margin:10px 0 4px">${Math.min(6, s.book.length)} of 6. ${full ? 'Page full: the picture is back.' : 'Fill the page to restore the picture.'}</p>
+      <div class="scene">${SCENE.map((e, i) => `<span class="${i < Math.min(8, lit) ? 'on' : ''}">${e}</span>`).join('')}</div></div>`;
+  },
+};
+
+// ---------- the Lesson, the reward, the next day
+function draw() {
+  const s = st(); const v = VARIANTS[cur];
+  $('tabs').innerHTML = Object.keys(VARIANTS).map((k) => `<button data-tab="${k}" aria-pressed="${k === cur}">${k}</button>`).join('');
+  const hud = `<div class="hud"><span class="chip">Day ${s.day}</span><span class="chip gold">🪙 <span id="coins">${s.coins}</span></span><span class="chip">Lessons ${s.lessons}</span></div>`;
+  let body;
+  if (s.q) {
+    const [text] = QUESTIONS[(s.lessons * 3 + s.q.i) % QUESTIONS.length];
+    body = `<div class="panel"><h2>Lesson · question ${s.q.i + 1} of 3</h2><p class="q">${text}</p><div class="row"><button class="btn alt" data-ans="true">True</button><button class="btn alt" data-ans="false">False</button></div><p class="small" id="fb" style="min-height:1.4em;margin:10px 0 0"></p></div>`;
+  } else body = SCREEN[cur](s);
+  $('view').innerHTML = `<p class="name">${cur}. ${v.name}</p><p class="pitch">${v.pitch}</p>${hud}${body}`;
+  $('play').disabled = !!s.q; $('next').disabled = !!s.q;
+  s.justBuilt = false;
+}
+function pay(n, from) {
+  const s = st(); const before = s.coins; s.coins += n;
+  const chip = $('coins'); if (chip) countUp(chip, before, s.coins);
+  if (from && chip) { const a = from.getBoundingClientRect(), b = chip.getBoundingClientRect(); const f = document.createElement('div'); f.className = 'fly'; f.textContent = `+${n}`; f.style.left = `${a.left + a.width / 2}px`; f.style.top = `${a.top}px`; document.body.appendChild(f); requestAnimationFrame(() => { f.style.transform = `translate(${b.left - a.left - a.width / 2}px, ${b.top - a.top}px)`; f.style.opacity = '.2'; }); setTimeout(() => f.remove(), 750); }
+}
+function endLesson() {
+  const s = st(); const earned = 10 + s.q.right * 5; s.q = null; s.lessons += 1;
+  if (cur === 'B') { const share = Math.round(earned * 0.2); s.ball += share; s.coins += earned - share; }
+  else s.coins += earned;
+  if (cur === 'C' && s.town.length < BUILD.length) { s.town.push(BUILD[s.town.length]); s.justBuilt = true; }
+  if (cur === 'E' && s.book.length < CONCEPTS.length) s.book.push(1);
+  if (cur === 'D') s.visits += 1;
+  [523, 659, 784, 1046].forEach((f, i) => setTimeout(() => beep(f, 0.14), i * 80));
+  draw();
+}
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('button'); if (!el) return; const s = st();
+  if (el.dataset.tab) { cur = el.dataset.tab; draw(); scrollTo(0, 0); return; }
+  if (el.id === 'play') { s.q = { i: 0, right: 0 }; draw(); return; }
+  if (el.dataset.ans) {
+    const [, truth] = QUESTIONS[(s.lessons * 3 + s.q.i) % QUESTIONS.length]; const ok = String(truth) === el.dataset.ans;
+    if (ok) { s.q.right += 1; beep(660 + s.q.right * 110); pay(2, el); } else beep(140, 0.2, 'sawtooth');
+    $('fb').textContent = ok ? 'Right. +2 Coins' : `Not quite: that one is ${truth ? 'true' : 'false'}.`; $('fb').style.color = ok ? 'var(--ok)' : 'var(--bad)';
+    document.querySelectorAll('[data-ans]').forEach((b) => { b.disabled = true; });
+    setTimeout(() => { s.q.i += 1; if (s.q.i >= 3) endLesson(); else draw(); }, 750); return;
+  }
+  if (el.id === 'next') {
+    s.day += 1;
+    if (cur === 'A') { const inc = income(s); if (inc) { draw(); pay(inc, $('inc')); for (let i = 0; i < Math.min(8, inc / 3); i++) setTimeout(() => beep(900 + i * 60, 0.05), i * 60); return; } }
+    if (cur === 'B' && s.ball > 0) { const before = s.ball; s.ball *= 1.05; draw(); countUp($('ball'), Math.round(before), Math.round(s.ball)); beep(440, 0.25); return; }
+    if (cur === 'D') s.visits += 1;
+    draw(); return;
+  }
+  if (el.dataset.buy) { const [, , price] = PARTS[el.dataset.buy]; if (s.coins >= price) { s.coins -= price; s.parts[el.dataset.buy] += 1; beep(330, 0.1); beep(660, 0.18); draw(); } return; }
+  if (el.dataset.review !== undefined) { s.pet += 3; beep(520, 0.1); beep(780, 0.2); draw(); }
+});
+draw();
+</script>
+</body>
+</html>
