@@ -49,12 +49,16 @@ The player's self-judgement on a flipped Card: "knew it" or "didn't know". A "di
 _Avoid_: score, grade, confidence
 
 **Return**:
-A Card re-entering the queue later in the same session because of a "didn't know" Rating or a missed Fare question. Returns happen before the Fare. Nothing about a Return survives a reload.
+A Card re-entering the queue later in the same session because of the first wrong answer to one of its Checks, or a missed Fare question. The player no longer rates a Card (spec 15). Returns happen before the Fare. Nothing about a Return survives a reload.
 _Avoid_: repeat (Review is the separate daily session)
 
 **Fare**:
 The recap of up to three questions that closes a Unit, drawn only from that Unit's Checks. Passing all of them lights the Unit. Failing any shows the missed Cards again and draws a fresh Fare.
 _Avoid_: final, boss, exam, recap quiz
+
+**Recap**:
+The last step of a Section, after its last Lesson: up to 12 questions from the whole Section, the Cards missed there first, then one from each Lesson. It opens when every Lesson of the Section has a passed Fare. It is built by the game from the Section, not written content. A miss sends the Card to Review; a right answer moves nothing on the ladder. The first finished Recap of a Section pays Coins once.
+_Avoid_: final exam, boss, test, summary (a Recap asks, it does not retell)
 
 **Coin**:
 The short-term reward. A correct Check answer pays Coins by the Combo (1, 1, 2, 2, 3 and so on, up to 5), a Lesson with no wrong answer pays 10 more, a Chest pays a random amount inside a shown range, and each step a Card climbs in Review pays one. A Coin is paid once: repeating the same Check, Lesson or Review step pays nothing. The game keeps two numbers: Coins held, which spending will lower, and Coins earned, which never decreases (ADR-0012).
@@ -85,7 +89,19 @@ _Avoid_: journal (the decision journal is a separate Tool for decisions, not boo
 
 **Combo**:
 Right answers in a row, counted across Lessons and Review. A wrong answer ends it. It is not saved. It sets what a first right answer to a Check pays in Coins (see Coin).
-_Avoid_: streak (a streak counts days; the day streak arrives with spec 14, release 2)
+_Avoid_: streak (a Streak counts days)
+
+**Streak**:
+Days in a row on which the player passed a Lesson or finished a Review. One of either counts a day, once. A missed day ends it unless a Freeze is held. The best Streak is kept.
+_Avoid_: combo (right answers in a row), chain, run
+
+**Freeze**:
+What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. There is no paid repair after a Streak has ended.
+_Avoid_: shield, repair, life
+
+**Quest**:
+One of three small jobs dealt each day from learning acts only. Unfinished Quests vanish at the day change with no penalty. All three done open the Quest Chest, once.
+_Avoid_: mission, task, challenge
 
 **Ring**:
 The circular progress indicator on a Station, filled by correct answers within that Station.

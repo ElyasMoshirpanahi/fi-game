@@ -54,7 +54,7 @@ for (const [tag, w, h, mobile] of [['phone', 360, 740, true], ['desktop', 1366, 
   await b.js(`find('OPEN_CHEST').click(); await wait(1300); return 1;`);
   await shot(tag + '-3-chest-open'); report[tag + ' chest open'] = await b.js(AUDIT);
   report[tag + ' coins after chest'] = await b.js(`return q('.coins .n').innerText;`);
-  await b.js(`find('CONTINUE').click(); await wait(500); return 1;`);
+  await b.js(`find('CONTINUE').click(); await wait(500); if (q('.streakbig')) { find('CONTINUE').click(); await wait(500); } return 1;`); // release 2: the streak screen comes first on the first Lesson of the day
   await shot(tag + '-4-onward'); report[tag + ' onward'] = await b.js(AUDIT);
   // the next Lesson, one tap away, played with two misses: plain chest and the missed Cards named
   await b.js(`find('OPEN_STATION', 's2').click(); await wait(500); return 1;`);

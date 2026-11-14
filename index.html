@@ -408,6 +408,82 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .result .actions.col .continue { margin: 0; }
 .reviewfirst { display: contents; }
 .btn.then.continue { display: grid; gap: 2px; width: 100%; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+/* ---- spec 16: on a phone the forward button is fixed at the bottom of a Lesson and of Review */
+@media (max-width: 699px) {
+  .station.run { padding-bottom: 150px; }
+  .station.run .actions, .station.run .feedback:has(.btn) {
+    position: fixed; z-index: 9; left: 0; right: 0; bottom: var(--disc-h, 34px); margin: 0; padding: 10px 14px 12px; border-radius: 0;
+    background: var(--floor); border: 0; border-top: 1px solid var(--line); box-shadow: 0 -10px 24px rgba(0, 0, 0, .45); animation: none;
+  }
+  .station.run .actions .btn, .station.run .feedback .btn { min-height: 54px; font-size: 17px; }
+  .station.run .feedback:has(.btn) { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px 10px; }
+  .station.run .feedback:has(.btn) .btn { grid-column: 1 / -1; width: 100%; }
+  .station.run .feedback.ok:has(.btn) { border-top: 2px solid var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--floor)); }
+  .station.run .feedback.bad:has(.btn) { border-top: 2px solid var(--bad); background: color-mix(in srgb, var(--bad) 14%, var(--floor)); }
+  .station.run .opts .btn, .station.run .tf .btn { min-height: 52px; }
+  /* A transform or a filter on the panel would trap the fixed block inside it, so the panel does not animate on a phone. */
+  .station.run .panel { animation: none; transform: none; filter: none; transition: none; }
+  /* Both languages: a smaller type, so most Cards fit the screen without a scroll. */
+  .station.run .ctext:has(.t-en):has(.t-fa) { font-size: 16px; line-height: 1.5; }
+  .station.run .ctext:has(.t-en):has(.t-fa) .t-fa { font-size: 16.5px; margin-top: 8px; }
+  .station.run .prompt:has(.t-en):has(.t-fa) { font-size: 16.5px; line-height: 1.4; margin-bottom: 12px; }
+  .station.run .opts .btn:has(.t-en):has(.t-fa) { font-size: 14.5px; padding-block: 9px; }
+  .station.run .result { padding: 22px 16px; }
+  .station.run .result .big { width: 92px; height: 92px; margin-bottom: 10px; } .station.run .result .big svg { width: 44px; height: 44px; }
+  .combo { top: 70px; }
+  /* The wrong-answer glitch shakes the panel, not the whole screen, so the fixed block stays put. */
+  body.glitch main.station.run { animation: none; }
+  body.glitch main.station.run .panel { animation: glitch .3s steps(2, end); }
+}
+/* ---- spec 15: one button on a Card, and the Recap stop */
+.actions.one { grid-template-columns: auto 1fr; }
+.recapstop { margin: 18px 14px 20px; }
+.recapbtn { display: flex; align-items: center; gap: 14px; width: 100%; padding: 16px; text-align: start; border-radius: var(--radius); border: 2px dashed var(--line); background: transparent; color: var(--muted); font: inherit; }
+.recapstop.open .recapbtn { border: 2px solid var(--gold); background: var(--gold-soft); color: var(--text); cursor: pointer; box-shadow: 0 0 26px color-mix(in srgb, var(--gold) 30%, transparent); animation: chestwait 1.8s ease-in-out infinite; }
+.recapstop.done .recapbtn { border: 2px solid color-mix(in srgb, var(--gold) 55%, transparent); color: var(--text); cursor: pointer; }
+.recapbtn .rico { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; box-shadow: inset 0 0 0 2px currentColor; }
+.recapstop.open .rico, .recapstop.done .rico { color: var(--gold); } .recapstop.done .rico { background: var(--gold); color: var(--ink); box-shadow: none; }
+.recapbtn .rico svg { width: 26px; height: 26px; }
+.recapbtn .rt { display: grid; gap: 1px; } .recapbtn .rt small { font-size: 12px; font-weight: 700; color: var(--gold); } .recapstop.closed .rt small { color: var(--muted); }
+.recapbtn .rt b { font-family: var(--hud-font); font-size: 18px; } .recapbtn .rt span { font-size: 13px; color: var(--muted); }
+.result .recapscore { margin: 6px 0 12px; font-family: var(--hud-font); font-size: 30px; font-weight: 700; color: var(--text); }
+/* ---- spec 14, release 2: streak, freeze, quests */
+.streakchip { display: inline-flex; align-items: center; gap: 3px; font-family: var(--hud-font); font-weight: 700; font-size: 14px; color: var(--muted); }
+.streakchip svg { width: 16px; height: 16px; }
+.streakchip.on { color: #ff8a3d; filter: drop-shadow(0 0 6px color-mix(in srgb, #ff8a3d 60%, transparent)); }
+.streakchip.big { font-size: 26px; } .streakchip.big svg { width: 30px; height: 30px; }
+.streakhead { display: flex; align-items: center; gap: 12px; }
+.streakhead div { display: grid; flex: 1; } .streakhead small { color: var(--muted); font-size: 13px; }
+.streakhead .frz { display: inline-flex; align-items: center; gap: 4px; font-family: var(--hud-font); font-weight: 700; color: var(--accent-strong); }
+.streakhead .frz svg { width: 18px; height: 18px; }
+.week { display: flex; justify-content: space-between; gap: 6px; margin: 14px 0 4px; }
+.dayd { flex: 1; max-width: 40px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--line); color: var(--ink); }
+.dayd svg { width: 55%; height: 55%; }
+.dayd.on { background: #ff8a3d; box-shadow: none; }
+.dayd.frz { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); color: var(--accent-strong); }
+.dayd.now:not(.on) { box-shadow: inset 0 0 0 2px var(--text); }
+.result .week { max-width: 320px; margin: 6px auto 16px; }
+.streakpanel .help { margin: 12px 0 10px; font-size: 13px; }
+.streakpanel .btn svg, .questchest svg { width: 20px; height: 20px; margin-inline-end: 8px; vertical-align: -4px; }
+.streakpanel .btn[disabled] { opacity: .45; }
+.streakbig { display: grid; justify-items: center; margin: 4px 0 6px; color: #ff8a3d; filter: drop-shadow(0 0 18px color-mix(in srgb, #ff8a3d 55%, transparent)); animation: chestopen .5s cubic-bezier(.2,1.6,.4,1) both; }
+.streakbig svg { width: 96px; height: 96px; } .streakbig b { font-family: var(--hud-font); font-size: 44px; line-height: 1; }
+.streakline { display: flex; justify-content: center; align-items: center; gap: 8px; font-weight: 600; }
+.quests { margin: 0 0 14px; }
+.quest { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; margin: 0 0 10px; font-size: 14px; }
+.quest .qt { display: inline-flex; align-items: center; gap: 6px; } .quest .qt svg { width: 16px; height: 16px; color: var(--gold); flex: none; }
+.quest .qt.done { color: var(--muted); }
+.quest .qn { font-family: var(--hud-font); font-weight: 700; color: var(--muted); }
+.qbar { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.qbar i { display: block; height: 100%; background: var(--gold); border-radius: 3px; transition: width .4s; }
+.quests .help { margin: 0; font-size: 13px; color: var(--muted); }
+.quests .chestwon { margin: 0; text-align: center; font-family: var(--hud-font); font-size: 24px; font-weight: 700; color: var(--gold); }
+.streaknote, .nudge7 { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); font-size: 14px; }
+.streaknote svg { width: 22px; height: 22px; flex: none; } .streaknote span, .nudge7 span { flex: 1; min-width: 180px; }
+.streaknote.frozen { border-color: var(--accent); color: var(--accent-strong); } .streaknote.lost { border-color: #ff8a3d; }
+.nudge7 { border-color: var(--gold); }
+@media (min-width: 1100px) { .quests.inmain { display: none; } }
+@media (max-width: 420px) { .top .xpnum { display: none; } .top .streakchip { margin-inline-start: auto; } }
 .shardcount { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-strong); }
 .confetti { position: absolute; inset: 0; pointer-events: none; }
 .confetti i { position: absolute; left: 50%; top: 38%; width: 8px; height: 12px; border-radius: 2px; background: var(--gold); opacity: 0; animation: burst 1.2s cubic-bezier(.2,.7,.3,1) .15s forwards; }
@@ -492,7 +568,10 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
 @media (min-width: 700px) {
   #app { width: 100%; display: grid; grid-template-columns: 76px minmax(16px, 1fr) minmax(0, 720px) minmax(16px, 1fr); align-content: start; padding-bottom: 64px; }
   #app > * { grid-column: 3; min-width: 0; }
-  #app > main.path { width: 100%; max-width: 640px; justify-self: center; }
+  /* Every screen but a run fills the width between the navigation and the right edge (or the rail): no empty bands. */
+  #app > .top, #app > main:not(.station) { grid-column: 2 / 5; }
+  #app > main:not(.station) { width: 100%; justify-self: stretch; padding-inline: 24px; }
+  #app > .top { padding-inline: 24px; }
   #app > .nav { grid-column: 1; grid-row: 1 / span 12; position: sticky; top: 0; bottom: auto; inset-inline: auto; align-self: start; width: auto; height: 100vh; height: 100dvh; margin: 0; flex-direction: column; justify-content: flex-start; gap: 6px; padding: 14px 10px; border: 0; border-inline-end: 1px solid var(--line); border-radius: 0; box-shadow: none; background: color-mix(in srgb, var(--floor) 88%, transparent); }
   .nav .brand { display: grid; place-items: center; height: 48px; margin-bottom: 8px; color: var(--gold); }
   .brand svg { width: 30px; height: 30px; } .brand b { display: none; }
@@ -506,17 +585,18 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
 }
 @media (min-width: 900px) { .books { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1100px) {
-  #app { grid-template-columns: 248px minmax(24px, 1fr) minmax(0, 640px) 340px minmax(24px, 1fr); }
-  #app > .top, #app > main.station { grid-column: 3 / 5; }
+  /* The rail holds the right edge of the window; the screen fills all the space between the navigation and the rail. */
+  #app { grid-template-columns: 248px minmax(24px, 1fr) minmax(0, 640px) minmax(24px, 1fr) 356px; }
+  #app > .top, #app > main.station { grid-column: 2 / 6; }
+  #app > .top { padding-inline: 24px 16px; }
   #app > main.station { width: 100%; max-width: 720px; justify-self: center; }
-  #app > main.path { justify-self: stretch; padding-inline-end: 28px; }
   #app > .nav { padding: 18px 14px; }
   .nav .brand { display: flex; justify-content: flex-start; gap: 10px; padding: 0 10px; }
   .brand b { display: block; font-family: var(--hud-font); font-size: 17px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .navitem { flex-direction: row; justify-content: flex-start; gap: 14px; padding: 0 12px; font-size: 15px; }
   .navlabel { position: static; width: auto; height: auto; clip-path: none; }
   .disc { inset-inline: 248px 0; }
-  #app > .rail { display: grid; gap: 14px; grid-column: 4; grid-row: 2 / span 10; position: sticky; top: 78px; align-self: start; max-height: calc(100vh - 78px - 48px); overflow: auto; padding: 22px 2px 8px; scrollbar-width: thin; }
+  #app > .rail { display: grid; gap: 14px; grid-column: 5; grid-row: 2 / span 10; position: sticky; top: 78px; align-self: start; max-height: calc(100vh - 78px - 48px); overflow: auto; padding: 22px 0 8px 2px; scrollbar-width: none; }
   .rail .panel { padding: 16px; } .rail .btn { width: 100%; }
   .railnum { margin: 0 0 12px; color: var(--muted); } .railnum b { font-family: var(--hud-font); font-size: 26px; color: var(--text); margin-inline-end: 4px; }
   .rail .row { padding: 6px 4px; } .rail .row:last-child { border-bottom: 0; }
@@ -569,10 +649,18 @@ FI.content = (() => {
       accuracy: 'Accuracy', timeTaken: 'Time', bestCombo: 'Best Combo', earnedLabel: 'Earned',
       praiseClean: 'No misses. That is a clean Lesson.', praiseCombo: 'Your best run was {n} right in a row.', praiseReview: 'The Cards you missed come back in Review.',
       chestGold: 'No misses: a gold chest', chestPlain: 'A chest for finishing the Lesson', chestRange: 'It holds {lo} to {hi} Coins', chestShard: 'and one shard', openChest: 'Open the chest',
-      shardWon: 'One shard. Five make a Path colour.', shards: 'shards', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
+      shardWon: 'One shard. Five make a Path colour.', shards: 'shards', shardOne: 'shard', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
       missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.',
       nextLesson: 'Next Lesson', replayDone: 'Played again. Nothing new to earn here.',
       reviewFirst: 'First today', reviewCards: 'Review {n} Cards', aboutMin: 'about {n} min', thenLesson: 'Then',
+      recap: 'Recap', recapGo: 'Recap this Section', recapSub: 'Questions from the whole Section, your misses first', recapLocked: 'Pass every Lesson here to open the Recap', recapAgain: 'Recap done. Take it again any time.',
+      recapDone: 'Recap done', recapScore: '{n} of {m} right', recapBack: 'This Card goes to your Review.', recapPaid: '+{n} Coins for closing the Section', recapKicker: 'The last step',
+      streak: 'Streak', streakDays: '{n} day streak', streakBest: 'Best: {n}', streakKeep: 'One Lesson or one Review a day keeps it going.', streakMilestone: '{n} days in a row. That is a habit.', streakNow: 'Streak: {n}.',
+      last7: 'The last 7 days', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
+      noteFrozen: 'A freeze covered the time you were away. Your streak is safe.', noteLost: 'Your {n} day streak ended. A new one starts with your next Lesson.', ok: 'OK', later: 'Later',
+      nudge7: 'Seven days in a row. Your progress lives only in this browser: back it up so a lost phone cannot end it.',
+      questsTitle: 'Today\u2019s quests', quest_lesson: 'Finish a Lesson', quest_combo: 'Get {n} right in a row', quest_fare: 'Pass a Fare at the first try', quest_right: 'Answer {n} questions right', quest_clean: 'Finish a Lesson with no wrong answer', quest_review: 'Finish today\u2019s Review',
+      questChest: 'All three open a chest of {lo} to {hi} Coins', coinsEarned: 'Coins earned in total',
       navLabel: 'Main', learn: 'Learn', profile: 'Profile', progress: 'Your progress', statCoins: 'Coins', statSections: 'Sections lit', statLessons: 'Lessons lit', badges: 'Badges', noBadges: 'No badges yet. Light a Station or finish a book to earn one.', settings: 'Settings', sound: 'Sound', device: 'This device', startReview: 'Start review', closeLabel: 'Close',
       review: 'Review', reviewDue: 'due', reviewEmpty: 'Nothing is due today. Missed and bookmarked cards come back here on a 1, 3, 7, 16 and 35 day ladder.', reviewDone: 'Review done for today.', reviewShow: 'Show the question', reviewBack: 'Back tomorrow', reviewNextIn: 'Next in', days: 'days', reviewRetired: 'Learned. Leaves the deck.',
       bookmark: 'Bookmark', bookmarked: 'Bookmarked', bookmarks: 'Bookmarks', noBookmarks: 'No bookmarks yet. Tap the bookmark on any card to keep it here.', openCard: 'Open', removeBookmark: 'Remove',
@@ -610,10 +698,18 @@ FI.content = (() => {
       accuracy: 'دقت', timeTaken: 'زمان', bestCombo: 'بهترین پیاپی', earnedLabel: 'به‌دست‌آمده',
       praiseClean: 'بدون خطا. یک درس پاکیزه.', praiseCombo: 'بهترین رشته‌ات {n} پاسخ درست پشت سر هم بود.', praiseReview: 'کارت‌های ازدست‌رفته در مرور برمی‌گردند.',
       chestGold: 'بدون خطا: صندوق طلایی', chestPlain: 'صندوقی برای تمام‌کردن درس', chestRange: '{lo} تا {hi} سکه در آن است', chestShard: 'و یک تکه', openChest: 'صندوق را باز کن',
-      shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
+      shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', shardOne: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
       missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.',
       nextLesson: 'درس بعدی', replayDone: 'دوباره بازی شد. اینجا چیز تازه‌ای برای به‌دست‌آوردن نیست.',
       reviewFirst: 'اول امروز', reviewCards: 'مرور {n} کارت', aboutMin: 'حدود {n} دقیقه', thenLesson: 'سپس',
+      recap: 'جمع‌بندی', recapGo: 'جمع‌بندی این بخش', recapSub: 'پرسش‌هایی از کل بخش، اول آنهایی که اشتباه کردی', recapLocked: 'برای بازشدن جمع‌بندی، همه درس‌های اینجا را بگذران', recapAgain: 'جمع‌بندی انجام شد. هر وقت خواستی دوباره انجامش بده.',
+      recapDone: 'جمع‌بندی انجام شد', recapScore: '{n} از {m} درست', recapBack: 'این کارت به مرور تو می‌رود.', recapPaid: '+{n} سکه برای بستن بخش', recapKicker: 'گام آخر',
+      streak: 'زنجیره', streakDays: 'زنجیره {n} روزه', streakBest: 'بهترین: {n}', streakKeep: 'هر روز یک درس یا یک مرور آن را نگه می‌دارد.', streakMilestone: '{n} روز پشت سر هم. این یک عادت است.', streakNow: 'زنجیره: {n}.',
+      last7: '۷ روز گذشته', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
+      noteFrozen: 'یخ، روزهای نبودنت را پوشش داد. زنجیره‌ات سالم است.', noteLost: 'زنجیره {n} روزه‌ات تمام شد. با درس بعدی یکی تازه شروع می‌شود.', ok: 'باشه', later: 'بعداً',
+      nudge7: 'هفت روز پشت سر هم. پیشرفت تو فقط در همین مرورگر است: پشتیبان بگیر تا گم‌شدن گوشی آن را از بین نبرد.',
+      questsTitle: 'مأموریت‌های امروز', quest_lesson: 'یک درس را تمام کن', quest_combo: '{n} پاسخ درست پشت سر هم بده', quest_fare: 'کرایه را در اولین تلاش بپرداز', quest_right: 'به {n} پرسش درست جواب بده', quest_clean: 'یک درس را بدون پاسخ غلط تمام کن', quest_review: 'مرور امروز را تمام کن',
+      questChest: 'هر سه با هم صندوقی با {lo} تا {hi} سکه باز می‌کنند', coinsEarned: 'کل سکه‌های به‌دست‌آمده',
       navLabel: 'ناوبری', learn: 'یادگیری', profile: 'نمایه', progress: 'پیشرفت تو', statCoins: 'سکه', statSections: 'بخش‌های روشن', statLessons: 'درس‌های روشن', badges: 'نشان‌ها', noBadges: 'هنوز نشانی نیست. یک ایستگاه را روشن کن یا یک کتاب را تمام کن.', settings: 'تنظیمات', sound: 'صدا', device: 'این دستگاه', startReview: 'شروع مرور', closeLabel: 'بستن',
       review: 'مرور', reviewDue: 'موعد', reviewEmpty: 'امروز چیزی برای مرور نیست. کارت‌های ازدست‌رفته و نشانک‌شده با فاصله‌های ۱، ۳، ۷، ۱۶ و ۳۵ روز به اینجا برمی‌گردند.', reviewDone: 'مرور امروز تمام شد.', reviewShow: 'پرسش را نشان بده', reviewBack: 'فردا برمی‌گردد', reviewNextIn: 'بعدی در', days: 'روز', reviewRetired: 'یاد گرفته شد. از دسته بیرون می‌رود.',
       bookmark: 'نشانک', bookmarked: 'نشانک‌شده', bookmarks: 'نشانک‌ها', noBookmarks: 'هنوز نشانکی نیست. روی هر کارت، نشانک را بزن تا اینجا بماند.', openCard: 'باز کن', removeBookmark: 'حذف',
@@ -998,7 +1094,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7', 'recaps'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -1014,6 +1110,11 @@ FI.engine = (() => {
     combo: 0, // right answers in a row; never saved. It sets what a first right answer pays (ADR-0012)
     earned: 0, shards: 0, owed: null, // Coins earned in total (`coins` is what is held); shards from gold chests; a chest won and not yet opened
     paid: 0, tally: null, end: null, // Coins paid by this reduce; the running count of the Lesson being played; the screens that end it
+    // Spec 14, release 2. streak: days in a row with a passed Lesson or a finished Review; `last` is the day last counted.
+    // marks: the days of the last two weeks, 'on' or 'frz' (saved by a freeze). quests: the three dealt for one day.
+    streak: { n: 0, best: 0, last: null }, freezes: 0, marks: {}, quests: null, nudge7: null,
+    recaps: {}, // spec 15: the Sections whose Recap was finished
+    streakNote: null, // what happened to the streak while the player was away; shown once, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
     events: [],
   });
@@ -1037,7 +1138,7 @@ FI.engine = (() => {
     return null;
   }
   // Combo: right answers in a row, in Lessons and in Review.
-  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); if (s.tally) { s.tally.run += 1; s.tally.best = Math.max(s.tally.best, s.tally.run); } };
+  const comboUp = (s) => { s.combo += 1; if (s.combo >= 2) s.events.push('combo'); if (s.tally) { s.tally.run += 1; s.tally.best = Math.max(s.tally.best, s.tally.run); } quest(s, 'right'); quest(s, 'combo'); };
   const comboDown = (s) => { s.combo = 0; if (s.tally) s.tally.run = 0; };
   // ---- Spec 14, release 1: the Combo pays, and a passed Lesson ends on a scoreboard, a chest and an onward screen.
   // The nth right answer in a row pays 1, 1, 2, 2, 3 and so on. A Check still pays once, so a replay pays nothing.
@@ -1047,6 +1148,56 @@ FI.engine = (() => {
   const CLEAN_BONUS = 10;
   const CHEST = { gold: [15, 40], plain: [5, 18] }; // the range is shown before the chest is opened
   const pay = (s, n) => { s.coins += n; s.earned += n; s.paid += n; s.events.push('coin'); if (s.tally) s.tally.coins += n; };
+  // ---- Spec 14, release 2: the day streak, the freeze and the quests of the day.
+  const FREEZE_PRICE = 250; // about a week of normal play
+  const FREEZE_MAX = 2;
+  const STREAK_MILESTONES = [7, 14, 30, 50, 100, 200, 365];
+  const QUEST_CHEST = [30, 60];
+  const QUEST_NEED = { lesson: 1, combo: 5, fare: 1, right: 8, clean: 1, review: 1 };
+  const streakToday = (s) => s.streak.last === s.today;
+  const questsToday = (s) => (s.quests && s.quests.day === s.today ? s.quests : null);
+  // The days missed since the streak last counted: a freeze covers each in turn; with none left the streak ends.
+  function settleStreak(s) {
+    const k = s.streak;
+    if (k.last === null || k.n === 0) return;
+    let gap = s.today - k.last - 1; let used = 0;
+    while (gap > 0) {
+      if (s.freezes <= 0) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; s.events.push('streak-lost'); return; }
+      s.freezes -= 1; k.last += 1; s.marks[k.last] = 'frz'; gap -= 1; used += 1;
+    }
+    if (used) { s.streakNote = { kind: 'frozen', n: used }; s.events.push('freeze-used'); }
+  }
+  // Count today for the streak. True when the streak grew, which happens once a day.
+  function touchDay(s) {
+    settleStreak(s);
+    const k = s.streak;
+    if (k.last === s.today) return false;
+    k.n += 1; k.last = s.today; k.best = Math.max(k.best, k.n);
+    s.marks[s.today] = 'on';
+    for (const d of Object.keys(s.marks)) if (+d <= s.today - 14) delete s.marks[d];
+    s.streakNote = null;
+    if (k.n >= 7 && s.nudge7 === null) s.nudge7 = 'due'; // a streak makes a lost save hurt more: ask for a backup once
+    s.events.push('streak');
+    return true;
+  }
+  // Deal three quests for today. `roll` is a number from 0 up to 1 drawn by the app. Review is always one of them when Cards are due.
+  function dealQuests(s, roll) {
+    const old = s.quests;
+    if (old && old.day === s.today) return;
+    if (old && old.chest === 'ready') pay(s, QUEST_CHEST[0]); // a chest earned and not opened is never lost
+    let seed = Math.floor((Number.isFinite(roll) ? Math.min(0.999999, Math.max(0, roll)) : 0) * 2147483646) + 1;
+    const next = () => { seed = (seed * 48271) % 2147483647; return seed / 2147483647; };
+    const pool = ['lesson', 'combo', 'fare', 'right', 'clean'];
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(next() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    const kinds = dueIds(s).length ? ['review', pool[0], pool[1]] : pool.slice(0, 3);
+    s.quests = { day: s.today, list: kinds.map((kind) => ({ kind, need: QUEST_NEED[kind], have: 0 })), chest: 'shut', won: 0 };
+  }
+  function quest(s, kind) {
+    const q = questsToday(s);
+    if (!q) return;
+    for (const item of q.list) if (item.kind === kind) item.have = Math.min(item.need, kind === 'combo' ? Math.max(item.have, s.combo) : item.have + 1);
+    if (q.chest === 'shut' && q.list.every((item) => item.have >= item.need)) { q.chest = 'ready'; s.events.push('quests-done'); }
+  }
   // Review is offered with an honest estimate: about half a minute a Card.
   const reviewMinutes = (n) => Math.max(1, Math.round(n / 2));
   // The count a Lesson keeps while it is played. `at` is a time sent by the app; the engine never reads the clock.
@@ -1066,9 +1217,13 @@ FI.engine = (() => {
   // Called once the Fare is passed and the Station is lit, so the XP of this Lesson is already counted.
   function finish(s, at) {
     const t = s.tally; const id = s.stationId;
-    if (!t || t.replay) { s.end = { step: 'onward', replay: true }; return; }
-    const firsts = Object.values(t.seen);
+    const streak = touchDay(s) ? { n: s.streak.n, milestone: STREAK_MILESTONES.includes(s.streak.n) } : null;
+    const firsts = t ? Object.values(t.seen) : [];
     const clean = firsts.length > 0 && firsts.every(Boolean);
+    quest(s, 'lesson');
+    if (s.fare && s.fare.attempt === 1) quest(s, 'fare');
+    if (clean) quest(s, 'clean');
+    if (!t || t.replay) { s.end = { step: streak ? 'streak' : 'onward', replay: true, streak }; return; }
     if (clean && !s.awarded[`clean:${id}`]) { s.awarded[`clean:${id}`] = true; pay(s, CLEAN_BONUS); }
     let chest = null;
     if (!s.awarded[`chest:${id}`]) {
@@ -1078,7 +1233,7 @@ FI.engine = (() => {
     }
     s.end = { step: 'score', replay: false, right: firsts.filter(Boolean).length, total: firsts.length, best: t.best, clean,
       secs: t.at !== null && Number.isFinite(at) ? Math.max(0, Math.round((at - t.at) / 1000)) : null,
-      xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest };
+      xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest, streak };
   }
 
   // ---- Shape of saved progress. A saved document or a backup is foreign text: every durable key is
@@ -1094,6 +1249,13 @@ FI.engine = (() => {
     && (k.options === null || listOf(isPair)(k.options)) && (isFlag(k.answer) || isCount(k.answer) || listOf(isCount)(k.answer)));
   const SHAPE = {
     mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount, earned: isCount, shards: (v) => Number.isInteger(v) && v >= 0,
+    streak: (v) => isMap(v) && Number.isInteger(v.n) && v.n >= 0 && Number.isInteger(v.best) && v.best >= v.n && (v.last === null || Number.isInteger(v.last)) && Object.keys(v).length === 3,
+    freezes: (v) => Number.isInteger(v) && v >= 0 && v <= 2,
+    marks: (v) => isMap(v) && Object.keys(v).length <= 40 && Object.keys(v).every((k) => /^\d{1,7}$/.test(k) && (v[k] === 'on' || v[k] === 'frz')),
+    quests: (v) => v === null || (isMap(v) && Number.isInteger(v.day) && ['shut', 'ready', 'open'].includes(v.chest) && isCount(v.won) && v.won <= 500 && Array.isArray(v.list) && v.list.length <= 3
+      && v.list.every((x) => isMap(x) && ['lesson', 'combo', 'fare', 'right', 'clean', 'review'].includes(x.kind) && Number.isInteger(x.need) && x.need > 0 && x.need <= 50 && Number.isInteger(x.have) && x.have >= 0 && x.have <= x.need)),
+    nudge7: (v) => v === null || v === 'due' || v === 'done',
+    recaps: (v) => mapOf(isFlag)(v) && Object.keys(v).length <= 200 && Object.keys(v).every((k) => k.length <= 40),
     owed: (v) => v === null || (isMap(v) && Number.isInteger(v.lo) && Number.isInteger(v.hi) && v.lo >= 0 && v.hi >= v.lo && v.hi <= 500 && isFlag(v.gold)),
     awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
     run: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos)),
@@ -1167,6 +1329,26 @@ FI.engine = (() => {
     } else { entry.box = 0; entry.due = s.today + LADDER[0]; if (answered) { comboDown(s); s.events.push('wrong'); } }
     s.review.phase = 'result'; s.review.ok = ok;
   }
+  // ---- Recap (spec 15): the last step of a Section. A session built from the loaded Section, never from saved content:
+  // the Checks of the Cards missed there first, then one Check from each Lesson not yet covered.
+  const RECAP_MAX = 12;
+  const RECAP_PAY = 20;
+  const recapOpen = (s, content, sec) => !!sec && sec.runs.length > 0 && sec.runs.every((id) => s.lit[id] || s.farePassed[id]);
+  function recapEntries(s, content, sec) {
+    const lessons = sec.runs.map((id) => content.station(id)).filter((st) => st && st.items);
+    const asEntry = (st, k) => { const card = st.items.find((i) => i.id === k.source && i.kind === 'card'); return card ? { stationId: st.id, cardId: card.id, text: card.text, check: { id: k.id, type: k.type, prompt: k.prompt, options: k.options || null, answer: k.answer } } : null; };
+    const missed = []; const fill = [];
+    for (const st of lessons) {
+      const checks = st.items.filter((i) => i.kind === 'check');
+      const mine = checks.filter((k) => s.deck[k.source] && s.deck[k.source].missed).map((k) => asEntry(st, k)).filter(Boolean);
+      const seen = new Set(); // one question a Card
+      for (const e of mine) if (!seen.has(e.cardId)) { seen.add(e.cardId); missed.push(e); }
+      if (!mine.length && checks.length) { const e = asEntry(st, checks[0]); if (e) fill.push(e); }
+    }
+    return [...missed, ...fill].slice(0, RECAP_MAX);
+  }
+  // The Card a Review or Recap step is about: a Recap carries its own, Review reads the Deck.
+  const entryOf = (s, id) => (s.review && s.review.pool ? s.review.pool[id] : s.deck[id]);
   const indexIn = (content, stationId, id) => content.station(stationId).items.findIndex((i) => i.id === id);
 
   function advance(s, content) {
@@ -1303,7 +1485,7 @@ FI.engine = (() => {
         return advance(s, content);
       }
       case 'BACKUP_DONE':
-        s.lastBackup = s.today; return s;
+        s.lastBackup = s.today; if (s.nudge7 === 'due') s.nudge7 = 'done'; return s;
       case 'RESTORE': {
         // Replace progress with a parsed backup; the same HYDRATE path applies the same migrations.
         const fresh = initial(); fresh.today = s.today;
@@ -1316,6 +1498,8 @@ FI.engine = (() => {
       case 'TICK':
         if (Number.isInteger(action.value)) s.today = action.value;
         backfill(s, content);
+        settleStreak(s);
+        dealQuests(s, action.roll);
         return s;
       case 'OPEN_REVIEW': {
         leave(s);
@@ -1325,21 +1509,46 @@ FI.engine = (() => {
         s.review = { ids, index: 0, phase: ids.length ? 'card' : 'done', ok: null, retired: false, nextIn: 0, capped: !ids.length && dueIds(s).length > 0 };
         return s;
       }
+      case 'OPEN_RECAP': {
+        const sec = content.sections.find((x) => x.id === action.value);
+        if (!recapOpen(s, content, sec)) return s;
+        const entries = recapEntries(s, content, sec);
+        if (!entries.length) return s;
+        leave(s);
+        const pool = {}; entries.forEach((e, i) => { pool[`r${i}`] = e; });
+        s.screen = 'review'; s.lastSection = sec.id;
+        s.review = { ids: Object.keys(pool), index: 0, phase: 'check', ok: null, retired: false, nextIn: 0, capped: false, recap: sec.id, pool, right: 0, paid: 0 };
+        return s;
+      }
       case 'REVIEW_NEXT': {
         if (s.screen !== 'review') return s;
         const r = s.review;
-        if (r.phase === 'card' && s.deck[r.ids[r.index]] && s.deck[r.ids[r.index]].check) { r.phase = 'check'; return s; }
+        if (r.phase === 'card' && entryOf(s, r.ids[r.index]) && entryOf(s, r.ids[r.index]).check) { r.phase = 'check'; return s; }
         if (r.phase === 'result') {
           r.index += 1; r.ok = null; r.retired = false; r.nextIn = 0;
-          r.phase = r.index >= r.ids.length ? 'done' : 'card';
+          r.phase = r.index >= r.ids.length ? 'done' : r.recap ? 'check' : 'card';
+          if (r.phase === 'done' && r.recap) {
+            // The first finished Recap of a Section pays once. Every finished Recap counts the day, as a Lesson does.
+            if (!s.awarded[`recap:${r.recap}`]) { s.awarded[`recap:${r.recap}`] = true; pay(s, RECAP_PAY); r.paid = RECAP_PAY; }
+            s.recaps[r.recap] = true; s.events.push('recap-done');
+            quest(s, 'lesson'); r.streak = touchDay(s);
+          } else if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); }
         }
         return s;
       }
       case 'REVIEW_ANSWER': {
         if (s.screen !== 'review' || s.review.phase !== 'check') return s;
         const id = s.review.ids[s.review.index];
-        if (!s.deck[id] || !s.deck[id].check) return s;
-        settle(s, id, same(action.value, s.deck[id].check.answer), true);
+        const e = entryOf(s, id);
+        if (!e || !e.check) return s;
+        const ok = same(action.value, e.check.answer);
+        if (s.review.recap) {
+          // A Recap moves no Card on the ladder. A miss puts the Card in the Deck, the same safety net as a Lesson.
+          if (ok) { s.review.right += 1; s.events.push('correct'); comboUp(s); } else { comboDown(s); s.events.push('wrong'); enqueue(s, content, e.stationId, e.cardId, 'missed', e.check.id); }
+          s.review.phase = 'result'; s.review.ok = ok;
+          return s;
+        }
+        settle(s, id, ok, true);
         return s;
       }
       case 'REVIEW_RATE': {
@@ -1415,7 +1624,8 @@ FI.engine = (() => {
             if (s.run && !s.run.returning) s.run.pos = indexIn(content, s.stationId, k.id) + 1;
           } else {
             s.misses += 1; comboDown(s); s.events.push('wrong');
-            if (s.misses === 1) { s.hint = true; s.events.push('hint'); }
+            // Spec 15: the first wrong answer is the sign the Card was not understood. It Returns in this Lesson and enters the Deck.
+            if (s.misses === 1) { s.hint = true; s.events.push('hint'); queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); }
             else { s.phase = 'revealed'; queueReturn(s, k.source); enqueue(s, content, s.stationId, k.source, 'missed', k.id); s.events.push('revealed'); }
           }
           return s;
@@ -1438,7 +1648,7 @@ FI.engine = (() => {
         return s;
       }
       case 'CONTINUE':
-        if (s.phase === 'correct' || s.phase === 'revealed' || s.phase === 'widget') return advance(s, content);
+        if (s.phase === 'card' || s.phase === 'correct' || s.phase === 'revealed' || s.phase === 'widget') return advance(s, content); // spec 15: a Card has one button
         if (s.phase === 'fare-failed') {
           s.returns = [];
           for (const id of s.fare.missed) queueReturn(s, content.item(s.stationId, id).source);
@@ -1449,9 +1659,27 @@ FI.engine = (() => {
           // The end of a Lesson: scoreboard, then the chest, then the onward screen, one tap each.
           const e = s.end;
           if (!e || e.step === 'onward') return leave(s);
-          e.step = e.step === 'score' && e.chest ? 'chest' : 'onward';
+          e.step = e.step === 'score' && e.chest ? 'chest' : e.step !== 'streak' && e.streak ? 'streak' : 'onward';
         }
         return s;
+      case 'BUY_FREEZE':
+        // Coins held go down; Coins earned never do (ADR-0012).
+        if (s.freezes >= FREEZE_MAX || s.coins < FREEZE_PRICE) return s;
+        s.coins -= FREEZE_PRICE; s.freezes += 1; s.events.push('bought');
+        return s;
+      case 'OPEN_QUEST_CHEST': {
+        const q = questsToday(s);
+        if (!q || q.chest !== 'ready') return s;
+        const r = Number.isFinite(action.value) ? Math.min(0.999999, Math.max(0, action.value)) : 0;
+        q.won = QUEST_CHEST[0] + Math.floor(r * (QUEST_CHEST[1] - QUEST_CHEST[0] + 1)); q.chest = 'open';
+        pay(s, q.won); s.events.push('chest');
+        return s;
+      }
+      case 'DISMISS_NUDGE':
+        if (s.nudge7 === 'due') s.nudge7 = 'done';
+        return s;
+      case 'DISMISS_STREAK_NOTE':
+        s.streakNote = null; return s;
       case 'OPEN_CHEST': {
         const e = s.end;
         if (s.phase !== 'fare-passed' || !e || e.step !== 'chest' || !e.chest || e.chest.open) return s;
@@ -1512,7 +1740,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, recapOpen, RECAP_MAX, RECAP_PAY, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday };
 })();
 </script>
 
@@ -1631,6 +1859,8 @@ FI.render = (() => {
     s4: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l6-6 4 4 6-8"/><path d="M14 8h6v6"/></svg>',
     s5: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
     s6: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a2 2 0 00-2-2H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a2 2 0 012-2h7z"/></svg>',
+    flame: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.600 2c.500 3.300-1.400 5-3 6.700C8 10.400 6.500 12.100 6.500 15a5.500 5.500 0 0 0 11 0c0-1.700-.600-3.100-1.400-4.300-.400 1.200-1.100 2-2.100 2.400.300-3.800-.300-8.300-1.400-11.100z"/><path d="M12 21a2.600 2.600 0 0 1-2.600-2.600c0-1.500 1.200-2.300 2.600-4.100 1.400 1.800 2.600 2.600 2.600 4.100A2.600 2.600 0 0 1 12 21z" fill="var(--ink)" opacity=".45"/></svg>',
+    snow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M4.200 7.500l15.600 9M19.800 7.500l-15.600 9M9.500 4.500L12 7l2.500-2.500M9.500 19.500L12 17l2.500 2.500"/></svg>',
     coin: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity=".35"/><circle cx="12" cy="12" r="6"/></svg>',
     sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 010 6"/></svg>',
     muted: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l4 6M21 9l-4 6"/></svg>',
@@ -1662,6 +1892,7 @@ FI.render = (() => {
       ${modeGroup(s)}
       <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Number(s.xp) || 0}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
       <span class="xpnum" aria-hidden="true"${ui.xpGain ? ' data-new' : ''}>${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
+      <span class="streakchip ${FI.engine.streakToday(s) ? 'on' : ''}" title="${t('streak', s.mode)}" aria-label="${t('streak', s.mode)}: ${num(s.streak.n, s.mode)}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span>
       <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span></span>
       <button class="icon" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${s.muted}" aria-label="${s.muted ? t('unmute', s.mode) : t('mute', s.mode)}">${s.muted ? ICONS.muted : ICONS.sound}</button>
     </header>`;
@@ -1684,11 +1915,36 @@ FI.render = (() => {
       ${item('profile', { type: 'OPEN_PROFILE' }, ICONS.user, t('profile', s.mode), FI.engine.backupNudge(s) === 'never' ? '<i class="navdot"></i>' : '')}
     </nav>`;
   }
+  // ---- Spec 14, release 2: the streak and the quests of the day.
+  const tf = (s, key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
+  const weekDots = (s) => `<div class="week" role="img" aria-label="${t('last7', s.mode)}">${Array.from({ length: 7 }, (_, i) => s.today - 6 + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
+  function questsPanel(s, cls) {
+    const q = FI.engine.questsToday(s);
+    if (!q) return '';
+    const rows = q.list.map((item) => { const done = item.have >= item.need; return `<div class="quest"><span class="qt${done ? ' done' : ''}">${done ? ICONS.check : ''}${tf(s, `quest_${item.kind}`, { n: item.need })}</span><span class="qn">${num(item.have, s.mode)}/${num(item.need, s.mode)}</span><div class="qbar"><i style="width:${Math.round((item.have / item.need) * 100)}%"></i></div></div>`; }).join('');
+    const [lo, hi] = FI.engine.QUEST_CHEST;
+    const chest = q.chest === 'open' ? `<p class="chestwon" aria-live="polite">+${num(q.won, s.mode)} ●</p>`
+      : q.chest === 'ready' ? `<button class="btn primary wide questchest" ${A({ type: 'OPEN_QUEST_CHEST' })}>${ICONS.chest}<span>${t('openChest', s.mode)} · ${num(lo, s.mode)}\u2013${num(hi, s.mode)} ●</span></button>`
+      : `<p class="help">${tf(s, 'questChest', { lo, hi })}</p>`;
+    return `<section class="panel quests ${cls}"><p class="kicker">${t('questsTitle', s.mode)}</p>${rows}${chest}</section>`;
+  }
+  // What happened to the streak while the player was away, and the one request for a backup at seven days.
+  function streakNotes(s) {
+    const n = s.streakNote;
+    const note = n ? `<div class="streaknote ${n.kind}" role="status">${n.kind === 'frozen' ? ICONS.snow : ICONS.flame}<span>${n.kind === 'frozen' ? t('noteFrozen', s.mode) : tf(s, 'noteLost', { n: n.n })}</span><button class="footbtn" ${A({ type: 'DISMISS_STREAK_NOTE' })}>${t('ok', s.mode)}</button></div>` : '';
+    const nudge = s.nudge7 === 'due' ? `<div class="nudge7" role="status"><span>${t('nudge7', s.mode)}</span><div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: 'DISMISS_NUDGE' })}>${t('later', s.mode)}</button></div></div>` : '';
+    return note + nudge;
+  }
+  function streakPanel(s, shop) {
+    const can = s.freezes < FI.engine.FREEZE_MAX && s.coins >= FI.engine.FREEZE_PRICE;
+    const buy = shop ? `<p class="help">${t('freezeHelp', s.mode)}</p><button class="btn wide" ${A({ type: 'BUY_FREEZE' })}${can ? '' : ' disabled'}>${ICONS.snow}<span>${tf(s, 'buyFreeze', { n: FI.engine.FREEZE_PRICE })}</span></button>` : '';
+    return `<div class="streakpanel"><div class="streakhead"><span class="streakchip big ${FI.engine.streakToday(s) ? 'on' : ''}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span><div><b>${tf(s, 'streakDays', { n: s.streak.n })}</b><small>${tf(s, 'streakBest', { n: s.streak.best })}</small></div><span class="frz" title="${t('freezes', s.mode)}" aria-label="${t('freezes', s.mode)}: ${num(s.freezes, s.mode)}/${num(FI.engine.FREEZE_MAX, s.mode)}">${ICONS.snow}${num(s.freezes, s.mode)}/${num(FI.engine.FREEZE_MAX, s.mode)}</span></div>${weekDots(s)}${buy}</div>`;
+  }
   // The player's numbers: on the Profile, and in the desktop rail beside the Path (spec 10).
   function stats(s, content) {
     const secs = content.sections; const runs = secs.flatMap((sec) => sec.runs);
     const cell = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
-    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>${s.shards ? `<p class="shardcount">◆ ${num(s.shards, s.mode)} ${t('shards', s.mode)}</p>` : ''}`;
+    return `<div class="stats">${cell(num(s.xp, s.mode), t('xp', s.mode))}${cell(num(s.coins, s.mode), t('statCoins', s.mode))}${cell(`${num(secs.filter((sec) => isComplete(s, sec)).length, s.mode)}/${num(secs.length, s.mode)}`, t('statSections', s.mode))}${cell(`${num(runs.filter((u) => s.lit[u]).length, s.mode)}/${num(runs.length, s.mode)}`, t('statLessons', s.mode))}</div>${s.shards ? `<p class="shardcount">◆ ${num(s.shards, s.mode)} ${t(s.shards === 1 ? 'shardOne' : 'shards', s.mode)}</p>` : ''}${s.earned > s.coins ? `<p class="shardcount earnedline">${t('coinsEarned', s.mode)}: ${num(s.earned, s.mode)}</p>` : ''}`;
   }
   // One row per Section: the jump sheet on a phone, the rail list on a desktop.
   const sectionRows = (s, content, onId, coverCls) => content.sections.map((sec, i) => `<button class="row ${sec.id === onId ? 'on' : ''}" data-sec="${esc(sec.id)}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, coverCls) : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(sec.runs.filter((u) => s.lit[u]).length, s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('');
@@ -1696,6 +1952,8 @@ FI.render = (() => {
     const due = FI.engine.dueCount(s);
     return `<aside class="rail" aria-label="${t('progress', s.mode)}">
       <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
+      <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, false)}</section>
+      ${questsPanel(s, 'inrail')}
       <section class="panel"><p class="kicker">${t('review', s.mode)}</p><p class="railnum"><b>${num(due, s.mode)}</b> ${t('reviewDue', s.mode)}</p><button class="btn ${due ? 'primary' : ''} wide" ${A({ type: 'OPEN_REVIEW' })}>${t('startReview', s.mode)}</button></section>
       <section class="panel railsecs"><p class="kicker">${t('sections', s.mode)}</p>${sectionRows(s, content, onId, 'tiny r')}</section>
     </aside>`;
@@ -1911,7 +2169,7 @@ FI.render = (() => {
         : `<ol class="nodes circles">${roadLayer}${sec.circles.map((c, n) => { const go = c.lessons.includes(goId); return circleStop(s, content, c, n + 1, go || (!!nextCircle && nextCircle.id === c.id), go); }).join('')}</ol>`;
       const bar = sec.kind === 'book' ? `<div class="secbar">${notesButton(s, sec.bookId, 'footbtn')}</div>` : '';
       const label = sec.kind === 'book' ? sec.title : sec.name[lang(s)];
-      return `<section class="sec ${sec.kind} open ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}" aria-label="${esc(label)}">${sectionHeader(s, sec, i + 1, sec.runs.filter((u) => s.lit[u]).length)}${bar}${nodes}</section>`;
+      return `<section class="sec ${sec.kind} open ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}" aria-label="${esc(label)}">${sectionHeader(s, sec, i + 1, sec.runs.filter((u) => s.lit[u]).length)}${bar}${nodes}${recapStop(s, content, sec)}</section>`;
     }).join('');
     const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
     const sheet = ui.picker ? `<div class="sheet" role="dialog" aria-label="${t('sections', s.mode)}"><div class="sheethead"><h3>${t('sections', s.mode)}</h3><button class="icon" ${A({ type: 'UI_PICKER' })} aria-label="${t('closeLabel', s.mode)}">${ICONS.close}</button></div>${sectionRows(s, content, onId, 'tiny')}</div>` : '';
@@ -1919,6 +2177,7 @@ FI.render = (() => {
     return `<main class="path${cam}">
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
       ${continueBlock(s, content)}
+      ${streakNotes(s)}${questsPanel(s, 'inmain')}
       <div class="find"><div class="findrow"><input type="search" data-find placeholder="${t('find', s.mode)}" value="${esc(ui.find)}" aria-label="${t('find', s.mode)}" autocomplete="off" maxlength="80"><button class="picker" ${A({ type: 'UI_PICKER' })} aria-expanded="${!!ui.picker}" aria-label="${t('jumpTo', s.mode)}">${t('sections', s.mode)}${ICONS.chevron}</button></div><div class="foundwrap">${foundList(s, content)}</div></div>
       <div class="sections">${list}</div>${milestone}
       ${sheet}
@@ -1937,6 +2196,7 @@ FI.render = (() => {
     return `<main class="station tools profile" data-theme="teal">
       <div class="shead"><h2 class="ttitle">${t('profile', s.mode)}</h2></div>
       <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
+      <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, true)}</section>
       <section class="panel"><p class="kicker">${t('badges', s.mode)} · ${num(earned.length, s.mode)}</p>${badges}</section>
       <section class="panel"><p class="kicker">${t('settings', s.mode)}</p>
         <div class="setrow"><span>${t('language', s.mode)}</span>${modeGroup(s)}</div>
@@ -2102,23 +2362,29 @@ FI.render = (() => {
   // ---- Review (spec 1) -------------------------------------------------------
   function reviewScreen(s, content) {
     const r = s.review;
-    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t('review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
+    const head = `<div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${t(r.recap ? 'recap' : 'review', s.mode)}${r.ids.length ? ` · ${num(Math.min(r.index + 1, r.ids.length), s.mode)}/${num(r.ids.length, s.mode)}` : ''}</h2></div>`;
+    const streakLine = r.ids.length && FI.engine.streakToday(s) ? `<p class="streakline"><span class="streakchip on">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span> ${tf(s, 'streakDays', { n: s.streak.n })}</p>` : '';
+    if (r.phase === 'done' && r.recap) {
+      const sec = content.sections.find((x) => x.id === r.recap);
+      const name = !sec ? '' : sec.kind === 'book' ? `<span class="t-en" lang="en">${esc(sec.title)}</span>` : pair(sec.name, one(s.mode));
+      return `<main class="station tools run" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.badge}</div><h2>${t('recapDone', s.mode)}</h2><p class="inl">${name}</p><p class="recapscore">${tf(s, 'recapScore', { n: r.right, m: r.ids.length })}</p>${r.paid ? `<p class="praise gold" style="--i:1">${tf(s, 'recapPaid', { n: r.paid })}</p>` : ''}${streakLine}<div class="actions col"><button class="btn primary wide" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></div></section></main>`;
+    }
     if (r.phase === 'done') {
       const msg = r.ids.length || r.capped ? t('reviewDone', s.mode) : t('reviewEmpty', s.mode);
-      return `<main class="station tools" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p><button class="btn primary" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></section></main>`;
+      return `<main class="station tools run" data-theme="teal">${head}<section class="panel result"><div class="big">${ICONS.check}</div><p>${msg}</p>${streakLine}<div class="actions col"><button class="btn primary wide" ${A({ type: 'BACK_TO_PATH' })} data-focus>${t('back', s.mode)}</button></div></section></main>`;
     }
-    const e = s.deck[r.ids[r.index]];
+    const e = r.pool ? r.pool[r.ids[r.index]] : s.deck[r.ids[r.index]];
     const k = e && e.check;
     const answer = !k ? '' : k.type === 'tf' ? t(k.answer ? 'trueLabel' : 'falseLabel', s.mode) : k.type === 'order' ? k.answer.map((i) => pair(k.options[i], one(s.mode))).join(' · ') : pair(k.options[k.answer], s.mode);
     if (r.phase === 'result') {
-      const note = !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
-      return `<main class="station tools" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
+      const note = r.recap ? (r.ok ? '' : t('recapBack', s.mode)) : !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
+      return `<main class="station tools run" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
     }
     const card = `<section class="panel card"><p class="kicker">${t('review', s.mode)}</p><p class="ctext">${pair(e.text, s.mode)}</p>`;
     if (r.phase === 'card') {
       const actions = k ? `<div class="actions"><button class="btn primary wide" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('reviewShow', s.mode)}</button></div>`
         : `<div class="actions"><button class="btn" ${A({ type: 'REVIEW_RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button></div>`;
-      return `<main class="station tools" data-theme="teal">${head}${card}${actions}</section></main>`;
+      return `<main class="station tools run" data-theme="teal">${head}${card}${actions}</section></main>`;
     }
     let body = '';
     if (k.type === 'tap') body = `<div class="opts">${k.options.map((o, i) => `<button class="btn opt" ${A({ type: 'REVIEW_ANSWER', value: i })}>${pair(o, s.mode)}</button>`).join('')}</div>`;
@@ -2129,7 +2395,15 @@ FI.render = (() => {
       const remaining = k.options.map((o, i) => placed.includes(i) ? '' : `<button class="btn opt" ${A({ type: 'UI_ORDER_ADD', value: i })}>${pair(o, s.mode)}</button>`).join('');
       body = `<p class="help">${t('orderHelp', s.mode)}</p><div class="slots" aria-live="polite">${slots}</div><div class="opts">${remaining}</div><div class="actions"><button class="btn ghost" ${A({ type: 'UI_ORDER_CLEAR' })} ${placed.length ? '' : 'disabled'}>${t('clearOrder', s.mode)}</button><button class="btn primary" ${A({ type: 'REVIEW_ANSWER', value: placed })} ${placed.length === k.options.length ? '' : 'disabled'}>${t('check', s.mode)}</button></div>`;
     }
-    return `<main class="station tools" data-theme="teal">${head}<section class="panel check"><p class="kicker">${t('review', s.mode)}</p><h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}</section></main>`;
+    return `<main class="station tools run" data-theme="teal">${head}<section class="panel check"><p class="kicker">${t(r.recap ? 'recap' : 'review', s.mode)}</p><h2 class="prompt">${pair(k.prompt, s.mode)}</h2>${body}</section></main>`;
+  }
+  // The Recap stop: the last thing in every Section on the Path (spec 15). Closed until every Lesson there has a passed Fare.
+  function recapStop(s, content, sec) {
+    const open = FI.engine.recapOpen(s, content, sec); const done = !!s.recaps[sec.id];
+    const state = !open ? 'closed' : done ? 'done' : 'open';
+    const sub = !open ? t('recapLocked', s.mode) : done ? t('recapAgain', s.mode) : t('recapSub', s.mode);
+    const inner = `<span class="rico">${done ? ICONS.check : ICONS.badge}</span><span class="rt"><small>${t('recapKicker', s.mode)}</small><b>${t('recapGo', s.mode)}</b><span>${sub}</span></span>`;
+    return open ? `<div class="recapstop ${state}"><button class="recapbtn" ${A({ type: 'OPEN_RECAP', value: sec.id })}>${inner}</button></div>` : `<div class="recapstop ${state}"><span class="recapbtn" aria-disabled="true">${inner}</span></div>`;
   }
 
   // ---- Station run ---------------------------------------------------------
@@ -2152,9 +2426,8 @@ FI.render = (() => {
     return `<section class="panel card${item.callout ? ' callout' : ''}">
       <p class="kicker">${st.book ? (item.frame ? t('whyMatters', s.mode) : pair(st.name, one(s.mode))) : pair(st.name, one(s.mode))}${chip}${mark}</p>
       <p class="ctext">${body}</p>${add}
-      <div class="actions">${flip}
-        <button class="btn" ${A({ type: 'RATE', value: 'didnt' })}>${t('didnt', s.mode)}</button>
-        <button class="btn primary" ${A({ type: 'RATE', value: 'knew' })} data-focus>${t('knew', s.mode)}</button>
+      <div class="actions one">${flip.replace('btn soft wide', 'btn soft')}
+        <button class="btn primary${flip ? '' : ' wide'}" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button>
       </div>
     </section>`;
   }
@@ -2246,6 +2519,10 @@ FI.render = (() => {
           : `<div class="chest ${c.gold ? 'gold' : 'plain'}" aria-hidden="true">${ICONS.chest}</div><p>${range}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'OPEN_CHEST' })} data-focus>${t('openChest', s.mode)}</button></div>`;
         return `<section class="panel result"><h2>${t(c.gold ? 'chestGold' : 'chestPlain', s.mode)}</h2>${body}</section>`;
       }
+      if (e.step === 'streak' && e.streak) {
+        const line = e.streak.milestone ? fill('streakMilestone', { n: e.streak.n }) : t('streakKeep', s.mode);
+        return `<section class="panel result"><div class="streakbig">${ICONS.flame}<b>${num(e.streak.n, s.mode)}</b></div><h2>${fill('streakDays', { n: e.streak.n })}</h2>${weekDots(s)}<p class="praise ${e.streak.milestone ? 'gold' : ''}" style="--i:1">${line}</p><div class="actions col">${go}</div></section>`;
+      }
       // Onward: where the player stands, what comes back in Review, and the next Lesson one tap away.
       const group = circle ? circle.lessons : (content.sections.find((x) => x.runs.includes(st.id)) || { runs: [st.id] }).runs;
       const nextId = group.find((l) => !s.lit[l]);
@@ -2255,12 +2532,16 @@ FI.render = (() => {
       const missedBlock = missed.length ? `<div class="missed"><p class="kicker">${t('missedTitle', s.mode)}</p><ul class="missedlist">${missed.map((id) => `<li>${pair(s.deck[id].text, one(s.mode))}</li>`).join('')}</ul><p class="help">${t('backTomorrow', s.mode)}</p></div>` : '';
       const target = FI.engine.continueTarget(s, content);
       const next = target ? content.station(target.stationId) : null;
-      const nextBtn = next ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: next.id })} data-focus><span class="ck">${t('nextLesson', s.mode)}</span><b>${pair(next.name, one(s.mode))}</b></button>` : '';
-      const leaveBtn = `<button class="btn ${next ? 'soft' : 'primary'} wide" ${A({ type: 'CONTINUE' })}${next ? '' : ' data-focus'}>${t('back', s.mode)}</button>`;
+      // Spec 15: the Lesson that opens the Recap leads into it.
+      const mySec = content.sections.find((x) => x.runs.includes(st.id));
+      const toRecap = !!mySec && FI.engine.recapOpen(s, content, mySec) && !s.recaps[mySec.id];
+      const nextBtn = toRecap ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_RECAP', value: mySec.id })} data-focus><span class="ck">${t('recapKicker', s.mode)}</span><b>${t('recapGo', s.mode)}</b></button>`
+        : next ? `<button class="btn primary wide continue" ${A({ type: 'OPEN_STATION', value: next.id })} data-focus><span class="ck">${t('nextLesson', s.mode)}</span><b>${pair(next.name, one(s.mode))}</b></button>` : '';
+      const leaveBtn = `<button class="btn ${nextBtn ? 'soft' : 'primary'} wide" ${A({ type: 'CONTINUE' })}${nextBtn ? '' : ' data-focus'}>${t('back', s.mode)}</button>`;
       const head = e.replay ? `<h2>${t('farePassed', s.mode)}</h2><p>${t('replayDone', s.mode)}</p>` : `<h2 class="litword">${t('lit', s.mode)}</h2><p class="inl">${pair(st.name, one(s.mode))}</p>`;
       return `<section class="panel result"><div class="onward">${head}${dots}${missedBlock}</div><div class="actions col">${nextBtn}${leaveBtn}${notesBtn}</div></section>`;
     }
-    return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><button class="btn primary" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></section>`;
+    return `<section class="panel result fail"><div class="big">${ICONS.retry}</div><h2>${t('fareFailed', s.mode)}</h2><p>${t('fareIntro', s.mode)}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div></section>`;
   }
   function stationScreen(s, content) {
     const st = content.station(s.stationId);
@@ -2273,7 +2554,7 @@ FI.render = (() => {
     else if (s.phase === 'widget') inner = widgetPanel(s, content, item, st);
     else if (s.phase === 'fare-passed' || s.phase === 'fare-failed') inner = resultPanel(s, content, st);
     else inner = checkPanel(s, content, item, st) + feedback(s, content, item);
-    return `<main class="station" data-theme="${st.theme}">
+    return `<main class="station run" data-theme="${st.theme}">
       <div class="shead">
         <button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button>
         <div class="prog" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
@@ -2310,6 +2591,8 @@ FI.render = (() => {
     ui.xpGain = fresh && ui.lastXp !== undefined && s.xp > ui.lastXp;
     const unsaved = `<p class="savewarn" role="alert"${ui.saveFailed ? '' : ' hidden'}>${t('saveFailed', s.mode)}</p>`;
     root.innerHTML = topBar(s, content) + unsaved + navBar(s) + screen + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
+    const discEl = root.querySelector('.disc'); // spec 16: the forward block on a phone rests on the Disclaimer
+    if (discEl && discEl.offsetHeight && document.documentElement.style) document.documentElement.style.setProperty('--disc-h', `${discEl.offsetHeight}px`);
     // The bar is rebuilt on every paint, so a gain is replayed from the old width for the fill to be seen.
     const bar = root.querySelector('.xpbar i');
     if (bar && ui.xpGain && ui.lastXpWidth) { const to = bar.style.width; bar.style.width = ui.lastXpWidth; void bar.offsetWidth; bar.style.width = to; }
@@ -2674,7 +2957,7 @@ FI.fx = (() => {
     // Gains are shown only when they were earned by this move, not when progress was restored.
     const gained = before && !has('restored') ? state.xp - before.xp : 0;
     if (gained > 0) fly(reward('xp', gained, state.mode), '.xpnum', 'xp');
-    if (has('coin')) fly(reward('coin', state.paid || 1, state.mode), '.coins');
+    if (has('coin') && !has('chest')) fly(reward('coin', state.paid || 1, state.mode), '.coins'); // a chest counts its own Coins up
     if (has('chest')) {
       // The Coins are counted up on screen while the sound pours: more Coins, a longer pour.
       const won = state.end && state.end.chest ? state.end.chest.won : state.paid;
@@ -2706,6 +2989,7 @@ FI.fx = (() => {
       if (has('circle') || has('section') || has('milestone')) setTimeout(() => burst(cx, cy, 120, ['mag', 'gold', 'accent'], 14), 260);
       return;
     }
+    if (has('bought')) { sound('bookmark'); burst(at.x, at.y, 24, ['accent', 'white'], 5); return; }
     if (has('fare-failed')) { sound('fare-failed'); glitch(); buzz([40, 60, 40], state); return; }
     if (has('correct')) {
       sound('correct', state.combo); buzz(14, state); flashScreen('ok', 0.1);
@@ -2817,6 +3101,7 @@ FI.fx = (() => {
   const lessonOf = (action) => {
     const id = action.type === 'OPEN_STATION' ? action.value : action.type === 'OPEN_AT' ? (action.value || {}).stationId : null;
     const st = id && content.station(id);
+    if (action.type === 'OPEN_RECAP') { const sec = content.sections.find((x) => x.id === action.value); return sec && sec.bookId && !content.isLoaded(sec.bookId) ? sec.bookId : null; }
     return st && st.book && !content.isLoaded(st.bookId) ? st.bookId : null;
   };
   function dispatch(action) {
@@ -2840,7 +3125,7 @@ FI.fx = (() => {
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp };
-    if (action.type === 'OPEN_CHEST') action = { ...action, value: Math.random() };
+    if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST') action = { ...action, value: Math.random() };
     else if (action.type === 'OPEN_STATION' || action.type === 'OPEN_AT' || action.type === 'ANSWER') action = { ...action, at: Date.now() };
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));
@@ -2853,8 +3138,8 @@ FI.fx = (() => {
     if (resumeSt && resumeSt.book) await ensureBook(resumeSt.bookId);
     const dayNumber = () => { const d = new Date(); return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000); };
     state = engine.reduce(engine.initial(), { type: 'HYDRATE', value: saved }, content);
-    state = engine.reduce(state, { type: 'TICK', value: dayNumber() }, content);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber() }); });
+    state = engine.reduce(state, { type: 'TICK', value: dayNumber(), roll: Math.random() }, content);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && dayNumber() !== state.today) dispatch({ type: 'TICK', value: dayNumber(), roll: Math.random() }); });
     render.setSaveFailed(!store.save(storage, state)); // writes back a migrated document (ADR-0009, ADR-0010)
     render.mount(root, (action) => { fx.tap(action, state); dispatch(action); });
     paint();
