@@ -24,3 +24,4 @@ Status: accepted (2026-11-13, spec 14, issue #31). Owner verdict on the gamifica
 - Freezes are spent only when the Freezes held cover every missed day. Otherwise the Streak ends and the Freezes stay.
 - A restored backup is judged against today at once, so a Freeze cannot be bought to repair a Streak that had already ended.
 - A Lesson entered part-way (a reload, a bookmark) is never judged clean: its earlier answers are not known.
+- Hearts (spec 14, release 3) return by the hour, so every action now carries the time the app read (`at`). The engine stores and compares only that number; it still reads no clock. The durable `hearts` holds the count, the time the wait began and the day they were last made full; `paused` holds the place of a Lesson that ran out of hearts.

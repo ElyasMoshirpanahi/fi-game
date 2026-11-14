@@ -95,6 +95,10 @@ _Avoid_: streak (a Streak counts days)
 Days in a row on which the player passed a Lesson (a replayed one counts), finished a Review or finished a Recap. One of these counts a day, once. A missed day ends it unless the Freezes held cover every missed day. The best Streak is kept. The week of dots starts on the first day of the Streak.
 _Avoid_: combo (right answers in a row), chain, run
 
+**Heart**:
+What a wrong answer costs in a new Lesson or its Fare. Five at most. The first three Lessons cost none; Review and a replayed Lesson never cost one. At zero a Lesson in progress pauses and keeps its place, and new Lessons are locked. Hearts return one every four hours and all five at the day change; a finished Review, a replayed old Lesson and Coins each give one back.
+_Avoid_: life, energy, health
+
 **Freeze**:
 What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. Freezes are spent only when they cover every missed day: if they cannot, the Streak ends and the Freezes stay. There is no paid repair after a Streak has ended.
 _Avoid_: shield, repair, life
