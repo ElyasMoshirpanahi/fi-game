@@ -139,7 +139,16 @@ describe('The streak freeze', () => {
     expect(R(s, day(103)).streak.n).toBe(1);
     const lost = R(s, day(104));
     expect(lost.streak.n).toBe(0);
-    expect(lost.freezes).toBe(0);
+    expect(lost.freezes).toBe(2); // freezes that cannot cover the whole gap are not spent
+    expect(Object.values(lost.marks)).not.toContain('frz');
+  });
+
+  it('a backup from an earlier day is judged against today: no freeze can be bought to repair it', () => {
+    const old = { streak: { n: 10, best: 10, last: 101, from: 92 }, freezes: 0, marks: { 101: 'on' }, coins: 600, earned: 600 };
+    let s = R(R(E.initial(), day(104)), { type: 'RESTORE', value: old, roll: 0 });
+    expect(s.streak).toMatchObject({ n: 0, best: 10, last: null });
+    s = lesson(R(s, { type: 'BUY_FREEZE' }, { type: 'BUY_FREEZE' }), 's1');
+    expect(s.streak.n).toBe(1);
   });
 
   it('is not spent when there is no streak to save', () => {
@@ -208,6 +217,25 @@ describe('The quests of the day', () => {
   it('quests from another day are not shown', () => {
     const s = { ...start(), today: 150 };
     expect(E.questsToday(s)).toBeNull();
+  });
+});
+
+describe('Quests after a reset or a restore', () => {
+  it('are dealt again for today', () => {
+    const s = lesson(start(), 's1');
+    expect(E.questsToday(R(s, { type: 'RESET', roll: 0.4 }))).toMatchObject({ day: 100, chest: 'shut' });
+    const old = { quests: { day: 90, list: [{ kind: 'lesson', need: 1, have: 0 }], chest: 'shut', won: 0 } };
+    expect(E.questsToday(R(s, { type: 'RESTORE', value: old, roll: 0.4 }))).toMatchObject({ day: 100 });
+  });
+});
+
+describe('The Milestone in an old save', () => {
+  it('loses the 100 XP it once paid, when the rest of the XP is accounted for', () => {
+    const xp = FI.content.station('s1').xp;
+    const load = (d) => R(E.initial(), { type: 'HYDRATE', value: d });
+    expect(load({ milestone: true, lit: { s1: true }, farePassed: { s1: true }, xp: xp + 100 }).xp).toBe(xp);
+    expect(load({ milestone: true, lit: { s1: true }, farePassed: { s1: true }, xp }).xp).toBe(xp); // already right: untouched
+    expect(load({ milestone: false, lit: { s1: true }, farePassed: { s1: true }, xp: xp + 100 }).xp).toBe(xp + 100);
   });
 });
 
@@ -291,6 +319,7 @@ describe('What the player sees', () => {
     let out = html(s);
     expect(out).toContain('class="streakpanel"');
     expect((out.match(/class="dayd[ "]/g) || []).length).toBe(7);
+    expect(out).toContain('aria-label="This week of your streak: 1 of 7 days done"');
     expect(out).toContain(q({ type: 'BUY_FREEZE' }));
     expect(out).toContain(`${E.FREEZE_PRICE}`);
     s = R(s, { type: 'BUY_FREEZE' }, { type: 'BUY_FREEZE' });

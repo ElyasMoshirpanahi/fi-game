@@ -83,7 +83,7 @@ describe('Manifest: Sections of Circles of Lessons', () => {
   it('totalXp sums Basics, Lessons, Circles, Sections and the Milestone', () => {
     const lessons = content.stations.filter((st) => st.book).length;
     const circles = books.reduce((a, sec) => a + sec.circles.length, 0);
-    const sum = content.allStations().reduce((a, st) => a + st.xp, 0) + lessons * content.LESSON_XP + circles * content.CIRCLE_XP + books.length * content.SECTION_XP + content.MILESTONE_XP;
+    const sum = content.allStations().reduce((a, st) => a + st.xp, 0) + lessons * content.LESSON_XP + circles * content.CIRCLE_XP + books.length * content.SECTION_XP;
     expect(content.totalXp()).toBe(sum);
   });
 });
@@ -186,7 +186,7 @@ describe('Migration v2 to v3 (decision 33): Basics kept, book progress fresh', (
     expect(s.coins).toBe(31);
     expect(s.shelf.b01).toBe('read');
     expect(s.milestone).toBe(true);
-    expect(s.xp).toBe(content.station('s1').xp + content.MILESTONE_XP);
+    expect(s.xp).toBe(content.station('s1').xp); // the Milestone is a badge only
     expect(s.mode).toBe('FA');
   });
 

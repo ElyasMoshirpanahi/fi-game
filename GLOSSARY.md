@@ -45,7 +45,7 @@ The source line, in both languages, revealed after one wrong answer on a Check.
 _Avoid_: explanation, clue, tip
 
 **Rating**:
-The player's self-judgement on a flipped Card: "knew it" or "didn't know". A "didn't know" Rating causes a Return.
+The player's self-judgement "knew it" or "didn't know", asked only in Review and only for a Card that has no Check of its own. In a Lesson there is no Rating: the first wrong answer to a Check decides that a Card was missed, causes a Return and sends the Card to Review.
 _Avoid_: score, grade, confidence
 
 **Return**:
@@ -92,11 +92,15 @@ Right answers in a row, counted across Lessons and Review. A wrong answer ends i
 _Avoid_: streak (a Streak counts days)
 
 **Streak**:
-Days in a row on which the player passed a Lesson or finished a Review. One of either counts a day, once. A missed day ends it unless a Freeze is held. The best Streak is kept.
+Days in a row on which the player passed a Lesson (a replayed one counts), finished a Review or finished a Recap. One of these counts a day, once. A missed day ends it unless the Freezes held cover every missed day. The best Streak is kept. The week of dots starts on the first day of the Streak.
 _Avoid_: combo (right answers in a row), chain, run
 
+**Heart**:
+What a wrong answer costs in a new Lesson or its Fare. Five at most. The first three Lessons cost none; Review and a replayed Lesson never cost one. At zero a Lesson in progress pauses and keeps its place, and new Lessons are locked. Hearts return one every four hours and all five at the day change; a finished Review, a replayed old Lesson and Coins each give one back.
+_Avoid_: life, energy, health
+
 **Freeze**:
-What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. There is no paid repair after a Streak has ended.
+What saves the Streak on a missed day. Bought with Coins before the day is missed, at most two held, used by itself. Freezes are spent only when they cover every missed day: if they cannot, the Streak ends and the Freezes stay. There is no paid repair after a Streak has ended.
 _Avoid_: shield, repair, life
 
 **Quest**:

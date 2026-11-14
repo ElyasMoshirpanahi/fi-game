@@ -3,9 +3,9 @@
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
-export async function launch(outDir, { width = 420, height = 860, port = 9340 } = {}) {
+export async function launch(outDir, { width = 420, height = 860, port = 9340, flags = [] } = {}) {
   fs.rmSync(outDir, { recursive: true, force: true }); fs.mkdirSync(outDir, { recursive: true });
-  const chrome = spawn(process.env.BROWSER_PATH || 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe', ['--headless=new', `--remote-debugging-port=${port}`, `--user-data-dir=${path.join(outDir, 'profile')}`, `--window-size=${width},${height}`, 'about:blank'], { stdio: 'ignore' });
+  const chrome = spawn(process.env.BROWSER_PATH || 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe', ['--headless=new', `--remote-debugging-port=${port}`, `--user-data-dir=${path.join(outDir, 'profile')}`, `--window-size=${width},${height}`, ...flags, 'about:blank'], { stdio: 'ignore' });
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   let target;
   for (let i = 0; i < 40 && !target; i++) { await sleep(250); try { target = (await (await fetch(`http://127.0.0.1:${port}/json`)).json()).find((t) => t.type === 'page'); } catch {} }
