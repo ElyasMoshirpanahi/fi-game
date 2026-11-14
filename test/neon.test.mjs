@@ -175,7 +175,7 @@ describe('Rewards in flight', () => {
   it('are written in the Language Mode, with its digits', () => {
     expect(FI.render.rewardText('xp', 50, 'EN')).toBe('+50 XP');
     expect(FI.render.rewardText('xp', 50, 'FA')).toBe('+۵۰ امتیاز');
-    expect(FI.render.rewardText('coin', 1, 'FA')).toBe('+۱ ●');
+    expect(FI.render.rewardText('coin', 1, 'FA')).toBe('+۱');
   });
 
   it('no reward text is hard-coded in fx, and haptics follow mute', () => {

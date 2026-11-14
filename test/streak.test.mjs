@@ -53,7 +53,7 @@ describe('The day streak', () => {
     let s = start();
     expect(s.streak).toEqual({ n: 0, best: 0, last: null });
     s = lesson(s, 's1');
-    expect(s.streak).toEqual({ n: 1, best: 1, last: 100 });
+    expect(s.streak).toEqual({ n: 1, best: 1, last: 100, from: 100 });
     s = lesson(s, 's2');
     expect(s.streak.n).toBe(1);
     expect(E.streakToday(s)).toBe(true);
@@ -64,7 +64,7 @@ describe('The day streak', () => {
     s = R(s, day(101));
     expect(E.streakToday(s)).toBe(false);
     s = lesson(s, 's2');
-    expect(s.streak).toEqual({ n: 2, best: 2, last: 101 });
+    expect(s.streak).toEqual({ n: 2, best: 2, last: 101, from: 100 });
   });
 
   it('a finished Review counts as well as a Lesson', () => {
@@ -90,7 +90,7 @@ describe('The day streak', () => {
     expect(s.events).toContain('streak-lost');
     expect(s.streakNote).toEqual({ kind: 'lost', n: 2 });
     s = lesson(s, 's3');
-    expect(s.streak).toEqual({ n: 1, best: 2, last: 103 });
+    expect(s.streak).toEqual({ n: 1, best: 2, last: 103, from: 103 });
     expect(s.streakNote).toBeNull();
   });
 
@@ -263,7 +263,26 @@ describe('What the player sees', () => {
     expect(out).toContain(q({ type: 'OPEN_QUEST_CHEST' }));
     expect(out).toContain(`${E.QUEST_CHEST[0]}`);
     s = R(s, { type: 'OPEN_QUEST_CHEST', value: 0 });
-    expect(html(s)).toContain(`+${E.QUEST_CHEST[0]}`);
+    expect(html(s)).toContain(`+<span class="cn">${E.QUEST_CHEST[0]}</span>`);
+  });
+
+  it('the week of dots starts on the first day of the streak and fills from the start side', () => {
+    const dots = (s) => [...html(R(s, { type: 'OPEN_PROFILE' })).matchAll(/class="dayd ([a-z ]*)"/g)].map((m) => m[1].trim());
+    let s = start();
+    expect(dots(s)).toEqual(['now', '', '', '', '', '', '']); // nothing yet: today is the first circle
+    s = lesson(s, 's1');
+    expect(dots(s)).toEqual(['on now', '', '', '', '', '', '']);
+    s = lesson(R(s, day(101)), 's2');
+    expect(dots(s)).toEqual(['on', 'on now', '', '', '', '', '']);
+    s = R(s, day(102));
+    expect(dots(s)).toEqual(['on', 'on', 'now', '', '', '', '']);
+    // the eighth day of a streak starts a new row
+    s = { ...s, streak: { n: 7, best: 7, last: 106, from: 100 }, marks: { 100: 'on', 101: 'on', 102: 'on', 103: 'on', 104: 'on', 105: 'on', 106: 'on' } };
+    s = R(s, day(107));
+    expect(dots(s)).toEqual(['now', '', '', '', '', '', '']);
+    // a save from before the first day was kept
+    s = { ...s, streak: { n: 3, best: 7, last: 107 }, marks: { 105: 'on', 106: 'on', 107: 'on' } };
+    expect(dots(s)).toEqual(['on', 'on', 'on now', '', '', '', '']);
   });
 
   it('the Profile shows the streak, the last seven days, the freezes and the price', () => {

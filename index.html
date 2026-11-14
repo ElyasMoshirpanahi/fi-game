@@ -51,7 +51,10 @@ bdi.nw { white-space: nowrap; }
 .xpbar::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0 9px, rgba(6, 6, 12, .85) 9px 11px); }
 .xpbar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--mag), var(--accent)); box-shadow: 0 0 12px var(--accent); transition: width .6s cubic-bezier(.2,.8,.2,1); }
 .coins { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; font-size: 14px; color: var(--gold); background: var(--gold-soft); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: var(--cut); padding: 3px 10px; }
-.coins svg { width: 14px; height: 14px; }
+.coins svg { width: 18px; height: 18px; }
+.coinico { width: 1.05em; height: 1.05em; vertical-align: -0.17em; flex: 0 0 auto; filter: drop-shadow(0 0 4px color-mix(in srgb, var(--gold) 55%, transparent)); }
+.chestwon .coinico { width: .9em; height: .9em; vertical-align: -0.1em; }
+.coins.counting .n { text-shadow: 0 0 10px var(--gold); }
 .coins { position: relative; }
 .coins.bump .n { animation: bump .5s cubic-bezier(.2,1.6,.4,1); display: inline-block; }
 @keyframes bump { 0% { transform: scale(1); } 40% { transform: scale(1.45); } 100% { transform: scale(1); } }
@@ -1162,7 +1165,7 @@ FI.engine = (() => {
     if (k.last === null || k.n === 0) return;
     let gap = s.today - k.last - 1; let used = 0;
     while (gap > 0) {
-      if (s.freezes <= 0) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; s.events.push('streak-lost'); return; }
+      if (s.freezes <= 0) { s.streakNote = { kind: 'lost', n: k.n }; k.n = 0; k.last = null; delete k.from; s.events.push('streak-lost'); return; }
       s.freezes -= 1; k.last += 1; s.marks[k.last] = 'frz'; gap -= 1; used += 1;
     }
     if (used) { s.streakNote = { kind: 'frozen', n: used }; s.events.push('freeze-used'); }
@@ -1172,6 +1175,8 @@ FI.engine = (() => {
     settleStreak(s);
     const k = s.streak;
     if (k.last === s.today) return false;
+    // from: the first day of this streak. The week of dots starts there. A save from before it was kept gets a close guess.
+    if (k.n === 0) k.from = s.today; else if (!Number.isInteger(k.from)) k.from = k.last - k.n + 1;
     k.n += 1; k.last = s.today; k.best = Math.max(k.best, k.n);
     s.marks[s.today] = 'on';
     for (const d of Object.keys(s.marks)) if (+d <= s.today - 14) delete s.marks[d];
@@ -1249,7 +1254,7 @@ FI.engine = (() => {
     && (k.options === null || listOf(isPair)(k.options)) && (isFlag(k.answer) || isCount(k.answer) || listOf(isCount)(k.answer)));
   const SHAPE = {
     mode: (v) => MODES.includes(v), muted: isFlag, milestone: isFlag, coins: isCount, xp: isCount, earned: isCount, shards: (v) => Number.isInteger(v) && v >= 0,
-    streak: (v) => isMap(v) && Number.isInteger(v.n) && v.n >= 0 && Number.isInteger(v.best) && v.best >= v.n && (v.last === null || Number.isInteger(v.last)) && Object.keys(v).length === 3,
+    streak: (v) => isMap(v) && Number.isInteger(v.n) && v.n >= 0 && Number.isInteger(v.best) && v.best >= v.n && (v.last === null || Number.isInteger(v.last)) && (v.from === undefined ? Object.keys(v).length === 3 : Number.isInteger(v.from) && Object.keys(v).length === 4),
     freezes: (v) => Number.isInteger(v) && v >= 0 && v <= 2,
     marks: (v) => isMap(v) && Object.keys(v).length <= 40 && Object.keys(v).every((k) => /^\d{1,7}$/.test(k) && (v[k] === 'on' || v[k] === 'frz')),
     quests: (v) => v === null || (isMap(v) && Number.isInteger(v.day) && ['shut', 'ready', 'open'].includes(v.chest) && isCount(v.won) && v.won <= 500 && Array.isArray(v.list) && v.list.length <= 3
@@ -1861,7 +1866,7 @@ FI.render = (() => {
     s6: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a2 2 0 00-2-2H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a2 2 0 012-2h7z"/></svg>',
     flame: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.600 2c.500 3.300-1.400 5-3 6.700C8 10.400 6.500 12.100 6.500 15a5.500 5.500 0 0 0 11 0c0-1.700-.600-3.100-1.400-4.300-.400 1.200-1.100 2-2.100 2.400.300-3.800-.300-8.300-1.400-11.100z"/><path d="M12 21a2.600 2.600 0 0 1-2.600-2.600c0-1.500 1.200-2.300 2.600-4.100 1.400 1.800 2.600 2.600 2.600 4.100A2.600 2.600 0 0 1 12 21z" fill="var(--ink)" opacity=".45"/></svg>',
     snow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18M4.200 7.500l15.600 9M19.800 7.500l-15.600 9M9.500 4.500L12 7l2.500-2.500M9.500 19.500L12 17l2.500 2.500"/></svg>',
-    coin: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" opacity=".35"/><circle cx="12" cy="12" r="6"/></svg>',
+    coin: '<svg class="coinico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12.6" r="10.9" fill="#8f5200"/><circle cx="12" cy="11.4" r="10.9" fill="#ffc21a"/><path d="M2.2 9.6A10.9 10.9 0 0 1 21.8 9.6A12.5 12.5 0 0 0 2.2 9.6Z" fill="#fff3a6" opacity=".9"/><circle cx="12" cy="11.4" r="7.9" fill="#ffab00" stroke="#c97a00" stroke-width="1"/><path d="M12.00 6.70L13.18 9.78L16.47 9.95L13.90 12.02L14.76 15.20L12.00 13.40L9.24 15.20L10.10 12.02L7.53 9.95L10.82 9.78Z" fill="#fff0a0" stroke="#b86c00" stroke-width=".6" stroke-linejoin="round"/></svg>',
     sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 010 6"/></svg>',
     muted: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l4 6M21 9l-4 6"/></svg>',
     close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
@@ -1917,14 +1922,16 @@ FI.render = (() => {
   }
   // ---- Spec 14, release 2: the streak and the quests of the day.
   const tf = (s, key, vals) => Object.keys(vals).reduce((txt, k) => txt.replace(`{${k}}`, num(vals[k], s.mode)), t(key, s.mode));
-  const weekDots = (s) => `<div class="week" role="img" aria-label="${t('last7', s.mode)}">${Array.from({ length: 7 }, (_, i) => s.today - 6 + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
+  // The week of dots starts on the first day of the streak and fills from the start side; after seven days a new row starts.
+  const weekStart = (s) => { const k = s.streak; if (!k.n || k.last === null) return s.today; const from = Math.min(s.today, Number.isInteger(k.from) ? k.from : k.last - k.n + 1); return from + 7 * Math.floor((s.today - from) / 7); };
+  const weekDots = (s) => `<div class="week" role="img" aria-label="${t('last7', s.mode)}">${Array.from({ length: 7 }, (_, i) => weekStart(s) + i).map((d) => `<i class="dayd ${s.marks[d] || ''}${d === s.today ? ' now' : ''}">${s.marks[d] === 'on' ? ICONS.check : s.marks[d] === 'frz' ? ICONS.snow : ''}</i>`).join('')}</div>`;
   function questsPanel(s, cls) {
     const q = FI.engine.questsToday(s);
     if (!q) return '';
     const rows = q.list.map((item) => { const done = item.have >= item.need; return `<div class="quest"><span class="qt${done ? ' done' : ''}">${done ? ICONS.check : ''}${tf(s, `quest_${item.kind}`, { n: item.need })}</span><span class="qn">${num(item.have, s.mode)}/${num(item.need, s.mode)}</span><div class="qbar"><i style="width:${Math.round((item.have / item.need) * 100)}%"></i></div></div>`; }).join('');
     const [lo, hi] = FI.engine.QUEST_CHEST;
-    const chest = q.chest === 'open' ? `<p class="chestwon" aria-live="polite">+${num(q.won, s.mode)} ●</p>`
-      : q.chest === 'ready' ? `<button class="btn primary wide questchest" ${A({ type: 'OPEN_QUEST_CHEST' })}>${ICONS.chest}<span>${t('openChest', s.mode)} · ${num(lo, s.mode)}\u2013${num(hi, s.mode)} ●</span></button>`
+    const chest = q.chest === 'open' ? `<p class="chestwon" aria-live="polite">+<span class="cn">${num(q.won, s.mode)}</span> ${ICONS.coin}</p>`
+      : q.chest === 'ready' ? `<button class="btn primary wide questchest" ${A({ type: 'OPEN_QUEST_CHEST' })}>${ICONS.chest}<span>${t('openChest', s.mode)} · ${num(lo, s.mode)}\u2013${num(hi, s.mode)} ${ICONS.coin}</span></button>`
       : `<p class="help">${tf(s, 'questChest', { lo, hi })}</p>`;
     return `<section class="panel quests ${cls}"><p class="kicker">${t('questsTitle', s.mode)}</p>${rows}${chest}</section>`;
   }
@@ -1991,7 +1998,7 @@ FI.render = (() => {
   const goTag = (s) => `<span class="go" aria-hidden="true">${t('go', s.mode)}</span>`;
   const comboChip = (s, fresh) => (s.combo >= 2 && (s.screen === 'station' || s.screen === 'review') ? `<b class="combo"${fresh ? ' data-new' : ''} aria-live="polite">${t('combo', s.mode)} ×${num(s.combo, s.mode)}</b>` : '');
   // Text of a reward that fx shows in flight, in the player's Language Mode.
-  const rewardText = (kind, n, mode) => (kind === 'xp' ? `+${num(n, mode)} ${t('xp', mode)}` : `+${num(n, mode)} ●`);
+  const rewardText = (kind, n, mode) => (kind === 'xp' ? `+${num(n, mode)} ${t('xp', mode)}` : `+${num(n, mode)}`);
   const scrollHow = () => { try { return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'; } catch (e) { return 'auto'; } };
   // Measure the nodes of each open list and draw its road. Layout offsets are used (not client rects)
   // so a camera scale on the list does not skew the trace; the wave offset is a transform, added by hand.
@@ -2505,7 +2512,7 @@ FI.render = (() => {
           [t('accuracy', s.mode), `${num(e.total ? Math.round((e.right / e.total) * 100) : 100, s.mode)}%`],
           e.secs === null ? null : [t('timeTaken', s.mode), `${num(Math.floor(e.secs / 60), s.mode)}:${two(e.secs % 60)}`],
           [t('bestCombo', s.mode), `×${num(e.best, s.mode)}`],
-          [t('earnedLabel', s.mode), `+${num(e.xp, s.mode)} ${t('xp', s.mode)}<small>+${num(e.coins, s.mode)} ●</small>`],
+          [t('earnedLabel', s.mode), `+${num(e.xp, s.mode)} ${t('xp', s.mode)}<small>+${num(e.coins, s.mode)} ${ICONS.coin}</small>`],
         ].filter(Boolean);
         const praise = e.clean ? t('praiseClean', s.mode) : e.best >= 4 ? fill('praiseCombo', { n: e.best }) : t('praiseReview', s.mode);
         const board = `<div class="scoreboard">${cells.map(([label, v], i) => `<div class="scorecell" style="--i:${i}"><span>${label}</span><b>${v}</b></div>`).join('')}</div>`;
@@ -2515,7 +2522,7 @@ FI.render = (() => {
         const c = e.chest;
         const range = `${fill('chestRange', { lo: c.lo, hi: c.hi })}${c.gold ? ` ${t('chestShard', s.mode)}` : ''}`;
         const body = c.open
-          ? `<div class="chest ${c.gold ? 'gold' : 'plain'} open" aria-hidden="true">${ICONS.chestOpen}</div><p class="chestwon" aria-live="polite">+${num(c.won, s.mode)} ●</p>${c.gold ? `<p class="shardwon">◆ ${t('shardWon', s.mode)}</p>` : ''}<div class="actions col">${go}</div>`
+          ? `<div class="chest ${c.gold ? 'gold' : 'plain'} open" aria-hidden="true">${ICONS.chestOpen}</div><p class="chestwon" aria-live="polite">+<span class="cn">${num(c.won, s.mode)}</span> ${ICONS.coin}</p>${c.gold ? `<p class="shardwon">◆ ${t('shardWon', s.mode)}</p>` : ''}<div class="actions col">${go}</div>`
           : `<div class="chest ${c.gold ? 'gold' : 'plain'}" aria-hidden="true">${ICONS.chest}</div><p>${range}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'OPEN_CHEST' })} data-focus>${t('openChest', s.mode)}</button></div>`;
         return `<section class="panel result"><h2>${t(c.gold ? 'chestGold' : 'chestPlain', s.mode)}</h2>${body}</section>`;
       }
@@ -2808,7 +2815,7 @@ FI.render = (() => {
   const setOffline = (part) => { Object.assign(ui.offline, part); };
   const setSaveFailed = (on) => { ui.saveFailed = !!on; };
   const setFinding = (on) => { ui.finding = !!on; }; // the app is still loading books that are on the device
-  return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore, trace, wave, rewardText, setSaveFailed, setOffline, setFinding };
+  return { mount, render, patch, handleUi, faHtml, setLoading, setError, takeRestore, trace, wave, rewardText, coinIcon: ICONS.coin, setSaveFailed, setOffline, setFinding };
 })();
 </script>
 
@@ -2923,11 +2930,11 @@ FI.fx = (() => {
   }
   function flashScreen(name, alpha) { if (still()) return; stage(); flash = { color: color(name), a: alpha }; go(); }
   // A reward that flies from where the player acted to where it is counted.
-  function fly(text, target, cls) {
+  function fly(text, target, cls, icon) {
     if (still() || !document.body.animate) return;
     const to = document.querySelector(target); if (!to || !to.getBoundingClientRect) return;
     const r = to.getBoundingClientRect();
-    const el = document.createElement('span'); el.className = `fly ${cls || ''}`; el.textContent = text; el.setAttribute('aria-hidden', 'true');
+    const el = document.createElement('span'); el.className = `fly ${cls || ''}`; el.textContent = text; if (icon) el.insertAdjacentHTML('beforeend', ` ${icon}`); el.setAttribute('aria-hidden', 'true');
     el.style.left = `${at.x}px`; el.style.top = `${at.y}px`;
     document.body.appendChild(el);
     const dx = r.left + r.width / 2 - at.x, dy = r.top + r.height / 2 - at.y;
@@ -2957,28 +2964,47 @@ FI.fx = (() => {
     // Gains are shown only when they were earned by this move, not when progress was restored.
     const gained = before && !has('restored') ? state.xp - before.xp : 0;
     if (gained > 0) fly(reward('xp', gained, state.mode), '.xpnum', 'xp');
-    if (has('coin') && !has('chest')) fly(reward('coin', state.paid || 1, state.mode), '.coins'); // a chest counts its own Coins up
+    const fmt = (n) => FI.content.fmt(n, state.mode === 'FA' ? 'FA' : 'EN');
+    const coinGain = before && !has('restored') && Number.isFinite(before.coins) ? state.coins - before.coins : 0;
+    // Count a number up on screen. With motion reduced it stays at its end value.
+    const countUp = (el, from, to, ms, delay, done) => {
+      if (!el || still() || to <= from) { if (done) done(); return; }
+      const t0 = performance.now() + delay; el.textContent = fmt(from);
+      const step = (now) => {
+        if (!el.isConnected) return;
+        const p = Math.min(1, Math.max(0, (now - t0) / ms));
+        el.textContent = fmt(Math.round(from + (to - from) * p));
+        if (p < 1) { requestAnimationFrame(step); return; }
+        if (done) done();
+      };
+      requestAnimationFrame(step);
+    };
+    // The Coins in the header climb one by one with every gain; with a chest they climb for as long as the sound pours.
+    const headerCount = (ms, delay) => {
+      const chip = document.querySelector('.coins'); const n = chip && chip.querySelector('.n');
+      if (!n || coinGain <= 0) return;
+      chip.classList.add('counting');
+      countUp(n, before.coins, state.coins, ms, delay, () => { chip.classList.remove('counting', 'bump'); void chip.offsetWidth; chip.classList.add('bump'); });
+    };
+    if (has('coin') && !has('chest')) { fly(reward('coin', state.paid || 1, state.mode), '.coins', '', FI.render.coinIcon); headerCount(Math.min(900, 220 + coinGain * 60), 520); }
     if (has('chest')) {
       // The Coins are counted up on screen while the sound pours: more Coins, a longer pour.
-      const won = state.end && state.end.chest ? state.end.chest.won : state.paid;
+      const won = coinGain > 0 ? coinGain : state.end && state.end.chest ? state.end.chest.won : state.paid;
       const dur = Math.min(2.8, Math.max(1.1, 0.5 + won * 0.06));
       sound('chest', { shard: has('shard'), dur, clinks: Math.min(48, Math.max(6, won)) });
       buzz([15, 30, 15, 30, 60], state); flashScreen('gold', 0.22);
-      const cx = window.innerWidth / 2, cy = window.innerHeight * 0.36;
+      const shown = [...document.querySelectorAll('.chestwon')].filter((x) => x.getBoundingClientRect().width > 0);
+      const box = shown[0] ? shown[0].getBoundingClientRect() : null;
+      const cx = box ? box.left + box.width / 2 : window.innerWidth / 2, cy = box ? box.top + box.height / 2 : window.innerHeight * 0.36;
       burst(cx, cy, 50, ['gold', 'white'], 8);
-      const el = document.querySelector('.chestwon');
-      if (el && !still() && won > 0) {
-        const fmt = (n) => FI.content.fmt(n, state.mode === 'FA' ? 'FA' : 'EN');
-        const t0 = performance.now() + 200; el.textContent = `+${fmt(0)} \u25cf`; el.classList.add('counting');
-        const step = (now) => {
-          if (!el.isConnected) return;
-          const p = Math.min(1, Math.max(0, (now - t0) / (dur * 1000)));
-          el.textContent = `+${fmt(Math.round(won * p))} \u25cf`;
-          if (p < 1) { requestAnimationFrame(step); return; }
+      headerCount(dur * 1000, 200);
+      for (const el of shown) {
+        const n = el.querySelector('.cn'); if (!n || won <= 0) continue;
+        el.classList.add('counting');
+        countUp(n, 0, won, dur * 1000, 200, () => {
           el.classList.remove('counting'); el.classList.add('counted');
-          burst(cx, cy, has('shard') ? 150 : 90, has('shard') ? ['gold', 'accent', 'white'] : ['gold', 'white'], 11);
-        };
-        requestAnimationFrame(step);
+          if (el === shown[0]) burst(cx, cy, has('shard') ? 150 : 90, has('shard') ? ['gold', 'accent', 'white'] : ['gold', 'white'], 11);
+        });
       }
       return;
     }
@@ -3124,7 +3150,7 @@ FI.fx = (() => {
     if (uiResult === 'full') { paint(); return; }
     if (uiResult === 'partial') { render.patch(root, state, content, action); return; }
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
-    const before = { xp: state.xp };
+    const before = { xp: state.xp, coins: state.coins };
     if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST') action = { ...action, value: Math.random() };
     else if (action.type === 'OPEN_STATION' || action.type === 'OPEN_AT' || action.type === 'ANSWER') action = { ...action, at: Date.now() };
     state = engine.reduce(state, action, content);
