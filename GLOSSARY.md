@@ -45,7 +45,7 @@ The source line, in both languages, revealed after one wrong answer on a Check.
 _Avoid_: explanation, clue, tip
 
 **Rating**:
-The player's self-judgement on a flipped Card: "knew it" or "didn't know". A "didn't know" Rating causes a Return.
+The player's self-judgement "knew it" or "didn't know", asked only in Review and only for a Card that has no Check of its own. In a Lesson there is no Rating: the first wrong answer to a Check decides that a Card was missed, causes a Return and sends the Card to Review.
 _Avoid_: score, grade, confidence
 
 **Return**:

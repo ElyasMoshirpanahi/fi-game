@@ -219,9 +219,17 @@ describe('The desktop rail (spec 10)', () => {
     expect(r).toContain(q({ type: 'UI_JUMP_SECTION', value: 'sec-b04' }));
   });
 
-  it('is written on the Path only', () => {
+  it('is written on the Path, the Shelf, Bookmarks and the Profile, and never on a run', () => {
     const s0 = FI.engine.initial();
-    for (const a of [{ type: 'OPEN_STATION', value: 's1' }, { type: 'OPEN_REVIEW' }, { type: 'OPEN_BOOKMARKS' }, { type: 'OPEN_PROFILE' }, { type: 'OPEN_TOOLS', value: 's6' }]) expect(railOf(R(s0, a)), a.type).toBe('');
+    for (const a of [{ type: 'OPEN_STATION', value: 's1' }, { type: 'OPEN_REVIEW' }, { type: 'OPEN_TOOLS', value: 's1' }]) expect(railOf(R(s0, a)), a.type).toBe('');
+    for (const a of [{ type: 'OPEN_BOOKMARKS' }, { type: 'OPEN_PROFILE' }, { type: 'OPEN_TOOLS', value: 's6' }]) {
+      const out = html(R(s0, a));
+      expect(railOf(R(s0, a)), a.type).toContain('class="rail"');
+      expect(out, a.type).toContain('<main class="station tools wide');
+    }
+    // the Profile shows the streak itself, so its rail does not repeat it
+    expect(railOf(R(s0, { type: 'OPEN_PROFILE' }))).not.toContain('streakpanel');
+    expect(railOf(R(s0, { type: 'OPEN_BOOKMARKS' }))).toContain('streakpanel');
   });
 
   it('never lets a hidden copy of a cover own its gradient: each place draws its own', () => {

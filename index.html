@@ -572,8 +572,8 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
   #app { width: 100%; display: grid; grid-template-columns: 76px minmax(16px, 1fr) minmax(0, 720px) minmax(16px, 1fr); align-content: start; padding-bottom: 64px; }
   #app > * { grid-column: 3; min-width: 0; }
   /* Every screen but a run fills the width between the navigation and the right edge (or the rail): no empty bands. */
-  #app > .top, #app > main:not(.station) { grid-column: 2 / 5; }
-  #app > main:not(.station) { width: 100%; justify-self: stretch; padding-inline: 24px; }
+  #app > .top, #app > main:not(.station), #app > main.station.wide { grid-column: 2 / 5; }
+  #app > main:not(.station), #app > main.station.wide { width: 100%; justify-self: stretch; padding-inline: 24px; }
   #app > .top { padding-inline: 24px; }
   #app > .nav { grid-column: 1; grid-row: 1 / span 12; position: sticky; top: 0; bottom: auto; inset-inline: auto; align-self: start; width: auto; height: 100vh; height: 100dvh; margin: 0; flex-direction: column; justify-content: flex-start; gap: 6px; padding: 14px 10px; border: 0; border-inline-end: 1px solid var(--line); border-radius: 0; box-shadow: none; background: color-mix(in srgb, var(--floor) 88%, transparent); }
   .nav .brand { display: grid; place-items: center; height: 48px; margin-bottom: 8px; color: var(--gold); }
@@ -593,6 +593,7 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
   #app > .top, #app > main.station { grid-column: 2 / 6; }
   #app > .top { padding-inline: 24px 16px; }
   #app > main.station { width: 100%; max-width: 720px; justify-self: center; }
+  #app > main.station.wide { grid-column: 2 / 5; max-width: none; justify-self: stretch; }
   #app > .nav { padding: 18px 14px; }
   .nav .brand { display: flex; justify-content: flex-start; gap: 10px; padding: 0 10px; }
   .brand b { display: block; font-family: var(--hud-font); font-size: 17px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -976,7 +977,6 @@ FI.content = (() => {
   ];
   // The ten-book Reading Order (source), by Book Unit id.
   const readingOrder = ['b01', 'b23', 'b02', 'b17', 'b07', 'b15', 'b16', 'b10', 'b24', 'b06'];
-  const MILESTONE_XP = 100;
 
   // Books: Sections of Circles of Lessons (ADR-0010, decisions 30 to 37). The manifest holds titles and
   // counts; a Lesson's items load on demand from content/books/v3/<id>.json via registerBook().
@@ -1020,7 +1020,7 @@ FI.content = (() => {
     return true;
   };
   const totalXp = () => pathStations.reduce((a, st) => a + st.xp, 0) + lessonStations.length * LESSON_XP
-    + sections.reduce((a, sec) => a + (sec.circles ? sec.circles.length * CIRCLE_XP + SECTION_XP : 0), 0) + MILESTONE_XP;
+    + sections.reduce((a, sec) => a + (sec.circles ? sec.circles.length * CIRCLE_XP + SECTION_XP : 0), 0);
 
 
   const item = (stationId, id) => {
@@ -1080,7 +1080,7 @@ FI.content = (() => {
     }
     return [...found.section, ...found.lesson, ...found.card].slice(0, limit);
   }
-  return { search, matcher, ui, stations, allStations, item, station, text, fmt, faDigits, checklists, habits, readingOrder, MILESTONE_XP, SECTION_XP, CIRCLE_XP, LESSON_XP, sections, sectionOf, circleOf, isLoaded, bookUrl, registerBook, totalXp };
+  return { search, matcher, ui, stations, allStations, item, station, text, fmt, faDigits, checklists, habits, readingOrder, SECTION_XP, CIRCLE_XP, LESSON_XP, sections, sectionOf, circleOf, isLoaded, bookUrl, registerBook, totalXp };
 })();
 </script>
 
@@ -1403,7 +1403,7 @@ FI.engine = (() => {
     for (const key of ['lit', 'farePassed', 'rings', 'awarded']) for (const k of Object.keys(s[key] || {})) if (isBookKey(k)) delete s[key][k];
     s.bookmarks = (s.bookmarks || []).filter((b) => !isBookKey(b.stationId));
     if (s.run && isBookKey(s.run.stationId)) s.run = null;
-    s.xp = content.allStations().reduce((a, st) => a + (s.lit[st.id] ? st.xp : 0), 0) + (s.milestone ? content.MILESTONE_XP : 0);
+    s.xp = content.allStations().reduce((a, st) => a + (s.lit[st.id] ? st.xp : 0), 0);
   }
 
   function leave(s) {
@@ -1718,7 +1718,7 @@ FI.engine = (() => {
         if (!l || !(index >= 0 && index < l.items.length)) return s;
         s.checklists[list][index] = !s.checklists[list][index];
         const all = content.checklists.every((x) => x.items.every((_, i) => s.checklists[x.id][i]));
-        if (all && !s.milestone) { s.milestone = true; s.xp += content.MILESTONE_XP; s.events.push('milestone'); }
+        if (all && !s.milestone) { s.milestone = true; s.events.push('milestone'); } // a badge only: XP comes from learning alone
         return s;
       }
       case 'SET_SHELF': {
@@ -1955,11 +1955,12 @@ FI.render = (() => {
   }
   // One row per Section: the jump sheet on a phone, the rail list on a desktop.
   const sectionRows = (s, content, onId, coverCls) => content.sections.map((sec, i) => `<button class="row ${sec.id === onId ? 'on' : ''}" data-sec="${esc(sec.id)}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, coverCls) : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(sec.runs.filter((u) => s.lit[u]).length, s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('');
-  function rail(s, content, onId) {
+  // lean: the Profile already shows the numbers and the streak, so its rail leaves them out.
+  function rail(s, content, onId, lean) {
     const due = FI.engine.dueCount(s);
     return `<aside class="rail" aria-label="${t('progress', s.mode)}">
-      <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
-      <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, false)}</section>
+      ${lean ? '' : `<section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>`}
+      ${lean ? '' : `<section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, false)}</section>`}
       ${questsPanel(s, 'inrail')}
       <section class="panel"><p class="kicker">${t('review', s.mode)}</p><p class="railnum"><b>${num(due, s.mode)}</b> ${t('reviewDue', s.mode)}</p><button class="btn ${due ? 'primary' : ''} wide" ${A({ type: 'OPEN_REVIEW' })}>${t('startReview', s.mode)}</button></section>
       <section class="panel railsecs"><p class="kicker">${t('sections', s.mode)}</p>${sectionRows(s, content, onId, 'tiny r')}</section>
@@ -2312,7 +2313,7 @@ FI.render = (() => {
   function toolsScreen(s, content) {
     const st = content.station(s.stationId);
     const widgets = (st.tools || []).map((w) => `<section class="panel"><p class="kicker">${pair(st.name, one(s.mode))}</p>${WIDGET_FN[w](s, content)}</section>`).join('');
-    const overlay = ui.milestone ? `<div class="overlay${ui.dolly ? ' dolly' : ''}"><section class="panel result milestone">${confetti()}<div class="big">${ICONS.star}</div><h2>${t('milestoneTitle', s.mode)}</h2><p>${t('milestoneBody', s.mode)} · +${num(content.MILESTONE_XP, s.mode)} ${t('xp', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_MILESTONE_CLOSE' })} data-focus>${t('milestoneDone', s.mode)}</button></section></div>` : '';
+    const overlay = ui.milestone ? `<div class="overlay${ui.dolly ? ' dolly' : ''}"><section class="panel result milestone">${confetti()}<div class="big">${ICONS.star}</div><h2>${t('milestoneTitle', s.mode)}</h2><p>${t('milestoneBody', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_MILESTONE_CLOSE' })} data-focus>${t('milestoneDone', s.mode)}</button></section></div>` : '';
     return `<main class="station tools${ui.milestone && ui.dolly ? ' dolly-bg' : ''}" data-theme="${st.theme}">
       <div class="shead"><button class="icon" ${A({ type: 'BACK_TO_PATH' })} aria-label="${t('back', s.mode)}">${ICONS.close}</button><h2 class="ttitle">${pair(st.name, s.mode)}</h2></div>
       ${widgets}
@@ -2592,12 +2593,15 @@ FI.render = (() => {
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
     const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'profile' ? profileScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : s.screen === 'notes' ? notesScreen(s, content) : s.screen === 'review' ? reviewScreen(s, content) : stationScreen(s, content);
+    // Shelf, Bookmarks and Profile fill the desktop width and carry the rail, like the Path. A run (Lesson, Review) stays a centred column.
+    const wideTab = s.screen === 'profile' || s.screen === 'bookmarks' || (s.screen === 'tools' && s.stationId === 's6');
+    const body = wideTab ? screen.replace('<main class="station tools', '<main class="station tools wide') + rail(s, content, null, s.screen === 'profile') : screen;
     const busy = ui.loading ? `<div class="overlay soft"><section class="panel result"><div class="spinner" aria-hidden="true"></div><p>${t('loading', s.mode)}</p></section></div>` : '';
     const err = ui.error ? `<div class="overlay"><section class="panel result fail"><div class="big">${ICONS.retry}</div><p>${t(ui.error === 'offline' ? 'bookOffline' : 'loadError', s.mode)}</p><button class="btn primary" ${A({ type: 'UI_ERROR_CLOSE' })} data-focus>${t('dismiss', s.mode)}</button></section></div>` : '';
     const fresh = !ui.coinShown; // this events array is being shown for the first time
     ui.xpGain = fresh && ui.lastXp !== undefined && s.xp > ui.lastXp;
     const unsaved = `<p class="savewarn" role="alert"${ui.saveFailed ? '' : ' hidden'}>${t('saveFailed', s.mode)}</p>`;
-    root.innerHTML = topBar(s, content) + unsaved + navBar(s) + screen + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
+    root.innerHTML = topBar(s, content) + unsaved + navBar(s) + body + comboChip(s, fresh && s.events.includes('combo')) + busy + err + disclaimer(s);
     const discEl = root.querySelector('.disc'); // spec 16: the forward block on a phone rests on the Disclaimer
     if (discEl && discEl.offsetHeight && document.documentElement.style) document.documentElement.style.setProperty('--disc-h', `${discEl.offsetHeight}px`);
     // The bar is rebuilt on every paint, so a gain is replayed from the old width for the fill to be seen.
