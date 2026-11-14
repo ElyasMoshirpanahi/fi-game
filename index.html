@@ -568,7 +568,10 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
 @media (min-width: 700px) {
   #app { width: 100%; display: grid; grid-template-columns: 76px minmax(16px, 1fr) minmax(0, 720px) minmax(16px, 1fr); align-content: start; padding-bottom: 64px; }
   #app > * { grid-column: 3; min-width: 0; }
-  #app > main.path { width: 100%; max-width: 640px; justify-self: center; }
+  /* Every screen but a run fills the width between the navigation and the right edge (or the rail): no empty bands. */
+  #app > .top, #app > main:not(.station) { grid-column: 2 / 5; }
+  #app > main:not(.station) { width: 100%; justify-self: stretch; padding-inline: 24px; }
+  #app > .top { padding-inline: 24px; }
   #app > .nav { grid-column: 1; grid-row: 1 / span 12; position: sticky; top: 0; bottom: auto; inset-inline: auto; align-self: start; width: auto; height: 100vh; height: 100dvh; margin: 0; flex-direction: column; justify-content: flex-start; gap: 6px; padding: 14px 10px; border: 0; border-inline-end: 1px solid var(--line); border-radius: 0; box-shadow: none; background: color-mix(in srgb, var(--floor) 88%, transparent); }
   .nav .brand { display: grid; place-items: center; height: 48px; margin-bottom: 8px; color: var(--gold); }
   .brand svg { width: 30px; height: 30px; } .brand b { display: none; }
@@ -582,19 +585,18 @@ html[lang="fa"] .navitem { font-family: var(--fa-font); }
 }
 @media (min-width: 900px) { .books { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1100px) {
-  /* The rail holds the right edge of the window; the Path is centred in the space between the navigation and the rail. */
+  /* The rail holds the right edge of the window; the screen fills all the space between the navigation and the rail. */
   #app { grid-template-columns: 248px minmax(24px, 1fr) minmax(0, 640px) minmax(24px, 1fr) 356px; }
   #app > .top, #app > main.station { grid-column: 2 / 6; }
   #app > .top { padding-inline: 24px 16px; }
   #app > main.station { width: 100%; max-width: 720px; justify-self: center; }
-  #app > main.path { justify-self: stretch; }
   #app > .nav { padding: 18px 14px; }
   .nav .brand { display: flex; justify-content: flex-start; gap: 10px; padding: 0 10px; }
   .brand b { display: block; font-family: var(--hud-font); font-size: 17px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .navitem { flex-direction: row; justify-content: flex-start; gap: 14px; padding: 0 12px; font-size: 15px; }
   .navlabel { position: static; width: auto; height: auto; clip-path: none; }
   .disc { inset-inline: 248px 0; }
-  #app > .rail { display: grid; gap: 14px; grid-column: 5; grid-row: 2 / span 10; position: sticky; top: 78px; align-self: start; max-height: calc(100vh - 78px - 48px); overflow: auto; padding: 22px 16px 8px 2px; scrollbar-width: thin; }
+  #app > .rail { display: grid; gap: 14px; grid-column: 5; grid-row: 2 / span 10; position: sticky; top: 78px; align-self: start; max-height: calc(100vh - 78px - 48px); overflow: auto; padding: 22px 0 8px 2px; scrollbar-width: none; }
   .rail .panel { padding: 16px; } .rail .btn { width: 100%; }
   .railnum { margin: 0 0 12px; color: var(--muted); } .railnum b { font-family: var(--hud-font); font-size: 26px; color: var(--text); margin-inline-end: 4px; }
   .rail .row { padding: 6px 4px; } .rail .row:last-child { border-bottom: 0; }
