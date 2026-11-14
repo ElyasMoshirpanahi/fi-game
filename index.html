@@ -411,6 +411,35 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 .result .actions.col .continue { margin: 0; }
 .reviewfirst { display: contents; }
 .btn.then.continue { display: grid; gap: 2px; width: 100%; text-align: start; margin: 0 0 14px; padding: 12px 16px; text-transform: none; letter-spacing: 0; }
+/* ---- spec 14, release 4: levels, week against week, records, Path chests, Path colours */
+.xpnum .lvname { color: var(--gold); font-weight: 700; margin-inline-end: 4px; }
+.levelhead { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; } .levelhead b { display: block; font-size: 18px; } .levelhead small { color: var(--muted); }
+.levelnum { width: 44px; height: 44px; display: grid; place-items: center; flex: 0 0 auto; border-radius: var(--cut); background: var(--gold-soft); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); color: var(--gold); font-family: var(--hud-font); font-size: 22px; font-weight: 700; }
+.levelpanel .prog { height: 10px; background: var(--well); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; } .levelpanel .prog i { display: block; height: 100%; background: var(--gold); }
+.levelto { display: block; margin-top: 6px; color: var(--muted); font-size: 12.5px; }
+.weekpanel { margin-top: 16px; display: grid; gap: 6px; }
+.weekrow { display: grid; grid-template-columns: minmax(0, 9.5em) 1fr auto; align-items: center; gap: 8px; font-size: 12.5px; color: var(--muted); }
+.weekrow i { height: 8px; background: var(--well); border-radius: 5px; overflow: hidden; } .weekrow i b { display: block; height: 100%; background: var(--line); border-radius: 5px; } .weekrow.now i b { background: var(--accent); }
+.weekrow em { font-style: normal; font-family: var(--hud-font); font-weight: 700; color: var(--text); white-space: nowrap; }
+.weekline { margin: 4px 0 0; font-size: 13px; color: var(--muted); } .weekline.ahead { color: var(--ok); font-weight: 600; }
+.levelup .levelbig { width: 110px; height: 110px; margin: 6px auto 10px; display: grid; place-items: center; border-radius: 50%; background: var(--gold-soft); border: 3px solid var(--gold); box-shadow: 0 0 34px color-mix(in srgb, var(--gold) 55%, transparent); animation: chestopen .6s cubic-bezier(.2,1.6,.4,1) both; }
+.levelup .levelbig b { font-family: var(--hud-font); font-size: 56px; color: var(--gold); line-height: 1; } .levelup .levelpanel { text-align: start; margin: 14px 0 4px; } .levelup .levelhead { display: none; }
+.node.cheststop { width: 150px; margin-bottom: 30px; gap: 4px; }
+.cbtn { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 16px; border: 2px solid var(--line); background: var(--card); color: var(--muted); padding: 0; } .cbtn svg { width: 38px; height: 38px; }
+.cbtn.shut { opacity: .55; } .cbtn.open { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 40%, transparent); opacity: .8; }
+.cbtn.ready { color: var(--gold); border-color: var(--gold); background: var(--gold-soft); box-shadow: 0 0 22px color-mix(in srgb, var(--gold) 55%, transparent); animation: chestwait 1.4s ease-in-out infinite; cursor: pointer; }
+@keyframes chestwait { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-4px) rotate(-3deg); } }
+.cheststop .planned { display: inline-flex; align-items: center; gap: 4px; } .cheststop .chestwon { margin: 0; font-family: var(--hud-font); font-size: 20px; font-weight: 700; color: var(--gold); }
+.shardline { margin: 0 0 4px; font-family: var(--hud-font); font-weight: 700; color: var(--accent-strong); }
+.colours { display: grid; gap: 8px; margin-top: 10px; }
+.colour { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 10px; } .colour.on { border-color: var(--sw); }
+.colour b { flex: 1; font-size: 14px; } .colstate { font-size: 12px; color: var(--muted); } .colour .btn[disabled] { opacity: .5; }
+.swatch { width: 26px; height: 26px; border-radius: 50%; background: var(--sw); box-shadow: 0 0 12px color-mix(in srgb, var(--sw) 60%, transparent); flex: 0 0 auto; }
+.colour[data-colour="neon"] { --sw: #00f0ff; } .colour[data-colour="gold"] { --sw: #ffc928; } .colour[data-colour="rose"] { --sw: #ff5fa2; } .colour[data-colour="violet"] { --sw: #a78bfa; } .colour[data-colour="lime"] { --sw: #a3e635; }
+main.path[data-colour="gold"], main.path[data-colour="gold"] [data-theme="book"], main.path[data-colour="gold"] [data-theme="teal"] { --accent: #ffc928; --accent-strong: #ffe38a; --accent-soft: #2e2406; }
+main.path[data-colour="rose"], main.path[data-colour="rose"] [data-theme="book"], main.path[data-colour="rose"] [data-theme="teal"] { --accent: #ff5fa2; --accent-strong: #ffa3c9; --accent-soft: #2e0a1c; }
+main.path[data-colour="violet"], main.path[data-colour="violet"] [data-theme="book"], main.path[data-colour="violet"] [data-theme="teal"] { --accent: #a78bfa; --accent-strong: #d0c2ff; --accent-soft: #1a1238; }
+main.path[data-colour="lime"], main.path[data-colour="lime"] [data-theme="book"], main.path[data-colour="lime"] [data-theme="teal"] { --accent: #a3e635; --accent-strong: #d3f58f; --accent-soft: #1b2906; }
 /* ---- spec 14, release 3: hearts */
 .heartchip { display: inline-flex; align-items: center; gap: 3px; min-height: 32px; padding: 0 4px; border: 0; background: transparent; font-family: var(--hud-font); font-weight: 700; font-size: 14px; color: var(--heart); }
 .heartchip svg { width: 16px; height: 16px; } .heartchip.out { color: var(--muted); }
@@ -428,23 +457,23 @@ html[dir="rtl"] .notes textarea:placeholder-shown { direction: rtl; }
 /* ---- spec 16: on a phone the forward button is fixed at the bottom of a Lesson and of Review */
 @media (max-width: 699px) {
   .station.run { padding-bottom: 150px; }
-  .station.run .actions, .station.run .feedback:has(.btn) {
+  .station.run .actions, .station.run .feedback.fwd {
     position: fixed; z-index: 9; left: 0; right: 0; bottom: var(--disc-h, 34px); margin: 0; padding: 10px 14px 12px; border-radius: 0;
     background: var(--floor); border: 0; border-top: 1px solid var(--line); box-shadow: 0 -10px 24px rgba(0, 0, 0, .45); animation: none;
   }
   .station.run .actions .btn, .station.run .feedback .btn { min-height: 54px; font-size: 17px; }
-  .station.run .feedback:has(.btn) { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px 10px; }
-  .station.run .feedback:has(.btn) .btn { grid-column: 1 / -1; width: 100%; }
-  .station.run .feedback.ok:has(.btn) { border-top: 2px solid var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--floor)); }
-  .station.run .feedback.bad:has(.btn) { border-top: 2px solid var(--bad); background: color-mix(in srgb, var(--bad) 14%, var(--floor)); }
+  .station.run .feedback.fwd { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px 10px; }
+  .station.run .feedback.fwd .btn { grid-column: 1 / -1; width: 100%; }
+  .station.run .feedback.fwd.ok { border-top: 2px solid var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--floor)); }
+  .station.run .feedback.fwd.bad { border-top: 2px solid var(--bad); background: color-mix(in srgb, var(--bad) 14%, var(--floor)); }
   .station.run .opts .btn, .station.run .tf .btn { min-height: 52px; }
   /* A transform or a filter on the panel would trap the fixed block inside it, so the panel does not animate on a phone. */
   .station.run .panel { animation: none; transform: none; filter: none; transition: none; }
   /* Both languages: a smaller type, so most Cards fit the screen without a scroll. */
-  .station.run .ctext:has(.t-en):has(.t-fa) { font-size: 16px; line-height: 1.5; }
-  .station.run .ctext:has(.t-en):has(.t-fa) .t-fa { font-size: 16.5px; margin-top: 8px; }
-  .station.run .prompt:has(.t-en):has(.t-fa) { font-size: 16.5px; line-height: 1.4; margin-bottom: 12px; }
-  .station.run .opts .btn:has(.t-en):has(.t-fa) { font-size: 14.5px; padding-block: 9px; }
+  [data-mode="BOTH"] .station.run .ctext { font-size: 16px; line-height: 1.5; }
+  [data-mode="BOTH"] .station.run .ctext .t-fa { font-size: 16.5px; margin-top: 8px; }
+  [data-mode="BOTH"] .station.run .prompt { font-size: 16.5px; line-height: 1.4; margin-bottom: 12px; }
+  [data-mode="BOTH"] .station.run .opts .btn { font-size: 14.5px; padding-block: 9px; }
   .station.run .result { padding: 22px 16px; }
   .station.run .result .big { width: 92px; height: 92px; margin-bottom: 10px; } .station.run .result .big svg { width: 44px; height: 44px; }
   .combo { top: 70px; }
@@ -671,16 +700,17 @@ FI.content = (() => {
       praiseClean: 'No misses. That is a clean Lesson.', praiseCombo: 'Your best run was {n} right in a row.', praiseReview: 'The Cards you missed come back in Review.',
       chestGold: 'No misses: a gold chest', chestPlain: 'A chest for finishing the Lesson', chestRange: 'It holds {lo} to {hi} Coins', chestShard: 'and one shard', openChest: 'Open the chest',
       shardWon: 'One shard. Five make a Path colour.', shards: 'shards', shardOne: 'shard', placeCircle: '{n} of {m} Lessons in this Circle', placeSection: '{n} of {m} Stations in this Section',
-      missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.',
+      missedTitle: 'Cards that did not stick', backTomorrow: 'They come back tomorrow, then after 3, 7, 16 and 35 days.', backToday: 'They are in Review today, then come back on the 1, 3, 7, 16 and 35 day ladder.',
       nextLesson: 'Next Lesson', replayDone: 'Played again. Nothing new to earn here.',
       reviewFirst: 'First today', reviewCards: 'Review {n} Cards', aboutMin: 'about {n} min', thenLesson: 'Then',
       recap: 'Recap', recapGo: 'Recap this Section', recapSub: 'Questions from the whole Section, your misses first', recapLocked: 'Pass every Lesson here to open the Recap', recapAgain: 'Recap done. Take it again any time.',
       recapDone: 'Recap done', recapScore: '{n} of {m} right', recapBack: 'This Card goes to your Review.', recapPaid: '+{n} Coins for closing the Section', recapKicker: 'The last step',
       streak: 'Streak', streakDays: '{n} day streak', streakBest: 'Best: {n}', streakKeep: 'One Lesson or one Review a day keeps it going.', streakMilestone: '{n} days in a row. That is a habit.', streakNow: 'Streak: {n}.',
+      lv0: 'Saver', lv1: 'Planner', lv2: 'Investor', lv3: 'Owner', lv4: 'Compounder', lv5: 'Allocator', lv6: 'Independent', level: 'Level', levelN: 'Level {n}', levelUp: 'Level up', levelTo: '{n} XP to the next level', levelTop: 'The top level', weekNow: 'This week', weekThen: 'Last week by this day', weekAhead: '{n} XP ahead of last week', weekBehind: '{n} XP behind last week', weekEven: 'Level with last week', records: 'Records', recLessons: 'Most Lessons in a day', recWeek: 'Best week, XP', recCards: 'Most Review Cards in a week', pathChest: 'Circle chest', pathChestLocked: 'Finish this Circle to open its chest', pathChestDone: 'Opened', colours: 'Path colours', coloursHelp: 'Five shards make one colour. A clean Lesson gives a shard.', shardsHave: '{n} of 5 shards', colNeon: 'Neon', colGold: 'Gold', colRose: 'Rose', colViolet: 'Violet', colLime: 'Lime', colourGet: 'Get', colourUse: 'Use', colourOn: 'In use',
       hearts: 'Hearts', heartsOutTitle: 'Out of hearts', heartsTitle: 'Hearts', heartsInfo: 'You have {n} of 5 hearts.', heartsRule: 'A wrong answer in a new Lesson costs a heart. Review and replay never do.', heartNext: 'Next heart in', heartsTomorrow: 'All five return tomorrow.', heartsFull: 'Your hearts are full.', heartReview: 'Finish a Review', heartReplay: 'Replay an old Lesson', heartBuy: 'Buy a heart · {n} Coins', heartPlus: '+1', heartsLeft: 'Hearts left', heartNoReview: 'No Card is due today', heartNoReplay: 'No Lesson passed yet', heartsClose: 'Close',
       last7: 'The last 7 days', weekLabel: 'This week of your streak: {n} of 7 days done', freezes: 'Streak freezes', freezeHelp: 'A freeze saves your streak on a day you miss. It is used by itself.', buyFreeze: 'Buy a freeze · {n} Coins',
       noteFrozen: 'A freeze covered the time you were away. Your streak is safe.', noteLost: 'Your {n} day streak ended. A new one starts with your next Lesson.', ok: 'OK', later: 'Later',
-      nudge7: 'Seven days in a row. Your progress lives only in this browser: back it up so a lost phone cannot end it.',
+      nudge7: 'Seven days in a row. Your progress lives only in this browser: back it up so a lost phone cannot end it, and add the game to your home screen so the browser keeps it.',
       questsTitle: 'Today\u2019s quests', quest_lesson: 'Finish a Lesson', quest_combo: 'Get {n} right in a row', quest_fare: 'Pass a Fare at the first try', quest_right: 'Answer {n} questions right', quest_clean: 'Finish a Lesson with no wrong answer', quest_review: 'Finish today\u2019s Review',
       questChest: 'All three open a chest of {lo} to {hi} Coins', coinsEarned: 'Coins earned in total',
       navLabel: 'Main', learn: 'Learn', profile: 'Profile', progress: 'Your progress', statCoins: 'Coins', statSections: 'Sections lit', statLessons: 'Lessons lit', badges: 'Badges', noBadges: 'No badges yet. Light a Station or finish a book to earn one.', settings: 'Settings', sound: 'Sound', device: 'This device', startReview: 'Start review', closeLabel: 'Close',
@@ -721,16 +751,17 @@ FI.content = (() => {
       praiseClean: 'بدون خطا. یک درس پاکیزه.', praiseCombo: 'بهترین رشته‌ات {n} پاسخ درست پشت سر هم بود.', praiseReview: 'کارت‌های ازدست‌رفته در مرور برمی‌گردند.',
       chestGold: 'بدون خطا: صندوق طلایی', chestPlain: 'صندوقی برای تمام‌کردن درس', chestRange: '{lo} تا {hi} سکه در آن است', chestShard: 'و یک تکه', openChest: 'صندوق را باز کن',
       shardWon: 'یک تکه. پنج تکه یک رنگ مسیر می‌شود.', shards: 'تکه', shardOne: 'تکه', placeCircle: '{n} از {m} درس این حلقه', placeSection: '{n} از {m} ایستگاه این بخش',
-      missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.',
+      missedTitle: 'کارت‌هایی که جا نیفتاد', backTomorrow: 'فردا برمی‌گردند، سپس پس از ۳، ۷، ۱۶ و ۳۵ روز.', backToday: 'امروز در مرور هستند، بعد با فاصله ۱، ۳، ۷، ۱۶ و ۳۵ روز برمی‌گردند.',
       nextLesson: 'درس بعدی', replayDone: 'دوباره بازی شد. اینجا چیز تازه‌ای برای به‌دست‌آوردن نیست.',
       reviewFirst: 'اول امروز', reviewCards: 'مرور {n} کارت', aboutMin: 'حدود {n} دقیقه', thenLesson: 'سپس',
       recap: 'جمع‌بندی', recapGo: 'جمع‌بندی این بخش', recapSub: 'پرسش‌هایی از کل بخش، اول آنهایی که اشتباه کردی', recapLocked: 'برای بازشدن جمع‌بندی، همه درس‌های اینجا را بگذران', recapAgain: 'جمع‌بندی انجام شد. هر وقت خواستی دوباره انجامش بده.',
       recapDone: 'جمع‌بندی انجام شد', recapScore: '{n} از {m} درست', recapBack: 'این کارت به مرور تو می‌رود.', recapPaid: '+{n} سکه برای بستن بخش', recapKicker: 'گام آخر',
       streak: 'زنجیره', streakDays: 'زنجیره {n} روزه', streakBest: 'بهترین: {n}', streakKeep: 'هر روز یک درس یا یک مرور آن را نگه می‌دارد.', streakMilestone: '{n} روز پشت سر هم. این یک عادت است.', streakNow: 'زنجیره: {n}.',
+      lv0: 'پس‌اندازکننده', lv1: 'برنامه‌ریز', lv2: 'سرمایه‌گذار', lv3: 'مالک', lv4: 'مرکب‌ساز', lv5: 'تخصیص‌دهنده', lv6: 'مستقل', level: 'سطح', levelN: 'سطح {n}', levelUp: 'سطح بالاتر', levelTo: '{n} امتیاز تا سطح بعد', levelTop: 'بالاترین سطح', weekNow: 'این هفته', weekThen: 'هفته پیش تا همین روز', weekAhead: '{n} امتیاز جلوتر از هفته پیش', weekBehind: '{n} امتیاز عقب‌تر از هفته پیش', weekEven: 'برابر با هفته پیش', records: 'رکوردها', recLessons: 'بیشترین درس در یک روز', recWeek: 'بهترین هفته، امتیاز', recCards: 'بیشترین کارت مرور در یک هفته', pathChest: 'صندوق حلقه', pathChestLocked: 'این حلقه را تمام کن تا صندوقش باز شود', pathChestDone: 'باز شد', colours: 'رنگ‌های مسیر', coloursHelp: 'پنج تکه یک رنگ می‌سازد. درس بدون خطا یک تکه می‌دهد.', shardsHave: '{n} تکه از ۵ تکه', colNeon: 'نئون', colGold: 'طلایی', colRose: 'صورتی', colViolet: 'بنفش', colLime: 'لیمویی', colourGet: 'بگیر', colourUse: 'استفاده', colourOn: 'در حال استفاده',
       hearts: 'قلب‌ها', heartsOutTitle: 'قلب نداری', heartsTitle: 'قلب‌ها', heartsInfo: '{n} قلب از ۵ قلب داری.', heartsRule: 'جواب غلط در درس تازه یک قلب کم می‌کند. مرور و تکرار درس قدیمی هیچ‌وقت قلب کم نمی‌کنند.', heartNext: 'قلب بعدی تا', heartsTomorrow: 'فردا هر پنج قلب برمی‌گردد.', heartsFull: 'قلب‌هایت پر است.', heartReview: 'یک مرور را تمام کن', heartReplay: 'یک درس قدیمی را دوباره برو', heartBuy: 'خرید یک قلب · {n} سکه', heartPlus: '+۱', heartsLeft: 'قلب مانده', heartNoReview: 'امروز کارتی برای مرور نیست', heartNoReplay: 'هنوز درسی نگذرانده‌ای', heartsClose: 'بستن',
       last7: '۷ روز گذشته', weekLabel: 'این هفته از زنجیره‌ات: {n} روز از ۷ روز', freezes: 'یخ‌های زنجیره', freezeHelp: 'یخ، زنجیره‌ات را در روزی که جا می‌اندازی نگه می‌دارد. خودش مصرف می‌شود.', buyFreeze: 'خرید یخ · {n} سکه',
       noteFrozen: 'یخ، روزهای نبودنت را پوشش داد. زنجیره‌ات سالم است.', noteLost: 'زنجیره {n} روزه‌ات تمام شد. با درس بعدی یکی تازه شروع می‌شود.', ok: 'باشه', later: 'بعداً',
-      nudge7: 'هفت روز پشت سر هم. پیشرفت تو فقط در همین مرورگر است: پشتیبان بگیر تا گم‌شدن گوشی آن را از بین نبرد.',
+      nudge7: 'هفت روز پشت سر هم. پیشرفت تو فقط در همین مرورگر است: پشتیبان بگیر تا گم‌شدن گوشی آن را از بین نبرد، و بازی را به صفحه اصلی گوشی اضافه کن تا مرورگر نگهش دارد.',
       questsTitle: 'مأموریت‌های امروز', quest_lesson: 'یک درس را تمام کن', quest_combo: '{n} پاسخ درست پشت سر هم بده', quest_fare: 'کرایه را در اولین تلاش بپرداز', quest_right: 'به {n} پرسش درست جواب بده', quest_clean: 'یک درس را بدون پاسخ غلط تمام کن', quest_review: 'مرور امروز را تمام کن',
       questChest: 'هر سه با هم صندوقی با {lo} تا {hi} سکه باز می‌کنند', coinsEarned: 'کل سکه‌های به‌دست‌آمده',
       navLabel: 'ناوبری', learn: 'یادگیری', profile: 'نمایه', progress: 'پیشرفت تو', statCoins: 'سکه', statSections: 'بخش‌های روشن', statLessons: 'درس‌های روشن', badges: 'نشان‌ها', noBadges: 'هنوز نشانی نیست. یک ایستگاه را روشن کن یا یک کتاب را تمام کن.', settings: 'تنظیمات', sound: 'صدا', device: 'این دستگاه', startReview: 'شروع مرور', closeLabel: 'بستن',
@@ -1116,7 +1147,7 @@ FI.engine = (() => {
   const SHELF_STATES = ['toread', 'reading', 'read'];
   const LEGACY_BOOK = /^b\d\d(u\d)?$/; // v1 named whole books, v2 named Units; v3 names Lessons (b01c1l1) (ADR-0010)
   // The one list of what survives a reload. store reads it; HYDRATE iterates it (ADR-0003).
-  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7', 'recaps', 'hearts', 'paused'];
+  const DURABLE = ['mode', 'muted', 'coins', 'awarded', 'rings', 'lit', 'farePassed', 'xp', 'run', 'checklists', 'journal', 'habits', 'habitsWeek', 'shelf', 'sliders', 'milestone', 'bookmarks', 'deck', 'reviewed', 'lastBackup', 'notes', 'lastSection', 'earned', 'shards', 'owed', 'streak', 'freezes', 'marks', 'quests', 'nudge7', 'recaps', 'hearts', 'paused', 'days', 'records', 'pathChests', 'colours'];
 
   const initial = () => ({
     mode: 'EN', muted: false,
@@ -1138,6 +1169,9 @@ FI.engine = (() => {
     // hearts (spec 14, release 3): n held, at = the time the wait for the next one began (null when full), day = the day they were last made full.
     // paused: the place in a Lesson that ran out of hearts. heartWall: the out-of-hearts screen is open (not saved).
     hearts: { n: 5, at: null, day: null }, paused: null, heartWall: false,
+    // Release 4. days: XP, Lessons and Review Cards of each of the last three weeks. records: the player's own bests.
+    // pathChests: the Circles whose chest was opened. colours: the Path colours owned and the one in use. pathWon: the chest just opened (not saved).
+    days: {}, records: { combo: 0, lessonsDay: 0, weekXp: 0, weekCards: 0 }, pathChests: {}, colours: { owned: [], on: null }, pathWon: null,
     recaps: {}, // spec 15: the Sections whose Recap was finished
     streakNote: null, // what happened to the streak while the player was away; shown once, never saved
     today: 0, review: null, // today is a day number sent by the app (TICK); the engine never reads the clock
@@ -1182,6 +1216,30 @@ FI.engine = (() => {
   // The XP that the lit Stations, Lessons, Circles and Sections account for.
   const xpOf = (s, content) => content.allStations().reduce((a, st) => a + (s.lit[st.id] ? st.xp : 0), 0)
     + content.sections.reduce((a, sec) => a + (sec.circles ? sec.circles.reduce((b, c) => b + (s.lit[c.id] ? c.xp : 0), 0) + (s.lit[sec.id] ? sec.xp : 0) : 0), 0);
+  // ---- Spec 14, release 4: levels, this week against last week, records, Path chests, Path colours.
+  // The level is derived from XP and never stored: a returning player is placed at once.
+  const LEVELS = [0, 100, 300, 700, 1400, 2500, 4000];
+  const levelOf = (xp) => { let i = 0; while (i + 1 < LEVELS.length && xp >= LEVELS[i + 1]) i += 1; return i; };
+  const PATH_CHEST = [20, 45]; // a medium chest for a finished Circle
+  const COLOURS = ['gold', 'rose', 'violet', 'lime'];
+  const COLOUR_PRICE = 5; // shards
+  const weekOf = (day) => Math.floor((day + 3) / 7); // weeks start on Monday (day 0 was a Thursday)
+  const weekdayOf = (day) => (((day + 3) % 7) + 7) % 7; // Monday is 0
+  const dayRow = (s) => { if (!Number.isInteger(s.today)) return null; if (!s.days[s.today]) s.days[s.today] = { xp: 0, lessons: 0, cards: 0 }; return s.days[s.today]; };
+  // The sum of one number over a week, up to and including a weekday.
+  const weekSum = (s, week, key, upto = 6) => Object.keys(s.days).reduce((a, d) => a + (weekOf(+d) === week && weekdayOf(+d) <= upto ? s.days[d][key] : 0), 0);
+  // This week so far against last week up to the same weekday.
+  const weekPace = (s) => { if (!Number.isInteger(s.today)) return { now: 0, then: 0 }; const w = weekOf(s.today); return { now: weekSum(s, w, 'xp'), then: weekSum(s, w - 1, 'xp', weekdayOf(s.today)) }; };
+  // After every move: the day's XP, the records, and days older than three weeks dropped.
+  function keepScore(prev, s, type) {
+    if (!Number.isInteger(s.today)) return;
+    if (type !== 'HYDRATE' && type !== 'RESTORE' && type !== 'RESET' && s.xp > prev.xp) dayRow(s).xp += s.xp - prev.xp;
+    const r = s.records; const w = weekOf(s.today); const today = s.days[s.today];
+    r.combo = Math.max(r.combo, s.combo);
+    if (today) r.lessonsDay = Math.max(r.lessonsDay, today.lessons);
+    r.weekXp = Math.max(r.weekXp, weekSum(s, w, 'xp')); r.weekCards = Math.max(r.weekCards, weekSum(s, w, 'cards'));
+    for (const d of Object.keys(s.days)) if (+d <= s.today - 21) delete s.days[d];
+  }
   // ---- Spec 14, release 3: hearts. A wrong answer in a new Lesson costs one; Review and replay never do and give one back.
   const HEART_MAX = 5;
   const HEART_MS = 4 * 60 * 60 * 1000; // one heart returns every four hours
@@ -1282,6 +1340,7 @@ FI.engine = (() => {
     const firsts = t ? Object.values(t.seen) : [];
     const clean = !t.partial && firsts.length > 0 && firsts.every(Boolean);
     if (t.replay && heartsOn(s)) gainHeart(s); // a replayed old Lesson gives a heart back
+    if (dayRow(s)) dayRow(s).lessons += 1;
     if (s.paused && s.paused.stationId === id) s.paused = null;
     quest(s, 'lesson');
     if (s.fare && s.fare.attempt === 1) quest(s, 'fare');
@@ -1294,7 +1353,9 @@ FI.engine = (() => {
       s.awarded[`chest:${id}`] = true; s.owed = { lo, hi, gold: clean };
       chest = { lo, hi, gold: clean, open: false, won: 0 };
     }
-    s.end = { step: 'score', replay: false, hearts: heartsOn(s) ? s.hearts.n : null, right: firsts.filter(Boolean).length, total: firsts.length, best: t.best, clean,
+    const level = levelOf(s.xp) > levelOf(t.xp0) ? levelOf(s.xp) : null;
+    if (level !== null) s.events.push('level-up');
+    s.end = { step: 'score', replay: false, level, hearts: heartsOn(s) ? s.hearts.n : null, right: firsts.filter(Boolean).length, total: firsts.length, best: t.best, clean,
       secs: t.at !== null && Number.isFinite(at) ? Math.max(0, Math.round((at - t.at) / 1000)) : null,
       xp: s.xp - t.xp0, coins: t.coins, missed: t.missed.slice(), chest, streak };
   }
@@ -1320,6 +1381,10 @@ FI.engine = (() => {
     nudge7: (v) => v === null || v === 'due' || v === 'done',
     recaps: (v) => mapOf(isFlag)(v) && Object.keys(v).length <= 200 && Object.keys(v).every((k) => k.length <= 40),
     hearts: (v) => isMap(v) && Number.isInteger(v.n) && v.n >= 0 && v.n <= 5 && (v.at === null || (Number.isFinite(v.at) && v.at >= 0)) && (v.day === null || Number.isInteger(v.day)) && Object.keys(v).length === 3,
+    days: (v) => isMap(v) && Object.keys(v).length <= 40 && Object.keys(v).every((k) => /^\d{1,7}$/.test(k) && isMap(v[k]) && isCount(v[k].xp) && isCount(v[k].lessons) && isCount(v[k].cards) && Object.keys(v[k]).length === 3),
+    records: (v) => isMap(v) && ['combo', 'lessonsDay', 'weekXp', 'weekCards'].every((k) => isCount(v[k])) && Object.keys(v).length === 4,
+    pathChests: (v) => mapOf(isFlag)(v) && Object.keys(v).length <= 400 && Object.keys(v).every((k) => k.length <= 40),
+    colours: (v) => isMap(v) && Array.isArray(v.owned) && v.owned.length <= 4 && v.owned.every((c) => ['gold', 'rose', 'violet', 'lime'].includes(c)) && new Set(v.owned).size === v.owned.length && (v.on === null || v.owned.includes(v.on)) && Object.keys(v).length === 2,
     paused: (v) => v === null || (isMap(v) && isText(v.stationId) && isCount(v.pos) && Object.keys(v).length === 2),
     owed: (v) => v === null || (isMap(v) && Number.isInteger(v.lo) && Number.isInteger(v.hi) && v.lo >= 0 && v.hi >= v.lo && v.hi <= 500 && isFlag(v.gold)),
     awarded: mapOf(isFlag), lit: mapOf(isFlag), farePassed: mapOf(isFlag), rings: mapOf(isCount),
@@ -1492,9 +1557,10 @@ FI.engine = (() => {
     for (const st of content.stations) if (s.farePassed[st.id] && !s.lit[st.id]) light(s, content, st.id);
   }
 
-  function reduce(prev, action, content) {
+  function reduce(prev, action, content) { const s = step(prev, action, content); keepScore(prev, s, action.type); return s; }
+  function step(prev, action, content) {
     const s = JSON.parse(JSON.stringify(prev));
-    s.events = []; s.paid = 0;
+    s.events = []; s.paid = 0; s.pathWon = null;
     if (action.type !== 'HYDRATE') refill(s, action.at);
     switch (action.type) {
       case 'SET_MODE':
@@ -1605,7 +1671,7 @@ FI.engine = (() => {
             if (!s.awarded[`recap:${r.recap}`]) { s.awarded[`recap:${r.recap}`] = true; pay(s, RECAP_PAY); r.paid = RECAP_PAY; }
             s.recaps[r.recap] = true; s.events.push('recap-done');
             quest(s, 'lesson'); r.streak = touchDay(s);
-          } else if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); if (heartsOn(s)) gainHeart(s); } // a finished Review gives a heart back
+          } else if (r.phase === 'done' && r.ids.length) { quest(s, 'review'); r.streak = touchDay(s); if (heartsOn(s)) gainHeart(s); if (dayRow(s)) dayRow(s).cards += r.ids.length; } // a finished Review gives a heart back
         }
         return s;
       }
@@ -1733,7 +1799,9 @@ FI.engine = (() => {
           // The end of a Lesson: scoreboard, then the chest, then the onward screen, one tap each.
           const e = s.end;
           if (!e || e.step === 'onward') return leave(s);
-          e.step = e.step === 'score' && e.chest ? 'chest' : e.step !== 'streak' && e.streak ? 'streak' : 'onward';
+          // The order: scoreboard, chest, a level-up when one happened, the streak when it grew, then onward.
+          const order = ['score', e.chest ? 'chest' : null, e.level !== null && e.level !== undefined ? 'level' : null, e.streak ? 'streak' : null, 'onward'].filter(Boolean);
+          e.step = order[Math.min(order.length - 1, order.indexOf(e.step) + 1)];
         }
         return s;
       case 'BUY_FREEZE':
@@ -1749,6 +1817,24 @@ FI.engine = (() => {
         pay(s, q.won); s.events.push('chest');
         return s;
       }
+      case 'OPEN_PATH_CHEST': {
+        // The chest of a finished Circle, opened once. `value` is the draw the app made.
+        const id = action.circle;
+        const isCircle = content.sections.some((sec) => sec.circles && sec.circles.some((c) => c.id === id));
+        if (!isCircle || !s.lit[id] || s.pathChests[id]) return s;
+        const r = Number.isFinite(action.value) ? Math.min(0.999999, Math.max(0, action.value)) : 0;
+        const won = PATH_CHEST[0] + Math.floor(r * (PATH_CHEST[1] - PATH_CHEST[0] + 1));
+        s.pathChests[id] = true; s.pathWon = { id, won };
+        pay(s, won); s.events.push('chest');
+        return s;
+      }
+      case 'BUY_COLOUR':
+        if (!COLOURS.includes(action.value) || s.colours.owned.includes(action.value) || s.shards < COLOUR_PRICE) return s;
+        s.shards -= COLOUR_PRICE; s.colours.owned.push(action.value); s.colours.on = action.value; s.events.push('bought');
+        return s;
+      case 'SET_COLOUR':
+        if (action.value === null || s.colours.owned.includes(action.value)) s.colours.on = action.value;
+        return s;
       case 'BUY_HEART':
         if (s.hearts.n >= HEART_MAX || s.coins < HEART_PRICE) return s;
         s.coins -= HEART_PRICE; gainHeart(s); s.events.push('bought');
@@ -1826,7 +1912,7 @@ FI.engine = (() => {
     const st = reduce(initial(), { type: 'HYDRATE', value: { ...data, run: null } }, content);
     return { xp: st.xp, coins: st.coins, lit: Object.keys(st.lit).filter((k) => st.lit[k]).length, deck: Object.keys(st.deck).length, notes: Object.keys(st.notes).length };
   };
-  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, recapOpen, RECAP_MAX, RECAP_PAY, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday, HEART_MAX, HEART_MS, HEART_PRICE, HEART_SAFE, heartsOn, replayTarget };
+  return { initial, reduce, MODES, SHELF_STATES, DURABLE, LADDER, dueCount, backupNudge, preview, badKeys, wordCount, NOTE_PAGE_WORDS, NOTE_MAX_CHARS, continueTarget, comboPay, CLEAN_BONUS, CHEST, reviewMinutes, recapOpen, RECAP_MAX, RECAP_PAY, FREEZE_PRICE, FREEZE_MAX, QUEST_CHEST, STREAK_MILESTONES, streakToday, questsToday, HEART_MAX, HEART_MS, HEART_PRICE, HEART_SAFE, heartsOn, replayTarget, LEVELS, levelOf, PATH_CHEST, COLOURS, COLOUR_PRICE, weekPace };
 })();
 </script>
 
@@ -1978,7 +2064,7 @@ FI.render = (() => {
     return `<header class="top">
       ${modeGroup(s)}
       <div class="xpbar" role="progressbar" aria-label="${t('xp', s.mode)}" aria-valuenow="${Math.min(Number(s.xp) || 0, totalXp)}" aria-valuemin="0" aria-valuemax="${totalXp}" title="${num(s.xp, s.mode)} / ${num(totalXp, s.mode)} ${t('xp', s.mode)}"><i style="width:${pct}%"></i></div>
-      <span class="xpnum" aria-hidden="true"${ui.xpGain ? ' data-new' : ''}>${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
+      <span class="xpnum" aria-hidden="true"${ui.xpGain ? ' data-new' : ''}><b class="lvname">${t(`lv${FI.engine.levelOf(s.xp)}`, s.mode)}</b> ${num(s.xp, s.mode)} ${t('xp', s.mode)}</span>
       ${FI.engine.heartsOn(s) ? `<button class="heartchip ${s.hearts.n === 0 ? 'out' : ''}${s.events.includes('heart-lost') && !ui.coinShown ? ' lost' : ''}" ${A({ type: 'OPEN_HEARTS' })} aria-label="${t('hearts', s.mode)}: ${num(s.hearts.n, s.mode)}">${ICONS.heart}<span class="n">${num(s.hearts.n, s.mode)}</span></button>` : ''}
       <span class="streakchip ${FI.engine.streakToday(s) ? 'on' : ''}" role="img" title="${t('streak', s.mode)}" aria-label="${t('streak', s.mode)}: ${num(s.streak.n, s.mode)}">${ICONS.flame}<span class="n">${num(s.streak.n, s.mode)}</span></span>
       <span class="coins ${s.events.includes('coin') && !ui.coinShown ? 'bump' : ''}" aria-live="polite" aria-label="${t('coins', s.mode)}">${ICONS.coin}<span class="n">${num(s.coins, s.mode)}</span></span>
@@ -2022,7 +2108,7 @@ FI.render = (() => {
   function streakNotes(s) {
     const n = s.streakNote;
     const note = n ? `<div class="streaknote ${n.kind}" role="status">${n.kind === 'frozen' ? ICONS.snow : ICONS.flame}<span>${n.kind === 'frozen' ? t('noteFrozen', s.mode) : tf(s, 'noteLost', { n: n.n })}</span><button class="footbtn" ${A({ type: 'DISMISS_STREAK_NOTE' })}>${t('ok', s.mode)}</button></div>` : '';
-    const nudge = s.nudge7 === 'due' ? `<div class="nudge7" role="status"><span>${t('nudge7', s.mode)}</span><div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button><button class="footbtn" ${A({ type: 'DISMISS_NUDGE' })}>${t('later', s.mode)}</button></div></div>` : '';
+    const nudge = s.nudge7 === 'due' ? `<div class="nudge7" role="status"><span>${t('nudge7', s.mode)}</span><div class="brow"><button class="footbtn" ${A({ type: 'BACKUP' })}>${t('backup', s.mode)}</button>${ui.offline && ui.offline.installable ? `<button class="footbtn hot" ${A({ type: 'INSTALL' })}>${t('install', s.mode)}</button>` : ''}<button class="footbtn" ${A({ type: 'DISMISS_NUDGE' })}>${t('later', s.mode)}</button></div></div>` : '';
     return note + nudge;
   }
   function streakPanel(s, shop) {
@@ -2039,6 +2125,42 @@ FI.render = (() => {
   // One row per Section: the jump sheet on a phone, the rail list on a desktop.
   const sectionRows = (s, content, onId, coverCls) => content.sections.map((sec, i) => `<button class="row ${sec.id === onId ? 'on' : ''}" data-sec="${esc(sec.id)}" ${A({ type: 'UI_JUMP_SECTION', value: sec.id })}>${sec.kind === 'book' ? cover(sec, coverCls) : `<span class="n">${num(i + 1, s.mode)}</span>`}<span class="t">${sec.kind === 'basics' ? pair(sec.name, one(s.mode)) : `<span class="t-en" lang="en">${esc(sec.title)}</span>`}</span><span class="p">${num(sec.runs.filter((u) => s.lit[u]).length, s.mode)}/${num(sec.runs.length, s.mode)}</span></button>`).join('');
   // lean: the Profile already shows the numbers and the streak, so its rail leaves them out.
+  // Release 4: the level, this week against last week, the records, the Path colours.
+  function levelPanel(s) {
+    const E = FI.engine; const lv = E.levelOf(s.xp); const top = lv >= E.LEVELS.length - 1;
+    const lo = E.LEVELS[lv]; const hi = top ? lo : E.LEVELS[lv + 1];
+    const pct = top ? 100 : Math.round(((s.xp - lo) / (hi - lo)) * 100);
+    return `<div class="levelpanel"><div class="levelhead"><span class="levelnum">${num(lv + 1, s.mode)}</span><div><b>${t(`lv${lv}`, s.mode)}</b><small>${tf(s, 'levelN', { n: lv + 1 })}</small></div></div>
+      <div class="prog" role="progressbar" aria-label="${t('level', s.mode)}" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><i style="width:${pct}%"></i></div>
+      <small class="levelto">${top ? t('levelTop', s.mode) : tf(s, 'levelTo', { n: hi - s.xp })}</small></div>`;
+  }
+  function weekPanel(s) {
+    const p = FI.engine.weekPace(s); const max = Math.max(1, p.now, p.then);
+    const line = p.now > p.then ? tf(s, 'weekAhead', { n: p.now - p.then }) : p.now < p.then ? tf(s, 'weekBehind', { n: p.then - p.now }) : t('weekEven', s.mode);
+    const bar = (label, v, cls) => `<div class="weekrow ${cls}"><span>${label}</span><i><b style="width:${Math.round((v / max) * 100)}%"></b></i><em>${num(v, s.mode)} ${t('xp', s.mode)}</em></div>`;
+    return `<div class="weekpanel">${bar(t('weekNow', s.mode), p.now, 'now')}${bar(t('weekThen', s.mode), p.then, 'then')}<p class="weekline ${p.now > p.then ? 'ahead' : ''}">${line}</p></div>`;
+  }
+  function recordsPanel(s) {
+    const r = s.records; const cell = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
+    return `<div class="stats">${cell(`×${num(r.combo, s.mode)}`, t('bestCombo', s.mode))}${cell(num(r.lessonsDay, s.mode), t('recLessons', s.mode))}${cell(num(r.weekXp, s.mode), t('recWeek', s.mode))}${cell(num(r.weekCards, s.mode), t('recCards', s.mode))}</div>`;
+  }
+  function coloursPanel(s) {
+    const E = FI.engine; const name = { gold: 'colGold', rose: 'colRose', violet: 'colViolet', lime: 'colLime' };
+    const sw = (id, label, state) => `<div class="colour ${state === 'on' ? 'on' : ''}" data-colour="${id || 'neon'}"><i class="swatch"></i><b>${label}</b>${state === 'on' ? `<span class="colstate">${t('colourOn', s.mode)}</span>`
+      : state === 'owned' ? `<button class="btn small" ${A({ type: 'SET_COLOUR', value: id })}>${t('colourUse', s.mode)}</button>`
+        : `<button class="btn small" ${A({ type: 'BUY_COLOUR', value: id })} ${s.shards >= E.COLOUR_PRICE ? '' : 'disabled'}>${t('colourGet', s.mode)} · ${num(E.COLOUR_PRICE, s.mode)} \u25c6</button>`}</div>`;
+    return `<p class="shardline">\u25c6 ${tf(s, 'shardsHave', { n: Math.min(s.shards, 99) })}</p><p class="help">${t('coloursHelp', s.mode)}</p><div class="colours">${sw(null, t('colNeon', s.mode), s.colours.on === null ? 'on' : 'owned')}${E.COLOURS.map((id) => sw(id, t(name[id], s.mode), s.colours.on === id ? 'on' : s.colours.owned.includes(id) ? 'owned' : 'shop')).join('')}</div>`;
+  }
+  // The chest of a Circle on the Path: closed until the Circle is finished, then opened once.
+  function chestStop(s, c, n, last) {
+    const E = FI.engine; const opened = s.pathChests[c.id]; const ready = s.lit[c.id] && !opened;
+    const won = s.pathWon && s.pathWon.id === c.id ? `<p class="chestwon" aria-live="polite">+<span class="cn">${num(s.pathWon.won, s.mode)}</span> ${ICONS.coin}</p>` : '';
+    const range = `${num(E.PATH_CHEST[0], s.mode)}\u2013${num(E.PATH_CHEST[1], s.mode)}`;
+    const body = ready ? `<button class="cbtn ready" ${A({ type: 'OPEN_PATH_CHEST', circle: c.id })} aria-label="${t('openChest', s.mode)} · ${range}">${ICONS.chest}</button><span class="planned">${t('openChest', s.mode)} · ${range} ${ICONS.coin}</span>`
+      : opened ? `<span class="cbtn open" role="img" aria-label="${t('pathChest', s.mode)}: ${t('pathChestDone', s.mode)}">${ICONS.chestOpen}</span>${won || `<span class="planned">${t('pathChestDone', s.mode)}</span>`}`
+        : `<span class="cbtn shut" role="img" aria-label="${t('pathChestLocked', s.mode)}" title="${t('pathChestLocked', s.mode)}">${ICONS.chest}</span>`;
+    return `<li class="node cheststop ${ready ? 'ready' : opened ? 'opened' : 'shut'}" data-chest="${esc(c.id)}" style="--x:${Math.round((wave(n - 1, s.mode === 'FA') + (last ? wave(n - 1, s.mode === 'FA') : wave(n, s.mode === 'FA'))) / 2)}px">${body}</li>`;
+  }
   // The hearts screen: shown when the hearts run out, and when the player taps the hearts in the header.
   function heartWall(s, content) {
     if (!s.heartWall) return '';
@@ -2063,6 +2185,7 @@ FI.render = (() => {
     const due = FI.engine.dueCount(s);
     return `<aside class="rail" aria-label="${t('progress', s.mode)}">
       ${lean ? '' : `<section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>`}
+      ${lean ? '' : `<section class="panel"><p class="kicker">${t('level', s.mode)}</p>${levelPanel(s)}${weekPanel(s)}</section>`}
       ${lean ? '' : `<section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, false)}</section>`}
       ${questsPanel(s, 'inrail')}
       <section class="panel"><p class="kicker">${t('review', s.mode)}</p><p class="railnum"><b>${num(due, s.mode)}</b> ${t('reviewDue', s.mode)}</p><button class="btn ${due ? 'primary' : ''} wide" ${A({ type: 'OPEN_REVIEW' })}>${t('startReview', s.mode)}</button></section>
@@ -2111,7 +2234,7 @@ FI.render = (() => {
     for (const list of root.querySelectorAll('.nodes')) {
       const layer = list.querySelector('.roadlayer');
       if (!layer) continue;
-      const nodes = [...list.children].filter((el) => el.classList.contains('node'));
+      const nodes = [...list.children].filter((el) => el.classList.contains('node') && !el.classList.contains('cheststop')); // a chest stop sits on the road between two Circles; it is not a point of it
       const scale = parseFloat(getComputedStyle(list).getPropertyValue('--wave')) || 1;
       const points = nodes.map((el) => {
         const btn = el.querySelector('.ubtn');
@@ -2277,7 +2400,7 @@ FI.render = (() => {
       const nextCircle = sec.circles ? sec.circles.find((c) => !s.lit[c.id]) : null;
       const nodes = sec.kind === 'basics'
         ? `<ol class="nodes">${roadLayer}${sec.runs.map((u, n) => unitStop(s, content, content.station(u), u === nextRun || u === goId, u === goId, litBooks, n)).join('')}</ol>`
-        : `<ol class="nodes circles">${roadLayer}${sec.circles.map((c, n) => { const go = c.lessons.includes(goId); return circleStop(s, content, c, n + 1, go || (!!nextCircle && nextCircle.id === c.id), go); }).join('')}</ol>`;
+        : `<ol class="nodes circles">${roadLayer}${sec.circles.map((c, n) => { const go = c.lessons.includes(goId); return circleStop(s, content, c, n + 1, go || (!!nextCircle && nextCircle.id === c.id), go) + chestStop(s, c, n + 1, n === sec.circles.length - 1); }).join('')}</ol>`;
       const bar = sec.kind === 'book' ? `<div class="secbar">${notesButton(s, sec.bookId, 'footbtn')}</div>` : '';
       const label = sec.kind === 'book' ? sec.title : sec.name[lang(s)];
       return `<section class="sec ${sec.kind} open ${isComplete(s, sec) ? 'done' : ''}" id="${esc(sec.id)}" aria-label="${esc(label)}">${sectionHeader(s, sec, i + 1, sec.runs.filter((u) => s.lit[u]).length)}${bar}${nodes}${recapStop(s, content, sec)}</section>`;
@@ -2285,7 +2408,7 @@ FI.render = (() => {
     const milestone = s.milestone ? `<div class="milestone-chip">${ICONS.star}<span>${t('milestoneTitle', s.mode)}: ${t('milestoneBody', s.mode)}</span></div>` : '';
     const sheet = ui.picker ? `<div class="sheet" role="dialog" aria-label="${t('sections', s.mode)}"><div class="sheethead"><h3>${t('sections', s.mode)}</h3><button class="icon" ${A({ type: 'UI_PICKER' })} aria-label="${t('closeLabel', s.mode)}">${ICONS.close}</button></div>${sectionRows(s, content, onId, 'tiny')}</div>` : '';
     const cam = !ui.introDone ? ' intro' : ui.pullout ? ' pullout' : '';
-    return `<main class="path${cam}">
+    return `<main class="path${cam}"${s.colours.on ? ` data-colour="${s.colours.on}"` : ''}>
       <h1>${t('title', s.mode)}</h1><p class="sub">${t('subtitle', s.mode)}</p>
       ${continueBlock(s, content)}
       ${streakNotes(s)}${questsPanel(s, 'inmain')}
@@ -2308,8 +2431,11 @@ FI.render = (() => {
     return `<main class="station tools profile" data-theme="teal">
       <div class="shead"><h2 class="ttitle">${t('profile', s.mode)}</h2></div>
       <section class="panel"><p class="kicker">${t('progress', s.mode)}</p>${stats(s, content)}</section>
+      <section class="panel"><p class="kicker">${t('level', s.mode)}</p>${levelPanel(s)}${weekPanel(s)}</section>
       <section class="panel"><p class="kicker">${t('streak', s.mode)}</p>${streakPanel(s, true)}</section>
+      <section class="panel"><p class="kicker">${t('records', s.mode)}</p>${recordsPanel(s)}</section>
       <section class="panel"><p class="kicker">${t('badges', s.mode)} · ${num(earned.length, s.mode)}</p>${badges}</section>
+      <section class="panel"><p class="kicker">${t('colours', s.mode)}</p>${coloursPanel(s)}</section>
       <section class="panel"><p class="kicker">${t('settings', s.mode)}</p>
         <div class="setrow"><span>${t('language', s.mode)}</span>${modeGroup(s)}</div>
         <div class="setrow"><span>${t('sound', s.mode)}</span><button class="footbtn" ${A({ type: 'TOGGLE_MUTE' })} aria-pressed="${!s.muted}">${s.muted ? ICONS.muted : ICONS.sound}<span>${s.muted ? t('mute', s.mode) : t('unmute', s.mode)}</span></button></div>
@@ -2490,7 +2616,7 @@ FI.render = (() => {
     const answer = !k ? '' : k.type === 'tf' ? t(k.answer ? 'trueLabel' : 'falseLabel', s.mode) : k.type === 'order' ? k.answer.map((i) => pair(k.options[i], one(s.mode))).join(' · ') : pair(k.options[k.answer], s.mode);
     if (r.phase === 'result') {
       const note = r.recap ? (r.ok ? '' : t('recapBack', s.mode)) : !r.ok ? t('reviewBack', s.mode) : r.retired ? t('reviewRetired', s.mode) : `${t('reviewNextIn', s.mode)} ${num(r.nextIn, s.mode)} ${t('days', s.mode)}`;
-      return `<main class="station tools run" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'}" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
+      return `<main class="station tools run" data-theme="teal">${head}<div class="feedback ${r.ok ? 'ok' : 'bad'} fwd" aria-live="polite"><span class="fbico">${r.ok ? ICONS.check : ICONS.close}</span><span class="msg"><span>${r.ok ? t('correct', s.mode) : t('revealed', s.mode)}</span>${!r.ok && answer ? `<b class="ans">${answer}</b>` : ''}<small>${note}</small></span><button class="btn" ${A({ type: 'REVIEW_NEXT' })} data-focus>${t('continue', s.mode)}</button></div></main>`;
     }
     const card = `<section class="panel card"><p class="kicker">${t('review', s.mode)}</p><p class="ctext">${pair(e.text, s.mode)}</p>`;
     if (r.phase === 'card') {
@@ -2584,11 +2710,11 @@ FI.render = (() => {
   function feedback(s, content, k) {
     if (s.phase === 'correct') {
       const coin = s.events.includes('coin') ? `<small>+${num(s.paid || 1, s.mode)} ${t('coins', s.mode)}</small>` : '';
-      return `<div class="feedback ok" aria-live="polite"><span class="fbico">${ICONS.check}</span><span class="msg"><span>${t('correct', s.mode)}</span>${coin}</span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
+      return `<div class="feedback ok fwd" aria-live="polite"><span class="fbico">${ICONS.check}</span><span class="msg"><span>${t('correct', s.mode)}</span>${coin}</span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
     }
     if (s.phase === 'revealed') {
       const ans = k.type === 'tf' ? (k.answer ? t('trueLabel', s.mode) : t('falseLabel', s.mode)) : k.type === 'tap' ? pair(k.options[k.answer], one(s.mode)) : '';
-      return `<div class="feedback bad" aria-live="polite"><span class="fbico">${ICONS.close}</span><span class="msg"><span>${t('revealed', s.mode)}</span><small>${ans}</small></span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
+      return `<div class="feedback bad fwd" aria-live="polite"><span class="fbico">${ICONS.close}</span><span class="msg"><span>${t('revealed', s.mode)}</span><small>${ans}</small></span><button class="btn" ${A({ type: 'CONTINUE' })} data-focus>${t('continue', s.mode)}</button></div>`;
     }
     if (s.phase === 'check' && s.hint) return `<div class="feedback bad" aria-live="polite"><span class="msg"><span>${t('wrong', s.mode)}</span></span></div>`;
     return '<div aria-live="polite"></div>';
@@ -2632,6 +2758,9 @@ FI.render = (() => {
           : `<div class="chest ${c.gold ? 'gold' : 'plain'}" aria-hidden="true">${ICONS.chest}</div><p>${range}</p><div class="actions col"><button class="btn primary wide" ${A({ type: 'OPEN_CHEST' })} data-focus>${t('openChest', s.mode)}</button></div>`;
         return `<section class="panel result"><h2>${t(c.gold ? 'chestGold' : 'chestPlain', s.mode)}</h2>${body}</section>`;
       }
+      if (e.step === 'level' && e.level !== null && e.level !== undefined) {
+        return `<section class="panel result levelup">${burst}<p class="kicker">${t('levelUp', s.mode)}</p><div class="levelbig"><b>${num(e.level + 1, s.mode)}</b></div><h2>${t(`lv${e.level}`, s.mode)}</h2>${levelPanel(s)}<div class="actions col">${go}</div></section>`;
+      }
       if (e.step === 'streak' && e.streak) {
         const line = e.streak.milestone ? fill('streakMilestone', { n: e.streak.n }) : t('streakKeep', s.mode);
         return `<section class="panel result"><div class="streakbig">${ICONS.flame}<b>${num(e.streak.n, s.mode)}</b></div><h2>${fill('streakDays', { n: e.streak.n })}</h2>${weekDots(s)}<p class="praise ${e.streak.milestone ? 'gold' : ''}" style="--i:1">${line}</p><div class="actions col">${go}</div></section>`;
@@ -2642,7 +2771,7 @@ FI.render = (() => {
       const placeLine = fill(circle ? 'placeCircle' : 'placeSection', { n: group.filter((l) => s.lit[l]).length, m: group.length });
       const dots = `<div class="place${group.length > 4 ? ' many' : ''}" role="img" aria-label="${placeLine}">${group.map((l, i) => `<i class="${s.lit[l] ? 'on' : l === nextId ? 'next' : ''}${l === st.id ? ' here' : ''}">${s.lit[l] ? ICONS.check : num(i + 1, s.mode)}</i>${i < group.length - 1 ? `<span class="${s.lit[l] && s.lit[group[i + 1]] ? 'on' : ''}"></span>` : ''}`).join('')}</div><p class="placeline">${placeLine}</p>`;
       const missed = (e.missed || []).filter((id) => s.deck[id]);
-      const missedBlock = missed.length ? `<div class="missed"><p class="kicker">${t('missedTitle', s.mode)}</p><ul class="missedlist">${missed.map((id) => `<li>${pair(s.deck[id].text, one(s.mode))}</li>`).join('')}</ul><p class="help">${t('backTomorrow', s.mode)}</p></div>` : '';
+      const missedBlock = missed.length ? `<div class="missed"><p class="kicker">${t('missedTitle', s.mode)}</p><ul class="missedlist">${missed.map((id) => `<li>${pair(s.deck[id].text, one(s.mode))}</li>`).join('')}</ul><p class="help">${t(missed.some((id) => s.deck[id].due <= s.today) ? 'backToday' : 'backTomorrow', s.mode)}</p></div>` : '';
       const target = FI.engine.continueTarget(s, content);
       const next = target ? content.station(target.stationId) : null;
       // Spec 15: the Lesson that opens the Recap leads into it.
@@ -2697,6 +2826,7 @@ FI.render = (() => {
     const html = document.documentElement;
     html.lang = s.mode === 'FA' ? 'fa' : 'en';
     html.dir = s.mode === 'FA' ? 'rtl' : 'ltr';
+    if (html.setAttribute) html.setAttribute('data-mode', s.mode); // the phone rules for both languages hang on this, not on :has()
     const screen = s.screen === 'path' ? pathScreen(s, content) : s.screen === 'profile' ? profileScreen(s, content) : s.screen === 'tools' ? toolsScreen(s, content) : s.screen === 'bookmarks' ? bookmarksScreen(s, content) : s.screen === 'notes' ? notesScreen(s, content) : s.screen === 'review' ? reviewScreen(s, content) : stationScreen(s, content);
     // Shelf, Bookmarks and Profile fill the desktop width and carry the rail, like the Path. A run (Lesson, Review) stays a centred column.
     const wideTab = s.screen === 'profile' || s.screen === 'bookmarks' || (s.screen === 'tools' && s.stationId === 's6');
@@ -3125,6 +3255,7 @@ FI.fx = (() => {
       if (has('circle') || has('section') || has('milestone')) setTimeout(() => burst(cx, cy, 120, ['mag', 'gold', 'accent'], 14), 260);
       return;
     }
+    if (has('level-up')) sound('lit');
     if (has('hearts-out')) { sound('wrong'); buzz([40, 60, 40], state); }
     else if (has('heart') && !has('bought')) sound('bookmark');
     if (has('bought')) { sound('bookmark'); burst(at.x, at.y, 24, ['accent', 'white'], 5); return; }
@@ -3267,7 +3398,7 @@ FI.fx = (() => {
     if (uiResult === 'path') { state = engine.reduce(state, { type: 'BACK_TO_PATH' }, content); render.setSaveFailed(!store.save(storage, state)); paint(); return; }
     const before = { xp: state.xp, coins: state.coins };
     if (action.at === undefined) action = { ...action, at: Date.now() }; // hearts return by the hour: every move carries the time (ADR-0012)
-    if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST') action = { ...action, value: Math.random() };
+    if (action.type === 'OPEN_CHEST' || action.type === 'OPEN_QUEST_CHEST' || action.type === 'OPEN_PATH_CHEST') action = { ...action, value: Math.random() };
     else if (action.type === 'RESET' || action.type === 'RESTORE') action = { ...action, roll: Math.random() }; // the Quests are dealt again
     state = engine.reduce(state, action, content);
     if (action.type === 'RESET') { store.clear(storage); render.setSaveFailed(false); } else render.setSaveFailed(!store.save(storage, state));

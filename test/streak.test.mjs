@@ -251,7 +251,9 @@ describe('The end of a Lesson with a streak', () => {
     s = R(s, cont);
     const second = pass(s, 's2');
     expect(second.end.streak).toBeNull();
-    expect(R(second, cont, { type: 'OPEN_CHEST', value: 0 }, cont).end.step).toBe('onward');
+    let after = R(second, cont, { type: 'OPEN_CHEST', value: 0 }, cont);
+    if (after.end.step === 'level') after = R(after, cont); // the second Lesson crosses into level 2
+    expect(after.end.step).toBe('onward');
   });
 
   it('marks the seventh day as a milestone and asks once for a backup', () => {
