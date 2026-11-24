@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batch 6: How much feel on a right answer?</title>
+<!-- THROWAWAY PROTOTYPE for issue #36. Nothing here is saved, nothing here is the real game.
+     One question: how much should a right answer react? Four levels, A to D. Play with sound on. -->
+<style>
+:root { --bg: #06060c; --card: #0e0f1c; --line: #2b3157; --text: #e8f0ff; --muted: #8d95b5; --accent: #00f0ff; --gold: #ffc928; --ok: #2ee6a6; --bad: #ff4d6d; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 system-ui, sans-serif; overflow-x: hidden; }
+#wrap { max-width: 480px; margin: 0 auto; padding: 0 14px 110px; }
+header { position: sticky; top: 0; z-index: 5; background: #06060cf2; padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+header h1 { margin: 0 0 8px; font-size: 15px; color: var(--muted); font-weight: 600; }
+.tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.tabs button { min-height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--muted); font-weight: 700; font-size: 15px; }
+.tabs button[aria-pressed="true"] { background: var(--accent); color: #001417; border-color: var(--accent); }
+.name { margin: 14px 0 2px; font-size: 22px; font-weight: 800; }
+.pitch { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.hud { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; font-weight: 700; min-height: 34px; }
+.chip { padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); font-size: 14px; font-variant-numeric: tabular-nums; }
+.chip.gold { color: var(--gold); border-color: #ffc92866; }
+.chip.combo { color: var(--accent); border-color: #00f0ff66; }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 12px; }
+.panel h2 { margin: 0 0 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.btn { display: block; width: 100%; min-height: 54px; border-radius: 14px; border: 0; font-size: 17px; font-weight: 800; background: var(--accent); color: #001417; box-shadow: 0 4px 0 #008f99; }
+.btn.alt { background: #1a1d36; color: var(--text); box-shadow: 0 4px 0 #0c0d1c; border: 1px solid var(--line); }
+.btn.right { background: #0d3a2c; border: 1px solid var(--ok); color: var(--ok); }
+.btn.wrong { background: #3a0d18; border: 1px solid var(--bad); color: var(--bad); }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; background: #06060cf5; border-top: 1px solid var(--line); padding: 10px 14px 14px; }
+.bar .in { max-width: 452px; margin: 0 auto; }
+.q { font-size: 18px; font-weight: 700; margin: 0 0 12px; min-height: 3.6em; }
+.small { font-size: 13px; color: var(--muted); }
+.fb { min-height: 1.4em; margin: 10px 0 0; font-size: 14px; }
+.dots { display: flex; gap: 4px; margin-bottom: 10px; } .dots i { flex: 1; height: 6px; border-radius: 3px; background: #1c2040; } .dots i.r { background: var(--ok); } .dots i.w { background: var(--bad); }
+@keyframes squash { 30% { transform: scale(1.06, .9); } 60% { transform: scale(.97, 1.05); } 100% { transform: none; } }
+.squash { animation: squash .3s; }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.shake { animation: shake .2s 2; }
+@keyframes bump { 40% { transform: scale(1.25); } }
+.bump { animation: bump .3s; }
+.spark, .coin { position: fixed; z-index: 20; pointer-events: none; }
+.spark { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); transition: transform .5s cubic-bezier(.1,.7,.3,1), opacity .5s; }
+.coin { width: 16px; height: 16px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff3b0, #ffc928 55%, #b97d00); transition: transform .55s cubic-bezier(.5,-0.3,.4,1), opacity .55s; }
+@media (prefers-reduced-motion: reduce) { .squash, .shake, .bump { animation: none; } .spark, .coin { display: none; } }
+.verdict { border-color: var(--gold); } .verdict p { margin: 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <h1>Batch 6 · How much feel on a right answer?</h1>
+    <div class="tabs" id="tabs"></div>
+  </header>
+  <div id="view"></div>
+  <div class="panel verdict"><p><b>How to judge:</b> sound on. Answer all ten in each tab, and get one wrong on purpose. Which level would you still like after 200 answers? Reply with one letter.</p></div>
+</div>
+<div class="bar"><div class="in"><button class="btn alt" id="again">Start these ten again</button></div></div>
+<script>
+const QUESTIONS = [
+  ['Compounding pays interest on interest.', true], ['An index fund holds one single company.', false], ['Spending less than you earn creates capital.', true],
+  ['A higher savings rate shortens the road to independence.', true], ['Inflation makes cash worth more each year.', false], ['Owning assets can pay you while you sleep.', true],
+  ['Fees of 2% a year hardly matter over 30 years.', false], ['Diversifying lowers the risk of one bad pick.', true], ['Debt at 20% interest beats investing at 7%.', false],
+  ['A budget shows where your money goes.', true],
+];
+const VARIANTS = {
+  A: { name: 'Bare', pitch: 'A colour change and nothing else. No sound.', lv: 0 },
+  B: { name: 'Medium', pitch: 'A small squash, one short tone, the Coin count ticks up.', lv: 1 },
+  C: { name: 'Medium, climbing Combo', pitch: 'As B, and each right answer in a row sounds one step higher.', lv: 2 },
+  D: { name: 'High', pitch: 'As C, with sparks, Coins that fly to the balance, and a buzz where the phone allows.', lv: 3 },
+};
+const SCALE = [0, 2, 4, 5, 7, 9, 11, 12, 14, 16];
+const fresh = () => ({ i: 0, coins: 0, combo: 0, marks: [], busy: false });
+const S = { A: fresh(), B: fresh(), C: fresh(), D: fresh() };
+let cur = 'A';
+const $ = (id) => document.getElementById(id);
+const beep = (f, d = 0.1, t = 'triangle', v = 0.06) => { try { beep.c = beep.c || new (window.AudioContext || window.webkitAudioContext)(); const c = beep.c, o = c.createOscillator(), g = c.createGain(); o.type = t; o.frequency.value = f; g.gain.value = v; g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + d); o.connect(g).connect(c.destination); o.start(); o.stop(c.currentTime + d); } catch (e) {} };
+const countUp = (el, from, to, ms = 350) => { const t0 = performance.now(); const step = (now) => { const p = Math.min(1, (now - t0) / ms); el.textContent = Math.round(from + (to - from) * p); if (p < 1) requestAnimationFrame(step); }; requestAnimationFrame(step); };
+const kick = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
+
+function draw() {
+  const s = S[cur]; const v = VARIANTS[cur]; const done = s.i >= QUESTIONS.length;
+  $('tabs').innerHTML = Object.keys(VARIANTS).map((k) => `<button data-tab="${k}" aria-pressed="${k === cur}">${k}</button>`).join('');
+  const hud = `<div class="hud"><span class="chip gold">🪙 <span id="coins">${s.coins}</span></span>${v.lv >= 2 ? `<span class="chip combo" id="combo">Combo ${s.combo}</span>` : ''}</div>`;
+  const dots = `<div class="dots">${QUESTIONS.map((_, i) => `<i class="${s.marks[i] === true ? 'r' : s.marks[i] === false ? 'w' : ''}"></i>`).join('')}</div>`;
+  const right = s.marks.filter(Boolean).length;
+  const body = done
+    ? `<div class="panel">${dots}<h2>Done</h2><p class="q" style="min-height:0">${right} of ${QUESTIONS.length} right. ${s.coins} Coins.</p><p class="small" style="margin:0">Now try the next tab, with the same ten.</p></div>`
+    : `<div class="panel">${dots}<h2>Check ${s.i + 1} of ${QUESTIONS.length}</h2><p class="q">${QUESTIONS[s.i][0]}</p><div class="row"><button class="btn alt" data-ans="true">True</button><button class="btn alt" data-ans="false">False</button></div><p class="fb" id="fb"></p></div>`;
+  $('view').innerHTML = `<p class="name">${cur}. ${v.name}</p><p class="pitch">${v.pitch}</p>${hud}${body}`;
+}
+function sparks(el) {
+  const r = el.getBoundingClientRect(); const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+  for (let i = 0; i < 12; i++) { const d = document.createElement('div'); d.className = 'spark'; d.style.left = `${cx}px`; d.style.top = `${cy}px`; document.body.appendChild(d); const a = (i / 12) * Math.PI * 2, dist = 50 + Math.random() * 40; requestAnimationFrame(() => { d.style.transform = `translate(${Math.cos(a) * dist}px, ${Math.sin(a) * dist}px) scale(.3)`; d.style.opacity = '0'; }); setTimeout(() => d.remove(), 550); }
+}
+function fly(el, n, land) {
+  const a = el.getBoundingClientRect(), b = $('coins').getBoundingClientRect();
+  for (let i = 0; i < n; i++) setTimeout(() => { const c = document.createElement('div'); c.className = 'coin'; c.style.left = `${a.left + a.width / 2 - 8 + (i - 1) * 14}px`; c.style.top = `${a.top + 10}px`; document.body.appendChild(c); requestAnimationFrame(() => { c.style.transform = `translate(${b.left - a.left - a.width / 2 - (i - 1) * 14 + 8}px, ${b.top - a.top - 10}px) scale(.6)`; }); setTimeout(() => { c.remove(); beep(1400 + i * 120, 0.04, 'sine', 0.04); if (i === n - 1) land(); }, 560); }, i * 70);
+}
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('button'); if (!el) return; const s = S[cur]; const lv = VARIANTS[cur].lv;
+  if (el.dataset.tab) { cur = el.dataset.tab; draw(); scrollTo(0, 0); return; }
+  if (el.id === 'again') { S[cur] = fresh(); draw(); return; }
+  if (!el.dataset.ans || s.busy) return;
+  s.busy = true; const truth = QUESTIONS[s.i][1]; const ok = String(truth) === el.dataset.ans;
+  el.classList.add(ok ? 'right' : 'wrong'); s.marks[s.i] = ok;
+  $('fb').textContent = ok ? 'Right.' : `Not quite: that one is ${truth ? 'true' : 'false'}.`; $('fb').style.color = ok ? 'var(--ok)' : 'var(--bad)';
+  let hold = 650;
+  if (ok) {
+    const before = s.coins; s.combo += 1; s.coins += 2;
+    const land = () => { countUp($('coins'), before, s.coins); if (lv >= 3) kick($('coins').parentElement, 'bump'); };
+    if (lv === 0) $('coins').textContent = s.coins;
+    if (lv >= 1) { kick(el, 'squash'); beep(lv >= 2 ? 523 * Math.pow(2, SCALE[Math.min(s.combo - 1, 9)] / 12) : 660, 0.14); }
+    if (lv === 1 || lv === 2) land();
+    if (lv >= 2) { $('combo').textContent = `Combo ${s.combo}`; kick($('combo'), 'bump'); }
+    if (lv >= 3) { sparks(el); fly(el, 3, land); if (navigator.vibrate) navigator.vibrate(12); hold = 900; }
+  } else {
+    s.combo = 0;
+    if (lv >= 1) beep(150, 0.22, 'sawtooth', 0.05);
+    if (lv >= 2) $('combo').textContent = 'Combo 0';
+    if (lv >= 3) { kick(el, 'shake'); if (navigator.vibrate) navigator.vibrate([20, 40, 20]); }
+    hold = 1100;
+  }
+  setTimeout(() => {
+    s.i += 1; s.busy = false; draw();
+    if (s.i >= QUESTIONS.length && lv >= 1) [523, 659, 784, 1046].forEach((f, i) => setTimeout(() => beep(f, 0.16), i * 90));
+  }, hold);
+});
+draw();
+</script>
+</body>
+</html>

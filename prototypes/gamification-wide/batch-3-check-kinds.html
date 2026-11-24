@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batch 3: Which new kind of Check is fun on a phone?</title>
+<!-- THROWAWAY PROTOTYPE for issue #36. Nothing here is saved, nothing here is the real game.
+     One question: which new kinds of Check are fun on a phone?
+     Six variants, A to F, all on one idea: 100 a month at 7% a year for 30 years. -->
+<style>
+:root { --bg: #06060c; --card: #0e0f1c; --line: #2b3157; --text: #e8f0ff; --muted: #8d95b5; --accent: #00f0ff; --gold: #ffc928; --ok: #2ee6a6; --bad: #ff4d6d; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 system-ui, sans-serif; }
+#wrap { max-width: 480px; margin: 0 auto; padding: 0 14px 110px; }
+header { position: sticky; top: 0; z-index: 5; background: #06060cf2; padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+header h1 { margin: 0 0 8px; font-size: 15px; color: var(--muted); font-weight: 600; }
+.tabs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px; }
+.tabs button { min-height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--muted); font-weight: 700; font-size: 15px; }
+.tabs button[aria-pressed="true"] { background: var(--accent); color: #001417; border-color: var(--accent); }
+.name { margin: 14px 0 2px; font-size: 22px; font-weight: 800; }
+.pitch { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 12px; }
+.panel h2 { margin: 0 0 8px; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.btn { display: block; width: 100%; min-height: 54px; border-radius: 14px; border: 0; font-size: 17px; font-weight: 800; background: var(--accent); color: #001417; box-shadow: 0 4px 0 #008f99; }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #008f99; }
+.btn.alt { background: #1a1d36; color: var(--text); box-shadow: 0 4px 0 #0c0d1c; border: 1px solid var(--line); }
+.btn.on { border-color: var(--accent); color: var(--accent); }
+.btn.right { background: #0d3a2c; border: 1px solid var(--ok); color: var(--ok); box-shadow: none; }
+.btn.wrong { background: #3a0d18; border: 1px solid var(--bad); color: var(--bad); box-shadow: none; }
+.btn[disabled] { opacity: .45; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.row3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.stack { display: grid; gap: 8px; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; background: #06060cf5; border-top: 1px solid var(--line); padding: 10px 14px 14px; }
+.bar .in { max-width: 452px; margin: 0 auto; }
+.q { font-size: 18px; font-weight: 700; margin: 0 0 12px; }
+.small { font-size: 13px; color: var(--muted); }
+.big { font-size: 32px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.fb { min-height: 1.4em; margin: 10px 0 0; font-size: 14px; }
+.pop { animation: pop .45s cubic-bezier(.2,1.6,.4,1); }
+@keyframes pop { 0% { transform: scale(.4); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+@keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+.shake { animation: shake .25s 2; }
+input[type=range] { width: 100%; height: 44px; accent-color: var(--accent); margin: 0; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: center; }
+.two .v { font-size: 24px; font-weight: 800; font-variant-numeric: tabular-nums; }
+svg { display: block; width: 100%; height: auto; touch-action: none; user-select: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; min-height: 48px; }
+.chipb { min-height: 44px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line); background: #14172e; color: var(--text); font-size: 14px; font-weight: 600; }
+.chipb.sel { border-color: var(--gold); color: var(--gold); background: #2a2206; }
+.bucket { min-height: 92px; border-radius: 12px; border: 1px dashed var(--line); background: transparent; color: var(--text); padding: 8px 4px; font-size: 13px; font-weight: 700; display: flex; flex-direction: column; gap: 4px; align-items: center; }
+.bucket em { font-style: normal; font-weight: 500; font-size: 11px; color: var(--muted); }
+.split { display: flex; height: 26px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); margin: 8px 0; }
+.split i { display: block; height: 100%; transition: width .3s; }
+.stepper { display: grid; grid-template-columns: 1fr 48px 76px 48px; gap: 6px; align-items: center; padding: 6px 0; }
+.stepper button { min-height: 44px; border-radius: 10px; border: 1px solid var(--line); background: #14172e; color: var(--text); font-size: 20px; font-weight: 800; }
+.stepper b { text-align: center; font-variant-numeric: tabular-nums; }
+.verdict { border-color: var(--gold); } .verdict p { margin: 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <h1>Batch 3 · Which new kind of Check is fun?</h1>
+    <div class="tabs" id="tabs"></div>
+  </header>
+  <div id="view"></div>
+  <div class="panel verdict"><p><b>How to judge:</b> answer the Check in each tab once, on your phone. Which kinds would you want inside a Lesson, and which are fiddly? Reply with the letters to keep and the letters to drop.</p></div>
+</div>
+<div class="bar"><div class="in"><button class="btn alt" id="again">Try this one again</button></div></div>
+<script>
+// ---------- shared. All in memory. The one idea: 100 a month at 7% a year for 30 years.
+const FV = (m, y, r = 0.07) => m * (Math.pow(1 + r / 12, 12 * y) - 1) / (r / 12);
+const TRUE30 = FV(100, 30); // about 122,000; paid in: 36,000
+const fmt = (n) => Math.round(n).toLocaleString('en-US');
+const $ = (id) => document.getElementById(id);
+const beep = (f, d = 0.08, t = 'triangle', v = 0.05) => { try { beep.c = beep.c || new (window.AudioContext || window.webkitAudioContext)(); const c = beep.c, o = c.createOscillator(), g = c.createGain(); o.type = t; o.frequency.value = f; g.gain.value = v; g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + d); o.connect(g).connect(c.destination); o.start(); o.stop(c.currentTime + d); } catch (e) {} };
+const good = () => [659, 880].forEach((f, i) => setTimeout(() => beep(f, 0.12), i * 90));
+const bad = () => beep(150, 0.2, 'sawtooth');
+const countUp = (el, from, to, ms = 900, done) => { const t0 = performance.now(); const step = (now) => { const p = Math.min(1, (now - t0) / ms); el.textContent = fmt(from + (to - from) * p * (2 - p)); if (p < 1) requestAnimationFrame(step); else if (done) done(); }; requestAnimationFrame(step); };
+
+const VARIANTS = {
+  A: { name: 'Guess first', pitch: 'You guess before you are told. A guess costs nothing.' },
+  B: { name: 'Draw the line', pitch: 'You draw how the money grows. Then the real line draws over yours.' },
+  C: { name: 'Sort into buckets', pitch: 'Tap an item, then tap the bucket it belongs in.' },
+  D: { name: 'Tweak the inputs', pitch: 'A small live model. Then one Check you can only answer by using it.' },
+  E: { name: 'Build it, then run it', pitch: 'Split a paycheck into blocks, press Run, and watch ten years pass.' },
+  F: { name: 'Say how sure you are', pitch: 'A normal Check, and you say first whether you are sure.' },
+};
+const ITEMS = [
+  ['Index fund share', 'pays', 'It pays dividends and can grow.'], ['Credit card balance', 'costs', 'Interest goes out every month.'],
+  ['Flat you rent out', 'pays', 'Rent comes in.'], ['Car loan', 'costs', 'Interest out, and the car loses value.'],
+  ['The home you live in', 'depends', 'No rent to pay, but upkeep, tax and interest. It depends on the numbers.'], ['Cash in a drawer', 'costs', 'Inflation takes a little every year.'],
+];
+const BUCKETS = { pays: 'Pays you', costs: 'Costs you', depends: 'Depends' };
+const YEARS = [0, 5, 10, 15, 20, 25, 30];
+const fresh = (k) => ({
+  A: { guess: 60000, done: false }, B: { pts: [0, null, null, null, null, null, null], done: false },
+  C: { placed: {}, sel: null, misses: 0 }, D: { m: 100, y: 20, ans: null },
+  E: { save: 300, invest: 100, ran: false }, F: { sure: null, ans: null },
+})[k];
+const S = {}; Object.keys(VARIANTS).forEach((k) => { S[k] = fresh(k); });
+let cur = 'A';
+
+// ---------- B: the chart
+const X = (i) => 24 + i * 45.5; const Y = (v) => 188 - (v / 140000) * 176;
+const chartB = (s) => {
+  const mine = s.pts.map((v, i) => (v === null ? null : `${X(i)},${Y(v)}`)).filter(Boolean).join(' ');
+  const real = YEARS.map((y, i) => `${X(i)},${Y(FV(100, y))}`).join(' ');
+  return `<svg id="chart" viewBox="0 0 320 210" role="img" aria-label="Chart to draw on">
+    ${[0, 35000, 70000, 105000, 140000].map((v) => `<line x1="24" x2="300" y1="${Y(v)}" y2="${Y(v)}" stroke="#1c2040"/><text x="302" y="${Y(v) + 3}" fill="#8d95b5" font-size="8">${v / 1000}k</text>`).join('')}
+    ${YEARS.map((y, i) => `<line x1="${X(i)}" x2="${X(i)}" y1="12" y2="188" stroke="#1c2040" stroke-dasharray="2 4"/><text x="${X(i)}" y="204" fill="#8d95b5" font-size="9" text-anchor="middle">${y}y</text>`).join('')}
+    <polyline points="${YEARS.map((y, i) => `${X(i)},${Y(y * 1200)}`).join(' ')}" fill="none" stroke="#8d95b5" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <polyline points="${mine}" fill="none" stroke="#00f0ff" stroke-width="3" stroke-linejoin="round"/>
+    ${s.pts.map((v, i) => (v === null ? `<circle cx="${X(i)}" cy="100" r="5" fill="none" stroke="#2b3157"/>` : `<circle cx="${X(i)}" cy="${Y(v)}" r="6" fill="#00f0ff"/>`)).join('')}
+    ${s.done ? `<polyline id="real" points="${real}" fill="none" stroke="#ffc928" stroke-width="3" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="1.4s" fill="freeze"/></polyline>` : ''}
+  </svg>`;
+};
+// ---------- D: the live model
+const modelD = (s) => {
+  const end = FV(s.m, s.y); const paid = s.m * 12 * s.y; const pts = [];
+  for (let i = 0; i <= 20; i++) { const y = (s.y * i) / 20; pts.push(`${10 + i * 15},${96 - (FV(s.m, y) / end) * 86}`); }
+  return `<div class="big">${fmt(end)}</div><p class="small" style="margin:0">after ${s.y} years of ${s.m} a month, at 7% a year</p>
+    <svg viewBox="0 0 320 100" style="touch-action:auto"><polyline points="${pts.join(' ')}" fill="none" stroke="#00f0ff" stroke-width="3"/><line x1="10" x2="310" y1="${96 - (paid / end) * 86}" y2="${96 - (paid / end) * 86}" stroke="#8d95b5" stroke-dasharray="4 4"/></svg>
+    <div class="split"><i style="width:${(paid / end) * 100}%;background:#8d95b5"></i><i style="width:${100 - (paid / end) * 100}%;background:var(--gold)"></i></div>
+    <p class="small" style="margin:0"><b style="color:var(--text)">${fmt(paid)}</b> you paid in · <b style="color:var(--gold)">${fmt(end - paid)}</b> growth</p>`;
+};
+
+// ---------- the six screens
+const SCREEN = {
+  A(s) {
+    return `<div class="panel"><h2>Check</h2><p class="q">You put in 100 a month for 30 years, at 7% a year. How much do you end with?</p>
+      <div class="two"><div><div class="small">Your guess</div><div class="v" id="gv">${fmt(s.guess)}</div></div><div><div class="small">Real</div><div class="v" id="rv" style="color:var(--gold)">${s.done ? fmt(TRUE30) : '?'}</div></div></div>
+      <input type="range" id="guess" min="36000" max="300000" step="2000" value="${s.guess}" ${s.done ? 'disabled' : ''} aria-label="Your guess">
+      <p class="small" style="margin:0 0 10px">You pay in 36,000 yourself. The slider starts there.</p>
+      <button class="btn" data-reveal ${s.done ? 'disabled' : ''}>Lock my guess</button><p class="fb" id="fb">${s.done ? fbA(s) : ''}</p></div>`;
+  },
+  B(s) {
+    const ready = s.pts.every((v) => v !== null);
+    return `<div class="panel"><h2>Check</h2><p class="q">100 a month at 7% a year. Draw how the total grows over 30 years.</p>
+      <p class="small" style="margin:0 0 6px">Tap or drag on each dotted line. The grey line is what you paid in.</p>${chartB(s)}
+      <button class="btn" data-reveal style="margin-top:10px" ${ready && !s.done ? '' : 'disabled'}>${ready ? 'Show the real line' : 'Set all six points'}</button>
+      <p class="fb">${s.done ? `You drew <b>${fmt(s.pts[6])}</b> at year 30. Real: <b style="color:var(--gold)">${fmt(TRUE30)}</b>. Most of the climb comes in the last ten years: the line bends up.` : ''}</p></div>`;
+  },
+  C(s) {
+    const left = ITEMS.filter((it) => !s.placed[it[0]]); const done = !left.length;
+    return `<div class="panel"><h2>Check</h2><p class="q">Does it pay you or cost you?</p>
+      <div class="chips">${left.map((it) => `<button class="chipb ${s.sel === it[0] ? 'sel' : ''}" data-item="${it[0]}">${it[0]}</button>`).join('') || `<span class="small pop">All six sorted${s.misses ? `, ${s.misses} missed on the way.` : ', none missed.'}</span>`}</div>
+      <div class="row3">${Object.keys(BUCKETS).map((b) => `<button class="bucket" data-bucket="${b}" ${done ? 'disabled' : ''}>${BUCKETS[b]}${ITEMS.filter((it) => s.placed[it[0]] && it[1] === b).map((it) => `<em>${it[0]}</em>`).join('')}</button>`).join('')}</div>
+      <p class="fb" id="fb">${s.note || (done ? '' : 'Tap an item first.')}</p></div>`;
+  },
+  D(s) {
+    const pick = (v, label) => `<button class="btn alt ${s.ans === null ? '' : v === 'years' ? 'right' : s.ans === v ? 'wrong' : ''}" data-d="${v}" ${s.ans === null ? '' : 'disabled'}>${label}</button>`;
+    return `<div class="panel"><h2>Model</h2><div id="model">${modelD(s)}</div>
+      <label class="small" for="dm">A month: <b id="dmv" style="color:var(--text)">${s.m}</b></label><input type="range" id="dm" min="50" max="400" step="50" value="${s.m}">
+      <label class="small" for="dy">Years: <b id="dyv" style="color:var(--text)">${s.y}</b></label><input type="range" id="dy" min="5" max="40" step="5" value="${s.y}"></div>
+      <div class="panel"><h2>Check</h2><p class="q">Start from 100 a month for 20 years. Which change gives you more at the end?</p>
+      <div class="stack">${pick('amount', 'Twice the amount: 200 a month')}${pick('years', 'Twice the time: 40 years')}</div>
+      <p class="fb">${s.ans === null ? 'Use the sliders to find out.' : `${s.ans === 'years' ? 'Right.' : 'Not quite.'} Twice the amount gives ${fmt(FV(200, 20))}. Twice the time gives ${fmt(FV(100, 40))}.`}</p></div>`;
+  },
+  E(s) {
+    const spend = 2000 - s.save - s.invest;
+    const step = (k, label, col) => `<div class="stepper"><span><b style="color:${col}">■</b> ${label}</span><button data-step="${k}:-100" aria-label="less ${label}">−</button><b>${s[k]}</b><button data-step="${k}:100" aria-label="more ${label}">+</button></div>`;
+    return `<div class="panel"><h2>Build · a paycheck of 2,000</h2>
+      <div class="split"><i style="width:${spend / 20}%;background:#8d95b5"></i><i style="width:${s.save / 20}%;background:var(--accent)"></i><i style="width:${s.invest / 20}%;background:var(--gold)"></i></div>
+      <div class="stepper"><span><b style="color:#8d95b5">■</b> Spend</span><span></span><b>${spend}</b><span></span></div>
+      ${step('save', 'Cash 0%', 'var(--accent)')}${step('invest', 'Invest 7%', 'var(--gold)')}
+      <p class="small" style="margin:4px 0 10px">You need at least 1,000 a month to live.</p><button class="btn" data-run>Run ten years</button></div>
+      <div class="panel"><h2>Result · year <span id="yr">${s.ran ? 10 : 0}</span></h2><div class="two"><div><div class="small">Cash</div><div class="v" id="ec">${s.ran ? fmt(s.save * 120) : 0}</div></div><div><div class="small">Invested</div><div class="v" id="ei" style="color:var(--gold)">${s.ran ? fmt(FV(s.invest, 10)) : 0}</div></div></div>
+      <p class="fb" id="fb">${s.ran ? fbE(s) : 'Press Run.'}</p></div>`;
+  },
+  F(s) {
+    const opts = [[36000, '36,000'], [61000, '61,000'], [122000, '122,000']];
+    return `<div class="panel"><h2>Check</h2><p class="q">100 a month for 30 years at 7% a year ends near 122,000. How much of that did you pay in yourself?</p>
+      <div class="row" style="margin-bottom:10px"><button class="btn alt ${s.sure === true ? 'on' : ''}" data-sure="1" ${s.ans === null ? '' : 'disabled'}>I am sure</button><button class="btn alt ${s.sure === false ? 'on' : ''}" data-sure="0" ${s.ans === null ? '' : 'disabled'}>Not sure</button></div>
+      <div class="stack">${opts.map(([v, l]) => `<button class="btn alt ${s.ans === null ? '' : v === 36000 ? 'right' : s.ans === v ? 'wrong' : ''}" data-f="${v}" ${s.sure === null || s.ans !== null ? 'disabled' : ''}>${l}</button>`).join('')}</div>
+      <p class="fb">${s.ans === null ? (s.sure === null ? 'First say how sure you are.' : '') : fbF(s)}</p></div>`;
+  },
+};
+const fbA = (s) => { const gap = Math.abs(s.guess - TRUE30); const pct = Math.round((gap / TRUE30) * 100); return `${pct <= 10 ? 'Very close.' : s.guess < TRUE30 ? 'Most people guess low, as you did.' : 'You guessed high. Most people guess low.'} Off by ${fmt(gap)} (${pct}%). Of the real total, ${fmt(TRUE30 - 36000)} is growth.`; };
+const fbE = (s) => { const g = FV(s.invest, 10) - s.invest * 120; return s.invest ? `Total ${fmt(s.save * 120 + FV(s.invest, 10))}. <b style="color:var(--gold)">${fmt(g)}</b> of it is growth you did not work for. Move 100 from cash to invest and run again.` : `Total ${fmt(s.save * 120)}. None of it grew. Put something into invest and run again.`; };
+const fbF = (s) => { const ok = s.ans === 36000; const tail = ' 100 × 12 × 30 = 36,000. The other 86,000 is growth.'; return (s.sure ? (ok ? 'Sure and right: +2 Coins bonus.' : 'Sure and wrong: nothing lost. This Card comes back sooner, because a sure mistake is the one worth fixing.') : (ok ? 'Right, and you were not sure. This Card comes back once more to make it stick.' : 'Wrong, and you knew you were not sure. That is good judgement.')) + tail; };
+
+function draw() {
+  const v = VARIANTS[cur];
+  $('tabs').innerHTML = Object.keys(VARIANTS).map((k) => `<button data-tab="${k}" aria-pressed="${k === cur}">${k}</button>`).join('');
+  $('view').innerHTML = `<p class="name">${cur}. ${v.name}</p><p class="pitch">${v.pitch}</p>${SCREEN[cur](S[cur])}`;
+  S[cur].note = '';
+}
+// B: drag on the chart
+function point(e) {
+  const s = S.B; const svg = e.target.closest && e.target.closest('#chart'); if (cur !== 'B' || s.done || !svg) return false;
+  const r = svg.getBoundingClientRect(); const x = ((e.clientX - r.left) / r.width) * 320; const y = ((e.clientY - r.top) / r.height) * 210;
+  const i = Math.max(1, Math.min(6, Math.round((x - 24) / 45.5))); const val = Math.max(0, Math.min(140000, ((188 - y) / 176) * 140000));
+  s.pts[i] = Math.round(val / 1000) * 1000; return true;
+}
+let drawing = false;
+document.addEventListener('pointerdown', (e) => { if (point(e)) { drawing = true; e.preventDefault(); draw(); } });
+document.addEventListener('pointermove', (e) => { if (drawing && point(e)) draw(); });
+document.addEventListener('pointerup', () => { if (drawing) { drawing = false; beep(520, 0.04); } });
+document.addEventListener('input', (e) => {
+  if (e.target.id === 'guess') { S.A.guess = +e.target.value; $('gv').textContent = fmt(S.A.guess); }
+  if (e.target.id === 'dm' || e.target.id === 'dy') { S.D.m = +$('dm').value; S.D.y = +$('dy').value; $('dmv').textContent = S.D.m; $('dyv').textContent = S.D.y; $('model').innerHTML = modelD(S.D); }
+});
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('button'); if (!el) return; const s = S[cur];
+  if (el.dataset.tab) { cur = el.dataset.tab; draw(); scrollTo(0, 0); return; }
+  if (el.id === 'again') { S[cur] = fresh(cur); draw(); return; }
+  if (el.dataset.reveal !== undefined && cur === 'A') { s.done = true; draw(); $('fb').textContent = ''; for (let i = 0; i < 9; i++) setTimeout(() => beep(500 + i * 70, 0.05), i * 100); countUp($('rv'), 0, TRUE30, 1000, () => { $('fb').textContent = fbA(s); good(); }); return; }
+  if (el.dataset.reveal !== undefined && cur === 'B') { s.done = true; draw(); for (let i = 0; i < 7; i++) setTimeout(() => beep(400 + i * i * 22, 0.08), i * 190); return; }
+  if (el.dataset.item) { s.sel = s.sel === el.dataset.item ? null : el.dataset.item; beep(600, 0.04); draw(); return; }
+  if (el.dataset.bucket) {
+    if (!s.sel) { s.note = 'Tap an item first.'; draw(); return; }
+    const it = ITEMS.find((x) => x[0] === s.sel);
+    if (it[1] === el.dataset.bucket) { s.placed[it[0]] = true; s.note = `<span style="color:var(--ok)">Right.</span> ${it[2]}`; s.sel = null; good(); draw(); }
+    else { s.misses += 1; s.note = `<span style="color:var(--bad)">Not there.</span> Try another bucket.`; bad(); draw(); document.querySelector(`[data-bucket="${el.dataset.bucket}"]`).classList.add('shake'); }
+    return;
+  }
+  if (el.dataset.d) { s.ans = el.dataset.d; (s.ans === 'years' ? good : bad)(); draw(); return; }
+  if (el.dataset.step) { const [k, d] = el.dataset.step.split(':'); const next = s[k] + +d; const other = k === 'save' ? s.invest : s.save; if (next >= 0 && next + other <= 1000) { s[k] = next; s.ran = false; beep(d > 0 ? 620 : 420, 0.04); draw(); } else bad(); return; }
+  if (el.dataset.run !== undefined) {
+    s.ran = true; draw(); $('fb').textContent = ''; const t0 = performance.now();
+    const tick = (now) => { const p = Math.min(1, (now - t0) / 2200); const y = p * 10; $('yr').textContent = Math.floor(y); $('ec').textContent = fmt(s.save * 12 * y); $('ei').textContent = fmt(FV(s.invest, y)); if (p < 1) requestAnimationFrame(tick); else { $('fb').innerHTML = fbE(s); good(); } };
+    for (let i = 0; i < 10; i++) setTimeout(() => beep(440 + i * 40, 0.05), i * 220); requestAnimationFrame(tick); return;
+  }
+  if (el.dataset.sure) { s.sure = el.dataset.sure === '1'; beep(560, 0.04); draw(); return; }
+  if (el.dataset.f) { s.ans = +el.dataset.f; (s.ans === 36000 ? good : bad)(); draw(); }
+});
+draw();
+</script>
+</body>
+</html>
